@@ -1,0 +1,392 @@
+N
+
+news
+
+Science | DOI:10.1145/3542815
+
+Marina Krakovsky
+
+Formalizing Fairness
+Algorithmic fairness aims to remedy issues
+stemming from algorithmic bias.
+
+IMAGE BY INIM ALGRA PHIC
+
+A
+
+S M ACH I N E LE ARN I N G has
+
+made its way into more
+and more areas of our
+lives, concerns about algorithmic bias have escalated. Machine learning models, which
+today facilitate decisions about everything from hiring and lending to medical diagnosis and criminal sentencing, may appear to be data-driven and
+impartial, at least to naïve users—but
+the typically opaque models are only as
+good the data they are trained on, and
+only as ethical as the value judgments
+embedded in the algorithms.
+The burgeoning field of algorithmic fairness, part of the much broader
+field of responsible computing, is aiming to remedy the situation. For several years now, along with philosophers,
+legal scholars, and experts in other
+fields, computer scientists have been
+tackling the issue. As Stanford University computer science professor Omer
+Reingold likes to put it, “We are part of
+the problem, and we should be part of
+the solution.”
+Since last year, Reingold has been
+part of a group of theoretical computer
+scientists working together through
+the Simons Collaboration on the Theory of Algorithmic Fairness, funded by
+the Simons Foundation. Made up of 13
+principal investigators, the collaboration is aiming to create a language with
+
+which to discuss fairness—“a rigorous
+language that could translate to actual
+algorithms,” says Reingold, who directs the collaboration.
+The Many Meanings of Fairness
+The basic building blocks of such a
+language, just as with a mathematical
+language for cryptography or privacy,
+are formal definitions. “When we send
+a message from one person to another
+with encryption, we want it to stay se-
+
+cret—but ‘secret’ is English,” Reingold explains. “What cryptography
+has found is that this could translate
+to many, many formal definitions that
+would mean different things.”
+Although the theory of algorithmic
+fairness is still in its infancy, with more
+questions than answers, one thing is
+abundantly clear already: like the idea
+of secrecy in cryptography, the English
+word “fairness” will need a multitude
+of definitions. No single definition can
+
+AU G U ST 2 0 2 2 | VO L. 6 5 | N O. 8 | C OM M U N IC AT ION S OF T HE ACM
+
+11
+
+news
+possibly capture most of what different people mean by that complex and
+lofty concept. In fact, one collaboration member, Aaron Roth, a computer
+science professor at the University of
+Pennsylvania, expresses unease about
+even using “fairness,” a term referring
+broadly to the distribution of outcomes
+in the real world, when discussing
+narrowly scoped measures of disparity within an algorithm. “I think as the
+field matures, we will start talking less
+about ‘fairness’ writ large—a word that
+it’s not clear what it means—and we
+will start talking more precisely about
+different kinds of technical disparities that we can talk about methods for
+eliminating.”
+Part of what makes fairness such a
+slippery concept is that it is contextdependent: it can be reasonable to
+discriminate in one setting and not
+in another. As collaboration member
+Cynthia Dwork, Gordon McKay Professor of Computer Science at Harvard
+University, once put it, “discriminating
+in advertising for hair products makes
+perfect sense in a way that discriminating in advertising for financial products is completely illegal.”
+Also, fairness is typically meaningful only in a relative sense. “Treatment of a particular person or group
+can sometimes only be judged to be
+unfair when compared with the treatment of other individuals or groups,”
+says Katrina Ligett, another collaboration member, a professor of computer
+science at Israel’s Hebrew University
+of Jerusalem, and head of the university’s program on the Internet and
+Society. In these relative notions of
+fairness, Ligett explains in game-theoretic terms, “The utility of player A depends not just on player A’s treatment,
+but also on B’s; and B’s utility in turn
+depends on how player A is treated.”
+That makes fairness different from,
+say, privacy, which can be rigorously
+defined in an absolute sense. As Ligett
+puts it, “It is well-defined to talk about
+how much privacy A is getting without
+needing to understand how B’s data is
+being treated.”
+Clear definitions are not the entirety
+of a theory of algorithmic fairness—but
+they are absolutely essential. For one
+thing, without agreed-upon definitions,
+people who design software can make
+vague, baseless claims about their sys12
+
+Like the idea
+of secrecy in
+cryptography,
+the English word
+“fairness” will
+need a multitude of
+definitions.
+
+tems. What does it mean to say that a
+system is secure, or that it is private,
+or that it is fair? “Without a concrete
+definition we see that it doesn’t mean a
+lot,” Reingold says. Once you have a set
+of definitions, however, you can prove
+whether a particular algorithm satisfies
+a particular definition. Also, you can try
+to translate each formal definition into
+plain English so a system’s users and
+policy makers can understand and debate it. These steps may have their own
+challenges, “But my feeling,” Reingold
+says, “is that if you don’t have definitions, you don’t have anything.”
+For these definitions to be useful in
+the real world, not just mathematically
+appealing, they must capture important aspects of fairness as conceived
+of by experts in fields such as ethics,
+philosophy, and the law. To that end,
+Ligett has been collaborating with legal
+scholars. She notes that these conversations are not simple to have. “Your
+typical law scholar doesn’t have her
+own mathematical definition of fairness that we can line up and compare
+with a computer scientist’s notion.”
+A theory of algorithmic fairness will
+also need a taxonomy that is “more
+than just a giant collection of unrelated
+definitions,” says Roth. The field has
+the start of such a taxonomy already,
+as when fairness researchers speak of
+“families” of definitions. One major
+family is group fairness, in which statistical measures of the algorithm, such
+as false positive rates or false negative
+rates, are equalized across populations.
+A simple example of group fairness is
+when the acceptance rate into a university is the same for all races of applicants.
+Another family, individual fairness, aims
+
+COMM UNICATIO NS O F THE AC M | AU GU ST 2022 | VO L . 65 | NO. 8
+
+for fairness guarantees to apply to individuals rather than to groups, such as
+when the admissions process treats two
+similar individuals similarly. Recognizing the strengths and weaknesses of
+each of those approaches to fairness,
+several researchers, including Reingold
+and Roth, came up with a third family of
+notions, multigroup fairness, that tries to
+attain the best of both worlds.
+A taxonomy helps suggest which
+kind of definition might be most appropriate for a given application, explains Roth, offering an example from
+credit-card lending. If a machinelearning system is used to determine
+whether to increase a borrower’s credit
+limit, instead of just aiding a downstream decision-maker, then it might
+be sensible to focus on fairness definitions aimed at preventing harms (such
+as rejecting creditworthy borrowers)
+from disproportionately falling on one
+population over another.
+The Limits of the Possible
+With definitions in place, computer
+scientists can determine what is possible under given definitions. Knowing
+that is critical for enabling policy makers to make trade-offs according to
+the policy makers’ values, such as the
+trade-off between fairness to groups
+or individuals on the one hand and, on
+the other, predictive accuracy for the
+population as a whole.
+Emma Pierson, a computer science
+professor at Jacobs Technion-Cornell
+Institute at Cornell Tech and Israel’s
+Technion who has studied both the
+theoretical and applied sides of algorithmic fairness, illustrates this fairness-accuracy trade-off with a stylized
+example. A healthcare provider might
+face a choice between two algorithms:
+one algorithm that is 40% accurate on
+both Black and White patients (fair in
+that there’s no disparity in accuracy
+between the two groups) and an algorithm that is 80% accurate on White
+patients and 60% accuracy on Black
+patients. Which algorithm to choose
+calls for a value judgment, Pierson
+said, “But it’s clear that if you define
+fairness as the difference in accuracy
+across groups, one of these is better at
+fairness, and one of these is better at
+overall accuracy.” Some algorithms are
+closer to the Pareto frontier than others—that is, better at both goals—but
+
+news
+no algorithm can escape the frontier.
+The choice of algorithm also can entail a trade-off among different definitions of fairness, as became clear after
+computer scientists dug into a dataset
+tied to the COMPAS algorithm, which
+courts use to inform decisions about
+which defendants to release before
+trial. COMPAS attracted scientists’ interest after a 2016 journalistic investigation, published by ProPublica, concluded from its dive into the data that
+COMPAS was biased against Black
+defendants; ProPublica’s evidence was
+that in assigning risk scores, COMPAS produced much higher false-positive rates for Blacks than for Whites,
+meaning that for defendants who did
+not go on to reoffend, Blacks got classified as likely reoffenders much more
+often than Whites did. Yet, oddly
+enough, as computer scientists studying the same data later found, COMPAS satisfied a different definition of
+fairness: equal calibration for the two
+populations, meaning that any given
+COMPAS risk score means the same
+thing for Black defendants that it does
+for White defendants—so, for example, a score of 7 translates to the same
+percentage of defendants reoffending
+regardless of their race. What’s more,
+the scientists proved that under most
+real-world conditions, it is impossible
+to simultaneously satisfy both of these
+definitions of fairness.
+It is important to keep in mind that
+such impossibility results are not statements about computer algorithms,
+points out Pierson, who is not part
+of the Simons collaboration. Certain
+combinations of desired outcomes
+are unattainable by anyone who has to
+make decisions, be they human or machine. “We should be careful: which of
+the things we’re criticizing apply to algorithms specifically, and are uniquely
+bad with algorithms, as opposed to all
+decision makers?” Rather than comparing an algorithm to an impossible
+ideal, we must consider how good the
+decisions would be if a human were
+making them, says Pierson. Since humans are notoriously flawed decisionmakers, algorithms can often do at
+least as well.
+Of course, they can and should
+do better. The people who design algorithms can be much more aware
+of fairness considerations than they
+
+are now—and defining what fairness
+means is a crucial step in that direction. Algorithmic fairness is a messier,
+more scattered theoretical field than
+other computer scientists have studied, says Ligett. “But this mess,” she
+adds, “is quite attractive to those who
+enjoy using the tools of mathematics to
+try to impose order on things.”
+Further Reading
+Chouldecheva, A. and Roth, A.
+A snapshot of the frontiers of fairness in
+machine learning, Communications,
+Volume 63, Issue 5, May 2020, pp 82–89
+https://doi.org/10.1145/3376898
+Dwork, C., Hardt, M., Pitassi, T.,
+Ringold, O., and Zemel, R.
+Fairness Through Awareness, ITCS ‘12:
+Proceedings of the 3rd Innovations in
+Theoretical Computer Science Conference,
+January 2012, Pages 214–226 https://doi.
+org/10.1145/2090236.2090255
+Corbett-Davies, S., Pierson, E.,
+Feller, A., Goel, S., and Huq, A.
+Algorithmic decision making and the cost
+of fairness, KDD ‘17: Proceedings of the 23rd
+ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining,
+August 2017, Pages 797–806
+https://doi.org/10.1145/3097983.3098095
+Kleinberg, J., Mullainathan, S.,
+and Raghavan, M.
+Inherent Trade-Offs in the Fair
+Determination of Risk Scores
+arXiv:1609.05807 [cs.LG], Thu, 17 Nov 2016
+https://arxiv.org/abs/1609.05807v2
+Chouldechova, A.
+Fair prediction with disparate impact:
+A study of bias in recidivism prediction
+instruments arXiv:1703.00056, 28 Feb 2017
+https://arxiv.org/pdf/1610.07524.pdf
+Kearns, M.K., Neel, S., Roth, A., and Wu, Z.S.
+Preventing Fairness Gerrymandering:
+Auditing and Learning for Subgroup
+Fairness, Proceedings of the 35th
+International Conference on Machine
+Learning, PMLR 80:2564-2572, 2018
+https://proceedings.mlr.press/v80/
+kearns18a.html
+Hébert-Johnson, U., Kim, M.,
+Reingold, O., and Rothblum, G.N.
+Multicalibration: Calibration for the
+(Computationally-Identifiable) Masses,
+Proceedings of the 35th International
+Conference on Machine Learning, PMLR
+80:1939-1948, 2018
+https://proceedings.mlr.press/v80/hebertjohnson18a.html
+Based in the San Francisco Bay Area, Marina Krakovsky
+is the author of The Middleman Economy: How Brokers,
+Agents, Dealers, and Everyday Matchmakers Create
+Value and Profit (Palgrave Macmillan).
+
+© 2022 ACM 0001-0782/22/8 $15.00
+
+ACM
+Member
+News
+COMBINING SOFTWARE,
+AI, ROBOTICS,
+AND AUTOMATION
+“When I was in
+high school, I
+went to a
+summer
+program at
+Stanford
+University and I
+snuck into a computer science
+course my brother was taking
+there,” recalls Matthew T.
+Mason, professor emeritus in
+computer science and robotics
+at Carnegie Mellon University in
+Pittsburgh, PA. “When the
+instructor caught me, he
+encouraged me instead of
+throwing me out,” says Mason.
+“I just fell in love with
+programming.”
+Mason went on to earn his
+bachelor’s degree in computer
+science, and his master’s and
+doctorate degrees in artificial
+intelligence, all from the
+Massachusetts Institute of
+Technology.
+On receiving his Ph.D.,
+Mason joined the faculty at
+Carnegie Mellon, where he
+remained for several decades.
+Mason’s research has focused
+on how to make robots as good
+with their hands as humans are.
+“The most interesting thing
+in my professional life now is
+Berkshire Grey,” an intelligent
+enterprise robotics company that
+builds warehouse automation
+systems, says Mason. He joined
+the company six years ago, and
+serves as its chief scientist. “I was
+the third or fourth employee at
+the company, depending on how
+you count,” he notes.
+Mason foresees a revolution
+in warehouses related to
+e-commerce, where conveyors
+had been used to move bins,
+pallets, or cases. “Now, the
+machinery has to handle
+many thousands of different
+items, and the robots don’t
+know in advance what they
+are,” he says. Today, robots
+are being developed for the
+warehouse environment
+using a combination of
+machine learning, artificial
+intelligence, software
+development, and mechanical
+design. “The complexity on
+the computational side is
+incredible,” says Mason.
+—John Delaney
+
+AU G U ST 2 0 2 2 | VO L. 6 5 | N O. 8 | C OM M U N IC AT ION S OF T HE ACM
+
+13
+
+

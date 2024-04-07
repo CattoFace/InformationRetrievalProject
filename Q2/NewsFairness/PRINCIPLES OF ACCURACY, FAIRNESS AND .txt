@@ -1,0 +1,876 @@
+CONVERGENCE
+
+PRINCIPLES OF ACCURACY, FAIRNESS AND
+PRIVACY UNDER A NEW CODE
+Mark Briedis
+Communications Law Centre, UTS
+William Renton
+Communications Law Centre, UTS
+
+Recent reports into regulation of the media recommend the creation of a ‘news standards body’ to
+oversee news providers and to create a new code. The new code should be founded on the public
+interest. It is an opportunity to recognize and entrench the legitimate interests of those affected by
+the presentation of news material. The fairness of news information should be based on the
+accuracy of the implied facts of news material. News providers will have freedom of speech in
+presenting opinion, but will be discouraged from presenting inaccurate material. With respect to
+privacy, the new code should strike a proper balance between the public interest in receiving
+information and the rights of the individual. The test for privacy invasion should be based upon
+the reasonable expectation of privacy.
+
+INTRODUCTION
+In February 2012, the Report of the Independent Inquiry into the Media and Media Regulation
+(‘Finkelstein report’) was presented to Government, followed a month later by the Convergence
+Review: Final Report (‘Convergence report’). Both reports recommend that a single body should
+be responsible for the regulation of news and current affairs material on all platforms.
+The Finkelstein report recommends that such a body should be an independent, Governmentfunded, statutory body, responsible for the creation of standards and with the authority to impose
+non-financial sanctions (such as the requirement to print adjudications and corrections).
+The Convergence report recommends legislation requiring news providers that qualify as
+‘content services enterprises’ to become members of a ‘news standards body’ that is adequately
+funded by industry, has a board with a majority of independent directors, and has the authority to
+refer non-compliant members to the new communications regulator (as outlined by the
+Convergence report) (CR 2012: 51). The body would have ‘the power to order members to
+prominently and appropriately publish its findings’ (CR 2012: 51). This power would derive
+from contractual arrangements with members. The report also recommends that the ‘news
+standard body’ should be responsible for:
+The establishment of standards for the production of news and commentary, including
+specific requirements for fairness and accuracy…
+Therefore, whatever approach Government decides to adopt, the new body is likely to play a key
+role in establishing the fundamental principles for the professional conduct of news providers.
+This article provides a brief analysis of the existing codes and regulatory systems, and puts
+forward the recommendations of the Communications Law Centre (CLC) with respect to a new
+code, focusing on the principles of accuracy, fairness and privacy.
+
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.1
+______
+
+TWO REGULATORY SYSTEMS
+The Australian Communications and Media Authority (ACMA) is currently responsible for
+regulatory oversight of broadcasting content, including news and current affairs material.
+Broadcasting codes are developed by industry in consultation with the ACMA, in line with
+public interest objects in Section 3 of the Broadcasting Services Act 1992:
+(g) to encourage providers of commercial and community broadcasting services to be
+responsive to the need for a fair and accurate coverage of matters of public interest and
+for an appropriate coverage of matters of local significance; and
+(h) to encourage providers of broadcasting services to respect community standards in
+the provision of program material.
+The ACMA has enforcement powers with respect to these codes. The press, on the other hand, is
+subject to industry self-regulation. The Australian Press Council (APC), an incorporated
+association funded by its members, creates standards that are applied in considering complaints
+about member publications. The role of the APC is outlined in its Constitution:
+(1) The objects of the association are to promote freedom of speech through responsible
+and independent print media, and adherence to high journalistic and editorial standards,
+by
+(a) considering and dealing with complaints and concerns about material in
+newspapers, magazines, journals and other print media;
+(b) encouraging and supporting initiatives by the print media to address causes
+for readers’ complaints and concerns.
+The APC, as a body independent of government, has no direct responsibility to any party other
+than its own members, whose interests it represents by encouraging high standards of
+professional conduct.
+The new ‘combined’ body, while also independent of government, is likely to have certain
+functions defined by statute – for example, those recommended by the Convergence Review
+Committee with respect to remedies and sanctions. In addition, the prescribed basis of the news
+standards body should be closely considered and include a requirement to develop codes and
+regulate news material in the public interest.
+
+WHAT ARE THE PRINCIPLES?
+The existing codes express similar requirements, such as the need for fairness and accuracy, and
+the need to respect privacy. While these requirements are expressed as ‘principles’, they do not
+have their origins in common law or statute. Further, no system of precedent attaches to the
+codes to allow for the development of principle over time.
+While this poses a challenge, it also creates an opportunity to design a code that operates clearly
+in the public interest, and that recognizes the legitimate interests of parties affected by the
+presentation of news material. Table 1 outlines some of those interests and related concerns.
+
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.2
+_____
+
+The public
+
+Legitimate interests
+Integrity of public debate and
+functioning of democracy
+
+Individuals
+
+Reputation and privacy
+
+Businesses
+
+Reputation and need for
+accurate commercial
+information
+
+Groups
+
+Reputation
+
+Background
+Opinion may be freely expressed. However, inaccurate
+speech is circumscribed by different laws and the
+principles that apply to broadcasters and the press.
+· Defamation law provides a remedy for individuals
+prepared to risk legal proceedings.
+· Article 12 of the Universal Declaration of Human
+Rights protects both privacy and reputation.
+· Privacy receives piecemeal protection via a number of
+separate torts and the Privacy Act 1988 (Cth)(which
+relates to information privacy).
+· Information providers (including media organisations)
+enjoy a safe harbour from the application of trade
+practices law.
+· There is a public benefit in the provision of accurate
+information about businesses.
+· Racial groups are protected by the Racial
+Discrimination Act 1975 (Cth) and State and Territory
+anti-discrimination laws.
+· Any individual who identifies themselves as belonging
+to a group has an interest in that group being correctly
+portrayed.
+· Accurate information about groups benefits social
+cohesion and tolerance.
+
+Table 1 - Parties with an interest in the regulation of news material.
+
+PRINCIPLES OF ACCURACY AND FAIRNESS
+The connection between accuracy and fairness is reflected in a number of the codes, but
+nowhere are the terms defined. Some codes, such as the UK’s Editors’ Code of Practice (UK
+code) (Beales 2012) and the Commercial Radio Codes of Practice (commercial radio code)
+(Commercial Radio Australia 2011) refer only to accuracy and not to fairness.
+The Oxford English Dictionary provides the following definitions of ‘accurate’:
+1. correct in all details; exact. accurate information about the illness is essential to an
+accurate assessment;
+2. providing a faithful representation of someone or something: the portrait is an accurate
+likeness of Mozart.
+These definitions emphasise different things: detail and the overall picture. This difference in
+emphasis is apparent in the existing codes that apply to news providers
+Australian Press Council
+principles
+· Publications should take
+reasonable steps to ensure
+reports are accurate, fair and
+balanced. They should not
+deliberately mislead or
+misinform readers either by
+omission or commission.
+(General Principle1)
+· News and comment should
+be presented honestly and
+fairly, and with respect for the
+
+Editors’ Code of Practice 2012
+(UK)
+· The Press must take care not to
+publish inaccurate, misleading or
+distorted information, including
+pictures. (Clause 1)
+· The Press, whilst free to be
+partisan, must distinguish clearly
+between comment, conjecture
+and fact. (Clause 1.3)
+
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+Media Alliance Code of Ethics
+· Report and interpret honestly,
+striving for accuracy, fairness
+and disclosure of all essential
+facts. Do not suppress relevant
+available fact, or give distorting
+emphasis. Do your utmost to give
+a fair opportunity of reply.
+(Clause 1)
+
+42.3
+______
+
+privacy and sensibility of
+individuals. (General Principle
+4)
+Herald and Weekly Times
+Editorial Code of Conduct
+· Facts must be reported
+impartially, accurately and
+with integrity.
+· Try to always tell all sides of
+the story in any dispute.
+· Do not knowingly withhold
+or suppress essential facts.
+· Journalists should not rely on
+only one source. Be careful
+not to recycle an error from
+one reference source to
+another. Check and check
+again. (Clause 1)
+
+2010 Commercial Television
+Industry Code of Practice
+· [L]icensees: must broadcast
+factual material accurately and
+represent viewpoints fairly,
+having regard to the
+circumstances at the time of
+preparing and broadcasting the
+program;
+· An assessment of whether the
+factual material is accurate is to
+be determined in the context of
+the segment in its entirety.
+(Clause 4.3.1)
+· In broadcasting news programs
+(including news flashes)
+licensees: must present news
+fairly and impartially. (Clause
+4.4.1)
+
+Commercial Radio Codes of
+Practice (2011)
+· In the preparation and
+presentation of current affairs
+programs, a licensee must use
+reasonable efforts to ensure that:
+Factual material is reasonable
+supportable as being accurate.
+(Clause 2.1)
+· In the preparation and
+presentation of current affairs
+programs a licensee must ensure
+that… Reasonable efforts are
+made or reasonable opportunities
+are given to present significant
+viewpoints when dealing with
+controversial issues of public
+importance, either within the
+same program or similar
+programs, while the issue has
+immediate relevance to the
+community. (Clause 2.3)
+
+Table 2 - Accuracy and fairness in the existing codes.
+
+ACCURACY
+The codes in Table 2 express the need for accuracy in different ways. The codes for the Herald
+and Weekly Times (HWT), the UK, commercial television and commercial radio refer to the
+accuracy of facts, factual material and information – emphasising exactness of detail. On the
+other hand, the APC requires publications to ensure reports are accurate, and the Media
+Entertainment and Arts Alliance (MEAA) requires journalist members to [r]eport and interpret
+honestly, striving for accuracy – emphasising accuracy as ‘faithful representation’.
+
+FAIRNESS
+The APC and the MEAA connect the words accuracy and fairness in their codes, suggesting that
+the two ideas form the same principle. The HWT code meanwhile states that facts must be
+reported with integrity. The codes for commercial television and commercial radio with respect
+to current affairs programs do not refer to fairness, but to viewpoints. The commercial television
+code requires licensees to represent viewpoints fairly, whereas the commercial radio code has a
+requirement that reasonable opportunities are given to present significant viewpoints when
+dealing with controversial issues of public importance – a provision intended to achieve balance.
+The HWT code and the commercial television code also refer to impartiality. On commercial
+television, the need for impartiality refers to the presentation of news on news programs and in
+news flashes, whereas the HWT code relates impartiality to the reporting of fact. However,
+opinion and analysis, integral features of news reporting, are inherently partial, and so it is
+difficult to interpret the need for impartiality beyond a need for accuracy.
+The same problem exists with the use of the word fair in the APC code, which states that
+publications are to ensure that reports are accurate, fair and balanced. This does not seem to
+
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.4
+_____
+
+state the principle correctly, as it also ignores the place of opinion in the presentation of news
+material – and opinion, more or less, is free.
+The UK code, on the other hand, states openly that the press is ‘free to be partisan’, so long as it
+is accurate and ensures the distinction between fact, comment and conjecture.
+
+A NEW APPROACH TO ACCURACY AND FAIRNESS
+The Need For Principles To Evolve
+
+Currently, decisions by the APC or the ACMA do not create precedent or develop principle. The
+problem with this approach is that vague and uncertain ideas, such as fairness and accuracy,
+remain vague and uncertain. The CLC recommends that the news standards body should develop
+key principles, over time, through written decisions, in order to provide greater certainty. In
+doing this, it should maintain the distinction between genuine principle and prescriptive rules.
+Separation Of Accuracy And Fairness
+
+Accuracy and fairness, while related, should be treated as separate concerns. Accuracy (defined
+as ‘faithful representation’) should be protected on the basis that the public has a legitimate
+interest in receiving accurate information. A separate set of principles that relate to fairness of
+news information (or harmful misrepresentation) should be developed which establish specific
+duties not to cause harm to legitimate interests through inaccurate news material.
+Accuracy And Fairness Relate To Fact
+
+It should be clearly stated in the new code that accuracy and fairness relate only to fact, and not
+to comment.
+Accuracy Test
+
+To provide a sound basis for investigations, an accuracy test should be developed by the new
+standards body to be applied in investigations into complaints about accuracy and fairness.
+
+THE ACCURACY TEST
+There are many ways in which news material can mislead, such as through the omission of key
+facts in a news story, through exaggeration and distortion, through providing unreasonable
+viewpoints uncritically, and through the presentation of comment or opinion as fact. All of the
+codes take some of these practices into account.
+Rather than attempt to identify all the different practices that may lead to a person being misled,
+the better approach is to consider each case in terms of implied fact. The news standards body
+may wish to be guided by the approach of the courts in defamation cases in which juries are
+tasked with finding the meaning of defamatory imputations. Under this approach, the ‘natural
+and ordinary’ meaning of news material should be applied as understood by the ordinary
+reasonable person.
+To reduce concern about the potential of bias, it would be better for the public members of the
+news standard body to take on the role of finding implied facts in news material. A ‘statement of
+implied fact’ would provide the inflexible basis upon which principle is applied. The statement
+of implied fact should also be provided to news organisations in order to allow an opportunity
+for response.
+Alongside the implied facts, it would be necessary for an assessment to be made about the real
+circumstances upon which news material is based, in order to consider the implied facts for
+accuracy.
+
+PLATFORM
+In its submission to the Convergence Review, the CLC recommended that media content
+regulation should be applied consistently across media and platforms (CLC 2011). This makes
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.5
+______
+
+sense as content is now made available on multiple platforms. However, a platform-neutral code
+has another benefit in that it enables the development of principles based purely on the ethical
+considerations of content and its external impacts. Another implication is that each investigation
+by the news standards body will have industry-wide relevance, which will be important for the
+effectiveness of the news standards body in responding to community concerns about the
+conduct of the media.
+Case study. Applying the accuracy test to ‘comment’
+A newspaper article describes a new government initiative to release up to 100 asylums seekers per
+month into the community. The headline reads Revealed: Boat people to flood our suburbs.
+What is fact? What is comment?
+This headline has elements of fact: a number of asylum seekers will be released into the community
+under a government proposal. The headline implies another fact: that the number released will have
+a negative impact on the community. The headline also expresses an opinion: that the community
+should fear the release of asylum seekers.
+The distinctions between fact and comment expressed here are a matter of interpretation. Another
+reader may have a different view about what constitutes fact and comment. As such, it is better to
+disregard considerations of what constitutes comment, and focus on implied fact.
+The accuracy test
+The news standards body would look at the words of the headline and article in terms of the implied
+fact. Opinion itself is not at issue, except to the extent that fact is implied.
+In this case, an ordinary reasonable person might judge the implied fact to be that the number of
+asylum seekers released will be ‘so large that it will have an overwhelming negative impact on the
+community’.
+In order to apply the principle of accuracy, the news standards body should consider additional facts.
+For instance, under which circumstances would it be accurate to say that the release of asylum
+seekers would have an overwhelming negative impact on the community?
+Drawn from APC Adjudication No.1529, 30 April 2012
+
+ETHICAL CONSIDERATIONS OF FAIRNESS AND ACCURACY
+Finding accuracy serves a number of ends. Firstly, news providers have a relationship of trust
+with the public in providing information. Unless the matter is trivial, accuracy is worth
+protecting in its own right. Secondly, accuracy provides the factual basis for determining
+whether news material is fair to those affected by that material.
+From an ethical perspective, however, less harm is caused by news material found to be merely
+inaccurate compared with news material that is both inaccurate and unfair. It is, therefore,
+necessary to consider how these breaches would be addressed by the new code.
+Publishing Corrections And Adjudications
+
+The requirement to publish an adjudication or correction is the means by which the facts, as
+found by the news standards body, can be laid bare. In the case of mere inaccuracy, this allows
+the public to understand a better version of the facts. In such a case, the requirement to publish
+need not be regarded as a judgment upon the performance of the news provider. In fact, the
+willingness to provide corrections is likely to improve public trust in news organisations.
+In cases involving unfairness, publication of the facts puts the public in the position of the news
+standards body, and allows members of the public to form their own opinions about the fairness
+or unfairness of the news provider. The public response to the news provider, and the subsequent
+erosion of trust, creates the sanction.
+The news standards body should also make it clear when a finding is made on the grounds of
+fairness. Fairness, and the conduct of the news provider in presenting news material, should also
+
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.6
+_____
+
+be the basis for any additional action, such as the decisions to refer the news provider to a
+statutory body.
+
+FAIRNESS OF NEWS INFORMATION
+‘Fairness of news information’ relates to the negative impact of inaccurate news content on the
+reputation of individuals, groups and businesses, and on the integrity of debate on matters of
+public concern. These interests receive piecemeal protection in the existing codes. Legal
+protection with respect to trade practices and data privacy is also limited due to exemptions
+enjoyed by media organisations. The absence of legal protection creates a greater need for
+responsible conduct on the part of media organisations, which should be met in a new code.
+Further, certain ‘vulnerable’ groups – such as asylum seekers, teenagers or the unemployed – do
+not have rights with respect to how they are portrayed by the media, which creates an ethical
+responsibility to portray these groups accurately.
+
+WHEN IS NEWS INFORMATION UNFAIR?
+News information is unfair when it has the effect of diminishing reputation, image or respect for
+an individual, group, business or public policy.
+
+INDIVIDUALS
+Under defamation law, a person succeeds in a case against a publisher of defamatory material
+where that material cannot be shown to be true. However, not all complainants are willing, or
+can afford, to pursue defamation in the courts. The reputation of an individual is not specifically
+recognized or protected by any relevant code in Australia, and must rely on general code
+provisions that require accuracy and fairness.
+One reason for entrenching protection of reputation in a new code is to establish the news
+standards body as a viable alternative to the courts. A properly applied standard for the
+protection of reputation would have the potential to save media organisations from significant
+legal expenses, as well as providing remedies to individuals in the form of published
+adjudications, corrections and replies.
+
+GROUPS
+The APC General Principle 8 states:
+Publications should not place any gratuitous emphasis on the race, religion, nationality,
+colour, country of origin, gender, sexual orientation, marital status, disability, illness, or
+age of an individual or group.
+Similar provisions with respect to ‘gratuitous emphasis’ exist in other codes.
+Gratuitous emphasis, however, is unlikely to cover all examples of unfairness to groups. It is
+important that whenever a group is the focus of a news item that the group is fairly and
+accurately portrayed.
+
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.7
+______
+
+Case study
+A newspaper article states: ‘Shocking new figures show adolescent crime in Ballarat has nearly
+doubled in the past five years, with approximately one in four teenagers aged 15 to 17 committing
+offences.’
+The article is subsequently found to have misinterpreted police statistics, which provide the total
+number of offences committed by young people, not the proportion of young people who committed
+offences.
+Issues: the interests of many groups are not formally recognized by the existing codes and people who
+identify with a group are vilified by inaccurate reporting.
+Drawn from APC Adjudication No. 1512, September 2011
+
+BUSINESSES
+Misleading information about a business has the ability to inflict serious economic and
+reputational damage. Defamation law does not extend to businesses that have ten or more
+employees, and the media safe-harbour in trade practices law creates an exemption, inclusive of
+news providers, for misleading and deceptive conduct. The exemption exists to prevent a
+chilling of free speech with respect to reporting on businesses and business activities. This ‘legal
+vacuum’ creates a need for an improved ethical requirement.
+The CLC recommends that the news standards body should be authorised to refer news
+providers that fail to meet their ethical responsibilities with respect to businesses to the
+Australian Competition and Consumer Commission (ACCC). Consideration should also be
+given to amending the Competition and Consumer Act 2010 to enable the application of
+‘misleading and deceptive conduct rules’ to news providers who are referred to the ACCC.
+Case study
+A series of newspaper reports make incorrect and misleading claims about the costs associated with
+connecting to the National Broadband Network (NBN).
+An adjudication by the Australian Press Council in December 2011 expresses the concern that:
+…within a short period of time three articles on the same theme contained inaccurate or misleading
+assertions. It considers that this sequence of errors should not have occurred and that they should have
+been corrected promptly and adequately when brought to the newspaper’s attention.
+Issues: businesses rely on general provisions of fairness and accuracy. The media safe-harbour is also
+open to abuse, and the requirement to publish adjudications and corrections is unlikely to be an adequate
+remedy or sanction. Public/private enterprises are particularly vulnerable as there is a political incentive to
+report inaccurate information.
+Drawn from APC Adjudication No.1515, December 2011
+
+PUBLIC POLICY
+While media organisations should continue to be free to express opinion about public policy,
+they also ought to ensure accuracy. The implied freedom of political communication, as
+established by the High Court, holds that there ought to be free discussion of matters of political
+concern.
+It is also important that the information underlying public debate should be accurate and truly
+stated, as this impacts upon the ability of citizens to construct informed opinions, which in turn
+influences government policy and how people vote.
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.8
+_____
+
+The need for accurate information in public debate also relates to the ‘marketplace of ideas’ – a
+theory that it is better to allow free competition in ideas in order that, over time, the best ideas
+and policies emerge. To this, it should be added, the marketplace of ideas is more likely to be
+effective where the creators of those ideas are required to strive for accuracy.
+
+APPLYING THE ACCURACY TEST TO FAIRNESS OF NEWS INFORMATION
+In determining whether news material is unfair it is necessary to consider whether it is
+inaccurate. The accuracy test when applied to the fairness of news information should consider
+accuracy in terms of the impact of misinformation upon reputation, image or respect.
+
+CONDUCT OF NEWS PROVIDERS NOT RELEVANT TO FAIRNESS AND ACCURACY
+A number of codes express the need for accuracy or fairness in terms of the reasonable conduct
+of the news provider. In other words, the question is not whether a news item is prima facie
+accurate, but whether there is a reasonable attempt at ensuring accuracy.
+This approach is explained in the UK’s Editors’ Codebook:
+The Code is careful not to demand perfect accuracy, which would be impossible to
+achieve. Instead, [the Code] obliges publications to take care not to publish inaccurate,
+misleading or distorted material, including pictures. That is a simple, practical and
+deliverable requirement, applying to all they do ahead of publication. If sufficient care
+were taken, then that would be a defence to any subsequent complaint. (Editors’
+Codebook 2012, 16)
+This reflects the imperfect reality – the fact that mistakes happen. The good intention of the
+news providers is, however, irrelevant to victims of unfair news material. Principles of
+inaccuracy or unfairness should be judged solely according to content. Where inaccuracy is
+found to exist, it should be corrected as a matter of course, and where news material is found to
+be unfair it should be acknowledged as being unfair.
+While findings of accuracy and fairness must apply to content, the conduct of news
+organisations in presenting news material should determine the extent to which a news provider
+may be considered to be ‘accountable’.
+
+ACCOUNTABILITY AND THE REGULATION OF NEWS MATERIAL
+A separate code provision should provide a non-exhaustive list of criteria with respect to
+‘responsible journalism’. This list should include the extent to which the publishing of particular
+news material is in the public interest and the efforts of the news provider in checking the
+accuracy of information.
+Any decision on fairness and accuracy should also include a statement based on the provision for
+responsible journalism that makes clear whether the news provider was justified in presenting
+news material. Such a finding would be relevant to any further action the news standards body
+may wish to take, such as referring a news provider to a statutory body.
+Recommendations:
+• The news standards body should have a public interest role under statute.
+• Accuracy should be understood to mean ‘faithful representation’.
+• The news standards body should be open to developing key principles over time.
+• Accuracy and fairness should be regarded as separate principles.
+• Accuracy and fairness should only relate to fact.
+• An accuracy test should be developed based on the ‘implication of fact’.
+• The public members of the news standards body should be responsible for implying the facts of
+news material.
+• Separate principles of fairness of news information should protect the interests of those affected
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.9
+______
+
+•
+
+by news material.
+The new standards body should be authorised to refer news providers that breach ethical
+responsibilities towards businesses to the ACCC.
+
+PRIVACY
+Privacy is a broad concept, often characterised as a collection of rights, which includes the right
+to seclusion, personal information and personal affairs. In Australia, there is no right to privacy
+under law. Separate rights with respect to privacy exist under the torts of nuisance, trespass and
+confidentiality, and information privacy is protected by the Privacy Act 1988. The High Court in
+Australian Broadcasting Commission v Lenah Game Meats Pty Ltd (2001) 208 CLR 199
+(‘Lenah’) opened the door for the development of a tort of privacy, and a statutory tort for
+‘serious invasion of privacy’ is now the subject of review by the Commonwealth Government.
+While media organisations are subject to the law of the land with respect to separate privacy
+concerns, they enjoy an exemption from the application of the National Privacy Principles
+(NPPs) outlined in the Privacy Act, which includes the requirement of organisations to collect
+personal information ‘only by lawful and fair means’ (NPP1.2), and to inform people about the
+purposes for which information is collected (NPP1.3).
+
+PRIVACY UNDER EXISTING CODES
+The absence of legal protection creates an ethical responsibility that should be catered for in the
+new code.
+While all the code provisions presented in Table 3 recognise a general right to privacy, none
+offer a definition of ‘privacy’. The codes do, however, refer variously to ‘private grief’, the
+‘sensibilities of individuals’, ‘personal and private affairs’ and respect for ‘private and family
+life, home, health and correspondence’.
+The general rule under the codes is that the privacy of an individual is protected except when
+publication of material is in the public interest. A number of these codes offer the same
+definition of ‘public interest’. The UK code is different in that it lists elements included within
+the ‘public interest’, such as detecting or exposing crime.
+There are three main questions that must be addressed in considering a new code:
+1. When is there an invasion of privacy?
+2. How should the public interest be defined?
+3. How should the balance be struck in applying the public interest?
+Australian Press Council
+principles
+News and comment should be
+presented honestly and fairly,
+and with respect for the privacy
+and sensibilities of individuals.
+However, the right to privacy is
+not to be interpreted as
+preventing publication of
+matters of public record or
+obvious or significant public
+interest. Rumour and
+unconfirmed reports should be
+identified as such. (General
+Principle 4)
+……
+"Public interest"
+
+Editors’ Code of Practice 2012
+(UK)
+• Everyone is entitled to respect
+for his or her private and family
+life, home, health and
+correspondence, including
+digital communications.
+• Editors will be expected to
+justify intrusions into any
+individual's private life without
+consent. Account will be taken
+of the complainant's own public
+disclosures of information.
+• It is unacceptable to
+photograph individuals in
+private places without their
+consent. (Clause 3)
+
+Media Alliance Code of Ethics
+Respect private grief and
+personal privacy. Journalists
+have the right to resist
+compulsion to intrude. (Clause
+11)
+
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.10
+_____
+
+For the purposes of these
+principles, "public interest" is
+defined as involving a matter
+capable of affecting the people
+at large so they might be
+legitimately interested in, or
+concerned about, what is going
+on, or what may happen to
+them or to others.
+
+[note: these provisions are
+balanced against the public
+interest]
+
+Herald and Weekly Times
+Editorial Code of Conduct
+All individuals, including
+public figures, have a right to
+privacy. Journalists have no
+general right to report the
+private behaviour of public
+figures unless public interest
+issues arise. The right to
+privacy diminishes when the
+suitability of public figures to
+hold office or perform their
+duties is under scrutiny and
+such scrutiny is in the public
+interest.
+“Public interest” is defined for
+this and other clauses as
+involving a matter capable of
+affecting the people at large so
+they might be legitimately
+interested in, or concerned
+about, what is going on, or what
+may happen to them or to
+others. (Clause 4.1)
+
+2010 Commercial Television
+Industry Code of Practice
+In broadcasting news and
+current affairs programs,
+licensees…must not use
+material relating to a person’s
+personal or private affairs, or
+which invades an individual’s
+privacy, other than where there
+is an identifiable public interest
+reason for the material to be
+broadcast. (Clause 4.3.5)
+
+Public interest
+• The public interest includes,
+but is not confined to:
+> Detecting or exposing crime
+or serious impropriety.
+> Protecting public health and
+safety.
+> Preventing the public from
+being misled by an action or
+statement of an individual or
+organisation.
+• There is a public interest in
+freedom of expression itself.
+• Whenever the public interest is
+invoked, the PCC will require
+editors to demonstrate fully that
+they reasonably believed that
+publication, or journalistic
+activity
+Commercial Radio Codes of
+Practice (2011)
+In the preparation and
+presentation of current affairs
+programs a licensee must ensure
+that:…the licensee does not use
+material relating to a person’s
+personal or private affairs, or
+which invades an individual’s
+privacy, unless there is a public
+interest in broadcasting such
+information. (Clause 2.3(d))
+
+Table 3 - How existing codes deal with privacy.
+
+WHAT IS THE PRINCIPLE OF PRIVACY?
+The broad scope of privacy is well-recognized. As Gleeson CJ stated in Lenah, ‘there is no
+bright line that can be drawn between what is private and what is not’ (Lenah 2001: 42). He
+suggested a ‘useful practical test’: namely, that what is private can be found by considering
+whether conduct would be ‘highly offensive to a reasonable person of ordinary sensibilities’
+(Lenah 2001: 42). Rather than attempt to exhaustively define the concept of privacy, the new
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.11
+______
+
+code should apply a test, similar to the one referred to by Gleeson, to determine privacy on a
+case-by-case basis.
+By adopting this test, industry would be held accountable to a broad principle of privacy,
+capable of evolving over time, and there would be no need for a piecemeal set of prescriptive
+rules such as currently exists under various codes (see Table 3). However, principle stated this
+broadly would require an additional framework to ensure a level of certainty.
+Jessie Porteus’ submission to the review on the statutory privacy tort recommends eleven factors
+to be taken into account when considering whether an invasion of privacy has occurred (Porteus
+2012). A number of these factors should be included in the body of the new code in order to
+establish relevant considerations for the application of the principle. The factors include:
+•
+•
+•
+•
+
+•
+•
+•
+
+the nature of the material (the more sensitive, the more care must be taken);
+the nature of the conduct (the more intrusive, the more care must be taken);
+whether the material is essential to explain the substantive issues in the story;
+whether the material directly or indirectly contributes to the audience’s capacity to
+assess an issue of importance to the public, and its knowledge and understanding of the
+subject;
+the extent of the subject’s public profile;
+the extent of the subject’s vulnerability; and
+whether consent has been given (including implied consent).
+
+HOW SHOULD ‘PUBLIC INTEREST’ BE DEFINED?
+There have been many attempts over the years to define ‘public interest’. Rather than attempt to
+define the public interest, it is probably more instructive to provide indications of its scope. The
+ACMA’s Privacy Guidelines for Broadcasters (‘ACMA privacy guidelines’) state that public
+interest issues include:
+…public health and security; criminal activities; corruption; misleading the public;
+serious anti-social behaviour; politics; government and public administration; elections;
+and the conduct of corporations, businesses, trade unions and religious organisations.
+(ACMA 2011)
+This list should be included in a new set of guidelines to be developed by the news standards
+body. The guidelines should also provide examples of issues that are not in the public interest:
+for instance, the personal lives of celebrities.
+Applying The Public Interest In Relation To Privacy
+
+In the privacy provisions listed in Table 3, the ‘public interest’ relates to the benefit to the public
+in receiving news material. However, it should be acknowledged that privacy is also a public
+interest concern. The new code should take into account all public interest concerns, and not just
+consider privacy against the public interest in receiving news information.
+
+STRIKING THE BALANCE BETWEEN PRIVACY AND PUBLIC INTEREST
+The existing codes do not appear to strike the balance evenly between the privacy of the
+individual and the public interest in receiving news information. For example, the commercial
+television code states that privacy must not be invaded other than where there is an identifiable
+public interest reason for the broadcast. This formulation, echoed in the commercial radio code
+and the APC code, may be described as a ‘threshold’ test – once public interest is established
+with respect to news material, any invasion of privacy is acceptable. This approach ignores both
+the degree to which the news material is in the public interest and the extent to which privacy is
+invaded.
+The ABC Code of Practice emphasises balance. It states:
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.12
+_____
+
+Intrusion into a person’s private life without consent must be justified in the public
+interest and the extent of the intrusion must be limited to what is proportionate in the
+circumstances.
+The CLC recommends that the principle of privacy under a new code should be similar to the
+ABC code in being even-handed in its treatment of competing interests.
+
+THE NEED FOR A COMMON SET OF GUIDELINES
+Compliance with the privacy principle in the new code is likely to be greatly improved if news
+providers have well developed guidelines on which to base their decisions. The guidelines would
+assist in describing the public interest, and demonstrate how the requirement for privacy is likely
+to be applied in different situations. The ACMA’s privacy guidelines are a useful template that
+provides a number of case studies (ACMA 2011). The guidelines should evolve over time and
+include practical guidance on expected conduct with respect to:
+•
+•
+•
+•
+•
+•
+
+the collection and use of people’s private information;
+understanding when consent has been given;
+photographing people in private places;
+the privacy rights of public figures;
+hidden surveillance and subterfuge; and
+harassment.
+
+Recommendations:
+• The new code should strike a proper balance between the right to privacy and the public
+interest in news information.
+• The test for invasion of privacy should be based upon the reasonable expectation of privacy.
+• Factors relevant to the test for invasion of privacy should be included in the body of the code.
+• The news standards body should develop privacy guidelines to help news providers comply
+with their obligations under the new code.
+
+CONCLUSION
+The creation of the news standards body is an opportunity to take a look at how news material
+has been regulated in the past and how it ought to be regulated in the future. Creating a new code
+requires the development of principles that apply equally on all platforms. The new code must
+be founded on the public interest and ought to entrench the legitimate interests of those parties
+affected by the presentation of news material. The fairness of news information should be based
+on accuracy as determined by the implied facts of news material. This approach will allow news
+providers freedom of speech in presenting opinion, but discourage the inaccurate and unfair
+presentation of fact. The new code should also improve the level of privacy protection by
+striking a proper balance between the public interest in receiving information and the right of the
+individual to privacy. The question of privacy invasion should be based upon the reasonable
+expectation of privacy, clarified by a list of relevant factors.
+
+PRINCIPLES OF ACCURACY, FAIRNESS AND PRIVACY UNDER A NEW CODE
+
+42.13
+______
+
+REFERENCES
+ACMA. 2011. Australian Media and Communications Authority, Privacy Guidelines for
+Broadcasters. December 2011. Available at
+http://www.acma.gov.au/webwr/_assets/main/lib100084/privacy_guidelines-dec2011.pdf
+Australian Press Council. 2011-12. ‘Adjudications and other outcomes’.
+http://www.presscouncil.org.au/adjudications-other-outcomes/.
+Beales, I. 2012. The Editors’ Codebook. The handbook to the Editors’ Code of Practice. UK:
+The Newspaper Publishers Association, the Newspaper Society, the Periodical Publishers
+Association, and the Scottish Newspaper Society. Available at
+http://www.editorscode.org.uk/downloads/codebook/codebook.pdf
+Commercial Radio Australia. 2011. Codes of Practice and Guidelines. Septemebr 2011.
+Available at
+http://www.commercialradio.com.au/files/uploaded/file/Commercial%20Radio%20Codes%
+20&%20Guidelines%20%205%20September%202011.pdf
+Communications Law Centre. 2011. Submission to Convergence Review – Framing Paper (6.7).
+Available at
+http://www.dbcde.gov.au/__data/assets/pdf_file/0011/143003/University_of_Technology_S
+ydney_UTS_-_Discussion_Papers.pdf
+Convergence Review Committee. 2012. Convergence Review: Final Report. Available at
+http://www.dbcde.gov.au/digital_economy/convergence_review
+Finkelstein, Hon R; Ricketson, Prof. M. 2012. Report of the Independent Inquiry into the
+Media and Media Regulation. Available at
+http://www.dbcde.gov.au/digital_economy/independent_media_inquiry
+Lenah. 2001. Australian Broadcasting Commission v Lenah Game Meats Pty Ltd (2001) 208
+CLR 199.
+Porteus, Jessie. 2012. ‘Submission to Commonwealth Government review: A Commonwealth
+Statutory Cause of Action for Serious Invasion of Privacy’.
+
+Cite this article as: Briedis, Mark; Renton, William. 2012. ‘Principles of accuracy, fairness and
+privacy under a new code’. Telecommunications Journal of Australia 62 (3): 42.1-42.14. Available
+from: http://tja.org.au.
+TELECOMMUNICATIONS JOURNAL OF AUSTRALIA, VOLUME 62, NUMBER 3, 2012 SWINBURNE UNIVERSITY OF TECHNOLOGY
+
+42.14
+_____
+
+

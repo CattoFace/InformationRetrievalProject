@@ -1,0 +1,2662 @@
+Vanderbilt University Law School
+
+Scholarship@Vanderbilt Law
+Vanderbilt Law School Faculty Publications
+
+Faculty Scholarship
+
+4-2020
+
+Social Checks and Balances: A Private Fairness Doctrine
+Michael P. Vandenbergh
+Vanderbilt University Law School
+
+Follow this and additional works at: https://scholarship.law.vanderbilt.edu/faculty-publications
+Part of the Communications Law Commons
+
+Recommended Citation
+Michael P. Vandenbergh, Social Checks and Balances: A Private Fairness Doctrine, 73 Vanderbilt Law
+Review. 811 (2020)
+Available at: https://scholarship.law.vanderbilt.edu/faculty-publications/1145
+
+This Article is brought to you for free and open access by the Faculty Scholarship at Scholarship@Vanderbilt Law. It
+has been accepted for inclusion in Vanderbilt Law School Faculty Publications by an authorized administrator of
+Scholarship@Vanderbilt Law. For more information, please contact mark.j.williams@vanderbilt.edu.
+
+DATE DOWNLOADED: Mon Jun 22 17:07:04 2020
+SOURCE: Content Downloaded from HeinOnline
+Citations:
+Bluebook 20th ed.
+Michael P. Vandenbergh, Social Checks and Balances: A Private Fairness Doctrine, 73
+Vand. L. Rev. 811 (2020).
+ALWD 6th ed.
+Michael P. Vandenbergh, Social Checks and Balances: A Private Fairness Doctrine, 73
+Vand. L. Rev. 811 (2020).
+APA 7th ed.
+Vandenbergh, M. P. (2020). Social checks and balances: private fairness doctrine.
+Vanderbilt Law Review, 73(3), 811-856.
+Chicago 7th ed.
+Michael P. Vandenbergh, "Social Checks and Balances: A Private Fairness Doctrine,"
+Vanderbilt Law Review 73, no. 3 (April 2020): 811-856
+McGill Guide 9th ed.
+Michael P Vandenbergh, "Social Checks and Balances: A Private Fairness Doctrine"
+(2020) 73:3 Vand L Rev 811.
+MLA 8th ed.
+Vandenbergh, Michael P. "Social Checks and Balances: A Private Fairness Doctrine."
+Vanderbilt Law Review, vol. 73, no. 3, April 2020, p. 811-856. HeinOnline.
+OSCOLA 4th ed.
+Michael P Vandenbergh, 'Social Checks and Balances: A Private Fairness Doctrine'
+(2020) 73 Vand L Rev 811
+Provided by:
+Vanderbilt University Law School
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline's Terms and
+Conditions of the license agreement available at
+https://heinonline.org/HOL/License
+-- The search text of this PDF is generated from uncorrected OCR text.
+-- To obtain permission to use this article beyond the scope of your license, please use:
+Copyright Information
+
+ESSAY
+Social Checks and Balances:
+A Private Fairness Doctrine
+Michael P. Vandenbergh*
+This Essay proposes a private standardsand certificationsystem
+to induce media firms to provide more complete and accurate
+information. It argues that this new private governance system is a
+viable response to the channelized flow of information that is
+exacerbating political polarization in the United States. Specifically,
+this Essay proposes development of a new private fairness doctrine to
+replace the standard repealed by the Federal Communications
+Commission in 1987. A broad-based, multistakeholder organization
+could develop and implement this private fairness doctrine, and the
+certification process could harness market and social pressure to
+influence the practices of traditionaland new media firms. A growing
+literature demonstrates how private governance initiatives can perform
+the functions of government in the environmental, labor, gun control,
+animal welfare, and fair trade areas. This Essay argues that private
+governance initiativessuch as the new private fairness doctrine can also
+bolster the social checks and balances that support the processes of
+democratic governance. Any intervention into the flow of information
+creates risks, but so does inaction, and the private fairness doctrine
+holds out the possibility of improving the information available for
+public discourse while limiting the risks of government intervention. In
+the long term, the concept of private governance can also stimulate
+
+Professor and David Daniels Allen Distinguished Chair of Law, Vanderbilt University
+*
+Law School. For helpful comments, I owe thanks to David Adelman, Linda Breggin, Lisa
+Bressman, Jim Blumstein, Joey Fishkin, Jonathan Gilligan, Jonathan Lipson, Timothy Lytton,
+Will Martin, Ed Rubin, Ganesh Sitaraman, Kevin Stack, Paul Stern, Rory Van Loo, the Reading
+Group on Private Regulation, and to workshop participants at Temple University Beasley School
+of Law, University of Texas School of Law, and Vanderbilt University Law School. Baker Gerwig,
+Elizabeth Holden, John Hubbard, William Milberg, Matt LaRue, Samantha Speer, Rae Meade
+Torres, and Shannon Vreeland provided excellent research and editing assistance.
+
+811
+
+8 12
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+creative thinking on interventions to improve other core democratic
+processes, including campaign finance, voting, ballot security, and
+others.
+INTRODUCTION
+................................................
+I.
+PRIVATE GOVERNANCE MODELS
+.........................
+
+812
+
+II.
+
+830
+
+INFORMATION PROBLEMS
+
+................................
+
+III.
+A PRIVATE FAIRNESS DOCTRINE.
+.........................
+CONCLUSION
+..................................................
+
+820
+
+842
+854
+
+INTRODUCTION
+
+If I am a liberal, I can get my news from liberal cable television
+programs, listen to liberal radio stations, read liberal newspapers and
+blogs, and receive filtered information tailored to my liberal views from
+Facebook, Google, and Twitter. I can easily avoid inconvenient
+conservative opinions or facts that might support a conservative policy.
+If I am a conservative, I can do the same, except that I will watch Fox
+News, not MSNBC; listen to Rush Limbaugh, not Progress radio; read
+the Wall Street Journal editorial page, not the Washington Post; and
+read Breitbart, not the Huffington Post. The filters used by new media
+firms will expose me to conservative sources of information and screen
+out liberal sources. I can live in a conservative world, unfettered by
+inconvenient liberal opinions or the facts that support them.
+Some channelized flow of information has always been a feature
+of political discourse in the United States-the Founders famously used
+their own captive newspapers to put their preferred spin on the issues
+of the day-but a growing body of empirical research suggests that the
+channelization of information flows has become pervasive in the last
+several decades.' Similarly, polarization has always been a feature of
+political discourse in the United States. The Founders used their
+captive newspapers and other means for vicious political and personal
+attacks on opponents, and certainly the polarization leading up to the
+Civil War was intense. 2 But a growing literature again suggests that
+1.
+For reviews of the literature, see CASS R. SUNSTEIN, #REPUBLIC: DIVIDED DEMOCRACY IN
+THE AGE OF SOCIAL MEDIA (2017) [hereinafter SUNSTEIN, #REPUBLIC]; and CASS R. SUNSTEIN,
+
+REPUBLIC.COM 2.0 (2007). For an early examination in the popular press of the extremism fostered
+by new media, see Elizabeth Kolbert, The Things People Say, NEW YORKER (Oct. 26, 2009),
+https://www.newyorker.com/magazine/2009/11/02/the-things-people-say [perma.cclEKY6-V7HD].
+2.
+
+Compare JILL LEPORE, THESE TRUTHS: A HISTORY OF THE UNITED STATES (2018)
+
+(suggesting that polarization has been common in American history and that the post-World War
+II period of lower polarization was an anomaly), and RICHARD WHITE, THE REPUBLIC FOR WHICH
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+813
+
+the current era is at the extreme end. Regardless of whether
+polarization levels are comparable to past levels, polarization is
+impairing the ability of government to respond to core problems today: 3
+studies suggest that polarization correlates with, and perhaps is a
+substantial cause of, the inability of the federal and state governments
+to respond to core social problems. 4
+The social checks and balances that placed some constraints on
+politicians' partisan behavior in past eras also seem to be at a low ebb.
+In the 1950s, Robert Dahl argued that social influences limit the efforts
+of many politicians and political operatives to abuse common norms of
+fair play.5 For instance, state legislators may be discouraged from
+skewing legislative voting procedures while in office because of concerns
+that doing so will be exposed and will induce their opponents to do so
+when they are in office. According to Dahl, social checks and balances
+are a frequently overlooked element of a successful democracy. The
+point is not that politicians and political operatives never engaged in
+self-dealing or manipulated norms of fair play-and the use of racedbased voting requirements in the South is a prime example-but in
+many areas of the country social checks and balances provided
+meaningful constraints on overreaching by these actors. Numerous
+commentators have noted that these core norms of democratic fair play
+6
+have eroded substantially in the last two decades.
+This Essay argues that the channelized flow of information has
+undermined the enforcement of the social norms that function as social
+IT STANDS: THE UNITED STATES DURING RECONSTRUCTION AND THE GILDED AGE: 1865-1896 (2017)
+
+(noting high levels of polarization during the second half of the nineteenth century), with ROBERT
+B. TALISSE, OVERDOING DEMOCRACY: WHY WE MUST PUT POLITICS IN ITS PLACE (2019) (suggesting
+
+that polarization has increased and has extended to areas such as consumer behavior, workplaces,
+and residential settlement patterns).
+See Aaron M. McCright, Chenyang Xiao & Riley E. Dunlap, PoliticalPolarization on
+3.
+Support for Government Spending on Environmental Protection in the USA, 1974-2012, 48 Soc.
+Scl. RES. 251 (2014) (examining polarization on environmental issues).
+For a recent discussion, see MICHAEL P. VANDENBERGH & JONATHAN M. GILLIGAN,
+4.
+BEYOND POLITICS: THE PRIVATE GOVERNANCE RESPONSE TO CLIMATE CHANGE 119-76 (2017).
+See ROBERT A. DAHL, A PREFACE TO DEMOCRATIC THEORY 83 (1956) (arguing that the
+5.
+
+presence of such social constraints "may be far more important in strengthening democracy than
+any particular constitutional design"); see also discussion infra notes 97-99 (exploring how implicit
+social and political norms may constrain the party in power).
+6.
+
+See, e.g., STEVEN LEVITSKY & DANIEL ZIBLATT, How DEMOCRACIES DIE 12, 84-90 (2018)
+
+(noting the declining role of core democratic norms such as mutual toleration (accepting rivals as
+legitimate) and forbearance (exercising restraint rather than using full constitutional powers));
+(Apr. 13, 2018),
+Evan McMullin, An Attack on the Rule of Law, THE ATLANTIC
+5 57 9 2
+[https://
+1 /
+https://www.theatlantic.com/politics/archive/2018/04/assault-on-democracy/
+perma.cc/J498-BV9D] (criticizing President Trump's attacks on American institutions as
+undermining democratic legitimacy); see also Joseph Fishkin & David E. Pozen, Asymmetric
+Constitutional Hardball, 118 COLUM. L. REV. 915, 940-43 (2018) (noting the importance of
+differences in norms between Democrats and Republicans in pursuing constitutional strategies).
+
+814
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+checks and balances. Dahl's original use of the term social checks and
+balances referred to the informal norms that constrain the behavior of
+politicians and political operatives, enforced through the iterative
+relationships among politicians and the oversight of the general public.
+The channelized flow of information undermines enforcement of these
+norms; it can enable a politician's constituents to avoid exposure to
+negative information about the behavior of the politician and create
+justifications for violation of fair-play norms. In this setting, the social
+checks and balances that might induce a politician to accept rivals as
+legitimate and exercise self-restraint when in power are weak at best.'
+This is not the place to resolve debates among historians,
+political scientists, and lawyers about the relationships among
+information channelization, polarization, and social checks and
+balances. Instead, this Essay assumes that the channelized flow of
+information through traditional and new media is exacerbating the
+polarization and dysfunction of the U.S. political process. Drawing on
+the emerging private governance literature,8 this Essay proposes a new
+private standards and certification system designed to induce
+traditional and new media companies to provide more complete and
+accurate information. In turn, that information may enable more
+informed democratic discourse, reduce polarization, and buttress social
+checks and balances. For convenience, I use the term private fairness
+doctrine to refer to both the new fairness doctrine standard and the
+organization that would implement the standard.
+7.
+
+See LEVITSKY & ZIBLATT, supra note 6.
+
+8.
+See Michael P. Vandenbergh, Private Environmental Governance, 99 CORNELL L. REV.
+129, 146 (2013) (defining "private environmental governance" and explaining that "actions taken
+by. . . non-governmental [environmental] entities often include the traditional standard-setting,
+implementation, monitoring, enforcement, and adjudication functions of governments"). Similarly,
+in recent years scholars have noted that civil society can play "the pluralistic Congress's popular,
+deliberative role." Jon D. Michaels, An Enduring, Evolving Separationof Powers, 115 COLUM. L.
+REV. 515, 552 (2015); see also Jon D. Michaels, Of Constitutional Custodians and Regulatory
+Rivals: An Account of the Old and New Separation of Powers, 91 N.Y.U. L. REV. 227, 250 (2016)
+(noting the role of civil society in influencing agency actions). The private governance initiatives I
+focus on here induce not just the groups often included in "civil society," but also other privatesector actors, and they play roles that serve the functions performed not just by Congress, but by
+all three branches of government. New Governance scholars have emphasized the importance of
+public-private hybrids, but government coercive force, resources, and coordination remain
+important in New Governance scholarship. See, e.g., Michael C. Dorf & Charles F. Sabel, A
+Constitution of Democratic Experimentalism, 98 COLUM. L. REV. 267, 345 (1998) (describing
+"[e]xperimentalist agencies dedicated to comparative evaluation of public and private actors"). In
+contrast, private governance initiatives involve interactions between private parties that affect
+issues commonly assigned to government but occur with little or no government involvement.
+Private governance thus includes actions taken by nongovernmental entities that achieve
+traditionally governmental ends such as managing the exploitation of common pool resources,
+increasing the provision of public goods, setting labor or health standards, or reducing
+environmental externalities. See infra Part I (discussing the genesis of private governance
+initiatives).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+815
+
+The private fairness doctrine would evaluate traditional and
+new media firms not based on any particular media story or report,
+which would be difficult and expensive to do on a timely basis, but based
+on periodic evaluations of the systems the media organization has in
+place to provide complete and accurate information. With the repeal of
+the Fairness Doctrine by the Federal Communications Commission
+("FCC") in 1987, the federal government stopped policing the fairness
+and accuracy of information conveyed by radio and television stations. 9
+The private fairness doctrine cannot solve the problem of channelized
+information flows, but it can harness market and social pressure to
+provide a partial substitute for the old public standard.
+An existing or new broad, multistakeholder organization could
+develop and implement the new private standard, following widely
+adopted protocols developed for private standards and certification
+systems.1 0 It could conduct transparent processes that produce, take
+comment on, and periodically update the standard. Independent
+auditors could perform the certification assessments. The content of the
+new standard could be drawn from the earlier FCC standard, with
+modifications to reflect developments in technology and lessons learned
+from the FCC experience. The standard should seek greater accuracy
+and completeness, but it should not seek balance. Although appealing
+on the surface, balance can easily be manipulated to create a false sense
+of equivalency on issues ranging from vaccination risks to climate
+change." The certifications issued by this organization could solve
+many of the information and coordination problems confronted by
+advertisers and advocacy groups, enabling them to create and steer
+market and social pressure toward media firms in a way that is now
+done on a more limited and haphazard basis.
+A brief example illustrates how the new private fairness doctrine
+could function. An executive at a major retailer today may be faced with
+competing demands from liberals and conservatives to stop advertising
+on The Rachel Maddow Show or Laura Ingraham's "Ingraham Angle,"
+yet the executive may lack the information necessary to know which
+show is misstating or omitting key facts and may fear backlash from
+the other side once a decision is announced. As to television and radio
+stations, until 1987, the FCC's Fairness Doctrine provided some
+See discussion infra notes 100-137 and accompanying text (discussing the FCC fairness
+9.
+doctrine in greater depth).
+10. See, e.g., What are Credible Sustainability Standards?, ISEAL ALLIANCE,
+https://www.isealalliance.org/credible-sustainability-standards/what-are-credible-sustainabilitystandards (last visited Apr. 1, 2020) [https://perma.cc/BP7Z-PFTM].
+11. See discussion supra notes 2-3 and accompanying text (discussing polarization and its
+distortive effects on information flows).
+
+8 16
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+constraints that the FCC enforced through the power of the federal
+licensing process. 12 It may not be a coincidence that MSNBC and Fox
+News were founded in the decade after the demise of the Fairness
+Doctrine. 13 Similar issues arise with advertising on Facebook, Google,
+Twitter, and other new media sources. The struggles of Facebook and
+Twitter, in particular, to develop systems that address concerns about
+bias and the accuracy of political and policy-relevant advertisements
+have been the subject of substantial amounts of media coverage and
+academic research.14
+A private standards and certification organization could
+evaluate the systems in place at each of the major traditional and new
+media organizations and score them. Retailers could announce in
+advance that they will only advertise on "A"-rated television and radio
+programs and new media services, and their market power could then
+motivate traditional and new media organizations to put the systems in
+place necessary to achieve an "A" rating. Advocacy groups could also
+draw on the certifications when conducting naming-and-shaming,
+boycott, and other public-focused campaigns. The private fairness
+doctrine could harness these private market and social forces, improve
+the governance of private initiatives that target the media, and
+ultimately improve the flow of information necessary for deliberative
+democracy.
+Why might the private fairness doctrine succeed? A growing
+body of literature demonstrates how private governance initiatives are
+performing the functions of government in the environmental, labor,
+gun control, animal welfare, fair trade, and other areas.1 5 They often do
+12. See discussion infra notes 100-137 and accompanying text.
+13. See Jill Lepore,
+The Hacking of America, N.Y. TIMES (Sept. 14, 2014),
+https://www.nytimes.com/2018/09/14/sunday-review/politics-disruption-media-technology.html
+[https://perma.cc/3TQA-72RX] (noting MSNBC and Fox were founded in 1996).
+14. See Marjorie Heins, The Brave New World of Social Media Censorship, 127 HARV. L. REV.
+FORUM 325, 326 (2014) (noting that Facebook's censorship rules curtail speech otherwise protected
+by the First Amendment and "[u]nlike censorship decisions by government agencies, the process
+in the private world of social media is secret"); Kate Klonick, The New Governors: The People,
+Rules, and Processes Governing Online Speech, 131 HARV. L. REV. 1598, 1660 (2018) ("[P]latforms
+play no significant role-yet-in determining whether content is true or false or whether coverage
+is fair or unfair."); Rory Van Loo, The Corporationas Courthouse, 33 YALE J. REG. 547 (2016)
+(discussing the use of consumer-driven complaints to police content); see also Kristen E.
+Eichensehr, Digital Switzerlands, 167 U. PA. L. REV. 665 (2019) (discussing the extent to which
+internet companies perform governmental functions). For a recent example of Facebook's efforts
+to include outside experts to resolve and validate its decisions on advertising, see Tony Romm,
+Facebook Unveils Charterfor Its 'Supreme Court,' Where Users Can Go to Contest the Company's
+Decisions, WASH. POST (Sept. 17, 2019), https://www.washingtonpost.com/technology/2019/09/17/
+facebook-unveils-charter-its-supreme-court-where-users-can-go-contest-companys-decisions/
+[https://perma.cc/LG9A-PQP4].
+15. Scholars in many fields have explored how private organizations can perform
+governmental functions, although they have used a variety of terms for the concept. See, e.g.,
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+817
+
+not achieve all of their goals 16 and are often a second-best option when
+government action is not viable, but many have measurable effects on
+firm behavior.1 7 A remarkable number and type of private initiatives
+have emerged in recent years, and these private governance initiatives
+are now common in the United States and around the globe. Studies by
+political scientists, economists, and sociologists have examined why
+they arise and the extent to which they are performing governmental
+functions.1 8 For instance, more than ten percent of all fish caught for
+human consumption around the world is subject to the private
+standards set by the Marine Stewardship Council ("MSC"). 19 More than
+eighty percent of the lending for project finance development around
+the world is subject to the Equator Principles, private environmental
+disclosure standards modeled on the National Environmental Policy
+TIMOTHY D. LYTTON, KOSHER: PRIVATE REGULATION IN THE AGE OF INDUSTRIAL FOOD (2013)
+
+&
+
+(discussing the growth of private kosher certification agencies in the food industry); Kenneth W.
+Abbott & Duncan Snidal, The Governance Triangle: Regulatory Standards Institutions and the
+Shadow of the State, in THE POLITICS OF GLOBAL REGULATION 44 (Walter Mattli & Ngaire Woods
+eds., 2009) (discussing the rise and function of alternative "governance arrangements," including
+industry associations and NGOs); David P. Baron, Private Politics, Corporate Social
+Responsibility, and Integrated Strategy, 10 J. ECON. & MGMT. STRATEGY 7, 7 (2001) (proposing "a
+theory of private politics in which an activist seeks to change the production practices of a firm for
+the purpose of redistribution to those whose interests it supports"); Tim Bartley, Certifying Forests
+and Factories:States, Social Movements, and the Rise of Private Regulation in the Apparel and
+Forest Products Fields, 31 POL. & SOC'Y 433, 434-37 (2003) (introducing emergent systems of
+private regulation in North American apparel and forest products sectors); Steven Bernstein
+Benjamin Cashore, Can Non-State Global Governance be Legitimate?An Analytical Framework, 1
+REG. & GOVERNANCE 347, 349-50 (2007) ("Where national and international regulation of
+significant global social and environmental problems has been absent or weak, an array of
+voluntary, self-regulatory, shared governance, and private arangements has begun to fill the policy
+void."); Errol E. Meidinger, Environmental Certification Programsand U.S. Environmental Law:
+Closer than You May Think, 31 ENVTL. L. REP. 10162, 10162 (2001) (listing several examples of
+influential nongovernmental "environmental certification programs"); David Vogel, The Private
+Regulation of Global Corporate Conduct, 49 BUS. & SOC'Y 68, 69-70 (2010) ("Global civil
+regulation-voluntary, private, nonstate industry and cross-industry codes that specify the
+responsibilities of global firms for addressing labor practices, environmental performances, and
+human rights have become a highly visible and increasingly legitimate dimension of global
+economic governance.").
+
+16. See Jennifer Jacquet et al., Seafood Stewardship in Crisis, 467 NATURE 28, 29 (2010)
+(discussing how "the incentives of the market have led [a seafood stewardship] certification scheme
+away from its original goal, towards promoting the certification of ever-larger capital-intensive
+operations").
+&
+
+17. See STEERING COMM. OF THE STATE-OF-KNOWLEDGE ASSESSMENT OF STANDARDS
+CERTIFICATION, TOWARD SUSTAINABILITY: THE ROLES AND LIMITATIONS OF CERTIFICATION 9 (2012)
+https://www.rainforest-alliance.org/sites/default/files/
+[hereinafter TOWARD SUSTAINABILITY],
+
+2016-08/toward-sustainability.pdf [https://perma.cc[BGT3-TE271 (discussing the "current market
+status of key voluntary standards and certification systems").
+18. See id. at 6-13 (discussing the emergence and function of private standards and
+certification systems).
+
+19. Rob Fletcher, MSC Sets 20 Percent Global Coverage Goal, FISH SITE (Oct. 5, 2017, 12:43
+PM), https://thefishsite.com/articles/msc-sets-20-percent-global-coverage-goal_[https://perma.cc/
+DEA3-KP82].
+
+818
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+Act ("NEPA") and managed by a private organization. 20 Although much
+remains to be understood about these private governance initiatives,
+they are proliferating, and research suggests that they can influence
+the behavior of organizations and individuals even absent the coercive
+power and resources of government. 21
+A private standards and certification system could go wrong in
+many ways. It could become captive of particular market, social or
+political interests. 22 It could generate valuable assessments of media
+processes but not generate sufficient market or social pressure to affect
+media behavior. It could affect media behavior but not improve the
+quality of the information used in political discourse and
+decisionmaking. This Essay examines these concerns and concludes
+that although they present genuine threats, the most important
+question is how the private fairness doctrine would compare to the
+likely alternatives: revival of government regulation or continued
+muddling through without systematic, accountable oversight. The
+former is highly unlikely, and if it occurs it may be worse than the
+current situation. Ironically, a private standard, if carefully designed
+and implemented, may produce a more democratically accountable
+system than a government regulatory standard developed through
+
+20. Equator Principles, FIRST FOR SUSTAINABILITY,
+https://firstforsustainability.org/
+sustainabilityexternal-initiatives/sustainability-frameworksequator-principles/ (last visited Apr.
+1, 2020) [https://perma.cclKZM4-LWXQ]. Private standards use many of the same instruments
+and address many of the same subject matter areas as the major federal environmental statutes.
+See Sarah E. Light & Eric W. Orts, Parallelsin Public and Private Environmental Governance, 5
+MICH. J. ENVTL. & ADMIN. L. 1, 10 (2015) ("By 'parallel' we mean that private actors are adopting
+similar techniques and methods as those that public regulators use to address environmental
+problems. . . ."); Sarah E. Light & Michael P. Vandenbergh, Private Environmental Governance,
+in II DECISION MAKING IN ENVIRONMENTAL LAW 253, 254 (LeRoy C. Paddock et al. eds., 2016)
+(arguing that "private governance is an important source of environmental standards and
+initiatives that both complement and compete with positive law").
+21. See generally TOWARD SUSTAINABILITY, supra note 17 (explaining the proliferation of
+voluntary labeling initiatives and certification standards and evaluating their effectiveness).
+These private systems often draw on or increase existing financial and social motivations for
+individuals and organizations to act. See Sarah E. Light, The Law of the Corporation as
+EnvironmentalLaw, 71 STAN. L. REV. 137, 162 (2019) (noting that "[miarkets affect behavior by
+making it more or less costly as a function of price, while norms affect behavior by making it more
+or less costly as a result of social sanction or approbation"). Shifts in other areas of law may be
+necessary to avoid consumer information overload and other barriers to private initiatives. See
+David E. Adelman, Trademarks and Private Environmental Governance, 93 NOTRE DAME L. REV.
+709, 713 (2018) (discussing how "the technical nature of this information increases the risk of
+information overload: the more ecolabels there are, the more information there is to process, and
+the more likely consumers will be to use shortcuts (that savvy marketing can exploit) or to give up
+entirely").
+22. See Miriam Seifter, Complementary Separations of Power, 9 N.Y.U. L. REV. ONLINE 186,
+187-89 (2016) (arguing that Congress is less vulnerable to "inequality and exclusion" than civil
+society).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+819
+
+current government processes or through government regulation or
+other pressure as threatened by President Trump. 23
+Private efforts thus far have taken important steps but have
+been insufficient. Nonpartisan fact-checking organizations have
+emerged, as have efforts to shame or boycott media companies based on
+the perceived accuracy or fairness of the information they distribute.
+Many of these initiatives have been short-term, ad hoc, single-issuefocused efforts, and they have had mixed success thus far. To be
+effective, the new private fairness doctrine would need to have
+widespread backing, legitimacy, and reach, but the beauty of a welldesigned private standards and certification system is that the
+stakeholders who manage the system may be more responsive to public
+preferences than politicians: the largest retail firms, institutional
+investors, and nonprofit organizations have many limitations, but they
+have incentives to reach large audiences and thus may be more
+accountable to a broad swath of the population than are politicians. 24
+Many large retail firms must appeal to a diverse, national, or global
+customer base and cannot gerrymander their markets. Similarly, media
+firms need a social license to operate in addition to various legal
+licenses, and the certification provided by a private fairness doctrine
+organization could serve as a proxy. 2 5 Defectors can voice their concerns
+
+23. See, e.g., Alyza Sebenius & Ben Brody, Trump Says U.S. Should Sue Facebook, Google,
+BLOOMBERG (June 26, 2019), https://www.bloomberg.com/news/articles/2019-06-26/trump-says-u-s(noting that
+[https://perma.cc/2FHQ-7DQN]
+should-sue-facebook-google-in-latest-complaint
+President Trump has threatened a government suit against Facebook and Google); see also Chris
+Hughes, It's Time to Break up Facebook, N.Y. TIMES (May 9, 2019) https://www.nytimes.com/2019/
+[https://perma.cc/64KM-D78U]
+05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html
+(suggesting government antitrust action against Facebook).
+24. See discussion infra notes 55-61 (exploring the potential for private governance to guide
+corporate behavior). An evaluation of the situations in which markets or government better reflect
+public preferences is beyond the scope of this Essay. Cass Sunstein concludes that "market
+ordering is undemocratic and that choices made through the political process are a preferable basis
+for social ordering," but argues that
+[a] generalization of this sort would be far too broad in light of the multiple breakdowns
+of the political process and the advantages of market ordering in many arenas. But it
+would also be a mistake to suggest, as some do, that markets always reflect individual
+choice more reliably than politics, or that political choices differ from consumption
+outcomes only because of confusion, as voters fail to realize that they must ultimately
+bear the costs of the programs they favor.
+CASS R. SUNSTEIN, AFTER THE RIGHTS REVOLUTION: RECONCEIVING THE REGULATORY STATE 57-
+
+69 (1990).
+25. Neil Gunningham et al., Social License and Environmental Protection: Why Businesses
+Go Beyond Compliance, 29 LAw & Soc. INQUIRY 307, 308-10 (2004) (concluding that corporations
+operate as though they need a social license to operate).
+
+820
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+to the supporters of the private standard or exit to form a competing
+standard.26
+Part I of this Essay briefly discusses the emergence of private
+governance initiatives. It focuses on the common features of influential
+private standards and certification systems and provides a simple
+model explaining why they arise and why they can be effective. Part II
+then examines how information flow problems exacerbate the
+polarization that is undermining formal and informal democratic
+processes. Part III proposes an initiative to develop, administer, and
+enforce a private fairness doctrine and discusses objections and
+extensions. It also notes that while this Essay focuses on the flow of
+information, the concept of private governance can also stimulate
+creative thinking about other core democratic processes, including
+campaign finance, voting, and ballot security.27
+
+I. PRIVATE GOVERNANCE MODELS
+Private governance initiatives have proliferated in the last two
+decades. These initiatives have performed governmental functions on a
+wide range of important topics, including fisheries, forests, labor, fair
+trade, gun control, organic food, animal welfare, and others. 28 This Part
+explores why private governance initiatives emerge and how they
+function, and it identifies critical elements for the design of the private
+fairness doctrine.
+Private governance organizations motivate behavior change
+based on market, social, and private legal pressure rather than relying
+on government taxes, subsidies, or regulations. Market and legal
+influences are front and center in much of the legal literature, but it is
+important not to underestimate the power of personal and social norms.
+In recent decades, research in social psychology and sociology has
+demonstrated that personal norms exert strong influence on behavior. 29
+In other words, even if others cannot observe a behavior, if an individual
+believes the behavior to be morally wrong, engaging in it can cause
+feelings of guilt or anxiety that discourage the behavior. Individuals
+26.
+Cf. ALBERT 0. HIRSCHMAN, EXIT, VOICE, AND LOYALTY: RESPONSES TO DECLINE IN FIRMS,
+ORGANIZATIONS, AND STATES 4 (1970) (theorizing the "exit" and "voice" options whereby firm
+
+management discovers its failings).
+27. See, e.g., Ganesh Sitaraman, ContractingAround Citizens United, 114 COLUM. L. REV.
+755, 758 (2014) (examining a private contract between Republican Scott Brown and Democrat
+Elizabeth Warren to limit out-of-state political action committee ("PAC") campaign contributions).
+28. See sources cited supra note 15 (examining how different private organizations perform
+governmental functions).
+
+29. See Paul C. Stern, Information,Incentives, and ProenvironmentalConsumer Behavior, 22
+J. CONSUMER POL'Y 461, 464, 466 (1999).
+
+A PRIVATE FAIRNESS DOCTRINE
+
+2020]
+
+821
+
+and organizations can activate the personal norms held by individuals,
+inducing them to engage in behaviors that are consistent with their
+norms. 30
+In addition, scholars in political science, economics, sociology,
+psychology, and other fields have explored the range of social influences
+that affect the behavior of individuals and organizations. Even in the
+absence of personal norms, people often respond to two types of social
+norms:3 1 they tend to act as others think they should act (injunctive
+norms) and in ways that they think others are acting (descriptive
+norms). 32 This occurs even if no moral, social, economic, or legal
+sanctions or rewards are likely to arise from the behavior. Research has
+demonstrated that social norms are at least as influential as personal
+norms and are easier to model. 33 The importance of personal and social
+norms has induced leading social scientists to argue that corporations
+not only need a legal license to operate, but also a social license to
+operate. 34
+Nobel Prize-winning research by Elinor Ostrom and colleagues
+demonstrated how groups organize to manage collective resources even
+absent government intervention. 35 Ostrom's work identified the
+conditions that are often necessary for this form of private ordering to
+succeed. Much of Ostrom's work focused on small groups, but scholars
+30. Id. at 462-63 (citing Shalom H. Schwartz, Universals in the Content and Structure of
+Values: TheoreticalAdvances and Empirical Tests in 20 Countries, 25 ADVANCES EXPERIMENTAL
+Soc. PSYCHOL. 1, 54, 65 (1992)).
+31. ERIC A. POSNER, LAW AND SOCIAL NORMS 11-35 (2000); Robert B. Cialdini, Carl A.
+
+Kallgren & Raymond R. Reno, A Focus Theory of Normative Conduct: A Theoretical Refinement
+and Reevaluation of the Role of Norms in Human Behavior, 24 ADVANCES EXPERIMENTAL Soc.
+PSYCHOL. 201, 202-04 (1991).
+
+32.
+
+Cialdini et al., supra note 31, at 201-04. For a discussion in the legal literature, see
+
+ROBERT C. ELLICKSON, ORDER WITHOUT LAW: How NEIGHBORS SETILE DISPUTES (1991) (noting
+
+that people largely govern themselves through social norms).
+33. See ELLICKSON, supra note 32, at 124, 132; POSNER, supra note 31, at 34-35. For a
+discussion in the political science literature, see ELINOR OSTROM, GOVERNING THE COMMONS: THE
+EVOLUTION OF INSTITUTIONS FOR COLLECTIVE ACTION 35-37 (1990); ELINOR OSTROM,
+UNDERSTANDING INSTITUTIONAL DIVERSITY 259 (2005); and Thomas Dietz, Elinor Ostrom & Paul
+
+C. Stern, The Struggle to Govern the Commons, 302 SCI. 1907, 1908 (2003) (noting that effective
+commons governance depends, in part, on "frequent face-to-face communication and dense social
+networks [at the local level]-sometimes called social capital-that increase the potential for trust,
+allow people to express and see emotional reactions to distrust, and lower the cost of monitoring
+behavior and inducing rule compliance"); see also Oran R. Young, Building Regimes for
+Socioecological Systems: Institutional Diagnostics, in INSTITUTIONS AND ENVIRONMENTAL
+CHANGE: PRINCIPAL FINDINGS, APPLICATIONS, AND RESEARCH FRONTIERS 115, 123 (Oran R. Young,
+
+Leslie A. King & Heike Schroeder eds., 2008) (discussing effective "self-contained" institutional
+arrangements).
+
+34. See Gunningham et al., supra note 25, at 308-10 (discussing the importance of social
+licenses and how they can encourage companies to go beyond mere compliance in the context of
+safety measures).
+35. For a review, see Dietz, Ostrom & Stern, supra note 33, at 1907.
+
+822
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+have also demonstrated how large, complex private institutions have
+arisen to set and enforce standards in other settings. 36 Private
+governance initiatives have led to the formation of private
+organizations
+that
+perform the
+types of standard-setting,
+implementation, monitoring, enforcement, and dispute resolution
+functions that are the bread and butter of government agencies. 37 These
+private governance initiatives are not examples of the government
+privatizing its functions or of public-private hybrids. 38 Instead,
+government plays little or no role in the formation and operation of
+these initiatives. The absence of government involvement distinguishes
+private governance from privatization and public-private hybrids, and
+the lack of dependence on government action is particularly important
+when standard democratic processes break down. By untethering the
+performance of governmental functions from government, private
+governance initiatives can bypass the dysfunctions of government that
+can arise from polarization, capture by special interests, and other
+factors. 39
+Some private initiatives focus explicitly on rewarding or
+penalizing corporations and other organizations for their political
+conduct, 40 but most private governance initiatives perform a function
+36. See sources cited supra note 15 (examining how different private organizations perform
+governmental functions).
+37. See Abbott & Snidal, supra note 15, at 46-47 (discussing nonstate standards in
+implementation, monitoring, and enforcement); Bernstein & Cashore, supra note 15, at 349-50
+(identifying features of nonstate, market-driven governance systems).
+38. The term private governance is not synonymous with privatization, which occurs when
+the government contracts out governmental functions, such as with private prisons. Compare
+GOVERNMENT BY CONTRACT: OUTSOURCING AND AMERICAN DEMOCRACY (Jody Freeman & Martha
+
+Minow eds., 2009) (discussing government outsourcing to private organizations), with
+Vandenbergh, supra note 8, at 174 (exploring the "independent regulatory role often played by
+private actors, not just public agencies or public-private hybrids"). In some cases, private
+initiatives are developed in response to public laws, see Michael P. Vandenbergh, The Private Life
+of Public Law, 105 COLUM. L. REV. 2029, 2030-32 (2005), but private governance does not occur
+because government outsourced its functions by contracting with private parties. Instead, it occurs
+when private initiatives fill gaps in, complement, or compete with government activities.
+39. The Georgia legislature's attempt to block Delta Airlines' efforts to support gun control
+after the Parkland, Florida, shooting is an example of a government effort to prevent a company
+from responding to widespread public preference. The Georgia legislature used state tax pressure
+to push Delta Airlines to reinstate a benefit program for National Rifle Association ("NRA")
+members. Richard Fausset, Georgia PassesBill that Stings Delta over N.R.A. Position,N.Y. TIMES
+(Mar. 1, 2018), https://www.nytimes.com/2018/03/01/business/delta-nra-georgia.html
+[https://
+perma.cc/WMQ6-VM4K. A second tactic is litigation to undercut private and quasi-governmental
+initiatives. For instance, the NRA sued the New York state pension fund to prevent it from
+disfavoring investments in gun manufacturers. Jacey Fortin, N.R.A. Suit Claims Cuomo's
+'Blacklisting'Has Cost It Millions of Dollars, N.Y. TIMES (Aug. 4, 2018), https://www.nytimes.coml
+2018/08/04/nyregion/nra-broke-financial-lawsuit.html [https://perma.cc/TC7P-2L67].
+40. For instance, an organization called Buy Partisan allows individuals to make purchasing
+decisions based on whether a firm's executives support Republicans or Democrats. See BUY
+PARTISAN, http://buypartisan.com/ (last visited Apr. 1, 2020) [https://perma.cc/GT23-SFEX
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+823
+
+traditionally assigned to governments rather than explicitly attempting
+to influence the political process. The environmental field has been one
+41
+with
+of the most robust areas for private governance activity,
+initiatives on topics ranging from climate mitigation to toxics regulation
+to forest and fisheries management. 42 Private governance initiatives
+have also developed on other topics. For instance, private initiatives are
+taking a leading role in gun control: several retailers have adopted
+restrictions on the sale of guns and ammunition, and other firms,
+including Levi Strauss & Co. and Delta Airlines, have supported gun
+restrictions. 43 Similarly, a deep literature has examined how Nike and
+many other large retailers have set labor standards for clothing
+manufacturers and has pointed out the successes and failures of those
+efforts. 44 On animal welfare, firms ranging from Chipotle to McDonald's
+to Chick-fil-A have set standards of care for the chickens and eggs they
+buy from corporate suppliers. 4 5
+(urging website visitors to "Scan. Discover. Decide. Shop according to your values"). The
+organization offers a cell phone application that allows individuals to scan products to learn about
+the donations by the firm or its executives. Similarly, an organization called 2nd Vote encourages
+conservatives to use their purchasing power to push corporations to adopt conservative values and
+2020)
+1,
+Apr.
+visited
+(last
+https://www.2ndvote.com/
+VOTE,
+See 2ND
+policies.
+[https://perma.cc/735E-XSQ8]; see also Joel Ebert, Diane Black's Ties to Conservative Nonprofit
+Raise Concerns About How She Would Treat Companies, TENNESSEAN (July 23, 2018),
+https://www.tennessean.com/story/news/politics/tn-elections/2018/07/23/tn-governors-race-diane-
+
+black-ties-conservative-nonprofit-2nd-vote-raise-concerns-elections/80045 1002/ [https://perma.cc/
+8HWX-9HH8] (discussing 2nd Vote).
+41. Vandenbergh, supra note 8, at 130-31; see also Upcoming Lautenberg Bill Could Be Key
+Test for TSCA Reform This Congress, INSIDE EPA WKLY. REP., Apr. 1, 2011, at 6 (quoting Ernie
+Rosenberg of the American Cleaning Institute for the proposition that "[t]he loss of public
+confidence [in the public regulatory system means] we're going to increasingly have retailers that
+are regulators, like Wal-Mart and Target").
+42. The MSC sets sustainable fishery standards rather than trying to induce governments to
+set standards. Its private standards regulate more than ten percent of all fish caught for human
+consumption around the world. The Forest Stewardship
+
+Council sets and enforces
+
+private
+
+sustainable forestry practices for roughly fifteen percent of all temperate forests. Vandenbergh,
+supra note 8, at 148-50.
+43. See Abha Bhattarai, Levi Strauss CEO Takes a Side on Gun Control: 'It's Inevitable that
+We're Going to Alienate Some Consumers', WASH. POST (Sept. 10, 2018, 10:57 AM),
+https://www.washingtonpost.com/business/2018/09/10/levi-strauss-ceo-takes-side-gun-control-itsinevitable-that-were-going-alienate-some-consumers/ [https://perma.cc/EBA4-V5KN]; discussion
+supra note 39. For discussion of corporate responses to efforts by the NRA to block firearm
+regulations, see Jackie Wattles, Delta and United Join List of Companies to Cut Ties with the NRA,
+CNN (Feb. 24, 2018), http://money.cnn.com/2018/02/23/news/companies/enterprise-nra-car-rentaldiscounts/index.html [https://perma.ccY64Z-7Y9W]; and see also Andrew Ross Sorkin, How Banks
+19, 2018),
+Could Control Gun Sales if Washington Won't, N.Y. TIMES (Feb.
+[https://perma.cc/62MKhttps://www.nytimes.com/2018/02/19/business/banks-gun-sales.html
+W2K6] (discussing how banks could lower weapon sales by refusing to do business with certain
+gun shops).
+44. For an early analysis, see Dara O'Rourke, Outsourcing Regulation: Analyzing
+Nongovernmental Systems of Labor Standardsand Monitoring, 31 POL'Y STUD. J. 1, 7-10 (2003).
+45. See Gina-Marie Cheeseman, Chipotle Rolls Out New Animal Welfare Standards for
+Chickens, TRIPLE PUNDIT (Jan. 18, 2017), https://www.triplepundit.com/2017/01/chipotle-new-
+
+824
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+Taken as a whole, the literature across multiple disciplines and
+topics demonstrates how private organizations have used private
+coercion and resources to serve traditionally governmental functions.
+The point is not that these private initiatives have been uniformly
+successful or beneficial. A number of these initiatives have achieved
+demonstrable successes in changing the behavior of key actors or in
+changing the targeted conditions, but some have had only limited
+success, and others have failed outright (e.g., an effort to set a private
+standard to limit the harvesting of tropical fish for household
+aquariums).4 6 Rigorous empirical and theoretical research is needed to
+assess how these private initiatives arise, whether they accomplish
+their goals, how they should be evaluated as compared to government
+actions, the spillover effects on government actions, and other issues.
+The on-the-ground examples, empirical studies, and theoretical work to
+date, though, demonstrate that private initiatives can play a proof-ofconcept role and can perform or complement governmental functions on
+a wide range of topics.
+The Equator Principles provide a potential model for the private
+fairness doctrine. The Equator Principles are private standards that are
+roughly analogous to NEPA, the federal statute that requires disclosure
+of the human and environmental impacts of major federal decisions.
+NEPA has become a model for many states and foreign governments,
+but a large gap exists in the reach of NEPA and its public law
+analogues. Roughly half of the states and most countries do not have a
+NEPA-equivalent statute, and the federal NEPA requirements do not
+apply to activities in the United States that do not involve a major
+federal action.
+In the 1990s, advocacy groups conducted naming-and-shaming
+campaigns regarding the environmental harms arising from projects in
+the developing world that were financed by major public and private
+lenders. 47 These advocacy group campaigns induced the World Bank
+and International Monetary Fund to develop guidelines regarding
+
+animal-welfare-standard-chickens/ [https://perma.cc/5G2B-2ZUP]; Chick-fil-A to Source 100
+Percent Cage-Free Eggs, CHICKEN WIRE (Mar. 9, 2016), https:/thechickenwire.chick-fila.com/News/Chick-fil-A-to-Source-100-Percent-Cage-Free-Eggs
+[https://perma.cc/AM8M-6XWS];
+McDonald's
+Elevates
+Chicken
+Welfare
+Standards,
+QSR
+(Oct.
+30,
+2017),
+https://www.qsrmagazine.com/news/mcdonalds-elevates-chicken-welfare-standards
+[https://perma.cc/C6C5-7AA9].
+46.
+
+For a review of these systems, see TOWARD SUSTAINABILITY, supra note 17.
+
+47. See Nigel Clayton, The EquatorPrinciples and Social Rights: Incomplete Protection in a
+Self-Regulatory World, 11 ENVTL. L. REV. 173, 185-87 (2009) (describing several examples of
+nongovernmental organizations calling out banks for transparency, consultation, and
+environmental issues related to projects in the developing world).
+
+825
+
+A PRIVATE FAIRNESS DOCTRINE
+
+2020]
+
+environmental impacts and to reduce funding levels. 48 These efforts
+also induced private banks to form the Equator Principles, private
+standards that require the project developers to disclose and reduce the
+environmental harms of the projects funded through project finance
+loans. 49 Lenders representing more than eighty percent of global project
+finance lending are now signatories to the Equator Principles. As with
+the international, national, and subnational government disclosure
+standards, the effects of the Equator Principles on the environmental
+harms from covered projects are difficult to assess, but the private
+requirements have substantially increased the disclosure of
+environmental information for projects that otherwise would not be
+50
+subject to federal-, state-, or foreign-law disclosure requirements.
+The Equator Principles standards share many common features
+with the MSC standards for sustainable fisheries and other major
+private sustainability standards. This is not by chance: stakeholders
+and the funders who support these organizations have pushed for
+processes that will enhance legitimacy. The result is a private
+organization called ISEAL Alliance, which sets standards for private
+standard-setting organizations.5 1 Common organizational components
+
+48.
+
+See,
+
+e.g.,
+
+Environmental
+
+and
+
+Social
+
+Standards
+
+(ESS),
+
+WORLD
+
+BANK,
+
+https://projects.worldbank.org/en/projects-operations/environmental-and-social-framework/brief/
+
+environmental-and-social-standards (last visited Apr. 1, 2020) [https://perma.cc/GK89-QMX6);
+IMF and the Sustainable Development Goals, INT'L MONETARY FUND (Feb. 26, 2020),
+https://www.imf.org/en/About/Factsheets/Sheets/2016/08/01/16/46/Sustainable-DevelopmentGoals [https://perma.cc/J9WQ-VMDX].
+49. See The Equator Principles: June 2006, EQUATOR PRINCIPLES (2006), https://equator[https://perma.cc/CQ3Xprinciples.com/wp-content/uploads/2017/03/equator-principlesIl.pdf
+VCRX] (describing the Equator Principles framework, "[a] financial industry benchmark for
+determining, assessing, and managing social and environmental risk in project financing"); see
+also Carbon Counts 2007: The Carbon Footprints of UK Investment Funds, TRUCOST (July 18,
+2007), http://www.trucost.com/published-research/19/carbon-counts-2007-the-carbon-footprintsof-uk-investment-funds [https://perma.cclWCY9-BAS3] (ranking UK equity funds by their carbon
+footprints).
+50. See Ariel Meyerstein, Traasnational Private Financial Regulation and Sustainable
+Development: An EmpiricalAssessment of the Implementation of the Equator Principles, 45 N.Y.U.
+J. INT'L L. & POL. 487 (2013) (exploring how the impact of governance regimes can be measured);
+Andrew Hardenbrook, Note, The Equator Principles: The Private FinancialSector's Attempt at
+Environmental Responsibility, 40 VAND. J. TRANSNAT'L L. 197 (2007) (analyzing whether the
+Equator Principles are having a positive impact and achieving their goals in developing countries);
+Marissa Marco, Note, Accountability in InternationalProjectFinance: The Equator Principlesand
+the Creation of Third-Party-Beneficiary Status for Project-Affected Communities, 34 FORDHAM
+IN'L L.J. 452 (2011).
+51. See ISEAL ALLIANCE, https://www.isealalliance.org/ (last visited Apr. 1, 2020)
+ISEAL has set several standards for standard-setting
+[https://perma.cclQU48-UA7R].
+organizations. ISEAL Credibility Principles, ISEAL ALLIANCE, https://www.isealalliance.org/
+2020)
+1,
+(last visited Apr.
+credible-sustainability-standardsiseal-credibility-principles
+[https://perma.cc/RAQ7-5STF]; Setting Social and EnvironmentalStandards:ISEAL Code of Good
+Practice, ISEAL ALLIANCE (2014), https://www.isealalliance.org/ sites/default/files/resource/2017-
+
+VANDERBILT LAW REVIEW
+
+826
+
+[Vol. 73:3:811
+
+include a broad-based stakeholder group that plays a guiding or
+advising role, a secretariat that administers the standards, and
+mechanisms for enforcement and dispute resolution. The process for
+producing and updating the standards often closely resembles the core
+aspects of Administrative Procedure Act notice and comment
+rulemaking: the organization publishes a draft standard, solicits
+comments, responds to comments, modifies the standard, and
+republishes it in final form. The Equator Principles are now in their
+third iteration of this process. The MSC standards are updated in this
+way on a periodic basis, 52 as are the FSC standards.5 3
+Private government organizations deploy many of the same
+instruments as are used in government regulation and address many of
+the same topic areas. 54 Monitoring and enforcement mechanisms vary
+but typically require some form of third-party auditing and use denial
+of certification as the principal enforcement tool. Certification conveys
+the imprimatur of the organization and enables a regulated firm to
+easily communicate its status to the firm's stakeholders, whether
+corporate or retail customers, advocacy groups, investors, lenders,
+employee groups, or government regulators.
+How can these types of private initiatives drive behavior change
+among individuals, corporations, and other targets without the coercive
+power or resources of government? The drivers of participation in
+private governance initiatives are not fully understood and likely vary
+across participants and initiatives, but research in several fields has
+provided an initial snapshot. Private governance initiatives often arise
+after advocacy groups have conducted naming-and-shaming campaigns
+to induce companies to participate in the formation of the standards.5 5
+Companies respond to these campaigns for a complex mix of reasons
+that likely include concerns that the advocacy groups will be able to
+stimulate shifts in market behavior (e.g., actions by consumers,
+employees, managers, investors, and lenders) or nonmarket social
+behavior (e.g., pressure from individuals and religious, university, civic,
+
+11/ISEAL Standard SettingCode-v6 Dec_2014.pdf
+Credible SustainabilityStandards?,supra note 10.
+52.
+
+MSC
+
+Standard
+
+Setting
+
+Procedure,
+
+[https://perma.cc/795P-UC9U];
+
+MARINE
+
+STEWARDSHIP
+
+What are
+
+COUNCIL
+
+(2018),
+
+https://www.msc.org/docs/default-source/default-document-library/msc-standard-settingprocedure.pdf [https://perma.cc/KX4Q-VEHT].
+53. FSC-STD-60-006: Process Requirements for the Development and Maintenance of
+National
+
+Forest
+
+Stewardship
+
+Standards,
+
+FOREST
+
+STEWARDSHIP
+
+COUNCIL
+
+(2009),
+
+https://ic.fse.org/en/document-center/id/88 [https://perma.cc/4S9X-URT3].
+54. Light & Orts, supra note 20, at 1; Light & Vandenbergh, supra note 20.
+55. See Michael P. Vandenbergh & Johnathan A. Gilligan, Beyond Gridlock, 40 COLUM. J.
+ENVTL. L. 217, 264-65 (2015) (discussing how environmental advocacy groups targeted major
+banks with naming-and-shaming campaigns).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+827
+
+and cultural organizations). Funding for private governance initiatives
+is often provided by one or more philanthropic organizations, and an
+ongoing funding mechanism is often incorporated into the certification
+process. A core vulnerability of these systems is that the source of initial
+or ongoing funding can compromise the independence of the
+organization. Once the standards and certification organization is
+established and standards are in place, the organization may induce
+compliance by harnessing the same market and social forces that were
+used to form the organization.
+In many cases these private initiatives may steer behavior even
+when governments are unable to act because it is often easier for
+individuals to express their preferences through market and social
+mechanisms than through formal democratic processes. For instance, it
+may be easier for consumers to choose between two stores at the same
+shopping center, two goods on the same shelf, or two investment options
+for retirement funds than it is to vote, call a legislator, or contribute to
+a candidate. Not surprisingly, in many of the areas in which private
+governance initiatives have arisen, government actions or failures to
+act have been out of sync with the preferences of a large segment of the
+population (e.g., gun control, animal welfare, climate mitigation).
+Market and social pressure can be stimulated at low cost by
+nongovernmental organizations (e.g., advocacy groups, service groups,
+and civic, cultural and religious organizations) because new
+technologies and social media facilitate the ability of these
+organizations to gather, process, and spread information. For instance,
+a cell phone can scan products in a grocery store to reveal everything
+from the environmental footprint of the good to health and safety
+information. 56 Individuals may use the information not only to affect
+retail purchases, but also investments, decisions about where to work,
+and other actions.
+Although most consumers in the United States are not willing
+to pay a premium for green goods, they will often opt for green goods
+over others if the price is comparable. 5 7 In addition, although the effects
+of reputation on corporate behavior are difficult to study, many
+corporate actions regarding fisheries, forests, climate, and other issues
+may be driven more by concern about corporate brand than by specific
+
+56. See, e.g., GOODGUIDE, https://www.goodguide.com/#/ (last visited Apr. 1, 2020)
+[https://perma.ccl5DKM-ALKW] (rating over seventy-five thousand products based on their health
+and safety characteristics).
+57. See Mark Cohen & Michael P. Vandenbergh, The PotentialRole of Carbon Labeling in a
+Green Economy, 34 ENERGY ECON. S53, S55-S56 (2012) (reviewing market studies).
+
+828
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+consumer choices.58 Firms are keen to develop and protect their
+reputation out of concern that consumers will not even consider buying
+their products if they have a negative view of the firm's brand.5 9 Thus,
+even if direct consumer behavior change does not drive the behavior of
+the major retail firms that spend large amounts of advertising dollars,
+brand reputation may have a powerful influence. In addition, niche
+retailers can market to small groups, but large retailers cannot succeed
+unless they can maintain their reputation among a very broad share of
+the population.6 0 That may explain a wide range of otherwise puzzling
+behavior by firms, such as why a company like Dick's Sporting Goods
+banned the sale of AR-15 rifles despite strong opposition from gun
+advocates.6 1
+The magnitude of the pressure from lenders and investors is
+easy to underestimate, but a few examples suggest why this pressure
+may be influencing the behavior of many large corporations. The
+Equator Principles are the most prominent example of the ways in
+which lenders have used their market power regarding environmental
+and climate issues, but lenders are also participating in other similar
+initiatives. 62 Equity investors are also playing an important role. For
+instance, investment firms with more than $100 trillion in assets under
+management are part of the CDP (formerly the Carbon Disclosure
+Project), which encourages companies to disclose and reduce carbon
+emissions. The largest institutional investment firm in the world,
+BlackRock, has adopted a low-carbon policy and has begun enforcing
+the policy through its investment decisions and proxy voting. 63 Many
+58.
+
+Sharon Shewmake et al., Carbon Triage: A Strategy for Developing a Viable Carbon
+
+Labelling System, in HANDBOOK OF RESEARCH ON SUSTAINABLE CONSUMPTION 285, 289 (Lucia A.
+
+Reisch & John Thogersen eds., 2015). For overviews of research on corporate reputation, see
+DANIEL DIERMEIER, REPUTATION RULES: STRATEGIES FOR BUILDING YOUR COMPANY'S MOST
+
+VALUABLE ASSET (2011); and Wayne B. Gray & Jay P. Shimshak, The Effectiveness of
+Environmental Monitoring and Enforcement: A Review of the Empirical Evidence, 5 REV. ENVTL.
+ECON. & POLY 3 (2011).
+59. See sources cited supranote 58.
+60. Miriam Seifter has noted that civil society is more able to provide checks and balances at
+a national rather than subnational level. Miriam Seifter, Furtherfrom the People? The Puzzle of
+State Administration, 93 N.Y.U. L. REV. 107 (2018).
+61. See Mystica M. Alexander & Scott R. Thomas, Rogue Retailers or Agents of Necessary
+Change? Using CorporatePolicy as a Tool to Regulate Gun Ownership, 166 U. PA. L. REV. ONLINE
+283 (2018). The desire to appeal to the preferences of the majority or a large plurality of the
+population may also be the motivation for gun control actions by Levi Strauss, see Bhattarai, supra
+note 43, and Nike's recent advertising campaign focusing on Colin Kaepernick, see Patrick Coffee,
+How Nike's $6 Billion Colin Kaepernick Campaign Put the Focus Back on Big Creative Ideas,
+ADWEEK (Sept. 30, 2018), https://www.adweek.com/agencies/the-big-payback/ [https://perma.cc/
+QLW6-RPFC].
+62.
+
+VANDENBERGH & GILLIGAN, supra note 4.
+
+63. See Tim Quinn & Lex Suvanto, 10 Signs that Some of the World's Most Powerful Money
+Managers Are Worrying More About Climate Change, BUS. INSIDER (Feb. 7, 2018, 3:59 PM),
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+829
+
+other institutional investors and pension funds have done the same. In
+addition, recent research suggests that the holdings of the biggest
+institutional investors such as BlackRock, State Street and Vanguard
+are so large and depend so much on gains over the next five to twenty
+years that they have incentives to adopt an economy-wide and longterm perspective. 64 Other investor sectors are engaging in this type of
+behavior as well. For instance, one of the largest private equity firms in
+the United States, the Carlyle Group, has hired a former
+Environmental Defense Fund manager as its Chief Sustainability
+Officer, adopted a policy of carbon neutrality for its operations, and
+5
+committed to drive down the emissions from its portfolio companies. 6
+Pressure from lenders and investors may be a contributing
+the rapid uptake of many types of environmental supply-chain
+in
+factor
+requirements over the last several decades. Walmart has worked with
+environmental groups such as the Environmental Defense Fund to
+reduce emissions from its suppliers by more than twenty-eight million
+tons and has committed to achieve a billion tons by 2030.66 These are
+only anecdotal examples, but an empirical study of the largest firms in
+each of eight corporate sectors found that over half of the firms in each
+
+https://www.businessinsider.com/vanguard-blackrock-and-exxonmobil-worry-about-climate-
+
+(noting that BlackRock "listed climate risk
+change-2018-2 [https://perma.cc/3KU4-RZGG]
+disclosure practices among its top 'engagement priorities'"); Reuters, BlackRock Says Investors
+2016),
+6,
+(Sept.
+Investing, FORTUNE
+Climate Change When
+to Assess
+Need
+http://fortune.com/2016/09/06/blackrock-climate-change/ [https://perma.cc/EU7T-DZQW]; see also
+Press Release, The Carlyle Grp., The Carlyle Group Releases 2018 Corporate Citizenship Report
+https://www.carlyle.com/media-roomnews-release-archive/carlyle-group2018),
+12,
+(June
+releases-2018-corporate-citizenship-report [https://perma.cc/KG6W-AX5V] (announcing that The
+Carlyle Group, a private equity firm, is carbon neutral). Similarly, seventy-four percent of the U.S.
+population supports legal status for illegal immigrants brought to the United States as children,
+yet it was universities and employers that took action to protect Deferred Action for Childhood
+Arrivals recipients. Maria Sacchetti, University, Employers Scramble to Protect DACA Recipients,
+CHI. TRIB. (Feb. 23, 2018, 1:08 PM), http://www.chicagotribune.com/business/ct-biz-universityAlec
+[https://perma.cc/TNW7-VS4A];
+employers-protect-daca-recipients-20180223-story.html
+Tyson, Public Backs Legal Status for Immigrants Brought to U.S. Illegally as Children, but Not a
+Bigger Border Wall, PEW RES. CTR. (Jan. 19, 2018), http://www.pewresearch.org/facttank/2018/01/19/public-backs-legal-status-for-immigrants-brought-to-u-s-illegally-as-childrenbut-not-a-bigger-border-wall [https:/perma.cc/8UCN-TUVU].
+64. Madison Condon, Externalities and the Common Owner, WASH. L. REV. (forthcoming
+2020); Jon D. Harford, Firm Ownership Patternsand Motives for Voluntary Pollution Control, 18
+MANAGERIAL & DECISION ECON. 421 (1997).
+
+65. Press Release, supra note 63.
+66. Walmart Launches New Reusable Bag Campaign;Announces 93 Million Metric Tons of
+Supplier Emission Reductions through Project Gigaton and Announces New Sustainable Textile
+Goals, WALMART (Apr. 10, 2019), https://corporate.walmart.com/newsroom/2019/04/10/walmartlaunches-new-reusable-bag-campaign-announces-93-million-metric-tons-of-supplier-emissionreductions-through-project-gigaton-and-announces-new-sustainable-textile-goals
+[https://perma.cc/H4VM-P46Q].
+
+830
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+sector imposed environmental requirements on suppliers.6 7 These
+supply-chain restrictions are not mandated by federal, state, or local
+environmental laws, but they enable environmental pressure to be
+transferred to small- and medium-sized firms in the United States and
+around the globe.
+In short, the private governance initiatives that have emerged
+in the last several decades demonstrate that private organizations are
+performing many types of governmental functions. These organizations
+often develop as a result of shared interests among advocacy groups and
+corporations,
+with
+seed
+funding
+from
+philanthropists.
+The
+organizations enforce their standards through informal and formal
+market and social pressure, and they include several common design
+elements. Although the research base is thin, studies suggest that these
+organizations often succeed at shifting the behavior of their regulatory
+targets.6 8 Whether they achieve their ultimate objectives (e.g.,
+improving environmental conditions, labor conditions, or prices paid to
+farmers for fair trade goods) is less well understood, but it is important
+to note that the same can be said for many government programs on the
+same topics. Private systems can become captured by economic, social,
+or political interests, but the important question for this Essay is
+whether a private fairness doctrine can be developed that is sufficiently
+influential to shift the behavior of media firms and sufficiently
+accountable to a broad group of stakeholders to avoid capture by narrow
+interests. I explore these issues in Parts II and III.
+
+II. INFORMATION PROBLEMS
+A private fairness doctrine is important because concerns exist
+not only about the ability of government to perform the traditional
+functions assigned to governments (e.g., providing public goods and
+reducing negative externalities), but also about the health of basic
+democratic processes. 69 The flow of information is perhaps the most
+67. Michael P. Vandenbergh, The New Wal-Mart Effect: The Role of Private Contractingin
+Global Governance, 54 UCLA L. REV. 913 (2007); see also Rory Van Loo, The New Gatekeepers:
+PrivateFirms as Public Enforcers, 106 VA. L. REV. (forthcoming 2020) (noting the extent to which
+government statutes and regulations require enforcement through private supply-chain
+contracts).
+68.
+
+See TOWARD SUSTAINABILITY, supra note 17.
+
+69. Yascha
+Mounk, America Is Not a Democracy, ATLANTIC
+(Mar.
+2018),
+https://www.theatlantic.com/magazine/archive/2018/03/america-is-not-a-democracy/550931/
+[https://perma.cclBXZ2-VEJF]. The moderate-to-conservative Democratic Blue Dog Coalition once
+had fifty-four members and now only has twenty-five. Andrew Kacynzki & Christopher Massie,
+Arizona Senate: Krysten Sinema's Anti-war Group Blasted 'U.S. Terror,' Depicted Soldier as
+Skeleton in 2003 Flyers, CNN (Sept. 15, 2018, 4:41 PM), https://www.cnn.com/2018/09/15/
+politics/kfile-sinema-flyers/index.html
+[https://perma.cclJW63-HY86]; Members, BLUE DOG
+
+2020]
+
+831
+
+A PRIVATE FAIRNESS DOCTRINE
+
+fundamental process for a successful democracy. Social, market, and
+legal developments over the last several decades have distorted the flow
+of information in a variety of ways that undermine opportunities for
+informed policymaking. I focus on two developments that contribute to
+the information problem and may be amenable to a new private
+response: (1) the channelization of information flow through traditional
+and new media firms and the effects of this channelization on
+polarization and social checks and balances, and (2) the withdrawal of
+the federal government from even the most basic policing of the flow of
+information conveyed by the media.
+Channelized Information Flow. The first development arises
+from the shifting structure and motivations of traditional and new
+media. Adequate information is essential for democratic participation
+and deliberation, but there is a growing recognition that the flow of
+politically relevant information in the United States is flawed.7 0 In a
+world in which government checks and balances are the principal focus,
+government censorship of the media is a core concern. Of course, the
+Framers' response was the First Amendment, which is designed to
+encourage uninhibited and robust debate by imposing constraints on
+the ability of governments, not private organizations, to restrict free
+speech.7 1 The assumption is that lack of government constraints on
+speech will yield an informed, participatory public citizenry and
+adequate information for politicians and other policymakers. 72
+The assumption underlying this approach to free speech is that
+multiple tongues will reach multiple ears. 73 But what happens if they
+do not? What happens if those ears can be closed to all tongues other
+than those with prescreened messages? In recent years, the flow of
+information has been distorted in ways that undermine opportunities
+for informed democratic discourse across deeply held worldviews. In
+1980, three major networks dominated television, and a small number
+of national broadcast networks dominated radio as well. (Newspaper
+content was less concentrated, but newspapers had widespread
+(last visited
+COALITION, https://bluedogcaucus-costa.house.gov/members
+[https://perma.cc/7Q92-CVBZ] (listing members of the Blue Dog Coalition).
+70.
+
+Apr.
+
+1,
+
+2020)
+
+See generally SUNSTEIN, #REPUBLIC, supra note 1 (discussing how the channelization of
+
+information flows has become pervasive in the last several decades). For a recent discussion in the
+mass media, see Lepore, supra note 13.
+71. N.Y. Times Co. v. Sullivan, 376 U.S. 254, 279-80 (1964) (Brennan, J.).
+72. As Justice Brennan stated, "The First Amendment must therefore safeguard not only the
+right of the public to hear debate, but also the right of individuals to participatein that debate and
+to attempt to persuade others to their points of view." Columbia Broad. Sys., Inc. v. Democratic
+Nat'l Comm., 412 U.S. 94, 193 (1973) (Brennan, J., dissenting).
+73. As Judge David Bazelon noted, "The wisdom of the First Amendment is, however, that a
+multitude of tongues will produce the diversity of ideas and artistic achievement we all desire."
+David L. Bazelon, FCC Regulation of the Telecommunications Press, 1975 DUKE L.J. 213, 241.
+
+832
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+readership across the political spectrum in many communities.) In
+short, television and radio stations were owned by many different
+parties, but a small group of broadcasting firms dominated the field.
+The concentration among broadcasters raised concerns about private
+censorship. 7 4 To succeed, though, these broadcast networks needed to
+appeal to widespread audiences. In turn, this motivated broadcasters
+to convey information that not only might be homogenized or dumbed
+down, but also that could withstand scrutiny from and attract a broad
+audience. In other words, broadcast firms had incentives to integrate
+the views of and retain the credibility of many people across the political
+spectrum. 75
+This had all changed by the late 1990s, when Fox News and
+MSNBC were commanding a substantial share of the national
+audience. The growth of cable television, satellite radio, and other
+options enabled the traditional media firms to generate a large number
+of information pathways or channels. The new channels often targeted
+self-selected subgroups and only reached large audiences in the
+aggregate. In contrast, between 1980 and 2005, the share of the
+television market reached by the nightly news of the three major
+networks that ostensibly attempted to reach a general audience fell
+from 42.3 million to 18.9 million. 76 The result is that many media firms
+faced little incentive to generate or provide content that could survive
+scrutiny from or appeal to a wider audience.7 7
+
+74. See Jerome A. Barron, Access to the Press-A New FirstAmendment Right, 80 HARV. L.
+REV. 1641 (1967) [hereinafter Barron, Access to the Press] (arguing that First Amendment theory
+must be reexamined to respond to mass media's repression of ideas); see also Jerome A. Barron,
+Access to the Media-A Contemporary Appraisal, 35 HOFSTRA L. REV. 937, 938 (2007) [hereinafter
+Barron, Access to the Media] (stating that in his 1967 article he "wanted the law to respond to the
+reality of private censorship by affording opportunities for access and reply").
+75. Jill LePore's work suggests that the period of low polarization after the Second World
+War was an anomaly. See LEPORE, supra note 2, at 545-46 (noting higher levels of polarization
+eventually followed Truman's election). The difference now, though, is that many of the other
+institutions and opportunities for interactions have diminished or become polarized as well. For a
+discussion of the pervasive polarization in the United States today, see generally TALISSE, supra
+note 2.
+76. Network
+Evening News
+Ratings,
+PEW
+RES.
+CTR.
+(Mar.
+13,
+2006),
+http://www.journalism.org/numbers/network-evening-news-ratings/
+
+[https://perma.cc/CC9S-
+
+JTS4]; see also Evening News Viewership, All Networks, PEW RES. CTR. (Mar. 12, 2007),
+http://www.journalism.org/numbers/evening-news-viewership-all-networks/
+
+[https://perma.cc/5JHP-FCB5] (showing network evening news viewership has declined from 52.1
+million in 1980 to 26.1 million in 2006).
+77. See Philip Bump, How Polarizationand SplinteredMedia Are Fosteringa World ofDoubt,
+WASH. POST (Nov. 13, 2017), https://www.washingtonpost.com/news/politics/wp/2017/11/13/howpolarization-and-splintered-media-are-fostering-a-world-of-doubt/ [https://perma.cc/FLU8-UQSU]
+(explaining that Fox News's ratings have improved largely due to its reembrace of partisan
+politics).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+833
+
+By 2010, the development of the internet and social media had
+reinforced the tendency toward tailored information flows. The growth
+of new media giants reduced the number of firms that provide pathways
+for information (e.g., Facebook, Google, and Twitter), 78 leading to
+censorship concerns. 79 Although the concentration of these firms poses
+risks of private censorship, an equal or greater concern is that these
+firms enable users to avoid exposure to opinions and assertions of fact
+that are inconsistent with the users' worldview. Participants can speak
+all they want but also can insulate themselves from inconvenient views.
+This undermines debate, deliberation, and compromise. Facebook,
+Google, Twitter, and other firms that serve as information conduits to
+general audiences can affect this flow of information and are thus
+subject to pressure from all sides. Not surprisingly, these firms have
+struggled to develop and implement corporate content standards and
+implementing systems.8 0
+In short, although information sources have become more
+numerous, they also have become more tailored to specific audiences.
+78. See generally Barron, Access to the Media, supra note 74 (reflecting on the advent of the
+internet and its significance for private rights of access). The Fairness Doctrine may serve as a
+useful analogy in imagining a solution to this issue. See Red Lion Broad. Co. v. FCC, 395 U.S. 367,
+400-01 (1969) (holding the doctrine constitutional because it was in the public interest to promote
+access to scarce radio frequencies); Jerome A. Barron, The Federal Communications Commission's
+
+FairnessDoctrine: An Evaluation, 30 GEO. WASH. L. REV. 1 (1961); Jerome A. Barron, In Defense
+Doctrine, 37 U. COLO. L.
+of 'Fairness"- A FirstAmendment Rationale for Broadcasting's "Fairness"
+REV. 31 (1964) (concluding that the Fairness Doctrine "represents a modest attempt to
+affirmatively structure at least one communications medium so that the first amendment mandate
+is not allowed to become, due to rapid economic and technological change, irrelevant"); Roscoe L.
+Barrow, The FairnessDoctrine:A Double Standardfor Electronic and Print Media, 26 HASTINGS
+L.J. 659 (1975) (assessing the different applications of the Fairness Doctrine between broadcast
+and print media); Louis L. Jaffe, The EditorialResponsibility of the Broadcaster:Reflections on
+Fairnessand Access, 85 HARV. L. REV. 768 (1972) (arguing that the fairness and access doctrines,
+while beneficial, must be limited to avoid impinging on other important values); Thomas G.
+Krattenmaker & L.A. Powe, Jr., The FairnessDoctrine Today: A Constitutional Curiosity and an
+Impossible Dream, 1985 DUKE L.J. 151 (concluding that the Fairness Doctrine is incoherent and
+unworkable).
+79.
+
+For instance, Jerome Barron has stated that "given contemporary anemic views of what
+
+constitutes state action, the major Internet service providers have enormous discretion. . . . Should
+the very small number of companies that own major Internet platforms and search engines be
+viewed as state actors so that they will be subject to First Amendment restraints?" Barron, Access
+to the Media, supra note 74, at 953.
+80. For a discussion of these struggles, see Klonick, supra note 14. The content policies of
+Twitter and Facebook are a form of self-regulation. See id. at 1599. The private fairness doctrine
+would be a form of private governance, not self-regulation, however, because it would involve
+private standards that are developed and enforced by third parties, not simply the internal policies
+of a firm. Controversy over Facebook's decision not to ban false political advertisements is just one
+example of the difficulty new media firms are confronting as they develop self-regulatory policies.
+See Craig Timberg, Tony Romm & Drew Harwell, A Facebook Policy Lets PoliticiansLie in Ads,
+Leaving Democrats Fearing What Trump Will Do, WASH. POST (Oct. 10, 2019),
+https://www.washingtonpost.com/technology/2019/10/10/facebook-policy-political-speech-letspoliticians-lie-ads/ [https://perma.cc/PLD6-GDZT].
+
+834
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+Information is generated and flows not to general audiences, but
+instead is generated to appeal to a specific group and is conveyed to that
+group, often without easy access by others outside the group.81 As new
+forms of communication have developed, the number of avenues
+through which media companies can reach audiences has exploded,
+leading to a market in which media organizations with an explicit
+ideological agenda have substantially increased their share of the
+audience. Individuals can now insulate themselves from facts and
+opinions that .are inconsistent with their worldview, preselecting the
+information they want to be exposed to, and perhaps more importantly,
+the information they want to ignore. 82 This channelization of
+information flow also undermines the need for reporters, editors, and
+other content providers to account for reactions and fact checking from
+a broad audience.
+The channelization of information works in tandem with several
+aspects of human psychology to facilitate political polarization. 83 For
+instance, individuals engage in confirmation bias and motivated
+reasoning, picking those sources of information and factual assertions
+that fit with their worldview and tossing out those that do not. 84 These
+processes even affect how individuals experience the surroundings of
+their daily lives-conservatives in rural northern New England believe
+that recent winters have been colder than they have been, making it
+easier to dismiss concerns about climate change.8 5 In theory, interacting
+with others who have different viewpoints could ameliorate this
+problem, but increasingly in the United States individuals only
+associate-both physically and electronically-with similar others. 86 In
+81. See Natalie Jomini Stroud, Polarization and PartisanSelective Exposure, 60 J. COMM.
+556, 556 (2010) (discussing how "people purposefully select information matching their viewpoints"
+and tend to be attracted to sources of media that align with their opinions).
+82. See Bump, supra note 77 (analyzing the growth of political polarization in conjunction
+with the splintering of media sources); Stroud, supra note 81, at 556-57 (examining the effects of
+partisan selective exposure on political polarization and vice versa); Amy Mitchell et al., Political
+Polarization & Media Habits, PEW RES. CTR. (Oct. 21, 2014), http://www.journalism.org/
+2014/10/21/political-polarization-media-habits/
+[https://perma.cc/VY85-B8H5]
+(surveying the
+media consumption habits of people on different ends of the political spectrum).
+83. For an overview of these phenomena regarding acceptance of climate science, see
+generally VANDENBERGH & GILLIGAN, supranote 4.
+
+84. See id. at 9.
+85. See Lawrence C. Hamilton et al., Cold Winters Warming? Perceptionsof Climate Change
+in the North Country, 10 WEATHER, CLIMATE, & SOC'Y 641, 646 (2018) (showing that Democrats,
+Independents, and non-Tea Party Republicans recognize winter warming while Tea Party
+members do not); see also Elke U. Weber, Perception and Expectation of Climate Change, in
+ENVIRONMENT, ETHICS, AND BEHAVIOR 314, 318-38 (Max H. Bazerman et al. eds., 1997) (studying
+Iowan farmers and finding those that believed in global warming "tended to cite more sources as
+having influenced their opinion than those who did not").
+86. See generally TALISSE, supra note 2 (discussing growing polarization across multiple
+domains in the United States).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+835
+
+turn, associating with similar others reinforces and increases extreme
+views, and research shows that people engage in belief superiority: the
+more extreme their views, the more they think their views are superior
+to others.8 7
+Polarization. Not surprisingly, polarization has increased in
+recent years both in the general population and among politicians. The
+literature on polarization is extensive, but one example demonstrates
+the extent of the difference between Democrats and Republicans in
+Congress. Sociologist Aaron McCright and colleagues have examined
+the League of Conservation Voters ("LCV") scores of members of
+Congress regarding important environmental issues over the last
+several decades, and the results are striking: in the years following
+1990, a massive gap opened up in the LCV scores of Democrats and
+Republicans. 8 8 Although polarization was always a feature of
+environmental voting in Congress, the gap expanded rapidly after 1992
+and is now almost at its maximum possible extent.8 9 Similar analyses
+have been conducted on issues ranging from healthcare, to choice or
+abortion, to gun control.9 0
+The gap between Democrats and Republicans undermines the
+ability to share information and form policy compromises. 9 ' For
+instance, in the environmental field, almost two dozen major pollution
+control statutes were adopted through the Clean Air Act Amendments
+of 1990, but that process largely ground to a halt as polarization
+increased during the 1990s, and in the quarter century since 1990 only
+one major pollution control statute has been adopted. 92 Other factors
+
+87. See Kaitlin Toner, Mark R. Leary, Michael W. Asher & Katrina P. Jongman-Sereno,
+Feeling Superior Is a Bipartisan Issue: Extremity (Not Direction) of Political Views Predicts
+PerceivedBelief Superiority, 24 PSYCHOL. SCI. 2454, 2459 (2013) ("[P]eople at the extremes of the
+political spectrum felt most superior about their beliefs.").
+88. See McCright et al., supra note 3, at 252-53 (illustrating the widening partisan divide in
+environmental voting scores).
+89. See id.
+90. See, e.g., Edward G. Carmines, Jessica C. Gerrity & Michael W. Wagner, How Abortion
+Became a PartisanIssue: Media Coverageof the Interest Group-PoliticalParty Connection, 38 POL.
+& POL'Y 1135, 1135-36 (2010) (analyzing the increase in the partisan divide over abortion); Frank
+Newport & Andrew Dugan, PartisanDifferences Growing on a Number of Issues, GALLUP (Aug. 3,
+https://news.gallup.com/opinion/polling-matters/215210/partisan-differences-growing2017),
+number-issues.aspx [https://perma.cc/A4U9-E8M4].
+91. See Sarah A. Binder, The Dynamics of Legislative Gridlock, 1947-96, 93 AM. POL. SCl.
+REV. 519, 521 (1999) ("The broader the distribution of preferences, the greater the likelihood that
+legislators' goals will be incompatible, or at least the more difficult it will be to reach a suitable
+compromise.").
+
+92. Vandenbergh, supra note 8, at 131; see Michael P. Vandenbergh et al., Lamarck Revisited:
+The Implications of Epigenetics for Environmental Law, 7 MICH. J. ENvTL. & ADMIN. L. 1, 28-29
+(2017) (discussing the Frank R. Lautenberg Chemical Safety for the 21st Century Act, Pub. L. No.
+114-182, 130 Stat. 448 (2016)).
+
+836
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+certainly played a role in this legislative gridlock, but polarization was
+an important factor. 93
+Social Checks and Balances. Scholars have noted the importance
+of social checks and balances for some time, but the term has been used
+in a narrow sense to refer to the constraints on politicians, party
+leaders, and other active participants in the political process arising
+from norms of fair play. For instance, in the 1950s, political scientist
+Robert Dahl emphasized the importance of social influences but noted
+that "[b]ecause we are taught to believe in the necessity of
+constitutional checks and balances, we place little faith in social checks
+and balances." 94 Recent scholarship has focused on the importance of
+parties rather than branches of government in the constitutional
+system of checks and balances, 95 but the growing party-based
+polarization has also undermined social checks and balances. As Dahl
+noted, "In the absence of certain social prerequisites, no constitutional
+arrangements can produce a non-tyrannical republic," and "an increase
+in the extent to which one of the social prerequisites is present may be
+far more important in strengthening democracy than any particular
+constitutional design." 96 In his writing about social checks and
+
+.
+
+93. Binder, supra note 91, at 527.
+94. DAHL, supra note 5, at 83. As Dahl noted, Madison "was not indifferent to the necessary
+social conditions for his non-tyrannical republic. But surely it is not unfair to say that his primary
+concern was with prescribed constitutional controls. . . with constitutional checks and balances
+rather than social checks and balances." Id. at 82. According to Dahl, "The men at the Convention
+took human nature and social structure largely for granted; their job, as they interpreted it, was
+to create a constitution most fully consonant both with human nature and social structure . .
+Id. In Federalist 51, Madison stated:
+A dependence on the people is, no doubt, the primary control on the government; but
+experience has taught mankind the necessity of auxiliary precautions. This policy of
+supplying, by opposite and rival interests, the defect of better motives, might be traced
+through the whole system of human affairs, private as well as public. We see it
+particularly displayed in all the subordinate distributions of power, where the constant
+aim is to divide and arrange the several offices in such a manner as that each may be a
+check on the other-that the private interest of every individual may be a sentinel over
+the public rights.
+THE FEDERALIST No. 51, at 322 (James Madison) (Clinton Rossiter ed., 2016). Although Madison
+seemed to understand the role of checks and balances in each sphere (public and private), as Dahl
+noted he did not focus on the extent to which the one sphere (private) can contribute checks and
+balances to the other (public). DAHL, supranote 5, at 83.
+95. Daryl J. Levinson & Richard H. Pildes, Separation of Parties, Not Powers, 119 HARV. L.
+REV. 2312,2312-14 (2006). While the experience with one-party control of Congress and the White
+House during the January 2017 to January 2019 period was consistent with the parties-not-powers
+thesis, institutional loyalties may play a greater role than Levinson and Pildes acknowledged,
+particularly in executive-judicial branch interactions. See David Fontana & Aziz Z. Huq,
+InstitutionalLoyalties in ConstitutionalLaw, 85 U. CHI. L. REV. 1, 1-10 (2018) (noting that recent
+scholarship gives the idea of institutional loyalties short shrift).
+96. DAHL, supra note 5, at 83. In developing his theory of polyarchy, Dahl asserted that
+"[w]hether we are concerned with tyranny by a minority or tyranny by a majority,... the first and
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+837
+
+balances, Dahl focused on the importance of the widely shared norms of
+the active participants in the political process: politicians, party
+leaders, and to a lesser extent, voters. For instance, politicians in the
+two major parties understood that they would be in and out of power
+with one another, and this iterative process induced a tacit agreement
+not to overreach or manipulate certain rules when in power.9 7 These
+informal understandings were certainly not followed in all cases, but
+they constrained the behavior of many of the politicians and other
+participants in the political process. As a result, even in a government
+of parties, not powers, Dahl's social checks and balances buttressed the
+democratic processes institutionalized by the Framers. 98
+In their simplest form, social checks and balances arise from the
+enforcement of personal and social norms. In Dahl's use of the term
+social checks and balances, this social pressure occurs among the active
+participants in the political process-such as politicians and party
+activists. Informal, noninstitutionalized social pressure arises when
+private citizens praise or shame political figures. 99 In the absence of
+crucial variables to which political scientists must direct their attention are social and not
+constitutional." Id.
+97. Id. Dahl used the term "social checks and balances" in his explanation of his theory of
+polyarchy, but he focused principally on how social and personal norms among the participants in
+the political process (e.g., common practices or informal rules about fair play in elections held by
+politicians, party officials, and others) affect the structure and function of the branches of
+government. See ROBERTA. DAHL, POLYARCHY: PARTICIPATION AND OPPOsITION (1971) (providing
+an overview of his theory of polyarchy); DONALD J. LEE, POLYARCHY: THE POLITICAL THEORY OF
+
+ROBERT A. DAHL 13 (1991) (describing the social norm between leaders and nonleaders as a key
+characteristic of polyarchy). I use the term more broadly to also describe how private activity can
+provide social checks and balances that occur among individuals and organizations that operate
+largely outside of and parallel to the political process, rather than among the party leaders,
+politicians, and other direct participants in the political process.
+98. In recent years, scholars and pundits have noted that democratic personal and social
+norms are an essential complement to institutional structures and may be more fundamental to a
+
+successful democracy, although the focus has remained principally on the norms of politicians and
+party activists. See, e.g., LEVITSKY & ZIBLATT, supra note 6, at 9 (describing informal norms as "the
+soft guardrails of democracy"); Claire Cain Miller & Kevin Quealy, Democracy in America: How Is
+It Doing?, N.Y. TIMES (Feb. 23, 2017), https://www.nytimes.com/2017/02/23/upshot/democracy-inamerica-how-is-it-doing.html [https://perma.cc/7RQL-E4FQI (observing that a survey of political
+scientists suggests that "[t]he areas in which American democracy is failing ... concerned civil
+behavior. This involved norms that elected majorities should act with restraint and reciprocity,
+that politicians should campaign without disparaging their opponents' patriotism or loyalty, and
+that public officials should recognize bureaucratic or scientific consensus."); Fareed Zakaria,
+Opinion, America's Democracy Has Become Illiberal, WASH. POST (Dec. 29, 2016),
+https://www.washingtonpost.com/opinionslamerica-is-becoming-a-land-of-less-liberty/2016/12/291
+[https://perma.cclHL3N-U4T3] (concluding
+2a91744c-ceO9-11e6-a747-d03044780a02_story.html
+that "[i]t turns out that what sustains democracy is not simply legal safeguards and rules, but
+norms and practices - democratic behavior").
+99. For an example of informal social checks and balances that have generated substantial
+controversy, see Jess Bidgood & Julie Bosman, On Martha's Vineyard, a Frosty Summer for Alan
+Dershowitz, N.Y. TIMES (July 3, 2018), https://www.nytimes.com/2018/07/03/us/marthas-vineyardtrump.html [https://perma.cc/AE5X-78PR].
+
+838
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+adequate information about the behavior of these actors, however, the
+informal social pressure that enforces social checks and balances cannot
+occur. The erosion of social checks and balances can also extend well
+beyond political agendas and can undermine democratic debates and
+actions among the general public.
+The FCC FairnessDoctrine. In addition to the transformation of
+the media over the last several decades, an important development
+regarding the flow of information occurred when the federal
+government withdrew from policing media fairness and accuracy. The
+FCC's Fairness Doctrine, adopted in 1949 and modified over time,
+required radio and television news outlets to feature opposing
+viewpoints on controversial topics. 0 0 The Fairness Doctrine required
+outlets to devote a reasonable amount of time on the air to controversial
+issues of public importance and to give air time to citizens with
+contrasting perspectives regarding those matters.1 0 1 The Doctrine
+included several corollary rules, such as the Cullman rule, which
+necessitated time on the air for individuals with different views on
+controversial issues, even if those individuals could not pay for the
+time. 102 The personal attack rule required companies to allow response
+time on the air for individuals or groups whose honesty or character
+was attacked. 10 3 The political editorial rule forced broadcasters who
+endorsed or supported political candidates to give time on the air to
+opposing candidates who wanted to respond. 104 As the FCC stated in
+1964, the Fairness Doctrine supplemented the requirement to provide
+opportunities for political candidates to have access to broadcast
+facilities and dealt "with the broader question of affording reasonable
+
+100. The first iteration of the Fairness Doctrine appeared in the FCC's 1949 Report,
+Editorializing by Broadcast Licensees, 13 F.C.C. 1246, 1247 (1949). The FCC established
+comprehensive standards in Applicability of the Fairness Doctrine in the Handling of
+Controversial Issues of Public Importance, 40 F.C.C. 598 (1964) (discussing equal time and
+editorial reply). The FCC also reviewed programming for balance during licensing proceedings for
+broadcast media stations. See, e.g., Citizens Comm. to Save WEFM v. FCC, 506 F.2d 246, 278-80,
+278 n.45, 279-80 nn.59-63 (D.C. Cir. 1974) (rehearing en banc) (Bazelon, C.J., concurring in the
+result). The FCC applied the Fairness Doctrine "in any case in which broadcast facilities are used
+for the discussion of a controversial issue of public importance." Applicability of the Fairness
+Doctrine in the Handling of Controversial Issues of Public Importance, supra, at 598.
+101. Applicability of the Fairness Doctrine in the Handling of Controversial Issues of Public
+Importance, supra note 100, at 598-99.
+102. See id. at 609 ("[W]here the licensee ... has not presented (or does not plan to present)
+contrasting viewpoints in other programming, . . . he cannot reject a presentation otherwise
+suitable to the licensee-and thus leave the public uninformed-on the ground that he cannot
+obtain paid sponsorship for that presentation.").
+103. Id. at 610-14.
+104. Id. at 613-14.
+
+2020]
+
+839
+
+A PRIVATE FAIRNESS DOCTRINE
+
+opportunity for the presentation of contrasting
+controversial issues of public importance."1 0 5
+The FCC stated that:
+
+viewpoints
+
+on
+
+[A licensee] is called upon to make reasonable judgments in good faith on the facts of each
+situation-as to whether a controversial issue of public importance is involved, as to what
+viewpoints have been or should be presented, as to the format and spokesmen to present
+the viewpoints, and all the other facets of such programming.106
+
+.
+
+The FCC also stated that its "role is not to substitute its
+judgment for that of the licensee as to any of the above programming
+decisions, but rather to determine whether the licensee can be said to
+have acted reasonably and in good faith."10 7 The FCC did not
+aggressively enforce the Fairness Doctrine requirements in formal
+proceedings, but as Jerome Barron stated, "The very existence of the
+doctrine cautioned against excessive one-sidedness in the presentation
+of public affairs."10 8 In addition, as Judge David Bazelon noted in the
+mid-1970s, the FCC frequently enforced the Fairness Doctrine through
+informal "raised eyebrow" communications with media executives. 109
+Supporters argued that the Fairness Doctrine was needed to
+prevent a monopoly of ideas controlled by the wealthy, profit-driven
+owners of broadcast stations.1 1 0 Courts pointed to the scarcity of
+available bandwidth for television and radio stations, upholding
+challenges to the Fairness Doctrine 1 on the theory that absent
+government intervention, scarcity could be monopolized to shut down
+information flow. 1 1 2 The Supreme Court was vigilant in policing
+government restrictions on print media, but it treated restrictions on
+radio and television stations differently. 113 In 1969, the Court upheld
+
+the Fairness Doctrine in Red Lion Broadcasting Co. v. FCC,1 14
+advancing the "idea that the First Amendment had an affirmative
+105. Id. at 599. As Paul Krugman stated in 2002, the Fairness Doctrine "forced broadcast
+media to give comparable representation to opposing points of view." Paul Krugman, Opinion, In
+Media Res, N.Y. TIMES (Nov. 29, 2002), https://www.nytimes.com/2002/11/29/opinion/in-mediares.html [https://perma.cc/ET3M-CVMN].
+106. Applicability of the Fairness Doctrine in the Handling of Controversial Issues of Public
+Importance, supra note 100, at 599.
+107. This allows for more licensee discretion under the Fairness Doctrine than under the
+"equal opportunities" requirement. Id.
+108. Barron, Access to the Media, supra note 74, at 943.
+109. Bazelon, supra note 73, at 215-17.
+110. Mark A. Conrad, The Demise of the FairnessDoctrine:A Blow for Citizen Access, 41 FED.
+COMM. L.J. 161, 162 (1989).
+111. Id. at 188.
+112. Id. at 181.
+113. In Miami Herald PublishingCo. v. Tornillo, 418 U.S. 241, 258 (1974), the Supreme Court
+struck down a state fairness law as applied to a newspaper's coverage on the ground that there
+was not a similar scarcity to radio and television.
+114. 395 U.S. 367, 400-01 (1969).
+
+840
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+dimension and that law could not only protect freedom of expression but
+facilitate it."115 Much of the battle over the Fairness Doctrine concerned
+"the idea that a radio or television station had an obligation . .. to
+provide the community it served with a roughly representative
+overview of the issues that beset its audience."1 1 6 In fact, scholars such
+as Barron thought that the Fairness Doctrine did not go far enough. He
+argued that America's "romantic" First Amendment theory allowed the
+repression of certain ideas to promote others,1 1 7 and that because power
+is in the hands of those who control the media, 118 Congress should enact
+legislation that would create a right of access to broadcast channels to
+ensure that broadcasters could not arbitrarily deny space to candidates,
+ideas, or groups.1 19 Other scholars suggested that evidence of any
+chilling effect from the Fairness Doctrine was minimal, anecdotal and
+speculative, and that the doctrine in fact enhanced discourse. 12 0
+Over time, however, the Fairness Doctrine became the
+government constraint that everyone loved to hate. 12 1 It was heavily
+criticized by free-speech advocates, who complained that the doctrine
+chilled national discourse on important issues.1 2 2 Many on the right
+expressed concerns that the doctrine was a way for Democrats to silence
+
+115. Barron, Access to the Media, supra note 74, at 938. The Court held that a right of access
+to the media was not necessary in the First Amendment in part because the FCC's Fairness
+Doctrine was available. Columbia Broad. Sys., Inc. v. Democratic Nat'l Comm., 412 U.S. 94, 13032 (1973). The Supreme Court has held that there is no right of access to private print media.
+Tornillo, 418 U.S. at 250-58 (noting that as to concentration of ownership, "[t]he result of these
+vast changes has been to place in a few hands the power to inform the American people and shape
+public opinion"). After Tornillo, fairness concerns led to three types of responses by private media
+companies: press ombudsmen, op-ed pages, and press councils. Barron, Access to the Media, supra
+note 74, at 942-43.
+116. Barron, Access to the Media, supranote 74, at 944.
+117. Id. at 1642.
+118. Id. at 1644.
+119. See id. at 1678 (arguing that if there is resistance to a judicially created remedy for a
+right of access, then a right of access statute may be enacted to "forbid an arbitrary denial of space"
+and "secur[e] an effective forum for the expression of divergent opinions").
+120. See, e.g., Robyn R. Polashuk, Protecting the Public Debate: The Validity of the Fairness
+Doctrine in Ballot Initiative Elections, 41 UCLA L. REV. 391, 435-37 (1993) (noting that "the
+irreconcilable findings" from the FCC and Congress demonstrate that "the evidence of any chilling
+effect created by the Fairness Doctrine is conflicting at best" and observing that "in the context of
+a ballot initiative election, the Fairness Doctrine has enhanced speech by securing coverage of
+points that would not have been presented without the regulatory protections").
+121. See, e.g., Adam Thierer, Why the Fairness Doctrine Is Anything but Fair, HERITAGE
+FOUND. (Oct. 29, 1993), https://www.heritage.org/government-regulation/report/why-the-fairnessdoctrine-anything-fair [https://perma.cc/4N5B-83T3].
+122. See Dominic E. Markwordt, More Folly than Fairness:The Fairness Doctrine, the First
+Amendment, and the Internet Age, 22 REGENT U. L. REV. 405, 408 (2009) (describing how critics
+"claim that a Democratic Congress and President seek the return of the fairness doctrine to silence
+conservative critics of Congress and the administration").
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+841
+
+conservative voices 1 23 in an "Orwellian" fashion. 124 Moreover, even after
+Red Lion, critics argued that the Fairness Doctrine created a limitation
+on free expression in violation of the First Amendment.1 25 Others
+complained that the doctrine was unfair because it targeted broadcast
+news media but did not address other media, such as print. 126 Critics of
+the Fairness Doctrine also noted that an important rationale for the
+doctrine was to counter the effect of the concentration of the media
+industry on its ability to exclude unpopular viewpoints, but because a
+large, diverse pool of voices had emerged, scarcity was no longer an
+issue, and there was no way to monopolize the conversation.1 2 7 As one
+critic argued, "Whatever strained justification some thought there was
+for the doctrine in 1949 has dissipated with time and the advancement
+of technology. Scarcity has been replaced with 10,000 radio stations and
+12 8
+more cable channels than there is programming to fill them."
+The FCC repealed the Fairness Doctrine in 1987.129 Congress
+attempted to block the FCC's effort, but President Reagan vetoed the
+legislation, 130 and in 2000 the FCC took the additional step of abolishing
+personal attack rules. 131 The Fairness Doctrine has been the subject of
+extensive debate since then, and supporters attempted to revive the
+Doctrine in 1993 and 2008,132 but the Obama Administration ultimately
+
+123. See Roland F.L. Hall, The FairnessDoctrine and the First Amendment: Phoenix Rising,
+45 MERCER L. REV. 705, 705-06 (1994) (noting opponents "call[ed] the Act the 'Hush Rush' bill,
+and claim[ed] that a Democratic Congress and President [sought] the return of the fairness
+doctrine to silence conservative critics of Congress and the administration").
+2008),
+(June 17,
+Editorial, 'Fairness' Is Censorship, WASH. TIMES
+124. See
+[https://perma.cc/
+https://www.washingtontimes.com/news/2008/jun/17/fairness-is-censorship/
+QL6E-TLU9].
+125. See Conrad, supra note 110, at 173 (describing how "[t]he uncertainties created by the
+greater number of access claims, coupled with the reverberations from Red Lion" led the FCC to
+compile a comprehensive report on the Fairness Doctrine to assess, in part, whether the Doctrine
+conflicted with the First Amendment).
+126. See id. at 168 (noting that "print media has never been subject to such content
+regulation").
+127. See Thierer, supra note 121 (describing supporters' argument that "the 'scarce' amount of
+spectrum space requires oversight by federal regulators" as a "faulty premise" because the number
+of radio and television stations available today make it "impossible" to "monopolize the airwaves"
+and "deny access to certain viewpoints").
+128. Mario M. Cuomo, Opinion, The Unfairness Doctrine, N.Y. TIMES (Sept. 20, 1993),
+[https://perma.cc/
+https://www.nytimes.com/1993/09/20/opinion/the-unfairness-doctrine.html
+
+3VQU-QK58].
+129. Syracuse Peace Council, 2 F.C.C.R. 5043, 5057 (1987) (concluding "that the fairness
+doctrine contravenes the First Amendment and thereby disserves the public interest"), enforced,
+867 F.2d 654, 665 (D.C. Cir. 1989).
+130. Lepore, supra note 13.
+131. See Radio-Television News Dirs. Ass'n v. FCC, 229 F.3d 269, 272 (D.C. Cir. 2000).
+132. See Cuomo, supra note 128 ("Legislation pending in Congress would revive the so-called
+fairness doctrine, which the Federal Communications Commission repealed in 1987."); 'Fairness'
+
+842
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+eliminated the rule from the Federal Register in 2011.133 Today, the
+FCC only requires media companies to provide political candidates with
+"reasonable access" and "equal opportunities." 1 3 4 Supporters of the
+Fairness Doctrine have argued that the FCC's 1987 decision to repeal
+facilitated the development of media outlets with an explicit policy or
+partisan agenda. 135 MSNBC and Fox News were formed in 1996, and
+some have argued that neither could exist under the old Fairness
+Doctrine.1 36 Similarly, the number of talk radio stations in the United
+States increased from two hundred and forty in 1987 to nine hundred
+in 1992.137 Not all of these new stations focus on polarized political
+audiences, but many do.
+In sum, as a result of the transformation of the media industry
+and the FCC's actions, the challenge of ensuring adequate information
+for democratic discourse has been turned on its head. The underlying
+vulnerability of the system has shifted from a concern about whether a
+very concentrated industry could manipulate the information it
+provides to a broad audience, to whether a less concentrated group of
+broadcasters and other firms could use multiple information pathways
+to manipulate information by channeling it to multiple narrow
+audiences. This channelization of information is the target of the
+private fairness doctrine initiative proposed in Part III.
+III. A PRIVATE FAIRNESS DOCTRINE
+Is there a cure to the current information problem that is not
+worse than the disease? Private governance initiatives that attempt to
+harness social checks and balances regarding democratic processes are
+less common than private initiatives that target governmental
+functions such as environmental protection and labor standards. This
+is not surprising given that the processes of democracy are at the core
+of what we think of as government, and a major conceptual leap is
+required to imagine that private initiatives, rather than only public
+initiatives, could play an important role in this area. To demonstrate
+is Censorship, supra note 124 ("Over the last year, though, top Democrats have said repeatedly
+that they would like to bring the Fairness Doctrine back.").
+133. Dylan Matthews, Everything You Need to Know About the FairnessDoctrine in One Post,
+WASH. POST (Aug. 23, 2011), https://www.washingtonpost.com/blogs/ezra-klein/post/everythingyou-need-to-know-about-the-fairness-doctrine-in-one-post/2011/08/23/gIQAN8CXZJblog.html
+[https://perma.ccWJ79-9Y2J].
+134. 47 U.S.C. §§ 312(a)(7), 315(a) (2012).
+135. See Lepore, supra note 13 ("The repeal [of the Fairness Doctrine] ... made possible a new
+kind of partisan talk radio.").
+136. See id.
+137. Id.
+
+2020]
+
+843
+
+A PRIVATE FAIRNESS DOCTRINE
+
+the possibilities for private initiatives, this Part proposes a private
+effort to develop, administer, and enforce a modern fairness doctrine
+and then discusses objections and extensions. 138
+OrganizationalStructure. A new private-sector initiative could
+draft, publish, administer, enforce, and periodically update the new
+private fairness doctrine. The initiative could follow the pattern of the
+most successful private, collective standard-setting organizations, such
+as the Equator Principles and the MSC. Initial financial support and
+expertise could be provided by philanthropists, journalism institutes,
+media experts, advocacy groups, traditional and new media companies,
+employee organizations, advertisers, investors, and lenders.
+The initial organizers could follow the pattern of other private
+standard-setting bodies by forming a broad stakeholder group to
+oversee the development and implementation of the new standard. The
+now-repealed FCC Fairness Doctrine could serve as the jumping-off
+point for the new private fairness doctrine, with modifications to reflect
+critiques of the 1987 version plus developments in technology and the
+media industry. Although the private effort could evaluate the accuracy
+and completeness of information on an ongoing basis, the task of
+reviewing information daily or even monthly may be overwhelming. A
+more feasible approach would be to conduct an evaluation and
+certification every several years of the processes used by the media
+companies. In other words, the standard could apply to the internal
+rules and processes that a media company uses to generate, screen,
+distribute, update, and correct the information it distributes, along with
+an assessment of the work product from the prior several-year period.
+Private standard setting combined with certification for a period
+of several years is the approach used by the MSC, which periodically
+certifies fisheries and the firms that operate within them. The MSC
+does not attempt to certify the fish caught by the fishery on an ongoing
+
+138. For
+
+valuable
+
+sources
+
+on
+
+this
+
+topic,
+
+see
+
+ELECTRONIC
+
+FRONTIER
+
+FOUND.,
+
+https://www.eff.org/ (last visited Apr. 1, 2020) [https://perma.cc/5Q8B-FU73] (describing itself as
+"[t]he leading nonprofit defending digital privacy, free speech, and innovation"); KNIGHT FIRST
+(last visited Apr. 1, 2020)
+https://knightcolumbia.org/
+INST. COLUM. U.,
+AMEND.
+[https://perma.cc/QS5U-VLA7] (providing access to the Institute's litigation, research, and other
+work). Services such as Poynter are used for fact checking by new media firms. See Fact-Checking,
+(last visited Apr. 1, 2020)
+POYNTER, https://www.poynter.org/media-news/fact-checking/
+[https://perma.cc/3TYM-D4D7]; Spandada Singh & Kevin Bankston, The TransparencyReporting
+Toolkit: Content Takedown Reporting, NEW AM., https://www.newamerica.org/otilreports/
+(last updated Oct. 25, 2018)
+transparency-reporting-toolkit-content-takedown-reporting/
+(providing information on "how 35 global internet and
+[https://perma.cc/P8JY-UM4G]
+telecommunications companies report on six categories of content takedowns" and suggesting best
+practices for improving reporting on content practices). For an early exploration of the regulation
+of the internet, see LAWRENCE LESSIG, CODE: AND OTHER LAWS OF CYBERSPACE (1999).
+
+844
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+basis. 139 Instead, if a firm follows the prescribed methods of fishing
+within that fishery, it can display a label on the packaging of the fish it
+catches from that fishery.14 0 Similarly, a certified media firm could
+display the logo of the private fairness doctrine organization, providing
+an easy way for investors, lenders, corporate and retail consumers,
+advocacy groups, current employees, and potential job applicants to
+determine which firms they should engage with and which firms they
+should avoid. The most influential users of the certifications would
+likely be major advertisers, who could avoid conflicts among their
+stakeholders about the accuracy and completeness of the information
+conveyed by the media firms they advertise with by announcing that
+they will only advertise with media firms that receive a certification or
+are "A"-rated. The certifications could affect retail consumers if mobile
+phone applications enable customers to shop from retailers who only
+advertise with certified media organizations. Potential viewers could
+also check their phones to evaluate the ratings of the media sources
+when deciding which to use, although this is less likely to be influential
+since many media viewers already select media sources based on the
+worldview or ideology of the media sources. In short, the certification
+could harness market and social forces and become a clear signal of the
+media firm's social license to operate for the designated period.
+Content of the Standard. Perhaps the most difficult issue is how
+to determine the content of the standard. The heterogeneity of the
+media industry (traditional and new media, etc.) suggests that the
+organization may need to develop general principles plus more specific
+standards that apply to particular sectors. For instance, the standards
+necessary for radio and television may be quite different from the
+standards necessary for internet firms such as Facebook, Google, and
+Twitter. In addition, given the experience with fair trade, organic food,
+and sustainable forestry standards, formation of an initial standard
+may lead to development of competing standards. 14 1 Research suggests
+that this may dilute the effect of private standard setting somewhat but
+is not fatal unless the proliferation of imposter standards ambiguates
+the signal sent by the most credible standards. 142
+139. Will Martin, Marine Stewardship Council: A Case Study in Private Environmental
+Standard-Setting, 44 ENvTL. L. REP. 10097, 10099 (2014) (noting that instead of setting arbitrary
+requirements, "[t]he MSC program ... judges a fishery on both the outcomes (environmental
+impacts) and inputs (quality and effectiveness of the management) of the fishing operations").
+140. See id. at 10097.
+141. See, e.g., Carolyn Fischer & Thomas P. Lyon, Competing Environmental Labels, 23 J.
+EcON. & MGMT. STRATEGY 692, 693 (2014).
+142. See id.; see also Dan M. Kahan, Social Influence, Social Meaning, and Deterrence, 83 VA.
+L. REV. 349, 358 (1997) (addressing concerns about ambiguation that can undermine
+communications regarding social norms, as related to individuals' decisions to obey the law or
+
+2020]1
+
+A PRIVATE FAIRNESS DOCTRINE
+
+845
+
+As discussed at the outset, the goal would not be to achieve
+balance, a concept that makes little sense for many scientific and
+factual issues, but rather accuracy and completeness. Accuracy and
+completeness in all cases is obviously a nearly impossible task to
+perform, but certification pressure can drive improvements. The
+standard could include provisions addressing the transparency of the
+process used to assess information and the sources of information, and
+nonpartisan or independent reviews of the accuracy and completeness
+of the information conveyed. Private organizations that give
+"pinocchios" for falsehoods or otherwise provide public fact-checking
+functions demonstrate that this type of effort is imperfect but
+possible.1 4 3 The private fairness doctrine would combine the assessment
+capabilities of these organizations with the market and social
+enforcement mechanisms used by private certification and standards
+organizations.
+The standard also could follow the lead of the FCC Fairness
+Doctrine and require some form of equal access to the media by
+politicians. Access issues do not appear to be at the core of the current
+information problem, however, and attempting to do too much may
+undermine the feasibility and legitimacy of the initiative. Thus,
+although it is tempting to argue that the standard should require equal
+access, this is not the most important goal.
+Updating of the Standard.The development of new technologies
+and experience with the standard will require updates on a periodic
+basis. 144 The ISEAL standards require organizations to use a
+45
+transparent, open process to set and update private standards.1
+commit crimes). The development of competing standards has occurred in other areas, such as
+
+sustainable forestry, where an industry-supported standard emerged to compete with a standard
+perceived to be more eco-friendly. If that occurs with a private fairness doctrine-for example, if
+organizations form around standards that are more supported by liberals versus conservativesthere is a risk that the existence of multiple standards will undermine the effort. See Thomas P.
+Lyon & John W. Maxwell, Corporate Social Responsibility and the Environment: A Theoretical
+Perspective, 1 REV. ENVTL. ECON. & POL'Y 1 (2008) (posing questions about the interactions
+between environmental initiatives taken by companies, private actors, and governmental
+environmental regulation). At the same time, the competition between the standards could bring
+some clarity to the debate over what constitutes accurate or complete information, and it may be
+preferable to the current free-for-all.
+143. See, e.g., Beyond the Truth-O-Meter, POLITIFACT, https://www.politifact.com/curation/
+
+nationallarchive/ (last visited Apr. 1, 2020) [https://perma.cc/YA6P-P82D] (assessing the accuracy
+of media stories); FactCheck Posts, FACTCHECK.ORG, https://www.factcheck.org/the-factcheckwire/ (last visited Apr. 1, 2020) [https://perma.cc/DTE4-U3LM] (same); Glenn Kessler, Fact
+Checker: The Truth Behind the Rhetoric, WASH. POST, https://www.washingtonpost.com/news/factchecker/ (last visited Feb. 28, 2020) [https://perma.cc/9RR8-LM6D] (giving "pinocchio" ratings for
+false statements in politics).
+144. For instance, new technologies are on the horizon that are expected to make it essentially
+impossible to determine whether a video has been altered.
+145. See discussion supra note 51.
+
+846
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+Systems such as the Equator Principles and MSC have used processes
+that include publishing a draft standard, taking comment, revising the
+standard, publicly responding to comments, and publishing a revised
+standard. 146 As with these other private standards, the private fairness
+doctrine could be updated periodically through transparent processes
+that are open to public participation.
+Monitoring and Enforcement. The private fairness doctrine
+organization could monitor and certify compliance with the standard,
+or independent auditors could serve this function. The experience of
+certification and standards organizations in the sustainability field
+suggests that the staffing requirements could be substantial for these
+tasks, so the use of third-party auditors may be more feasible.147 If the
+monitoring activities follow the pattern of monitoring in other private
+systems, the independence of these private auditors will be essential,
+and the system cannot allow them to be compromised by funding,
+competence issues, or selection of auditors whose decisions are
+dominated by ideology or worldview. 148 The existence of fact-checking
+organizations suggests that norms for auditing information already
+exist in this area, and over time a private auditing field may arise with
+experts and professional norms that provide standards of conduct. The
+professional norms of reporters, editors, and other media professionals
+may also play a role if they are linked to compliance with the private
+fairness doctrine.
+The FCC used its radio and television licensing authority as
+leverage for imposing the federal Fairness Doctrine, but that option is
+obviously not available for a private standard. Experience with many
+types of private governance systems, though, suggests that
+nonregulatory influences can be very powerful. A media firm that is
+certified by the private fairness doctrine organization could receive
+preferences from advertisers, lenders, shareholders, supply-chain
+contractors, and retail customers, and those firms that fail to qualify
+could face sanctions ranging from retail consumer boycotts, to investor
+divestment or pressure, to naming-and-shaming efforts that target
+media shareholders and managers. In addition, professional norms
+could induce the most talented journalists and other media employees
+146. See The EquatorPrinciples:June 2006, supra note 49; MSC StandardSetting Procedure,
+supra note 52.
+147. See Vandenbergh, supra note 8.
+148. One outcome of the private fairness doctrine may be that many of the mainstream
+organizations, even if they tilt heavily to the left or right, find ways to achieve a certification from
+the organization, but the effort may still play an important role if it discourages outliers whose
+reports have little claim to accuracy or completeness. Some organizations may perceive the failure
+to achieve a certification as a badge of honor, but so long as these are outliers who only appeal to
+small constituencies, they should not undermine the overall effect of the private fairness doctrine.
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+847
+
+to opt to work for certified media firms, leading media firms to seek
+certification to improve employee recruitment and retention.
+Objections. Any intervention of this type poses risks, but the
+proper standard for judging this initiative is not how it compares to
+ideal alternatives but how it compares to likely or feasible
+alternatives.1 4 9 In the case of the Fairness Doctrine, there are two likely
+alternatives: revival of government regulation or continued muddling
+through without any systematic, accountable oversight. The first option
+is highly unlikely, and if it occurs, it may be worse than the current
+situation. If one of the problems with government checks and balances
+is one-party control of government, government intervention in the
+media may make matters worse. For instance, in response to anger
+about the information being provided to viewers via new media, at least
+one close associate of President Trump threatened to nationalize
+companies such as Google and Facebook.1 50
+The second option--continued lack of any systemic public or
+private oversight-is probably more likely, but it comes at a price.
+Democratic government is difficult in the best of all worlds, but when
+large segments of the population are not exposed to core facts or are
+taught to dismiss them, the ability to choose among politicians and
+policy options and to reach compromises based on those facts is a
+fraught process. Inaccurate and incomplete information may contribute
+to erosion of the social checks and balances that might otherwise induce
+politicians to abide by basic rules of fair play while in office.
+Channelized information flow may also make the political process more
+vulnerable to foreign government interventions by simplifying the
+targeting necessary to promote polarization and undermining the
+ability to find common ground on important issues. Although private
+efforts directed at the media have proliferated on the left and right,
+including efforts to shame or boycott media companies based on the
+perceived accuracy or fairness of the information they distribute, these
+efforts have been largely ad hoc and have had mixed success thus far.
+In addition, the experience of new media firms suggests that the design
+149. See, e.g., Jonathan M. Gilligan & Michael P. Vandenbergh, Accounting for Political
+Feasibility in Climate Instrument Choice, 32 VA. ENVTL. L.J. 1 (2014) (discussing the standards
+for reviewing public and private policy alternatives with respect to climate instrument choice).
+150. See Tina Nguyen, Steve Bannon Wants to Nationalize Facebook and Google's Data,
+VANITY FAIR (Aug. 30, 2018), https://www.vanityfair.com/news/2018/08/steve-bannon-big-datafacebook-twitter-google [https://perma.cc/Y6WV-GSW5]; see also Adi Robertson, Trump Says
+Google, Twitter, and FacebookAre on 'Troubled Territory'and'Better be Careful,'VERGE (Aug. 28,
+https://www.theverge.com/2018/8/28/17792764/trump-google-rigged-search2018, 3:50 PM),
+results-claim-response [https://perma.cclTS88-VXY6] (discussing President Trump's "veiled
+threats toward Google and other web platforms," which followed the President's tweet about how
+"Google had 'rigged' its search results to suppress positive news about him").
+
+848
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+and implementation of corporate content policies is occurring, but it is
+proceeding in a nontransparent, unaccountable fashion that has
+satisfied few observers.1 5 1
+Content Challenges. Private initiatives such as the MSC have
+been able to develop standards in part because they are grounded in
+science-based concepts. Although deep disagreement exists at the
+margins, the number of fish that can be caught annually from a fishery
+without impairing its yield in future years is a knowable fact, subject to
+measurement and testing. The same is true for forest harvesting, palm
+oil harvesting, labor standards, and other areas that have been the
+subject of extensive private initiatives. Assessing accuracy and
+completeness on hotly contested social and political issues is
+undoubtedly more difficult. A private standard for the media faces both
+theoretical and practical concerns, but some organizations already
+appear to be successfully assessing factual statements for veracity, and
+these organizations could be included in the effort. At a minimum, their
+experiences could inform the development of a new private fairness
+doctrine.
+In addition, the fairness doctrine organization would not focus
+on any one statement, but instead would examine whether the media
+firm had adopted and implemented the systems necessary to screen out
+false statements or situations in which a lack of complete treatment of
+facts would make the media coverage misleading. The process may
+include review of specific articles, advertisements, or news accounts. At
+the same time, the focus on the media firms' systems, not any particular
+piece of information, might avoid some of the difficulties of assessing
+facts on complex or controversial issues.
+Accountability. Would a private fairness doctrine be sufficiently
+accountable to the public? Would it be commandeered by a particular
+market, social, or political actor? Accountability in this situation refers
+to the accountability of the private fairness doctrine organization to the
+public. The lack of a direct, formal democratic accountability
+mechanism could lead to an initiative that is detached from majority
+preferences, suppresses important minority interests, or otherwise does
+not serve public purposes. A comprehensive accountability analysis is
+beyond the scope of this Essay, but it would include identifying who
+should be accountable to whom, the actors who could ensure
+accountability, and the methods to achieve accountability. 1 52 For my
+151. See Romm, supra note 14 (describing Facebook's plan to create "an independent oversight
+board to review the company's decisions about the posts, photos and videos it takes down or leaves
+online, responding to a wave of criticism that inconsistent policies have undermined the platform").
+152. For a discussion of accountability concepts for private governance, see Vandenbergh,
+supra note 67, at 956-63.
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+849
+
+purposes here, I simply argue that the relative differences in
+accountability between a private system and our current government
+system are disturbingly small. A private system would not be subject to
+many of the accountability features of the democratic process-such as
+voting and the full range of public checks and balances-and it may be
+vulnerable to capture by commercial or ideological interests. Private
+ways to ensure
+developed many
+governance systems have
+accountability, however, and many of these concerns can be addressed
+by creating an open, broad-based oversight process for the initiative.
+Demand. Perhaps the most fundamental objection to a private
+fairness doctrine is that insufficient demand may exist for greater
+accuracy and completeness of the information that flows from
+traditional and new media. Are enough managers of advocacy groups,
+other organizations, and members of the general public dissatisfied
+with the status quo to demand and invest in an alternative? Does
+sufficient perceived need exist to motivate the core stakeholders who
+are necessary to fund, adopt, monitor, and enforce the standard? If the
+initiative does not include a real or implied threat from a sufficiently
+broad or strong group of private enforcers, it will not succeed, and it is
+possible that only a small group of centrists will join those at the far
+ends of the spectrum, or that two partisan standards, one on the left,
+and one on the right, will emerge. The private fairness doctrine effort
+could start modestly, though, and focus initially on an area with
+significant support across the political spectrum, such as policies
+directed at new media companies. 153
+Importance. On a related note, it is possible that the flow of
+accurate, complete information is not an important problem. For
+instance, inadequate information may not be a substantial contributor
+to the polarization problem, or polarization may not be a fundamental
+problem for the functioning of U.S. democracy. Although I discuss these
+issues above, it is beyond the scope of this Essay to address them in any
+detail. From my perspective, though, information problems are a
+sufficient challenge to the ability of the democratic process to generate
+a public-regarding government to warrant a substantial response. In
+addition, the other options are implausible or unattractive. The FCC
+154
+but this option
+could adopt a modern version of the Fairness Doctrine,
+seems dead in the water politically. The FCC recently rejected net
+neutrality, a form of protection for the flow of information via the
+internet, and adoption of a new Fairness Doctrine is even more difficult
+
+153. See Klonick, supra note 14, at 1601.
+154. Efforts to revive the Doctrine in 1993 and 2008 failed, and the Obama Administration
+ultimately eliminated the rule from the Federal Register in 2011. Matthews, supra note 133.
+
+850
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+to envision. Government restriction of free speech raises legal and
+policy concerns from across the political spectrum, so change of control
+of the executive branch is unlikely to have a substantial effect on the
+FCC's appetite for a new government Fairness Doctrine. Similarly,
+although surveys suggest that the public supports government
+requirements for balanced commentary, the support does not extend to
+internet-based communications. 15 5
+Greater use of private initiatives could also lead to greater,
+rather than less, polarization and self-sorting in the population. For
+example, private initiatives on the left and the right could just infect
+nonpartisan areas of daily life with partisan tribalism and reduce
+dialogue across groups. If conservatives eat at Chick-fil-A while liberals
+eat at the local organic restaurant, and outdoor enthusiasts choose
+between Dick's Sporting Goods and competitors based on their policies
+regarding the sales of assault weapons, polarization could be
+exacerbated. Demographic trends in the United States already suggest
+that a fair amount of self-sorting is occurring, with Democrats tending
+to live near other Democrats and Republicans living near other
+Republicans. 156 If they also tend to shop differently as a result of this
+initiative, that could undermine the efficacy of the initiative and
+exacerbate other effects of polarization. The existence of retailers,
+institutional investors, and other firms that need to reach a very broad
+audience suggests that this is a small risk, but it is a concern that is
+worthy of additional research and thought in the design of any private
+initiative.
+Vulnerability to Manipulation. Another concern with any
+private system is that market or social influences could yield a private
+governance system that serves narrow interests. The standard would
+be counterproductive if commandeered by narrow interests, as occurred
+with Hollywood's blacklisting practice during the period of fears about
+155. For instance, a 2008 national survey of one thousand likely voters by Rasmussen Reports
+found that forty-seven percent of those surveyed answered "yes" to the question, "Should the
+government require all radio and television stations to offer equal amounts of conservative and
+liberal political commentary?" 47% Favor Government Mandated PoliticalBalance on Radio, TV,
+RASMUSSEN REP. (Aug. 14, 2008), http://www.rasmussenreports.com/public-content/politics/
+general politics/august_2008/47_favor-government mandated politicalbalanceon-radio-tv
+[https://perma.cc/JQ5H-9AYY]. Among the other respondents, thirty-nine percent said "no" and
+fourteen percent answered "not sure." Id. In contrast, fifty-seven percent of those surveyed
+
+answered "no" to the question, "Should the government require web sites and bloggers that offer
+political commentary to present opposing viewpoints?" Id. Of the other respondents, thirty-one
+percent said "yes," and twelve percent said "not sure." Id.
+156. See Alan Greenblatt, How Republicans and Democrats Ended up Living Apart, NPR (Nov.
+27, 2013, 11:09 AM), https://www.npr.org/sections/itsallpolitics/2013/11/26/247362143fhowrepublicans-and-democrats-ended-up-living-apart
+[https://perma.cc/X9RB-YF3R];
+see
+also
+TALISSE, supra note 2, at 73 (describing the trend of "social spaces ...
+growing increasingly
+politically homogeneous" as "robust" and "applying to social spaces across the board").
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+851
+
+communism in the 1950s. Similarly, anticompetitive interests could
+dominate, leading to a system that promotes certain commercial
+interests at the expense of broader public concerns. Antitrust law may
+address this problem to some extent.15 7 At the same time, if antitrust
+law is vigorously enforced to reduce anticompetitiveness concerns
+without accounting for the benefits of a private standard, it could do
+more harm than good.16 8
+Social or political manipulation is another concern. If captured
+by liberals or conservatives, or Democrats or Republicans, a private
+system could be used to promote a particular viewpoint rather than to
+promote the distribution of accurate and complete information.
+Similarly, if private initiatives often better reflect weakly held but
+widespread preferences in the population, there is a risk that they could
+lead to discrimination against minority interests. The existence of
+organized hate groups certainly suggests that this is a risk if these
+groups form new media pressure groups or commandeer existing ones.
+In the long run, the most feasible and effective insurance against
+market, social, or political manipulation may arise from the
+composition of the stakeholder group that oversees the initiative and
+the need of that stakeholder group to maintain the legitimacy of the
+standard and its implementation. These are limited constraints, but
+they have enabled other private systems to succeed over the long
+term. 159
+Spillover Effects. What effect will a private initiative have on the
+likelihood of government responses to information problems? Private
+actions could have negative spillover effects on government's ability to
+act. This could arise through the expressive effects of private action if
+the existence of private action undermines the idea that government
+has an important role and can perform it effectively. Negative spillover
+
+157. For instance, a private association organized to regulate media operations or content
+must not run afoul of the antitrust standard set forth in Fashion Originators'Guild (known as
+FOGA). Fashion Originators' Guild of Am., Inc. v. Fed. Trade Comm'n, 312 U.S. 457 (1941). The
+marketplace of ideas can be seen as a form of check and balance. There is an important normative
+dimension to antitrust in cases including companies like Comcast and AT&T, where concentration
+of market power influences the flow of information in an intellectual marketplace.
+158. See Michael P. Vandenbergh & Ben Raker, Private Governance and the New Private
+Advocacy, 32 NAT. RESOURCES & ENV'T 45, 49 (2017) (noting that in the context of private
+environmental advocacy, "[flor some [private] initiatives, the risks of anticompetitive behavior
+could outweigh the benefits of increased environmental protection").
+159. For a review of the effects of sustainability certification and standards systems, see
+TOWARD SUSTAINABILITY, supra note 17, at 9 (citing "data on the current market status of key
+voluntary standards and certification systems relating to forestry, fisheries, and food"); and Errol
+E. Meidinger, Environmental CertificationPrograms and U.S. Environmental Law: Closer than
+You Think, 31 ENVTL. L. REP. 10162, 10163 (2001) (arguing that "environmental certification
+programs are likely to become important engines of change in American environmental law").
+
+852
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+effects also could occur if individuals believe that the problem has been
+solved and thus do not push for a better government solution, or if they
+engage in moral licensing, concluding that because they took one
+positive step (e.g., watching a fairness-certified television program)
+they are licensed to take a negative step (e.g., retweeting inaccurate
+information).1 60 Private initiatives could also divert funds, management
+attention, or enthusiasm from public to private actions. At the same
+time, private initiatives can have positive spillover effects by
+demonstrating proof of concept, reducing the costs of compliance with
+government mandates, demonstrating efficacy, and bypassing
+worldview-based opposition to public governance. Overall, spillover
+issues are important, but a growing body of research suggests that
+many types of negative spillover effects can be reduced if not
+prevented.161
+
+Extensions. The private fairness doctrine initiative is only one of
+many possible private options that could buttress democratic processes.
+The important move at this point is to overcome the failure of
+imagination that can occur if we focus only on government checks and
+balances and overlook social checks and balances. An example of a new
+option is the concept of the private campaign finance contract discussed
+by Ganesh Sitaraman and deployed by Scott Brown and Elizabeth
+Warren. 162 As Sitaraman noted, the contract between Brown and
+Warren could serve as a model for campaign finance agreements in
+other campaigns. For a range of reasons, however, the concept has not
+gone viral. Although it may be the case that few races involve incentives
+for both candidates to enter into a voluntary campaign finance
+agreement, the assumption that campaign finance is a matter of public
+law may have induced candidates to miss the rhetorical advantage of
+offering to enter into an agreement. In other words, even if the opposing
+candidate declines to agree to enter into such an agreement, the refusal
+
+160. For a discussion of positive and negative spillover effects, see Heather Barnes Truelove
+et al., Positive and Negative Spillover of Pro-environmentalBehavior: An IntegrativeReview and
+TheoreticalFramework, 29 GLOBAL ENvTL. CHANGE 127 (2014).
+161. Id. at 135-36.
+162. See Sitaraman, supra note 27, at 757 (describing generally the private-ordering "selfenforcing contract" as one "between ... opposing campaigns, in which each campaign agrees to be
+penalized from its own campaign treasury for any spending from an outside group that supports
+the candidate"). The Brown-Warren contract limited the contributions that each candidate would
+accept in the 2012 Massachusetts Senate race. See id. at 757-58 (describing "The Peoples' Pledge"
+signed by Senators Scott Brown and Elizabeth Warren in January 2012, which "required each
+campaign to pay to charity the equivalent of 50% of any third party's advertising costs for
+advertisements that benefitted their candidacy"). Although a promising innovation, the BrownWarren private campaign finance initiative has yet to be replicated widely in other U.S.
+campaigns. See id. at 758. This concept of social checks and balances can generate a wide range of
+promising options, and many other initiatives are possible in the campaign finance area.
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+853
+
+to do so can become fodder for debates and campaign advertisements.
+Over the longer term, private organizations can develop public
+databases that track and disclose which candidates declined to enter
+into these agreements and use public information campaigns to put the
+private campaign finance contract option on the national agenda. In
+addition, many other private governance possibilities exist in the
+campaign finance area. 163
+Similarly, new initiatives could target the ease of voting and the
+integrity of vote counting. Several efforts are already underway
+regarding voting. For instance, a recent get-out-the-vote effort included
+64
+roughly 150 companies ranging from Levi Strauss to Lyft to Walmart.1
+The initiative includes media campaigns, rides to the polls, and policies
+to allow employees to leave work to vote. 165
+One of the ways in which a party can thwart the democratic
+system is to not only discourage voting, but also to change vote totals or
+to undermine the legitimacy of the system by creating doubt about vote
+totals. The extent to which actual interference with vote counting may
+have occurred in recent elections is beyond the scope of this Essay, but
+sufficient information exists about motives and opportunities to raise
+concerns. Several private options are available to address this problem.
+One is to fund and deploy a private exit-polling operation that is
+sufficiently robust to reveal discrepancies between actual vote totals
+and reported totals. Media outlets engage in exit polling now, but a
+more comprehensive, systematic effort that focuses on the most
+vulnerable elections may be able to ferret out even small interventions
+in the process. This effort may assist litigants who challenge a vote
+
+163. An example is the recent effort to crowdsource support for a hypothetical senate opponent
+based on the incumbent's vote on a hotly contested issue. See Eli Rosenberg, Activists Raised $1
+Million to Defeat Susan Collins if She Votes for Kavanaugh. She Says It's Bribery, WASH. POST
+(Sept. 12, 2018, 9:06 AM), https://www.washingtonpost.com/politics/2018/09/12/activists-raisedmillion-defeat-susan-collins-if-she-votes-kavanaugh- she-says-its-bribery/ [https://perma.cc/8PB7YFGF]. Another example of a private campaign finance initiative is an organization that would
+organize donor matching to create disincentives for major donors to unduly influence elections.
+The organization could identify donors (individuals or PACs) who would publicly announce that
+they plan to match the donations of a specific, comparable donor in the other party or on the other
+side of an issue. In that way, both donors would have a reduced incentive to give to the campaign
+since any gift would provoke an equal response. This would not be a silver bullet (e.g., contributions
+could be hidden or donors could believe that their campaign contribution would be more effectively
+used than contributions to the opposing campaign), but it might discourage some of the largest
+single-donor or single-PAC interventions in elections.
+164. Kaitlyn Tiffany, Why Do Brands Care if You Vote?: It's About Democracy, but It's Also
+About the Bottom Line, Vox (Sept. 24, 2018, 3:20 PM), https://www.vox.com/thegoods/2018/9/24/17897194/walmart-lyft-get-out-the-vote-midterm-elections-2018-patagonia
+[https://perma.cc/9FPS-6925] (discussing the "Time to Vote" campaign).
+165. See id.
+
+854
+
+VANDERBILT LAW REVIEW
+
+[Vol. 73:3:811
+
+tally, and knowledge that the exit-polling data will be extensive and
+publicly available could discourage vote manipulation efforts.
+Another possibility is a naming-and-shaming campaign directed
+at the makers of voting machines. The procurement of voting machines
+is not a visible process to most voters or private actors who could
+influence procurement, but it could be. Private initiatives could subject
+state and local government officials to greater public accountability
+regarding their voting machine choices. But even if these officials are
+insulated, the companies that make the machines could be subject to
+boycotts led by advocacy groups (to the extent they sell products that
+are subject to market pressure) and campaigns directed at employee
+morale. These companies could also be subject to pressure from
+investors, lenders, and suppliers. These are just a few of the many
+possible private initiatives that could buttress basic democratic
+processes.
+CONCLUSION
+This Essay focuses on the flow of information necessary to
+sustain democratic discourse, and it focuses on two developments that
+have contributed to the polarized, dysfunctional discourse that is
+common today. The first is the transformation of the media sector over
+the last several decades. The radio and television sectors have shifted
+from being dominated by a few large traditional media firms with some
+incentive to retain the credibility of people across the political spectrum
+to the current combination of traditional and new media, both of which
+have incentives to create narrow information channels that enable
+individuals to insulate themselves from facts and opinions inconsistent
+with their worldview. 166 The second is the withdrawal of the federal
+government from the role of policing the fairness and accuracy of
+information conveyed by the media. Beginning in 1949, the FCC's
+Fairness Doctrine imposed equal time, editorial reply, and other
+requirements on radio and television stations. Although the Supreme
+Court upheld the constitutionality of the Fairness Doctrine in Red Lion
+Broadcasting v. FCC, 16 7 the FCC eliminated the Fairness Doctrine in
+1987, and the next decade saw an explosion in the number of talk radio
+
+166. See Bump, supra note 77 (describing "two overlapping trends"-increased polarization
+between Democrats and Republicans, and the fragmentation of media sources caused by the
+internet and social media).
+167. 395 U.S. 367, 400-01 (1969).
+
+2020]
+
+A PRIVATE FAIRNESS DOCTRINE
+
+855
+
+stations as well as the founding in the mid-1990s of Fox News and
+MSNBC. 16 8
+In response, this Essay suggests a new private fairness doctrine.
+Despite the obvious difficulties with any effort to regulate the content
+and flow of information, the issues today are whether the deep flaws in
+modern democratic discourse warrant some intervention and whether
+a private option is preferable to a government option. By contributing
+to a poorly informed, insular, and deeply divided electorate, the
+channelization of information flow can undermine democratic discourse
+and the social checks and balances that constrain misbehavior by
+politicians. The experience over the last two decades with other private
+governance initiatives suggests that a private option is viable. Although
+this Essay argues that private initiatives can improve the information
+available for democratic discourse, the more fundamental point is that
+scholars and democracy advocates should avoid the assumption that
+efforts to change government are the only way to improve government.
+Instead, in some cases parallel private initiatives are more viable and
+can buttress formal democratic processes.
+
+168. See Cuomo, supra note 128 ("Scarcity has been replaced with 10,000 radio stations and
+more cable channels than there is programming to fill them."); Lepore, supra note 13 (describing
+how the repeal of the Fairness Doctrine "made possible a new kind of partisan talk radio" and
+subsequently, "[p]artisan cable television").
+
+

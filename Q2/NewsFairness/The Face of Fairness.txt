@@ -1,0 +1,1088 @@
+Author's personal copy
+J Bus Ethics
+DOI 10.1007/s10551-014-2357-7
+
+The Face of Fairness: Self-Awareness as a Means to Promote
+Fairness among Managers with Low Empathy
+David B. Whiteside • Laurie J. Barclay
+
+Received: 4 February 2014 / Accepted: 5 September 2014
+! Springer Science+Business Media Dordrecht 2014
+
+Abstract Although managing fairness is a critical concern for organizations, not all managers are predisposed to
+enact high levels of fairness. Emerging empirical evidence
+suggests that personality characteristics can be an important antecedent of managers’ fair behavior. However, relatively little attention has been devoted to understand how
+to promote fairness among managers who are naturally
+predisposed to engage in lower levels of fairness. Building
+upon self-awareness theory, we argue that increasing
+managers’ self-awareness can motivate managers with low
+trait empathy to engage in greater levels of justice. We test
+the interactive effects of trait empathy and state selfawareness using an experimental study (N = 76) in which
+individuals were asked to communicate negative news. In
+support of our hypothesis, our results indicate that
+increasing self-awareness through self-focusing situations
+can help promote interactional justice when communicating negative news for individuals with low trait empathy.
+The theoretical and practical implications of these findings
+are discussed.
+Keywords
+
+Fairness ! Justice ! Empathy ! Self-awareness
+
+These men ask for just the same thing—fairness, and fairness only—
+Abraham Lincoln
+
+Given the pervasive and beneficial effects of enacting
+fairness in organizations (for meta-analytic reviews, see
+D. B. Whiteside (&) ! L. J. Barclay
+School of Business & Economics, Wilfrid Laurier University, 75
+University Avenue West, Waterloo, ON N2L 3C5, Canada
+e-mail: whit6090@mylaurier.ca
+L. J. Barclay
+e-mail: lbarclay@wlu.ca
+
+Colquitt et al. 2001, 2013; Rupp et al. 2014), it is critical to
+understand the factors that can prevent managers from
+engaging in fair behaviors and how these obstacles can be
+overcome. Emerging empirical evidence suggests that
+personality characteristics can play an important role in
+managers’ enactment of fairness. Patient and Skarlicki
+(2010), for example, demonstrated that managers with low
+levels of empathy engage in fewer fair behaviors toward
+their subordinates than managers with high empathy. The
+notion that personality characteristics can naturally predispose some managers to engage in lower levels of fairness is concerning since having a reduced tendency or
+motivation to enact fairness can not only prevent individuals from adhering to standards of fairness, but it can also
+result in more frequent and severe violations of fairness (cf.
+Ambrose and Schminke 2009a). This raises the question of
+how fair behaviors can be promoted, especially for managers who are predisposed to engage in lower levels of
+fairness.
+Building upon self-awareness theory (Duval and
+Wicklund 1972; Wicklund 1975), we argue that increasing
+managers’ self-awareness can provide one avenue by
+which managers with low trait empathy can be motivated to
+engage in higher levels of fairness. Consistent with
+research by Patient and Skarlicki (2010), we argue that trait
+empathy will be positively related to managers’ enactment
+of fairness. However, we propose that increasing managers’ self-awareness through self-focusing situations (i.e.,
+situations where one views the self as an object to be
+evaluated; e.g., seeing a video of oneself, looking into a
+mirror) can overcome the effects of low empathy on fairness. This is because states of self-awareness can trigger
+comparisons between one’s current behavior and standards
+of normative behavior (Duval and Wicklund 1972). Fairness is one example of such standards—that is, people
+
+123
+
+Author's personal copy
+D. B. Whiteside, L. J. Barclay
+
+generally believe that they should be fair and want to
+perceive of themselves as fair people (Diekmann et al.
+1997; Lerner 1971; Messick et al. 1985). By increasing the
+salience of normative standards, we argue that states of
+self-awareness can motivate managers to ‘‘shape up’’ their
+behavior and act more in line with general standards of
+justice.
+We aim to make at least two contributions to the literature. First, despite the importance of managing fairness,
+justice researchers still know relatively little about the
+factors that can promote fairness in the workplace (cf. Scott
+et al. 2009). Building upon research by Patient and Skarlicki (2010), we examine trait empathy as an important
+antecedent of fair behavior. Understanding the role of
+personality characteristics in the enactment of fairness can
+deepen our understanding of who will be most likely to
+enact fairness in organizations as well as identify managers
+who may benefit from fairness interventions. Second, we
+examine self-awareness as a possible contextual intervention to help promote fairness among managers with low
+trait empathy. We argue that situating managers in selffocusing situations can increase the salience of fairness
+standards and motivate managers with low trait empathy to
+treat employees fairly. Thus, we explore how to promote
+managerial fairness as well as identify new points of
+intervention to manage fairness in the workplace.
+We examine this research question by exploring individuals’ enactment of fairness when delivering bad news to
+others. We focus on the delivery of bad news since justice
+issues are particularly prominent in the context of negative
+outcomes (Greenberg 2001). As a result, it is especially
+important that managers deliver bad news to employees in
+a way that conveys dignity as well as respect and includes
+an adequate explanation (Bennett et al. 1995). However,
+managers are often motivated to disengage from their
+employees in these situations as a form of self-protection
+and can fail to treat employees with interpersonal sensitivity (Folger and Skarlicki 2001; Margolis and Molinsky
+2008; Molinsky and Margolis 2005). This suggests that
+delivering bad news is a context where fairness is particularly important, but difficult to promote. Moreover, we
+focus on individuals’ enactment of interactional justice
+(i.e., the extent to which managers treat employees with
+sensitivity and provide an adequate explanation of outcomes; Bies and Moag 1986) since interactional justice is
+the most open to managers’ discretion compared to the
+other justice dimensions (Scott et al. 2009) and it is particularly important when communicating negative news to
+employees (Bennett et al. 1995).1 In the interests of
+1
+
+Although interactional justice is sometimes further separated into
+interpersonal and informational justice (e.g., Colquitt 2001), we
+examine interactional justice for a number of reasons. From a
+
+123
+
+simplicity, we use the terms interactional justice and fair
+behavior interchangeably from this point forward.
+
+Theoretical Background
+Communicating negative news in a fair manner is an
+important issue facing managers. Treating employees fairly
+is associated with a wide range of beneficial outcomes for
+employees (e.g., trust, job satisfaction) and organizations
+(e.g., performance, commitment; for meta-analytic
+reviews, see Cohen-Charash and Spector 2001; Colquitt
+et al. 2001, 2013; Rupp et al. 2014). However, there are a
+number of reasons why managers may fail to treat
+employees fairly when communicating negative news. For
+example, managers may be motivated to disengage from
+their employees in these situations as a form of self-protection (Margolis and Molinsky 2008; Molinsky and
+Margolis 2005) or because they do not want to invest the
+effort, time, and resources required to engage in fairness
+(Folger and Skarlicki 1998, 2001).
+Recent research has demonstrated that increasing managers’ justice motivation can play an important role in
+promoting fairness (Ambrose and Schminke 2009a; Cornelis et al. 2013; Korsgaard et al. 1998; Patient and Skarlicki
+2010; Scott et al. 2007). Specifically, managers who are
+motivated to engage in fairness are more likely to initiate
+and persist in fairness efforts (Ambrose and Schminke
+2009a; Scott et al. 2009). Although the motivation to enact
+fairness can be enhanced in a number of ways, managerial
+empathy has been shown to be important within the context
+of communicating negative news (Patient and Skarlicki
+2010).
+Empathy is defined as an individual’s ‘‘sensitivity to the
+emotional experiences of another’’ (McNeely and Meglino
+1994, p. 837) and refers to the psychological process that
+allows an individual to experience feelings that are congruent with the situation of another person (Hoffman
+2000). We examine empathy as a dispositional characteristic; that is, individuals’ general capacity to empathize
+with others (i.e., trait empathy; Davis 1994). This is in
+contrast to state empathy (i.e., temporary and targeted
+feelings of warmth and compassion toward another person;
+Davis 1994). We focus on trait empathy because we are
+Footnote 1 continued
+theoretical perspective, interpersonal and informational justice are
+closely related, and both dimensions have the same hypothesized
+effects in this context. Thus, interactional justice provides a more
+parsimonious explanation. From an empirical perspective, our results
+also indicated that interpersonal and informational justice were highly
+correlated (r = 0.73). Finally, interactional justice has been used
+extensively in recent research, and our approach is consistent with
+these studies (e.g., Ambrose and Schminke 2009b; Barclay and
+Kiefer, in press; Barsky and Kaplan 2007; Spencer and Rupp 2009).
+
+Author's personal copy
+Effects of Empathy and Self-Awareness on Fair Behavior
+
+interested specifically in how to increase feelings of fairness among managers who are characteristically low on
+empathy since these individuals are particularly likely to
+engage in lower levels of fairness on an ongoing/consistent
+basis.
+Trait empathy can play an important role in the enactment
+of fairness because it can increase the perceived importance
+of justice, particularly when communicating negative outcomes to others. Specifically, research on empathy has
+demonstrated that people high on trait empathy are better
+able to understand the full effect of negative outcomes on
+others because they are able to put themselves in the shoes of
+those experiencing the negative outcome (Davis 1994). That
+is, when delivering negative news, managers who demonstrate high levels of empathy should have a better understanding of how recipients of negative news will react and
+how harmful the news may be than managers who demonstrate low levels of empathy (Blader and Tyler 2001; Patient
+and Skarlicki 2010). This is important in the context of
+fairness because justice issues become more important as
+negative outcomes become more prominent (Blader and
+Tyler 2001; Greenberg 2001). This suggests that engaging in
+fairness when communicating negative outcomes should be
+particularly important for highly empathic managers
+because they can better understand how harmful the news
+will be to employees and know that they should communicate the news in a fair manner in order to minimize the harm
+caused by the news. In support of this effect, Patient and
+Skarlicki (2010) demonstrated that among managers completing a layoff scenario task, trait empathy was positively
+related to the enactment of fairness. Taken together, we
+argue that trait empathy will motivate individuals to engage
+in higher levels of interactional justice when communicating
+bad news because it can increase the importance of justice
+issues.
+In the interests of fairness promotion, however, it is
+important to also outline potential avenues by which managers with low trait empathy can be motivated to engage in
+higher levels of fairness. We argue that managers’ state selfawareness may provide one answer. Specifically, managers
+with low trait empathy can be motivated to adhere to
+standards of justice when states of self-awareness are activated because these states can highlight the importance of
+adhering to normative standards such as fairness. Thus, we
+propose that self-awareness may promote fair behaviors,
+particularly for individuals who are predisposed to engage
+in lower levels of fairness.
+Overcoming Low Empathy: The Role of SelfAwareness
+Self-awareness is a motivational state that occurs when
+one’s attention is focused exclusively on the self as an
+
+object to be evaluated. Duval and Wicklund (1972) outlined two forms of self-awareness: (1) ‘‘objective selfawareness’’ (i.e., when attention is focused on the self) and
+(2) ‘‘subjective self-awareness’’ (i.e., when attention is
+directed away from the self and toward external objects).
+For the purposes of this paper, we focus on objective selfawareness (i.e., all references to ‘‘self-awareness’’ refer to
+objective self-awareness from this point forward).
+According to self-awareness theory (Duval and Wicklund 1972), states of self-awareness can be activated by any
+stimuli in one’s environment that focus one’s attention on
+the self. For example, seeing a video of oneself or simply
+looking into a mirror. In turn, the activation of selfawareness can trigger automatic self-evaluations—or
+comparisons between the self and standards of normative
+behaviors, attitudes, and traits (Duval and Wicklund 1972;
+Wicklund 1975). Specifically, these standards represent an
+individual’s perception of how they should behave given a
+certain set of circumstances (i.e., standards of fairness;
+Folger 1998, 2001).
+The motivational crux of self-awareness theory revolves
+around the likelihood that during this process of selfevaluation, perceived discrepancies will be identified
+between one’s current behavior and standards of normative
+behavior (Duval and Wicklund 1972). The existence of
+such discrepancies will motivate self-aware individuals to
+respond in one of two ways. On the one hand, they may
+‘‘ship out’’ by removing the stimuli that triggered the selffocused attention (e.g., not looking into the mirror). This
+approach may be especially likely if there is a simple and
+effective way to avoid self-awareness. However, self-aware
+individuals may also ‘‘shape up’’ and attempt to reduce the
+discrepancy by changing their behavior such that it is more
+consistent with standards of normative behavior. This
+response may be particularly likely if individuals cannot or
+do not want to avoid the self-focusing stimuli. Moreover,
+these motivational effects can also be proactive. Gibbons
+(1990) suggests that self-awareness can motivate individuals to inhibit the creation of discrepancies by avoiding
+behaviors that are inconsistent with the standards that they
+hold. In this sense, standards can be prescriptive in that
+they indicate what a person should do in order to attain
+standards of correctness.
+Previous empirical research has supported these effects.
+For example, Batson et al. (1999) demonstrated that selfawareness increased the likelihood that individuals would
+assign another participant to a desirable task instead of
+themselves when this behavior was framed as the most
+‘‘morally right’’ way to assign tasks. In a similar vein,
+Vallacher and Solodky (1979) demonstrated that individuals who were made self-aware were less likely to cheat on
+puzzle problems if standards of morality were prioritized
+over standards of competence. Taken together, this
+
+123
+
+Author's personal copy
+D. B. Whiteside, L. J. Barclay
+
+research supports the notion that by increasing the salience
+of normative standards, states of awareness can also
+motivate proactive moral behavior.
+We argue that self-awareness can also enhance individuals’ motivation to ‘‘shape up’’ to standards of fairness.
+Specifically, as mentioned above, the activation of selfawareness triggers a self-evaluation between one’s behavior and the standards one holds about how they should
+behave (Duval and Wicklund 1972) and can motivate
+individuals to avoid behaviors that are inconsistent with the
+standards that they hold (Gibbons 1990). Fairness represents one example of a commonly held standard of ideal
+behavior. For example, fairness is often framed as a moral
+virtue and an important standard of how one should act,
+whereas violations of fairness are regarded as transgressions against standards of moral behavior (Folger 1998,
+2001; Folger and Cropanzano 1998, 2001). Consistent with
+this approach, research has demonstrated that fairness is a
+desired social identity (Greenberg 1990). That is, most
+people believe that they should be fair and generally want
+to perceive themselves as fair people (Diekmann et al.
+1997; Lerner 1971; Messick et al. 1985) and want others to
+perceive them as fair (Greenberg 1990). This suggests that
+when individuals are made self-aware, they should be
+motivated to engage in greater levels of fairness in order to
+reduce the likelihood that discrepancies will emerge
+between their own behavior and the standards of fairness
+that they hold. That is, self-awareness can activate standards of fairness to indicate how one should act in order to
+attain a desired identity of fairness. On the other hand, in
+the absence of self-awareness, standards of fairness should
+be less salient, and the motivational drive to ‘‘shape up’’
+and avoid discrepancies between one’s behavior and standards of fairness should be less intense (Gibbons 1990). In
+support of these effects within a justice context, Greenberg
+(1980) demonstrated that self-awareness can increase
+individuals’ equity behavior, especially when individuals
+see themselves as responsible for performance differences
+between them and a competitor. We expand upon these
+findings by exploring these effects in the context of interactional justice and the extent to which self-awareness can
+promote fairness among individuals with low trait
+empathy.
+The Interaction of Trait Empathy and Self-Awareness:
+Activating Standards of Justice
+We argue that trait empathy will interact with self-awareness to predict fairness such that individuals with high trait
+empathy will have high levels of fairness regardless of selfawareness whereas self-awareness will increase fair
+behaviors for individuals with low trait empathy. In other
+words, when individuals are not made self-aware, we
+
+123
+
+hypothesize that the relationship between trait empathy and
+interactional justice will be positive. This is because
+greater levels of empathy should increase the importance of
+justice issues when communicating negative news to others
+(Blader and Tyler 2001). That is, individuals with higher
+trait empathy should demonstrate a greater motivation to
+communicate negative news in a fair manner in order to
+minimize the harm felt by the employee (Patient and
+Skarlicki 2010). When individuals are made self-aware,
+however, we hypothesize that the positive relationship
+between trait empathy and self-awareness will be tempered
+such that interactional justice is consistently high across all
+levels of trait empathy. Specifically, by increasing the
+salience of standards of justice, self-awareness can motivate individuals with low trait empathy to ‘‘shape up’’ to
+standards of justice and communicate negative outcomes
+with a greater level of interactional justice. In other words,
+we argue that increasing individuals’ self-awareness can
+overcome the effects of low trait empathy on interactional
+justice.
+Hypothesis 1 Trait empathy and self-awareness will
+interact to predict interactional justice such that the relationship between trait empathy and interactional justice
+will be positive when self-awareness is low, but tempered
+when self-awareness is high.
+
+Method
+Participants and Procedure
+Participants (N = 77) were recruited from a North American university and received course credit for participating
+(51 % male, average age = 20.21 years, average work
+experience = 3.57 years). Participants completed a feedback task adapted from Patient and Skarlicki (2010). The
+task was organized into two parts. First, participants were
+asked to grade a mock GMAT test that had been completed
+by an ostensible participant in a previous study session.
+The test was organized into four multiple-choice sections
+(reading comprehension, sentence correction, algebra, and
+geometry) and one qualitative writing question. Participants were provided with a marking rubric and asked to
+grade the test. All participants were provided with an
+identical test in which the test-taker performed poorly.
+Specifically, the test-taker failed the reading comprehension and algebra sections (a score of 1/5 in each section),
+barely passed the sentence correction and geometry sections (a score of 3/5 in each section), and had a flawed
+qualitative response. To put these scores in context, participants were told that most MBA programs would automatically reject any applicant with a GMAT score less than
+
+Author's personal copy
+Effects of Empathy and Self-Awareness on Fair Behavior
+
+70 %. By marking the test themselves, participants had a
+detailed understanding of the test-taker’s strengths and
+weaknesses as well as which areas needed improvement.
+Second, after grading the test, participants were asked to
+provide the test-taker with feedback on their test performance. Participants were told that their feedback would be
+given to the test-taker in the third stage of the study the
+following week and were asked to ‘‘provide your feedback
+in the way that you feel is most appropriate.’’ To increase
+the perceived importance of the task, participants were told
+that ‘‘all of the students in the previous stage of this study
+are interested in applying for MBA programs and participated in this study as an actual opportunity to prepare
+themselves for the format of the GMAT exam and receive
+feedback on their performance.’’ Using open-ended questions at the end of the study, we asked participants to
+provide an explanation of what they thought the study was
+about and what the researchers were trying to examine. An
+examination of these responses indicated that participants
+did not question the authenticity of the feedback task.
+Participants were randomly assigned to either a high
+self-awareness condition or a low self-awareness condition. In the high self-awareness condition, participants
+provided the test-taker with video feedback using a webcam program on a laptop that mirrored their image on the
+computer screen as they recorded the feedback. That is,
+participants faced their own image as they recorded their
+feedback as if they were looking into a mirror. In the low
+self-awareness condition, participants used a laptop to
+record audio feedback (i.e., participants in the low selfawareness condition were not faced with their own image
+as they recorded their feedback). To minimize potential
+anxiety about being identified, all participants were told
+that the test-taker would only receive a text-based transcription of their feedback and they would not be identifiable in any way through the feedback provided. One
+participant was excluded from the data for not correctly
+following the study instructions. Thus, our final sample
+consisted of 76 participants. After the feedback task was
+completed, participants responded to our measures,
+including the manipulation check and demographics.
+
+Table 1 Means, standard deviations, reliabilities, and correlations
+Mean
+
+SD
+
+1
+
+2
+
+3
+
+1. Trait empathy
+
+3.85
+
+0.56
+
+(0.85)
+
+2. Self-awareness
+
+0.50
+
+0.50
+
+0.12
+
+(–)
+
+3. Interactional justice
+(coded)
+
+3.07
+
+0.93
+
+0.11
+
+0.44**
+
+(0.95)
+
+Reliabilities (Cronbach’s alpha) are shown on the diagonal in
+parentheses, where applicable
+Self-awareness is coded: 1 high self-awareness, 0 low self-awareness
+** p \ 0.01
+
+Interactional Justice
+Following procedures from Patient and Skarlicki (2010),
+interactional justice was content-coded using transcribed
+versions of participants’ feedback. Two coders, who were
+blind to the participants’ condition, independently assessed
+interactional justice using six criteria, including the extent
+to which the communicator: (a) was polite, (b) treated the
+test-taker with respect, (c) treated the test-taker with dignity, (d) refrained from improper remarks, (e) provided a
+clear explanation of the test results, and (f) explained the
+test results thoroughly (cf. Colquitt 2001). All items were
+coded using a 5-point Likert-type scale ranging from 1 (not
+at all) to 5 (very much so). We focused on criteria that were
+most applicable to the feedback context (e.g., we did not
+include the timing of the feedback since participants did
+not have control over this criterion). Both coders’ scores
+were averaged for each item, and the final interactional
+justice scale was calculated using the mean of these scores.
+The correlation between the coders’ scales was 0.94.
+Trait Empathy was measured using the empathy subscale
+of the Cloninger Temperament and Character Inventory
+(TCI; 8-items; e.g., ‘‘In general, I feel others’ emotions,’’ ‘‘In
+general, I am concerned about others’’; Cloninger et al.
+1994). Unlike other empathy scales (e.g., Davis 1980), this
+scale does not contain fairness-related items that may confound empathy with our dependent measure (fairness).
+
+Results
+Measures
+Unless otherwise indicated, participants responded on a
+5-point Likert-type scale ranging from 1 (not at all) to 5
+(very much so). Items were averaged to form the measures.
+Manipulation Check
+We measured self-awareness with one item from Govern
+and Marsch’s Situational Self-Awareness Scale (2001; ‘‘I
+am conscious of my inner feelings’’).
+
+Descriptive statistics, correlations, and reliabilities are
+displayed in Table 1. Before testing our hypothesis, we
+examined our manipulation check. Results indicated that
+our self-awareness manipulation was effective; participants
+in the high self-awareness condition reported being significantly more self-aware (M = 4.05, SE = 0.11) than
+participants in the low self-awareness condition
+(M = 3.61, SE = 0.11), F(1, 75) = 9.09, p \ 0.01.
+To test our hypothesis, we conducted hierarchical
+regression and simple slopes analyses (cf. Aiken and West
+
+123
+
+Author's personal copy
+D. B. Whiteside, L. J. Barclay
+Table 2 Summary of hierarchical regression analysis
+Predictor
+
+Interactional Justice
+B
+
+SE
+
+a
+
+b
+
+95 %
+Lower
+bound CI
+
+95 %
+Upper
+bound CI
+
+Step 1
+Trait empathy
+
+0.10
+
+0.18
+
+0.06
+
+-0.26
+
+0.45
+
+Self-awareness
+
+0.79
+
+0.20
+
+0.43**
+
+0.40
+
+1.19
+
+Trait empathy
+
+0.54
+
+0.24
+
+0.32*
+
+0.06
+
+1.02
+
+Self-awareness
+
+0.73
+
+0.19
+
+0.40**
+
+0.35
+
+1.11
+
+Trait
+empathy 9
+self-awareness
+
+-0.88
+
+0.34
+
+-0.37*
+
+-1.56
+
+-0.20
+
+Step 2
+
+*p \ 0.05; ** p \ 0.01
+a
+
+Step 1: R2 = 0.19, p \ 0.01; Step 2: R2 = 0.26, DR2 = 0.07,
+p \ 0.05
+5
+
+Interactional Justice
+
+4.5
+4
+3.5
+3
+2.5
+2
+
+Low Self-Awareness
+
+1.5
+
+High Self-Awareness
+
+1
+Low Trait Empathy
+
+High Trait Empathy
+
+Fig. 1 The interactive effects of trait empathy and self-awareness on
+interactional justice
+
+1991). The variables were entered in the following steps:
+(1) the main effects (trait empathy and self-awareness) and
+(2) the interaction term between trait empathy and selfawareness. Trait empathy was mean-centered to minimize
+multicollinearity (Cohen et al. 2003). Full results are displayed in Table 2 and Fig. 1. Results indicated that trait
+empathy and self-awareness significantly interacted to
+predict interactional justice (b = -0.37, p \ 0.05). Simple
+slopes analyses revealed that the relationship between trait
+empathy and interactional justice was positive when individuals were not made self-aware (b = 0.39, p \ 0.01),
+but was not significant when individuals were self-aware
+(b = -0.20, p = 0.21). Hypothesis 1 was supported.
+
+General Discussion
+Promoting fairness is a critical issue within organizations.
+By integrating research on trait empathy and self-
+
+123
+
+awareness theory (Duval and Wicklund 1972), we tested an
+interactionist model of fairness to examine self-awareness
+as one contextual factor that can promote fairness among
+managers who may be naturally predisposed to lower
+levels of fairness (i.e., managers with low levels of trait
+empathy). In support of our hypothesis, our findings demonstrate that increasing individuals’ self-awareness through
+self-focusing situations can help promote interactional
+justice, particularly among individuals with low trait
+empathy. These findings have a number of theoretical and
+practical implications.
+Our findings provide further support for the important
+role of empathy in managers’ fair behavior. Consistent with
+Patient and Skarlicki (2010), we found that in the absence
+of self-awareness, trait empathy was positively related to
+the enactment of fairness. This provides further evidence
+that empathy can increase the importance of justice issues
+and motivate managers to enact higher levels of fairness,
+especially when communicating negative outcomes to
+employees. However, our results demonstrate that the
+effects of low empathy can be overcome by increasing
+individuals’ self-awareness. That is, by activating standards
+of justice through other means (i.e., self-awareness),
+organizations can motivate managers with low trait
+empathy to engage in higher levels of fairness, which are
+comparable to highly empathic managers. We argue that
+this occurs because states of self-awareness can increase
+the importance of meeting fairness standards and provide
+managers with low trait empathy with the motivation to
+‘‘shape up’’ their behavior and act more in line with those
+standards. Moving forward, it is important to explore how
+other personality and contextual factors interact to promote
+fairness, particularly among managers who may be predisposed to lower levels of fairness. By doing so, justice
+researchers can create more effective interventions that can
+promote fairness across a wide range of managers and
+situations.
+These findings also demonstrate that managers’ selfawareness can be an important antecedent for justice
+behaviors. Specifically, our results suggest that activating
+states of self-awareness through self-focusing situations
+can enhance managers’ levels of interactional justice when
+communicating bad news—a context where fairness has
+been shown to be particularly important (Bennett et al.
+1995). This finding presents a promising avenue for promoting fairness in organizations. To date, the majority of
+research on justice as a dependent variable has focused on
+subordinate characteristics (e.g., subordinate charisma,
+Scott et al. 2007; assertiveness; Korsgaard et al. 1998; and
+need for belongingness, Cornelis et al. 2013) that can
+enhance managers’ enactment of fairness (see Patient and
+Skarlicki 2010, for a notable exception of a manager-centric approach to fairness). Although these studies provide
+
+Author's personal copy
+Effects of Empathy and Self-Awareness on Fair Behavior
+
+important insights into why managers may enact fairness,
+these effects are dependent on the composition of an
+organization’s workforce—a consideration that is relatively
+hard to manage through organizational interventions. Selfawareness, on the other hand, is a manager-centric antecedent that can more readily be adopted into interventions
+to promote fair behavior because it depends upon the
+context in which managers operate. In order to deepen our
+understanding of how to promote fairness in the workplace,
+justice scholars should continue to examine these contextual factors and how these factors can be integrated into
+interventions aimed at promoting fairness.
+The significant interactive effects of trait empathy and
+self-awareness also highlight the importance of justice
+motivation in managers’ enactment of fairness. Specifically,
+our results support the theoretical rationale that trait
+empathy can motivate fairness by increasing the salience of
+justice in the context of negative outcomes (Blader and
+Tyler 2001; Patient and Skarlicki 2010) whereas selfawareness motivates behavior by increasing the salience of
+normative standards (e.g., fairness) and discrepancies
+between one’s actual behavior and these standards (i.e., the
+discrepancy between how fair one wants to be and one’s
+actual fair behavior; Duval and Wicklund 1972; Gibbons
+1990). These findings support a larger stream of research
+which suggests that increasing managers’ motivation to be
+fair is a key component in promoting managers’ fair
+behavior (Cornelis et al. 2013; Korsgaard et al. 1998; Scott
+et al. 2007). As we continue to deepen our understanding of
+why and when managers enact fairness in the workplace, it
+may also be important for justice researchers to examine
+contexts in which managers’ motivation to be fair may not
+suffice (i.e., the boundary conditions for justice motivation).
+For example, research on depletion has demonstrated that
+the benefits of motivation can be tempered by factors such
+as fatigue and sleep deprivation (e.g., Christian and Ellis
+2011; Xu et al. 2012) and the depletion of self-regulatory
+resources (e.g., ego depletion; Vohs et al. 2012). By
+studying these potential boundary conditions, we may
+develop a more comprehensive picture about how to promote fairness across a wide range of contexts and situations.
+Traditionally, justice researchers have measured fairness
+primarily from the employee’s perspective (Colquitt 2001;
+Colquitt and Shaw 2005)—that is, asking employees about
+the level of fairness they experience. This approach has
+also pervaded research on justice as a dependent variable
+(e.g., Korsgaard et al. 1998; Scott et al. 2007). Often times,
+this research assumes that justice can only be measured
+from the perspective of employees.2 However, consistent
+with Patient and Skarlicki (2010), our findings suggest
+that fairness behaviors can also be assessed from the
+2
+
+We thank an anonymous reviewer for this point.
+
+perspective of an observer or by an observer imagining
+themselves in the position of an employee. In other words,
+a qualitative coding approach is another potential avenue
+by which justice researchers can measure fair behavior.
+This is important because this approach can provide justice
+researchers with more flexibility in measuring fairness. For
+example, while measuring managers’ fairness from the
+employee’s perspective may be the best approach for field
+studies, a qualitative coding approach may allow
+researchers to measure fair behavior in the lab without the
+need for overly complicated study designs. Future research
+should consider utilizing and developing this coding
+approach further, particularly as research on justice as a
+dependent variable continues to garner attention.
+Practical Implications
+Our findings contribute to research examining the promotion of fairness through training programs and interventions
+(e.g., Barclay et al. 2009; Greenberg 2006; Skarlicki and
+Latham 1996, 1997). Specifically, managing fairness in the
+workplace is a critical concern for organizations, especially
+when communicating negative news to employees (Bennett
+et al. 1995). To date, research has focused primarily on
+training managers how to be fair (e.g., outlining examples
+of fair behavior). However, managers also require the
+motivation to be fair in order to translate this knowledge
+into effective fair behavior (Ambrose and Schminke
+2009a). Our findings demonstrate that trait empathy and
+self-awareness are two avenues by which managers may be
+more motivated to engage in interactional justice when
+communicating negative news. This suggests that organizations may wish to place a greater emphasis on trait
+empathy in their recruitment and selection of managers,
+particularly in contexts where negative news is a frequent
+occurrence, since these individuals are naturally predisposed to engage in greater levels of fairness.
+Practically, however, it may not be feasible to only hire
+managers with high levels of trait empathy. Our results
+suggest that another way to increase managers’ justice
+motivation is by situating managers in self-focusing contexts. These contexts can be created by something as
+simple as placing a mirror on managers’ desks (Sentyrz and
+Bushman 1998). It is important to note that these visual
+cues are not necessarily required to activate states of selfawareness. Although we manipulated states of self-awareness using webcams, self-awareness can be activated by
+any stimuli that cause a manager to focus attention on him
+or herself as an object (Duval and Wicklund 1972). For
+example, organizations may ask managers to reflect on
+specific workplace events (e.g., performance appraisals,
+meetings with employees) and rate the extent to which they
+adhered to standards of fairness. Organizations can also
+
+123
+
+Author's personal copy
+D. B. Whiteside, L. J. Barclay
+
+embed justice standards in organizational policies (e.g.,
+‘‘Code of Ethics’’). In this case, organizations can advise
+managers to routinely compare their behavior with the
+standards of fairness outlined in these statements. Taken
+together, our results suggest that effective training programs should also incorporate interventions that maintain
+the salience of fairness standards in the workplace and
+provide managers with the impetus to compare their actual
+fair behavior against ideal standards of fairness.
+Our findings also provide new insights into the potential
+implications of technology in a justice context. Specifically, virtual communication (e.g., email, text messaging)
+is becoming increasingly common in organizations and this
+context may present new barriers to fairness. Virtual
+communication, for example, can increase the psychological distance between communicators, thereby creating
+feelings of detachment and making communicators feel
+less emotionally connected to others (Walther and Parks
+2002). Moreover, the standards of ‘‘normative’’ communication are often less clearly defined in the context of
+virtual communication (Cialdini et al. 1991). Managers
+need to overcome these obstacles in order to treat their
+employees fairly in a virtual environment. Our results
+suggest that these virtual barriers to fairness may be tempered by adopting other forms of online communication
+that activate states of self-awareness. For example, videoconference programs such as Skype that reflect the image
+of the communicator on the screen for the duration of the
+conversation may activate and help maintain states of selfawareness. By using such interventions, managers may be
+more capable of overcoming virtual barriers of fairness
+when communicating with employees.
+Strengths, Limitations, and Future Directions
+Our research has both strengths and potential limitations. We
+used an experimental design to test our hypothesis, which can
+strengthen internal validity by creating a controlled context for
+examining relationships (cf. Aronson and Carlsmith 1968).
+We also incorporated psychological realism into our study by
+telling participants that their feedback would actually be
+received by the test-taker and that the test-taker was interested
+in the score for personal reasons. Future research, however,
+would benefit from exploring these relationships in the field
+and with other samples and methodologies.
+In terms of our self-awareness manipulation, the same
+medium for the feedback task was used (i.e., participants in
+both conditions provided feedback by speaking into a
+laptop). However, we only had video data for the high selfawareness condition. Thus, we were not able to compare
+differences in other factors that may be relevant in the
+context of fairness such as facial expressions and nonverbal
+behaviors. Future research should examine whether self-
+
+123
+
+awareness can also influence individuals’ nonverbal
+behaviors when communicating negative outcomes.
+Moreover, while we were careful to create a context in
+which the needs of the test-taker were prominent in our
+study design, we cannot be certain that our self-awareness
+manipulation increased the salience of justice motives. For
+example, it is possible that self-awareness may have
+influenced interactional justice by motivating participants
+to communicate clearly and effectively to attain standards
+of effective communication rather than standards of fairness. Future research should further examine the mechanisms underlying these effects.
+Our feedback task may also not be representative of the
+full range of feedback tasks managers encounter. First, participants were not responsible for the negative news being
+communicated (i.e., they were not the cause of the testtaker’s poor performance). This may be an important consideration—for example, Folger and Skarlicki (2001) posit
+that managers have an especially strong tendency to distance
+themselves from victims of adversity when they are
+responsible for the negative outcome—a term they refer to as
+the Churchill effect (see also Folger 1993). Future research
+should examine the potential moderating effects of responsibility for the negative news being communicated and
+whether responsibility can act as a boundary condition on the
+effects of self-awareness on fairness. Second, we focused on
+audio and video feedback. However, managers may also
+communicate negative news in other ways such as face-toface or in writing (e.g., email and memos). These mediums
+may have unique effects on managers’ fairness—for example, face-to-face communication of negative news allows
+individuals to interact and also allows employees to ask
+clarifying questions. This may help managers determine how
+to tailor communications to meet that employee’s specific
+needs and encourage other processes, such as perspective
+taking. On the other hand, these dyadic effects are less likely
+to occur in the case of written communication. Future
+research should further examine these differences. Finally,
+participants were not able to avoid communication in our
+feedback task. Self-awareness research has demonstrated
+that avoiding self-focusing situations is another way that
+people can reduce discrepancies caused by self-awareness,
+particularly when it is unlikely that the discrepancy can be
+reduced (Silvia and Duval 2001). Moving forward,
+researchers should examine whether the ability to avoid
+communicating bad news is a boundary condition for the
+effects of self-awareness on fairness.
+
+Conclusion
+How can we promote fairness among managers who are less
+inclined to adhere to standards of justice? This is a critical
+
+Author's personal copy
+Effects of Empathy and Self-Awareness on Fair Behavior
+
+yet rarely studied question. Importantly, there will always be
+managers who, as a result of their personality characteristics,
+are predisposed to engage in lower levels of fairness than
+others. However, this study suggests that organizations can
+help these managers enhance their enactment of fairness
+with a relatively simple contextual intervention. Moreover,
+our results indicate that by exploring the interactive effects
+between personality and context, justice researchers can
+garner a deeper understanding of not only why managers fail
+to treat employees fairly, but also how fairness can be promoted across a wide range of contexts and personality styles,
+ultimately helping organizations experience the many benefits of a fair workplace.
+
+References
+Aiken, L. S., & West, S. G. (1991). Multiple regression: Testing and
+interpreting interactions. Newbury Park, CA: Sage.
+Ambrose, M. L., & Schminke, M. (2009a). Assessing roadblocks to
+justice: A model of fair behavior in organizations. In J.
+J. Martocchio, H. Liao, & A. Joshi (Eds.), Research in personnel
+and human resources management (Vol. 28, pp. 219–263).
+Greenwich, CT: JAI Press.
+Ambrose, M. L., & Schminke, M. (2009b). The role of overall justice
+judgments in organizational justice research: A test of mediation.
+Journal of Applied Psychology, 94, 491–500.
+Aronson, E., & Carlsmith, J. M. (1968). Experimentation in social
+psychology. In G. Lindzey & E. Aronson (Eds.), Handbook of
+social psychology (pp. 1–78). Reading, MA: Addison-Wesley.
+Barclay, L. J., & Kiefer, T. (in press). Approach or avoid? Exploring
+overall justice and the differential effects of positive and
+negative emotions. Journal of Management. doi:10.1177/
+0149206312441833.
+Barclay, L. J., Skarlicki, D. P., & Latham, G. (2009). Greenberg doth
+protest too much: Application always has been, and victims and
+morality always will be critical for advancing organizational
+justice research. Industrial and Organizational Psychology:
+Perspectives on Science and Practice, 2, 201–204.
+Barsky, A., & Kaplan, S. A. (2007). If you feel bad it’s unfair: A
+quantitative synthesis of affect and organizational justice
+perceptions. Journal of Applied Psychology, 92, 286–295.
+Batson, C. D., Thompson, E. R., Seuferling, G., Whitney, H., &
+Strongman, J. A. (1999). Moral hypocrisy: Appearing moral to
+oneself without being so. Journal of Personality and Social
+Psychology, 77, 525–537.
+Bennett, N., Martin, C. L., Bies, R. J., & Brockner, J. (1995). Coping
+with a layoff: A longitudinal study of victims. Journal of
+Management, 21, 1025–1034.
+Bies, R., & Moag, J. (1986). Interactional justice: Communication
+criteria of fairness. In R. J. Lewicki, B. H. Sheppard, & M.
+H. Bazerman (Eds.), Research on negotiations in organizations
+(Vol. 2, pp. 43–55). Greenwich, CT: JAI Press.
+Blader, S. L., & Tyler, T. R. (2001). Justice and empathy: What
+motivates people to help others? In M. Ross & D. T. Miller
+(Eds.), The justice motive in everyday life (pp. 226–250). New
+York: Cambridge University Press.
+Christian, M. S., & Ellis, A. P. (2011). Examining the effects of sleep
+deprivation on workplace deviance: A self-regulatory perspective. Academy of Management Journal, 54, 913–934.
+
+Cialdini, R. B., Kallgren, C. A., & Reno, R. R. (1991). A focus theory
+of normative conduct: A theoretical refinement and reevaluation
+of the role of norms in human behavior. In M. P. Zanna (Ed.),
+Advances in experimental social psychology (Vol. 24,
+pp. 201–234). Orlando, FL: Academic Press.
+Cloninger, C. R., Przybeck, T. R., Svakic, D. M., & Wetzel, R. D.
+(1994). The temperament and character inventory (TCI) A guide
+to its development and use. St. Louis, MO: Center for
+Psychobiology of Personality.
+Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003). Applied
+multiple regression/correlation analysis for the behavioral
+sciences (3rd ed.). Mahwah, NJ: Erlbaum.
+Cohen-Charash, Y., & Spector, P. (2001). The role of justice in
+organizations: A meta-analysis. Organizational Behavior and
+Human Decision Processes, 86 , 278–321.
+Colquitt, J. A. (2001). On the dimensionality of organizational justice:
+A construct validation of a measure. Journal of Applied
+Psychology, 86 , 386–400.
+Colquitt, J. A., Conlon, D. E., Wesson, M. J., Porter, C. O. L. H., &
+Ng, K. Y. (2001). Justice at the millennium: A meta-analytic
+review of 25 years of organizational justice research. Journal of
+Applied Psychology, 86 , 425–445.
+Colquitt, J. A., Scott, B. A., Rodell, J. B., Long, D. M., Zapata, C. P.,
+Conlon, D. E., et al. (2013). Justice at the millennium, a decade
+later: A meta-analytic test of social exchange and affect-based
+perspectives. Journal of Applied Psychology, 98, 199–236.
+Colquitt, J. A., & Shaw, J. C. (2005). How should organizational
+justice be measured? In J. Greenberg & J. A. Colquitt (Eds.),
+Handbook of organizational justice (pp. 113–152). Mahwah, NJ:
+Lawrence Erlbaum.
+Cornelis, I., Van Hiel, A., De Cremer, D., & Mayer, D. M. (2013).
+When leaders choose to be fair: Follower belongingness needs
+and leader empathy influences leaders’ adherence to procedural
+fairness rules. Journal of Experimental Social Psychology, 49,
+605–613.
+Davis, M. H. (1980). A multidimensional approach to individual
+differences in empathy. JSAS Catalog of Selected Documents in
+Psychology, 10 , 85.
+Davis, M. H. (1994). Empathy: A social psychological approach.
+Madison, WI: Brown & Benchmark.
+Diekmann, K. A., Samuels, S. M., Ross, L., & Bazerman, M. H.
+(1997). Self-interest and fairness in problems of resource
+allocation: Allocators versus recipients. Journal of Personality
+and Social Psychology, 72, 1061–1074.
+Duval, T. S., & Wicklund, R. A. (1972). A theory of objective selfawareness. New York: Academic.
+Folger, R. (1993). The ‘‘Churchill paradox’’ in managing hard times.
+Presentation at the annual meeting of the Academy of Management, Atlanta, GA.
+Folger, R. (1998). Fairness as a moral virtue. In M. Schminke (Ed.),
+Managerial ethics: Moral management of people and processes
+(pp. 13–34). Mahwah, NJ: Lawrence Erlbaum.
+Folger, R. (2001). Fairness as deonance. In S. W. Gilliland, D.
+D. Steiner, & D. P. Skarlicki (Eds.), Research in social issues in
+management: Theoretical and cultural perspectives on organizational justice (Vol. 1, pp. 3–33). Greenwich, CT: Information
+Age Publishing.
+Folger, R., & Cropanzano, R. (1998). Organizational justice and
+human resource management. Thousand Oaks, CA: Sage.
+Folger, R., & Cropanzano, R. (2001). Fairness theory: Justice as
+accountability. In J. Greenberg & R. Cropanzano (Eds.),
+Advances in organizational justice (pp. 1–55). Stanford, CA:
+Stanford University Press.
+Folger, R., & Skarlicki, D. P. (1998). When tough times make tough
+bosses: Managerial distancing as a function of layoff blame.
+Academy of Management Journal, 41, 79–87.
+
+123
+
+Author's personal copy
+D. B. Whiteside, L. J. Barclay
+Folger, R., & Skarlicki, D. P. (2001). Fairness as a dependent
+variable: Why tough times can lead to bad management. In R.
+Cropanzano (Ed.), Justice in the workplace: Volume II—From
+theory to practice (pp. 97–118). Mahwah, NJ: Lawrence
+Erlbaum.
+Gibbons, F. X. (1990). Self-attention and behavior: A review and
+theoretical update. Advances in Experimental Social Psychology,
+23, 249–303.
+Govern, J. M., & Marsch, L. A. (2001). Development and validation
+of the situational self-awareness scale. Consciousness and
+Cognition, 10 , 366–378.
+Greenberg, J. (1980). Attentional focus and locus of performance
+causality as determinants of equity behavior. Journal of
+Personality and Social Psychology, 38, 579–585.
+Greenberg, J. (1990). Looking fair versus being fair: Managing
+impressions of organizational justice. In B. M. Staw & L.
+L. Cummings (Eds.), Research in organizational behavior (Vol.
+12, pp. 111–157). Greenwich, CT: JAI.
+Greenberg, J. (2001). The seven loose ca(n)nons of organizational
+justice. In J. Greenberg & R. Cropanzano (Eds.), Advances in
+organizational justice (pp. 245–272). Stanford, CA: Stanford
+University Press.
+Greenberg, J. (2006). Losing sleep over organizational justice:
+Attenuating insomniac reactions to underpayment inequity with
+supervisory training in interactional justice. Journal of Applied
+Psychology, 91, 58–69.
+Hoffman, M. L. (2000). Empathy and moral development: Implications for caring and justice. New York: Cambridge University
+Press.
+Korsgaard, M. A., Roberson, L., & Rymph, R. D. (1998). What
+motivates fairness? The role of subordinate assertive behavior on
+managers’ interactional fairness. Journal of Applied Psychology,
+83, 731–744.
+Lerner, M. J. (1971). Observer’s evaluation of a victim: Justice, guilt,
+and veridical perception. Journal of Personality and Social
+Psychology, 20 , 17–35.
+Margolis, J. D., & Molinsky, A. (2008). Navigating the bind of
+necessary evils: Psychological engagement and the production of
+interpersonally sensitive behavior. Academy of Management
+Journal, 51, 847–872.
+McNeely, B. L., & Meglino, B. M. (1994). The role of dispositional
+and situational antecedents in prosocial organizational behavior:
+An examination of the intended beneficiaries of prosocial
+behavior. Journal of Applied Psychology, 79, 836–844.
+Messick, D. M., Bloom, S., Boldizar, J. P., & Samuelson, C. D.
+(1985). Why we are fairer than others. Journal of Experimental
+Social Psychology, 21, 480–500.
+Molinsky, A., & Margolis, J. (2005). Necessary evils and interpersonal sensitivity in organizations. Academy of Management
+Review, 30 , 245–268.
+Patient, D. L., & Skarlicki, D. P. (2010). Increasing interpersonal and
+informational justice when communicating negative news: The
+
+123
+
+role of the manager’s empathic concern and moral development.
+Journal of Management, 36 , 555–578.
+Rupp, D. E., Shao, R., Jones, K. S., & Liao, H. (2014). The utility of a
+multifoci approach to the study of organizational justice: A
+meta-analytic investigation into the consideration of normative
+rules, moral accountability, bandwidth-fidelity, and social
+exchange. Organizational Behavior and Human Decision Processes, 123, 159–185.
+Scott, B. A., Colquitt, J. A., & Paddock, E. L. (2009). An actorfocused model of justice rule adherence and violation: The role
+of managerial motives and discretion. Journal of Applied
+Psychology, 94, 756–769.
+Scott, B. A., Colquitt, J. A., & Zapata-Phelan, C. P. (2007). Justice as
+a dependent variable: Subordinate charisma as a predictor of
+interpersonal and informational justice perceptions. Journal of
+Applied Psychology, 92, 1597–1609.
+Sentyrz, S. M., & Bushman, B. J. (1998). Mirror, mirror on the wall,
+who’s the thinnest one of all? Effects of self-awareness on
+consumption of full-fat, reduced-fat, and no-fat products.
+Journal of Applied Psychology, 83, 944–949.
+Silvia, P. J., & Duval, T. S. (2001). Objective self-awareness theory:
+Recent progress and enduring problems. Personality and Social
+Psychology Review, 5, 230–241.
+Skarlicki, D. P., & Latham, G. P. (1996). Increasing citizenship
+behavior within a labor union: A test of organizational justice
+theory. Journal of Applied Psychology, 81, 161–169.
+Skarlicki, D. P., & Latham, G. P. (1997). Leadership training in
+organizational justice to increase citizenship behavior within a
+labor union: A replication. Personnel Psychology, 50 , 617–634.
+Spencer, S., & Rupp, D. E. (2009). Angry, guilty, and conflicted:
+Injustice towards coworkers heightens emotional labor through
+cognitive and emotional mechanisms. Journal of Applied
+Psychology, 94, 429–444.
+Vallacher, R. R., & Solodky, M. (1979). Objective self-awareness,
+standards of evaluation, and moral behavior. Journal of Experimental Social Psychology, 15, 254–262.
+Vohs, K. D., Baumeister, R. F., & Schmeichel, B. J. (2012).
+Motivation, personal beliefs, and limited resources all contribute
+to self-control. Journal of Experimental Social Psychology, 48,
+943–947.
+Walther, J. B., & Parks, M. R. (2002). Cues filtered out, cues filtered
+in: Computer mediated communication and relationships. In M.
+L. Knapp & J. A. Daly (Eds.), Handbook of interpersonal
+communication (3rd ed., pp. 529–563). Thousand Oaks, CA:
+Sage.
+Wicklund, R. A. (1975). Objective self-awareness. In L. Berkowitz
+(Ed.), Advances in experimental social psychology (Vol. 9,
+pp. 233–275). New York: Academic Press.
+Xu, H., Begue, L., & Bushman, B. J. (2012). Too fatigued to care:
+Ego depletion, guilty, and prosocial behavior. Journal of
+Experimental Social Psychology, 48, 1183–1186.
+
+

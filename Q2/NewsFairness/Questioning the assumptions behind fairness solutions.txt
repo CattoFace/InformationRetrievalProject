@@ -1,0 +1,358 @@
+Questioning the assumptions behind fairness solutions∗
+
+arXiv:1811.11293v1 [cs.CY] 27 Nov 2018
+
+Rebekah Overdorf
+EPFL
+rebekah.overdorf@epfl.ch
+
+Bogdan Kulynych
+EPFL SPRING Lab
+bogdan.kulynych@epfl.ch
+
+Carmela Troncoso
+EPFL SPRING Lab
+carmela.troncoso@epfl.ch
+
+Ero Balsa
+imec-COSIC KU Leuven
+ebalsa@esat.kuleuven.be
+
+Seda Gürses
+imec-COSIC KU Leuven
+sguerses@esat.kuleuven.be
+
+Abstract
+In addition to their benefits, optimization systems can have negative economic,
+moral, social, and political effects on populations as well as their environments.
+Frameworks like fairness have been proposed to aid service providers in addressing subsequent bias and discrimination during data collection and algorithm design. However, recent reports of neglect, unresponsiveness, and malevolence cast
+doubt on whether service providers can effectively implement fairness solutions.
+These reports invite us to revisit assumptions made about the service providers in
+fairness solutions. Namely, that service providers have (i) the incentives or (ii) the
+means to mitigate optimization externalities. Moreover, the environmental impact
+of these systems suggests that we need (iii) novel frameworks that consider systems other than algorithmic decision-making and recommender systems, and (iv)
+solutions that go beyond removing related algorithmic biases. Going forward, we
+propose Protective Optimization Technologies that enable optimization subjects
+to defend against negative consequences of optimization systems.
+
+1
+
+Misaligned trust and incentives: The problem of optimization systems
+
+Fairness solutions emerge as a response to the problems arising from the current widespread application of machine learning. Research on fairness has pre-eminently focused on decision-making
+and recommender systems [2–4]. Such systems take data from one individual as input and output a
+decision or a recommendation, based on some algorithm, that has a direct impact on that individual.
+For example, recidivism prediction systems, which are well studied in fairness literature as well as
+news media, take as input the data of a criminal defendant and predict how likely the individual is
+to reoffend [5]. Fairness tools act on the algorithm to prevent or minimize inequitable outcomes for
+different (historically marginalized) groups [6, 7]. Over the last years, researchers have proposed
+various definitions of fairness [4, 6, 8], and there is a lack of consensus as to what the paradigm
+encompasses. As such, we discuss fairness in broad terms and focus on the state-of-the-art. We
+illustrate how the field’s current focus limits fairness’ ability to mitigate negative outcomes of optimization systems on individuals, populations, and environments.
+Recent reports about popular technological service providers invite us to rethink the scope of fairness frameworks and their underlying trust models. Waze, the traffic app owned by Google, is
+frequently reported to disregard the negative impacts of routing vehicles through streets that are
+inadequate for heavy traffic [9]. A class action lawsuit against Facebook claims that, in order to
+increase ad revenue, the company inflated the amount of time users viewed videos by as much as
+900% [10]. Due to imbalance in the data used to create their maps, Pokémon Go is known to spawn
+∗
+
+This position paper is based on the full paper [1] by the same authors.
+
+Critiquing and Correcting Trends in Machine Learning (NeurIPS 2018 Workshop), Montréal, Canada.
+
+less Pokémon in rural areas and majority-black neighborhoods [11, 12], illustrating how inequality
+is not limited to employment, income, and housing, but extends to who has leisure time and how it is
+spent [13]. Despite their attempts to address this biased treatment using traditional means to process
+their data, Niantic, the company behind the game, has a difficult time fixing the issue [14]. These
+stories highlight a number of problems: the Waze story presents a system that may treat non-users
+and their environments unfairly; the Facebook story shows that even in the presence of powerful
+stakeholders and financial incentives, service providers may behave dishonestly or escape recourse
+by claiming these are machine learning accidents [10]; and the Pokémon Go example demonstrates
+that even when providers are willing, solving fairness problems may require looking beyond possible pre-processing of the input data. These examples cast doubt on the ability of service providers
+to honestly, or effectively, apply fairness solutions to their systems.
+These are examples of optimization systems: they go beyond simple decision making or recommendation, incorporate real-time feedback from users [15], interact with the environment in which they
+are deployed, and are optimizing over variables that are constantly changing. Optimization systems
+increasingly rely on machine learning to make operational decisions like the selection of software
+features, the orchestration of cloud usage, the design of user interaction and growth planning [16],
+etc. In contrast to traditional information systems, which treat the world as a static place to be known
+and focus on storage, processing, transport, and organizing information, optimization systems consider the world as a place to sense and co-create. They seek maximum extraction of economic value
+by optimizing the capture and manipulation of actions and environments [17, 18]. Ride sharing
+apps rely on optimization to decide on the prices of rides; navigation apps to propose best routes;
+banks to decide whether to grant a loan; and advertising networks to select the best advertisement to
+show a user, all driven by an interest in the greatest return on investment. As a consequence, for the
+optimization system providers (OSPs), profit maximization and fairness may easily be conflicting
+goals, i.e., OSPs may lack the necessary incentives to apply fairness solutions honestly or at all.
+Furthermore, optimization systems apply a logic of operational control that focuses on outcomes
+rather than the process [19]. While this introduces efficiency and allows systems to scale, it also
+poses social risks and harms such as social sorting, mass manipulation, majority dominance, and
+minority erasure. In summary, these systems create substantial externalities — situations in which
+the actions of a group of agents, e.g., consumption, production, and investment decisions, have
+“significant repercussions on agents outside of the group” [20].
+Some common externalities intrinsic to optimization systems are i) disregard for non-users and environments which results in non-users being outside the optimization model [9]; ii) disregard for
+certain users by providing the most benefit to a subset of “high-value” users [21, 22]; iii) externalization of exploration risks to users and environments, in which the systems benefit from experimentation while putting exploration risks associated with environmental unknowns onto users [23];
+iv) distributional shift, in which optimization systems are built on data from a particular domain
+and flounder when deployed in a different environment [24–26]; v) unfair distribution of errors, in
+which algorithms learn to maximize success by favoring the most likely option, e.g., misclassify
+minorities while maintaining high accuracy [2, 27]; vi) promotion of unintended actions to fulfill
+intended outcomes, where systems find shortcuts to their optimization goals, also known as “reward
+hacking” [28, 29]; and vii) mass data collection, where, in the pursuit of more accurate inferences,
+resources and power are concentrated to a few data holders [19].
+Such externalities that arise in optimization systems are beyond unfairness due to the inputs and
+outputs of the algorithms, or may not be caused by algorithmic unfairness at all. That is, an “unbiased” algorithm can still have unfair consequences or externalities. Such problems cannot be solved
+by diligent, and less so by dishonest, service providers. Instead, they require additional models and
+techniques to reason about strategies to counter them.
+
+2
+
+Solutions by design?
+
+We argue that OSPs may not have the incentives or means to apply fairness solutions to their systems and that such solutions may not be sufficient to address the many externalities of optimization
+systems. We discuss in greater detail why fairness, or more broadly solutions by design, may fall
+short of the task.
+2
+
+Existing framings of externalities do not capture conflicts between the goals of the system and
+fairness. Typically, AI safety experts argue that the harms of optimization systems arise because
+OSPs “choose ‘wrong’ objective functions” or “lack sufficient good-quality data”, i.e., flaws and
+accidents amount to poor design [10, 28]. Fairness frameworks often follow suit. One response,
+therefore, is to devise countermeasures that allow OSPs to prevent or minimize the occurrence of
+these ‘flaws’ [28], with the underlying assumption that, given adequate tools and means, OSPs will
+strive to ‘fix’ or ‘correct’ their systems. While developing methods that can improve the design
+of optimization systems is absolutely necessary, this alone is insufficient to counter optimization
+systems’ negative externalities. The accidents framing dismisses the possibility that those design
+choices may in fact be intentional, i.e., that the objective functions underlying optimization systems
+may actively aspire for asocial or negative environmental outcomes. OSPs may lack incentives to
+maximize society’s welfare as opposed to their own benefit and, therefore, avoid applying fairness
+frameworks or demonstrate adversarial behavior.
+Moreover, when an objective function aspires for asocial outcomes, applying fairness may come to
+exacerbate problems. Decontextualized from the goal of the system, fairness solutions may ensure
+that subgroups of the population are equally affected by the algorithm, only considering the distribution of outcomes as they are aligned with the goal of the algorithm. In other words, failing to
+question the system’s utility may not consider whether the objective function itself is just, ensuring
+only that people are equally subject to its effects [30, 31]. For instance, a predictive policing application that is constrained for fairness but does not take into account the negative effects that predictive
+policing has on vulnerable populations, or a credit scoring algorithm that is tuned to ensure that
+sub-prime loans are fairly distributed, are likely to lead to unjust outcomes. A notable exception to
+this frame in fairness literature is written in Corbett-Davies et al. [32] which considers the impact on
+utility in the form of a measure of public safety. Decontextualization can further intensify negative
+outcomes when OSPs pick fairness frameworks that limit their engagement to legal conceptions of
+protected identities, skirting more complex problems that cannot be reduced to “identity attributes”
+or the “cause-and-effect” model inherent to legal definitions [33]. Such models may be depicted as
+fair while avoiding responding to unjust outcomes.
+The asociality of the objective function may be concealed by blindness to allocation of resources.
+The quality of an allocation can be determined by different qualities, including, but not limited to,
+fairness. For example, one could consider that the sum of all payoffs should be as high as possible,
+or that the worst-off agents in a system should be as well-off as possible. One could also consider
+injustice in greater time frames and use models that engage in restorative justice [34]. While fairness
+will aspire for parity in allocation of resources, it does not always consider these other qualities.
+For example, fairness guarantees may be applied to the rider-driver matching algorithms with the
+intention to ensure that Uber drivers are equally likely to find riders, access surges, and earn similar
+wages regardless of their belonging to a protected class. This does not, however, deal with the fact
+that Uber optimizes the matching to maximize profit while minimizing driver wages. In such an
+instance, distributing suppressed wages fairly is not quite the ultimate objective.
+Even when OSPs have incentives to address relevant problems optimization causes through fairness,
+they may not be in a position to do so. OSPs may lack knowledge about the needs of those affected
+by optimization, even when they strive to collect the necessary data to mend optimization outcomes:
+such (environmental) data may simply not be available for capture. In practice, data often represents what is easy to capture and thus provides a biased account of the people and environments it
+supposedly measures, leaving out key nuances required to improve optimization [35].
+Fairness literature often considers decision-making as static, i.e., the algorithm and the environment
+in which it is deployed are fixed. However, under optimization systems, the decision-making model
+does change, e.g., predictive policing results in increased crime reporting for patrolled neighborhoods if the algorithm is not updated to account for the fact that police visit certain neighborhoods
+more often than others [36]. While exceptions exist in which future changes of environments are
+considered, e.g., the work on fairness in reinforcement learning [37], in general fairness disregards
+problems that go beyond discrimination in algorithmic decision making and is therefore ill-equipped
+to prevent the negative effects that arise when agents evolve [38].
+Fairness also often stays limited to analyzing an algorithm’s inputs and outputs, but in optimization
+systems many externalities occur only after the system is introduced into an environment. Because
+the state that fairness considers often does not reflect changes in the environment, fairness solutions
+
+3
+
+are made unaware of and cannot account for most externalities that surface post-deployment. For
+example, Waze may provide its users with optimal routes in a way that satisfies a given notion of
+fairness. However, fairness cannot reason about the effect that the fair routes have on the environments that those routes traverse, i.e., congestion may increase on surface roads. This impact,
+especially when multiple routing applications are at play, may become evident only after deployment. Moreover, because fairness solutions are intended to be deployed by OSPs, they are often
+limited to protecting only their users, while disregarding the non-users. Waze, for example, has no
+explicit way of getting feedback from people who are affected by its routing decisions, yet do not
+use the application.
+We argue that OSPs should internalize potential harms and risks, e.g., through stringent design practices, regulation and taxation, and democratic forms of governance. Short of this, we can consider
+OSPs as potentially unable, lacking incentives, or unwilling to address the externalities of their
+optimization systems, rather than considering these as the result of poor design choices or accidents.
+
+3
+
+Rethinking the trust model: solutions from the outside
+
+The points above indicate that fairness, conceptually and with respect to its assumptions about the
+trust and ability of OSPs, is limited in its capacity to respond to externalities of optimization systems.
+We need new mental models and techniques that enable designers to reason about strategies that not
+only counter the negative effects of optimization from within the system, but also from outside of the
+system. Furthermore, we may need to capture alternative optimization functions that are different
+from those embedded in the service provider’s own optimization algorithms, to the extent that they
+may consider variables and contour conditions not even present in the original optimization system.
+We propose that approaches to mitigate the externalities of optimization systems should build on alternative trust models that do not rely solely on OSPs and should consider factors of the environment
+not explicitly present in the machine learning models. A number of existing works have considering
+hedging OSPs against users “gaming” the optimization system in their favor [39, 40]. Protecting the
+optimization system or striving for an equilibrium between adversarial users and the system’s goals,
+however, have been shown to reinforce inequality [41] and disproportionately benefit the OSPs [42].
+With this in mind we invite the community to think about how to design and implement a new class
+of defenses to enable those affected by optimization systems to influence, alter, and counter these
+systems from the outside. We call these defenses Protective Optimization Technologies (POTs).
+POTs respond to the discontents of machine learning that fairness frameworks cannot completely
+address. They are intended to empower people and environments affected by optimization systems to
+intervene when OSPs fail to respond to their needs. They rely on explicit modeling and evaluation
+of the impact of optimization systems on populations and environments, broadening the scope of
+unfairness and mitigation techniques.
+POTs development requires to analyze how events (or lack thereof) affect users and environments,
+and then find the means to reconfigure these events, i.e., influence the system’s outcomes, by poisoning the training data thus modifying the optimization constraints, or crafting alternative system
+inputs to counteract the optimization effect. We specifically conceive POTs to address the negative
+externalities of optimization, and as such it is crucial to take a holistic perspective, considering the
+interaction of the algorithm with the rest of the optimization system and the environment. These
+ideas are inspired by people’s strategies to counter the negative effects of optimization systems by
+manipulating inputs to the system and not changing the algorithms themselves, in order to achieve a
+desired, more balanced, output. For instance, neighborhood dwellers negatively affected by Waze’s
+routing have fought back by reporting road closures and heavy traffic on their streets — to have
+Waze redirect users out of their neighborhoods. Uber drivers have colluded to induce surge pricing
+and temporarily increase their revenue by simultaneously turning off their apps, inducing surge, and
+turning the app back on to take advantage of the increased pricing in the area [43]. Adnauseam,
+a browser plugin seeks to pollute advertisting systems’ profiling by clicking on random ads in the
+background in order to render inferred user profiles useless.
+These ad-hoc examples demonstrate that it is possible to counter optimization externalities from the
+outside. As such, their principles can inspire the design of more formal POTs. For instance, these
+could be based on adversarial machine learning techniques used to bias the optimization system responses to reduce their negative impact on users and environment. Such an idea appears in recent
+4
+
+calls to develop POTs for civil liberties [44], and is already prevalent in Privacy-Enhancing Technologies (PETs) literature [45–47] — in the spirit of which we attend to the optimization problem.
+In this position paper we are just scratching the surface of the problem and the possible solution
+space. We hope that this inspires the community to engage in a deep discussion about the assumptions underlying current solutions. We consider this an indispensable step before we can build
+effective robust solutions to address the negative effects of machine learning, and more broadly
+optimization systems.
+
+Acknowledgements
+This work was supported in part by the Research Council KU Leuven: C16/15/058, and the European Commission through KU Leuven BOF OT/13/070, H2020-DS-2014-653497 PANORAMIX,
+and H2020-ICT-2015-688722 NEXTLEAP. Seda Gürses is supported by a Research Foundation Flanders (FWO) Fellowship.
+
+References
+[1] Rebekah Overdorf, Bogdan Kulynych, Ero Balsa, Carmela Troncoso, and Seda Gürses. POTs:
+Protective Optimization Technologies. CoRR, abs/1806.02711, 2018. URL http://arxiv.
+org/abs/1806.02711.
+[2] Joy Buolamwini and Timnit Gebru. Gender shades: Intersectional accuracy disparities in commercial gender classification. In Conference on Fairness, Accountability and Transparency,
+2018.
+[3] Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. Fairness
+through awareness. In Proceedings of the 3rd innovations in theoretical computer science
+conference, 2012.
+[4] Geoff Pleiss, Manish Raghavan, Felix Wu, Jon M. Kleinberg, and Kilian Q. Weinberger. On
+fairness and calibration. In NIPS, 2017.
+[5] Walt L Perry. Predictive policing: The role of crime forecasting in law enforcement operations.
+Rand Corporation, 2013.
+[6] Sam Corbett-Davies and Sharad Goel. The measure and mismeasure of fairness: A critical
+review of fair machine learning. arXiv preprint arXiv:1808.00023, 2018.
+[7] Alexandra Chouldechova. Fair prediction with disparate impact: A study of bias in recidivism
+prediction instruments. Big data, 2017.
+[8] Richard Berk, Hoda Heidari, Shahin Jabbari, Michael Kearns, and Aaron Roth. Fairness in
+criminal justice risk assessments: The state of the art. Sociological Methods & Research,
+2018.
+[9] Steve Lopez. On one of L.A.’s steepest streets, an app-driven frenzy of spinouts, confusion
+and crashes. Los Angeles Times, April 2018. URL https://www.latimes.com/local/
+california/la-me-lopez-echo-park-traffic-20180404-story.html.
+[10] Graham Kates.
+Far from an honest mistake: Facebook accused of inflating
+ad data.
+CBS News, October 2018.
+URL https://www.cbsnews.com/news/
+facebook-committed-fraud-lawsuit-claims/.
+[11] Julia Zorthian.
+Pokémon go is easier to play in affluent, white neighborhoods, report finds.
+TIME, August 2016.
+URL http://time.com/4443225/
+pokemon-go-affluent-white-neighborhoods-report/.
+[12] Dave Thier.
+No, ’pokémon go’ is not fair. yes, it’s a problem.
+Forbes,
+August 2017.
+URL https://www.forbes.com/sites/davidthier/2017/08/18/
+no-pokemon-go-is-not-fair-yes-its-a-problem/.
+5
+
+[13] Karla A. Henderson. The imperative of leisure justice research. Leisure Sciences, 36(4):
+340–348, 2014. doi: 10.1080/01490400.2014.916971. URL https://doi.org/10.1080/
+01490400.2014.916971.
+[14] Zeroghan.
+Niantic has officially responded to rural players’ problems.
+Forbes,
+August 2017.
+URL https://pokemongohub.net/post/news/
+niantic-officially-addressed-rural-player-problems/.
+[15] Irina Kaldrack and Martina Leeker. There is no software, there are just services: Introduction.
+There Is No Software, There Are Just Services, pages 9–20, 2015.
+[16] Seda Gurses and Joris van Hoboken. Privacy after the Agile Turn, pages 579–601. Cambridge
+University Press, 2018. doi: 10.1017/9781316831960.032.
+[17] Philip E Agre. Surveillance and capture: Two models of privacy. The Information Society, 10
+(2):101–127, 1994.
+[18] Michael R. Curry and David Phillips. Surveillance as social sorting: Privacy, risk, and automated discrimination. In Privacy and the phenetic urge: geodemographics and the changing
+spatiality of local practice, 2003.
+[19] Martha Poon. Corporate capitalism and the growing power of big data: Review essay, 2016.
+[20] David A. Starrett. Economic Externalities. EOLSS, 2011.
+[21] Christopher Huffaker. There are fewer Pokémon Go locations in black neighborhoods, but
+why?
+The Miami Herald, July 2016. URL https://www.miamiherald.com/news/
+nation-world/national/article89562297.html.
+[22] Paul Tassi. I am now a rural ’Pokémon GO’ player and it’s the worst. Forbes,
+August 2016.
+URL https://www.forbes.com/sites/insertcoin/2016/08/13/
+i-am-now-a-rural-pokemon-go-player-and-its-the-worst/.
+[23] Sarah Bird, Solon Barocas, Kate Crawford, and Hanna Wallach. Exploring or exploiting?
+social and ethical implications of autonomous experimentation in AI. In FAT, 2016.
+[24] Graeme McMillan.
+It’s not you, it’s it: Voice recognition doesn’t recognize
+women.
+TIME, June 2011.
+URL http://techland.time.com/2011/06/01/
+its-not-you-its-it-voice-recognition-doesnt-recognize-women/.
+[25] James A Rodger and Parag C Pendharkar. A field study of the impact of gender and user’s
+technical experience on the performance of voice-activated medical tracking application. International Journal of Human-Computer Studies, 2004.
+[26] Masashi Sugiyama, Neil D Lawrence, Anton Schwaighofer, et al. Dataset shift in machine
+learning. The MIT Press, 2017.
+[27] Moritz Hardt. How big data is unfair? Medium, September 2014. URL https://medium.
+com/@mrtz/how-big-data-is-unfair-9aa544d739de.
+[28] Dario Amodei, Chris Olah, Jacob Steinhardt, Paul F. Christiano, John Schulman, and Dan
+Mané. Concrete problems in AI safety. CoRR, abs/1606.06565, 2016.
+[29] Tom Simonite. When bots teach themselves to cheat. Wired, August 2018. URL https:
+//www.wired.com/story/when-bots-teach-themselves-to-cheat/.
+[30] Julia Dressel and Hany Farid. The accuracy, fairness, and limits of predicting recidivism.
+Science advances, 4(1), 2018.
+[31] Reuben Binns. Fairness in machine learning: Lessons from political philosophy. arXiv preprint
+arXiv:1712.03586, 2017.
+[32] Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. Algorithmic
+decision making and the cost of fairness. In ACM KDD ’17, 2017.
+6
+
+[33] Anna Lauren Hoffmann. Where fairness fails: On data, algorithms, and the limits of antidiscrimination discourse. Information, Communication and Society, (In submission), 2018.
+[34] Sasha Constanza-Chock. Keynote at data justice conference: ”in defense of data discrimination”. http://schock.cc/video-of-keynote-plenary-talk-for-the-data-justice-conference/.
+[35] Adam Greenfield. Radical technologies: The design of everyday life. Verso Books, 2017.
+[36] Danielle Ensign, Sorelle A. Friedler, Scott Neville, Carlos Eduardo Scheidegger, and Suresh
+Venkatasubramanian. Runaway feedback loops in predictive policing. CoRR, abs/1706.09847,
+2017.
+[37] Shahin Jabbari; Matthew Joseph; Michael Kearns; Jamie Morgenstern; Aaron Roth. Fairness
+in reinforcement learning. eprint arXiv:1611.03071, 2016.
+[38] Lydia T. Liu, Sarah Dean, Esther Rolf, Max Simchowitz, and Moritz Hardt. Delayed impact
+of fair machine learning. In ICML, 2018.
+[39] Michael Brückner and Tobias Scheffer. Stackelberg games for adversarial prediction problems.
+In Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery
+and data mining, pages 547–555. ACM, 2011.
+[40] Moritz Hardt, Nimrod Megiddo, Christos Papadimitriou, and Mary Wootters. Strategic classification. In Proceedings of the 2016 ACM conference on innovations in theoretical computer
+science, pages 111–122. ACM, 2016.
+[41] Lily Hu, Nicole Immorlica, and Jennifer Wortman Vaughan. The disparate effects of strategic
+manipulation. In Conference on Fairness, Accountability and Transparency, 2019.
+[42] Smitha Milli, John Miller, Anca D Dragan, and Moritz Hardt. The social cost of strategic
+classification. In Conference on Fairness, Accountability and Transparency, 2019.
+[43] Mareike Möhlmann and Lior Zalmanson. Hands on the wheel: Navigating algorithmic management and uber drivers’ autonomy. In ICIS, 2017.
+[44] Kendra Albert Ram Shankar Siva Kumar, David R. O’Brien and Salome Vilojen. Law and
+adversarial machine learning. 1810.10731, 2018.
+[45] Andrew W. E. McDonald, Sadia Afroz, Aylin Caliskan, Ariel Stolerman, and Rachel Greenstadt. Use fewer instances of the letter ”i”: Toward writing style anonymization. 2012.
+[46] Xiang Cai, Xin Cheng Zhang, Brijesh Joshi, and Rob Johnson. Touching from a distance:
+website fingerprinting attacks and defenses. 2012.
+[47] Giovanni Cherubin, Jamie Hayes, and Marc Juarez. Website fingerprinting defenses at the
+application layer. Proceedings on Privacy Enhancing Technologies, 2017.
+
+7
+
+

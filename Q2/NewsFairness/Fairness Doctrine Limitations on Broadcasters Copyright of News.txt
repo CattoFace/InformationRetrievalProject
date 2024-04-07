@@ -1,0 +1,1177 @@
+Volume 88
+
+Issue 1
+
+Article 9
+
+September 1985
+
+Fairness Doctrine Limitations on Broadcasters' Copyright of News
+and Public Affairs: The Liberty to Argue in the Marketplace of
+Ideas
+Susan E. Morton
+West Virginia University College of Law
+
+Follow this and additional works at: https://researchrepository.wvu.edu/wvlr
+Part of the Intellectual Property Law Commons
+
+Recommended Citation
+Susan E. Morton, Fairness Doctrine Limitations on Broadcasters' Copyright of News and Public Affairs:
+The Liberty to Argue in the Marketplace of Ideas, 88 W. Va. L. Rev. (1985).
+Available at: https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+This Student Note is brought to you for free and open access by the WVU College of Law at The Research
+Repository @ WVU. It has been accepted for inclusion in West Virginia Law Review by an authorized editor of The
+Research Repository @ WVU. For more information, please contact ian.harmon@mail.wvu.edu.
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+
+STUDENT MATERIALS
+Notes
+FAIRNESS DOCTRINE LIMITATIONS ON BROADCASTERS'
+COPYRIGHT OF NEWS AND PUBLIC AFFAIRS: THE
+
+LIBERTY TO ARGUE IN THE MARKETPLACE OF IDEAS
+INTRODUCTION*
+
+"Give me the liberty to know, to utter, and to argue freely according to conscience above all liberties."' The principle John Milton wrote over three hundred
+years ago is echoed in the first amendment to the United States Constitution, which
+states that "Congress shall make no law abridging freedom of speech, or of the
+press." 2 When the growth of broadcast technology began to change the form of
+the public debate, Congress and the courts moved to ensure that broadcasters acted
+in the public interest 3 by keeping the marketplace of ideas open to all who wished
+to argue. This included covering all sides of controversial issues of public
+4
+importance.
+Today, statistics indicate that sixty-five percent of Americans get most of their
+news from television. 5 While there is evidence that broadcasting regulation by means
+of the fairness doctrine does work in helping some advocates gain access to television stations to argue their points of view, 6 questions still remain regarding the
+methods by which potential respondents receive the original unbalanced viewpoint
+that has been presented by a television station. One recent case 7 indicated that
+
+* This article was awarded first prize in the Nathan Burkan Memorial Competition at the West
+Virginia University College of Law. It has been entered in the National Competition.
+J. MLTON, AREOPAGITICA (1918).
+
+U.S. CONST. amend. I.
+47 U.S.C. § 307 (1976). See National Broadcasting Co. v. United States, 319 U.S. 190 (1943).
+47 U.S.C. § 315(a) (1976). See Red Lion Broadcasting Co. v. FCC, 395 U.S. 367 (1969). This
+principle is generally referred to as the fairness doctrine.
+BROADCASTING/CABLECASTING YEARBOOK A-2 (1984). Moreover, fifty-three percent of the
+American public ranks television as the "most believable" source of news. Id.
+6 Federal Communications Commission, Fairness Doctrine and Public Interest Standards, 39 Fed.
+Reg. 26,372 (1974) [hereinafter cited as Fairness Doctrine and Public Interests Standards].
+Several special interest groups have reported success in using the fairness doctrine to gain access
+to the airwaves. For example, People for the American Way used the doctrine in 1981 to obtain air
+time on a Los Angeles television station to counter controversial political statements made by a religious
+leader. In 1984, the doctrine was used by the Oregon chapter of the Public Interest Research Group
+to rebut utility-company advertising against the formation of a consumer lobbying group. Saddler, Right
+and Left Find Common Ground: Backing Fairness Rule for Broadcasters, Wall St. J., Feb. 8, 1985,
+§ 2, at 34, col. 1.
+I Pacific and S. Co. v. Duncan, 744 F.2d 1490 (lth Cir. 1984), cert. denied, Duncan, T.V,
+v. Pacific and S. Co., WXIA-TV, 105 S.Ct. 1867 (1985). See infra Section III, Part B.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+1
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LA W REVIEW
+
+[Vol. 88
+
+copyright law may be used to deny potential respondents copies of the material
+needed for the purpose of preparing a response.
+This note examines the competing copyright and public information interests
+involved in this issue. It discusses the purposes of copyright law and its historical
+tension with the public interest of wide dissemination of information. It also discusses
+the history of broadcast regulation, including the fairness doctrine and those aspects
+of broadcast news which make copyright law difficult to apply. This note concludes that the importance of the availability of broadcasts, both to effectuate the
+purposes of the fairness doctrine and to expand the public forum to serve the public's
+right to know, mandates that the fair use doctrine be applied to make this use
+permissible.
+
+I.
+
+THE COMPETING METHODS OF COPYRIGHT AND BROADCAST LAW
+
+The conflict between the requirements of copyright law and those of broadcast
+law is rooted deep in the historical and jurisprudential natures of the laws. Although
+the express purpose of both copyright and broadcast law was to serve the public
+interest by ensuring the dissemination of ideas, the methods selected to effectuate
+that purpose were quite different. The incorporation of the Copyright Clause into
+the United States Constitution reflected the Enlightment theory of the late eighteenth century respecting individual property rights. The administrative regulation
+of broadcasting, however, reflected the twentieth-century view of governmental
+stewardship of group property. To fully understand the complex interaction of
+copyright and broadcasting, it is first necessary to analyze their historical
+foundations.
+
+A.
+
+Historical Foundations of Copyright
+
+The constitutional basis for copyright protection is found in the Copyright
+Clause, 8 which states that Congress shall have the power "to promote the progress
+of science and useful arts, by securing for limited times to authors and inventors
+the exclusive right to their respective writings and discoveries.", Thus, the primary
+purpose of copyright is to promote the public interest by the creation of works
+of art, literature, or other writings.' 0 The United States Supreme Court noted that
+the Copyright Act," which is based on the Copyright Clause, is intended "to afford
+greater encouragement to the production of literary [or artistic] works of lasting
+benefit to the world."' 2
+' U.S. CONST. art. I, § 8, cl. 8.
+9Id.
+
+10 A. LATMAN
+
+& G. Go mAN, COPYRIGHT FOR THE EIGHTIES 12 (1981).
+
+17 U.S.C. § 101-810 (Supp. IV 1980).
+:2
+
+Mazer v. Stein, 347 U.S. 201, 219 (1954) (quoting Washingtonian Publishing Co., Inc. v. Pear-
+
+son, 306 U.S. 30, 36 (1939)).
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+2
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+
+1985]
+
+FAIRNESS DOCTRINE
+
+Secondary to that purpose is the method by which the production was to be
+encouraged: that of economic incentive.' 3 One federal district court expanded on
+this by stating, "The economic philosophy behind the power of Congress to grant
+copyrights is the conviction that encouragement of individual efforts for personal
+gain is the best way to advance the public welfare in that field.""' This economic
+incentive argument5 is consistent with the founding fathers' beliefs in the value of
+private property.'
+An underlying tension between the goals of public access and private right,
+however, lay beneath the surface of copyright law. One federal district court noted
+that:
+Civil copyright law is a compromise between competing social policies, one favoring the widest possible dissemination of new ideas and new forms of expression,
+and the other giving writers and artists enough of a monopoly over their works
+to ensure their receipt of fair material rewards for their efforts. 6
+This tension has expressed itself in one manner in that certain things, such as ideas,
+are not subject to copyright protection. Section 102 of the Copyright Act makes
+clear that copyright protection of works is limited in nature and does not extend
+to systems, discoveries, or concepts necessary for the advancement of society.'
+Only the particular expression is copyrightable.
+A second response to this tension between private right and public access is
+the fair use exception to the copyright law, which provides the privilege to copy
+certain minimal portions of a work for certain purposes.' 8 In defining the fair use
+doctrine for the 1976 Copyright Act, the House Report stated:
+Although the courts have considered and ruled upon the fair use doctrine over
+and over again, no real definition of the concept has ever emerged. Indeed, since
+the doctrine is an equitable rule of reason, no generally applicable definition is
+possible, and each case raising the question must be decided on its own facts.19
+The House Report concluded that while the courts had developed tests and criteria
+to determine a finding of fair use, the consideration could be reduced to four
+& 0. GORMAN, supra note 10, at 12.
+Bell v. Pro Arts, Inc., 366 F. Supp. 474, 482 (N.D. Ohio 1973), aff'd, 511 F.2d 451 (6th Cir.
+1975), cert. denied, 423 U.S. 829 (1975).
+" M.B. NIMMER, I NIMMER ON COPYRIGHT § 1.03A (1984).
+6 United States v. Bily, 406 F. Supp. 726, 730 (E.D. Pa. 1975).
+,717 U.S.C. § 102(b). This section, titled Subject matter of copyright: In general,states in part:
+In no case does copyright protection for an original work of authorship extend to any
+idea, procedure, process, system, method of operation, concept, principle or discovery,
+regardless of the form in which it is described, explained, illustrated, or embodied in such work.
+'1'"Fair use' is a 'privilege in others than the owner of a copyright to use the copyrighted material
+in a reasonable manner .. .- Rosemont Enter., Inc. v. Random House, Inc., 366 F.2d 303, 306
+(2d Cir. 1966), cert. denied, 385 U.S. 1009 (1967) (quoting BALL, CoPRoH AD LITERARY PROPERTY
+260 (1944)).
+," A. LATiA
+"
+
+' H.R. REP. No. 1476, 94th Cong., 2d Sess., 65-66 (1980).
+
+Disseminated by The Research Repository @ WVU, 1985
+
+3
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LAW REVIEW
+
+[Vol. 88
+
+factors." These factors were then included as part of the Copyright Act in section
+107, Limitations on exclusive rights: Fair Use.2' These four factors are:
+(1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes; (2) the nature of the
+copyrighted work; (3) the amount and substantiality of the portion used in relation
+to the copyrighted work as a whole; and (4) the effect of the use upon the potential
+market for or value of the copyrighted work. 2
+The scope of the application of these factors varies according to the particular fac-
+
+tual situations involved. 23 The amount of copying permitted similarly varies. 4
+B. Historical Foundations of Broadcast Regulation
+
+Like copyright law, broadcast law is grounded in the need for regulation in
+order to promote the public interest in receiving information. The specific manner
+of regulation, however, developed from the particular physical complexities of the
+broadcasting process.
+
+Broadcasting is made possible by transmission on the electromagnetic spectrum."
+The spectrum itself has three dimensions: space, time, and frequency. " Interference
+becomes possible along these three dimensions. That is, two signals which occupy
+20
+
+Id.
+
+21 17 U.S.C. § 107. The entire
+
+text of section 107 is as follows:
+Notwithstanding the provisions of section 106 [Exclusive rights in copyrighted works],
+the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords
+or by any other means specified by that section, for purposes such as criticism, comment,
+news reporting, teaching (including multiple copies for classroom use), scholarship, or research,
+is not an infringement of copyright. In determining whether the use made of a work in any
+particular case is a fair use, the factors to be considered shall include(1) the purpose and character of the use, including whether such use is of a commercial
+nature or is for nonprofit educational purposes;
+(2) the nature of the copyrighted work;
+(3) the amount and substantiality of the portion used in relation to the copyrighted work
+as a whole;
+(4) the effect of the use upon the potential market for or value of the copyrighted work.
+22 H.R. RP. No. 1476, supra note 19. These factors were incorporated in 17 U.S.C. § 107. See
+supra note 21.
+22 See, e.g., Elsmere Music, Inc. v. National Broadcasting Co., 482 F. Supp. 741 (S.D.N.Y. 1980),
+aff'd, 623 F.2d 252 (2d Cir. 1980) (musical advertising jingles); Triangle Publications, Inc. v. KnightRidder, Newspapers, Inc., 445 F. Supp. 875 (S.D. Fla. 1978), aff'd on fair use grounds, 626 F.2d
+1171 (5th Cir. 1980) (commercial artwork); New York Times Co. v. Roxbury Data Interface, Inc.,
+434 F. Supp. 217 (D.N.J. 1977) (computer-generated index).
+2, No pure quantitative approach is possible. Compare Henry Holt & Co. v. Liggett & Myers
+Tobacco Co., 23 F. Supp. 302 (E.D. Pa. 1938) (copying of three sentences found to be an infringement)
+with Williams & Wilkins Co. v. United States, 487 F.2d 1345 (Ct. Cl. 1973), aff'd by an equally divided
+court, 420 U.S. 376 (1975) (copying of entire articles found to be fair use).
+23 M. FRANKuN, MAss MEDIA LAW 536 (1977).
+26 Id.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+4
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+1985]
+
+FAIRNESS DOCTRINE
+
+the same space at the same time along the same frequency will interfere with one
+another. If any one of the dimensions is changed, however, interference may not
+occur." The signals may be geographically separated, broadcast at different times,
+or broadcast along different frequencies without any interference problems.28 If
+interference does occur, it will obscure or destroy the information carried by the
+29
+signal.
+
+30
+Because crowding of radio signals became a problem as far back as the 1920s,
+government regulators attempted to find solutions to please everyone. The Secretary
+of Commerce had jurisdiction over the infant radio industry and attempted to satisfy
+the stations' demands by limiting the power and hours of operation of stations
+so that several stations might use the same channels. 3 ' By 1925, every channel in
+the standard broadcast band was occupied by at least one station, and many chan32
+nels were occupied by several.
+
+This situation was soon complicated when the actions of the Secretary of Commerce were legally limited. In 1923, one United States District Court found that
+the Secretary had no power to deny an otherwise legally qualified applicant for
+a broadcast license on the ground that a station would interfere with one currently
+operating.33 Three years later, another United States District Court held that the
+Secretary had no power to impose regulations as to power, frequency, or hours
+of operations.34 Later that year, reacting to the court's decision and an opinion
+by the United States Attorney General, the Secretary abandoned all efforts to regulate
+radio and urged the stations to regulate themselves. 35 The situation at this time
+became chaotic as the United States Supreme Court noted "[w]ith everybody on
+' ' 36
+the air, nobody could be heard.
+To alleviate the problem, the government created a five-member Federal Radio
+Commission in 1927. With the Communications Act of 1934, the agency was
+expanded to seven members and renamed the Federal Communications Commission. The Commission has the sole power to allocate the radio spectrum, to establish
+general standards of operation, and to license persons to use designated parts of
+
+, Id. at 537.
+
+Id. at 538.
+29 Id. at 540.
+
+10National Broadcasting Co., 319 U.S. at 212.
+31
+
+Id.
+
+Id. at 211.
+Hoover v. Intercity Radio Co., 286 F. 1003 (D.C. Cir. 1923).
+" United States v. Zenith Radio Corp., 12 F.2d 614 (N.D. I1. 1926).
+31 National BroadcastingCo., 319 U.S. at 212. The Attorney General's Opinion may
+be found
+at 35 Op. Att'y. Gen. 126 (1926).
+6 National BroadcastingCo., 319 U.S. at 212. The Court stated "almost 200 new stations went
+on the air. These stations used any frequencies they desired regardless of the interference caused to
+others. Existing stations changed to other frequencies and increased their power and operations at will.
+The result was confusion and chaos." Id.
+31
+13
+
+Disseminated by The Research Repository @ WVU, 1985
+
+5
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LAW REVIEW
+
+[Vol. 88
+
+the spectrum.' The Commission soon interpreted its governing criterion to act "as
+public interest, convenience, or necessity requires ' 38 to go beyond these purely
+technical matters to include content regulation as well.
+
+II.
+
+ACCOMMODATING THE PuBLIc's RIGHT TO KNOW
+
+The purpose of both copyright law and broadcast regulation to promote the
+public's right to receive ideas is the heart of the evolving jurisprudence in these
+areas. Doctrines developed within both bodies of law which accommodated this
+purpose. In copyright law, the primary manner in which these first amendment
+rights were accommodated was the doctrine of fair use; in broadcasting, the fairness
+doctrine.
+
+A.
+
+Copyright, News, and the First Amendment
+
+The competing interests between dissemination of material to the public and
+the proprietary interest in copyright is often felt in the clash between copyright
+and the media. As noted, the tension is often alleviated in one of two ways: either
+(1) the subject matter is not deemed to be copyrightable,3 9 or (2) the use of the
+material is not found to be a copyright infringement under the fair use doctrine."
+It has long been clear that news itself is not copyrightable. 4 ' The Seventh Circuit stated that "[n]ews as such is not the subject of copyright. . . . But in so
+far as [an] article involves authorship and literary quality and style, apart from
+the bare recital of the facts or statement of news, it is protected."" 2 As the United
+States Supreme Court recently noted, however, "the law is currently unsettled regarding the ways in which copyrightable elements combine with the author's original
+contributions to form protected expression." 4' 3 Yet even where the particular treatment utilized in the story is protected under the copyright law, a given use of that
+story may still be permitted under the fair use doctrine."
+The four fair use factors become determinative here. Where (1) the purpose
+and character of the use is to promote scholarship,4" the understanding of world
+
+3, 47 U.S.C. § 152-55 (1976).
+3 47 U.S.C. § 303 (1976).
+31 17 U.S.C. § 102. See Hoehling v. Universal City Studios, 618 F.2d 972 (2d Cir. 1980).
+40 17 U.S.C. § 107. See Time, Inc. v. Bernard Geis Ass'n, 293 F. Supp. 130 (S.D.N.Y. 1968).
+" Chicago Record-Herald Tribune Co. v. Tribune Ass'n, 275 F. 797 (7th Cir. 1921).
+,1 Id. at 798-99.
+43 Harper & Row Publishers Inc. v. Nation Enter., 52 U.S.L.W. 4562 (U.S. May 20, 1985) (No.
+82-660). Unfortunately, after noting the problem, the Court chose to resolve the case on the alternative
+ground of appropriation of the right of first publication.
+4. 17 U.S.C. § 107.
+Id.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+4,
+
+6
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+
+19851
+
+FAIRNESS DOCTRINE
+
+events," or to serve a substantial purpose in meeting the public's right to know,"7
+and where (2) the nature of the copyrighted work is such that the public interest
+would be served by the material being made available," inquiry into the fair use
+of the work may be appropriate.
+One additional doctrine has attempted to balance these competing interests:
+the application of first amendment theory to limit the ability to copyright certain
+material." While this topic has interested a number of commentators, it has not
+been completely accepted as a separate defense to copyright infringement. Instead,
+courts are often able to give effect to the policy underpinning the first amendment
+by applying the four factors concerning fair use." One federal district court has
+announced flatly that "[c]onflicts between interests protected by the First Amendment and the copyright laws can be resolved by application of the fair use
+doctrine.""
+B.
+
+Copyright and Video Technology
+
+An additional question emerges when the interests to be weighed arise from
+material published not in the traditional print media, but by way of one of the
+new technologies. The House Report concerning the adoption of section 107 of
+the Copyright Act (Fair Use) explicitly stated: "The bill endorses the purpose and
+general scope of the judicial doctrine of fair use, but there is no disposition to
+freeze the doctrine in the statute, especially during a period of rapid technological
+change." 52 Implicit in the statement is the anticipation that rapid technological
+change in such areas as satellite communications, videotape recording, and other
+technologies13 only beginning to be felt a decade ago would by its very nature present unique fact situations for fair use determination.
+Because until recently videotape technology was almost used exclusively within
+the communications industry, 54 little attention was paid to its use by private
+individuals. As the price of such equipment fell and the supply grew, however,
+" Bernard Geis, 293 F. Supp. at 146; Rosemont Enter., 366 F.2d:at 306-7.
+", Bernard Geis, 293 F. Supp. 130.
+"1
+
+Id. at 146.
+
+41 See I M.B. NIMiER, supra note 15, at § 1.10.
+
+o Bernard Geis, 293 F. Supp. at 146.
+Keep Thomson Governor Comm. v. Citizens for Gallen Comm., 457 F. Supp. 957, 960 (D.N.H.
+1978) (citing Wainwright Securities, Inc. v. Wall Street Transcript Corp., 558 F.2d 91 (2d Cir. 1977),
+cert. denied, 434 U.S. 1014 (1978).
+'2 H.R. REP. No. 1476, supra note 19.
+" See generally, Samuels, Copyright and the New Communications Technologies, 25 N.Y.L. SCH.
+L. REV. 905 (1980). See also Ferris, Introduction:Law and the Emerging Video Technologies, 25 N.Y.L.
+"
+
+ScH. L. REV. 787 (1980).
+" See S. MAHONEY, N. DE MARTINO & R. STENGEL, KEEPING PACE WITH THE NEw TELEVISION
+157 (1980), quoted in, Comment, Videotaping Live Television News Broadcastsfor Commercial Purposes, 6 W. NEw ENG. L. REV. 225 (1983).
+
+Disseminated by The Research Repository @ WVU, 1985
+
+7
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LAW REVIEW
+
+[Vol. 88
+
+more and more people began to tape material from their home television sets."
+Although many questions remain unanswered regarding the off-air videotaping of
+news and public affairs programs for commercial purposes, the leading case of
+Sony Corporationof America v. Universal City Studios, Inc. 6 has definitely addressed the off-the-air recording of television programs for noncommercial private
+use.
+
+In Sony, the United States Supreme Court determined that off-the-air videotaping for private, noncommercial home use fell under the fair use guidelines of section 107, when the guidelines were weighed in an "equitable rule of reason
+balance." 57 However, in making this determination, the Court did not completely
+analyze the various factors in section 107, concentrating instead on the noncommercial nature of the use.58 The Court quoted at length from the district court
+findings that no economic harm to the plaintiffs had been proved, 9 and declined
+to analyze the additional three factors. Thus, Sony provides little direct guidance
+for a determination of videotape recording in other contexts.
+C. Broadcasting'sFairness Doctrine
+Broadcasting's precarious first amendment balance is kept by means of various
+forms of content regulations, most notably the fairness doctrine. The power of
+the Federal Communication Commission to regulate content was affirmed by the
+United States Supreme Court in 1943. In the case of National BroadcastingCompany v. United States," the Court wrote:
+[W]e are asked to regard the Commission as a kind of traffic officer, policing the
+wavelengths to prevent stations from interfering with each other. But the Act does
+not restrict the Commission merely to the supervision of the traffic. It puts upon
+the Commission the burden of determining the composition of that traffic. The
+Comment, supra note 54, at 225.
+Sony Corp. of America v. Universal City Studios, Inc., 104 S.Ct. 774 (1984).
+I at 795.
+Id.
+Id. at 795 n.40.
+" Id. at 795. The Court cited various passages as follows:
+"Harm from time-shifting is speculative and, at best, minimal." . . . "The audience
+benefits from the time-shifting capability have already been discussed. It is not implausible
+that benefits could also accrue to plaintiffs, broadcasters, and advertisers, as the Betamax
+makes it possible for more persons to view their broadcasts." . . . "No likelihood of harm
+was shown at trial, and plaintiffs admitted that there had been no actual harm to date."
+. . . "Testimony at trial suggested that Betamax may require adjustments in [the plaintiffs']
+marketing strategy, but it did not establish even a likelihood of harm." . . . "Television
+production by plaintiffs today is more profitable than it has ever been, and, in five weeks
+of trial, there was no concrete evidence to suggest that the Betamax will change the studios'
+financial picture."
+Id. (quoting Sony Corp. of America v. Universal City Studios, Inc., 480 F. Supp. 429, 467-69 (C.D.
+Cal. 1979) (citations omitted)).
+60National Broadcasting Co., 319 U.S. 190.
+"
+
+56
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+8
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+FAIRNESS DOCTRINE
+
+19851
+
+facilities of radio are not large enough to accommodate all who wish to use them.
+Methods must be devised for choosing from among the many who apply.6 '
+
+A quarter-century later, in Red Lion BroadcastingCompany v. FederalCommunications Commission,62 the Court further detailed these duties of the Commission.
+The Court placed great reliance on the fact that the Commission had "expressed
+its view that the 'public interest requires ample play for the free and fair competition of opposing views, and [that] the commission believe[d] that the principle applies
+' 63
+. . . to all discussions of issues of importance to the public.'
+
+The Commission's view that the public interest required such presentation of
+opposing views is codified at section 315 of the Communications Act and is commonly called the fairness doctrine.6" The fairness doctrine is attached to the end
+of the intricate requirements for equal time for political candidates and is stated
+as: "Nothing in the foregoing sentence shall be construed as relieving broadcasters
+• ..from the obligation imposed upon them under this chapter to operate in the
+public interest and to afford reasonable opportunity for the discussion of conflicting views on issues of public importance. "65
+This doctrine was set forth quite explicitly in 1949, when the fairness doctrine
+became the subject of a major report. 66 The rationale behind the formal announcement of the doctrine was presented as follows:
+It is axiomatic that one of the most vital questions of mass communication
+
+in a democracy is the development of an informed public opinion through the public
+dissemination of news and ideas concerning the vital public issues of the day..
+. And we have recognized.., the paramount right of the public in a free society
+to be informed and to have presented to it for acceptance or rejection the different
+attitudes and viewpoints concerning these vital and often controversial issues which
+are held by the various groups which make up the community. It is this right of
+the public to be informed, rather than any right on the part of the Government,
+any broadcast licensee, or any individual member of the public to broadcast his
+own particular views on any matter which, is the foundation stone of the American
+67
+system of broadcasting.
+In 1974, the Commission presented another formal report which stressed the
+importance of the fairness doctrine. The Commission noted that since 1970, it had
+made clear its position that the fairness doctrine is "the single most important
+61 Id. at 215-16.
+62 Red Lion, 395 U.S. 367.
+63 Red Lion, 395 U.S. at 377 (quoting Great Lakes Broadcasting Co. v. Federal Radio Comm'n,
+3 F.R.C. ANN. REP. 32, 33 (1929), rev'd on other grounds, 37 F.2d 993 (1930), cert. dismissed, 281
+U.S. 706 (1930).
+64 47 U.S.C. § 315 (1976).
+65
+
+Id.
+
+66
+
+FEDERAL COMMUNICATIONS COMMISSION, EDITORIALIZING BY BROADCAST LICENSEES,
+
+13 F.C.C.
+
+1246 (1949) [hereinafter cited as EDITORIALIZING BY BROADCAST LICENSEES].
+67 Id. at 1249.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+9
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LA W REVIEW
+
+[Vol. 88
+
+in the public interest-the sine quo non for grant of a
+requirement of operation
+' 68
+license.
+of
+renewal
+The fairness doctrine is not meant to be a passive restriction on broadcasters.
+The 1974 report stated clearly that the obligation of broadcasters to present contrasting views "cannot be met 'merely through the adoption of a general policy
+of not refusing to broadcast opposing views where a demand is made of the station
+for broadcast time.' The licensee has a duty to play a conscious and positive role
+in encouraging the presentation of opposing viewpoints. ' 69 Similarly, the broadcaster must be alert to the situations in which there may be more than one point
+of view and provide coverage to all views which warrant it." The broadcaster must
+make a "reasonable allowance" for partisans who believe their point of view, thus
+eliminating the potential to avoid fairness challenges by broadcasting only "bland,
+inoffensive" presentations."
+III.
+
+REVIEWING BROADCASTS FOR FAIRNESS DOCTRINE RESPONSE:
+WHERE THE CLASH IS FELT
+
+Although section 315 of the Communications Act does not give broadcasters
+any criteria for the selection of a representative to present the opposing views which
+must be considered by broadcasters, as a practical matter the spokesperson may
+be self-selecting. Because the fairness doctrine does not require a balanced presentation of views on any one program, 72 it is not unlikely that one side of an issue
+may be aired alone, with the response aired after station-contact by an advocate
+of opposing view. For the fairness doctrine to have any real meaning, then, potential respondents must be able to view the segments of the television station's programming that they wish to oppose.
+A.
+
+The Need to Review Broadcasts
+
+There are two primary ways in which the potential respondent can gain
+knowledge of a broadcast containing a viewpoint which he opposes: contact by
+the station and individual viewing by the respondent. The Federal Communications Commission, however, has consistently opposed putting broadcasters under
+the same specific outreach mandate for issues arising under the fairness doctrine
+as is imposed under the personal attack doctrine. 3 One reason is the difficulty
+of discovering the identity of potential spokespersons.
+6
+69
+
+Fairness Doctrine and Public Interest Standards, supra note 6, at 26,375.
+Id. (para. 37) (quoting EDrTORIAliZING BY BROADCAST LICENSEES, supra note 66, at 1251.
+Id. (para. 41).
+Id.
+
+72 Fairness Doctrine and Public Interest Standards, supra note 6, at 26,375 (paras. 41, 43 & 44).
+"
+
+The personal attack doctrine, 47 C.F.R. § 73.1920 (1984), codifies the responsibilities of broad-
+
+casters in pertinent part:
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+10
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+
+19851
+
+FAIRNESS DOCTRINE
+
+[The coverage of opposing viewpoints] does not mean, however, that the Commission intends to dictate the selection of a particular spokesman. . . . We do
+not believe that it is either appropriate or feasible for a governmental agency to
+make decisions as to what is desirable in each situation. In cases involving personal
+attacks and political campaigns, the natural opposing spokesman are relatively easy
+to identify. This is not the case, however, with the majority of public controversies. Ordinarily, there are a variety of spokesmen and formats which could reasonably
+be deemed to be appropriate."4
+
+It is obvious that even if the Commission desired to develop such response guidelines,
+they would be difficult and burdensome for the broadcaster to follow.
+Furthermore, viewing by the potential respondent is not possible in all cases.
+There are many instances in which the proper party to respond does not see a broadcast or series of broadcasts. In these instances, it becomes very important that the
+respondent obtain a copy of the broadcast for review and study and for use in
+preparation of a response.7 5 It is in these instances that the copyright interests of
+
+a broadcaster oppose those responsibilities placed upon him by the fairness doctrine.
+In the most serendipitous instance, a friend of the respondent would be home
+videotaping the program in question and could make a copy available to the respon-
+
+dent. Because such loan for review does not involve a sale or exchange of the
+videotape cassette, 76 the loan would seem not to involve a copyright violation under
+
+the fair use exception of Sony." Dependence on this type of coincidence, however,
+is difficult to justify as the basis for as serious a purpose as the fairness doctrine.
+Another alternative for the respondent is to view the videotape on loan from
+
+the local library. Again, the Copyright Act has specifically provided for a copyright
+exemption for the videotaping of news programs by libraries."8 While a consistent
+
+(a) When, during the presentation of views on a controversial issue of public importance,
+an attack is made upon the honesty, character, integrity or like personal qualities of an identified person or group, the licensee shall, within a reasonable time and in no event later than
+one week after the attack, transmit to the person or group attacked (1) Notification of the
+date, time and identification of the broadcast; (2) A script or tape (or an accurate summary
+if a script or tape is not available) of the attack; and (3) An offer of a reasonable opportunity
+to respond over the licensee's facilities.
+7 Fairness Doctrine and Public Interest Standards, supra note 6, at 26,375 (para. 42).
+, See infra Section III, Part C.
+76 Sony specifically excluded from its review such instances in which commercial videotaping was
+involved. Sony, 104 S. Ct. at 791-96.
+77It should be noted, however, that the dissent declines to extend the opinion to "the sharing
+or trading" of tapes. Sony, 104 S.Ct. at 797, n.2 (Blackmun, J., dissenting).
+" 17 U.S.C. § 108(f)(3), (h). The House Report noted that:
+The clause was first added to the revision bill in 1974 by the adoption of an amendment
+proposed by Senator Baker. It is intended to permit libraries and archives, subject to the
+general conditions of this section, to make off-the-air videotape recordings of daily network
+newscasts for limited distribution to scholars and researchers for use in research.
+H.R. REP. No. 1476, 94th Cong., 2d. Sess. 77 (1980) reprintedin U.S. CODE CoNG., & An. NEws 5690-91.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+11
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LA W REVIEW
+
+[Vol. 88
+
+effort by the library would have the advantage of overcoming the haphazard taping hypothesized in the prior instance, the advantage is theoretical at best. Although
+five libraries are taping news programming for archival purposes, only three of
+these libraries are taking advantage of the copyright exemption to tape local news
+programs.7 9 Another major disadvantage is that the library would have no outreach
+obligation. That is, while the library would house and make available the videotapes,
+it would not need to make any effort to contact those persons in the surrounding
+communities who might wish to view or respond to the tapes.
+An alternative to these more haphazard responses, the video-clipping service,
+provides several advantages over, the other options. The service would make
+systematic recordings of all local or network news programs in the same manner
+as the library.8 0 It would have the economic incentive to provide an outreach service, as the purchase of tapes from the service would provide enough economic
+benefit to make marketing them worthwhile."' Additionally, by operating on a
+subscription basis, the clipping service would be able to arrange to notify particular
+potential respondents whenever an item was broadcast which would come within
+that respondent's area of concern." This lets the respondent receive information
+from all over the country, if necessary, and be prepared to make requests for
+response time under the fairness doctrine wherever the broadcast originates.
+This video clipping service, however, has one serious drawback. Under current
+copyright law there seems to be no exemption for such a service, and the resulting
+sale of copied tapes is an infringement under the Copyright Act of 1976.11
+B.
+
+Pacific and Southern Company, Inc. v. Duncan
+In Pacific and Southern Company, Inc. v. Duncan, the federal courts have
+
+" The libraries at Vanderbilt University and U.C.L.A. currently tape network news. Libraries
+in Newark, New Jersey; Baltimore, Maryland; and Columbus, Ohio tape local news. Vanderbilt University
+Library (1985).
+1° This discussion considers video-clipping services in the abstract and discusses the activities which
+
+could be found to be both commercially and technologically feasible. One such video-clipping service,
+TV News Clips in Atlanta, Georgia, regularly tapes four stations: WXIA-TV (channel 11), WAGA
+(channel 5), WSB (channel 2), and the Cable News Network (CNN), all in Atlanta. Brief of Appellee
+at 4, Duncan, 744 F.2d 1490.
+" The economic advantages of an outreach marketing program have been graphically characterized
+as follows:
+[TV] News Clips copies all of virtually every news program broadcast by WXIA-TV and
+And,
+attempts to sell a clip to every person and entity that appeared on each program ....
+since several persons may appear in one news report, [TV] News Clips may sell several copies
+of some portions of the program . ..
+In addition, . . . [TV News Clips'] very reason for being is to sell as many of these
+discrete, self-contained reports as possible to the persons and entities that appeared in them.
+Brief of Appellee at 23, Duncan, 744 F.2d 1490.
+2 There is no evidence that TV News Clips provided this kind of subscription service, although
+it is not unusual for newspaper clipping services to do so.
+" See, e.g., Pacific and S. Co. v. Duncan, 572 F. Supp. 1186 (1983), aff'd in part, rev'd in
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+12
+part, 744 F.2d 1490 (11th Cir. 1984).
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+1985]
+
+FAIRNESS DOCTRINE
+
+had their first opportunity to investigate the implications of off-the-air videotaping
+of news broadcasts for commercial purposes. The defendant Carol Duncan operated
+a company called TV News Clips, which monitored the television news broadcasts
+of stations in the Atlanta, Georgia, market including plaintiff WXIA-TV. TV News
+Clips videotaped the news programs, then offered clips of portions of the programs to the subjects.14 The clips carried no copyright notice, although a notice
+advising that the clips were for personal use, not for rebroadcast, was attached.85
+WXIA-TV made its own videotaped copies of programs available to viewers, but
+only upon the viewer's request, and with certain limitations.86 WXIA-TV did not,
+for example, provide copies of programs to politicians and did not make copies
+available to attorneys for purposes of litigation unless the material was subpoenaed. 87
+On March 11, 1981, WXIA-TV broadcast a story about a fitness trail located
+at Floyd Junior College in Rome, Georgia.88 The feature was one minute, fortyfive seconds in length and discussed the health benefits to be derived from using
+the trail. Subsequently, WXIA-TV learned that TV News Clips had sold a copy
+of the program to Floyd Junior College. WXIA-TV effected copyright registration
+on the individual segment" and brought a copyright infringement action against
+Duncan and TV News Clips. The station sought damages for the particular copyright
+infringement in the instant case and an injunction against further copying. 90
+The United States District Court for the Northern District of Georgia held that
+defendant's copying was, indeed, a copyright infringement and entered judgment
+for the plaintiff in the amount of $35.00, which the court found to be defendant's
+profit on the sale of the tape."1 The district court declined to issue an injunction
+after finding that some other copying may not be violative of the copyright laws. 92
+The United States Court of Appeals for the Eleventh Circuit, however, found the
+refusal of injunctive relief to be an abuse of discretion on the part of the district
+93
+court and remanded the case for the issuance of an injunction.
+Although the defendant raised various first amendment defenses in the case,
+"
+
+Id.
+
+Id.
+86 Id. at 1190.
+"
+
+'
+
+"
+
+Id.
+
+Id. at 1189.
+
+One ironic counterpoint to the institution of this lawsuit was that, before bringing suit, WXIATV (Pacific and Southern Co.) was statutorily required to register its copyright of the news segment
+involved. Having erased its own copy, the station submitted for registration the "clip" sold to Floyd
+Junior College by TV News Clips. Brief of Appellant at 5, Duncan, 744 F.2d 1490.
+90 Duncan, 572 F. Supp. at 1189-90.
+'9
+
+9' Id. at 1198.
+' The district court concluded an injunction was inappropriate for two reasons. First, the court
+felt a "modest social benefit" might be served by TV News Clips' copying when "film of news events
+of possibly great import" would be routinely erased by WXIA-TV. Second, the court concluded WXIA-TV
+may have abandoned its copyright protection in some instances by erasing its copies of the broadcasts,
+and therefore an injunction against copying the material was inappropriate. Id. at 1196-97.
+11Duncan,
+744 Research
+F.2d at 1499-1500.
+Disseminated
+by The
+Repository @ WVU, 1985
+13
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LAW REVIEW
+
+[Vol. 88
+
+the courts considered them less important than the issue of the imposition on the
+broadcaster's right to market its own clips. This application of the fair use factors
+was consistent with Sony," in which the Supreme Court found fair use based almost
+entirely on the lack of financial harm to the plaintiff." Quoting Sony to the effect
+96
+that another's use of copyrighted material for profit is "presumptively unfair,"
+the circuit court affirmed the district court's finding that the TV News Clips service
+was commercial in nature." This finding was important in respect to the application
+of the fair use exception, in the consideration both of the first criterion (nature
+of the use), and of the fourth criterion (effect of the infringing use on the market
+for the original work). The commercial nature of the use "militate[d] quite strongly" against the defendant on the first criterion98 and was also balanced against
+TV News Clips' interests on the fourth, as the court found that "TV News Clips
+uses the broadcasts for a purpose that WXIA might use for its own benefit." 99
+While the Eleventh Circuit rejected the analysis of the district court that TV
+News Clips' copying did not have any productive purpose and therefore as a matter
+of law could not claim a fair use exception, 0' the Eleventh Circuit considered the
+verbatim copying and lack of productive or creative effort important within the
+fair use analysis. Noting this lack of creativity, the circuit court quoted Sony to
+the effect that although "productive use" is not an absolute prerequisite to a defense
+of fair use, the distinction between productive and nonproductive uses is "helpful
+in calibrating the balance."' Unfortunately, both the circuit court and the district
+court construed "productive use" as part of the editorial or content-based use of
+the work. The courts did not consider the concept of "productive use" that is referred to in Sony: use of the copy for "socially productive" purposes.10 " The circuit
+court rejected TV News Clips' claim that they were providing a productive service
+by increasing public access to the programs. 03 The court noted that this claim may
+be made by any infringer.
+Of course, every commercial exchange of goods and services involves both the
+giving of the good or service and the taking of the purchase price. The fact that
+TV News Clips focuses on the giving rather than the taking cannot hide the fact
+that profit is its primary motive for making the exchange.1' °
+The court's opinion suggests that TV News Clips' mere dissemination of news clips
+
+Sony, 104 S. Ct. at 774.
+11 Id. at 796.
+96 Duncan, 744 F.2d at 1496 (quoting Sony, 104 S. Ct. at 792).
+14
+
+97 Duncan, 744 F.2d at 1496.
+92 Id.
+91 Id. at 1496-97.
+'o' Duncan, 572 F. Supp. at 1195.
+1,, Duncan, 744 F.2d at 1496 (quoting Sony, 103 S. Ct. at 795 n.40).
+"' See Sony, 103 S. Ct. at 795 n.40.
+103Duncan, 744 F.2d at 1499-1500.
+,0, Id. at 1496.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+14
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+FAIRNESS DOCTRINE
+
+1985]
+
+does not rise to the same productive level as WXIA-TV's reporting and broadcasting of news.
+
+C.
+
+The Duncan Analysis and FairnessDoctrine Concerns
+
+The use of TV News Clips' tapes for fairness doctrine purposes was never raised
+in Duncan.' However, three of the important discussions in Duncan have serious
+implications for the copying of news and its commercial distribution for fairness
+doctrine purposes: (1) the discussion of the presumption against fair use for profitmaking enterprises, (2) the discussion of dissemination as productive use, and (3)
+the discussion of content or editorial revision.
+
+1. The Presumption Against Fair Use
+In Sony, the Supreme Court stated that the fair use criteria mandated a presumption against commercial uses of a copyrighted work:
+Although not conclusive, the first factor [of section 107 of the Copyright Act]
+requires that "the commercial or nonprofit character of an activity" be weighed
+in any fair use decision. If the Betamax were used to make copies for a 0commercial
+6
+or profit-making purpose, such use would presumptively be unfair.'
+Because the Court goes on to find that the use in Sony is not commercial,'0 7 the
+Court does not give any indication of what interests would be sufficient to overcome the presumption.
+One factor which may be found to overcome the presumption against a finding of fair use is the serious purpose served by the fairness doctrine. As noted
+earlier,' 8 the fairness doctrine was developed by the Commission, incorporated
+statutorily by the legislature, and approved by the Supreme Court as a means by
+which the publicly-owned airwaves could best serve the public's right to receive
+all sides of an issue.
+The importance of the fairness doctrine was well illustrated in testimony given
+in 1984 before the Senate Committee on Commerce, Science, and Transportation
+regarding the proposed elimination of content regulation."' The testimony included
+that of Robert M. Gurss, an attorney with the Media Access Project,'10 a public
+
+"', Instead, Duncan's defense was based primarily on the "productive use" inherent in her clients'
+study of the tapes for self-improvement of their public image. Duncan, 572 F. Supp. at 1190.
+
+"0'
+
+Sony, 103 S. Ct. at 792 (footnote omitted).
+
+107 Id.
+
+See supra, Section II, Part C.
+'" See Hearings on S. 1917 Before the Comm. on Commerce, Science, and Transportation,98th
+Cong., 2d Sess. 92 (1984).
+10S
+
+,"0 Id. at 92-95.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+15
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LA W REVIEW
+
+[Vol. 88
+
+interest law firm specializing in telecommunications matters on behalf of citizens'
+groups seeking to vindicate the public's right to receive a broad range of view-
+
+points. Based on his firm's experience in litigating access cases, Gurss felt the fairness
+doctrine would continue "to be a necessary and highly beneficial component of
+our marketplace of ideas.""' He further stated:
+Our constitutional democracy frequently requires the balancing of legitimate
+and competing civil liberty interests. Section 315 successfully reconciles the first
+amendment rights of the public and those of broadcast licensees. Congress, the
+courts and the Commission have developed a time-tested administrative scheme
+which gives great deference to the needs of broadcasters. However, when there
+is a legitimate dispute, the supreme court has held unanimously that it is the public's
+right to receive information, not the right of the broadcaster, which is paramount." 2
+
+When a controversy indicates that a legitimate dispute exists calling into play the
+fairness doctrine, this same balancing test should be applied to copyright questions. The public's right to receive information should outweigh the presumption
+
+against fair use of the copyrighted material, when the copying-commercial or
+noncommercial-is necessary for a potential respondent to hear the original broadcast, or to analyze it for the purpose of preparing a response.
+Additionally, commercial copying may provide an incentive for systematic
+monitoring of news and public affairs programs for mention of controversial subjects. This would be especially valuable for national trade associations, unions,
+companies, and political organizations that have a need to know what is being broadcast all over the country. These organizations now have virtually no way of learning about the airing of broadcasts or their substance. The quality of public debate
+' 3
+could only be improved by such a system.
+
+2.
+
+Distribution and Productivity
+The second difficulty is with the courts' discussions of productive use in regard
+" Id. at 92.
+112
+
+Id.
+
+"3 The argument may be made that while the system may improve public debate,
+
+it should be
+a system provided under license to the station. However, at least one court has found that licensing
+should not be considered as part of the fair use analysis. See Williams & Wilkins, 487 F.2d 1345. Saying
+that the determination of fair use does not turn on the owner's willingness to license, the court refused
+"to hold that [copying] (without royalty payments) is not 'fair use' if the owner is willing to license
+at reasonable rates but becomes a 'fair use' if the owner is adamant and refuses all permission (or
+seeks to charge excessive fees)." Id. at 1360.
+In Nation Enterprises, the Court discusses the economic effect of the use as an extremely important factor, quoting Nimmer to the effect that "[flair use, when properly applied, is limited to
+copying by others which does not materially impair the marketability of the work which is copied."
+Nation Enter., 53 U.S.L.W. at 4569 (quoting I M.B. NIMER, supra note 15 at § 1.10(d). As proposed
+here, an exception for controversial issues potentially raising fairness doctrine questions would be extremely small in relation to the total number of stories broadcast.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+16
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+
+1985]
+
+FAIRNESS DOCTRINE
+
+to the use of the copyrighted material. Although citing to footnote forty of Sony,
+the Eleventh Circuit rejects the Court's use of "social productivity" in the very
+"calibration of the balance" they claim to employ."' 4 The Eleventh Circuit completely seems to disregard the "social productivity" argument by saying:
+The Supreme Court has mentioned that use of a news program may give rise
+to a fair use defense more easily than use of a full-length motion picture. The
+Court does not fully explain this distinction, but the context suggests that the large
+secondary market for motion picture copies makes fair use less appropriate in that
+context.'
+Although that statement may be accurate at least in part, the Eleventh Circuit
+disregards other statements in the important discussion:
+A teacher who copies to prepare lecture notes is clearly productive. But so is a
+teacher who copies for the sake of broadcasting his personal understanding of his
+specialty. Or a legislator who copies for the sake of broadening her understanding
+of what her constituents are watching; or a constituent who copies a news program
+to help make a decision on how to vote." 6
+These examples do not contain the kind of analysis or improvement suggested by
+the Eleventh Circuit to be mandatory in order to be productive.' 'I On the contrary,
+the Supreme Court recognizes that a particular copying of a work may be
+productive-even if the underlying work is unimproved-if the purpose for copying is itself productive.
+In order for the fair use analysis to aid respondents in gaining access to material
+for the purpose of fairness doctrine analysis and response, the Supreme Court's
+broader delineation of productive use must be considered. It is the availability and
+distribution of the information, not the comment or criticism of it, which is needed
+to effectuate the doctrine."' If regarded in this manner, the Eleventh Circuit erred
+in stating "TV News Clips only increases access in a limited way, by selling to
+a small group of customers, some of whom would buy a tape from WXIA
+anyway."" ' 9 Providing tapes to the group who would buy a tape from WXIA if
+they knew about it is the productive use for the purposes of fairness doctrine response
+analysis.
+The court's finding that TV News Clips could not rely on the uses by the purchasers of the tapes is critical here. Without such reliance, TV News Clips' first
+amendment defense paled against the profit-making purpose of the business. This
+question, whether the copier can rely on the productivity of the ultimate user, has
+
+Duncan, 744 F.2d at 1496.
+Id. at 1497 n.11.
+"'6 Sony, 104 S. Ct. at 795 n.40.
+Duncan, 744 F.2d at 1496.
+"' See supra Section III,
+Part A.
+"' Duncan, 744 F.2d at 1498.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+17
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LA W REVIEW
+
+[Vol. 88
+
+previously been addressed in Williams & Wilkins Co. v. United States.' 0 The
+decision in Williams and Wilkins, finding fair use of copyrighted material where
+two libraries photocopied large numbers' of scientific journals for their patrons,
+was based in large part on the uses made of the articles by their readers:
+[The medical researchers who have asked these libraries for the photocopies
+
+are in this particular case (and ordinarily) scientific researchers and practitioners
+who need the articles for personal use in their scientific work .... There has been
+
+no attempt to misappropriate the work of earlier scientific writers for forbidden
+
+ends, but rather an effort to gain easier access to the material for study and
+research."
+2
+
+Preparation by a video clipping service of a copy of a news program for a
+viewer for the purpose of a fairness doctrine response has a similar lofty purpose:
+furthering the goal of easier access to the news program for a response recognized
+by government inclusion as section 315 of the Communications Act.
+3. The Need for Unrevised Copying
+Part and parcel with the conclusion that distribution is not productive is the
+court's limited definition of "productive use" requiring editorial or content revision. For the purposes of analysis under the fairness doctrine, it is crucial that
+the broadcasts be completely unchanged. Providing only an audio track'2 3 or a
+script "' perpetuates the concept that the editorial content of such a message is its
+totality. However, as Marshall McLuhan was so fond of saying, "the medium is
+the message."'' 25 The essence of McLuhan's book, Understanding Media, is the
+argument that the individual elements of the broadcast combine with synergistic
+effect to create a form not readily divisible into the individual components. This,
+he argues, is the real error of most broadcast regulation. "Although the medium
+is the message . . . [t]he restraints are always directed to the content, which is
+
+always another medium."'2 1 6 However, he continues, because the medium is the
+basic source of effects, such pure content regulation is ineffective;' 2" that is, control over what is said, without similar controls over the totality of other aspects
+of the broadcast, is not enough. Thus, to be able to completely respond under
+
+120
+
+Williams & Wilkins, 487 F.2d 1345.
+
+Evidence showed that in 1970, the National Institute of Health's library made 86,000 copies
+of articles for a total of 930,000 pages. The National Library of Medicine copied 120,000 articles for
+a total of 1.2 million pages. Id. at 1364.
+12 Id. at 1354. This case would now be controlled by 17 U.S.C. § 108, Limitations on exclusive
+rights: Reproduction by libraries and archives.
+"I This was available from WXIA-TV. See Duncan, 572 F. Supp. at 1196.
+24 Id.
+"2 M. McLuHAN, UNDERSTANDING MEDIA: THE EXTENSION OF MAN 305 (1964).
+126 Id.
+27 Id.
+
+at 314.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+18
+
+Morton: Fairness Doctrine Limitations on Broadcasters' Copyright of News
+FAIRNESS DOCTRINE
+
+19851
+
+the fairness doctrine, the potential respondent must be able to receive all the
+impressions-not only those from a script or an audio track.
+Although McLuhan may be the most widely quoted media philosopher, the
+Canadian media expert is not the only writer to note this fact about inseparability
+of form and content in special instances. No less a copyright expert than Professor
+Nimmer has noted in his treatise that there seems to be arising a new category
+of material which he calls "news photographs."' 2 8 In these works, the idea and
+expression of the work are so inseparable that the usual idea-expression dichotomy
+ceases to function.' 29 In this new category he would place such works as the
+photographs of the My Lai massacre and the Zapruder film which was the subject
+130
+of Time, Inc. v. Bernard Geis Associates.
+When President John F. Kennedy was shot in Dallas on November 22, 1963,
+a Dallas resident named Abraham Zapruder was coincidentally taking home movies
+of the scene. His film-referred to by a federal district court as "an historic document"-was bought and copyrighted by Time, Inc.' 3 The defendant, an assistant
+professor at Haverford College in Pennsylvania, used sketches "copied" from frames
+in the film as important illustrations in his book Six Seconds in Dallas, characterized32
+by the court as a "serious, thoughtful, and impressive analysis of the evidence."'
+The court found a fair use of the "copies" of the Zapruder film on public interest
+grounds:
+In determining the issue of fair use, the balance seems to be in favor of
+defendants.
+There is a public interest in having the fullest information available on the
+serious work on the subject and has
+murder of President Kennedy. Thompson did
+3
+a theory entitled to public consideration.'
+The court noted the difficulty of separating idea and expression by stating, "While
+doubtless the theory could be explained with sketches [that are not copies] .... 34
+the explanation actually made in the book with copies is easier to understand."'
+Part of the difficulty is in separating "visual facts" from expression. The defendant in BernardGeis attempted to do so by having sketches made of the copyrighted
+photographs."15 The artist "simply copied the original in charcoal with no creativity
+or originality whatsoever.""136 This is the essence of "visual facts;" the totality of
+1 M.B. NIMMER, supra note 15, at § 1.10.
+Id. McLuhan argues that this dichotomy never did function, except in print media. "The current assumption that content ... is the factor that influences outlook and action is derived from the
+book medium, with its sharp cleavage between form and content." M. McLuA, supra note 125, at 314.
+"'
+
+29
+
+Id. See also Bernard Gels, 293 F. Supp. 130.
+,' Bernard Gels, 293 F. Supp. at 131.
+,32 Id. at 131-32.
+'"
+
+Id. at 146.
+134 Id.
+'
+
+Id. at 139.
+
+"3
+
+Id.
+
+Disseminated by The Research Repository @ WVU, 1985
+
+19
+
+West Virginia Law Review, Vol. 88, Iss. 1 [1985], Art. 9
+WEST VIRGINIA LAW REVIEW
+
+[Vol. 88
+
+the impression, not the separable elements, is both the idea and the expression.
+McLuhan calls this "statement without
+syntax or verbalization""' and states it
+3
+is really "statement by gestalt."' 1
+This fusion into a gestalt impression is important to the potential fairness doctrine respondent, as he must reply not only to the content of the message, but
+to its expression as well. If the impact of a message is conveyed not only in its
+content but also in its expression, the respondent must have access to both in order
+to effectively compete with the message in his response. Therefore, making available
+the broadcast without any changes is the true "productive use."
+
+CONCLUSION
+
+Because the primary purpose of both the copyright law and the fairness doctrine is to make available to the public those ideas that need to be disseminated
+in a free society, it is ironic that the former is being used to inhibit the latter.
+The history of the copyright law, however, indicates that this need not be so. Section 107 of the Copyright Act of 1976 provides an exception to infringement for
+fair use of copyrighted material when certain criteria are met. In the case of copying broadcasts for the purposes of response under the fairness doctrine, these factors should be analyzed with the following considerations:
+1. The presumption against fair use when copying is done for profit should
+be found to be overcome by the weight of the first amendment interest furthered
+by the fairness doctrine;
+2. The productivity of the use in making a broadcast available to persons
+who would otherwise not have knowledge of or access to the broadcast should
+be considered in the balance of interests; and
+3. The failure to edit, criticize, or comment upon the broadcast should not
+be considered "unproductive."
+While this will not lift the facts of Duncan out from under a ruling of infringement, it will preclude injunctions such as that given in Duncan from inhibiting
+the copying necessary for response to issues raised by stations under the fairness
+doctrine.
+Susan E. Morton
+
+,'
+13'
+
+M. McLUHAN, supra note 125, at 201.
+Id.
+
+https://researchrepository.wvu.edu/wvlr/vol88/iss1/9
+
+20
+
+

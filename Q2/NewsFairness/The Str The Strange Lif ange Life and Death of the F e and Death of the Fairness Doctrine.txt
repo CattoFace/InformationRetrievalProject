@@ -1,0 +1,837 @@
+University of Pennsylvania
+
+ScholarlyCommons
+Departmental Papers (ASC)
+
+Annenberg School for Communication
+
+2018
+
+The Strange Life and Death of the Fairness Doctrine: Tracing the
+Decline of Positive Freedoms in American Policy Discourse
+Victor Pickard
+University of Pennsylvania, vpickard@asc.upenn.edu
+
+Follow this and additional works at: https://repository.upenn.edu/asc_papers
+Part of the Communication Commons
+
+Recommended Citation
+Pickard, V. (2018). The Strange Life and Death of the Fairness Doctrine: Tracing the Decline of Positive
+Freedoms in American Policy Discourse. International Journal of Communication, 12 3434-3453.
+Retrieved from https://repository.upenn.edu/asc_papers/745
+
+This paper is posted at ScholarlyCommons. https://repository.upenn.edu/asc_papers/745
+For more information, please contact repository@pobox.upenn.edu.
+
+The Strange Life and Death of the Fairness Doctrine: Tracing the Decline of
+Positive Freedoms in American Policy Discourse
+Abstract
+The Fairness Doctrine, one of the most famous and controversial media policies ever enacted, suffered a
+final deathblow in August 2011 when the Federal Communications Commission permanently struck it
+from the books. However, the Doctrine continues to be invoked by proponents and detractors alike. Using
+mixed methods, this study historically contextualizes the Fairness Doctrine while drawing attention to
+how it figures within contemporary regulatory debates. By tracing over time the shifting ideologies and
+discourses surrounding the Fairness Doctrine, we can see how political conflict shapes the normative
+foundations of core media policies, especially those involving positive freedoms.
+
+Keywords
+Fairness Doctrine, positive freedoms, media policy, media history
+
+Disciplines
+Communication | Social and Behavioral Sciences
+
+This journal article is available at ScholarlyCommons: https://repository.upenn.edu/asc_papers/745
+
+International Journal of Communication 12(2018), 3434–3453
+
+1932–8036/20180005
+
+The Strange Life and Death of the Fairness Doctrine:
+Tracing the Decline of Positive Freedoms in American Policy Discourse
+VICTOR PICKARD
+Annenberg School for Communication
+University of Pennsylvania, USA
+The Fairness Doctrine, one of the most famous and controversial media policies ever
+enacted, suffered a final deathblow in August 2011 when the Federal Communications
+Commission permanently struck it from the books. However, the Doctrine continues to be
+invoked by proponents and detractors alike. Using mixed methods, this study historically
+contextualizes the Fairness Doctrine while drawing attention to how it figures within
+contemporary regulatory debates. By tracing over time the shifting ideologies and
+discourses surrounding the Fairness Doctrine, we can see how political conflict shapes the
+normative foundations of core media policies, especially those involving positive freedoms.
+Keywords: Fairness Doctrine, positive freedoms, media policy, media history
+
+The 2016 election drew considerable scrutiny to the American news media’s role in facilitating
+Donald Trump’s candidacy, especially related to imbalances in covering the presidential candidates and their
+policy positions (Patterson, 2016), and the commercial imperatives driving such coverage (Pickard, 2017b).
+Some analysts have suggested (Cushion, 2016; Pickard, 2017b) that one contributing factor was a lack of
+public interest protections that can offset news media’s commercial excesses—protections such as the longdefunct Fairness Doctrine, one of the most famous and controversial media policies ever enacted in the
+United States.
+The Fairness Doctrine’s longer history, especially its origins in the 1940s, is generally not well
+known. To the extent that it does persist in public memory, it is often conflated with the “equal time” rule
+for political candidates. But the Doctrine’s purpose was more progressive than simply requiring two sides to
+a debate: It stipulated that broadcasters must cover controversial issues of public importance in ways that
+presented opposing views. Today, the first half (arguably the more progressive clause) of the Fairness
+Doctrine––a mandate to air public issues of interest––is often conveniently overlooked in favor of the
+mandate to air opposing positions. Although the Fairness Doctrine’s effectiveness and enforceability are
+debatable, it encouraged sensitivity toward programming biases and provided local communities an
+important tool with which to hold broadcasters accountable. Now officially erased from the rules, we can
+reflect on the decades-long saga of this oft-maligned and misunderstood doctrine. Doing so brings into focus
+
+Victor Pickard: vpickard@asc.upenn.edu
+Date submitted: 2016‒04‒29
+Copyright © 2018 (Victor Pickard). Licensed under the Creative Commons Attribution Non-commercial No
+Derivatives (by-nc-nd). Available at http://ijoc.org.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3435
+
+a number of historical contradictions in America’s approach to media policy, and it underscores the shifting
+normative foundations and discourses regarding positive freedoms.
+Positive Freedoms’ Complicated Legacy in American Media Policy
+Drawing from Isaiah Berlin’s (1969) classic essay, we can understand discourses around free
+speech as emphasizing either negative liberties (“freedom from”) or positive ones (“freedom to”). In the
+United States, freedom of speech has historically been framed in negative terms, exemplified by the First
+Amendment (“Congress shall make no law . . . abridging the freedom of speech, or of the press”). This
+emphasis on negative rights has impoverished American policy debates regarding individual and collective
+speech rights and has disproportionately benefited the rights of media corporations rather than the public
+(Pickard, 2015a). But important—and often overlooked—traditions exist that instead draw on a positive
+rights discourse (Huntsberger, 2014; Pickard, 2016), especially within international discourses (Harvey,
+1998; Jones, 2001; Kenyon, 2014). For example, Article 19 of the United Nations Declaration of Human
+Rights codifies the right to “receive and impart information and ideas through any media.” Even within the
+largely negative-liberty U.S. policy discourse, important exceptions exist, like the Supreme Court’s 1945
+Associated Press case, which argued that the First Amendment “rests on the assumption that the widest
+possible dissemination of information from diverse and antagonistic sources is essential to the welfare of
+the public” (Associated Press v. United States, 1945).
+The Fairness Doctrine stands out as another important exception, though its history holds a number
+of surprising ironies. Many contemporary reformists hold up the policy as the pinnacle of enlightened
+governance, and some advocate to “bring back the Fairness Doctrine” (Holm, 2014). However, most postwar
+progressives wished to retain a stronger regulation that forbade broadcasters from politically editorializing—
+what was known as the “Mayflower Doctrine.” To many 1940s reformers, the public interest obligation that
+replaced the Mayflower rule—what would later become known as the Fairness Doctrine—was a kind of
+consolation prize for losing a more meaningful constraint on commercial broadcasters’ power. Nonetheless,
+the Doctrine ultimately led to significant progressive victories, such as revoking a racist broadcaster’s license
+in the WLBT television case (Horwitz, 1997), and the Red Lion Supreme Court case (1969), in which the
+justices declared that the audience’s rights to information outweighed broadcasters’ freedom of speech.
+These important victories notwithstanding, the Fairness Doctrine’s often-romanticized legacy
+should be reconsidered in light of its postwar origins, one marked by conflict, ambivalence, and contingency.
+The following analysis begins this revisionist project and concludes with a discussion of the contemporary
+implications of the Doctrine’s demise. It shows how it represents an exemplar of positive freedom enshrined
+in media policy. Tracing activists’ and political elites’ shifting views of the Doctrine reveals the conflicting
+paradigms of American media policy, especially as they connect with shifting discourses, ideologies, and
+power relationships.
+Therefore, this article has two overlapping objectives, one historical and one theoretical. The first
+argument traces out the long political history of the Fairness Doctrine, giving particular attention to its littleknown origins in the late 1940s. The second argument links this history to shifting normative foundations
+in American media policy—namely, the erosion of positive freedoms. Various aspects of this analysis can be
+
+3436 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+found within a vast and scattered literature, but it has not yet been synthesized to include the early historical
+debates, nor has this long history been adequately contextualized within our contemporary moment.
+Previous Scholarship on the Fairness Doctrine
+A complete inventory of the vast Fairness Doctrine scholarship exceeds the scope of this article,
+but a nod toward representative studies gives a sense of its contours. Discussions that focus on its political
+history are dispersed across many law journals (e.g., Ammori, 2008; Barron, 1961; Hall, 1994; Lloyd,
+2008), and useful reappraisals have emerged periodically (e.g., Raphael, 2005; Rowan, 1984). Previous
+scholars have looked at the rhetoric and political campaigns behind its repeal (Smith, 1999), with some
+analyses placing its demise in broader political economic relationships (Harvey, 1998) and public-interestoriented policy contexts (Aufderheide, 1990). One of the most authoritative accounts is that by Simmons
+(1978), and Fred Friendly provided useful historical background in his book The Good Guys, the Bad Guys,
+and the First Amendment (1975).
+Little research has examined the Fairness Doctrine’s contemporary implications, but it is beginning
+to receive renewed attention. For example, an insightful article by Allison Perlman (2012) provides a
+thorough treatment of the Doctrine’s recent history by examining its intersections with issues of diversity,
+conservative rhetoric, and the politics of media policy. In particular, she found that conservatives
+successfully reframed the debate over the Doctrine as a liberal attempt to silence right-wing voices instead
+of a means of addressing preexisting structural inequities, specifically those surrounding questions of race.
+Lefevre-Gonzalez (2013) used the Doctrine as a gauge for shifting arguments around definitions of the
+“public interest,” particularly how its use varies in different historical contexts. More recently, Clogston
+(2016) conducted interviews of key players around the Doctrine’s late history, Montalbano (2018) traced
+historical parallels between the Doctrine and net neutrality, and Zelizer (2017) combined a synthesis of
+secondary literature with some primary documentation from the Reagan papers to highlight the political
+interventions driving the Doctrine’s repeal in the 1980s.
+Little scholarship addresses the Fairness Doctrine’s historical origins in the 1940s. One notable
+exception is a dissertation that describes public engagement during its early debates (Toro, 2000).
+Observing that the political backdrop to the Doctrine has been largely overlooked, Toro showed how public
+groups were deeply involved with media policy debates at this time, and various public pressures were
+decidedly against the policy outcome that led to the Doctrine. My previous work suggests that the Doctrine’s
+origins should be understood in the context of a waning 1940s media reform movement, concluding a decade
+of progressive policy interventions (Pickard, 2015a).
+Despite this earlier research, existing scholarship, as well as contemporary policy debates, would
+benefit from a deeper understanding of the Fairness Doctrine’s long historical trajectory. This history spans
+from early policy debates in the 1940s to contemporary contexts in which the Doctrine continues to be
+invoked. The following discussion builds on my earlier historical research to provide a theoretical and
+historical overview of the Doctrine’s inception and its evolution over six decades. It concludes with a
+discussion of the Doctrine’s continuing significance, especially its implications for positive freedoms within
+media policy discourse.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3437
+
+Methods
+Drawing from a theoretical framework that combines historical institutionalism (Skocpol, 1995) and
+democratic theory (Berlin, 1969), I used a multimethod mix of qualitative approaches to underscore the
+political origins of policy initiatives, with an eye toward path dependencies. In particular, I rely on historical
+methods that included in-depth archival research of activist literature, memos, letters, and personal papers
+connected to individuals and groups that participated in broadcast policy debates in the 1940s. Drawing
+from materials I gathered for earlier research, I gave close attention to Federal Communications Commission
+(FCC) records. Much of this research focused on Clifford Durr’s personal papers, which are held at the
+Alabama state archives in Montgomery.
+I also consulted the James Lawrence (Larry) Fly papers at Columbia University; the Dallas Smythe
+papers at Simon Fraser University; and the FCC papers at the National Archives at College Park, Maryland.
+These policy makers were among the leading architects of a social democratic policy vision at the FCC during
+the 1940s (Pickard, 2017a), particularly in their work on the FCC Blue Book, which attempted to codify a
+progressive conception of the broadcasters “public interest” mandate (Pickard, 2011). These individuals’
+personal communications provide a lens through which we can understand the intellectual formations and
+dueling ideologies surrounding the Fairness Doctrine. In addition to these personal communications, I draw
+from archival materials such as transcripts of the public testimony regarding the repeal of the Mayflower
+Doctrine, which directly led to the Fairness Doctrine. I also closely examined a wide range of policy
+documents, such as FCC reports, that shed light on how power relationships operate through policy
+discourses.
+For more recent accounts, I examined political news coverage, especially from trade press
+publications, including Ars Technica and Broadcasting & Cable during the years of 2008–9, when there was
+a sudden renewed interest in the Fairness Doctrine. I also worked in Washington, DC during this time at a
+public policy think tank and a media reform organization; therefore, participant observations from attending
+meetings with public interest advocates and policy makers also inform my analysis. More recently, I have
+gathered news accounts, especially from conservative sources, that link the Doctrine with policy
+interventions such as net neutrality. I also spoke to Ralph Nader about his involvement in debates around
+the Fairness Doctrine in the 1970s and 1980s and discussed with him whether the Doctrine is still relevant
+today.
+I interpreted the meaning and significance of historical and contemporary documents to flesh out
+how power operates through policy texts and ultimately how discursive boundaries are constructed and
+reproduced. Based on a critical discourse analysis (Van Dijk, 1993), I took historical and contextual factors
+into consideration as I interrogated recurring themes, contradictions, and tensions. Scholars are increasingly
+using discourse analysis to examine media policy (see, e.g., a 2014 special issue of Communication, Culture
+& Critique devoted to media policy discourse), but there are still relatively few blueprints from which to
+draw, although arguably the method has been used by previous media scholars without being referred to
+specifically as such (e.g., Streeter, 1983). Discourse analysis, Howarth noted (2000), focuses on language,
+but also on the conditions under which discourses are created and contested. This approach is particularly
+useful for understanding how media policies change over time. As discussed in the following sections,
+
+3438 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+competing discourses about broadcast media’s normative role in a democratic society—and the legitimacy
+of government to regulate that relationship—have been evident since the 1930s and 1940s.
+Sinking the Mayflower Doctrine
+Although the fairness norm stems from a liberal “marketplace of ideas” notion, a more libertarian
+ethos governed radio speech during commercial radio’s earliest years.1 Yet, legislative doctrine contained a
+concept of fairness at least since the public interest clause in the 1927 Federal Radio Commission’s language.
+Moreover, laissez-faire approaches to broadcast policy were problematized as fascism ascended during the
+1930s, and homegrown reactionaries like Father Coughlin used the public airwaves to generate large
+followings. Strong political positions also were potentially bad for business if they scared off advertisers,
+and the 1939 NAB code encouraged broadcasters to adopt a no-editorializing policy. The code even
+foreshadowed the Fairness Doctrine by obliging broadcasters to present to the public questions of a
+controversial nature (Toro, 2000).
+Other debates that provided important context for the Mayflower Rule were two 1930s cases, the
+Brinkley case (an infamous “goat gland doctor” who was seen as threatening public health) and the Shuler
+case (an inflammatory preacher whose sermons accused public officials of corruption). These broadcasters
+had their licenses revoked on public interest grounds (Powe, 1987). These cases determined whether
+denying someone a right to speak over the public airwaves (a public interest consideration) was tantamount
+to violating their freedom of speech (a First Amendment concern). The Federal Radio Commission (the
+precursor to the FCC) and the courts found that these interventions did not violate First Amendment
+freedoms, which helped establish precedents in 1930s broadcasting policy that privileged the rights of
+listeners over broadcasters’ speech concerns. Nonetheless, debates around such interventions evidenced
+ongoing tensions around positive freedoms, and such policies that erred on the side of listeners’ rights ran
+up against commercial broadcasters’ business prerogatives and profit imperatives.
+The original Mayflower decision emerged in the late 1930s during the renewal process of the station
+Yankee Network, Inc. After it became evident that the station had broadcasted its owners’ editorial views,
+the FCC responded by clarifying its stance against editorializing. Given radio’s “limitations in frequencies,”
+the FCC declared that “the public interest can never be served by a dedication” to a broadcaster’s “own partisan
+ends” (FCC, 1940, p. 340). The FCC was particularly concerned over whether broadcasters could attack any
+person or position at will without offering opportunities to reply by those who were maligned. Arguing that
+democratic radio depended on “fairly and objectively presented” ideas, the Commission asserted, “A truly free
+radio cannot be used to advocate the causes of the licensees . . . [or] support the candidates of his friends . .
+. [or support] principles he happens to regard most favorably”; it concluded that “the broadcaster cannot be
+advocate” (FCC, 1940, p. 340). The FCC’s Mayflower decision essentially alerted all broadcasters that onesided editorializing would not be permitted.
+
+1
+
+Parts of the following two sections draw from research discussed in more detail in Pickard (2015a, pp. 98–
+
+123).
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3439
+
+The subsequent 1943 Supreme Court decision in National Broadcasting Co. (NBC) v. United States
+furthered clarified that the FCC’s powers to regulate broadcasters’ public interest obligations extended into
+programming-related issues. Significantly, it determined that a denial of a license to a broadcaster failing
+to adhere to content requirements was not a denial of free speech. This arrangement, however, created
+quandaries for the FCC since the agency was loath to constantly police radio programming. FCC
+Commissioner Clifford Durr, the leading progressive on the Commission during much of the Mayflower
+Doctrine debates, privately acknowledged as much when he argued that it was broadcasters’ responsibility
+to uphold these norms. But he also believed that station owners must demonstrate that they did not just
+promote their own views and exclude others. Nonetheless, Durr conceded that bias always exists in news
+selection and other content-related decisions, and subtle forms of editorializing may emerge (Durr, 1945).
+Despite reformers’ efforts to preserve the more aggressive Mayflower Doctrine, what would later
+become known as the Fairness Doctrine represented a compromise. In a concession to widely held concerns
+that giving commercial broadcasters so much political power would lead to one-sided polemics, unchecked
+partisanship, and various commercial excesses, the new doctrine included a consideration of fairness. It
+called for broadcasters to “provide full and equal opportunity for the presentation to the public of all sides
+of public issues” because “the licensee has assumed the obligation of presenting all sides of important public
+questions, fairly, objectively and without bias” (FCC, 1940, p. 340). This wording emphasizes listeners’
+positive rights to hear a broad spectrum of debate, as opposed to the negative, individual freedoms of the
+speaker/broadcaster.
+Finding Fairness
+Debates over content regulation were a recurring tension at the FCC, but it was a specific political
+agenda that toppled the Mayflower Doctrine. After broadcasters defeated the Blue Book, which had been
+the FCC’s first real attempt to define broadcasters’ public service responsibilities, they felt emboldened to
+push for the repeal of the no-editorializing rule. Broadcasters framed this rule as an unjustified government
+intrusion that violated their First Amendment rights. In contrast, many progressives sought to preserve the
+rule based on a structural analysis of media power and a positive interpretation of the First Amendment that
+promoted collective freedoms, such as access to a diverse media system.
+By mid-1946, rumors began circulating that the rule was being reevaluated. Former FCC Chairman
+Larry Fly, who now represented the ACLU and would fight against repealing the Mayflower Doctrine, was
+alarmed by this news. He wrote to Commissioner Durr, “What is this I read about your replacing the
+Mayflower decision? You scare me!” (Fly, 1946). Durr (1947) was actually fighting to retain the Mayflower
+Doctrine, writing to one ally that the upcoming public hearings on its fate are “as important as any that
+have ever faced this Commission” (personal letter). The broadcast industry, however, was displeased to see
+the Mayflower rule publicly debated, calling the FCC’s invitations to diverse constituencies an “unusual step.”
+Broadcasters’ main argument was that self-regulation would suffice, to which Durr (1948a) responded,
+“‘self-regulation’ inevitably ends up with regulation in the interests of the industry rather than the public”
+(personal letter).
+
+3440 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+The great majority of radio listeners’ letters sent to the FCC at this time were decidedly in favor of
+sustaining strong regulations contained in the Mayflower Doctrine (Brinson, 2004). These pro-Mayflower
+letters typically argued that the FCC should “preserve the intent of the first amendment” (Baegel, 1948,
+personal letter), “protect freedom of expression over the airways . . . of any controversial question” (Kipnis,
+1948), and recognize that “the public owns the air, and [therefore] . . . big business must not control the
+air as it does the press” (Ogborn, 1948, personal letter). A civil rights group’s letter echoed widely-held
+concerns about losing the Mayflower rule: “Nothing would be more tragic,” the letter stated, for it would “let
+loose a flood of libelous and distorted statements leading to violence against individuals and groups fighting
+to maintain the right of collective bargaining and freedom of assemblage.” These groups, including “labor
+organizations, the Negro people, religious bodies and other minorities,” were often “subjected to oppression
+to use the air,” especially given that commercial broadcasters often yielded to the “pressure of Chambers
+of Commerce, the American Legion and such forces” and therefore “close[d] the air to those who would
+answer these attacks” (Salkind, 1948, personal letter).
+Although the late 1940s’ broader trajectory was dispiriting for progressive policy reformers, intense
+public engagement during the Mayflower Doctrine debates offered some hope. In a letter to a former
+colleague, Commissioner Durr (1948c) enthused that these debates were “the hot issue” and “encouraging”
+because “public representatives have appeared in quantity . . . [to make] intelligent statements” (personal
+letter). Even after the National Association of Broadcasters (NAB) president Justin Miller “move[d] into action
+with his big guns,” as Durr (1948b) described it to the renowned media reformer Everett Parker, he was
+confident that reformers would prevail in the FCC hearings because “the public was so well represented,”
+including radio production people such as writers, producers, musicians, and actors. “Perhaps after all,” Durr
+(1948b) observed, “the people are beginning to wake up to the fact that the air is theirs” (personal letter).
+The FCC hearings in the spring of 1948 consisted of 49 witnesses as well as 21 additional
+statements from individuals and groups who were unable to attend in person. Witnesses included
+representatives from many progressive groups, including the American Jewish Committee, the Lawyers
+Guild, the CIO, and the UAW, who all testified in support of the Mayflower Doctrine. Although some proindustry voices were included, many witnesses invoked concerns about corporate voices taking over the
+airwaves (Pickard, 2015a). Given the recent purges of liberal radio commentators when a number of leading
+left-of-center personalities were removed from the air, progressives feared the wrath of uncontested rightwing radio if the rule was discontinued. Indeed, they had good reason to assume that these newly granted
+rights would shirk impartiality and skew conservative. By allowing the market to dictate who gets heard—
+effectively censoring some voices from the public discourse—many activist groups feared what would happen
+if commercial broadcasters were given free rein without public interest protections founded in positive
+freedoms.
+Throughout the hearings, Charles Siepmann (the FCC Blue Book’s primary author) and other media
+reformers explicitly advocated for positive freedoms that protected listeners’ rights. Siepmann asserted that
+“more is at stake . . . than the right of broadcasters to editorialize” (FCC, 1948, p. 575).
+
+Challenging
+
+broadcasters’ argument that the FCC’s jurisdiction should be limited to technical concerns, he saw regulatory
+authority over programming whatsoever as the “more fundamental issue” (p. 575) being debated, especially
+regarding the FCC’s legitimacy in protecting positive freedoms. He argued for a “liberty more precious” than
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3441
+
+broadcasters’ freedom to accumulate wealth: “the freedom of the people to hear all sides of controversial
+issues” so that the public has access to “all that may be learned in the free market of thought” (p. 579580). Commercial broadcasters, Siepmann argued, did not share this goal because their “prime interest is
+in profits” (p. 582). Similarly, Henry Fleisher, spokesperson for the CIO (a federation of labor unions),
+testified in “vigorous objection” to weakening the Mayflower Doctrine because doing so would “permit the
+country to be deluged constantly with radio editorials expressing essentially a single viewpoint — that of
+large corporations” (pp. 608-609).
+Witnesses in support of repeal, such as NAB president Justin Miller and the veteran broadcast
+attorney Louis Caldwell, emphasized negative freedoms. They argued that any government regulation of
+radio programming amounted to an abridgement of broadcasters’ speech. In his comments before the FCC,
+Miller stated repeatedly that ethical considerations for creating opportunities for expression notwithstanding,
+the First Amendment strictly forbade any such government intervention (FCC, 1948, pp. 832-955). Likewise,
+Caldwell argued that imposing a “fair play doctrine” amounted to censorship, which Congress had
+purposefully forbidden the FCC from doing (p. 1491). However, these were, overall, minority views; many
+witnesses wanted more regulation, not less.
+Strong public support for maintaining the ban notwithstanding, the FCC ultimately voted in favor
+of repeal. The lone dissent did not come from Durr, who had left the commission before the final Mayflower
+decision, but from his successor, Frieda Hennock, the first female Commissioner (Brinson, 2002). Hennock
+argued that without a means of “policing and enforcing the requirement that the public trust granted a
+license be exercised in an impartial manner, it seems foolhardy to permit editorialization by licensees
+themselves”; she concluded that “prohibiting [such editorializing] is our only instrument for insuring the
+proper use of radio in the public interest” (FCC, 1949, p. 1270).
+When the rule was revoked, the FCC tried to address such concerns by articulating broadcasters’
+affirmative duties. Although stations could choose their own programming, they must “devote a reasonable
+percentage of their broadcasting time to the discussion of public issues of interest in the community served
+by their stations” (FCC, 1949, p. 1249). Furthermore, these programs must “be designed so that the public
+has a reasonable opportunity to hear different opposing positions on the public issues of interest and
+importance in the community” (FCC, 1949, p. 1250). Assuming that “licensees have an affirmative obligation
+to insure fair presentation of all sides of any controversial issue” (FCC, 1949, p. 1250), the FCC struck a
+middle path by granting broadcasters some flexibility, but mandating overall balance and fairness.
+Nonetheless, many reformers saw the decision as an abdication of responsibility. After hearing
+about the decision, the former FCC economist Dallas Smythe (1949), now a University of Illinois
+communications professor, asked his former colleagues if “the Commission has substituted regulation by
+the closed eyelid for regulation by the lifted eyebrow” (personal letter). Broadcasters, on the other hand,
+were very pleased with this decision. Justin Miller addressed the annual NAB convention with the claim that
+revoking the Mayflower Doctrine had led to a florescence of news and commentary across the country. He
+hailed the decision as “the greatest single victory in behalf of freedom of expression in this nation since the
+Zenger case confirming the editorial freedom of newspapers over a century ago” (quoted in “The Mayflower
+Doctrine Scuttled,” 1949, p. 760).
+
+3442 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+Thus, repealing the Mayflower Doctrine capped a truly remarkable trajectory of early radio policy.
+Only after failing to establish significant swathes of the spectrum for nonprofit radio in the 1930s
+(McChesney, 1993) did reformers focus on regulating broadcasters’ political speech. And only after
+broadcasters won the right to editorialize did reformers begin to settle for mandates regarding balance and
+diversity of views represented within the commercial system. Many progressives sought to retain the ban
+on commercial broadcasters’ engagement in political discourse and campaigned against what would become
+the Fairness Doctrine. Despite setbacks, they continued to fight for access to and representation of voices
+and views often excluded within commercial radio.
+Meanwhile, commercial broadcasters accrued more political economic power (especially as
+television ascended) and faced less regulatory oversight. Although it would become a valuable tool for
+progressives to fight prejudicial broadcasts, the Fairness Doctrine remained consistent with a corporate
+libertarian approach that privileged content over broader structural concerns and sanctified a lightly
+regulated, commercial media system (Pickard, 2015a). Commercial broadcasters had good reason to
+celebrate, but even the Fairness Doctrine ultimately was too regulatory for them, and they would continue
+to fight it.
+The Fairness Doctrine’s Surprising Evolution
+The Fairness Doctrine—and how various groups used it—would continue to evolve, sometimes in
+surprising ways. Congress further codified the doctrine in 1959 when it amended the Communications Act’s
+Section 315 to declare that broadcasters must adhere to the “obligation imposed upon them under this Act
+to operate in the public interest and to afford reasonable opportunity for the discussion of conflicting views
+on issues of public importance.” With this legal backing, the Doctrine would become a weapon for Democratic
+operatives and liberal activists to use against right-wing broadcasters espousing racist views (Horwitz, 1997)
+or railing against the Kennedy and Johnson administrations (Friendly, 1975). In 1964, the FCC issued a
+“fairness doctrine primer” for handling controversial issues (FCC, 1964), and in 1967, the FCC strengthened
+the Doctrine by creating more specific editorial rules that guaranteed a “right of reply” for political candidates
+and for individuals or groups whose character was maligned during a broadcast.
+These changes helped set the stage for the Fairness Doctrine’s greatest test when a liberal author
+named Fred Cook attempted to use it to respond on air to a personal attack from a radio station in Red Lion,
+Pennsylvania. The station denied him the opportunity, but the FCC and, later, the DC Court of Appeals sided
+with Cook. The case ultimately went to the Supreme Court, and in 1969 the Supreme Court unanimously
+affirmed the Doctrine’s legitimacy in its famous Red Lion decision when it determined that “It is the right of
+the viewers and listeners, not the right of the broadcasters, which is paramount” (Red Lion Broadcasting
+Co. v. FCC, 1969). The First Amendment’s purpose, the Court argued, was to preserve a vibrant marketplace
+of ideas rather than to defend broadcasters’ monopolization of the nation’s discourse. Rarely has a positive
+freedom been so clearly articulated within American legal and policy discourse.
+The Red Lion decision seemed to sanctify the Fairness Doctrine’s legitimacy, and support for the
+Doctrine remained steady through the 1970s, championed not only by the left but also by some prominent
+figures on the right (Cimaglio, 2016; Saddler, 1985). President Nixon tried to use the Doctrine to his political
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3443
+
+advantage, and Phyllis Schlafly’s Anti-Equal Rights Amendment campaign relied on it for attaining media
+coverage. She once told the FCC that without the policy, they “couldn’t even have gotten that measly five
+percent” of news coverage. Similarly, conservative media critic Reed Irvine claimed the Doctrine was needed
+to combat “liberal news” (both quoted in Lasar, 2008), and Gary Bauer once warned Reagan that it was the
+only protection ensuring the presence of conservative voices within an otherwise liberal media landscape
+(Zelizer, 2017). However, not all conservatives were supportive, seeing it instead as a weapon to be used
+against them. Heather Hendershot’s (2011) work on the outspoken conservative Christian broadcaster Carl
+McIntire is very instructive on this point. McIntire is reportedly the only broadcaster to lose his license
+(revoked in 1973) directly because of Fairness Doctrine violations, which demonstrated how the Doctrine
+could be deployed to silence conservatives.
+The advertising industry also opposed the Doctrine because it could be used to contest advertising
+for tobacco and other controversial products. In 1967, the FCC determined that cigarette advertising
+presented one side of a controversial issue and therefore, according to the Doctrine, stations presenting
+such advertisements must offer free airtime for anti-tobacco positions (Bollinger, 1991). Several progressive
+groups seized this opportunity afforded by the Doctrine and submitted counter-advertising against ads by
+energy companies and, in some cases, succeeded in getting them aired (Niesen, 2013). The FTC even
+proposed balancing commercial messages for sugary foods with counter-messages under the aegis of the
+Doctrine. However, advertisers successfully pressured the FTC to disallow such practices so that applying
+the Doctrine to advertising would never be seriously considered again.
+By the 1980s, the tide began to turn in favor of anti–Fairness Doctrine arguments. The first major
+blow was in 1984, when the District of Columbia Circuit Court reexamined the 1959 Congressional
+amendment, which gave the Doctrine legislative backing. In FCC v. League of Women Voters, the Court
+decided in a 2–1 decision (with the two in favor being the well-known conservative judges Antonin Scalia
+and Robert Bork) to say that the Congressional Amendment was not a “binding statutory obligation.” This
+signaled to the FCC that it did not have to enforce the rule. The Reagan-appointed FCC chair, Mark Fowler,
+who gained notoriety for saying that televisions were nothing more than toasters with pictures, was all too
+eager to jettison the Doctrine.
+However, significant attempts to save the Fairness Doctrine continued. Democrats responded to
+the Court decision and to Mark Fowler’s stance by advancing a congressional bill that would have legislated
+the Doctrine. The bill passed by a large margin with significant conservative backing, including from
+luminaries like Representative Newt Gingrich, but President Reagan vetoed it. In 1987, the FCC officially
+repealed the Doctrine, despite many conservatives still calling for it to be codified into law. An attempt to
+pass a similar bill in 1991 withered after George H. W. Bush’s veto threat. There were renewed efforts to
+restore the Doctrine after Clinton’s election in 1992, when liberals saw a political opening. However, by that
+point, already several years into the rise of conservative talk radio that followed the rule’s demise,
+conservatives were able to consolidate their unified opposition against the policy, and it would never again
+gain enough traction to be resurrected.
+While today’s conservatives typically view the Fairness Doctrine as a kind of bogeyman and use it
+as political code to delegitimate a wide range of regulatory interventions, liberals often now see it as a
+
+3444 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+liability. Although certainly not all—for example, Ralph Nader believes society still suffers from the Doctrine’s
+loss, and we should find a way to revive it (R. Nader, personal communication, 2015)—many progressives
+seek to distance themselves from the Doctrine. Whereas some believe it is too difficult to enforce, others
+see it as a red herring that does not address the underlying structural problems that hinder media diversity,
+such as concentrated corporate ownership and over-commercialization. Liberals also may have succumbed
+to, or perhaps tired of constantly refuting, the conservative refrain that the Doctrine is an example of
+regulatory overreach and antithetical to the First Amendment.
+Regardless, the repeal of the Doctrine clearly impacted the politics and discourses around media
+policy. Perlman (2012) noted that the Fairness Doctrine served as an important tool that allowed activists
+to challenge local broadcasters’ programming practices. Thus, its repeal further constrained the ability of
+public interest groups to make their voices heard in an increasingly consolidated media landscape. In
+addition to solidifying a neoliberal market logic in media policy, Perlman observed that one of deregulation’s
+many appeals for both the FCC and broadcasters was its ability to neutralize the viability of media activism.
+At the very least, it mainstreamed a corporate libertarian position of delegitimizing state intervention in
+media markets, a policy orientation that has restructured the U.S. media system in recent decades (Pickard,
+2015a).
+Furthermore, the Fairness Doctrine’s repeal also led to dramatic changes in the media landscape
+itself. While Rush Limbaugh’s “don’t hush Rush” campaign to prevent the Doctrine’s reinstatement may have
+exaggerated the relationship, the policy’s absence and the rapid ascendance of similar conservative talk
+radio formats likely are connected. Many scholars and commentators have noted that the Doctrine’s removal
+led to an explosion of predominantly right-wing radio programming formats (Douglas, 2002; Zelizer, 2017).
+As talk radio became more of a political force, it became a vocal source of opposition to the Doctrine.
+Whereas previously, some conservatives saw it as a constraint on the “liberal” networks, they now viewed
+the Doctrine as fundamentally hostile toward conservative politics.
+Also significant, talk radio commentators’ ability to mobilize public opinion against the Fairness
+Doctrine demonstrated to conservative activists its utility for whipping up a reliable voting bloc. As such,
+the Doctrine continues to play an important rhetorical role in conservative politics more broadly. Though
+largely abandoned by even its most ardent supporters, the Doctrine in recent years has become an
+archetype of government overreach. Market libertarians have invoked it against even the most benign and
+unrelated media policies, like the Internet safeguard known as network neutrality. Leading libertarian policy
+analyst Adam Thierer (2007) referred to net neutrality as “a Fairness Doctrine for the Internet.” Similarly,
+President Trump tweeted on November 12, 2014, that “Obama’s attack on the internet is another top down
+power grab. Net neutrality is the Fairness Doctrine. Will target conservative media” (Trump, 2014).
+Such periodic flare-ups suggest that the Fairness Doctrine will remain alive and well in conservative
+activists’ imaginations and political rhetoric for years to come. Lasar (2009), referring to one wave of
+hysteria as “The Great Fairness Doctrine Panic of 2009,” noted that, despite a few rogue comments from
+Democratic members of Congress (see, e.g., Anderson, 2007), there was near unanimity from progressive
+media reformers that no one wanted to reinstate the Doctrine. Everyone, ranging from President Obama to
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3445
+
+FCC Commissioner Michael Copps (Eggerton, 2010) to the leading U.S. media reform group Free Press, was
+unequivocal in the desire to see the Fairness Doctrine fade from policy discourse.
+Meanwhile, conservatives found in the Fairness Doctrine a popular political issue that resonated
+especially well with their base. In 2007, then-Congressman Mike Pence introduced an amendment to an
+appropriations bill that forbade the FCC from spending any money on Fairness Doctrine enforcement.
+Because the FCC was not enforcing the Doctrine, the amendment passed in a largely symbolic 309–115
+vote. Pence then introduced the Broadcaster Freedom Act to permanently remove the Doctrine from the
+books. After House Speaker Nancy Pelosi blocked the act from coming to a vote, Pence gathered 194
+Republican signatures for a discharge petition, a procedural maneuver that would force a vote on the law.
+Ultimately, however, it was the FCC, not Congress, that brought the Fairness Doctrine to its official
+end, and it did so with a touch of final irony. A 2011 policy report (Waldman, 2011) that many media
+reformers had hoped would recommend meaningful regulations to protect public service journalism (Pickard,
+2015b) included among its more tangible proposals a call for striking the Doctrine from the books (even
+though it had been effectively defunct since its 1987 repeal). FCC Chairman Genachowski subsequently
+removed it, along with over 80 other media industry rules, as part of a larger White House executive order
+to review potentially onerous regulations (Boliek, 2011). Thus, 60-plus years after its birth, the Fairness
+Doctrine met a quiet bureaucratic end.
+Yet it continues to live on in political discourse and imagination. Alarmist talk of a “stealth” or
+“backdoor” Fairness Doctrine often erupts whenever the FCC mentions concerns about the lack of diversity
+in our media (Perlman, 2012). One such example of this manufactured threat came roaring back in response
+to the FCC’s proposed study on communities’ information needs, which included an analysis of local
+newsrooms’ editorial judgment. A group of Republican members of Congress wrote a letter to FCC Chairman
+Tom Wheeler condemning the report (Sasso, 2013), referring to it in their press release as a “Fairness
+Doctrine 2.0.” This was followed by an op-ed in the Wall Street Journal by Republican FCC Commissioner
+Ajit Pai (2014), who also likened the study’s aims to that of the Fairness Doctrine, suggesting that the FCC
+was once again taking the country “down the same dangerous path.” In response to this pressure, the FCC
+first distanced itself from and then completely disavowed the study (Hattem, 2014). One of the authors of
+the literature review that preceded the study lamented that “To conservative media from Fox News to Rush
+Limbaugh, this was an attempt to reintroduce the now-lapsed Fairness Doctrine and for President Obama
+to take control of America’s newsrooms” (Friedland, 2014, para. 2). Such reactions toward even mildly
+affirmative measures bring implicit power structures into view.
+Positive Freedoms’ Threat to Corporate Libertarianism
+To understand these reactions against anything that smacks of affirmative media policy requires
+an examination of their underlying normative assumptions. A positive-freedom framework strikes at the
+core of the “corporate libertarian” paradigm (Pickard, 2015a). By deemphasizing individual freedoms and
+property rights, positive freedoms privilege community rights to media and threaten media firms’ corporate
+power. In other words, if positive speech rights like those embodied by the Fairness Doctrine served as the
+
+3446 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+normative foundations for the communicative relationships between individuals, publics, states, and media
+institutions, the privileged position of media firms would be greatly undermined.
+This tradition of positive liberties reflected in policy measures—often neglected in standard
+American histories—elevates an ideal of diverse voices and viewpoints in the media system, and it contests
+concentrated media power among corporate actors as much as among governments. This position seeks to
+protect collective rights held by publics and audiences as much as individual persons or corporations as
+speakers. And it is skeptical as to whether the unfettered free market can ever fully provide for positive
+freedoms (Pickard, 2016). Therefore, protecting such rights often requires government intervention, which
+is antithetical to market libertarianism.
+In this context, specific policy debates become proxies for broader ideological struggles. Charles
+Siepmann made similar observations decades after the Mayflower hearings when he was called by Congress
+to comment on attacks against the Fairness Doctrine. Siepmann observed that “potshots” against the
+Doctrine “constitute a mere diversionary plot” for those who are “out for bigger game” (Siepmann, 1968, p.
+1). Namely, broadcasters wanted to delegitimate the FCC’s regulatory over programming entirely. Likewise,
+market libertarians who invoke the Doctrine today are trying to cripple the FCC’s ability to regulate with any
+affirmative commitment to the public interest.
+Despite such ideological constraints, addressing media-related challenges facing Americans today—
+from the digital divide, to media concentration, to the lack of diverse news media—requires proactive policy
+interventions in response to the market’s failure to provide high-quality news and information via a
+universally accessible media system. It also requires permitting government regulatory agencies like the
+FCC to periodically collect and study data on such problems. Most of all, it necessitates new normative
+foundations for affirmative media policies founded on positive freedoms.
+Beyond the Fairness Doctrine
+This article recontextualizes and historicizes the Fairness Doctrine, one of the most controversial
+regulations ever adopted by the FCC. As a concession to broadcasters who balked at the more stringent
+Mayflower Doctrine, the Fairness Doctrine actually marked a form of deregulation. But it also served as a
+consolation to progressive media reformers. In the ensuing decades, different actors, both liberal and
+conservative, would appropriate the Doctrine in different ways.
+While this study has offered an overview of the Fairness Doctrine’s surprising evolution, more
+research is needed to account for its long historical arc. In particular, a more detailed account of the rule’s
+appropriation by different groups after its adoption in 1949 would be useful, as would an examination of
+how subsequent attempts to eliminate the rule in the 1970s were part of a broader trend toward
+deregulation. Future work may also contextualize the Doctrine’s high-water mark in the 1960s and 1970s
+within a more interventionist period of broadcast regulation that included progressive policies such as
+ascertainment requirements, equal employment opportunity rules, Fin-Syn, and the Prime Time Access
+Rules.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3447
+
+A historical irony emerging from this narrative is that a rule once interpreted as a significant victory
+by the NAB later became vilified by broadcasters and market libertarians. And although it had been
+championed by many conservative leaders, the policy became so stigmatized over time that even many
+liberal politicians took pains to distance themselves from it, culminating in a Democratic-appointed FCC chair
+proudly announcing its official removal. The gradual mainstreaming of this stigmatization is arguably one of
+the more interesting dramas in the history of American media policy.
+Although officially killing the Fairness Doctrine was ostensibly an attempt to remove “unnecessary
+regulations,” it validates the contention that government has no legitimate role in regulating media markets
+and protecting positive freedoms. Before allowing this normative foundation to further crystallize, American
+society should have a public conversation about the kind of media system a democracy requires. In its 30year retreat from policies that constrain corporate power over media, the FCC has mandated increasingly
+weaker obligations that broadcasters must fulfill to maintain their immense monopoly privileges. This more
+recent round of deregulation—or rather, de facto regulation by oligopolistic markets—provides yet more
+evidence of the gradual shrinkage of government advocacy on the public’s behalf. Ideally, the FCC would
+not be allowed to abdicate responsibility for dealing with many of the communication problems facing society
+today, including lack of media diversity and the loss of journalism.
+Despite being unceremoniously thrown out by a purportedly liberal-leaning FCC, the Fairness
+Doctrine’s removal could be viewed as a shrewd maneuver that puts to rest what had become a distraction
+from more important concerns. After all, many media reformers have long seen the Doctrine as an imperfect
+solution to a structural problem—namely, that a highly concentrated, commercialized media system has
+little incentive to serve the public interest (see, e.g., Lloyd, 2007). But the Doctrine’s removal has not been
+accompanied by the development of less problematic media policies designed to proactively address ongoing
+problems. Adequately funding robust and independent public alternatives to the commercial media system—
+a commonsensical practice for most leading democracies—is probably a more effective strategy to
+encourage diverse voices.
+The 2016 elections brought to the fore a number of media-related pathologies, including a
+proliferation of misinformation and imbalanced news coverage. Whereas some of these problems require
+aggressive structural reform, lighter content-related policy interventions could also be useful, including bans
+on deceptive political advertising. Other leading democracies have found ways to help mitigate these
+problems. For example, Cushion (2016) noted that British broadcasters must abide by strict “due
+impartiality” rules while covering politics and that these requirements encourage news organizations to be
+sensitive toward balance in their coverage. He observed, “The American approach to election reporting is
+shaped almost entirely by the pursuit of commercial news values, rather than a journalistic attempt to
+balance party perspectives and the views of competing candidates” (para. 13). This commitment to positive
+freedoms—the assumption that audience members and news consumers should have access to a broad
+range of views in their media—is largely missing from contemporary policy discourse.
+Discursive constructions of the Fairness Doctrine will likely continue to evolve. America’s history of
+red-baiting and other fear-mongering tactics suggests that a threat’s nonexistence does not prevent its
+invocation as a cynical ploy to galvanize a political bloc. Despite being forever struck from the books, the
+
+3448 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+Doctrine still reemerges in the discourse at frequent intervals. By abolishing the Doctrine, liberals may have
+hoped to take a powerful arrow out of conservatives’ rhetorical quiver, but they did so at the cost of
+enshrining a narrative that media are governed best by market forces. After continued efforts to condemn
+the FCC and Congress for perceived overregulation, market libertarians’ policy vision has been
+mainstreamed and normalized. This “discursive capture” has had many negative consequences for the
+American media system (Pickard, 2015b). Examining the Fairness Doctrine’s long history shows how this
+happened, and how far American society has strayed from a media system founded on positive freedoms.
+
+References
+Ammori, M. (2008). The Fairness Doctrine: A flawed means to attain a noble goal. Administrative Law
+Review, 60(4), 881–893.
+Anderson, N. (2007, January 17). Dennis Kucinich: Bring back the Fairness Doctrine. Ars Technica.
+Retrieved from http://arstechnica.com/uncategorized/2007/01/8640/
+Associated Press v. United States, 326 U.S. 1 (1945).
+Aufderheide, P. (1990). After the Fairness Doctrine: Controversial broadcast programming and the public
+interest. Journal of Communication, 40(3), 47–72.
+Baegel, M. (1948). Correspondence from Maurice Baegel to the FCC (Docket 8516, Box 3381, Folder
+“Letters of Endorsement or Protest”). National Archives at College Park, MD.
+Barron, J. (1961). The Federal Communications Commission’s Fairness Doctrine: An evaluation. The
+George Washington Law Review, 30(1), 1–41.
+Berlin, I. (1969). Two concepts of liberty. In Four essays on liberty (pp. 118–172). London, UK: Oxford
+University Press.
+Boliek, B. (2011, August 22). FCC finally kills off Fairness Doctrine. Politico. Retrieved from
+http://www.politico.com/news/stories/0811/61851.html
+Bollinger, L. (1991). Images of a free press. Chicago, IL: University of Chicago Press.
+Brinson, S. (2002). Personal and public interests: Frieda Hennock and the FCC. Westport, CT: Praeger.
+Brinson, S. (2004). The Red Scare, politics, and the FCC, 1941–1960. Westport, CT: Praeger.
+Cimaglio, C. (2016). “A tiny and closed fraternity of privileged men”: The Nixon–Agnew antimedia
+campaign and the liberal roots of the U.S. conservative “liberal media” critique. International
+Journal of Communication 10, 1–19.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3449
+
+Clogston, F. (2016). The repeal of the Fairness Doctrine and the irony of talk radio: A story of political
+entrepreneurship, risk, and cover. Journal of Policy History 28(2), 375–396.
+Cushion, S. (2016, March 10). The Trumpification of the U.S. media: Why chasing news values distorts
+politics. The Conversation. https://theconversation.com/the-trumpification-of-the-us-media-whychasing-news-values-distorts-politics-56033
+Douglas, S. (2002). Letting the boys be boys: Talk radio, male hysteria, and political discourse in the
+1980s. In M. Hilmes & J. Loviglio (Eds.), The radio reader: Essays in the cultural history of radio
+(pp. 485–503). New York, NY: Routledge.
+Durr, C. (1945, March 31). Correspondence from Clifford Durr to Congressman Ellis Patterson (Box 30,
+File 3). Clifford J. Durr Papers, Alabama Department of Archives and History, Montgomery, AL.
+Durr, C. (1947, December 9). Correspondence from Clifford Durr to Edward Heffron (Box 31, File 6).
+Clifford J. Durr Papers, Alabama Department of Archives and History, Montgomery, AL.
+Durr, C. (1948a). Correspondence from Clifford Durr to Edward J. Heffron (Box 31, File 7). Clifford J. Durr
+Papers, Alabama Department of Archives and History, Montgomery, AL.
+Durr, C. (1948b, March 29). Correspondence from Clifford Durr to Everett Parker (Box 31, Folder 7).
+Clifford J. Durr Papers, Alabama Department of Archives and History, Montgomery, AL.
+Durr, C. (1948c, March 29). Correspondence from Clifford Durr to Ray Wakefield (Box 31, Folder 7).
+Clifford J. Durr Papers, Alabama Department of Archives and History, Montgomery, AL.
+Eggerton, J. (2010, December 10). Michael Copps: FCC should not reinstate Fairness Doctrine.
+Broadcasting & Cable. Retrieved from http://www.broadcastingcable.com/article/460947Michael_Copps_FCC_Should_Not_Reinstate_Fairness_Doctrine.php
+FCC (Federal Communications Commission). (1940). Mayflower Broadcasting Corporation and the Yankee
+Network, Inc. (WAAB). FCC Reports, 8, 339–341.
+FCC (Federal Communications Commission). (1948). In the matter of editorializing by broadcast licensees
+(Official Report of Proceedings, Vol. 3, March 3, Docket 8516). National Archives at College Park,
+MD.
+FCC (Federal Communications Commission). (1949). Editorializing by Broadcast Licensees, 13 FCC 1246.
+FCC (Federal Communications Commission). (1964). Applicability of the Fairness Doctrine in the Handling
+of Controversial Issues of Public Importance, 40 FCC 598.
+
+3450 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+Fly, L. (1946, May 27). Correspondence from Larry Fly to Clifford Durr (Box 30, File 6). Clifford J. Durr
+Papers, Alabama Department of Archives and History, Montgomery, AL.
+Friedland, L. (2014, February 28). The real story behind the FCC’s study of newsrooms. The Washington
+Post. Retrieved from https://www.washingtonpost.com/news/monkey-cage/wp/2014/02/28/thereal-story-behind-the-fccs-study-of-newsrooms/
+Friendly, F. (1975). The good guys, the bad guys and the First Amendment: Free Speech vs. Fairness in
+Broadcasting. Westminster, MD: Random House.
+Hall, R. (1994). The Fairness Doctrine and the First Amendment: Phoenix rising. Mercer Law Review
+(Winter) 45, 705, 760–761.
+Harvey, S. (1998). Doing it my way—Broadcasting regulation in capitalist cultures: The case of “fairness”
+and “impartiality.” Media, Culture & Society, 20(4), 535–556.
+Hattem, J. (2014, February 21). FCC pulls plug on press study. The Hill. Retrieved from
+http://thehill.com/policy/technology/198943-fcc-kills-contested-press-study#ixzz2xhLPOeyQ
+Hendershot, H. (2011). What's fair on the air? Cold War right-wing broadcasting and the public interest.
+Chicago, IL: University of Chicago Press.
+Holm, N. G. (2014, February 13). Bring back the Fairness Doctrine: I’d rather have debate than rantingand-raving journalism. Huffington Post. Retrieved from
+https://www.huffingtonpost.com/entry/bring-back-the-fairness-d_1_b_4775492.html
+Horwitz, R. (1997). Broadcast reform revisited: Reverend Everett C. Parker and the “standing” case. The
+Communication Review, 2(3), 311–348.
+Howarth, D. (2000). Discourse. Buckingham, UK: Open University Press.
+Huntsberger, M. (2014). Attempting an affirmative approach to American broadcasting: Ideology, politics,
+and the public telecommunications facilities program. Journalism & Mass Communication
+Quarterly, 91(4) 756–771.
+Jones, P. (2001). The best of both worlds? Freedom of communication and “positive” broadcasting
+regulation. Media Culture & Society, 23(3), 407–417.
+Kenyon, A. (2014). Assuming free speech. The Modern Law Review, 77(3), 379–408.
+Kipnis, B. (1948, February 26). Correspondence from Bernice Kipnis to the FCC (Docket 8516, Box 3381,
+Folder “Letters of Endorsement or Protest”). National Archives at College Park, MD.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3451
+
+Lasar, M. (2008, August 17). Fairness Doctrine panic hits FCC, spreads through blogosphere. Ars
+Technica. Retrieved from https://arstechnica.com/uncategorized/2008/08/fairness-doctrinepanic-hits-fcc-spreads-through-blogosphere/
+Lasar, M. (2009, February 17). Fairness Doctrine: Better off dead or alien resurrection? Ars Technica.
+Retrieved from https://arstechnica.com/tech%E2%80%93policy/2009/02/eeek-fairness-doctrine/
+Lefevre-Gonzalez, C. (2013). Restoring historical understandings of the “public interest” standard of
+American broadcasting: An exploration of the Fairness Doctrine. International Journal of
+Communication, 7, 89–109.
+Lloyd, M. (2007). Forget the Fairness Doctrine. Center for American Progress. Retrieved from
+https://www.americanprogress.org/issues/general/news/2007/07/24/3348/forget-the-fairnessdoctrine/
+Lloyd, M. (2008). Red Lion confusions. Administrative Law Review, 60(4), 869–879.
+McChesney, R. (1993). Telecommunications, mass media & democracy: The battle for the control of U.S.
+Broadcasting, 1928–1935. New York, NY: Oxford University Press.
+Montalbano, K. (2018). Net neutrality, the Fairness Doctrine, and the NRB: The tension between United
+States religious expression and media regulation. Media and Communication, 6(1), 5–12.
+National Broadcasting Co. (NBC) v. United States, 319 U.S. (1943).
+Niesen, M. (2013). Crisis of consumerism: Advertising, activism, and the battle over the U.S. Federal
+Trade Commission, 1969–1980 (Unpublished doctoral dissertation). University of Illinois, Urbana,
+IL.
+Ogborn, T. (1948). Correspondence from Tree Ogborn to the FCC (Docket 8516, Box 3381, Folder “Letters
+of Endorsement or Protest”). National Archives at College Park, MD.
+Pai, A. (2014, February 10). The FCC wades into the newsroom. The Wall Street Journal. Retrieved from
+https://www.wsj.com/articles/the-fcc-wades-into-the-newsroom-1392078376
+Patterson, T. (2016, September 20). Harvard study: Policy issues nearly absent in presidential campaign
+coverage. The Conversation. Retrieved from https://theconversation.com/harvard-study-policyissues-nearly-absent-in-presidential-campaign-coverage-65731
+Perlman, A. (2012). Whitewashing diversity: The conservative attack on the “stealth Fairness Doctrine.”
+Television and New Media, 13(4), 353–373.
+
+3452 Victor Pickard
+
+International Journal of Communication 12(2018)
+
+Pickard, V. (2011). The battle over the FCC Blue Book: Determining the role of broadcast media in a
+democratic society, 1945–1948. Media, Culture & Society, 33(2), 171–191.
+Pickard, V. (2015a). America’s battle for media democracy: The triumph of corporate libertarianism and
+the future of media reform. New York, NY: Cambridge University Press.
+Pickard, V. (2015b). The return of the nervous liberals: Market fundamentalism, policy failure, and
+recurring journalism crises. The Communication Review, 18, 82–97.
+Pickard, V. (2016). Toward a people’s Internet: The fight for positive freedoms in an age of corporate
+libertarianism. In M. Edström, A. Kenyon & E. Svensson (Eds.), Blurring the Lines (pp. 61–68).
+University of Gothenburg, Sweden: NORDICOM.
+Pickard, V. (2017a). A social democratic vision of media: Toward a radical pre-history of public
+broadcasting. Journal of Radio and Audio Media, 24(2), 200–212.
+Pickard, V. (2017b). Media failures in the age of Trump. The Political Economy of Communication, 4(2),
+118–122.
+Powe, L. (1987). American broadcasting and the First Amendment. Berkeley, CA: University of California
+Press.
+Raphael, C. (2005). Investigative reporting: Muckrakers, regulators, and the struggle over television
+documentary. Urbana, IL: University of Illinois Press.
+Red Lion Broadcasting Co. v. FCC., 395 U.S. 367 (1969).
+Rowan, F. (1984). Broadcast fairness: A reappraisal of the Fairness Doctrine and Equal Time Rule. New
+York, NY: Longman.
+Saddler, J. (1985, February 8). Right and left find common ground: Backing fairness rule for broadcasters.
+The Wall Street Journal, p. 42.
+Salkind, E. (1948, April 6). Correspondence from Eleanor F. Salkind to the FCC (Box 31, Folder 8). Clifford
+J. Durr Papers, Alabama Department of Archives and History, Montgomery, AL.
+Sasso, B. (2013, December 11). Republicans claim FCC working on “Fairness Doctrine 2.0.” The Hill.
+Retrieved from http://thehill.com/policy/technology/192774-republicans-claim-fcc-working-onfairness-doctrine-20
+Siepmann, C. (1968). The Fairness Doctrine—A dissenting critique. Panel discussion on the Fairness
+Doctrine and related subjects, special subcommittee on investigations of the House Committee on
+Interstate and Foreign Commerce, Washington, DC.
+
+International Journal of Communication 12(2018)
+
+The Strange Life and Death 3453
+
+Simmons, S. (1978). The Fairness Doctrine and the media. Berkeley, CA: University of California Press.
+Skocpol, T. (1995). Why I am an historical institutionalist. Polity, 28, 103–106.
+Smith, C. (1999). The campaign to repeal the Fairness Doctrine. Rhetoric and Public Affairs, 2(3), 481–
+505.
+Smythe, D. (1949, April 25). Correspondence from Dallas Smythe to the FCC (Container 16-16 F-16-5-117). Dallas Smythe Papers, Simon Fraser University, Burnaby, Canada.
+Streeter, T. (1983). Policy discourse and broadcast practice: The FCC, the U.S. broadcast networks and
+the discourse of the marketplace. Media, Culture & Society, 5, 247–262.
+The Mayflower Doctrine scuttled. (1950, March). The Yale Law Journal, 59(4), 759‒770.
+Thierer, A. (2007). Network neutrality: A Fairness Doctrine for the Internet. Retrieved from
+http://www.pff.org/issues-pubs/ps/2007/ps3.11fairnessdoctrineinternet.html
+Toro, A. (2000). Standing up for listener’s rights: A history of public participation at the Federal
+Communications Commission (Unpublished doctoral dissertation). University of California,
+Berkeley, CA.
+Trump, D. [realDonaldTrump]. (2014, November 12). Obama’s attack on the internet is another top down
+power grab. Net neutrality is the Fairness Doctrine. Will target conservative media [Tweet].
+Retrieved from https://twitter.com/realDonaldTrump/status/532608358508167168
+Van Dijk, T. (1993). Principles of critical discourse analysis. Discourse & Society, 4(2), 249–283.
+Waldman, S. (2011). The information needs of communities: The changing media landscape in a
+broadband age. Washington, DC: Federal Communications Commission. Retrieved from
+http://www.fcc.gov/infoneedsreport
+Zelizer, J. (2017). How Washington helped create the contemporary media: Ending the Fairness Doctrine
+in 1987. In B. Schulman & J. Zelizer (Eds.), Media nation: The political history of news in modern
+America (pp. 176–189). Philadelphia, PA: University of Pennsylvania Press.
+
+

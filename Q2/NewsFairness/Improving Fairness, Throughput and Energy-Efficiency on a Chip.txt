@@ -1,0 +1,1553 @@
+Improving Fairness, Throughput and Energy-Efficiency on a Chip
+Multiprocessor through DVFS
+Masaaki Kondo,
+Hiroshi Sasaki,
+Hiroshi Nakamura
+Research Center for Advanced Science and Technology,
+The University of Tokyo
+4-6-1 Komaba, Meguro-ku, Tokyo, Japan
+{kondo,sasaki,nakamura}@hal.rcast.u-tokyo.ac.jp
+Abstract
+
+Reducing energy consumption of CMP architecture is still
+emerging requirement.
+
+Recently, a single chip multiprocessor (CMP) is becoming an attractive architecture for improving throughput of
+program execution. In CMPs, multiple processor cores
+share several hardware resources such as cache memory
+and memory bus. Therefore, the resource contention significantly degrades performance of each thread and also loses
+fairness between threads.
+In this paper, we propose a Dynamic Frequency and Voltage Scaling (DVFS) algorithm for improving total instruction throughput, fairness, and energy efficiency of CMPs.
+The proposed technique periodically observes the utilization ratio of shared resources and controls the frequency
+and the voltage of each processor core individually to balance the ratio between threads. We evaluate our technique and the evaluation results show that fairness between
+threads are greatly improved by the technique. Moreover,
+the total instruction throughput increases in many cases
+while reducing energy consumption.
+
+In CMPs, multiple cores usually share a memory system
+which includes caches, memory buses, and memory banks.
+More memory requests should be handled by the memory
+system. Hence, the load of the memory system gets heavier
+than ordinary uniprocessors. However, since performance
+gap between processors and main memory is still widening,
+memory system limits performance more in CMPs. Things
+get worse for memory system contention. When multiple cores generate memory requests simultaneously, some
+of memory accesses are delayed, and consequently significant performance degradation is expected for threads whose
+memory accesses are delayed. Therefore, in CMPs, performance of a thread is affected by the other threads which are
+co-scheduled with it.
+
+Keywords: Chip Multiprocessor, Fairness, Resouce Contention, DVFS.
+
+1 Introduction
+A single chip multiprocessor (CMP) is an attractive architecture for future high performance processors because
+of its power and performance efficiency. Designing a single complex core with higher clock frequency is getting
+difficult due to power and thermal problems. On the contrary, a CMP with relatively simple processor cores does
+not suffer from these problems, and thus has a potential
+to achieve higher performance. Recent research has found
+that CMPs offer performance benefit and energy efficiency
+[16, 9]. Therefore, CMPs are expected to be used for wide
+variety of platforms even in mobile or embedded platforms.
+
+There have been several studies to avoid resource contention for efficient execution in CMP architectures. For example, Suh et al. [20] have proposed a method which avoids
+the contention on a shared L2 cache and increases execution
+throughput. Their methods avoid inter-thread cache contention by partitioning the shared L2 cache. Although the
+prior work can solve the contention on caches to some extent, the contention on memory buses or memory banks has
+been ignored. Since bus contention significantly impacts
+the performance in CMPs, it should be taken into account
+when using CMPs.
+This paper proposes a technique to mitigate memory
+bus and memory bank contention by controlling execution
+speed of each thread running on each core. Dynamic Voltage and Frequency Scaling (DVFS) is used to control the
+progress of the execution. The technique chooses the clock
+frequency and the supply voltage individually for each processor core to balance the impact of the resource contention
+between threads. By relaxing the contention, total execution
+throughput of the chip increases. Since the supply voltage
+is reduced when throttling a thread, energy consumption is
+
+also saved.
+Our DVFS algorithm is based on the concept of fairness
+which indicates how uniformly the performance of each
+thread is affected by the contention. As discussed in [8],
+fairness is a critical issue especially for an operating system
+(OS) when a processor executes multiple threads. Because
+the task scheduler of OS assumes that fairness is satisfied
+when the OS assigns time-slice to threads with taking their
+priority into account, the effectiveness of the OS task scheduler depends on the hardware to provide fairness to all the
+co-scheduled threads. Therefore, improving fairness is a
+very important issue for CMPs. Our first goal is to optimize fairness by DVFS. Moreover, it is reported that fairness improvement leads to higher throughput in most of the
+applications [8]. Thus, the proposed algorithm has another
+advantage of improving throughput.
+This paper is organized as follows. The next section describes the related work. We address the impact on memory
+system contention in Section 3. In Section 4, we describe
+the proposed technique. Section 5 describes the evaluation
+environment and assumptions and the evaluation results are
+presented in Section 6. We conclude in Section 7.
+
+2 Related Work
+Techniques for improving throughput and fairness for
+CMPs which share an L2 cache have been studied so far.
+Suh et al. [20] and Kim et al. [8] have proposed partitioning a shared L2 cache to minimize the number of cache
+misses or maximizing fairness. Chandra et al. [3] have proposed performance models that predict the impact of cache
+sharing on co-scheduled thread. The performance degradation caused by resource contention is more significant in
+simultaneous multi-Threading (SMT) architectures because
+many hardware resources are shared in SMTs. Therefore,
+many researchers have focused on improving fairness and
+throughput for SMTs [19, 11, 13].
+Prior work in CMPs, however, has ignored the effect
+of memory bus and/or bank sharing. Although increase in
+cache miss rate due to the contention degrades performance,
+bus contention also significantly impacts the performance in
+CMPs. Thus, when optimizing throughput and fairness, effect of bus contention should be taken into account.
+There are many research effort on power/energy reduction by Dynamic Voltage / Frequency Scaling (DVFS) technique which controls the supply voltage and the clock frequency during execution of a task according to computation
+requirement of the task. Because dynamic power consumption in a CMOS circuit scales quadratically with the supply
+voltage, a significant power reduction is expected by DVFS
+technique.
+Recently, Globally Asynchronous Locally Synchronous
+(GALS) system [4], in which the chip is broken into several
+
+independent synchronous blocks and each block operates
+with its own local clock, is becoming attractive. Because
+GALS design can eliminate the need for distributing global
+clock signal across an entire chip, power consumption and
+complexity for clock distribution network is suppressed.
+Applying DVFS to GALS system is a promising way to
+save power consumption. Because GALS systems allow
+voltage and clock frequency of local clock domains to be independently controlled, we can flexibly control the voltage
+and the clock frequency for each local domain. The previous work has explored the power reduction for GALS microprocessors with local domain DVFS [7, 12, 18, 17]. It divides a microprocessor chip into individual clock domains,
+front-end, integer unit, floating-point unit, and load/store
+unit. There is the possibility of further reduction of power
+consumption by this fine-grain optimization.
+In CMPs, DVFS can be applied to each core individually
+by supplying independent clock signal and voltage line to
+each processor core. In the industry, real System on Chip
+(SoC) LSI, where the voltage and the clock frequency of
+some modules of the SoC is controlled independently, is
+already developed [5, 14]. We believe that CMP with GALS
+design style will soonly become a realistic design choice in
+general purpose microprocessors.
+Liu et al. [10] have proposed a technique for optimizing
+power consumption of CMP. Their technique controls the
+clock frequency and voltage of each core individually. The
+techniques exploits idle times by a processor waiting for
+other processor because of the barrier synchronization, and
+clock frequency and voltage is lowered so that the idle times
+is eliminated.
+
+3 Impact of Resource Sharing in CMP
+3.1 Impact of Memory Bus Contention
+In most of CMPs, memory buses and main memory
+banks are shared by multiple processor cores to maximize resource utilization. The performance of a thread is
+affected by other threads running on different cores due
+to memory bus and memory bank contention. Figure 1
+presents the normalized performance (Instruction per Cycle) of swim benchmark program from SPEC2000 when it
+is executed on a dual-core CMP in which the memory bus
+are shared by the two cores but the L2 cache is not shared.
+In Figure 1, swim-alone indicates one of the core executes
+swim and the other core does not execute any program and
+swim+program name represents one core executes swim
+and the other core executes program name in parallel. The
+evaluation environment is described in Section 5.
+As seen from the figure, compared with swim-alone, the
+performance of swim degrades when the other thread is executed simultaneously on the other core. Since both cores
+
+ec 1
+na 0.8
+m
+ro 0.6
+fr 0.4
+eP 0.2
+de 0
+zli
+ne
+lo
+a
+a
+m
+ro
+im
+N sw
+
+3.2.2 Fairness
+Fairness is the metric which indicates how uniformly the
+performance of each co-scheduled thread is affected by the
+resource sharing. We follow the definition of execution time
+fairness used in [8]. Let T ded i and T shri be the execution
+time of thread i when it is executed alone and when it is
+executed with other threads, respectively. We assume the
+number of co-scheduled threads is n. Here, the ideal fairness is achieved if the following condition is satisfied:
+
+f
+d
+rt
+cf
+ty
+ol
+ri
+g
+m
+af
++a
+w
+r
+t
++
+m
+m
++
+i
++
++c
+im
+im
+im
+sw
+im
+sw
+w
+w
+s
+s
+sw
+
+T shr1
+T shr2
+T shrn
+=
+= ... =
+T ded1
+T ded2
+T dedn
+
+Figure 1. Performance degradation by bus
+contention
+
+have their own L2 cache in this evaluation, inter-thread
+cache contention does not occur. Therefore, this performance degradation is caused by the contention of the memory system. It should be noted that the performance degradation depends on the co-scheduled thread. For example, in
+the case of swim+crafty, where crafty is co-scheduled with
+swim, the performance of swim is almost the same as that
+of swim-alone. Because the number of L2 cache misses in
+crafty is very small, almost no resource contention occurs.
+On the other hand, significant performance degradation is
+observed in swim+art. Since frequent L2 cache misses occurs in art, the memory bus is usually occupied by main
+memory accesses from the core executing art. The main
+memory access requests from swim are delayed for a long
+time. This is the reason why the swim is greatly slowed
+down when art is co-scheduled.
+
+3.2 Definition of Throughput and Fairness
+3.2.1 Total Throughput
+In CMP architectures, the total chip performance, that is,
+the total instruction throughput for threads running on all
+the cores, is important metric as well as the performance of
+each thread. In this paper, we use Instruction Per Second
+(IPS) as a metric of total chip performance 1 .
+Let Insti be the number of executed instructions for
+threadi which is executed on P U i within t[second]. The
+i
+performance of thread i is defined as IP Si = Inst
+t . For a
+CMP which has N cores, the total throughput IP S total is
+defined as follows:
+IP Stotal =
+
+N
+−1
+
+
+IP Si
+
+(1)
+
+i=0
+1 Because the clock frequency changes by DVFS, we use IPS instead of
+instruction per cycle (IPC).
+
+(2)
+
+In this paper, we define the total throughput fairness.
+Let IP Sdedi and IP Sshri be the IPS of thread i when
+it is executed alone and when it is executed with other coscheduled threads, respectively. Assuming the number of
+co-scheduled threads is n, the ideal fairness is achieved if
+the following condition is satisfied:
+IP Sshr2
+IP Sshrn
+IP Sshr1
+=
+= ... =
+IP Sded1
+IP Sded2
+IP Sdedn
+
+(3)
+
+As used in [8], we quantify fairness using the following
+equation:
+F airij = |Xi − Xj |, whereXi =
+
+IP Sshri
+IP Sdedi
+
+(4)
+
+The smaller the F airij , the better the fairness.
+Fairness is a critical aspect for an Operating System (OS)
+[8]. The task scheduler of the OS assumes that fairness is
+satisfied when the OS assigns time-slice to threads with taking their priority into account. If fairness is not satisfied,
+several problems such as thread starvation and priority inversion arise. Therefore, the effectiveness of the OS task
+scheduler depends on the hardware to provide fairness to
+all the co-scheduled threads. Hence, improving fairness is
+an important issue for CMPs.
+
+4 Improving Fairness and Throughput by
+DVFS
+In this section, we propose a technique which optimizes
+fairness and throughput and reduces energy consumption
+by controlling the frequency and the voltage of each core
+individually. Figure 2 shows our assumed CMP organization. Because Kim et al. have found that improving fairness
+leads to throughput improvement [8], the technique tries to
+improve the fairness.
+
+4.1 overview
+The bus contention occurs when main memory requests
+due to L2 cache misses are issued from different processor
+
+Clock-0
+Vdd-0
+
+Clock-1
+Vdd-1
+
+PU 0
+
+PU 1
+
+L2 $
+
+L2 $
+
+base-clock
+Memory Controller
+
+Main Memory
+
+Clock-mc
+Vdd-mc
+
+Figure 2. GALS-CMP
+cores closer in time. Because memory accesses are delayed
+in this case, main memory access latency for a thread is
+lengthened. Consequently, significant performance degradation is expected.
+If a thread invokes L2 cache misses very frequently, the
+performance of other threads degrades significantly due to
+the bus contention. In this situation, fairness tends to be
+lost. In order to mitigate the impact of the contention and
+improve fairness, the shared resource access ratio from all
+the co-scheduled threads should be balanced. For this purpose, we lower the clock frequency of the core which executes the thread with frequent memory bus accesses.
+Our algorithm consists of the following two steps: (1)
+predicting the impact on performance due to bus contention,
+(2) adjusting the clock frequency and supply voltage to
+redress the performance balance between co-scheduled
+threads. As for (1), the hardware needs to monitor the bus
+behavior because the performance impact is affected by this
+behavior which depends on dynamic characteristics of the
+co-scheduled threads. We use an interval-based approach
+for the monitoring and the adjustment.
+Figure 3 summarize our proposed algorithm.
+
+4.2 Predicting the Performance Impact
+We introduce a counter named Creq i , which records the
+number of existing main memory read requests every cycle This Creqi is provided for each core (PU) and Creq i
+indicates the counter for PU i . The memory controller increments Creqi if an L2 cache miss requests for PU i is
+invoked. When one of these requests is completed, the
+counter is decremented.
+In addition to Creq i , a state register named Rreq is introduced. Rreq holds the identifier of the PU for which currently the memory bus services the memory access request.
+In every bus clock cycle, Creq i and Rreq are monitored.
+When Creqi is greater than 1 and i is not equal to Rreq,
+PUi ’s memory requests are delayed due to the contention.
+
+N = number of PUs;
+Creqi = number of pending read request;
+Rreq = PU number currently transfered on bus;
+for each bus-cycle {
+j = Rreq;
+f or (k = 0; k < N ; k++){
+if (k = j && Creqk > 0)
+Cdelayjk ++;
+}
+/* for every Titvl */
+if ((BusCycleCount % Titvl ) == 0){
+f or (j = 0; j < N ; j++){
+diffj = N−1
+k=0 (Cdelayjk − Cdelaykj )
+if (diffj < 0 && Clocklevj ! = M axClockLev)
+SetM axClockLev(ClockLevj );
+elseif (diffj > T hu && ClockLevj > M inClockLev)
+DownClockLev(ClockLevj );
+elseif (diffj < T hl && ClockLevj < M axClockLev)
+U pClockLev(ClockLevj );
+else
+/* U nchangingClockLevel */;
+f or (k = 0; k < N ; k++)
+Cdelayjk = 0;
+}
+}
+BusCycleCount++;
+}
+
+
+
+Figure 3. Proposed DVFS algorithm
+To keep track of this delay or postponed cycles, a set of
+counters named Cdelay jk are introduced. Cdelay jk indicates the number of cycles that the requests from PU j delay
+those from PUk .
+By subtracting Cdelaykj from Cdelayjk , we can obtain
+how many cycles the thread on PU j keeps the thread on PU k
+waiting. We calculate the summation of the waiting cycles
+for each PUs (diffj in Figure 3).
+We predict the performance impact on PU j by watching
+diffj . If diffj is relatively large, the thread on PU j is likely
+to impede the execution of the other threads running on the
+other PUs due to the contention. On the other hand, if diff j
+is a minus value, execution of the thread on PU j might be
+degraded due to the contention.
+
+4.3 Adjusting the Clock Frequency and Supply
+Voltage
+In order to improve fairness, the clock frequency and the
+supply voltage of each PU is controlled so that the diff j for
+every PU becomes the same. Let T itvl be the time interval
+for changing the supply voltage and clock frequency. The
+supply voltage and clock frequency for the next T itvl period
+
+Table 1. Configuration of each processor core
+Fetch/Issue/Commit
+Branch prediction
+BTB
+Branch Mis-penalty
+RUU size
+LSQ size
+Functional units
+L1 I-Cache
+L1 D-Cache
+L2 Cache (for each PU)
+DRAM # of banks
+DRAM access latency
+Bus (channel)
+Bus clock
+
+4 instruction / cycle
+Combined bimodal (4K-entry)
+gshare (4K-entry)
+selector (4K-entry)
+1024 sets, 4way
+7 cycles
+64
+32
+Int: 6 ALU, 2-mult/div
+FP: 6 ALU 4 mult/div
+Load/Store: 2 ports
+32KB, 32B line, 2way
+1 cycle latency
+32KB, 32B line, 4way
+2 cycle latency
+1MB, 128B line, 8way
+10 cycle latency in 1.6GHz
+4
+row: 3, column: 3, precharge: 10
+# of channels: 1, 8B-width each
+200MHz
+
+are selected based on the current diff j values. If diffj is relatively large, the clock frequency and voltage for PU j must
+be lowered. If diff i is relatively small, the clock frequency
+and voltage for PU j are raised. Moreover, if diff j is a minus
+value, the processor sets the maximum clock frequency and
+voltage level for PU j .
+The values of diff are calculated for all the cores at every ending point of T itvl . We introduce two threshold values T hu and T hl for diff, which indicate the upper threshold and lower threshold, respectively. Thrashing problem
+is avoided by introducing two kinds of thresholds. If diff j
+exceeds T hu , the clock frequency of PU j is lowered by one
+level, whereas if diffj is below T hl , the clock frequency of
+PUj is raised by one level. The frequency is not changed if
+the value is between T h u and T hl . Note that Cdelayjk is
+reset every time interval.
+
+5 Experimental Setup
+We evaluated fairness, performance and energy consumption of our proposed technique compared with a conventional non-DVFS CMP. We used the SimpleScalar Tool
+Set [1] as our base simulation environment. We extended
+SimpleScalar to evaluate the CMP shown in Figure 2. For
+estimating the energy consumption, we used the Wattch [2]
+extension. Table 1 shows the assumptions of the processor
+configuration for the evaluation.
+Since we are focusing on contentions in memory ac-
+
+Table 3. The programs used in evaluation
+L2 Miss
+High
+Middle
+Low
+
+Program (L2 Miss-rate, IPC)
+179.art (20.0%, 0.17)
+181.mcf (13.8%, 0.12)
+171.swim (3.17%, 0.57)
+300.twolf (0.95%, 0.96)
+172.mgrid (0.69%, 2.4)
+176.gcc (0.11%, 1.27)
+
+cesses, the memory access model is very important for the
+evaluation. Therefore, a DDR SDRAM model was incorporated in the simulator in order to evaluate the very accurate access timing of memory bus and memory banks. We
+assume the number of DRAM banks is four, and thereby
+the memory system can handle up to four memory access
+requests at a time. However, data for one of the requests
+can be transferred on a memory channel at a time. We also
+incorporated a basic memory access scheduling technique
+proposed in [15] into the simulator.
+The assumption of the supply voltage and the clock frequency used in the evaluation is shown in Table 2. These
+values are based on the Intel Pentium M processor. Because there is a lowest limit on supply voltage, we assume
+that the same voltage is used for clock frequency of 0.4GHz
+and below. According to the data-sheet of the Intel Pentium
+M processor[6], the core is unavailable for up to 10µs during frequency ramping. We pessimistically assume 20µs of
+penalty for a frequency and voltage transition.
+We used several programs from the SPEC CPU2000
+benchmark suite with the ref input set. We fast-forwarded
+two billion instructions and simulated until one of coscheduled threads executes 100 million instructions. The
+evaluated programs are presented in Table 3. The table
+also shows the L2 cache misses per load/store instructions
+and IPC for evaluated program regions. Since the proposed
+method does not make any sense if bus contention rarely occurs, the programs with very low L2 cache miss-rate (less
+than 0.1%) are not considered. Among the SPEC CPU2000
+benchmarks, seventeen programs have relatively high L2
+miss-rate. We selected the nine programs out of the seventeen so as to include programs with wide variety of missrate and IPC. The programs were compiled by the DEC C
+compiler for Alpha AXP instruction set architecture (ISA).
+The following values are used for the parameters of the
+our algorithm described in Section 4.
+• Titvl : 250000 bus-cycle (= 625 [µs])
+• T hu : 15000, T h l : 10000
+
+Table 2. Combinations of clock frequency and supply voltage
+Clock [GHz]
+1.6
+1.2
+0.8
+0.4
+0.2
+0.1
+0.05
+Vdd [V]
+1.484 1.276 1.036 0.956 0.956 0.956 0.956
+
+ss 0.6
+en 0.5
+0.4
+ri 0.3
+aF0.2
+0.1
+0
+
+Normal
+
+f
+c
+m
++
+tr
+a
+
+im
+w
+s
++
+tr
+a
+
+lf
+o
+w
+t
++
+tr
+a
+
+d
+ir
+g
+m
++
+tr
+a
+
+c
+c
+g
++
+tr
+a
+
+im
+w
+s
++
+f
+c
+m
+
+lf
+o
+w
+t
++
+f
+c
+m
+
+d
+ir
+g
+m
++
+f
+c
+m
+
+c
+c
+g
++
+f
+c
+m
+
+lf
+o
+w
+t
++
+im
+w
+s
+
+Proposed
+
+d
+ir
+g
+m
++
+m
+i
+w
+s
+
+c
+gc
++
+m
+i
+w
+s
+
+d
+ir
+g
+m
++
+fl
+o
+w
+t
+
+c
+c
+g
++
+lf
+o
+w
+t
+
+c
+c
+g
++
+d
+ir
+g
+m
+
+e
+ga
+r
+e
+v
+a
+
+c
+gc
++
+fl
+o
+w
+t
+
+c
+gc
++
+d
+rig
+m
+
+e
+g
+a
+r
+e
+v
+a
+
+Figure 4. Fairness (2-core)
+]
+%
+[
+t
+n
+e
+m
+e
+v
+o
+r
+p
+m
+I
+
+25
+
+Throughput
+
+Energy Saving
+
+15
+5
+-5
+
+f
+c
+m
++
+tr
+a
+
+m
+i
+w
+s
++
+tr
+a
+
+fl
+o
+w
+t
++
+tr
+a
+
+id
+rg
+m
++
+tr
+a
+
+c
+gc
++
+tr
+a
+
+m
+i
+w
+s
++
+f
+c
+m
+
+fl
+o
+w
+t
++
+f
+c
+m
+
+id
+rg
+m
++
+f
+c
+m
+
+c
+gc
++
+f
+c
+m
+
+fl
+o
+w
+t
++
+im
+w
+s
+
+id
+rg
+m
++
+im
+w
+s
+
+c
+gc
++
+im
+w
+s
+
+id
+rg
+m
++
+fl
+o
+w
+t
+
+Figure 5. Throughput improvement and energy saving (2-core)
+
+6 Evaluation Result
+6.1 Results
+6.1.1 Fairness
+Figure 4 and Figure 6 show fairness value (F air ij ) for a
+conventional non-DVFS CMP (Normal) and our proposed
+method (Proposed) for 2-core and 4-core CMPs, respectively. We show the results of all the combinations of selected benchmark programs. The fairness for 4-core CMP
+is defined as the maximum F air ij in all the combinations
+of cores.
+As seen from Figure 4 and Figure 6, the proposed
+method improves fairness for almost all the evaluated cases
+(The lower the fairness, the better it is). The improvement
+is significant for the pairs which include programs with relatively high cache miss rate. If L2 cache miss rate of one
+of the thread is high, the memory bus is frequently accessed
+by the thread. This leads frequent bus contention, and consequently fairness is likely to be lost in the normal CMP.
+Because we try to balance the impact of the resource contention between threads by controlling frequency, fairness
+
+improves with proposed method especially for programs
+with higher miss rate. By averaging all the programs, The
+proposed CMP improves fairness by 30% and 5% in 2-core
+and 4-core CMPs, respectively.
+Compared with results for 2-core CMP, improvement in
+fairness is not significant for 4-core CMP. In the evaluated
+program pairs, the cache miss rate of one particular thread
+is by far higher than those of other threads, and thus one
+thread impedes the memory accesses from other threads.
+In this case, our method lowers the frequency of just one
+thread. Although the fairness between that thread and the
+other threads is improved, the fairness among remaining
+threads is still bad. In some cases in Figure 6, fairness gets
+slightly worse by the proposed method. In these program
+pairs, over-adjustment happens when the method controls
+the clock frequency in order to balance the bus contention.
+6.1.2 Throughput and Energy Saving
+Figure 5 and Figure 7 present total throughput (IP S total )
+improvement of the proposed method over the normal processor for 2-core and 4-core CMPs, respectively. These figures also show the saving of energy per committed instruc-
+
+Normal
+
+0.5
+
+ss0.4
+en0.3
+ri
+aF0.2
+0.1
+0
+
+fl
++
+f o
+c tw
+m+
++
+tr m
+i
+a w
+s
+
+d
+i
++
+f rg
+c m
+m+
++
+tr m
+i
+a w
+s
+
+f+ c
+c c
+g
+m+
++
+m
+rta iw
+s
+
+d
+i
++
+f rg
+c m
+m+
+lf
+t+
+ra o
+w
+t
+
+f+ c
+c c
+g
+m+
+lf
+t+
+ra o
+w
+t
+
++ d
+ri
+m
+i g
+m
+w
+s +
+f
+tr+ lo
+a w
+t
+
+c
+f+ c
+c g+
+md
+i
++
+rta rg
+m
+
++ c
+im gc
+w
+s f+
+l
++
+tr o
+t
+a w
+
++ c
+im c
+g
++
+w
+s d
+i
++
+tr rg
+a m
+
++
+c
+lf c
+o g+
+tw d
+i
++
+tr rg
+a m
+
++ d
+i
+im rg
+w
+s m
++
+f+ lfo
+c w
+mt
+
++ c
+im c
+g
+w
+s fl+
+f+ o
+c w
+mt
+
++ c
+im c
+g
+w
+s +
+d
+i
++
+f rg
+c
+mm
+
+Proposed
+
++
+lf c
+o c
+g
+tw +
+id
++
+f rg
+c
+mm
+
++
+lf c
+o c
+g
+tw +
++ d
+ir
+im g
+w
+s m
+
+e
+ga
+r
+e
+va
+
+Figure 6. Fairness (4-core)
+Throughput
+
+20
+
+]
+%
+[
+t
+n
+e
+m
+e
+v
+o
+r
+p
+m
+I
+
+Energy Saving
+
+15
+10
+5
+0
+
+fl
++
+f o
+c w
+m t+
++
+tr m
+i
+a w
+s
+
+d
+i
+f+ rg
+c m
+m+
++
+rta im
+w
+s
+
+f+ c
+c gc
+m+
++
+im
+rta w
+s
+
+d
+i
+f+ rg
+c m
+m+
+lf
+t+
+ra o
+tw
+
+f+ c
+c gc
+m+
+fl
++
+rta o
+w
+t
+
+c
++
+f gc
+c +
+m id
++
+tr rg
+a m
+
+ir
++ d
+im g
+m
+w
+s +
+f
++
+tr lo
+a w
+t
+
++ c
+im c
+g
+w
+s f+
+l
++
+tr o
+t
+a w
+
++ c
+im gc
++
+w
+s d
+ir
+t+
+ra gm
+
++
+fl c
+c
+o g+
+w
+t id
+r
+t+
+ra g
+m
+
++ d
+i
+m
+i rg
+w
+s m
++
++
+f flo
+c w
+mt
+
++ c
+im c
+g
+w
+s +
+fl
+f+ o
+c w
+t
+m
+
++ c
+im c
+g
+w
+s +
+d
+i
++
+f rg
+c
+mm
+
++
+fl c
+o c
+g
+w
+t +
+id
++
+f rg
+c
+mm
+
++
+fl c
+o c
+g
+w
+t +
++ d
+ir
+m
+i g
+w
+s m
+
+e
+ga
+r
+e
+v
+a
+
+Figure 7. Throughput improvement and energy saving (4-core)
+
+1.2
+
+t
+1
+lic
+f
+n n
+o o
+0.8
+C ti
+s c
+u u
+r 0.6
+B ts
+d In 0.4
+ze
+li re 0.2
+p
+m
+r
+0
+o
+N
+
+f
+c
+m
++
+tr
+a
+
+im
+sw
++
+tr
+a
+
+lf
+o
+w
+t
++
+tr
+a
+
+d
+rig
+m
++
+tr
+a
+
+c
+c
+g
++
+tr
+a
+
+im
+sw
++
+f
+c
+m
+
+lf
+o
+w
+t
++
+f
+c
+m
+
+d
+rig
+m
++
+f
+c
+m
+
+c
+c
+g
++
+f
+c
+m
+
+lf
+o
+w
+t
++
+im
+sw
+
+d
+rig
+m
++
+m
+i
+w
+s
+
+c
+c
+g
++
+m
+i
+w
+s
+
+d
+rig
+m
++
+fl
+o
+w
+t
+
+c
+c
+g
++
+lf
+o
+w
+t
+
+c
+c
+g
++
+d
+ir
+g
+m
+
+e
+ga
+r
+e
+v
+a
+
+Figure 8. Relative bus conflict cycles per instructions for proposed method (2-core)
+
+tion (EPI).
+As seen from the figures, total throughput improves almost all the program pairs. This results confirms that improving fairness also improves throughput in most of the
+cases. Figure 8 presets relative bus conflict cycles per committed instructions for the proposed method normalized by
+the normal CMP. From the figure, bus contention is actually
+reduced by the method. This reduction of bus contention
+contribute to the improvement of the performance. The improvement is significant when art is executed on one of the
+
+cores except for the case of art+mcf. Because the memory buses are accesses frequently in art, the other threads coscheduled with it are greatly slowed down due to the contention. The proposed method lowers the clock frequency
+of the core where art is executed, and thereby, the execution
+of the co-scheduled threads becomes smooth. That is the
+reason why the proposed method improves total throughput.
+The noticeable throughput decrease is observed in
+art+mcf though the fairness is improved. This indicates
+that the improving fairness does not always increase total
+throughput. This is the consistent observation with earlier
+study [8].
+Note that the performance overhead for clock frequency
+and voltage transitions is negligible. Because time interval Titvl used in the evaluation is relatively long compared
+with the time overhead (20µs), the overall impact on performance due to clock frequency and voltage transitions is
+mitigated.
+In addition to increasing throughput, our proposed
+method also saves energy consumption by lowering supply
+voltage. Energy per committed instruction (EPI) in proposed CMP is reduced compared with the normal CMP.
+Since the opportunity to lower the supply voltage increases
+in the program pairs with high cache miss rate, a large
+amount of energy can be saved in these pairs.
+With our method, both throughput and energy efficiency
+
+Th20K-15K
+Th15K-10K
+Th10K-5K
+Th5K-0K
+
+25
+
+]%
+[
+ro 20
+tn
+e
+ss 15
+en m
+ev
+ira 10
+o
+F rp5
+Im
+0
+
+Fairness (x100)
+
+Throughput
+
+Energy Saving
+
+Figure 9. Evaluation result varying the threshold values
+
+are improved in many cases. This is a great advantage of our
+proposed method. Therefore, we argue that the proposed
+technique is quite effective for CMP architectures.
+
+6.2 Sensitivity Study
+Our proposed DVFS method changes the clock frequency and supply voltage of each core according to how
+many cycles a thread impedes the memory accesses from
+other threads. We used the two threshold values, T h u and
+T hl , for frequency and voltage control decision. It seems
+that the results heavily depend on these threshold values.
+Therefore, in this section, we evaluate our proposed method
+varying the threshold values.
+Figure 9 present fairness, throughput improvement and
+energy saving for our proposed method varying the threshold values in the case of 2-core CMP. The results in the figure shows the average values across all the evaluated combinations. Four kinds of upper and lower threshold pair are
+evaluated. The gap between upper and lower threshold is
+fixed to 5000. The legend in the figure indicates upper
+threshold and lower threshold (for example, Th15K-10K indicates the case that T hu is 15000 and T h l is 10000).
+By lowering threshold values, our algorithm tries to
+lower the clock frequency and supply voltage aggressively.
+Therefore, energy consumption is further reduced with lowering threshold values. However, fairness and throughput
+become worse if the threshold is too large or too small.
+When threshold is too large, the method cannot mitigate the
+performance impact caused by the contention because frequency of the cores tends to be unchanged. On the other
+hand, when threshold is too large, over-adjustment occurs
+and fairness can be lost. Therefore, threshold values should
+be chosen carefully.
+
+7 Concluding Remarks
+In this paper, we proposed a novel technique to improve
+fairness, total instruction throughput, and energy efficiency
+for CMP architectures through dynamic voltage and frequency scaling (DVFS). The proposed technique controls
+the clock frequency and the voltage of each processor core
+individually to balance the performance impact by memory
+bus contention.
+We evaluated fairness, total throughput, and energy reduction of proposed technique compared with an original
+non-DVFS CMP. The evaluation results revealed that the
+proposed technique improves fairness in almost all the program pairs, and total throughput increases in many cases.
+On average, our technique improves fairness by 30% in a 2core CMP and 5% in a 4-core CMP. It increases the throughput by 4.0% and 9.2% and saves energy consumption by
+7.0% and 7.5% in 2-core and 4-core CMPs respectively.
+These results indicate that controlling the clock speed of
+each core to balance the utilization ratio of memory bus between threads is very helpful for efficient execution in CMP
+architectures. Since our proposed method improves all of
+these metrics which are very important for CMPs, the proposed technique is quite effective for CMP architectures.
+We are planing to develop more energy efficient algorithm and evaluate our technique using wider variety of programs.
+
+Acknowledgment
+We would like to thank anonymous reviewers for providing useful comments on this paper. This work was supported in part by STARC (Semiconductor Technology Academic Research Center).
+
+References
+[1] T. M. Austin, E. Larson, and D. Ernst. Simplescalar: An
+infrastructure for computer system modeling. IEEE Computer, 35(2):59–67, 2002.
+[2] D. Brooks, V. Tiwari, and M. Martonosi. Wattch: A framework for architectural-level power analysis and optimizations. In 27th ISCA, pages 83–94, June 2000.
+[3] D. Chandra, F. Guo, S. Kim, and Y. Solihin. Predicting interthread cache contention on a chip multi-processor architecture. In 11th HPCA, pages 340–351, Feb. 2005.
+[4] D. M. Chapiro. Globally Asynchronous Locally Synchronous Systems. PhD thesis, Stanford Univeristy, 1984.
+[5] T. Fujiyoshi and et al. Intel pentium m processor datasheet.
+In 2005 ISSCC, pages 132–133, Feb. 2005.
+[6] Intel. Intel Pentium M Processor Datasheet., June 2003.
+[7] A. Iyer and D. Marculescu. Power and performance evaluation of globally asynchronous locally synchronous processors. In 29th ISCA, pages 158–168, May 2002.
+
+[8] S. Kim, D. Chandra, and Y. Solihin. Fair cache sharing and
+partitioning in a chip multiprocessor architecture. In 13th
+PACT, pages 111–122, Oct. 2004.
+[9] Y. Li, D. Brooks, Z. Hu, and K. Skadron. Performance, energy, and thermal considerations for smt and cmp architectures. In 11th HPCA, pages 71–82, Feb. 2005.
+[10] C. Liu, A. Sivasubramaniam, M. T. Kandemir, and M. J.
+Irwin. Exploiting barriers to optimize power consumption
+of cmps. In 2005 IPDPS, Apr. 2005.
+[11] K. Luo, J. Gummaraju, and M. Franklin. Balancing throughput and fairness in smt processors. In ISPASS2001, pages
+164–171, Nov. 2001.
+[12] G. Magklis, M. L. Scott, G. Semeraro, D. H. Albonesi, and
+S. Dropsho. Profile-based dynamic voltage and frequency
+scaling for a multiple clock domain microprocessor. In 30th
+ISCA, pages 14–25, June 2003.
+[13] T. Moseley, D. Grunwald, J. L. Kihm, and D. A. Connors.
+Methods for modeling resource contention on simultaneous
+multithreading processors. In 23rd ICCD, pages 373–380,
+Oct. 2005.
+[14] K. Nose, A. Shibayama, H. Kodama, M. Mizuno,
+M. Edahiro, and N. Nishi. Deterministic inter-core synchronization with periodically all-in-phase clocking for lowpower multi-core socs. In 2005 ISSCC, pages 296–297, Feb.
+2005.
+[15] S. Rixner, W. J. Dally, U. J. Kapasi, P. R. Mattson, and J. D.
+Owens. Memory access scheduling. In 27th ISCA, pages
+128–138, June 2000.
+[16] R. Sasanka, S. V. Adve, Y.-K. Chen, and E. Debes. The
+energy efficiency of cmp vs. smt for multimedia workloads.
+In 18th ICS, pages 196–206, June. 2004.
+[17] G. Semeraro, D. H. Albonesi, S. Dropsho, G. Magklis,
+S. Dwarkadas, and M. L. Scott. Dynamic frequency and
+voltage control for a multiple clock domain microarchitecture. In 35th MICRO, pages 356–367, Dec. 2002.
+[18] G. Semeraro, G. Magklis, R. Balasubramonian, D. H. Albonesi, S. Dwarkadas, and M. L. Scott. Energy-efficient processor design using multiple clock domains with dynamic
+voltage and frequency scaling. In 8th HPCA, pages 29–42,
+Feb. 2002.
+[19] A. Snavely and D. M. Tullsen. Symbiotic jobscheduling for
+a simultaneous multithreading processor. In ASPLOS IX,
+pages 234–244, Nov. 2000.
+[20] G. E. Suh, S. Devadas, and L. Rudolph. A new memory
+monitoring scheme for memory-aware scheduling and partitioning. In 8th HPCA, pages 117–128, Feb. 2002.
+
+

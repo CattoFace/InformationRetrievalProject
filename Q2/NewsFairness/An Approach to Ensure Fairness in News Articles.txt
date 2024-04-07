@@ -1,0 +1,316 @@
+DS4RRS Workshop                                                                   KDD ’22, August 14–18, 2022, Washington DC, USA.
+
+
+
+           An Approach to Ensure Fairness in News Articles
+              Shaina Raza                                  Deepak John, Reji                                  Dora D. Liu
+            University of Toronto                 Environmental Resources Management                DeepBlue Academy of Sciences
+             Toronto, Canada                                Bangalore, India                                   China
+    Shaina.raza@utoronto.ca                             deepak.reji@erm.com                      liudongmei_0506@163.com
+
+                           Syed Raza, Bashir                                                   Usman Naseem
+                        Toronto Metropolitan University                                     The University of Sydney,
+                               Toronto, Canada                                                  Sydney, Australia
+                    syedraza.bashir@ryerson.ca                                     usman.naseem@sydney.edu.au
+
+ABSTRACT                                                                 data with little or no control over the quality of training data [25].
+                                                                         Research [18] shows that it is highly important to eliminate these
+Recommender systems, information retrieval, and other
+                                                                         biases early in the data gathering process, before they enter the
+information access systems present unique challenges for
+                                                                         system and are reinforced by model predictions, resulting in
+examining and applying concepts of fairness and bias mitigation
+                                                                         biases in the model decisions. [7,17].
+in unstructured text. This paper introduces Dbias
+(https://pypi.org/project/Dbias/), which is a Python package to          Bias and fairness are hot topics both in academia and industry.
+ensure fairness in news articles. Dbias is a trained Machine             Recently, some comprehensive surveys have emerged on these
+Learning (ML) pipeline that can take a text (e.g., a paragraph or        topics, shedding light on the source(s) of bias and potential
+news story) and detects if the text is biased or not. Then, it detects   solutions [17,21,30]. Bias can be, conventionally, defined as an
+the biased words in the text, masks them, and recommends a set of        anomaly in the data or output of an ML algorithm caused by
+sentences with new words that are bias-free or at least less biased.     prejudiced assumptions [17], such as related to gender, race,
+We incorporate the elements of data science best practices to            demographics, economic status, or religion [17]. Bias in natural
+ensure that this pipeline is reproducible and usable. We show in         language processing (NLP) [5], generally, refers to harmful
+experiments that this pipeline can be effective for mitigating           prejudices against certain groups expressed as toxic or offensive
+biases and outperforms the common neural network architectures           words [2,5,11]. The goal of fairness is to identify and mitigate the
+in ensuring fairness in the news articles.                               effects of various biases [20], as well as to build ML models to
+                                                                         prevent repeating human and societal biases or adding new biases.
+CCS Concepts                                                             In this work, we aim to eliminate biases in the text data.
+• Information systems → Information retrieval • Information              According to research [2,24,27], news media can be extremely
+systems applications → Data mining → Computing                           biased, and biased news can result in “filter bubbles” or “echo
+methodologies → Machine learning                                         chambers” [6,25], which may lead to a lack of understanding of
+                                                                         specific issues and a narrow, one-sided perspective. This
+Keywords                                                                 motivates us to train Dbias to counteract media bias. We
+                                                                         summarize our contributions as:
+Biases, Fairness, Transformer, Deep               neural    network,
+Classification, Masked language modelling.                               (1) We develop a fair ML pipeline, which we name as Dbias (de-
+                                                                         biasing). This pipeline consists of multiple sequential steps that
+1. INTRODUCTION                                                          perform bias detection, bias recognition, and bias mitigation tasks,
+Information retrieval, recommendation systems and information            as well as recommend bias-free information.
+access systems are often trained on a large text corpus which may        (2) We make Dbias available as a python package that includes
+introduce biases into the models. These biases can arise in a            documentation, usage, and tutorials to assist data scientists and
+variety of contexts, including observations that comprise the data,      practitioners in integrating this package into their work products.
+training, development, evaluation, and application of the
+underlying models [21]. Data-centric systems, like news                  (3) Dbias is released as a reusable and self-contained pipeline that
+recommender systems, are also trained on massive amounts of              has its algorithms for detecting and mitigating biases. This makes
+                                                                         it different from existing fair ML pipelines [1,3,4,28], which use
+                                                                         off-the-shelf bias detection or bias mitigation models. We develop
+ KDD 2022 Workshop on Data Science and Artificial Intelligence
+ for Responsible Recommendations (DS4RRS), August 14–18, 2022,           this pipeline according to the widely accepted data science
+ Washington DC, United States.                                           pipeline structure [12], so this pipeline is reusable. The only
+                                                                         requisite is to train the model on domain-specific data.
+                                                                         The rest of the paper is organized as: Section 2 is the proposed
+                                                                         approach. Section 3 is experiments and results. Section 4 is the
+                                                                         conclusion.
+DS4RRS Workshop                                                                   KDD ’22, August 14–18, 2022, Washington DC, USA.
+
+
+
+
+                                            Figure 1: Dbias, a fair ML pipeline and its workflow
+
+
+2. PROPOSED APPROACH                                                     2.3.1 Bias Detection
+                                                                         This is the first module in the Dbias pipeline, as shown in Figure
+2.1 Problem Definition                                                   2. We use the DistilBert (a distilled version of BERT) and fine-
+Given a collection of news articles that may contain a variety of        tune it on the MBIC dataset. For binary classification, we use
+biases, the objective is to detect, recognize, and eliminate these       binary-cross entropy loss [19] with a sigmoid activation function.
+biases from the data. The goal is to enable end-users to shift           The output from the bias detection model is a set of news articles
+seamlessly from raw data that may be biased to a fair model.             that are classified as biased or non-biased.
+Next, we explain each phase of the Dbias pipeline.
+
+2.2 Data
+In this work, we primarily use MBIC – A Media Bias Annotation
+Dataset [27], which consists of news articles from different news
+sources (HuffPost, MSNBC, USA Today and others). We use the
+extended version of MBIC dataset1 containing thousands of
+records, with both biased and non-biased sentences. In the original
+dataset, these biases are identified through crowdsourcing. We
+identified more biases (these biases are related to gender, race,
+ethnicity, education, religion, language) from the literature [11,15]
+and also added some biases manually. The dataset features used in
+this work are news snippet; URL; news source; topic; age; gender;
+education; biased words and label.
+
+2.3 Methodology                                                                          Figure 2: Bias detection module
+The specific tasks to perform in this work are:
+Bias detection: To detect whether a news article is biased or not.       2.3.2 Bias Recognition
+Bias recognition: To recognize the biased words/ phrases in news.        The second module in the Dbias pipeline is the bias recognition
+Bias masking: To mask (hide) the biased words.                           module. This task is different from the bias detection task that
+De-biasing: To de-bias the data by replacing the biased words            takes a whole news or sentence and classifies if it is biased or not.
+with the unbiased or less biased word(s).                                In bias recognition, we use the named entity recognition task of
+                                                                         NLP to identify the biased words from the text.
+1
+    https://zenodo.org/record/5861846#.YoT6wajMK5d
+DS4RRS Workshop                                                                   KDD ’22, August 14–18, 2022, Washington DC, USA.
+
+
+
+This module takes as input a set of news articles that have been         In our work, we only mask those words that have been flagged as
+identified as biased in the preceding module (bias detection), and       biased by the previous bias recognition module. We propose a
+outputs a set of news articles with biased words that are identified     unique mask shifting technique that can mask and unmask more
+and recognized. For example, the news “Don't buy the pseudo-             than one token at a time in a sentence. For example, as shown in
+scientific hype about tornadoes and climate change” has been             Figure 4, we see that both instances are processed sequentially via
+classified as biased by the preceding bias detection module, and
+                                                                         the mask shifting technique, and each masked token is filled one
+the biased recognition module can now identify the term “pseudo-
+scientific hype” as a biased word.                                       at a time before the final sentence is constructed.
+                                                                         Fairness infilling: we propose a fairness infilling stage, which can
+                                                                         be considered as generalizing the cloze task (Wu et al. 2019) from
+                                                                         single tokens to spans of unknown length. Our assumption behind
+                                                                         this fairness filling is that the new words that are filled in are less
+                                                                         or non-biased, which has been validated through our
+                                                                         demonstration and experiments.
+                                                                         2.3.4 De-biasing and recommendations
+                                                                         We recommend a couple (5, 10, 15 or so) of substitute tokens that
+                                                                         can be used to infill each masked token during the fairness
+                                                                         infilling stage. We send the top-k recommended sentences
+                                                                         (infilled with new tokens) again to the bias detection model (first
+                                                                         module) to see the probability of biasness. If the probability of
+               Figure 3: Bias recognition module                         biasness is less than 0.5 or less than the probability of the previous
+                                                                         de-biased sentence, we output the sentence as the final output.
+Though, the standard named entity recognition (NER) task is not          3. EXPERIMENTS AND RESULTS
+directly related to bias identification, it can be used to find biases
+in data [9,17]. For example, one NER model [16] has been used to         3.1 Experimental Setup
+find if there are more female names tagged as non-person than            We implemented this pipeline in TensorFlow. We run our
+male names. Another NER model has identified biases based on             experiments on Google Colab Pro (NVIDIA P100, 24 GB RAM,
+occupation, race, and demographics [9]. In this work, we refer to        2 x vCPU). Common parameters used in Dbias are a batch size of
+each entity in the NER as a bias-bearing entity that is manifested       16, 10 epochs, sequence length 512, and number of labels for
+in syntax, semantics or linguistic context.                              news is 2 (bias, non-biased). We use the distilbert-base-uncased
+                                                                         with these details: Uncased: 6-layer, 768-hidden, 12-heads, 66M
+We use the RoBERTa [14] along with Spacy English Transformer
+                                                                         parameters, in the bias detection module. We use RoBERTa-base,
+NER pipeline [10]. The final output from the bias recognition
+                                                                         12-layer, 768-hidden, 12-heads, 125M parameters in the bias
+module is a set of news articles, where the biased words have
+                                                                         recognition module. The learning rate, warm-up setups, the drop-
+been identified. We show our bias recognition module, which is a
+                                                                         out rate and other parameters for each module are optimized
+pipeline, in Figure 3.
+                                                                         according to their best settings. For a fair comparison, we tune all
+2.3.3 Bias Masking                                                       the other methods (our method and baselines) to their optimal
+Bias Masking: In the bias masking stage, we mask the position of         hyperparameter settings and report the best results.
+each biased word (token) within each news article. We use                To assess the performance of our proposed model, we use the
+Masked Language Modeling (MLM) [26] for masking biased                   accuracy (ACC), precision (PREC), recall (Rec) and F1-score
+words. Typically, the MLM task takes a sentence, randomly                (F1), following standard metrics in this line of research [4]. To
+masks 15% of words in the input and then runs the entire masked          our knowledge, there is no single model or pipeline that can
+sentence through the model to predict masked words.                      perform all three tasks simultaneously, so, we evaluate Dbias
+                                                                         performance for main tasks (bias detection and recognition).
+
+                                                                         3.2       Results and Analysis
+                                                                         The results are shown and discussed next:
+
+                                                                         3.2.1 Effectiveness of bias detection module
+                                                                         In this experiment, we evaluate the performance of our framework
+                                                                         for the bias detection module (the first module of the Dbias)
+                                                                         against the following state-of-the-art baselines:
+                                                                         LG-TFIDF: We use the Logistic Regression (LG) [29] with
+                                                                         TfidfVectorizer (TFIDF) word embeddings[22].
+                                                                         LG-ELMO: We use LG with ELMO embeddings [23].
+                                                                         MLP-ELMO: We use MultiLayer Perceptron (MLP), a
+                                                                         feedforward artificial neural network with ELMO embeddings.
+                                                                         BERT: We use Bidirectional Encoder Representations from
+                                                                         Transformers (BERT) [8] and its bert-based uncased version.
+                 Figure 4: Bias masking example
+DS4RRS Workshop                                                               KDD ’22, August 14–18, 2022, Washington DC, USA.
+
+
+
+RoBERTa: We use Robustly Optimized BERT Pre-training                 recall, F1-score and accuracy. This is because a Transformer-
+Approach (RoBERTa) [13] with RoBERTa-base.                           based model can identify entities and relations within the text with
+The results are shown in Table 1.                                    rich contexts. We also find that bias recognition tasks show better
+                                                                     accuracy with larger model size. This is likely because the larger
+           Table 1: Performance of bias detection task               model contains a greater number of parameter settings and data
+    Model                 PREC            REC          F1            points, all of which affect the model's predictive performance.
+                                                                     However, these benefits come at the expense of resource
+    LG-TFIDF              62%             61%          62%
+                                                                     utilization, memory, CPU cycles, and latency delay. Based on
+    LG- ELMO              67%             69%          68%           these results, we choose to work with core-trf.
+    MLP- ELMO             69%             68%          68%
+    Bert                  72%             69%          71%           3.3 Working of Dbias
+    RoBERTa               76%             70%          73%           We release Dbias as a python package that can be used to detect
+    Our approach          77%             74%          75%           and mitigate biases in texts. The input to the model can be any
+                                                                     sentences that may contain biased words and we get the de-biased
+Overall, the results in Table 1 show the better performance of our   output. We show a working example based on a piece of biased
+approach (based on distilBERT fine-tuned on MBIC dataset)            news in Figure 5.
+compared to the baseline methods for the bias detection task. The
+result also shows that deep neural embeddings, in general, can
+outperform traditional embedding methods (e.g., TFIDF) in the
+bias classification task. This is shown by the better performance
+of deep neural network embeddings (i.e., ELMo) compared to
+TFIDF vectorization when used with LG. This is probably
+because deep neural embeddings can better capture the context of
+the words in the text in different contexts. The deep neural
+embeddings and deep neural methods (MLP, BERT, RoBERTa)
+also perform better than traditional ML method (LG).
+We also observe that Transformer-based methods outperform
+other methods (ML and simple deep learning methods) in the bias
+detection task. Among the Transformer-based approaches,
+RoBERTa outperforms the BERT model by approximately 2% in
+the F1-score, while our approach based on DistilBERT
+outperforms the RobBERTa by ~2%. DistilBERT is smaller,
+faster, and lighter than BERT and RoBERTa. When we use                                 Figure 5: Example on Dbias
+DistilBERT in our work, it also performs better than all the other
+models. So, we choose to work with the DistilBERT for the bias       As illustrated in Figure 5, given a news article or any text that
+detection task.                                                      may contain biased words, our model can determine whether or
+                                                                     not the text is biased. This is made possible by the first module:
+3.2.2 Effectiveness of bias recognition module                       the bias detection module. The output is then forwarded to the
+We choose the following baselines for NER task based on similar
+                                                                     next module, namely the bias recognition module, which
+structure as in our bias recognition module.
+                                                                     identifies bias-bearing words. The text with identified biased
+Spacy core web small pipeline (core-sm)2.
+                                                                     words is then sent to the de-biasing module, which masks the
+Spacy core web medium pipeline (core-md)3
+                                                                     biased words and makes suggestions for new words to replace
+Spacy core web large pipeline (core-lg)4
+                                                                     them. The final output is a set of non-biased or at least minimally
+Our approach is based on Spacy core web transformer pipeline
+                                                                     biased sentences for each input sentence.
+(core-trf)5. The results of different NER methods are shown in
+Table 2.                                                             4. Conclusion
+                                                                     We build Dbias, a pipeline for fair ML that has stages: bias
+          Table 2: Performance of bias recognition task
+                                                                     detection, bias recognition, bias masking and de-biasing. We
+    Model            PREC      REC         F1         ACC            develop Dbias as a downloadable package that can be used as it or
+    Core-sm          59%       27%         37%        37%            integrated in a system like a news recommender system or so.
+    Core-md          61%       45%         52%        53%            This research serves as a forum for researchers interested in de-
+    Core-lg          60%       62%         60%        67%            biasing the text.
+    Our approach     66%       65%         63%        72%                Limitations and future works: We need to investigate a wide
+                                                                     variety of biases in news media to determine the definitions of
+The results in Table 2 show that our approach based on core-trf
+                                                                     biases and that of fairness. So far, we use a manually annotated
+outperforms all the other NER methods in terms of precision-
+                                                                     news dataset to identify bias-bearing words. We encourage
+                                                                     researchers to identify more biases in the text to annotate one such
+2
+  en_core_web_sm                                                     data. The fundamental requirement for our system is to fine-tune
+3
+  en_core_web_md
+4                                                                    it using the domain data. While this is a start, we may need to
+  en_core_web_lg
+5
+  en_core_web_trf                                                    investigate additional domains to enrich the Dbias pipeline.
+DS4RRS Workshop                                                               KDD ’22, August 14–18, 2022, Washington DC, USA.
+
+
+
+REFERENCES                                                                  Nanyun Peng, and Aram Galstyan. 2020. Man is to person
+[1]    Julius A Adebayo and others. 2016. FairML: ToolBox for               as woman is to location: Measuring gender bias in named
+       diagnosing bias in predictive modeling. Massachusetts                entity recognition. Proc. 31st ACM Conf. Hypertext Soc.
+       Institute of Technology.                                             Media, HT 2020 (2020), 231–232.
+[2]    Ramy Baly, Georgi Karadzhov, Dimitar Alexandrov, James        [17]   Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena,
+       Glass, and Preslav Nakov. 2020. Predicting factuality of             Kristina Lerman, and Aram Galstyan. 2021. A Survey on
+       reporting and bias of news media sources. In Proceedings of          Bias and Fairness in Machine Learning. ACM Comput. Surv.
+       the 2018 Conference on Empirical Methods in Natural                  54, 6 (2021).
+       Language Processing, EMNLP 2018, 3528–3539.                   [18]   Cristina Monzer, Judith Moeller, Natali Helberger, and
+[3]    Niels Bantilan. 2018. Themis-ml: A fairness-aware machine            Sarah Eskens. 2020. User Perspectives on the News
+       learning interface for end-to-end discrimination discovery           Personalisation Process: Agency, Trust and Utility as
+       and mitigation. J. Technol. Hum. Serv. 36, 1 (2018), 15–30.          Building Blocks. Digit. Journal. 8, 9 (2020), 1142–1162.
+[4]    R. K.E. Bellamy, A. Mojsilovic, S. Nagar, K. Natesan          [19]   Kevin P Murphy. 2012. Machine learning: a probabilistic
+       Ramamurthy, J. Richards, D. Saha, P. Sattigeri, M. Singh,            perspective. MIT press.
+       K. R. Varshney, Y. Zhang, K. Dey, M. Hind, S. C.              [20]   Aileen Nielsen. 2020. Practical Fairness. O’Reilly Media.
+       Hoffman, S. Houde, K. Kannan, P. Lohia, J. Martino, and S.    [21]   Kalia Orphanou, Jahna Otterbacher, Styliani Kleanthous,
+       Mehta. 2019. AI Fairness 360: An extensible toolkit for              Khuyagbaatar Batsuren, Fausto Giunchiglia, Veronika
+       detecting and mitigating algorithmic bias. IBM J. Res. Dev.          Bogina, Avital Shulner Tal, Alan Hartman, and Tsvi Kuflik.
+       63, 4–5 (2019).                                                      2022. Mitigating Bias in Algorithmic Systems-A Fish-Eye
+[5]    Su Lin Blodgett, Solon Barocas, Hal Daumé III, and Hanna             View. ACM Comput. Surv. (2022).
+       Wallach. 2020. Language (Technology) is Power: A Critical     [22]   F Pedregosa, G Varoquaux, A Gramfort, V Michel, B
+       Survey of “Bias” in NLP. 5454–5476.                                  Thirion, O Grisel, M Blondel, P Prettenhofer, R Weiss, V
+[6]    Axel Bruns. 2019. It’s not the technology, stupid: How the           Dubourg, J Vanderplas, A Passos, D Cournapeau, M
+       ‘Echo Chamber’and ‘Filter Bubble’metaphors have failed               Brucher, M Perrot, and E Duchesnay. 2011. Scikit-learn:
+       us. Int. Assoc. Media Commun. Res. (2019).                           Machine Learning in {P}ython. J. Mach. Learn. Res. 12,
+[7]    Simon Caton and Christian Haas. 2020. Fairness in Machine            (2011), 2825–2830.
+       Learning: A Survey. (2020), 1–33. arXiv Prepr.                [23]   Matthew E Peters, Mark Neumann, Mohit Iyyer, Matt
+       arXiv2010.04053 (2020).                                              Gardner, Christopher Clark, Kenton Lee, and Luke
+[8]    Jacob Devlin, Ming Wei Chang, Kenton Lee, and Kristina               Zettlemoyer.      2018.      Deep      contextualized    word
+       Toutanova. 2018. BERT: Pre-training of deep bidirectional            representations.
+       transformers for language understanding. arXiv Prepr.         [24]   Shaina Raza. 2021. A News Recommender System
+       arXiv1810.04805 (2018).                                              Considering Temporal Dynamics and Diversity. arXiv
+[9]    Elizabeth Excell and Noura Al Moubayed. 2021. Towards                Prepr. arXiv2103.12537 (2021).
+       Equal Gender Representation in the Annotations of Toxic       [25]   Shaina Raza, Syed Raza Bashir, Dora D Liu, and Usman
+       Language Detection. (2021). arXiv Prepr. arXiv2106.02183             Naseem. 2021. Balanced News Neural Network for a News
+       (2021).                                                              Recommender System. In 2021 International Conference on
+[10]   Explosion AI. 2017. spaCy - Indusrtial-strength Natural              Data Mining Workshops (ICDMW), 65–74.
+       Language Processing in Python. Retrieved March 3, 2022        [26]   Koustuv Sinha, Robin Jia, Dieuwke Hupkes, Joelle Pineau,
+       from https://spacy.io/                                               Adina Williams, and Douwe Kiela. 2021. Masked language
+[11]   Danielle Gaucher, Justin Friesen, and Aaron C. Kay. 2011.            modeling and the distributional hypothesis: Order word
+       Evidence That Gendered Wording in Job Advertisements                 matters pre-training for little. arXiv Prepr. arXiv2104.06644
+       Exists and Sustains Gender Inequality. J. Pers. Soc.                 (2021).
+       Psychol. 101, 1 (2011), 109–128.                              [27]   Timo Spinde, Lada Rudnitckaia, Kanishka Sinha, Felix
+[12]   Hannes Hapke and Catherine Nelson. 2020. Building                    Hamborg, Bela Gipp, and Karsten Donnay. 2021. MBIC –
+       Machine Learning Pipelines. O'Reilly Media (2020).                   A Media Bias Annotation Dataset Including Annotator
+[13]   Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Man-dar               Characteristics. Proc. iConference 2021 (2021), 1–8.
+       Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke                [28]   Florian Tramèr, Vaggelis Atlidakis, Roxana Geambasu,
+       Zettlemoyer, and Veselin Stoyanov. 2019. RoBERTa: A                  Daniel Hsu, Jean Pierre Hubaux, Mathias Humbert, Ari
+       Robustly Optimized BERT Pretraining Approach. (2019),                Juels, and Huang Lin. 2017. FairTest: Discovering
+       2383–2392. Retrieved December 20, 2021 from                          Unwarranted Associations in Data-Driven Applications.
+       https://github.com/deepset-ai/COVID-QA.                              Proc. - 2nd IEEE Eur. Symp. Secur. Privacy, EuroS P 2017
+[14]   Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar                (2017), 401–416.
+       Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke                [29]   Raymond E Wright. 1995. Logistic regression. (1995).
+       Zettlemoyer, and Veselin Stoyanov. 2019. RoBERTa: A           [30]   Yao Wu, Jian Cao, and Guandong Xu. 2021. Fairness in
+       Robustly Optimized BERT Pretraining Approach. 2020,                  Recommender Systems : Evaluation Approaches Fairness in
+       (2019), arXiv Prepr. arXiv1907.11692                                 Recommender Systems : Evaluation Approaches and
+[15]   Kat Matfield. 2016. Gender Decoder: find subtle bias in job          Assurance Strategies. (2021).
+       ads. Retrieved from http://gender-decoder.katmatfield.com/
+[16]   Ninareh Mehrabi, Thamme Gowda, Fred Morstatter,
+
