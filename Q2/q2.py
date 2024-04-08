@@ -42,6 +42,7 @@ def evaluate_classifier(
             )
         mispredictions.append(local_mispredictions)
         scores.append(score)
+        breakpoint()
     mispredictions = pd.concat(mispredictions)
     return scores, statistics.mean(scores), mispredictions
 
