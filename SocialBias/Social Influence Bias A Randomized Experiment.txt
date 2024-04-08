@@ -1,0 +1,1125 @@
+BVOCs. The contribution from hundreds of indi-
+vidually minor compounds is important. Future
+research is required to determine if this is also
+true for ecosystems that emit larger quantities of
+isoprene and/or monoterpenes.
+
+The minor species with lower fluxes and con-
+centrations are not in current BVOC emission
+models, but their sizes, chemical formulae, and
+sum suggest that they should be important for
+SOA formation and regional photochemistry.
+Their presence in the atmosphere may also ac-
+count for a sizable amount of the missing OH
+chemical reactivity and O; chemical loss observed
+in plant environments.
+
+References and Notes
+
+1. A. Guenther et at., }. Geophys. Res. Atmos. 100,
+8873 (1995).
+
+2. W. L. Chameides, R. W. Lindsay, J. Richardson,
+C. S. Kiang, Science 241, 1473-1475 (1988}.
+
+w
+
+. MO. Andreae, P. J. Crutzen, Science 276, 1052-1058 (1997).
+4. M.S. Jang, N. M. Czoschke, S. Lee, R. M. Kamens, Science
+298, 814-817 (2002).
+. A H. Goldstein, |. E. Galbally, Environ. Sci Technol. 41,
+1514-1521 (2007).
+6. M. R. Kurpius, A. H. Goldstein, Geophys. Res. Lett. 30,
+1371 (2003).
+. P. Di Carlo et at., Science 304, 722-725 (2004).
+. R. Holzinger, A. Lee, K. T. Paw, A. H. Goldstein, Atmos.
+Chem. Phys. 5, 67-75 (2005).
+9. T. M. Ruuskanen et al., Atmos. Chem. Phys. 11, 611-625
+(2011).
+10. M. Hallquist et af., Atmos. Chem. Phys. 9, 5155-5236
+(2009).
+11. T. Karl et al., Science 330, 816-819 (2010).
+12. J.-H. Park et al., Atmos. Chem. Phys. 13, 1439-1456
+(2013}.
+13. A. Jordan et al., int. }. Mass Spectrom. 286,
+122-128 (2009).
+14. M. Graus, M. Miller, A. Hansel, 2. Am. Soc. Mass
+Spectrom. 21, 1037-1044 (2010).
+R. Holzinger, A. Kasper-Giebl, M. Staudinger, G. Schauer,
+T. Rockmann, Atmos. Chem. Phys. 10, 10111-10128
+(2010}.
+
+uw
+
+on
+
+15.
+
+a
+
+REPO
+
+16. See supplementary materials on Science Online.
+17. A. Lee et al., j. Geophys. Res. Atmos. 111, 21
+(2006}.
+
+Acknowledgments: This work was supported by the
+Netherlands Organization for Scientific Research (NWO)
+under the ALW-Middelgroot program (grant 834.08.002),
+the California Air Resources Board (Award 06-329),
+
+the Citrus Research Board, and the University of Utrecht
+short stay fellowship program. We thank the Gorden
+
+Ranch for hosting this study and for the assistance provided
+by the University of California Lindcove Research and
+Extension station.
+
+Supplementary Materials
+www.sciencemag.org/cgi/content/full/341/6146/643/DC1
+Materials and Methods
+
+Figs. $1 to $4
+
+Tables $1 to $3
+
+References (78-28)
+
+11 January 2013; accepted 2 July 2013
+10.1126/science.1235053
+
+ 
+
+Social Influence Bias:
+A Randomized Experiment
+
+Lev Muchnik,? Sinan Aral,2* Sean J. Taylor?
+
+Our society is increasingly relying on the digitized, aggregated opinions of others to
+
+make decisions. We therefore designed and analyzed a large-scale randomized experiment
+on a social news aggregation Web site to investigate whether knowledge of such aggregates
+distorts decision-making. Prior ratings created significant bias in individual rating behavior,
+and positive and negative social influences created asymmetric herding effects. Whereas
+negative social influence inspired users to correct manipulated ratings, positive social
+influence increased the likelihood of positive ratings by 32% and created accumulating
+positive herding that increased final ratings by 25% on average. This positive herding
+
+was topic-dependent and affected by whether individuals were viewing the opinions of friends
+or enemies. A mixture of changing opinion and greater turnout under both manipulations
+together with a natural tendency to up-vote on the site combined to create the herding
+effects. Such findings will help interpret collective judgment accurately and avoid social
+influence bias in collective intelligence in the future.
+
+e rely on ratings contributed by others
+
+\ X / to make decisions about which hotels,
+books, movies, political candidates,
+
+news, comments, and stories are worth our time
+and money (/). Given the widespread use and
+economic value of rating systems (2-4), it is im-
+portant to consider whether they can successfully
+hamess the wisdom of crowds to accurately ag-
+gregate individual information. Do they produce
+useful, unbiased, aggregate information about
+the quality of the item being rated? Or, as sug-
+gested by the experiments of Salganik et ai. (5),
+are outcomes path dependent, yielding different
+aggregate ratings for items of equivalent quality?
+
+*School of Business Administration, The Hebrew University of
+Jerusalem, Mount Scopus, Jerusalem, 91905 Israel. 2MIT Sloan
+School of Management, 100 Main Street, Cambridge, MA
+20142, USA. 7NYU Stern School of Business, 44 West 4th
+Street, New York, NY 10012, USA.
+
+*Corresponding author. E-mail: sinana@mit.edu
+
+www.sciencemag.org SCIENCE VOL 341
+
+Collective intelligence has recently been her-
+alded as a harbinger of accelerated human po-
+tential (6). But, social influence on individuals’
+perceptions of quality and value could create
+herding effects that lead to suboptimal market
+outcomes (7, 8); rich-get-richer dynamics that
+exaggerate inequality (9-12); a group think men-
+tality that distorts the truth (73); and measurable
+disruptions in the wisdom of crowds (/4). If
+perceptions of quality are biased by social influ-
+ence, attempts to aggregate collective judgment
+and socialize choice could be easily manipulated,
+with dramatic consequences for our markets, our
+politics, and our health.
+
+The recent availability of population-scale
+data sets on rating behavior and social commu-
+nication enable novel investigations of social
+influence (7, /5—20). Unfortunately, our under-
+standing of the impact of social influence on col-
+lective judgment is limited because empirically
+distinguishing influence from uninfluenced agree-
+
+ment on true quality is nearly impossible in ob-
+servational data (2/—27). For example, popular
+products may be popular because of the irrational
+effect of past positive ratings, or alternatively, the
+best products may become popular because they
+are of the highest quality. We must distinguish
+these explanations to determine the extent to
+which social influence creates irrational herding.
+We therefore designed and analyzed a large-
+scale randomized experiment to quantify the
+effects of social influence on users’ ratings and
+discourse on a social news aggregation Web
+site, where users contribute news articles and
+discuss them. Users of the site that we studied
+write comments in response to posted articles,
+and other users can then “up-vote” or “down-vote”
+these comments, yielding an aggregate current
+rating for each posted comment equal to the num-
+ber of up-votes minus the number of down-votes.
+Users do not observe the comment scores before
+clicking through to comments—each impression of
+a comment is always accompanied by that com-
+ment’s current score, tying the comment to the
+score during users” evaluation—and comments
+are not ordered by their popularity, mitigating
+selection bias on high (or low) rated comments.
+Similar scoring mechanisms are widely used on
+the Web to reward users for supplying insightful
+or interesting analysis, while penalizing those post-
+ing irrelevant, redundant, or low-quality comments.
+The vast majority of interuser relations occur on
+the Web site, in contrast to Web sites whose mem-
+bers also interact offline. The data therefore pro-
+vide a unique opportunity to comprehensively
+study social influence bias in rating behavior.
+Over 5 months, 101,281 comments submitted
+on the site were randomly assigned to one of
+three treatment groups: up-treated, down-treated,
+or control. Up-treated comments were artificially
+given an up-vote (a +1 rating) upon the com-
+ment’s creation, whereas down-treated comments
+were given a down-vote (a —1 rating) upon the
+comment’s creation. Users were unaware of the
+
+9 AUGUST 2013
+
+RTS
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+
+647
+REPORTS
+
+648
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.12 T T 0.12 -— T T
+[A |B
+0.10 + 4 0.10 + 4
+2
+@ 3
+> 0.08+ 4 ¢ 0.08- 4
+? i =
+a 3
+2 a
+2 0.06+ 7 2 006+ 4
+rr B-- oo z
+3 0.04 + 4 3 0.04 + 4
+2 2
+a a
+0.02 + 4 0.02 + } 4
+Re +----&
+0.00 '— 1 1 0.00 '— 1 1
+down-treated _—_ control up-treated down-treated _conirol up-treated
+Treatment Treatment
+
+Fig. 1. Effect of manipulation on voting behavior. The positively manipulated
+treatment group (up-treated), the negatively manipulated treatment group (down-
+treated), and the control group (dotted line) are shown. The probabilities to up-vote
+(A) and down-vote (B) positively manipulated, negatively manipulated, and control
+group comments are shown by the first unique viewer; 95% confidence intervals
+are inferred from Bayesian logistic regression with commenter, rater, and commenter-
+
+manipulation and unable to trace votes to any
+particular user. As a result of the randomization,
+comments in the control and treatment groups
+were identical in expectation along all dimen-
+sions that could affect users’ rating behavior
+except for the current rating. This manipulation
+created a small random signal of positive or neg-
+ative judgment by prior raters for randomly se-
+lected comments that have the same quality in
+expectation, enabling estimates of the effects of
+social influence holding comment quality and all
+other factors constant. The 101,281 experimental
+comments (of which 4049 were positively treated
+and 1942 were negatively treated to reflect the
+natural proportions of up- and down-votes on
+the site) were viewed more than 10 million times
+and rated 308,515 times by subsequent users.
+
+We may sample users multiple times, and
+nonrandom heterogeneity may exist in users’
+comment-generating process, their selection of
+comments to vote on, and in relationships be-
+tween commenters and raters. We therefore es-
+timated hierarchical Bayesian models of voting
+behavior and specified commenter, rater, and
+commenter-rater pair random effects; ie., the
+confidence intervals are based on repeated re-
+sampling, creating a distribution of parameter
+estimates from which the 95% confidence bands
+are derived (see materials and methods in the
+supplementary materials).
+
+We first compared the probabilities that com-
+ments in each group would be up-voted or down-
+voted by the first viewer after the manipulation.
+These probabilities measure the immediate effect
+of current ratings on users’ rating behavior. We
+then analyzed comments’ long-run ratings dis-
+tributions and final mean scores by aggregating
+
+9 AUGUST 2013 VOL 341
+
+ 
+
+ 
+
+ 
+
+ 
+
+Mean Score
+
+ 
+
+24b J
+
+22- 4
+
+2.0F 4
+
+1.85 4
+
+1.65 4
+
+ 
+
+ 
+
+ 
+
+down-treated _ control up-treated
+
+Treatment
+
+rater random effects. (C) The mean final scores of positively manipulated, nega-
+tively manipulated, and control group comments are shown with 95% confidence
+intervals inferred from Bayesian linear regression of the final comment score with
+commenter random effects. Final mean scores on this Web site are measured as
+the number of up-votes minus the number of down-votes. We discuss the impli-
+cations of this measurement in greater detail in the supplementary materials.
+
+ 
+
+Fig. 2. Effects of topic on 4 i
+herding. Mean final scores
+of positively manipulated and
+control group comments are
+shown with 95% confidence
+intervals inferred from Bayesian 3b
+linear regression of the fi-
+nal comment score with com-
+menter random effects across
+the seven most active topic
+categories on the site, or-
+dered by the magnitude of
+the difference between the
+mean final score of positive-
+ly manipulated comments
+and the mean final score of ab
+control comments in each
+
+Mean Score
+
+ 
+
+—p—
+
+* = Control
+4 Up-treated
+
+ 
+
+ 
+
+ 
+
+ 
+
+—>—
++—p>—
+
+ 
+
+ 
+
+category.
+
+all users’ ratings for comments in the three groups
+over time.
+
+Figure 1A shows the immediate up-vote
+and down-vote probabilities for the first viewer
+of comments in each of the three categories.
+Up-votes were 4.6 times as common as down-
+votes on this site, with 5.13% of all comments
+receiving an up-vote by the first viewer of the
+comment and only 0.82% of comments receiv-
+ing a down-vote by the first viewer. The up-vote
+treatment significantly increased the probabil-
+ity ofup-voting by the first viewer by 32% over
+
+Culture and Society
+
+Politics
+
+IT
+
+Fun
+Economics
+General News
+
+Category
+
+the control group (P= 1.0 x 10°) (Fig. 1A). Up-
+treated comments were not down-voted signifi-
+cantly more or less frequently than the control
+group, so users did not tend to correct the upward
+manipulation. In the absence of a correction, pos-
+itive herding accumulated over time.
+
+The positive manipulation created a posi-
+tive social influence bias that persisted over our
+5-month observation window, generating accu-
+mulating herding effects that increased comments’
+final mean ratings by 25% relative to the final
+mean ratings of control group comments (7° test;
+
+SCIENCE www.sciencemag.org
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+ 
+
+ 
+
+ 
+
+ 
+
+T T
+020 LA Friends A
+° L
+$ 0.15, 4
+a
+5 L
+3 t
+2 O10- “a —---te 4
+a L
+S
+2
+© 0.05-+ 4
+a
+0.00 ! ! !
+down-treated control up-treated
+Treatment
+
+ 
+
+ 
+
+ 
+
+ 
+
+T
+020 LB Enemies A
+° L
+8 0.15, 4
+a
+5 L
+2
+> 0.10 F 4
+5 L
+oS
+2
+© 0.05 + 4
+o
+a -]
+0.00 ! !
+down-treated control up-treated
+Treatment
+
+Fig. 3. Effects of friendship on rating behavior. The figure shows the probability of a friend (A) and
+enemy (B) of the commenter to up-vote positively manipulated, negatively manipulated, and control group
+comments. Friends and enemies are defined as users who had previously clicked a button on the Web site
+labeling the commenter as someone they “liked” or “disliked,” respectively.
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.64 T T T
+
+» A
+
+9 L 4
+
+a
+
+§ 0.62 + 4
+
+a
+
+8 4
+
+a
+
+‘5 0.60 + 4
+
+i~
+
+g -----4---4-
+
+E o.s8t 4
+
+z
+
+o 4
+
+ze
+
+s 0.56 + 4
+
+¢ 4
+
+0.54 1 1 1
+down-treated control up-treated
+Treatment
+
+2.1 T T T
+
+ 
+
+ 
+
+ 
+
+Average Depth of Discussion Tree
+
+1 1 1
+down-treated control up-treated
+
+ 
+
+Treatment
+
+Fig. 4. Effects on subsequent discourse. The figure displays the average number of responses (A)
+and the average depth of the discussion tree (B) that developed in response to positively manipulated,
+negatively manipulated, and control group comments; 95% confidence intervals are inferred from
+Bayesian linear regressions with author random effects.
+
+P=23 x 10"'') @ig. 1C), and Kolmogorov-
+Smimov (K-S) tests showed that the final score
+distribution of up-treated comments was signif-
+icantly shifted toward higher scores (K-S test
+statistic: 0.083; P = 1.2 x 10-7). Comments in
+the up-treated group were also significantly more
+likely than those in the control group to accu-
+mulate exceptionally high scores. Up-treated com-
+ments were 30% more likely to reach or exceed.
+a score of 10 (6.4% versus 4.9% in the control
+group, x test; P = 2.0 x 10°). The small ma-
+nipulation ofa single random up-vote when the
+comment was created resulted in significant-
+ly higher accumulated ratings due to social
+influence.
+
+Positive and negative social influence created.
+asymmetric herding effects. The probability of
+down-treated comments receiving subsequent
+down-votes was 0.014, whereas the probability
+of control comments receiving a down-vote was
+0.007; a significant difference (jz test; P= 1.1 x
+
+www.sciencemag.org SCIENCE VOL 341
+
+10°) (Fig. 1B). However, this effect was offset
+by a larger correction effect. The probability that
+a down-treated comment would subsequently be
+up-voted was 0.099, whereas the probability that
+a control comment would be up-voted was sig-
+nificantly different at 0.054 (y° test; P = 1.0 x
+10-*°) (Fig. 1A). This correction neutralized so-
+cial influence in the ratings of negatively manip-
+ulated comments, and their final mean ratings
+were not statistically different from the control
+group’s final mean ratings (Fig. 1C).
+
+We next estimated changes in the final mean
+score for up-treated comments compared to con-
+trol comments in the seven most active topic
+categories on the Web site. We found significant
+positive herding effects for comment ratings in
+“politics,” “culture and society,” and “business,”
+but no detectable herding behavior for comments
+in “economics,” “IT,” “fun,” and “general news”
+(Fig. 2). These differences are not due to the fre-
+quency of commenting in these categories, as
+
+REPORTS
+
+categories with significant differences in control
+and treatment ratings and those with no significant
+differences had similar levels of activity. There was
+no significant negative herding in any category.
+
+Friendship also moderated the impact of
+social influence on rating behavior (Fig. 3, A
+and B). The Web site has a feature whereby
+users can indicate that they “like” or “dislike”
+other users, forming “friends” and “enemies”
+social preference graphs. Unsurprisingly, friends
+of the commenter were more likely to up-vote a
+comment than those who disliked him or her
+(9.2% versus 2.7%, 97 test; P = 2.7 x 107°)
+[compare the average (dotted line) in Fig. 3A to
+the average (dotted line) in Fig. 3B]. Friends
+also tended to herd on current positive ratings
+(friends’ probability to up-vote a positively ma-
+nipulated comment: 0.122 versus friends’ prob-
+ability to up-vote a control comment: 0.092; y”
+test; P = 1.4 x 10°) and to correct comments
+with negatively manipulated ratings (friends’
+probability to up-vote a negatively manipulated
+comment: 0.176 versus friends’ probability to
+up-vote a control comment: 0.092; 7 test; P =
+4.0 x 107'?) (Fig. 3A), mirroring the cooperation
+found in human social networks (28). By con-
+trast, enemies of the commenter were not sus-
+ceptible to social influence. Enemies’ ratings were
+unaffected by our treatments, possibly because
+of the small sample of potential first ratings by
+enemies (though there are a substantial number
+of enemies in the community, they are less active)
+(Fig. 3B).
+
+Finally, social influence in ratings behavior
+did not affect discourse in our setting during the
+5-month observation period. Neither the positive
+nor the negative manipulation affected the aver-
+age number of replies (Fig. 4A) or the average
+depth of the discussion tree created in response to
+a comment (Fig. 4B).
+
+Several data-generating processes could ex-
+plain our findings. A selection effect could in-
+spire different populations of voters to turn out
+to rate the item (selective turnout)—for example,
+ifthe negative manipulation inspired voters who
+tend to down-vote (negative voters) to vote in
+higher proportion. Alternatively, prior ratings
+could bias users’ voting behavior by changing
+their opinions about comment quality and there-
+fore their votes (opinion change). We analyzed
+changes in tumout (the likelihood of rating rather
+than just viewing comments) and changes in pos-
+itivity (the proportion of positive ratings) across
+subgroups in our study population to identify var-
+iance in our results explained by turnout effects
+and opinion change, respectively. We divided
+raters and commenters, on the basis of their rating
+history, along four subgroup dimensions by their
+positivity (proportion of positive votes), the com-
+menters’ quality (prior scores of their comments),
+the frequency with which a rater rated a particular
+commenter, and whether raters were friends or
+enemies with commenters. We then compared treat-
+ment effects with expected voting behavior in
+these subgroups. Our analysis revealed several
+
+9 AUGUST 2013
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+
+649
+REPORTS
+
+650
+
+Fig. 5. Effects on turnout versus positivity. The figure
+displays treatment effects of the negative and positive
+manipulation on turnout (the likelihood of rating) and
+positivity (the proportion of positive votes) for negative
+(positive) raters, defined as active raters (with at least
+100 votes on control comments) who display less than
+(greater than) the median proportion of positive votes
+on control comments. Results displayed in red are sta-
+tistically significant at the 95% level, whereas results
+displayed in gray are not. (A) Treatment effect of the
+negative manipulation on positivity; (B) treatment effect
+of the positive manipulation on positivity; (C) treatment
+effect of the negative manipulation on turnout; and (D)
+treatment effect of the positive manipulation on turnout.
+In each panel, the first estimate is the treatment effect
+on negative raters, the second estimate is the treatment
+effect on positive raters, and the third estimate is the
+ratio of the treatment effects on negative/positive raters.
+The treatment effects displayed are odds ratios of the
+treatment effect on the treated compared to the control
+for negative and positive raters. The negative manipu-
+lation created countervailing opinion change for positive
+and negative raters, increasing the positivity of negative
+raters and decreasing the positivity of positive raters,
+whereas both treatments increased turnout uniformly
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+across both subgroups.
+
+behavioral mechanisms that together explain the
+experimental results (see “Estimating Behavioral
+Mechanisms” in the supplementary text).
+
+First, both treatments increased turnout
+(by 82 and 28% for first viewers of down- and
+up-treated comments, respectively), but neither
+created differential tumout for different types of
+voters. This suggests that selection, or differential
+turnout by voter type (e.g., selecting different
+proportions of positive or negative voters, or fre-
+quent or infrequent voters), cannot explain our
+results. Second, we found statistically significant
+opinion change in two of the four subgroup di-
+mensions. The positive treatment created a sys-
+tematic increase in the proportion of positive
+ratings forraters with little prior experience rating
+the particular commenter whose comment was
+manipulated (a 7% increase in the ratio of pos-
+itive to negative votes and a 50% increase in the
+probability of up-votes for these raters) and no
+decrease in positivity in any subgroup. This im-
+plies that positive opinion change explains part
+of the variation in positive herding. The nega-
+tive treatment, by contrast, created countervailing
+opinion change for positive and negative raters,
+cancelling out any aggregate-level evidence of
+opinion change (Fig. 5). This in part explains
+why we find no aggregate trend in either direc-
+tion for the negative treatment. Third, both treat-
+ments created a uniform increase in tumnout across
+voter types. This overall increase in tumout, com-
+
+9 AUGUST 2013 VOL 341
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+down-treated up-treated
+55 A B
+4 -_
+oa
+37 &.
+=
+@ 27 ie
+©
+@ it---l----------------|}---+-----4------}---
+3
+8 f
+S 0
+o
+a c D
+» 2.55
+€
+o
+E
+@ 2.04
+KE €
+3
+2
+1.55 | >
+1Op eee enn en ne ee nn nnn n nn ee nn nn eee ee
+T T T T T
+. sh
+x x s x x xs
+< < J < < Si
+so so \g so oh \g
+ss x ss x
+SF F we SF S we
+¢ g Na ¢ g g
+¢ ¢
+< <
+Subgroup
+bined with a general preference for positivity References and Notes
+on the site, created a tendency toward positive 1. J. A. Chevalier, D. Mayzlin, }. Mark. Res. 43, 345-354
+ratings under both treatments. Prior work has (2006).
+wee . . 2. D. G. Pope, j. Health Econ. 28, 1154-1165
+shown a preference for positivity in ratings in (2009).
+other contexts , which suggests that these re- 3. C. Dellarocas, Manage. Sci. 49, 1407-1424
+sults will generalize. Together, these findings sug- (2003).
+gest that a mixture of changing opinion and the 4. L. Cabral, A. Hortacsu, The dynamics of seller reputation:
+I tendency to up-vote together with ater Theory and evidence from eBay.” National Bureau
+nal y P , gre of Economic Research, working paper w10363
+turnout under both manipulations, combine to (2004).
+create the herding effects we see (see “Estimat- 5. M. J]. Salganik, P. S. Dodds, D. J. Watts, Science 311,
+ing Behavioral Mechanisms” in the supplemen- 854-856 (2006). / /
+t text) 6. A. W. Woolley, C. F. Chabris, A. Pentland, N. Hashmi,
+ary . .. T. W. Malone, Science 330, 686-688 (2010).
+Our results demonstrate that whereas positive 7. S. Bikhchandani, D. Hirshleifer, |. Welch, }. Polit. Econ.
+social influence accumulates, creating a tendency 100, 992 (1992).
+toward ratings bubbles, negative social influence 8. D. Hirshleifer, in The New Economics of Human /
+is neutralized by crowd correction (29). Our find- Behaviour, Mt Tommasi, K. lerulli, Eds. (Cambridge Univ.
+. ar . Press, Cambridge, UK, 1995), pp. 188-215.
+mgs suggest that social influence substantially 9. R. K. Merton, Social Theory and Social Structure (Free
+biases rating dynamics in systems designed to Press, New York, 1968).
+harness collective intelligence. Future research —10. H. A. Simon, Biometrika 42, 425 (1955).
+that further explores the mechanisms driving 11. A.-L. Barabdsi, R. Albert, Science 286, 509-512
+ran . . . (1999).
+individual and aggregate ratings especially m 12. J.-P. Onnela, F. Reed-Tsochas, Proc. Natl. Acad. Sci. U.S.A
+in vivo social environments—will be essential to 107, 18375-18380 (2010).
+our ability to interpret collective judgment ac- 13. |. L. Janis, Groupthink: Psychological Studies of Policy
+curately and to avoid social influence bias in Decisions and Fiascoes (Cengage Learning, Boston, MA,
+lective intelli Wi ticipate that ed. 2, 1982}.
+co ee Ive m e! Igence. © an 1eIpa € that OUr €X- 14. J. Lorenz, H. Rauhut, F. Schweitzer, D. Helbing, Proc.
+periment will mspire more sophisticated analyses Natl. Acad. Sci. U.S.A. 108, 9020-9025 (2011).
+of social influence bias in electoral polling, stock 15. C. Danescu-Niculescu-Mizil, G. Kossinets, J. Kleinberg,
+
+market prediction, and product recommendation
+and that these results will be used to adapt rating
+and review technologies to account for social
+influence bias in their outputs.
+
+L. Lee, How opinions are received by online communities:
+
+A case study on amazon.com helpfulness votes, in
+Proceedings of the 18th International Conference on
+World Wide Web (Association for Computing Machinery,
+New York, 2009), pp. 141-150.
+
+SCIENCE www.sciencemag.org
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+B
+
+6. C. A. Hidalgo, R. A. Castro, C. Rodriguez-Sickert, New }.
+
+Phys. 8, 52 (2006).
+
+E. Bakshy, B. Karrer, L. A. Adamic, Social influence and
+
+the diffusion of user created content, in Proceedings of
+
+the 10th ACM Conference on Electronic Commerce
+
+(Association for Computing Machinery, New York, 2009},
+
+pp. 325-334,
+
+18. J. Leskovec, A. Singh, J. Kleinberg, Patterns of influence
+in a recommendation network, in Advances in Knowledge
+Discovery and Data Mining, Lecture Notes in Computer
+Science (Springer, Berlin, Heidelberg, 2006}, vol. 3918,
+pp. 380-389.
+
+19. F. Wu, B. A. Huberman, /nternet and Network Economics
+5385, 334-341 (2008).
+
+20. N. Archak, A. Ghose, P. G. Ipeirotis, Manage. Sci. 57,
+1485-1509 (2011).
+
+21. C. F. Manski, Rev. Econ. Stud. 60, 531-542
+
+(1993).
+
+S. Aral, L. Muchnik, A. Sundararajan, Proc. Natl. Acad.
+
+Sa. U.S.A. 106, 21544-21549 (2009).
+
+17.
+
+~
+
+22.
+
+N
+
+23. S. Aral, Mark. Sd. 30, 217-223 (2011).
+
+24, S. Aral, D. Walker, /EEE fntell. Syst. 26, 91-96
+
+(2011).
+
+S. Aral, D. Walker, Manage. Sci. 57, 1623-1639
+
+(2011).
+
+26. S. Aral, D. Walker, Science 337, 337-341 (2012).
+
+27. C. R. Shalizi, A. C. Thomas, Sociol. Methods Res. 40,
+211-239 (2011).
+
+28. C. L. Apicella, F. W. Marlowe, J. H. Fowler, N. A.
+Christakis, Nature 481, 497-501 (2012).
+
+29. D. Centola, R. Willer, M. Macy, Am. }. Sociol. 110,
+1009-1040 (2005).
+
+25.
+
+ua
+
+Acknowledgments: We thank D. Eckles and D. Watts for
+invaluable discussions. This work was supported by a Microsoft
+Research faculty fellowship (S.A.} and by NSF Career Award
+0953832 (S.A.). The research was approved by the New York
+University institutional review board. There are legal obstacles
+to making the data available and revealing the name of the
+Web site, but code is available upon request. All of the user
+
+REPO
+
+data that we analyzed is publically available, except the
+treatment assignment and the random identifier that links a
+deidentified user to a vote, and therefore does not contain any
+other information that cannot be obtained by crawling the
+Web site. The randomized testing that the Web site performed
+is covered by the Web site’s terms of service. Opt-in
+permissions were granted by the users when they registered
+for the Web site. No data on nonregistered users was collected.
+
+Supplementary Materials
+www.sciencemag.org/cgifcontent/full/341/6146/647/DC1
+Materials and Methods
+
+Supplementary Text
+
+Tables $1 to $21
+
+Figs. $1 to $16
+
+References (30-57)
+
+14 May 2013; accepted 16 July 2013
+10.1126/science.1240466
+
+ 
+
+Pluripotent Stem Cells Induced
+from Mouse Somatic Cells
+by Small-Molecule Compounds
+
+Pingping Hou,’* Yangin Li,’* Xu Zhang,** Chun Liu,”2* Jingyang Guan,’* Honggang Li,*
+Ting Zhao,'+ Junging Ye,"”+ Weifeng Yang,?+ Kang Liu,’t Jian Ge,’”+ Jun Xu,'+ Qiang Zhang, "2+
+
+Yang Zhao,'+ Hongkui Deng’?+
+
+Pluripotent stem cells can be induced from somatic cells, providing an unlimited cell
+resource, with potential for studying disease and use in regenerative medicine. However,
+genetic manipulation and technically challenging strategies such as nuclear transfer
+
+used in reprogramming limit their clinical applications. Here, we show that pluripotent
+
+stem cells can be generated from mouse somatic cells at a frequency up to 0.2% using a
+combination of seven small-molecule compounds. The chemically induced pluripotent
+
+stem cells resemble embryonic stem cells in terms of their gene expression profiles, epigenetic
+status, and potential for differentiation and germline transmission. By using small molecules,
+exogenous “master genes” are dispensable for cell fate reprogramming. This chemical
+reprogramming strategy has potential use in generating functional desirable cell types
+
+for clinical applications.
+
+stem cells (ESCs), can self-renew and
+
+differentiate into all somatic cell types.
+Somatic cells can be reprogrammed to become
+pluripotent via nuclear transfer into oocytes or
+through the ectopic expression of defined factors
+(7-4). However, exogenous pluripotency-associated
+factors, especially Oct4, are indispensable for es-
+tablishing pluripotency (5—7), and previous repro-
+gramming strategies have raised concerns regarding
+the clinical applications (8, 9). Small molecules
+have advantages because they can be cell perme-
+able, nonimmunogenic, more cost-effective, and
+more easily synthesized, preserved, and standard-
+
+Pe stem cells, such as embryonic
+
+“College of Life Sciences and Peking-Tsinghua Center for Life
+Sciences, Peking University, Beijing 100871, China. *School
+of Chemical Biology and Biotechnology, Peking University
+Shenzhen Graduate School, Shenzhen 518055, China. 3Beijing
+Vitalstar Biotechnology Co., Ltd., Beijing 100012, China.
+
+*These authors contributed equally to this work.
+
++These authors contributed equally to this work.
++Corresponding author. E-mail: hongkui_deng@pku.edu.cn
+(H.D.); yangzhao@pku.edu.cn (Y.Z.)
+
+www.sciencemag.org SCIENCE VOL 341
+
+ized. Moreover, their effects on inhibiting and
+activating the function of specific protems are
+often reversible and can be finely tuned by varying
+the concentrations. Here, we identified small-
+molecule combinations that were able to drive the
+reprogramming of mouse somatic cells toward
+pluripotent cells.
+
+To identify small molecules that facilitate cell
+reprogramming, we searched for small molecules
+that enable reprogramming in the absence of Oct4
+using Oct4 promoter-driven green fluorescent pro-
+tein (GFP) expression (OG) mouse embryonic
+fibroblasts (MEFs), with viral expression of Sox2,
+Kif4, and c-Myc. After screening up to 10,000 small
+molecules (table S1A), we identified Forskolin
+(FSK), 2-methyl-5-hydroxytryptamine (2-Me-
+5HT), and D4476 (table S1B) as chemical “sub-
+stitutes” for Oct4 (Fig. 1, A and B, and figs. S1
+and 82). Previously, we had developed a small-
+molecule combination “VC6T” [VPA, CHIR99021
+(CHIR), 616452, Tranylcypromine], that enables
+reprogramming with a single gene, Oct4 (6). We
+next treated OG-MEFs with VC6T plus the chem-
+
+ical substitutes of Oct4 in the absence of trans-
+genes. We found that VC6T plus FSK (VC6TF)
+induced some GFP-positive clusters expressing
+E-cadherin, a mesenchyme-to-epithelium transi-
+tion marker, reminiscent of early reprogramming
+by transcription factors (/0, 1/) (Fig. 1C and fig.
+83). However, the expression of Oct4 and Nanog
+was not detectable, and their promoters remained.
+hypermethylated, suggesting a repressed epige-
+netic state (fig. $3).
+
+To identify small molecules that facilitate late
+reprogramming, we used a doxycycline (DOX)-
+inducible Oct4 expression screening system,
+adding DOX only in the first 4 to 8 days (6). Small-
+molecule hits, including several cAMP agonists
+(FSK, Prostaglandin E2, and Rolipram) and epi-
+genetic modulators [3-deazaneplanocin A (DZNep),
+5-Azacytidine, sodium butyrate, and RG108], were
+identified in this screen (fig. S4 and table S1B).
+
+To achieve complete chemical reprogramming
+without the Oct4-inducible system, these small
+molecules were further tested in the chemical re-
+programming of OG-MEFs without transgenes.
+When DZNep was added 16 days after treatment
+with VC6TF (VC6TFZ), GFP-positive cells were
+obtained more frequently by a factor of up to 65
+than those treated with VC6TF, forming compact,
+epithelioid, GFP-positive colonies without clear-
+cut edges (Fig. 1, D and E, and fig. S5). In these
+cells, the expression levels of most pluripotency
+marker genes were elevated but were still lower
+than in ESCs, suggesting an incomplete repro-
+gramming state (fig. S6). After switching to 2i-
+medium with dual inhibition (21) of glycogen
+synthase kinase-3 and mitogen-activated protein
+kinase signaling after day 28 posttreatment, cer-
+tain GFP-positive colonies developed an ESC-like
+morphology (domed, phase-bright, homogeneous
+with clear-cut edges) (Fig. IF) (12, 13). These col-
+onies could be further cultured for more than 30
+passages, maintaining an ESC-like morphology
+(Fig. 1, Gand H). We refer to these 2i-competent,
+ESC-like, and GFP-positive cells as chemically
+induced pluripotent stem cells (CiPSCs).
+
+Next, we optimized the dosages and treatment
+duration of the small molecules and were able
+to generate 1 to 20 CiPSC colonies from 50,000
+
+9 AUGUST 2013
+
+RTS
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+
+651
+Science
+
+Social Influence Bias: A Randomized Experiment
+Lev Muchnik, Sinan Aral, and Sean J. Taylor
+
+Science, 341 (6146), * DOI: 10.1126/science.1240466
+
+Follow the Leader?
+
+The Internet has increased the likelihood that our decisions will be influenced by those being made around us. On
+the one hand, group decision-making can lead to better decisions, but it can also lead to “herding effects” that have
+resulted in financial disasters. Muchnik ef al. (p. 647) examined the effect of collective information via a randomized
+experiment, which involved collaboration with a social news aggregation Web site on which readers could vote and
+comment on posted comments. Data were collected and analyzed after the Web site administrators arbitrarily voted
+positively or negatively (or not at all) as the first comment on more than 100,000 posts. False positive entries led to
+inflated subsequent scores, whereas false negative initial votes had small long-term effects. Both the topic being
+commented upon and the relationship between the poster and commenter were important. Future efforts will be
+needed to sort out how to correct for such effects in polls or other collective intelligence systems in order to counter
+social biases.
+
+View the article online
+
+https:/Avww.science.org/doi/10.1126/science. 1240466
+Permissions
+
+https:/Avww.science.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of service
+
+ 
+
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+Copyright © 2013, American Association for the Advancement of Science
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+

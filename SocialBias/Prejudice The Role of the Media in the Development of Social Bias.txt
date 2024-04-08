@@ -1,0 +1,3098 @@
+® Check for updates
+
+ 
+
+Article
+Journalism & Communication Monographs
+° ° 15(4) 219-270
+Prejudice: The Role of the ©2013 AgMC
+° ° Reprints and permissions:
+Med la In the Development sagepub.com/journalsPermissions.nav
+e e DOI: 10.1177/15226379 13504401
+of Soc I al B las jemo.sagepub.com
+
+@SAGE
+
+Kim Bissell! and Scott Parrott!
+
+Abstract
+
+Numerous studies document the existence of bias: bias against gender, race, sexual
+orientation, age, mental illness, and body shape or weight. This article presents a
+model of bias development, which helps explain the influence of mediated, individual,
+social, and ideological influences on the development of bias. This article applies the
+proposed model using four experimental studies that examine weight bias in children
+and adults. The results from the four studies lend empirical support for the model.
+Data from the studies suggest the explication of a theoretical model is necessary
+to understand the factors related to the development of bias against a variety of
+groups, character traits, or attributes in others. It is difficult to argue that any one
+factor whether it be media, individual, social, or ideology “trumps” other factors as
+the development of bias seems to be very individualistic. Therefore, a model that
+represents the myriad of factors identified above is proposed.
+
+Keywords
+media, bias, stigma, prejudice
+
+Introduction
+
+Attitudes influence the way we interact with the world, including our day-to-day expe-
+riences with other people, groups, and issues. We hold explicit attitudes or subjective
+views of which we are cognizant. We also hold implicit attitudes and associations that
+we might not even recognize because they are unconscious or automatic. But how do
+these attitudes—these prejudices or biases—develop? Certainly, the media inform our
+attitudes toward other people. Whether fact or fiction, media content involves plots
+
+ 
+
+‘University of Alabama, Tuscaloosa, AL, USA
+
+Corresponding Author:
+
+Kim Bissell, Professor, Department of Journalism, University of Alabama, P.O. Box 870172, Tuscaloosa,
+AL 35487, USA.
+
+Email: kbissell@ua.edu
+220 journalism & Communication Monographs | 5(4)
+
+ 
+
+centered on social actors. We draw inferences about people—even real-life people—
+based on the attitudes and behaviors of these social actors. Indeed, social scientists
+have examined media content and how it influences our social perception using prim-
+ing,! cultivation,? framing, social cognitive theory,* and other popular theories of
+mass communication. The research suggests that media often provide audiences ste-
+reotypical portraits of people based on how old they are,* their race/ethnicity,® their
+mental health,’ their gender,’ the amount they weigh,° and a host of other traits.
+Furthermore, exposure to media content may influence audiences’ attitudes and/or
+beliefs about race,!° body shape/size,'! age,!? sexuality,!? mental health,'* and other
+characteristics. Simply put, media content often contains stereotypes about social
+groups, and a growing body of research is examining how the media may help nurture
+(or mitigate) stereotypes, prejudice, and discrimination.
+
+Nevertheless, media alone cannot explain how people form prejudice, which is a
+positive or negative evaluation of a person based on the social group to which they
+belong (or don’t). Instead, people bring individual, social, and ideological backgrounds
+into the viewing or listening environment. As the literature in social psychology
+shows, these factors can have profound effects on the formation, experience, and
+expression of prejudice. Therefore, we advocate a more holistic approach for the study
+of media and prejudice. When social scientists consistently account for mediated, indi-
+vidual, social, and ideological factors, our understanding of prejudice deepens. So,
+too, does our understanding of how mediated environments shape our perceptions of
+the people in the world around us. This study presents a theoretical model of bias
+development, which helps explain these four classifications of influence on the devel-
+opment and reinforcement of bias. Later in the monograph, the study applies the pro-
+posed model using four experimental studies that examine weight bias in children and
+adults. The results support the model, showing that mediated, individual, social, and
+ideological factors inform the development of implicit and explicit prejudice.
+
+Before explicating and testing the model, the monograph first reviews literature on
+mediated, individual, social, and ideological factors involved in the development of
+bias from a viewpoint that melds mass communications and social psychology.
+Second, the study reviews relevant theories and conceptual models, including their
+limitations. Third, results from four experimental studies examining weight bias are
+summarized, which help shape the development of the proposed model. Fourth, the
+study presents the proposed model of bias development. Finally, the study examines
+ways in which the model may inform future research. Thus, the significance of the
+present work is that it merges theories and findings from several disciplines in a way
+that provides meaningful and valuable understanding as it relates to the development
+of bias. Finally, the inclusion of media exposure as a correlate or precursor of bias
+contributes to and advances knowledge in a meaningful way.
+
+While certain prejudices may be less overt today than in decades past, they con-
+tinue to influence modern beliefs, emotions, and behavior. Nevertheless, certain social
+characteristics remain openly stigmatized in the United States, including the focus of
+the studies outlined here: obesity. The prevalence of obesity drastically increased
+since the 1990s, topping 20% in every state by 2011.!° Obesity carries significant
+mental health consequences, partly because American society stigmatizes heavy body
+Bissell and Parrott 221
+
+ 
+
+shapes and sizes. Indeed, a growing body of literature indicates that obese or over-
+weight people are discriminated against or stigmatized in a number of areas, including
+social settings, school, and the workplace.'!® What remains unknown is how weight-
+based prejudice forms. Like many other prejudices, negative weight-based attitudes
+manifest during childhood. Children and adolescents assign negative personality and
+character traits to overweight peers,!’ perceiving obese youths as lazy, less confident,
+less healthy, and less attractive. While negative stereotypes and weight-based atti-
+tudes are well documented, we understand less about their precursors and the role of
+media content in the formation of social bias. The present article addresses the gap,
+beginning with an explication of prejudice.
+
+Prejudice
+
+Prejudice is a form of attitude, which Gordon Allport labeled as “probably the most
+distinctive and indispensable concept in contemporary American social psychology”
+(p. 798).!9 More than seventy-five years later, attitude remains an indispensable con-
+cept in psychology, mass communications, and other fields of social scientific inquiry.
+Perhaps because of its ubiquitous nature, the attitude concept has not been defined in
+one overarching way. Attitude has been defined as a general and enduring positive or
+negative evaluation of an attitude object, which includes people, issues, events, and
+other targets.?° It also has been defined using memory-based approaches, including
+Fazio’s conceptualization of attitude as an association between an evaluation and
+object.?! Recent research has questioned whether attitudes are necessarily enduring, or
+perhaps constructed on the spot using information available during the particular con-
+text.* Therefore, the research presented here uses the more holistic and general con-
+ceptualization provided by Eagly and Chaiken, who defined attitude as “a psychological
+tendency that is expressed by evaluating a particular entity with some degree of favor
+or disfavor” (p. 1).2? In the case of prejudice and bias, the “particular entity” is a per-
+son, and the favor or disfavor is based on group-based characteristics such as weight,
+race, gender, religion, mental health. While conceptual definitions differ, most schol-
+ars agree that attitudes involve some form of evaluation. In the “umbrella” conceptu-
+alization provided by Eagly and Chaiken, evaluation includes “all classes of evaluative
+responding, whether overt or covert, cognitive, affective, or behavioral” (p. 1).¥
+Attitudes last at least a short period of time, and the use of the term here makes allow-
+ances for the debate about the temporal nature of attitudes.
+
+Attitudes include three classes of antecedents: cognitive, affective, and behav-
+ioral.24 People may use previous behaviors as the basis of an attitude, as people
+prefer to maintain consistency. In addition, affect may shape attitudes, an assump-
+tion underlying research in classical conditioning. When an individual repeatedly
+suffers an electric shock following exposure to a stimulus object, he or she may
+quickly associate the object and negative affect even when the punishment no longer
+
+*For a review see Gerd Bohner and Nina Dickel, “Attitudes and Attitude Change,” Annual
+Review of Psychology 62 (2011): 391-417.
+222 journalism & Communication Monographs | 5(4)
+
+ 
+
+occurs. Conversely, positive affect may be attached to attitude objects when the
+association is constructed through reward rather than punishment. The cognitive
+component includes an individual’s beliefs. Petty and Cacioppo defined beliefs as
+“the information that a person has about other people, objects, and issues” (p. 7).25
+Beliefs may be factual or based on personal opinion, and they may be accurate or
+inaccurate.2° For example, stereotypes are a type of belief that is based on social
+group membership. A common stereotype concerning mental illness is that it makes
+a person dangerous and unpredictable. Informed by an unfounded belief, a person
+may negatively evaluate a person who has mental illness. The evaluation would
+represent an attitude. In fact, it would represent the specific type of attitude investi-
+gated here, prejudice.
+
+While the concept of prejudice certainly informs research involving race rela-
+tions, scholars have also studied prejudice based on age, gender, sexuality, mental
+health, weight, and other social categories. Certain areas of research, including
+weight-based prejudice, sometimes use the terms “bias” and “stigmatization” inter-
+changeably with prejudice. The research presented here differentiates among the
+terms. As prejudice often invokes negative connotations, the word bias may better
+represent the underlying meaning because most people likely would agree that bias
+may be positive or negative. Bias and prejudice may inform discrimination, which
+occurs when an individual is treated differently based on group membership. It is
+also a component of stigmatization, an overall process in which a person is labeled
+(or socially categorized), stereotyped, and discriminated against within a power
+environment.?’ Bias and prejudice may lead to discrimination, but sometimes that
+belief is not something an individual is even aware of as attitudes may be implicit or
+explicit in nature.
+
+Implicit and Explicit Attitudes
+
+Much scholarly attention has examined the formation of attitudes—evaluations of the
+self, individuals, groups, and other objects**—and in the course of examining this area
+of social psychology, the focus of research has shifted from understanding explicit
+attitudes—attitudes that people can consciously report and attitudes that can be con-
+sciously controlled—to examining implicit attitudes—attitudes for which people do
+not have conscious access and “for which activation cannot be controlled” (p. 239).29
+Greenwald and Banaji suggest the key difference between implicit and explicit atti-
+tudes is they represent what an individual is consciously aware of, or not, or whether
+an individual responds automatically or in a controlled fashion.*° Bargh, Chaiken,
+Govender, and Pratto and Fazio, Sanbonmatsu, Powell, and Kardes argue that attitudes
+are activated outside of conscious attention, and this happens because the activation is
+occurring more rapidly than can be managed by conscious activity.3! Negative beliefs
+and attitudes have been identified at the explicit and implicit level based on weight,*?
+race,** mental illness,*4 and other characteristics. No matter the stigmatized condition
+under study, research suggests mediated, individual, social, and ideological factors
+shape our attitudes.
+Bissell and Parrott 223
+
+ 
+
+Factors Relevant in Understanding the Development of
+Bias
+
+Media Influences
+
+Media are often inescapable in today’s environment, and the messages media outlets
+disseminate surely shape the way we perceive the world and other people. It has been
+suggested that the mass media are the most potent and pervasive communicators of
+sociocultural standards in America.*> Accordingly, it is important to examine media as
+a driving component in the development of prejudice. The average American adult
+spends 5.20 hours watching television each day and 3 hours per day using computers
+and the Internet. Children are also “glued” to the screen, whether it is TV (4.29 hours
+per day) or portable technology such as cellular phones (2 hours per day either talking
+or texting).
+
+The ubiquitous nature of the media means we are bombarded with messages about
+what characteristics and groups should be sanctioned or shunned, what we should
+think about, how we should behave toward others, and what we might expect from
+people based on the groups to which they belong. The media primarily shape prejudice
+through two routes: disseminating inaccurate information about social groups (includ-
+ing stereotypes), and informing audience members how society behaves toward and
+thinks about social categories. Perhaps the demand placed on media producers, who
+are responsible for condensing large amounts of information into short segments and
+articles, should be blamed for the presence of stereotypical content. However, stereo-
+types are products of normal cognitive processes*° and may therefore appear in media
+content through sheer accident. Regardless, inaccurate information about social groups
+frequently appears in television programs, newspapers, magazines, novels, and other
+media outlets. For example, the media frequently portray people with mental illness as
+violent, dangerous, unstable, unpredictable, and socially undesirable.*’ Stereotypes
+based on race/ethnicity,** gender,*® sexuality,*° age,*! and other social categories are
+also prevalent in American television, newspapers, magazines, movies, and other
+forms of media content. In regard to weight bias, content analyses suggest that media
+content often endorses the “thin ideal,” providing audience members inaccurate, often
+unattainable, and potentially harmful models for the preferred body shape and size. An
+overall message of “Thin is in, Stout is out’? is prevalent in everything from adoles-
+cent fiction to women’s magazines.“ Add to the overrepresentation of the thin ideal
+in a mediated context the representation of overweight in a stereotypical fashion, and
+viewers are left with perceptions about overweight individuals that might be negative.
+Overweight characters are subjected to negative remarks, both self-imposed and other-
+generated, more often than thin characters in situation comedies.** Overweight charac-
+ters are more likely to be shown eating, and less likely to be in a serious romantic
+relationship than thin characters.** The television world also underestimates the preva-
+lence of the overweight population—most characters are of thin or average build, con-
+trasting real-world statistics.47 Only 14% of female characters and 24% of male
+224 journalism & Communication Monographs | 5(4)
+
+ 
+
+characters in the top ten prime-time fictional programs of 1999 to 2000 were portrayed
+as overweight or obese—less than half their percentages in the general population.®
+Finally, television may also reinforce the ridicule of overweight or obese characters by
+playing audience applause when an overweight character becomes the subject of nega-
+tive commentary.“°
+
+A growing body of research, including the four experiments outlined here, is exam-
+ining how stereotypical media content may nurture stereotypes, prejudice, and dis-
+crimination. So far the findings are clear: stereotypical media content informs people’s
+attitudes toward others on the basis of race, gender, age, and other characteristics.
+Media effects occur via several mechanisms.
+
+Stereotypical media content may activate stereotypes, making them more readily
+available for subsequent information processing and perception tasks (priming).
+Informed by the network model of memory,°® media priming presents one of most
+theoretically and empirically robust mass communication approaches to explaining
+the mechanisms by which media nurture stereotypes and prejudice. The network
+model assumes that concepts are linked in memory by associative pathways. The path-
+ways form a network, such that priming one concept (“doctor”) will activate closely
+related concepts (“nurse,” “hospital”) and make them more readily available for appli-
+cation in subsequent decision- and impression-making tasks. For example, audience
+members primed with the “mammie” or “jezebel’” stereotype through media content
+later reported congruent attitudes and perceptions when they were asked to rate a black
+female job applicant.5! The strength of the priming effect depends on the recency of
+the priming event and the frequency with which concepts are associated and acti-
+vated.*? The network model assumes that the priming effect dissipates with time, often
+within minutes or even seconds of the priming event. Through priming, media content
+may influence our perceptions of people based on race,** gender,*4 mental health,*
+and other characteristics. The network model may in fact help explain the formation of
+attitudes through the repeated pairing of concepts by personal experience, friends,
+family, ideologies, and the media, especially when one takes the constructionist posi-
+tion that attitudes are formed on the spot in reaction to contextual circumstances. The
+temporal nature of media priming limits its power as an explanation for the formation
+of prejudice. While media priming effects may dissipate within minutes or even sec-
+onds, prejudiced attitudes appear longer lasting. Indeed, television content may nur-
+ture misconceptions about the prevalence and characteristics of social groups after
+long-term exposure (cultivation). Cultivation represents another relevant and popular
+theory. Simply put, cultivation theory predicts people who watch significant amounts
+of television will report worldviews more in-line with television portrayals than peo-
+ple who spend little time with the TV. Television became “the great storyteller” of our
+time, replacing pastors, parents, teachers, and traditional cultural communicators.*¢
+Early cultivation theorists consider the homogeneity of television content potentially
+problematic, because the mass messages were essentially being conveyed to mass
+audiences by few communicators.*’ In other words, a few corporations controlled the
+airwaves, disseminating similar messages to dissimilar cultures around the world.
+Gerbner predicted a “mainstreaming” effect would occur when cultures were
+Bissell and Parrott 225
+
+ 
+
+inundated with these homogeneous messages. Cultures ultimately would assimilate
+and adopt worldviews reflecting the dominant, mainstream, corporate message. While
+cultivation remains a heavily cited theory in the top communication journals, scholars
+focused less on the “corporate control” component of the theory and more on how
+heavy and light television viewers differ in their attitudes toward issues, events, and
+people. Certainly, television provides audiences stereotypical portrayals based on gen-
+der,°® mental illness,>9 race,® weight,®! sexuality,°2 and other characteristics.
+Cultivation theory predicts heavy television viewers would report more stereotypical
+and prejudiced views than light television viewers. For example, Morgan found that
+male and female adolescent students who watched more television had higher scores
+on sexism measures than those who watched less television.©? Addressing the primary
+criticism concerning cultivation theory, more recent research examined availability
+heuristics as the cognitive mechanism by which cultivation effects occur.*+ The
+research suggests heavy television exposure enhances the heuristic in viewers’ mem-
+ory, making particular cognitive associations more salient and therefore more appli-
+cable for estimations, attitude reports, and other tasks.®> Despite recent advances,
+cultivation theory is an inadequate explanation for the factors contributing to prejudice
+and social bias. The theory primarily focuses on the role of the media in attitude for-
+mation, discounting individual characteristics as an important contributor to bias.
+Cultivation effects should occur regardless of an individual’s race, gender, and socio-
+economic background. Instead, cultivation theory predicts differences in worldviews
+according to the amount of television an individual watches. Therefore, the theory is
+inadequate for explaining the phenomena studied here. Cultivation as a single theory
+of bias development does not account for individual differences in those consuming
+media; however, when considered with other theoretical frameworks that might
+explain how individual factors might covary with media consumption, the theory may
+prove more useful.
+
+When people sit down to the TV, newspaper, magazine, or other media, they may
+differentially process the information they encounter based on existing cognitive
+approaches (cognitive-experiential self-theory). Cognitive-experiential self-theory is a
+broadly integrated theory of personality that is grounded in the distinction between
+two independent information processing systems: an experiential system that pro-
+cesses information simply and automatically, and a rational system that operates based
+on an individual’s understanding of logic and reasoning.®* In more simplistic terms,
+Epstein describes the experiential system as one that is intuitive, concrete, and affec-
+tive, and the rational system as one that is logical, abstract, and conscious.* Theorists
+of Cognitive Experiential Self Theory (CEST) suggest that the experiential processing
+system in humans is similar to the system by which animals adapt to their environ-
+ments, by learning from experiences rather than making decisions via logical or ratio-
+nal inference. Epstein argues that even though the experiential system is part of a
+cognitive system, its existence is closely related to the experience of affect (p. 5)
+because if an individual is learning from experience, those experiences will likely trig-
+ger a positive or negative affect or reinforcement. In the context of this study, if an
+individual is exposed to the negative treatment of others who are overweight via a
+226 journalism & Communication Monographs | 5(4)
+
+ 
+
+mediated context or personal venue, that individual may be influenced on an affective
+level, causing the individual to feel one way or another about the overweight individ-
+ual. In some cases, an individual might be more sympathetic or empathetic to similar
+others, but in other cases, the individual may be more susceptible to believe that there
+are numerous disadvantages associated with being overweight. By its basic definition
+and by the distinct differences between the two systems—one operating more on the
+conscious level and the other operating more on the unconscious level—it is argued
+that this theory serves as a foundation by which implicit and explicit attitudes are
+formed.
+
+Media content may highlight certain bits of information, such as stereotypes, while
+ignoring others, making the information more salient (framing). Finally, audiences
+may learn from the behaviors and consequences of media personalities, and later
+model the behavior in the real world (social cognitive theory of mass communication).
+Children’s videos frequently stress the importance of physical appearance, including
+thin body shape.® Conversely, overweight characters in top-rated television programs
+endure ridicule and demonstrate stereotypical traits such as gluttony and social
+ineptitude.”°
+
+As the theories demonstrate, media content may be particularly influential in atti-
+tude formation and change especially when an individual knows nothing about the
+relevant attitude object or holds particularly malleable dispositions toward the target.
+For example, a child who knows nothing about mental illness may learn through
+Saturday morning cartoons to associate words such as “crazy” and “nuts” with social
+exclusion, violence, and negative valence, especially when family, friends, school,
+and other sources of influence provide no contradicting information. However, people
+rarely—if ever—have blank mental slates for social categories when they enter the
+media environment. Therefore, the likelihood is greater that an individual audience
+member enters the mediated environment carrying preexisting prejudices, which influ-
+ence the way in which the person processes the content and, in turn, experiences atti-
+tude formation, reinforcement, or change. Overall, three additional categories appear
+to interact with mass media to influence prejudice: ideological factors, including polit-
+ical affiliation and religiosity; social influences, including familial and interpersonal
+environments; and individual characteristics, including personal experience with
+social groups and knowledge about social groups.
+
+Individual Influences
+
+The very processes involved in social categorization represent an important and abun-
+dant line of scientific inquiry in psychology, presenting media researchers important
+information about how individual characteristics may inform our reactions to media
+content. Humans automatically classify other people based on race, gender, age, and
+other characteristics.”! Categorization triggers associated concepts in memory, such
+that relevant stereotypes—or beliefs—come to mind when one person encounters
+another. As stereotypes are activated, they are more readily accessible for application
+in decision making, attitude expression, and behavior. It remains debated whether an
+Bissell and Parrott 227
+
+ 
+
+individual can control the influence of activated stereotypes on subsequent perception
+and behavior,” and research also has produced differing results on how stereotype
+activation influences subsequent information processing and memory. While some
+research suggests that stereotype-congruent information may be better encoded (as the
+cognitive associations are already existent), other researchers found stereotype-
+incongruent information is better encoded, presumably because the information sur-
+prised participants and elicited greater attention. While people differentiate among
+in-group members, we tend to perceive out-group members in more homogeneous
+terms. In addition, the simple division between in-group and out-group, which occurs
+automatically and outside one’s conscious awareness, has consequences. People tend
+to automatically perceive out-group members in more negative terms than in-group
+members. While not prejudice, stereotypes certainly play a major role in our percep-
+tions of others based on group membership. Indeed, research has shown that anti-fat
+bias (AFB) is stronger in people who believe the primary cause of obesity is a lack of
+exercise and poor nutrition, rather than genetics.” Stereotypes may serve several func-
+tions for the social perceiver, aiding cognition and in-group cohesion, and providing
+boosts in self-esteem through the disparagement of another “different” person.
+Stereotypes essentially serve as cognitive shortcuts or heuristics. Therefore, an indi-
+vidual who prefers effortful thinking may be less inclined to rely on stereotypes when
+making judgments about other people. In other words, thoughtful people may be less
+dependent on group-based beliefs and individuate between a target and the social
+group to which the other individual belongs. Conversely, people who are cognitive
+misers or experiencing heavy cognitive load may be more reliant on stereotypes, and
+therefore more likely to demonstrate prejudice. In an interesting example, Bodenhausen
+found that people were more likely to stereotype during nonoptimal times of day. In
+other words, morning people demonstrated greater reliance on stereotypes at night,
+while “night owls” were more prone to stereotype in the morning.” The reasoning is
+that the cognitive ability is highest during an individual’s optimal time of day.
+
+In addition, personal factors may influence the way one individual perceives others,
+including gender, age, ethnicity, and, when it comes to AFB, their own weight.7> Much
+of the literature examining weight bias represents studies with children who may have
+some degree of bias at an earlier age but that bias will grow stronger or continue as the
+child grows older. Research examining the role of gender in weight bias has resulted
+in conflicting findings at best. While some research suggests no relation between gen-
+der and weight bias,” others” reported significant differences between boys and girls
+when it came to weight-based attitudes. While girls rated over- and average-weight
+targets more negatively than a thin target, boys only assessed overweight targets more
+negatively.’’ Furthermore, weight-based teasing and victimization of overweight indi-
+viduals were reported more by girls than boys in a study by Eisenberg, Neumark-
+Sztainer, and Story.”
+
+Age is another important variable in understanding the factors related to AFB, or
+potentially, other types of bias. Research suggests that weight bias, if existent in a
+child, would only worsen as the child gets older.8° What is less certain is the age at
+which weight bias begins. Despite the idiosyncratic nature of weight bias, earlier
+228 journalism & Communication Monographs | 5(4)
+
+ 
+
+studies do suggest that many of these demographic variables such as age offer a
+glimpse of how bias continues throughout a child’s growth and development. Cramer
+and Steinwert found that preschool children as young as three years and four years old
+were able to identify a target’s excess body weight as the reason for negative atti-
+tudes,*! and Lawson found that boys in second, fourth, and sixth grades demonstrated
+increasingly stronger negative attitudes toward overweight targets as they got older.*?
+Similar studies have found age to be a relevant predictor of other types of bias such as
+bias against physically disabled individuals or bias against individuals of another
+ethnicity.
+
+Finally, ethnicity is another important variable in understanding the individual fac-
+tors related to AFB. A few studies have examined whether children of different eth-
+nicities and different cultural backgrounds are more or less likely to have anti-fat
+attitudes and weight bias. In a study of college students’ perceptions of weight bias,
+Latner and Stunkard reported that African American females had more positive atti-
+tudes toward obese peers than did Caucasian males and females.*? However, a recent
+study examining weight bias in Caucasian and Hispanic middle school students found
+that regardless of the participants’ ethnicity or gender, weight bias was evident, and
+that there were no statistically significant differences across the ethnic groups.
+
+Social Influences
+
+While Gordon Allport blamed conformity for half of all prejudice, modern theorists
+say the figure may be an underestimate.*4 As Crandall and Stangor noted, “Conformity
+in matters of prejudice is not occasional, and is probably not to blame for merely half
+of all prejudices, but instead seems to form the very core of the majority of people’s
+prejudices” (p. 305).®° Conformity represents a specific form of social influence, one
+in which an individual changes his or her opinion to match others to maintain social
+appearances, avoid punishment, or to simply be accurate. Normative information, or
+beliefs about what others find socially acceptable, can exert significant influence over
+prejudice, including its formation and expression. For example, Crandall, Eshleman,
+and O’Brien found a relationship between self-reported prejudice toward social groups
+and participants’ perceptions of whether society would accept negative attitudes
+toward the group.®* Social influence may also be readily seen in mediated environ-
+ments: just turn on the television, choose a situation comedy, and you will encounter
+social influence in action through the producers’ use of canned applause and laughter.
+As canned laughter influences audience members’ perceptions of media content,*’ one
+might expect the viewing environment (friends, family, studio applause) would also
+sway how an individual processes media content. Put simply, stereotypical media con-
+tent may demonstrate greater influence over audience members when they perceive
+social support for the messages, including messages of prejudice based on race, gen-
+der, age, mental health, and weight.
+
+Normative information represents only one social factor in prejudice. Indeed, our
+biases are heavily influenced by friends, family, and the households and communities
+in which we reside. As noted, peers may communicate what actions, ideas, and
+Bissell and Parrott 229
+
+ 
+
+feelings are acceptable or condemnable. Peers communicate information, including
+stereotypes, which may contribute to our beliefs about other races, genders, religions,
+and social attributes. Furthermore, they represent our “in-group,” providing bench-
+marks by which we judge out-group members. Indeed, people endorse negative stereo-
+types about out-group members because it results in a collective self-esteem boost for
+the in-group. Humans are indeed social animals, and this connection with other people
+means we are readily susceptible to influence even in matters of prejudice.
+
+In adults and even adolescents, the social environment in regard to weight bias—
+including the number of friends an individual has who are overweight and the preva-
+lence of overweight/obesity in the household environment—may relate to the
+development or reinforcement of perceptions or beliefs about people who are over-
+weight. Parenting styles or parent behavior may also be a predictor of children’s views
+on weight. For example, Field and colleagues found that mothers who frequently
+attempt to lose weight might negatively influence their children.** Whether an indi-
+vidual comes from an individualist or collectivist cultural background may also influ-
+ence his or her biases toward and against other people. When Beatty measured degrees
+of individualism, collectivism, and attitudes toward the elderly in European American
+and Asian American college students, he found a negative correlation between col-
+lectivism and negative attitudes toward older adults.°?
+
+Ideological Influences
+
+In addition to individual and social backgrounds, people bring existing ideologies and
+orientations into the viewing, listening, or reading environment that may influence the
+extent to which media content nurtures prejudice. People exhibit different levels of
+religiosity and follow diverse religious doctrines. They endorse different issue-based
+stances and align with separate political parties. A person’s religiosity, political back-
+ground, or ideology may help determine whether he or she consumes specific media
+content,°° and how he or she views other people and normative behavior concerning
+social groups. Furthermore, an individual’s social dominance orientation has been
+shown to be a strong predictor of both political and social attitudes.°! Granted, indi-
+vidual and social influences feed into an individual’s ideology. Parents communicate
+religious beliefs to their children, who in turn endorse the beliefs themselves.
+Children often develop political affiliations based on parental influence.°? Nevertheless,
+we differentiate between ideology and the three other factors because of its specific
+role in prejudice. For example, political affiliation has been shown to influence atti-
+tudes related to race®* and mental illness.
+
+Weight-based attitudes research also supports the premise. O’Brien, Hunter, and
+Banks found a link between ideology and anti-fat attitudes among college students
+studying physical education (PE).°° Students three years into the PE program, and
+more indoctrinated in the PE environment, exhibited higher levels of bias against
+weight than psychology students and PE students only a year into the program.
+Furthermore, while difficult to test empirically, cultures that embrace beauty and thin-
+ness or equate success with beauty and thinness may have an implicit or explicit bias
+230 journalism & Communication Monographs | 5(4)
+
+ 
+
+against overweight. As a society or culture upholds specific cultural icons as it relates
+to appearance, messages about what is acceptable or not begin to filter down through-
+out communities. In this sense, an ideological bias against weight could be evident and
+could lead to bias against overweight.
+
+Introduction to the Current Work
+
+As noted, several theories help explain the development of bias. They represent diverse
+fields of research, including mass communication, social psychology, sociology, and
+other paradigms. Social learning,” priming,°* and cultivation” theories have informed
+much of the quantitative research examining the media’s influence on bias. Earlier, we
+noted the key assumptions, predictions, and explanations offered by each theory.
+While the theories certainly inform our understanding of media and prejudice, they
+cannot provide a holistic account of the precursors of prejudice. Therefore, we present
+here a model in which mediated, individual, social, and ideological variables interact
+in the development of prejudice. The approach is largely individualistic. Other theo-
+ries may touch on more than one dimension of bias development but still fall shy of
+completely explaining the phenomenon. For example, framing may help explain the
+way in which the media produce stigmatizing content as well as the underlying psy-
+chological mechanisms involved in processing the content.!°° In essence, the concep-
+tual model may help explain the role of both the media and the individual in the
+development of bias. Similarly, cultivation theory may help explain the way in which
+our consumption of the media, particularly heavy television viewing, influences our
+perceptions of the world.!°! More recent studies examined the underlying psychologi-
+cal processes of cultivation theory, proposing that heavy television viewing may influ-
+ence the availability heuristic.!°* Therefore, cultivation theory might explain both the
+mediated and individual factors. While several theoretical and conceptual models
+were developed in psychology and sociology, mass communications scholars also use
+the theories to help explain phenomena. For example, the basic premise of social com-
+parison theory is that we make judgments about ourselves based on the model set by
+others. While the theory primarily explains the social factor in bias development, espe-
+cially weight stigmatization, communications scholars extended the theory into the
+mediated setting.! Similarly, social learning theory proposes that we learn by watch-
+ing others—both in vivo and mediated settings—and behave based on the rewards,
+punishment, or lack of punishment generated through the witnessed actions.!™ Social
+cognitive theory, an outgrowth of social learning theory, comes closest to explaining
+the influence of the individual, social, ideological, and media factors in the develop-
+ment of bias.
+
+The literature reviewed and the theoretical frameworks summarized above provide
+a framework by which an empirical investigation of bias could be conducted. This
+study reports the findings from a series of experiments conducted by the authors.
+Findings from these studies lay the foundation for the proposed model, as each tests
+one or several of the factors discussed as possible levels of influence in the develop-
+ment of bias. The studies below were tested to identify correlates or precursors of
+Bissell and Parrott 231
+
+ 
+
+AFB; however, as will be explained below, the levels of influence explicated here
+could be used to explain the development of other types of bias.
+
+Summary of Methodologies Used
+
+Four separate studies were conducted over the course of four years to better under-
+stand the factors influencing the development of bias against overweight and obese
+individuals. Study procedures were similar across the four studies, and the indepen-
+dent and dependent measures only varied in word usage and sentence length. These
+decisions were based on the age and literacy rate of the sample participants. The
+objective of each of the four studies was to identify correlates or precursors to weight
+bias. Thus, in each of the four studies, a between-subjects experiment was con-
+ducted. With this design, we were able to prime participants with an image of an
+overweight or thin subject and then use cognitive and attitudinal measures to assess
+participants’ weight bias. The first experiment was conducted with children, and this
+study was simplest in terms of measures and factors related to bias against over-
+weight individuals. After analysis of the findings from the first study, a second
+experiment was designed, also with children, with more comprehensive measures
+that represented several predicted levels of influence of bias. At the same time as
+Study 2 was being conducted, a purposive sample was used to find individuals who
+identified as currently having weight issues or previously having weight issues, and
+data from this project are represented in Study 3. Last, a final study was done with
+another adult sample; however, participants in this study were recruited from under-
+graduate and graduate classes at two universities in the South. The design of each
+study was built upon the findings from the subsequent study such that a more com-
+prehensive understanding of bias and the development of bias could be gained.
+Finally, the objective of all studies was to identify the factors—individual, social,
+media, or ideological—that might be the strongest predictors of bias in each of the
+four separate samples.
+
+Procedures
+
+All four studies discussed below were experiments, and in one of the four cases, a
+within- and between-subjects experimental design was used. This was to allow for
+longitudinal data collection and to also see how attitudes about weight changed in
+children over time. In all four studies, participants completed an online instrument and
+addressed items related to self-perception, peer and family influence, household diet-
+ing behavior, eating and exercise behavior, eating and exercise attitudes, and media
+exposure. Participants in all four studies also completed a modified version of the
+Implicit Association Test (IAT), designed to measure attitudes related to weight. The
+original study (Study 1) was designed to examine the correlates of weight bias in chil-
+dren, and each subsequent study was modified, revised, or expanded based on the
+results from the earlier study.
+232 journalism & Communication Monographs | 5(4)
+
+ 
+
+Stimulus
+
+As the goal of each study was to identify correlates or precursors to weight bias, we
+wanted to have multiple measures of the key outcome variable—AFB. Thus, we used
+two separate measures of AFB, one that was more global in nature that measured gen-
+eral attitudes toward overweight, and the second that measured participant responses
+to an image they were exposed to via the stimulus. In two of the five groups for each
+of the four studies, participants were exposed to an image of an overweight man/boy
+or woman/girl. The purpose was to see whether exposure to an overweight individual
+might trigger greater amounts of bias against overweight. To facilitate responses to
+photographs of overweight and thin children/adults (child participants viewed images
+of children; adult participants viewed images of adults), participants were randomly
+selected for one of the following groups: exposure to an image of an overweight
+female, exposure to an image of the same female who was thinner, exposure to an
+image of an overweight male, exposure to an image of the same male who was thinner,
+and no image exposure. Identification of the subjects used as stimuli in two of the four
+experiments was based on a pilot test of sixteen images of thin and overweight males
+and females using another sample of other children and adults. Sixteen children par-
+ticipated in the pilot test of images to be used in the studies with children, and sixteen
+adults participated in the pilot test of images to be used in the studies with adults. The
+images selected for use in the project were “before” pictures of males and females who
+had participated in weight-loss camps or weight-loss treatment programs. For the
+“overweight” treatment groups (one male, one female), full body images were selected.
+Both photographs showed the subjects smiling so that no negative affect would be
+associated with facial expression. The subjects were photographed in bathing suits for
+the before and after images so that confounding factors could be eliminated. For the
+“thin” treatment groups, “after” images of the same male and female were used, and
+the images were enhanced in Photoshop so that the “thin” treatment group was exposed
+to an image of a clearly thin person. The fifth treatment group did not view an image.
+
+The dependent measures for all four studies were similar: two measures of explicit
+bias. For the first measure, participants’ attitudes about the subject viewed in the stim-
+ulus photograph were measured. Participants randomly assigned to one of four treat-
+ment groups were asked seven questions related to the subject viewed in the photograph.
+Statements used in each experiment were items such as “This girl/boy/woman/man
+looks like one of my friends,” “I think this girl/boy/woman/man is pretty” (for the boy/
+male treatment groups, the term attractive was used), “I think this girl/boy/woman/
+man is athletic,” and “I think this girl/boy/woman/man is popular.” Using responses to
+the statements, an additive scale was created that measured explicit bias against the
+subjects viewed in the photographs. Reliability of this scale across the four studies
+ranged from a .68 to a .90, with the higher reliability coming in the two studies con-
+ducted with adults.
+
+The second measure of explicit bias was a modification of Crandall’s Anti-Fat
+Attitudes scale, using the subscale of dislike.!°> This measure tapped into more general
+attitudinal bias against individuals who were overweight, as the items were not related
+specifically to the subject used in the stimulus. It is acknowledged that viewing an
+Bissell and Parrott 233
+
+ 
+
+overweight subject in the stimulus may have primed participants to think negatively
+about overweight individuals. However, the two scales measuring explicit AFB were
+separated by several filler questions and by the cognitive processing questions in each
+of the four studies. The original scale items used the word “fat.” Instead, the word
+“overweight” was used to make sure that we did not perpetuate additional bias against
+obesity and weight. We rephrased sentences that were originally designed to be asked
+in a negative way such as “It is disgusting when a fat person wears a bathing suit” or
+“T would not be friends with a fat person.” Instead, we used positive wording: “Only
+thin people look good in a bathing suit” and “I will only be friends with kids who are
+thin.” For this measure, an additive scale was again created using responses to five
+items.
+
+Cognitive processing styles were measured in all four studies, with the only varia-
+tion across the studies being the simplicity of the sentences used. Two separate scales
+were used to measure what type of cognitive processing style participants were more
+comfortable with—tational or experiential. The first scale was derived from responses
+to the Rational-Experiential Inventory (REI) that measured cognitive predilections
+toward rational processing. Items included statements such as “I enjoy a challenge that
+makes me think hard,” “I try to avoid situations that require thinking in depth about
+something,” and “I prefer complex problems to simple problems.” The second scale
+also came from the REI-A version (REI-A) that gauges cognitive predilections toward
+intuitive processing. Items used for this scale included statements such as “Using my
+gut feelings usually works for me in figuring out problems in my life,” “I believe in
+trusting my instincts,” and “I tend to use my feelings to guide my actions.”
+
+Along with the two measures of explicit bias, the studies used a modification of the
+IAT. The measure examines associations between target groups and beliefs and has
+been used to measure attitudes related to gender, ethnicity, and weight. The measure
+is more commonly used in adult samples and timed. We removed the timed compo-
+nent from our studies with children because we did not want the youths to feel pressure
+or stress associated with the “test.” Participants were presented with adjectives that
+were to be assigned to one of two target groups: “thin” and “overweight.” The
+Greenwald and Banaji test used the words “thin” and “fat.” Again, we used the word
+“overweight” rather than “fat” because we did not want to perpetuate negative con-
+notations.!% In all four studies, participants were shown twenty different positive and
+negative adjectives, representing a wide range of personality and physical attributes:
+athleticism (athletic/not athletic), intelligence (smart/stupid), motivation (motivated/
+lazy), popularity (popular/not popular), attractiveness (attractive/unattractive), and
+goodness (good/bad). Participants were instructed to place each adjective into the
+“thin” or “overweight” category. Participants were not able to place an adjective into
+both categories. The version of the IAT used in all four studies was used as a control
+variable and independent variable (IV) in several hypothesis tests.
+
+The independent measures for all studies were also similar, although with each
+subsequent study, new measures were added to the instrument. Below, we will iden-
+tify the common variables across the studies and then describe the measures that were
+added in subsequent studies. For each of the four studies, the following independent or
+control variables were used: one measure of implicit bias, demographics, media
+234 journalism & Communication Monographs | 5(4)
+
+ 
+
+exposure, the home environment, attitudes toward eating and exercise, and fear of
+negative appearance evaluation (or a related measure of body dissatisfaction). Below,
+we will discuss the specifics of each study with regard to the sampling and the inde-
+pendent and control variables used.
+
+Study |—Participantst
+
+To examine the relationship between possible predictors of weight bias, a 2 x 5 facto-
+rial design (Gender x Instrument version, between subjects) was used with children in
+Grades 3 to 6 in several counties in a state in the South. Participants were 601 boys and
+girls ranging in age between seven and thirteen. About 21% of the sample was in third
+grade, 19% was in fourth grade, 30% was in fifth grade, and 24% was in sixth grade.
+Of the 601 participants, 45% were boys and 55% were girls with ethnic representation
+that was closely matched to that of the counties where data were collected: 80% of the
+sample was Caucasian, 16% was African American, and the remaining 4% reported to
+be Hispanic, Asian or “Other.”
+
+Study |—IVs
+
+While many variables were used in the first study of the correlates of weight bias,
+the key factors under examination were related to individual variables and the media
+exposure. Television viewing was measured using three self-report items. Children
+were asked to list the television shows they watched “yesterday before school,”
+“yesterday after school but before dinner,” and “yesterday after dinner but before
+bed.” Children were instructed to type the names of television shows they had
+watched during those time frames in the previous day. Participants were asked to list
+the shows rather than report their time spent viewing because children often struggle
+with the recall of time spent viewing. To convert their lists of shows viewed into a
+time spent viewing variable, each show listed was assumed to be one-half hour in
+length, and an overall index for total time spent viewing per day and per week was
+calculated. This is a more conservative measure of television viewing as several of
+the shows listed were one-hour programs, but we felt it was important to err on the
+conservative side to account for nonviewing time during the hour time frame.
+
+As a measure of self-perception, participants were asked several questions related
+to their fears about their own appearance. Items used in this experiment were modeled
+after Lundgren, Anderson, and Thompson’s Fear of Negative Appearance Evaluation
+(FNAE) scale.!°’ Several statements were rewritten to accommodate participants’
+reading level. Furthermore, reliability tests for the full scale were not sufficient, so
+items were eliminated from the scale for better reliability. Examples of items included
+statements such as “I care about what my friends think of the way I look,” “I worry that
+
++A more detailed description of the measures used and the study findings can be found in the
+following article: K. Bissell and H. Hays, “Understanding Anti-fat Bias in Children: Television
+Exposure and Demographic Variables in 3rd-6th Graders’ Implicit and Explicit Attitudes
+toward Obesity,” Mass Communication & Society 14, no. 1 (2011): 113-40.
+Bissell and Parrott 235
+
+ 
+
+other people will not like the way I look,” and “When I meet new people, I wonder
+what they will think about the way I look.”
+
+Study 2—Participants
+
+Following the completion of Study 1 with 603 elementary-aged students, several changes
+and modifications were made to the instrument and study procedures for Study 2. Of
+importance, the media exposure measures were expanded significantly such that we
+would have a better sense of exposure to programming viewed in a nontraditional format.
+In addition, this study was designed as a within- and between-subjects experiment as data
+were collected four times over the course of two years. The goal was to see whether
+attitudes toward overweight and obesity changed following an intervention program
+implemented at the school. Finally, questions related to household dieting behavior and
+peer influence were added along with more extensive measures of attitudes toward eating
+and exercise. To examine the relationship between possible predictors of implicit and
+explicit attitudes toward weight and obesity, a 2 x 5 factorial design (Gender = Instrument
+version, within and between subjects) was used with children in Grades | to 8 ina county
+in the South. Participants were 224 boys and girls ranging in age between six and four-
+teen. Nearly 13% of the sample was in first grade, 15% was in second grade, 13% was in
+third grade, 8% was in fourth grade, 8% was in fifth grade, 16% was in sixth grade, 13%
+was in seventh grade, and 14% was in eighth grade. Of the 224 participants, 40% were
+boys and 60% were girls with ethnic representation that was closely matched to that of
+the county where data were collected: 40% of the sample was Caucasian, 50% was
+African American, and the remaining 10% reported to be Hispanic, Asian, or “Other.”
+
+Study 2—IVs
+
+While the same [Vs were used in Studies 1 and 2, we added measures related to poten-
+tial social influences on the development of weight bias. These factors related to dis-
+cussions about weight and dieting with family members and friends plus household
+dieting behavior. Furthermore, we used measures of cognitive processing style so we
+could determine whether rational or experiential processing was related to negative
+attitudes toward overweight. Several measures served as IVs, including treatment
+group, media exposure, the home dieting environment, peer influence, cognitive pro-
+cessing styles, and demographic variables. Television viewing was measured using
+the same three self-report items as used in Study 1. In addition to time spent viewing
+television on a traditional screen, participants were asked about their television view-
+ing on an iPod, a computer, or other handheld device using the statement, “Please list
+the television shows you watched yesterday on an iPod or computer.” Participants
+were instructed to list the shows by name, as they did for the earlier TV viewing items.
+A numerical code representing time spent viewing on a handheld device or computer
+was then assigned to each child’s self-reported viewing time. Participants were also
+asked about their time spent on the computer using the Internet, time spent listening to
+music on an iPod or other handheld device, and time spent playing video games on
+devices such as the Wi1, Xbox, or handheld gaming devices.
+236 journalism & Communication Monographs | 5(4)
+
+ 
+
+In Study 2, the researchers created a thin-ideal viewing scale, which was calculated
+using participants’ list of television programs viewed most frequently. To calculate the
+body type of characters appearing in children’s programming, fifteen coders (not
+related to the present project) were recruited to assign a body shape and appearance
+code to characters from forty-two television programs. Each coder was shown three
+images of individual characters from popular children’s programs. The images showed
+the full body of the characters and represented screen grabs from the television pro-
+gram. Coders were instructed to assign a 1-7 code for body shape ranging from con-
+spicuously thin to conspicuously fat and to assign a 1—7 code for each character’s
+overall appearance from very attractive to very unattractive. Using participants’ self-
+reported frequency of viewing each show, a multiplicative index was created such that
+an assessment of participants’ overall exposure to thin-ideal programming could be
+calculated.
+
+While one goal of the Study 2 was to better understand the relationship between
+media exposure and weight bias, we recognized that other factors—individual and
+social—might also be related to the development or reinforcement of bias. Thus, we
+added questions to tap into these types of factors and influences. A series of questions
+was developed to measure the dieting behavior observed at home for each participant.
+Participants were asked to indicate whether specific family members had ever been on
+a diet (mother, father, or a sibling). The responses were nominal with the choice of
+“ves,” “no,” or “I don’t know.” “No” answers were assigned a numerical score of 1,
+and “yes” answers were assigned a numerical score of 2. Responses of “I don’t know”
+were recoded as system missing. Of those responding, 41% indicated that neither par-
+ent had been on a diet, 22% indicated that one parent had been on a diet, and 37%
+reported that both parents had been on a diet at some point.
+
+Peer influence was measured using eight items designed to identify whether partici-
+pants discussed issues such as weight, appearance, body shape, or dieting with friends.
+Participants were asked a series of questions related to general conversations about
+one of the four topics with a peer or peer group and then asked a series of questions
+related to the importance of peer acceptance with regard to their own weight, appear-
+ance, body shape, and dieting.
+
+Finally, seventeen items tested participants’ cognitive processing style—rational
+or experiential—and these were the same items used in Study 1. Eight statements
+captured each child’s preference for experiential processing, while nine statements
+measured each child’s degree of rational processing. The first scale was derived
+from responses to the REI that measured cognitive predilections toward rational
+processing. Items used for this scale were slightly rewritten to make it easier for the
+children to comprehend. Items included statements such as “I enjoy problems that
+require me to think hard” and “I prefer difficult problems instead of easy problems.”
+The second scale was also derived from the REI-A and gauged cognitive predilec-
+tions toward intuitive processing. Items included statements such as “I use my gut
+instinct when I have to figure out a problem” and “I use my feelings when I[ have to
+make a decision.”
+Bissell and Parrott 237
+
+ 
+
+Study 3—Participants
+
+Studies 3 and 4 were similar in objective but designed to better understand weight bias
+in adults. A total of 176 participants ranging in age from nineteen to thirty-four partici-
+pated in Study 3. In Study 3, approximately 67% of the sample was female and 33%
+of the sample was male. Snowball and convenience samples were used to recruit indi-
+viduals involved in weight-loss or dieting programs or fitness-related programs such
+as group exercise or personal training. The objective was to identify a sample actively
+involved in a diet, health, or exercise program to produce changes to their own body
+shape and size. The goal was to identify participants who were either presently over-
+weight or obese or who had once been so. The rationale was that if we replicated ear-
+lier studies with a sample that might have been the target of weight bias or at least have
+some experience with bias against overweight, we would gain greater understanding
+of the correlates of bias development. While we had not previously used measures of
+in-group/out-group bias, we wanted to better understand how those who might have
+been the target of bias would react or respond to other overweight individuals; thus,
+the objective of this project was to recruit participants who might have been the recipi-
+ent of negative attitudes or negative behavior because of their weight. Participants
+were recruited in two ways: local businesses who offered weight-loss services, weight-
+loss products, or exercise, and fitness services were asked to place a link to the online
+study on their business website. Individuals viewing the company website would see
+the link for the study and could opt to participate or not. Local businesses offered a
+10% discount on products and services for participation in the study, so participants
+were given an incentive to participate in the study. The last item on the survey asked
+participants to send the link to other friends or family members who might be willing
+to participate. “Referred” friends were also given the 10% incentive from local busi-
+nesses. Participants were also recruited from local fitness centers and gyms. In this
+case, flyers were placed throughout the exercise and health facilities, and individuals
+could pull a tab that provided information on how to participate in the study. These
+individuals were also given a 10% discount at the local weight-loss and health services
+businesses. The local businesses and fitness centers used for recruiting purposes were
+places targeting college students; thus, the age range of this sample was not diverse.
+Of the 176 participants, 7% identified as being African American and the remaining
+93% identified as being Caucasian.
+
+Study 3—IVs
+
+The [Vs used in the study with adults were very similar to the ones used in Studies |
+and 2; however, the measures used for media exposure were expanded, and measures
+related to societal pressures associated with being thin were also added. Participants
+reported the average number of days per week they spent viewing entertainment tele-
+vision, and then were asked to indicate the average amount of time they spent viewing
+entertainment television per day. To get a better sense of the content participants were
+viewing, each was asked to list up to ten television programs watched with any
+238 journalism & Communication Monographs | 5(4)
+
+ 
+
+regularity. Participants reported the frequency of viewing each television show listed
+on the instrument using the response options of never, rarely, sometimes, often, or
+regularly. Participants followed similar procedures for their reading of magazines,
+their viewing of television shows on handheld devices or the Internet, and their use of
+video games such as Xbox or Wii. From participants’ list of programs viewed on tele-
+vision, a handheld device, or on the Internet, a television-viewing index was created.
+All entertainment television shows listed were used to compute a single variable rep-
+resenting time spent viewing television. If a sports program or news program was
+listed, this exposure was not included in the entertainment television-viewing index. A
+multiplicative index was created using the number of shows participants reported
+viewing times their frequency of viewing that specific show. This enabled us to have
+a more precise measure of exposure to entertainment media.
+
+Along with the media exposure measures, participants reported demographic vari-
+ables, cognitive processing styles, household dieting behavior, and peer influence as
+it related to weight and body shape, as discussed above. We added a series of ques-
+tions related to sociocultural pressure to be thin to this study with adults. A total of
+twenty items were used for this scale, and items included statements such as “In our
+society, overweight people are regarded as attractive,” “People find individuals who
+are in shape more attractive than individuals who are not in shape,” and “In today’s
+society, it is important to always look attractive.” These items came from a Cusumano
+and Thompson study.!°® Response options ranged from “strongly disagree” to
+“strongly agree,” and this item was used to gauge what we refer to as ideological
+influences on weight bias. The other modification to the present study was a series of
+items used to measure participant self-discrepancy—a more precise measure of body
+dissatisfaction than the FNAE measure used with children and participant height and
+weight. Self-discrepancy was measured using items from the unpublished scale
+developed by Cash.!° Participants were asked to respond to two series of questions:
+perceptions of an individual’s ideal height, weight, skin complexion, muscle tone and
+definition, body proportions, and overall physical appearance and the importance of
+each of those attributes. For example, participants responded to the following state-
+ment, “My ideal weight is . . .,” using the following response options: exactly as I am,
+almost as I am, fairly unlike me, and very unlike me. The second part of the question
+was to ask participants about the importance of that attribute: “How important is your
+ideal weight?” Response options included not important, somewhat important, mod-
+erately important, and very important. These items allowed us to gauge participants’
+general discrepancy between actual and ideal self regarding several body shape and
+appearance attributes.
+
+Participants’ body mass index (BMI) was calculated using self-report data on
+height and weight. While we acknowledge that self-report data in this area may be
+questionable in terms of internal validity, the hope was to be able to classify partici-
+pants as underweight, average weight, or overweight. Participants were also asked
+to classify themselves into those same categories currently and in the last twelve
+months.
+Bissell and Parrott 239
+
+ 
+
+Study 4—Participants
+
+Study 4 also used adult participants, but the goal in recruiting was not to identify a
+sample engaged in weight-loss activities specifically. We acknowledge that in any
+sample of undergraduate students, a larger percentage of them will have engaged in
+such behavior but might not have sought out help at weight-loss facilities or exercise
+centers. For the last study, a design similar to Studies 1 and 2 was used. To examine
+the relationship between possible predictors of implicit attitudes toward weight and
+obesity and the relationship of those implicit attitudes on more explicit attitudes of
+bias, a 2 x 5 factorial design (Gender < Instrument version) was used with adults in
+two states in the South. A total of 276 participants ranging in age from eighteen to
+twenty-four participated in the study. Approximately 67% of the sample was female
+and 33% of the sample was male. A convenience sample was employed to recruit the
+276 participants. Study 4 participants were recruited through participant pools at two
+universities whereas Study 3 participants were mostly college students, but some
+attended community colleges or other colleges in the city where the study was
+conducted.
+
+Study 4—IVs
+
+All participants answered a series of questions related to media use, food intake, and
+involvement in physical activity and exercise. Participants then completed the IAT,
+designed to tap into implicit attitudes toward weight bias. Next, participants were
+asked a single question designed to be used as a filter variable, which placed partici-
+pants into one of four experimental groups or the control group. Once sorted into one
+of five groups, participants in the experimental groups viewed one of four images (see
+“Stimulus” section) and then answered questions designed to measure explicit atti-
+tudes toward weight bias. Participants sorted into the control group did not view an
+image but answered similar questions related to weight bias. After completing the first
+round of explicit measures of weight bias, all participants returned to the same section
+of the online instrument and completed other items related to self-discrepancy, exer-
+cise frequency, weight stigmatization, fear of negative appearance evaluations, and
+cognitive processing styles. For Study 4, the media exposure measures used in Study
+3 were replicated; however, we took participants’ self-reported exposure to media and
+created a body shape index for each of the television programs viewed so that a thin-
+ideal viewing index could be created. In this case, for each of the television programs
+listed, the primary female characters were identified, and screen shots of each charac-
+ter were used in a separate study to assess whether participants were exposed to enter-
+tainment programming with mostly thin characters, mostly overweight characters, or
+with characters having a range of body shapes and sizes. Twenty undergraduate stu-
+dents were recruited to aid in the coding of each primary female character’s body
+shape, and for each character, a mean body shape code was obtained. Using proce-
+dures employed by Bissell!!® and Harrison,!!! each coder used a five-point scale to
+240 journalism & Communication Monographs | 5(4)
+
+ 
+
+assign a body shape code to all primary female characters. Coders used a 1-5 scale
+with a 1 = conspicuously thin, 3 = about average, and 5 = conspicuously fat. This
+allowed us to also have a measure of participant exposure to thin-ideal media so that
+we could better understand the role of media exposure in the development or rein-
+forcement of bias against overweight.
+
+Results
+
+Data from the studies suggest the explication of a theoretical model is necessary to
+better understand the multitude of factors related to the development of bias. As out-
+lined in the literature reviewed and in the discussion of relevant theories used in the
+testing of bias against specific groups, we have identified several factors that all seem
+to serve as correlates or precursors in the development of bias. It is difficult to argue
+that any one factor whether it be individual, social, media, or ideology “trumps” other
+factors as the development of bias seems to be very individualistic. Therefore, we
+propose a model that represents the factors identified above. We will discuss the spe-
+cific findings of each of the four studies and then summarize what we feel are the most
+relevant factors in the larger model examining the development of bias.
+
+Study !—Results
+
+Study | was the first of four empirical investigations examining precursors to weight
+bias. In this study, 601 children in Grades 3 to 6 served as the sample, and variables of
+importance were individual factors such as demographic factors, fear of negative
+appearance evaluations (self-perception), cognitive processing styles, and media
+exposure. One basic objective of Study 1 was to assess whether participants exposed
+to overweight subjects in the stimulus would have higher levels of AFB when com-
+pared with participants who viewed a thin boy or girl in the stimulus. Each of the four
+studies used two measures of explicit bias—one was designed to assess attitudes about
+the subject viewed in the stimulus photograph and the second was a more global, or
+general, measure of weight bias. For this study, statistical tests indicated that partici-
+pants who viewed the image of the overweight girl were more likely to assess her
+unfavorably than participants who viewed the image of the thin girl. More specifically,
+exposure to the overweight girl in the stimulus photograph primed or triggered nega-
+tive attitudes toward her. Participants exposed to the image of the overweight girl were
+less likely to indicate she was pretty, smart, friendly, and were less likely to say they
+would be friends with her.
+
+The second measure of weight bias was a more general assessment of negative
+attitudes toward overweight and, again, participants randomly assigned to the “over-
+weight” treatment groups in the experiment were more likely to exhibit negative atti-
+tudes toward overweight. For this study, the statistical test comparing the differences
+between groups indicated that, as predicted, exposure to an overweight subject in a
+photograph resulted in more weight bias using the specific and general measures of it.
+Bissell and Parrott 241
+
+ 
+
+When some of the individual-level variables were considered with the two depen-
+dent variables, interesting patterns emerged. For example, higher scores on the FNAE
+scale were related to more favorable evaluations of the subjects in the stimulus photo-
+graphs, suggesting that those with greater anxiety about their own appearance were
+more likely to be less critical of others when the more general measure of weight bias
+was considered. However, when experimental group was considered along with the
+FNAE scores, a different picture emerged. Participants who had higher appearance
+anxiety and who viewed the image of the overweight girl gave her the lowest evalua-
+tion scores, followed by participants viewing the image of the overweight boy. This
+finding suggests a possible interaction between self-perception (fear of negative
+appearance evaluations) and exposure to the stimulus photograph that might trigger
+weight bias. When viewing an image that directly represents the appearance partici-
+pants were fearful of obtaining, bias became more evident. The individual factors in
+Study 1 were important and relevant predictors that helped us form a baseline level of
+knowledge regarding the development or reinforcement of bias.
+
+One objective with Study 1 was to better understand the role of television and
+younger children’s attitudes about weight. Another prediction of this study was that
+greater exposure to entertainment television would be related to higher levels of AFB
+based on the assumptions of cultivation theory and how continued exposure to mes-
+sages about weight may result in a change in attitudes or a reinforcement of attitudes
+about people who are overweight. Results suggest there was an interaction effect
+between the experimental condition, time spent viewing, and each dependent variable.
+However, greater television viewing was related to the two dependent variables in an
+interesting way. More simply, television viewing was related to decreased levels of
+AFB (general measure) but more positive appraisals of the subjects in the photographs
+(more specific measure). Results from this study suggest than when television viewing
+was considered alone, it proved to be a significant predictor of less AFB on a global
+level. Thus, it could be interpreted that given the large range of body types found in
+popular children’s programming and given the popularity of some larger-than-average-
+sized or average-sized characters,'!* that greater exposure to television might only
+serve to reinforce more positive attitudes and acceptance of all body types.
+
+As stated above, television viewing alone was a predictor of more negative assess-
+ments of subjects in the stimulus photograph, but when television viewing and experi-
+mental version were considered with the second dependent variable (stimulus response
+scale, assessments of subjects in the photos), a different pattern emerged: participants
+who watched the most television and viewed the image of the overweight subjects had
+the most favorable assessments of subjects in the photographs, and assessments for the
+overweight boy and girl were significantly higher than for the thin boy and girl. These
+tests indicate that the experimental version did have an interaction effect when com-
+bined with TV viewing. The findings from these two statistical tests suggest the fol-
+lowing: when amount of television viewing was considered statistically, the
+relationship to AFB was not in the predicted direction. Participants who watched the
+most television were more positive in their assessment of the overweight subjects but
+242 journalism & Communication Monographs | 5(4)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+£ | COGNITIVE
+% | PROCESSING
+i
+= .
+Experiential .
+= xp Sy
+z
+z
+= .
+= Rational
+Exposure to 4g Favorable
+a| overweight girl
+5 a
+oO rT
+= oo s . oS
+Q Exposure to thin girl) -42 2 Heavier : Perceptions
+£ * exposure to of overweight
+3 Exposure to | 36 | = television individuals
+= overweight boy s |
+2 x SELF- YY
+4 | Exposure to thin $ . |
+a P ‘ ¢ | PERCEPTION Unfavorable
+oy a
+= ?
+5
+= Fear of negative
+z appearance
+= evaluations
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure I. Regression model of the most significant factors in weight bias in 601 children in
+Grades 3 to 6 (Study | results).
+
+when the experimental version was factored into the equation statistically, AFB
+decreased across viewing groups. So, it appears the experimental version was the
+stronger predictor of AFB.
+
+Another individual factor considered in Study | was participant’s cognitive pro-
+cessing style. As very little literature exists establishing a relationship between expe-
+riential or rationale processing and degree of bias, statistics were run to see what type
+of relationship might emerge. Regression analysis indicated that the experiential pro-
+cessing system was significantly related to the general and more specific measures of
+AFB. For example, participants who were higher on the experiential processing sys-
+tem tended to have lower levels of AFB and also tended to have more favorable assess-
+ments of the subjects in the photographs across experimental groups. However, the
+rational processing system was not significantly related to either measure of AFB (see
+Figure 1). As very little empirical data exist linking cognitive processing styles with
+implicit or explicit attitudes, we felt data from the present study were a good founda-
+tion for future studies. Along these lines, the test of the [AT in Study 1 led to some of
+the most important findings from the study.
+
+The IAT has not been used as frequently with adolescents and children; thus, it
+was used in an exploratory manner to determine how the 601 children in this sample
+might sort the positive and negative adjectives. Descriptive statistics were run on
+Bissell and Parrott 243
+
+ 
+
+each adjective to determine how participants in this sample assigned the positive and
+negative adjectives to the words “thin” and overweight.” Quite consistently, a major-
+ity of the sample assigned the positive adjectives to the word “thin” whereas a major-
+ity of the sample assigned the negative adjectives to the word “overweight.” A series
+of paired t-tests were conducted to determine how responses on the twenty dichoto-
+mous variables (ten paired groups) would be related. The paired samples correlations
+indicated significant negative correlations for each of the ten pairings, and significant
+two-tailed differences were found between all ten groups. While descriptive analysis
+limits the ability to ascertain whether all positive adjectives were assigned to “thin”
+and all negative adjectives were assigned to “overweight,” the distribution of scores
+for each of the twenty items suggests that this may be the case. This clustering around
+the mean validates the assumption that a majority of respondents would assign posi-
+tive attributes to the “thin” and negative attributes to “overweight.” However, this
+same clustering around the mean lowers the predictive value of [AT in the two more
+explicit measures of AFB. Although we report that the relationship between the [AT
+as a predictor of more explicit attitudes is still largely unknown, the concentration
+around the mean for IAT suggests a link to anti-fat attitudes merits further
+exploration.
+
+Study 2—Results
+
+The objective of Study 2 was to continue the examination of correlates or predictors of
+weight bias; however, some IVs were added, and the media exposure measures were
+modified. This study used a completely different sample of children in Grades | to 8
+at a gifted and talented school in the South, and as mentioned above, the study included
+pretest/posttest data collection along with data collected from a modified version of
+the IAT. As the sample in Study 1 was from rural areas around the state and because
+participants were largely not identified as gifted and talented, we conducted a pre-test
+of the entire instrument to ensure scale validity. When the instrument was pre-tested
+in the summer of 2009 with a fourth- and fifth-grade sample, factor analysis was con-
+ducted on twenty-eight different adjectives to determine which pairings would be most
+appropriate in the modified version of the IAT. Factor analysis confirmed the use of
+the eleven pairings in Study 2, and these were the same adjectives plus one used in
+Study 1. Descriptive statistics were run on each adjective to determine how partici-
+pants in this sample assigned the positive and negative adjectives to the words “thin”
+and “overweight.” Again, a majority of this sample assigned the positive adjectives to
+the word “thin” whereas a majority of the sample assigned the negative adjectives to
+the word “overweight.” A series of paired t-tests were conducted to determine how
+responses on the twenty-two dichotomous variables (eleven paired groups) would be
+related. The paired samples correlations indicated significant negative correlations for
+each of the ten pairings, and significant two-tailed differences were found between all
+eleven groups.
+
+A key objective of Study 2 was to test the effectiveness of a media literacy cam-
+paign designed to directly address weight bias in children. The study was designed
+such that AFB was measured prior to the media literacy program and immediately
+244 journalism & Communication Monographs | 5(4)
+
+ 
+
+after the intervention program to determine whether attitudes about overweight and
+obesity had changed. This was one of the reasons for the within-subjects design. The
+first hypothesis for this study predicted that AFB would be higher at the pre-test than
+at the post-test. Paired sampled tests were used to compare mean scores on both
+measures of explicit bias, and the tests revealed a significant, positive change for both
+measures. Results from this statistical test suggest that the issues addressed during the
+media literacy program may have resulted in more favorable attitudes about over-
+weight and obese individuals but that AFB was high across the sample at the pre-test.
+The within-subjects test of AFB demonstrated significant differences between the two
+data collection points. However, we also wanted to better understand how exposure to
+an image of an overweight boy or girl or thin boy or girl might be related to AFB; thus,
+this project also contained a between-subjects test of weight stigmatization.
+
+Statistical tests were run to examine anti-fat attitudes across experimental groups in
+the between-subjects portion of the study. When the first dependent measure (specific
+measure of weight bias) was compared with the experimental version (overweight
+boy/girl or thin boy/girl or no image), one-way analysis of variance (ANOVA) tests
+indicated that those viewing no image at all (control group) had the lowest level of
+AFB. When experimental versions were considered using pretest data, participants
+viewing the image of the overweight girl followed by participants viewing the image
+of the overweight boy had the highest AFB scores. One-way ANOVA tests indicated
+statistically significant differences across the five groups, and the children viewing the
+images of the overweight girl exhibited greater AFB. When the posttest measure of
+weight bias was examined by experimental group, participants in the control group
+had almost the same score at both points. Participants’ scores across the four experi-
+mental groups all became more favorable toward the subject viewed, but the most
+significant change was found for participants viewing the image of the overweight girl
+and boy.
+
+Study 2 also examined possible correlates of AFB in an attempt to better under-
+stand how the media literacy campaign could be revised to specifically address the
+factors that were found to be stronger predictors of weight bias. One important vari-
+able in understanding correlates of AFB was understanding children’s use of and time
+spent with the media. Time spent viewing television varied across this sample with the
+youngest and oldest participants viewing the least amount of television per day.
+
+When TV viewing was considered along with the two dependent measures, televi-
+sion viewing was a significant predictor of greater AFB using the more general mea-
+sure of bias. For example, on the more general measure of AFB, those viewing the
+most television had the highest AFB scores. Of the sample, twenty-three participants
+reported not viewing any television at all. Those participants had the lowest AFB
+scores compared with participants who reported watching up to an hour of television,
+and compared with those who watched the most television, at least two or more hours
+per day. No significant differences in AFB were found when the more specific mea-
+sure of bias was examined.
+
+Another goal of the study was to examine television exposure in a slightly differ-
+ent way as the age range in this sample was more diverse and we knew programming
+Bissell and Parrott 245
+
+ 
+
+choices would also be more diverse. Thus, we regrouped viewing into two categories—
+animated and live-action programming. For this study, each participant’s self-
+reported viewing was recoded into a live-action or animated category as we knew the
+specific programs viewed and their self-report frequency of viewing. For example, a
+participant could report viewing programs after dinner, and those programs were then
+recoded as a live-action or animated program, and this resulted in two separate scores
+for each type of programming. Participants’ time spent viewing animated and live-
+action programming was what might be expected with a sample that included six- and
+seven-year-old children. The younger participants reported spending more time
+watching animated shows such as Spongebob Squarepants, Johnny Test, or Scooby
+Doo, and the other participants reported spending much more time watching live-
+action programming such as iCarly, Hannah Montana, or Drake and Josh. When TV
+viewing was considered by gender, the girls in the sample reported watching signifi-
+cantly more television than the boys in the sample. Statistically significant differ-
+ences were also found for television viewing by ethnicity. For example, white
+participants reported watching about seventy-five minutes of television per day com-
+pared with black participants who reported watching more than two and a half hours
+of television per day. When type of programming was considered with the two depen-
+dent measures, one-way ANOVA tests indicated that participants viewing the most
+live-action programming had significantly lower scores on the more global measure
+of AFB compared with those watching no live-action programming. Time spent
+viewing live-action programming was not related to the more specific measure of
+weight bias. Exposure to animated programming was significantly related to both
+measures of AFB (see Figure 2).
+
+Given the range of findings here, it is difficult to say with much certainty how tele-
+vision viewing was directly related to participants’ level of AFB. However, television
+viewing when considered alone suggested it was related to the measures of explicit
+bias, but possibly not in the way predicted. The findings were more straightforward
+when experimental version was considered: participants who viewed images of over-
+weight individuals were more likely to think of those individuals in a negative way.
+
+To better understand some of the predictors of AFB in participants, several social
+and individual factors were considered with the pre- and posttest measures of AFB. In
+addition to examining individual factors such as demographic variables and media
+exposure, we also measured what we considered to be social factors such as the home
+dieting environment. Household dieting behavior was measured by asking participants
+whether a family member was on a diet. It is acknowledged participants might not
+know this information and thus were given the option of responding, “I don’t know.”
+The nominal responses (yes/no) were then used to create a scale that measured the
+entire household’s dieting behavior. One-way ANOVA tests indicate that participants
+who had two parents on a diet had higher AFB than participants who had neither par-
+ent on a diet. This measure was a more global gauge of participant attitudes toward
+overweight individuals in general, whereas the second measure was an attitudinal
+measure designed to gauge attitudes about the individual viewed in the photograph.
+When this second measure of explicit bias was considered, findings were in the
+246 journalism & Communication Monographs | 5(4)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+& | Self-discrepancy
+¢ (girls)
+a 8
+op
+q Experiential |“! 5 22
+2 processing $ Children’s eating
+E “| attitudes test
+2 i 12
+| proocesn 36
+3 processing
+o
+Exposure to over) “2 General Favorable
+5 weight girl entertainment)
+z television |
+Exposure to thin girl) -/7 exposure 7
+5 ” . | . Perceptions of
+& | Exposure to over ——_— © Live-action overweight
+# weight boy g | | television |2> individuals
+g 4 Race € exposure |.»
+a Exposure tothin boy! 13 a . Unfavorable
+& * Animated
+No image ‘Ss television.
+Age a exposure
+S
+5
+a
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 2. Regression model of the most significant factors in weight bias in 224 children in
+Grades | to 8 (Study 2 results).
+
+opposite direction. Participants with two dieters in the family had the most favorable
+assessments of subjects in the photograph followed by participants with one dieter in
+the household and followed by participants with no dieters in the household. It is
+important to note that participants in all four studies might be hesitant or reluctant to
+report a bias against overweight individuals, especially if the participant lives with or
+comes in contact with overweight individuals. Furthermore, some participants were
+asked if an overweight boy or girl/man or woman was attractive, smart, popular, and
+so on, and some might find it troublesome to report negative attitudes toward over-
+weight individuals. With that in mind, scores on both dependent variables were high
+across each of the four samples, suggesting that despite the sensitive nature of the
+questions, participants were still exhibiting negative attitudes and opinions about over-
+weight individuals.
+
+Another question this study sought to answer was when explicit bias might become
+evident in a child. More specifically, at what age would a child identify or indicate a
+bias toward overweight individuals? One-way ANOVA tests indicate that younger
+participants had the highest levels of AFB on the global measure of weight bias. When
+the second measure of bias was considered, similar patterns were observed. For this
+Bissell and Parrott 247
+
+ 
+
+statistical test, younger participants had less favorable attitudes toward the subject in
+the photograph, while those in higher grades had more favorable attitudes toward the
+subject in the stimulus photograph. It is quite possible that older participants who read
+questions about the subject in the photograph processed the question a little more
+rather than quickly going through at a rapid pace.
+
+Participant race was a significant predictor of AFB as well. In the global measure
+of AFB, white participants had the highest levels of AFB when compared with black
+participants or participants categorized as “Other.” This finding was repeated when
+the specific measure of weight bias was considered. One-way ANOVA tests using the
+more specific measure of bias as the dependent variable indicated that black partici-
+pants had the most favorable assessments of the subjects in the photograph, even
+though black subjects were not used in the stimulus photographs. Given that black
+participants exhibited lower levels of AFB and the subjects in the stimulus photo-
+graphs were white, multivariate analysis of variance (MANOVA) tests were con-
+ducted to assess whether there was an interaction effect between experimental version
+and race on the two dependent measures. The results from the MANOVA test parallel
+what was found above: white participants exhibited significantly higher levels of
+AFB, especially when the subject in the photograph was overweight. When race and
+experimental version were considered with the second measure of the dependent vari-
+able, the findings were the same with white participants reporting the greatest AFB
+compared with black participants and participants in the “Other” group, which com-
+prises Hispanic participants (n = 3), Asian participants (7 = 6), and participants mark-
+ing “Other” as their ethnic group (7 = 7).
+
+Study 3—Results
+
+While the relationship between media and body image distortion has been examined
+empirically for decades, very little evidence exists documenting the relationship
+between an individual’s self-perception as it relates to body image and the individual’s
+perceptions of others’ body shape and size. Thus, this study examined media as a pre-
+dictor of self-discrepancy and self-perception in adults who were dieting or participat-
+ing ina fitness program and then examined those constructs with perceptions of others’
+body shape and size. It is argued here that beliefs about the self may shape beliefs
+about others, especially as it relates to body image. However, this study went beyond
+measuring perceptions about body image and examined social factors such as the
+household dieting environment and exposure to media as potential covariates of the
+relationship. Specifically, this project examined the multidimensional factors related
+to an individual’s body image on both ends of the spectrum and further examined how
+these variables relate to prejudice or AFB against others.
+
+The first hypothesis in Study 3 was related to participant’s level of self-discrepancy
+or self-perception as it pertained to body image and exposure to thin-ideal media
+content. Time spent viewing television was varied across the sample with the
+youngest viewing the least amount of television per day. Exposure to thin-ideal
+programming was linear with age however. More simply, the older the participant,
+the more likely it was that he or she was exposed to greater amounts of thin-ideal
+248 journalism & Communication Monographs | 5(4)
+
+ 
+
+programming. One-way ANOVA tests were used, and for this test, exposure to
+thin-ideal programming was recoded into four categories: no exposure to thin-ideal
+television, less than an hour of exposure, between one and two hours of exposure,
+and more than two hours of exposure. Using the recoded thin-ideal viewing index,
+ANOVA tests indicated that participants exposed to the most thin-ideal program-
+ming had the greatest discrepancy between their actual and ideal selves, as mea-
+sured by the Stunkard scale, and this was the case for men and women in the
+sample.
+
+Using a modified version of the Stunkard body image ideals figure drawing scale,
+a body shape scale using figure drawings of a male and female was created. The online
+instrument contained a filter variable, whereby participants would answer the question
+about participant gender and then be directed to view the drawing presented. Male and
+female participants were asked to circle the body shape they felt was most similar to
+their current body shape, and then using a second figure drawing, participants were
+asked to circle what they considered to be their ideal body shape. Participants could
+circle any body shape or a number between the body shapes in their assessment of
+their actual and ideal body shape. The mean score for male participants’ actual body
+size was 3.95 (SD = 0.88) and the mean score for female participants’ actual body size
+was 4.17 (SD = 1.13). To create a self-discrepancy score for each participant, the ideal
+body shape score was subtracted from the actual body shape score. A negative score
+indicated the participant desired to be bigger than his or her actual size. If a participant
+desired to be smaller than his or her actual size, the resulting score was positive.
+
+To examine actual/ideal self-relationship statistically, the programming categoriza-
+tion was used with each participant’s SD score. For example, female participants who
+reported watching the most programming coded as “thin ideal” had a self-discrepancy
+score of 0.93 (SD = 0.51), indicating that their ideal body shape was approximately
+one body shape smaller than their actual body shape. For male participants, the find-
+ings were similar, although the self-discrepancy score was not as great for men as it
+was for women.
+
+The second prediction of Study 3 examined participants’ perceptions of others in
+relation to exposure to thin-ideal media exposure. The thinking was that if exposure to
+thin-ideal programming was high, perceptions of individuals who were overweight
+might be more negative. To test this hypothesis, two separate dependent variables
+were included—one measuring specific responses to images of the subject viewed in
+the stimulus photograph, and a second, more global measure of AFB (this stimulus
+was similar to Studies | and 2 except that adult subjects were viewed in place of child
+subjects). Statistical tests that those viewing the most television and those viewing the
+most thin-ideal television had the most negative attitudes toward overweight individu-
+als and this was when the more specific and general measures of weight bias were
+considered.
+
+For this study, participants were asked to list any programs they viewed on televi-
+sion, on an iPod, an iPad, and so on, and then participants were instructed to report
+their frequency of viewing each individual program. When examining the television
+programs listed across the sample, younger participants were more likely to list
+Bissell and Parrott 249
+
+ 
+
+programming such as Pretty Little Liars, The Bachelor, The Secret Life of the American
+Teenager, and Beverly Hills, 90210. Older participants listed programming such as
+NCIS, NCIS Los Angeles, CSI, and The Mentalist.
+
+The relationship between television viewing, experimental group, and weight bias
+was examined using a MANOVA test, which included the experimental version and
+television exposure as IVs. As television exposure was a predictor of greater AFB, it
+was determined identifying the combination of factors via an interaction effect would
+prove useful. When television viewing was considered with experimental version
+using the global measure of AFB, those viewing the most amount of television and
+who were exposed to the image of the overweight women had the highest AFB scores.
+For the global measure of AFB, television viewing appeared to play less of a role in
+predicting AFB than did exposure to the image in the stimulus photograph. While the
+MANOVA test indicated a significant main effect and a significant interaction effect,
+evidence of weight bias was not as high across experimental groups when the more
+global measure of weight bias was considered.
+
+Two research questions in Study 3 examined possible predictors of self-discrep-
+ancy and AFB in others in the context of individual and social factors. The first
+research question examined the relationship of a participant’s household dieting
+behavior with perceptions of self and perceptions of others. When dieting behavior
+was compared with self-perceptions related to body image, a significant relationship
+emerged. Specifically, when an individual indicated two dieters were in the house-
+hold, self-discrepancy for women was higher than it was when no dieters were in the
+household, and SD scores were the highest for participants who indicated having two
+dieters in the home. The finding suggests that when the participant observed dieting
+behavior in the home, that individual was more likely to indicate a dissatisfaction with
+his or her own body shape and was more likely to engage in dieting behavior himself
+or herself. Regression analysis was run to test the relationship among the key variables
+in question—thin-ideal television exposure, demographic variables, and household
+dieting behavior, and as the analysis indicated, each proved to be a significant predic-
+tor of increased self-discrepancy in girls, and when the variables were considered
+together, thin-ideal television viewing was the strongest predictor of the three (see
+Figure 3).
+
+While observed dieting behavior in the household did appear to be related to self-
+perceptions in a negative way, the variable was related to perceptions of overweight
+individuals in a positive way. Specifically, participants who indicated one or more
+dieters were in their households were more likely to express favorable attitudes
+toward overweight individuals, and this was found on both measures of AFB. For
+example, participants with two dieters in the household had more favorable in their
+assessment of overweight individuals in general when compared with individuals
+with no dieter in the household. This pattern was observed when the second measure
+of AFB was considered—the more specific measure of weight bias. Individuals with
+dieters in the household were more favorable in their estimates of overweight sub-
+jects in the stimulus photograph compared with those who had no dieters in the
+households.
+250 journalism & Communication Monographs | 5(4)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+   
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Currently or|.33
+5 previously
+a on a diet
+a A4
+cal
+| Never ona
+z diet
+Exposure to |-f> | Highbeliefin | | 2
+overweight sociocultural |“ T Favorable
+g g pressures to be
+5 woman g ° al \ .
+g g S| Positive | %
+oo . = 4 . ,
+3 Exposure to thin! = welt 3 bP ly imag  [Percoptions of
+woman Low belief in ~ 5 ”
+5 E sociocultural High | & | overweight
+=] om 2 | pressures to be an | Xposure to S| Negative individuals
+B | baposmeto 15 | thin 2 thin-ideal [29 || toa
+i o 29 body
+& overweight man 2 3 mu body |
+z] television image
+‘ j = 40 Unfavorable
+Exposure to thin| 4 Low :
+_ S| exposure | -19
+to thin-ideal
+television
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 3. Regression model of the most significant factors in weight bias in | 76 adults either
+currently dieting or previously dieting (Study 3 results).
+
+The second research question examined individual factors such as each individual’s
+own dieting behavior and self-discrepancy as possible predictors of AFB. In this case,
+the two variables were related to weight bias in different ways, despite the two vari-
+ables seemingly being related to one another. It might seem logical that if an individ-
+ual had greater discrepancy between his or her actual self and his or her ideal self that
+dieting behavior might be one step taken to reduce that discrepancy. These two vari-
+ables were not correlated statistically, however; furthermore, this relationship was dif-
+ferent for the men and women in the sample. As mentioned above, observation of
+household dieting was a predictor of decreased bias against overweight individuals,
+and this was found in men and women. Individuals who reported being on a diet or
+previously being on a diet were more critical of overweight in the general and more
+specific measures than those who had reported never being on a diet. In this case, a
+one-way ANOVA test was run to examine each participant’s dieting behavior (not
+currently dieting/never have been on a diet, not currently dieting/previously have been
+on a diet, or presently dieting/previously have been on a diet). When both dependent
+measures were considered, those currently or previously on a diet had significantly
+higher levels of bias against overweight; however, when this variable was considered
+using a factorial ANOVA, results indicated that the interaction of dieting behavior and
+self-discrepancy resulted in less bias toward overweight. More specifically, for this
+adult sample, greater self-discrepancy was a significant and strong predictor of lower
+levels of bias using the general and more specific measures of weight bias. When
+Bissell and Parrott 251
+
+ 
+
+self-discrepancy was considered with dieting behavior, bias against overweight was
+still less for those with higher scores on the self-discrepancy scale. Results from addi-
+tional tests indicate that the complex relationship between perceptions of self and per-
+ceptions of others was moderated by gender. For example, males who had a higher
+level of self-discrepancy were more likely to exhibit greater AFB, and girls who were
+higher on the self-discrepancy scale were less likely to exhibit AFB. These findings
+will be addressed further in the “Discussion” section as they warrant more investiga-
+tion into self-perception and the ways in which self-perception shapes perceptions of
+others.
+
+Study 4—Results
+
+Study 4 was a between-subjects experiment using the same two measures of weight
+bias. Given what was learned in the preceding studies, Study 4 was modified to include
+additional measures of media exposure, exercise behavior, and cognitive processing
+styles. In all four studies, a version of the [AT was administered, and findings were
+consistent with negative adjectives being paired with the words overweight or fat, and
+positive adjectives being paired with the word thin. For Study 4, descriptive statistics
+were run on each adjective to determine how participants in this sample assigned the
+positive and negative adjectives to the words “thin” and “fat.” Quite consistently, a
+majority of the sample assigned the positive adjectives to the word “thin” whereas a
+majority of the sample assigned the negative adjectives to the word “fat.” A series of
+paired t-tests were conducted to determine how responses on the twenty dichotomous
+variables (ten paired groups) would be related. Paired-samples correlations indicated
+significant negative correlations for each of the ten pairings, and significant two-tailed
+differences were found between all ten groups.
+
+In this study, the first hypothesis examined the differences between experimental
+groups on participants’ explicit attitudes toward the adult in the stimulus photograph
+(overweight man/woman or thin man/woman). A one-way ANOVA test was run using
+the instrument version as the grouping variable and using the two explicit measures of
+bias. Participants who viewed the image of the overweight woman had significantly
+less favorable attitudes toward the subject than did those viewing the image of the thin
+woman. This was found across racial and ethnic groups. In previous studies, bias
+against overweight females was greater than bias against males; however, in Study 4,
+these findings were reversed as evaluations of the overweight and thin man were even
+greater in discrepancy, meaning there was a much greater gap in assessments toward
+the same overweight and thin man.
+
+Analysis was also conducted on a second measure of explicit bias, the more global
+measure of weight bias. One-way ANOVA tests indicated significant differences
+between the experimental groups. As expected, participants in the control group
+exhibited greater AFB than those exposed to the image of the thin man or woman. Post
+hoc Tukey’s tests indicated significant differences between the experimental groups
+viewing images of thin and overweight individuals and the control group and partici-
+pants in the thin experimental groups. Thus, we found that simple exposure to over-
+weight individuals primed individuals to think more negatively about overweight.
+252 journalism & Communication Monographs | 5(4)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+No dieters in 3
+
+e household =|"
+
+a
+
+zg
+
+4
+
+@ | One or more
+
+General = | dieters in
+re)
+Exposure to 7 entertainment |.39 a household 29 Favorable
+g | overweight woman F | televisi
+g z levision
+g Exposure to thin | cxposure 24 .
+> woman £ Perceptions of
+q s High exposure] .g, loverweight indi-
+Exposure to Z| to thin-ideal % cS viduals
+5 : =| television
+5. overweight man «| Positive body an
+Li 2 image Unfavorabl
+a Exposure to thin ta thin ideal, » % eee |
+man wos a
+television é oe
+i | Negative body
+a image
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 4. Regression model of the most significant factors in weight bias in 276 adults either
+currently dieting or previously dieting (Study 4 results).
+
+The second prediction of this study was related to television exposure and weight
+bias, with the specific prediction that exposure to thin-ideal programming would be
+related to greater weight bias, as was found in earlier studies. Results from a MANOVA
+test examining the relationship of television exposure and experimental version on the
+two measures of explicit bias suggest there was an interaction effect between the two
+predictors and each dependent variable. In both cases, greater television viewing was
+related to higher levels of AFB, and when the experimental version was considered,
+participants exposed to the image of the overweight man and woman had even higher
+AFB than those who were exposed to the image of thin man or woman.
+
+When television viewing was grouped into low, medium, and high categories, those
+viewing the most television had higher anti-fat attitude scores compared with those in
+the low viewing group. Results were similar when comparing television viewing with
+experimental version with the more specific measure of bias. Participants who reported
+viewing no television had the lowest scores on this specific measure of bias compared
+with those who reported viewing the most television (see Figure 4).
+
+In addition to examining the role of television exposure and exposure to thin-ideal
+media in general, we also wanted to better understand the role of cognitive processing
+styles and the development or existence of bias against overweight, as had been done
+in earlier studies. Thus, the first research question examined the predictive power of
+the two cognitive measures and AFB. When the two cognitive processing styles were
+Bissell and Parrott 253
+
+ 
+
+considered together in a regression test, rational processing was a strong, negative
+predictor of the global measure of anti-fat attitudes whereas experiential processing
+was a significant, positive predictor of anti-fat attitudes. This means that those higher
+in rational processing exhibited less AFB than those who were higher in experiential
+processing. The experiential and rational processing scales could certainly serve as
+one predictor of AFB, but it is important to know that personality traits and character-
+istics such as thoughtfulness were not measured, and thus, the above finding could
+also be a product of an individual’s likelihood to not buy into baseless stereotypes and
+might judge a person by more than mere appearance.
+
+The second research question of Study 4 examined the relationship between the
+IAT and other variables that might serve as predictors of weight bias. Initial tests of
+the variables related to the [AT indicated that both measures of AFB were related, as
+was the experiential processing scale and entertainment television viewing. The [AT
+was first examined with the two measures of AFB. It was presumed that if an indi-
+vidual tended to link negative adjectives to the word “fat” and positive adjectives to
+the word “thin,” that individual could be classified as exhibiting implicit weight bias.
+The IAT scale was then recoded so that individuals who were more likely to assign
+several types of adjectives to the word fat were assigned one code whereas participants
+who were more likely to link adjectives to the word thin received another code.
+Participants with a score in the middle of the scale were assigned a separate code.
+Participants who were more likely to indicate a fat person could be smart, funny, or
+valuable had a lower score on the global measure of AFB. Participants who were more
+likely to say only thin people could be smart, pretty, athletic, and valuable had a higher
+score on the AFB scale. This finding was similar when the more specific measure of
+weight bias was considered. Participants who were likely to associate positive adjec-
+tives with the word fat were also much more charitable in their assessments of subjects
+in the photographs, whereas the opposite was true for participants linking positive
+adjectives to the word thin. Regression tests and one-way ANOVA tests confirm sta-
+tistically significant findings in all cases.
+
+The IAT was also significantly related to the experiential processing scale. In this
+case, participants who scored in the middle of the [AT—those who paired an equal
+number of negative adjectives to the word fat and positive adjectives to the word
+thin—had the highest scores on the AFB scale compared with their counterparts on
+the other two sides of the scale. Rational processing was not statistically related to
+the IAT.
+
+All-inclusive multiple regression was used to combine four predictor variables—
+television viewing, IAT, and the two cognitive scales. Taken together, the four vari-
+ables were statistically significant predictors of AFB. Further analysis revealed that
+from those four variables, the second cognitive scale measuring experiential pro-
+cessing and IAT were statistically significant predictors of AFB in the presence of
+the remaining two variables. The all-inclusive model explained 18% of the variance
+in AFB.
+
+When considering the results of the IAT, it is important to note that while descrip-
+tive analysis limits the ability to ascertain whether all positive adjectives were assigned
+to “thin,” and all negative adjectives were assigned to “overweight,” the distribution
+254 journalism & Communication Monographs | 5(4)
+
+ 
+
+of scores for each of the twenty items suggests that this may be the case. This cluster-
+ing around the mean validates the assumption that a majority of respondents would
+assign positive attributes to the “thin” and negative attributes to “overweight.”
+Although we report that the relationship between the IAT as a predictor of more
+explicit attitudes is still largely unknown, the concentration around the mean for [AT
+suggests that a link to anti-fat attitudes merits further exploration.
+
+Finally, Study 4 examined what was considered to be an ideological influence on
+bias development—sociocultural attitudes toward body shape. In this case, partici-
+pants were asked several questions related to the perceived pressure in society to con-
+form to norms related to thinness. A higher score on this scale would mean the
+participant felt great societal pressure to be thin and also linked thinness with success
+in a variety of environments. In this test of perceived ideological influence and weight
+bias, statistical analyses revealed that the higher an individual scored on the sociocul-
+tural attitudes scale, the more likely the individual was to exhibit bias against over-
+weight. This finding was consistent when both dependent measures were examined.
+
+Summary of Results from Four Studies
+
+Findings from all four studies suggest that the correlates of anti-fat attitudes may lie in
+a myriad of factors ranging from individual factors, social factors, ideology or cultural
+norms, and media exposure. While the findings across the four studies were not com-
+pletely consistent with regard to the stronger predictors of bias, a few of the factors
+under investigation were significant across the four studies. Of importance is the
+media exposure factor. Whether considered via time spent with the media or consid-
+ered by exposure to specific content (thin-ideal content, animated vs. live-action pro-
+gramming), time spent viewing entertainment television was a significant predictor of
+negative attitudes toward overweight. This was found in four separate studies with
+four separate and unique samples. The social environment that included household
+dieting behavior and self-perception as it relates to body image was also a strong pre-
+dictor of increased or decreased levels of bias in three of the four studies (not exam-
+ined in Study 1). Thus, the following model is advanced to help better explain the
+development and formation of bias against others, and we propose that the following
+model could be used to better understand the development of bias in a variety of areas
+beyond weight: bias against gender, ethnicity, age, sexual orientation, and mental
+illness.
+
+Discussion
+
+Prejudice development appears to be highly individualistic, limiting the number of
+generalizations that may be made about the topic. However, the model presented here
+advances several, which should help inform future communications-based research
+into prejudice formation. First, stereotypes are prevalent in American media content.
+Second, stereotypical media content informs prejudice by (1) making concepts and
+associations more readily accessible in memory, (2) cultivating inaccurate perceptions
+Bissell and Parrott 255
+
+ 
+
+of social groups in the real world, and (3) providing examples by which audience
+members may learn what behaviors and opinions are socially acceptable. Third, the
+role of the media in the formation of prejudice is mediated and/or moderated by indi-
+vidual, environmental, and ideological characteristics of the audience. Stereotypical
+media content is most powerful when people lack individual, environmental, or ideo-
+logical information concerning the target of prejudice. Most often, people already hold
+attitudes toward the target that appears in media content. In these instances, the media
+hold less power in the formation of people’s attitudes based on social group member-
+ship. The key question concerns the power of the media in relation to additional
+sources of influence, including individual, environmental, and ideological factors. The
+research outlined here addresses each, and reinforces the idea that media content
+should not be investigated in isolation. Rather, scholars who are interested in the role
+of the media in prejudice should conduct holistic investigations that account for the
+intervening role of individual, ideological, and environmental variables. A holistic
+approach 1s especially important for people interested in reducing prejudice. By under-
+standing the factors involved in its formation, interventions may more effectively tar-
+get prejudice by addressing its individual components. Based on the research presented
+here, individual influences involve demographic characteristics, such as race and age,
+and cognitive processing characteristics. Environmental factors include home envi-
+ronments, especially the role of family and friends. These additional influences may
+mitigate or reinforce the power of the media in prejudice, as demonstrated in the
+“Results” section. The results presented here reinforce the fact that the media nurture
+negative attitudes toward people who are overweight, and influence people’s percep-
+tions of their own body weight. The four experiments extend previous research by
+underscoring the significant influence of environmental, ideological, and individual
+factors in AFB. Certainly, time spent viewing entertainment television significantly
+predicted negative attitudes toward overweight. On an individual level, cognitive pro-
+cessing style, age, and race emerged as significant factors in the development of
+weight-based prejudice. Participants higher in rational processing exhibited less AFB
+than those who were higher in experiential processing. Furthermore, people who held
+greater anxiety about their own appearance were less likely to be critical of weight on
+more general measures. While the data do not explain the reason age-based differences
+emerged, the explanation may lay in the fact that children develop cognitively and
+socially as they age. Race-based differences likely reflect cultural influences. Children
+learn through personal experience and the influence of friends, family, and media.
+Indeed, the results presented here suggest that factors such as a child’s home environ-
+ment may influence weight-based prejudice, as children who had two parents on a diet
+had higher AFB than participants who had neither parent on a diet. Children learn
+prejudicial attitudes toward the self and others through the example of adults. Bottom
+line is that a number of factors influence our attitudes toward other people. Indeed,
+thin-ideal television exposure, demographic variables, and household dieting behavior
+each proved to be a significant predictor of increased self-discrepancy in girls, and
+when the variables were considered together, thin-ideal television viewing was the
+strongest predictor of the three.
+256 journalism & Communication Monographs | 5(4)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Z Home
+DEMOGRAPH- 3 environment
+x
+IC VARIABLES] S :
+Gender ‘sg | peer influnce
+>]
+‘asic Lo z “real-world” Exposure to
+& | Race/ethnicity i £ Jentertainment
+2 Sexual experience & ‘ainn
+& ; 3 media, time
+= renee “ spent with Development of,
+5 = dia. : :
+g i = media, bias or stigma
+= Personality 3 homogeny of
+3 media content|
+~ COGNITIVE Cultural norms
+PROCESSING gs /
+Experiential 3 | Dominant
+& cultural beliefs
+=
+and
+acceptances
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 5. Proposed theoretical model for factors influencing the development of bias.
+
+Data from the above studies suggest the explication of a theoretical model is neces-
+sary to better understand the myriad of factors related to the development of bias or
+negative attitudes against a variety of groups, character traits, or attributes found in
+others. As outlined in the literature reviewed and the discussion of relevant theories
+used in the testing of bias against specific groups, we have identified several factors
+that all seem to serve as correlates or precursors in the development of bias. It is dif-
+ficult to argue that any one factor whether it be individual, social, media, or ideology
+“trumps” other factors as the development of bias seems to be very individualistic.
+Therefore, we propose a model that represents the myriad of factors identified above.
+Numerous studies document the existence of bias: bias against gender, bias against
+race, bias against sexual orientation, bias against age, bias against mental illness, and
+bias against body shape or weight. It is important to note, though, that an individual
+who has bias against overweight individuals may not demonstrate the same level of
+bias against individuals of another race or ethnicity or against individuals with a men-
+tal illness. These factors make the development of a model all the more complex, as
+bias or negative attitudes toward others may certainly be predicated or driven by very
+specific factors. As outlined below, we will propose a model that incorporates all of
+the necessary levels of influence in the development of bias and then propose avenues
+for empirical investigation. Thus, we advanced the proposed model, “A Theory of
+Influence of Bias Development” (TIBD; see Figure 5).
+
+Individual Influences
+
+In some cases, individual factors would likely be the most powerful in the develop-
+ment of bias against others. For example, in the two studies conducted with adults in
+Bissell and Parrott 257
+
+ 
+
+the measurement of AFB, participants’ own weight and body shape seemed to be a
+strong predictor of their attitudes toward others. Overweight individuals were more
+likely to be compassionate, or at least less critical, of overweight others whereas the
+individuals identifying themselves as underweight or thin were the most likely to be
+critical of overweight and obesity. The notion of in-group/out-group bias was also
+evidenced in the studies previously: when it comes to individual attitudes about others,
+preference often leans in the direction of similar others rather than others who appear
+different, and that has been documented in studies of gender, ethnicity, sexual orienta-
+tion, and age. Shoemaker and Reese addressed influences on news content specific to
+five levels of influence, and individual factors were one of those identified levels.!'3
+Even though the present study is not examining factors that shape the development of
+news content, we would argue that similar factors could be relevant in the develop-
+ment of attitudes and beliefs about others. As Shoemaker and Reese suggest, some-
+times it is difficult to separate who you are as an individual (with respect to demographic
+factors, etc.) with what you believe because it is those intrinsic characteristics that will
+shape and mold your thoughts, feelings, beliefs, and attitudes.
+
+As it relates to specific outcomes of bias beyond demographic characteristics, age
+and gender have been found to be related to negative attitudes about others as it relates
+to weight and mental illness. In the AFB studies conducted with children, younger
+children were more likely to assign negative personality traits to overweight individu-
+als compared with older children in the same sample, and boys were more likely to be
+charitable in their assessment of overweight individuals than were girls. As evidenced
+in all four studies, cognitive processing styles were also strong predictors of bias
+against overweight individuals. These types of cognitive processing styles suggest a
+good deal about the way an individual deals with all kinds of information, whether it
+be real-world information or information received from a media channel. Certainly,
+cognitive processing styles might function interactively with an individual’s self-
+perception. It is in this way that findings from this study also contribute to the body of
+work in the area of CEST. Epstein suggests that when an individual responds to an
+emotionally significant event, the experiential system automatically searches for
+related events that might influence the course of further processing and of behavioral
+tendencies.!'4 Thereby, if an individual witnesses or is exposed to the stigmatization
+of overweight or obese individuals either in a mediated context or social context, the
+affective response to that event might then activate schema that resonates with that
+experience, possibly reinforcing the positive or negative attitudes associated with the
+person or object in question. As its name suggests, the experiential system is a system
+that learns from experience. Thus, weight bias or weight stigmatization experienced
+by an individual or witnessed by an individual may serve to reinforce attitudes and
+beliefs about similar others. This would be especially true if the individual were over-
+weight himself or herself and had been the target of negative affect because of weight.
+This could also be one of the reasons the findings from the modified IAT were consis-
+tent across the four studies.
+
+Results from studies using the IAT suggest a good bit about the way information
+may be processed and transmitted on an implicit level. The descriptive results on the
+IAT from all four studies cited above reveal some of the most telling findings. While
+258 journalism & Communication Monographs | 5(4)
+
+ 
+
+certain [Vs proved better predictors of more explicit measures of bias, children and
+adults in all four samples across gender, ethnicity, and age displayed a propensity to
+associate more positive personality and physical attributes with thin people, and more
+negative personality and physical attributes to overweight people. If implicit measures
+of bias are identified in children as young as seven and eight, it suggests that the atti-
+tudes and beliefs will become further entrenched as the child ages, creating a belief
+system about others that could result in stigmatization, marginalization, and discrimi-
+nation. The implicit measures of bias have been documented in all of the areas pro-
+posed by the model—gender, race, sexual orientation, and age. It is possible that a
+combination of these individual factors interacts with one another to create a belief
+system that reflects negative attitudes and beliefs about others.
+
+We therefore propose individual factors as one of many that may serve as a corre-
+late or precursor to bias. Certainly, when examining an individual’s bias toward a
+specific group, characteristic, or attribute, the individual factors are most likely to
+remain stable; thus, those factors may prove to be more influential when bias or the
+development of bias is examined longitudinally.
+
+Social Influences
+
+The social factors encompassed by the proposed model include influences from what
+is called the “home environment,” influences from peers and other social groups, and
+an individual’s level of experience with the “real world.” If an individual were to be
+raised in a home where the mother has a more traditional role in terms of household
+duties, work outside of the home, discipline, and so on, that individual’s belief system
+about gender may be shaped by that experience. This type of finding has been evi-
+denced in studies where young children are asked to articulate opinions or attitudes
+about women wearing mechanics clothing or wearing athletic gear that is traditionally
+considered appropriate only for men. The home environment could also prove influen-
+tial in the development or presence of bias if attitudes by others in the household are
+negative. For example, a child who grows up in a home with a parent or sibling who
+expresses racist attitudes might also tend to share a similar belief system until more
+real-world experience affords the individual another perspective. Peers can serve as a
+source of influence in a similar way. While the home environment and peer influence
+may prove to be more influential for children with less real-world experience, these
+factors do shape an individual’s view of the world. For example, without first-person
+experience to suggest that people with mental illness are not violent or individuals
+who are overweight are not bad, an individual may rely on his or her social network to
+develop beliefs about other people. Specific to issues such as weight bias, an individ-
+ual who is exposed to discussions about fat being bad or a child who grows up in a
+household where a parent or sibling is constantly dieting may get the message that
+overweight or obesity is not desirable and may develop a bias against that characteris-
+tic. We would purport that it is in the combination of individual and social factors that
+interact with one another to help shape, guide, or develop an individual’s belief system
+about others.
+Bissell and Parrott 259
+
+ 
+
+Ideological Influences
+
+Just as individual and social factors may shape an individual’s beliefs or attitudes, we
+would also argue that ideology or cultural norms can serve as another important factor
+in the development and/or sustainability of bias. Shoemaker and Reese define ideol-
+ogy as “a symbolic mechanism that serves as a cohesive and integrating force in soci-
+ety” (p. 221).!!5 Numerous examples can be used to demonstrate how ideology can
+potentially shape the way an individual sees the world and subsequently those in it,
+although this level of influence is arguably the most difficult to quantify. For example,
+there might be a circumstance in which cultural ideology—say institutionalized rac-
+ism in the 1950s American South—could trump individual factors when it comes to
+bias. It could be argued that this sense of cultural ideology with regard to race shaped
+many of our attitudes about African Americans simply because it reflected the domi-
+nant way of thinking or, in some cases, the other way of thinking. As was noted
+throughout history, this acceptance of a bias against a specific ethnic/racial group was
+embraced by the majority because it was what was known and very few counterargu-
+ments were presented. Those who were the target of the bias or the negative attitudes
+might not have shared this dominant belief about racism, but the attitude was one that
+pervaded culture and society on a broader level and thus represented a way of think-
+ing. A similar example can be seen with the issue of mental illness. Except for those
+who have a mental illness or who have personal experience with someone else with a
+mental illness, the dominant, cultural belief may be one that is negative. We would
+propose that ideology may shape an individual’s attitudes or beliefs about others, but
+that factors such as the social or individual factors could serve as a means of trumping
+the dominant cultural belief or cultural norm. Bias, as conceptually defined earlier,
+reflects a combination of implicit and explicit attitudes. One might continue to hold
+negative implicit associations without knowing it, but that individual would be hesi-
+tant, or more willing, to express bias based on input from the dominant cultural ideol-
+ogy. While ideological bias is again difficult to quantify and operationalize, we would
+argue that it is a relevant factor of influence in the development of bias.
+
+Media Influences
+
+Media are certainly part of our social world, but we feel it is important to identify
+media influences separately because the influence of the media is largely predicated
+on the factors mentioned above. Mediated representations of gender, race, age, sexual
+orientation, weight, mental illness, or any other characteristic may dramatically influ-
+ence the way we think about individuals within that group, and even how we think
+about ourselves. Numerous studies cited above have documented the importance of
+media portrayals in the development of a belief system about gender, race, class, and
+age. The influence of the media may be particularly strong when an individual has
+little or no contact with a stigmatized group. With no individual experience, social
+feedback, or ideological guidance, an individual may rely more heavily on the media
+for information about another person, group, or issue. Furthermore, if an individual
+260 journalism & Communication Monographs | 5(4)
+
+ 
+
+spends a substantial amount of time with media content that offers limited perspec-
+tives, he or she could be inclined to adopt the belief system presented via the media.
+While this line of thinking is the basis upon which cultivation theory was developed,
+we would argue that some of the main premises of this theory still hold true today.
+
+In the four studies discussed above, different theories were used to examine one of
+the many factors we propose facilitate or aid in the development of bias or prejudice.
+When we examined individual factors such as cognitive process styles and the [AT,
+cognitive-experiential self-theory guided our predictions. When we examined other
+individual factors such as the home dieting behavior, social learning and social cogni-
+tive theory guided our predictions. When we examined factors such as media influence,
+cultivation theory guided those predictions. While each theory was appropriate in the
+test for one level of influence, none accounted for the multitude of possible factors in
+combination. We therefore argue that the proposed model fill previous gaps by looking
+at these variables as combined factors of influence. It is possible that mediated repre-
+sentations of thin or overweight in combination with household dieting behavior and
+self-perception function together to predict greater (or lesser) prejudice in others. As
+was noted from some of the studies, when the between-subjects test was examined
+statistically, we found with great consistency that exposure to overweight subjects was
+related to greater bias. This suggests the image might have primed respondents to think
+negatively about weight when looking at an overweight individual.
+
+Conclusion
+
+As mentioned above, our proposed model does not predict a direct order of influence:
+we are not suggesting that one level of influence is more powerful or influential than
+others as we would argue that the development of bias is very individualized. Situations
+might arise in which social influences outweigh individual influences. For example,
+with AFB, people who are overweight show no in-group preference, and people with
+mental illness might internalize “real-world experience” or negative media content so
+much so that it trumps their individual factors. In other cases, individuals who are
+rational processors, who exhibit the traits of independent thinkers on personality
+scales, and who may have a vast array of real-world experience may not be at all influ-
+enced by a cultural ideology or mediated content that presents groups, individuals, or
+characteristics in a negative light. Again, the process is too complex to predict a direc-
+tion, but we believe the identification of these levels allows for the operationalization
+of these influences in future empirical studies. Many of the earlier studies measured
+one level of influence—demographic factors or media exposure—but failed to control
+for the others suggested by the proposed model. We feel that our theoretical model
+takes into account all four types of influence of bias development and would therefore
+allow for a more comprehensive examination of weight bias or bias against other types
+of attributes. While the proposed model does take into account a variety of factors that
+could be related to the development of bias or prejudice, we recognize that measuring
+and statistically controlling for all of the possible variables is impractical in our social
+scientific environment. However, the proposed model considers variables that can be
+measured to help explain bias development and the development of prejudice in
+Bissell and Parrott 261
+
+ 
+
+children and adults. As bias against so many characteristics and personality traits is
+existent and prevalent, it is important to try to understand the precursors of those nega-
+tive attitudes. This theoretical model is an attempt to do just that via an examination of
+individual, social, media, and ideological factors. Future studies using this model will
+be more comprehensive to date and will aid researchers in understanding one of the
+many societal problems facing today.
+
+Declaration of Conflicting Interests
+
+The author(s) declared no potential conflicts of interest with respect to the research, authorship,
+and/or publication of this article.
+
+Funding
+
+The author(s) received no financial support for the research, authorship, and/or publication of
+this article.
+
+Notes
+
+1. Francis Dalisay and Alexis Tan, “Assimilation and Contrast Effects in the Priming of Asian
+American and African American Stereotypes through TV Exposure,” Journalism & Mass
+Communication Quarterly 86, no. 1 (2009): 7-22; Travis L. Dixon and Keith B. Maddox,
+“Skin Tone, Crime News, and Social Reality Judgments: Priming the Stereotype of the
+Dark and Dangerous Black Criminal,” Journal of Applied Social Psychology 35, no. 8
+(2005): 1555-70; Sonja M. Brown Givens and Jennifer L. Monahan, “Priming Mammies,
+Jezebels, and Other Controlling Images: An Examination of the Influence of Mediated
+Stereotypes on Perceptions of an African American Woman,” Media Psychology 7, no.
+1 (2005): 87-106; Christine Hall Hansen, “Priming Sex-Role Stereotypic Event Schemas
+with Rock Music Videos: Effects on Impression Favorability, Trait Inferences, and Recall
+of a Subsequent Male-Female Interaction,” Basic and Applied Social Psychology 10, no.
+4 (1989): 371-91; Christine H. Hansen and Ranald D. Hansen, “How Rock Music Videos
+Can Change What Is Seen When Boy Meets Girl: Priming Stereotypic Appraisal of Social
+Interactions,” Sex Roles 19, no. 5 (1988): 287-316.
+
+2. Rick W. Busselle, “Television Exposure, Perceived Realism, and Exemplar Accessibility
+in the Social Judgment Process,” Media Psychology 3, no. 1 (2001): 43-67; George
+Gerbner et al., “Growing Up with Television: The Cultivation Perspective,” in Media
+Effects: Advances in Theory and Research (2nd ed.), ed. Jennings Bryant and Dolf
+Zillmann (Mahwah, NJ: Lawrence Erlbaum, 2002), 43-68; Ki-Young Lee and Sung-
+Hee Joo, “The Portrayal of Asian Americans in Mainstream Magazine Ads: An Update,”
+Journalism & Mass Communication Quarterly 82, no. 3 (2005): 654-71; Dana Mastro,
+Elizabeth Behm-Morawitz, and Michelle Ortiz, “The Cultivation of Social Perceptions of
+Latinos: A Mental Models Approach,” Media Psychology 9, no. 2 (2007): 347-65; Dana E.
+Mastro and Elizabeth Behm-Morawitz, “Latino Representation on Primetime Television,”
+Journalism & Mass Communication Quarterly 82, no. 1 (2005): 110-30; Dana E. Mastro
+and Bradley S. Greenberg, “The Portrayal of Racial Minorities on Prime Time Television,”
+Journal of Broadcasting & Electronic Media 44, no. 4 (2000): 690-703; Adrienne Holz
+Ivory, Rhonda Gibson, and James D. Ivory, “Gendered Relationships on Television:
+Portrayals of Same-Sex and Heterosexual Couples,” Mass Communication and Society 12,
+no. 2 (2009): 170-92.
+262 journalism & Communication Monographs | 5(4)
+
+ 
+
+3. James Devitt, “Framing Gender on the Campaign Trail: Female Gubernatorial Candidates
+and the Press,” Journalism & Mass Communication Quarterly 79, no. 2 (2002): 445-63;
+Carol M. Liebler, Joseph Schwartz, and Todd Harper, “Queer Tales of Morality: The
+Press, Same-Sex Marriage, and Hegemonic Framing,” Journal of Communication 59, no.
+4 (2009): 653-75; Sung-Yeon Park, Kyle J. Holody, and Xiaoqun Zhang, “Race in Media
+Coverage of School Shootings: A Parallel Application of Framing Theory and Attribute
+Agenda Setting,” Journalism & Mass Communication Quarterly 89, no. 3 (2012): 475-94;
+Elaine Sieff, “Media Frames of Mental Illnesses: The Potential Impact of Negative
+Frames,” Journal of Mental Health 12, no. 3 (2003): 259-69.
+
+4. Elizabeth Behm-Morawitz and Dana E. Mastro, “Mean Girls? The Influence of Gender
+Portrayals in Teen Movies on Emerging Adults’ Gender-Based Attitudes and Beliefs,”
+Journalism & Mass Communication Quarterly 85, no. 1 (2008): 131-46; Silvia Knobloch-
+Westerwick, Osei Appiah, and Scott Alter, “News Selection Patterns as a Function of
+Race: The Discerning Minority and the Indiscriminating Majority,” Media Psychology
+11, no. 3 (2008): 400-17; Michelle Ortiz and Jake Harwood, “A Social Cognitive Theory
+Approach to the Effects of Mediated Intergroup Contact on Intergroup Attitudes,” Journal
+of Broadcasting & Electronic Media 51, no. 4 (2007): 615-31; Albert Bandura, “Social
+Cognitive Theory of Mass Communication,” in Media Effects: Advances in Theory and
+Research (3rd ed.), ed. Jennings Bryant and Mary Beth Oliver (New York: Routledge,
+2009), 94-124.
+
+5. Nancy Signorielli, “Aging on Television: Messages Relating to Gender, Race, and
+Occupation in Prime Time,” Journal of Broadcasting & Electronic Media 48, no. 2
+(2004): 279-301; Nancy Signorielli, “Aging on Television: The Picture in the Nineties,”
+Generations 25, no. 3 (2001): 34-38.
+
+6. Melinda C. R. Burgess et al., “Playing with Prejudice: The Prevalence and Consequences
+of Racial Stereotypes in Video Games,” Media Psychology 14, no. 3 (2011): 289-311;
+Travis L. Dixon and Daniel Linz, “Overrepresentation and Underrepresentation of African
+Americans and Latinos as Lawbreakers on Television News,” Journal of Communication
+50, no. 2 (2000): 131-54; Travis L. Dixon and Daniel Linz, “Race and the Misrepresentation
+of Victimization on Local Television News,” Communication Research 27, no. 5 (2000):
+547-73; Lee and Joo, “The Portrayal of Asian Americans in Mainstream Magazine Ads,”
+654-71; Mastro and Behm-Morawitz, “Latino Representation on Primetime Television,”
+110-30; Mastro and Greenberg, “The Portrayal of Racial Minorities on Prime Time
+Television,” 690-703; Mary Beth Oliver and Dana Fonash, “Race and Crime in the
+News: Whites’ Identification and Misidentification of Violent and Nonviolent Criminal
+Suspects,” Media Psychology 4, no. 2 (2002): 137-56; Mary Beth Oliver, “Portrayals of
+Crime, Race, and Aggression in “Reality-Based” Police Shows: A Content Analysis,”
+Journal of Broadcasting & Electronic Media 38, no. 2 (1994): 179-92; Park, Holody, and
+Zhang, “Race in Media Coverage of School Shootings,” 475-94.
+
+7. §.Parrottand F. D. Carpentier, “Media Stereotypes and the Stigmatization of Mental Illness:
+The Role of Adjoining and Adjacent Primes.” (conference paper, Mass Communication and
+Society Division of the Association for Education in Journalism and Mass Communication
+2012 Conference, Chicago, 2012); R. G. Nairn and J. H. Coverdale, “People Never See Us
+Living Well: An Appraisal of the Personal Stories about Mental IlIness in a Prospective
+Print Media Sample,” Australian & New Zealand Journal of Psychiatry 39, no. 4 (2005):
+281-87; Ruth Allen and Raymond G. Nairn, “Media Depictions of Mental Illness: An
+Analysis of the Use of Dangerousness,” Australian & New Zealand Journal of Psychiatry
+31, no. 3 (1997): 375-81; Otto F. Wahl, Media Madness: Public Images of Mental Iliness
+(New Brunswick, NJ: Rutgers University Press, 1997).
+Bissell and Parrott 263
+
+ 
+
+8.
+
+Jennifer Stevens Aubrey and Kristen Harrison, “The Gender-Role Content of Children’s
+Favorite Television Programs and Its Links to Their Gender-Related Perceptions,”
+Media Psychology 6, no. 2 (2004): 111-46; Behm-Morawitz and Mastro, “Mean Girls?,”
+131-46; Devitt, “Framing Gender on the Campaign Trail,” 445-63; Jami A. Fullerton
+and Alice Kendrick, “Portrayal of Men and Women in US Spanish-Language Television
+Commercials,” Journalism & Mass Communication Quarterly 77, no. 1 (2000): 128-42;
+Nancy Signorielli, “The Stigma of Mental Illness on Television,” Journal of Broadcasting
+& Electronic Media 33, no. 3 (1989): 325-31.
+
+. Rebecca L. Pearl, Rebecca M. Puhl, and Kelly D. Brownell, “Positive Media Portrayals of
+
+Obese Persons: Impact on Attitudes and Image Preferences,” Health Psychology 31, no. 6
+(2012): 821-29. doi:10.1037/a0027189; Linda Lin and Kathleen Reid, “The Relationship
+between Media Exposure and Antifat Attitudes: The Role of Dysfunctional Appearance
+Beliefs,” Body Image 6, no. 1 (2009): 52-55; Kim Bissell and Hal Hays, “Understanding
+Anti-fat Bias in Children: The Role of Media and Appearance Anxiety in Third to Sixth
+Graders’ Implicit and Explicit Attitudes toward Obesity,” Mass Communication & Society
+14, no. 1 (2011): 113-40. doi:10.1080/15205430903464592.
+
+. Dalisay and Tan, “Assimilation and Contrast Effects inthe Priming,” 7-22; Travis L. Dixon,
+
+“Psychological Reactions to Crime News Portrayals of Black Criminals: Understanding the
+Moderating Roles of Prior News Viewing and Stereotype Endorsement,” Communication
+Monographs 73, no. 2 (2006): 162-87; Cassie A. Eno and David R. Ewoldsen, “The
+Influence of Explicitly and Implicitly Measured Prejudice on Interpretations of and
+Reactions to Black Film,” Media Psychology 13, no. 1 (2010): 1-30; Givens and Monahan,
+“Priming Mammies, Jezebels, and Other Controlling Images,” 87-106; Dana Mastro and
+Riva Tukachinsky, “The Influence of Exemplar versus Prototype-Based Media Primes
+on Racial/Ethnic Evaluations,” Journal of Communication 61, no. 5 (2011): 916-37;
+Dana Mastro et al., “The Influence of Exposure to Depictions of Race and Crime in TV
+News on Viewers Social Judgments,” Journal of Broadcasting & Electronic Media 53,
+no. 4 (2009): 615-35; Dana E. Mastro, Elizabeth Behm-Morawitz, and Maria A. Kopacz,
+“Exposure to Television Portrayals of Latinos: The Implications of Aversive Racism
+and Social Identity Theory,” Human Communication Research 34, no. 1 (2008): 1-27;
+Srividya Ramasubramanian, “The Impact of Stereotypical versus Counterstereotypical
+Media Exemplars on Racial Attitudes, Causal Attributions, and Support for Affirmative
+Action,” Communication Research 38, no. 4 (2011): 497-516; Srividya Ramasubramanian,
+“Television Viewing, Racial Attitudes, and Policy Preferences: Exploring the Role of
+Social Identity and Intergroup Emotions in Influencing Support for Affirmative Action,”
+Communication Monographs 77, no. 1 (2010): 102-20; Srividya Ramasubramanian,
+“Media-Based Strategies to Reduce Racial Stereotypes Activated by News Stories,”
+Journalism & Mass Communication Quarterly 84, no. 2 (2007): 249-64; Srividya
+Ramasubramanian and Mary Beth Oliver, “Activating and Suppressing Hostile and
+Benevolent Racism: Evidence for Comparative Media Stereotyping,” Media Psychology
+9, no. 3 (2007): 623-46; Rocio Rivadeneyra, L. Monique Ward, and Maya Gordon,
+“Distorted Reflections: Media Exposure and Latino Adolescents’ Conceptions of Self,”
+Media Psychology 9, no. 2 (2007): 261-90.
+
+. Kimberly L. Bissell, “What Do These Messages Really Mean? Sports Media Exposure,
+
+Sports Participation, and Body Image Distortion in Women between the Ages of 18 and
+75,” Journalism & Mass Communication Quarterly 81, no. 1 (2004): 108-23; J. Robyn
+Goodman and Kim Walsh-Childers, “Sculpting the Female Breast: How College Women
+Negotiate the Media’s Ideal Breast Image,” Journalism & Mass Communication Quarterly
+81, no. 3 (2004): 657-74; J. Robyn Goodman, “Flabless Is Fabulous: How Latina and
+264 journalism & Communication Monographs | 5(4)
+
+ 
+
+Anglo Women Read and Incorporate the Excessively Thin Body Ideal into Everyday
+Experience,” Journalism & Mass Communication Quarterly 79, no. 3 (2002): 712-27;
+Gemma Lépez-Guimera et al., “Influence of Mass Media on Body Image and Eating
+Disordered Attitudes and Behaviors in Females: A Review of Effects and Processes,”
+Media Psychology 13, no. 4 (2010): 387-416; Donnalyn Pompper, Jorge Soto, and Lauren
+Piel, “Male Body Image and Magazine Standards: Considering Dimensions of Age and
+Ethnicity,” Journalism & Mass Communication Quarterly 84, no. 3 (2007): 525-45.
+
+12. Mary Beth Oliver et al., “The Effect of Narrative News Format on Empathy for Stigmatized
+Groups,” Journalism & Mass Communication Quarterly 89, no. 2 (2012): 205-24.
+
+13. Jerel P. Calzo and L. Monique Ward, “Media Exposure and Viewers’ Attitudes toward
+Homosexuality: Evidence for Mainstreaming or Resonance?,” Journal of Broadcasting &
+Electronic Media 53, no. 2 (2009): 280-99; Noelle R. Collier, Christine A. Lumadue, and
+H. Ray Wooten, “Buffy the Vampire Slayer and Xena: Warrior Princess: Reception of the
+Texts by a Sample of Lesbian Fans and Web Site Users,” Journal of Homosexuality 56, no.
+5 (2009): 575-609; Sarah C. Gomillion and Traci A. Giuliano, “The Influence of Media
+Role Models on Gay, Lesbian, and Bisexual Identity,” Journal of Homosexuality 58, no. 3
+(2011): 330-54.
+
+14. JoAnn A. Thornton and Otto F. Wahl, “Impact of a Newspaper Article on Attitudes toward
+Mental Illness,” Journal of Community Psychology 24, no. 1 (1996): 17-25; Parrott and
+Carpentier, “Media Stereotypes and the Stigmatization of Mental Illness.”
+
+15. “Overweight and Obesity,” Centers for Disease Control and Prevention, www.cdc.gov/
+obesity.
+
+16. S.S. Wang, Kelly D. Brownell, and T. A. Wadden, “The Influence of the Stigma of Obesity
+on Overweight Individuals,” Znternational Journal of Obesity 28, no. 10 (2004): 1333-37.
+
+17. Richard M. Lerner and Sam J. Korn, “The Development of Body-Build Stereotypes in
+Males,” Child Development 43, no. 3 (1972): 908-20; Tracy Anesbury and Marika
+Tiggemann, “An Attempt to Reduce Negative Stereotyping of Obesity in Children by
+Changing Controllability Beliefs,” Health Education Research 15, no. 2 (2000): 145-52.
+
+18. Lerner and Korn, “Body-Build Stereotypes in Males,” 908-20; Anesbury and Tiggemann,
+“An Attempt to Reduce Negative Stereotyping,” 145-52.
+
+19. Gordon W. Allport, “Attitudes,” in 4 Handbook of Social Psychology, ed. Carl Murchison
+(Worcester, MA: Clark University Press, 1935), 798-844.
+
+20. Richard E. Petty and John T. Cacioppo, Attitudes and Persuasion: Classic and
+Contemporary Approaches (Boulder, CO: Westview, 1996).
+
+21. Russell H. Fazio, “Attitudes as Object-Evaluation Associations of Varying Strength,”
+Social Cognition 25, no. 5 (2007): 603-37.
+
+22. Alice H. Eagly and Shelly Chaiken, The Psychology of Attitudes (Orlando, FL: Harcourt
+Brace Jovanovich College Publishers, 1993).
+
+23. Eagly and Chaiken, The Psychology of Attitudes.
+
+24. Eagly and Chaiken, The Psychology of Attitudes.
+
+25. Petty and Cacioppo, Attitudes and Persuasion.
+
+26. Petty and Cacioppo, Attitudes and Persuasion.
+
+27. Bruce G. Link and Jo C. Phelan, “Conceptualizing Stigma,” Annual Review of Sociology
+27 (2001): 363-85.
+
+28. Robert J. Rydell and Allen R. McConnell, “Understanding Implicit and Explicit Attitude
+Change: A Systems of Reasoning Analysis,” Journal of Personality and Social Psychology
+91, no. 6 (2006): 995-1008.
+
+29. Fritz Strack and Roland Deutsch, “Reflective and Impulsive Determinants of Social
+Behavior,” Personality and Social Psychology Review 8, no. 3 (2004): 220-47.
+Bissell and Parrott 265
+
+ 
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+37.
+
+38.
+
+Anthony G. Greenwald and Mahzarin R. Banaji, “Implicit Social Cognition: Attitudes,
+Self-Esteem, and Stereotypes,” Psychological Review 102, no. 1 (1995): 4-27.
+
+John A. Bargh et al., “The Generality ofthe Automatic Attitude Activation Effect,” Journal
+of Personality and Social Psychology 62, no. 6 (1992): 893-912; Russell H. Fazio et al.,
+“On the Automatic Activation of Attitudes,” Journal of Personality and Social Psychology
+50, no. 2 (1986): 229-38. doi:10.1037/0022-35 14.50.2.229.
+
+Marlene B. Schwartz et al., “Weight Bias among Health Professionals Specializing in
+Obesity,” Obesity Research 11, no. 9 (2003): 1033-39; Bethany A. Teachman et al.,
+“Demonstrations of Implicit Anti-fat Bias: The Impact of Providing Causal Information
+and Evoking Empathy,” Health Psychology 22, no. 1 (2003): 68-78.
+
+Patricia G. Devine et al., “The Regulation of Explicit and Implicit Race Bias: The Role of
+Motivations to Respond without Prejudice,” Journal of Personality and Social Psychology
+82, no. 5 (2002): 835-48; Eno and Ewoldsen, “The Influence of Explicitly and Implicitly
+Measured Prejudice,” 1-30.
+
+Tara S. Peris, Bethany A. Teachman, and Brian A. Nosek, “Implicit and Explicit Stigma of
+Mental Illness: Links to Clinical Care,” The Journal of Nervous and Mental Disease 196,
+no. 10 (2008): 752-60; Nicolas Riisch et al., “Implicit Self-Stigma in People with Mental
+Illness,” The Journal of Nervous and Mental Disease 198, no. 2 (2010): 150-53; Bethany
+A. Teachman, Joel G. Wilson, and Irina Komarovskaya, “Implicit and Explicit Stigma
+of Mental Illness in Diagnosed and Healthy Samples,” Journal of Social and Clinical
+Psychology 25, no. 1 (2006): 75-95.
+
+Leslie J. Heinberg, “Theories of Body Image Disturbance: Perceptual, Developmental
+and Sociocultural Factors,” in Body Image, Eating Disorders and Obesity: An Interactive
+Guide for Assessment and Treatment, ed. J. Kevin Thompson (Washington, DC: American
+Psychological Association, 1996): 27-47.
+
+Gordon W. Allport, The Nature of Prejudice (Reading, MA: Addison-Wesley, 1954).
+John Coverdale, Raymond Nair, and Donna Claasen, “Depictions of Mental Illness in Print
+Media: A Prospective National Sample,” Australian & New Zealand Journal of Psychiatry
+36, no. 5 (2002): 697-700; Donald L. Diefenbach and Mark D. West, “Television and
+Attitudes toward Mental Health Issues: Cultivation Analysis and the Third-Person Effect,”
+Journal of Community Psychology 35, no. 2 (2007): 181-95; Darcy Haag Granello and
+Pamela S. Pauley, “Television Viewing Habits and Their Relationship to Tolerance toward
+People with Mental IIness,” Journal of Mental Health Counseling 22, no. 2 (2000): 162-75;
+Raymond G. Nairn, “Media Portrayals of Mental Illness, or Is It Madness? A Review,”
+Australian Psychologist 42, no. 2 (2007): 138-46; Heather Stuart, “Media Portrayal of
+Mental Illness and Its Treatments: What Effect Does It Have on People with Mental
+Illness?,” CNS Drugs 20, no. 2 (2006): 99-106; Otto F. Wahl, “Mass Media Images of
+Mental Illness: A Review of the Literature,” Journal of Community Psychology 20, no. 4
+(1992): 343-52; Otto F. Wahl, “News Media Portrayal of Mental Illness Implications for
+Public Policy,” American Behavioral Scientist 46, no. 12 (2003): 1594-1600.
+
+Burgess et al., “Playing with Prejudice,” 289-311; Dixon and Linz, “Overrepresentation
+and Underrepresentation,” 131-54; Dixon and Linz, “Race and the Misrepresentation of
+Victimization,” 547-73; Lee and Joo, “The Portrayal of Asian Americans in Mainstream
+Magazine Ads,” 654-71; Mastro and Behm-Morawitz, “Latino Representation on
+Primetime Television,” 110-30; Mastro and Greenberg, “The Portrayal of Racial
+Minorities on Prime Time Television,” 690-703; Oliver and Fonash, “Race and Crime in
+the News,” 137-56; Oliver, “Portrayals of Crime, Race, and Aggression in ‘Reality-Based’
+Police Shows,” 179-92; Park, Holody, and Zhang, “Race in Media Coverage of School
+Shootings,” 475-94.
+266 journalism & Communication Monographs | 5(4)
+
+ 
+
+39. Aubrey and Harrison, “The Gender-Role Content of Children’s Favorite Television
+Programs,” 111-46; Behm-Morawitz and Mastro, “Mean Girls?,” 131-46; Devitt, “Framing
+Gender on the Campaign Trail,” 445-63; Fullerton and Kendrick, “Portrayal of Men and
+Women in U.S. Spanish-Language Television Commercials,” 128-42; Signorielli, “The
+Stigma of Mental Illness,” 325-31.
+
+40. Gregory Fouts and Rebecca Inch, “Homosexuality in TV Situation Comedies,” Journal of
+Homosexuality 49, no. 1 (2005): 35-45.
+
+41. Signorielli, “Aging on Television: Messages Relating to Gender, Race, and Occupation in
+Prime Time,” 279-301; Signorielli, “Aging on Television: The Picture in the Nineties,”
+34-38.
+
+42. Hugh Klein and Kenneth S. Shiffman, “Messages about Physical Attractiveness in
+Animated Cartoons,” Body Image 3, no. 4 (2006): 353-63.
+
+43. Marci M. Glessner, John H. Hoover, and Lisa A. Hazlett, “The Portrayal of Overweight
+in Adolescent Fiction,” Reclaiming Children and Youth: The Journal of Strength-Based
+Interventions 15, no. 2 (2006): 116-23.
+
+44. Sherry L. Tumer et al., “The Influence of Fashion Magazines on the Body Image
+Satisfaction of College Women: An Exploratory Analysis,” Adolescence (1997): 603-17;
+Renée A. Botta, “Television Images and Adolescent Girls’ Body Image Disturbance,”
+Journal of Communication 49, no. 2 (1999): 22-41; Lisa M. Groesz, Michael P. Levine,
+and Sarah K. Murnen, “The Effect of Experimental Presentation of Thin Media Images on
+Body Satisfaction: A Meta-analytic Review,” Jnternational Journal of Eating Disorders
+31, no. 1 (2002): 1-16.
+
+45. Gregory Fouts and Kimberley Burggraf, “Television Situation Comedies: Female Body
+Images and Verbal Reinforcements,” Sex Roles 40, no. 5 (1999): 473-81; Gregory Fouts
+and Kimberley Burggraf, “Television Situation Comedies: Female Weight, Male Negative
+Comments, and Audience Reactions,” Sex Roles 42, no. 9 (2000): 925-32.
+
+46. Bradley S. Greenberg et al., “Portrayals of Overweight and Obese Individuals on
+Commercial Television,” American Journal of Public Health 93, no. 8 (2003): 1342-48.
+
+47. Gregory Fouts and Kimberley Vaughan, “Television Situation Comedies: Male Weight,
+Negative References, and Audience Reactions,” Sex Roles 46, no. 11 (2002): 439-42;
+Fouts and Burggraf, “Television Situation Comedies: Female Body Images and Verbal
+Reinforcements,” 473-81.
+
+48. Greenberg et al., “Portrayals of Overweight,” 1342-48.
+
+49. Fouts and Vaughan, “Television Situation Comedies: Male Weight, Negative References,
+and Audience Reactions,” 439-42.
+
+50. Allan M. Collins and Elizabeth F. Loftus, “A Spreading-Activation Theory of Semantic
+Processing,” Psychological Review 82, no. 6 (1975): 407-28.
+
+51. Givens and Monahan, “Priming Mammies, Jezebels, and Other Controlling Images,”
+87-106.
+
+52. E. Tory Higgins, John A. Bargh, and Wendy J. Lombardi, “Nature of Priming Effects on
+Categorization,” Journal of Experimental Psychology: Learning, Memory, and Cognition
+11, no. 1 (1985): 59-69.
+
+53. Givens and Monahan, “Priming Mammies, Jezebels, and Other Controlling Images,”
+87-106.
+
+54. Hansen and Hansen, “How Rock Music Videos Can Change What Is Seen When Boy
+Meets Girl,” 287-316.
+
+55. Parrott and Carpentier, “Media Stereotypes and the Stigmatization of Mental Illness.”
+Bissell and Parrott 267
+
+ 
+
+56.
+
+57.
+
+58.
+
+59.
+
+60.
+
+61.
+
+62.
+63.
+
+64.
+
+65.
+
+66.
+
+67.
+
+68.
+
+69.
+
+70.
+71.
+
+72.
+
+73.
+
+74.
+
+75.
+
+Michael Morgan, “Cultivation Analysis and Media Effects,” in The SAGE Handbook of
+Media Processes and Effects, ed. Robin L. Nabi and Mary Beth Oliver (Thousand Oaks,
+CA: SAGE, 2009), 69-82.
+
+George Gerbner and Larry Gross, “Living with Television: The Violence Profile,” Journal
+of Communication 26, no. 2 (1976): 172-94.
+
+Nancy Signorielli and Margaret Lears, “Children, Television, and Conceptions about
+Chores: Attitudes and Behaviors,” Sex Roles 27, no. 3 (1992): 157-70.
+
+Wahl, “News Media Portrayal of Mental Illness Implications for Public Policy,”
+1594-1600.
+
+Mastro and Greenberg, “The Portrayal of Racial Minorities on Prime Time Television,”
+690-703.
+
+Fouts and Burggraf, “Television Situation Comedies: Female Weight, Male Negative
+Comments, and Audience Reactions,” 925-32.
+
+Fouts and Inch, “Homosexuality in TV Situation Comedies,” 35-45.
+
+Michael Morgan, “Television and Adolescents’ Sex Role Stereotypes: A Longitudinal
+Study,” Journal of Personality and Social Psychology 43, no. 5 (1982): 947-55.
+
+L. J. Shrum, “Assessing the Social Influence of Television: A Social Cognition Perspective
+on Cultivation Effects,” Communication Research 22, no. 4 (1995): 402-29; L. J. Shrum,
+“Psychological Processes Underlying Cultivation Effects: Further Tests of Construct
+Accessibility,” Human Communication Research 22, no. 4 (1996): 482-509.
+
+Shrum, “Assessing the Social Influence of Television,” 402-29; Shrum, “Psychological
+Processes Underlying Cultivation,” 482-509
+
+L. A. Kirkpatrick and S. Epstein, “Cognitive-Experiential Self-Theory and Subjective
+Probability: Further Evidence for Two Conceptual Systems,” Journal of Personality and
+Social Psychology 63, no. 4 (1992): 534-44.
+
+Seymour Epstein, “Cognitive-Experiential Self-Theory of Personality,” in Comprehensive
+Handbook of Psychology, Volume 5: Personality and Social Psychology, ed. Theodore
+Millon and Melvin J. Lerner (Hoboken, NJ: Wiley, 2003), 159-84.
+
+Seymour Epstein, “Cognitive-Experiential Self-Theory of Personality,” 159-84.
+
+Sylvia Herbozo et al., “Beauty and Thinness Messages in Children’s Media: A Content
+Analysis,” Eating Disorders 12, no. 1 (2004): 21-34.
+
+Greenberg et al., “Portrayals of Overweight,” 1342-48.
+
+C. Neil Macrae and Galen V. Bodenhausen, “Social Cognition: Thinking Categorically
+about Others,” Annual Review of Psychology 51, no. 1 (2000): 93-120.
+
+John A. Bargh, “The Cognitive Monster: The Case against the Controllability of Automatic
+Stereotype Effects,” in Dual-Process Theories in Social Psychology, ed. Shelly Chaiken
+and Yaacov Trope (New York: The Guilford Press, 1999), 361-82; Irene V. Blair, “The
+Malleability of Automatic Stereotypes and Prejudice,” Personality and Social Psychology
+Review 6, no. 3 (2002): 242-61; Patricia G. Devine, “Stereotypes and Prejudice: Their
+Automatic and Controlled Components,” Journal of Personality and Social Psychology
+56, no. 1 (1989): 5-18.
+
+Rebecca M. Puhl and Kelly D. Brownell, “Psychosocial Origins of Obesity Stigma: Toward
+Changing a Powerful and Pervasive Bias,” Obesity Reviews 4, no. 4 (2003): 213-27.
+Galen V. Bodenhausen, “Stereotypes as Judgmental Heuristics: Evidence of Circadian
+Variations in Discrimination,” Psychological Science 1, no. 5 (1990): 319-22.
+
+Rebecca M. Puhl and Janet D. Latner, “Stigma, Obesity, and the Health of the Nation’s
+Children,” Psychological Bulletin 133, no. 4 (2007): 557-80.
+268 journalism & Communication Monographs | 5(4)
+
+ 
+
+76. Phebe Cramer and Tiffany Steinwert, “Thin Is Good, Fat Is Bad: How Early Does It Begin?,”
+Journal of Applied Developmental Psychology 19, no. 3 (1998): 429-51; Anesbury and
+Tiggemann, “An Attempt to Reduce Negative Stereotyping of Obesity,” 145-52; Marika
+Tiggemann and Elise Wilson-Barrett, “Children’s Figure Ratings: Relationship to Self-
+Esteem and Negative Stereotyping,” International Journal of Eating Disorders 23, no. 1
+(1998): 83-88.
+
+77. Marla E. Eisenberg, Dianne Neumark-Sztainer, and Mary Story, “Associations of
+Weight-Based Teasing and Emotional Well-Being among Adolescents,” Archives of
+Pediatrics & Adolescent Medicine 157, no. 8 (2003): 733-87; K. A. Kraig and P. K.
+Keel, “Weight-Based Stigmatization in Children,” Jnternational Journal of Obesity 25
+(2001): 1661-6.
+
+78. Eisenberg, Neumark-Sztainer, and Story, “Associations of Weight-Based Teasing,” 733-8;
+Kraig and Keel, “Weight-Based Stigmatization.”
+
+79. Eisenberg, Neumark-Sztainer, and Story, “Associations of Weight-Based Teasing,” 733.
+
+80. Puhl and Latner, “Stigma, Obesity, and the Health of the Nation’s Children,” 557-80.
+
+81. Cramer and Steinwert, “Thin Is Good, Fat Is Bad,” 429-51.
+
+82. Marie C. Lawson, “Development of Body Build Stereotypes, Peer Ratings, and Self-
+Esteem in Australian Children,” Journal of Psychology: Interdisciplinary and Applied 104,
+no. | (1980): 111-8.
+
+83. Janet D. Latner and Albert J. Stunkard, “Getting Worse: The Stigmatization of Obese
+Children,” Obesity Research 11, no. 3 (2003): 452-56.
+
+84. Allport, The Nature of Prejudice.
+
+85. Christian S. Crandall and Charles Stangor, “Conformity and Prejudice,” in On the Nature
+of Prejudice: Fifty Years after Allport, ed. John F. Dovidio, Peter Glick, and Laurie A.
+Rudman (Oxford, UK: Blackwell, 2008): 293-309.
+
+86. Christian S. Crandall, Amy Eshleman, and Laurie O’Brien, “Social Norms and the
+Expression and Suppression of Prejudice: The Struggle for Internalization,” Journal of
+Personality and Social Psychology 82, no. 3 (2002): 359-78.
+
+87. G. Neil Martin and Colin D. Gray, “The Effects of Audience Laughter on Men’s and
+Women’s Responses to Humor,” The Journal of Social Psychology 136, no. 2 (1996):
+221-31.
+
+88. Alison E. Field et al., “Peer, Parent, and Media Influences on the Development of Weight
+Concerns and Frequent Dieting among Preadolescent and Adolescent Girls and Boys,”
+Pediatrics 107, no. 1 (2001): 54-60.
+
+89. Andrew G. Beatty, “Social Contact with the Elderly and Degree of Collectivism as
+Correlates of Ageism in Caucasian and Asian-American Populations,” Gerontologist 52,
+no. $1 (2012): 520.
+
+90. Shanto Iyengar and Kyu S. Hahn, “Red Media, Blue Media: Evidence of Ideological
+Selectivity in Media Use,” Journal of Communication 59, no. 1 (2009): 19-39.
+
+91. Felicia Pratto et al., “Social Dominance Orientation: A Personality Variable Predicting
+Social and Political Attitudes,” Journal of Personality and Social Psychology 67, no. 4
+(1994): 741-63.
+
+92. Gregory S. Braswell, Karl S. Rosengren, and Howard Berenbaum, “Gravity, God and
+Ghosts? Parents’ Beliefs in Science, Religion, and the Paranormal and the Encouragement
+of Beliefs in their Children,” International Journal of Behavioral Development 36, no. 2
+(2012): 99-106.
+
+93. Martin Kroh and Peter Selb, “Inheritance and the Dynamics of Party Identification,”
+Political Behavior 31, no. 4 (2009): 559-74.
+Bissell and Parrott 269
+
+ 
+
+94.
+
+95.
+
+96.
+
+97.
+
+98.
+
+99.
+
+100.
+
+101.
+
+102.
+
+103.
+
+104.
+
+105.
+
+106.
+
+107.
+
+108.
+
+109.
+
+Paul R. Nail, Helen C. Harton, and Brian P. Decker, “Political Orientation and Modern
+versus Aversive Racism: Tests of Dovidio and Gaertner’s (1998) Integrated Model,”
+Journal of Personality and Social Psychology 84, no. 4 (2003): 754-70.
+
+Deidre Anglin, Bruce Link, and Jo Phelan, “Racial Differences in Stigmatizing Attitudes
+toward People with Mental Illness,” Psychiatric Services 57, no. 6 (2006): 857-62.
+
+K. S. O’Brien, J. A. Hunter, and M. Banks, “Implicit Anti-fat Bias in Physical Educators:
+Physical Attributes, Ideology and Socialization,” International Journal of Obesity 31, no.
+2 (2007): 308-14.
+
+Bandura, “Social Cognitive Theory of Mass Communication,” 94-124; Behm-Morawitz
+and Mastro, “Mean Girls?,” 131-46; Knobloch-Westerwick, Appiah, and Alter, “News
+Selection Patterns as a Function of Race,” 400-17; Ortiz and Harwood, “A Social
+Cognitive Theory Approach,” 615-31.
+
+Dalisay and Tan, “Assimilation and Contrast Effects in the Priming,” 7-22; Dixon and
+Maddox, “Skin Tone, Crime News, and Social Reality Judgments,” 1555-70; Givens and
+Monahan, “Priming Mammies, Jezebels, and Other Controlling Images,” 87-106; Hansen
+and Hansen, “How Rock Music Videos Can Change What Is Seen When Boy Meets
+Girl,” 287-316; Hansen, “Priming Sex-Role Stereotypic Event Schemas with Rock Music
+Videos,” 371-91.
+
+Busselle, “Television Exposure, Perceived Realism, and Exemplar Accessibility,” 43-67;
+Lee and Joo, “The Portrayal of Asian Americans in Mainstream Magazine Ads,” 654—71;
+Mastro and Behm-Morawitz, “Latino Representation on Primetime Television,” 110-30;
+Mastro and Greenberg, “The Portrayal of Racial Minorities on Prime Time Television,”
+690-703; Mastro, Behm-Morawitz, and Ortiz, “The Cultivation of Social Perceptions
+of Latinos,” 347-65; Gerbner et al., “Growing Up with Television: The Cultivation
+Perspective,” Ist ed., 43-68; Ivory, Gibson, and Ivory, “Gendered Relationships on
+Television,” 170-92.
+
+Dietram A. Scheufele, “Framing as a Theory of Media Effects,” Journal of Communication
+49, no. 1 (1999): 103-22.
+
+George Gerbner et al., “Growing Up with Television: The Cultivation Perspective,” in
+Media Effects: Advances in Theory and Research (1st ed.), ed. Jennings Bryant and Dolf
+Zillmann (Mahwah, NJ: Lawrence Erlbaum, 1994), 17-42.
+
+Shrum, “Psychological Processes Underlying Cultivation,” 482-509.
+
+Gayle R. Bessenoff, “Can the Media Affect Us? Social Comparison, Self-Discrepancy,
+and the Thin Ideal,” Psychology of Women Quarterly 30, no. 3 (2006): 239-51.
+
+Albert Bandura, “Social Learning Theory of Aggression,” Journal of Communication 28,
+no. 3 (1978): 12-29.
+
+Christian S. Crandall, “Prejudice against Fat People: Ideology and Self-Interest,” Journal
+of Personality and Social Psychology 66 (1994): 882-94.
+
+Greenwald and Banaji, “Implicit Social Cognition,” 4.
+
+Jennifer D. Lundgren, Drew A. Anderson, and Joel Kevin Thompson, “Fear of Negative
+Appearance Evaluation: Development and Evaluation of a New Construct for Risk Factor
+Work in the Field of Eating Disorders,” Eating Behaviors 5, no. 1 (2004): 75-84.
+
+Dale L. Cusumano and J. Kevin Thompson, “Body Image and Body Shape Ideals in
+Magazines: Exposure, Awareness, and Internalization,” Sex Roles 37, no. 9 (1997):
+701-21.
+
+Marcela L. Szymanski and Thomas F. Cash, “Body-Image Disturbances and Self-
+Discrepancy Theory: Expansion of the Body-Image Ideals Questionnaire,” Journal of
+Social and Clinical Psychology 14, no. 2 (1995): 134-46.
+270 journalism & Communication Monographs | 5(4)
+
+ 
+
+110. Bissell, “What Do These Messages Really Mean?,” 108-23.
+
+111. Kristen Harrison, “Television Viewing, Fat Stereotyping, Body Shape Standards, and
+Eating Disorder Symptomatology in Grade School Children,” Communication Research
+27, no. 5 (2000): 617-40.
+
+112. Kimberly Bissell and Katharine Birchall, “Through the Hoop: How Sports Participation
+Displaces Media Use and Is Related to Body Self-Esteem in Competitive Female Athletes,”
+Journal of Sports Media 3, no. 2 (2008): 25-59.
+
+113. Pamela J. Shoemaker and Stephen D. Reese, Mediating the Message (White Plains, NY:
+Longman, 1996).
+
+114. Epstein, “Cognitive-Experiential Self-Theory of Personality,” 159-84.
+
+115. Shoemaker and Reese, Mediating the Message.
+
+Author Biographies
+
+Kim Bissell (Ph.D., Syracuse University) is a professor in the College of Communication and
+Information Sciences at the University of Alabama and the Souther Progress Endowed
+Professor in magazine journalism. She serves as the college’s associate dean for research and is
+the director of the Institute for Communication and Information Research. Her research interests
+lie in the intersection of media, health, and children, and she has studied the social effects of
+mass media as it relates to body image for more than a decade and has designed and developed
+media and health literacy programs for children and adolescents in the area of health and body
+image.
+
+Scott Parrott (Ph.D., The University of North Carolina at Chapel Hill) is an assistant professor
+in the College of Communication and Information Sciences at the University of Alabama. He
+studies media and social cognition, including the role of the media in the development, rein-
+forcement, and mitigation of stereotypes, prejudice, and discrimination. His research primarily
+addresses the stigma attached to mental illness and overweight/obesity.
+

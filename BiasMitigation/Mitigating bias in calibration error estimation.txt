@@ -1,0 +1,1265 @@
+Mitigating Bias in Calibration Error Estimation
+Rebecca Roelofs Nicholas Cain Jonathon Shlens Michael C. Mozer
+Google Research Google Research Google Research Google Research
+Abstract
+For an AI system to be reliable, the conﬁ-
+dence it expresses in its decisions must match
+its accuracy. To assess the degree of match,
+examples are typically binned by conﬁdence
+and the per-bin mean conﬁdence and accuracy
+are compared. Most research in calibration
+focuses on techniques to reduce this empiri-
+cal measure of calibration error, ECE bin.W e
+instead focus on assessing statistical bias in
+this empirical measure, and we identify better
+estimators. We propose a framework through
+which we can compute the bias of a partic-
+ular estimator for an evaluation data set of
+a given size. The framework involves syn-
+thesizing model outputs that have the same
+statistics as common neural architectures on
+popular data sets. We ﬁnd that binning-based
+estimators with bins of equal mass (number
+of instances) have lower bias than estimators
+with bins of equal width. Our results indi-
+cate two reliable calibration-error estimators:
+the debiased estimator (Brocker, 2012; Ferro
+and Fricker, 2012) and a method we propose,
+ECE sweep, which uses equal-mass bins and
+chooses the number of bins to be as large as
+possible while preserving monotonicity in the
+calibration function. With these estimators,
+we observe improvements in the eﬀectiveness
+of recalibration methods and in the detection
+of model miscalibration.
+1I N T R O D U C T I O N
+Machine learning models are increasingly deployed in
+high-stakes settings like self-driving cars (Caesar et al.,
+2020; Geiger et al., 2013; Sun et al., 2020) and medical
+diagnosis (Esteva et al., 2017, 2019; Gulshan et al.,
+2016) where it is critical to recognize when a model is
+likely to be incorrect. Unfortunately, models often fail
+Proceedings of the 25thInternational Conference on Artiﬁ-
+cial Intelligence and Statistics (AISTATS) 2022, Valencia,
+Spain. PMLR: Volume 151. Copyright 2022 by the au-
+thor(s).in unexpected and poorly understood ways, hindering
+our ability to interpret and trust such systems (Azulay
+and Weiss, 2018; Biggio and Roli, 2018; Hendrycks
+and Dietterich, 2019; Recht et al., 2019; Szegedy et al.,
+2013). To address these issues, calibration is used to
+ensure that a model produces conﬁdence scores that
+reﬂect its ground truth likelihood of being correct (Platt
+et al., 1999; Zadrozny and Elkan, 2001, 2002).
+To obtain an estimate of the calibration error, or ECE1,
+the standard procedure partitions the model conﬁdence
+scores into bins and compares the model’s predicted
+accuracy to its empirical accuracy within each bin
+(Guo et al., 2017; Naeini et al., 2015). We refer to this
+speciﬁc metric as ECE bin.R e c e n tw o r ko b s e r v e dt h a t
+the calculation of ECE binis sensitive to implementation
+(Kumar et al., 2019; Nixon et al., 2019). Fundamentally,
+ak e yc o n f o u n d i n gf a c t o ri s statistical bias ,t h ed i ﬀ e r e n c e
+between the expected ECE binand the true calibration
+error ( TCE ). Because bias is largely unexplored in
+the literature, its magnitude and sign is unknown, as
+is its dependence on hyperparameters of the ECE bin
+estimator (e.g., number of bins, how bins are formed).
+We explain our reasons for focusing on estimator bias
+and not variance in Section 4.
+Bias in ECE binmeasurement has two real world conse-
+quences. First, the measurement of calibration error on
+a given model may be systematically incorrect. Thus,
+our understanding of how well a model knows whether
+it is correct may be poor, and may not be accurately
+captured by naively reporting ECE bin.S e c o n d ,m a n y
+techniques have been developed to minimize the cali-
+bration error, such as post-hoc recalibration techniques
+(Guo et al., 2017; Zadrozny and Elkan, 2001, 2002) and,
+more recently, calibration-sensitive training objectives
+(Karandikar et al., 2021; Krishnan and Tickoo, 2020;
+Kumar et al., 2018; Lin et al., 2018; Mukhoti et al.,
+2020). Given that the selection of the training objec-
+tives and the justiﬁcation of a recalibration technique
+is predicated on the measurement of the calibration
+1Naeini et al. (2015) introduce ECE as an acronym for
+Expected Calibration Error. However, ECE is not a proper
+expectation whereas the true calibration error is computed
+under an expectation. To resolve this confusion, we prefer
+to read ECE as Estimated Calibration Error.Mitigating Bias in Calibration Error Estimation
+(a) Figure 1: ECE binexhibits large bias for perfectly cali-
+brated models. We simulate data from a perfectly calibrated
+model with conﬁdence scores ﬁt to ResNet-110 CIFAR-10
+output (He et al., 2016; Kängsepp, 2019) and measure ECE bin
+using 15 equal-width-spaced bins. The left panel shows a re-
+liability diagram for a sample of size n=2 0 0 (named Sample
+B); the right panel has a distribution of ECE binscores com-
+puted across 106independent simulations. Even though the
+model is perfectly calibrated, ECE binsystematically predicts
+large calibration errors.
+error, reliance on an inaccurate estimator may lead to
+as u b o p t i m a lc h o i c e .
+We address this problem by developing a technique
+to measure bias in calibration metrics, which we call
+thebias-by-construction (BBC) framework. The BBC
+framework uses simulation to create a setting where the
+TCE can be computed analytically and thus the bias
+can be estimated directly. BBC reveals that ECE binhas
+systematic non-negligible statistical bias, particularly
+for perfectly calibrated models (Figure 1).
+Our goal is to identify the least biased estimator of cal-
+ibration error using BBC. We consider two estimators
+previously proposed in the literature: the debiased esti-
+mator (Brocker, 2012; Ferro and Fricker, 2012), which
+we refer to as ECE debias ,a n dt h es m o o t h e dk e r n e l
+density estimator of Zhang et al. (2020), which we
+refer to as KDE .A d d i t i o n a l l y , w e p r o p o s e a n e x t e n -
+sion of ECE binwhere the number of bins is chosen
+to ensure monotonicity of the calibration histogram,
+which we refer to as ECE sweep.ECE bin,ECE debias ,
+andECE sweep all require the binning of model conﬁ-
+dence scores, and under the lens of bias, we examine
+two common methods for specifying bins: partitioning
+the conﬁdence-score continuum either into equal width
+bins or bins of equal mass —equal numbers of data
+instances.
+Furthermore, BBC allows us to examine the impact
+of biased estimators in downstream decision making,
+such as the selection of a post-hoc recalibration method.
+For example, when the choices for recalibration include
+histogram binning (Zadrozny and Elkan, 2001), temper-
+ature scaling (Guo et al., 2017), and isotonic regression
+(Zadrozny and Elkan, 2002), Table 1 illustrates thatour bias-reduced measure, ECE sweep,m o r ef r e q u e n t l y
+selects the ‘optimal’ recalibration method when com-
+pared to the standard measure, ECE bin(70% versus
+30% correctness, respectively). Optimality is deter-
+mined by estimating TCE using numerical integration
+on curves arising from maximum likelihood ﬁts across
+multiple model families, where we select the best model
+via the Akaike information criterion (see Section 6).
+To summarize the contributions of this work, the core
+contribution is a simulation framework, bias by con-
+struction or BBC, that allows us to identify and char-
+acterize systematic bias in calibration error metrics for
+realistic models and data sets. We show that estima-
+tion of calibration error by the predominant method,
+ECE bin,i sb i a s e d ,a n dp a r a d o x i c a l l yt h eb i a si sm o s t
+severe for perfectly calibrated models. Bias can lead
+not only to the mis-estimation of calibration error but
+also to the wrong choice of recalibration method, yield-
+ing a poorly calibrated model. Moreover, we ﬁnd that
+the selection of hyperparameters for measuring cal-
+ibration (e.g., number of bins) is under-appreciated
+and is absolutely critical. To address these issues, we
+propose ECE sweep,as i m p l ea l g o r i t h mb a s e do nt h e
+monotonicity principle of calibration curves. We com-
+pare the bias of various estimators using predictions
+from four popular neural architectures and three data
+sets. We ﬁnd that ECE binis more biased than either
+ECE debias orECE sweep,a n do ft h e s et w oi m p r o v e d
+measures, ECE debias performs better for perfectly cali-
+brated models and ECE sweep for miscalibrated models.
+Finally, our analyses provide rigorous empirical evi-
+dence that for all binning-based estimators, equal-mass
+binning obtains a more accurate estimate of true cal-
+ibration error. This ﬁnding gives strong guidance to
+revise the current practice of equal-width binning.
+2R E L A T E D W O R K
+ECE bin.ECE binwith 15 bins of equal width is cur-
+rently the most popular way to measure calibration
+error in the literature (Guo et al., 2017; Naeini et al.,
+2015). An alternative but less popular implementation
+evaluates ECE binusing bins of equal mass, which par-
+titions examples into bins that have an equal number
+of examples Kumar et al. (2019); Zadrozny and Elkan
+(2001). Recently, Nixon et al. (2019) observed that
+ECE binwith equal-mass-binning produces more stable
+rankings of recalibration algorithms, which is consistent
+with our conclusion that equal mass ECE binis a less
+biased estimator of TCE.
+Sensitivity of ECE binto implementation hyper-
+parameters. Several works have pointed out that
+ECE binis sensitive to implementation details. Kumar
+et al. (2019) show that ECE binincreases with number
+of bins. Nixon et al. (2019) ﬁnd that ECE binis sen-Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+CIFAR-10 CIFAR-100 ImageNet
+ResNet ResNet WideResNet DenseNet ResNet ResNet DenseNet WideResNet ResNet DenseNet
+110 110_SD 32 40 110 110_SD 40 32 152 161
+ECE bin 7 3 7 3 7 3 7 7 7 7
+ECE sweep 3 3 3 3 7 3 3 3 7 7
+Table 1: The selection of a recalibration method is severely aﬀected by biased computational methods. For ten
+models, we report whether either ECE binorECE sweep select the same ( 3)o rd i ﬀ e r e n t( 7)r e c a l i b r a t i o na l g o r i t h m
+(either histogram binning, isotonic regression or temperature scaling) as would an estimate of TCE obtained from
+maximum likelihood ﬁts to empirical data (see Section 6). ECE binselects the same algorithm only 3/10 times,
+versus 7/10 for ECE sweep,i l l u s t r a t i n gh o wc o m p u t a t i o n a lb i a sc a nn e g a t i v e l yi m p a c tr e c a l i b r a t i o n .
+sitive to several hyperparameters, including `pnorm,
+number of bins, and binning technique. In contrast to
+prior work, we explicitly quantify estimation bias in
+simulation for realistic model outputs, and we show
+precisely how the biasinECE binvaries with the choice
+of sample size, model architecture, datasets, and imple-
+mentation hyperparameters for ECE binsuch as number
+of bins and binning method.
+Less biased metrics for calibration error. Moti-
+vated by the sensitivity of ECE binto implementation
+hyperparameters, recent work has proposed less bi-
+ased estimates of TCE. In particular, Ferro and Fricker
+(2012) and Brocker (2012) propose a debiased estimator ,
+ECE debias , which uses a jackknife technique to estimate
+the per-bin bias in the standard ECE bin,a n ds u b t r a c t s
+oﬀ this bias to achieve a better binned estimate of the
+calibration error. Similarly, Zhang et al. (2020) propose
+as m o o t h e dK e r n e lD e n s i t yE s t i m a t i o n( K D E )m e t h o d
+for reducing bias when estimating calibration error.
+Relative to ECE sweep,b o t h ECE debias andKDE have
+an additional hyperparameter (number of bins or ker-
+nel bandwidth, respectively). We compare ECE sweep,
+ECE debias ,a n d KDE ,ﬁ n d i n gc i r c u m s t a n c e si nw h i c h
+ECE sweep andECE debias have relative advantages in
+bias reduction.
+Alternative deﬁnitions of calibration error. Re-
+searchers have studied alternatives notions of calibra-
+tion error that are distinct from TCE (see Section 3 for
+a formal deﬁnition of TCE). For example, Widmann
+et al. (2019) proposed a kernel-based calibration error,
+KCE, which has no explicit dependence on the model’s
+calibration function. Gupta et al. (2020) propose a
+calibration error metric inspired by the Kolmogorov-
+Smirnov (KS) statistical test that estimates the maxi-
+mum diﬀerence between cumulative probability distri-
+butions describing the model’s conﬁdence and accuracy.
+The KS is similar to the maximum calibration error
+(MCE) (Naeini et al., 2015) in that it computes a
+worst-case deviation between conﬁdence and accuracy,
+but the KS is computed on the CDF, while the MCE
+uses binning and is computed on the PDF. In contrast,
+TCE measures the average diﬀerence between conﬁ-dence and accuracy. Both the worst case and average
+diﬀerence are useful measures but may be applicable
+under diﬀerent circumstances (Guo et al., 2017).
+Monotonicity in calibration curves. While
+Zadrozny and Elkan (2002) used calibration curve
+monotonicity to motivate isotonic regression for recal-
+ibration, they observed monotonic calibration curves
+empirically on only a handful of pre-deep learning mod-
+els, and without theoretical justiﬁcation. In contrast,
+our work is the ﬁrst to suggest using monotonicity to
+improve calibration metrics .W ep r o v i d eb o t ht h e o r e t -
+ical and extensive empirical evidence that monotonic
+calibration curves arise in modern deep networks.
+3 BACKGROUND
+Consider a binary classiﬁcation setup with input X2
+X,t a r g e to u t p u t Y={0,1},a n ds u p p o s ew eh a v e
+am o d e l f:X![0,1]whose output represents a
+conﬁdence score that the true label Yis 1.
+True calibration error (TCE). We deﬁne true cal-
+ibration error as the `pnorm diﬀerence between a
+model’s predicted conﬁdence and the true likelihood of
+being correct:2
+TCE (f)=( EX[|f(X) EY[Y|f(X)]|p])1
+p.(1)
+Two independent features of a model determine TCE :
+(1) the distribution of conﬁdence scores f(x)⇠Fover
+which the outer expectation is computed, and (2) the
+true calibration curve EY[Y|f(X)], which governs the
+relationship between the conﬁdence score f(x)and the
+empirical accuracy (see Figure 2a for illustration).
+3.1 Estimates of calibration error
+To estimate the TCE of a model f,a s s u m ew ea r eg i v e n
+ad a t a s e tc o n t a i n i n g nsamples, {xi,yi}n
+i=1.W e c a n
+approximate TCE by replacing the outer expectation
+in Equation 1 by the sample average and replacing the
+2In our experiments, we measure calibration error using
+the`2norm because it increases the sensitivity of the error
+metric to extremely poorly calibrated predictions, which
+tend to be more harmful in applications.Mitigating Bias in Calibration Error Estimation
+(a)(b)Figure 2: (a) Curves controlling true calibration error.
+Our ability to measure calibration is contingent on
+both the conﬁdence score distribution (e.g., f(X)⇠
+Beta(2.8,0.05))a n dt h et r u ec a l i b r a t i o nc u r v e( e . g . ,
+EY[Y|f(X)=c]=c2.( b ) ECE binmay underestimate
+or overestimate TCE . The number of bins with minimal
+bias grows with the sample size.
+inner expectation with an average over instances with
+similar f(x)values:
+ECE N(f)=⇣
+1
+nPn
+i=1   f(xi) 1
+|Ni|P
+j2Niyj   p⌘1
+p,
+(2)
+where Niis instance i’s set of neighbors in model con-
+ﬁdence output space.
+Label-binned calibration error (ECE lb).Label-
+binned calibration error uses binning to deﬁne Niand
+estimate the model’s empirical accuracy E[Y|f(X)].
+The instances are partitioned into bbins, where Bk
+denotes the set of all instances in bin k,e x p r e s s i n g
+Equation 2 in terms of the binned neighborhood:
+ECE lb(f)=⇣
+1
+nPb
+k=1P
+i2Bk|f(xi) ¯yk|p⌘1
+p,
+where ¯yk=1
+|Bk|P
+j2Bkyj.(3)
+Binned calibration error (ECE bin).In contrast
+toECE lb, which operates on the original instances but
+uses binning to estimate empirical accuracy, ECE bin
+collapses all instances in a bin together and compares
+the per-bin empirical accuracy to the per-bin conﬁdence
+score, weighted by the per-bin instance count. Given
+bbins, where Bkis the set of instances in bin k,a n d
+letting ¯fkand ¯ykbe the per-bin average conﬁdence
+score and label, ECE binis deﬁned under the `pnorm:
+ECE bin(f)=⇣Pb
+k=1|Bk|
+n  ¯fk ¯yk  p⌘1
+p(4)
+Importantly, ECE lb(f) ECE bin(f), which follows
+by applying Jensen’s inequality on each inner term
+k2{1,2,...,b }in Eqs. 3 and 4:
+1
+|Bk|P
+i2Bk|f(Xi) ¯Yk|p   P
+i2Bk¯fk ¯Yk  p.(5)
+4 THE BBC FRAMEWORK
+We focus on bias rather than variance because the
+variance can be estimated from a ﬁnite set of samplesthrough resampling techniques whereas the bias is an
+unknown quantity that reﬂects systematic error. For
+completeness, we report variance for various calibra-
+tion metrics as we vary the sample size, number of
+bins, and binning technique in Appendix B. We ﬁnd
+empirically that the variance is relatively insensitive to
+the estimation technique and number of bins.
+The bias of a calibration error estimator, ECE Afor
+some estimation algorithm A,i st h ed i ﬀ e r e n c eb e t w e e n
+the estimator’s expected value with respect to the data
+distribution and the TCE:
+Bias A=E[ECE A] TCE . (6)
+If we assume a speciﬁc conﬁdence score distribution F
+and true calibration curve T(X)=EY[Y|f(X)=c]
+(see Figure 2a for examples), we can compute the TCE
+by analytically or numerically evaluating the integral
+implicit in the outer expected value of Equation 1.
+We then compute a sample estimate of the bias by
+generating nsamples {f(xi),yi}n
+i=1such that f(xi)⇠
+FandEY[Y|f(X)= c]: = T(c),a n dc o m p u t i n gt h e
+ECE on the sample. We repeat this process for m
+simulated datasets and compute the sample estimate
+of bias (hereafter, simply the “bias”) as the diﬀerence
+between the average ECE and the TCE:
+dBias A(n)=1
+mPm
+i=1ECE A TCE . (7)
+Using this bias-by-construction (BBC) framework, we
+next investigate the bias in ECE binas a function of
+the number of samples nand the number of bins. We
+compute ECE binwith equal width binning and we
+assume parametric curves for f(x)andEY[Y|f(X)]
+that are ﬁt to the ResNet-110 CIFAR-10 model output.
+(Section 6 has details on how we compute ﬁts.)
+Proposition 3.3 of Kumar et al. (2019) asserts that
+any binned version of calibration error systematically
+underestimates TCE in the limit of inﬁnite data . How-
+ever, for a ﬁnite number of samples n, Figure 2b shows
+that ECE bincan either overestimate or underestimate
+TCE and that increasing the number of bins does not
+always lead to better estimates of TCE . In Appendix
+B, we show how bias and variance vary for several
+calibration metrics as we change the binning scheme,
+sample size, and number of bins. Regardless of binning
+scheme, for ECE binwe ﬁnd empirically that there ex-
+ists a bin number for each sample size that results in
+the lowest estimation bias and this optimal bin count
+grows with the sample size . Intuitively, having a large
+number of bins is generally preferred because we can
+obtain a ﬁner-resolution estimate of the calibration
+curve. However, if we have a small number of samples,
+setting the number of bins too high may result in a
+poor estimate of the calibration curve due to the low
+number of samples in each bin.Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+5M O N O T O N I C C A L I B R A T I O N
+METRICS
+Though Section 4 shows that there exists an optimal
+number of bins for which ECE binhas the lowest bias,
+unfortunately, this number depends on the binning
+technique, the number of samples, the conﬁdence score
+distribution, and the true calibration curve. This ob-
+servation motivates us to seek a method for adaptively
+choosing the number of bins.
+Monotonicity in the true calibration curve implies that
+am o d e l ’ se x p e c t e da c c u r a c ys h o u l dn o td e c r e a s ea st h e
+model’s conﬁdence increases. Although this require-
+ment seems reasonable for any statistical model, it is
+not obvious how to prove why or when a “reasonable”
+model would attain such a property. We oﬀer a ratio-
+nale for why it should be expected of machine learning
+models trained with a maximum likelihood objective,
+e.g., cross-entropy or logistic loss. Namely, from ROC
+(receiver operating characteristic) analysis of maximum
+likelihood models, an under-appreciated observation of
+ROC curves is that a model trained to maximize the
+likelihood ratio must have a convex ROC curve in the
+limit of inﬁnite data (see Green et al., 1966, Sec. 2.3).
+The slope of the ROC curve is related to the calibration
+curve, and a convex ROC curve implies a monotonically
+increasing calibration curve (the converse is also true)
+(Chen et al., 2018; Gneiting and Vogel, 2018).
+In practice, several potential confounds may lead to ob-
+serving non-monontonic calibration curves. First, ﬁnite
+data size may lead to ﬂuctuations in the true positive
+or false positive rates, but do not reﬂect the behavior
+of the underlying model. Second, deviations in domain
+statistics between cross-validated splits in the data
+may lead to unbounded behavior; however, we assume
+that such domain shifts are negligible as cross-validated
+splits are presumed to be selected i.i.d. .3Given that
+deviations from non-monotonic calibration curves are
+considered artiﬁcial, we posit that any method that
+is trying to assess the TCE of an underlying model
+may freely assume monotonicity in the true calibration
+curve. Note that this proposition already guides the en-
+tire ﬁeld of re-calibration to require that re-calibration
+methods only consider monotonic functions (Platt et al.,
+1999; Wu et al., 2012; Zadrozny and Elkan, 2002).
+Accordingly, we leverage underlying monotonicity in
+the true calibration curve and propose the monotonic
+sweep calibration error ,am e t r i ct h a tc h o o s e st h el a r g e s t
+3Note that a third potential reason for a non-monotonic
+calibration curve is that a classiﬁer could be trained with
+an o n – l i k e l i h o o d - b a s e ds t a t i s t i c a lc r i t e r i a ,e . g . m o m e n t
+matching. However, a lack of monotonic behavior in the
+calibration curve of such a model may actually be a sign
+that the model is not reasonable or admissible model on a
+given task (Chen et al., 2018; Pesce et al., 2010).number of bins possible such that the chosen bin size
+and all smaller bin sizes preserve monotonicity in the
+bin heights ¯yk,i . e . ,
+ECE sweep =⇣Pb⇤
+k=1|Bk|
+n  ¯fk ¯yk  p⌘1
+pwhere
+b⇤= max {b|1bn;8b0b,¯y1...¯yb0}(8)
+Algorithm 1 Monotonic Sweep Calibration Error
+forb=2 tondo
+Compute bin heights ( ¯yk)f o r ECE binusing bbins
+ifbinning is not monotonic then
+b b 1
+break
+end if
+end for
+return ECE bincomputed with bbins
+We compute the monotonic sweep calibration error
+by starting with b=2 bins ( b=1 is guaranteed to
+be a monotonic binning) and gradually increasing the
+number of bins until we either reach a non-monotonic
+binning, in which case we return the last bthat corre-
+sponded to a monotonic binning, or until every sample
+belongs to its own bin ( b=n). In Appendix D, we
+explore the number of bins chosen by ECE sweep for
+varying sample sizes and model output.
+6 FITTING THE CALIBRATION
+CURVE AND SCORE
+DISTRIBUTION
+TCE is analytically computable when we assume para-
+metric forms for the conﬁdence distribution and the
+true calibration curve. In order to ensure that the para-
+metric forms we use in simulation reﬂect the diversity
+and complexity of realistic model output, we develop
+parametric models of empirical logit datasets.
+We consider 10 publicly available logit datasets
+(Kängsepp, 2019) that arise from training four diﬀerent
+architectures (ResNet, ResNet-SD, Wide-ResNet, and
+DenseNet) (He et al., 2016; Huang et al., 2017, 2016;
+LeCun et al., 1998; Zagoruyko and Komodakis, 2016)
+on three diﬀerent image datasets (CIFAR-10/100 and
+ImageNet) (Deng et al., 2009; Krizhevsky and Hin-
+ton, 2009). For each example in a given dataset, we
+compute top-label conﬁdence scores by selecting the
+maximum softmax score across all classes and we com-
+pute whether or not the example resulted in a “hit,”
+i.e. whether the model’s predicted class corresponds to
+the true class. By using only the top-label conﬁdence
+score and determining whether the top and true labels
+match, we can treat the calibration problem as binary.
+For the parametric ﬁts, we model conﬁdence score dis-
+tributions f(X)using a beta density ﬁt via maximumMitigating Bias in Calibration Error Estimation
+Figure 3: Maximum likelihood ﬁts to empirical datasets illustrate large skew in their density distribution and
+calibration function. For each dataset, we ﬁt (a) conﬁdence distributions with Beta distribution and (b) calibration
+curves with generalized linear models across multiple model families, selecting the best model via the Akaike
+information criterion (details in Appendix A). We ﬁnd the dataset source has a greater inﬂuence over the curves
+than the model architecture. (c) We plot the overall quality of the ﬁts by computing the ECE binon the original
+data vs. the ECE binaveraged over 1000 simulated trials. Curves well-ﬁt to the data lie close to the identity line.
+likelihood estimation. The beta distribution is a ﬂexi-
+ble continuous probability distributions on the interval
+[0,1], which makes it a natural choice for representing
+the probability distribution deﬁned by the model out-
+put. For calibration curves, we ﬁt multiple (binary)
+generalized linear models (GLM) to the top-label out-
+put and then select the best model using the Akaike
+Information Criteria (AIC). The AIC is a standard pro-
+cedure for model selection in the literature, for selecting
+the model that most adequately describes data arising
+from a mechanism included in the model family. The
+GLM models considered include logit, log, and "logﬂip"
+(log(1 x))l i n ka n dt r a n s f o r m a t i o nf u n c t i o n s ,u pt o
+ﬁrst order in the transformed domain, which all result
+in monotonic calibration functions. See Appendix A
+for additional details.
+We ﬁnd that the parametric forms for the calibration
+curve and distribution of scores are well captured by
+simple GLM and beta models. Figures 3a,b show the
+resulting ﬁts with parameters summarized in Appendix
+A. We observe signiﬁcant skew in the score distribution
+which, as discussed in Section 7.1, poses a challenge
+to measuring calibration error with equal-width bins.
+We ﬁnd that the dataset has more inﬂuence on the
+ﬁts than the neural model, with ImageNet models the
+least skewed and CIFAR-10 the most (correlating with
+model accuracy). Figure 3c demonstrates that ECE bin
+scores computed on simulated data from the ﬁts closely
+match ECE binscores computed on the real data.
+7R E S U L T S
+7.1 Estimating bias on real models and data
+Our bias-by-construction (BBC) framework uses the
+parametric ﬁts to real models and datasets from Section
+6 to estimate bias as follows. Each ﬁt permits the
+analytical or numerical computation of TCE and can
+also be used in generative fashion to draw a syntheticset of examples. ECE can then be estimated from these
+samples, and the diﬀerence between the estimated ECE
+and TCE across many samples— 1,000 in results to be
+presented—yields the bias (Equation 7).
+We estimate bias for ECE bin,ECE debias ,a n d ECE sweep
+using both equal-mass and equal-width binning, and
+also for the KDE estimator. Following Guo et al. (2017),
+we choose 15 bins for ECE binand ECE debias .( A p -
+pendix B includes an analysis that varies the number
+of bins and ﬁnds that the optimal number of bins for
+bias minimization depends on the number of samples.
+This Appendix also includes calculations of variance
+across estimators, bin numbers, and sample sizes.)
+Figure 4 plots the bias versus sample size for seven
+estimators, shown separately for each of three datasets.
+Because the curves for individual architectures look
+very similar to one another for a given data set, we
+have averaged over model architectures. The black
+dotted line indicates an unbiased estimator.
+Equal-width versus equal-mass binning. The
+dashed and solid lines correspond to equal width ( ew)
+and equal mass ( em)b i n s ,r e s p e c t i v e l y ,a n dt h ec o l o r s
+indicate the metric. For the three binning-based met-
+rics, emconsistently obtains a smaller magnitude bias
+than ew. This ﬁnding is not well appreciated in the
+literature: ewis the common practice. For instance,
+Kumar et al. (2019) proposed ECEew
+debias and did not
+consider ECEem
+debias .H o w e v e r , o u r r e s u l t s s h o w t h a t
+ECEem
+debias is a consistently less biased estimator than
+ECEew
+debias .O u r w o r k t h e r e f o r e p r o v i d e s i m m e d i a t e
+and strong guidance to researchers and practitioners
+concerned with model calibration. An explanation for
+the advantage of emover ewstems from the fact that,
+as shown in Figure 3a, models trained on CIFAR-10
+and CIFAR-100 have highly skewed conﬁdence distribu-
+tions. Consequently, ewbinning places most instances
+in the top bin. As we increase the number of samples,Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+Figure 4: ECEem
+sweep is less biased than alternative calibration metrics. We plot bias versus number of samples n
+for calibration metrics on simulated data drawn from the CIFAR-10, CIFAR-100, and ImageNet ﬁts (Section 6).
+The dataset the model was trained on has a greater inﬂuence on bias than the model architecture. Metrics based
+on equal mass binning consistently outperform equal width binning. Exploiting monotonicity in the ECEem
+sweep
+metric helps the most at small sample sizes.
+we increase the likelihood that we generate a sample
+that populates one of the lower bins, which, due to
+their low sample density, may have a poorer average
+estimate of the TCE . On ImageNet, where the conﬁ-
+dence distribution is less skewed, the advantage of em
+over ewis still consistent but less pronounced.
+Comparing metrics. Across the three datasets and
+various sample sizes, ECEem
+sweep appears to perform the
+best. ECEem
+debias also performs well but not as well as
+ECEem
+sweep at low sample sizes. To determine whether
+the diﬀerence between ECEem
+sweep andECEem
+debias is sta-
+tistically reliable, we conducted a paired t-test on ab-
+solute bias. Across datasets, models, and number of
+samples, we ﬁnd a statistically signiﬁcant diﬀerence: a
+mean absolute bias is 0.504 for ECEem
+debias and 0.347 for
+ECEem
+sweep (t = 5.10, p < 1e 5). Appendix B demon-
+strates higher variance for ECEem
+debias than ECEem
+sweep.
+TheKDE metric has much larger bias across the three
+datasets than any of the other metrics. This ﬁnding
+suggests that the heuristic used to choose the kernel
+bandwidth and the speciﬁc ‘triweight’ kernel worked
+well for the synthetic example evaluated in Zhang et al.
+(2020), but fails to generalize to the more realistic
+examples we study. Speciﬁcally, Zhang et al. (2020) as-
+sume a Gaussian distribution for P(X|Y)and a logistic
+conﬁdence score distribution, which result in notably
+diﬀerent qualitative shapes than the logit distributions
+we obtain from models trained on CIFAR-10/100 or
+ImageNet (see Figure 3a,b or the reliability diagrams
+and score distributions of Kängsepp, 2019).
+7.2 How well can we detect miscalibration?
+Pragmatically, practitioners may be less concerned
+about bias per se than being able to answer a straight-
+forward question about a model: is the model miscali-
+brated? If the validation set provides clear evidence ofmiscalibration, further steps must be taken to correct
+the miscalibration. However, given bias in the ECE
+metrics, the mere observation of an ECE > 0 is not
+suﬃcient to raise alarm.
+Consider the situation with a model of unknown TCE,
+and we wish to perform hypothesis testing to deter-
+mine if we can reject the null hypothesis that TCE=0.
+Our ability to detect miscalibration depends on TCE,
+the sample size ( n), and the method for estimat-
+ing calibration error. We conduct a simulation with
+f(x)⇠Beta(1,1)and true calibration curve from the
+family EY[Y|f(X)= c]= cd,w h e r e dis varied to
+obtain a range of TCE. Allowing for a type I error rate
+of .05 (also known as the false-alarm rate, or the rate
+of mistakenly claiming miscalibration despite perfect
+calibration), we obtain type II error rates (also known
+as the miss rate, or the rate of failing to detect a mis-
+calibration). Figure 5 shows the type II error rate as a
+function of TCE and nfor the metric typically used in
+practice ( ECEew
+bin)a n dt h eb e s tp e r f o r m i n gm e t r i ci d e n -
+tiﬁed in the previous section ( ECEem
+sweep).ECEem
+sweep
+obtains a signiﬁcantly lower failure rate than ECEew
+bin,
+particularly for under 10,000 samples. More generally,
+we note limitations with both methods: to detect a
+miscalibration of 2%, over 10,000 samples are needed;
+ECEEWBINECEEMSWEEPFigure 5 :P r o b a -
+bility of failing to
+detect miscalibra-
+tion (miss rate) as
+a function of TCE
+and sample size ( n).
+ECEem
+sweep has lower
+failure rate than
+ECEew
+bin.Mitigating Bias in Calibration Error Estimation
+Figure 6: Perfectly calibrated models. Using BBC we set the calibration curve to have 0% calibration error but
+use realistic model conﬁdence score distributions. We ﬁnd that the KDE estimator has the least amount of bias
+for perfectly calibrated models, followed by ECEem
+debias .
+and if one has under 500 samples, the miscalibration
+must be greater than 10% to be detected reliably.
+7.3 Perfect calibration
+In Section 7.1, we studied realistic scenarios of models
+whose outputs have the same statistics as common neu-
+ral architectures on popular datasets. The BBC frame-
+work also allows us to simulate a continuum of models
+that diﬀer systematically in TCE. For all metrics, bias
+increases as TCE decreases (details in Appendix C).
+This ﬁnding is not surprising because binned metrics
+always produce a nonnegative ECE estimate, and in
+the limit of a perfectly calibrated model, any deviation
+of the binning histogram from the diagonal will result
+in positive bias.
+In this section, we compare the bias of estimators for
+the case of a perfectly calibrated model—the ultimate
+aim of designing methods that minimize miscalibration.
+To simulate perfect calibration, the calibration curve
+of the model is set to EY[Y|f(X)= c]=c,b u tw e
+use the realistic conﬁdence score distributions from the
+previous section.
+Figure 6 illustrates the eﬀect of sample size on bias
+for the seven diﬀerent estimators under perfect cali-
+bration. Although the KDE estimator outperforms all
+others, it is not a viable candidate because it has a very
+high bias for realistic scenarios (Figure 4). Excluding
+KDE, ECEem
+debias is the least biased metric, obtaining
+signiﬁcantly lower bias than ECEem
+sweep.
+How do we reconcile these results with our previous
+ﬁnding (Figure 4) that ECEem
+sweep is preferred over
+ECEem
+debias ? The present results assume a well cali-
+brated model; the previous results are based on re-
+alistic scenarios. Whether one prefers ECEem
+sweep or
+ECEem
+debias ultimately depends on a practitioner’s prior
+beliefs about a model’s degree of miscalibration. But
+to some degree we are splitting hairs: both ECEem
+sweep
+andECEem
+debias are consistently superior to common
+practice ( ECEew
+bin)a n dp r o p o s e di m p r o v e m e n t s( e . g . ,ECEew
+debias ,a sr e c o m m e n d e db yK u m a re ta l . ,2 0 1 9 ) .
+8D I S C U S S I O N A N D C O N C L U S I O N
+Calibration research typically focuses on recalibrating
+models, i.e., transforming f(x)tof0(x)(Platt et al.,
+1999; Zadrozny and Elkan, 2001, 2002). We focus on es-
+timating true calibration error, because without a good
+estimate, how is one to select and evaluate recalibration
+methods? The preferred recalibration method for a
+given model and data set is aﬀected by bias: Table 1
+shows that using ECEem
+sweep to select a recalibration
+method instead of ECEew
+binleads to better choices and
+subsequently, better calibration on the test set. Indeed,
+bias may have impacted the conclusions of previous
+studies of calibration error, such as the well cited work
+of Guo et al. (2017). The choice of calibration error es-
+timator can also impact the detection of miscalibration:
+Figure 5 indicates that ECEem
+sweep is a more sensitive
+metric than ECEew
+binfor detecting if a model is miscali-
+brated.
+Several authors attempt a diﬀerent approach to recali-
+bration: improving model calibration during training.
+For instance, Mukhoti et al. (2020) train a model with
+ab a t c hs i z eo f1 2 8a c r o s sm u l t i p l et y p e so fl o s s e si n -
+cluding maximum mean calibration error (Kumar et al.,
+2018) and Brier loss (Brier, 1950) which explicitly min-
+imizes calibration loss using 128 examples at a time.
+However, our results suggest that training a model with
+naive estimates of calibration error using a batch size
+<O(1000) is a potentially ﬂawed endeavor, particu-
+larly because the distribution of scores from the model
+changes throughout training, and any potential calibra-
+tion measure may be more aﬀected by the distribution
+of scores than the true calibration curve.
+Our work can be extended in many directions which we
+did not have space here to consider, including: examin-
+ing violations of our distributions assumptions and the
+setting where the conﬁdence-score distributions are less
+skewed; studying the interplay between bias and vari-Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+ance; exploring alternative task types, such as binary
+classiﬁcation; and evaluating alternative calibration
+measures such as `1TCE and KCE, KS, and MCE.
+Relying on the predictions from machine learning mod-
+els in high stakes situations like autonomous vehicles,
+content moderation, and medicine, requires the ability
+to detect predictions that are likely to be incorrect.
+Given that the default conﬁdence scores produced by
+machine learning models do not necessarily correspond
+to the model’s empirical accuracy, recalibration is neces-
+sary in order to produce reliable and consistent output.
+However, it is impossible to perfectly calibrate a model
+if calibration cannot be measured accurately. Our re-
+sults show that the statistical bias in current calibration
+error estimators grows as we approach perfect calibra-
+tion, but this bias can be mitigated by using equal-mass
+binning and methods such as the debiased estimator
+(Brocker, 2012; Ferro and Fricker, 2012; Kumar et al.,
+2019), ECEem
+debias , or our own monotonic estimation
+technique, ECEem
+sweep.
+Acknowledgements
+We would like to thank Simon Kornblith, Jize Zhang,
+Tengyu Ma, and Ananya Kumar for helpful comments
+on this work.
+References
+Azulay, A. and Weiss, Y. (2018). Why do deep convo-
+lutional networks generalize so poorly to small image
+transformations? arXiv preprint arXiv:1805.12177 .
+Biggio, B. and Roli, F. (2018). Wild patterns: Ten years
+after the rise of adversarial machine learning. Pattern
+Recognition .https://arxiv.org/abs/1712.03141 .
+Brier, G. W. (1950). Veriﬁcation of forecasts expressed
+in terms of probability. Monthly weather review ,
+78(1):1–3.
+Brocker, J. (2012). Estimating reliability and resolution
+of probability forecasts through decomposition of the
+empirical score. Climate Dynamics ,3 9 : 6 5 5 – 6 6 7 .
+Caesar, H., Bankiti, V., Lang, A. H., Vora, S., Liong,
+V. E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G.,
+and Beijbom, O. (2020). nuscenes: A multimodal
+dataset for autonomous driving. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition ,p a g e s1 1 6 2 1 – 1 1 6 3 1 .
+Chen, W., Sahiner, B., Samuelson, F., Pezeshk, A., and
+Petrick, N. (2018). Calibration of medical diagnostic
+classiﬁer scores to the probability of disease. Statis-
+tical methods in medical research ,2 7 ( 5 ) : 1 3 9 4 – 1 4 0 9 .
+Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and
+Fei-Fei, L. (2009). ImageNet: A Large-Scale Hierar-
+chical Image Database. In CVPR09 .Esteva, A., Kuprel, B., Novoa, R. A., Ko, J., Swet-
+ter, S. M., Blau, H. M., and Thrun, S. (2017).
+Dermatologist-level classiﬁcation of skin cancer with
+deep neural networks. nature ,5 4 2 ( 7 6 3 9 ) : 1 1 5 – 1 1 8 .
+Esteva, A., Robicquet, A., Ramsundar, B., Kuleshov,
+V., DePristo, M., Chou, K., Cui, C., Corrado, G.,
+Thrun, S., and Dean, J. (2019). A guide to deep
+learning in healthcare. Nature medicine ,2 5 ( 1 ) : 2 4 – 2 9 .
+Ferro, C. A. T. and Fricker, T. E. (2012). A bias-
+corrected decomposition of the brier score. Quarterly
+Journal of the Royal Meteorological Society ,1 3 8 : 1 9 5 4 –
+1960.
+Geiger, A., Lenz, P., Stiller, C., and Urtasun, R. (2013).
+Vision meets robotics: The kitti dataset. The Inter-
+national Journal of Robotics Research ,3 2 ( 1 1 ) : 1 2 3 1 –
+1237.
+Gelman, A., Carlin, J. B., Stern, H. S., and Rubin,
+D. B. (2004). Bayesian Data Analysis . Chapman
+and Hall/CRC, 2nd ed. edition.
+Gneiting, T. and Vogel, P. (2018). Receiver oper-
+ating characteristic (roc) curves. arXiv preprint
+arXiv:1809.04808 .
+Green, D. M., Swets, J. A., et al. (1966). Signal detec-
+tion theory and psychophysics ,v o l u m e1 .W i l e yN e w
+York.
+Gulshan, V., Peng, L., Coram, M., Stumpe, M. C., Wu,
+D., Narayanaswamy, A., Venugopalan, S., Widner,
+K., Madams, T., Cuadros, J., et al. (2016). Develop-
+ment and validation of a deep learning algorithm for
+detection of diabetic retinopathy in retinal fundus
+photographs. Jama ,3 1 6 ( 2 2 ) : 2 4 0 2 – 2 4 1 0 .
+Guo, C., Pleiss, G., Sun, Y., and Weinberger, K. Q.
+(2017). On calibration of modern neural net-
+works. International Conference on Machine Learn-
+ing (ICML) .
+Gupta, K., Rahimi, A., Ajanthan, T., Mensink, T.,
+Sminchisescu, C., and Hartley, R. (2020). Calibration
+of neural networks using splines. arXiv preprint
+arXiv:2006.12800 .
+He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep
+residual learning for image recognition. In Computer
+Vision and Pattern Recognition (CVPR) .
+Hendrycks, D. and Dietterich, T. (2019). Benchmarking
+neural network robustness to common corruptions
+and perturbations. In International Conference on
+Learning Representations (ICLR) .https://arxiv.
+org/abs/1807.01697 .
+Huang, G., Liu, Z., Van Der Maaten, L., and Wein-
+berger, K. Q. (2017). Densely connected convolu-Mitigating Bias in Calibration Error Estimation
+tional networks. In Proceedings of the IEEE con-
+ference on computer vision and pattern recognition ,
+pages 4700–4708.
+Huang, G., Sun, Y., Liu, Z., Sedra, D., and Weinberger,
+K. Q. (2016). Deep networks with stochastic depth.
+InEuropean conference on computer vision ,p a g e s
+646–661. Springer.
+Karandikar, A., Cain, N., Tran, D., Lakshminarayanan,
+B., Shlens, J., Mozer, M. C., and Roelofs, B. (2021).
+Soft calibration objectives for neural networks. In
+Advances in Neural Information Processing Systems .
+Krishnan, R. and Tickoo, O. (2020). Improving model
+calibration with accuracy versus uncertainty opti-
+mization. ArXiv ,a b s / 2 0 1 2 . 0 7 9 2 3 .
+Krizhevsky, A. and Hinton, G. (2009). Learning mul-
+tiple layers of features from tiny images. Technical
+report, University of Toronto, Department of Com-
+puter Science.
+Kumar, A., Liang, P. S., and Ma, T. (2019). Veri-
+ﬁed uncertainty calibration. In Neural Information
+Processing Systems (NeurIPS) .
+Kumar, A., Sarawagi, S., and Jain, U. (2018). Trainable
+calibration measures for neural networks from kernel
+mean embeddings. In International Conference on
+Machine Learning (ICML) ,p a g e s2 8 0 5 – 2 8 1 4 .
+Kängsepp, M. (2019). Nn_calibration. https://gith
+ub.com/markus93/NN_calibration .
+LeCun, Y., Bottou, L., Bengio, Y., and Haﬀner, P.
+(1998). Gradient-based learning applied to document
+recognition. Proceedings of the IEEE ,8 6 ( 1 1 ) : 2 2 7 8 –
+2324.
+Lin, T.-Y., Goyal, P., Girshick, R., He, K., and Dollár,
+P. (2018). Focal loss for dense object detection.
+Mukhoti, J., Kulharia, V., Sanyal, A., Golodetz, S.,
+Torr, P. H., and Dokania, P. K. (2020). Calibrating
+deep neural networks using focal loss. arXiv preprint
+arXiv:2002.09437 .
+Naeini, M. P., Cooper, G. F., and Hauskrecht, M.
+(2015). Obtaining well calibrated probabilities using
+bayesian binning. In AAAI Conference on Artiﬁcial
+Intelligence . NIH Public Access.
+Nixon, J., Dusenberry, M. W., Zhang, L., Jerfel, G.,
+and Tran, D. (2019). Measuring calibration in deep
+learning. In CVPR Workshops ,p a g e s3 8 – 4 1 .
+Pesce, L. L., Metz, C. E., and Berbaum, K. S. (2010).
+On the convexity of roc curves estimated from radi-
+ological test results. Academic radiology ,1 7 ( 8 ) : 9 6 0 –
+968.Platt, J. et al. (1999). Probabilistic outputs for support
+vector machines and comparisons to regularized like-
+lihood methods. Advances in large margin classiﬁers ,
+10(3):61–74.
+Recht, B., Roelofs, R., Schmidt, L., and Shankar, V.
+(2019). Do imagenet classiﬁers generalize to ima-
+genet? In International Conference on Machine
+Learning ,p a g e s5 3 8 9 – 5 4 0 0 .
+Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A.,
+Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y.,
+Caine, B., et al. (2020). Scalability in perception for
+autonomous driving: Waymo open dataset. In Pro-
+ceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition ,p a g e s2 4 4 6 – 2 4 5 4 .
+Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J.,
+Erhan, D., Goodfellow, I. J., and Fergus, R. (2013).
+Intriguing properties of neural networks. In Inter-
+national Conference on Learning Representations
+(ICLR) .http://arxiv.org/abs/1312.6199 .
+Widmann, D., Lindsten, F., and Zachariah, D. (2019).
+Calibration tests in multi-class classiﬁcation: A uni-
+fying framework. NeurIPS .
+Wu, Y., Jiang, X., Kim, J., and Ohno-Machado, L.
+(2012). I-spline smoothing for calibrating predictive
+models. AMIA Summits on Translational Science
+Proceedings ,2 0 1 2 : 3 9 .
+Zadrozny, B. and Elkan, C. (2001). Obtaining cali-
+brated probability estimates from decision trees and
+naive bayesian classiﬁers. In Icml,v o l u m e1 ,p a g e s
+609–616. Citeseer.
+Zadrozny, B. and Elkan, C. (2002). Transforming clas-
+siﬁer scores into accurate multiclass probability esti-
+mates. In ACM SIGKDD International Conference
+on Knowledge Discovery and Data Mining .
+Zagoruyko, S. and Komodakis, N. (2016). Wide residual
+networks. arXiv preprint arXiv:1605.07146 .
+Zhang, J., Kailkhura, B., and Han, T. (2020). Mix-n-
+match: Ensemble and compositional methods for un-
+certainty calibration in deep learning. arXiv preprint
+arXiv:2003.07329 .Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+AM a x i m u m - l i k e l i h o o d ﬁ t s
+A.1 Conﬁdence score distribution ﬁts
+Table 2 provides parameters of best ﬁt for the Beta
+distribution for each of 10 empirical datasets, obtained
+by ﬁtting the top-label conﬁdence score via maximum
+likelihood estimation.
+Table 2: Parameters of best ﬁt for Beta distribution
+investigated in Section 6.
+ˆ↵ ˆ 
+resnet110_c10 2.7752 0.0478
+resnet110_SD_c10 2.1714 0.0394
+resnet_wide32_c10 2.3806 0.0379
+densenet40_c10 1.9824 0.0397
+resnet110_c100 1.1823 0.1081
+resnet110_SD_c100 1.1233 0.1147
+resnet_wide32_c100 1.0611 0.0650
+densenet40_c100 1.0805 0.0808
+resnet152_imgnet 1.1359 0.2069
+densenet161_imgnet 1.1928 0.2206
+Global optimia ˆ↵2[0,200] ,ˆ 2[0,50]are approx-
+imately computed using a recursively-reﬁning brute-
+force search until both parameters are established to
+within an absolute tolerance of 1e 5.E a c hs t e pi nt h e
+recursion contracts a linear sampling grid ( N= 11 )b y
+af a c t o ro f  =.5centered on the previously established
+optimal parameter, subject to the constraints ↵,   > 0.
+Experiments conﬁrmed that the computed optima were
+robust to the hyperparameters N, .
+arg min
+↵, X
+i lnx↵ 1
+i(1 xi)  1
+ (↵) ( )
+ (↵+ )(9)
+A.2 Calibration curve ﬁts
+Table 3 provides parameters ﬁt to calibration functions.
+For each sample image xiin the image dataset, deﬁne
+si=f(xi)to be the score (the output of the top-scoring
+logit after softmax) and yi2{0,1}to be the classi-
+ﬁcation ( yi=1 when the top-scoring logit correctly
+classiﬁed image xi) for the sample image. The loss
+for the binary generalized linear model (GLM) across
+diﬀerent combinations of link functions g(y)and trans-
+form functions t(s)was optimized via the standard loss
+(Gelman et al., 2004):
+arg min
+b0,b1X
+i lnpyi
+i(1 pi)1 yi,p i=g 1(b0+b1t(si))
+(10)
+For each dataset, the GLM of best ﬁt was selected via
+the Akaike Information Criteria using the likelihood at
+the optimized parameter values.A.3 Comparing ECE bincomputed on
+simulated data versus real data
+In Figure 3c, we compare the ECE bincomputed on
+the original logit output of each model to the aver-
+ageECE binwe obtain after sampling 1,000 simulated
+datasets from our parametric ﬁts. Table 4 reports the
+ECE binmeasurements that we plot in Figure 3. We
+observe that the two measurements of ECE binare rela-
+tively close, indicating that our parametric models are
+well-ﬁt to the original data.Mitigating Bias in Calibration Error Estimation
+Table 3: Parameters of best ﬁt for calibrations functions investigated in Section 6 (table continues on next page).
+AIC b0 b1
+dataset_name glm_name
+resnet110_c10 logﬂip_logﬂip_b0_b1 2779.22 -0.24 0.30
+logit_logﬂip_b0_b1 2790.40 -0.55 -0.38
+logit_logﬂip_b1 2827.51 -0.31
+logit_logit_b0_b1 2840.70 -0.38 0.36
+logit_logit_b1 2900.02 0.30
+logﬂip_logﬂip_b1 2932.09 0.34
+log_log_b0_b1 3221.72 -0.06 2.53
+logit_logit_b0 3799.63 1.99
+logﬂip_logﬂip_b0 3811.98 -2.13
+log_log_b0 3829.05 -0.13
+logit_logﬂip_b0 3868.40 1.95
+log_log_b1 4281.78 4.75
+resnet110_SD_c10 logit_logﬂip_b0_b1 2498.98 -0.27 -0.35
+logit_logit_b1 2502.52 0.30
+logit_logﬂip_b1 2508.70 -0.30
+logit_logit_b0_b1 2538.41 -0.26 0.33
+logﬂip_logﬂip_b0_b1 2550.29 -0.36 0.27
+logﬂip_logﬂip_b1 2572.85 0.35
+log_log_b0_b1 2594.91 -0.08 1.98
+log_log_b0 3137.19 -0.19
+logﬂip_logﬂip_b0 3150.42 -1.80
+logit_logit_b0 3175.58 1.58
+logit_logﬂip_b0 3179.67 1.56
+log_log_b1 3697.37 3.77
+resnet_wide32_c10 logit_logit_b1 2483.34 0.26
+logﬂip_logﬂip_b0_b1 2487.69 -0.47 0.22
+logit_logit_b0_b1 2511.39 -0.13 0.28
+logit_logﬂip_b0_b1 2558.45 -0.26 -0.28
+logit_logﬂip_b1 2586.47 -0.25
+log_log_b0_b1 2647.03 -0.12 1.87
+logﬂip_logﬂip_b1 2713.17 0.30
+log_log_b0 2981.24 -0.21
+logﬂip_logﬂip_b0 2983.05 -1.70
+logit_logit_b0 2989.90 1.49
+logit_logﬂip_b0 3055.55 1.45
+log_log_b1 4582.09 4.61
+densenet40_c10 logit_logﬂip_b1 2910.62 -0.26
+logit_logit_b0_b1 2961.31 -0.40 0.31
+logit_logﬂip_b0_b1 3000.23 -0.38 -0.31
+logﬂip_logﬂip_b0_b1 3001.78 -0.31 0.24
+logit_logit_b1 3021.54 0.25
+logﬂip_logﬂip_b1 3027.78 0.31
+log_log_b0_b1 3153.38 -0.12 2.04
+log_log_b0 3531.22 -0.22
+logﬂip_logﬂip_b0 3589.11 -1.60
+logit_logit_b0 3601.85 1.37
+logit_logﬂip_b0 3679.95 1.30
+log_log_b1 4735.18 4.27
+resnet110_c100 logﬂip_logﬂip_b0_b1 8181.97 -0.11 0.28
+logit_logit_b0_b1 8206.19 -0.88 0.39
+logﬂip_logﬂip_b1 8301.28 0.31
+logit_logﬂip_b0_b1 8371.53 -1.01 -0.40
+logit_logit_b1 8732.11 0.25
+log_log_b0_b1 8918.21 -0.16 2.35
+logit_logﬂip_b1 8926.99 -0.23
+logit_logﬂip_b0 10903.83 0.74
+logit_logit_b0 10943.95 0.72
+logﬂip_logﬂip_b0 10964.91 -1.12
+log_log_b0 11002.20 -0.40
+log_log_b1 11850.89 4.26Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+AIC b0 b1
+dataset_name glm_name
+resnet110_SD_c100 logit_logit_b0_b1 7873.61 -0.88 0.49
+logﬂip_logﬂip_b0_b1 7878.19 -0.09 0.35
+logﬂip_logﬂip_b1 7932.28 0.38
+logit_logﬂip_b0_b1 7944.61 -1.04 -0.52
+logit_logit_b1 8315.51 0.32
+log_log_b0_b1 8437.82 -0.11 2.18
+logit_logﬂip_b1 8510.36 -0.30
+log_log_b1 9988.07 3.30
+logit_logit_b0 10803.27 0.80
+log_log_b0 10810.90 -0.37
+logﬂip_logﬂip_b0 10823.15 -1.16
+logit_logﬂip_b0 10834.48 0.78
+resnet_wide32_c100 logﬂip_logﬂip_b0_b1 7183.93 -0.13 0.21
+logit_logit_b0_b1 7219.14 -0.98 0.33
+logﬂip_logﬂip_b1 7233.51 0.25
+logit_logﬂip_b0_b1 7297.00 -1.06 -0.34
+logit_logit_b1 7626.21 0.19
+log_log_b0_b1 7650.97 -0.24 2.51
+logit_logﬂip_b1 7795.28 -0.17
+logﬂip_logﬂip_b0 8977.39 -0.98
+logit_logﬂip_b0 8987.38 0.49
+log_log_b0 9000.24 -0.49
+logit_logit_b0 9009.51 0.49
+log_log_b1 11911.51 5.48
+densenet40_c100 logit_logit_b0_b1 8158.28 -0.97 0.34
+logﬂip_logﬂip_b0_b1 8229.43 -0.12 0.22
+logit_logﬂip_b0_b1 8267.77 -1.08 -0.35
+logﬂip_logﬂip_b1 8368.86 0.25
+logit_logit_b1 8783.50 0.19
+log_log_b0_b1 8832.20 -0.25 2.26
+logit_logﬂip_b1 8918.57 -0.18
+logit_logit_b0 10138.24 0.47
+logit_logﬂip_b0 10182.61 0.45
+logﬂip_logﬂip_b0 10242.15 -0.94
+log_log_b0 10261.01 -0.50
+log_log_b1 13322.10 5.25
+resnet152_imgnet logﬂip_logﬂip_b0_b1 18729.85 -0.12 0.58
+logit_logit_b0_b1 18783.22 -0.29 0.65
+log_log_b0_b1 18785.44 -0.03 1.32
+logﬂip_logﬂip_b1 18872.14 0.65
+logit_logit_b1 19074.37 0.57
+logit_logﬂip_b0_b1 19095.40 -0.82 -0.79
+log_log_b1 19840.25 1.53
+logit_logﬂip_b1 20062.10 -0.50
+logﬂip_logﬂip_b0 26935.09 -1.41
+log_log_b0 26968.50 -0.28
+logit_logﬂip_b0 27012.77 1.12
+logit_logit_b0 27084.11 1.11
+densenet161_imgnet log_log_b0_b1 18202.41 -0.03 1.27
+logit_logit_b0_b1 18460.70 -0.25 0.68
+logﬂip_logﬂip_b1 18521.48 0.67
+logﬂip_logﬂip_b0_b1 18534.07 -0.10 0.61
+logit_logit_b1 18822.25 0.60
+logit_logﬂip_b0_b1 18913.25 -0.77 -0.80
+log_log_b1 19493.85 1.44
+logit_logﬂip_b1 19562.58 -0.54
+logit_logﬂip_b0 26426.38 1.19
+logﬂip_logﬂip_b0 26445.91 -1.46
+logit_logit_b0 26519.76 1.18
+log_log_b0 26662.65 -0.27Mitigating Bias in Calibration Error Estimation
+Table 4: ECE binreported in Figure 3c.
+ECE bin(%) <ECE bin>( % ,s i m u l a t e d )
+resnet110_c10 6.67 8.42
+resnet110_SD_c10 6.54 8.79
+resnet_wide32_c10 6.09 8.44
+densenet40_c10 6.70 8.09
+resnet110_c100 20.26 18.87
+resnet110_SD_c100 17.44 15.78
+resnet_wide32_c100 20.40 17.53
+densenet40_c100 23.12 19.69
+resnet152_imgnet 6.85 9.26
+densenet161_imgnet 6.15 6.87Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+BB i a s a n d v a r i a n c e i n c a l i b r a t i o n
+metrics
+B.1 Bias
+We evaluate bias for various calibration metrics using
+both equal-width and equal-mass binning as we vary
+both the sample size nand the number of bins b. These
+plots should be seen as an alternative visualization to
+4 where we additionally compare to diﬀerent choices
+for the ﬁxed number of bins b.S i n c e t h e ECE sweep
+metrics adaptively choose a diﬀerent number of bins
+for each sample size, we display the bin number for this
+metric as  1.
+We ﬁnd that ECE bincan overestimate the true calibra-
+tion error and there exists an optimal number of bins
+that produces the least biased estimator that changes
+with the number of samples n.A d d i t i o n a l l y , e q u a l
+mass binning generally results in a less biased metric
+than equal width binning.
+CIFAR-10 ResNet-110. Figure 7 assume paramet-
+ric curves for p(f(x))and EY[Y|f(X)= c]that
+we obtain from maximum-likelihood ﬁts to CIFAR-10
+ResNet-110 model output.
+CIFAR-100 Wide ResNet-32. Figure 8 assume
+parametric curves for p(f(x))andEY[Y|f(X)= c]
+that we obtain from maximum-likelihood ﬁts to CIFAR-
+100 Wide ResNet-32 model output.
+ImageNet ResNet-152. Figure 9 assume parametric
+curves for p(f(x))andEY[Y|f(X)=c]that we obtain
+from maximum-likelihood ﬁts to ImageNet ResNet-152
+model output.
+Figure 7:Bias for various calibration metrics as-suming curves ﬁt to CIFAR-10 ResNet-110 out-put.We plot bias for various calibration metrics usingboth equal-width binning (left column) and equal-massbinning (right column) as we vary both the sample sizenand the number of binsb.Mitigating Bias in Calibration Error Estimation
+Figure 8:Bias for various calibration metrics as-suming curves ﬁt to CIFAR-100 Wide ResNet-32 output.We plot bias for various calibration met-rics using both equal-width binning (left column) andequal-mass binning (right column) as we vary both thesample sizenand the number of binsb.
+Figure 9:Bias for various calibration metrics as-suming curves ﬁt to ImageNet ResNet-152 out-put.We plot bias for various calibration metrics usingboth equal-width binning (left column) and equal-massbinning (right column) as we vary both the sample sizenand the number of binsb.Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+B.2 Variance
+We also compute the variance for various calibration
+metrics using both equal-width and equal-mass binning
+as we vary both the sample size nand the number
+of bins b. As expected, the variance decreases with
+number of samples, but, unlike the bias, there is no
+clear dependence on the number of bins.
+CIFAR-10 ResNet-110. Figure 10 assume paramet-
+ric curves for p(f(x))and EY[Y|f(X)= c]that
+we obtain from maximum-likelihood ﬁts to CIFAR-10
+ResNet-110 model output.
+CIFAR-100 Wide ResNet-32. Figure 11 assume
+parametric curves for p(f(x))andEY[Y|f(X)= c]
+that we obtain from maximum-likelihood ﬁts to CIFAR-
+100 Wide ResNet-32 model output.
+ImageNet ResNet-152. Figure 12 assume paramet-
+ric curves for p(f(x))and EY[Y|f(X)= c]that
+we obtain from maximum-likelihood ﬁts to ImageNet
+ResNet-152 model output.
+Figure 10:pVariance for various calibration met-rics assuming curves ﬁt to CIFAR-10 ResNet-110 output.We plotpVariancefor various calibra-tion metrics using both equal-width binning (left col-umn) and equal-mass binning (right column) as wevary both the sample sizenand the number of binsb.Mitigating Bias in Calibration Error Estimation
+Figure 11:pVariance for various calibration met-rics assuming curves ﬁt to CIFAR-100 WideResNet-32 output.We plotpVariancefor variouscalibration metrics using both equal-width binning (leftcolumn) and equal-mass binning (right column) as wevary both the sample sizenand the number of binsb.
+Figure 12:pVariance for various calibration met-rics assuming curves ﬁt to ImageNet ResNet-152 output.We plotpVariancefor various calibra-tion metrics using both equal-width binning (left col-umn) and equal-mass binning (right column) as wevary both the sample sizenand the number of binsb.Rebecca Roelofs, Nicholas Cain, Jonathon Shlens, Michael C. Mozer
+CC o n t r o l l i n g t r u e c a l i b r a t i o n e r r o r
+using BBC
+We evaluate the estimation bias of calibration esti-
+mators as we systematically vary the TCE .F i g u r e
+13 shows the average estimated calibration error for
+ECEew
+binandECEem
+sweep versus the TCE . The average
+calibration error is computed across m=1,000 simu-
+lated datasets, and we include results for two sample
+sizes, n= 200 andn=5,000,a n dt w os c o r ed i s t r i b u -
+tions, f(x)⇠Uniform (0,1)andf(x)⇠Beta(1.1,0.1),
+the beta distribution ﬁt to the CIFAR-100 Wide
+ResNet_32. To control the TCE ,w ea s s u m e EY[Y|
+f(X)= c]=cdand vary d2[1,10].W h e n d=1 the
+true calibration curve is EY[Y|f(X)=c]=c, which
+means the model’s predicted conﬁdence score is exactly
+equal to its empirical accuracy and thus the TCE is
+0%. As we increase d,w em o v et h et r u ec a l i b r a t i o n
+curve farther away from the perfect calibration curve,
+which increases the TCE of the model.
+The estimation bias can be seen visually as the diﬀer-
+ence between the ECE and the y=xline. Perfect
+estimation (0 bias) corresponds to the y=xline. Bias
+is highest when the model is perfectly calibrated ( TCE
+is 0%) and generally decreases as TCE increases. A
+larger sample size of n=5,000 reduces the bias, but
+with perfectly calibration ECE bincan still be oﬀ by 2%.
+The ECEem
+sweep metric signiﬁcantly reduces this bias.
+DW h a t n u m b e r o f b i n s d o e s
+ECEem
+sweepchoose?
+For Figure 14, the uncalibrated plot assumes EY[Y|
+f(X)= c]= logistic (10⇤c 5)while the calibratedECEEWBINECEEMSWEEP
+Figure 13: Bias in calibration estimation increases as
+TCE decreases. Average ECE (%) for ECEew
+bin(left) and
+ECEem
+sweep (right) versus the TCE (%), with varying
+sample size and score distributions. The estimator bias
+is systematically worse for better calibrated models,
+and the eﬀect is more egregious with fewer samples. At
+n= 200 samples, depending on the score distribution,
+anECEew
+binestimate of 12% could either correspond to
+5% or 8% TCE .ECEem
+sweep somewhat mitigates the
+bias and ambiguity in calibration error estimation.
+(a) Uncalibrated model.
+(b) Perfectly calibrated model.
+Figure 14: Bins chosen by equal mass ECE sweep
+method .W e p l o t e q u a l m a s s ECE bin%v e r s u sn u m b e r
+of bins for various sample sizes n.W e h i g h l i g h t t h e
+TCE with a horizontal dashed line and show the average
+number of bins chosen by the ECE sweep method for
+diﬀerent sample sizes with vertical dashed lines. When
+the model is uncalibrated (left) ECE sweep chooses a bin
+number that is close to optimal. However, for perfectly
+calibrated models (right), the optimal number of bins
+is small (<=4), and ECE sweep does not do a good job
+of selecting a good bin number. The incorrect bin
+selection may partially explain why ECE sweep still has
+some bias for perfectly calibrated models. However,
+we note that any binning-based technique that always
+outputs a positive number will never be completely
+unbiased for perfectly calibrated models.
+plot assumes EY[Y|f(X)=c]=c.B o t he x p e r i m e n t s
+assume f(x)⇠Uniform (0,1).

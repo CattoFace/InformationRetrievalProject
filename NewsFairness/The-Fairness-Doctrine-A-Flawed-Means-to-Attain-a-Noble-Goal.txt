@@ -1,0 +1,723 @@
+8_AMMORI_COMPLETE
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE: A FLAWED
+MEANS TO ATTAIN A NOBLE GOAL
+MARVIN AMMORI*
+TABLE OF CONTENTS
+Introduction ............................................................................................... 881
+I. The Fairness Doctrine Will Not Be Imposed and Should Not Be
+Partisan ........................................................................................... 883
+II. The Fairness Doctrine Will Not Achieve Its Praiseworthy Goals .. 885
+A. The Fairness Doctrine Is Easy to Avoid .................................. 885
+B. The Fairness Doctrine Would Once Again Rarely Be
+Enforced .................................................................................. 887
+C. The Fairness Doctrine Is at Most a Second-Best Solution
+for a Concentrated Speech Market .......................................... 889
+III. There Are More Appropriate Means to Ensure Access to
+Diverse Viewpoints and Information About Local Issues .............. 892
+A. Media Ownership Limits ......................................................... 892
+B. Low Power FM ........................................................................ 893
+C. Open-Internet Initiatives .......................................................... 893
+Conclusion ................................................................................................. 893
+INTRODUCTION
+This Paper is a response to the current, but largely manufactured,
+controversy over whether or not to revive the long-dead Fairness Doctrine.
+In 2007 and 2008, right-wing radio hosts and bloggers used this
+controversy as a partisan wedge to detract from more pressing and timely
+media policy issues. The Fairness Doctrine was a regulation that the
+Federal Communications Commission (FCC) repealed in 1987. While in
+effect, the Fairness Doctrine required broadcasters (1) to devote a
+reasonable percentage of time to the coverage of public issues and (2) to
+cover these issues in a way that provides an opportunity for the
+presentation of contrasting points of view.1 The Doctrine was “concerned
+* Assistant Professor, University of Nebraska–Lincoln College of Law, Faculty
+
+881
+
+8_AMMORI_COMPLETE
+
+882
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+with controversial issues of both local and national importance.”2
+In recent months, right-wing talk radio hosts have been talking a lot
+about the Fairness Doctrine, claiming both that Democrats seek to reinstate
+the Doctrine and that the goal of such reinstatement is mainly to kill rightwing radio.3 Indeed, one sitting FCC Commissioner decided to one-up
+even the right-wing shock jocks and claimed that Democrats would
+implement a Fairness Doctrine for Internet and new media as well as old.4
+While the talk radio hosts and disingenuous bureaucrats tell an entertaining
+story, neither of their claims is accurate. First, with the exception of a few
+comments, Democrats have not attempted to reinstate the Fairness Doctrine
+and have not introduced any bill to do so.5 The 2008 Democratic
+presidential nominee and President-elect Barack Obama unequivocally
+opposes any attempt to reinstate the Fairness Doctrine.6 Second, the
+Fairness Doctrine would not silence conservative radio even if it were
+reinstated. Accordingly, there is no conspiracy to reinstate the Fairness
+Doctrine or to kill talk radio. Indeed, while the Fairness Doctrine sought to
+advance a noble goal—ensuring public access to public information and
+diverse viewpoints—the Doctrine is no longer an effective means for doing
+so. Rather than following the lead of talk show hosts debating a doctrine
+repealed twenty years ago, legislators should focus on current media
+policies that can enhance the public’s access to public information and
+Advisor, Space & Telecomm Law Program. Also serves as counsel for the consumer group
+Free Press.
+1. See, e.g., The Handling of Pub. Issues Under the Fairness Doctrine and the Pub.
+Interest Standards of the Commc’ns Act, 48 F.C.C.2d 1, 7 (1974) (Fairness Report)
+(explaining broadcasters’ duties under the Fairness Doctrine).
+2. The Handling of Pub. Issues Under the Fairness Doctrine and the Pub. Interest
+Standards of the Commc’ns Act, 89 F.C.C.2d 916, 925 (1982) (Memorandum Opinion and
+Order).
+3. See, e.g., James Gattuso, Beyond Talk Radio: Fairness Doctrine Taking a Beating
+in Blogosphere Too, TECHNOLOGY LIBERATION FRONT, June 28, 2007,
+http://techliberation.com/2007/06/28/beyond-talk-radio-fairness-doctrine-taking-a-beatingin-blogosphere-too/ (claiming that talk-radio-show hosts are against revival of the Fairness
+Doctrine); Michelle Malkin, Fairness Doctrine Watch: A “Progressive” Attack on Talk
+Radio, MICHELLEMALKIN.COM, June 21, 2007 (and other posts on the page),
+http://michellemalkin.com/2007/06/21/fairness-doctrine-watch-a-progressive-attack-on-talkradio/ (arguing that the left wants to address the “lack of ideological diversity” in radio).
+4. Posting of jstearns to Save the Internet Blog, http://www.savetheinternet.com/blog
+(Aug. 13, 2008, 13:34 EST); Matthew Lasar, Fairness Doctrine Panic Hits FCC, Spreads
+Through
+Blogosphere,
+ARSTECHNICA,
+August
+17,
+2008,
+http://arstechnica.com/news.ars/post/20080817-fairness-doctrine-panic-hits-fcc-spreads-throughblogosphere.html.
+5. Just about every one of these comments can be found in SENATE REPUBLICAN
+POLICY COMMITTEE, THE FAIRNESS DOCTRINE: UNFAIR, OUTDATED, AND INCOHERENT 3
+(2007).
+6. John Eggerton, Obama Does Not Support Return of Fairness Doctrine,
+BROADCASTING
+&
+CABLE,
+June
+25,
+2008,
+http://www.broadcastingcable.com/article/CA6573406.html.
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+883
+
+diverse viewpoints without the drawbacks of the Fairness Doctrine.
+This Paper has three primary parts. First, it rebuts the conservative
+messages about the Fairness Doctrine. Neither Congress nor the FCC will
+likely impose the Fairness Doctrine, and support for the Doctrine did not
+historically, and should not now, track partisan lines. Second, though the
+Doctrine’s goals are praiseworthy, the Doctrine would be an ineffective
+means to attain those goals. As the Doctrine’s history until 1987 shows,
+the Doctrine is easy to avoid, is difficult to enforce, and is at most a
+second-best solution. Third, as a result of its ineffectiveness, Congress and
+the FCC should focus on more effective means of fostering local and
+national public information and diversity of viewpoints, primarily by
+fostering responsiveness to local tastes and diverse and antagonistic sources
+of information. More effective means would include implementing strict
+ownership limits, authorizing community radio, and encouraging open,
+high-speed Internet access.
+I. THE FAIRNESS DOCTRINE WILL NOT BE IMPOSED AND
+SHOULD NOT BE PARTISAN
+The Fairness Doctrine will not be readopted. The conservative buzz on
+this issue derives from no more than a few isolated quotes over the past
+several months by 5 of the 284 Democrats in Congress. Several legislators
+have merely suggested that they would consider or look into imposing the
+Fairness Doctrine,7 but not a single legislator has introduced a bill to
+reinstitute the Fairness Doctrine. Indeed, the only legislative activity in this
+area has involved attempts by Republicans to foreclose the FCC from
+reinstituting the Fairness Doctrine8—even though Democrats had not acted
+to reinstitute it, and the Republican FCC chairman said he would not act to
+reinstitute it.9 The current Fairness Doctrine controversy consists largely of
+talk radio’s sound and fury about nothing.
+7. These quotations can be found, for example, on the website of Congressman Mike
+Pence.
+See
+Mike
+Pence,
+Fairness
+Doctrine
+Democrat’s
+Quotes,
+http://mikepence.house.gov/ConstituentServices/democratquotes.htm (last visited Aug. 22,
+2008). According to this page, several legislators believed that Nancy Pelosi and Steny
+Hoyer also supported reviving the Doctrine. Id.
+8. See, e.g., John Eggerton, House Passes Amendment Disallowing Funding for
+Fairness
+Doctrine,
+BROADCASTING
+&
+CABLE,
+June
+28,
+2007,
+http://www.broadcastingcable.com/article/CA6456430.html (explaining that the House
+recently passed an amendment to an appropriations bill with a 310–15 vote, which prevents
+any money from being spent on reviving the Fairness Doctrine).
+9. See John Eggerton, Martin Reinforces Opposition to Fairness Doctrine,
+BROADCASTING
+&
+CABLE,
+July
+26,
+2007,
+http://www.broadcastingcable.com/article/CA6463549.html?rssid=193
+(quoting
+FCC
+Chairman Kevin Martin’s statement that he sees “no compelling reason to reinstate the
+Fairness Doctrine in today’s broadcast environment, and believe[s] that such a step would
+inhibit the robust discussion of issues of public concern over the nation’s airwaves”).
+
+8_AMMORI_COMPLETE
+
+884
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+Moreover, when the Fairness Doctrine was being enforced, it was not a
+partisan issue. Conservatives supported and opposed it, as did liberals. As
+one conservative opponent of the Doctrine has noted, “Many conservatives
+embraced the Fairness Doctrine during its life and even lamented its
+demise, viewing the doctrine as a handy club to be wielded against ‘liberal’
+programming, especially at the network level.”10 At the same time, a wide
+range of liberal scholars have strongly opposed the Doctrine.11 In 1987, the
+FCC voted to repeal the Doctrine by a 4–0 vote, even though only three
+Commissioners were Republicans. Following that vote, the Senate passed
+a bill reinstating the Fairness Doctrine, which was cosponsored by a
+Democratic Senator and a Republican Senator; the House passed an
+identical bill, but the legislation was ultimately vetoed.12 Moreover, the
+Fairness Doctrine has received considerable support from both
+conservative and liberal nonprofit groups attempting to disseminate their
+messages.13
+Not only has the Fairness Doctrine not historically been partisan, it
+should not now be a partisan issue because it formally applies to
+conservative and liberal programming alike. It would apply to Ed Schultz,
+Democracy Now, Pacifica, and Air America no less than it would to Rush
+
+10. E. Brandt Gustavson, The Fairness Doctrine: Once and Future Threat to Speech,
+Religion, in SPEAKING FREELY: THE PUBLIC INTEREST IN UNFETTERED SPEECH; ESSAYS FROM
+A CONSERVATIVE PERSPECTIVE 87, 88 (1995).
+11. Professors Harry Kalven, Herbert Wechsler, and Archibald Cox filed amici briefs
+for the broadcasters to argue that the Court should strike down the Fairness Doctrine. See
+Brief for Respondent Radio Television News Directors Ass’n, Red Lion Broad. Co. v. FCC,
+395 U.S. 367 (Mar. 22, 1969); Brief for Respondent Columbia Broadcasting System, Red
+Lion Broad. Co. v. FCC, 395 U.S. 367 (1969). Professor Laurence Tribe also believes the
+doctrine is unconstitutional. See Laurence H. Tribe, The Constitution in Cyberspace: Law
+and Liberty Beyond the Electronic Frontier, http://www.epic.org/free_speech/tribe.html
+(last visited Nov. 22, 2008).
+Other liberal scholars have suggested the Fairness Doctrine, while not
+unconstitutional, is still bad policy. See, e.g., Yochai Benkler, Free Markets vs. Free
+Speech: A Resilient Red Lion and Its Critics, 8 INT’L J.L. & INFO. TECH. 214, 214–15 (2000)
+(reviewing ROBERT CORN-REVERE, RATIONALES AND RATIONALIZATIONS, REGULATING THE
+ELECTRONIC MEDIA (1997)) (arguing that several scholars have taken aim at the Supreme
+Court’s logic in Red Lion); see also Jack M. Balkin, The Fairness Doctrine, Part I,
+BALKINIZATION.COM, July 28, 2007, http://balkin.blogspot.com/2007/07/fairness-doctrinepart-i.html (arguing that the Fairness Doctrine is bad public policy, but is not facially
+unconstitutional).
+12. Veto of the Fairness in Broadcasting Act of 1987, 23 WEEKLY COMP. PRES. DOC.
+715 (June 29, 1987). The Senate sponsors of the bill were John Danforth and Daniel Inouye.
+For a discussion of the issues underlying the opposition to the Fairness Doctrine, see
+Inquiry into Section 73.1910 of the Commission’s Rules and Regulations Concerning the
+General Fairness Doctrine Obligations of Broadcast Licenses, 102 F.C.C.2d 143, 226 (1986)
+[hereinafter General Fairness Doctrine Obligations].
+13. See, e.g., FORD ROWAN, BROADCAST FAIRNESS: DOCTRINE, PRACTICE, PROSPECTS
+73–74 (1984) (listing the groups that are the Media Access Project’s clients as an example
+of those that have supported the Fairness Doctrine).
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+885
+
+Limbaugh, Sean Hannity, and Michael Savage. While AM talk radio is
+overwhelmingly conservative, not all FM radio and broadcast television are
+similarly conservative. Furthermore, programming complaints would come
+from liberal and conservative groups because groups on both sides of every
+issue—from gun control to abortion to the Iraq war—can file complaints.
+In addition to nonprofit groups, corporations can file their own complaints.
+That is, corporations can dispute stories discussing global warming, wages,
+downsizing, environmental harms, accounting fraud, or tax avoidance.14
+Rather than being a partisan attempt to silence speech, the Fairness
+Doctrine should be seen as a well-intentioned, if flawed, means to ensure
+that the public receives diverse viewpoints in the presentation of public
+information.
+II. THE FAIRNESS DOCTRINE WILL NOT ACHIEVE
+ITS PRAISEWORTHY GOALS
+If the Fairness Doctrine attempts to ensure that the listening public
+receive news about controversial public affairs and diverse views about that
+news, it is seeking to achieve praiseworthy goals. When Americans are
+exposed to diverse views about public matters, they can better debate
+policy issues, hold elected officials to account, and reach consensus on
+matters of vital public importance.15
+But the Fairness Doctrine likely will not increase such diverse coverage
+for at least three reasons:16 it is easy to avoid, it is difficult to enforce, and it
+is at most second-best when compared to the option of diverse speakers.
+A. The Fairness Doctrine Is Easy to Avoid
+First, the Fairness Doctrine is easy to avoid. Because it requires ample
+play for diversity of views, the Fairness Doctrine would require difficult
+judgment calls. Much of the discretion for making those judgments must
+14. See, e.g., id. at 75–76 (discussing an aluminum company’s negotiating with ABC
+in response to a 20/20 segment on the dangers of aluminum wiring).
+15. For in-depth academic discussions, see CASS R. SUNSTEIN, DEMOCRACY AND THE
+PROBLEM OF FREE SPEECH xi (1993) (arguing that the First Amendment is a significant
+barrier to official censorship); Yochai Benkler, Siren Songs and Amish Children: Autonomy,
+Information, and Law, 76 N.Y.U. L. REV. 23, 29 (2001) (arguing that a market-focused
+information policy with highly concentrated markets comes at the significant cost of
+personal autonomy); Robert H. Bork, Neutral Principles and Some First Amendment
+Problems, 47 IND. L.J. 1, 26 (1971) (arguing that one of the four functions of speech is to
+spread political truths and asserting that this aspect is “different from any other form of
+human activity”).
+16. In repealing the Doctrine, the FCC concluded the Doctrine resulted in less, not
+more, diverse news. See General Fairness Doctrine Obligations, supra note 12, at 159
+(asserting that the Fairness Doctrine may prevent a licensee from “presenting controversial
+issues of public importance”).
+
+8_AMMORI_COMPLETE
+
+886
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+be left to the broadcasters. These judgments include whether the issue is
+even controversial; whether a specific subissue is controversial; whether a
+diversity of views has indeed been presented; whether enough time for each
+view has been allotted; whether enough different views have been
+presented; and whether a local issue is important to the community. If the
+government makes these judgments, then government officials would play
+far too great a role in determining the news, in ways that would threaten
+private provision of the news. So broadcasters must have some
+considerable discretion in making these judgments to reduce the threat of
+government censorship.
+If the broadcasters receive considerable discretion, as they did when the
+Fairness Doctrine was being enforced,17 then the Doctrine is easy to avoid.
+The Fairness Doctrine permits the broadcaster to cover different points of
+view and does not generally authorize other people to present those
+views.18 So the broadcaster controls the presentation. If a news reporter
+covered a controversy, that reporter could merely follow the usual
+journalistic ethic of seeking neutrality and objectivity in presenting both
+sides of a story.19 Moreover, if the broadcaster wanted to present one view,
+it could undercut rival views with relative ease. The broadcast could
+present the rival’s views itself or choose spokespersons for those views; in
+choosing spokespersons, it could select the least articulate, least coherent,
+and less (or more) extreme spokespersons, as it chose.20
+If those imposing the Fairness Doctrine seek not to promote diverse
+views but to silence talk radio, the Fairness Doctrine will likely fail in that
+regard as well. Partisan talk show hosts would still be able to convey their
+views clearly, to the exclusion of other views. As Professor Jack Balkin of
+Yale Law School has observed, “Rush Limbaugh might have to invite a
+series of liberal patsies to give their views, which he could bully, make fun
+of, or talk past.”21 As he noted, a radio version of Hannity and Colmes
+17. See Posting of Eugene Volokh to The Volokh Conspiracy, http://volokh.com (July
+27, 2007, 19:34 EST) (quoting authors and noting that, when the Fairness Doctrine was
+being enforced, “surprisingly little balance [was] necessary to meet the obligation to cover
+all significant sides of an issue”).
+18. The broadcaster had to permit certain persons to advocate their views under two
+subdoctrines: the personal-attack and political-editorial rules. Both were far narrower than
+the Fairness Doctrine and rarely applied. See Balkin supra note 11; STEVEN J. SIMMONS,
+THE FAIRNESS DOCTRINE AND THE MEDIA 10 (1978) (stating the two subdoctrines are
+“applicable in a limited number of situations”).
+19. See Balkin, supra note 11 (noting an example where the “traditional journalistic
+neutrality/objectivity” satisfied the Fairness Doctrine).
+20. See Volokh, supra note 17 (questioning whether a broadcaster’s discretion will
+allow broadcasters to select “rival speakers who are just inarticulate or foolish” to present a
+rival viewpoint); Balkin, supra note 11 (stating that licensees determined the sides to a
+relevant issue and then decided who would represent those sides).
+21. Balkin, supra note 11.
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+887
+
+would probably meet the Fairness Doctrine for that reason—though
+Colmes is more moderate and less articulate than the conservative
+Hannity.22 Indeed, Limbaugh need not invite any liberals and could offer
+his own account of “liberal views, which would no doubt be highly
+amusing to his audience.”23 So broadcasters could easily avoid the Fairness
+Doctrine because of the necessary discretion they receive in presenting
+diverse views.
+B. The Fairness Doctrine Would Once Again Rarely Be Enforced
+Second, the later history of the Fairness Doctrine demonstrates that the
+Doctrine was difficult to enforce and therefore infrequently enforced.
+While the FCC received many complaints, far fewer than 1% of them
+succeeded.
+The FCC did not rely on an internal FCC content police, but rather
+enforced the Doctrine through its action on viewer complaints. Before the
+early 1960s, there were “few fairness complaints,” but then the number of
+filed complaints soared.24 In 1963, the FCC decided to address Fairness
+Doctrine complaints as they were filed, rather than to continue the previous
+practice of considering the complaints at license renewal.25 While the
+number of complaints quickly rose from 233 complaints in 1960 to 1,632 in
+1969,26 very few complaints succeeded.
+The FCC’s process resulted in very few adverse rulings against
+broadcasters. Complaints by telephone were not even addressed unless
+supported by extensive documentation. Written complaints fared little
+better.27 They were considered by a broadcast analyst first. In reviewing
+these complaints, the analyst typically found half to lack all merit and filed
+those complaints in a “No Response Necessary” file.28 Of the rest, another
+half would receive an 8330-FD document, which explained that the
+complaint was too vague, therefore inadequate, and sought the necessary
+specific information.29 “Most” recipients of these letters did not follow
+
+22. Id.
+23. Id.
+24. SIMMONS, supra note 18, at 11, 14 n.20.
+25. Id. at 14 n.20.
+26. Id. at 214.
+27. See ROWAN, supra note 13, at 52–53 (describing the process through which written
+complaints were processed while noting, however, that only 1,000–2,000 of the 10,000
+complaints the FCC received in an election year were actually complaint letters).
+28. See id. (noting that complaints placed in the “No Response Necessary” files
+included those that were sent to the FCC for information, those that were general and did
+not address a particular network or station, and “crank” letters).
+29. See id. at 53 (outlining the additional information that a complainant must provide
+to satisfy the FCC’s specificity requirements).
+
+8_AMMORI_COMPLETE
+
+888
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+up.30 The analyst could refer other complaints to lawyers in the
+Fairness/Political Broadcasting Branch; these lawyers would often also
+request more information from the complainant or simply send a Form
+8330-FD. Either way, again, most complainants did not follow up at that
+point.31 In most cases, the station had never been asked to respond or had
+never even received a copy of the complaint, though the FCC would file
+the complaint in the station’s public files.32 These responses accounted for
+more than 99% of written complaints.33 When faced with the less than 1%
+of complaints that complied with all the requirements and were sufficiently
+specific, the FCC would ask the broadcaster to respond.34 After briefing,
+the staff would rule on the complaint. While the ruling was appealable to
+the FCC Commissioners, the Commissioners generally upheld staff
+decisions.35
+This process resulted in a handful of adverse rulings a year. One scholar
+noted that in 1976, less than one tenth of one percent of complaints resulted
+in a station inquiry.36 Out of over 41,000 complaints, only 24 resulted in
+station inquiries, and only 16 of those resulted in adverse rulings.37 In
+1975, there were a little over 3,000 complaints, with only 10 adverse
+rulings, and in 1974, there were 1,874 complaints, and 6 adverse rulings.38
+The odds became even worse in subsequent years, with the success rate
+falling from 1 in 1,000 to 1 in 2,000.39 In 1980, 10,000 complaints resulted
+in 6 adverse rulings, and in 1981, almost 6,000 complaints resulted in only
+3 adverse rulings—all based on issue advertising, not programming
+imbalance.40 Generally, individuals’ chance of success was “virtually nil,”
+as most would give up before the ruling stage, while nonprofit groups,
+
+30. See id. (stating the reason “most people” do not respond to the form is because the
+FCC requires precision in the description of the complaint in order to “relieve broadcasters
+of the burden of disproving vague complaints”).
+31. See id. (explaining that most complainants never follow up even where their
+complaint raises a question that an analyst or legal technician cannot answer).
+32. See id. at 54 (describing the process that the FCC uses in filing most complaints
+and staff responses).
+33. See id. (noting that in 99.5% of all Fairness Doctrine complaints the station need
+not do anything in response).
+34. See id. (noting that only those complaints that “compl[y] with all the requirements”
+can build a case strong enough to require a reply from the station).
+35. See id. at 53–54 (noting that the right of appeal from a staff decision is of
+questionable utility given that “staff decisions [were] upheld in all [eighteen] Fairness cases
+appealed to the full commission from 1979 to 1981”).
+36. SIMMONS, supra note 18, at 210.
+37. See id. (examining fairness complaints during the mid-1970s).
+38. See id. (analyzing the number of the complaints in the mid-1970s and describing
+the small number of station inquiries as “striking”).
+39. ROWAN, supra note 13, at 62.
+40. Id.
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+889
+
+mainly “single-issue” groups, had a marginally higher chance.41 They
+would often receive some success through negotiating informally with
+broadcasters, but they were negotiating in the shadow of what was, to the
+nonprofits, unsympathetic law.42 The main reason for the high rate of
+failure was the FCC’s complaint-discouraging policies. The FCC sought to
+protect broadcasters from harassment by eliminating vague or inappropriate
+complaints, and most complaints failed because the FCC conferred
+considerable discretion on broadcasters in presenting diverse views.
+Indeed, the FCC’s policy on devoting time to covering controversial
+issues made that prong of the Fairness Doctrine almost unenforceable.
+Even though the FCC once said that “the single most important
+requirement of operation in the public interest”43 was to devote a
+reasonable amount of time to coverage of controversial issues of public
+importance, the FCC explicitly refused to “interfere with the broadcaster’s
+journalistic discretion in this area except in the rare case . . . .”44 As a
+result, the FCC would “presume compliance with [the prong] unless a
+complainant [could] substantially indicate otherwise.”45
+Finally, resolution of complaints was slow.
+Even those few
+organizations that did pursue and win their fairness complaints had to press
+their claims for months or years. In 1973, the average time between airing
+a program and the final resolution was approximately eight months, and in
+1984, the average time was more than a year.46
+C. The Fairness Doctrine Is at Most a Second-Best Solution for a
+Concentrated Speech Market
+Third, even the early history of the Fairness Doctrine demonstrates it
+was always a second-best option. The best option was to use the spectrum
+not for a few “balanced” speakers but for many diverse and antagonistic
+speakers.
+41. See id. at 62, 73 (stating that the reason that small, locally organized groups are
+more successful is that these groups “can afford, or at least have access to, expert legal
+counsel” and are “in a position to jump when something airs that appears to deal with ‘their’
+issue”).
+42. See generally id. at 71–87 (chronicling various organizations’ attempts to settle
+Fairness Doctrine disputes with broadcasters informally).
+43. Complaints of Comm. for the Fair Broad. of Controversial Issues, 25 F.C.C.2d 283,
+292 (1970) (Memorandum Opinion and Order) (citation omitted).
+44. The Handling of Pub. Issues Under the Fairness Doctrine and the Pub. Interest
+Standards of the Commc’ns Act, 89 F.C.C.2d 916, 920 (1982) (Memorandum Opinion and
+Order).
+45. Id.
+46. See ROWAN, supra note 13, at 54 (noting that the author’s review of FCC rulings
+just prior to the book’s 1984 publication indicated that the then-current resolution time was
+more than one year).
+
+8_AMMORI_COMPLETE
+
+890
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+The Fairness Doctrine developed from 1929 to 1949—the year the FCC
+recapitulated its evolving Doctrine. The Fairness Doctrine was imposed “at
+the outset,” when the FCC and its predecessor agency, the Federal Radio
+Commission (FRC), reallocated broadcasting licenses in the late 1920s and
+early 1930s. Because the spectrum was congested with users, the FCC
+reallocated licensees, largely disfavoring the existing nonprofit and
+educational users and favoring large commercial networks. In reallocating
+the licenses in its 1929 Third Annual Report, the FCC stated, “In so far as a
+program consists of discussion of public questions, public interest requires
+ample play for the free and fair competition of opposing views . . . .”47 For
+the next ten years, the FCC enunciated this fairness concept in license
+renewals. In 1940, it described the duty of “well-rounded rather than onesided discussions of public questions.”48 In 1949, the Commission
+summarized its policy in its Report on Editorializing.49
+“Balance” was required because so few speakers were being licensed. In
+the late 1920s, when the FCC reallocated licensees, its stated preference for
+“balance” was based on—one supposed—favoring large commercial
+broadcasters over ideological nonprofit organizations.50 In 1928, with
+perhaps so many broadcasters on air that listeners often received static, the
+FRC announced a reallocation plan to alter the frequencies of 94% of
+broadcasters and, over the next several years, to severely reduce the
+number of broadcasters.51 The plan and its implementation favored large
+commercial broadcasters over smaller noncommercial broadcasters because
+the plan assigned fewer and more powerful licenses.52 Within a year of
+implementing the plan, there were 100 fewer broadcasters.53 In defending
+the reallocation, the FRC claimed that stations best served the public
+interest if they served the entire public, notably with “a well-rounded
+program” of entertainment and cultural programming, such as the programs
+
+47. Great Lakes Broad. Co., 3 FRC ANN. REP. 32, 33 (1929).
+48. 6 FCC ANN. REP. 55 (1940).
+49. See generally Editorializing by Broadcast Licensees, 13 F.C.C. 1246, 1247 (1949)
+(Report of the Commission) (reexamining the Commission’s position on broadcasters’
+obligations and ultimately determining that the broadcast licensees are the ones who must
+“be responsible for the selection of the particular news items to be reported”).
+50. ROBERT W. MCCHESNEY, TELECOMMUNICATIONS, MASS MEDIA, AND DEMOCRACY
+26–27 (1993).
+51. See id. at 25 (recounting the Federal Radio Commission’s (FRC) decision to
+implement the reallocation plan General Order 40 and the FRC’s public assertions that the
+plan was the only reasonable way to provide good broadcasting to the listening public).
+52. See id. at 26 (explaining that the FRC initially maintained that it was in the public
+interest that more highly capitalized stations get the limited slots that the reallocation
+created because those stations “had the equipment to take advantage of [those] slots”).
+53. See id. (stating that the number of stations after the reallocation declined despite the
+FRC’s never having rejected a license renewal application).
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+891
+
+endorsed by the Fairness Doctrine.54 By contrast, the FRC claimed that
+“propaganda” stations, meaning merely those stations disseminating
+particular viewpoints, such as today’s talk radio stations, did not best serve
+the public interest. As the FRC chose to allocate fewer, more powerful
+licenses, it claimed that there was “not room in the broadcast band for
+every school of thought, religious, political, social, and economic, each to
+have its separate broadcasting station . . . .”55 In the 1929 Third Annual
+Report, in which the FRC first announced the fairness concept, also stated
+that a commercial station providing well-rounded programs has “a claim of
+preference over a propaganda station” for a license, even if the ideological
+station accompanied its “messages with entertainment and other program
+features of interest to the public,” because of the ideological station’s
+“temptation not to be fair to opposing schools of thought.”56 In
+implementing its reallocation, the FRC required broadcasters to share the
+same frequencies and would divide the hours based on which licensee was
+most worthy. When the FRC renewed licenses every three months and
+determined the balance of hours per broadcaster, it consistently favored the
+“balanced” commercial stations over the ideological nonprofit stations. For
+example, on WGN, the nonprofit Voice of Labor lost a hearing for more
+hours against the Chicago Tribune.57 As George Will recently noted, the
+FRC in 1928 decided that the programming on WEVD, a New York station
+licensed to the Socialist Party, was not in the public interest and warned the
+station to show “due regard for the opinions of others.”58
+The Fairness Doctrine, which commercial broadcasters embraced to
+claim that they served the public interest, was never the ideal policy
+solution. The better option was to have unfettered exchange of views by
+different speakers, including nonprofit and for-profit ideological speakers.
+Faced with the technology of the 1920s, the FRC concluded that not every
+school of thought could have its own mouthpiece, so the few lucky
+commercial licensees would have to present competing views. As
+discussed above, imposing this obligation on licensees was largely
+ineffective.
+54. See id. at 27 (outlining and explaining the criteria that the FRC found important in
+determining which stations best served the public interest).
+55. Id.
+56. Id. at 28; see also id. (quoting the FRC’s Third Annual Report for the proposition
+that general public service stations take precedence over propaganda stations “for access to
+the same channel”).
+57. See id. (asserting that the nonprofit stations often fell victim to one of the two
+networks); see also SIMMONS, supra note 18, at 34.
+58. George F. Will, Fraudulent “Fairness,” NEWSWEEK.COM, May 7, 2007,
+http://www.newsweek.com/id/35081/output/print; Thomas W. Hazlett & David W. Sosa,
+“Chilling” the Internet? Lessons from FCC Regulation of Radio Broadcasting, 4 MICH.
+TELECOMM. & TECH. L. REV. 35, 44 (1998) (citation omitted).
+
+8_AMMORI_COMPLETE
+
+892
+
+12/3/2008 2:47 PM
+
+ADMINISTRATIVE LAW REVIEW
+
+[60:4
+
+With today’s technology, however, government can pursue better policy
+options that are more likely to enhance the public’s exposure to public
+information and diverse viewpoints.
+III. THERE ARE MORE APPROPRIATE MEANS TO ENSURE ACCESS TO
+DIVERSE VIEWPOINTS AND INFORMATION ABOUT LOCAL ISSUES
+Rather than join talk show hosts and bloggers in discussing a policy
+abandoned in the 1980s, Congress should implement policies that would
+actually result in diverse viewpoints. Congress should not attempt to
+regulate (ineffectively) a few broadcasters for diverse viewpoints, but
+should ensure that more and more speakers are free to reach their intended
+audiences with their public messages. The American communications
+system generally seeks political truth not through a few regulated speakers
+but through diverse speakers. The Supreme Court has repeatedly endorsed
+what “has long been a basic tenet of national communications policy,”
+which is “that the widest possible dissemination of information from
+diverse and antagonistic sources is essential to the welfare of the public.”59
+The Court has stated, similarly, that “assuring that the public has access to
+a multiplicity of information sources is a governmental purpose of the
+highest order, for it promotes values central to the First Amendment.”60
+Another basic tenet, which has been part of broadcast policy from the
+outset of regulation, has been to foster local information sources and local
+information.61
+Congress should favor policies that increase the diversity of sources.
+These include media ownership limits, low power FM, and open-Internet
+initiatives.
+A. Media Ownership Limits
+Congress should act quickly to pass a bill eliminating the FCC’s
+quadrennial reviews and retaining, or tightening, the broadcast ownership
+limits as they existed in 2002. It should also require the FCC to perform a
+study to determine how the digital transition may necessitate even stricter
+ownership limits. Congress or the FCC should also initiate an inquiry into
+59. Turner Broad. Sys., Inc. v. FCC, 512 U.S. 622, 663 (1994) (quoting Assoc. Press v.
+United States, 326 U.S. 1, 20 (1945)). For a discussion of how this principle animates
+communications policy, see Yochai Benkler, Free as the Air to Common Use: First
+Amendment Constraints on Enclosure of the Public Domain, 74 N.Y.U. L. REV. 354, 446
+(1999).
+60. Turner, 512 U.S. at 663.
+61. See, e.g., Broad. Localism, 19 F.C.C.R. 12,425, 12,425 (2004) (Notice of Inquiry)
+(asserting that broadcast licensees “must air programming that is responsive to the interests
+and needs of their communities of license”).
+
+8_AMMORI_COMPLETE
+
+2008]
+
+12/3/2008 2:47 PM
+
+THE FAIRNESS DOCTRINE
+
+893
+
+how the ownership relationships between station owners and program
+syndicators affects the radio market.
+B. Low Power FM
+Congress should act quickly to pass legislation permitting the FCC to
+license additional low power radio stations to local nonprofit organizations
+in more towns and cities.
+C. Open-Internet Initiatives
+Most importantly, Congress should take steps to ensure that all members
+of the public have access to open, high-speed Internet. The Internet can
+provide an open platform for many diverse and antagonistic speakers.
+Congress can ensure a competitive market in Internet delivery and open
+platforms by adopting rules that ensure network neutrality (building on the
+foundation of a recent, celebrated decision against Comcast’s blocking of
+peer-to-peer technologies),62 supporting community broadband, providing
+more access to unlicensed spectrum (such as in the television white
+spaces), and imposing wholesale and open-device obligations on licensed
+wireless providers (for example, in the 700 MHz auction).63
+CONCLUSION
+Debate about the Fairness Doctrine is a red herring, as the Doctrine will
+not and should not be reinstated. Assertions by conservatives that
+Democrats are attempting to reinstate the Fairness Doctrine are inaccurate.
+The Doctrine is easy to avoid and difficult to enforce, making reinstatement
+of the Doctrine ineffective at best. Rather than debate a doctrine that will
+not pass, Congress and the FCC should encourage diverse ownership of
+traditional media and open, high-speed Internet access as the most
+appropriate means of making diverse viewpoints available to the public.
+The history of the Fairness Doctrine’s inability to achieve its intentions as
+well as the lack of any recent effort to bring it back are evidence that the
+Fairness Doctrine was noble in its intentions but lacking in its execution.
+
+62. See generally Formal Complaint of Free Press, No. EB-08-IH-1518 (Aug. 20,
+2008), http://hraunfoss.fcc.gov/edocs_public/attachmatch/FCC-08-183A1.pdf; Posting of
+Lawrence Lessig to Lessig Blog, http://lessig.org/blog/ (Aug. 20, 2008, 17:54 EST).
+63. For a discussion of these issues, see, for example, Communications, Broadband
+and Competitiveness: How Does the U.S. Measure Up?: Hearing Before the S. Comm. on
+Commerce, Science and Transportation, 110th Cong. (2007) (statement of Ben Scott, Policy
+Director, Free Press), available at http://www.freepress.net/files/42407bssentestimony.pdf.
+
+

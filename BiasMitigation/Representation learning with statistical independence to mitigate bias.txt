@@ -1,0 +1,920 @@
+Representation Learning with Statistical Independence to Mitigate Bias
+Ehsan Adeli1,2*, Qingyu Zhao1∗, Adolf Pfefferbaum1,3, Edith V . Sullivan1,
+Li Fei-Fei2, Juan Carlos Niebles2, Kilian M. Pohl1,3
+1Department of Psychiatry and Behavioral Sciences, Stanford University, CA 94305
+2Department of Computer Science, Stanford University, CA 94305
+3Center for Biomedical Sciences, SRI International, Menlo Park, CA 94205
+{eadeli,qingyuz,dolfp,edie,feifeili,jniebles,kilian.pohl}@stanford.edu
+Abstract
+Presence of bias (in datasets or tasks) is inarguably one
+of the most critical challenges in machine learning appli-
+cations that has alluded to pivotal debates in recent years.
+Such challenges range from spurious associations between
+variables in medical studies to the bias of race in gender or
+face recognition systems. Controlling for all types of biases
+in the dataset curation stage is cumbersome and sometimes
+impossible. The alternative is to use the available data and
+build models incorporating fair representation learning. In
+this paper, we propose such a model based on adversarial
+training with two competing objectives to learn features that
+have (1) maximum discriminative power with respect to the
+task and (2) minimal statistical mean dependence with the
+protected (bias) variable(s). Our approach does so by in-
+corporating a new adversarial loss function that encourages
+a vanished correlation between the bias and the learned
+features. We apply our method to synthetic data, medical
+images (containing task bias), and a dataset for gender clas-
+siﬁcation (containing dataset bias). Our results show that
+the learned features by our method not only result in supe-
+rior prediction performance but also are unbiased. The code
+is available at https://github.com/QingyuZhao/BR-Net/ .
+1. Introduction
+A central challenge in practically all machine learning
+applications is how to identify and mitigate the effects of the
+bias present in the study. Bias can be deﬁned as one or a
+set of extraneous protected variables that distort the relation-
+ship between the input (independent) and output (dependent)
+variables and hence lead to erroneous conclusions [ 39]. In
+a variety of applications ranging from disease prediction
+to face recognition, machine learning models are built to
+predict labels from images. Variables such as age, sex, and
+*Equal Contributionrace may inﬂuence the training if the labels distribution is
+skewed with respect to them. Hence, the model may learn
+bias effects instead of actual discriminative cues.
+The two most prevalent types of biases are dataset bias
+[44,28] and task bias [ 31,26].Dataset bias is often intro-
+duced due to the lack of enough data points spanning the
+whole spectrum of variations with respect to one or a set
+of protected variables ( i.e., variables that deﬁne the bias).
+For example, a model that predicts gender from face images
+may have different recognition capabilities for different races
+with uneven sizes of training samples [ 10].Task bias , on
+the other hand, is introduced by the intrinsic dependency
+between protected variables and the task. For instance, in
+neuroimaging applications, demographic variables such as
+gender [ 18] or age [ 16] are crucial protected variables; i.e.,
+they affect both the input ( e.g., neuroimages) and output
+(e.g., diagnosis) of a prediction model so they likely intro-
+duce a distorted association. Both bias types pose serious
+challenges to learning algorithms.
+With the rapid development of deep learning methods,
+Convolutional Neural Networks (CNN) are emerging as emi-
+nent ways of extracting representations (features) from imag-
+ing data. However, like other machine learning methods,
+CNNs are prone to capturing any bias present in the task
+or dataset when not properly controlled. Recent work has
+focused on methods for understanding causal effects of bias
+on databases [ 44,27] or learning fair models [ 32,50,28,44]
+with de-biased representations based on the developments
+in invariant feature learning [ 20,6] and domain adversarial
+learning [ 19,43]. These methods have shown great potential
+when the protected variables are dichotomous or categori-
+cal. However, their applications to handling task bias and
+continuous protected variables are still under-explored.
+In this paper, we propose a representation learning
+scheme that learns features predictive of class labels with
+minimal bias to any generic type of protected variables. Our
+method is inspired by the domain-adversarial training ap-
+proaches [ 20] with controllable invariance [ 55] within the
+2513
+Figure 1: Average face images for each shade category ( 1strow), average saliency map of the trained baseline ( 2ndrow), and
+BR-Net (3rdrow) color-coded with the normalized saliency for each pixel. BR-Net results in more stable patterns across all 6
+shades. The last column shows the tSNE projection of the learned representations by each method. Our method results in a
+better representation space invariant to the bias variable (shade) while the baseline shows a pattern inﬂuenced by the bias.
+Average accuracy of per-shade gender classiﬁcation over 5 runs of 5-fold cross-validation (pre-trained on ImageNet, ﬁne-tuned
+on GS-PPB) is shown on each average map. BR-Net not only obtains better accuracy for the darker shade but also regularizes
+the model to improve overall per-category accuracy.
+context of generative adversarial networks (GANs) [ 22]. We
+introduce an adversarial loss function based on the Pearson
+correlation between true and predicted values of a protected
+variable. Unlike prior methods, this strategy can handle
+protected variables that are continuous or ordinal. We theo-
+retically show that the adversarial minimization of the linear
+correlation can remove non-linear association between the
+learned representations and protected variables, thus achiev-
+ingstatistical mean independence . Further, our strategy
+improves over the commonly used cross-entropy or mean-
+squared error (MSE) loss that is often ill-posed when opti-
+mized adversarially. Our method, denoted by Bias-Resilient
+Neural Network (BR-Net), uses architectures similar to the
+prior adversarial invariant feature learning works, but in-
+jects resilience towards the bias during training by taking an
+statistical independence approach to produce bias-invariant
+features at the presence of dataset and task biases. BR-Net
+is novel compared to the prior fair representation learning
+methods as (1) it can deal with continuous andordinal pro-
+tected variables and (2) is based on a theoretical proof of
+mean independence within the adversarial training context.
+We evaluate BR-Net on two datasets that allow us to high-
+light different aspects of the method in comparison with a
+wide range of baselines. First, we test it on a medical imag-
+ing application ,i.e., distinguishing T1-weighted Magnetic
+Resonance Images (MRIs) of patients with the human im-munodeﬁciency virus (HIV) from those of healthy subjects.
+As documented by the HIV literature, HIV accelerates the ag-
+ing process of the brain [ 13], thereby introducing a task bias
+with respect to age (a continuous variable). In other words,
+if a predictor is trained not considering age as a protected
+variable (or confounder as referred to in medical studies), the
+predictor may actually learn the brain aging patterns rather
+than actual HIV markers. Then, we evaluate BR-Net for
+gender classiﬁcation using the Gender Shades Pilot Parlia-
+ments Benchmark (GS-PPB) dataset [ 10]. We use different
+backbones pre-trained on ImageNet [ 15] in BR-Net and ﬁne-
+tune them for our speciﬁc task, i.e., gender prediction from
+face images. We show that prediction accuracy of the vanilla
+model is dependent on the subject’s skin color (quantiﬁed
+by the ‘shade’ variable, an ordinal variable), which is not
+the case for BR-Net. Our comparison with several baselines
+and prior state-of-the-art shows that BR-Net not only learns
+features impartial to race (veriﬁed by feature embedding
+visualizations) but also results in higher accuracy (Fig. 1).
+2. Related Work
+Fairness in Machine Learning: In recent years, develop-
+ing fair machine learning models have been the center of
+many discussions [ 33,23,3] including the media [ 29,37].
+It is often argued that human or society biases are replicated
+in the training datasets and hence can be seen in learned
+2514
+models [ 4]. Recent effort in solving this problem focused
+on building fairer datasets [ 56,11,44]. However, this ap-
+proach is not always practical for large-scale datasets or for
+applications, where data is relatively scarce and expensive
+to generate ( e.g., medical applications). Other works learn
+fair representations leveraging the existing data [ 58,14,53]
+by identifying features that are only predictive of the actual
+outputs, i.e., impartial to the protected variable. But they
+come short when the protected variables are continuous.
+Domain-Adversarial Training: [20] proposed for the ﬁrst
+time to use adversarial training for domain adaptation tasks
+by using the learned features to predict the domain label
+(a binary variable; source or target). Several other works
+built on top of the same idea and explored different loss
+functions [ 9], domain discriminator settings [ 51,17,8], or
+cycle-consistency [ 25]. The focus of all these works was to
+close the domain gap, which is often encoded as a binary
+variable. To learn general-purpose bias-resilient models, we
+need new theoretical insight into the methods that can learn
+features invariant to all types of protected variables.
+Invariant Representation Learning: There have been dif-
+ferent attempts in the literature for learning representations
+that are invariant to speciﬁc factors in the data. For instance,
+[58] took an information obfuscation approach to obfuscate
+membership in the protected group of data during training,
+and [ 6,40] introduced regularization-based methods. Re-
+cently, [ 55,2,59,19,12] proposed to use domain-adversarial
+training strategies for invariant feature learning. Some works
+[43,52] used adversarial techniques based on similar loss
+functions as in domain adaptation to predict the exact values
+of the protected variables. For instance, [ 52] used a binary
+cross-entropy for removing effect of ‘gender’ and [ 43] used
+linear and kernelized least-square predictors as the adversar-
+ial component. Several methods based on optimizing equal-
+ized odds [ 36], entropy [ 48,42] and mutual-information
+[47,7,38] were also widely used for fair representation
+learning. However, these methods are intractable for contin-
+uous or ordinal protected variables.
+3. Bias-Resilient Neural Network (BR-Net)
+Suppose we have an M-class classiﬁcation problem, for
+which we have Npairs of training images and their corre-
+sponding target label(s): {(Xi,yi)}N
+i=1. Assuming a set of
+kprotected variables, denoted by a vector b∈Rk, to train a
+model for classifying each image while being impartial to the
+protected variables, we propose an end-to-end architecture
+(Fig. 2) similar to domain-adversarial training approaches
+[20]. Given the input image X, the representation learning
+(FE) module extracts a feature vector F, on top of which a
+Classiﬁer ( C) predicts the class label y. Now, to guarantee
+that these features are not biased to b, we build a network
+(denoted by BP) with a new loss function that checks the
+Feature 
+Extraction 
+(    )
+𝛉𝑓𝑒
+{(𝐗 𝑖, 𝑦𝑖)}𝑖=1𝑁
+𝐿𝑐𝑦, ො 𝑦
+Bias Prediction
+(    ) 𝛉𝑏𝑝
+𝜕𝐿 𝑐
+𝜕𝛉 𝑐
+𝜕𝐿 𝑏𝑝
+𝜕𝛉 𝑏𝑝
+𝜕(𝐿𝑐−𝜆𝐿𝑏𝑝)
+𝜕𝛉 𝑓𝑒𝐿𝑏𝑝𝐛,መ𝐛
+𝐗
+𝔽𝔼
+Classification 
+(  )ℂ
+𝔹ℙ𝐅𝛉𝒄Figure 2: BR-Net architecture: FElearns features, F, that
+successfully classify ( C) the input while being invariant
+(statistically independent) to the protected variables, b, using
+BPand the adversarial loss, −λLbp(based on correlation
+coefﬁcient). Forward arrows show forward paths while the
+backward dashed ones indicate back-propagation with the
+respective gradient ( ∂) values.
+Fy
+b Fy
+b
+(b) Task Bias (a) Dataset Bias
+Figure 3: BR-Net can remove direct dependency between F
+andbfor both dataset or task bias.
+statistical mean dependence of the protected variables to
+F. Back-propagating this loss to FEadversarially results in
+features that minimize the classiﬁcation loss while having
+the least statistical dependence on the protected variables.
+Each network has its underlying trainable parameters,
+deﬁned as θfeforFE,θcforC, andθbpforBP. If the
+predicted probability that subject ibelongs to class mis
+deﬁned by ˆyim=C(FE(Xi;θfe);θc), the classiﬁcation
+loss can be characterized by a cross-entropy:
+Lc(X,y;θfe,θc) =−N/summationdisplay
+i=1M/summationdisplay
+m=1yimlog(ˆyim).(1)
+Similarly, with ˆbi=BP(FE(Xi;θfe);θbp), we can de-
+ﬁne the adversarial component of the loss function. Stan-
+dard methods for designing this loss function suggest to
+use a cross-entropy for binary/categorical variables ( e.g., in
+[20,55,12]) or anℓ2MSE loss for continuous variables
+([43]). These loss functions solely aim to maximize predic-
+tion error of bin the adversarial training but cannot remove
+statistical dependence. For example, the maximization of
+MSE between ˆbandbis an ill-posed (unbounded) objec-
+tive and can be trivially achieved by uniformly shifting the
+magnitude of ˆb, which does not remove any correlation with
+respect to b. To avoid this issue, we deﬁne the surrogate loss
+for predicting the protected variables while quantifying the
+2515
+statistical dependence with respect to bbased on the squared
+Pearson correlation corr2(·,·):
+Lbp(X,b;θfe,θbp) =−k/summationdisplay
+κ=1corr2(bκ,ˆbκ), (2)
+wherebκdeﬁnes the vector of κthprotected variable across
+allNtraining inputs. Through adversarial training, we aim
+to remove statistical dependence by encouraging a zero cor-
+relation between bκandˆbκ. Note,BPdeems to maximize
+squared correlation and FEminimizes for it. Since corr2is
+bounded in the range [0, 1], both minimization and maxi-
+mization schemes are feasible. Hence, the overall objective
+of the network is then deﬁned as
+min
+θfe,θcmax
+θbpLc(X,y;θfe,θc)−λLbp(X,b;θfe,θbp).
+(3)
+where hyperparameter λcontrols the trade-off between the
+two objectives. This scheme is similar to GAN [ 22] and
+domain-adversarial training [ 20,55], in which a min-max
+game is deﬁned between two networks. In our case, FE
+extracts features that minimize the classiﬁcation criterion,
+while ‘fooling’ BP(i.e., making BPincapable of predicting
+the protected variables). Hence, the saddle point for this
+objective is obtained when the parameters θfeminimize the
+classiﬁcation loss while maximizing the loss of BP. Similar
+to the training of GANs, in each iteration, we ﬁrst back-
+propagate the Lcloss to update θfeandθc. Withθfeﬁxed,
+we then minimize the Lbploss to update θbp. Finally, with
+θbpﬁxed, we maximize the Lbploss to update θfe. In
+this study, Lbpdepends on the correlation operation, which
+is a population-based operation, as opposed to individual-
+level error metrics such as cross-entropy or MSE losses.
+Therefore, we calculate the correlations over each training
+batch as a batch-level operation.
+3.1. Non­linear Statistical Independence Guarantee
+In general, a zero-correlation or a zero-covariance only
+quantiﬁes linear independence between univariate variables
+but cannot infer non-linear relationships in high dimen-
+sion. However, we now theoretically show that, under cer-
+tain assumptions on the adversarial training of BP, a zero-
+covariance would guarantee the mean independence [54]
+between protected variables and the high dimensional fea-
+tures, a much stronger type of statistical independence than
+the linear one.
+A random variable Bis said to be mean independent of
+Fif and only if E[B|F=ξ] =E[B]for allξwith non-
+zero probability, where E[·]deﬁnes the expected value. In
+other words, the expected value of Bis neither linearly nor
+non-linearly dependent on F, but the variance of Bmight.
+The following theorem then relates the mean independence
+between features Fand the protected variables Bto the
+zero-covariance between Band theBPprediction, ˆB.Property 1: Bis mean independent of ˆB ⇒Cov(B,ˆB) = 0 .
+Property 2: B,Fare mean independent ⇒B is mean inde-
+pendent of ˆB=φ(F)for any mapping function φ.
+Theorem 1. Given random variables F,B,ˆBwith ﬁnite
+second moment, Bis mean independent of F ⇔ for any
+arbitrary mapping φ, s.t.ˆB=φ(F),cov(B,ˆB) = 0
+Proof. The forward direction ⇒follows directly through
+Property 1 and 2. We focus the proof on the reverse direction.
+Now, construct a mapping function ˆB=φ(F) =E[B|F],
+i.e.,φ(ξ) =E[B|F=ξ], thenCov(B,ˆB) = 0 implies
+E/bracketleftbig
+BE[B|F]/bracketrightbig
+=E[B]E/bracketleftbig
+E[B|F]/bracketrightbig
+. (4)
+Due to the self-adjointness of the mapping B /mapsto→E[B|F],
+the left hand side of Eq. ( 4) readsE/bracketleftbig
+BE[B|F]/bracketrightbig
+=
+E/bracketleftbig
+(E[B|F])2/bracketrightbig
+=E[ˆB2]. By the law of total expectation
+E/bracketleftbig
+E[B|F]/bracketrightbig
+=E[B], the right hand side of Eq. ( 4) becomes
+E[ˆB]2. By Jensen’s (in)equality, E[ˆB2] =E[ˆB]2holds iff ˆB
+is a constant, i.e.,Bis mean independent of F.
+Remark. In practice, we normalize the covariance by stan-
+dard deviations of variables for optimization stability. In the
+unlikely singular case that BPoutputs a constant, we add a
+small perturbation in computing the standard deviation.
+This theorem echoes the validity of our adversarial train-
+ing strategy: FEencourages a zero-correlation between bκ
+andˆbκ, which enforces bκto be mean independent of F
+(one cannot infer the expected value of bκfromF). In turn,
+assuming BPhas the capacity to approximate any arbitrary
+mapping function, the mean independence between features
+and bias would correspond to a zero-correlation between bκ
+andˆbκ, otherwise BPwould adversarially optimize for a
+mapping function that increases the correlation.
+Moreover, Theorem 1 induces that when bκis mean
+independent of F,bκis also mean independent of yfor
+any arbitrary classiﬁer C, indicating that the prediction is
+guaranteed to be unbiased. When Cis a binary classiﬁer and
+y∼Ber(q), we have p(y= 1|bκ) =E[y|bκ] =E[y] =
+p(y= 1) =q; that is,yandbκare fully independent.
+As mentioned, when bcharacterizes dataset bias (Fig.
+2a), there is no intrinsic link between the protected variable
+and the task label ( e.g., in gender recognition, probability
+of being a female is not dependent on race), and the bias is
+introduced due to the data having a skewed distribution with
+respect to the protected variable. In this situation, we should
+trainBPon the entire dataset to remove dependency between
+Fandb. On the other hand, when bis a task bias (Fig. 2b),
+it will have an intrinsic dependency with the task label ( e.g.,
+in disease classiﬁcation, the disease group has a different age
+range than the control group), such that the task label ycould
+potentially become a moderator [ 5] that affects the strength
+of dependency between the features and protected variables.
+2516
+𝜎𝐵 𝜎𝐴
+𝜎𝐶 𝜎𝐷
+A B
+C Dprotected
+protected𝜎𝐵 𝜎𝐴
+𝜎𝐵 𝜎𝐴
+(a) Synthetic data image synthesis.
+ (b) Distance correlation w.r.t. σB
+Figure 4: Formation of synthetic dataset (a) and comparison of results for different methods (b).
+In this situation, the goal of fair representation learning is
+to remove the direct statistical dependency between Fand
+bwhile tolerating the indirect association induced by the
+task. Therefore, our adversarial training aims to ensure mean
+independence between Fandbconditioned on the task label
+E[F|b,y] =E[F|y],E[b|F,y] =E[b|y].In practice, we
+train the adversarial loss within one or each of the Mclasses,
+depending on the speciﬁc task. This alleviates the ‘com-
+peting equilibrium’ issue in common fair machine learning
+methods [ 55], where the aim is to achieve full independence
+w.r.tbwhile accurately predict y, an impossible task.
+4. Experiments
+We evaluate our method on two different scenarios. We
+compare BR-Net with several baseline approaches, and eval-
+uate how our learned representations are invariant to the
+protected variables.
+Baseline Methods . In line with the implementation of
+our approach, the baselines for all three experiments are
+1) Vanilla: a vanilla CNN with an architecture exactly the
+same as BR-net without the bias prediction sub-network
+and hence the adversarial loss; and 2) Multi-task: a single
+FEfollowed by two separate predictors for predicting bκ
+andy, respectively [ 34]. The third type of approaches used
+for comparison are other unbiased representation learning
+methods. Note that most existing works for “fair deep
+learning” are only designed for binary or categorical
+bias variables . Therefore, in the synthetic and brain MRI
+experiments where the protected variable is continuous, we
+compare with two applicable scenarios originally proposed
+in the logistic regression setting: 1) [ 43] uses the MSE be-
+tween the predicted and true bias as the adversarial loss;
+2) [57] aims to minimize the magnitude of correlation be-
+tweenbκand the logit of y, which in our case is achieved
+by adding the correlation magnitude to the loss function. For
+the Gender Shades PPB experiment, the protected variable
+is categorical. We then further compare with [ 30], whichuses conditional entropy as the adversarial loss to minimize
+the mutual information between bias and features. Note,
+entropy-based [ 48,42] and mutual-information-based meth-
+ods [ 47,7,38] are widely used in fair representation learning
+to handle discrete bias.
+Metrics for Accuracy and Statistical Independence . For
+the MRI and GS-PPB experiments, we measure prediction
+accuracy of each method by recording the balanced accuracy
+(bAcc),F1-score, and AUC from a 5-fold cross-validation.
+In addition, we track the statistical dependency between the
+protected variable and features during the training process by
+applying the model to the entire dataset. We then compute
+the squared distance correlation ( dcor2) [49] and mutual in-
+formation (MI) between the learned features at each iteration
+and the ground-truth protected variable. Note that the com-
+putation of dcor2and MI does not involve the bias predictor
+(BP), thereby enabling a uniﬁed comparison between adver-
+sarial methods and the non-adversarial ones. Unlike Pearson
+correlation, dcor2= 0or MI= 0imply full statistical inde-
+pendence with respect to the features in the high dimensional
+space. Lastly, the discrete protected variable in GS-PPB ex-
+periment allows us to record another independence metric
+called the Equality of Opportunity (EO). EO measures the
+average gap in true positive rates w.r.t. different values of
+the protected variable.
+4.1. Synthetic Experiments
+We generate a synthetic dataset comprised of two groups
+of data, each containing 512 images of resolution 32×32
+pixels. Each image is generated by 4 Gaussians (see Fig. 4a),
+the magnitude of which is controlled by σAandσB. For each
+image from Group 1, we sample σAandσBfrom a uniform
+distribution U(1,4)while we generate images of Group 2
+with stronger intensities by sampling from U(3,6). Gaussian
+noise is added to the images with standard deviation 0.01.
+Now we assume the difference in σAbetween the two groups
+is associated with the true discriminative cues that should be
+learned by a classiﬁer, whereas σBis a protected variable.
+2517
+Figure 5: tSNE projection of the learned features for different methods. Color indicates the value of σB.
+In other words, an unbiased model should predict the group
+label purely based on the two diagonal Gaussians and not
+dependent on the two off-diagonal ones. To show that the
+BR-Net can result in such models by controlling for σB, we
+train it on the whole dataset of 1,024 images with binary
+labels and σBvalues.
+For simplicity, we construct FEwith 3 stacks of 2×2
+convolution/ReLU/max-pooling layers to produce 32 fea-
+tures. Both the BPandCnetworks have one hidden layer of
+dimension 16 with tanh as the non-linear activation function.
+After training, the vanilla and multi-task models achieve
+close to 95% training accuracy, and the other 3 methods
+close to 90%. Note that the theoretically maximum train-
+ing accuracy is 90% due to the overlapping sampling range
+ofσAbetween the two groups, indicating that the vanilla
+and multi-task models additionally rely on the protected
+variableσBfor predicting the group label, an undesired
+behavior. Further, Fig. 4b shows that our method can opti-
+mally remove the statistical association w.r.t. σBasdcor2
+drops dramatically with training iterations. The MSE-based
+adversarial loss yields unstable dcor2measures, and [ 57]
+suboptimally removes the bias in the features (green curve
+Fig. 4b). Finally, the above results are further supported
+by the 2D t-SNE [ 35] projection of the learned features as
+shown in Fig. 5. BR-net results in a feature space with no
+apparent bias, whereas features derived by other methods
+form a clear correlation with σB. This conﬁrms the unbiased
+representation learned by BR-Net.
+4.2. HIV Diagnosis Based on MRIs
+Neuroimaging studies increasingly rely on machine learn-
+ing models to identify differences in brain images between
+cohorts. Our ﬁrst task aims at classifying HIV patients
+vs. control subjects (CTRL) based on brain MRIs to help un-
+derstanding the impact of HIV on the brain. The study cohort
+includes 223 CTRLs and 122 HIV patients who are seropos-
+itive for the HIV-infection with CD4 count >100cells
+µL(aver-
+age: 303.0). Since the HIV subjects are signiﬁcantly older
+in age than the CTRLs (CTRL: 45±17, HIV:51±8.3,
+p < .001) in this study, normal aging becomes a potential
+task bias; prediction of diagnosis labels may be dependent
+Figure 6: Statistical dependence between the learned features
+and age for the CTRL cohort in the HIV experiment, which
+is quantitatively measured by dcor2.
+on subjects’ age instead of true HIV markers.
+The T1-weighted MRIs are all skull stripped, afﬁnely reg-
+istered to a common template, and resized into a 64×64×64
+volume. For each run of the 5-fold cross-validation, the
+training folds are augmented by random shifting (within
+one-voxel distance), rotation (within one degree) in all 3
+directions, and left-right ﬂipping based on the assumption
+that HIV infection affects the brain bilaterally [ 1]. The
+data augmentation results in a balanced training set of 1024
+CTRLs and 1024 HIVs. As the ﬂipping removes left-right
+orientation, the ConvNet is built on half of the 3D volume
+containing one hemisphere. The representation extractor
+FEhas 4 stacks of 2×2×23D convolution/ReLu/batch-
+normalization/max-pooling layers yielding 4096 interme-
+diate features. Both BPandChave one hidden layer of
+dimension 128 with tanh as the activation function. As
+discussed, the task bias should be handled within individual
+groups rather the whole dataset. Motivated by recent medi-
+cal studies [ 41,1], we perform the adversarial training with
+respect to the protected variable of age only on the CTRLs
+because HIV subjects may exhibit irregular aging. Exten-
+sion analysis of this conditional modeling applied to medical
+applications can be found at [ 60].
+Table 1shows the diagnosis prediction accuracy of BR-
+2518
+Table 1: Classiﬁcation accuracy of HIV diagnosis
+prediction and statistical dependency of learned
+features w.r.t. age. Best result in each column is
+typeset in bold and the second best is underlined.
+Method bAcc F 1AUC dcor2MI
+Vanilla 71.6 0.68 80.8 0.21 0.07
+Multi-task 74.2 0.66 82.5 0.47 1.31
+Sadeghi et al. [43]64.8 0.58 75.2 0.22 0.06
+Zafar et al. [57] 73.2 0.65 80.8 0.15 0.04
+BR-Net (Ours) 74.2 0.74 80.9 0.05 7e-4
+0
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+Iterations
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9Prediction Accuracy5-fold CV classification accuracy Baseline
+Balanced Accuracy
+True Negative Rate
+True Positive Rate
+0
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+Iterations
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9Prediction Accuracy5-fold CV classification accuracy BR-Net
+Balanced Accuracy
+True Negative Rate
+True Positive Rate(a) (b)
+Figure 7: Accuracy, TNR, and TPR of the HIV experiment, as a function
+of the # of iterations for (a) 3D CNN baseline, (b) BR-Net. Our method is
+robust against the imbalanced age distribution between HIV and CTRL.
+Net in comparison with baseline methods. BR-Net results in
+the most accurate prediction in terms of balanced accuracy
+(bAcc) and F1-score, while it also learns the least biased
+features in terms of dcor2and MI. Although prior works
+[55] suggested that improving fairness of the model may
+reduce prediction accuracy due to the “competing equilib-
+rium” between CandBP, our results on this relatively small
+dataset indicate that naive classiﬁers may easily overﬁt to the
+aging (bias) effect and therefore result in lower accuracy in
+HIV classiﬁcation. On the other hand, BR-Net alleviates the
+“competing equilibrium” issue in the task bias by pursuing
+conditional independence (CTRL) between features and age.
+While the multi-task model produces a higher AUC, it is
+also the most biased model as it simultaneously leverages
+both age and HIV cues for prediction. This result is also
+supported by Fig. 6, where the distance correlation for BR-
+Net decreases with the adversarial training and increases
+for Multi-task. The MSE-based adversarial loss [ 43] yields
+unstabledcor2measures potentially due to the ill-posed opti-
+mization of maximizing ℓ2distance. Moreover, minimizing
+the statistical association between the bias and predicted
+labely[57] does not necessarily lead to unbiased features
+(green curve Fig. 6). In addition, we record the true positive
+and true negative rate of BR-net for each training iteration.
+As shown in Fig. 7, the baseline tends to predict most sub-
+jects as CTRLs (high true negative rate). This is potentially
+caused by the CTRL group having a wider age distribution,
+so an age-dependent predictor would bias the prediction to-
+wards CTRL. When controlling for age, BR-Net reliably
+results in balanced true positive and true negative rates.
+4.3. Gender Prediction Using the GS­PPB Dataset
+The last experiment is on gender prediction from face
+images in the Gender Shades Pilot Parliaments Benchmark
+(GS-PPB) dataset [ 10]. This dataset contains 1,253 facial
+images of 561 female and 692 male subjects. The face shade
+is quantiﬁed by the Fitzpatrick six-point labeling system and
+is categorised from type 1 (lighter) to type 6 (darker). This
+quantization was used by dermatologists for skin classiﬁca-tion and determining risk for skin cancer [ 10]. To ensure
+prediction is purely based on facial areas, we ﬁrst perform
+face detection and crop the images [ 21]. To train our models
+on this dataset, we use backbones VGG16 [ 46] and ResNet50
+[24] pre-trained on ImageNet [ 15]. We ﬁne-tune each model
+on GS-PPB dataset to predict the gender of subjects based
+on their face images using fair 5-fold cross-validation. The
+ImageNet dataset for pre-training the models has fewer cases
+of humans with darker faces [ 56], and hence the resulting
+models have an underlying dataset bias to the shade.
+BR-Net counts the variable ‘shade’ as an ordinal and
+categorical protected variable. As discussed earlier, besides
+the baseline models in the HIV experiment, we additionally
+compare with a fair representation learning method, [ 30],
+based on mutual information minimization. Note that this
+method is designed to handle discrete protected variables,
+therefore not applicable in previous experiments. We exclude
+[43] as the adversarial MSE-loss results in large oscillation in
+prediction results. Table 2shows the prediction results across
+ﬁve runs of 5-fold cross-validation and the independence
+metrics derived by training on the entire dataset. Fig. 8plots
+the accuracy for each individual ‘shade’ category. In terms
+of bAcc, BR-Net results in more accurate gender prediction
+than all baseline methods except that it it slightly worse than
+[57] with ResNet50 backbone. However, features learned by
+[57] are more biased towards skin shade. In most cases our
+method produces less biased features than [ 30], a method
+designed to explicitly optimize full statistical independence
+between variables. In practice, removing mean dependency
+by adversarial training is potentially a better surrogate for
+removing statistical dependency between high-dimensional
+features and bias.
+BR-Net produces similar accuracy across all ‘shade’ cate-
+gories. Prediction made by other methods, however, is more
+dependent on the protected variable by showing inconsis-
+tent recognition capabilities for different ‘shade’ categories
+and failing signiﬁcantly on darker faces. This bias is con-
+ﬁrmed by the t-SNE projection of the feature spaces (see
+Fig.9) learned by the baseline methods; they all form clearer
+2519
+Table 2: Average results over ﬁve runs of 5-fold cross-validation (accuracy and statistical independence metrics) on GS-PPB.
+Best results are typeset in bold and second best are underlined.
+VGG16 Backbone ResNet50 Backbone
+Method bAcc (%) F 1(%) AUC (%) dcor2MI EO% bAcc (%) F 1(%) AUC (%) dcor2MI EO%
+Vanilla 94.1 ±0.2 93.5 ±0.3 98.9 ±0.1 0.17 0.40 4.29 90.7 ±0.7 89.8 ±0.7 97.8 ±0.1 0.29 0.60 11.2
+Kim et al. [30]95.8±0.5 95.7±0.5 99.2±0.2 0.32 0.28 4.12 91.4 ±0.9 91.0 ±0.9 96.6 ±0.7 0.18 0.55 3.86
+Zafar et al. [57]94.3±0.4 93.7 ±0.5 99.0 ±0.1 0.19 0.43 4.11 94.2±0.4 93.6 ±0.4 98.7 ±0.1 0.29 0.60 4.68
+Multi-Task 94.0 ±0.3 93.4 ±0.3 98.9 ±0.1 0.28 0.42 4.45 94.0 ±0.3 93.4 ±0.3 98.6±0.3 0.29 0.63 4.15
+BR-Net 96.3±0.6 96.0 ±0.7 99.4 ±0.2 0.12 0.13 2.02 94.1±0.2 93.6±0.2 98.6±0.1 0.23 0.49 2.87
+Figure 8: Accuracy of gender prediction from face images across all shades (1 to 6) of the GS-PPB dataset with two backbones,
+(left) VGG16 and (right) ResNet50. BR-Net consistently results in more accurate predictions in all 6 shade categories.
+Figure 9: Learned representations by different methods. Color encodes the 6 categories of skin shade.
+association with the bias variable than BR-Net. To gain
+more insight, we visualize the saliency maps derived for
+the baseline and BR-Net. For this purpose, we use a simi-
+lar technique as in [ 45] to extract the pixels in the original
+image space highlighting the areas that are discriminative
+for the gender labels. Generating such saliency maps for
+all inputs, we visualize the average map for each individual
+‘shade’ category (Fig. 1). The value on each pixel corre-
+sponds to the attention from the network to that pixel within
+the classiﬁcation process. Compared to the baseline, BR-Net
+focuses more on speciﬁc face regions and results in more
+stable patterns across all ‘shade’ categories.
+5. Conclusion
+Machine learning models are acceding to everyday lives
+from policy making to crucial medical applications. Failureto account for the underlying bias in datasets and tasks can
+lead to spurious associations and erroneous decisions. We
+proposed a method based on adversarial training strategies
+by encouraging vanished correlation to learn features for
+the prediction task while being unbiased to the protected
+variables in the study. We evaluated our bias-resilient neu-
+ral network (BR-Net) on synthetic, medical diagnosis, and
+gender classiﬁcation datasets. In all experiments, BR-Net re-
+sulted in representations that were invariant to the protected
+variable while obtaining comparable (and sometime better)
+classiﬁcation accuracy.
+Acknowledgement. This work was supported in part
+by NIH Grants AA017347, AA010723, MH113406, and
+AA021697, and by Stanford HAI AWS Cloud Credit.
+2520
+References
+[1]Ehsan Adeli, Dongjin Kwon, Qingyu Zhao, Adolf Pfeffer-
+baum, Natalie M Zahr, Edith V Sullivan, and Kilian M Pohl.
+Chained regularization for identifying brain patterns speciﬁc
+to HIV infection. NeuroImage , 183:425–437, 2018.
+[2]Kei Akuzawa, Yusuke Iwasawa, and Yutaka Matsuo. Ad-
+versarial invariant feature learning with accuracy constraint
+for domain generalization. arXiv preprint arXiv:1904.12543 ,
+2019.
+[3]Solon Barocas, Moritz Hardt, and Arvind Narayanan. Fair-
+ness in machine learning. Neural Information Processing
+Systems Tutorial , 2017.
+[4]Solon Barocas and Andrew D Selbst. Big data’s disparate
+impact. Calif. L. Rev. , 104:671, 2016.
+[5]Reuben M Baron and David A Kenny. The moderator–
+mediator variable distinction in social psychological research:
+Conceptual, strategic, and statistical considerations. Journal
+of personality and social psychology , 51(6):1173, 1986.
+[6]Yahav Bechavod and Katrina Ligett. Learning fair classi-
+ﬁers: A regularization-inspired approach. arXiv preprint
+arXiv:1707.00044 , pages 1733–1782, 2017.
+[7]Martin Bertran, Natalia Martinez, Afroditi Papadaki, Qiang
+Qiu, Miguel Rodrigues, Galen Reeves, and Guillermo Sapiro.
+Adversarially learned representations for information obfus-
+cation and inference. In Kamalika Chaudhuri and Ruslan
+Salakhutdinov, editors, Proceedings of the 36th International
+Conference on Machine Learning , volume 97, pages 614–623,
+2019.
+[8]Alex Beutel, Jilin Chen, Zhe Zhao, and Ed H Chi. Data deci-
+sions and theoretical implications when adversarially learning
+fair representations. arXiv preprint arXiv:1707.00075 , 2017.
+[9]Konstantinos Bousmalis, Nathan Silberman, David Dohan,
+Dumitru Erhan, and Dilip Krishnan. Unsupervised pixel-level
+domain adaptation with generative adversarial networks. In
+Proceedings of the IEEE Conference on Computer Vision and
+Pattern Pecognition , pages 3722–3731, 2017.
+[10] Joy Buolamwini and Timnit Gebru. Gender shades: Intersec-
+tional accuracy disparities in commercial gender classiﬁcation.
+InConference on fairness, accountability and transparency ,
+pages 77–91, 2018.
+[11] L Elisa Celis, Amit Deshpande, Tarun Kathuria, and
+Nisheeth K Vishnoi. How to be fair and diverse? arXiv
+preprint arXiv:1610.07183 , 2016.
+[12] Jinwoo Choi, Chen Gao, Joseph CE Messou, and Jia-Bin
+Huang. Why can’t i dance in the mall? learning to miti-
+gate scene bias in action recognition. In Advances in Neural
+Information Processing Systems , pages 851–863, 2019.
+[13] James H Cole, Jonathan Underwood, Matthan WA Caan,
+Davide De Francesco, Rosan A van Zoest, Robert Leech,
+Ferdinand WNM Wit, Peter Portegies, Gert J Geurtsen, Ben A
+Schmand, et al. Increased brain-predicted aging in treated
+HIV disease. Neurology , 88(14):1349–1357, 2017.
+[14] Elliot Creager, David Madras, Joern-Henrik Jacobsen,
+Marissa Weis, Kevin Swersky, Toniann Pitassi, and Richard
+Zemel. Flexibly fair representation learning by disentangle-
+ment. In Kamalika Chaudhuri and Ruslan Salakhutdinov,
+editors, Proceedings of the 36th International Conferenceon Machine Learning , volume 97, pages 1436–1445, Long
+Beach, California, USA, 09–15 Jun 2019. PMLR.
+[15] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li
+Fei-Fei. Imagenet: A large-scale hierarchical image database.
+In2009 IEEE Conference on Computer Vision and Pattern
+Recognition , pages 248–255. Ieee, 2009.
+[16] Beata Dobrowolska, Bernadeta J kedrzejkiewicz, Anna
+Pilewska-Kozak, Danuta Zarzycka, Barbara ´Slusarska, Alina
+Deluga, Aneta Ko ´sciołek, and Alvisa Palese. Age discrim-
+ination in healthcare institutions perceived by seniors and
+students. Nursing ethics , 26(2):443–459, 2019.
+[17] Harrison Edwards and Amos Storkey. Censoring represen-
+tations with an adversary. In International Conference on
+Learning Representations , 2016.
+[18] Margrit Eichler, Anna Lisa Reisman, and Elaine Manace
+Borins. Gender bias in medical research. Women & Therapy ,
+12(4):61–70, 1992.
+[19] Yanai Elazar and Yoav Goldberg. Adversarial removal of
+demographic attributes from text data. In Proceedings of the
+2018 Conference on Empirical Methods in Natural Language
+Processing , pages 11–21, Brussels, Belgium, Oct.-Nov. 2018.
+Association for Computational Linguistics.
+[20] Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal
+Germain, Hugo Larochelle, Fran ccois Laviolette, Mario Marc-
+hand, and Victor Lempitsky. Domain-adversarial training of
+neural networks. The Journal of Machine Learning Research ,
+17(1):2096–2030, 2016.
+[21] Adam Geitgey. Face recognition, https://pypi.org/project/
+face_recognition/ , 2018.
+[22] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing
+Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and
+Yoshua Bengio. Generative adversarial nets. In Advances
+in neural information processing systems , pages 2672–2680,
+2014.
+[23] Tatsunori B Hashimoto, Megha Srivastava, Hongseok
+Namkoong, and Percy Liang. Fairness without demographics
+in repeated loss minimization. In Proceedings of the Interna-
+tional Conference on Machine Learning , 2018.
+[24] K He, X Zhang, S Ren, and J Sun. Deep residual learning for
+image recognition. In IEEE Conference on Computer Vision
+and Pattern Recognition (CVPR) , volume 5, pages 770–778,
+2015.
+[25] Judy Hoffman, Eric Tzeng, Taesung Park, Jun-Yan Zhu,
+Phillip Isola, Kate Saenko, Alexei A Efros, and Trevor Dar-
+rell. Cycada: Cycle-consistent adversarial domain adaptation.
+arXiv preprint arXiv:1711.03213 , 2017.
+[26] Fei Huang and Alexander Yates. Biased representation learn-
+ing for domain adaptation. In Proceedings of the 2012
+Joint Conference on Empirical Methods in Natural Language
+Processing and Computational Natural Language Learning ,
+pages 1313–1323. Association for Computational Linguistics,
+2012.
+[27] Aria Khademi and Vasant Honavar. Algorithmic bias in re-
+cidivism prediction: A causal perspective. Proceedings of
+the AAAI Conference on Artiﬁcial Intelligence , pages 13839–
+13840, Apr. 2020.
+[28] Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alexei A
+Efros, and Antonio Torralba. Undoing the damage of dataset
+2521
+bias. In European Conference on Computer Vision , pages
+158–171. Springer, 2012.
+[29] Dhruv Khullar. A.I. could worsen health disparities. New
+York Times , 2019.
+[30] Byungju Kim, Hyunwoo Kim, Kyungsu Kim, Sungjin Kim,
+and Junmo Kim. Learning not to learn: Training deep neural
+networks with biased data. In Proceedings of the IEEE Con-
+ference on Computer Vision and Pattern Recognition , pages
+9012–9020, 2019.
+[31] Nicol Turner Lee, Paul Resnick, and Genie Barton. Algorith-
+mic bias detection and mitigation: Best practices and policies
+to reduce consumer harms. Center for Technology Innovation,
+Brookings. Tillgänglig online: https://www. brookings.
+edu/research/algorithmic-bias-detection-and-mitigation-
+bestpractices-and-policies-to-reduce-consumer-harms/#
+footnote-7 (2019-10-01) , 2019.
+[32] Yi Li and Nuno Vasconcelos. REPAIR: Removing represen-
+tation bias by dataset resampling. In Proceedings of the IEEE
+Conference on Computer Vision and Pattern Recognition ,
+pages 9572–9581, 2019.
+[33] Lydia T Liu, Sarah Dean, Esther Rolf, Max Simchowitz,
+and Moritz Hardt. Delayed impact of fair machine learning.
+InProceedings of the International Conference on Machine
+Learning , 2018.
+[34] Yongxi Lu, Abhishek Kumar, Shuangfei Zhai, Yu Cheng,
+Tara Javidi, and Rogerio Feris. Fully-adaptive feature sharing
+in multi-task networks with applications in person attribute
+classiﬁcation. In Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition , pages 5334–5343,
+2017.
+[35] Laurens van der Maaten and Geoffrey Hinton. Visualizing
+data using t-SNE. Journal of Machine Learning Research ,
+9:2579–2605, 2008.
+[36] David Madras, Elliot Creager, Toniann Pitassi, and Richard
+Zemel. Learning adversarially fair and transferable represen-
+tations. arXiv preprint arXiv:1802.06309 , 2018.
+[37] Clair Miller. Algorithms and bias. New York Times , 2015.
+[38] Daniel Moyer, Shuyang Gao, Rob Brekelmans, Aram Gal-
+styan, and Greg Ver Steeg. Invariant representations without
+adversarial training. In S. Bengio, H. Wallach, H. Larochelle,
+K. Grauman, N. Cesa-Bianchi, and R. Garnett, editors, Ad-
+vances in Neural Information Processing Systems 31 , pages
+9084–9093. 2018.
+[39] Mohamad Amin Pourhoseingholi, Ahmad Reza Baghestani,
+and Mohsen Vahedi. How to control confounding effects
+by statistical analysis. Gastroenterol Hepatol Bed Bench ,
+5(2):79, 2012.
+[40] Marc’aurelio Ranzato, Fu Jie Huang, Y-Lan Boureau, and
+Yann LeCun. Unsupervised learning of invariant feature hier-
+archies with applications to object recognition. In 2007 IEEE
+conference on computer vision and pattern recognition , pages
+1–8. IEEE, 2007.
+[41] Anil Rao et al. Predictive modelling using neuroimaging data
+in the presence of confounds. NeuroImage , 150:23–49, 2017.
+[42] Proteek Chandan Roy and Vishnu Naresh Boddeti. Mitigating
+information leakage in image representations: A maximum
+entropy approach. CoRR , abs/1904.05514, 2019.[43] Bashir Sadeghi, Runyi Yu, and Vishnu Boddeti. On the global
+optima of kernelized adversarial representation learning. In
+Proceedings of the IEEE International Conference on Com-
+puter Vision , pages 7971–7979, 2019.
+[44] Babak Salimi, Luke Rodriguez, Bill Howe, and Dan Suciu.
+Interventional fairness: Causal database repair for algorithmic
+fairness. In Proceedings of the 2019 International Conference
+on Management of Data , pages 793–810, 2019.
+[45] Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman.
+Deep inside convolutional networks: Visualising image clas-
+siﬁcation models and saliency maps. In International Confer-
+ence on Learning Representations , 2014.
+[46] Karen Simonyan and Andrew Zisserman. Very deep con-
+volutional networks for large-scale image recognition. In
+International Conference on Learning Representations , 2015.
+[47] Jiaming Song, Pratyusha Kalluri, Aditya Grover, Shengjia
+Zhao, and Stefano Ermon. Learning controllable fair represen-
+tations. In Kamalika Chaudhuri and Masashi Sugiyama, edi-
+tors, Proceedings of Machine Learning Research , volume 89,
+pages 2164–2173. PMLR, 2019.
+[48] Jost Tobias Springenberg. Unsupervised and semi-supervised
+learning with categorical generative adversarial networks.
+arXiv preprint arXiv:1511.06390 , 2015.
+[49] Gábor J Székely, Maria L Rizzo, Nail K Bakirov, et al. Mea-
+suring and testing dependence by correlation of distances.
+The annals of statistics , 35(6):2769–2794, 2007.
+[50] Tatiana Tommasi, Novi Patricia, Barbara Caputo, and Tinne
+Tuytelaars. A deeper look at dataset bias. In Domain adapta-
+tion in computer vision applications , pages 37–55. Springer,
+2017.
+[51] Eric Tzeng, Judy Hoffman, Kate Saenko, and Trevor Darrell.
+Adversarial discriminative domain adaptation. In Proceedings
+of the IEEE Conference on Computer Vision and Pattern
+Recognition , pages 7167–7176, 2017.
+[52] Tianlu Wang, Jieyu Zhao, Mark Yatskar, Kai-Wei Chang, and
+Vicente Ordonez. Balanced datasets are not enough: Estimat-
+ing and mitigating gender bias in deep image representations.
+InProceedings of the IEEE International Conference on Com-
+puter Vision , pages 5310–5319, 2019.
+[53] Philippe Weinzaepfel and Grégory Rogez. Mimetics: To-
+wards understanding human actions out of context. arXiv
+preprint arXiv:1912.07249 , 2019.
+[54] Jeffrey M. Wooldridge. Econometric Analysis of Cross Sec-
+tion and Panel Data (2nd ed.) . The MIT Press, London,
+2010.
+[55] Qizhe Xie, Zihang Dai, Yulun Du, Eduard Hovy, and Graham
+Neubig. Controllable invariance through adversarial feature
+learning. In Advances in Neural Information Processing
+Systems , pages 585–596, 2017.
+[56] Kaiyu Yang, Klint Qinami, Li Fei-Fei, Jia Deng, and Olga
+Russakovsky. Towards fairer datasets: Filtering and balancing
+the distribution of the people subtree in the imagenet hierarchy.
+Image-Net , 2019.
+[57] Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez Ro-
+griguez, and Krishna P. Gummadi. Fairness Constraints:
+Mechanisms for Fair Classiﬁcation. In Aarti Singh and Jerry
+2522
+Zhu, editors, Proceedings of the 20th International Confer-
+ence on Artiﬁcial Intelligence and Statistics , volume 54, pages
+962–970. PMLR, 2017.
+[58] Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cyn-
+thia Dwork. Learning fair representations. In International
+Conference on Machine Learning , pages 325–333, 2013.
+[59] Brian Hu Zhang, Blake Lemoine, and Margaret Mitchell.
+Mitigating unwanted biases with adversarial learning. In
+Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics,
+and Society , pages 335–340. ACM, 2018.
+[60] Qingyu Zhao*, Ehsan Adeli*, and Kilian M Pohl. Training
+confounder-free deep learning models for medical applica-
+tions. Nature Communications , 2020 In Press.
+2523

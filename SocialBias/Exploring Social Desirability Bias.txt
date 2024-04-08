@@ -1,0 +1,1150 @@
+Exploring Social
+Desirability Bias
+
+Janne Chung
+Gary S. Monroe
+
+ 
+
+ABSTRACT. This study examines social desirability
+bias in the context of ethical decision-making by
+accountants. It hypothesizes a negative relation
+between social desirability bias and ethical evaluation.
+It also predicts an interaction effect between reli-
+giousness and gender on social desirability bias. An
+experiment using five general business vignettes was
+carried out on 121 accountants (63 males and 58
+females). The results show that social desirability bias
+is higher (lower) when the situation encountered is
+more (less) unethical. The bias has religiousness and
+gender main effects as well as an interaction effect
+between these two independent variables. Women
+who were more religious recorded the highest bias
+scores relative to less religious women and men
+regardless of their religiousness.
+
+KEY WORDS: ethical evaluation, ethical intention,
+gender, idealism, religiousness, social desirability
+bias
+
+ 
+
+Janne Chung holds a Ph.D. from Edith Cowan University,
+Western Australia. She is currently an associate professor
+in accounting at the Schulich School of Business, York
+University, Toronto. Professor Chung’s research inter-
+ests include auditing, ethics, and tax compliance. She
+has published articles in Journal of Business Ethics
+and Behavioral Research in Accounting.
+
+Gary S. Monroe holds a Ph.D. from the University of
+Massachusetts, Amherst. He is currently the Chair of
+Accounting at the School of Business and Information
+Management, Australian National University,
+Canberra. Professor Monroe’s research interests include
+auditing, behavioral accounting, and ethics. He has pub-
+lished articles in Journal of Business Ethics and
+Behavioral Research in Accounting.
+
+Introduction
+
+People have a need to appear more altruistic and
+society-oriented than they actually are, and social
+desirability (SD) is the tendency of individuals to
+deny socially undesirable actions and behaviors
+and to admit to socially desirable ones (Zerbe
+and Paulhus, 1987). SD bias is the tendency of
+individuals to underestimate (overestimate) the
+likelihood they would perform an undesirable
+(desirable) action. For example, individuals gen-
+erally believe they are more ethical compared to
+their peers (e.g., Randall and Fernandes, 1992).
+Until recently, SD bias has received little atten-
+tion from business ethics researchers, but lately
+this bias is receiving more research attention (e.g.,
+Cohen et al., 1998, 2001; Schoderbek and
+Deshpande, 1996; Randall and Fernandes, 1992;
+Paulhus, 1984). Cohen et al. (1998, 2001) and
+Schoderbek and Deshpande (1996) report a
+gender effect on this bias and Randall and
+Fernandes (1992) examine the impact of social
+desirability on self-reported ethical conduct.
+Besides these studies, there is little literature that
+explains the nature and source of this bias in a
+business ethics decision setting. The examination
+of this bias has three important implications for
+researchers, educators, employers and society at
+large. First, our interpretation and understanding
+of research findings that make use of self-reported
+data, especially in the ethics area, may be affected
+by this bias. Second, individuals who believe they
+are more ethical relative to their peers may feel
+no pressure to improve their own ethical
+conduct, and third, these individuals may justify
+their own unethical behavior as being necessary
+to compete on an even keel with their peers
+(Tyson, 1990). These attitudes are untenable in
+
+ 
+
+mA Journal of Business Ethics 44: 291-302, 2003.
+
+hy © 2003 Kluwer Academic Publishers. Printed in the Netherlands.
+292 Janne Chung and Gary S. Monroe
+
+the business environment as it faces serious ques-
+tions about its integrity, especially in the wake of
+recent high profile cases, e.g., Enron’s filing for
+bankruptcy protection in November 2001 raised
+questions of auditor independence and corporate
+greed and mismanagement.
+
+The purposes of this study are three-fold. First,
+we examine whether the size of this bias is
+dependent upon the ethicality of the specific
+dilemma encountered. The discovery of such a
+relationship would help ethics researchers under-
+stand the impact of this bias on the validity of
+their findings. This is especially important when
+almost 90% of business ethics research makes use
+of self-reported data (Randall and Gibson, 1990),
+and evidence of this bias raises questions about
+the validity of sociology and ethics research that
+makes use of such data.
+
+Second, in their book, “Megatrends”, Naisbitt
+and Aburdene (1990) identify the religious revival
+of the new millennium as one of ten megatrends
+that will affect the relationship between busi-
+nesses and their clients. Recognition of the
+importance of this trend is important because it
+has broad social influence on the way business
+is conducted in the new millenium (Weaver
+and Agle, 2002; Singhapakdi et al., 2000a).
+Consequently, interest in the effect of religious-
+ness on business decisions has generated a small
+but growing number of research studies (e.¢.,
+Singhapakdi et al., 2000a, 2000b; Latif, 2000;
+Barnett et al., 1996). Given the importance of
+this trend, this study examines the effect of reli-
+giousness on individuals’ SD bias in an attempt
+to explain its source. Identifying the source of
+SD bias will help ethics researchers explain their
+results more meaningfully as well as control for
+it in future research. In addition, it would also
+help educators and employers design more effec-
+tive ethics training programs.
+
+Third, Cohen et al. (1998, 2001) consistently
+find a gender effect on SD bias among U.S. and
+Canadian business professionals and students, that
+is, women record higher bias scores relative to
+men. Given the small number of studies that
+reported this finding, replications are important
+before generalizations can be made (Lindsay and
+Hubbard, 2001; Bamber et al., 2000: Lindsay,
+1994). Consequently, we replicate and extend
+
+Cohen et al’s (1998, 2001) findings to a group
+of Australians in an attempt to test the robustness
+of their results and whether their results have
+cultural effects.
+
+Theory Development
+Ethical evaluation
+
+SD is the general tendency of individuals to
+present themselves in a manner that makes them
+look positive with regard to culturally accepted
+standards of behavior. For example, when job
+applicants were asked how important salary was
+to their job decision, the respondents said it was
+moderately important (JJurgensen, 1978). They
+then responded that it was the most important
+factor for other job seekers (Jurgensen, 1978).
+This is because accepting a job offer based mainly
+on salary is not considered socially acceptable.
+Cohen et al. (1998, 2001) extended this area of
+inquiry to the field of business ethics; they gave
+their respondents ethical dilemmas and asked
+them if they intended to act in a manner that was
+similar to the actors in the ethical dilemmas and
+how they thought their peers would act. The
+responses followed a pattern that was similar to
+that of Jurgensen’s (1978): the respondents said
+they were less likely to act in an unethical
+manner compared to their peers. Jurgensen’s
+(1978) and Cohen et al’s (1998, 2001) findings
+reflect a tendency of individuals to report as their
+own subjective ranking a socially desirable order
+of preference and to attribute to others an order
+that is less culturally prescribed. The findings of
+Jurgensen (1978) and Cohen et al. (1998, 2001)
+suggest that individuals hold two contradictory
+beliefs — one about themselves and the other
+about their peer(s). The one about themselves is
+more socially acceptable compared to the one
+about their peers. Both beliefs are held simulta-
+neously without them being aware of the con-
+tradiction (Paulhus, 1984).
+
+Due to the sensitive of ethical
+decision-making, SD bias is more critical to its
+own study relative to the study of other disci-
+plines (Schoderbek and Deshpande, 1996). For
+
+example, individuals tend to deny their own
+
+nature
+Exploring Social Desirability Bias 293
+
+undesirable traits and behaviors to a greater
+degree than others’ undesirable traits and
+behavior (Zerbe and Paulhus, 1987; Groves,
+1989). They underestimate their participation in
+such behaviors as alcohol abuse, drug abuse, and
+drunken driving (Groves, 1989). They also over-
+estimate the likelihood that they would perform
+a desirable behavior such as helping the poor and
+giving to charity. Jones’s (1991) moral intensity
+theory proposes that differences in ethical
+decision-making are as much the result of cog-
+nitive and individual differences as they are the
+result of the individual ethical and moral situa-
+tion that confronts the decision-maker. This is
+because each ethical dilemma emits different
+levels of ethicality (ethical evaluation) and deci-
+sions may vary depending on the level of ethi-
+cality conveyed by the dilemma (Jones, 1991).
+Since SD bias is influenced by the desirability
+(undesirability) of the behavior (Zerbe and
+Paulhus, 1987; Groves, 1989), we propose that
+under-claiming will be higher when the behavior
+is more socially unacceptable or undesirable.
+Conversely, under-claiming will be lower when
+the behavior is less socially unacceptable or unde-
+sirable, i.e., there will be a negative relation
+between SD bias and ethical evaluation. The
+following hypothesis tests this proposition in
+an ethics decision-making context by stating
+that:
+
+H1: There is a negative relation between SD
+bias and ethical evaluation.
+
+Religiousness
+
+Religiousness is defined as the strength of an
+individual’s religious beliefs and encompasses
+elements of affect and behavior (Cornwall
+et al., 1986).' Hunt and Vitell (1993) state:
+“Unquestionably, an individual’s personal religion
+influences ethical decision-making. A_ priori,
+compared with nonreligious people, one might
+suspect that the highly religious people would
+have more clearly defined deontological norms
+and that such norms would play a stronger role
+in ethical judgments” (780). Consequently, reli-
+giousness is expected to have a positive effect on
+
+ethical decision-making, i.e., a more religious
+person would have a higher moral standard
+relative to a less religious person. Empirical
+evidence of this is provided by Rallapalli (1994)
+who reports that marketers with higher reli-
+giousness scores tend to have higher ethical
+norms compared to those with low religiousness
+scores. Consistent with this, religious individuals
+are also more idealistic than non-religious indi-
+viduals (Rallapalli, 1994).* Barnett et al. (1996)
+explain it as follows: religiousness’ indirectly
+affects ethical judgments through the ethical
+ideology of relativism. That is religious individ-
+uals hold strong beliefs in universal moral prin-
+ciples — an idealistic world. The relation between
+religious beliefs and the belief in universal stan-
+dards of behavior influences individuals’ ethical
+decision-making so that more religious individ-
+uals are more likely to adopt this idealistic view-
+point than less religious individuals are (Barnett
+et al., 1996). Idealism has a positive effect
+on ethical intentions and more religious indi-
+viduals are more likely to have more ethical
+intentions than less religious individuals are.
+Compared to non-idealists, idealists are conse-
+quently more likely to be affected by the desire
+to create a favorable impression (Schoderbek and
+Deshpande, 1996); such a need would have
+similar effect on more religious individuals who
+are also idealistic. As a result, SD bias would be
+higher for the more religious relative to the less
+religious.
+
+Gender
+
+Gender socialization theory suggests that women
+are conditioned from an early age to reason dif-
+ferently from men concerning moral issues. For
+example, women tend to exhibit greater caring
+than do men and are more likely to be aware of
+and sensitive to ethical issues (Loe and Weeks,
+2000; Bass et al., 1998). Because they tend to rely
+more heavily than men do on deontological
+norms (Loe and Weeks, 2000), women are more
+likely to be concerned for the welfare of others
+(Bass et al., 1998; Barnett et al., 1994, 1996).
+As women are more prone to the influence of
+societal norms and values, they are also more
+294 Janne Chung and Gary S. Monroe
+
+likely than men to let their workplace decisions
+be affected by their emotions, and this influence
+also makes them more conscious of the need to
+create a favorable impression (Schoderbek and
+Deshpande, 1996). This may explain women’s
+higher SD bias as reported by Cohen et al. (1998,
+2001).
+
+Interaction between gender and religiousness
+
+Based on the above discussion, women and the
+more religious are expected to have higher SD
+bias relative to men and the less religious respec-
+tively. Consequently, more religious females are
+expected to have higher SD bias scores compared
+to the other three groups and an interaction
+effect between gender and religiousness on SD
+bias is predicted.
+
+H2: There is a significant interaction effect
+between gender and religiousness on par-
+ticipants’ SD bias scores.
+
+Method
+Vignettes
+
+Five of the eight vignettes used by Cohen et al.
+(1998, 2001) were used in this study. These
+vignettes comprised general business ethics situ-
+ations that are frequently encountered by business
+people. The order of the vignettes was random-
+ized for each participant.* The five vignettes are
+shown in Appendix A.
+
+Experimental design
+
+The experimental materials commenced with a
+general description of the purpose of the exper-
+iment (which was to study decision-making by
+accountants) and provided an assurance of con-
+fidentiality. The participants were then presented
+with the five vignettes. At the end of each
+vignette, they performed three experimental
+tasks. The first task measured ethical evaluation
+
+using the following scale: “The action described
+above is ethical (1) . . . unethical (7).” To capture
+SD bias, the method used by Jurgensen (1978),
+and Cohen et al. (1998, 2001) was used in this
+study. The participants responded to two
+measures of ethical intentions. The first of these
+measured the participants’ own intention: “The
+probability that I would undertake the same
+action is high (1) . . . low (7).” The second
+measure captured the participants’ perception of
+their peers’ intention: “The probability that my
+peers would undertake the same action is high
+(1)... low (7).” The difference between the two
+intention measures is referred to as the SD bias
+score: the larger the positive SD bias score, there-
+fore, represents the higher SD bias. After
+recording their ethical evaluation and intentions
+for the fifth vignette, the participants provided
+some demographic data. Religiousness was
+measured using two items.” The first was “How
+would you rate yourself'in terms of religion? Not
+at all religious (1) . . . Very religious (7),” and
+the second was “How often do you perform
+religious activities? Never (1)... All the time
+(7).” The Cronbach alpha is 0.911. Because of
+the high level of internal consistency, these
+items were totaled to obtain a single religious-
+ness score.
+
+Participants
+
+The participants were 123 (male = 65, female =
+58) accountants attending a national accounting
+training program. There were two incomplete
+responses, and this resulted in 121 (63 males and
+58 females) useable responses. Their average (sd)
+age was 24.30 (3.59) years. Their average (sd)
+general and domain working experience were
+4.39 (3.48) years and 2.65 (1.65) years respec-
+tively. They were paid $20 for completing the
+instrument and their demographic data are shown
+in Table I.
+Exploring Social Desirability Bias 295
+
+TABLE I
+Descriptive data
+
+ 
+
+Male accountants Female accountants
+
+ 
+
+ 
+
+Average (sd) age (years) 24.45 24.29
+(3.43) (4.47)
+Average (sd) general work experience (years) 4.40 4.88
+(3.74) (4.00)
+Average (sd) domain work experience (years) 2.89 2.37
+(2.17) (1.23)
+Average religiousness scores (sd) 5.98 6.88
+(3.11) (3.45)
+First language: (n)
+— English 59 47
+— Asian 1 7
+— European 4
+Results TABLE II
+
+Analysis of H1 — ethical evaluation and SD bias
+
+H1 hypothesizes a negative relation between
+ethical evaluation and SD bias. To test this, we
+first pooled the data from the five vignettes and
+ran a correlation analysis between ethical evalu-
+ation and the SD bias scores. As the ethical
+evaluation measure was anchored by ethical eval-
+uation (1) and unethical evaluation (7), to test
+the negative relation between ethical evaluation
+and SD bias, a positive correlation coefficient is
+expected. The correlation coefficient (7) was
+0.291 (significant at the p < 0.001 level).
+Sensitivity test in the form of multiple regres-
+sion analysis was also carried out with gender,
+age and general and domain working experience
+as control variables. The correlation between
+ethical evaluation and SD bias remained signifi-
+cant at the p < 0.001 level (f = 7.67). Table II
+shows the average ethical evaluation and SD
+bias for the individual vignettes. The appliance
+vignette was evaluated the most unethical and
+received the highest SD bias score whereas the
+bribe vignette was evaluated the least unethical
+
+Ethical evaluation and social desirability bias
+
+ 
+
+ 
+
+Vignettes Ethical Social
+evaluation desirability
+bias score*
+Mean Mean
+(sd) (sd)
+Appliance 5.79 0.80
+(1.34) (1.04)
+Loan 5.17 0.75
+(1.62) (1.33)
+Bad debts 5.05 0.65
+(1.50) (1.13)
+Bonus 4.15 0.64
+(1.72) (1.34)
+Bribe 4.03 0.33
+(1.84) (1.32)
+
+ 
+
+* Social desirability bias score is calculated by
+taking the difference between the respondent’s own
+intentions and his/her perception of his/her peers’
+intentions.
+296 Janne Chung and Gary S. Monroe
+
+and received the lowest SD bias score. These
+results lend further support to H1.
+
+Analysis of H2
+
+H2 predicts an interaction effect between reli-
+giousness and gender on SD bias. To test this, we
+pooled the data from the five vignettes and ran
+an ANOVA with gender and religiousness as the
+independent variables and the SD bias score as
+the dependent variable.° Because we are inter-
+ested in interaction effects, religiousness was
+dichotomized at the mean to obtain two groups
+— more religious and less religious.’ The ANOVA
+results are shown in Table III. There was a
+significant main effect for religiousness (F = 8.82,
+p = 0.003). Less religious participants had an
+overall SD bias mean (standard deviation) of 0.51
+(1.07) and more religious participants had an
+overall SD bias mean (standard deviation) of 0.81
+(1.14). Table III also shows a significant main
+effect for gender (F = 12.46, p = 0.000). Females
+recorded higher SD bias scores (mean = 0.80,
+standard deviation = 1.39) than males did (mean
+= 0.48, standard deviation = 1.18).
+
+As predicted, there was a significant interac-
+tion effect between gender and religiousness (F
+= 5.15, p = 0.024) (Table III). The interaction
+effects for the individual vignettes are shown in
+Figure 1 and the means (standard deviations) are
+shown in Table IV. For all vignettes (apart from
+the appliance vignette), more religious females
+recorded the highest SD bias score compared to
+their counterparts. These results support H2.
+
+An interesting observation of these results is
+that no significant interaction effect between reli-
+giousness and gender was observed for the appli-
+ance vignette (that is, the most unethical
+vignette) (Table IV and panel A, Figure 1). The
+more religious males had the highest SD bias
+scores relative to the other three groups.
+Compared to the other vignettes, the range of
+the scores for this vignette is rather narrow (.73
+to 0.88). It appears that when the action is very
+unethical, respondents, regardless of their level of
+religiousness and their gender, understate their
+intentions relative to their perception of their
+peers’ intentions to a similar degree. For the loan
+and bribe vignettes, there was little or no differ-
+ence between the scores of more religious and
+less religious males, and for the bonus vignette,
+less religious males actually recorded higher bias
+scores than more religious males. It appears that
+the female participants are driving the main reli-
+giousness effect shown in Table III. For four
+vignettes (loan, bad debts, bonus, and bribe),
+women with higher religious scores recorded the
+highest SD bias scores relative to the other three
+groups.
+
+Conclusion
+
+This study examines the effects of ethical evalu-
+ation, religiousness, and gender on SD bias. SD
+bias is the difference between an individual’s own
+intention and his/her perception of his/her peers’
+intention. We find that SD bias is higher when
+an action is judged to be more unethical: an indi-
+
+TABLE III
+ANOVA results with social desirability bias as dependent variable
+
+ 
+
+ 
+
+Source of variation SS df F p
+Main effects:
+
+Religiousness* 13.20 1 8.82 0.003
+
+Gender 18.66 1 12.46 0.000
+‘Two-way interaction effects:
+
+Gender X Religiousness 7.71 1 5.15 0.024
+
+ 
+
+* The religiousness score was dichotomized at the mean to obtain two groups — less religious and more
+
+religious.
+Exploring Social Desirability Bias 297
+
+Panel A— Appliance
+
+—?*— Less religious —®— More religious
+
+ 
+
+Males Females
+
+Panel B- Loan
+
+—¢@— Less religious —®— More religious
+
+ 
+
+Males Females
+
+Panel C — Bad debts
+
+1.4
+12
+
+4
+0.8
+0.6
+04
+0.2
+
+0
+
+—?— Less religious
+
+“— More religious
+
+ 
+
+Males Females
+
+Panel D— Bonus
+
+—¢#— Less religious
+—S— More religious
+
+ 
+
+Males Females
+
+Panel E — Bribe
+
+0.8
+
+0.6
+
+—?— Less religious.
+
+an -s— More religious
+
+0.2
+
+ 
+
+0
+
+Males Females
+
+Figure 1. The relationship between gender and religiousness on SD response bias.
+298 Janne Chung and Gary S. Monroe
+
+ 
+
+ 
+
+ 
+
+TABLE IV
+Means (standard deviations) of the interaction effect between religiousness and gender on social desirability bias
+scores
+Vignettes Religiousness Gender
+Male accountants Female accountants
+Appliance Less religious 0.73 0.82
+(1.02) (0.92)
+(n = 37) (n = 33)
+More religious 0.88 0.80
+(1.07) (1.22)
+(n = 26) (n = 25)
+Loan Less religious 0.46 0.82
+(1.24) (1.10)
+More religious 0.46 1.36
+(1.27) (1.63)
+Bad debts Less religious 0.35 0.52
+(0.89) (0.83)
+More religious 0.65 1.28
+(1.09) (1.57)
+Bonus Less religious 0.49 0.42
+(1.07) (1.00)
+More religious 0.38 1.44
+(1.33) (1.80)
+Bribe Less religious 0.22 0.30
+(1.42) (0.98)
+More religious 0.23 0.64
+(1.37) (1.52)
+
+ 
+
+vidual understates his/her own intention more
+when presented with more unethical actions
+(compared to less unethical actions). SD bias is
+lower when an action is perceived to be less
+unethical. There is a positive relation between
+religiousness and SD bias: individuals with high
+religiousness scores recorded higher bias scores
+compared to individuals with low religiousness
+scores. Additionally, women recorded higher SD
+bias scores relative to men and more religious
+women’s SD bias scores were higher relative to
+their counterparts.
+
+The first purpose of this study is to examine
+
+whether the size of SD bias is dependent upon
+the ethicality of the dilemma encountered and
+the results suggest this to be the case. If supported
+by future research, this result could be helpful
+to ethics researchers in determining the nature
+of the effect of SD on the validity of their
+self-reported data. It suggests that when ethical
+dilemmas are used, the researcher should obtain
+a measure of the ethicality of these dilemmas
+used, such as through pre-testing. Once this is
+known, the researcher could take steps to reduce
+the impact of SD bias on his/her data. These
+steps could involve providing an assurance of
+Exploring Social Desirability Bias 299
+
+confidentiality in the research materials, and
+requesting that respondents not identify them-
+selves on the research materials. Researchers
+should probably not include any identifying
+marks on the research materials and communi-
+cate the absence of such marks to the respon-
+dents. Additionally, the result suggests that some
+measure of SD bias should be used. This could
+take the form used by Jurgensen (1978), Cohen
+et al. (1998, 2001), and the present study. The
+Crowne-Marlow (1960) scale could also be used
+to determine the extent of the effect of SD bias
+on the variables of interest.
+
+The second purpose of this study examines
+religiousness and SD bias and finds that reli-
+giousness covaries with individuals’ tendency to
+understate their intentions to perform socially
+undesirable acts. Individuals who are more reli-
+gious tend to understate their intentions more
+than less religious individuals do. If supported
+by future research, this result suggests to ethics
+researchers concerned with the effect of SD bias
+on their research data that there may be a need
+to control for religiousness effects. This, however,
+is not a straightforward process as religion
+researchers do not agree on what comprises reli-
+giousness, and the literature makes use of several
+religiousness scales. The ethics researcher would
+have to exercise his/her judgment in determining
+what scale or combination of scales to use in
+his/her particular situation.
+
+The third purpose of this study examines the
+relation between gender and SD bias. Cohen et
+al. (1998, 2001) find a higher female (relative to
+males) SD bias in both Canadian and U.S. par-
+ticipants. This study reports a higher female bias
+among Australian accountants. The results of
+these three studies suggest that this observation
+is robust and may transcend cultural boundaries.
+Additional analysis revealed no significant inter-
+action effect between gender and religiousness
+on ethical evaluation. This indicates that more
+religious females do not make more ethical
+evaluations relative to the other three groups.
+These results have implications for educators
+and employers as individuals with higher SD
+bias scores may be less responsive to ethics
+training than those with low scores and may
+view ethically questionable behavior to be
+
+widely practiced by their peers and their partic-
+ipation in such activities is justified. Awareness
+of this may help educators and employers
+design more effective ethics training programs
+aimed at encouraging more internal reflection
+and ethical sensitivity among students and
+employees.
+
+The generalizability of the results of this study
+is affected by two limitations. The first is the
+items we used to measure religiousness. The
+results reported in this study could be a function
+of the specific measures used in this study.
+Further research using other measures of reli-
+giousness would have to be carried out before
+generalizing from the results of this study.
+Second, the generalizability of the results of this
+study may also be affected by other variables
+such as religious affiliation, political persuasion,
+age, tenure and type of work experience, and
+language group.® It is unclear what effect, if any,
+these variables will have on the results of this
+study, but they represent interesting future exten-
+sions to the present study. All participants in the
+study had completed an undergraduate degree,
+consequently we were unable to test for educa-
+tion levels effect. Future research could examine
+SD bias using participants with a wider range of
+education levels.
+
+Schoderbek and Deshpande (1996) classify SD
+bias into two dimensions: impression manage-
+ment and self-deception. Impression management
+is a result of a conscious effort of lying and faking
+to create a favorable impression. Self-deception,
+however, is an unconscious tendency to see
+oneself more favorably compared to one’s peers.
+Due to the nature of this study, we are unable
+to isolate the individual effect of these two
+dimensions. However, they present interesting
+extensions to the present study that could be
+investigated by future research.
+
+Acknowledgement
+
+Funding for this study was provided by the
+School of Accounting, Edith Cowan University.
+300 Janne Chung and Gary S. Monroe
+
+Appendix A. Ethical vignettes
+
+Appliance
+
+A salesperson has just been promoted to product
+manager. The salesperson’s first responsibility is
+for a new, highly successful small kitchen appli-
+ance. This person will be paid in part based on
+sales of this product. On reviewing information
+about the new product, the salesperson discovers
+that there has been insufficient product testing to
+meet new Commonwealth product safety guide-
+lines. However, all testing so far indicated no
+likelihood of any safety problem.
+
+Action: The salesperson authorises the sales
+force to continue to promote and sell the
+product.
+
+Loan
+
+A promising new company applies for a loan at
+a bank. The Credit Manager at the bank is a
+friend of and frequently goes golfing with the
+company’s owner. Because of this new company’s
+short credit history, it does not meet the bank’s
+normal lending criteria.
+
+Action: The Credit Manager recommends
+extending the loan.
+
+Bad debts
+
+The CEO of a company requests that the finan-
+cial controller reduce the estimate for bad debts
+in order to increase reported income, arguing
+that this is a common practice in the industry
+when times are hard. Historically, the company
+has made very conservative allowances for
+doubtful accounts, even in bad years. The CEO’s
+request would make it one of the least conserv-
+ative in the industry.
+
+Action: The financial controller makes the
+adjustment.
+
+Bonus
+
+A sales manager realizes that the projected quar-
+terly sales figures will not be met, and thus the
+manager will not receive a bonus. However, there
+is a customer order which if shipped before the
+customer needs it, will ensure that the manager
+receives the quarterly bonus but will have no
+effect on the annual sales figures.
+
+Action: The sales manager ships the order this
+quarter to ensure that the quarterly sales bonus
+is earned.
+
+Bribe
+
+An Australian manager of a company eager to do
+more business abroad has been requested to make
+an undisclosed cash payment to a manager of a
+local distributor in a foreign country. The
+payment is requested as a “goodwill gesture” that
+will allow the Australian company to introduce
+its product in that foreign country. This practice
+is considered a normal business procedure in that
+country and no laws prohibit such a payment
+there.
+
+Action: The Australian manager verbally autho-
+rises the payment.
+
+Notes
+
+' Religiousness has been operationalized in
+
+various ways such as religious typology (Glock and
+Stark, 1965), religious orthodoxy (Fullerton and
+Hunsberger, 1982), and religious fundamentalism
+(Kellstedt and Smidt, 1991). McDaniel and Burnett
+(1990) defined it as the extent of individuals’ cogni-
+tive commitment to general religious beliefs.
+Religiousness is often described as having several
+facets: cognition involving religious knowledge and
+beliefs, affect which describes an individual’s emo-
+tional feelings towards his or her religion, and
+behavior that reflects the depth of these cognitive and
+emotional involvement with his/her religion
+(Cornwall et al., 1986). (See Weaver and Agle (2002)
+and Barnett et al. (1996) for a discussion on the
+different aspects of religiousness.) For the purposes
+of this study, religiousness is defined the strength of
+an individual’s religious beliefs and encompasses
+elements of affect and behavior (Cornwall et al.,
+1986). Religious affect and behavior normally go
+hand in hand as a person with deep emotional com-
+mitment to his/her religion is more likely to behave
+according to its dictates such as praying, giving of
+alms, fasting, and attending corporate worship.
+
+° The results of Rallapalli’s (1994) study is subject to
+the same caveat as ethical judgment being similarly
+based on self-reported data and may be affected by
+SD bias as well.
+
+* Barnett et al. (1996) use the term “religiosity”.
+Exploring Social Desirability Bias 301
+
+‘ There were no significant order effects on the
+dependent variables.
+
+° We did not use the existing instruments to measure
+religiousness because they were developed in a Judeo-
+Christian context and comprised scale-items like
+belief in God and church attendance. In Australia, a
+multi-faith society, such questions would not be
+relevant because some religions (e.g., Buddhism and
+Taoism) do not believe in a unitarian God and do not
+practice corporate worship. Instead religious obser-
+vance is incorporated into daily life such as absten-
+tion from meat on holy days. Singhapakdi et al. (2000)
+used the Wilkes et al. (1986) religiousness scale in
+Thailand (a predominantly Buddhist society) and
+concluded that scales developed in the U.S. may not
+adequately capture the religiousness of non-Judeo-
+Christian believers Consequently, we refrained from
+using these scales. Instead we measured religiousness
+with two items that are more reflective of Australian
+society.
+
+Even though the effect of individual religions on
+ethical decision-making is an interesting area of study,
+it is beyond the scope of this paper. Additionally, this
+study is only interested in the general influence of
+religiousness on social desirability response bias.
+
+° The assumption of homogeneity of variance was
+not violated.
+
+” Sensitivity tests were carried out by partitioning the
+sample at the median and results were similar to those
+shown in Table III.
+
+* ANCOVA analyses show that SD bias does not have
+general and domain work experience, language, and
+age effects. This may be because the participants came
+from a homogeneous group of accountants. They
+overwhelmingly spoke English as a first language, their
+average age was 24.3 years with a standard deviation
+of 3.6 years, and they had limited work experience.
+
+References
+
+Bamber, L., T. E. Christensen and K. M. Gaver:
+2000, ‘Do We Really ‘Know’ What We Think
+We Know? A Case Study of Seminal Research and
+its Subsequent Overgeneralization’, Accounting,
+Organizations and Society 25(2), 103-130.
+
+Barnett, T., K. Bass, G. Brown and FE. J. Herbert:
+1998, ‘Ethical Ideology and the Ethical Judgments
+of Marketing Professionals’, Journal of Business Ethics
+17, 715-723.
+
+Barnett, T., K. Bass and G. Brown: 1996, ‘Religiosity,
+Ethical Ideology, and Intentions to Report a
+
+Peer’s Wrongdoing’, Journal of Business Ethics 15,
+1161-1174.
+
+Barnett, T., K. Bass and G. Brown: 1994, ‘Ethical
+Ideology and Ethical Judgment Regarding Ethical
+Issues in Business’, Journal of Business Ethics 13,
+469-480.
+
+Bass, K., T. Barnett and G. Brown: 1998. ‘The Moral
+Philosophy of Sales Managers and its Influence on
+Ethical Decision Making’, Journal of Personal Selling
+& Sales Management 18(2), 1-17.
+
+Cohen, J. F, L. W. Pant and D. J. Sharp: 2001, “An
+Examination of Differences in Ethical Decision-
+Making Between Canadian Business Students and
+Accounting Professionals’, Journal of Business Ethics
+30(4), 319-336.
+
+Cohen, J. F, L. W. Pant and D. J. Sharp: 1998, “The
+Effect of Gender and Academic Discipline
+Diversity on the Ethical Evaluations, Ethical
+Intentions and Ethical Orientation of Potential
+Public Accounting Recruits’, Accounting Horizons
+13 (September), 250-270.
+
+Cornwall, M., S. L. Albrecht, B. H. Cunningham
+and B. L. Pitcher: 1986, “The Dimensions of
+Religiosity: A Conceptual Model with an
+Empirical Test’, Review of Religious Research 27(3),
+226-243.
+
+Crowne, D. and D. Marlow: 1960, ‘A New Scale of
+Social Desirability’, Journal of Consulting Psychology
+24, 349-354.
+
+Fullerton, J. J. and B. Hunsberger: 1982, ‘A
+Unidimensional Measure of Christian Orthodoxy’,
+Journal for the Scientific Study of Religion 21,
+317-326.
+
+Glock, C. Y. and R. Stark: 1965, Religion and Society
+in Tension (Ran NecNally, Chicago).
+
+Groves, R. M.: 1989, Survey Errors and Survey Costs
+(Wiley, New York).
+
+Hair, J. FE Jr., R. E. Anderson, R. L. Tatham and W.
+C. Black: 1995, Multivariate Data Analysis with
+Readings, 4th edition (Prentice Hall, Englewood
+Clifts, New Jersey).
+
+Hunt, S. D. and S. Vitell: 1993, “The General Theory
+of Marketing Ethics: A Retrospective and
+Revision’, in N. C. Smith and J. A. Quelch
+(eds.), Ethics in Marketing (Irwin Inc., Homewood,
+IL).
+
+Jones, T. M.: 1991, ‘Ethical Decision Making by
+Individuals in Organizations: An Issue-Contingent
+Model’, Academy of Management Review 16,
+366-395.
+
+Jurgensen, C. E.: 1978, ‘Job Preferences (What Makes
+a Job Good or Bad?)’, Journal of Applied Psychology
+63, 267-276.
+302 Janne Chung and Gary S. Monroe
+
+Kellstedt, L. and C. Smidt: 1991, ‘Measuring
+Fundamentalism: An Analysis of Different
+Operational Strategies’, Journal for the Scientific Study
+of Religion 30, 259-278.
+
+Latif, D. A.: 2000, “The Link Between Moral
+Reasoning Scores, Social Desirability, and Patient
+Care Performance Scores: Empirical Evidence from
+the Retail Pharmacy Setting’, Journal of Business
+Ethics 25, 255-267.
+
+Lindsay R. M. and R. Hubbard: 2001, ‘From
+Significant Difference to Significant Sameness:
+Establishing a Methodological Tradition of Actively
+Seeking Empirical Generalizations in the Design
+of Studies (With an Application to the RAPM
+Area in Management Accounting)’, An unpub-
+lished manuscript, University of Saskatchewan.
+
+Loe, T. W. and W. A. Weeks: 2000, ‘An Experimental
+Investigation of Efforts to Improve Sales Students’
+Moral Reasoning’, Journal of Personal Selling & Sales
+Management 20(4), 243-251.
+
+McDaniel, S. W. and J. J. Burnett: 1990, ‘Consumer
+Religiosity and Retail Store Evaluative Criteria’,
+Journal of the Academy of Marketing Science 18(2),
+101-112.
+
+Naisbitt, J. and P. Aburdene: 1990, Megatrends 2000:
+The New Directions for the 1990s (Morrow, New
+York).
+
+Paulhus, D. L.: 1984, “Iwo-Component Models of
+Socially Desirable Responding’, Journal of
+Personality and Social Psychology 46, 598-609.
+
+Randall, D. M. and M. FE Fernandes: 1992, ‘Social
+Desirability Bias in Ethics Research’, Business Ethics
+Quarterly 2(2), 183-205.
+
+Randall, D. M. and A. M. Gibson: 1990,
+“Methodology in Business Ethics Research: A
+Review and Critical Assessment’, Journal of Business
+Ethics 9(6), 457-472.
+
+Rallapalli, K. C.: 1994, ‘Marketers’ norms: An empir-
+ical investigation of the influence of personal and
+situational factors on marketers’ deontological
+norms’. Unpublished Doctoral Dissertation
+(University of Mississippi, Oxford, MS).
+
+Schoderbek, P. P and S. P. Deshpande: 1996,
+‘Impression Management, Overclaiming, and
+
+Perceived Unethical Conduct: The Role of Male
+and Female Managers’, Journal of Business Ethics 15,
+409-414.
+
+Singhapakdi, A., J. K. Marta, K. C. Rallapalli and C.
+P. Rao: 2000a, “Toward an Understanding of
+Religiousness and Marketing Ethics: An Empirical
+Study’, Journal of Business Ethics 27, 305-319.
+
+Singhapakdi, A., S. Salyachivin, B. Virakul and V.
+Veerayangkur: 2000b. “Some Important Factors
+Underlying Ethical Decision Making of Managers
+in Thailand’, Journal of Business Ethics 27, 271-284.
+
+Tyson, T.: 1990, ‘Believing that Everyone Else is
+Less Ethical: Implications for Work Behavior and
+Ethics Instruction’, Journal of Business Ethics 9,
+715-721.
+
+Weaver, G. R. and B. R. Agle: 2002. Religiosity and
+Ethical Behavior in Organizations: A Symbolic
+Interactionist Perspective’, Academy of Management
+Review 27(1), 77-97.
+
+Wilkes, R. E., J. J. Burnett and R. D. Howell: 1986,
+“On the Meaning and Measurement of Religiosity
+in Consumer Research’, Journal of the Academy of
+Marketing Science 14 (Spring), 47-56.
+
+Zerbe, W. J. and D. L. Paulhus: 1987, ‘Socially
+Desirable Responding in Organizational Behavior:
+A Reconception’, Academy of Management Journal
+12 (2), 250-264.
+
+Janne Chung
+
+Schulich School of Business,
+
+York University,
+
+4700 Keele St,
+
+Toronto ON M3] 1P3,
+
+Canada
+
+E-mail: jchung@schulich. yorku.ca
+
+Gary S Monroe
+
+School of Business and Information Management,
+Australian National University,
+
+Canberra ACT 0200,
+
+Australia
+
+E-mail: gary.monroe@anu.edu.au
+

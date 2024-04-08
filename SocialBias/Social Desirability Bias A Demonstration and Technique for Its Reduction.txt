@@ -1,0 +1,376 @@
+ 
+
+Social Desirability Bias: A Demonstration and
+
+Technique for Its Reduction
+
+Randall A. Gordon
+
+Western Carolina University
+
+A demonstration of social desirability bias in survey research suit-
+able for moderate to large class sizes is described. The method
+used to reduce subjects’ response bias involved a manipulation of
+instructions on a questionnaire. The standard instruction format
+requested subjects to respond to three questions on dental hygiene
+behavior and not to sign their names on the questionnaires. The
+modified instructions included additional information regarding
+the anonymity of the subjects’ responses, the need for accurate in-
+formation, and the role of the subject as a contributor of valuable
+information. The results from the demonstration are reported
+and topics for classroom discussion are suggested.
+
+The problems of overreporting socially desirable behav-
+iors and underreporting socially undesirable behaviors
+have received wide attention in surveys of research litera-
+ture (Cahalan, 1968; Hyman, 1944; Parry & Crossley,
+1950). Many techniques have been developed to reduce this
+type of response bias on questionnaires, most of which in-
+volve modifying the manner in which the questions are
+asked (Sudman & Bradburn, 1982). Some techniques have
+involved reducing the degree to which the question is
+viewed as threatening by the respondent. For example, the
+overstatement of socially desirable behavior has been re-
+duced by beginning a question with “Did you happen to
+
+. .” and by asking about behavior during a circumscribed
+time period as opposed to beginning the question with “Do
+you ever. . .?” (Bradburn & Sudman, 1979),
+
+While pilot-testing a questionnaire to assess attitudes and
+behaviors regarding oral hygiene among college students, it
+became evident that the reported frequencies of behaviors
+such as dental checkups and toothbrushing were higher
+than the average for the general population (U.S. National
+Center for Health Statistics, 1974, 1979). These differences
+may have been partially due to increased awareness of the
+importance of dental hygiene, but they were large enough
+to suggest that some overreporting might have taken place.
+To examine the possibility that subjects were overreporting
+their frequency of dental hygiene behavior, a technique was
+devised that focused on highlighting the role of the re-
+spondent as a contributor of important information.
+
+Before the questionnaire was administered, subjects were
+verbally given additional information concerning the pur-
+pose of the questions and the importance of honesty and ac-
+curacy in their self-reports. The confidentiality and ano-
+nymity of their responses were also emphasized, along with
+the important contribution that their responses would pro-
+vide. Subjects who received these modified instructions re-
+
+40
+
+ported substantially lower rates of dental checkups and
+other dental health care behavior than previous subjects
+who had only been informed of the anonymity of their
+responses.
+
+The effect of the instructional manipulation led to the de-
+velopment of a simple classroom demonstration of social
+desirability bias in survey research. The demonstration re-
+veals the effect of instructional sets on questionnaire re-
+sponses and leads to discussion of possible reasons for
+underreporting and overreporting on questionnaires, in ad-
+dition to other related issues in survey research (e.g., acqui-
+escent response style and representativeness in sampling).
+The following is a description of a systematic assessment of
+the effect of such an appeal on reducing social desirability
+bias.
+
+Methad
+
+Two forms of the questionnaire were developed; they
+were identical, except for the instructions. Both forms had
+the title “Dental Hygiene Behaviors” at the top, and the
+standard format included the following instructions:
+
+Over the last several years, psychologists have started to
+work in conjunction with dentists in order to help improve
+this area of health care. We would appreciate your an-
+swering the following questions regarding dental hygiene
+behaviors. Please do not write your name on this sheet.
+Thank you for your participation.
+
+The modified instructions read as follows:
+
+Over the last several years, psychologists have started to
+work in conjunction with dentists in order to help improve
+this area of health care. One of the most important tasks in
+this area of research (behavioral dentistry) is to collect accu-
+rate information on the frequency of various dental hygiene
+behaviors. Therefore, we would appreciate your answering
+the following questions as honestly and accurately as possible.
+Please do not write your name on this sheet. We are not in-
+terested in individual responses, just the behaviors of people
+in general. Thank you for your participation.
+
+Both forms of the questionnaire requested the respond-
+ent’s age and sex and answers to the following questions:
+
+1. Do you have regular dental checkups? If so, how
+often and why? If not, why not?
+
+2. How often do you brush your teeth? Why?
+
+3. Do you floss your teeth? If so, how often and why?
+If not, why not?
+
+Teaching of Psychology
+
+ 
+Forty-eight students (24 men and 24 women) enrolled in
+undergraduate courses in social psychology were randomly
+assigned to receive either the standard or modified form of
+the questionnaire. Students were given 15 min to complete
+the questionnaires. The forms were then returned face-
+down to the instructor. The purpose of the demonstration
+and a summary of the results were presented to students
+during the following class meeting.
+
+Results
+
+Given the directional nature of the experimental hypoth-
+esis (that the modified instructions on the questionnaire
+would reduce the frequency of reported behaviors), all sta-
+tistical tests were one-tailed. An assessment of the three ma-
+jor items revealed significant differences between the groups
+in the predicted direction.
+
+Responses to the item “Do you have regular checkups?”
+were coded in the following manner: no = 0 and yes = 1.A
+significantly greater percentage of subjects who received the
+standard format responded affirmatively to this question
+(96%) than subjects who received the modified instructions
+(71%), (46) = 2.41, p < .01. Subjects who received the
+standard instructions also reported brushing their teeth
+more times a day (M = 2.63) than did the group that re-
+ceived the modified instructions (M = 2.19), 0(46) = 1.92, p
+< .03.
+
+A difference approaching significance was found between
+the groups on the item that asked subjects if they floss their
+teeth. Responses were coded in the same manner used for
+the checkup question. The results revealed a trend in the
+predicted direction. Subjects who received the standard for-
+mat answered affirmatively more often (79%) than subjects
+who received the modified format (58%), t(46) = 1.56, p <
+06.
+
+The results suggest that having regular dental checkups
+and brushing regularly may be considered to be more so-
+cially desirable behaviors than flossing one’s teeth. Given
+the much smaller segment of the population that flosses reg-
+ularly, subjects may have felt less pressure to overstate the
+frequency of this behavior. It should be noted that the ma-
+jority of responses to the follow-up portion of the flossing
+question (“If not, why not?”) produced responses that indi-
+cated a lack of knowledge regarding the purpose of flossing,
+the benefits, and the amount of time that it takes.
+
+The degree to which random assignment produced ex-
+perimental equivalence was partially assessed by examining
+the avérage age and sex ratios of respondents in the two
+groups. Random assignment produced groups with iden-
+tical sex ratios (12 men and 12 women in each group) and
+relatively similar average ages: M (standard format) = 21.33
+years and M (modified format) = 21.58 years.
+
+Although the modified instructions significantly reduced
+the tendency to overreport socially desirable behavior, it is
+possible that these instructions did not alleviate the prob-
+lem entirely. A comparison of the mean number of tooth-
+brushings per day by the modified instruction group in this
+study (M = 2.19) and the mean response to this question
+from a national health survey (M = 1.60) revealed a rela-
+tively large difference (U.S. National Center for Health Sta-
+tistics, 1974). As previously suggested, this finding may rep-
+
+Vol. 14, No. 1, February 1987
+
+resent a real difference between the frequency of tooth-
+brushing in the general population and among college
+students.
+
+Discussion
+
+To prepare material for lecture and discussion, addi-
+tional information on the prevalence of social desirability
+bias and procedures that have been used to reduce it can be
+found in Sudman and Bradburn (1982). This book devoted
+a chapter to the problem of social desirability and described
+techniques for its reduction. A more recent review is pro-
+vided by Nederhof (1985). This review was written from a
+self-presentational perspective that regards social desirabil-
+ity as the result of self- and other-deception. The article ex-
+amined the relevant research literature and described seven
+methods that have been used to prevent or reduce social de-
+sirability bias.
+
+The problem of social desirability remains as a source of
+error in much survey research, and this type of demonstra-
+tion alerts students to this potential problem. To lead into a
+discussion of the results, students should first be told that
+there were two forms of the questionnaire that varied only
+in the content of the instructions. Some students may al-
+ready be aware of this through discussion with classmates.
+Hypotheses regarding the purpose of the modified instruc-
+tions should now be discussed. Students who participated
+in the demonstration were surprised to find out that the
+modified instructions could create the observed differences
+between groups.
+
+After revealing the extent to which experimental equiva-
+lence has been attained, a discussion of possible reasons for
+the observed effect of the modified instructions can be con-
+ducted. This discussion might focus on whether students
+believe that social desirability bias on questionnaires is due
+to a desire to appear “good” to others or to oneself.
+
+As Cahalan (1968) suggested, in a reevaluation of a major
+survey that examined social desirability, subjects may
+overreport socially desirable behaviors in order to protect
+their self-image. If a desire to appear good in one’s own eyes
+is the cause of overreporting, then appearing socially desira-
+ble to others may be of little concern; a focus on anonymity
+may have a minimal effect on reducing such bias. It is possi-
+ble that the manipulation used in the demonstration re-
+duced the overreporting of behavior by focusing students
+on the contribution they were making to others (e.g,, the
+scientific community), thereby reducing the need to appear
+“good” to themselves. It is clear that a variety of approaches
+must be used collectively in order to reduce this response
+bias to tolerable levels.
+
+The use of dental hygiene behavior as the topic of the
+questionnaire was due to a personal interest in this form of
+behavior. The demonstration could easily be modified to
+focus on other forms of socially desirable behavior such as
+weating seat belts or the amount of time spent studying.
+This type of demonstration could also be used in a variety of
+courses. [t would be appropriate for classes in tests and
+measurement, research methodology, and other courses
+that focus on attitude measurement and survey research.
+
+To summarize, the results support the hypothesis that
+more accurate responses can be obtained by stressing the
+
+41
+following: the importance of the information being pro-
+vided by subjects, the importance of honest and accurate
+self-reports, and the anonymity of subjects’ responses. As a
+classroom demonstration, the exercise can be used to illu-
+strate a potential source of bias in survey research. It may
+also be used to demonstrate the technique of random as-
+signment and the relative degree of experimental equiva-
+lence that it provides.
+
+References
+
+Bradburn, N. M., & Sudman, S. (1979). Improving interview
+method and questionnaire design: Response effects to threatening
+questions in survey research. San Francisco, CA: Jossey-Bass.
+
+Cahalan, D. (1968). Correlates of response accuracy in the Denver
+validity study. Public Opinion Quarterly, 32, 607-621.
+
+Hyman, H. H. (1944). Do they tell the truth? Public Opinion Quar-
+terly, 8, 557-559.
+
+Nederhof, A. J. (1985). Methods of coping with social desirability
+bias: A review. European Journal of Social Psychology, 15,
+263-280,
+
+Parry, H.J., & Crossley, H. M. (1950). Validity of responses to sur-
+vey questions. Public Opinion Quarterly, 14, 61-80
+
+Sudman, S., & Bradburn, N. M. (1982). Asking questions. San
+Francisco, CA: Jossey-Bass.
+
+U.S. National Center for Health Statistics. (1974). Diet and dental
+health, a study of relationships: United States, 1971-1974 (Data
+from the National Health Survey, Series 11, No. 225), Wash-
+ington, DC: Government Printing Office.
+
+U.S. National Center for Health Statistics. (1979). Dental visits
+volume and interval since last visit: United States, 1978-1979
+(Data from the National Health Survey, Series 10, No. 138).
+Washington, DC: Government Printing Office.
+
+Notes
+
+1. [thank two anonymous reviewers for their helpful comments
+and suggestions on an earlier version of this article.
+
+2. Requests for reprints should be sent to Randall A. Gordon, De-
+partment of Psychology, Western Carolina University,
+Cullowhee, NC 28723.
+
+ 
+
+Using Structured Group Workshops to Teach Group
+
+Process
+
+Marilyn Eichler
+
+Eastern Connecticut State University
+
+A course in group process for master’s level students in a Clin-
+ical/Community Psychology Program is described. When group
+methods courses are taught using the lecture/seminar method,
+they often fail to engage students on an emotional level. Alter-
+natively, a totally experiential format (e.g., students as group
+therapy participants and the instructor as leader/therapist), fails
+to provide an adequate information base. This course offers stu-
+dents the opportunity to experience group process directly through
+developing, leading, and participating in structured group work-
+shops in class.
+
+Forty years ago, group therapeutic methods were rarely
+used; now they are provided for clients in most community
+mental health agencies, clinics, and counseling centers
+(Shapiro, 1978). Because master’s level students employed
+in various agencies are often expected to lead or co-lead
+groups, they should have an understanding of the various
+theories and methods of group therapy as well as some di-
+tect group experience (Berman, 1975; Yalom, 1975). Gener-
+ally, a one-semester course in group process is a master’s-
+level requirement.
+
+To provide information about group counseling theories
+and procedures, the traditional lecture/seminar method is
+often used. However, the didactic method alone is viewed
+
+42
+
+as failing to engage students on an emotional level (Fidler,
+1973; Yalom, 1975). Providing a completely experiential ap-
+proach with the students participating as group members
+and the instructor as leader/therapist is an alternative also
+used (Halgin, 1982; Yalom, 1975). Yet, many theorists ar-
+gue that direct participation must be combined with cogni-
+tive evaluation to assure the most effective integration of
+group leadership skills (Corey, 1981; Yalom, 1975).
+Recognizing the need to respond to both the cognitive and
+emotional aspects of the learning process, I developed a
+course using structured groups for experience-based skill ac-
+quisition combined with a broad survey of therapy meth-
+ods, Unfortunately, in our setting there is no possibility for
+observing a live group in action and no opportunity to prac-
+tice directly with clients. I was faced with the problem of
+how to implement these goals with limited resources and
+within the restricted time of a 16-week semester.
+
+Our graduate classes typically meet once a week for 3-hr
+with an enrollment of 12 to 14 students. These students are
+enrolled in an MS in Clinical/Community Psychology Pro-
+gram. We offer a 36 credit terminal degree serving primarily
+part-time students employed during the day in various local
+human service agencies. Some students plan to continue
+their education; most will remain employed at the master’s
+
+Teaching of Psychology
+
+ 
+

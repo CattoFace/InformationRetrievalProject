@@ -1,0 +1,1902 @@
+Mitigating Bias in Set Selection with Noisy Protected Attributes
+Anay Mehrotra
+Yale UniversityL. Elisa Celis
+Yale University
+February 23, 2021
+Abstract
+Subset selection algorithms are ubiquitous in AI-driven applications, including, online recruiting
+portals and image search engines, so it is imperative that these tools are not discriminatory on the basis
+of protected attributes such as gender or race. Currently, fair subset selection algorithms assume that the
+protected attributes are known as part of the dataset. However, protected attributes may be noisy due
+to errors during data collection or if they are imputed (as is often the case in real-world settings). While
+a wide body of work addresses the eect of noise on the performance of machine learning algorithms, its
+eect on fairness remains largely unexamined. We nd that in the presence of noisy protected attributes,
+in attempting to increase fairness without considering noise, one can, in fact, decrease the fairness of the
+result!
+Towards addressing this, we consider an existing noise model in which there is probabilistic informa-
+tion about the protected attributes (e.g., [58, 34, 20, 46]), and ask is fair selection possible under noisy
+conditions? We formulate a \denoised" selection problem which functions for a large class of fairness
+metrics; given the desired fairness goal, the solution to the denoised problem violates the goal by at
+most a small multiplicative amount with high probability. Although this denoised problem turns out
+to be NP-hard, we give a linear-programming based approximation algorithm for it. We evaluate this
+approach on both synthetic and real-world datasets. Our empirical results show that this approach can
+produce subsets which signicantly improve the fairness metrics despite the presence of noisy protected
+attributes, and, compared to prior noise-oblivious approaches, has better Pareto-tradeos between utility
+and fairness.
+1arXiv:2011.04219v2  [cs.CY]  22 Feb 2021Contents
+1 Introduction 3
+1.1 Our contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.2 Related work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2 Model 5
+2.1 Selection problem and noise model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2.2 Target problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2.3 Denoised problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+2.4 Group-level noise model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+3 Theoretical results 7
+3.1 Proof overview and hardness results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+4 Empirical results 10
+4.1 Setup and metrics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+4.2 Synthetic data with disparate error-rates . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+4.3 Synthetic data with disparate utilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.4 Real-world data for candidate selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4.5 Real-world data for image search . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4.6 Additional empirical results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5 Proofs 18
+5.1 Proof of Theorem 3.1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+5.2 Hardness results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+6 Theoretical results with multiple protected attributes 24
+7 Limitations and future work 27
+8 Conclusion 27
+A Extended empirical results 32
+21 Introduction
+The subset selection problem arises in various contexts including online job portals (where an algorithm
+shortlists candidates to show to the recruiter), university admissions (where a panel admits a subset of
+students), and online search (where the platform selects a subset of the results in response to a user query)
+[27, 48, 50, 66]. The basic problem is as follows: There are mitems , and each item i2[m] has a utility wi0,
+i.e., the value it adds to the subset. The goal is to select a subset of nmitems which has the largest
+total utility. Given the pervasiveness of subset selection tasks, it is crucial to ensure that subset selection
+algorithms do not propagate social biases. Consequently, there has been extensive work on developing fair
+algorithms for selection (and for the related problem of ranking); see [27, 12] for an overview. Many of these
+approaches ensure that the number of individuals selected from dierent socially salient groups (e.g., those
+dened by gender or race) satisfy some fairness constraints and/or improve along a given fairness metric.
+Towards this, these algorithms assume (exact) access to the corresponding protected attributes of individuals.
+However, in practice, these attributes can be erroneous, unavailable for some individuals, or missing
+entirely [26, 52, 64]. For instance, in healthcare, patients' ethnic information can be incorrectly recorded [64]
+or left blank [26].1When this data is missing, probabilistic methods based on other proxy information are
+used to \impute" these protected attributes [23, 32, 29, 28]. For instance, when assessing if lenders comply
+with fair lending policies, the Consumer Financial Protection Bureau uses last name and geolocation to
+impute consumers' race [8]. Similar approaches have also been used in the context of healthcare [33, 51].
+Additionally, online job platforms (such as, LinkedIn) use a user's data to infer their demographic information
+based on the data they have on other users [56]. Furthermore, in some cases, such as with images on the
+internet, protected attributes are missing for the entire datasets (and labeling all images is not viable).
+Inferring protected attributes is bound to have errors, which can aect the groups dierently [7]. Thus,
+using imputed attributes as a black-box in subsequent fair algorithms, without accounting for their noise,
+can have an unexpected (and adverse) impact on the fairness achieved. For instance, [54, 14] observe that
+(noise oblivious) fair algorithms do not satisfy their fairness guarantee in the presence of noise.
+To gain some intuition, consider the setting where we are given a set of candidates and would like to
+ensure proportional representation across individuals with dierent skin-tones, coded as White and non-
+White. Assume that the utilities of all candidates have a similar distribution, and so picking candidates with
+topnutilities proportionately represents them. Further, assume that the labels have a higher amount of
+noise for non-Whites than Whites.2One can show that, any \fair algorithm" which assumes that these noisy
+labels are correct, and selects a proportionate number of White and non-White candidates based on them,
+would violate proportional representation. In this case, adding fairness constraints increased the disparity.
+This leads us to the question addressed in this paper:
+Can we develop a framework for selection which outputs an approximately fair subset despite noisy
+protected attributes?
+1.1 Our contributions
+Building on prior work on fairness constraints [16, 66], we develop a framework for fair selection in the
+presence of noisy protected attributes. This framework allows for multiple and intersectional groups, and,
+given access to (unbiased3) probabilistic information about the true protected attributes, it can satisfy a
+large class of fairness constraints (including, demographic parity, proportional representation, and the 80%
+rule) with high probability.
+Formally, we would like to solve an ideal optimization problem (Program Target) which satises the
+fairness constraints for the true (and unknown) protected attributes. Such problems have been studied by
+prior works, e.g., [73, 65, 66]. However, since we do not have the true protected attributes, we cannot solve
+it directly using their approaches. Instead, we formulate a \denoised" problem (Program Denoised); such
+that, an optimal solution of Program Denoised has the optimal utility for Program Target and violates
+1Recently, this received public attention when attempting to estimate the racial disparities in COVID19 infections showed
+large discrepancies [5].
+2For instance, as observed in commercial image-based gender classiers [7].
+3Here, unbiased refers to the statistical notion of an unbiased estimator.
+3the fairness constraints of Program Target by at most a small multiplicative factor with high probability
+(Lemma 3.3). Although Program Denoised turns out to be NP-hard (Theorem 3.5), we develop a linear-
+programming based approximation algorithm for it. This, in turn, implies an approximation algorithm for
+Program Target.
+We empirically study the fairness achieved by this approach with respect to standard fairness metrics
+(e.g., risk dierence) on both synthetic and real-world datasets. We also study the performance of existing
+fair algorithms in the presence of noise and benchmark our approach with them. We observe that our
+approach achieves the highest fairness and has a Pareto-optimal tradeo between utility and fairness (on
+changing the strength of constraints). Interestingly, these observations also hold in our empirical results
+where, unlike what our theoretical results assume, we have skewed probabilistic information of the noisy
+attributes. Finally, our empirical results hint at potential applications of this approach, e.g., in online
+recruiting portals and image search engines.
+1.2 Related work
+Mitigating bias. An extensive body of work strives to mitigate bias and improve diversity in subset
+selection and the closely related ranking problem. We refer the reader to [27] for a comprehensive overview
+of work on diverse selection, and an excellent talk [12] which discusses work on curtailing bias in rankings.
+Closest to our setting, are approaches which use protected attributes to impose fairness constraints on
+algorithms for selection [48, 66] and ranking [73, 18, 65, 35, 70]. However, if the attributes are noisy, these
+could even increase the bias.
+A dierent approach is to learn \unbiased utilities" by either using a causal model to capture the relation
+between attributes and utilities [53, 71] or by casting it as a multi-objective unconstrained optimization
+problem [72, 74]. The former approach explicitly uses the protected attributes to generate counterfactuals , so,
+it can lead to unfair outcomes in the presence of noise (also see Section 4.3). And the latter approach can lead
+to sub-optimal fairness if noisy data is not accounted for, as shown by works on fair classication [54, 4, 14].
+In [37], it is empirically shown that when protected attributes are missing, proxy attributes can be used
+to improve fairness in classication. However, they do not consider how necessary noise resulting from the
+proxy attributes aects the fairness or accuracy.
+Mitigating bias with noise. Works on curtailing bias with noisy information are relatively recent. Closest
+to this paper are those which consider noise in the protected attributes. In [4], conditions on the noise under
+which the popular post-processing method for fair classication by [41] reduces bias in terms of equalized odds
+are characterized. However, they only consider noise in the training samples and assume that the test samples
+are not noisy, which often doesn't hold in practice. In [54], an in-processing approach to fair classication is
+suggested; they show that applying tighter fairness constraints in existing fair classication frameworks can
+mitigate bias in terms of equalized odds and statistical parity with binary protected attributes. However,
+this approach does not extend to nonbinary protected attributes and to other denitions of fairness. In [14],
+an in-processing approach for fair classication which can mitigate bias with nonbinary and noisy protected
+attributes is developed. However, they assume that the noise only depends on the (unknown) underlying
+protected attributes, whereas, we also allow the noise to vary with nonprotected attributes and utility.
+Furthermore, [54, 4, 14] mitigate bias in classication tasks, and it is not clear how to extend these methods
+to subset selection.
+In [20, 46], methods to reliably assess disparity in the setting where the protected attributes are entirely
+missing are proposed. We consider a similar noise model as the one they propose; however, the problem is
+fundamentally dierent as their goal is assessment rather than mitigation.
+Noise models in literature. Several works in the machine learning literature consider noise in the pre-
+dicted labels as opposed to in attributes, protected or otherwise [3, 58, 34, 57]. In this paper, we consider a
+noise model that arises from this line of work, but applied to the protected attributes rather than the label.
+42 Model
+For a natural number n2Nby [n] we denote the set f1;2;:::;ng, and for a real number x2Rby exp(x)
+we denoteex. We use I[] to denote the indicator function, o(1) to denote O(1=n), andU(a;b) to denote the
+uniform distribution on interval [ a;b]. Given a natural number p2N, pdenotes the standard p-simplex.
+2.1 Selection problem and noise model
+Selection problem. In the classical selection problem, one is given mitems , where each item i2[m]
+has a utility wi0. An item's utility is the value it adds to the selection. The goal is to nd a subset of
+nitems which has the most total value. It is convenient to encode a subset with a binary selection vector
+x2f0;1gm. Then, the classical selection problem is
+maxx2f0;1gmXm
+i=1wixis:t:;Xm
+i=1xi=n: (1)
+Protected attributes. We consider s2Nprotected attributes (such as, gender or race), where for k2[s],
+thek-th protected attribute can take pk2Nvalues (such as, dierent genders or races). Let Xbe the domain
+of all other nonprotected attributes. Fix a joint distribution over D:=R0[p1] [ps]X:Then,
+each itemi2[m] is represented by the tuple
+(wi;z(1)
+i;:::;z(s)
+i;ai)2R0[p1] [ps]X;
+and is drawn independently from this joint distribution. We observe the utility wiand nonprotected at-
+tributesai, but do notobserve the protected attributes ( z(1)
+i;:::;z(s)
+i). Instead, we observe a noisy version
+(bz(1)
+i;:::;bz(s)
+i) of them (for each i2[m]).
+For each attribute-value pair k2[s] and`2[pk], there is a ( unknown ) groupG(k)
+`[m]: items whose
+k-th attribute has value `:
+G(k)
+`:=n
+i2[m]:z(k)
+i=`o
+:
+For example, if the k-th protected attribute is race, then for dierent values of `2[pk],G(k)
+`is the subset
+candidates whose race is `. However, we only have noisy information about the protected attributes of each
+item; so, only noisy information of this subset.
+Intersectional groups. In the above model, each protected attribute takes a unique value. It may appear
+that this does not allow for intersectional groups, e.g., say multiracial candidates. But this is only a matter
+of encoding, and is remedied by using attributes such as ` has-raceA? ' and ` has-raceB? ', which take Yesor
+Novalues.
+Denition 2.1 (Noise). For each item i2[m]andk2[s], we have a probability vector q(k)
+i2pk,
+such that, the k-th protected attribute of item itakes value `2[pk]with probability q(k)
+i`conditioned on
+(wi;bz(1)
+i;:::;bz(s)
+i;ai):
+q(k)
+i`:= Prh
+i2G(k)
+`j(wi;bz(1)
+i;:::;bz(s)
+i;ai)i
+: (2)
+The event that (i2G(k)
+`)is independent of all other items j2[m]nfigand all other attributes in [s]nfkg.
+Note that for all i2[m]andk2[s],P
+`2[pk]q(k)
+i`= 1.
+Discussion of the noise model. The above model says that given the utility ( wi), noisy protected
+attributes (bz(1)
+i;:::;bz(s)
+i), and nonprotected attributes ( ai) of an item i, there is probabilistic information
+about its protected attributes. If items represent candidates for a job and the protected attribute is race,
+then we can use the candidate's last name (encoded in ai) to derive probabilistic information about their
+race. This has been used in practice, e.g., by [28]. We can also consider multiple nonprotected attributes
+such as both last-name and location, e.g., as used by [32, 29]. As discussed in Section 1, this could be relevant
+for an online hiring platform, which may not have demographic information of some or all of its users [56],
+and image search engines where the images do not have gender labels.
+52.2 Target problem
+Studies have found that, in the absence of other constraints, the selection problem (1), can overrepresent
+individuals with certain protected attributes at the expense of others [47, 25]. Towards mitigating this bias,
+we consider lower bounds and upper bounds on the number of items of a given protected attribute selected.
+Formally, the constraints ensure that for each attribute-value pair k2[s] and`2[pk], the selection has
+at leastL(k)
+`0 and at most U(k)
+`0 items from G(k)
+`. Then, a selection x2f0;1gmsatises the (target)
+fairness constraints if: for all k2[s] and`2[pk]
+L(k)
+`X
+i2G(k)
+`xiU(k)
+`: (Fairness constraints; 3)
+Constraints similar to Equation (3) have been studied by several works in algorithmic fairness [21, 18, 22],
+and are rich enough to encapsulate a variety of fairness and diversity metrics (e.g., see [13]). Thus, for the
+appropriate LandU, the subset satisfying constraints (3) would be fair for one from a large class of fairness
+metrics.
+Overall, our constrained subset selection problem is:
+max
+x2f0;1gmXm
+i=1wixi (Target)
+s:t: L(k)
+`X
+i2G(k)
+`xiU(k)
+`;8k2[s]; `2[pk]; (4)
+Xm
+i=1xi=n: (5)
+If we know the protected attributes, and in turn G(k)
+`(for eachk2[s] and`2[pk]), then we can hope
+to solve Program Target directly. Indeed, prior works consider similar problems in rankings [18], or its
+generalization, to multiple Matroids constraints [22]. However, with only noisy information about protected
+attributes, we can not even verify if a selection vector xis feasible for Program Target. To overcome this,
+we must go beyond exact algorithms which always satisfy fairness constraints.
+2.3 Denoised problem
+The diculty in solving Program Target is that we do not know the constraints (as we do not know G(k)
+`).
+We propose to solve a dierent problem, Program Denoised, which uses the noise estimates qto approximate
+the constraints of Program Target. For some small 2(0;1), we dene the denoised program as the
+following
+max
+x2f0;1gmXm
+i=1wixi (Denoised)
+s:t: L(k)
+` nXm
+i=1q(k)
+i`xiU(k)
+`+n;8k2[s];`2[pk]; (6)
+Xm
+i=1xi=n: (7)
+Here,Pm
+i=1q(k)
+i`xiis the expected number of items selected by xwhosek-th protected attribute is `. Then,
+intuitively, we can see Program Denoised that satises the constraints of Program Target in expectation,
+where the expectation is taken over the noise.
+However, just satisfying constraints in expectation is not sucient. For instance, this would allow algo-
+rithms that, in each use, violate the fairness constraints by a large amount, but \average out" their errors
+in aggregate. Instead, our goal is to nd an algorithm which violates the constraints by at most a small
+amount, almost always. Before presenting our theoretical results, we discuss an alternate noise model and
+why it is not suitable in our setting.
+62.4 Group-level noise model
+Recent works on noisy fair classication [54, 4, 14] consider a dierent noise model, which adapted to our
+setting, uses the following probabilities
+qi`:= Pr[i2G`j(bz(1)
+i;:::;bz(s)
+i)]:
+Notice that unlike Denition 2.1, qi`does not condition on the utility wior nonprotected attributes ai.
+Thus, its estimates are the same for all items with the same set of noisy protected attributes. We call this
+thegroup-level noise model (GLN). In the next example, we discuss why GLNis not sucient to mitigate bias
+in subset selection.
+Toy example. Consider a setting where there is one protected attribute which takes two values (i.e.,
+s= 1 andp1= 2), and the relevant fairness metric is equal representation. Let the two groups (unknown)
+beA;B[m], and their observed noisy versions be bAandbB.4
+According to q, each candidate i2bBhas the same probability of being in A. In this noise model, these
+candidates are indistinguishable apart from their utilities, so, if one picks nb2Ncandidates from bB, they
+would naturally be the ones with the highest utility. However, suppose that most individuals in Ahave a
+higher utility than most individuals in B.5In this case, the probabilities qwill be \distorted" by the utilities,
+such that, candidates with higher utility in bBare more likely to be in Athan those with lower utility in
+bB. In fact, if mis much larger than n, then most of the top nbcandidates in bBwould, in fact, be from A.
+This example can be extended to more realistic settings, with more than two groups and a smaller amount
+of \bias" in the utilities. Even then, to overcome this distortion in probabilities, one needs to consider a
+stronger noise model, in which the noise estimate varies with utility (as in Denition 2.1); either implicitly
+through proxy nonprotected attributes ( ai) or explicitly with utility ( wi).
+Remark 2.2. In Sections 3 and 4, for the sake of simplicity, we only consider the setting with one protected
+attribute (s= 1) which takes p1values. We obtain analogous results for the the general case in Section 6.
+Whens= 1, we letp:=p1and drop superscripts (representing the protected attribute) from all variables.
+3 Theoretical results
+Our main algorithmic result is an ecient approximation algorithm for Program Target.
+Theorem 3.1 (An approximation algorithm for Program Target). There is an algorithm (Algo-
+rithm 1) that given an instance of Program Target for s= 1 and noiseqfrom Denition 2.1, outputs a
+selectionx2f0;1gm, such that, with probability at least 1 4pexp 
+ 2n=3
+over the noise in the protected
+attributes of each item, the selection x
+1. has a value at least as high as the optimal value of Program Target,
+2. violates the cardinality constraint (5)by at most p(additive), and
+3. violates the fairness constraints (4)by at most (p+ 2n)(additive).
+The algorithm runs in polynomial time in the bit complexity of input.
+As desired, the algorithm outputs subset which violates the constraints of Program Target by at most a
+small amount, with high probability.
+Note that the approximation is only in the constraints and not in the value: with high probability, xhas
+an higher value than the optimal solution, say x?, of Program Target, i.e.,
+Xm
+i=1xiwiXm
+i=1x?
+iwi:
+4Formally,A=fi:z(1)
+i= 1g,B=fi:z(1)
+i= 2g,bA=fi:bz(1)
+i= 1gandbB=fi:bz(1)
+i= 2g.
+5Such an bias in utilities is one reason why we need fairness constraints in the rst place [50, 17, 30].
+7In most real-world contexts pis a small constant. Here, Theorem 3.1 implies that xviolates the fairness
+constraints (Equation (4)) by a multiplicative factor of at most (1+2 +o(1)) and the constraint Equation (5)
+by a multiplicative factor of at most (1+ o(1)) with high probability.6Ifpis large, then x(from Theorem 3.1)
+can violate the constraints by a large amount. However, in this case it is NP-hard to even check if there is
+a solution to Program Denoised which violates the constraints by a constant additive factor (let alone nds
+an optimal solution for Program Target); see Theorem 3.5.
+Algorithm 1 crucially uses the Program Denoised: it rst solves the linear-programming relaxation of
+Program Denoised, and then, \rounds" this solution to integral coordinates. In the next section, we overview
+the proof of Theorem 3.1. We defer the proof of Theorem 3.1 to Section 5.1 due to space constraints.
+Remark 3.2. We can strengthen Theorem 3.1 to guarantee that Algorithm 1 nds an x2f0;1gmwhich does
+not violate the lower bound fairness constraint (left inequality in Equation (4)) and violates the upper bound
+fairness constraints by at most (p+ 2n)(without changing other conditions). In particular, this shows that,
+if one places only lower bound fairness constraints, then subset found by Algorithm 1 would never violate the
+fairness constraints.
+Algorithm 1: Algorithm for Program Target
+Input: A numbern2N, probability matrix q2[0;1]mp, utility vector w2Rm, constraint vectors
+L;U2Rp
+0.
+1.Solvex Find a basic feasible solution to linear-programming relaxation
+. of Program Denoised with inputs ( n;q;w;L;U ).
+2.Setx0
+i:=dxiefor alli2[m].//Round solution
+3.Returnx0.
+3.1 Proof overview and hardness results
+In this section, we overview the proof of Theorem 3.1. The complete proof and an extension of Theorem 3.1
+for multiple protected attributes (i.e., s1) appear in Sections 5 and 6.
+The proof of Theorem 3.1 has two broad steps: First, we show that solving Program Denoised (even
+approximately) gives us a \good" solution to Program Target, and then we develop an approximation
+algorithm along with matching hardness results for Program Denoised. To prove the former, we bound the
+dierence between the true and the expected number of candidates from any one group G`.
+Lemma 3.3. For all2(0;1)andx2[0;1]m, s.t.,Pm
+i=1xi=n:
+8`2[p],X
+i2G`xi X
+i2[m]qi`xin
+holds with probability at least 1 2pexp 
+ 2n=3
+over the noise in the protected attributes of each item.
+The proof of this lemma appears in Section 5.1.1.
+Using Lemma 3.3, we can show that any solution that violates the constraints of Program Denoised
+by a small amount, with high probability, also violates the constraints of Program Target by at most a
+small amount. Let x?be an optimal selection for Program Target. Using Lemma 3.3, we can show that
+x?is feasible for Program Denoised with high probability. It follows any solution xwhich is optimal for
+Program Denoised has value at least as large as x?, i.e.,
+Xm
+i=1xiwiXm
+i=1x?
+iwi:
+These suce to show that, solving Program Denoised gives a \good" solution for Program Target|which
+satises the claims in the Theorem 3.1.
+It remains to solve Program Denoised. Unfortunately, even checking if Program Denoised is feasible is
+NP-hard; see Theorem 3.5 (a constant-factor approximation (in utility) to Program Denoised is also NP-
+hard). We overcome this hardness by allowing solutions to violate the constraints of Program Denoised by a
+6UsingL`;U`n; if not, we can set L`to min(L`;n) andU`to min(U`;n).
+8small additive amount ( p). Towards this, consider the linear-programming relaxation of Program Denoised
+(fors= 1). We show that any basic feasible solution (BFS) of LP-Denoised has a small number of fractional
+entries (Lemma 3.4).
+maxx2[0;1]mXm
+i=1wixi (LP-Denoised for s= 1)
+s:t:8`2[p]; L` nXm
+i=1qi`xiU`+n; (8)
+Xm
+i=1xi=n: (9)
+Lemma 3.4 (An optimal solution with pfractional entries). Any basic feasible solution x2[0;1]m
+of LP-Denoised has at most min(m;p)fractional values, i.e.,Pm
+i=1I[xi2(0;1)]min(m;p).
+The proof follows by specializing well-known properties of BFSs to LP-Denoised. We remark that this result
+is tight; see Fact 5.1.
+Proof sketch of Theorem 3.1. Using Lemma 3.3, we can show that x?is feasible for Program Denoised
+with probability at least 1  2pexp 
+ 2n=3
+. Assume that this event happens. Then, x?is also feasible for
+LP-Denoised. Consider the basic feasible solution xto LP-Denoised from Step 1 of Algorithm 1. Since xis
+optimal for LP-Denoised, it follows that xhas a value at least as large as x?, i.e.,
+Xm
+i=1xiwiXm
+i=1x?
+iwi:
+Further, since w0, the rounded solution x0from Step 2 of Algorithm 1 only increases the utility of x.
+Thus,Xm
+i=1x0
+iwiXm
+i=1x?
+iwi:
+This establishes the rst claim in Theorem 3.1.
+It follows from Lemma 3.4 that x0picks at most pmore elements than x. Thus,x0violates Equation (7), so
+Equation (5) by at most p. By the same argument, x0violates the fairness constraints of Program Denoised
+by at most p(additive). Combining this with Lemma 3.3, we can show that, with probability at least
+1 2pexp 
+ 2n=3
+,x0violates the fairness constraints of Program Target by at most 2 n+p(additive). This
+establishes the last two claims in Theorem 3.1 (conditioning on the two events described above).
+The run time follows since there are polynomial time algorithms to nd a basic feasible solution of a
+linear program. Finally, taking a union bound over over the two events completes the proof.
+3.1.1 Hardness results
+Lastly, we present our hardness results; their proofs appear in Section 5.2.
+Theorem 3.5 (Hardness results|Informal). Consider variants of Program Denoised for values of p.
+1. Ifp2, then deciding if the problem is feasible is NP-hard.
+2. Ifp3, then the problem is APX -hard.
+3. Ifp= poly(m)ands >1, then for every constant c >0, the following violation gap variant of Pro-
+gram Denoised is NP-hard.
+•Output YES if the input instance is satisable.
+•Output NO if there is no solution which violates every upper bound constraint at most an additive
+factor ofc.
+94 Empirical results?
+We evaluate our approach on utilities and noise derived from both synthetic and real-world data. We consider
+the following algorithms:
+Baseline.
+-Blind : As a baseline, we consider the Blind algorithm which selects ncandidates with the highest utility.
+Note that Blind has the optimal unconstrained utility.
+Noise aware.
+-FairExpec is our proposed approach (see Theorem 3.1).
+-FairExpecGrp is the same as FairExpec but uses the probabilities qi`:= Pr[i2G`jbzi] from the group-
+level noise model (Section 2.4).
+Noise oblivious.
+Impute protected attributes Bayes-optimally from q2[0;1]mpas:
+8i2[m]; `2[p]; q0
+i`:=(
+1 if`2argmaxj2[p]qij;
+0 otherwise :(10)
+If argmaxjqijis not unique, pick one at random. Then, we consider the following noise oblivious algorithms
+which take the imputed protected attributes q0as input:
+-Thrsh solves Program Target dened on q0. This is equivalent to the ranking algorithms of [18, 65]
+adapted to subset selection.
+-MultObj is a multi-objective optimization algorithm inspired by [72]'s approach for ranking. Let t2p
+be the target distribution of protected attributes in the selection. For example, if the target is equal
+representation, then t:= (1=p;:::; 1=p)2Rp. Given a constant >0,MultObj solves7
+max
+x2[0;1]n:P
+ixi=nw>x DKL(q0)>x
+n;t
+w>1m
+m;
+where 1m2Rmis the all one vector. The rst term w>xis the value of x, (x=n) is the distribution of
+noisy protected attributes in x, and entire second term is a penalty on xfor being far from the target
+distribution t.8
+4.1 Setup and metrics
+4.1.1 Setup
+We consider one protected attribute ( s= 1) which takes pdisjoint values (we use p= 2 andp= 4). Our
+simulations either target equal-representation, where t= (1=p;:::; 1=p)2Rp, or proportional representation,
+wheret= (jG1j=m;:::;jGpj=m).
+In each simulation, we do the following
+•FairExpec ,FairExpecGrp , and Thrsh : SetL`= 0 andU`=n(1 ) +nt`, and varyfrom 0 to 1. Notice
+that= 0 enforces no constraints on the subset, the constraints become tighter as increases, and = 1
+ensures the subset chooses exactly n=t`candidates from the `-th group.
+?The code for the simulations is available at https://github.com/AnayMehrotra/Noisy-Fair-Subset-Selection .
+7Given two vectors x;y2p,DKL(x;y) denotes the Kullback{Leibler divergence of xandydened as DKL(x;y):=Pp
+i=1xilog(xi=yi)
+8We scale the second term by the average utilityPm
+i=1wi=m. This is not necessary, but ensures that does not (heavily)
+depend on the scale of the utility.
+10•MultObj : Varyfrom 0 to a large value. Here, = 0 enforces no penalty on the objective, the penalty
+increases as increases, and =1forces MultObj to satisfy the target distribution exactly (on the noisy
+attributes).
+Let (r;r) be ther-th choice of and. For each ( r;r), we draw a set Mofmindividuals or items
+from the dataset. For each element i2M, we haveqi2pandwi2R. We give the details of drawing M
+and xingqi;wiwith each simulation.
+4.1.2 Fairness metric
+Given subset S2[m] and target t2[0;1]p, let the risk dierenceF(S;t)2[0;1] ofSfor targettbe
+F(S;t):= 1 min
+`2[p]t`max
+`;k2[p]jS\G`j
+nt` jS\Gkj
+ntk
+: (11)
+Here, a risk dierence 1 is the most fair and 0 is the least fair. When the target is proportional representation,
+F(S;t) reduces to the usual denition of risk dierence (up to scaling).9LetA(w;q)[m] be the subset
+selected by algorithm Aon input (w;q). We report
+FA:=E[F(A(w;q);t)];
+where the expectation is over the choices of ( w;q).
+4.1.3 Utility metric
+LetUAto be the average utility obtained by A:
+UA:=EX
+i2A(w;q)wi
+;
+where the expectation is over the choices of ( w;q). We report the utility ratio KA2[0;1] for dierent
+algorithmsA, dened as
+KA:=UA
+UBlind: (Utility ratio)
+When the algorithm A, is not important or clear from context, we drop the subscripts from FAandKA.
+4.2 Synthetic data with disparate error-rates
+In this simulation, we consider the setting where dierent groups have dierent noise levels. This has been
+observed in practice, for instance, in commercial image-based gender classiers [7].
+4.2.1 Data
+We generate a synthetic dataset with one binary protected attribute ( p= 2). This attribute partitions
+the (underlying) population into a minority group (40%) and a majority group (60%). We assume that
+candidates in both groups have similar potentials, so, sample utilities of all candidates (independently) from
+U(0;1). Next, we sample the probabilities qifrom a Gaussian mixture, such that, the resulting population has
+40% minority candidates (in expectation), and the imputed attributes q0have a higher false discovery rate
+(FDR) for minority candidates ( 40%) compared to majority candidates ( 10%).10Formally, we sample qi
+as follows:
+qi07
+11N(0:6;0:05) +4
+11N(0:05;0:05) and qi1:= 1 qi0;
+whereN(;) is the truncated normal distribution on [0 ;1] with mean and standard deviation .
+9Some works also dene risk dierence as a measure of unfairness [11, 63], and set it equal to 1  F(S;t) witht= (1=p;:::; 1=p)
+(up to scaling).
+10The dierence of 30% in FDRs is comparable to 34% dierence in FDRs between dark-skinned females and light-skinned
+men observed by [7] for a commercial classier.
+110.0 0.2 0.4 0.6 0.8 1.0
+0.50.60.70.80.91.0Fairness achieved ()
+0 500 1000 1500 2000 2500
+Toy experiment | (m,n)=(500,100) | iter=500 | fmetric=r_diff
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair)(?)
+?this work
+Figure 1: Synthetic data with disparate error-rate (Section 4.2): This simulation considers the setting where the
+minority group (40% of total) has a higher 30% higher FDR compared to the majority group. The utilities of all
+candidates are iid from the uniform distribution. The target is to ensure equal representation between the majority
+and minority groups. The y-axis shows the risk dierence Fof dierent algorithms, and the x-axis shows the
+constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , andforMultObj );Fvalues are averaged over 500
+trials, and the error bars represent the standard error of the mean. We observe that increasing fairness constraints
+to noise oblivious algorithms ( Thrsh andMultObj ) worsens their risk dierence! Whereas, the risk dierence of noise
+aware algorithms improves ( FairExpec andFairExpecGrp ) on increasing fairness constraints.
+4.2.2 Setup
+In this simulation, we target equal representation between the majority group and the minority group, and
+xm= 500 andn= 100.
+We report the risk dierence ( F) of dierent algorithms as a function of (forFairExpec ,FairExpecGrp ,
+andThrsh ) and as a function of (forMultObj ) in Figure 1.
+Remark 4.1. MultObj does not guarantee a particular fairness-level for any xed . Thus, one should
+consider the limiting value of FMultObj in Figure 1.
+4.2.3 Results
+We observe that without any constraints (i.e., = 0 and= 0) all algorithms have similar risk dierence
+0:81. However, on adding fairness constraints Thrsh andMultObj become more unfair . In fact, for the
+strongest fairness constraint (i.e, = 1 and= 2500) they have the lowest risk dierence ( <0:7). This
+is because, the imputed protected attributes have a higher FDR for the minority group (so, the algorithms
+pick a higher number of candidates from the majority group).
+In contrast, FairExpec andFairExpecGrp do not use the imputed protect attributes, so increasing fairness
+constraints to FairExpec andFairExpecGrp improves their risk dierence, and for the strongest fairness con-
+straint (= 1) they attain the highest risk dierence ( >0:92). Finally, since we sample all utilities from the
+same distribution, it is not surprising that FairExpec andFairExpecGrp perform similarly.
+4.3 Synthetic data with disparate utilities
+In this simulation, we consider the setting where dierent groups have dierent distributions of utilities.
+In particular, we assume that the minority group (unfairly) has a lower average utility, when in fact, the
+distributions of utilities should be the same for both the majority group and the minority group. (Contrast
+12this with Section 4.2 where all utilities are identically drawn). Such dierences in utility can manifest in the
+real world for many reasons, including, the implicit biases of the committee evaluating the candidates [69,
+6, 68] and structural oppression faced by dierent groups [31].
+Counterfactually fair approaches. One could also consider counterfactually fair approaches to mitigate
+bias in selection. (We refer the reader to [53] for an overview of counterfactual fairness). At a high-level,
+these approaches try to \unbias" the utilities across groups, and then use unbiased utilities in subsequent
+tasks (say, selection or ranking). In this simulation, we also consider counterfactually fair algorithms by [71]:
+CntrFair andCntrFairResolving . (They correspond to non-resolving and resolving algorithms in [71].)
+Roughly, they assume that there is a causal model M[] (parameterized by ), such that, given the
+attributes ( zi;ai) of an individual, their utility is wi=M[](zi;ai). Then, roughly, they x each individual's
+protected attributes to vand compute the \unbiased" utility as ^ wi:=M[](v;ai); this represents the utility
+of the individuals had they had the same protected attribute v.
+4.3.1 Data
+We consider a synthetic hiring dataset, generated with the code provided by [71]. In the data, each candidate
+ihas one protected attribute zi2f0;1gdenoting their race (0 if the candidate is Black and 1 otherwise) and
+two nonprotected attributes ai12f0;1gandai22R:ai1is 1 if the candidate has prior work experience, and
+ai2is denotes their qualications (the larger the better).11We sample 2000 candidates independently from a
+xed distribution dened in [71], which, is such that, the utility of Black candidates is (unfairly) lower than
+non-Black candidates.12For further details, we refer the reader to Section A.1.4.
+Preprocessing. We sample a training dataset D0withm= 2000 candidates. Then, using D0we compute
+an approximation of, and given a candidate idescribed by ( wi;zi;ai1;ai2), we compute qi2[0;1]2:(Note
+that the candidate imay not be in D0:) For prefer more details of the preprocessing, in Section A.1.4.
+Adding noise. The dataset does not have noise to begin with. Given a noise level 2[0;1=2], we generate
+noisy racebziof candidate iby ipping their race zi(independently) with probability .
+4.3.2 Setup
+We target proportional representation of race and vary over [0;0:5]. For each noise level , we sample a new
+instanceDof the dataset with m= 2000 and add -noise to it. We x n= 100 and the strongest constraints
+= 1 and= 500 for the algorithms.13Here, CntrFair and CntrFairResolving useM() (calculated in
+preprocessing), and FairExpec ,FairExpecGrp ,MultObj , and Thrsh useq(or the imputed attributes q0; both
+calculated in preprocessing).
+We report the risk dierence ( F) as a function of the noise-level ( ) in Figure 2. We also report the
+selection rates from each group in Section A.5.
+4.3.3 Results
+We observe that all algorithms have the highest fairness when there is no noise ( = 0). Here, they have
+a similar risk dierence (lying between 0 :94 to 0:98). As the noise increases, we observe that the risk
+dierence of FairExpecGrp andCntrFair approachesFBlind= 0:74, and risk dierence of MultObj ,Thrsh , and
+CntrFairResolving approaches a value between [0 :82;0:87]. In contrast, FairExpec has a better risk dierence,
+F>0:94, throughout. The risk dierence of MultObj andThrsh improves with at some values of | we
+give a possible explanation in Remark 4.2.
+Notice at= 0:5, for all candidates i2[m], the noisy label bzi2f0;1gis chosen uniformly at random
+and provides no information about zi.CntrFair andCntrFairResolving usebzito compute the counterfactual
+11This interpretation diers from [71], who interpret both ziandai1as protected attributes.
+12The only dierence from [71] is that we increase the underlying bias (by reducing the mean utilities for Black candidates
+and candidates without prior experience). We do so because, the dataset already had a high risk dierence ( >0:9) without
+adding any fairness constraints.
+13We choose= 500 as MultObj 's fairnessFMultObj converges before = 500.
+130.0 0.1 0.2 0.3 0.4 0.5
+Noise ()
+0.50.60.70.80.91.0Fairness achieved ()
+Testing causal on N dat | Testing FE on N dat with 20 eq-sz bins
+[[0.5,0.5],[0.5,0.5]]
+ Causal experiment (n=100) | iter=200 | metric=r_diff
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+BlindAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA(more fair) Risk dierence (F) (less fair)
+(more noise) Noise () (less noise)(?)
+?this workCntrFairCntrFairReCntrFairRes
+Figure 2: Synthetic data with disparate utilities (Section 4.3): This simulation considers the setting where the utilities
+of a minority group have a lower average than the majority group, and both groups have an identical amount of noise.
+The target is to ensure proportional representation. The y-axis shows the risk dierence Fof dierent algorithms,
+and thex-axis shows the amount of noise added 2[0;1=2];Fvalues are averaged over 200 trials, and the error bars
+represent the standard error of the mean. We observe that the risk dierence of all algorithms becomes poorer with
+noise ( >0) than without it ( = 0). Here, FairExpec has the highest risk dierence for all values of noise. Finally,
+unlike Section 4.2, FairExpecGrp has a lower fairness than FairExpec (since, in this simulation, dierent groups have
+dierent distributions of utilities).
+utilities, so, perform poorly at 0:5. Further, FairExpecGrp uses the probabilities qiwhich depend on bzi,
+but not on wi. Since the utility of candidates of dierent races has a dierent distribution, qican be skewed
+(see Section 2.4).
+We note that the utility of all algorithms decreases on adding noise. In particular, while FairExpec is able
+to satisfy the fairness constraints with noise, its utility decreases on adding noise; see Section A.5 for a plot
+of utility ratio (K) vs noise ().
+Remark 4.2. The risk dierence of Thrsh and MultObj is non-monotonic in the noise. This might be
+because the false discovery rate (FDR) of q0for Black candidates is non-monotonic. Specically, the FDR
+rst increases with (roughly, for 0:2), and then decreases. The decrease in FDR after = 0:2comes
+at the cost of fewer total positives (i.e., q0identies fewer total Black candidates). The total number of total
+positives drop below n=2for higher values of . Correspondingly, the FofThrsh andMultObj rst decreases
+as FDR reduces, then increases as FDR increases until the number of total positives is larger than, roughly,
+n=2, and nally, decreases as the number of total positives drops below n=2.
+Remark 4.3. We do not consider counterfactual approaches in Section 4.2 because there, the utilities are al-
+ready unbiased, and so, CntrFair andCntrFairResolving reduce to Blind . Further, CntrFair andCntrFairResolving
+only ensure proportional representation. We nd that the datasets considered in Sections 4.4 and 4.5 are
+already fair when the target is proportional representation; in both cases, FBlind>0:9. Therefore, we omit
+these algorithms from those simulations.
+4.4 Real-world data for candidate selection
+In this simulation, we consider the problem of selecting candidates under noisy information about their race.
+Similar to what has been used in applications (e.g., [28]), we use a candidate's last name to predict their
+140.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+Fairness achieved ()
+0.50.60.70.80.91.0Utility Ratio ()
+(m,n)=(1000,100), increase-in-white-value (multiplier)=1, iter=100,=[0.e+00 0.e+00 0.e+00 1.e+00 6.e+03]
+custom_size=0, custom_size_arg=0.0, and calibrate_with_util=0 f-metric=r_diff target=equal.
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+BlindAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Utility ratio (K)
+(more fair) Risk dierence (F) (less fair)(?)
+?this work
+Figure 3: Real-world data for candidate selection (Section 4.4): This simulation considers race as the protected
+attribute which takes p= 4 values. The simulation uses last-name as a proxy to derive noisy information of race and
+draws the utility of each candidate from a xed distribution depending on their race. The target is to ensure equal
+representation across race. The y-axis shows the utility ratio Kof dierent algorithms, and the x-axis shows the risk
+dierence of dierent algorithms; both KandFvalues are averaged over 100 trials, and the error bars represent the
+standard error of the mean. We observe that FairExpec reaches the highest risk dierence ( F= 0:89), and has a
+better tradeo between utility and risk dierence compared to other algorithms.
+race. We consider a candidate's utility as their \previous-salary," which we model using the race-aggregated
+income dataset [10]. This dataset provides the income distribution of families from dierent races (elaborated
+below). This problem could be relevant in the context of an online hiring platform, which would like to display
+a race-balanced set of candidates, but only has noisy information about each candidate's race [56].
+4.4.1 Data
+US 2010 Census dataset [67]. The dataset contains 151,671 distinct last names which occurred at least
+a 100 times in the US 2010 census (23,656 last names occur at least a 1000 times). For each last name i,
+the dataset has its total occurrences per 100k people c(i)2Z, and a vector ^f= (f1(i);:::;f 6(i))2[0;1]6
+representing the fraction of individuals who are White, Black, Asian and Pacic Islander (API), American
+Indian and Alaskan Native only (AIAN), multiracial, or Hispanic respectively.
+We do not use `AIAN' and `two or more races' categories (i.e., f4andf5) as they do not occur in the
+income dataset. Then, for each last name i, we dene the probability vector qias the normalized version of
+the vector ( f1(i);f2(i);f3(i);f6(i)).
+Income dataset [10]. We use family income data aggregated by race [10]. This was compiled by the
+US Census Bureau from the Current Population Survey 2018 [9]. The dataset provides income data of
+83,508,000 families. It has four races (White, Black, Asian, and Hispanic), 12 age categories, and 41 income
+categories.14For each set of race, age, and income categories, the dataset has the number of families whose
+reference person (see denition here) belongs to these categories.
+For each race r, we consider the discrete distribution Drof incomes of families with race rderived from
+the income dataset [10]; see Figure 15 in supplementary material for some statistics of Dr.
+14The age categories are: 15 to 24, 25 to 30, 30 to 35, . . . . The income categories are: [0 ;5000);[5000;104);. . . , [1:95;2105);
+and (2105;1) in USD per annum.
+15Male Female NA Total
+Dark 568 318 106 992
+Light 2635 1987 386 5008
+NA 198 119 3283 3600
+Total 3401 2424 3775 9600
+Figure 4: Statistics of the Occupations dataset [15].
+4.4.2 Setup
+We consider race as a protected attribute with four labels ( p= 4) and target equal representation based on
+race. Letm= 1000 and n= 100. For each choice of and, we draw a set Mofmlast names uniformly
+from the entire population with replacement: The i-th last name is drawn with probability proportional to
+c(i). For each last name i2M, we sample a ground-truth race ri(unknown to the algorithms) according to
+the distribution qi, and then sample the income wiDri.
+We report the utility ratio ( K) as a function of the risk dierence ( F) for dierent algorithms in Figure 3.
+We also reportFas a function of (forFairExpec ,FairExpecGrp , and Thrsh ) and as a function of (for
+MultObj ) in Section A.6.
+4.4.3 Results
+FairExpec reaches the highest risk dierence of 0 :89, followed by FairExpecGrp , which reaches a risk dierence
+of 0:84.Thrsh reachesF= 0:79,MultObj reachesF= 0:70, and Blind hasF= 0:28.
+We do not expect the algorithms to outperform the unconstrained utility (i.e., that of Blind ). We observe
+that FairExpec has a better Pareto-tradeo compared to other algorithms, i.e., for any desired level of risk
+dierence, it has a better utility ratio ( K) than other algorithms. In contrast, while FairExpecGrp also has a
+high maximum risk dierence, it is not Pareto-optimal.
+All algorithms lose a large fraction of the utility (up to 33%). This is because the unconstrained and
+constrained optimal are very dierent: without any constraints, we would roughly select 7% candidates from
+some races. However, ensuring equal representation requires selecting roughly 4 times as many candidates
+from these races. When the dierence between unconstrained and constrained optimal is smaller, we expect
+to lose a smaller fraction of the utility.
+4.5 Real-world data for image search
+In this simulation, we consider the problem of selecting images under noisy information about the gender
+of the person depicted in the image. We derive noisy information about the gender of the person depicted
+in an image using a CNN-based gender classier and use this information to select a gender-balanced set of
+images. This could be relevant in mitigating gender bias in image search engines, which have been observed
+to over-represent the stereotypical gender in job-related searches [47, 15]. Here, one could rst select a
+balanced subset of images to display on each page, and then order this subset in decreasing order of utility
+from top to bottom of each page.
+4.5.1 Data
+We use a recent image dataset named the Occupations Dataset by [15]. The dataset contains top 100 Google
+Image Search results (from December 2019) for 96 occupations related queries. For each image, the dataset
+has a gender (coded as men, women, or other), skin-tone (coded as dark or light), and the image's position
+in the search result (an integer in [100]). We present aggregate statistics from the dataset in Figure 4.
+Gender classier. We use an o-the-shelf face-detector [1] to extract faces of people from the images, and
+then use a CNN-based classier [62] to predict the (supposed) gender of people from their faces. For each
+160.4 0.5 0.6 0.7 0.8 0.9 1.0
+Fairness achieved ()
+0.860.880.900.920.940.960.981.00Utility Ratio ()
+Image search (custom_cal=0)
+(m,n)=(500,100), inc-in-male-val (multiplier)=1,
+ iter=200, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=r_diff.
+FairExpec
+FairExpecGrp
+MultObj
+Thresh
+BlindAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Utility ratio (K)
+AAAAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair)(?)
+?this work
+Figure 5: Real-world data for image search (Section 4.5) : This simulation considers gender as the protected
+attribute and uses a CNN-based classier to derive noisy information about the gender of the person depicted in the
+image. The target is to ensure equal representation equal between genders. The y-axis shows the utility ratio Kof
+dierent algorithms, and the x-axis shows the risk dierence of dierent algorithms; KandFvalues are averaged over
+200 trials, and the error bars represent the standard error of the mean. We observe that FairExpec reaches the highest
+risk dierence (F= 0:86), and has a better tradeo between utility and fairness compared to other algorithms.
+imagei, the classier outputs a prediction fi2[0;1] (resp. 1 fi) which is the (uncalibrated) likelihood
+that the image is of a man (resp. women).15We calibrate this score as described next.
+As a preprocessing step, we remove all images which either have a gender label of NA and for which the
+face-detector did not detect any face.16Then, we calibrate outputs of the classier ( fi) on all remaining
+images. This calibration is only done once and is used to compute the noise-information ( qi) for the entire
+simulation. For more details of the preprocessing used, we refer the reader to Section A.1.5.
+Selecting occupations. Next, we infer the occupations which have considerable gender stereotype. To-
+wards this, we x a threshold 2[0;1] and partition the occupations into three sets:
+•Styf(): occupations for which at least -fraction of images were labeled to appear to depict women,
+•Styf(): occupations for which at least -fraction of images were labeled to appear to depict men, and
+•all other occupations.
+We x= 0:8. This gives us jStyf()j= 12 andjStym()j= 29, and 1,877 images with occupations in
+Styf()[Stym() (for a list of the occupations see Table 17 in Section A.7).
+Remark 4.4. Note that we calibrate qon all occupations, and only consider images in a subset of occupations
+(less than half). This means that qs may not be an unbiased estimate of the protected attributes|which is a
+hard case for FairExpec .
+4.5.2 Setup
+In this simulation, we consider gender as the protected attribute with two values ( p= 2), and x m= 500
+andn= 100.
+15While there could be richer and nonbinary gender categories, many commercial classiers, and the classier by [62] catego-
+rizes images as either male or female.
+16Note that we do not check if the detected faces are correct. This introduces some error, which is also expected in practice.
+17We say a particular gender is stereotypical for a given occupation if the majority of images of this
+occupation are labeled to appear to depict a person with this gender. For example, men are stereotypical
+for occupations in Stym(0:8) and women are stereotypical for occupations in Styf(0:8). We call an image
+stereotypical if the dataset labels the person depicted in the image to appear to be of the stereotypical gender
+for its occupation. We call an image anti-stereotypical if it is not stereotypical. We would like to ensure
+equal representation between stereotypical and anti-stereotypical images.
+For each choice of and, we draw a subset Mofmimages uniformly from all images with occupation
+inStyf()[Stym(). For each image i2M, let its rank be ri2[100]. We compute qias discussed earlier,
+and set its utility witowi:= (log (1 + ri)) 1.
+We report the utility ratio ( K) as a function of the risk dierence ( F) for dierent algorithms in Figure 5.
+We also reportFas a function of (forFairExpec ,FairExpecGrp , and Thrsh ) and as a function of (for
+MultObj ) in Section A.7.
+Remark 4.5. Since the underlying application in this simulation is ranking image results, we also considered
+Normalized DCG [44] as the utility metric. We observed similar results for this. For completeness, we present
+the plot in Section A.7. Furthermore, we also tried other functions for utilities wi, including 100 riand
+100=ri, and observed similar results.
+4.5.3 Results
+The risk dierence of Blind (i.e., the risk dierence without any interventions) is F= 0:48. All algorithms
+reach a better risk dierence than Blind . Among them, FairExpec reaches the highest risk dierence of
+F= 0:86. While the next best algorithm FairExpecGrp hasF= 0:79.
+Since the algorithms satisfy fairness constraints, we do not expect them to have a higher utility than
+Blind ; hence, it is not surprising that K 1. Among the algorithms we consider, we observe that FairExpec
+has the Pareto-optimal tradeo between utility and fairness: it has a higher utility ratio compared to other
+algorithms for a given value of risk dierence.
+4.6 Additional empirical results
+We present additional empirical results with selection lift in Section A. We observe that, indeed, FairExpec
+is able to mitigate discrimination with respect to selection lift and reaches the most-fair selection lift in all
+experiments. Further, it has the Pareto-optimal tradeo between utility and fairness compared to other
+algorithms in all but one case: in the simulation from Section 4.4, while FairExpec has a lower utility than
+MultObj for some levels of selection lift. We believe this is because the constraint region induced by threshold
+of selection lift is \dierent" from the constraint region of Program Target. One could correct this, e.g.,
+by using [13, Theorem 3.1] to reduce the constraint from selection lift to that of multiple lower and upper
+bound constraints.17
+Remark 4.6 (Risk dierence on varying n=m).Dierent applications could require selecting dierent
+fractions of results from the set of available items. For example, an image search engine might select a
+small fraction of available results, whereas a job platform can select a larger fraction. Towards analyzing the
+robustness of our approach to the fraction of items selected, we xed mand variednin simulations. We nd
+that on increasing n(holdingmxed) the dierence in algorithms' fairness remains roughly the same. See
+Figure 6 for a plot for the simulation in Section 4.4; we present the plots for simulations from Sections 4.2
+and 4.5 in Section A.3.
+5 Proofs
+In this section, we present the proof of Theorem 3.1 (Section 5.1), and present formal statements of our
+hardness results for Program Denoised and their proofs (Section 5.2).
+17This reduction uses multiple lower bound and upper bound constraints to provably approximate the constraints of selection
+lift.
+1820 30 40 50 60 70 80 90 100
+n0.00.20.40.60.81.0Risk difference ()
+(m,n)=(1000,100), increase-in-white-value (multiplier)=1, iter=100,=[0.e+00 0.e+00 0.e+00 1.e+00 1.e+04]
+custom_size=0, custom_size_arg=0.0, and calibrate_with_util=0 f-metric=r_diff target=equal.
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+BlindAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA(more fair) Risk dierence (F) (less fair)
+AAAAAAAAAAAAAAAAAAAAA Selection size ( n)(?)
+?this work
+Figure 6: Risk dierence on varyingn=m(Remark 4.6): Towards analyzing the robustness of our approach to
+the fraction of items selected (n=m), we xm= 1000 and vary nfrom 20 to 100 in Simulation 4.4. The y-axis shows
+the risk dierence Fof dierent algorithms, and the x-axis shows n;Fvalues are averaged over 100 trials, and the
+error bars represent the standard error of the mean. We nd that increasing on nthe dierence in the fairness of
+dierent algorithms remains roughly the same.
+5.1 Proof of Theorem 3.1
+5.1.1 Proof of Lemma 6.4
+Proof of Lemma 6.4. For alli2[m], deneZi2f0;1gto be the indicator random variable that ( i2G`).
+Notice that
+X
+i2G`xi=X
+i2[m]xiZi: (12)
+From Denition 2.1 we have
+E[Zi] =qi`:
+Using linearity of expectation we get
+mX
+i=1xiqi`=mX
+i=1E[Zi]:
+Now, we have
+Pr"mX
+i=1xiZi>mX
+i=1xiqi`+n#
+= Pr"mX
+i=1xiZi>E[mX
+i=1Zi] +n#
+exp
+ (n)2
+31
+E[Pm
+i=1xiZi]
+(Additive Cherno bound [59])
+exp
+ (n)2
+31
+E[Pm
+i=1xi]
+(8i2[m]; Zi1)
+exp
+ 2n
+3
+: (Pm
+i=1xi=n)
+19By a similar argument, we have
+Pr"Xm
+i=1xiZi<mX
+i=1xiqi` n#
+exp
+ 2n
+2
+:
+We get the required result by taking a union bound over all `2[p] and using Equation (12).
+5.1.2 Proof of Lemma 3.4
+Proof. Assumep < m , otherwise the result is trivial. Recall that LP-Denoised has mvariables,ppairs
+of upper and lower bound constraints, one cardinality constraint (Pm
+i=1xi=n), and 2mbounding-box
+constraints of the form: ( xi0) and (xi1) for each i2[m]. If for some `2[p],L`=U`, replace the two
+inequality constraints by the equivalent equality constraint.
+For any linear program, there exists a basic feasible solution [60, Theorem 2.6]. If xis a basic feasible
+solution, it must satisfy mlinearly-independent equalities. Notice from each of the at most ppairs of upper
+and lower bound constraints18at most one of the upper bound or the lower bound can be satised with
+equalityx. Thus, including the cardinality constraint (Pm
+i=1xi=n) (but, excluding the bounding-box
+constraints, xsatises at most ( p+ 1) constraints with equality. Further, note that if any of bounding-box
+constraints are satised with equality, then the corresponding index in xis integral. This suces to show
+thatxhas at most ( p+ 1) fractional entries.
+Assume that exactly ( p+ 1) non-bounding-box constraints are satised with equality. By the previous
+discussion, one of them is the cardinality constraint, and the others must correspond to distinct values of
+`2[p]. However, for each i2[m] it holds thatP
+`2[p]qi`= 1. Further, in this case, the upper bounds or
+lower bound corresponding to the ptight constraints must sum to n(otherwise, the ( p+1) non-bounding-box
+constraints cannot hold together). But, in this case, all the pupper or lower bound constraints imply the
+cardinality constraint. Thus, at most pof the (p+1) non-bounding-box constraints are linearly independent.
+It follows that any basic feasible solution has at most pfractional constraints.
+The next fact shows that Lemma 3.4 is tight.
+Fact 5.1. There exists an instance of Program Denoised such that the unique optimal solution to LP-
+Denoised has pfractional entries.
+Proof. Fix">0 ands= 1. Letp:=p1and drop the superscripts on the variables. Let n=p,m=p+ 1,
+and for all`2[p],L`= 0, andU`= 1. Leteibe thei-th standard basis vector on Rp. Dene
+wi=(
+1 ifi<m;
+2 ifi=mandqi=(
+ei ifi<m;
+1
+p1pifi=m:
+Notice that qi2pfor eachi2[m]. It is easy to see that any optimal solution xhasxm= 1. Further, x
+must picknitems (Pm
+i=1xi=n) andP
+`2[p]U`=n. So, each upper bound constraint must be tight. This
+suce to show the unique optimal is:
+bx?
+i=(
+1 1
+pif 1i<m;
+1 ifi=m:
+Note thatbx?haspfractional values.
+5.1.3 Proof of Theorem 3.1
+Proof of Theorem 3.1. We claim that Algorithm 1 satises the claims in the theorem.
+18If the lower bound and the upper bound are the same, we discard one of the (repeated) inequalities.
+20Run time. Step 1 nds a basic feasible solution for LP-Denoised. Since this is a linear program, one can
+do so in time polynomial in the bit-complexity of the input, say, using the ellipsoid method (see, e.g.,[36]).
+Step 2 is clearly linear time. Thus, the bound on the running time follows.
+Correctness. Sincex(in Step 1) is feasible for LP-Denoised, it satises
+For all`2[p],L` nXm
+i=1qi`xiU`+n;
+Xm
+i=1xi=n:
+Further, since xis a basic feasible solution of LP-Denoised, xhas at most pfractional values by Lemma 3.4.
+Thus,x0obtained by rounding up each nonzero coordinate to 1 (in Step 2), satises (Recall that qi`2[0;1])
+For all`2[p],L` nXm
+i=1qi`x0
+iU`+n+p; (13)
+nXm
+i=1x0
+in+p: (14)
+Lemma 3.3 says that with probability at least 1  2pexp 
+ 2n=3
+(over the noise in the protected attributes)
+For all`2[p],X
+i2G`x0
+i Xm
+i=1qi`x0
+in: (15)
+Now, combining Equation (13) and Equation (15), we get that
+For all`2[p],L` 2nXm
+i=1qi`x0
+iU`+ 2n+p (16)
+holds with probability at least 1  2pexp 
+ 2n=3
+(over the noise in the protected attributes). Equation (16)
+implies that x0violates Equation (4) by at most ( p+ 2n) (additive) and Equation (14) implies x0violates
+Equation (5) by at most p(additive). LetE1be the event that Equation (16) and Equation (14) hold. From
+the above discussion, we conclude that
+Pr[E1]1 2pexp 
+ 2n=3
+:
+Letx?be an optimal solution of Program Target. It remains to show that x0has a value higher than x?.
+LetE2be the event that x?is feasible for Program Target. Then, conditioning on E2we that
+Xm
+i=1wix?
+iXm
+i=1wixi (xis optimal for Program Target)
+Xm
+i=1wix0
+i: (x0xandw0)
+Thus, conditioning on E2gives us that x0has a value higher than x?. From Lemma 3.3 we get that
+Pr[E2]1 2pexp 
+ 2n=3
+:
+Taking the union bound over E1andE2we get the required result.
+5.2 Hardness results
+In this section, we present the formal statements of our hardness results for Program Denoised and their
+proofs.
+5.2.1 Proof of Theorem 3.5 (1)
+Theorem 5.2. For allp2, deciding if Program Denoised is feasible is NP-hard.
+Proof. We present a reduction from the subset-sum problem which is known to be NP-hard [24].
+21Subset sum problem. Given a set of mintegersA=fa1;:::;ang2Zn
+0in binary, and a target sum
+t2Z0. The subset-sum problem is: Is there a subset of Asuch that the items of the subset sum to t?
+.
+Without loss of generality assume that aitfor alli2[n] andt >0. If not, we can remove items which
+are larger than t. Sinceai0, we can solve the subset-problem for t= 0 in linear-time.
+Reduction. Given an instance of the subset sum problem corresponding instance Program Target as
+follows: Let the number of items to select be nand let there be m:= 2nitems. Consider one attribute (i.e.,
+s:= 1) with two disjoint values p:= 2. For each item i2[m], let
+qi=(ai
+t;1 ai
+t
+ifi2[n];
+[0;1] if i2[n+ 1;m]:
+Dene the constraints to be U1= 1 andU2=n 1. In this construction, for each i2[n], the integer ai2A
+corresponds to the i-th item. Notice that the input to Program Target is polynomial-sized in the input of
+the subset-sum problem. Further, the values qi, and constraints Ucan be calculated in polynomial time.
+It remains to show that Ahas a subset SAwhich sums to Uif and only if Program Target is feasible.
+(=)).IfAhas a subset SAsuch thatP
+a2Sa=t, dene the solution xof Program Target by choosing
+jSjnitems corresponding to integers in S, and anyn jSjnitems from [ m]n[n]. It holds
+X
+i2[m]xiqi1=0
+@nX
+i=1xiqi1+X
+i2[m]n[n]xiqi11
+A=0
+@X
+a2Sa
+t+n jSjX
+i=101
+A= 1U1;
+X
+i2[m]xiqi2=0
+@nX
+i=1xiqi2+X
+i2[m]n[n]xiqi21
+A=0
+@X
+a2S
+1 a
+t
++n jSjX
+i=111
+A=n 1U2:
+Thus, Program Target is feasible if the subset-sum instance is a `YES' instance.
+((=).For the opposite direction, notice that for any subset x,P
+i2[m]xi(qi1+qi2) =n, i.e., the sum of qi`
+for all items and both properties is xed. Since U1+U2=n, the constraints of both properties must hold
+with equality:
+X
+i2[m]xiqi1= 1 andX
+i2[m]xiqi2=n 1: (17)
+Dene a solution SAwhich has items of Acorresponding to items i2[n] present in x. Sinceqi1= 0 for
+anyi2[m]n[n], it follows from (17) thatP
+a2Sa=t= 1 orP
+a2Sa=t. Thus, the subset sum instance is a
+`YES' instance if Program Target is feasible.
+Combining both cases gives us that the Program Target instance is feasible i the subset sum instance
+is a `YES' instance. Thus, we can use an algorithm to check the feasibility of Program Target to solve an
+arbitrary subset sum problem.
+5.2.2 Proof of Theorem 3.5 (2)
+Theorem 5.3. For allp3, Program Denoised is APX -hard.
+Proof. We present a reduction from the d-dimensional knapsack problem which is known to be APX -hard
+ford2 [49].
+22d-dimensional knapsack problem ( d-KP). Given a vectors v;c2Rk
+>0, a matrix w2Rkd
+0thed-
+dimensional knapsack ( d-KP) is the problem to solve the following integer linear program.
+max
+x2f0;1gkX
+i2[k]vixi (18)
+s:t:8`2[d];X
+i2[k]wi`xic`; (Capacity; 19)
+x2f0;1gk: (Integrality; 20)
+.
+Without loss of generality we assume wi`c`for alli2[k] and`2[d]. If not, we can remove such items
+in linear time.
+Reduction. Given an instance of d-KP dene an instance of Program Target with s:= 1 as follows:
+1. Setp:=d+ 1,n:=k,m:= 2k, andUp:=m. For all`2[p 1] set
+U`:=c`P
+k2[d]ck:
+2. For each item i2[k] setwi:=vi, and for all `2[p 1] set
+qi`:=wi`P
+j2[d]cj:
+Finally set, qip= 1 P
+i2[p 1]qi`.
+3. Addkadditional dummy items (k+ 1;k+ 2;:::; 2k). For alli2[m]n[n], setqip= 1 andwi:= 0. Also,
+for alli2[m]n[n] and`2[p 1] setqi`= 0.
+Recall that pis thep-dimensional simplex. Note that for all i2[m],qi2p. Now, it is easy to see that
+the construction is a valid instance of the Program Target.
+Letx?2f0;1gkbe a solution d-KP, such that,Pm
+i=1x?=rl. Dene a solution y?2f0;1gmto
+Program Target by selecting any ( k r) dummy items. Alternatively, given a solution given a y?2f0;1gm
+to Program Target dene a solution x?2f0;1gktod-KP, by omitting the dummy items.
+(() ).Consider a solution x?tod-KP. Then for all `2[d],x?satises
+X
+i2[k]wi`x?
+ic`()X
+i2[k] 
+wi`P
+j2[d]cj!
+x?
+i 
+c`P
+j2[d]cj!
+()X
+i2[k]qi`x?
+iU`
+()X
+i2[m]qi`y?
+iU`: (Usingqi`= 0 fori[m]n[n];`2[p 1])
+Further, by constructionPm
+i=1y?
+i=n. Thusx?is feasible for d-KP iy?is feasible for the corresponding
+instance of Program Target. Finally, it holds
+X
+i2[k]vix?
+i=X
+i2[k]wix?
+i=X
+i2[m]wiy?
+i: (Usingwi= 0 fori2[m]n[n])
+This shows that the reduction is approximation preserving. We conclude that Program Target is APX -hard
+for allp= (d+ 1)3.
+235.2.3 Proof of Theorem 3.5 (3)
+Theorem 5.4. For every constant c>0, the following violation gap variant of Program Denoised is NP-
+hard.
+•Output YES if the input instance is satisable.
+•Output NO if there is no solution which violates every upper bound constraint at most an additive
+factor ofc.
+Our reduction below is similar to the one used in [18, Theorem 10.4].
+Proof. We use the inapproximability of the independent set [42, 75] to prove the theorem. The inapprox-
+imability result states that: Given a graph G(V;E) it is NP-hard to approximate the size of the maximum
+independent set to within a multiplicative factor of jVj1 "for every constant ">0.
+Fix any constant c>0. Then our reduction is as follows:
+Reduction. Consider an instance of the independent set problem, i.e., given a graph G(V;E) and a number n2
+Nto check whether Ghas an independent set of size at least n. Construct an instance of Program Denoised
+withm=jVjcandidates and the same n. For each clique CinGof size at least ( c+ 2) add a protected
+attributeCwhich takes two values, and set an upper bound on the number of items with value 1 for attribute
+C:U(k)
+1= 1. Formally, for each attribute C, setL(C)
+1= 0 andU(C)
+1= 1 andL(C)
+0= 0 andU(C)
+0=n. Further,
+for each vertex v2C, setq(C)
+v;1= 1 andq(C)
+v;0= 0. Note that there are at most m
+c+2
+=mc+2= poly(m)
+protected attributes.
+We claim the following:
+•If the Program Denoised is not feasible then Gdoes not have an independent set of size n.
+•If Program Denoised has a solution which violates the upper bound constraints by at most c(additive),
+thenGhas an independent set of size at least n1=(c+1).
+These claims prove the theorem: if there was an algorithm Ato solve Program Denoised in polynomial time,
+then we can use it to approximate independent set within jVj1 1=(c+1)factor in polynomial time,19which is
+NP-hard.
+It remains to establish the claim. Notice that if Ghas an independent set Sof sizen, then this gives a
+feasible solution to Program Denoised by picking the items corresponding to elements in S. This establishes
+the rst claim.
+Given a subset Swhich violates the constraints of Program Denoised by at most c(additive), consider
+the subgraph GSofGinduced by S.GSdoes not contain any ( c+ 2)-cliques. By [19, Lemma 4.3], GShas
+an independent set of size at least n1=(c+1), so alsoG. This establishes the second claim.
+6 Theoretical results with multiple protected attributes
+In this section, we extend our theoretical results to multiple nonbinary (and intersectional) protected at-
+tributes (i.e., s1 andp1). Like Section 3, our main algorithmic result is an approximation algorithm
+for Program Target.
+Theorem 6.1 (An approximation algorithm for Program Target when s1).There is an algorithm
+(Algorithm 2) that given an instance of Program Target and qfrom Denition 2.1, outputs a selection
+x2f0;1gm, such that, with probability at least 1 4psexp 
+ 2n=3
+over the noise in the protected attributes
+of each item, the selection x
+1. has a value at least as high as the optimal value of Program Target,
+2. violates the cardinality constraint (5)(additively) by at most
+1 +Xs
+k=1(pk 1);
+19The approximation algorithm returns the same answer as the A.
+243. and violates the fairness constraints (4)(additively) by at most
+1 + 2n+Xs
+k=1(pk 1):
+The algorithm runs in polynomial time in the bit complexity of the input.
+Remark 6.2. Note that in the special case that s= 1, we have
+1 +Xs
+k=1(pk 1) =p1;
+1 + 2n+Xs
+k=1(pk 1) = 1 + 2n+p1:
+Substituting these values in Theorem 6.1, we can recover the statement of Theorem 3.1.
+Compared to Theorem 3.1, the high-probability bound and approximation factors are weaker by (roughly)
+a factor ofs. Note that, in many real-world applications, pandsare small constants compared to the number
+of items selected n. Here, Theorem 6.1 implies that xviolates the fairness constraints in Equation (4) by a
+multiplicative factor of at most (1 + 2 +o(1)) and the constraint in Equation (5) by a multiplicative factor
+of at most (1 + o(1)) with high probability.
+Algorithm 2 is equivalent to Algorithm 1; the only dierence is that Algorithm 2 solves the Program De-
+noised fors1.
+Remark 6.3 (Analogous to Remark 3.2). We can strengthen Theorem 6.1 to guarantee that Algo-
+rithm 2 nds an x2f0;1gmwhich does not violate the lower bound fairness constraint (left inequality in
+Equation (4)) and violates the upper bound fairness constraints by at most (s(p 1)+2n)(without changing
+other conditions). In particular, this shows that, if one places only lower bound fairness constraints, then
+subset found by Algorithm 2 would never violate the fairness constraints.
+Proof of Theorem 6.1
+The proof of Theorem 6.1 follows a similar template as the proof of Theorem 3.1. Instead of repeating the
+entire proof, we highlight how the proof of Theorem 6.1 diers from the proof of Theorem 3.1.
+We rst present a generalization of Lemma 3.3.
+Lemma 6.4. For all2(0;1)andx2[0;1]m, s.t.,Pm
+i=1xi=n:
+8k2[s]; `2[pk],X
+i2G(k)
+`xi X
+i2[m]q(k)
+i`xin
+holds with probability at least 1 2psexp 
+ 2n=3
+over the noise in the protected attributes of each item.
+Proof. The result follows by applying Lemma 3.3 for each attribute k2[s] and taking the union bound over
+the events.
+Remark 6.5 (Hardness results). Note that the hardness results from Theorem 5.2 and Theorem 5.3
+also apply when s1. Like in Section 3, we overcome this hardness by allowing solutions to violate the
+constraints of Program Denoised by an additive amount.
+Consider the following linear-programming relaxation of Program Denoised
+max
+x2[0;1]mXm
+i=1wixi (Relaxed-Denoised; 21)
+s:t:; L(k)
+` nXm
+i=1q(k)
+i`xiU(k)
+`+n;8k2[s];`2[pk];
+Xm
+i=1xi=n:
+We can prove the following lemma.
+25Lemma 6.6 (An optimal solution with pfractional entries). Any basic feasible solution x2[0;1]m
+of LP-Denoised has at most
+min
+m;1 +Xs
+k=1(pk 1)
+fractional values, i.e.,Xm
+i=1I[xi2(0;1)]min
+m;1 +Xs
+k=1(pk 1)
+:
+Proof. In the proof of Lemma 3.4, we show that any basic feasible solution satises at most p1linearly-
+independent non-bounding-box constraints with equality. Toward this, we show that any set of p1linear-
+independent lower bound or upper bound constraints which are satised with equality, must contain the
+cardinality constraint (Pm
+i=1xi=n) in their span.
+Lemma 6.6 follows by using the same argument for all protected attributes and noticing that for each
+protected attribute k2[s], any set of pklinear-independent lower bound or upper bound constraints which
+are satised with equality, must contain the cardinality constraint (Pm
+i=1xi=n) in their span.
+Remark 6.7. Note that in the special case that s= 1, we have
+1 +Xs
+k=1(pk 1) =p1;
+and we recover Lemma 3.4 from Lemma 6.6. Further, using Fact 5.1, it follows that Lemma 6.6 is tight.
+Proof of Theorem 6.1. The run time follows since there are polynomial time algorithms to nd a basic feasible
+solution of a linear program.
+The rest of proof follows a similar template to that of Theorem 3.1, and follows by using the generalizations
+of the lemmas proved above and replacing the additive error of p1(inx0due to rounding) with
+1 +Xs
+k=1(pk 1):
+Letx?be an optimal solution for Program Target. Using Lemma 6.4 it can be shown that x?is feasible for
+Program Denoised with probability at least 1  2psexp 
+ 2n=3
+. Assuming this event happens, it holds that
+the rounded solution x0(from Step 2 of Algorithm 2) has a value at least as large as x?. (This follows from
+the argument as in the proof of Theorem 3.1).
+Further, from Lemma 3.4 it follows that x0picks at most
+1 +Xs
+k=1(pk 1)
+more elements than x. Thus,x0violates Equation (7), and so Equation (5) by at most 1 +Ps
+k=1(pk 1)
+(additively). Further, x0violates the fairness constraints of Program Denoised by at most 1 +Ps
+k=1(pk 1)
+(additively). Combining this with Lemma 6.4, we get that with probability at least 1  2psexp 
+ 2n=3
+,x0
+violates the constraints of Program Target by at most the bound claimed in Theorem 6.1.
+Finally, taking a union bound over above two events completes the proof.
+Algorithm 2: Algorithm for Program Target
+Input: Numbersn;s2N, utility vector w2Rm, and for each k2[s]: a probability matrix
+q(k)2[0;1]mpkand constraint vectors L(k); U(k)2Rpk
+0.
+1.Solvex Find a basic feasible solution to linear-programming relaxation
+. of Program Denoised with inputs ( n;s;q;w;L;U ).
+2.Setx0
+i:=dxiefor alli2[m].//Round solution
+3.Returnx0.
+267 Limitations and future work
+We consider the natural setting where the utility of a subset is the sum of utilities of its items. A useful
+extension to this work could consider submodular objectives, which are relevant when the goal is to select a
+subset which summarizes a collection of items [55].
+Apart from this, some works also study other variants of subset selection, for example, diverse (and fair)
+subset selection in the online settings [66]. Studying and mitigating bias in the presence of noise under this
+variant is an interesting direction for future work.
+Further, our approach assumes access to probabilistic information about the true protected attributes. If
+this information is itself is skewed or incorrect, then our approach can have a poor performance. Although,
+empirical results on real-world data suggest that our approach can improve fairness even when there is some
+skew in the noise information (see, e.g., Remark 4.4). Still, determining probabilistic information more
+reliably is an important problem, and recent works have made some progress toward this goal [43, 45].
+Furthermore, while we focus on the subset selection problem, our results can also extend to the ranking
+problem (where after selecting a subset, it must be ordered) by satisfying the fairness constraints in the
+top-kpositions, for a small number choices of k, sayk1k2kg;20this reduces the high-probability
+guarantee from 1 4pexp ( 2n=3) to 1 4gpexp ( 2k1=3).21This is particularly relevant in the setting where
+results are displayed one page at a time. Satisfying the constraints for a larger number of positions with high
+probability might require stronger information about noise, and is an interesting direction for future work.
+Empirically, we could report fairness on several other metrics, e.g., selection lift or extended dierence [11,
+39, 40]. We focus on risk dierence as it is closer to our approach. Nevertheless, Program Target can mitigate
+discrimination with respect to selection lift (and other metrics) as well (e.g., see [16, 13]). Empirically
+evaluating this would be an important direction for future work.
+Finally, we note that bias is a systematic issue and this work only addresses one aspect of it. Indeed, any
+such approach is limited by how people and the broader system uses the subset presented to them; e.g., a
+recruiter on an online hiring platform might deliberately reject minority candidates even when presented with
+a representative candidate subset. Thus, it is important to complement our approach with other necessary
+tools to mitigate bias and counter discrimination.
+8 Conclusion
+We consider the problem of mitigating bias in subset selection when the protected attributes are noisy,
+or are missing for some or all of the entries and must be imputed using proxy variables. We note that
+accounting for real-world noise in algorithms is important to mitigate bias, and not accounting for noise
+can have unintended adverse eects, e.g., adding fairness constraints in a noise oblivious fashion can even
+decrease fairness when the protected attributes are noisy (Section 4.2).
+We consider a model of noise where we have probabilistic information about the protected attributes, and
+develop a framework to mitigate bias, which given this information, can satisfy one from a large class of fair-
+ness constraints with at most a small multiplicative error with high probability (Section 3). In our empirical
+study, we observe that this approach achieves a high level of fairness on standard fairness metrics (e.g., risk
+dierence), even when the probabilistic information about protected attributes is skewed (Remark 4.4 and
+Section 7), and this approach has a better tradeo between utility and fairness compared to several prior
+approaches (Section 4).
+Acknowledgements
+This research was supported in part by a J.P. Morgan Faculty Award. We would like to thank Nisheeth K.
+Vishnoi for several useful discussions on the problem and approach.
+20To do so: rst, pick k1items and place them top- k1positions, then from those remaining pick ( k2 k1) items and place
+them in the next ( k2 k1) positions, and so on.
+21This follows by using the union bound. However, as the events involved are correlated, it may be possible to get a stronger
+bound using a more sophisticated analysis.
+27References
+[1] OpenCV: Open Source Computer Vision Library. https://github.com/opencv/opencv_3rdparty/
+raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel .
+[2] Akshay Agrawal, Robin Verschueren, Steven Diamond, and Stephen Boyd. A rewriting system for
+convex optimization problems. Journal of Control and Decision , 5(1):42{60, 2018.
+[3] Dana Angluin and Philip D. Laird. Learning from noisy examples. Mach. Learn. , 2(4):343{370, 1987.
+[4] Pranjal Awasthi, Matth aus Kleindessner, and Jamie Morgenstern. Equalized odds postprocessing under
+imperfect group information. In International Conference on Articial Intelligence and Statistics , pages
+1770{1780. PMLR, 2020.
+[5] Tony Barboza and Joseph Serna. As coronavirus deaths surge, missing racial data worry l.a. county
+ocials. Los Angeles Times , April 2020. https://www.latimes.com/california/story/2020-04-06/
+missing-racial-data-coronavirus-deaths-worries-los-angeles-county-officials .
+[6] Marianne Bertrand and Sendhil Mullainathan. Are emily and greg more employable than lakisha and
+jamal? a eld experiment on labor market discrimination. American economic review , 94(4):991{1013,
+2004.
+[7] Joy Buolamwini and Timnit Gebru. Gender shades: Intersectional accuracy disparities in commercial
+gender classication. In FAT, volume 81 of Proceedings of Machine Learning Research , pages 77{91.
+PMLR, 2018.
+[8] Consumer Financial Protection Bureau. Using publicly available information to proxy for uniden-
+tied race and ethnicity . 2014. https://files.consumerfinance.gov/f/201409_cfpb_report_
+proxy-methodology.pdf .
+[9] United States Census Bureau. Current Population Survey (CPS). https://www.census.gov/
+programs-surveys/cps.html .
+[10] United States Census Bureau. FINC-02. Age of Reference Person, by Total Money Income, Type
+of Family, Race and Hispanic Origin of Reference Person. https://www.census.gov/data/tables/
+time-series/demo/income-poverty/cps-finc/finc-02.html .
+[11] Toon Calders and Sicco Verwer. Three naive bayes approaches for discrimination-free classication.
+Data Min. Knowl. Discov. , 21(2):277{292, 2010.
+[12] Carlos Castillo. Fairness and transparency in ranking. SIGIR Forum , 52(2):64{71, January 2019.
+[13] L. Elisa Celis, Lingxiao Huang, Vijay Keswani, and Nisheeth K. Vishnoi. Classication with Fairness
+Constraints: A Meta-Algorithm with Provable Guarantees. In FAT, pages 319{328. ACM, 2019.
+[14] L. Elisa Celis, Lingxiao Huang, Vijay Keswani, and Nisheeth K. Vishnoi. Fair classication with noisy
+protected attributes: A framework with provable guarantees. CoRR , abs/2006.04778, 2020.
+[15] L. Elisa Celis and Vijay Keswani. Implicit diversity in image summarization. Proc. ACM Hum. Comput.
+Interact. , 4(CSCW2):139:1{139:28, 2020.
+[16] L. Elisa Celis, Vijay Keswani, Damian Straszak, Amit Deshpande, Tarun Kathuria, and Nisheeth K.
+Vishnoi. Fair and Diverse DPP-Based Data Summarization. In ICML , volume 80 of Proceedings of
+Machine Learning Research , pages 715{724. PMLR, 2018.
+[17] L. Elisa Celis, Anay Mehrotra, and Nisheeth K. Vishnoi. Interventions for ranking in the presence of
+implicit bias. In FAT* , pages 369{380. ACM, 2020.
+[18] L. Elisa Celis, Damian Straszak, and Nisheeth K. Vishnoi. Ranking with Fairness Constraints. In
+ICALP , volume 107 of LIPIcs , pages 28:1{28:15. Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik,
+2018.
+28[19] Chandra Chekuri and Sanjeev Khanna. On multidimensional packing problems. SIAM journal on
+computing , 33(4):837{851, 2004.
+[20] Jiahao Chen, Nathan Kallus, Xiaojie Mao, Geory Svacha, and Madeleine Udell. Fairness under un-
+awareness: Assessing disparity when protected class is unobserved. In FAT, pages 339{348. ACM,
+2019.
+[21] Flavio Chierichetti, Ravi Kumar, Silvio Lattanzi, and Sergei Vassilvitskii. Fair clustering through
+fairlets. In NIPS , pages 5036{5044, 2017.
+[22] Flavio Chierichetti, Ravi Kumar, Silvio Lattanzi, and Sergei Vassilvitskii. Matroids, matchings, and
+fairness. In AISTATS , volume 89 of Proceedings of Machine Learning Research , pages 2212{2220. PMLR,
+2019.
+[23] Andrew J Coldman, Terry Braun, and Richard P Gallagher. The classication of ethnic status using
+name information. Journal of Epidemiology & Community Health , 42(4):390{395, 1988.
+[24] Thomas H Cormen, Charles E Leiserson, Ronald L Rivest, and Cliord Stein. Introduction to algorithms .
+MIT press, 2009.
+[25] Matthew Costello, James Hawdon, Thomas Ratli, and Tyler Grantham. Who views online extremism?
+individual attributes leading to exposure. Computers in Human Behavior , 63:311{320, 2016.
+[26] N.R. Council, D.B.S.S. Education, C.N. Statistics, P.D.C.R.E. Data, E. Perrin, and M.V. Ploeg. Elim-
+inating Health Disparities: Measurement and Data Needs . National Academies Press, 2004.
+[27] Marina Drosou, H. V. Jagadish, Evaggelia Pitoura, and Julia Stoyanovich. Diversity in big data: A
+review. Big Data , 5(2):73{84, 2017.
+[28] Marc Elliott, Peter Morrison, Allen Fremont, Daniel Mccarey, Philip Pantoja, and Nicole Lurie. Using
+the census bureau's surname list to improve estimates of race/ethnicity and associated disparities. Health
+Services and Outcomes Research Methodology , 9:252{253, 06 2009.
+[29] Marc N Elliott, Allen Fremont, Peter A Morrison, Philip Pantoja, and Nicole Lurie. A new method
+for estimating race/ethnicity and associated disparities where administrative records lack self-reported
+race/ethnicity. Health services research , 43(5 Pt 1):1722|1736, October 2008.
+[30] Vitalii Emelianov, Nicolas Gast, Krishna P. Gummadi, and Patrick Loiseau. On fair selection in the
+presence of implicit variance. In EC, pages 649{675. ACM, 2020.
+[31] Erin L Faught, Patty L Williams, Noreen D Willows, Mark Asbridge, and Paul J Veugelers. The
+association between food insecurity and academic achievement in canadian school-aged children. Public
+health nutrition , 20(15):2778{2785, 2017.
+[32] Kevin Fiscella and Allen Fremont. Use of geocoding and surname analysis to estimate race and ethnicity.
+Health services research , 41:1482{500, 09 2006.
+[33] Kevin Fiscella and Allen M Fremont. Use of geocoding and surname analysis to estimate race and
+ethnicity. Health services research , 41(4p1):1482{1500, 2006.
+[34] Beno^ t Fr enay and Michel Verleysen. Classication in the presence of label noise: A survey. IEEE
+Trans. Neural Networks Learn. Syst. , 25(5):845{869, 2014.
+[35] Sahin Cem Geyik, Stuart Ambler, and Krishnaram Kenthapadi. Fairness-aware ranking in search &
+recommendation systems with application to linkedin talent search. In KDD , pages 2221{2231. ACM,
+2019.
+[36] Martin Gr otschel, L aszl o Lov asz, and Alexander Schrijver. Geometric algorithms and combinatorial
+optimization , volume 2. Springer Science & Business Media, 2012.
+29[37] Maya R. Gupta, Andrew Cotter, Mahdi Milani Fard, and Serena Wang. Proxy fairness. CoRR ,
+abs/1806.11212, 2018.
+[38] LLC Gurobi Optimization. Gurobi optimizer reference manual, 2020.
+[39] Sara Hajian, Josep Domingo-Ferrer, and Oriol Farr as. Generalization-based privacy preservation and
+discrimination prevention in data publishing and mining. Data Mining and Knowledge Discovery ,
+28(5):1158{1188, Sep 2014.
+[40] Sara Hajian, Josep Domingo-Ferrer, Anna Monreale, Dino Pedreschi, and Fosca Giannotti.
+Discrimination- and privacy-aware patterns. Data Mining and Knowledge Discovery , 29(6):1733{1782,
+Nov 2015.
+[41] Moritz Hardt, Eric Price, and Nati Srebro. Equality of opportunity in supervised learning. In Daniel D.
+Lee, Masashi Sugiyama, Ulrike von Luxburg, Isabelle Guyon, and Roman Garnett, editors, Advances
+in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing
+Systems 2016, December 5-10, 2016, Barcelona, Spain , pages 3315{3323, 2016.
+[42] Johan Hastad. Clique is hard to approximate within n1 ". In Proceedings of 37th Conference on
+Foundations of Computer Science , pages 627{636. IEEE, 1996.
+[43] Ursula H ebert-Johnson, Michael P. Kim, Omer Reingold, and Guy N. Rothblum. Multicalibration:
+Calibration for the (computationally-identiable) masses. In ICML , volume 80 of Proceedings of Machine
+Learning Research , pages 1944{1953. PMLR, 2018.
+[44] Kalervo J arvelin and Jaana Kek al ainen. Cumulated gain-based evaluation of IR techniques. ACM
+Trans. Inf. Syst. , 20(4):422{446, 2002.
+[45] Christopher Jung, Changhwa Lee, Mallesh M. Pai, Aaron Roth, and Rakesh Vohra. Moment multical-
+ibration for uncertainty estimation. CoRR , abs/2008.08037, 2020.
+[46] Nathan Kallus, Xiaojie Mao, and Angela Zhou. Assessing algorithmic fairness with unobserved protected
+class using data combination. In FAT* , page 110. ACM, 2020.
+[47] Matthew Kay, Cynthia Matuszek, and Sean A. Munson. Unequal representation and gender stereotypes
+in image search results for occupations. In CHI, pages 3819{3828. ACM, 2015.
+[48] Michael Kearns, Aaron Roth, and Zhiwei Steven Wu. Meritocratic fairness for cross-population selection.
+InInternational Conference on Machine Learning , pages 1828{1836, 2017.
+[49] Hans Kellerer, Ulrich Pferschy, and David Pisinger. Knapsack problems . Springer, 2004.
+[50] Jon M. Kleinberg and Manish Raghavan. Selection problems in the presence of implicit bias. In ITCS ,
+volume 94 of LIPIcs , pages 33:1{33:17. Schloss Dagstuhl - Leibniz-Zentrum f ur Informatik, 2018.
+[51] Howard K Koh, Garth Graham, and Sherry A Glied. Reducing racial and ethnic disparities: the action
+plan from the department of health and human services. Health Aairs , 30(10):1822{1829, 2011.
+[52] Gueorgi Kossinets. Eects of missing data in social networks. Social Networks , 28(3):247{268, 2006.
+[53] Matt J. Kusner, Joshua R. Loftus, Chris Russell, and Ricardo Silva. Counterfactual fairness. In NIPS ,
+pages 4066{4076, 2017.
+[54] Alexandre Louis Lamy and Ziyuan Zhong. Noise-tolerant fair classication. In NeurIPS , pages 294{305,
+2019.
+[55] Hui Lin and Je Bilmes. A class of submodular functions for document summarization. In Proceed-
+ings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language
+Technologies - Volume 1 , HLT '11, pages 510{520, 2011.
+30[56] LinkedIn. Inferred Age or Gender on LinkedIn, February 2018. https://www.linkedin.com/help/
+linkedin/answer/3566/inferred-age-or-gender-on-linkedin?lang=en .
+[57] Tongliang Liu and Dacheng Tao. Classication with noisy labels by importance reweighting. IEEE
+Trans. Pattern Anal. Mach. Intell. , 38(3):447{461, 2016.
+[58] Naresh Manwani and P. S. Sastry. Noise tolerance under risk minimization. IEEE Trans. Cybern. ,
+43(3):1146{1151, 2013.
+[59] Rajeev Motwani and Prabhakar Raghavan. Randomized algorithms . Cambridge university press, 1995.
+[60] Christos H Papadimitriou and Kenneth Steiglitz. Combinatorial optimization: algorithms and complex-
+ity. Courier Corporation, 1998.
+[61] Adrian Rosebrock. Face detection with OpenCV and deep learning, February 2018. https://www.
+pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/ .
+[62] Rasmus Rothe, Radu Timofte, and Luc Van Gool. IMDB-WIKI { 500k+ face images with age and
+gender labels. https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/ .
+[63] Salvatore Ruggieri. Using t-closeness anonymity to control for non-discrimination. Trans. Data Priv. ,
+7(2):99{129, 2014.
+[64] Catherine Saunders, Gary Abel, Anas El Turabi, Faraz Ahmed, and Georgios Lyratzopoulos. Accuracy
+of routinely recorded ethnic group information compared with self-reported ethnicity: Evidence from
+the english cancer patient experience survey. BMJ open , 3, 06 2013.
+[65] Ashudeep Singh and Thorsten Joachims. Fairness of Exposure in Rankings. In KDD , pages 2219{2228.
+ACM, 2018.
+[66] Julia Stoyanovich, Ke Yang, and H. V. Jagadish. Online set selection with fairness and diversity
+constraints. In EDBT , pages 241{252. OpenProceedings.org, 2018.
+[67] USA The Census Bureau. Frequently Occurring Surnames from the Census 2010, April 2020. https:
+//www.census.gov/topics/population/genealogy/data/2010_surnames.html .
+[68] Eric Luis Uhlmann and Georey L Cohen. Constructed criteria: Redening merit to justify discrimi-
+nation. Psychological Science , 16(6):474{480, 2005.
+[69] Christine Wenneras and Agnes Wold. Nepotism and sexism in peer-review. Women, sience and tech-
+nology: A reader in feminist science studies , pages 46{52, 2001.
+[70] Ke Yang, Vasilis Gkatzelis, and Julia Stoyanovich. Balanced ranking with diversity constraints. In
+IJCAI , pages 6035{6042. ijcai.org, 2019.
+[71] Ke Yang, Joshua R. Loftus, and Julia Stoyanovich. Causal intersectionality for fair ranking. CoRR ,
+abs/2006.08688, 2020.
+[72] Ke Yang and Julia Stoyanovich. Measuring fairness in ranked outputs. In SSDBM , pages 22:1{22:6.
+ACM, 2017.
+[73] Meike Zehlike, Francesco Bonchi, Carlos Castillo, Sara Hajian, Mohamed Megahed, and Ricardo A.
+Baeza-Yates. FA*IR: A Fair Top- kRanking Algorithm. In CIKM , pages 1569{1578. ACM, 2017.
+[74] Meike Zehlike and Carlos Castillo. Reducing disparate exposure in ranking: A learning to rank approach.
+InWWW , pages 2849{2855. ACM / IW3C2, 2020.
+[75] David Zuckerman. Linear degree extractors and the inapproximability of max clique and chromatic
+number. In STOC 2006 , pages 681{690, 2006.
+31A Extended empirical results
+A.1 Implementation details
+A.1.1 Optimization libraries.
+We used CVXPY [2] and Gurobi [38] to implement the algorithms.
+A.1.2 Rounding scheme.
+The rounding scheme from our theoretical results (Step 2 of Algorithm 1) crucially uses the fact that the
+intermediate solution found has a small number of fractional entries. Since the solutions of MultObj can
+have a large number of fractional entries, the same rounding scheme is not useful. Instead, one can use
+randomized rounding [59], which, given a solution x2[0;1]m, outputs a subset S[m] of sizenwith
+probabilityQ
+i2Sxi.
+In our simulations, we use the same rounding scheme | randomized rounding [59] | for MultObj ,
+FairExpec , and FairExpecGrp . We also ran a version of our experiments where, we used the rounding scheme
+from our theoretical results (Step 2 of Algorithm 1) for FairExpec , and FairExpecGrp , and randomized rounding
+forMultObj . We observed similar results in these simulations.
+A.1.3 Choice of mandn.
+We setm= 500 and n= 100 in all experiments, except in Section 4.3 | where we set m= 2000 following
+[71] | and in Section 4.4 | where increase mto 1000. We increase mto 1000 in Section 4.4 to ensure that
+the sample of candidates has at least n=4candidates from each of the four races. (Any algorithm requires
+this to be able to satisfy the fairness constraints.)
+A.1.4 Additional details of the simulation from Section 4.3
+Additional details of the data. The dataset has 37% Black candidates, 37% candidates without prior
+experience, and 13.7% Black candidates without prior experience. The utilities are such that the Black
+candidates ( zi= 0) have a lower expected utility than non-Black candidates, candidates without prior expe-
+rience (ai1= 0) have a lower expected utility than those with prior work experience, and Black candidates
+without prior experience ( zi= 0;ai1= 0) have the lowest expected utility.
+Preprocessing We sample a training dataset D0withm= 2000 candidates. Then, we use the code by [71]
+to get an approximation offromD0. (CntrFair andCntrFairResolving useM() to generate counterfactual
+utilities). To generate the estimate of q, we partition candidates into 20 equally sized bins, ( b1;:::;b 20), by
+their utility. (Each bin has 100 candidates). Given a candidate idescribed by ( wi;zi;ai1;ai2) such that
+wi2bk, we dene qias follows:
+qi0= Prj[zj= 0jwj2bk] andqi1= 1 qi0; (22)
+where the probability is over the candidates jinD0. Note that the candidate imay not be in D0.
+A.1.5 Implementation details of simulation from Section 4.5
+Specics of cropping. For each image where the face-detector found a face, we cropped the image to
+the region \around" the detected face. More precisely, we expand the bounding box returned by the face-
+detector by 40% (on each side) and then crop the image to this expanded bounding box. If the expanded
+bounding box exceeded the image dimensions, we lled in the empty region by copying the last pixel layer.
+Face-detector. We referenced the tutorial by [61] while writing the code for our simulations.
+32Preprocessing As a preprocessing step, we remove all images with a gender label NA, this leaves us with
+5,825 images. Next, we use a face-detector to extract faces from the images (5,825) and remove the ones
+where the detector does not detect any face.22This gives us 4,494 images (77% of 5,825).
+We calibrate the classier by binning its values into b= 20 bins. For each bin j2[20], we calculate
+the classier's accuracy a(j)2[0;1]. This initial calibration is done only once. Given image i, we compute
+the classier's output fi2[0;1]. Letfifall in binj. Then, we set the noise-information qiof imageito
+qi:= [a(j);1 a(j)] More formally, we ran the image classier on images to get a set of predictions F:=ffigi.
+Then, we binned the values in Fintob= 20 equally sized bins (over [0 ;1]). For all j2[b], letBj[m] be
+the set of images in the j-th bin. Further, let GmandGfbe the set of images containing men and women,
+respectively. Then, taking an uncalibrated fias input, we output calibrated qi;`as follows: Let fifall in the
+j-th bin, then for all `2fm;fgoutput
+qi;`:=jBj\G`j
+jBjj: (23)
+A.2 Optimizing for Selection Lift
+Given subset S2[m] and target t2[0;1]p, dene the selection lift FL(S;t)2[0;1] as
+FL(S;t):= min
+`;k2[p]jS\G`j
+nt`ntk
+jS\Gkj
+: (Selection lift; 24)
+Note that when the target is proportional representation, then the above denition reduces to the usual
+denition of selection lift [11, 39, 40]. Let A(w;q)[m] be the subset outputted by algorithm Aon input
+(w;q). We report
+FL;A:=E[FL(A(w;q);t)];
+where the expectation is over the choices of ( w;q). We drop the subscript Awhen the algorithm is not
+important or clear from context.
+Discussion. Let selection lift of a selection x2f0;1gm, beFL(x)2[0;1]. Fix the desired level 2[0;1]
+of selection lift, and let the set of selections x2f0;1gmwhich haveFL(x)selection lift be R(). Ideally,
+we would like to nd
+argmaxx2R()w>x: (25)
+However, the feasible region R0(), considered by FairExpec is a strict subset of R(). Thus, FairExpec
+outputs
+argmaxx2R0()w>x: (26)
+We believe this is why FairExpec is not Pareto-optimal in the simulation from Section 4.4 for FL(). However,
+a reduction from Program (25) to (multiple instances of) Program (26) should ensure that FairExpec is
+Pareto-optimal for FL() (see, e.g., [13, Theorem 3.1]).
+22Note that we do not check if the detected faces are correct. This introduces some error, which is also expected in practice.
+33A.3 Additional simulations varyingn=m
+50 100 150 200 250
+n0.00.20.40.60.81.0Fairness achieved ()
+Image search (custom_cal=0)
+(m,n)=(1000,250), inc-in-male-val (multiplier)=1,
+ iter=50, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=r_diff.
+FairExpec
+FairExpecGrp
+MultObj
+Thresh
+BlindAAAAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair) AAAAAAAAAAAAAAAAAAAAA Selection size ( n)
+Figure 7: Risk dierence on varyingn=m(Section 4.5): To analyze the robustness of our approach to the
+fraction of items selected (n=m), we xm= 1000 and vary nfrom 25 to 250 in Simulation 4.5. The y-axis shows the
+risk dierentFof dierent algorithms, and the x-axis shows n;Fvalues are averaged over 200 trials, and the error
+bars represent the std. error of the mean. We nd that on increasing nthe dierence between the Fof dierent
+algorithms remains roughly the same. We refer the reader to Remark 4.6 for the details.
+50 100 150 200 250 300 350
+n0.50.60.70.80.91.0Risk difference ()
+Toy experiment | (m,,)=(500,1,2500.0) | iter=100 | fmetric=r_diff
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair) AAAAAAAAAAAAAAAAAAAAA Selection size ( n)
+Figure 8: Risk dierence on varyingn=m(Section 4.2): To analyze the robustness of our approach to the
+fraction of items selected (n=m), we xm= 1000 and vary nfrom 50 to 350 in Simulation 4.2. The y-axis shows the
+risk dierentFof dierent algorithms, and the x-axis shows n;Fvalues are averaged over 100 trials, and the error
+bars represent the std. error of the mean. We nd that on increasing n,FairExpec andFairExpecGrp become slightly
+fairer compared to others. We refer the reader to Remark 4.6 for the details.
+34A.4 Additional plots for Section 4.2
+0.0 0.2 0.4 0.6 0.8 1.0
+0.900.920.940.960.981.00Utility ratio ()
+0 500 1000 1500 2000 2500
+Toy experiment | (m,n)=(500,100) | iter=500 | fmetric=r_diff
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAA Utility Ratio (K)
+Figure 9: Additional plot for Section 4.2: This simulation considers the setting where the minority group (40% of
+total) has a higher 30% higher FDR compared to the majority group. The utilities of all candidates are iid from
+the uniform distribution. The target is to ensure equal representation between the majority and minority groups.
+We refer the reader to Section 4.2 for the details of the simulation. The y-axis shows the utility ratio Kof dierent
+algorithms, and the x-axis shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , andfor
+MultObj );Kaveraged over 500 trials, and the error bars represent the standard error of the mean. We observe that
+FairExpec andFairExpecGrp lose a larger fraction of the utility. Although, note that this because they have a higher
+level of fairness; see Figure 1.
+Remark A.1 (Reading the double x-axis). We note that both subgures in Figure 9 and Figure 10 have
+a doublex-axis: one for and one for . Therefore, one should note compared the ForKofMultObj with
+other algorithms at a particular x-coordinate. It could be useful to consider the limiting their values at the
+largestand, respectively.
+0.0 0.2 0.4 0.6 0.8 1.0
+0.40.50.60.70.80.91.0Fairness achieved ()
+0 500 1000 1500 2000 2500
+Toy experiment | (m,n)=(500,100) | iter=500 | fmetric=selec_lft
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAA (more fair) Selection lift (FL) (less fair)
+Figure 10: Additional plot for Section 4.2 with selection lift: This simulation considers the setting where the minority
+group (40% of total) has a higher 30% higher FDR compared to the majority group. The utilities of all candidates
+are iid from the uniform distribution. The target is to ensure equal representation between the majority and minority
+groups. We refer the reader to Section 4.2 for the details of the simulation. The y-axis shows the selection lift FLof
+dierent algorithms, and the x-axis shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , and
+forMultObj );FLvalues are averaged over 500 trials, and the error bars represent the standard error of the mean.
+We observe similar results as with risk dierence ( F). For a denition of selection lift see Equation (24).
+35A.5 Additional plots for Section 4.3
+0.0 0.1 0.2 0.3 0.4 0.5
+Noise ()
+0.00.20.40.60.81.0Fairness achieved ()
+Testing causal on N dat | Testing FE on N dat with 20 eq-sz bins
+[[0.5,0.5],[0.5,0.5]]
+ Causal experiment (n=100) | iter=100 | metric=selec_lft
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+Blind
+AAAAAAAAAAAAAAAAAAAAA (more fair) Selection lift (FL) (less fair)CntrFairCntrFairRes
+Figure 11: Additional results for Section 4.3 with selection lift: They-axis shows the selection lift FLof dierent
+algorithms, and the x-axis shows the amount of noise added 2[0;1=2];FLvalues are averaged over 100 trials, and
+the error bars represent the standard error of the mean. We refer the reader to Section 4.3 for the details of the
+simulation. We observe similar results as with risk dierence ( F). For a denition of selection lift see Equation (24).
+0.0 0.1 0.2 0.3 0.4 0.5
+Noise ()
+0.30.40.50.60.70.80.91.0Utility Ratio ()
+Testing causal on N dat | Testing FE on N dat with 20 eq-sz bins
+[[0.5,0.5],[0.5,0.5]]
+ Causal experiment (n=100) | iter=20 | metric=r_diff
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+BlindAAAAAAAAAAAAAAAA Utility Ratio (K)
+(more noise) Noise () (less noise)CntrFairCntrFairReCntrFairRes
+Figure 12: Additional results for Section 4.3: This simulation considers the setting where the utilities of a minority
+group have a lower average than the majority group, and both groups have identical amount of noise. The y-axis
+shows the utility ratio Kof dierent algorithms, and the x-axis shows the amount of noise added 2[0;1=2];K
+values are averaged over 20 trials, and the error bars represent the standard error of the mean. We refer the reader
+to Section 4.3 for details and discussion. We note that the utility ratio of all algorithms decreases on adding noise.
+Finally, we note that utilities in this experiment can be negative; we observe that CntrFair has a negative utility ratio.
+The caveat is that CntrFair andCntrFairResolving , try to maximize the counterfactual utilities.
+Given subset S2[m] and a`2[p], we dene the selection rate of Swith respect to group G`as
+SR(S;`):=jS\G`j
+nm
+jG`j(Selection rate; 27)
+LetA(w;q)[m] be the subset outputted by algorithm Aon input (w;q). We report
+SRA;`:=E[SR(A(w;q);`)];
+where the expectation is over the choices of ( w;q). We drop the subscript Awhen the algorithm is not
+important or clear from context.
+36WB WB WB WB WB WB WB
+Race0.00.51.01.52.02.53.0Selection rateCausal exp | n=100 | iter=50 | 20 eq-sz bins | [[1,0],[0,1]].
+Noise: =0
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+Blind
+AAAAAAAAAAAAAAAAAAAAASelection rate
+Race (W: White, B: Black)CntrFairCntrFairRes
+WB WB WB WB WB WB WB
+Race0.00.51.01.52.02.53.0Selection rateCausal exp | n=100 | iter=50 | 20 eq-sz bins | [[0.8,0.2],[0.2,0.8]].
+Noise: =0.2
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+BlindAAAAAAAAAAAAAAAAAAAAASelection rate
+Race (W: White, B: Black)CntrFairCntrFairRes
+WB WB WB WB WB WB WB
+Race0.00.51.01.52.02.53.0Selection rateCausal exp | n=100 | iter=50 | 20 eq-sz bins | [[0.5,0.5],[0.5,0.5]].
+Noise: =0.5
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Causal-Resolving
+Causal
+BlindAAAAAAAAAAAAAAAAAAAAASelection rate
+Race (W: White, B: Black)CntrFairCntrFairRes
+Figure 13: Additional plots for Section 4.3: This simulation considers the setting where the utilities of a minority
+group have a lower average than the majority group, and both groups have identical amount of noise. The three
+plots show three values of noise 2f0;0:2;0:5g. They-axis shows the selection rate (see Equation (27)) of dierent
+algorithms; Selection rate values are averaged over 50 trials, and the error bars represent the standard error of the
+mean. We refer the reader to Section 4.3 for details and discussion. We observe that FairExpec is the closest having
+a selection rate of 1 across noise levels. We extended the code by [71] to generate this plot.
+.
+37A.6 Additional results for Section 4.4
+0.0 0.2 0.4 0.6 0.8 1.0
+0.50.60.70.80.91.0Utility ratio ()
+0 1200 2400 3600 4800 6000
+(m,n)=(1000,100), increase-in-white-value (multiplier)=1, iter=100,=[0.e+00 0.e+00 0.e+00 1.e+00 6.e+03]
+custom_size=0, custom_size_arg=0.0, and calibrate_with_util=0 f-metric=r_diff target=equal.
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAA Utility Ratio (K)
+(a) They-axis shows the utility ratio Kof dierent algorithms, and the x-axis
+shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , and
+forMultObj );Kvalues are averaged over 100 trials, and the error bars represent
+the standard error of the mean.
+0.0 0.2 0.4 0.6 0.8 1.0
+0.00.20.40.60.81.0Fairness achieved ()
+0 1200 2400 3600 4800 6000
+(m,n)=(1000,100), increase-in-white-value (multiplier)=1, iter=100,=[0.e+00 0.e+00 0.e+00 1.e+00 6.e+03]
+custom_size=0, custom_size_arg=0.0, and calibrate_with_util=0 f-metric=r_diff target=equal.
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+AAAAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair)
+(b) They-axis shows the risk dierence Fof dierent algorithms, and the x-axis
+shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , and
+forMultObj );Fvalues are averaged over 100 trials, and the error bars represent
+the standard error of the mean.
+Figure 14: Additional plot for candidate selection (Section 4.4): This simulation considers race as the protected
+attribute which takes p= 4 values, where an individual's utility is drawn from dierent distributions depending on
+their race. The simulation uses last name as a proxy to derive noisy information of race. We refer the reader to
+Section 4.4 for the details of the simulation.
+Remark A.2 (Reading the double x-axis). We note that both subgures in Figure 14 have a double
+x-axis: one for and one for . Therefore, one should note compared the ForKofMultObj with other
+algorithms at a particular x-coordinate. It could be useful to consider the limiting their values at the largest
+and, respectively.
+38Race Mean (USD per annum)
+White 100,169
+Black 70,504
+Asian and Pacic Islander (API) 118,421
+Hispanic 71,565
+Figure 15: Statistics of Drfor dierent races r;Dris the discrete distributions of incomes of families with
+racerderived from the income dataset [10].
+0.0 0.2 0.4 0.6 0.8 1.0
+Fairness achieved ()
+0.50.60.70.80.91.0Utility Ratio ()
+(m,n)=(1000,100), increase-in-white-value (multiplier)=1, iter=100,=[0.e+00 0.e+00 0.e+00 1.e+00 6.e+03]
+custom_size=0, custom_size_arg=0.0, and calibrate_with_util=0 f-metric=selec_lft target=equal.
+FairExpec
+FairExpecGrp
+MultObj
+Thrsh
+Blind
+.........................AAAAAAAAAAAAAAAAAAAAA Utility ratio (K)
+(more fair) Selection lift (FL) (less fair)
+Figure 16: Additional results for Section 4.4 with selection lift: They-axis shows the selection lift FLof dierent
+algorithms, and the x-axis shows the risk dierence of dierent algorithms; both KandFLvalues are averaged over
+200 trials, and the error bars represent the standard error of the mean. We refer the reader to Section 4.4 for the
+details of the simulation. We observe that FairExpec has lower utility ratio than MultObj for some values of selection
+lift; see Section 4.6 for a discussion. For a denition of selection lift see Equation (24).
+A.7 Additional results for Section 4.5
+Occupation name
+Styf(0:8)
+Num:
+12administrative assistant; counselor; den-
+tal hygienist; ight attendant; hairdresser;
+housekeeper; massage therapist; nurse;
+nurse practitioner; receptionist; social
+worker; special ed teacher
+Stym(0:8)
+Num:
+29announcer; barber; bill collector; building
+inspector; building painter; butcher; chief
+executive ocer; clergy member; construc-
+tion worker; courier; crane operator; de-
+tective; dishwasher; electrician; extermi-
+nator; garbage collector; groundskeeper;
+logistician; machinist; parking attendant;
+plumber; police ocer; private investiga-
+tor; roofer; security guard; taxi driver;
+teller; web developer; welder
+Figure 17: Occupations with at least 80% of images from one gender (from the occupations dataset [15]) .
+We refer the reader to Section 4.5 for more details, and the denition of Stym(andStyf).
+Remark A.3 (Reading the double x-axis). We note that both subgures in Figure 18 have a double
+x-axis: one for and one for . Therefore, one should note compared the ForKofMultObj with other
+algorithms at a particular x-coordinate. It could be useful to consider the limiting their values at the largest
+and, respectively.
+390.0 0.2 0.4 0.6 0.8 1.0
+0.860.880.900.920.940.960.981.00Utility ratio ()
+0 100 200 300 400 500
+Image search (custom_cal=0)
+(m,n)=(500,100), inc-in-male-val (multiplier)=1,
+ iter=200, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=r_diff.
+FairExpec
+Thresh
+FairExpecGrp
+MultObj
+Blind
+AAAAAAAAAAAAAAAA Utility Ratio (K)
+(a) They-axis shows the utility ratio Kof dierent algorithms, and the x-axis
+shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , and
+forMultObj );Kvalues are averaged over 200 trials, and the error bars represent
+the standard error of the mean.
+0.0 0.2 0.4 0.6 0.8 1.0
+0.40.50.60.70.80.91.0Fairness achieved ()
+0 100 200 300 400 500
+Image search (custom_cal=0)
+(m,n)=(500,100), inc-in-male-val (multiplier)=1,
+ iter=200, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=r_diff.
+FairExpec
+FairExpecGrp
+MultObj
+Thresh
+Blind
+AAAAAAAAAAAAAAAAAAA (more fair) Risk dierence (F) (less fair)
+(b) They-axis shows the risk dierence Fof dierent algorithms, and the x-axis
+shows the constraint parameters ( forFairExpec ,FairExpecGrp , and Thrsh , and
+forMultObj );Fvalues are averaged over 200 trials, and the error bars represent
+the standard error of the mean.
+Figure 18: Additional for image selection (Section 4.5): This simulation considers gender as the protected attribute
+and uses a CNN-based classier to derive noisy information about the gender of the person in the image. We refer
+the reader to Section 4.5 for the details of the simulation.
+.
+400.4 0.5 0.6 0.7 0.8 0.9 1.0
+Fairness achieved ()
+0.860.880.900.920.940.960.981.00Utility Ratio ()
+Image search (custom_cal=0)
+(m,n)=(500,100), inc-in-male-val (multiplier)=1,
+ iter=200, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=r_diff.
+FairExpec
+FairExpecGrp
+MultObj
+Thresh
+Blind.........................AAAAAAAAAAAAAAAAAAAAA NDGC
+(more fair) Selection lift (FL) (less fair)
+(a) They-axis shows the NDCG value of dierent algorithms, and the x-axis
+shows selection lift ( FL); both values are averaged over 100 trials.
+Figure 19: Additional gure for Section 4.5: This simulation considers gender as the protected attribute and uses
+a CNN-based classier to derive noisy information about the gender of the person in the image. The y-axis shows
+the NDCG value of dierent algorithms, and the x-axis shows selection lift ( FL); both values are averaged over 100
+trials. We refer the reader to Section 4.5 for details of the simulation. We observe similar results to those with utility
+ratio (K) (see Figure 5).
+0.4 0.5 0.6 0.7 0.8 0.9 1.0
+Fairness achieved ()
+0.860.880.900.920.940.960.981.00Utility Ratio ()
+Image search (custom_cal=0)
+(m,n)=(500,100), inc-in-male-val (multiplier)=1,
+ iter=200, target=equal, utype=DCG (100/log(r+1)),
+ o_lists=[men_typical08,women_typical08], fmetric=selec_lft.
+FairExpec
+FairExpecGrp
+MultObj
+Thresh
+Blind
+.........................AAAAAAAAAAAAAAAAAAAAA Utility ratio (K)
+(more fair) Selection lift (FL) (less fair)
+Figure 20: Additional results for Section 4.5 with selection lift: They-axis shows the utility ratio ( K) of dierent
+algorithms, and the x-axis shows the selection lift ( FL) of dierent algorithms; both KandFLvalues are averaged
+over 200 trials, and the error bars represent the standard error of the mean. We refer the reader to Section 4.5 for the
+details of the simulation. We observe similar results as with risk dierence ( F). See Equation (24) for a denition of
+selection lift (FL).
+41

@@ -1,0 +1,879 @@
+International Institute for Applied Systems Analysis
+Schlossplatz 1 • A-2361 Laxenburg • Austria
+Telephone: ( 43 2236 ) 807 342 • Fax: ( 43 2236 ) 71313
+E-mail: publications@iiasa.ac.at • Internet: www.iiasa.ac.at
+
+Interim Report
+
+IR-00-057
+
+Fairness Versus Reason in the Ultimatum Game
+Martin A. Nowak (nowak@ias.edu)
+Karen M. Page (page@ias.edu)
+Karl Sigmund (karl.sigmund@univie.ac.at)
+
+Approved by
+
+Ulf Dieckmann (dieckman@iiasa.ac.at)
+Project Coordinator, Adaptive Dynamics Network
+November 2000
+
+Interim Reports on work of the International Institute for Applied Systems Analysis receive only limited
+review. Views or opinions expressed herein do not necessarily represent those of the Institute, its National
+Member Organizations, or other organizations supporting the work.
+
+IIASA STUDIES IN ADAPTIVE DYNAMICS
+
+ADN
+
+NO. 50
+
+The Adaptive Dynamics Network at
+IIASA fosters the development of new
+mathematical and conceptual techniques for understanding the evolution
+of complex adaptive systems.
+Focusing on these long-term implications of adaptive processes in systems
+of limited growth, the Adaptive Dynamics Network brings together scientists and institutions from around the
+world with IIASA acting as the central
+node.
+Scientific progress within the network
+is reported in the IIASA Studies in
+Adaptive Dynamics series.
+
+THE ADAPTIVE DYNAMICS NETWORK
+The pivotal role of evolutionary theory in life sciences derives from its capability to
+provide causal explanations for phenomena that are highly improbable in the physicochemical sense. Yet, until recently, many facts in biology could not be accounted for in
+the light of evolution. Just as physicists for a long time ignored the presence of chaos,
+these phenomena were basically not perceived by biologists.
+Two examples illustrate this assertion. Although Darwin’s publication of “The Origin
+of Species” sparked off the whole evolutionary revolution, oddly enough, the population genetic framework underlying the modern synthesis holds no clues to speciation
+events. A second illustration is the more recently appreciated issue of jump increases
+in biological complexity that result from the aggregation of individuals into mutualistic
+wholes.
+These and many more problems possess a common source: the interactions of individuals are bound to change the environments these individuals live in. By closing the
+feedback loop in the evolutionary explanation, a new mathematical theory of the evolution of complex adaptive systems arises. It is this general theoretical option that lies at
+the core of the emerging field of adaptive dynamics. In consequence a major promise
+of adaptive dynamics studies is to elucidate the long-term effects of the interactions
+between ecological and evolutionary processes.
+A commitment to interfacing the theory with empirical applications is necessary both
+for validation and for management problems. For example, empirical evidence indicates that to control pests and diseases or to achieve sustainable harvesting of renewable
+resources evolutionary deliberation is already crucial on the time scale of two decades.
+The Adaptive Dynamics Network has as its primary objective the development of mathematical tools for the analysis of adaptive systems inside and outside the biological realm.
+
+IIASA STUDIES IN ADAPTIVE DYNAMICS
+
+No. 1
+
+Metz JAJ, Geritz SAH, Meszéna G, Jacobs FJA, van Heerwaarden JS:
+Adaptive Dynamics: A Geometrical Study of the Consequences of Nearly
+Faithful Reproduction.
+IIASA Working Paper WP-95-099.
+In: van Strien SJ, Verduyn Lunel SM (eds.): Stochastic and Spatial Structures of Dynamical
+Systems, Proceedings of the Royal Dutch Academy of Science (KNAW Verhandelingen),
+North Holland, Amsterdam, pp. 183–231 (1996).
+
+No. 2
+
+Dieckmann U, Law R:
+The Dynamical Theory of Coevolution: A Derivation from Stochastic
+Ecological Processes.
+IIASA Working Paper WP-96-001.
+Journal of Mathematical Biology (1996) 34, 579–612.
+
+No. 3
+
+Dieckmann U, Marrow P, Law R:
+Evolutionary Cycling of Predator-Prey Interactions: Population Dynamics
+and the Red Queen.
+Journal of Theoretical Biology (1995) 176, 91–102.
+
+No. 4
+
+Marrow P, Dieckmann U, Law R:
+Evolutionary Dynamics of Predator-Prey Systems: An Ecological
+Perspective.
+IIASA Working Paper WP-96-002.
+Journal of Mathematical Biology (1996) 34, 556–578.
+
+No. 5
+
+Law R, Marrow P, Dieckmann U:
+On Evolution under Asymmetric Competition.
+IIASA Working Paper WP-96-003.
+Evolutionary Ecology (1997) 11, 485–501.
+
+No. 6
+
+Metz JAJ, Mylius SD, Diekmann O:
+When Does Evolution Optimise? On the Relation between Types of Density
+Dependence and Evolutionarily Stable Life History Parameters.
+IIASA Working Paper WP-96-004.
+
+No. 7
+
+Ferrière R, Gatto M:
+Lyapunov Exponents and the Mathematics of Invasion in Oscillatory or Chaotic
+Populations.
+Theoretical Population Biology (1995) 48, 126–171.
+
+No. 8
+
+Ferrière R, Fox GA:
+Chaos and Evolution.
+Trends in Ecology and Evolution (1995) 10, 480–485.
+
+No. 9
+
+Ferrière R, Michod RE:
+The Evolution of Cooperation in Spatially Heterogeneous Populations.
+IIASA Working Paper WP-96-029.
+American Naturalist (1996) 147, 692–717.
+
+No. 10
+
+Van Dooren TJM, Metz JAJ:
+Delayed Maturation in Temporally Structured Populations with Non-Equilibrium
+Dynamics.
+IIASA Working Paper WP-96-070.
+Journal of Evolutionary Biology (1998) 11, 41–62.
+
+No. 11
+
+Geritz SAH, Metz JAJ, Kisdi É, Meszéna G:
+The Dynamics of Adaptation and Evolutionary Branching.
+IIASA Working Paper WP-96-077.
+Physical Review Letters (1997) 78, 2024–2027.
+
+No. 12
+
+Geritz SAH, Kisdi É, Meszéna G, Metz JAJ:
+Evolutionarily Singular Strategies and the Adaptive Growth and Branching
+of the Evolutionary Tree.
+IIASA Working Paper WP-96-114.
+Evolutionary Ecology (1998) 12, 35–57.
+
+No. 13
+
+Heino M, Metz JAJ, Kaitala V:
+Evolution of Mixed Maturation Strategies in Semelparous Life-Histories: the
+Crucial Role of Dimensionality of Feedback Environment.
+IIASA Working Paper WP-96-126.
+Philosophical Transactions of the Royal Society of London Series B (1997) 352, 1647–
+1655.
+
+No. 14
+
+Dieckmann U:
+Can Adaptive Dynamics Invade?
+IIASA Working Paper WP-96-152.
+Trends in Ecology and Evolution (1997) 12, 128–131.
+
+No. 15
+
+Meszéna G, Czibula I, Geritz SAH:
+Adaptive Dynamics in a Two-Patch Environment: a Simple Model for
+Allopatric and Parapatric Speciation.
+IIASA Interim Report IR-97-001.
+Journal of Biological Systems (1997) 5, 265–284.
+
+No. 16
+
+Heino M, Metz JAJ, Kaitala V:
+The Enigma of Frequency-Dependent Selection.
+IIASA Interim Report IR-97-061.
+Trends in Ecology and Evolution (1998) 13, 367–370.
+
+No. 17
+
+Heino M:
+Management of Evolving Fish Stocks.
+IIASA Interim Report IR-97-062.
+Canadian Journal of Fisheries and Aquatic Sciences (1998) 55, 1971–1982.
+
+No. 18
+
+Heino M:
+Evolution of Mixed Reproductive Strategies in Simple Life-History Models.
+IIASA Interim Report IR-97-063.
+
+No. 19
+
+Geritz SAH, van der Meijden E, Metz JAJ:
+Evolutionary Dynamics of Seed Size and Seedling Competitive Ability.
+IIASA Interim Report IR-97-071.
+Theoretical Population Biology (1999) 55, 324-343.
+
+No. 20
+
+Galis F, Metz JAJ:
+Why are there so many Cichlid Species? On the Interplay of Speciation and
+Adaptive Radiation.
+IIASA Interim Report IR-97-072.
+Trends in Ecology and Evolution (1998) 13, 1–2.
+
+No. 21
+
+Boerlijst MC, Nowak MA, Sigmund K:
+Equal Pay for all Prisoners. / The Logic of Contrition.
+IIASA Interim Report IR-97-073.
+AMS Monthly (1997) 104, 303–307.
+Journal of Theoretical Biology (1997) 185, 281–294.
+
+No. 22
+
+Law R, Dieckmann U:
+Symbiosis without Mutualism and the Merger of Lineages in Evolution.
+IIASA Interim Report IR-97-074.
+Proceedings of the Royal Society of London Series B (1998) 265, 1245–1253.
+
+No. 23
+
+Klinkhamer PGL, de Jong TJ, Metz JAJ:
+Sex and Size in Cosexual Plants.
+IIASA Interim Report IR-97-078.
+Trends in Ecology and Evolution (1997) 12, 260–265.
+
+No. 24
+
+Fontana W, Schuster P:
+Shaping Space: The Possible and the Attainable in RNA Genotype-Phenotype
+Mapping.
+IIASA Interim Report IR-98-004.
+Journal of Theoretical Biology (1998) 194, 491-515.
+
+No. 25
+
+Kisdi É, Geritz SAH:
+Adaptive Dynamics in Allele Space: Evolution of Genetic Polymorphism by
+Small Mutations in a Heterogeneous Environment.
+IIASA Interim Report IR-98-038.
+Evolution (1999) 53, 993-1008.
+
+No. 26
+
+Fontana W, Schuster P:
+Continuity in Evolution: On the Nature of Transitions.
+IIASA Interim Report IR-98-039.
+Science (1998) 280, 1451–1455.
+
+No. 27
+
+Nowak MA, Sigmund K:
+Evolution of Indirect Reciprocity by Image Scoring. / The Dynamics of
+Indirect Reciprocity.
+IIASA Interim Report IR-98-040.
+Nature (1998) 393, 573–577.
+Journal of Theoretical Biology (1998) 194, 561-574.
+
+No. 28
+
+Kisdi É:
+Evolutionary Branching Under Asymmetric Competition.
+IIASA Interim Report IR-98-045.
+Journal of Theoretical Biology (1999) 197, 149-162.
+
+No. 29
+
+Berger U:
+Best Response Adaptation for Role Games.
+IIASA Interim Report IR-98-086.
+
+No. 30
+
+Van Dooren TJM:
+The Evolutionary Ecology of Dominance-Recessivity
+IIASA Interim Report IR-98-096.
+Journal of Theoretical Biology (1999) 198, 519-532.
+
+No. 31
+
+Dieckmann U, O’Hara B, Weisser W:
+The Evolutionary Ecology of Dispersal.
+IIASA Interim Report IR-98-108.
+Trends in Ecology and Evolution (1999) 14, 88–90.
+
+No. 32
+
+Sigmund K:
+Complex Adaptive Systems and the Evolution of Reciprocation.
+IIASA Interim Report IR-98-100.
+Ecosystems (1998) 1, 444-448.
+
+No. 33
+
+Posch M, Pichler A, Sigmund K:
+The Efficiency of Adapting Aspiration Levels.
+IIASA Interim Report IR-98-103.
+Proceedings of the Royal Society of London Series B (1999) 266, 1427-1435.
+
+No. 34
+
+Mathias A, Kisdi É:
+Evolutionary Branching and Coexistence of Germination Strategies.
+IIASA Interim Report IR-99-014.
+
+No. 35
+
+Dieckmann U, Doebeli M:
+On the Origin of Species by Sympatric Speciation.
+IIASA Interim Report IR-99-013.
+Nature (1999) 400, 354–357.
+
+No. 36
+
+Metz JAJ, Gyllenberg M:
+How Should We Define Fitness in Structured Metapopulation Models? Including an Application to the Calculation of Evolutionarily Stable Dispersal
+Strategies.
+IIASA Interim Report IR-99-019.
+Research Report A39 (1999), University of Turku, Institute of Applied Mathematics, Turku,
+Finland.
+
+No. 37
+
+Gyllenberg M, Metz JAJ:
+On Fitness in Structured Metapopulations.
+IIASA Interim Report IR-99-037.
+Research Report A38 (1999), University of Turku, Institute of Applied Mathematics, Turku,
+Finland.
+
+No. 38
+
+Meszéna G, Metz JAJ:
+Species Diversity and Population Regulation: The Importance of Environmental Feedback Dimensionality.
+IIASA Interim Report IR-99-045.
+
+No. 39
+
+Kisdi É, Geritz SAH:
+Evolutionary Branching and Sympatric Speciation in Diploid Populations.
+IIASA Interim Report IR-99-048.
+
+No. 40
+
+Ylikarjula J, Heino M, Dieckmann U:
+Ecology and Adaptation of Stunted Growth in Fish.
+IIASA Interim Report IR-99-050.
+Evolutionary Ecology (1999) 13, 433–453.
+
+No. 41
+
+Nowak MA, Sigmund K:
+Games on Grids.
+IIASA Interim Report IR-99-038.
+In: Dieckmann U, Law R, Metz JAJ (eds.): The Geometry of Ecological Interactions:
+Simplifying Spatial Complexity, Cambridge University Press, Cambridge, UK, pp. 135–
+150 (2000).
+
+No. 42
+
+Ferrière R, Michod RE:
+Wave Patterns in Spatial Games and the Evolution of Cooperation.
+IIASA Interim Report IR-99-041.
+In: Dieckmann U, Law R, Metz JAJ (eds.): The Geometry of Ecological Interactions:
+Simplifying Spatial Complexity, Cambridge University Press, Cambridge, UK, pp. 318–
+332 (2000).
+
+No. 43
+
+Kisdi É, Jacobs FJA, Geritz SAH:
+Red Queen Evolution by Cycles of Evolutionary Branching and Extinction.
+IIASA Interim Report IR-00-030.
+
+No. 44
+
+Meszéna G, Kisdi É, Dieckmann U, Geritz SAH, Metz JAJ:
+Evolutionary Optimisation Models and Matrix Games in the Unified Perspective of Adaptive Dynamics.
+IIASA Interim Report IR-00-039.
+
+No. 45
+
+Parvinen K, Dieckmann U, Gyllenberg M, Metz JAJ:
+Evolution of Dispersal in Metapopulations with Local Density Dependence
+and Demographic Stochasticity.
+IIASA Interim Report IR-00-035.
+
+No. 46
+
+Doebeli M, Dieckmann, U:
+Evolutionary Branching and Sympatric Speciation Caused by Different Types
+of Ecological Interactions.
+IIASA Interim Report IR-00-040.
+The American Naturalist (2000) 156, S77–S101.
+
+No. 47
+
+Heino M, Hanski I:
+Evolution of Migration Rate in a Spatially Realistic Metapopulation Model.
+IIASA Interim Report IR-00-044.
+
+No. 48
+
+Gyllenberg M, Parvinen K, Dieckmann U:
+Evolutionary Suicide and Evolution of Dispersal in Structured Metapopulations.
+IIASA Interim Report IR-00-056.
+
+No. 49
+
+Van Dooren TJM:
+The Evolutionary Dynamics of Direct Phenotypic Overdominance: Emergence Possible, Loss Probable.
+IIASA Interim Report IR-00-048.
+
+No. 50
+
+Nowak MA, Page KM, Sigmund K:
+Fairness Versus Reason in the Ultimatum Game.
+IIASA Interim Report IR-00-057.
+
+Issues of the IIASA Studies in Adaptive Dynamics series can be obtained free of charge.
+Please contact:
+Adaptive Dynamics Network
+International Institute for Applied Systems Analysis
+Schlossplatz 1
+A–2361 Laxenburg
+Austria
+Telephone +43 2236 807, Telefax +43 2236 71313, E-Mail adn@iiasa.ac.at,
+Internet http://www.iiasa.ac.at/Research/ADN
+
+Abstract
+In the Ultimatum Game, two players are offered a chance to win a certain sum of money.
+All they must do is divide it. The proposer suggests how to split the sum. The responder
+can accept or reject the deal. If the deal is rejected, neither player gets anything. The
+rational solution, suggested by game theory, is for the proposer to offer the smallest possible
+share and for the responder to accept it. If humans play the game, however, the most
+frequent outcome is a fair share. In this paper, we develop an evolutionary approach to
+the Ultimatum Game. We show that fairness will evolve if the proposer can obtain some
+information on what deals the responder has accepted in the past. Hence, the evolution
+of fairness, similar to the evolution of cooperation, is linked to reputation.
+
+About the Authors
+Martin A. Nowak
+Institute for Advanced Study
+Einstein Drive
+Princeton, NJ 08540, USA
+Karen M. Page
+Institute for Advanced Study
+Einstein Drive
+Princeton, NJ 08540, USA
+Karl Sigmund
+Institute of Mathematics
+University of Vienna
+Strudlhofgasse 4
+A-1090 Vienna, Austria
+and
+Adaptive Dynamics Network
+International Institute for Applied Systems Analysis
+A-2361 Laxenburg, Austria
+
+Fairness Versus Reason in the Ultimatum Game
+Martin A. Nowak
+Karen M. Page
+Karl Sigmund
+The Ultimatum Game is quickly catching up with the Prisoner’s Dilemma as a prime
+showpiece of apparently irrational behavior. In the last two decades, it has inspired dozens
+of theoretical and experimental investigations. The rules of the game are surprisingly
+simple. Two players have to agree on how to split a sum of money. The proposer makes
+an offer. If the responder accepts, the deal goes ahead. If the responder rejects, neither
+player gets anything. In both cases, the game is over. Obviously, rational responders
+should accept even the smallest positive offer, since the alternative is getting nothing.
+Proposers, therefore, should be able to claim almost the entire sum. In a large number
+of human studies, however, conducted with different incentives in different countries, the
+majority of proposers offer 40-50% of the total sum, and about half of all responders reject
+offers below 30%1−6 .
+The irrational human emphasis on a fair division suggests that players have preferences
+which do not depend solely on their own payoff, and that responders are ready to punish
+proposers offering only a small share by rejecting the deal (which costs less to themselves
+than to the proposers). But how do these preferences come about? One possible explanation is that the players do not grasp that they interact only once. Humans are accustomed
+to repeated interactions. Repeating the Ultimatum Game is like haggling over a price,
+and fair splits are more likely6−8. Another argument is based on the view that allowing
+a co-player to get a large share is conceding a relative advantage to a direct rival. This
+argument holds only for very small groups, however: a simple calculation shows that responders should only reject offers that are less than 1/N -th of the total sum, where N is
+the number of individuals in the group9 . A third explanation is based on the idea that
+a substantial proportion of humans maximize a subjective utility function different from
+the payoff10−12.
+Here we studied the Ultimatum Game from the perspective of evolutionary game
+theory13. To discuss this model, both analytically and by means of computer simulations,
+we set the sum which is to be divided equal to 1, and assume that players are equally
+likely to be in one of the two roles. Their strategies are given by two parameters p and
+q ∈ [0, 1]. When proposer, the player offers the amount p. When responder, the player
+rejects any offer smaller than q. The parameter q can be seen as an aspiration level. It
+is reasonable to assume that the share kept by the player when proposer, 1 − p, should
+not be smaller then the aspiration level, q. Therefore only strategies with p + q ≤ 1 were
+considered14 .
+The expected payoff for a player using strategy S1 = (p1 , q1) against a player using
+S2 = (p2, q2) is given (up to the factor 1/2, which we henceforth omit) by (a) 1 − p1 + p2
+if p1 ≥ q2 and p2 ≥ q1 ; (b) 1 − p1 if p1 ≥ q2 and p2 < q1 ; (c) p2 if p1 < q2 and p2 ≥ q1 ;
+and (d) 0 if p1 < q2 and p2 < q1 .
+
+1
+
+Before studying the full game, with its continuum of strategies, let us first consider a so-called minigame with only two possible offers h and l (high and low), with
+0 < l < h < 1/2 9,15. There are four different strategies (l, l), (h, l), (h, h) and (l, h), which
+we enumerate, in this order, by G1 to G4 . G1 is the ‘reasonable’ strategy of offering little
+and rejecting nothing (for the cognoscenti: it is the only subgame perfect Nash equilibrium
+of the minigame16). G2 makes a high offer but is willing to accept a low offer. G3 is the
+‘fair’ strategy, offering and demanding a high share. For the sake of exposition, we omit
+G4 , which gets eliminated anyway. To describe the change in the frequencies x1, x2 and x3
+of the strategies G1, G2 and G3 , respectively, we use the replicator equation. It describes
+a population dynamics where successful strategies spread, either by cultural imitation or
+biological reproduction17. Under these dynamics, the reasonable strategy G1 will eventually reach fixation. Populations that consist only of G1 and G3 players will converge
+to pure G1 or G3 populations depending on the initial frequencies of the two strategies.
+Mixtures of G1 and G2 players will always tend to G1, but mixtures of G2 and G3 players
+are neutrally stable and subject to random drift. Hence, starting with any mixture of G1,
+G2 and G3 players, evolution will always lead to a population that consists entirely of G1
+players18. Reason dominates fairness.
+Let us now introduce the possibility that players can obtain information about previous
+encounters. In this case, individuals have to be careful about their reputation: if they
+accept low offers, this may become known, and the next proposer may think twice about
+making a high offer. Assume, therefore, that the average offer of an h-proposer to an lresponder is lowered by an amount a. Even if this amount is very small – possibly because
+obtaining information on the co-player is difficult, or because the information may be
+considered unreliable by h-proposers – the effect is drastic19. In a mixture of h-proposers
+only, the fair strategy, G3 dominates. The whole system is now bistable: depending on the
+initial condition, either the reasonable strategy G1 or the fair strategy G3 reaches fixation
+(Fig. 1). In the extreme case, where h-proposers have full information on the responder’s
+type and offer only l when they can get away with it, we observe a reversal of the game:
+G3 reaches fixation while mixtures between G1 and G2 are neutrally stable. Intuitively,
+this reversal occurs because it is now the responder who has the initiative: it is up to the
+proposer to react.
+For 0 < a < h − l, G3 risk-dominates20: this implies that whenever one adds stochastic
+fluctuations to the population (by allowing mutation, for instance, or spatial diffusion) the
+fair strategy will supersede the reasonable one in the long run (Fig. 1).
+Let us now study the evolutionary dynamics on the continuum of all strategies, S(p, q).
+Consider a population of N players. In every generation, several random pairs are formed.
+Suppose each player will be proposer on average r times and be responder the same number
+of times. The payoffs of all individuals are then summed up. For the next generation,
+individuals leave a number of offspring proportional to their total payoff. Offspring adopt
+the strategy of their parents, plus or minus some small random value. Thus this system
+includes selection and mutation. As before, we can interpret these dynamics as denoting
+biological or cultural reproduction. We observe that the evolutionary dynamics lead to a
+state where all players adopt strategies that are close to the rational strategy, S(0, 0).
+Let us now add the possibility that a proposer can sometimes obtain information on
+what offers have been accepted by the responder in the past. We stress that the same
+players need not meet twice. We assume that a proposer will offer, whatever is smaller,
+his own p-value or the minimum offer that he knows has been accepted by the responder
+during previous encounters. In addition, we include a small probability that proposers
+will make offers that are reduced by a small randomly chosen amount. This effect allows
+
+2
+
+Reason
+
+Fairness
+
+G2
+
+G2
+
+G3
+
+G1
+
+a=0
+
+G1
+
+G2
+
+G3
+
+0<a<h-1
+
+G1
+
+G3
+
+a=h-l
+
+Information
+Figure 1: Fairness dominates in the mini-ultimatum game, if proposers have some chance of
+finding out whether responders might accept a low offer. There are three strategies: the reasonable
+strategy, G1 (l, l), offers and accepts low shares; the fair strategy, G3 (h, h), offers and accepts high
+shares; the strategy G2 (h, l) offers high shares but is willing to accept low shares. If there is no
+information on the responder’s type, a = 0, then the reasonable strategy G1 dominates the overall
+dynamics: G1 and G3 are bistable, G2 and G3 are neutral, but G1 dominates G2 . If there is some
+possibility of obtaining information on the responder’s type, then we assume that h-proposers will
+reduce their average offers to l-responders by an amount, a. For 0 < a < h − l, both G1 and G3
+dominate G2 . G1 and G3 are still bistable, but the fair strategy has the larger basin of attraction;
+adding noise or spatial affects will favor fairness. In the special limit, a = h − l, which can be
+interpreted as having full information on the responders type, the game is reversed: G1 and G2
+are neutral, while G3 dominates G2 ; G3 is the only strict Nash solution. The figure shows the flow
+of evolutionary game dynamics17 on the edge of the simplex S318,19.
+a proposer to test for responders who are willing to accept low offers. Hence, p can be
+seen as a proposer’s maximum offer, while q represents a responder’s minimum acceptance
+level. Each accepted deal is made known to a fraction w of all players. Thus, individuals
+who accept low offers run the risk of receiving reduced offers in the future. In contrast,
+the costly act of rejecting a low offer buys the reputation that one accepts only fair offers.
+Figure 2 shows that this process can readily lead to the evolution of fairness. The average
+p and q values depend on the number of games per individual, r, and the fraction w of
+individuals who find out about any given interaction. Larger r and w values lead to fairer
+solutions.
+Hence, evolutionary dynamics – in accordance with the predictions of economic game
+theory – lead to rational solutions in the basic Ultimatum Game. Thus, one need not
+assume that the players are rational utility-maximizers to predict the prevalence of low
+offers and low aspiration levels. Whatever the evolutionary mechanism – learning by trial
+and error, imitation, inheritance – it always promotes the same reasonable outcome: low
+offers, low demands.
+If, however, we include the possibility that individuals can obtain some information
+on which offers have been accepted by others in previous encounters, the outcome is
+dramatically different. Under these circumstances, evolutionary dynamics tend to favor
+strategies that demand and offer a fair share of the prize. This effect, which does not
+require the same players to interact twice, suffices to keep the aspiration levels high.
+Accepting low offers damages the individual’s reputation within the group and increases
+the chance of receiving reduced offers in subsequent encounters. Rejecting low offers is
+costly, but the cost is offset by gaining the reputation of somebody who insists on a fair
+offer. When reputation is included in the Ultimatum Game, adaptation favors fairness over
+reason. In this most elementary game, information on the co-player fosters the emergence
+of strategies that are nonrational, but promote economic exchange. This agrees well
+with findings on the emergence of cooperation21 or of bargaining behavior22. Reputation
+based on commitment and communication plays an essential role in the natural history of
+economic life23.
+3
+
+Figure 2: Fairness evolves in computer simulations of the Ultimatum Game, if a sufficiently
+large fraction, w, of players is informed about any one accepted offer. Each player is defined by
+an S(p, q) strategy with p + q ≤ 1 (14). In any one interaction, a random pair of players is chosen.
+The proposer will offer – whatever is smaller – his own p value or the lowest amount that he knows
+was accepted by the responder during previous interactions. In addition there is a small (0.1)
+probability that the responder will offer his p value minus some random number between 0 and
+0.1; this is to test for players who are willing to accept reduced offers. The total population size
+is N = 100. Individuals reproduce proportional to their payoff. Offspring adopt their parent’s
+p and q values plus a random number from the interval (−0.005, +0.005). There are on average
+r = 50 rounds per player per generation in both roles. Equilibrium p and q values are shown
+averaged over 105 generations. For w = 0 (no information about previous interactions), the p and
+q values converge close to the rational solution S(0, 0); they are not exactly zero because mutation
+introduces heterogeneity, and the best response to a heterogeneous population is not S(0, 0). For
+increasing values of w, there is convergence close to the fair solution, S(1/2, 1/2), with q being
+slightly smaller than p.
+
+References and Notes
+1.
+
+W. Güth, R. Schmittberger, B. Schwarze, J. Econ. Behav. Organ. 3, 376 (1982).
+
+2.
+
+R. H. Thaler, J. Econ. Perspect. 2, 195 (1988).
+
+3.
+
+W. Güth and R. Tietze, J. Econ. Psychol. 11, 417 (1990).
+
+4.
+
+E. Fehr and S. Gächter, Homo Reciprocans and Human Cooperation, Discussion
+paper, Institute for empirical economic research, University of Zurich (1999).
+
+5.
+
+G. E. Bolton and R. Zwick, Game Econ. Behav. 10, 95 (1995).
+
+6.
+
+A. E. Roth, in Handbook of Experimental Economics, J. H. Kagel and A. E. Roth,
+Eds. (Princeton University Press, Princeton, NJ, 1995), 253-348; A. E. Roth, V.
+Prasknikar, M. Okuno-Fujiwara, S. Zamir, Am. Econ. Rev. 81, 1068 (1991).
+
+7.
+
+A. Rubinstein, Econometrica 50, 97 (1982).
+
+8.
+
+G. E. Bolton and A. Ockenfels, Am. Econ. Rev. 90, 166 (2000).
+
+9.
+
+S. Huck and J. Öchssler, Game Econ. Behav. 28, 13 (1999).
+
+10.
+
+G. Kirchsteiger, J. Econ. Behav. Organ. 25, 373 (1994).
+4
+
+11.
+
+J. Bethwaite and P. Tompkinson, J. Econ. Psychol. 17, 259 (1996).
+
+12.
+
+D. Kahnemann, J. L. Knetsch, R. Thaler, J. Bus. 59, 5285 (1986); E. Fehr and
+K.M. Schmidt, Q. J. Econ. 114, 817 (1999).
+
+13.
+
+J. Maynard Smith, Evolution and the Theory of Games, (Cambridge University
+Press, Cambridge; New York, 1982).
+
+14.
+
+The condition, 1−p ≥ q, is equivalent to the assumption that the individuals do not
+regard the role of proposer inferior to the role of responder. Therefore, what they
+demand for themselves when proposer should not be less than the minimum amount
+they expect as responders. This condition is relevant when introducing information
+into the Ultimatum Game. Otherwise, high levels of information can lead to a
+reversal of the game. If the proposer has perfect knowledge of the responder’s q
+value, then it is in fact the responder who makes the offer. In this case, evolutionary
+dynamics lead to strategies close to S(1, 1), that is proposers have to offer almost
+the full amount. The condition 1 − p ≥ q avoids this – perhaps unrealistic –
+complication.
+
+15.
+
+J. Gale, K. Binmore, L. Samuelson, Game Econ. Behav. 8, 56 (1995).
+
+16.
+
+K. G. Binmore, Fun and Games: A Text on Game Theory (D. C. Heath, Lexington,
+MA, 1992).
+
+17.
+
+J. Hofbauer and K. Sigmund, Evolutionary Games and Population Dynamics (Cambridge University Press, Cambridge; New York, 1998).
+
+18.
+
+In the minigame we consider the strategies G1 (l, l), G2(h, l), G3(h, h) and G4(l, h).
+The matrix of the expected payoff values is shown in Table 1.
+
+G1
+G2
+G3
+G4
+
+G1
+1
+1−h+l
+1−h
+1−l
+
+G2
+1−l+h
+1
+1
+1−l+h
+
+G3
+h
+1
+1
+h
+
+G4
+l
+1−h+l
+1−h
+0
+
+We note first that G4(l, h) is dominated by G1(l, l) so that x4/x1 converges to 0.
+It follows that all orbits in the interior of the state space S4 (the simplex spanned
+by the unit vectors on the xi -axes) converge to the boundary face where x4 = 0.
+The edge G2G3 (high proposers only) consists of fixed points. Those fixed points
+between G3 and Q(0, [1 − h]/[1 − l], [h − l]/[1 − l], 0) are saturated. They cannot be
+invaded by low proposers and correspond to Nash equilibria. The other points can
+be invaded by low proposers, G1 and G4. On the edge G1G2 , strategy G1 dominates.
+The edge G1 G3 is bistable, with fixed point P (1 − h, 0, h, 0). There is one further
+fixed point, R(0, 1 − h + l, 0, h − l) which is stable on the edge G2 G4 but can be
+invaded by both missing strategies. The dynamics are simple: orbits can converge
+either to G1 , which is the only perfect Nash equilibrium of the game, or else to the
+segment QG3 . But there, neutral drift or recurrent mutations introducing G1 or
+G4 will inexorably push the state towards QG2 (it is enough to note that x2 /x3
+grows whenever x1 or x4 are positive) so that eventually the reasonable strategy
+G1 reaches fixation.
+
+5
+
+19.
+
+Let us now assume that if a player has a low aspiration level, then this risks to
+become known to the proposer, in which case an h-proposer will, with a certain
+probability, offer a bit less. Suppose the average offer of an h-proposer to an lresponder is h − a, which is ≥ l. This implies that the payoff matrix is now given
+by Table 2.
+
+G1
+G2
+G3
+G4
+
+G1
+1
+1−h+l+a
+1−h+a
+1−l
+
+G2
+1−l+h−a
+1
+1+a
+1−l+h
+
+G3
+h−a
+1−a
+1
+h
+
+G4
+l
+1−h+l
+1−h
+0
+
+For 0 < a < h − l, the fair strategy G3 dominates G2 on the edge G2G3 . On
+the edge G1 G3 the system is bistable: the basin of attraction of G1 and G3 are
+separated by the point P (a) = (1 − h + a, 0, h − a, 0). The game dynamics have the
+following properties: (a) The ratio x2 x4 /x1x3 remains constant. (b) There exists
+a line of fixed points in the interior S4, of the form xi = mi + µ (for i = 1, 3) and
+xi = mi − µ (for i = 2, 4) where µ is a real parameter and (m1 , m2, m3, m4) =
+(1/S)(a(1 − h), l(1 − h), l(h − l − a), a(h − l − a)) with S = (l + a)(1 − l − a). (c)
+This line intersects all invariant surfaces of the form x2 x4 = Kx1x3 (for K > 0) in
+a fixed point which is a saddle on this surface (the surface is spanned by the edges
+G1G2 G3G4 G1); (d) the corresponding stable manifolds divide the state space S4
+into two regions, a basin of attraction for G1 and a basin of attraction for G3 ; (e)
+the line intersects either the face x4 = 0 or x2 = 0; the intersection with x4 = 0
+is a saddle point Q(a) on this face. There is no other fixed point on this face.
+If a varies from 0 to h − l, Q(a) describes an arc from the point Q to the point
+S(1−l/h, l/h, 0, 0). For some values of h and l, this arc will cross the edge G1G3 ; at
+such an intersection, Q(a) = P (a). (f) If a = h−l (total knowledge of the co-player,
+full exploitation of his weakness) we get a phase portrait on the G1G2 G3-simplex
+which is exactly the reverse of the phase portrait if a = 0: the Nash equilibria are
+G3 and the points on the segment G1S. (h) Finally, we note that on the G1G3 -edge,
+P (a) separates the basins of attraction: if initially x1 is larger than 1 − h + a, then
+G1 reaches fixation. Thus G3 has the larger basin of attraction (it is risk-dominant)
+whenever h < 1/2 + a.
+20.
+
+H. P. Young, Econometrica 61, 57 (1993); M. Kandori, G. J. Mailath, R. Rob,
+Econometrica 61, 29 (1993); J. Hofbauer, in Game Theory, Experience, Rationality: Foundations of Social Sciences, Economics and Ethics, W. Leinfellner and E.
+Köhler, Eds. (Kluwer, Dordrecht; Boston, 1998) p. 245.
+
+21.
+
+M. A. Nowak and K. Sigmund, Nature 393, 573 (1998); M. A. Nowak and K.
+Sigmund, J. theor. Biol 194, 561 (1998); A. Lotem, M. A. Fishman, L. Stone,
+Nature 400, 226 (1999); C. Wedekind and M. Milinsky, Science 288, 850 (2000);
+A. Zahavi, A. Zahavi, A. Balaban, The Handicap Principle (Oxford Univ. Press,
+London 1996).
+
+22.
+
+T. Ellingsen, Q. J. Econ. 112, 581 (1997); H. P. Young, J. Econ. Theory 59, 145
+(1993); A. Banerjee and J. Weibull, in Learning and Rationality in Economics, A.
+Kirman and M. Salmon, Eds. (B. Blackwell, Oxford; Cambridge, MA, 1995); K.
+Binmore, A. Shaked, J. Sutton, Am. Econ. Rev. 75, 1178 (1985).
+
+6
+
+23.
+
+From the huge literature on this topic, we quote two classics: T. C. Schelling, The
+Strategy of Conflict (Harvard University Press, Cambridge, MA, 1960); R. Frank,
+Passions within Reason (Norton, New York, 1988).
+
+24.
+
+Support from the Leon Levy and Shelby White Initiatives Fund, the Florence Gould
+Foundation, the J. Seward Johnson, Sr. Charitable Trusts, the Ambrose Monell
+Foundation and the Alfred P. Sloan Foundation is gratefully acknowledged.
+
+7
+
+

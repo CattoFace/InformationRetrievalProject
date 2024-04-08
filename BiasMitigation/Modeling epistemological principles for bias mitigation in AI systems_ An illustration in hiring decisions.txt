@@ -1,0 +1,733 @@
+Modeling Epistemological Principles for Bias Mitigation in AI Systems:
+An Illustration in Hiring Decisions
+Marisa Vasconcelos, Carlos Cardonha, Bernardo Gonc ¸alves
+IBM Research Brasil
+Rua Tut ´oia 1157, S ˜ao Paulo – SP 04007-900
+Abstract
+Artiﬁcial Intelligence (AI) has been used extensively in auto-
+matic decision making in a broad variety of scenarios, ranging
+from credit ratings for loans to recommendations of movies.
+Traditional design guidelines for AI models focus essentially
+on accuracy maximization, but recent work has shown that
+economically irrational and socially unacceptable scenarios
+of discrimination and unfairness are likely to arise unless
+these issues are explicitly addressed. This undesirable behav-
+ior has several possible sources, such as biased datasets used
+for training that may not be detected in black-box models. Af-
+ter pointing out connections between such bias of AI and the
+problem of induction, we focus on Popper’s contributions af-
+ter Hume’s, which offer a logical theory of preferences. An AI
+model can be preferred over others on purely rational grounds
+after one or more attempts at refutation based on accuracy and
+fairness. Inspired by such epistemological principles, this pa-
+per proposes a structured approach to mitigate discrimination
+and unfairness caused by bias in AI systems. In the proposed
+computational framework, models are selected and enhanced
+after attempts at refutation. To illustrate our discussion, we
+focus on hiring decision scenarios where an AI system ﬁlters
+in which job applicants should go to the interview phase.
+1 Introduction
+There is some common understanding today that artiﬁcial
+intelligence (AI) systems should be accountable and behave
+reasonably from an ethical point of view, e.g., see (Greene
+et al. 2016). The widespread use of black-box AI algo-
+rithms in all sorts of decision-making systems, from credit
+scores to recommendation of products, may have unpre-
+dictable and/or potentially destructive consequences on peo-
+ple’s lives (O’Neil 2016). The challenges related with the
+way AI models are created and over-trusted have caught the
+attention of the research community across several areas.
+AI decision-making pipelines can be roughly represented
+schematically along these lines: Human bias ![Data!]
+Algorithm!AI system!Decision making. Undesirable
+behavior of AI systems may be a consequence of human
+bias, which may be (unconsciously) unfair and affect sig-
+niﬁcantly the output of these systems. Namely, whether they
+have embedded a hypothesis formulated by humans (say, a
+decision tree), or generates hypotheses automatically from
+training datasets, (human) biases may arise in the processand can be further absorbed, propagated, and ampliﬁed at
+scale by the resulting algorithms (Barocas and Selbst 2014).
+These challenges have been observed in several scenarios
+over the last few years (Olteanu et al. 2016), frequently with
+considerable popular attention (Larson et al. 2016). An im-
+portant scenario is algorithmic hiring decisions, in which AI
+systems are used to ﬁlter in and out job applicants in initial
+screening steps. A ﬁrst problem is that the historical data of a
+job applicant may not be all relevant or adequate to be used
+for the purpose of ﬁnding a good hire. Second, even new
+types of data are now being used (e.g., posts in a social net-
+work), whose relevance and adequacy from an ethical per-
+spective can be questionable as well. Third, the replacement
+of several human decision makers, specially when they have
+different and complementary views, for a single decision-
+making algorithm, may imply in loss of diversity for the hir-
+ing decision process. For all these reasons, building AI sys-
+tems that are both economically- and ethically-acceptable
+for hiring decisions is a challenging task.
+Motivated by these questions of practical interest, the re-
+search community has started to address such bias-of-AI
+challenges. For example, when a structured dataset is avail-
+able so that an AI decision function can learn from it, one
+can also design an oversight process to explicitly seek (mine)
+strong correlations (say, in the form of association rules)
+over sensitive attributes (e.g., race). This may conveniently
+unravel prejudice (e.g., a given race implies a good hire)
+that, once found, can be mitigated before the system is de-
+ployed. In a more general sense, AI rules or patterns may
+be learned from a classical knowledge engineering process
+as well (say, by interviewing a few domain experts), as op-
+posed to machine learning from an existing dataset. In any
+case, there is bias in learning from examples, and it is im-
+plicitly related with the long-lived problem of induction in
+epistemology. There are several relevant philosophers that
+brought contributions to the problem — for an overview, we
+refer the reader to (Vickers 2016). However, two of the out-
+standing ﬁgures are David Hume and Karl Popper, and their
+core contributions will sufﬁce for the purpose of this paper.
+Consider an empirical regularity or law that has been
+learned from some portion of the world, say, “All graduate
+white males are good hires.” After Hume’s contributions,
+Popper has established that no ﬁnite amount of data, how-
+ever large it may be, is enough to rationally justify such aarXiv:1711.07111v1  [cs.AI]  20 Nov 2017law. Nonetheless, whereas Hume ended up in skepticism
+about knowledge, either scientiﬁc or commonsense, Pop-
+per has devised on top of Hume’s ideas a view of science
+centered on conjectures and refutations. This view offers a
+logical theory of preferences , which enables one to select a
+hypothesis over another on purely rational grounds — how
+they withstand attempts at refutation. Interestingly, Popper’s
+view can be fruitfully seen as a learning theory (Berkson and
+Wettersten 1984), which will suit well into an AI system.
+In this paper we will leverage on Popper’s epistemolog-
+ical principles and borrow contributions from the (theoreti-
+cal) computer science and optimization literature towards a
+two-level framework for bias mitigation in AI systems. On
+its ﬁrst (higher) level, it enables exploring a portfolio of two
+or more different decision functions (conjectured hypotheses
+in the sense of Popper). The quality of a decision function
+is evaluated according to its accuracy.1The best function is
+selected with higher probability whereas reasonable alterna-
+tive functions are also being constantly considered and eval-
+uated. The second level of the framework focuses on the en-
+hancement of decision functions that turn out notto be satis-
+factory for the target problem (after a number of attempts at
+refutation), either due to low accuracy or to unfairness.2For
+scenarios where decision functions can be reformulated (i.e.,
+they are not black-box models), we point to connections be-
+tween the enhancement procedure and cut-generation proce-
+dures, originated from the ﬁelds of constrained logical pro-
+gramming and optimization in general.
+The paper is structured is as follows. In x2 we brieﬂy de-
+scribe the hiring decisions scenario we will use for illustra-
+tion. Inx3 we introduce connections between the bias of
+AI and the problem of induction. We review Hume’s con-
+tributions and focus on Popper’s epistemological principles
+of conjectures and refutations and their connections with
+a learning theory to be built into an AI system. In x4 we
+present an example in the hiring scenario in terms of a sim-
+ple yet clear data model. In x5 we present the proposed com-
+putational framework in some detail, illustrated in the same
+scenario. Inx6 we comment on bias-of-AI related work. Fi-
+nally, inx7 we provide conclusions and discuss future work.
+2 Use Scenario: Hiring Decision Algorithms
+Hiring processes have a long tradition of explicit and im-
+plicit human biases, which sometimes may lead to discrim-
+inatory consequences. There are several kinds of bias that
+may end up inﬂuencing a hiring decision. One example is
+conﬁrmation bias of ﬁrst impression, i.e., when recruiters
+make a ﬁrst assessment in the beginning of the interview
+and spend the rest of the time looking for reasons to sup-
+port their initial impression (Wired 2015). Mitigation actions
+have been introduced in the form of federal laws in order to
+protect job applicants against discrimination based on age,
+race, color, religion, sex, and national origin. However, hir-
+ing discrimination is difﬁcult to uncover, since answers to
+1We consider the basic deﬁnition of accuracy, in which system
+outputs are compared against their ground truth values.
+2Unfairness is characterized by unacceptable correlations be-
+tween system outputs and sensitive attributes (e.g., race).questions can be inferred from indirect questions (e.g., ask-
+ing the applicant when did she graduate can be used to infer
+her age), leading to ethical and privacy issues.
+Recently, companies started to use AI algorithms to ﬁl-
+ter job applications in their entry-level hiring process. Com-
+pared to the traditional process, such automatic decision has
+been claimed as a strategy to minimize human bias in the
+process eventually (Florentine 2016), increasing diversity
+and cost-efﬁciency (e.g., hiring selection process speed up).
+Algorithms are helping companies to model historical pat-
+terns of hiring from data describing “high-performance”’
+or “ideal” employees so that they can ﬁnd candidates with
+similar proﬁles. However, bias coming from the traditional
+hiring process is still coded in the data used to train those
+systems. Thus, extracting insights about whether a person
+is a good match for a job from structured data is not triv-
+ial, and this task becomes even harder when associated with
+unstructured data. For instance, some startups are offering
+services that go from brain games that assess capabilities
+as focus, risk-taking, and memory to platforms that analyze
+audio (e.g., voice intonation), video (e.g., body language,
+blink frequency), text (e.g., keywords), and social data posts
+(from social networks to websites) to construct a psycholog-
+ical proﬁle of the candidate and compare it against the cul-
+ture of the hiring company. It is not clear whether this kind of
+data is a valid proxy for the ability of individual to perform
+the job, and generalizations can be even more complicated
+if signiﬁcant difference in cultural backgrounds exists.
+Finally, by using only the perspective of a single deci-
+sion maker algorithm, we may lose the individuality or the
+different criteria of multiple decision makers. For instance,
+different members of a hiring committee may assign differ-
+ent weights to relevant aspects describing a job applicant,
+enabling then a fair assessment of her. That may not be cap-
+tured well by a single model or algorithm.
+In the next section, we show how problems that have been
+already discussed by philosophers of science are related to
+some of the current challenges faced in the development of
+AI systems. We believe that this is a two-way process, in the
+sense that the present discussion has potential to bring ma-
+terial of interest to traditional epistemological discussions.
+3 Bias of AI and the Problem of Induction
+A commonsense dictionary deﬁnition for ‘bias’ is: (sense
+one) “the action of supporting or opposing a particular per-
+son or thing in an unfair way, because of allowing personal
+opinions to inﬂuence your judgment”; and (sense two) “the
+fact of preferring a particular subject or thing” (Cambridge
+2008). While the former indicates an unfair judgement, the
+latter refers to a preference . In fact, every decision making
+process is about arriving at a reasonable preference (bias, in
+the second sense).
+Avoiding bias in the ﬁrst sense (prejudice) is a challenge
+from an ethics point of view. Yet, as we will see in this sec-
+tion in a summarized way that sufﬁces for the purpose of this
+paper, it has strong connections with the long-lived problem
+of induction in epistemology. It has been critically exam-
+ined by David Hume in the 18th century (Hume 1902 1777),
+and then by Karl Popper last century. After Hume’s remarks,Popper formulated two variants he called the logical and the
+psychological problems of induction (1985 1953, p. 107-8):3
+Logical . Are we rationally justiﬁed in reasoning from re-
+peated instances of which we have had experience to in-
+stances of which we have had no experience? Hume’s an-
+swer is no, we are not justiﬁed, however great the number
+of repetitions may be; and this is so for certain belief, as
+well as for probable belief. Instances of which we have
+had experience do not allow us to reason or argue about
+theprobability of instances of which we have had no ex-
+perience, any more than to the certainty of such instances.
+Psychological . How is it that nevertheless all reasonable
+people expect and believe that instances of which they
+have had no experience will conform to those of which
+they have had experience? Hume’s answer to the psycho-
+logical version is because of ‘ custom or habit ’; or in other
+words, because of the irrational but irresistible power
+of the law of association . We are conditioned by repeti-
+tion, and without such conditioning mechanism we could
+hardly survive.
+Popper accepts Hume’s answer to the logical version of the
+problem. That is, we certainly are notjustiﬁed in reasoning
+from one or more instances to the truth of a universal regu-
+larity or law (from which we should expect new or unseen
+instances to abide by). Popper adds to it though the impor-
+tant insight that we do are justiﬁed in reasoning to the falsity
+of a law like “All graduate white males are good hires” from
+a counterinstance (say, some graduate white guy who turns
+out not to be a good hire), which if accepted as such, can dis-
+prove or refute it. In fact, the emerging research community
+working on ‘bias of AI’ challenges has started to approach
+issues implicitly related to Hume’s logical problem of induc-
+tion, as we will discuss later in x6 on related work.
+Yet, Popper draws attention to a dilemma between
+Hume’s answers. On the one hand, repetition has no power
+whatsoever as an argument (that is, in reason). On the other
+hand, it dominates our cognitive life or our ‘understanding’,4
+so if we take Hume’s answer to the psychological problem
+‘as is,’ however intuitive, it leads to the conclusion that our
+knowledge is of the nature of rationally indefensible belief
+and then can’t be distinguished from irrational faith. Popper
+does notaccept it at all, and has rather come up with an inge-
+nious alternative. It opens an encouraging landscape for the
+community working on bias-of-AI challenges, which can’t
+afford staying with Hume’s skepticism either — otherwise
+AI-based systems may not be rationally defensible.
+Popper’s epistemological framework is meant to solve the
+psychological problem of induction (and also the related for-
+mulations, so-called “the pragmatic problem”) in a way that
+satisﬁes “the principle of the primacy of the logical solu-
+tion” (cf. Popper, 1985 1953). That is, rather than accepting
+Hume’s irrationalist consequences, we rely on his answer to
+the logical problem, which is stronger, and transfer it to the
+psychological one as follows. As a ﬁrst basis, Hume’s nega-
+3Cf. also (Popper 1972, Chapter “Conjectural Knowledge”).
+4And most importantly, for the purpose of this paper, it is at the
+core of data-driven AI.tive result has established for good that all our universal laws
+or theories remain forever guesses, conjectures, hypotheses .
+Nonetheless, on top of his own (extended) negative result,
+namely, that ‘refutation’ is a logically valid operation, Pop-
+per has developed a logical theory of preference — that is,
+preference from the point of view of the search for truth. So
+a purely intellectual preference, for one or another hypoth-
+esis, can be drawn from how they stand against attempts
+at refutation . Thereby, one can have purely rational argu-
+ments to prefer some competing hypotheses to others. It is
+also possible for our conjectural knowledge to improve. In
+fact, we can learn by conjectures and refutations. Popper’s
+ideas have been seen as offering a full-ﬂedged learning the-
+ory (Berkson and Wettersten 1984), which we leverage on
+next as for bias mitigation in AI-based systems.
+Conveniently put by Berkson and Wettersten (1984) as a
+learning theory focused on problem solving, Popper’s view
+goes as follows. A problem exists when an observation is
+contrary to what is expected. This discrepancy stimulates ef-
+forts to correct expectancies in order to make them compat-
+ible with the previously surprising observation. The newly
+formulated expectancies remain intact until observations are
+made that are incompatible with them, at which point they
+are revised again. This process of adjusting and readjusting
+one’s expectations so that they agree with the observation
+is an unending process. However, it is a process that, one
+hopes, makes expectancies and reality increasingly compat-
+ible (Ibid., p. 16). Since it is reasonable (and ethical) to act
+based upon both the best of our knowledge at present and the
+best of our critical effort to keep looking for holes or miss-
+ing points in it, then one can make reasonable decisions by
+drawing from the best hypothesis available at a given time,
+namely, the one which is standing better our serious attempts
+at refutation.5In sum, we have the argument that a “less re-
+futed” hypothesis should be expected to deliver better re-
+sults, therefore, preferred. If we are able to collect new, in-
+dependent evidence over time into an online computational
+system, then what we have an online learning theory.
+There are three key points in this epistemologically-
+founded theory for online learning:
+Acceptance of evidence . The acceptance of a counterin-
+stance or counterevidence as such (recall our graduate hire
+counterinstance) is a question of methodological and even
+ethical nature but not of logical nature. Essentially, scien-
+tists have to opt/decide to act according to this method-
+ological or ethical rule : if our hypothesis is threatened by
+one or more counterinstances, we will never save it by any
+kind of conventionalist stratagem but rather will take seri-
+ously the responsibility to review and, if needed, to revise
+it (cf. Popper, 1985 1934; Popper, 1985 1974). In AI, this
+shall not be a problem, as long as a clear-cut separation
+between training and testing data is preserved; in other
+words, hypotheses will be tested against a growing body
+of independent evidence that is accumulated.
+5So, the probability of a hypothesis has nothing to do with how
+much data it has been trained upon by but only with how much
+it has stood against attempts at refutations (using independent evi-
+dence) in comparison with competing hypotheses.Plurality of hypotheses . Suppose one has only one hy-
+pothesisf(say, a binary classiﬁer) to live by, and it has
+been formed (say, by training) by considering some por-
+tion of the world (a dataset D). If this hypothesis is threat-
+ened by a counterinstance from dataset D0D, then in
+principle it could be revised in some way (say, retraining)
+to get better at the problem at hand. Yet, if no other hy-
+pothesisf06=fis available, as new problem instances
+come in, one has to apply their suspicious hypothesis f
+anyway. With a portfolio of hypotheses f2F , on the
+other hand, if some hypothesis is continuously refuted for
+a target problem, the online learning framework may be
+able to handle it with another, “more natural” hypothe-
+sis. Therefore, the portfolio as a whole has broader scope
+to address a variety of problems. In fact, the question of
+‘preference’ will arise mainly, and perhaps solely, w.r.t. a
+set of competing hypotheses (Popper 1972, p. 13).
+Accuracy and fairness . Popper’s epistemological princi-
+ples are geared for the empirical sciences (Popper 1985
+1983), which shall include the sciences of the artiﬁcial
+such as AI as long as some notion of truth (empirical ad-
+equacy) is available. In AI, at a high level of abstraction,
+we call it accuracy . Attempts at refutation should improve
+knowledge of how ‘accurate’ our hypotheses are, so that
+preferring one hypothesis over another, after one or more
+such attempts, is a matter of accuracy. In AI, however,
+as system outputs are often predictions about human be-
+ings, accuracy has to explicitly interact with the value of
+fairness. For this reason, we will consider that attempts at
+refutation shall also stress whether the hypotheses embed-
+ded in a system are able to make it a fair piece of AI.
+4 The Hiring Decision Problem: An Example
+We describe now a scenario of the hiring decision problem
+that will be used to illustrate core concepts in our frame-
+work. Table 1 shows examples of instances as well as their
+associated outputs according to some decision function f(a
+conjectured hypothesis in Popper’s sense).
+Table 1: Simple scenario of the Hiring Decision Problem.
+ID Gender School City ZIP Output
+1 Male 15 NYC 10118 Yes
+2 Female 15 Boston 02110 Yes
+3 Female 19 Chicago 60603 No
+4 Male 10 Atlanta 30302 Yes
+Data model . Each instance of the problem describes a job
+applicant (or candidate) represented by a vector in NG
+NCR. Job applicant (i;g;s;c;r ), to which we may
+refer as instancei, is associated with identiﬁcation number
+(ID)i. It is of gender ginG=fmale, femaleg, hassyears
+of schooling, has a degree from university cinC=fNYC,
+Boston, Chicago, Atlanta g, and resides in an address with
+ZIP coderinR. We assume that gender is an explicit sen-
+sitive attribute (i.e., there should be no correlation between
+the output of a decision function and gender); ID and years
+of schooling are non-sensitive attributes , and ZIP code is
+animplicit sensitive attribute due to correlation with race (a
+sensitive attribute that does not belong to the data model).A decision function ffor the problem produces an out-
+putf(i)2 f0;1gfor each instance i, withf(i) = 1 in-
+dicating that ishould go to the interview phase (i.e, output
+is “Yes”) and f(i) = 0 recommending rejection (output is
+“No”); that is, fin our case is always a binary classiﬁer.
+The proposed framework relies on a ground-truth table
+qualifying the output produced by the decision functions
+for each instance i. It consists of the desired output f(i)
+foriand of a loss value li:f0;1g ! [ 1;1]associ-
+ated with the correctness of the possible outputs. Namely,
+li(f) =li(f(i))is non-negative if f(i)is wrong and non-
+positive otherwise. The absolute values of liare correlated
+with the level of relevance and correctness of the associ-
+ated decisions. For example, if iis a top job applicant, li(0)
+should be close to 1(i.e., this decision should be heavily pe-
+nalized) and li(1)should be close to  1, whereas decisions
+offabout borderline candidates may be associated with val-
+uesli(f)which are closer to zero (e.g., 0:25and 0:25for
+wrong and correct recommendations). Table 2 shows feed-
+back values for the instances presented in Table 1.
+Table 2: Ground-truth table for sample scenarios.
+IDf(i)li(0) =li(No)li(1) =li(Yes)
+1 No -1.00 1.00
+2 Yes 0.25 -0.25
+3 Yes 0.50 -0.50
+4 No -1.00 1.00
+We consider online scenarios, in the sense that new in-
+stances are being constantly incorporated to the training set.
+The arrival of each (batch of) incoming instance(s) corre-
+sponds to Popper’s attempt at refutation principle.
+Accuracy and fairness . Mistakes made by a decision func-
+tionfmay be assessed at two levels. At a more fundamen-
+tal level, one may check whether f(i)is correct by direct
+comparison with f(i). This type of error can be identiﬁed
+by inspecting the behavior of fat a single instance and can
+be directly interpreted as a accuracy problem. This kind of
+mistake typically takes place because fadopted wrong in-
+ferences, which may also have a discriminatory aspect; this
+is the case if f(i) = 1 ,f(i0) = 0 , and instances iandi0
+differ solely by gender, for example.
+At a higher level, one may identify fairness issues as-
+sociated with decision function f. Differently from accu-
+racy, fairness relies on the analysis of the behavior of ffor
+the whole dataset with respect to one or more sensitive at-
+tributes. More precisely, we say that fis unfair with respect
+to some sensitive attribute aif there is a signiﬁcant corre-
+lation between its output and a. For example, if among all
+candidates from NYC with 20 years of schooling faccepts
+80% of the male candidates and only 60% of the female can-
+didates, gender discrimination is taking place.
+Baseline and challenges . The baseline strategy for this
+problem consists of a single ofﬂine decision function; a func-
+tion is ofﬂine if its behavior does not change over time as
+new instances and their feedback values are made available.
+A decision function fmay become outdated over time
+in ofﬂine strategies, and even though this issue may be ad-
+dressed iffis periodically retrained, decision makers typ-ically lack a structured approach to decided when this pro-
+cess is actually necessary (i.e. retraining needs may be ape-
+riodic). Moreover, there is hardly a universally acclaimed
+decision function for the hiring decision problem, as differ-
+ent views and guidelines may lead to different conclusions
+about what the best option may be. In these scenarios, hav-
+ing a portfolio of candidate decision functions can be more
+interesting than having just one. In short, knowing how to
+select decision functions and when to update them are key
+challenges for the baseline strategy, which we try to address
+in the proposed framework.
+5 A Framework for Bias Mitigation
+The proposed framework is a two-level system whose ﬁrst
+level consists of a procedure to select a decision function so
+that a good balance between exploration and exploitation is
+achieved, and whose second level is targeted at the enhance-
+ment of decision functions based on empirical knowledge
+about issues with accuracy and/or fairness. The exposition is
+illustrated with the hiring decision problem, but the frame-
+work is general and may be applied to other scenarios.
+Decision function selection
+The primary goal of the ﬁrst level of the framework is to
+deliver an output for each incoming instance i. For this, it
+employs and manages a portfolio Fof candidate decision
+functions. A key aspect to be addressed is the identiﬁcation
+of a suitable balance between exploration andexploitation .
+Exploration refers to testing functions: namely, one wishes
+to collect as much information about the functions as pos-
+sible by applying them to several instances of the target
+problem and having feedback on their accuracy. Conversely,
+exploitation refers to utility maximization: given that some
+functionf2F typically delivers better results than some
+other function f02F , rational decision makers are more
+likely to choose finstead off0. As the ground-truth table
+is unknown by the time decisions are made, a reasonable
+goal for the selection component is to achieve relative per-
+formance guarantees, such as a bound on the ratio between
+the number of wrong decisions made by the framework and
+the number of mistakes made by the best function in F.6
+Similar problems can be identiﬁed in several ﬁelds, such
+as game theory, geometry, operations research, and statisti-
+cal decision making. Recently, the work of Arora, Hazan,
+and Kale provided an attempt to unify the proposed ap-
+proaches within the same algorithmic framework, referred
+to as the Multiplicative Weights Update method (MWU)
+(2012). In general lines, MWU works as follows. Given a
+setFof decision functions for a target problem P, each
+candidate function f2 F is assigned a weight wf>0.
+The value of wfis initially set to 1 for each fand is mod-
+iﬁed after the arrival of each new instance iaccording to
+the correctness of f(i), as we describe next. Anytime, terms
+pf wf=P
+f02Fwf0give a probability distribution D. As
+each instance iis given as input to the framework, a selec-
+tion phase takes place, in which a decision function fc2F
+6This metric is typically referred to as regret in statistical deci-
+sion making theory.is selected by sampling according to D(i.e.,fis drawn with
+probabilitypf). All functions f2F are applied to instance i
+so that the result f(i)is known for all, but only fc(i)is re-
+turned by the framework.
+Once entries f(i)andliof the ground truth are gen-
+erated, the weight wfof each decision function fis up-
+dated to reﬂect changes on the empirical level of conﬁ-
+dence the system has on f. A possible expression is wf 
+wf[1 `i(f(i)) ], where 0<1
+2is a parameter of the
+problem. In addition to actual instances, synthetic cases may
+be generated to check whether the model has discriminatory
+behavior with respect to some explicit sensitive attribute;
+e.g., ifiis a real instance and i0is a synthetic instance differ-
+ing fromionly in the gender attribute, discrimination takes
+place iff(i)6=f(i0). The same procedure may be employed
+with non-sensitive attributes, thus supporting the identiﬁca-
+tion of absurd behavior and/or indirect discrimination.7
+Aswfbecomes small, the probability with which deci-
+sion function fis selected decreases. Weight wfbecomes
+small iffmakes wrong decisions for several instances (as-
+sociated with high penalties), so wfcan also be interpreted
+as a proxy for the quality of fas a decision function for
+problemP. Moreover, procedures for the identiﬁcation of
+unfairness may also be periodically employed by the frame-
+work. Whenever wfbecomes too small (e.g., goes below
+some threshold value ) or unfair behavior is identiﬁed, fis
+removed fromFand given as input to the Decision Function
+Enhancement procedure on f, which we describe next.
+Decision function enhancement
+The second level of the framework is targeted at the en-
+hancement of a decision function fthat has been removed
+from the portfolio Fin the ﬁrst level. In the context of AI
+systems, such adjustments will ideally address the mistakes
+that madefunacceptable for the target problem. In scenar-
+ios where decision makers have no control over f, the only
+alternative is to report the issues to the provider of f; other-
+wise, the following approaches can be considered.
+Retrainable Black-Box decision functions In scenarios
+wherefis a black-box model that can be retrained, a possi-
+ble strategy consists of the incorporation to f’s training set
+of instances for which fdelivered wrong decisions. The idea
+of this approach is to employ knowledge about previous mis-
+takes made by the algorithm, with the hope that retraining
+will be sufﬁcient to mitigate or even eliminate some of the
+issues that have been observed. However, there is no guar-
+antee thatfwill eventually become completely free of all
+mistakes, even after a large number of iterations. Moreover,
+it is not clear how the incorporation of new instances to the
+training set may unfairness.
+Non-black-box decision functions Iffcan be modiﬁed,
+more effective strategies may be employed. In particular,
+constrained models become specially interesting in these
+scenarios, as restrictions may help in the reduction of un-
+desired effects such as unfairness. For example, in our sce-
+nario, iffis a margin-based classiﬁer, one may employ a
+7For example, ZIP code may be correlated with race.constrained optimization model to bound the correlation be-
+tween subsets of attributes and the output of ffor instances
+of the training set (see e.g., 2017).
+If all relevant constraints are known a priori and their in-
+clusion in the underlying model leads to a computationally
+tractable formulation, the desired decision function can be
+directly constructed. This is typically not the case, though,
+and this is where cut-generation algorithms, which have
+been strongly investigated in the literature of constrained
+optimization and constrained logic programming, can play
+a key role. In the mathematical programming literature, cut-
+generation algorithms are useful in scenarios where one does
+not work with a full representation of the decision func-
+tionf, but with a relaxationfroff, which lacks some of
+the original constraints and conditions. Relaxations are used
+by convenience (e.g., in scenarios where the number of con-
+straints is too large and having a smaller formulation is com-
+putationally more interesting) and by necessity (e.g., when
+the relevant constraints are unknown a priori), and both cases
+may apply in scenarios where discrimination may take place.
+For instance, an attribute that was initially considered non-
+sensitive may be a proxy for some other sensitive attribute
+that is not explicitly represented in the data model (e.g., in
+our case, ZIP codes and race), and this correlation may be
+identiﬁed only after the observation of new instances. In this
+case, a function fthat ignored this aspect previously can be
+ﬁxed by the inclusion of a new constraint to the formulation,
+capable of mitigating this type of bias.
+Zafar et al. employ a single subset containing all sensi-
+tive attributes, but a more comprehensive approach would
+require the inspection of all possible combinations of sen-
+sitive attributes. For our example, given that there are two
+sensitive attributes (Gender and ZIP), three subsets could
+be inspected. More generally, in scenarios with ssensitive
+attributes,O(2s)subsets may be created, which may be
+prohibitively large in scenarios with relatively high num-
+ber of dimensions. The use of relaxations combined with
+cut-generation are convenient in these cases, as the resulting
+models would be otherwise computationally intractable.
+6 Related Work
+Technical frameworks supporting the design of systems with
+socially acceptable behavior have been proposed in the lit-
+erature. For instance, Rossi and Greene et al. discuss the
+challenges involved in the creation of “ethic algorithms” and
+how they can be addressed by techniques in preference mod-
+eling and reasoning, multi-agent systems, constraint pro-
+gramming, constraint-based optimization, etc. (2016; 2016).
+These contributions assume that systems of preferences can
+be captured and formalized, so the main challenge lies in ag-
+gregating and consolidating different preference lists in sce-
+narios where two or more lists may be considered, and even-
+tual conﬂicts will then be resolved in order to have an ethical
+outcome. The technical framework we have proposed has a
+different approach and follows different design guidelines.
+First, our main goal is to devise a system capable of dealing
+with hypotheses and problems for which discrimination and
+unfairness may be observed and could be mitigated. These
+challenges emerge at a more fundamental level than thoseaddressed by Rossi et al., as ethical issues related with bias,
+unfairness, etc. do not appear due to differences in prefer-
+ence, but due to issues with the data collection process, lack
+of algorithmic transparency, etc..
+Bias on data has been discussed by in many contexts from
+social data used to support decision or to characterize hu-
+man phenomena (Olteanu et al. 2016) to solutions focus on
+discrimination discovery (Pedreschi, Ruggieri, and Turini
+2010) to discrimination prevention (Zafar et al. 2017).
+In addition to the work of Zafar et al., others have also
+proposed constrained models to enforce fairness. For in-
+stance, Celis, Huang, and Vishnoi investigate the prob-
+lem of ranking a set of items subject to families of fair-
+ness constraints (2017). Group-fairness constraints have also
+been considered for multi-winner voting problems (Celis,
+Straszak, and Vishnoi 2017). For an overview of the Mul-
+tiplicative Weights Update method and its relationship with
+several similar techniques in other areas, see e.g. (Arora,
+Hazan, and Kale 2012). Recently, Celis employed a sim-
+ilar algorithmic framework (i.e., based on stochastic con-
+textual bandits) to control bias and discrimination in sys-
+tems of online personalized recommendation (2017). The
+literature in cut-generation algorithms is vast, with cele-
+brated results in the area of mathematical programming for
+problems with very special structural properties (see, e.g.,
+(Gr¨otschel, Lov ´asz, and Schrijver 2012) and (Hooker and
+Ottosson 2003).
+7 Discussion and Future Work
+In this paper, we discuss AI challenges enlighted by Karl
+Popper’s epistemological principles and modeled into well-
+known concepts from (theoretical) computer science and op-
+timization. We have pointed out connections between bias of
+AI and the problem of induction, focusing on Popper’s con-
+tributions after David Hume’s. We have seen that it offers a
+logical theory of preferences, that is, one hypothesis can be
+preferred over another on purely rational grounds after one
+or more attempts at refutation. Based on these ideas and their
+suit into a learning theory, we have proposed a two-level
+computational framework. Decision functions (hypotheses
+in Popper’s sense) are selected while keeping a good balance
+between exploration and exploitation. Those presenting low
+accuracy and unfair behavior are continuously enhanced.
+In future work, we plan to carry out a large study of the
+hiring problem, followed by an extensive evaluation of our
+proposed framework. Our goal is to add empirical results to
+our epistemological argument, which will also be deepened
+and improved as we further develop our research on bias
+and philosophy of AI. As a ﬁnal remark we recall that AI
+systems, as they rely on human-generated data, will always
+be susceptible to bias, sometimes prejudice. Solutions such
+as ours, modeling epistemological (and ethical) principles
+into a computational framework for mitigating bias, shall be
+complemented in order to take into account social, legal and
+other bias-of-AI challenges.References
+[Arora, Hazan, and Kale 2012] Arora, S.; Hazan, E.; and
+Kale, S. 2012. The multiplicative weights update method:
+a meta-algorithm and applications. Theory of Computing
+8(1):121–164.
+[Barocas and Selbst 2014] Barocas, S., and Selbst, A. D.
+2014. Big Data’s Disparate Impact. SSRN eLibrary .
+[Berkson and Wettersten 1984] Berkson, W., and Wettersten,
+J. 1984. Learning from Error: Karl Popper’s Psychology of
+Learning . Chicago: Open Court Pub Co.
+[Cambridge 2008] Cambridge. 2008.
+Entry for ‘bias’ (see English tab).
+http://dictionary.cambridge.org/us/dictionary/english/bias.
+[Celis, Huang, and Vishnoi 2017] Celis, L. E.; Huang, L.;
+and Vishnoi, N. K. 2017. Group fairness in multiwinner
+voting. arXiv preprint arXiv:1710.10057 .
+[Celis, Straszak, and Vishnoi 2017] Celis, L. E.; Straszak,
+D.; and Vishnoi, N. K. 2017. Ranking with fairness con-
+straints. arXiv preprint arXiv:1704.06840 .
+[Celis 2017] Celis, L. Elisa; Vishnoi, N. K. 2017. Fair per-
+sonalization. In Fairness, Accountability, and Transparency
+in Machine Learning (FAT/ML) .
+[Florentine 2016] Florentine, S. 2016. How ar-
+tiﬁcial intelligence can eliminate bias in hir-
+ing. https://www.cio.com/article/3152798/artiﬁcial-
+intelligence/how-artiﬁcial-intelligence-can-eliminate-bias-
+in-hiring.html.
+[Greene et al. 2016] Greene, J.; Rossi, F.; Tasioulas, J.; Ven-
+able, K. B.; and Williams, B. C. 2016. Embedding ethical
+principles in collective decision support systems. In AAAI ,
+4147–4151.
+[Gr¨otschel, Lov ´asz, and Schrijver 2012] Gr ¨otschel, M.;
+Lov´asz, L.; and Schrijver, A. 2012. Geometric algorithms
+and combinatorial optimization , volume 2. Springer
+Science & Business Media.
+[Hooker and Ottosson 2003] Hooker, J. N., and Ottosson, G.
+2003. Logic-based benders decomposition. Mathematical
+Programming 96(1):33–60.
+[Hume 1902 1777] Hume, D. 1902 [1777]. Enquiry
+Concerning Human Understanding and the Principles of
+Morals . L. A. Selby-Bigge, ed. Oxford: Clarendon Press,
+second edition.
+[Larson et al. 2016] Larson, J.; Mattu, S.; Kirch-
+ner, L.; and Angwin, J. 2016. How we ana-
+lyzed the compas recidivism algorithm. ProPublica,
+https://www.propublica.org/article/how-we-analyzed-the-
+compas-recidivism-algorithm/.
+[Olteanu et al. 2016] Olteanu, A.; Castillo, C.; Diaz, F.; and
+Kiciman, E. 2016. Social data: Biases, methodologi-
+cal pitfalls, and ethical boundaries. Available at SSRN:
+https://ssrn.com/abstract=2886526.
+[O’Neil 2016] O’Neil, C. 2016. Weapons of Math De-
+struction: How Big Data Increases Inequality and Threat-
+ens Democracy . New York, NY , USA: Crown Publishing
+Group.[Pedreschi, Ruggieri, and Turini 2010] Pedreschi, D.; Rug-
+gieri, S.; and Turini, F. 2010. ntegrating induction and
+deduction for ﬁnding evidence of discrimination. In Pro-
+ceedings of the ICAIL .
+[Popper 1972] Popper, K. 1972. Objective Knowledge: An
+Evolutionary Approach . Oxford: Clarendon Press.
+[Popper 1985 1934] Popper, K. 1985 [1934]. Falsiﬁcation-
+ism versus conventionalism. In Miller, D., ed., Popper Se-
+lections . Princeton University Press. 143–51.
+[Popper 1985 1953] Popper, K. 1985 [1953]. The problem
+of induction. In Miller, D., ed., Popper Selections . Princeton
+University Press. 101–17.
+[Popper 1985 1974] Popper, K. 1985 [1974]. The problem of
+demarcation. In Miller, D., ed., Popper Selections . Princeton
+University Press. 118–30.
+[Popper 1985 1983] Popper, K. 1985 [1983]. Popper Selec-
+tions . Princeton University Press. Edited by David Miller.
+[Rossi 2016] Rossi, F. 2016. Moral preferences. In The 10th
+Workshop on Advances in Preference Handling (MPREF) .
+[Vickers 2016] Vickers, J. 2016. The problem of in-
+duction. The Stanford Encyclopedia of Philosophy
+Spring 2016 Edition, Edward N. Zalta, ed. URL =
+http://plato.stanford.edu/archives/spr2016/entries/induction-
+problem/.
+[Wired 2015] Wired. 2015. Here’s google’s secret to hiring
+the best people. https://www.wired.com/2015/04/hire-like-
+google/.
+[Zafar et al. 2017] Zafar, M.; Valera, I.; Gomez, M.; and
+Gummadi, K. 2017. Fairness constraints: Mechanisms for
+fair classiﬁcation. In AISTATS .

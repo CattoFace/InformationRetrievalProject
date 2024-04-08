@@ -1,0 +1,3099 @@
+Concordia Law Review
+Volume 5
+
+Number 1
+
+Article 16
+
+2020
+
+From Fairness to Fake News: How Regulations Can Restore
+Public Trust in the Media
+Sarah Clemens
+Concordia University School of Law
+
+Follow this and additional works at: https://digitalcommons.csp.edu/clr
+Part of the Law Commons
+
+CU Commons Citation
+Clemens, Sarah (2020) "From Fairness to Fake News: How Regulations Can Restore Public Trust in the
+Media," Concordia Law Review: Vol. 5: No. 1, Article 16.
+Available at: https://digitalcommons.csp.edu/clr/vol5/iss1/16
+
+This Comment is brought to you for free and open access by the Concordia University School of Law at
+DigitalCommons@CSP. It has been accepted for inclusion in Concordia Law Review by an authorized editor of
+DigitalCommons@CSP. For more information, please contact digitalcommons@csp.edu.
+
+FROM FAIRNESS TO FAKE NEWS: HOW REGULATIONS CAN RESTORE PUBLIC
+TRUST IN THE MEDIA
+Sarah Clemens*
+Journalists face a credibility crisis, plagued by chants of fake news
+and a crowded rat race in the primetime ratings. Critics of the media look at
+journalists as the problem. Within this domain, legal scholarship has
+generated a plethora of pieces critiquing media credibility with less attention
+devoted to how and why public trust of the media has eroded. This Note offers
+a novel explanation and defense. To do so, it asserts the proposition that
+deregulating the media contributed to the proliferation of fake news and led
+to a decline in public trust of the media. To support this claim, this Note first
+briefly examines the historical underpinnings of the regulations that once
+made television broadcasters “public trustees” of the news. This Note also
+touches on the historical role of the Public Broadcasting Act that will serve
+as the legislative mechanism under which media regulations can be amended.
+Delving into what transpired as a result of deregulation and prodding
+the effects of limiting oversight over broadcast, this Note analyzes the current
+public perception of broadcast news, putting forth the hypothesis that
+deregulation is correlated to a negative public perception of broadcast news.
+This Note analyzes the effect of deregulation by exploring recent examples of
+what has emerged as a result of deregulation, including some of the most
+significant examples of misinformation in recent years. In so doing, it
+discusses reporting errors that occurred ahead of the Iraq War, analyzes how
+conspiracy theories spread in mainstream broadcast, and discusses the effect
+of partisan reporting on public perception of the media.
+Finally, this Note proposes creating an Independent Broadcast
+Council under the regulatory authority of the Federal Communications
+Commission that would oversee the reintroduction of a revised Fairness
+Doctrine using the existing statutory framework from the Public
+Broadcasting Act. Lastly, this Note addresses the implications of
+reimplementing regulations on the media, including addressing the First
+Amendment counterarguments as well as U.S. Supreme Court and court of
+appeals cases that suggest courts would uphold this proposal.
+*
+
+2019-2020 Deputy Managing Editor, Concordia Law Review; J.D. Candidate, Concordia
+University School of Law, 2021.
+
+220
+
+Concordia Law Review
+
+Vol. 5
+
+INTRODUCTION......................................................................................... 221
+I.
+
+HISTORICAL BACKGROUND .............................................................. 223
+A. An Era of Broadcast Regulation .............................................. 224
+B. Challenging Constitutionality .................................................. 228
+1.
+
+Red Lion Broad. Co. Inc. v. FCC ...................................... 229
+
+2.
+
+Telecom. Research and Action Ctr. v. FCC ...................... 231
+
+3.
+
+Meredith Corp. v. FCC ...................................................... 232
+
+C. A New Standard of Regulation: Public Broadcasting Act ....... 234
+II. REPORTING LIVE FROM THE PROBLEM .............................................. 236
+A. Defining the Problem ............................................................... 237
+B. Fake News in the Real World ................................................... 239
+1.
+
+The Iraq War...................................................................... 239
+
+2.
+
+Seth Rich Conspiracy ........................................................ 241
+
+3.
+
+Sinclair Broadcast Group .................................................. 244
+
+C. Attempts to Reinstate Regulations............................................ 247
+III. INDEPENDENT BROADCAST COUNCIL ............................................... 249
+A. The Proposal ............................................................................ 250
+1.
+
+Creating a Broadcast Council: The Framework ................ 250
+
+2.
+
+The Structure ..................................................................... 251
+
+3.
+
+How to Amend the Act ...................................................... 253
+
+4.
+
+Rating System .................................................................... 256
+
+B. How Regulations Combat Fake News ...................................... 257
+1.
+
+Defining the Problem ........................................................ 257
+
+2.
+
+Creating a Process to Fix the Problem .............................. 259
+
+C. Potential Applications for an Independent Broadcast Council ..... 260
+1.
+
+The Iraq War—Revisited .................................................. 261
+
+2.
+
+Seth Rich—Revisited ........................................................ 262
+
+3.
+
+Sinclair Broadcast Group—Revisited ............................... 264
+
+D. Reconciling the Law ................................................................. 265
+E. Successful Regulatory Schemes in Europe............................... 270
+CONCLUSION ............................................................................................ 275
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+221
+
+INTRODUCTION
+“[W]herever the people are well informed they can be trusted with
+their own government.”1 For Americans, broadcast news remains the most
+popular source from which to receive that information.2 As a source of
+information to the American public, the importance of media credibility
+cannot be overstated. A public informed by objective facts can make educated
+decisions based upon those facts.
+When the Federal Communications Commission (FCC) began
+licensing broadcast television stations, it did so under the premise that
+broadcasters were “public trustees” who had the privilege and responsibility
+of using public airwaves to inform the public.3 This model and regulatory
+scheme ushered in half a century of public confidence in not only broadcast,
+but in the men and woman who provided the news.4 Yet, beginning with the
+FCC’s decision to abandon the Fairness Doctrine in 1987, broadcast
+underwent a significant deregulatory process throughout the 1980s and 1990s
+that eliminated many assurances the public had that information was fair and
+balanced.5
+Public perception of media credibility in the United States reached its
+lowest level in polling history in 2016.6 Almost two-thirds of Americans
+1
+Thomas Jefferson to Richard Price, THE LIBRARY OF CONG. (Jan. 8, 1789),
+https://www.loc.gov/exhibits/jefferson/60.html.
+2
+Rick Edmonds, Pew Research Finds That Broadcast is the Favorite Source for Local News,
+POYNTER (March 26, 2019), https://www.poynter.org/business-work/2019/pew-researchfinds-that-broadcast-is-the-favorite-source-for-local-news-and-weather-is-the-most-valuedtopic/. According to a survey of 35,000 adults released by the Pew Research Center, thirtyeight percent of adults receive their news from broadcast television compared to twenty-two
+percent from radio and seventeen percent from the daily newspaper. Id.
+3
+Priscilla Regan, Reviving the Public Trustee Concept and Applying it to Information
+Privacy Policy, 76 MD. L. REV. 1025, 1031 (2017).
+4
+See generally DRAFT Chapter 3: The New Media Landscape, MEDIUM (June 27, 2018),
+https://medium.com/trust-media-and-democracy/draft-chapter-3-the-new-media-landscape4a3e8a89b661#05c9 [hereinafter The New Media Landscape]. In the mid-20th Century,
+with the rise of broadcast television and the implementation of the Fairness Doctrine, the
+definition of “news” was clear and there was less disagreement about what a “fact” was, but
+once the Fairness Doctrine was repealed the agreement began to disintegrate. Id. Trust in
+media began to erode as the line blurred between news reporting and news analysis. Id.
+5
+See infra Part I. For a scholarly discussion on the possibility of extending regulations to
+cable news, which is beyond the scope of this Note, see Nareissa L. Smith, Consumer
+Protection in the Marketplace of Ideas: A Proposal to Extend the News Distortion Doctrine
+to Cable Television News Programs, 40 T. MARSHALL L. REV. 223, 228 (2015).
+6
+Art Swift, Americans’ Trust in Mass Media Sinks to New Low, GALLUP (Sept. 14, 2016),
+https://news.gallup.com/poll/195542/americans-trust-mass-media-sinks-new-low.aspx.
+
+222
+
+Concordia Law Review
+
+Vol. 5
+
+believe that the media publishes fake news.7 Moreover, the perception of
+media credibility divides sharply among party lines.8 This perception of fake
+news was bolstered in recent years by a politician who calls the press “the
+enemy of the people.”9 “The Fake News Media has NEVER been more
+Dishonest or Corrupt than it is right now. There has never been a time like
+this in American History . . . Fake News is the absolute Enemy of the People
+and our Country itself!”10 Nonetheless, the issue of credibility in the media
+transcends a political campaign or presidency. Though the reason for a
+decline in public perception of the media is varied, this Note proposes that
+regulating broadcast news would fundamentally contribute to a decline in the
+perception that the media is fake news by increasing accuracy and
+transparency in broadcast media.11
+In the current regulatory environment, broadcast news is no longer
+under an obligation to provide contrasting viewpoints or discuss issues of
+public importance, though such a requirement was once a prerequisite to a
+broadcast license.12 Despite challenges to its constitutionality, the Supreme
+Court upheld the requirement.13 Moreover, existing legislation that created
+an independent corporation to uphold programming standards for viewers
+extended only to educational stations but was never intended to regulate
+broadcast news.14
+This Note asserts the proposition that deregulating the media
+7
+
+Ian Buchanan, The Media’s Credibility Crisis, THE CHRONICLE (Sept. 27, 2017, 10:00 PM),
+https://www.dukechronicle.com/article/2017/09/the-medias-credibility-crisis (The data from
+the poll comes from a Harvard-Harris poll provided exclusively to The Hill); See also
+Jonathan Easley, Poll: Majority Says Mainstream Media Publishes Fake News, THE HILL
+(May 24, 2017, 10:10 AM), https://thehill.com/homenews/campaign/334897-poll-majoritysays-mainstream-media-publishes-fake-news.
+8
+Buchanan, supra note 7 (highlighting a 2016 Gallup poll showed that Democrats’ and
+Independents’ trust in the media decreased slightly while Republicans attribute unfair and
+negative coverage of Donald Trump to a sharp decline in trust, reaching only fourteen
+percent).
+9
+Stephanie Sugars, From Fake News to Enemy of the People: An Anatomy of Trump’s
+Tweets, COMMITTEE TO PROTECT JOURNALISTS (Jan. 30, 2019, 10:00 AM), https://cpj.org
+/blog/2019/01/trump-twitter-press-fake-news-enemy-people.php.
+10
+Donald Trump (@realdonaldtrump), TWITTER (March 19, 2019, 5:24 AM),
+https://twitter.com/realdonaldtrump/status/1107981131012628481?lang=en (capitalization
+emphasis in original).
+11
+See infra Part III.
+12
+See infra Part I.A.
+13
+See infra Part I.B.
+14
+See infra Part I.C.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+223
+
+contributed to the proliferation of fake news and led to a decline in public
+trust of the media. It asserts that to combat these issues and restore
+broadcasters to the role of “public trustees,” the government must
+reimplement a modern-day version of the Fairness Doctrine. To do so, this
+Note proposes creating an Independent Broadcast Council, independent of
+partisan politics, with a central focus of guaranteeing that broadcasters
+uphold their role as public trustees. It does so under framework consistent
+with existing law.15
+Moreover, this Note proposes that amending the existing Public
+Broadcasting Act to expand the scope of legislation to encompass broadcast
+news and incorporate the key tenets of the Fairness Doctrine would
+significantly improve public perception of the media.16 The revised
+legislation would define the term fake news and warn consumers when it aired
+by creating a rating system.17
+This Note proceeds in three Parts. Part I lays out the historical
+background of broadcast regulation in the United States. In so doing, it
+examines the key legislative and judicial decisions that led to the current
+regulatory environment. Part II analyzes the premise of fake news and how it
+contributes to negative public perception of the media before evaluating three
+recent examples of circumstances in which the media portrayed stories in a
+biased or factually unclear way that materially contributed to a decline in
+public trust. Part III introduces the proposal for an Independent Broadcast
+Council and identifies the framework under which the council would
+function. Moreover, it analyzes the three examples discussed in Part II under
+the context of the newly proposed guidelines to hypothesize how the
+reporting may have led to a different outcome had the council had an
+oversight role. Finally, Part III examines how these regulations have
+succeeded in other countries and shows how a current Supreme Court would
+likely hold on challenges raised against the regulations by reconciling two
+cases.
+I.
+
+HISTORICAL BACKGROUND
+
+This Part draws on historical research to trace the deregulation of
+broadcast television. Along the way, it reveals the genesis of the Fairness
+15
+
+See infra Part III.A.
+See infra Part III.B.
+17
+See infra Part III.B.
+16
+
+224
+
+Concordia Law Review
+
+Vol. 5
+
+Doctrine and the Public Broadcast Act. In so doing, this Note evaluates the
+repercussions of deregulating the broadcast industry and examines how
+courts and legislatures have struggled to balance the First Amendment
+guarantee of free speech against the public trustee obligations that broadcast
+media were once entrusted with to provide fair and balanced coverage.
+A.
+
+An Era of Broadcast Regulation
+
+The history of broadcast regulation in the United States is intricate
+and multifaceted. Even so, the evolution of the agencies charged with
+overseeing broadcast follows a relatively linear path. This Subpart provides
+an abbreviated history of broadcast regulation to help aid understanding about
+why certain regulations failed, why others succeeded, and what transpired as
+the result of deregulation.
+The Radio Act of 1912 was the first act of legislation that required
+licenses for radio stations.18 The Act’s passage occurred following
+government concern that radio interference had contributed to a delay in the
+rescue of passengers on the Titanic the night it sank.19 At the time of the
+Radio Act, the Commerce Department monitored radio, but with
+technological advances the government recognized a need for a regulatory
+body that could respond to the unique demands of radio at the time.20 Shortly
+thereafter, Congress passed the Radio Act of 1927.21 This revised legislation
+established the Federal Radio Commission, but by 1934 the regulatory body
+was supplanted by the Federal Communications Commission.22
+A review of early legislation reveals the concern many in Congress
+had with the advent of television and radio and the potential this new
+technology possessed as a political tool.23 Texas Representative Luther
+Johnson shared his concerns ahead of a debate on the Radio Act of 1927:
+18
+
+H.R. REP. NO. 741 (1912), https://www.visitthecapitol.gov/exhibitions/artifact/s-6412-actregulate-radio-communication-radio-act-1912-may-20-1912.
+19
+Id.
+20
+Jennifer Davis, Anniversary of the Radio Act of 1927, The Beginning of Broadcast
+Regulation, LIBRARY OF CONGRESS (Feb. 23, 2016), https://blogs.loc.gov/law/2016/02
+/anniversary-of-the-radio-act-of-1927-the-beginning-of-broadcast-regulation/.
+21
+Act of Feb. 23, 1927, Ch. 169; 44 Stat. 1162.
+22
+See 47 U.S.C.A. § 151 (1996).
+23
+But see Rebecca Ruiz, Reaction to Regulation: 1934 vs. Today, N.Y. TIMES (March 5,
+2015, 6:32 PM), https://bits.blogs.nytimes.com/2015/03/05/reaction-to-regulation-1934-vstoday/ (describing the reaction two senators had in 1934 to the proposed passage of the
+Communications Act of 1934, calling the legislation “overreaching” and an attempt to
+“censor the press”).
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+225
+
+American thought and American politics will be largely at the
+mercy of those who operate these stations, for publicity is the
+most powerful weapon that can be wielded in a republic.
+And when such a weapon is placed in the hands of one person,
+or a single selfish group is permitted to either tacitly or
+otherwise acquire ownership or dominate these broadcasting
+stations throughout the country, then woe be to those who dare
+to differ with them. It will be impossible to compete with them
+in reaching the ears of the American people.24
+The FCC emerged out of the Communications Act of 1934.25 At that time,
+broadcast television was in its infancy, and the FCC was created to regulate
+and expand the availability of communication to people across the United
+States.26
+The premise behind the Communications Act was simple: those who
+wished to broadcast on television or radio could do so only with a license,
+and Congress required that the FCC grant a license only to those who would
+serve the public interest.27 To comply with this responsibility, the FCC
+showed a preference toward granting and renewing licenses to stations that
+presented more than one view.28 That said, what began as a preference by the
+FCC evolved into a mandate after it published the report In the Matter of
+Editorializing by the Broadcast Licensees.29 As a result, the guidelines that
+would govern broadcasters for nearly 40 years became known as the Fairness
+Doctrine.30
+The Fairness Doctrine had two primary requirements for a
+broadcaster to obtain a license. First, “every licensee [must] devote a
+24
+
+Steve Rendall, The Fairness Doctrine: How We Lost it and Why We Need it Back,
+SISYPHUS (July 2018), https://sisyphuslitmag.org/2018/07/the-fairness-doctrine-how-welost-it-and-why-we-need-it-back/.
+25
+Id. (stating that the purpose of the Communications Act was to “regulat[e] interstate and
+foreign commerce in communication by wire and radio so as to make available, so far as
+possible, to all the people of the United States”).
+26
+Id.
+27
+47 U.S.C.A. § 307 (2004).
+28
+See Kathleen Ann Ruane, Fairness Doctrine: History and Constitutional Issues, CONG.
+RES. SERV (2011).
+29
+See Editorializing by Broadcast Licensees, 13 F.C.C.2d REP. 1246, 1246–70 (1949). The
+report was first iteration of the Fairness Doctrine, which set out the requirements for
+broadcasters to devote time to controversial issues and air opposing views. Id.
+30
+Id. at 1264 (referring to the guidelines as “the doctrine of fairness.”).
+
+226
+
+Concordia Law Review
+
+Vol. 5
+
+reasonable portion of broadcast time to the discussion and consideration of
+controversial issues of public importance.”31 Second, “in doing so [the
+broadcaster be] fair—that is, that [the broadcaster] affirmatively endeavor to
+make. . . facilities available for the expression of contrasting viewpoints held
+by responsible elements with respect to the controversial issues presented.”32
+Additional requirements under the Fairness Doctrine were later
+imposed, including the “personal attack rule” which required broadcasters to
+notify a person who was the subject of a personal attack within one week and
+required the broadcaster to allow the individual an opportunity to respond on
+air.33 The regulation also required broadcasters that endorsed a political
+candidate to allow other candidates an equal opportunity to respond.34
+The premise of the Fairness Doctrine was based on the concept that
+television broadcasters were “public trustees.”35 Unlike newspapers, the
+airwaves for broadcast television were believed to be finite.36 This “scarcity
+concept” meant that broadcasters who used the public airwaves should
+provide a public service.37 Because the federal government licensed
+broadcasters, the theory was that the networks should air competing
+perspectives designed to foster a fair debate on controversial issues.38
+In many ways, it is unsurprising the Fairness Doctrine emerged in
+1949. The political and media landscape in the United States in the early
+1950s bred an atmosphere of distrust among the American public, and for the
+first time in American history, the coverage played out live across television.
+In the early 1950s, Americans were told to fear Communism—to be
+31
+
+Applicability of the Fairness Doctrine in the Handling of Controversial Issues of Public
+Importance, 29 Fed. Reg. 10426 (1964).
+32
+Id. (original punctuation preserved).
+33
+47 C.F.R. § 73.123–73.300 (1974).
+34
+Id. (articulating that though the Fairness Doctrine required broadcasters to provide equal
+time to other candidates if the station endorsed a candidate, the rule was separate from the
+Equal Time rule which is still in effect); see also 47 C.F.R. § 73.1941 (1994).
+35
+See, e.g., Columbia Broad. Sys., Inc. v. Democratic Nat’l Comm., 412 U.S. 94, 117 (1973)
+(“[L]icensee’s role developed in terms of a ‘public trustee’ charged with the duty of fairly
+and impartially informing the public audience.”).
+36
+Red Lion Broad. Co. v. FCC, 395 U.S. 367, 376 (1969); see also Josephine Soriano, The
+Digital Transition and the First Amendment: Is It Time to Reevaluate Red Lion’s Scarcity
+Rationale? 15 B.U. PUB. INT. L. J. 341, 343 (2006) (explaining that broadcast media uses
+electromagnetic spectrum to transmit signal, and there are a limited number of signals that
+can occupy the spectrum).
+37
+John W. Berresford, The Scarcity Rationale for Regulating Traditional Broadcasting: An
+Idea Whose Time Has Past, 2 MEDIA BUREAU STAFF RES. PAPER (2005).
+38
+See Ruane, supra note 28.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+227
+
+watchful of their neighbors, their teachers, their news anchors.39 The Red
+Scare and Cold War dominated nightly news in the late 1940s and early
+1950s.40 Despite the rampant fear that swept across the nation and consumed
+the public and public figures alike, Americans largely trusted broadcast
+news.41 Perhaps this is why when Edward R. Murrow, a renowned and
+respected journalist for CBS, spoke on March 9, 1954, on his television
+program See it Now and warned against the dangers of McCarthyism, the
+audience listened.42 In this broadcast, Murrow looked directly into the camera
+and condemned McCarthy and his claim of rampant Communism:
+We proclaim ourselves, as indeed we are, the defenders of
+freedom—what's left of it but we cannot defend freedom
+abroad by deserting it at home. The actions of the junior
+Senator from Wisconsin have caused alarm and dismay
+amongst our allies abroad and given considerable comfort to
+our enemies. And whose fault is that? Not really his. He didn't
+create this situation of fear. He merely exploited it, and rather
+successfully. Cassius was right: “The fault, dear Brutus, is not
+in our stars, but [i]n ourselves.”43
+The more illustrative point to Edward R. Murrow’s speech condemning
+Joseph McCarthy during the infamous See it Now broadcast is not that the
+American public listened,44 though they did, but that in spite of the fear and
+distrust in America at that time, people trusted the news.45 Moreover, Murrow
+and others like him could speak out against Communism, the Vietnam War,
+39
+
+Landor Storrs, McCarthyism and the Second Red Scare, OXFORD RES. ENCYCLOPEDIA
+AM. HIST. 1 (July 2015).
+40
+Id.
+41
+See The New Media Landscape, supra note 4.
+42
+Joseph Wershba, Murrow v. McCarthy: See it Now, N.Y. TIMES (March 4, 1979),
+https://www.nytimes.com/1979/03/04/archives/murrow-vs-mccarthy-see-it-now.html.
+43
+Id.
+44
+Id. Following Murrow’s address to the country, CBS said it received the largest response
+in broadcast history from the American public: 12,348 phone calls within a few hours.
+Though McCarthy’s reputation had begun to decline, Murrow’s public address is largely
+credited with demonstrating the role that television journalism once had in shaping American
+society. See Edward Walsh, When Television Took on Joe McCarthy, WASH. POST (March
+11, 1994), https://www.washingtonpost.com/archive/lifestyle/ 1994/03/11/when-televisiontook-on-joe-mccarthy/46f3f817-b0a8-432f-8c68-db4f906a5b01/.
+45
+See Edward R. Murrow, FILM & HISTORY (June 20, 2016), http://www.uwosh.edu/
+filmandhistory/documentary/americanhistory1/murrow.php (referring to Edward R. Murrow
+at the time of McCarthy broadcast as “the most trusted man in America”).
+
+228
+
+Concordia Law Review
+
+Vol. 5
+
+and culturally significant events in the 1950s, 1960s, and 1970s without
+violating the Fairness Doctrine.
+Even so, some have argued that the Fairness Doctrine chilled free
+46
+speech; this was and remains the primary motive for its repeal.47 Yet the
+Supreme Court has never held that the Fairness Doctrine was unconstitutional
+or contravened the First Amendment rights of broadcasters.48 In part, this is
+because of the medium.
+The FCC licenses broadcasters to use the airwaves, and though they
+have the right to speak, the right is confined by the mechanism.49 Yet a wave
+of challenges and policy concerns throughout the 1980s would ultimately
+lead the FCC to abandon the Doctrine, and with it, the ideal that broadcasters
+had a responsibility to serve as public trustees.
+B.
+
+Challenging Constitutionality
+
+In 1985, the FCC issued a report entitled the 1985 Fairness Report.50
+The report was published as an evaluation of the Fairness Doctrine.51 The
+Commission concluded that the “fairness doctrine . . . disserve[d] the public
+interest.”52 The FCC also concluded that the second prong of the Doctrine,
+which required broadcasters to air opposing viewpoints, had a chilling effect
+on news coverage.53 Even so, the Commission did not repeal the Doctrine
+after that conclusion because the FCC was under the mistaken assumption
+that the Doctrine had been codified in a 1959 amendment to Title 47 of the
+United States Code, section 315.54
+46
+
+See Adam Thierer, Why the Fairness Doctrine is Anything But Fair, THE HERITAGE
+FOUNDATION (Oct. 29, 1993), https://www.heritage.org/government-regulation/report/whythe-fairness-doctrine-anything-fair (arguing that the Fairness Doctrine put too much
+regulatory power under FCC control and allowed for arbitrary enforcement); see also Robert
+Mulholland, The Fairness Doctrine is Unfair to the Public, CHICAGO TRIBUNE (May 30,
+1989), https://www.chicagotribune.com/news/ct-xpm-1989-05-30-8902050312-story.html
+(suggesting that the Fairness Doctrine allowed the government to control what content a
+station aired).
+47
+Ruane, supra note 28, at 5.
+48
+See Red Lion Broad. Co. v. FCC, 395 U.S. 367 (1969).
+49
+See infra Part I.B. (highlighting in the subsequent court decisions the court’s rationale in
+determining that broadcast is different than print media).
+50
+102 F.C.C.2d REP. 145 (1985).
+51
+Id.
+52
+Id. at 148.
+53
+Id. at 155.
+54
+See Communications Act, 47 U.S.C. § 315 (1959). In 1959, Congress amended the
+Communications Act of 1934. Congress revised section 315 to include language that stated
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+229
+
+Yet, the report, critical of the Fairness Doctrine and suggestive of its
+negative implications on the First Amendment, set the stage for a series of
+court challenges that ultimately empowered the FCC to repeal it in 1987.55
+1.
+
+Red Lion Broad. Co. Inc. v. FCC
+
+Before the FCC’s abandonment of the Fairness Doctrine in 1987, the
+policies that governed broadcast licenses for the second half of the twentieth
+century faced intense scrutiny in the courts.56 Yet, in 1969, the Supreme
+Court demonstrated it was willing to uphold the principles behind the
+Fairness Doctrine.57 Red Lion Broad. Co., Inc. v. FCC involved two cases
+that challenged the constitutionality of the Fairness Doctrine and the statutory
+basis that had supported it.58
+The case centered on a man named Fred J. Cook who had authored a
+book entitled Goldwater—Extremist on the Right.59 Red Lion Broadcasting
+was licensed to operate a radio station, and the station broadcast a segment
+by Reverend Billy James Hargis that discussed Cook’s book.60 During the
+broadcast, Hargis made a series of allegations against Cook, including
+alleging that he had been fired for making false statements, that he worked
+for a publication associated with Communism, that he attacked the Central
+Intelligence Agency, and that his book was an attempt to destroy Berry
+Goldwater.61
+a broadcaster shall afford a reasonable opportunity to discuss conflicting views. That said,
+the FCC relied on a D.C. Circuit Court decision, Telecom. Research and Action Ctr. v. FCC,
+806 F.2d 1115 (D.C. Cir.1986), which stated, “[h]ad Congress affirmatively intended to
+make the fairness doctrine a statutory command, it surely would have employed a more direct
+and less offhanded approach…” Id. at 1119. The dissent strongly maintained that the Fairness
+Doctrine had been codified, stating, “[a]s Judge Robinson explained for the court, ‘[the]
+language placed in Section 315(a) in 1959. . . codifies the fairness doctrine formulated by
+the Commission in 1949.’ Kennedy for President Committee v. FCC, 636 F.2d 432, 438
+(D.C. Cir. 1980) (citing Red Lion, 395 U.S. at 377–78, 89 S. Ct. at 1799–1800).” Id. at 1117.
+Even so, the FCC elected to discontinue adherence to the Doctrine determining that it was
+never codified.
+55
+See In re Syracuse Peace Counsel, 2 FCC RCD. 5043, 5050 (1987).
+56
+See Green v. FCC, 447 F.2d 323, 333 (D.C. Cir. 1971) (declining to reverse the ruling of
+the FCC that rejected a complaint by groups under the fairness doctrine); Banzhaf v. FCC,
+405 F.2d 1082, 1085 (D.C. Cir. 1968) (affirming a ruling by the FCC to requiring television
+and radio stations to devote equal airtime to present a case against cigarette smoking).
+57
+See generally Red Lion Broad. Co. v. FCC, 395 U.S. 367 (1969).
+58
+Id. at 370.
+59
+Id. at 371.
+60
+Id.
+61
+Id.
+
+230
+
+Concordia Law Review
+
+Vol. 5
+
+After the broadcast, Cook sought to invoke his free reply time,
+determining he had been personally attacked on air.62 Despite the FCC policy
+mandating the air time, Red Lion refused.63 Following an exchange between
+Cook, Red Lion, and the FCC, the FCC determined that Cook was entitled to
+a chance to respond.64
+The Supreme Court went through an exhaustive history of the
+Doctrine and detailed the legislative intent behind it.65 The Court reasoned
+that the Fairness Doctrine was a “legitimate exercise of congressionally
+delegated authority” to the FCC.66 Specifically, the Court addressed the First
+Amendment issues raised by broadcasters and the contention that the First
+Amendment protected broadcaster’s right to exclude who they choose from
+the broadcast, holding that no person can be prevented from publishing what
+he thinks and that such a right extends equally to broadcasters.67
+Yet it was this comparison of broadcast to other mediums of
+publication in an argument of First Amendment protection in which the Court
+disagreed.68 There were differences in how the First Amendment applied to
+the medium of broadcast, the Court determined.69 The Court pointed to the
+government’s ability to limit sound-amplifying equipment, but suggested that
+in so doing, the government was not impeding free speech.70
+Underpinning the Court’s rationale behind Red Lion was the scarcity
+argument:71
+If 100 persons want broadcast licenses but there are only 10
+frequencies to allocate, all of them may have the same ‘right’
+to a license; but if there is to be any effective communication
+by radio, only a few can be licensed and the rest must be barred
+from the airwaves.72
+62
+
+Id. at 372; see also In re Amendment of Part 73, 8 F.C.C.2d 721, 722 (1967) (highlight
+that the FCC codified its longstanding personal attack and political editorial rules which
+allowed a person to invoke airtime in the context of the discussion of a controversial issue if
+a personal attack occurred).
+63
+Red Lion Broad. Co., 395 U.S. at 372.
+64
+Id.
+65
+Id. at 375–387.
+66
+Id. at 385.
+67
+Id. at 386.
+68
+Id. at 387.
+69
+Id.
+70
+Id. (citing Associated Press v. United States, 326 U.S. 1, 20 (1945)).
+71
+Id. at 388–89.
+72
+Id.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+231
+
+Moreover, the Court determined it was “the right of the viewers and listeners,
+not the right of the broadcasters,” that was important.73 In its reasoning, the
+Court acknowledged that the FCC could have required broadcasters to share
+the frequencies.74 Instead, the Court recognized that the government elected
+to bestow upon the broadcasters selected for a license a responsibility to act
+as a public trustee—a requirement that in exchange for the free use of public
+airwaves, the licensee would offer reasonable time to those with a different
+view or those who had been publicly attacked.75 The Court reasoned that the
+First Amendment granted no right to a licensee that enabled them to prevent
+others from speaking on the broadcast and granted no unconditional use of a
+resource to which others had been denied access.76
+The Court emphasized the use of licenses in its Red Lion opinion to
+uphold the constitutionality of the Fairness Doctrine. “Licenses to broadcast
+do not confer ownership of designated frequencies, but only the temporary
+privilege of using them.”77 The Red Lion Court upheld the constitutionality
+of the Fairness Doctrine, 78 and held that the FCC’s regulations in the
+Doctrine were authorized by statute and the Constitution.79 Though the
+Court’s decision has never been directly challenged, subsequent appellate
+decisions undermined its rationale.
+2.
+
+Telecom. Research and Action Ctr. v. FCC
+
+In 1986, a case called Telecom. Research and Action Ctr. v. FCC
+(TRAC) came before the United States Court of Appeals, D.C. Circuit.80
+Judge Robert Bork and future Supreme Court Justice Antonin Scalia
+questioned the legitimacy of the Fairness Doctrine in the opinion.81 The
+decision, written by Judge Bork, challenged the Supreme Court to “one day
+revisit this area of law and either eliminate the distinction between print and
+broadcast media . . . or announce a constitutional distinction that is more
+usable than the present one.”82
+73
+
+Id. at 390 (emphasis added).
+Id.
+75
+Id. at 391.
+76
+Id.
+77
+Id. at 394 (citing 47 U.S.C. § 301 (1934)).
+78
+Id. at 396.
+79
+Id. at 401.
+80
+See generally Telecom. Research and Action Ctr. v. FCC, 801 F.2d 501 (D.C. Cir. 1986).
+81
+See generally id.
+82
+Id. at 509.
+74
+
+232
+
+Concordia Law Review
+
+Vol. 5
+
+The case centered on a challenge to the FCC’s decision not to apply
+the regulations of the Fairness Doctrine to a technology known as teletext.83
+The FCC argued that the Fairness Doctrine should not extend to a technology
+that did not exist when the Doctrine was created and maintained that applying
+the Doctrine was at the sole discretion of the Commission.84 The FCC also
+argued that teletext was a hybrid of print and broadcast, which did not subject
+it to the scarcity rationale outlined in Red Lion.85
+Unlike Red Lion, which was concerned exclusively with broadcast,
+the FCC sought to distinguish the argument in TRAC by claiming that
+regulating teletext implicated the First Amendment because it regulated print
+media, which the Court had determined in a prior decision was not subject to
+right-of-reply.86 The FCC attempted to differentiate teletext from broadcast
+in TRAC by arguing that textual media, unlike airwaves, was not scarce.
+However, that argument was unconvincing to the D.C. Circuit.
+The court determined that “[t]he dispositive fact is that teletext is
+transmitted over broadcast frequencies that the Supreme Court has ruled
+scarce and this makes teletext's content regulable.”87 Though the FCC lost the
+appeal,88 the court struck the first major blow to the Doctrine by holding that
+the Doctrine was not statutory law, but rather was created by the FCC and as
+such, could be repealed by the FCC.89 This was the first recognition that the
+Doctrine had not been codified.
+3.
+
+Meredith Corp. v. FCC
+
+The FCC’s last barrier to eliminating the Fairness Doctrine was
+removed by the D.C. Circuit Court of Appeals the next year in Meredith Corp
+v. FCC.90 A station owned by Meredith Corp. was accused of violating the
+Fairness Doctrine for refusing to allow response time to a public attack.91
+
+83
+
+Id. at 502 (noting that teletext was a new technology that transmitted graphics onto
+television screens for home viewing).
+84
+Id. at 504.
+85
+See id.
+86
+See Miami Herald Publ’g Co. v. Tornillo, 418 U.S. 241, 258 (1974) (striking down a statute
+that applied to newspapers requiring editorial columns to provide a right to reply).
+87
+Telecom. Research and Action Ctr., 801 F.2d at 508.
+88
+Id. at 502.
+89
+Id. at 517.
+90
+See Meredith Corp. v. FCC, 809 F.2d 863 (D.C. Cir. 1987).
+91
+Id. at 865–66.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+233
+
+Concurrent to the case, the FCC’s Fairness Report was issued.92 The report
+concluded that the Doctrine did not serve the public interest, but the
+Commission failed to repeal the Doctrine at that time.93 The D.C. Circuit
+questioned the Commission’s unwillingness to declare where it stood on the
+policies that had long governed broadcasters:
+[T]he Commission refused to decide whether the fairness
+doctrine was self-generated pursuant to its general
+congressional authorization or specifically mandated by
+Congress. Of course, the fair inference to be drawn from the
+Commission's report was that the Commission believed the
+doctrine was not specifically mandated; otherwise, it would
+have been irresponsible for the Commission gratuitously to
+cast constitutional doubt on a congressional command.
+Nonetheless, because the Commission felt intense political, if
+not legal, pressure from Congress, it chose not to reach a final
+conclusion regarding the origins of the doctrine. We think,
+however, the Commission was obliged to resolve that issue, at
+least in the context of an enforcement proceeding in which a
+party raises a constitutional defense.94
+The D.C. Court of Appeals remanded the case to the FCC to consider the
+constitutional arguments, noting, “the Commission need not confront that
+issue if it concludes that in light of its Fairness Report it may not or should
+not enforce the doctrine because it is contrary to the public interest.”95
+Despite the Supreme Court’s holding in Red Lion, once the Fairness
+Report was published, the FCC elected to stop enforcing the Doctrine under
+the Reagan administration in 1987.96 That year, Congress voted to codify the
+regulations embodied in the Doctrine, but Reagan vetoed the measure, stating
+“[t]his type of content-based regulation by the federal government is, in my
+judgment, antagonistic to the freedom of expression guaranteed by the First
+Amendment.”97
+92
+
+See 1985 Fairness Report, 102 F.C.C.2d REP. 145 (1985).
+See supra Part I.B.
+94
+Meredith Corp., 809 F.2d at 872–73.
+95
+Id. at 874.
+96
+Tim Dickinson, So Long, Fairness Doctrine, ROLLING STONE (Aug. 24, 2011, 6:11 PM),
+https://www.rollingstone.com/ politics/politics-news/so-long-fairness-doctrine-75444/.
+97
+Penny Pagano, Reagan’s Veto Kills Fairness Doctrine Bill, L.A. TIMES (June 21, 1987,
+93
+
+234
+
+Concordia Law Review
+
+Vol. 5
+
+The political landscape of broadcast networks changed almost
+immediately. According to the Media Access Project, after the repeal of the
+Fairness Doctrine there has been less coverage of issues; television news had
+decreased locally and nationally.98 The Federal Communications Law
+Journal determined that 25 percent of broadcast stations no longer offer any
+local news or public affairs programming.99 But more disconcerting is the
+proliferation of partisan reporting. Less than a year after the FCC abolished
+the Fairness Doctrine, Rush Limbaugh launched his talk radio show,
+polarizing talk radio.100 Rising out of the demise of the Doctrine are names
+such as Sean Hannity and Bill O’Reilly.101
+C.
+
+A New Standard of Regulation: Public Broadcasting Act
+
+Whereas most of the legislation addressed in Part I of this Note is in
+reference to repealed regulations, this Subpart addresses the passage of
+legislation that imposed regulation on broadcasters. Though seemingly
+disconnected from the Fairness Doctrine, the history of this legislation is
+critical to understanding the proposal discussed infra Part III.102
+In 1967, Congress passed Public Law 90-129 to amend the
+Communications Act of 1934.103 The amendment became known as the
+Public Broadcasting Act of 1967.104 The Act provided federal aid to public
+broadcasting, but more importantly, it created the Corporation for Public
+Broadcasting (CPB) and the Public Broadcasting Service (PBS).105 The CPB
+12:00 AM), https://www.latimes.com/archives/la-xpm-1987-06-21-mn-8908-story.html.
+98
+Rendall, supra note 24.
+99
+Id.
+100
+Mark Gunther, The Transformation of Network News, NIEMAN REPORTS (June 15, 1999),
+https://niemanreports.org/articles/the-transformation-of-network-news/.
+101
+Id. The demise of the Fairness Doctrine saw the emergence of major conservative voices.
+For additional discussion regarding potential reasons for this, see Nicole Hemmer, The
+Conservative War on Liberal Media Has a Long History, THE ATLANTIC (Jan. 17, 2014),
+https://www.theatlantic.com/politics/archive/2014/01/the-conservative-war-on-liberalmedia-has-a-long-history/283149/ (“Conservatives saw the media landscape differently. . . .
+Because of this, the right believed fairness did not require a response to conservative
+broadcasts; conservative broadcasts were the response. Unable to bring the FCC around to
+their position, conservatives increasingly saw the commission as a powerful government
+agency dedicated to maintaining media’s liberal tilt.”).
+102
+See infra Part III.
+103
+An Act of Nov. 7, 1967 Pub. L. No. 90-129, 81 Stat. 365.
+104
+See Public Broadcasting Act of 1967, 47 U.S.C. §§ 390–99 (1976).
+105
+See id.; see also Robert Avery, Why Public Broadcasting?, NAT’L COMM. ASS’N (Oct. 1,
+2007), https://www.natcom.org/communication-currents/why-public-broadcasting. The Act
+also created National Public Radio (NPR). Id.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+235
+
+was funded by the federal government as a conduit of federal funding for the
+public media.106 The corporation functioned as an umbrella organization to
+support public media operations, but did not, and does not, operate broadcast
+stations.107 On the other hand, PBS was established under the Act as a
+membership organization to work in partnership with other stations and
+provide public programming and educational programming.108 By design,
+PBS is limited to educational programming.109
+Though the legislation was intended to create a public broadcasting
+network that rivaled the British Broadcasting Corporation (BBC), it had
+fundamental flaws that prevented it from ever reaching the idealism
+envisioned by drafters.110 First, the governing body of the CPB was intended
+to be nonpartisan, with the objective that the Board of Directors would protect
+the organization from political interference.111 Yet, when the Act passed, the
+legislation required a fifteen-member Board whose appointees would be
+decided by the president.112 Second, the intended funding mechanism for the
+Act did not make it into the bill.113 The result was a struggle to obtain
+congressional funding each fiscal year.114
+Despite its flaws, the Public Broadcasting Act has existed for more
+than fifty years. Since its founding, it adopted a code of integrity, code of
+ethics, and charter that govern both the media organizations overseen by the
+corporation and the employees within the corporation.115 Members of the
+CPB adopted a charter outlining principles aimed at strengthening trust and
+integrity of the public media. The charter specifies a commitment to “[a]im
+for transparency in news gathering, reporting, and other content creation and
+share the reasons for important editorial and programming choices.”116
+106
+
+CPB FAQ, CORP. FOR PUB. BROADCASTING, https://www.cpb.org/faq#1-2 (last visited
+Mar. 7, 2020).
+107
+Id.
+108
+Mission, IDAHO PUB. TELEVISION, http://www.pbs.org/about/about-pbs/missionstatement/ (last visited Mar. 7, 2020).
+109
+Overview, IDAHO PUB. TELEVISION (Aug. 2018), http://www.pbs.org/about/about-pbs/
+overview/ (last visited Mar. 7, 2020).
+110
+Avery, supra note 105.
+111
+Id.
+112
+Id.
+113
+Id.
+114
+Id.
+115
+Ombudsman, CORP. FOR PUB. BROADCASTING, https://www.cpb.org/ombudsman/about
+(last visited Mar. 7, 2020).
+116
+Code of Integrity, CORP. FOR PUB. BROADCASTING, http://www.codeofintegrity.org/ (last
+
+236
+
+Concordia Law Review
+
+Vol. 5
+
+Moreover, the public media seeks to “[p]romote the common good, the public
+interest, and these commitments to integrity and trustworthiness in
+organizational governance, leadership, and management.”117
+Of note, the CPB charter established the position of ombudsman as an
+independent observer of public broadcasting. The position is independent of
+the CPB and was created in 2005 as the result of a “clear need for a ‘systemwide process of exerting upward pressure on the standards of taste and
+performance.’”118 The ombudsman works to encourage high standards in
+public broadcasting.119 The benefit of public broadcasting is difficult to
+overstate. Research shows that, unlike its commercial counterpart, the public
+news audience is better-informed120 and more likely to vote.121 The audience
+also has smaller disparities in knowledge between social groups.122
+II.
+
+REPORTING LIVE FROM THE PROBLEM
+
+The preceding history is crucial for understanding the current
+deregulated culture within broadcast news. More importantly, it juxtaposes
+the current media landscape and demonstrates that it was once possible for
+the public to have trust in broadcast news. Whereas big government, labor,
+and business have traditionally suffered low public opinion, the public largely
+viewed broadcast news in a positive light since its inception, finding
+broadcasters trustworthy and credible.123
+Part II of this Note examines the current scope of the issue. By first
+analyzing the concept of fake news and how that concept impacts public
+perception of the media, this Note delves into recent scenarios that meet the
+definition of fake news and examines why recent attempts to regulate the
+visited Mar. 7, 2020) [hereinafter Code of Integrity].
+117
+Id.
+118
+Charter Establishing the CPB Office of the Ombudsman, CORP. FOR PUB. BROADCASTING
+(Feb. 1, 2011), https://www.cpb.org/ombudsman/charter [hereinafter Charter].
+119
+Id.
+120
+See Stuart Soroka et al., Auntie Knows Best? Public Broadcasters and Current Affairs
+Knowledge, 43 B. J. POL. S. 1, 4–5 (Oct. 2013).
+121
+See Susan Banducci, Holli A. Semetko, Media, Mobilization and European Elections,
+FIFTH FRAMEWORK RES. PROGRAMME (Mar. 10, 2003), http://www.ucd.ie/dempart/working
+papers/media.pdf.
+122
+See James Curran et. al., Media Systems, Public Knowledge and Democracy: A
+Comparative Study, 24 EUROPEAN JOURNAL OF COMMUNICATION 1, 5–26 (2009),
+https://pcl.stanford.edu/research/2008/curran-mediasystems.pdf.
+123
+Confidence in Institutions, GALLUP, https://news.gallup.com/poll/1597/confidenceinstitutions.aspx (last visited Mar. 7, 2020).
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+237
+
+media have failed.
+A.
+
+Defining the Problem
+
+This Subpart explains how fake news affects public perception of the
+media and how that perception affects public trust of broadcast news. In so
+doing, it elucidates a general definition of the term fake news that serves as a
+basis from which to evaluate broadcast news stories. A general definition is
+necessary to identify stories that fall within the confines of fake news and to
+separate those that fall outside those confines.
+Examining the pervasiveness of an issue presents a challenge when
+no universal definition exists for what constitutes an instance of that issue.
+One scholar defined fake news as the “deliberate presentation of [ ] false or
+misleading claims as news, where the claims are misleading by design.”124
+Yet another study conducted a meta-analysis of 34 academic articles to define
+the term.125 The authors of the study recognized that it was clear that fake
+news “undermine[s] journalism’s legitimacy . . . .”126 Yet, the phrase fake
+news is typically not limited to circumstances in which a journalist
+“deliberately” presents false or misleading claims. This term has been
+repurposed to describe news that is unflattering or unfair.127 Even so, this is
+not to suggest that fake news is a widespread issue within the mainstream
+media. Instances of false or misleading broadcast news are rare, but they do
+occur.128 These occurrences, however isolated, compound the issue of media
+credibility.
+Perhaps more concerning is not the proliferation of fake news but the
+belief that it is so pervasive.129 Such a belief creates the same net effect: a
+distrust of the media. A study conducted by the University of South Carolina
+on the perceived effects of fake news found a “positive link between partisan
+124
+
+Axel Gelfert, Fake News: A Definition, 38 INFORMAL LOGIC 84, 86 (Mar. 15, 2018),
+https://doi.org/10.22329/il.v38i1.5068.
+125
+See generally Edson Tandoc, Jr. & Zheng Lim, Richard Ling, Defining “Fake News” A
+Typology of Scholarly Definitions, 6 DIGITAL JOURNALISM 137 (Aug. 30, 2017),
+https://doi.org/10.1080/21670811.2017.1360143 (categorizing fake news into six distinct
+subsets: news satire, news parody, news fabrication, photo manipulation, advertising and
+public relations, and propaganda).
+126
+Id. at 147.
+127
+See David Klein & Joshua Wueller, Fake News: A Legal Perspective, 20 J. INTERNET L.
+5, 6–13 (April 2017), https://ssrn.com/abstract=2958790.
+128
+See infra Part II.B.1–3.
+129
+See S. M. Jang & J. K. Kim, Third Person Effects of Fake News: Fake News Regulation
+and Media Literacy Interventions, 80 COMPUTERS HUM. BEHAV. 295 (2018).
+
+238
+
+Concordia Law Review
+
+Vol. 5
+
+identity and TPP [third-party perception]. In other words, those with greater
+identity with their own partisan groups (either Republican or Democrat)
+showed greater self-other disparity over the perceived influence of fake
+news.”130 Moreover, the study’s authors concluded that the finding “leads to
+growing concerns of false consensus among partisan citizens. . . . As partisans
+tend to show this perceptual bias regarding the effect of fake news, the role
+of information providers, such as news organizations . . . should be
+highlighted as an effort of fighting fake news.”131
+In many ways, the concept of fake news is not difficult to understand.
+Extending beyond the medium of broadcast, when an individual wants an
+idea to be accurate, confirmation bias can lead the person to believe the idea
+is true. Confirmation bias refers to a psychological phenomenon in which a
+person seeks or interprets evidence in a manner that supports existing
+beliefs.132 More than seeking information that supports what a person already
+believes, people will seek out information that confirms their belief in a
+particular way.133 Moreover, people will be less likely to believe factual
+accounts that challenge a narrative dissimilar to the beliefs they hold.
+Researchers with the Annenberg School of Communication examined
+the effects of exposing listeners to one-sided news broadcasts and found that
+“[l]isteners who are exposed to more conservative talk evaluate[d] Democrats
+more negatively and Republicans more positively. . . .”134 The study sought
+to demonstrate the effect of exposure on political attitudes.135 The researchers
+determined that as exposure to a message increased, so too did the degree of
+agreement with the messenger.136 On the other hand, the researchers tried to
+correlate the same finding with listener’s knowledge, a result that a prior
+study had posited.137 The researchers concluded that knowledge of a subject
+was not as great an indicator as exposure to a one-sided message.138 Put
+130
+
+Id. at 299.
+See id.
+132
+See Raymond Nickerson, Confirmation Bias: A Ubiquitous Phenomenon in Many Guises,
+2 REV. GEN. PSYCHOL. 175 (1998).
+133
+Id. at 177.
+134
+Gangheong Lee & Joseph Capella, The Effects of Political Talk Radio on Political
+Attitude Formation: Exposure Versus Knowledge, 18 POL. COMM. 369, 378 (2001),
+https://pdfs.semanticscholar.org/d0ad/9c2ba66a64d25372e144a2734f230fad8031.pdf.
+135
+See id. at 385.
+136
+Id. at 386.
+137
+Id.
+138
+Id. at 387.
+131
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+239
+
+another way, “when an audience is exposed to an intense, one-sided message,
+their agreement with the positions advocated increases as exposure and
+reception increase.”139
+In the context of fake news, this suggests that a consumer who
+continually observes biased news reporting is more likely to increase the
+degree of agreement with the conclusions of that report than to seek out other
+sources of information that would provide a balanced account of the facts. It
+also suggests that reporting that challenges a view already adopted by a
+viewer is more likely to be rejected as fake news. This has occurred before,
+and the consequences are disconcerting.
+B.
+
+Fake News in the Real World
+
+This Subpart analyzes several disreputable instances of fake news that
+have rightly contributed to the poor public perception of the media’s
+credibility. This Subpart examines an initial story reported by a broadcaster
+and discusses the institutional failures that allowed misinformation or
+inaccurate reporting to occur.
+1.
+
+The Iraq War
+
+Mistakes in reporting are inevitable, but when the news reports only
+one side of the story it can create a perception of a reality that does not exist.
+Nothing in the subsequent section is meant to suggest that broadcast news
+was responsible in whole or in part for the Bush administration’s decision to
+invade Iraq. That said, it is worth theorizing how media coverage pre-Iraq
+war significantly influenced the public to support the war without evidence.
+One study conducted a content analysis of ABC, CBS, and NBC in
+the year before the United States’ invasion of Iraq. The study’s authors
+identified 1,434 stories from ABC, CBS, and NBC over a period of seven and
+a half months before the invasion.140 The study preliminarily suggested that
+Americans likely learned and formed much of their initial opinions about the
+
+139
+Id. at 389 (finding that Democrats and Independents developed negative attitudes toward
+Bill Clinton after listening to conservative talk radio).
+140
+Danny Hayes & Matt Guardino, Whose Views Made the News? Media Coverage and the
+March to the War in Iraq, 27 POL. COMM. 59, 66 (Feb. 3, 2010), https://doi.org/10.1080/
+10584600903502615 (The study used six criteria to identify stories for inclusion. Those
+criteria were: “(a) primary topical focus, (b) secondary topical focus, (c) identity of each
+source, (d) source category, (e) directional thrust of each source’s statement in relation to the
+Bush administration’s position of Iraq, and (f) directional thrust of the story as a whole.”).
+
+240
+
+Concordia Law Review
+
+Vol. 5
+
+Iraq war from broadcast news and were influenced by the coverage.141
+The coverage leading up to the invasion from ABC, CBS, and NBC
+focused heavily on Iraq’s suspected possession of weapons of mass
+destruction (WMD).142 At that time, the networks also broadcast stories about
+the level of support from the international community and aired segments
+about how likely it was the United States would succeed in its efforts against
+Iraq.143
+Among one of the most frequent criticisms of the broadcast news
+coverage of Iraq was its failure to question claims from the Bush
+administration about initial assertions that Iraq had WMD.144 Moreover,
+commentators suggest that the American public was told why the United
+States should invade Iraq, but the counter views were largely shut out. Yet,
+from a statistical perspective, the data suggests that counterpoints were
+provided adequate coverage.145 Does this suggest that the media provided fair
+and balanced coverage of the pre-Iraq war invasion? Perhaps not, because of
+who provided the divergent viewpoints.
+The scholarly study conducted by Hayes and Guardino examined the
+time broadcasters provided for contrasting views but found the issue was not
+in the time devoted to opposing views. Rather, it was that those who provided
+the opposing views carried the most persuasive tone to the segment.146
+For example, George Bush was the source for 53 percent of the quotes
+given in favor of the invasion.147 The study found that opposition to the
+invasion was largely spoken for on behalf of Iraqi officials: 19 percent of all
+quotes were from Saddam Hussein.148 Many of the other voices of opposition
+came from foreign leaders who were openly opposed to George Bush.149
+Contrast the credibility of Bush at this time to the weight the American public
+
+141
+
+Id. at 68.
+Id. at 69.
+143
+Id.
+144
+See Howard Kurtz, Media’s Failure on Iraq Still Stings, CNN (March 11, 2013, 1:29 PM),
+https://www.cnn.com/2013/03/11/opinion/kurtz-iraq-media-failure/index.html (examining the
+media’s failure to question the Bush administration on allegations that Iraq had WMD and
+suggesting that the public’s low confidence in the media stems from what occurred in 2003).
+145
+Hayes & Guardino, supra note 140, at 72.
+146
+Id.
+147
+Id.
+148
+Id. at 75.
+149
+Id. (citing current and former European leaders, including French president Jacques
+Chirac, German chancellor Gerard Schroeder, and Russian president Vladimir Putin).
+142
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+241
+
+gave to those who spoke out against the war.150
+The content of coverage coming from ABC, NBC, and CBS at the
+time was also a subject of the study. Though the authors found that ABC did
+remain largely objective in its coverage, they also determined that CBS and
+NBC did not.151 In a review of transcripts during the time before the war,
+correspondents on both CBS and NBS portrayed a war with Iraq as inevitable
+and necessary.152 The study’s conclusions found that criticisms of network
+broadcasts were justified and that the author’s “findings support the view that
+media’s performance did not live up to the democratic standards most
+journalists hold themselves to, much less those expected by their critics.”153
+In the context of fake news, the failure by broadcasters to cover or
+provide equal and adequate coverage to opposing sides of the issue ahead of
+the U.S. invasion into Iraq contributed to the public distrust of the media.
+Broadcasters recognized early in the coverage that the U.S. would invade Iraq
+and failed to challenge the government on the rationale behind that decision.
+According to Howard Kurtz, a CNN reporter who was among the journalists
+that failed to question the Bush administration’s decisions, “[t]he low level
+of public confidence in the media has many causes, but one of them stems
+from what happened back in 2003.”154
+The media’s failure to cover the war objectively in Iraq remains one
+of the more notable illustrations of what can occur when a story’s conclusion
+is presumed, but it is not the only example.
+2.
+
+Seth Rich Conspiracy
+
+At the height of the 2016 presidential election, misinformation about
+both candidates was pervasive.155 Yet one fake news story seemed to gain
+more traction than others, and the story ultimately led to a lawsuit. Mathew
+150
+
+Following the terrorist attacks of September 11, 2001, George Bush’s approval rating
+reached its highest in Gallup history. There was widespread support among the public for a
+war on terrorism. See David Moore, Bush Job Approval Highest in Gallup History,
+Widespread Public Support for War on Terrorism, GALLUP (Sept. 24, 2001),
+https://news.gallup.com/poll/4924/bush-job-approval-highest-gallup-history.aspx.
+151
+Hayes & Guardino, supra note 140, at 76.
+152
+Id.
+153
+Id. at 80.
+154
+Kurtz, supra note 144.
+155
+See Hunt Allcott & Matthew Gentzkow, Social Media and Fake News in the 2016
+Election, 31 J. ECON. PERSP. 211 (2017), https://web.stanford.edu/~gentzkow/research/
+fakenews.pdf.
+
+242
+
+Concordia Law Review
+
+Vol. 5
+
+Ingram of Columbia Journalism Review examined the origins of the Seth
+Rich conspiracy story, which alleged that the young Democratic National
+Committee staff member killed in a botched robbery was actually
+assassinated by a contract killer working for Hillary Clinton.156 The origins
+of the conspiracy are difficult to trace, but have largely been attributed to the
+Internet Research Agency, a Russian entity that disseminated propaganda in
+the U.S. during the 2016 campaign.157 Unlike other stories that were
+circulated in 2016, the alleged assassination of Seth Rich grew into a
+conspiracy, in part, because it entered mainstream news. A local Fox affiliate
+broadcast the story and claimed it had confirmed the details that had
+previously only circulated online. The story resulted in a lawsuit.158
+Ed Butowsky brought a claim for disparagement and conspiracy
+against National Public Radio (NPR) and David Folkenflik.159 The claim also
+centered on the local Fox News affiliate—Fox 5 DC.160 Butowsky was an
+expert in the financial services industry and made frequent appearances on
+television and radio.161 In 2017, Butowsky contacted the family of Seth Rich
+and offered to help the family solve their son’s murder; he offered money to
+hire a private investigator.162 Later, Butowsky contacted a man named Rod
+Wheeler to see if he would be willing to investigate the murder on behalf of
+the Rich family.163 In March 2017, Wheeler appeared on the local Fox
+affiliate to discuss his theory behind Rich’s death, including his theory that
+Rich may have been planning to hand documents about Hillary Clinton over
+to Wikileaks.164
+Following Wheeler’s appearance on Fox 5, he remained in contact
+156
+
+Matthew Ingram, Getting to the Bottom of the Seth Rich Conspiracy Theory, COLUM.
+JOURNALISM REV. (July 10, 2019), https://www.cjr.org/the_media_today/seth-richconspiracy-theory.php.
+157
+Id.
+158
+Butowsky v. Folkenflik, 4:18CV442, 2019 WL 2518833, at *1 (E.D. Tex. Apr. 17, 2019).
+159
+Id.
+160
+Id. at *3.
+161
+Id.
+162
+Id.; see also Steve Inskeep, The Origins of the Seth Rich Conspiracy Theory, NPR (July
+11, 2019, 5:22 AM), https://www.npr.org/2019/07/11/740608323/the-origins-of-the-sethrich-conspiracy-theory (explaining the conspiracy of Seth Rich, an employee of the
+Democratic National Committee in 2016, who died in the early morning hours of July 10,
+2016, and whose death sparked conspiracy theories that Hillary Clinton was behind his death
+because he had evidence that would be detrimental to her campaign; however the rumors are
+unverified).
+163
+Butowsky, 2019 WL 2518833, at *3.
+164
+Id. at *4.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+243
+
+with a reporter for the broadcast network, at one point alleging in an email:
+“I’m ready to say that Seth’s [sic] Death was not a botched robbery and there
+appears to be a coverup within the D.C. Gov’t related to his death.”165
+According to the court filings, the Fox 5 reporter remembered that Wheeler
+was in contact with the Rich family and had expressed interest in exploring
+the story.166 On May 15, 2017, Wheeler told a different reporter with Fox 5
+that there were various sources within the FBI that had linked Rich to
+WikiLeaks: “Absolutely, yeah, and that’s confirmed.”167 The next day, Fox
+5 published a story on its website called, “Seth Rich, slain DNC staff, had
+contact with Wikileaks, say multiple sources.”168
+Within a day, the conspiracy theory became widely publicized and
+circulated. The cable news shows Fox & Friends aired two segments based
+on the Fox 5 report.169 Despite the story being discredited within hours, Fox
+allowed the story to remain published.170 Newt Gingrich, a Fox contributor
+on the cable network, spoke on air about the story. Sean Hannity similarly
+discussed the story and promoted it on his radio program despite requests
+from the family of Seth Rich to cease speaking about their son.171
+In the aftermath of the reporting, Wheeler claimed Fox had taken him
+out of context and published an incomplete version of what he said.172 More
+importantly, the reporters responsible for the misinformation continue to
+report at Fox News—one now works as a managing editor for the online
+publication.173
+Unlike the coverage of the Iraq war, which demonstrated how fake
+165
+
+Id.
+Id.
+167
+Id.
+168
+Id.; see also Malia Zimmerman, Seth Rich, Slain DNC Staffer, Had Contact with
+Wikileaks, Say Multiple Sources, FOX NEWS (May 16, 2017), http://web.archive.org/web/
+20170516133954/http:/www.foxnews.com/politics/2017/05/16/slain-dnc-staffer-hadcontact-with-wikileaks-investigator-says.html (alleging in this archived version of the article
+by Fox 5 that Seth Rich had contact with WikiLeaks; whereas the original article was
+removed and the story was later retracted).
+169
+Oliver Darcy, Exclusive: The Chaos Behind the Scenes of Fox News’ Now Retracted Seth
+Rich Story, CNN (April 17, 2017, 6:37 PM), https://money.cnn.com/2017/08/10/media/sethrich-fox-news-timeline/index.html [hereinafter Chaos Behind the Scenes].
+170
+Id.
+171
+Oliver Darcy, Seth Rich’s Brother Pleads with Hannity to Stop Spreading Conspiracy
+Theories, CNN (March 23, 2017), https://money.cnn.com/2017/05/23/media/seth-richfamily-letter-hannity-fox-news/.
+172
+Chaos Behind the Scenes, supra note 169.
+173
+Id.
+166
+
+244
+
+Concordia Law Review
+
+Vol. 5
+
+news can occur in biased or one-sided reporting, the story of Seth Rich
+presents a different type of fake news. The reporting on the conspiracy theory
+behind Seth Rich’s murder represented disinformation, and more
+importantly, disinformation by a foreign government.174
+3.
+
+Sinclair Broadcast Group
+
+The preceding Subparts address individual stories that demonstrate
+what transpires when the media lacks objectivity or accuracy in reporting.
+Those Subparts show the variances in fake news, from biased reporting to
+disseminating disinformation. Yet sometimes this issue transcends a singular
+broadcast or event. This Subpart addresses the results when the network itself
+lacks objectivity in its reporting, affecting all stories the network reports.
+In December 2017, the FCC issued a Notice of Proposed Rulemaking
+and requested comments on a rule that would affect the maximum national
+audience of television broadcast licensees.175 Sinclair Broadcast Group
+submitted comments in support of eliminating the national ownership cap.176
+Throughout most of the 20th century, regulation would have prevented
+Sinclair from reaching its current size; Sinclair Broadcast Group already
+owned 200 local television stations in 100 markets.177
+Under a prior FCC rule called the “rule of seven,” broadcast stations
+were prohibited from owning more than seven AM stations, FM stations, and
+TV stations in a single market.178 The rule of seven was adopted in 1953 to
+promote diversity among broadcast ownership, but the number increased to
+
+174
+
+WikiLeaks has long been identified as a conduit to the Russian government, whether
+wittingly or unwittingly. See Robert S. Mueller, III, Report on the Investigation into Russian
+Interference in the 2016 Presidential Election, U.S. DEPT. JUST. 1, 4 (March 2019),
+https://www.justice.gov/storage/report.pdf (“The GRU later released additional materials
+through the organization WikiLeaks.”).
+175
+FCC, MB DOCKET NO. 17-318, AMENDMENT OF SECTION 73.3555(E) OF THE
+COMMISSION’S RULES, NATIONAL TELEVISION MULTIPLE OWNERSHIP RULE, (proposed Dec.
+18, 2017); see also National Television Multiple Ownership Rule, 83 Fed. Reg. 3661-02,
+WL 555423 (Jan. 26, 2018).
+176
+FCC, MB Docket No. 17-318, Amendment of Section 73.3555(e) of the Commission’s
+Rules, National Television Multiple Ownership Rule, Comments of Sinclair Broadcast
+Group, (March 19, 2018).
+177
+Alvin Chang, Sinclair’s Takeover of Local News, in One Striking Map, VOX (Apr. 6,
+2018, 8:20 AM), https://www.vox.com/2018/4/6/17202824/sinclair-tribune-map.
+178
+Alex Jones, FCC Raises Limit on Total Stations Under One Owner, N.Y. TIMES (July 27,
+1984), https://www.nytimes.com/1984/07/27/business/fcc-raises-limit-on-total-stationsunder-one-owner.html.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+245
+
+12 stations in 1984 to increase media competition.179 The
+Telecommunications Act of 1996 further eroded the limitation.180 Even so,
+competition and diversity never arose after a relaxation on broadcast
+ownership; instead, it led to media monopolies.181
+In 2017, Sinclair Broadcast Group required local news anchors on
+each of its 193 stations to recite from the same script on air.182 The unusual
+nature of the segment extended beyond the words spoken in unison across
+193 markets. The segment was peculiar because it was produced to appear
+sincere, as though the evening news anchor was sharing his or her earnest
+belief about the dangers of fake news. A portion of the segment that aired
+stated:
+We are extremely proud of the quality, balanced journalism
+that [the news station] produces.
+....
+Unfortunately, some members of the media use their
+platforms to push their own personal bias and agenda to
+control ‘exactly what people think….’ This is extremely
+dangerous to a democracy.183
+When the segment aired on individual stations, viewers did not appear to
+179
+
+Id.
+The Telecommunications Act was signed by Bill Clinton in 1996 intending to create
+competition among broadcasters. It was the largest communications bill signed since the
+Communications Act of 1934. But the bill never functioned as intended and as a result of the
+legislation, corporations could form large monopolies in the media industry. As a result of
+the act, ownership of the media decreased from approximately fifty companies controlling
+ninety percent of the media to only five companies controlling the same market share. See
+Eric Boehlert, One Big Happy Channel?, SALON (June 28, 2011, 11:30 PM),
+https://www.salon.com/2001/06/28/telecom_dereg/; Katerina Matsa, The Acquisition of
+Binge in Local TV, PEW RES. CTR. (May 12, 2014), https://www.pewresearch.org/facttank/2014/05/12/the-acquisition-binge-in-local-tv/; Derek Turner, Dismantling Digital
+Deregulation: Toward a National Broadband Strategy, FREEPRESS, https://www.freepress.net/
+sites/default/files/2018-05/Dismantling_Digital_Deregulation.pdf (last visited Mar. 7, 2020).
+181
+See Kevin Carty, Sinclair’s Vast Media Merger Threatens Democratic Ideals. Congress
+Must Fight It, GUARDIAN (Nov. 24, 2017, 6:00 AM), https://www.theguardian.com/
+commentisfree/2017/nov/24/sinclair-tribune-media-merger-free-speech.
+182
+Jacey Fortin & Jonah Bromwich, Sinclair Made Dozens of Local News Anchors Recite
+The Same Script, N.Y. TIMES (Apr. 2, 2018), https://www.nytimes.com/2018/04/02
+/business/media/sinclair-news-anchors-script.html.
+183
+Erik Wemple, The Real Problem with Sinclair’s ‘Fake’ News Script, WASH. POST (April
+2, 2018), https://www.washingtonpost.com/blogs/erik-wemple/wp/2018/04/02/the-realproblem-with-sinclairs-fake-news-script/?utm_term=.d82983989129.
+180
+
+246
+
+Concordia Law Review
+
+Vol. 5
+
+notice the forced script, but the video director at Deadspin weaved together a
+video clip that later went viral showing hundreds of anchors across the United
+States reading the words in unison.184
+Though that incident was the most publicized, Sinclair had required
+its broadcasters to air what the network deemed “must-runs” before.185
+According to a former newscaster for Sinclair, the segments “were a little
+slanted, a little biased. . . .Packages of this nature can make journalists
+uncomfortable.”186 Sinclair has required newscasters to include pre-approved
+content on stories ranging from terrorism to messages in support of President
+Trump.187
+But Sinclair’s must-runs include more than just commentary by
+newscasters decrying fake news. These short segments are received daily at
+television stations across the country, and newsrooms must air the segments
+within 24 to 48 hours.188 In one example, during the 2016 campaign, Sinclair
+mandated its local news stations air a must-run in which its anchors suggested
+voters not vote for Hillary Clinton because the Democratic Party was
+historically pro-slavery.189 Current and former reporters for Seattle KOMO
+broadcast station have also complained about Sinclair’s programming
+requirements and the use of mandated daily polls that the reporter’s described
+as asking “leading questions.”190
+Yet the allegations against Sinclair predate the 2016 election. In 2004,
+Sinclair Broadcast Group declared it would air a documentary on 62 of its
+stations weeks before the 2004 presidential campaign that criticized John
+Kerry’s record in Vietnam.191 Many of the local stations were in swing states
+and were instructed by Sinclair to air the broadcast.192 Kerry’s campaign
+184
+Fortin & Bromwich, supra note 182; Timothy Burke, How America’s Largest Local TV
+Owner Turned Its News Anchors Into Soldiers in Trump’s War on the Media, DEADSPIN
+(Mar. 31, 2018, 3:45 PM), https://theconcourse.deadspin.com/how-americas-largest-localtv-owner-turned-its-news-anc-1824233490
+185
+Fortin & Bromwich, supra note 182.
+186
+Id.
+187
+Id.
+188
+Sydney Ember, Sinclair Requires TV Stations to Air Segments That Tilt to the Right, N.Y.
+TIMES (May 12, 2017), https://www.nytimes.com/2017/05/12/business/media/sinclairbroadcast-komo-conservative-media.html.
+189
+Id.
+190
+Id.
+191
+Drew Clark, How Fair is Sinclair’s Doctrine? SLATE (Oct. 20, 2004, 4:07 PM),
+https://slate.com/news-and-politics/2004/10/whatever-happened-to-the-fairness-doctrine.html.
+192
+Id.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+247
+
+argued that airing the segment would invoke a right to equal time for Kerry
+to rebut the accusations made in the documentary.193 Moreover, Sinclair had
+instructed stations to preempt regular programming to air the report, which
+alleged that testimony by Kerry before Congress contributed to the torture of
+soldiers held in Vietnam.194 The allegations were unverified.
+Sinclair ultimately backed out of airing the documentary, but Reed
+Hundt, the former chair of the FCC, remarked, “If broadcasters start to behave
+to the degree [ ] Sinclair is uniquely behaving, the whole industry will find
+that they'll be on the short end of the political stick.”195 Sinclair’s behavior
+did not improve, however. Thirteen years later, Sinclair has amassed a larger
+market share and its behavior has become more brazen.196
+C.
+
+Attempts to Reinstate Regulations
+
+Efforts to prevent broadcasters from disseminating biased news or
+failing to verify facts before air are challenging because the FCC’s own
+guidelines provide that it “cannot interfere with a broadcaster’s selection and
+presentation of news or commentary,”197 but for some narrow areas in which
+the FCC has the regulatory authority to penalize licensees for knowingly
+broadcasting false information.198
+The FCC provides a consumer guide that identifies “rigging or
+slanting the news” as the “most heinous act against the public interest.”199
+Yet despite the complaint process in place, the FCC will not revoke a
+broadcaster’s license “unless the extrinsic evidence of possible deliberate
+distortion of staging of the news which is brought to our attention, involves
+the licensee, including its principals, top management or news
+management.”200 But as the instances of broadcast misinformation discussed
+193
+
+Andrea Walker, Sinclair fallout could linger, BALT. SUN (Oct. 24, 2004),
+https://www.baltimoresun.com/news/bs-xpm-2004-10-24-0410230302-story.html.
+194
+Id.
+195
+Id.
+196
+Sinclair recently attempted to increase its market share further in a controversial $3.9
+billion-dollar merger with Tribune Media but withdrew from negotiations in 2018 after the
+FCC announced serious concerns about the deal. See Marguerite Reardon, Sinclair’s Merger
+with Tribune Official Dead, CNET (Aug. 9, 2018, 12:50 PM), https://www.cnet.com/
+news/sinclair-broadcast-group-merger-with-tribune-media-is-dead/.
+197
+Consumer Facts: Complaints About Broadcast Journalist, FCC (Jan. 5, 2008),
+http://www.fcc.gov/cgb/consumerfacts/journalism.pdf.
+198
+See id.
+199
+Id.
+200
+Memorandum Opinion, In re CBS Program ‘Hunger in America’, 20 F.C.C.2d 143, 22
+
+248
+
+Concordia Law Review
+
+Vol. 5
+
+supra Part II.B. demonstrate, top management and news management are
+often unaware of reporting inaccuracies until after publication, and by then,
+it can be difficult to contain a false story. Or, as in the case of Sinclair, the
+information broadcast is not misinformation per se, but rather slanted or
+biased information that fails to provide consumers a balanced account of
+events.
+As a result, virtually since the abolishment of the Fairness Doctrine,
+legislators have sought to reimpose its regulations in some form on broadcast
+media. For example, in 2005, New York Representative Maurice Hinchey
+introduced legislation that would reinstate the Doctrine.201 The bill was
+deemed the “Hush Rush” bill, in reference to Rush Limbaugh.202 The year
+before, Senator Richard Durbin called for the Doctrine to be reinstated.203
+Then, when Barack Obama was elected, concern among conservative radio
+voices intensified that the Doctrine may actually be reinstated. The Center for
+Individual Freedom circulated fundraising alerts with the headline, “Hannity
+and Limbaugh to be kicked off the air.”204 Even so, the panic never came to
+fruition.
+But 2005 was not the first time Congress sought to revive the Fairness
+Doctrine. Immediately after the FCC eliminated the Doctrine in 1987,
+Congress attempted to codify its principles into law.205 The bill passed the
+House and the Senate but President Reagan vetoed it.206 A few years later, as
+Rush Limbaugh emerged as a conservative radio host, the bill passed the
+House again, but President George Bush threatened to veto the legislation.207
+Similar attempts to revive the legislation did not emerge until 1993
+with the hope that a democratic president, Bill Clinton, would usher in the
+regulations.208 By that time, Limbaugh had portrayed the bill as an “attempt
+by the United States Congress to legislate against [him] and talk radio
+
+WL 16650 (Oct. 15, 1969).
+201
+Stephanie Mencimer, Are The Dems Plotting To Hush Rush?, MOTHER JONES (Nov. 11,
+2008), https://www.motherjones.com/politics/2008/11/are-dems-plotting-hush-rush/.
+202
+Id.
+203
+Id.
+204
+Id.
+205
+Jeff Cohen, The ‘Hush Rush’ Hoax, FAIRNESS & ACCURACY IN REPORTING (Nov. 1,
+1994), https://fair.org/extra/the-quothush-rushquot-hoax/.
+206
+Id.
+207
+Id.
+208
+Id.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+249
+
+hosts.”209 Not only did Bill Clinton never revive the Fairness Doctrine, but
+he passed the Telecommunications Act, further deregulating the broadcast
+industry.210
+III.
+
+INDEPENDENT BROADCAST COUNCIL
+
+Though regulating broadcasters presents challenges, the current
+deregulated atmosphere weighs against allowing broadcast to exist in
+perpetuity without additional oversight. To combat fake news and restore the
+perception of public trust to the media, this Note proposes creating an
+Independent Broadcast Council (Council) to administer and monitor
+broadcast regulation, including a revised version of the Fairness Doctrine.
+Stated simply, the Council would operate under the guidance of the
+FCC as a voluntarily regulatory oversight committee in much the same
+format and function that the American Bar Association operates in its
+oversight of lawyers. That said, unlike the FCC, as an independent body, this
+Council would operate without political pressure to monitor broadcasters for
+compliance with revised regulations that seek to ensure fair and balanced
+coverage.
+This Part proposes that the Council would be structured under the
+framework of existing legislation that established the Public Broadcasting
+Act. The Council would operate under a charter adopted to implement the
+key tenets of the Fairness Doctrine. By incorporating both aspects of this
+proposal, this Note argues that revised broadcast regulations would be less
+susceptible to partisan influence and would increase public perception of the
+media, while its independent and voluntary nature would ensure that it
+remained within the confines of the First Amendment.
+Media regulation can occur in essentially one of two forms: selfregulation or government regulation.211 This concept is, itself, somewhat
+misleading. There are various forms of regulation possible from complete
+state control to “consensus regulation.”212 Yet, unlike countries that have
+209
+
+Id.
+See Telecommunications Act of 1996, FCC (June 20, 2013), https://www.fcc.gov/general/
+telecommunications-act-1996.
+211
+R. FINKELSTEIN, REPORT OF THE INDEPENDENT INQUIRY INTO THE MEDIA AND MEDIA
+REGULATION (2012), available at http://www.abc.net.au/mediawatch/transcripts/1205
+_finkelstein.pdf.
+212
+BRONWEN MORGAN & KAREN YEUNG, AN INTRODUCTION TO LAW AND REGULATION:
+TEXT AND MATERIALS 92–96 (2007).
+210
+
+250
+
+Concordia Law Review
+
+Vol. 5
+
+proposed or implemented sweeping media regulations, United States citizens
+are protected under the First Amendment, limiting government intrusions on
+freedom of the press.213 Even so, a hybrid alternative may be possible.
+Enforced self-regulation of broadcast news would bring together a regulatory
+body of stakeholders; the government’s role would be to ensure enforcement
+of the self-imposed regulations under the FCC.214
+A.
+
+The Proposal
+
+This Subpart examines how reimplementing broadcast regulation
+should be administered, how the Fairness Doctrine should be updated, and
+how the United States can replicate the successful efforts of other countries
+in creating an independent agency to oversee broadcast news. Along the way,
+this Subpart elucidates the potential design that can keep broadcast regulation
+within the purview of the First Amendment while upholding the role of
+broadcasters as public trustees that was once envisioned under the Fairness
+Doctrine.
+1.
+
+Creating a Broadcast Council: The Framework
+
+The framework for an Independent Broadcast Council already exists
+under the legislation for the Public Broadcasting Act.215 Even so, the current
+Act encompasses solely public broadcasters. But it is, by itself, the product
+of nearly a century of congressional amendments and legislative change.216
+Given the congressional propensity to amend and expand this legislation, the
+Public Broadcasting Act can similarly be amended to expand the scope of the
+existing framework to encompass commercial broadcasters.
+Despite the flaws, the Public Broadcasting Act serves as a significant
+213
+
+See U.S. CONST. amend. I; see also U.S. CONST. amend. XIV (highlighting that though
+citizens are protected against the federal government from intrusions of free speech under
+the First Amendment, it is the Due Process Clause of the Fourteenth Amendment that
+incorporates this protection to citizens against state and local governments).
+214
+In Australia, following a request for proposals on media regulations, a former Australian
+federal court judge developed a statutory model proposing a media council that would selfregulate the media but be enforced by the Australian government. See Mark Pearson, The
+Media Regulation Debate in a Democracy Lacking a Free Expression Guarantee, 18 PAC.
+JOURNALISM REV. 89, 90–91 (2012). The Finkelstein Model called for an independent
+system of regulation that allowed broadcasters to participate in creating the standards. Id.
+Important to note that unlike the United States, Australia does not have freedom of the press,
+which would enable more sweeping media reforms than the United States could impose. Id.
+215
+See 47 U.S.C.A § 396 (2018).
+216
+See infra Part I.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+251
+
+first step in the effort to remedy the faults in America’s broadcast and its
+framework can be revised to incorporate the vision of restoring credibility to
+broadcast news. There are significant advantages to working within an
+existing piece of legislation rather than trying to create the Council under an
+entirely new regulatory scheme. First, the Public Broadcasting Act was
+passed in 1967.217 Second, in the more than 50 years since its passage, public
+broadcasters have adhered to the statutory mandate of “strict adherence to
+objectivity and balance” resulting in a high public trust of public television.218
+Third, if the United States were to codify aspects of the Fairness Doctrine in
+this legislation and expand the standards that organizations such as PBS and
+NPR voluntarily follow under the Act, the United States could implement the
+successful aspects of the Public Broadcasting Act while remaining within the
+confines of the First Amendment.
+2.
+
+The Structure
+
+Borrowing from both concepts of international broadcast regulatory
+authority and existing attempts in the United States to establish public
+broadcasting, the process of creating an Independent Broadcast Council
+would begin through legislation. An amendment to the Public Broadcasting
+Act could largely achieve these goals.
+In its current form, the Public Broadcasting Act states, in part: “it
+furthers the general welfare to encourage public telecommunications services
+which will be responsive to the interests of people both in particular localities
+and throughout the United States, will constitute an expression of diversity
+and excellence. . . .”219 The governing body of the Corporation created under
+the Act consists of a Board of Directors, and the “term of each office of each
+member of the Board appointed by the President shall be 6 years. . . .”220 After
+presidential appointment, each member of the CPB must undergo Senate
+confirmation.221 Moreover, the Public Broadcasting Act established a
+Treasury fund that appropriated financial support for public broadcasting.222
+This structure presents both the potential to rectify some concerns and
+some immediate flaws. First, the political appointment process of board
+217
+
+See 47 U.S.C.A § 396 (2018).
+Accuracy in Media, Inc. v. FCC, 521 F.2d 288, 290 (D.C. Cir. 1975).
+219
+47 U.S.C.A. § 396(a)(5) (2018).
+220
+47 U.S.C.A. § 396(c) (2018).
+221
+CPB FAQ, supra note 106.
+222
+47 U.S.C.A. § 396(k)(1)(A) (2018).
+218
+
+252
+
+Concordia Law Review
+
+Vol. 5
+
+members to the CPB creates the opportunity for partisan influence. By
+permitting presidential appointments, the organization is vulnerable to
+leadership that is sympathetic to partisan policy views. This potential would
+be magnified if the Corporation were expanded.223 On the other hand, public
+broadcasting is intended to serve the public interest. In many ways CPB has
+met this lofty ambition; for the 16th consecutive year, Americans rated PBS
+as the most trusted institution, above the court and legal system.224
+American’s perception of trust in public broadcasting is significantly higher
+than that of traditional broadcast,225 but to expand the Act, changes will have
+to occur.
+As such, the existing Public Broadcasting Act would function as both
+a springboard for amended legislation and an opportunity to improve
+legislation. Regardless of the specifics adopted, the broad features of any
+regulatory scheme imposed under the Council would include: (1) an
+organizational structure for the Council, (2) a funding mechanism, (3)
+mechanisms for implementing and enforcing decisions, (4) and
+accountability measures.226
+
+223
+
+See DAVID LEWIS, THE POLITICS OF PRESIDENTIAL APPOINTMENTS, POLITICAL CONTROL
+AND BUREAUCRATIC PERFORMANCE (2008)
+
+224
+
+For the 16th Consecutive Year Americans Rate PBS and its Member Stations Most
+Trusted Institution, PBS (Feb. 2, 2019), https://www.pbs.org/about/blogs/news/for-the-16thconsecutive-year-americans-rate-pbs-and-its-member-stations-most-trusted-institution/.
+225
+For the 17th Consecutive Year, Americans Name PBS and Member States as Most Trusted
+Institution, PBS (Feb. 10, 2020), https://www.pbs.org/about/blogs/news/americansrate-pbs-and-its-member-stations-most-trusted-institution-for-the-15th-consecutive-year/
+(Americans rated PBS highest in public trust at thirty percent, followed by courts of law at
+fifteen percent and commercial broadcasting at thirteen percent).
+226
+See Finkelstein, supra note 211, at 276. The Independent Broadcast Council could fill the
+role for broadcasters that the American Bar Association fills in the legal community. As the
+American Bar Association has developed model rules of conduct for lawyers, oversees the
+accreditation of law schools, and promotes activities related to professional development, so
+too could the Independent Broadcast Council fulfil a similar role within the media to promote
+journalistic integrity through a voluntary membership. As the Bar makes recommendations
+to state courts and state bars for enforcement procedures and ethical standards, the Council
+could function in much the same way in coordination with the Federal Communications
+Commission to recommend licensing revocation and renewals. See Model Rules of
+Professional Conduct, ABA (last visited Mar. 7, 2020), https://www.americanbar.org/groups
+/professional_responsibility/publications/model_rules_of_professional_conduct/model_rule
+s_of_professional_conduct_table_of_contents/; see also The Model Federal Rules of
+Disciplinary Enforcement, ABA (Feb. 14, 1978), http://ethics.iit.edu/codes/ABA%201978.
+pdf.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+3.
+
+253
+
+How to Amend the Act
+
+This Subpart will first describe the process of amending the Public
+Broadcasting Act and then elucidate the reason for these steps.
+The process to amend the Public Broadcasting Act would work as
+follows: A bill would propose the amendment to the existing Public
+Broadcasting Act. Because the intended purpose of revised legislation would
+be to amend existing law, the proposed bill would clearly articulate its
+relation to the preexisting Public Broadcasting Act.227 To amend a law, a
+proposed bill may add, strike, or add and strike new text.228 The purpose of
+an amendment to the Public Broadcasting Act would likely be to both add
+and strike new text from the existing legislation.229 In so doing, the
+amendatory bill would identify the specific alterations in the existing law that
+it will modify.230
+Following the amended version of the bill, a comparative print
+between the revised version and the Public Broadcasting Act would be
+provided.231 According to House Rule XIII, clause 3(e)(1) (the Ramseyer
+Rule) and Senate Rule XXVI (the Cordon Rule), when a bill is reported out
+of committee that amends existing law, the committee must provide a
+comparative print that demonstrates how the amendment modifies existing
+law.232
+Next, the amended legislation would revise the corporate structure
+under the existing Public Broadcasting Act to eliminate the process of
+political appointees. The political appointment of board members serves to
+undermine public trust in the media rather than bolster it. Whether intentional
+or inadvertent, appointing political figures to the board who are subsequently
+responsible for programming decisions, can impact how news is covered and
+impact the objectivity of reporters.
+Instead, in the same manner that the existing Public Broadcasting Act
+established the Corporation for Public Broadcasting as a nonprofit entity, the
+board of directors under the Independent Broadcast Council should be
+227
+Richard Beth, How Bills Amend Statutes, CONG. RES. SERV. (Aug. 4, 2003), https://fas.
+org/sgp/crs/misc/RS20617.pdf.
+228
+Id.
+229
+Id.
+230
+Id.
+231
+Id.
+232
+Id.
+
+254
+
+Concordia Law Review
+
+Vol. 5
+
+selected from stakeholders within broadcasting and confirmed by peers. This
+process would mirror the method by which the Act currently mandates only
+two members be selected: “[o]ne member shall be selected from among
+individuals who represent the licensees and permittees of public television
+stations, and one member shall be selected from among individuals who
+represent the licensees and permittees of public radio stations.”233
+The benefit to this change is two-fold. First, it eliminates the political
+appointment process. Second, and perhaps more importantly, it creates a
+vested interest in the success of the Council for stakeholders. Moreover,
+amended legislation would call for a board seat filled by a member of the
+public; a member that is selected from within the board to serve on a rotating
+basis that provides insight into the communities the media is meant to serve.
+With the corporate structure addressed, the amended Public
+Broadcasting Act would next add language from the Fairness Doctrine. This
+language would largely need to be revised to address First Amendment
+trepidations.
+For example, the Public Broadcasting Act currently states, “it is in the
+public interest to encourage the growth and development of public radio and
+television broadcasting, including the use of such media for instructional,
+educational, and cultural purposes. . . .”234 Amended legislation could be
+revised to include language that the broadcaster must make every effort to
+present contrasting views and inform the general public.235 Similarly,
+whereas the current legislation mandates that public broadcasting “furthers
+the general welfare to encourage public telecommunications services which
+will be responsive to the interests of people[,]” revised legislation may
+suggest that in so doing, licensees devote a reasonable portion of the
+broadcast to the discussion of issues of public importance.236 Lastly, current
+legislation mandates that public television “encourage the development of
+programming . . . and that addresses the needs of unserved and underserved
+audiences . . .”237 but revised legislation could expand this mandate to meet
+these goals for all audiences in an objective and transparent manner.238 This
+233
+
+47 U.S.C.A. § 396 (2018).
+Id.
+235
+See generally Applicability of the Fairness Doctrine in the Handling of Controversial
+Issues of Public Importance, 29 Fed. Reg. 10426 (1964).
+236
+Id.
+237
+47 U.S.C.A. § 396 (2018).
+238
+Such proposed changes to the legislation are merely intended as suggestion and are not
+234
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+255
+
+serves two goals. First, it codifies the Fairness Doctrine, which, as the D.C.
+Circuit Court of Appeals determined in TRAC v. FCC, had never occurred.239
+Second, it resolves the constitutionally suspect language that led the FCC to
+abandon the doctrine in the 1980s.240
+Subpart D, subsection (a) of the Public Broadcasting Act identifies
+ten congressional declarations of policy, including the establishment of the
+private Corporation.241 Revised legislation would create the entity known as
+the “Independent Broadcast Council,” replacing the existing Corporation for
+Public Broadcasting. The need to create a new entity under the Act arises
+under the nature of the revised legislation; the revised Act would greatly
+expand the purpose of the Public Broadcasting Act to encompass all
+broadcast media, not just public telecommunications. Revising the entity
+would clarify the role and the purpose of the Council and contrast it from the
+existing Corporation. Even so, nothing in the revised legislation should be
+interpreted to suggest that participation is mandated. The Council would
+function as a voluntary self-regulatory body.
+The organization would operate independent of, but in cooperation
+with, the FCC.242 The Council would also operate under a charter and code
+of ethics. Coordination between the Council and the FCC in the United States
+would be crucial.243 Most importantly, involving key media stakeholders in
+the Council significantly diminishes the likelihood of challenges to the
+regulatory framework.
+Such a proposed charter and code of integrity is not dissimilar to the
+current manner in which the Corporation for Public Broadcasting
+functions.244 Yet the existing charter and code of integrity is largely targeted
+meant to suggest that the Note proposes adopting precise language to replace existing
+statutory language.
+239
+See Telecom. Research and Action Ctr., 801 F.2d at 517.
+240
+See supra Part I.
+241
+47 U.S.C.A. § 396(D) (2018).
+242
+In several appellate cases, the issue of whether the FCC oversees the CPB has arisen. The
+D.C. Circuit Court of Appeals has interpreted Section 398 of the Public Broadcasting Act as
+barring FCC jurisdiction over the CPB. (“[W]e were of the view that Section 398 of the
+Public Broadcasting Act expressly barred FCC jurisdiction over CPB.”); see Network Project
+v. Corp. For Pub. Broad., 561 F.2d 963, 973 (D.C. Cir. 1977).
+243
+See generally id (“The corporation envisioned by the Commission would support local
+stations, yet (would) be restrained from control or the appearance of control over them.”)
+(internal quotations omitted).
+244
+See 47 U.S.C. 396 (2018) (establishing the existence of the Corporation for Public
+Broadcasting); Code of Integrity, supra note 116; Charter, supra note 118; see also Code of
+
+256
+
+Concordia Law Review
+
+Vol. 5
+
+toward public and educational broadcasting and would need to be revised to
+address the wider scope of the Act. As such, the standards of conduct and
+code of integrity implemented under the Independent Broadcast Council
+should be developed by the members of the Council and could be based on
+the existing codes. Nevertheless, the revised standards should, at a minimum,
+contain a commitment to fairness and accuracy in reporting.245 Once created,
+the Council would use the standards of conduct and code of integrity to create
+a rating system.
+4.
+
+Rating System
+
+The revised Public Broadcasting Act would call for a new rating
+system of broadcast news to help viewers assess the creditability of the
+coverage. The existing television rating system was put into place by
+Congress with the passage of the Telecommunications Act to allow parents
+to block objectionable content from children.246 This same concept and
+technology can be used objectively to assess the credibility of news coverage.
+The rating system would assign a numerical value to broadcast news
+stations and rate the station on a quarterly or semi-quarterly basis. The
+metrics for the rating could be based upon credibility, trustworthiness,
+objectivity, and the variety of stories covered. Though the individual
+components to the rating system would vary, it would likely be crucial to
+have a multi-factor rating system so as to not cause significant fluctuations in
+a station’s rating from one quarter to the next, but rather an objective metric
+that considered multiple factors. Moreover, much like the program content
+warning system that airs before a television program, this proposed system
+could warn viewers about news content with a history of providing unverified
+claims.
+Ethics and Business Conduct for Employees of the Corporation for Public Broadcasting,
+CPB (April 21, 2010), https://www.cpb.org/files/board/governance/Governance_Policies_
+(Code_of_Ethics_for_employees).pdf; Code of Ethics for Directors of the Corporation for
+Public Broadcasting, CPB (May 1, 2006) https://www.cpb.org/files/board/governance/
+Governance_Policies_(Code_of_Ethics_and_Conflicts_Policy_for_Board).pdf; Roles and
+Responsibilities of the Board of Directors, Chair of the Board, and President in Directing the
+Affairs of the Corporation for Public Broadcasting, CPB (May 1, 2006),
+https://www.cpb.org/files/board/governance/Governance_Policies_(Roles_of_Board,_Chai
+r,_CEO).pdf.
+245
+See Finkelstein, supra note 211.
+246
+Amy Nathanson & Joanne Cantor, Protecting Children from Harmful Television: TV
+Ratings and the V-Chip, PARENTHOOD AM. (1998), https://parenthood.library.wisc.edu/
+Nathanson/Nathanson.html.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+257
+
+A rating system solves two problems. First, it remedies the issue of
+mandating broadcasters to participate in the Independent Broadcast Council.
+It does so because participation in the Council would be voluntary, but by
+electing not to follow the standards and code of ethics adopted under the
+Council, broadcasters would see a decline in the numerical value assigned
+through the rating system. Second, the rating system remedies the issue of
+rendering the Council ineffective through voluntary participation.
+Functioning under the same mechanism that the existing television rating
+system allows, a credibility rating system is merely one proposed regulation
+to combat fake news.
+B.
+
+How Regulations Combat Fake News
+
+Having clarified how the Council would be created and structured,
+this Subpart addresses how such a Council would work to combat fake news.
+Specifically, this Subpart shows how regulation would begin to restore
+credibility to the media.
+1.
+
+Defining the Problem
+
+There is no clear definition of the phrase fake news. As analyzed
+supra Part II, this contributes, in part, to the extent of the problem. Depending
+on the source, the definition ranges from information that is clearly false to
+information that is sensationalized. According to one dictionary, the term is
+defined as “false, often sensational, information disseminated under the guise
+of news reporting.”247 The term was popularized in 2016 when thenpresidential candidate Donald Trump began to use the term, but while Trump
+may have popularized the phrase, the concept existed long before he brought
+it into the mainstream.248
+By the end of the 2016 election cycle, when important stories began
+to percolate to the top of the news cycle regarding Russian interference in the
+campaign, a large swath of Americans had become largely disconnected from
+the news, finding it too polarizing.249 Even more were beginning to accept
+247
+
+Fake News, COLLINS ENGLISH DICTIONARY, https://www.collinsdictionary.com/us/
+dictionary/english/fake-news (last visited Mar. 7, 2020).
+248
+Tom Standage, The True History of Fake News, ECONOMIST (June 2017),
+https://www.1843magazine.com/technology/rewind/the-true-history-of-fake-news.
+249
+See Lee Raine, Scott Keeter & Andrew Perrin, Trust and Distrust in America, PEW RES.
+CTR. (July 22, 2019), https://www.people-press.org/2019/07/22/trust-and-distrust-inamerica/.
+
+258
+
+Concordia Law Review
+
+Vol. 5
+
+Trump’s characterization that the news was “fake.”250 President Trump has a
+propensity for using the term fake news to describe stories he finds
+unfavorable, but for his supporters, the term invokes feelings of media bias
+and unfairness.251
+Nevertheless, like Trump, what many people describe as fake news is
+merely less objective news or news with which they do not agree.252 What
+results from the latter is a cycle of seeking out information that confirms
+preexisting beliefs. “One of the biggest risks often imputed to the current
+media environment, in which audiences can pick and choose news outlets that
+agree with them, is that people will become more and more siloed, cutting
+themselves off from information that they don’t like or that contradicts their
+prior assumptions.”253
+More than 53 percent of respondents to a Pew study placed the blame
+for fake news squarely on the media.254 Even so, had the media been more
+regulated from the beginning, and the coverage been more balanced, perhaps
+consumers would have been more receptive to the coverage. Pew Research
+found that six in ten Democrats have dropped a media outlet over the
+perception that the outlet was covering fake news; up to 70 percent of
+Republicans have done the same.255
+Implementing the Independent Broadcast Council could define fake
+news and take proactive steps to address it, much like the French did ahead
+
+250
+
+See Tim Alberta, The Deep Roots of Trump’s War on the Press, POLITICO (April 26,
+2018), https://www.politico.com/magazine/story/2018/04/26/the-deep-roots-trumps-waron-the-press-218105 (describing the point in 2016 at which hatred of the media reached new
+heights and the concept that the media was the “enemy of the people” began to occur).
+251
+Daniel Bush, When Trump Says ‘Fake News,’ This is What Supporters Say They Hear,
+PBS (Oct. 31, 2018, 10:31 PM), https://www.pbs.org/newshour/politics/when-trump-saysfake-news-this-is-what-supporters-say-they-hear (noting that when supporters were asked
+after a Trump rally what they believed the term “fake news” meant after President Trump
+had called the media “fake” and “enemy of the people” the concept of fairness and balance
+was a repeated theme).
+252
+Id.
+253
+David Graham, Some Real News About Fake News, ATLANTIC (June 7, 2019)
+https://www.theatlantic.com/ideas/archive/2019/06/fake-news-republicans-democrats/
+591211/.
+254
+Id.
+255
+Amy Mitchel & Jeffrey Gottfried, et al., Many Americans Say Made-Up News is a Critical
+Problem that Needs to be Fixed, PEW RES. CTR. (June 5, 2019), https://www.journalism.org/
+2019/06/05/many-americans-say-made-up-news-is-a-critical-problem-that-needs-to-befixed/.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+259
+
+of election interference in the French elections in November 2018.256
+Identifying the problem is the first step to addressing it; without a unified
+definition from which broadcasters can work to identify what fake news is,
+there is little to suggest that broadcasters can remedy the issue.257
+An Independent Broadcast Council cannot provide fair and objective
+reporting if no standard exists by which to measure objective reporting. The
+concept is quite nebulous. If this Council is to succeed, it can only do so under
+clear guidelines. Thus, though the phrase fake news is often used in scholarly
+articles to imply an intent to deceive or misinform,258 this Note uses the term
+to mean bias or unfair reporting, though such a definition would not preclude
+an intent to deceive. The reason for a broader definition is that any attempt to
+restore public trust of the media cannot begin by putting a standard in place
+that does not address the public’s concern.
+In fact, the disparity in the definition of fake news may contribute to
+the misinformation over how prolific the issue truly is. While some use the
+term to refer to inaccurate stories, others use the phrase to refer to unfavorable
+stories.259 Lack of uniformity in the definition contributes to misinformation
+and perpetuates the cycle.
+2.
+
+Creating a Process to Fix the Problem
+
+The Independent Broadcast Council could operate to manage
+complaints and oversee the objectivity of broadcasters under its purview.
+Such a process could operate as follows: A complaint or observation of
+inaccurate or biased reporting is brought to the attention of the Council.260
+The Council would then notify the station of the complaint in an attempt to
+resolve the complaint. If the offending station were to refuse to remedy the
+error, the Council would have the authority to notify the FCC which could
+result in a decrease to the station’s credibility rating. On the other hand,
+256
+
+Alexander Ricci, French Opposition Parties Are Taking Macron’s Anti-Information Law
+to Court. POYNTER (Dec. 4, 2018), https://www.poynter.org/fact-checking/2018/frenchopposition-parties-are-taking-macrons-anti-misinformation-law-to-court/.
+257
+See THE PSYCHOLOGY OF PROBLEM SOLVING 1–4 (Janet Davidson & Robert Sternberg
+eds. 2003) (describing problem solving as a cycle where the first step begins with recognizing
+and Identifying the problem).
+258
+See generally Gelfert, supra note 124; Klein & Wueller, supra note 127; Tandoc, supra
+note 125.
+259
+Graham, supra note 253 (noting that when Trump supporters use the phrase “fake news,”
+they are typically referring to news they dislike while others are referring to misinformation).
+260
+Finkelstein, supra note 211, at 287 (recommending a complaint handling procedure).
+
+260
+
+Concordia Law Review
+
+Vol. 5
+
+should the station abide by the Council’s recommendation to remedy the
+issue, the station would be provided one of several choices to revise the story.
+For example, if the allegation involved bias, the station could remedy the
+issue by providing equal airtime to the issue on the opposing side.
+Conversely, if the complaint involved an allegation of misinformation, the
+station could air a correction.
+The primary benefit to the Council is that it establishes a dialogue
+between broadcasters and presents an opportunity for the station to refuse the
+recommendation of the Council but creates consequences for doing so,
+namely a negative consequence to the credibility rating of the station. Though
+the First Amendment would prohibit the agency from censoring a broadcast
+station, regulations could be adapted to fine the station, or to provide
+warnings to viewers that the information was unverified. More importantly,
+creating a unified definition and standard under which broadcasters operate
+would provide the public with a standard against which to hold the media
+accountable and likely aid in restoring public trust.
+C.
+
+Potential Applications for an Independent Broadcast Council
+
+Having established how the Independent Broadcast Council would
+function, this Subpart identifies how the Council would operate in a
+regulatory environment. Specifically, this Subpart shows how this Council
+would enable the media to regain credibility from the American public and
+combat allegations of fake news.
+The advantage to creating an Independent Broadcast Council under
+the umbrella of the FCC is that such co-regulation provides sufficient
+independence from the government, as is the case with the existing Public
+Broadcasting Act, while still providing regulatory oversight. Such enforced
+self-regulation retains the benefits of self-regulation while ensuring an
+effective operation of the system.261 Establishing an independent regulatory
+body would not only improve journalistic standards, but it would also
+increase transparency and provide the public with a mechanism through
+which to voice concerns about inaccurate and biased reporting. This proposal
+would also increase accountability. Moreover, the Supreme Court has
+previously demonstrated its openness to a variation of such regulation.262
+To illustrate, consider how the Independent Broadcast Council would
+261
+262
+
+See Finkelstein, supra note 211, at 297.
+See infra Part III.D.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+261
+
+have functioned in the examples discussed supra Part II.
+1.
+
+The Iraq War—Revisited
+
+First, given the process elucidated supra Part III.B.2, it is worth
+analyzing how the scheme would have functioned on coverage leading up to
+the Iraq war. The coverage analyzed supra was for a period of seven and a
+half months. Imagine a complaint was filed during that period. Alternatively,
+the Council itself could have observed inaccurate or biased reporting.
+Consider the process had a complaint been filed relating to the amount of
+airtime then-president George Bush received in support of the view that Iraq
+had WMD as opposed to the amount and quality of time the commentators
+received who spoke out against that view.
+Under the process identified, the next step would be for the Council
+to reach out to the station. For the coverage of Iraq, those stations were NBC,
+CBS, and ABC.263 Once the Council notified the station of the complaint, the
+station would have the opportunity to resolve the issue. Here, that would
+result in either providing more credible commentators to speak in opposition
+to the theory that Iraq had WMD (recall the primary opposition voice at the
+time was Suddam Hussein) or to provide an analysis of the opposing
+viewpoint from network commentators.
+The concept is not radical. Opposing viewpoints existed at the time
+from credible sources. Massachusetts Senator Ted Kennedy spoke in
+September 2002, stating, “[i]nformation from the intelligence community
+over the past six months does not point to Iraq as an imminent threat to the
+United States or a major proliferator of weapons of mass destruction.”264 The
+Chief United Nations weapons inspector, Hans Blix, said in 2003, “[t]he
+commission has not at any time during the inspection in Iraq found evidence
+of the continuation or resumption of programs of weapons of mass
+destruction or significant quantities of proscribed items, whether from pre1991 or later.”265
+
+263
+
+Hayes & Guardino, supra note 140.
+Eric Alterman & George Zornick, Iraqi Weapons of Mass Destruction: Did “Everyone”
+Agree? CTR. FOR AM. PROGRESS (June 12, 2008, 9:00 AM), https://www.americanprogress
+.org/issues/general/news/2008/06/12/4534/think-again-iraqi-weapons-of-mass-destruction/.
+265
+Id.
+264
+
+262
+
+Concordia Law Review
+
+Vol. 5
+
+The purpose of the Independent Broadcast Council in a situation such
+as the one described above is not to suggest that had it existed, the United
+States would not have relied on false intelligence. Rather, it is to suggest that
+it could have created a dialogue between broadcasters and the public sooner
+or shined a light on what was occurring. Years later, as the full extent of the
+media operation to sway public opinion in favor of a war became clear,
+journalists who unknowingly participated expressed regret. Kenneth Allard,
+a former NBC military analyst recalled, “I felt we’d been hosed.”266
+“Internal Pentagon documents repeatedly refer[ed] to the military
+analysts [who the networks booked as commentators] as ‘message force
+multipliers’ or ‘surrogates’ who could be counted on to deliver administration
+‘themes and messages’ to millions of Americans ‘in the form of their own
+opinions.’”267 It is difficult to hypothesize whether an Independent Broadcast
+Council could have remedied the mass media failure that contributed to the
+disinformation of the Iraq war, but it would have acted as a final arbiter
+between broadcasters and the public and could have aided in providing a
+more balanced approach to the coverage. More importantly, it could have
+provided the public the opportunity to weigh both sides of the issue for and
+against military action—an opportunity the public was denied.
+2.
+
+Seth Rich—Revisited
+
+Second, the conspiracy that arose from Seth Rich’s murder presents
+another example for how an Independent Broadcast Council would function,
+yet it does so in a drastically divergent manner than the preceding scenario.
+Here, when Fox 5 published the story, the credibility of it was not
+immediately clear.268 The environment in place at the broadcasting network
+when this story aired was not conducive to preventing the publication of
+disinformation. According to the complaint filed after the broadcast:
+“Revelations about Fox News' role in concocting a baseless story on the death
+of a young Democratic staffer has problematic echoes for the network’s
+controlling owner . . .”269 This type of disinformation spreads quickly, as
+evidenced by the speed at which the Seth Rich story circulated after its
+266
+
+David Barstow, Behind TV Analysists, Pentagon’s Hidden Hand, N.Y. TIMES (April 20,
+2008), https://www.nytimes.com/2008/04/20/us/20generals.html.
+267
+Id.
+268
+See generally Butowsky v. Folkenflik, 4:18CV442, 2019 WL 2518833, at *3–*5 (E.D.
+Tex. Apr. 17, 2019).
+269
+Id. at *10.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+263
+
+publication on Fox 5.270
+Under the framework identified before, in a case of disinformation
+the Independent Broadcast Council could have reached out to Fox 5 that day
+and requested a retraction. If Fox 5 refused, the Council would have
+alternatives available that may have limited the reach of the story and the
+impact on the Rich family.
+First, other member organizations of the Council could have clarified
+the story.271 It is worth noting that this may not be an ideal solution to slow
+the spread of disinformation, however. An effort to clarify a false story by
+other networks could inadvertently bring more attention to the story, thus
+increasing the speed with which it circulates. Alternatively, the Council could
+notify the FCC. Under the proposed rating system, the FCC would have the
+ability to reduce the station’s rating, signaling to viewers that the station’s
+credibility is diminished. For the station to improve its rating, it would have
+to demonstrate to the Council that it had published a retraction of the story
+and that a period of time had elapsed without similar untruthful reporting.
+Of note, had standards been in place, adopted under a charter of ethics
+and code of conduct that members of the Council agreed to abide by,
+including individual broadcast stations, it may have prevented this
+journalistic malpractice from occurring. Even so, assuming arguendo that the
+existence of a Council could not have prevented the publication of this story,
+it may have limited its impact.
+It is also worth noting that, though the process identified here would
+require the Council to notify the FCC of proposed violations of the charter,
+this does not negate the need or value of the Council as an oversight body.
+The FCC has jurisdiction over all interstate and international communications
+by radio, television, cable, and satellite.272 As such, the FCC cannot manage
+the content on individual local stations, but an Independent Council, centered
+in the individual communities it served, likely could.
+270
+
+See id. at *4 (the following day the story was aired by Sean Hannity, and Wheeler later
+appeared on Fox Business with Lou Dobbs to discuss the investigation).
+271
+This Note does not propose that a Broadcast Council would force the network to remove
+the story, even if it was a demonstrated falsity because of First Amendment protections.
+Rather, the purpose of the Broadcast Council in relation to improving public perception of
+the media is increasing accountability and awareness of the problem and providing a singular
+location that the public can reach out to report instance of false news.
+272
+What We Do, FCC, https://www.fcc.gov/about-fcc/what-we-do (last visited Mar. 7,
+2020).
+
+264
+
+Concordia Law Review
+
+3.
+
+Vol. 5
+
+Sinclair Broadcast Group—Revisited
+
+Finally, the circumstances involving Sinclair Broadcast Group
+present yet another hypothetical by which to examine the effectiveness of an
+Independent Broadcast Council. Unlike both of the stories addressed supra,
+Sinclair is demonstrable of a network that has shifted its reporting style away
+from objectivity, rather than a single story or group of stories that lack
+objectivity. Even so, such a circumstance can be illustrative for how the
+Council would operate. Imagine that, given the size of Sinclair Broadcast
+Group and its significant influence, it elected not to participate in the
+Independent Broadcast Council. In several ways, such a decision would not
+significantly diminish the effect of the proposed Council.
+First, because the proposed Council operates under the FCC, it would
+assume much of the regulatory oversight of the FCC. Second, despite the size
+of Sinclair, it still operates at a market share of roughly 39 percent.273 This is
+because, under the FCC Broadcast Ownership Rules, a station group cannot
+reach more than 39 percent of all U.S. households.274 As such, other station
+groups would comprise the remaining 61 percent of the market.275
+This is relevant to the effectiveness of the Council for several
+reasons. Once implemented, stations that elect not to participate in the
+Council would have a lower credibility rating than those that voluntarily
+participate. This would stem from oversight and cooperation with the Council
+and adherence to standards to provide credible and accurate reporting.
+Though the Council cannot mandate participation, the net effect is a warning
+to consumers that the information they receive from a network that elects not
+to participate in the Council has not been verified or authenticated.
+Though Sinclair Broadcast Group could elect not to participate in the
+Council or abide by the standards the Council adopts, the purpose of the
+Council would remain intact. The objective of the Council’s framework is to
+provide the public a unified standard against which to measure the objectivity
+and credibility of broadcast news. Above all else, because the proposed
+273
+
+Alvin Chang, Sinclair’s Takover of Local News, In One Striking Map, VOX (Apr. 6, 2018,
+8:20 AM), https://www.vox.com/2018/4/6/17202824/sinclair-tribune-map.
+274
+FCC Broadcast Ownership Rules, FCC, https://www.fcc.gov/consumers/guides/fccsreview-broadcast-ownership-rules (last visited Mar. 7, 2020).
+275
+This would suggest that all remaining station members other than Sinclair would
+participate in the Independent Broadcast Council. The number, in reality, may be closer to
+half or two-thirds, but would still place the market share above that of Sinclair.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+265
+
+standards largely function within existing law, the courts would likely uphold
+the standards as constitutional.
+D.
+
+Reconciling the Law
+
+Commentators opposed to reinstating regulation on broadcasters,
+particularly a reiteration of the Fairness Doctrine, maintain that the regulation
+had a chilling effect on the First Amendment.276 The FCC itself raised this
+concern in its 1985 Fairness Report.277 For several reasons, this argument
+does not stand as an immobile obstacle to re-implementing any reiteration of
+the Fairness Doctrine on broadcasters. First, in Red Lion Broad. Co. v. FCC,
+the United States Supreme Court upheld the constitutionality of Fairness
+Doctrine.278 The Court held that free speech was “the right of the viewers and
+the listeners, not the right of the broadcasters.”279 Second, the Doctrine never
+mandated what broadcaster covered. Instead, it required broadcasters to
+provide balanced coverage of controversial issues. Moreover, the Supreme
+Court differentiated broadcast on the basis of its licensing requirements;
+because the FCC licensed broadcasters, the Court determined it did not
+present a First Amendment issue:
+It does not violate the First Amendment to treat licensees
+given the privilege of using scarce radio frequencies as
+proxies for the entire community, obligated to give suitable
+time and attention to matters of great public concern. To
+condition the granting or renewal of licenses on a willingness
+to present representative community views on controversial
+issues is consistent with the ends and purposes of those
+constitutional provisions forbidding the abridgment of
+freedom of speech and freedom of the press.280
+276
+
+Karen Beth Gray, Fairness Doctrine Termination: Extinction of an Unenforceable
+Theory, 22 SUFFOLK U. L. REV. 1057, 1058 (1988) (arguing that First Amendment
+challenges revealed the doctrine as an ineffective and outmoded regulation); Richard E.
+Labunski, May It Rest in Peace: Public Interest and Public Access in the Post-Fairness
+Doctrine Era, 11 HASTINGS COMMUN. & ENT L.J. 219, 225 (1989) (“If Congress were to
+pass a new Fairness Doctrine, it would inevitably become mired in the constitutional and
+policy issues that plagued the original Fairness Doctrine throughout its forty-year history. . .
+Even if the constitutional obstacles could be overcome, the FCC would still be unable to
+successfully enforce the Doctrine.”).
+277
+See 1985 Fairness Report, 102 F.C.C.2d REP. 145 (1985.
+278
+Red Lion Broad. Co. v. FCC, 395 U.S. 367, 375 (1969).
+279
+Id. at 390.
+280
+Id. at 394.
+
+266
+
+Concordia Law Review
+
+Vol. 5
+
+This nuance is often overlooked, but it is an important facet of the original
+Fairness Doctrine that speaks to the constitutionality of the legislation. Even
+so, following the Red Lion decision, discussed supra Part I, several appellate
+court cases challenged the doctrine on First Amendment grounds.281
+It is likely that if the Doctrine were resurrected in its prior form,
+opponents to the legislation would immediately mount a court challenge. In
+part, this would be justified. The Doctrine was drafted by the FCC in 1949,
+barely a decade after the FCC itself emerged.282 Television broadcast was in
+its infancy and not much was understood about the concept of the radio
+spectrum.283 As such, the rationale behind reinstating a version of the
+Fairness Doctrine today is not supported by the scarcity rationale that the
+Supreme Court used to justify upholding the Doctrine in 1969; instead, the
+rationale is supported by a recognition that the Fairness Doctrine helped
+preserve civility in broadcast journalism and created an ethical standard for
+the public to hold broadcasters to. It would be this standard—the concept that
+broadcasters were intended to serve as public trustees—coupled with the
+voluntary nature of the Independent Broadcast Counsel, which would likely
+withstand revised regulations.
+In a broader context, even considering the extensive proposal made,
+it is unlikely that an Independent Broadcast Council would run afoul of the
+First Amendment. Rather, the Supreme Court would likely uphold such
+legislation. Consider FCC v. League of Women Voters of California in which
+the Supreme Court examined the First Amendment implications of the Public
+Broadcasting Act.284
+In its original iteration, section 399 of the Act prohibited
+editorializing on public broadcasting stations.285 In asserting this argument
+before the Court, the government maintained that such a ban on public
+broadcasting networks was necessary to protect educational broadcasting
+from coercion from becoming the target of government propaganda as a
+result of federal financing.286 Unlike the Court’s decision in Red Lion which
+upheld editorializing, section 399 prohibited broadcasters from addressing
+281
+
+See supra Part I.B.
+See Berresford, supra note 37.
+283
+Berresford, supra note 37.
+284
+See FCC v. League of Women Voters of California, 468 U.S. 364 (1984).
+285
+47 U.S.C. § 399 (recognized as unconstitutional by Hill v. Kemp, 645 F.Supp.2d 992
+(N.D. Okla. 2009)).
+286
+League of Women Voters of California, 468 U.S. at 385.
+282
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+267
+
+issues of public importance, irrespective of whether it was done in a fair and
+balanced way.287
+The Court determined that section 399’s ban on editorializing
+exceeded what was necessary to protect public broadcasting from coercion
+by government influence.288 The government also argued that section 399
+prevented public broadcasting stations from becoming “a privileged outlet
+for the political and ideological opinions of station owners and managers . . .
+.”289 Even so, the Court was unconvinced. The Court invoked the
+requirements of the Fairness Doctrine as a regulatory mechanism to ensure
+that public broadcast would remain fair and balanced, reasoning:
+[T]he public's interest in preventing public broadcasting
+stations from becoming forums for lopsided presentations of
+narrow partisan positions is already secured by a variety of
+other regulatory means that intrude far less drastically upon
+the journalistic freedom of noncommercial broadcasters. The
+requirements of the FCC's fairness doctrine, for instance,
+which apply to commercial and noncommercial stations alike,
+ensure that such editorializing would maintain a reasonably
+balanced and fair presentation of controversial issues.290
+Moreover, the Court reasoned that its holding in Red Lion contemplated the
+same justification argued by the government:
+The solution to this problem offered by § 399, however, is
+precisely the opposite of the remedy prescribed by the FCC
+and endorsed by the Court in Red Lion. Rather than requiring
+noncommercial broadcasters who express editorial opinions
+on controversial subjects to permit more speech on such
+subjects to ensure that the public's First Amendment interest
+in receiving a balanced account of the issue is met, § 399
+simply silences all editorial speech by such broadcasters.
+Since the breadth of § 399 extends so far beyond what is
+necessary to accomplish the goals identified by the
+Government, it fails to satisfy the First Amendment standards
+287
+
+Id. at 386.
+Id. at 395.
+289
+Id. at 396.
+290
+Id. at 397-98 (internal citation omitted).
+288
+
+268
+
+Concordia Law Review
+
+Vol. 5
+
+that we have applied in this area.291
+The Court held that there was no reason to deny public broadcasters the right
+to speak on issues of public concern.292 Unfortunately, the principle of the
+Fairness Doctrine that the Court assumed would protect public broadcasting
+was abandoned by the FCC within five years of the ruling in League of
+Women Voters.293
+The holding of this case is important for several reasons, but namely
+because of the Court’s treatment of Red Lion. League of Women Voters came
+before the Court 15 years after Red Lion. The Court had the opportunity to
+distinguish public broadcasting from commercial broadcasting or to separate
+the principles of the Fairness Doctrine from broadcasters that receive public
+funding, but it elected not to do so, instead embracing the Doctrine as a
+“guard against one-sided presentation of controversial issues . . . .”294 In so
+doing, the Court demonstrated that it is possible, if not likely, that the Public
+Broadcasting Act could be amended to encompass not only the guiding
+principles of the Fairness Doctrine, but also broadened to include commercial
+broadcasters, having found that the same regulations apply equally to both.
+Along similar lines, consider the more recent case of Serafyn v.
+295
+FCC. This case is of particular interest because it originates out of the D.C.
+Circuit—the court that was instrumental in providing the FCC its rationale in
+abandoning the Fairness Doctrine.296 In Serafyn, the petitioner requested the
+FCC deny CBS a license renewal after the station aired a news segment that
+the petitioner alleged “intentionally distorted the situation in Ukraine by
+claiming that most Ukrainians are anti-Semitic.”297 In recounting the policy
+outlined by the FCC during the 1960s, the court quoted the FCC as stating:
+“[I]f the allegations of staging. . . simply involve news employees of the
+station, we will, in appropriate cases. . . inquire into the matter, but unless our
+investigation reveals involvement of the licensee or its management there will
+be no hazard to the station's licensed status. . . .”298
+The segment at issue in Serafyn involved a piece called “The Ugly
+291
+
+Id. at 398.
+Id. at 399.
+293
+See supra Part I.B.
+294
+League of Women Voters of California, 468 U.S. at 372.
+295
+See Serafyn, 149 F.3d 1213 (D.C. Cir. 1998).
+296
+See supra Part I.
+297
+Serafyn, 149 F.3d at 1216.
+298
+Id. at 1217 (quoting Hunger in America, 20 FCC 2d 143, 150, 151 (1969)).
+292
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+269
+
+Face of Freedom,” that aired on 60 Minutes. The broadcast suggested that
+Ukraine had a negative view toward Jews.299 After the broadcast, CBS
+received letters from Ukrainian-Americans expressing their anger over the
+broadcast, including one which suggested it was “unbalanced” and “did not
+convey the true state of affairs in Ukraine.”300 CBS argued that it would not
+investigate because any such investigation would “offend[] the protections of
+a free press.” As a result, the FCC determined that the incident did “not satisfy
+the standard for demonstrating intent to distort,” and that the petitioner had
+failed to demonstrate that CBS did not meet its public interest obligation.301
+Before the court of appeals, the petitioner argued that:
+[T]he Commission has never articulated a precise definition
+of extrinsic evidence and that its prior decisions suggest it is
+merely seeking objective evidence from outside the broadcast
+which demonstrates, without any need for the Commission to
+second-guess a licensee’s journalistic judgement or for the
+Commission to make credibility findings, that the licensee has
+distorted a news program.302
+The court determined that the FCC made several errors that contravened its
+own policy, including that it required the petitioner to demonstrate evidence
+that CBS had engaged in a pattern of distortion, despite its policy requiring a
+complainant meet a lower threshold.303 The court raised particular concern
+with the evidence of factual inaccuracies raised by the petitioner and
+disregarded by the FCC.304 The petitioner argued that CBS misrepresented
+facts to the extent that its decision to broadcast portions of the segment
+suggests it intentionally distorted the news.305 The court concluded that the
+FCC acted arbitrarily in denying the petitioner’s request to revoke CBS’s
+license, but did determine that CBS had not made a material
+299
+
+Id.
+Id.
+301
+Id. at 1218–19.
+302
+Id. at 1219 (internal quotations omitted).
+303
+Id. at 1220.
+304
+Id. at 1223.
+305
+One particularly egregious example discussed in the case was a translation “error” made
+by CBS in the report. Id. The report mistranslated the Ukrainian word “zhyd” as the highly
+anti-Semitic word, “kike.” Id. It was an incorrect translation, but nevertheless one that
+supported the overall tone of the broadcast. The word correctly translates in English to “Jew.”
+Id.
+300
+
+270
+
+Concordia Law Review
+
+Vol. 5
+
+misrepresentation to the FCC.
+Yet this case shows not only the benefit of having an Independent
+Broadcast Council but also the court’s willingness to accept the oversight.
+The court’s concern here was centered on the FCC’s failure to oversee CBS,
+despite CBS’s claim that such oversight would impede its First Amendment
+protections. Moreover, though the FCC possessed the regulatory power to
+revoke CBS’s license following these complaints, it simply elected not to. An
+Independent Council could more consistently work with the complaints of
+the public to increase oversight over broadcasters and manage these exact
+issues.
+E.
+
+Successful Regulatory Schemes in Europe
+
+Those who oppose the reinstatement of regulations on the media
+maintain that it infringes on First Amendment protections and the freedom of
+the press.306 Yet some of the most stringent regulations on the media exist in
+European countries that protect the freedom of the press. Even so, legislation
+to regulate fake news in Europe has rightly garnered concerns from the world
+press and human rights activists concerning free speech and press
+freedoms.307 European countries are cognizant of balancing a citizen’s right
+to be informed with a citizen’s right to be accurately informed. Following a
+wave of nationalist elections and referendums in which disinformation played
+a large role, Europe is looking for a balance between free speech and
+objective reporting.308
+Perhaps no greater contrast exists against the backdrop of the 2016
+presidential election in which disinformation was so prevalent than in France
+where similar efforts failed. Following the United States’ 2016 presidential
+election that Russia successfully infiltrated, then-French presidential
+candidate Emmanuel Macron became the target of Russian disinformation.
+However, unlike the United States, the structure of French media made it less
+susceptible to Russian inference. Like presidential candidate Hillary Clinton,
+306
+
+See Gray, supra note 276 (arguing that “[c]ourts should avoid promoting diverse coverage
+of controversial issues which risk infringing on broadcasters' first amendment rights”).
+307
+Anya Schiffrin, How Europe Fights Fake News, COLUM. JOURNALISM REV. (Oct. 17,
+2017), https://www.cjr.org/watchdog/europe-fights-fake-news-facebook-twitter-google.php.
+308
+See Gareth Harding, Media Lies And Brexit: A Double Hammer-Blow to Europe and
+Ethical Journalism, ETHICAL JOURNALISM NETWORK, https://ethicaljournalismnetwork.org
+/resources/publications/ethics-in-the-news/media-lies-and-brexit. (describing an article The
+Sun ran on March 8, 2016 with the false headline “Queen Backs Brexit” based on anonymous
+sourcing).
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+271
+
+Russia targeted Macron’s emails ahead of the French election and intended
+for a mass release.309 For two reasons, the emails did not gain traction in
+France in the same manner the release of Clinton’s emails gained national
+attention in the United States. First, French electoral laws prohibit media
+outlets from news coverage of political candidates for forty-four hours ahead
+of the election.310 Second, the media voluntarily abided by a request from the
+Macron campaign team the night the emails were hacked not to report on the
+content of the emails.311 Moreover, some traditional broadcasters denounced
+the Russian efforts and called upon their viewers not to allow themselves to
+be manipulated.312
+Contrast this with the response of broadcast news in the United States
+after the release of Hillary Clinton’s emails. A study by the Columbia
+Journalism Review found that “the various Clinton-related email scandals—
+her use of a private email server while secretary of state, as well as the DNC
+and John Podesta hacks—accounted for more sentences than all of Trump’s
+scandals combined (65,000 vs. 40,000). . . .”313 More disconcerting, the study
+concluded, “these 65,000 sentences were written not by Russian hackers, but
+overwhelmingly by professional journalists employed at mainstream news
+organizations. . . .”314
+At first blush, it may appear the dissimilarities between French and
+American media stem from ethics, not regulation. Put another way, American
+media sources could have voluntarily elected not to devote 65,000 sentences
+to Hilary Clinton’s email scandals which perhaps would have contributed
+positively to Americans’ perception of the media. Even so, this oversimplifies
+309
+
+Christine Schmidt, How France Beat Back Information Manipulation (and How Other
+Democracies Might Do the Same), NIEMAN LAB (Sept. 19, 2018, 6:00 AM), https://
+www.niemanlab.org/2018/09/how-france-beat-back-information-manipulation-and-howother-democracies-might-do-the-same/.
+310
+Raphael Satter, Media Blackout Ahead of Unpredictable French Election with Four
+Front-Runners, SYDNEY MORNING HERALD (April 23, 2017, 3:08 PM),
+https://www.smh.com.au/world/media-blackout-ahead-of-unpredictable-french-electionwith-four-frontrunners-20170423-gvqnaj.html (the French law dates back more than a
+century and prohibits politicians, journalists, and citizens from discussing political news
+ahead of the election).
+311
+Schmidt, supra note 309.
+312
+Id.
+313
+Duncan Watts & David Rothschild, Don’t Blame the Election on Fake News. Blame It on
+the Media, COLUM. JOURNALISM REV. (Dec. 5, 2017), https://www.cjr.org/analysis/fakenews-media-election-trump.php.
+314
+Id.
+
+272
+
+Concordia Law Review
+
+Vol. 5
+
+broadcasting priorities on the networks, particularly those owned by large
+conglomerates such as Sinclair that mandate coverage to the local stations.
+While the United States has slashed regulation on the media in the last 30
+years, France has upheld regulations on public broadcasters.315 These
+regulations were passed following its prior success in combating Russian
+disinformation.316
+In November 2018, under the initiative of French President Macron,
+France passed a law that defined the term fake news. The regulation defined
+the term as “[i]nexact allegations or imputations, or news that falsely report
+facts, with the aim of changing the sincerity of a vote.”317 A second part of
+the law mandates that social media establish a tool for users to flag
+disinformation.318 Moreover, the new legislation allows the Higher
+Audiovisual Council, the French broadcast regulator, to revoke the broadcast
+rights of television and radio stations found to be disseminating
+misinformation.319
+After Macron was elected, despite efforts by the Russian government
+to elect his opponent, the French government issued a 200 page report
+concerning the danger of information manipulation aimed at informing other
+countries what it had learned as a result of Russian interference.320 One
+striking conclusion was that “[o]ne of the reasons why the Macron Leaks
+failed to have an effect on the 2017 French presidential elections . . . is that
+the French media ecosystem is relatively healthy.”321 The report also found
+that “distrust in institutions was one of the main reasons for the rise and
+effectiveness of attempts at information manipulation.”322 In determining
+why the Russian disinformation campaign failed in France but succeeded in
+315
+
+Agnes Poirier, France Can Be Proud of Its Resistance to Media Deregulation, GUARDIAN
+(July 16, 2011, 5:00 AM), https://www.theguardian.com/commentisfree/2011/jul/16/media
+-law-france-phone-hacking.
+316
+Id.
+317
+Ricci, supra note 256.
+318
+Id.
+319
+Daniel Funke & Daniela Flamini, A Guide to Anti-Misinformation Actions Around the
+World, POYNTER (June 13, 2019) https://www.poynter.org/ifcn/anti-misinformationactions/.
+320
+See Jean Baptiste Jeangène Vilmer et al., Information Manipulation: A Challenge for Our
+Democracies, MINISTRY FOR EUR. & FOREIGN AFF. & MINISTRY FOR ARMED FORCES
+(August 2018), https://www.diplomatie.gouv.fr/IMG/pdf/information_manipulation_rvb_
+cle838736.pdf.
+321
+Id. at 68.
+322
+Id. at 69.
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+273
+
+the United States, the report posited “[c]ompared with other countries,
+especially the US and the UK, France presents a less vulnerable [ ] media
+environment for a number of reasons.”323 One reason may be that public trust
+of French media is high, a trust in which regulations, among other factors,
+play a role.
+Perhaps no country is more cognizant of the affect disinformation can
+have on its citizens than Germany.324 Under the Basic Law of the Federal
+Republic of Germany, codified after World War II, German citizens and press
+are guaranteed “the right freely to express and disseminate his opinions in
+speech, writing and pictures . . . .”325 The decision to protect freedom of the
+press was born out of the atrocities of World War II.326 With the protections
+of the press and freedom of speech, Germany has also determined a
+fundamental need exists to guarantee diversity in mass media.327
+Article 41 of the Treaty governs the programming principles of
+broadcasters, and it mandates that broadcasters must “respect human dignity
+as well as the moral, religious and ideological beliefs of others. They should
+promote social cohesion in unified Germany and international understanding
+and should work toward a non-discriminatory society.”328 Article 56
+mandates: “Providers of telemedia including journalistic edited offers . . . are
+required to include in their offers without delay the reply of the person or
+institution who is affected by an assertion of fact made in their offer at no
+cost to the person affected.”329
+In Canada, under the Broadcasting Act, the broadcasting system
+should “serve to safeguard, enrich and strengthen the cultural, political, social
+323
+
+Id. at 116.
+See Randall L. Bytwerk, Grassroots Propaganda in the Third Reich: The Reich Ring for
+National Socialist Propaganda and Public Enlightenment, 33 GERMAN STUDIES REV., 93
+(Feb. 2010) (once Hitler took power in Germany, he formed the Ministry for Public
+Enlightenment and Propaganda to take complete control over German media. Though the
+RMVP never became a large part of the Nazi party, it did demonstrate the potential affect
+and danger of widespread propaganda).
+325
+Basic Law for the Federal Public of Germany, EUR. UNION AGENCY FOR FUNDAMENTAL
+RTS., https://fra.europa.eu/en/law-reference/basic-law-federal-republic-germany-10 (last
+visited Mar. 1, 2020).
+326
+Katja Gloger, Article 5: Freedom of Expression, DEUTSCHLAND (May 15, 2019),
+https://www.deutschland.de/en/topic/politics/the-german-basic-law-article-5-freedom-ofexpression.
+327
+Interstate Treaty on Broadcasting and Telemedia, ASS’N OF ST. MEDIA AUTHORITIES FOR
+BROADCASTING IN GER. (Apr. 1, 2010).
+328
+Id.
+329
+Id.
+324
+
+274
+
+Concordia Law Review
+
+Vol. 5
+
+and economic fabric of Canada.”330 Canada requires that any station licensed
+to broadcast must “provide a reasonable opportunity for the public to be
+exposed to the expression of differing views on matter of public concern.”331
+This language in the Canadian Broadcasting Act is strikingly similar to what
+the United States’ Fairness Doctrine once required of broadcasters: “to
+provide a reasonable opportunity for the presentation of contrasting
+viewpoints on such issues.”332 Moreover, the Canadian Broadcasting Act
+requires that the broadcasting system “shall be effectively owned and
+controlled by Canadians;” enacted to enhance local content on Canadian
+broadcasting.333
+Conversely, the absence of local content rules in the United States
+means that large media conglomerates, like Sinclair Broadcasting Group, can
+mandate national coverage in the local market. The Fairness Doctrine
+required broadcast licensees to “provide coverage of vitally important
+controversial issues of interest in the community served by the licensees . . .
+.”334 However, each “must-run” that Sinclair mandates its local stations air
+focusing on national issues reduces the time the station has available to
+devote to local issues.
+Yet one country stands above the rest in terms of public trust in the
+media. Denmark, regulated by the Press Council, was polled as the most
+transparent country in terms of distinguishing fact from fiction in
+reporting.335 Denmark enjoys freedom of speech, guaranteed under Section
+77 of its constitution.336 Not unlike the United States, legal liability exists for
+libel, but the Danish press largely operates independent from government
+oversight.337 The Danish media in broadcast, print, and online are regulated
+under the Danish Press Council; members are appointed by the Supreme
+
+330
+
+Broadcasting Act, S.C. 1991, c 11 (Can.).
+Id.
+332
+In re Inquiry into Section 73.1910, 102 F.C.C.2d REP. 143, 146 (1985).
+333
+Broadcasting Act, S.C. 1991, c 11 (Can.).
+334
+In re Inquiry into Section 73.1910, 102 F.C.C.2d REP. at 146 .
+335
+Nic Newman & Richard Fletcher, Bias, Bullshit and Lies: Audience Perspectives on Low
+Trust in the Media, DIGITAL NEWS PROJECT (2017), https://reutersinstitute.politics.ox.ac.uk/
+sites/default/files/2017-11/Nic%20Newman%20and%20Richard%20Fletcher%20%20Bias
+%2C%20Bullshit%20and%20Lies%20-%20Report.pdf.
+336
+Denmark, FREEDOM HOUSE, https://freedomhouse.org/report/freedom-press/2016/
+denmark (last visited Mar. 7, 2020).
+337
+Id.
+331
+
+2020
+
+FROM FAIRNESS TO FAKE NEWS
+
+275
+
+Court and journalist association.338 Participation in the Council is mandatory
+and if a journalist is found by the Council to have committed an ethical
+violation, the journalist can be sentenced to a fine or jail, though such
+sanctions are rare.339
+In each country, freedom of the press is guaranteed but regulations
+protect the public from disinformation and fake news. Regulating broadcast
+news in the United States could have similar results while remaining within
+the confines of the First Amendment.
+CONCLUSION
+Broadcast news can inform the public, but it also can spread
+disinformation. Under the Fairness Doctrine, broadcasters once served as
+“public trustees” charged with providing fair and objective news to
+consumers. Yet deregulation led to a steep decline in public trust of
+broadcasters. An Independent Broadcast Council could provide the solution.
+An amendment to the Public Broadcasting Act could expand its scope to
+encompass a voluntary regulatory council tasked with upholding the
+standards of fairness and accuracy in broadcast. The media’s role is to inform,
+but it cannot do so without credibility. An Independent Broadcast Council
+would serve as an initial step toward restoring public perception of the media,
+and the framework exists to implement it.
+European countries have adopted legislation to combat fake news and
+address the “public trustee” component of broadcast news. The United States
+can follow the same approach and do so within existing law. Despite
+objections that regulating broadcasters would run afoul of the First
+Amendment, the United States Supreme Court has long held that free speech
+is the right of listeners, not broadcasters. Broadcasters have long had a duty
+to serve as “public trustees.” Yet the question remains whether broadcasters
+will choose to fulfil that duty or allow it to remain a relic of history.
+
+338
+339
+
+Id.
+Id.
+
+

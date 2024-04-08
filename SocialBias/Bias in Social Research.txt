@@ -1,0 +1,782 @@
+Sociological Research Online
+Volume 2, Issue 1, March 1997, Pages 7-19 SAG [E
+© 1997 SAGE Publications and the British Sociological Association, Article Reuse Guidelines
+
+https://doi.org/10.5153/sro.55 journals
+
+Article
+
+Bias in Social Research
+M. Hammersley and R. Gomm
+
+Abstract
+
+Accusations of bias are not uncommon in the social sciences. However, the term ‘bias’ is by no means
+straightforward in meaning. One problem is that it is ambiguous. Sometimes, it is used to refer to the
+adoption of a particular perspective from which some things become salient and others merge into the
+background. More commonly, ‘bias’ refers to systematic error: deviation from a true score, the latter
+referring to the valid measurement of some phenomenon or to accurate estimation of a population
+parameter. The term may also be used in a more specific sense, to denote one particular source of systematic
+error: that deriving from a conscious or unconscious tendency on the part of a researcher to produce data,
+and/or to interpret them, in a way that inclines towards erroneous conclusions which are in line with his or
+her commitments. In either form, the use of ‘bias’ to refer to systematic error is problematic. It depends on
+other concepts, such as ‘truth’ and ‘objectivity’, whose justification and role have been questioned. In
+particular, it seems to rely on foundationalist epistemological assumptions that have been discredited. And
+the various radical epistemological positions that some social scientists have adopted as an alternative
+either deny the validity of this concept of bias, explicitly or implicitly, or transform it entirely. We will argue,
+however, that while it is true that abandonment of a foundationalist conception of science has important
+implications for the meaning of ‘bias’ and its associated concepts, they are defensible; indeed, they form an
+essential framework for research as a social practice. In this context, we shall examine error as a matter of
+collegial accountability, and define ‘bias’ as one of several potential forms of error. We conclude by
+pointing to what we see as the growing threat of bias in the present state of social research.
+
+Keywords
+Bias, Error, Social Research Methodology, Validity
+
+To cite from articles published in Sociological Research Online, please reference the above information and include paragraph numbers
+if necessary
+
+Bias in Social Research!!!
+
+1.1 Accusations of bias are a recurrent event in the social and psychological sciences. Some have achieved
+the status of major public events, such as the attacks on hereditarian theories of intelligence, notably on the
+work of Cyril Burt (see Kamin, 1974), the response to the Glasgow University Media Group's books on
+television news (see Harrison, 1985), and Derek Freeman's critique of Margaret Mead's Coming of Age in
+Samoa (Freeman, 1983). Moreover, in many cases, the reaction to an accusation of bias is a counter-charge;
+
+indicating that it is not just research itself but also evaluations of research that can be biased. [2]
+1.2 Despite the frequency with which it is used, the meaning of the term ‘bias’ has been given rather
+little attention in the methodological literature. Yet, it is by no means unproblematic. For one thing, the term
+is ambiguous: it is used in several different ways. We will begin by outlining what seem to be its three main
+senses.
+
+1.3 In the preface to his book on the intellectual left in postwar France, Sunil Khilnani announces that it
+is ‘quite explicitly and in the original sense a biased book: it proposes a new angle of vision, one which
+brings certain significant patterns into clearer focus’ (Khilnani, 1993: p. vii). It should be said that the
+Oxford English Dictionary does not offer any evidence that this is the original meaning of the word; in fact,
+it does not mention this sense at all. Nevertheless, the idea that point of view can make a difference to how
+well one discerns significant patterns in a scene, or in a sequence of events, is a commonsense one. And it
+has been developed in a methodological context by Max Weber, in the form of his theory of ideal types.
+Weber defines an ideal type as: ‘a conceptual pattern that brings together certain relationships and events of
+historical life into a complex that is conceived of as an internally consistent system’. And this is not a
+representation of reality “as it is’, but rather involves the ‘one-sided accentuation’ of aspects of reality in
+order to detect causal relationships (Weber, 1949: p. 90).
+
+1.4 In Khilnani's terminology, ideal types are biased in such a way as to highlight what we otherwise
+might overlook. It is worth noting that here bias is seen as a positive feature, in the sense that it is
+illuminating: it reveals important aspects of phenomena that are hidden from other perspectives. At the same
+time, the possibility of negative bias remains, this presumably characterizing a perspective which obscures
+more than it reveals. From this point of view, and we use that phrase advisedly, it seems that bias is an
+inevitable feature of any account, and its status as good or bad is left open for determination in particular
+cases.
+
+1.5 This sense of the term “bias’ is sometimes used in the literature of social research methodology.
+Quantitative researchers occasionally employ it, notably in discussions of significance levels (see, for
+example, Levine, 1993: p. 92). Qualitative researchers also use it. For example, it is often taken to be
+implied in Becker's influential argument that sociological analysis is always from someone's point of view,
+and is therefore partisan (Becker, 1967: p. 245),31 Moreover, the influence of relativist ideas, including
+those deriving from some of the French philosophers who are the focus of Khilnani's book, has encouraged
+this usage among qualitative researchers. The effect of this is evident, for instance, in the claim that ‘the
+question is not whether the data are biased; the question is whose interests are served by the bias’ (Gitlin et
+al, 1989: p. 245). Here, the recommendation is that research should be biased in favour of serving one group
+rather than another.
+
+1.6 Of course, this is not the predominant sense of the term “bias’ as it is used in the social sciences, and
+it will not be our focus here. Instead, bias is generally seen as a negative feature, as something that can and
+should be avoided. Often, the term refers to any systematic deviation from validity, or to some deformation
+of research practice that produces such deviation. Thus, quantitative researchers routinely refer to
+measurement or sampling bias, by which they mean systematic error in measurement or sampling
+
+procedures that produces erroneous results.!*!The contrast here is with random (or haphazard) error: where
+bias tends to produce spurious results, random error may obscure true conclusions.
+
+1.7 The term ‘bias’ can also be employed in a more specific sense, to identify a particular source of
+systematic error: a tendency on the part of researchers to collect data, and/or to interpret and present them, in
+such a way as to favour false results that are in line with their prejudgments and political or practical
+commitments. This may consist of a positive tendency towards a particular, but false, conclusion. Equally, it
+may involve the exclusion from consideration of some set of possible conclusions that happens to include
+the truth.
+
+1.8 Such bias can be produced in a variety of ways. The most commonly recognized source is
+commitments that are external to the research process, such as political attitudes, which discourage the
+discovery of uncomfortable facts and/or encourage the presentation of spurious ‘findings’. But there are also
+sources of bias that stem from the research process itself. It has often been pointed out, for example, that
+once a particular interpretation, explanation or theory has been developed by a researcher he or she may tend
+to interpret data in terms of it, be on the look out for data that would confirm it, or even shape the data
+production process in ways that lead to error. This can arise in survey research through the questions asked
+in an interview, or as a result of the way they are asked (Oppenheim, 1966). It is also a potential source of
+systematic error that has been recognized by experimental researchers, with various precautionary strategies
+being recommended (Rosenthal and Rosnow, 1969; Rosenthal, 1976). Nor does qualitative inquiry escape
+this kind of bias; indeed it is often thought to be particularly prone to it, not least because here, as is often
+said, ‘the researcher is the research instrument’. Thus, one widely recognized danger in the context of
+ethnography is that if the researcher ‘goes native’ he or she will interpret events solely from the point of
+view of particular participants, taking over any biases that are built into their perspectives.
+
+1.9 As will become manifest, even these three interpretations of ‘bias’ do not capture all of the
+distinctions that need to be made. Moreover, ambiguity is not the only, or the most serious, problem relating
+to this term. We will argue that in the case of both quantitative and qualitative research it, and related
+concepts like truth and objectivity, have tended to be understood in terms of a foundationalist image of the
+research process. We are not suggesting that either quantitative or qualitative researchers wholly believe in
+this image, but it has long shaped their thinking and its influence has not been entirely eradicated despite
+much explicit criticism.
+
+Foundationalism and the Conceptualization of Bias
+
+2.1 All concepts form part of networks, and it is on the basis of their relationships with the other concepts
+involved in those networks that their sense depends. The usage of “bias’ that is our focus here relies on the
+concept of validity or truth. Bias represents a type or source of error, and in this respect it serves as an
+antonym of objectivity (in one of that word's senses). These other concepts are, of course, themselves not
+uncontentious. ‘Truth’ is a term that is consciously avoided by many researchers, perhaps because it is so
+often taken to imply the possibility of absolute proof. But, even putting this on one side, the concept of truth
+
+or validity is open to competing interpretations. >! Much the same is true of ‘objectivity’. And, in recent
+years, especially under the influence of constructionism and postmodernism, there has been a growing
+amount of debate, especially among qualitative researchers, about the meaning of these terms (Lather, 1986
+and 1993; Kvale, 1989; Mishler, 1990; Phillips, 1990; Wolcott, 1990; Harding, 1992; Altheide and Johnson,
+1994; Lenzo, 1995).
+
+2.2 The dependence of conventional interpretations of these concepts on positivist assumptions is a
+central theme in this literature. And the same charge was directed many years ago at the concept of bias
+(McHugh et al, 1974: chapter 3). ‘Positivism’ is a much abused term, however; so much so that its meaning
+has become elastic. Moreover, the assumptions that are often criticized in discussions of validity and bias are
+not unique to positivism, in any meaningful sense of that word. For these reasons we will use the term
+“‘foundationalism’ to refer to a set of assumptions which seems to be implicated in much conventional usage
+of terms like ‘validity’, ‘error’, ‘objectivity’ and ‘bias’.
+
+2.3 In its most extreme form, foundationalism presents research, when it is properly executed, as
+producing conclusions whose validity follows automatically from the ‘givenness’ of the data on which they
+are based. This may be assumed to be achieved by the ‘immediacy’ of the conclusions or by methodological
+procedures that transmit validity from premises to conclusions. The sources of ‘given data’ appealed to by
+foundationalists are various. They include: innate ideas (Cartesian rationalism), perceptions (empiricism),
+physical objects (physicalism), observational consistencies (operationalism) and ideational essences
+(Husserlian phenomenology). The nature of the givenness varies, then; but in all cases the sources of data
+are treated as independent of, and as imposing themselves on, the researcher. Similarly, conceptions of the
+nature of any inference involved can vary, for example it may be deductive or inductive. But, whatever its
+form, it is taken to produce conclusions whose validity is certain, given the truth of the premises. |]
+
+2.4 On this foundationalist view, the course that inquiry should take is clearly defined and, as a result,
+deviation from it, whether caused by bias or by some other source of error, is also straightforwardly
+identifiable. Indeed, the research process is seen as self-contained: it relies on nothing outside of it. The
+implication of this is that if erroneous conclusions occur they must result from the illegitimate intrusion of
+external factors, notably the subjectivity of the researcher or the influence of his or her social context. What
+is required to avoid error and bias is for the researcher to be objective; in other words he or she must pursue
+the research in the way that ‘anyone’ would pursue it who was committed to discovering the truth, whatever
+their personal characteristics or social position.
+
+2.5 To illustrate this kind of foundationalism, we can use an analogy with a rather bizarre game of bowls,
+where the position of the jack is fixed and the proper course of inquiry corresponds to a straight- line
+trajectory of the bowl bringing it into direct contact with its target. All other trajectories display the effects
+of error or bias. And the fact that one can hit or come close to the jack by means of some of these other
+trajectories (as one would usually aim to do in a conventional game of bowls) simply indicates that one's
+conclusions can be correct for the wrong reasons as well as for the nght ones.
+
+2.6 The problems with foundationalist epistemology have long been recognized by philosophers. They
+
+have been explored both by those advancing such a view and by their critics. !7] Forms of empiricist
+foundationalism dominated Anglo- American philosophy of science from the 1930s to the 1950s, its
+problems being seen by many as merely technical and therefore as resolvable. However, the consensus
+amongst philosophers of science today is that foundationalism is indefensible. It is argued that there are no
+foundational data, and that the relationship between theory and evidence cannot be immediate or deductive,
+nor is there an “inductive logic’: the validity of theories is always underdetermined (Hanson, 1958; Kuhn,
+1970; Gillies, 1993). This collapse in support for foundationalism has led, most dramatically, to the
+emergence of sceptical and relativist views that either abandon the concepts of truth and error or reinterpret
+them in ways that are at odds not only with foundationalism but also with the everyday practical thinking of
+most scientific researchers. It should be noted, however, that much post-empiricist philosophy of science has
+pursued a more moderate line, exploring and trying to resolve the problems associated with realism (see
+Hammersley, 1995: chapter 1).
+
+2.7 Methodological foundationalism was for a long time a guiding idea for quantitative researchers in the
+social sciences. And to some extent it continues to be. For example - perhaps as a result of the persistent, if
+largely implicit, influence of operationism - there is still a common tendency to treat the validity of
+numerical data as given, despite their constructed character and the sources of potential error built into them
+(Converse and Schuman, 1974; Schuman, 1982; Bateson, 1984; Pawson, 1989). Furthermore, statistical
+techniques are sometimes used as if they constituted a machine for transforming data into valid conclusions
+(Lieberson, 1985; Oakes, 1986; Ragin, 1987; Levine, 1993). This is certainly not to suggest that all
+quantitative researchers are naive in these respects; but there is a strong tendency for simplistic
+methodological ideas to survive in practice long beyond the time that they have been consciously
+abandoned.
+
+2.8 Even qualitative research has been influenced by a kind of foundationalism; despite explicit rejection
+of the validity of quantitative methodological canons, of positivism, and sometimes even of the model of
+natural science itself. At one time, virtually all qualitative researchers were explicitly committed to the idea
+that the aim of enquiry is to depict reality in its own terms, independently of the researcher and of the
+research process; and to the belief that this could only be achieved by close contact with it, for example
+through participant observation or life history interviewing (Hammersley, 1989 and 1992). This
+ethnographic ‘realism’ or ‘naturalism’ took for granted that there are facts about the world that can be
+apprehended by immediate experience; though, of course, this was interpreted in pragmatist or
+phenomenological, rather than empiricist, ways. |8]
+
+2.9 Given its influence in both areas, the collapse of foundationalism has much the same consequences
+for qualitative as for quantitative researchers: it threatens the justification for conventional research practice
+in both fields. So, the question arises: what response ought social researchers make to the failure of
+foundationalism? And what implications does the response have for the concept of bias?
+
+2.10 There has, of course, been a great deal of criticism of quantitative research for its commitment to
+positivism; and, in recent years, there has also been growing criticism of older forms of qualitative research
+for their reliance on realism. In place of the latter, many feminists, constructionists and postmodernists have
+opted for radical epistemological alternatives. This response has not always been unequivocal, but it is
+possible to identify two broad types of radical epistemology that have found some support: relativism and
+standpoint theory.!?! In the next section, we will examine the implications for the concept of bias of these
+alternatives to foundationalism.
+
+Radical Epistemologies and the Concept of Bias
+
+3.1 A characteristic feature of much current methodological writing by qualitative researchers is the
+deployment of sceptical and relativist arguments. Thus, appeals to ‘facts’ (and not just to the “brute facts’ of
+foundationalism) and to ‘findings’ are sometimes met with accusations of positivism, and/or an insistence
+that there can be no grounds for claims to universal validity. To the extent that they continue to be used, such
+words are placed in scare quotes in order to distance the author from the foundationalism that they are taken
+to imply (see Haack, 1992: p. 16). It is argued that all accounts of the world reflect the social, ethnic,
+gendered, etc position of the people who produced them. They are constructed on the basis of particular
+assumptions and purposes, and their truth or falsity can only be judged in terms of standards that are
+themselves social constructions, and therefore relative. Sometimes, what seems to be involved here is the
+accusation that accounts which claim universal validity are biased because, despite what they claim, their
+character reflects the social location of the researcher. But to formulate the claim that all accounts reflect
+their origins as ‘all accounts are biased’ is potentially misleading since, as we noted earlier, bias is a source
+or type of error, and ‘error’ only retains meaning by contrast with the possibility of truth.
+
+3.2 The word ‘truth’ can, of course, be redefined in relativist terms, so that what is true becomes that
+which is taken to be true within some community whose members share a particular perspective. Returning
+to our bowls analogy, a relativist position seems to imply that the jack is wherever a group of bowls players
+agree to send their bowls. Here, ‘error’ and ‘bias’ represent deviations from the truth as consensually
+defined within a particular community. It is important to note, however, that such truths cannot be used to
+identify bias in the perspectives of members of other epistemic communities, at least not without self-
+contradiction. In this context, Kuhn's (1970) argument that different paradigms are incommensurable takes
+on its full meaning: it simply makes no sense, from a relativist point of view, for a member of one epistemic
+community to accuse members of another of being biased because their views deviate from what he or she
+takes to be true, rational etc, [10]
+
+3.3 According to relativists, we live in a world of multiple realities. But, of course, the argument that this
+
+is the nature of the world itself constitutes a claim to universal validity!!! This self-undermining internal
+inconsistency of relativism has long been recognized, and one of its effects is that relativists tend to oscillate
+between undiscriminating tolerance and ideological dogmatism. At one level, in recognizing multiple
+perspectives as each true in its own terms, relativism seems to be tolerant of everything. Indeed, there are no
+arguments within it that could exercise constraint on the proliferation of ‘realities’; all that can be challenged
+are claims on the part of any perspective to universal truth. By contrast, within any community, relativism
+can be used to justify enforcement of the epistemic paradigm that is deemed appropriate to that community,
+allowing no scope for internal dissent about fundamentals. All challenges to the paradigm can be met by the
+response that this is what we as a community believe: ‘if you do not believe it you are not one of us’.
+Indeed, given relativism, there is no other possible response to persistent dissent. And the only viable
+strategy for dissenters is to frame their disagreement in terms of the construction of a new paradigm, which
+then itse/fhas immunity from external criticism; though its members are now barred from effective criticism
+of the epistemic community to which they previously belonged. |!?!
+
+3.4 Given these problems, it is rare for writers to stick consistently to relativism, other epistemological
+positions are frequently used to supplement it. One of the main ones is what feminists refer to as standpoint
+epistemology. This apparently provides a basis for retaining claims to universal validity while yet accepting
+the argument that the validity of all knowledge is relative to social location. This is achieved by arguing that
+one particular social location has unique access to the truth. Returning to our analogy with the game of
+bowls for the last time: according to standpoint epistemology, no straight-line route to the jack is possible,
+only a bowl with a certain kind of bias can make contact with the jack, given the configuration of obstacles
+surrounding it (these, of course, representing ideology).
+
+3.5 This standpoint approach is strongly modeled on Marxism and thereby on Hegelian philosophy.
+Hegel conceived of historical development as a process by which, through dialectical change, the distinction
+between subject and object, knower and known, was eventually overcome and true knowledge realized. And
+he claimed that, because the historical process had reached its final stage of development in his lifetime, he
+was in a position to achieve absolute knowledge of the world, in a way that no previous philosopher had
+been. At the same time, in his Phenomenology, discussing the dialectic between master and slave, he also
+provided a distinctive version of this philosophy of history whereby oppressed groups have insight into the
+nature of the world that is not available to their oppressors. Marx developed these ideas into a conception of
+the development of history as not yet complete, but which could be brought to completion by a proletarian
+revolution. He argued that since the working class suffer the most intense form of alienation under
+capitalism, they have a unique capacity to understand it and thereby to overthrow it. Feminists have adopted
+a similar position, but of course with women treated as the oppressed group occupying a standpoint that
+provides epistemologically privileged knowledge (Smith, 1974; Hartsock, 1983; Harding, 1983; Flax, 1983).
+
+3.6 Within standpoint epistemology there is scope for claims not just about truth but also about bias.
+However, these can be formulated in different ways. Bias could be seen as an inevitable feature of the
+beliefs of those who do not occupy the standpoint position: their views of the world being necessarily
+ideological. Meanwhile, those who do occupy the standpoint would be viewed as not subject to bias, by
+virtue of their social location. Alternatively, along the lines of our formulation of the bowls analogy, it might
+be argued that the difference between those who do and do not have the right standpoint is the nature of the
+bias that their position supplies. Either way, both true and false standpoints are seen as social products, so
+that whether a knowledge claim is true or not is determined not by whether it has been shaped by the
+personal and social characteristics of the researcher but by the nature of those characteristics.
+
+3.7 This is an argument whose deficiencies were explored many years ago in the sociology of
+knowledge; where it was labelled ‘the genetic fallacy’ (see, for example, Hartung, 1952 and Popper, 1966:
+chapter 23). While standpoint epistemology appears both to allow recognition of the way in which the
+validity of all accounts of the world is determined by the socio-historical location of those who produce
+them and to be able to justify claims to universal truth, this is an illusion. Indeed, the most developed
+version of this position, Hegelian epistemology, shares the same failing as relativism: to the extent that all
+accounts of the world are socio-historically located and are true or false in virtue of their location, the same
+must also be true of Hegel's own claim to stand at the end of history. There is no historically neutral or
+independent criterion by which the validity of his philosophy of history can be established. And it was
+precisely this feature that left open the possibility of others using the same historicist argument to claim that
+History would be realized at some different point in its development and in a different way, as in the case of
+both Marxists and feminists. But, of course, #eir arguments are also open to precisely the same challenge.
+
+3.8 Put another way, the key question is: how is one is to judge the validity of statements about the
+source of a knowledge claim? This cannot be done in terms of their sources without infinite regress. Both
+Hegel and Marx sought to avoid this by an appeal to logic or science. And, while not usually making this
+kind of appeal today, many Marxists and feminists try to avoid the problem by adopting a weaker version of
+standpoint epistemology, one which allows for the possibility that the working class can be misled by the
+dominant ideology, or that some women may suffer from false consciousness. Indeed, the standpoint is
+sometimes treated as consciously adopted rather than as a perspective that is inherited from one's social
+position. In these weaker terms, no social position is seen as in itself providing access to valid knowledge, it
+only offers a potential for such knowledge. But, of course, this move effectively undercuts the standpoint
+argument because knowledge claims are no longer to be judged primarily in terms of their source but
+according to other considerations. The distinctiveness of standpoint epistemology as an alternative to
+foundationalism has disappeared. Like all other nonfoundationalist positions, tt now faces the problem of
+how to determine what is true and what is false. And bias, in its original sense, once again becomes a threat
+to validity that is universal, not restricted to those occupying the wrong standpoint.
+
+3.9 As we have indicated, relativism and standpoint epistemology are rarely adopted in pure form.
+Indeed, what often happens is that they are used in an instrumental way. Sceptical or relativist arguments are
+applied selectively in order to critique some phenomena or views while others are kept safe from their
+corrosive effects. Conversely, standpoint epistemology is used to protect particular views through its
+capacity to disqualify critics on the grounds of their social characteristics. The intended aim of this
+instrumentalism is often to expose biases arising from the power of dominant groups in society. However, as
+we have tried to show, neither of these radical epistemological views can sustain a coherent conception of
+bias, and their selective use amounts to ontological gerrymandering (Woolgar and Pawluch, 1985; Foster et
+al, 1996: chapter 1).
+
+3.10 For the reasons outlined above, we take it that neither of the currently influential epistemological
+alternatives to foundationalism provides an adequate basis for reconstructing the concept of bias. So, how is
+the problem to be solved?
+
+A Nonfoundationalist Interpretation of ‘Bias’
+
+4.1 Given the failure of foundationalism, and the weaknesses of radical alternatives towards it, it is
+necessary to rethink the issues surrounding truth, objectivity, and bias as these relate to social research. The
+remainder of our paper is intended to contribute to this as regards the last of these concepts. We noted earlier
+that while the failure of foundationalism had led to the adoption of radical epistemological views on the part
+of some philosophers of science, many adopted a more moderate approach, seeking to construct a position
+centred on a form of realism that avoids the problems affecting foundationalism. This is the sort of
+epistemological position that we will assume in attempting to make sense of the concept of bias.
+
+4.2 We can only sketch this position here.!3] 4 first assumption is that the distinction between accounts
+and the phenomena they purport to represent is a viable one; in other words that researchers do not
+constitute or construct phenomena in the very activity of representing them, in the strong sense that
+phenomena have no existence independently of accounts of them. However, in formulating this distinction
+between accounts and the things they refer to it is important not to think of it in terms of language versus
+reality. Rather, the distinction operates within reality, between particular signs and their referents. Language
+is part of reality, and so too are the authors of accounts, they cannot stand outside of it. A second point is
+that researchers do not have direct contact with the phenomena they seek to describe and explain. Their
+accounts are not simply impressions left on them by the world; nor are they logically derived from such
+impressions. So, in a weaker sense, researchers do constitute or construct the phenomena they describe, but
+under the constraint of not producing an account that is at odds with the evidence available about the
+relevant phenomena. Furthermore, their accounts do not reproduce phenomena in linguistic terms. Rather,
+
+they represent them from one or another point of view, defined in terms of particular relevances_!4! The
+third point is that because we do not have direct contact with phenomena, we have to make judgments about
+the plausibility and credibility of evidence: about the extent to which it is compatible with, or implied by,
+what we currently take to be established knowledge, and the likelihood of error involved in its production.
+The final point is that, in this context, the research community plays a crucial role in subjecting knowledge
+claims to assessment on the basis of criteria of plausibility and credibility that are generally more sceptical
+than those operating in other areas of social life; in the sense that they are primarily concerned with avoiding
+the danger of accepting as true what is in fact false.
+
+4.3 An essential element of this communal assessment is consideration of potential threats to validity,
+that is of sources and types of error. This points to the performative character of the concept of error. Its use
+involves a calling to account; or, to put it another way, a labelling of deviance. In common with the other
+terms in the network to which they belong, ‘error’ and ‘bias’ form part of an accountability system. Since
+the community of researchers have a responsibility to do their utmost to find and keep to the path which
+leads towards knowledge rather than error, the possibility that deviation from it has occurred is a continual
+preoccupation; since the potential for deviation is endemic.
+
+4.4 As we saw, for the extreme foundationalist, bias is a straightforward matter. It is systematic error
+produced by the influence of presuppositions whose validity is not given, and therefore known with
+certainty. And its elimination depends on avoiding all such presuppositions. It follows from this that hardly
+any distinction needs to be drawn between error in the process of research (dependence on false premises
+etc) and erroneous findings. The first almost inevitably leads to the second; and the second kind of error is
+an absolutely reliable indicator of the first. Given this, both the findings of research and the behaviour of
+researchers can be described as biased without this causing confusion. Moreover, systematic error is seen as
+always a culpable matter, given that it is easily recognized and avoided.
+
+4.5 The influence of foundationalism has also meant that a clear distinction is not always drawn between,
+on the one hand, a researcher having relevant commitments, for example particular political views, and, on
+the other, these commitments impacting negatively on the research process. Thus, researchers are sometimes
+described as biased simply because they have commitments pertaining to the field in which research is being
+carried out. This follows from the idea that the researcher must strip away all his or her assumptions until
+
+bedrock is reached, and then build up true knowledge from that foundation solely by logical means. |!5]
+
+4.6 Once we abandon foundationalism, error becomes a much more difficult and complicated matter.
+Most obviously, where before we had a procedure by which it could in principle be identified easily and
+with certainty, this is now no longer the case: judgments about the appropriateness of methods and about the
+validity of conclusions must be recognized as fallible. Moreover, it is no longer simply a question of
+whether or not methodological rules have been followed. For the most part, such rules can be no more than
+guidelines, and considerable judgment is involved in applying them, for example in coming to conclusions
+about the cogency of the evidence for particular research claims. We also have to recognize that the link
+between procedural and outcome error is not as tight as foundationalism assumes. Above all, outcome error
+is not necessarily the product of culpable procedural error.
+
+4.7 All this forces us to make a whole range of distinctions that foundationalism ignores (see Figure 1).
+ERROR
+
+Procedural [Outcome
+
+eaqror error]
+Systematic Haphazard
+Culpable Nonculpable Culpable — Nonculpable
+BIAS
+Motivated Unmotivated
+Conscious Unconscious
+
+wilful Hegligent Hegligent Monculpable Negligent Nonculpable
+
+bias bias bias aTror aTor eqror
+
+Figure 1 A conceptual network identifying types of error
+
+4.8 In outlining this conceptual network, we concentrate on procedural rather than on outcome error; and we
+retain the distinction between systematic and haphazard error. However, the causation of systematic error is
+understood differently. Where for the foundationalist any reliance on presuppositions whose validity is not
+given must be avoided, such reliance is now seen as inevitable. In the course of inquiry about some matters,
+we necessarily take others for granted; and in the absence of a foundation of absolute givens these can only
+be matters about which we believe our knowledge to be sound but less than apodictic. If we did not make
+such assumptions, we would have no ground at all on which to stand, and we would lapse into a
+thoroughgoing scepticism |!¢!
+
+4.9 However, this procedural reliance on presuppositions whose validity is open to potential doubt does
+not necessarily lead to outcome error. Sometimes it will take us towards the truth rather than away from it.
+Judgments have to be made, then, about the validity of presuppositions, though in the absence of any
+prospect of absolute proof. As a result, the accountability system operating within research communities
+
+takes on an even more important role than it does under foundationalism.!!7] Moreover, where previously
+procedural error was a matter of logic, it now becomes deviance from communal judgments about what is
+and is not reasonable behaviour in pursuit of knowledge, with these judgments being open to dispute and to
+subsequent revision.
+
+4.10 As we saw, the distinction between culpable and non-culpable systematic error does not apply in the
+context of foundationalism, but it becomes very significant once we abandon that view. Given that all
+research necessarily relies on presuppositions, none of which can be established as valid beyond all possible
+doubt, we can never know for sure that a presupposition is leading us towards truth rather than away from it.
+[18] Colleagues can legitimately disagree, and any researcher may come to change his or her own assessment
+of the matter. Even more strikingly, what we know now often enables us to see how researchers of the past
+went wrong, yet without necessarily implying that they should have known better. And in the future others
+may have this advantage over us, even rejecting our views of our predecessors. The idea of the fully
+reflexive researcher is a myth. Indeed, it is of course the classic Cartesian myth: the idea that the truth,
+indeed the whole truth, is available to us here and now if only we can think clearly and logically. But, as we
+noted, it is not possible to question a// one's assumptions at once, and questioning assumptions always
+involves costs as well as potential gains.
+
+4.11 So, given that judgments must be made about which presuppositions are functional and which are
+dysfunctional for inquiry, both by researchers and by commentators on research, and that these judgments
+will change over time in light of evaluations of the progress of inquiry, we must recognize that there is
+always the potential for systematic error, and that some of it will be non-culpable; in the sense that the
+researcher could not have known that what was being relied on was erroneous or dysfunctional, so that he or
+she was acting reasonably in the circumstances despite reaching false conclusions. At the same time, some
+systematic error wi// be culpable, in that researchers are judged to have been in a position to recognize that
+an assumption on which they were relying had an unacceptable chance of being erroneous and might
+therefore lead them astray. In other words, they can be judged to be culpable on the grounds that they did not
+take proper methodological precautions to avoid error, for example by assessing the relative validity of
+alternative interpretations.
+
+4.12 In short, then, while the abandonment of foundationalism requires us to recognize that research will
+inevitably be affected by the personal and social characteristics of the researcher, and that this can be of
+positive value as well as a source of systematic error, it does not require us to give up the guiding principle
+of objectivity. Indeed, what is essential to research, on this view, is that its exclusive immediate goal is the
+production of knowledge. Of course, there are all sorts of reasons why people become researchers and
+persist in this occupation (to make the world a better place, to earn a living, etc). Such motives for doing
+research can be legitimate. But once researchers are engaged in their work they must be primarily concerned
+with producing knowledge, not with these other things. While they need to take account of ethical and
+strategic considerations that relate to other values, truth is the only value that constitutes the goal of
+research. And it follows from this that systematic error can be motivated by the pursuit of other goals than
+knowledge, where it would involve the collection, analysis and/or presentation of evidence in such a way as
+to bolster a predetermined conclusion related to those goals. This is the basis for our distinction between
+motivated and unmotivated systematic, culpable error (see Figure 1).
+
+4.13 Within this framework we could define ‘bias’ in several different ways. We might, for example,
+restrict its meaning to systematic, culpable, motivated, error. Alternatively, we could treat this as one form of
+bias, using the term to refer to all kinds of culpable, systematic error, or even to all kinds of systematic error.
+There seems little advantage to defining it as all systematic error, since this involves a duplication of terms,
+and there are other important distinctions to be made. Our own preference is to define ‘bias’ as systematic
+and culpable error; systematic error that the researcher should have been able to recognize and minimize, as
+judged either by the researcher him or herself (in retrospect) or by others. This then allows us to distinguish
+between motivated and unmotivated bias, according to whether it stems from other goals than the pursuit of
+knowledge.
+
+4.14 It is worth noting that even motivated bias can take different forms. It can be conscious or
+unconscious, in that the researcher may be more or less aware that he or she is tailoring the inquiry to
+produce findings designed to serve other goals than knowledge. Here we can distinguish, in principle at
+least, between wilful and negligent bias. We can also differentiate biased modes of operation in terms of
+how they handle evidence. At one extreme there is the out-and-out propagandist who will misuse and even
+invent evidence in order to support some cause. At the other is the advocate or lawyer who uses genuine
+evidence to make the best case possible for a preconceived conclusion, but within strict guidelines. We
+should perhaps emphasize that we are not suggesting that advocacy, and perhaps even propagandizing, are
+never legitimate. Our point is simply that these are not appropriate orientations for a researcher engaged in
+enquiry, and that the reason for this is that they do not maximize the chances of discovering the truth about
+the matter concerned, which is the primary responsibility of the researcher |!?]
+
+Conclusion
+
+5.1 In this paper we have sought to clarify usage of the term ‘bias’. We outlined the ambiguities that
+surround it and argued that these arise in part from the fact that there has been reliance on a foundationalist
+epistemology which is inadequate. We also argued that radical epistemological alternatives, such as
+relativism and standpoint theory, do not provide us with a viable substitute. The conclusion we drew was
+that some sort of nonfoundationalist realism is essential, and we sketched what a theory of bias might look
+like in this context. This involved us in distinguishing among a variety of forms of error, and reserving the
+term ‘bias’ for culpable systematic error. And we drew particular attention to that form of bias which is
+motivated by an active commitment to some other goal than the production of knowledge.
+
+5.2 We would like to end by emphasizing that our preoccupation with clarifying the meaning of “bias’ is
+not an idle one. It seems to us that we live in dangerous times for research. There are attempts outside of
+research communities, on the part of funders, including governments, to define the goal of research in terms
+other than the pursuit of knowledge. In Britain, this can be seen in the increasing contractual restrictions on
+research financed by government departments, which seem to be designed to ensure that published findings
+will support current policy (Pettigrew, 1994; Norris, 1995); and in the growing emphasis on the role of
+‘users’ in the pronouncements of funding agencies, such as the Economic and Social Research Council. The
+latter organization now requires the research it finances to help ‘the government, businesses and the public
+to understand and improve the UK's economic performance and social well-being’ (ESRC Annual Report
+1993/4, back cover). At the very least, this looks like the thin end of a wedge.
+
+5.3 At the same time, there is also much pressure among researchers themselves, in many areas, to define
+their goal in practical or political terms. We see this in the demands of some commentators on educational
+research that it should be designed to serve educational purposes (see Stenhouse, 1975 and Bassey, 1995).
+We also find it in those forms of social research which are committed to emancipatory political projects, to
+the fight against sexism or racism or against discrimination on grounds of sexual orientation or disability
+(see Cameron et al, 1992; Oliver, 1992; Back and Solomos, 1993; and Gitlin, 1994). The radical
+epistemologies we have discussed are of course often closely associated with these tendencies.
+
+5.4 To the extent that such developments amount to redefining the goal of enquiry as the promotion of
+some practical or political cause, we see them as sources of motivated bias, and believe that they must be
+resisted by social researchers. They threaten to destroy the operation of the research communities on which
+the pursuit of scientific knowledge necessarily depends. However, in the absence of a convincing,
+postfoundationalist understanding of the nature of error and bias in social enquiry we have little or no
+defence against these threats. Our paper has been designed to contribute to the construction of just such a
+defence.
+
+Notes
+
+1 This article is based on a paper presented at the Fourth International Sociological Association Conference on Social
+Science Methodology, University of Essex, July 1996. An early version was given as a guest lecture at the
+University of Southampton in March 1996. Our thanks go to those who asked questions and made comments on both
+occasions. We are also grateful to Barry Cooper, Peter Foster and Max Travers for their comments on the ideas
+presented here.
+
+For this counter-charge in the case of Freeman's critique of Mead, see Ember (1985).
+
+For a discussion of the ambiguities of Becker's argument, see Hammersley (1997a).
+
+WN
+
+This usage of the term is the predominant one in many methodological texts. See, for example, Kidder and Judd
+10
+
+11
+
+12
+
+13
+
+14
+15
+
+16
+17
+
+18
+19
+
+(1986) and Babbie (1989).
+
+For diverse philosophical discussions of the concept, see White (1970), Kirkham (1992) and Allen (1993).
+
+It is perhaps important to emphasize that, as formulated here, foundationalism is a pure type. It does not even
+correspond to the position of the Vienna Circle positivists (see Uebel, 1996).
+
+See Suppe (1954) for an account of the collapse of what he calls ‘the received view’ and the arguments involved.
+Among the most influential philosophers of science who have put forward nonfoundationalist views are Popper
+(1959) and Polanyi (1958).
+
+This difference is not as great as is sometimes supposed. It is instructive that William James described his position as
+‘radical empiricism’ (James, 1912).
+
+Instrumentalism is also sometimes appealed to. For a discussion, see Hammersley (1995: pp. 71 - 2).
+
+It might be possible to accuse them of bias in terms of the knowledge and procedures that prevail in their own
+communities, ie by internal critique; though such a challenge would always be open to the response that outsiders
+cannot understand the cultures of these communities.
+
+Epistemological relativism, the idea that there are multiple realities, needs to be clearly distinguished from cultural
+relativism, the claim that there are multiple perspectives on, and in, the world which need to be understood. In these
+terms, we are cultural relativists: we believe that cultural and other kinds of diversity are an empirical fact of
+considerable importance. What we are rejecting 1s epistemological relativism.
+
+For examples of arguments in favour of relativism in the context of social and educational research, see Smith
+(1989) and Guba (1992).
+
+For discussions of our understanding of what this realism amounts to and its implications for assessment of the
+validity of research findings, see Hammersley (1990) and Foster et al (1996).
+
+This is not a form of relativism because what is presented from the different perspectives must be non-contradictory.
+The original model here is, of course, Descartes, but this idea can be found across most kinds of foundationalism.
+For example, in the context of qualitative research methodology, see Glaser and Strauss's (1967: p. 37)
+recommendation that researchers should not read the literature relevant to their research before they begin the
+process of analysis.
+
+This is the gist of the anti-Cartesian arguments developed by, for example, Peirce and Wittgenstein.
+
+This has led one philosopher of science to argue that ‘it is a mistake to assume that the objectivity of a science
+depends upon the objectivity of the scientist? (Popper 1976: p. 95). This is an exaggeration, it seems to us, since the
+operation of the research community in enforcing objectivity depends on the commitment of individual scientists to
+that ideal. Nevertheless, like Popper, we see the role of the research community as essential.
+
+We leave aside the issue of whether false presuppositions may sometimes be functional and true ones dysfunctional!
+For this reason, we are in disagreement with those who see advocacy as forming part of research, see Paine (1985),
+or who recommend partisan research, see for example Gitlin (1994). See Hammersley (1997b).
+
+References
+
+ALLEN B. (1993) Truth in Philosophy. Cambridge, MS: Harvard University Press.
+ALTHEIDE D. L., & JOHNSON J. M. (1994) ‘Criteria for Assessing Interpretive Validity in Qualitative Research’ in
+
+Denzin N. K., and Lincoln Y. S. (editors) Handbook of Qualitative Research. Thousand Oaks, CA: Sage.
+
+BABBIE E. (1989) The Practice of Social Research (Fifth edition). Belmont, CA: Wadsworth.
+BACK L., & SOLOMOS J. (1993) ‘Doing Research, Writing Politics: The Dilemmas of Political Intervention in
+
+Research on Racism’, Economy and Society, vol. 22, no. 2, pp. 178-97. Crossref.
+
+BASSEY M. (1995) Creating Education through Research. Newark: Kirklington Moor Press, in association with the
+
+British Educational Research Association.
+
+BATESON N. (1984) Data Construction in Social Surveys. London: Allen and Unwin.
+BECKER H. S. (1967) ‘Whose side are we on?’, Social Problems, vol. 14, pp. 239-47. Crossref.
+CAMERON D., FRAZER E., HARVEY P., RAMPTON M., & RICHARDSON K. (1992) Researching Language:
+
+Issues of Power and Method. London: Routledge.
+CONVERSE J. M., & SCHUMAN H. (1974) Conversations at Random: Survey Researchers as Interviewers see it.
+New York: Wiley.
+
+EMBER M. (1985) “Evidence and Science in Ethnography: Reflections on the Freeman-Mead Controversy’, American
+Anthropologist, vol. 87, pp. 906-10. Crossref.
+
+FLAX J. (1983) ‘Political Philosophy and the Patriarchal Unconscious: A Psychoanalytic Perspective on Epistemology
+and Metaphysics’ in Harding S., and Hintikka J. (editors) Discovering Reality: Feminist Perspectives on
+Epistemology, Metaphysics, Methodology and Philosophy of Science. Dordrecht: Reidel.
+
+FOSTER P., GOMM R., & HAMMERSLEY M. (1996) Constructing Educational Research: An Assessment of Research
+on School Processes. London: Falmer.
+
+FREEMAN D. (1983) Margaret Mead and Samoa: the Making and Unmaking of an Anthropological Myth. Cambridge,
+MS: Harvard University Press.
+
+GILLIES D. (1993) Philosophy of Science in the Twentieth Century. Oxford: Blackwell.
+GITLIN A. (editor) (1994) Power and Method: Political Activism and Educational Research. New York: Routledge.
+
+GITLIN A. D., SIEGEL M., & BORU K. (1989) ‘The Politics of Method: From Leftist Ethnography to Educative
+Research’, International Journal of Qualitative Studies in Education, vol. 2, no. 3, pp. 237-53. Crossref.
+
+GLASER B., & STRAUSS A. (1967) The Discovery of Grounded Theory. Chicago: Aldine.
+
+GUBA E. (1992) ‘Relativism’, Curriculum Inquiry, vol. 22, no. 1, pp. 17-23. Crossref.
+
+HAACK S. (1993) ‘Science “from a feminist perspective’, Philosophy, vol. 67, pp. 5-18. Crossref.
+HAMMERSLEY M. (1989) The Dilemma of Qualitative Method. London: Routledge.
+HAMMERSLEY M. (1990) Reading Ethnographic Research: A Critical Guide. London: Longman.
+HAMMERSLEY M. (1992) What's Wrong with Ethnography? Routledge: London
+HAMMERSLEY M. (1995) The Politics of Social Research. London: Sage.
+
+HAMMERSLEY M. (1997a) ‘Which side was Becker on?’, unpublished paper.
+
+HAMMERSLEY M. (1997b) ‘Taking sides against research? ’, unpublished paper.
+
+HANSON N. R. (1958) Patterns of Discovery. Cambridge: Cambridge University Press.
+
+HARDING S. (1983) ‘Why has the Sex/Gender System become Visible only now?’ in Harding S., and Hintikka J.
+(editors) Discovering Reality: Feminist Perspectives on Epistemology, Metaphysics, Methodology and Philosophy
+of Science. Dordrecht: Reidel.
+
+HARDING S. (1992) ‘After the Neutrality Ideal: Science, Politics and “Strong Objectivity’, Social Research, vol. 59,
+no. 3, pp. 568-87.
+
+HARRISON M. (1985) TV News: Whose Bias? Hermitage, Berks: Policy Journals.
+
+HARTSOCK N. (1983) ‘The Feminist Standpoint’ in Harding S., and Hintikka J. (editors) Discovering Reality:
+Feminist Perspectives on Epistemology, Metaphysics, Methodology and Philosophy of Science. Dordrecht: Reidel.
+
+HARTUNG F. (1952) ‘Problems of the Sociology of Knowledge’, Philosophy of Science, vol. XIX, pp. 17-32.
+(Reprinted in J. E. Curtis and J. W. Petras (editors) (1970) The Sociology of Knowledge: A Reader. London:
+Duckworth.) Crossref.
+
+JAMES W. (1912) Essays on Radical Empiricism. New York: Longmans Green.
+KAMIN L. (1977) The Science and Politics of I.O. Harmondsworth: Penguin.
+
+KHILNANI S. (1993) Arguing Revolution: The Intellectual Left in Postwar France. New Haven: Yale University Press.
+Crossref.
+
+KIDDER L., & JUDD C. M. (1986) Research Methods in Social Relation (fifth edition). New York: CBS Publishing.
+KIRKHAM R. L. (1992) Theories of Truth. Cambridge MS: MIT Press.
+KUBN T. S. (1970) The Structure of Scientific Revolutions (Second edition). Chicago: University of Chicago Press.
+KVALE S. (editor) (1989) Validity Issues in Qualitative Research. Stockholm: Studentsliterature.
+LATHER P. (1986) ‘Issues of Validity in Openly Ideological Research’, Interchange, vol. 17, no. 4, pp. 63-84. Crossref.
+
+LATHER P. (1993) ‘Fertile Obsession: Validity after Poststructuralism’, Sociological Quarterly, vol. 34, no. 4, pp. 673—
+93. Crossref.
+
+LENZO K. (1995) ‘Validity and Self-Reflexivity Meet Poststructualism: Scientific Ethos and the Transgressive Self’,
+Educational Researcher, vol. 24, no. 4, May. Crossref.
+
+LEVINE J. H. (1993) Exceptions are the Rule: An Inquiry into Methods in the Social Sciences. Boulder, CO: Westview
+Press.
+
+LIEBERSON S. (1985) Making it Count: The Improvement of Social Research and Theory. Berkeley: University of
+California Press.
+
+McHUGH P., RAFFEL S., FOSS D. C., & BLUM A. F. (1974) On the Beginning of Social Inquiry. London: Routledge
+and Kegan Paul.
+
+MEAD M. (1928) Coming of Age in Samoa. New York: Morrow, 1961.
+
+MISHLER E. (1990) ‘Validation in Inquiry-Guided Research’, Harvard Education Review, vol. 60, no. 4, pp. 415-42.
+Crossref.
+
+NORRIS N. (1995) ‘Contracts, Control and Evaluation’, Journal of Education Policy, vol. 10, no. 3, pp. 271-85.
+Crossref.
+
+OAKES M. (1986) Statistical Inference: A Commentary for the Social and Behavioural Sciences. Chichester: Wiley.
+
+OLIVER M. (1992) ‘Changing the Social Relations of Research Production?’, Disability, Handicap and Society, vol. 7,
+no. 2, pp. 101-114. Crossref.
+
+OPPENHEIM A. N. (1966) Questionnaire Design and Attitude Measurement. London: Heinemann.
+
+PAINE R. (editor) (1985) Advocacy and Anthropology: First Encounters. St John's Institute of Social and Economic
+Research, Memorial University of Newfoundland.
+
+PAWSON R. (1989) A Measure for Measures: A Manifesto for Empirical Sociology. London: Routledge.
+
+PETTIGREW M. (1994) ‘Coming to Terms with Research: The Contract Business’ in Halpin D., and Troyna B.
+(editors) Researching Education Policy: Ethical and Methodological Issues. London: Falmer
+
+PHILLIPS D. C. (1990) ‘Subjectivity and Objectivity: An Objective Inquiry’ in Eisner E., and Peshkin A. (editors)
+Qualitative Inquiry: The Continuing Debate. New York: Teachers College Press.
+
+POLANYI M. (1958) Personal Knowledge. London: Routledge and Kegan Paul.
+POPPER K. R. (1959) The Logic of Scientific Discovery. London: Hutchinson.
+POPPER K. R. (1966) The Open Society and its Enemies, vol. 2. London: Routledge.
+
+POPPER K. R. (1976) ‘The Logic of the Sciences’ in Adorno T. W., Albert H., Dahrendorf R., Habermas J., Pilot H.,
+and Popper K. R. (editors) The Positivist Dispute in German Sociology. London: Heinemann.
+
+RAGIN C. (1987) The Comparative Method: Moving beyond Qualitative and Quantitative Strategies. Berkeley CA:
+
+University of California Press.
+ROSENTHAL R. (1976) Expectation Effects in Behavioral Research. New York: Wiley.
+ROSENTHAL R., & ROSNOW R. (editors) (1969) Artifact in Behavioral Research. New York: Academic Press.
+SCHUMAN H. (1982) ‘Artifacts are in the Mind of the Beholder’, American Sociologist, vol. 17, No. 1, pp 21-8.
+
+SMITH D. E. (1974) ‘Women's Perspective as a Radical Critique of Sociology’, Sociological Inquiry, vol. 44, pp. 7-13.
+Crossref.
+
+SMITH J. K. (1989) The Nature of Social and Educational Inquiry. Norwood, NJ: Ablex.
+STENHOUSE L. (1975) An Introduction to Curriculum Research and Development. London: Heinemann.
+SUPPE F. (editor) (1954) The Structure of Scientific Theories. Chicago: University of Illinois Press.
+UEBEL T. E. (1996) ‘Conventions in the Aufbau’, British Journal of History of Philosophy, vol. 4, no. 2, pp. 381-97.
+Crossref.
+
+WEBER M. (1949) The Methodology of the Social Sciences. New York: Free Press.
+WHITE A. R. (1970) Truth. London: Macmillan.
+
+WOLCOTT H. F. (1990) “On Seeking - and Rejecting - Validity in Qualitative Research’ in Eisner E. W., and Peshkin
+A. (editors) Qualitative Inquiry in Education: The Continuing Debate. New York: Teachers’ College Press.
+
+WOOLGAR S., & PAWLUCH D. (1985) ‘Ontological Gerrymandering: The Anatomy of Social Problems
+Explanations’, Social Problems, vol. 32, no. 3, pp. 214-27. Crossref.
+

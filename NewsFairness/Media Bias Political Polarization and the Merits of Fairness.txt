@@ -1,0 +1,2379 @@
+MEDIA BIAS, POLITICAL POLARIZATION,
+AND THE MERITS OF FAIRNESS◦
+RYAN Y. FANG♦
+Abstract. In this paper, we study the economic and social consequences of biased
+news coverage in the public media and evaluate the merits of content regulations
+designed to curtail such bias. We present a general model of the market for news and
+show that rational Bayesian consumers might prefer biased news to more balanced
+news, even when the latter is significantly more informative. Consequently, media
+outlets motivated only by higher profits might produce news with significant bias in
+equilibrium. Our model is able to fit documented empirical relationships between
+media bias and consumer ideology. It also provides an explanation for the historical
+variations of the average degree of bias in the U.S. news market based on changes
+in the cost of news to the consumers and the intensity of competition. Our policy
+analysis shows that content regulations can never lead to Pareto superior outcomes
+but can lead to Pareto dominated ones. Thus, they are poorly justified on the ground
+of protecting consumer welfare. However, we also find that media bias can lead to
+political polarization. While content regulations might help to mitigate such polarization, their effectiveness depends critically on market conditions.
+JEL Classification: D03; D83; L12; L13; L51; L52
+Key Words: Media Bias, Political Polarization, Content Regulation, Confirmation
+Bias, Bayesian Rationality, Endogenous Information Acquisition
+
+Date: February 15, 2014.
+◦
+This research was conducted under the direction of my advisers Roger Myerson, Philip Reny, and
+Hugo Sonnenschein and have benefited immensely from their insightful suggestions. I am also grateful
+for the valuable comments provided by Jesse Shapiro, Richard Van Weelden, and seminar participants
+at Brown University, the Pennsylvania State University, and the University of Chicago. All remaining
+errors are, of course, my own.
+♦
+Department of Economics, University of Chicago. Email: ryfang@uchicago.edu.
+1
+
+1. Introduction
+“Where the press is free and every man able to read, all is safe.” - Thomas
+Jefferson (to Colonel Charles Yancey 1816)
+It is widely believed that a free, fair, and honest news media is one of the essential
+pillars of a modern democracy. Because of its importance, scholars, politicians, and
+various watchdog groups have closely monitored the state of the media and have never
+been shy to voice their criticism.
+Thus, allegations of failure by the media to meet public expectations and, in particular, allegations of bias in its coverage of political news have been plentiful in public
+discourse. However, in the past two decades, such allegations appeared to be growing more prevalent and impassioned in the United States. Numerous best-sellers have
+been written to warn the public of the pervasiveness and severity of media bias.1 Research scholars have identified and measured media bias in the U.S. news market (e.g.,
+Groseclose and Milyo (2005) and Gentzkow and Shapiro (2010)) and its impact on the
+views of the general public and the outcomes of political processes (e.g., Gentzkow
+and Shapiro (2004), DellaVigna and Kaplan (2007), and Chiang and Knight (2011)).2
+Recent surveys by the Pew Research Center for the People and the Press (2011) show
+that consumers’ perception of media bias has deteriorated drastically since the mid
+1980s (see Figure 1.1).
+Scholars, pundits, and politicians have expressed concerns over the apparent surge
+of media bias in the U.S. news market. It is the belief shared by many that media bias
+is the deliberate attempt by media outlets to misinform the public in pursuit of their
+own agendas. Moreover, biased news is less informative and thus inferior in value to
+consumers. Thus, in order to protect consumer welfare, the government must intervene
+and impose fairness standards in the industry to curtail media bias.
+Content regulations that restrict the degree of bias in news coverage are popular tools
+for such purposes. In the United Kingdom, the Office of Communications’s Broadcasting Codes require news to be reported with “due impartiality”.3 In the United States,
+the Federal Communications Commission (FCC) enforced the Fairness Doctrine, which
+required TV and radio stations to present contrasting viewpoints on controversial issues of public interest. The FCC dissolved the doctrine during the deregulation sweep
+1
+
+For example, Coulter (2003) and Goldberg (2002) claim that there is a significant liberal bias in
+the American public media, while Alterman (2003) and Brock, Rabin-Havt, and Media Matters for
+America (2012) claim that the bias is to the right.
+2
+Note that, while many studies find significant bias in the news media, Puglisi and Snyder (2012) find
+the press to be largely balanced.
+3
+Section
+Five
+of
+the
+Ofcom
+Broadcasting
+Codes,
+available
+at:
+http://stakeholders.ofcom.org.uk/broadcasting/broadcast-codes/broadcast-code/?a=0.
+2
+
+Figure 1.1. Percentage of Respondents Expressing Concerns for Media Bias
+
+of the Reagan Administration. But attempts to reintroduce the Fairness Doctrine and
+even to codify it have not stopped since.4
+In this paper, we present a general model of the market for news and apply it to examining the economic and social consequences of media bias and evaluating the merits
+of these regulations on news content. Motivated by our goal to understand the impact
+of content regulations such as the Fairness Doctrine as well as the empirical measures
+of media bias in the literature, we define such bias in this paper as the unbalanced
+presentation of information (views, evidence, etc.) in favor of (i.e., inherently biased
+to) different sides of a controversial issue. The media outlets in our model can spend
+a limited amount of resources on acquiring information regarding the unknown state
+of the world and can allocate these resources to collecting information with different
+biases. They can produce balanced news reports by allocating resources evenly across
+the collection of information favoring each side. Otherwise, their news reports will be
+biased. Thus, media bias can be created in the process of collecting and synthesizing
+4
+
+See Limburg (2013) for a brief account of the introduction and abolition of the Fairness Doctrine and
+suggestions for further reading.
+3
+
+information. The media outlets can also garble the information they have collected
+before reporting them to the consumers. However, we show that if the media outlets’
+goal is to maximize profits, garbling is suboptimal and is not part of their equilibrium
+strategies.
+Our findings cast serious doubt on the common justification for content regulations
+that hinges on protecting consumers from misinformation. Although there is evidence
+suggesting that consumers exposed to unbalanced news sources appear to be relatively
+poorly informed (e.g., Gentzkow and Shapiro (2004)), this does not necessarily imply
+that consumer welfare is lower. Our results show that rational Bayesian consumers who
+consume news only to help themselves make informed individual decisions may strictly
+prefer biased news to more balanced news, even if the latter provides significantly
+more information. The reason is that, while more information always improves the
+accuracy of the consumers’ beliefs and can never hurt a rational Bayesian consumer
+making non-strategic decisions (Blackwell (1951)), its value depends on the nature of
+the consumers’ decision problem and the nature of other information the consumers
+have.5
+In particular, acquiring information with opposite biases can be inefficient. Contrasting viewpoints or conflicting evidence prevents rational consumers from becoming
+certain of the underlying state and making resolute decisions that bring higher expected
+utilities. Thus, when information are costly to gather and there is tradeoff between
+information with different biases, learning only one-sided information can be more efficient to the consumers. This may be the case even when there is significant decreasing
+return to scale associated with producing information biased to one side, and allocating
+all resources to collecting one-sided information results in less information gathered in
+total.
+We show that media outlets may choose to produce news with significant bias in
+equilibrium even when they are only motivated by higher profits. Moreover, content
+regulations not only cannot lead to Pareto improvements from market outcomes, they
+can in fact result in Pareto dominated outcomes. Thus, these regulations are poorly
+justified on the ground of protecting consumer welfare. On the other hand, we also
+find that media bias can lead to political polarization, which is behaviorally defined by
+consumers taking more extreme actions in opposite directions. We show that content
+5
+
+Note that, in this paper, a news report providing “more information” is one that presents a larger
+number of facts (pieces of evidence) and does not necessarily dominate a news report providing less
+information according to the Blackwell order, which already takes into account of the nature of the
+decision problem. In fact, pairs of news reports often cannot be ordered by the Blackwell order, which,
+of course, is not complete.
+4
+
+regulations can help mitigate such polarization under some market conditions, but can
+also exacerbate polarization under other circumstances.
+A fast growing literature on media economics has produced many insightful explanations for the perceived biases in the news media.6 Baron (2006), Besley and Prat
+(2006), Duggan and Martinelli (2011), and Anderson and McLaren (2012) show that
+media bias may originate from the supply side, when media outlets or their employees
+have incentives to deliberately distort the consumers’ beliefs with biased news. On
+the other hand, other papers have modeled media bias as originating from the demand
+side. The consumers may demand bias in their news because they appreciate the entertainment value in such news (e.g. Mullainathan and Shleifer (2005), Bernhardt, Krasa,
+and Polborn (2008)) or find such news more useful in helping them determining their
+optimal course of action (e.g. Chan and Suen (2008), Oliveros and Vardy (2012), and
+Sobbrio (2013)). Gentzkow and Shapiro (2006) and Stone (2011) show that media bias
+can arise if media outlets have the incentive to mislead consumers unsure of the media
+outlets’ capabilities into believing that they are of the superior type or if consumers
+and reporters misinterpret their information (i.e., they are affected by confirmation
+biases in the spirit of Rabin and Schrag (1999)).
+In this paper, our consumers only care about making optimal individual choices and
+consume news only to assist their decision making as in Chan and Suen (2008) and
+Oliveros and Vardy (2012). The media outlets in our model only aim to maximize
+profits as in Mullainathan and Shleifer (2005) and Sobbrio (2013). This is not to say
+that we do not think that the entertainment value in news and the media outlets’
+incentives to influence their consumers are not important aspects of the problem. But
+we believe that, to better understand these other aspects, it is important to learn how
+far a more basic model can take us to understand the phenomenon of media bias.
+In contrast to the fruitful research on the cause of media bias and its impact on
+democratic processes, little has been done to develop a theoretical understanding of
+the industrial organization of the market for news, which is essential for the evaluation
+of media industry regulations. Earlier models that study the commercial aspects of
+media bias (e.g., Mullainathan and Shleifer (2005), Anderson and McLaren (2012),
+and Sobbrio (2013)) are too restrictive to match the rich body of empirical evidence
+accumulated by recent studies (e.g. Hamilton (2006), Gentzkow, Glaeser, and Goldin
+(2006), Gentzkow and Shapiro (2010), and Gentzkow, Shapiro, and Sinkinson (2012)).
+For example, consumers are generally restricted to consuming only one news report, and
+most of the models have difficulties analyzing oligopolistic competition involving more
+6
+
+See Prat and Stromberg (2011) for a survey of the literature on the political economy of public media.
+5
+
+than two media outlets. Consequently, these models cannot match known consumption
+patterns, according to which consumers often consume multiple number of news reports
+with distinct biases, and media outlets attract consumers from distinct ideological
+groups (the Pew Research Center for the People and the Press (2012) and Mitchell,
+Jurkowitz, Enda, and Olmstead (2013)).
+In this paper, media outlets have more freedom in deciding the amount of information
+to report and the manner in which they report, while consumers are able to consume
+multiple news reports. At the same time, our model remains tractable and is able to
+accommodate any finite number of media outlets. The generality of our model leads to
+new predictions. In addition to matching the above mentioned consumption patterns,
+the flexibility to handle large number of competitors allows us to examine the joint
+effect of the cost incurred by consumers from consuming news and the intensity of
+competition on the average degree of bias in the news supplied in equilibrium. We
+are thus able to explain the historical variations of the degree of media bias in the US
+market based on the changes in those factors.
+Last, this paper presents a new model of rational demand for biased information.
+As in Calvert (1985) and Suen (2004), the preference for biased information by our
+consumers is attributable to the non-concavity in the value of information (Radner
+and Stiglitz (1984)). However, the ways bias is conceptualized differ across these models, which lead to different behavioral predictions.7 The type of preference for biased
+information in our model is an example of the concept generally termed “confirmation
+bias” in the Psychology literature (See Klayman (1995) and Nickerson (1998)), which
+has been introduced to the economics literature by Rabin and Schrag (1999).
+The rest of the paper is organized as follows: the next section introduces the formal
+model. In Section 3, we characterize the optimal news report from an individual
+consumer’s perspective and show that it often is biased. Section 4 studies the industrial
+organization of the market for news and analyzes the relationship between average
+equilibrium media bias and other market conditions. Towards the end of the section,
+we lay out the empirical implications of our model and evaluate the effect of imposing
+content regulations on consumers’ well-being. In Section 5, we show that media bias can
+lead to political polarization. We demonstrate that content regulations can mitigate
+such polarization and discuss their limits. Section 6 concludes with a discussion on
+possible extensions. All proofs are relegated to the appendix.
+
+7
+
+For example, in Chan and Suen (2008), which shares the same basic model as Suen (2004), the
+consumers are never willing to pay for more than one news reports.
+6
+
+2. The Model
+Consider a market for news with a continuum of consumers and a finite number
+of producers. The producers will be referred to as media outlets. The mass of the
+consumers is normalized to unity and N ∈ N denotes the number of media outlets.
+The consumers each, independently, face a choice under uncertainty and the media
+outlets provide information that can potentially assist the consumers in making better
+decisions.
+2.1. The Consumers’ Decision. Let i denote a typical consumer who faces a choice
+between three actions: the left action, denoted by l, the right action, denoted by r,
+and abstention, denoted by a. As summarized in Table 2.1, i’s utilities associated with
+actions l and r depend on the unknown state of the world, which can be either left,
+denoted by L, or right, denoted by R, while her utility associated with action a is
+certain and is normalized to 0. The parameters αi , βi , δi , γi are positive real numbers.
+δi
+i
+< δi +γ
+, so that action a is not dominated.
+We assume that αiα+β
+i
+i
+Table 2.1. Consumer i0 s Decision Problem
+L
+R
+l αi −βi
+r −δi γi
+a 0
+0
+Consumer i is assumed to be a subjective expected utility (SEU) maximizer. Let
+her subjective prior belief over the possible states, {L, R}, be given by the vector
+(1 − πi , πi ), that is, she believes that state R obtains with probability πi .8 Let upi (d)
+denote her expected utility when her belief over {L, R} is given by the vector of probabilities (1 − p, p) and she decides to take action d ∈ {l, r, a}. Define dbi (p) as her
+optimal decision given her belief p, i.e., dbi (p) ≡ arg maxd∈{l,r,a} upi (d). Ex ante, her
+optimal decision depends on her utility function and prior belief as follows:
+
+i
+
+{l},
+πi ∈ [0, αiα+β
+)
+
+i
+
+
+
+{l, a}, πi = αi
+
+
+
+αi +βi
+
+αi
+δi
+b
+di (πi ) =
+{a},
+πi ∈ αi +βi , δi +γi .
+
+
+
+δi
+
+
+{a, r}, πi = δi +γ
+
+i
+
+
+
+δi
+{r},
+πi ∈ ( δi +γi , 1]
+8Note that the consumers are not forced to have heterogeneous priors. The subjective prior beliefs of
+
+all of the consumers may very well agree.
+7
+
+In the rest of the paper, members of dbi (πi ) are referred to as consumer i’s “default
+actions”.
+Different consumers can have different utility functions and beliefs, hence the dependence of (αi , βi , δi , γi , πi ) on i. Consequently, they might have different default
+actions.
+For example, imagine that two candidates are vying for a political office. The consumers at a positive utility cost can either vote for the left candidate (action l) or vote
+for the right candidate (action r). Otherwise, she can choose to abstain (a). One of
+the two candidates has higher valence than the other. The better candidate could be
+the left one (state L) or the right one (state R). Consumer i always wants to vote for
+the candidate with the higher valence.
+Alternatively, imagine that there is contention over the optimal strategy to prevent
+a hostile foreign country from developing nuclear weapons. All consumers agree that
+if the foreign country’s nuclear program is still in its early stage (state L), sanctions
+are the most appropriate policy. However, if the nuclear program has passed a certain
+point (state R), preemptive military actions are necessary. Consumer i can, again at
+a cost, choose to advocate for either choice (actions l or r) or she can refrain from
+choosing sides at all (action a).
+In either case, if i is sufficiently certain that the true state is L (R), or, more precisely,
+δi
+i
+if πi < αiα+β
+(respectively, if πi > δi +γ
+), her optimal choice is l (r). Otherwise, she is
+i
+i
+better off choosing a, which is both less costly and less risky than the other choices.
+Note that how certain consumer i needs to be to choose l or r depends on her utility
+function. Two consumers with the same belief might choose different actions because
+of their different preferences. For example, given the same belief about the candidates’
+valence, one consumer might choose to vote for the left candidate and the other for
+the right candidate because they each find their chosen candidates’ personal traits
+more likable. Alternatively, given the same belief about the success of the foreign
+country’s nuclear program, one consumer might support sanctions while the other
+supports military action, because the former disapproves of the use of violence in
+general and the latter is more lax about it.
+For expositional convenience, the consumers with default action l, i.e. all i with
+dbi (πi ) = {l}, are referred to as “liberals”, and those with default actions r and a are
+referred to as “conservatives” and “moderates”, respectively.9
+2.2. The News Reports.
+9Those consumers who are indifferent between two actions can be categorized into either group.
+
+In
+the following analysis, they will generally form a subset of measure zero. Consequently, their behavior
+does not affect our analysis.
+8
+
+2.2.1. Investigations and Signals. To produce a news report, the media outlets need
+to investigate into various matters pertaining to the unknown state. Conceptually, we
+can think of this as the media outlets asking a number of questions, each with an “yes”
+or “no” answer, on behalf of their readers / viewers. Formally, these investigations can
+be modeled as binary signals that send a message of “left” or “right” in each state.
+We recognize that investigations conducted by media outlets to ascertain the truth
+of an uncertain issue can in fact favor one side or the other. For example, when
+investigating the valence of a political candidate, the media outlets can elicit opinions
+from a supporter of the candidate or a member of the same political party. These people
+are more likely to endorse the candidate, and might even endorse him or her knowing
+that he or she in fact has lower valence. Thus, opinions elicited from supporters or
+party members are inherently biased towards their favored candidate.
+To capture this idea, we assume that there are two types of binary signals the media
+outlets can acquire: signals that are biased to the left (in short, “left signal s”) and
+signals that are biased to the right (“right signals”). As illustrated in Table 2.2, when
+the true state is L, a left signal always identifies the state, correctly, as left. On the
+other hand, if the true state is R, a left signal only correctly identifies the state as right
+with probability σL ∈ (0, 1) and, with the remaining probability, the signal makes a
+mistake (or “lies”) and identify the state as left. A right signal is defined symmetrically,
+and is characterized by some σR ∈ (0, 1) (see Table 2.3).
+Given her prior belief (1 − πi , πi ), consumer i expects a left signal to report “left”
+with a probability strictly higher than 1 − πi , and, upon receiving a “left” report from
+the signal, the consumer updates her belief to (1 − π 0 , π 0 ), where π 0 < π. The opposite
+is true for a right signal. This is the sense in which the signals are biased: ex ante,
+a left (right) signal is more likely to cause the consumer to have a stronger belief in
+state L (respectively, R).10 In the previous example, the opinion from a supporter of
+the left candidate amounts to a left signal, while the opinion from a supporter of the
+right candidate is a right signal.
+Table 2.2. A Left Signal
+“lef t”
+“right”
+
+L
+R
+1 1 − σL
+0
+σL
+
+10In precise terms, “more likely” here means “with higher probability than actuarially fair according
+
+to the consumer’s prior belief”.
+9
+
+Table 2.3. A Right Signal
+L
+R
+“lef t”
+σR
+0
+“right” 1 − σR 1
+However, bias does not have to result from misrepresentation of facts. It can equally
+be due to the uneven type I and type II errors associated with the particular investigation. For example, when investigating the foreign nuclear program, the media outlets
+can attempt to find out whether or not the foreign country has developed the capacity
+to enrich uranium, which must occur before the milestone of development, or they can
+attempt to find out if that country has already conducted nuclear tests, which occurs
+after the critical stage. The former amounts to a right signal, since it will fail to recognize that the milestone has not been reached, if the foreign country has acquired
+the capacity to enrich uranium. The latter, on the other hand, is equivalent to a left
+signal.
+Realistically, even a left (right) signal may not be perfectly accurate in identifying
+the left (right) state. There may very well be small chances that the signals can err in
+their favored states. Such small chances are ignored here in order to gain tractability.
+However, one needs not to be too concerned by this simplification. As it will become
+clearer below, the consumers’ expected utilities are continuous in the conditional probabilities characterizing our signals. Thus, so long as the probability that left and right
+signals misidentify their favored states is small, the predictions of consumers’ behavior
+in our model remain good approximations.
+2.2.2. News Reports and News Consumption Bundles. Each media outlet can produce
+one news report, which is based on the findings of the various investigations conducted.
+Tracking all the possible combinations of findings from those investigations and compute the probabilities they each obtain is potentially a very tedious task. However,
+note that a collection of left signals can be identified with a single (composite) left
+signal.
+For example, consider a collection of two left signals characterized by conditional
+probabilities σL and σL0 , respectively. In state L, both signals are going to identify the
+state as L. In state R, there are four distinct possible outcomes in which zero, one,
+or two of the signals identifies the state correctly as R. However, if any of the two
+left signals identifies the state as R, we can conclude that the state must indeed be R.
+Thus, for all intents and purposes, we can simply identify the two left signals with a
+single left signal characterized by conditional probability σL00 , which is the probability
+10
+
+that any of the two original left signals correctly identifies the state in R. Note that
+σL00 > max{σL , σL0 } as long as the two original signals are not perfectly correlated.
+Similarly, any collection of left (right) signals can be identified with a single (composite)
+left (right) signal.
+On the other hand, a collection of signals of both types can be identified to a composite signal that sends a message mL (respectively, mR ) when any of the right (left)
+signals reports “left” (“right”), and sends a message mN when all of the left signals
+report “left” and all of the right signals report “right”. Thus, a news report that reports
+truthfully the findings from all the investigations conducted can be identified as a composite signal characterized by a pair of conditional probabilities (σL , σR ) ∈ [0, 1]2 , where
+σL (respectively, σR ) is the probability that any left (right) signal correctly identifies
+the state as R (L) (see Table 2.4).
+If such a news report sends a message mL (mR ), consumer i knows that the true state
+must be L (R). Thus, mL (mR ) can be interpreted as “conclusive evidence” presented
+by the media outlet in support of state L (R). By contrast, message mN represents
+“inconclusive evidence” presented by the media outlet. There may be two types of
+inconclusive evidence: if either σL or σR equals to zero, the evidence is “one-sided ”,
+while, if both σL and σR are positive, the evidence is “conflicting”.
+Table 2.4. A News Report
+sL
+sN
+sR
+
+L
+R
+σR
+0
+1 − σR 1 − σL
+0
+σL
+
+Note that the media outlet is assumed to be reporting its findings truthfully here.
+If, instead, the media outlet chooses to garble its signals, its news report is no longer
+equivalent to the composite signal presented in Table 2.4. However, as we shall see
+in our analysis below, we do not expect this to happen in equilibrium if the media
+outlets maximize their profits. This is because that, in equilibrium, where consumers
+have rational expectations of the media outlets’ strategies, garbling its signals can only
+reduce a media outlet’s profit and is therefore dominated by truthful reporting.
+Finally, as alluded to earlier, the consumers in our model have the freedom to consume news reports produced by multiple media outlets. For any set of media outlets
+J ⊆ {1, 2, . . . , N }, a “news consumption bundle” consisting of the news reports produced (faithfully) by members of J is equivalent to the collection of all the left signals
+and all the right signals acquired by those media outlets and can be identified again with
+
+a (richer) composite signal characterized by conditional probabilities σLJ , σRJ ∈ [0, 1]2 ,
+11
+
+
+where σLJ , σRJ depend on the conditional probabilities characterizing each of the media outlet’s reports, which, in turn, depend on the amount of resources devoted by the
+media outlets to acquire their signals.
+2.2.3. News Production Technology. Each media outlet is endowed with q units of
+resources that can be spent on conducting investigations (i.e., acquiring signals). q
+is normalized so that it falls in (0, 1). A media outlet can allocate these resources
+between acquiring left signals and right signals. Specifically, media outlet j chooses a
+
+“reporting strategy”, characterized by a pair of non-negative real numbers qLj , qRj such
+that qLj + qRj ≤ q, where qLj (respectively, qRj ) is the amount of resources allocated to
+acquiring left (right) signals.11
+Spending qLj and qRj on acquiring left and right signals gives media outlet j a compos
+
+
+ite signal characterized by σLj , σRj = σ qLj , σ qRj . The function σ : [0, 1] → [0, 1]
+specifies the news production technology available to the media outlet. We assume
+that σ is strictly increasing and that σ (0) = 0. The strict monotonicity of σ reflects
+the idea that, as a media outlet spends more resources on collecting information, its
+information becomes better.12
+For any subset of media outlets J, a news consumption bundle consisting reports
+
+from these outlets is characterized by σLJ , σRJ , where σbJ , b = L, R, should depend on
+the statistical interdependence between all of the b-biased
+signals contained in all of
+ 
+j
+J
+the news reports. We assume that σb = τJ σb j∈J , where τJ : [0, 1]|J| → [0, 1] is
+  
+
+Q
+defined by τJ σbj j∈J ≡ 1 − j∈J 1 − σbj . That is, the composite signals generated
+by the news reports are, in effect, statistically independent conditional on the state.13
+In what follows, we refer to (q, 0) and (0, q) as “extreme reporting strategies” and
+any other feasible (qL , qR ) as an “interior reporting strategy”. We shall from time to
+11The fact that media outlets only choose the allocation of resources to acquiring signals reflects our
+
+restriction of attention to the undominated truthful reporting strategies.
+12For example, if the media outlet acquires more left signals, the probability that at least one of these
+signals will correctly identify the state R increases as long as those signals are not perfectly correlated.
+No additional restrictions on σ (e.g., on its curvature) is imposed. While it is reasonable to expect
+that σL and σR should be concave in the number of signals the media outlet acquires, they need not
+to be concave in the amount of resources the media outlet spends. There may very well be significant
+scale economies in acquiring signals of the same type and the resulting σ may be linear or even convex.
+13This assumption is in fact more restrictive than what is needed for our results and is made for
+expositional brevity only. However, we do need τJ to be strictly monotone and concave. As discussed
+earlier, the curvature of σ is not restricted. In particular, it can be convex. Thus, the fact that τJ is
+strictly concave reflects the assumption that by pooling their resources, two media outlets can produce
+a single news report that is more accurate than the news consumption bundle containing news reports
+produced independently by these outlets. This could be due to repetitions in investigations conducted
+by the outlets.
+12
+
+
+
+
+time abuse notation and write σ (qj ) for σ qLj , σ qRj
+and τ σ (qj ) , σ qk for
+
+
+
+
+τ σ qLj , σ qLk , τ σ qRj , σ qRk
+.
+
+2.2.4. Defining Bias. A media outlet is considered “biased to the left (right)” if it allocates more resources to acquiring left (right) signals. Formally, a news report (qL , qR )
+R
+is biased to the left (right) if ρ ≡ qLq+q
+< 12 (> 12 ), where | ρ − 12 | measures the degree
+R
+of bias in the report.
+Thus, media bias is created in the process of acquiring and synthesizing information.
+By choosing different experts or institutions to consult, questions to ask, or matters
+to investigate, the media outlets can make their reports favor one state over the other.
+In our previous example, a media outlet that only elicits opinions from a candidate’s
+supporters is considered to be biased towards that candidate. On the other hand,
+a media outlet that elicits opinions from supporters of both candidates is considered
+balanced.
+Our definition of media bias is tailored to representing the kind of bias policies like
+the Fairness Doctrine are intended to curtail. Moreover, it corresponds directly to the
+measures of media bias in the empirical literature adopted by scholars like Groseclose
+and Milyo (2005), who measure the bias of a media outlet by the relative frequencies
+the latter quotes “liberal think tanks” versus “conservative ones”, and Gentzkow and
+Shapiro (2010), who measure bias by the relative frequencies media outlets use phrases
+that are more commonly used by Democrats versus those used by Republicans.14
+Similarly, a news consumption bundle is said to be “biased to the left” or “biased to
+R
+< 12 or ω > 12 respectively. | ω − 21 | measures the degree of
+the right” if ω ≡ σLσ+σ
+R
+bias in the news consumption bundle.
+
+2.3. The Value of Information to Consumers. The consumers are assumed to
+have rational expectations about the media outlets’ reporting strategies and update
+their beliefs according to Bayes’ rule. Given consumer i’s prior belief, πi , and her
+news consumption, σ ≡ (σL , σR ), we can calculate i’s posterior belief upon receiving
+messages mL , mR , and mN , respectively, as well as her prior belief for the likelihood
+
+14The correspondence to the Gentzkow and Shapiro (2010) measure might appear less obvious at first.
+
+However, if we recognize that phrases used by politicians are likely related to the issues they raise,
+the questions they ask, and the arguments they make, all of which are presumably in favor of their
+own causes; then more frequent usage of the same phrases as a politician may well indicate that the
+media outlet takes the same stance as that politician on the underlying issues.
+13
+
+of receiving them. Abusing notation a little, these can be written as:
+p (mL ) = (1 − πi ) σR
+p (mR ) = πi σL
+p (mN ) = 1 − πi σL − (1 − πi ) σR
+p (R | mL ) = 0
+p (R | mR ) = 1
+p (R | mN ) =
+
+πi [1 − σL ]
+.
+1 − πi σL − (1 − πi ) σR
+
+Note that the bias in consumer i’s news consumption bundle determines how the report
+affects her posterior belief. After receiving conclusive evidence mL (mR ), the consumer
+knows that the state is L (R). However, her posterior belief, and hence optimal choice,
+upon receiving inconclusive evidence mN depends on ω. For any πi ∈ (0, 1), holding
+σL + σR constant, p (R | sN ) is strictly increasing in ω, and p (R | sN ) < πi (> πi ) if
+and only if ω < 12 (> 12 ).
+Define u∗i (p) ≡ max{upi (l) , upi (r) , upi (a)}. Thus, u∗i (p) is the maximum expected
+utility consumer i can achieve without additional information given her belief (1 − p, p).
+Consumer i’s “default utility” is u∗i (πi ). Having access to a bundle of news reports allows
+the consumer to make her decision contingent on the message she receives. Thus, with
+consumption bundle (σL , σR ), the maximum expected utility consumer i can achieve,
+ex ante, becomes:
+Ui∗ (σL , σR , πi )
+≡ p (mR ) u∗i (p (R | mR )) + p (mL ) u∗i (p (R | mL )) + p (mN ) u∗i (p (R | mN ))
+= πi σL γi + (1 − πi ) σR αi + [1 − πi σL − (1 − πi ) σR ] u∗i (p (R | sN )) .
+
+(2.1)
+
+The difference between Ui∗ (σL , σR , πi ) and u∗i (πi ) is the net gain in expected utility
+brought by the news consumption bundle σ and, hence, is how much the news consumption bundle is valued to the consumer.
+
+14
+
+Since [1 − πi σL − (1 − πi ) σR ] is non-negative for all (σL , σR ) ∈ [0, 1]2 , we can rewrite
+(2.1) as:
+Ui∗ (σL , σR , πi ) = max{πi σL γi + (1 − πi ) σR αi
++πi (1 − σL ) αi + (1 − πi ) (1 − σR ) (−βi ) ,
+πi σL γi + (1 − πi ) σR αi
++πi (1 − σL ) (−δi ) + (1 − πi ) (1 − σR ) γi ,
+πi σL γi + (1 − πi ) σR αi }.
+The expressions in the brackets are the consumer’s expected utility if she commits
+to choosing l, r, and a, respectively, after receiving inconclusive evidence. Viewed as
+functions of (σL , σR ) or functions of πi , all of these expressions are linear. Thus, Ui∗ is
+the maximum of linear functions and is therefore convex in (σL , σR ) and in πi .
+3. Utility Maximizing News Reports
+We are interested in the consumers’ welfare in various market outcomes with or
+without government intervention. This comes down to understanding the consumers’
+preference over news consumption bundles. In this section, we ask the following question: fixing a media outlet’s resources and production technology, what is the most
+valuable news report it can produce for an individual consumer, given the consumer’s
+preference and prior belief? Formally, let (α, β, δ, γ) be any member of R4++ that satα
+δ
+< δ+γ
+, we want to solve, for each q ∈ (0, 1) and each π ∈ (0, 1), the following
+isfy α+β
+problem:
+max(qL ,qR ) U ∗ (σ (qL ) , σ (qR ) , π)
+s.t.
+
+(3.1)
+
+qL , qR ≥ 0
+qL + qR ≤ q,
+
+where the dependence of U ∗ on the utility vector (α, β, δ, γ) is suppressed in the notation.
+α
+As it turns out, if the consumer is a liberal or a conservative, i.e., if π < α+β
+or
+δ
+π > δ+γ
+, the solution to this problem is remarkably simple.
+Proposition 1. The unique solution to problem (3.1) is q∗ = (q, 0), if the consumer
+is a liberal, and is q∗ = (0, q), if she is a conservative.
+Thus, a liberal prefers her news report to be extremely biased towards the left, while
+a conservative prefers her news report to be extremely biased to the right. These consumers’ preference for biased news is rational and consistent with SEU maximization.
+15
+
+Note that, when σ is concave, acquiring more left (right) signals or producing such
+signals with higher accuracy may lead to larger reductions in the number or accuracy
+of of right (left) signals that can be produced. That is, the extremely biased news
+report may be significantly less informative than a more balanced one. Nevertheless,
+the partisan consumers always prefer the former.
+To understand the intuition behind Proposition 1, let us explore some properties of
+the function U ∗ . The following lemma establishes that U ∗ is monotone in (σL , σR ).
+Lemma 1. For any π ∈ (0, 1) and any σL , σL0 , σR , σR0 ∈ [0, 1], such that σL < σL0 and
+σR < σR0 :
+a) U ∗ (σL , σR , π) ≤ U ∗ (σL0 , σR , π) and U ∗ (σL , σR , π) ≤ U ∗ (σL , σR0 , π);
+b) U ∗ (σL , σR , π) < U ∗ (σL0 , σR0 , π) ≤ U ∗ (1, σR0 , π) = U ∗ (σL0 , 1, π).
+A short algebraic proof of Lemma 1 is given in the appendix. However, note that,
+for b = L, R, reducing σb can be viewed as randomly misreporting the realization of
+b-biased signals. Thus, Lemma 1 a) is essentially a special case of Blackwell’s (1951)
+well-known theorem on comparing experiments. It re-iterates the well-known fact that,
+to an individual facing a non-strategic decision problem, more information is never a
+bad thing.
+Lemma 1 b) implies that the marginal utility value of resources spent on collecting
+one of the two types of information must always be strictly positive. Thus, it is
+never optimal for the consumers if a media outlet underutilizes its resources, hence
+the solution to (3.1), (qL∗ , qR∗ ), must satisfy qL∗ + qR∗ = q.
+The next lemma identifies the conditions in which additional information of a particular kind is not valuable. If the consumer’s news consumption bundle is σ, let
+pσπ (L | mN ) denote her posterior belief after she is presented with inconclusive evidence. Recall that db(p) is the consumer’s optimal choice(s) of action when her belief
+is given by p.
+Lemma 2. For any π ∈ (0, 1) andany σL , σL0 , σR , σR0 ∈ [0, 1]:
+
+
+(σ0 ,σR )
+(σ ,σ )
+a) If db pπ L R (L | mN ) = db pπ L
+(L | mN ) = {r}, then U ∗ (σL , σR , π) =
+U ∗ (σ 0 L , σ R , π); and,
+
+
+
+
+(σL ,σR0 )
+(σL ,σR )
+b
+b
+b) If d pπ
+(L | mN ) = d pπ
+(L | mN ) = {l}, then U ∗ (σL , σR , π) =
+U ∗ (σ L , σ 0 R , π).
+Lemma 2 says that if, upon receiving inconclusive evidence (mN ), the consumer’s
+optimal choice is l (r), then additional information (signals) biased to the right (left)
+adds no value to her unless it can persuade her to change action.
+16
+
+Because the consumer is a Bayesian, a news report that directly sends her a message
+from the set {mL , mR , mN } is equivalent to two reports that inform her, in turn, about
+which message she can rule out. For example, telling the consumer mL is equivalent to
+first telling her not mR and then not mN . However, if her choice after receiving mN is
+l, then, after receiving the report “not mR ”, the consumer can just go ahead and choose
+l. This is simply Savage’s (1972) “Sure-thing Principle”, which our SEU maximizing
+consumer respects. Consequently, the second report is useless to her. Moreover, even
+if the second report is made more informative (i.e., σR increases), it still does not help
+the consumer as long as it is not informative enough to persuade her to change her
+choice after receiving mN .
+(σ ,σ )
+Recall that pπ L R (L | mN ) ≤ π, if and only if σL ≥ σR . Therefore, for a liberal,
+there exists ε > 0, such that any news report (σL , σR + ε) with σL ≥ σR is as valuable to
+her as the extremely biased news report (σL , 0). The opposite is true for a conservative.
+On the other hand, Lemma 1 and the strict monotonicity of σ imply that
+U ∗ (σ (qL ) , σ (qR ) , π) ≤ U ∗ (σ (q) , σ (q) , π)
+for all interior reporting strategies (qL , qR ). Proposition 1 follows immediately.
+We can also visualize Proposition 1 in Figure 3.1, which depicts the consumers’
+indifference curves. The set of feasible reporting strategies is the area bounded by
+the black dotted curve that represents the production possibility frontier (PPF) of the
+media outlet. The PPF is determined by σ and q and can be concave, linear or convex,
+if σ is concave, linear or convex respectively.
+Lemma 1 implies that there can be no “thick” indifference curves and that indifference curves lying to the North-East represent higher values to the consumer. Lemma
+2 implies that, when the difference between σL and σR is sufficiently large, the indifference curves are either horizontal (σL < σR ) or vertical (σL > σR ). Moreover, the
+vertical part of a liberal’s indifference curves must cross the 45-degree line. So does
+the horizontal part of a conservative’s indifference curves. Therefore, a liberal’s utility
+must be maximized at the corner (σ (q) , 0), while a conservative’s utility is maximized
+at (0, σ (q)).
+However, note that Proposition 1 relies on our implicit assumption that the media
+outlet is equally efficient in acquiring information biased to the left and right, which
+implies that the PPF is symmetrical about the 45-degree line. If, instead, we assume
+that the media outlet is more efficient in acquiring information biased to the left,
+then the PPF looks like the grey dotted curve in Figure 3.1. In that case, while a
+conservative still prefers an extremely biased news report, her utility maximizing news
+report may very well be (q, 0).
+17
+
+Figure 3.1. Indifference Curves of Liberals and Conservatives
+
+The argument for Proposition 1 given above does not apply to the moderates. Unlike
+the case with liberals and conservatives, the horizontal and vertical parts of a moderate’s indifference curves do not cross the 45-degree line (See Figure 3.2). Therefore,
+a moderate consumer’s utility may very well be maximized by an interior reporting
+strategy. However, the next proposition shows that, if σ is convex, the solution to (3.1)
+is still at a corner. Thus, when increasing the accuracy of the left (right) signals does
+not cost strictly more in terms of the accuracy of the right (left) signals, a moderate
+also prefers her news report to be extremely biased.
+Proposition 2. If σ : [0, 1] → [0, 1] is convex, the solution to problem (3.1) is either
+(q, 0) or (0, q) for all consumers.
+Proposition 2 follows from the fact that U ∗ is convex in (σL , σR ) and that σ is strictly
+increasing. If σ is also convex, U ∗ is convex in (qL , qR ) and the solution to (3.1) must
+be an extreme point of the set of feasible reporting strategies. Lemma 1 rules out the
+extreme point (0, 0). Proposition 2 can also be visualized in Figure 3.2.
+3.1. Discussion.
+18
+
+Figure 3.2. Indifference Curves of Moderates
+
+3.1.1. Contrasting Viewpoints. The conventional wisdom professes that, to make an
+informed decision, one should consider arguments both for and against any particular
+course of action; and that truth will emerge from competition in the marketplace of
+ideas. Such beliefs are behind industry regulations that obligate media outlets to
+present diversified viewpoints on controversial affairs of public interest. However, our
+analysis above suggests that the conventional wisdom may have been misapplied in
+this case.
+While learning additional information that might challenge one’s current belief can
+never hurt if such information is readily available, this is not necessarily true when
+such information can only be acquired at a cost and one has to trade off information
+from different sources. In order to present contrasting viewpoints, a media outlet has
+to acquire both information biased to the left and to the right. However, Lemma 2
+identifies circumstances under which acquiring information biased in a particular direction adds no value to the consumer. By contrast, Lemma 1 guarantees that resources
+can be better spent on acquiring information biased in the other direction. This is
+true regardless of the efficiency with which the media outlet can acquire information.
+19
+
+Thus, the consumer prefers her evidence to be more one-sided, even if that evidence is
+less accurate in identifying the true state. Regulations restricting the degree of bias in
+news reporting can therefore hurt the consumers.
+However, this is not to say that such regulations cannot be justified at all. As we
+show in Section 5, content regulations like the Fairness Doctrine may serve the society
+as a whole by preventing political polarization and correcting distortions created by
+misalignment between individual and societal interests.
+3.1.2. More Choices Available to Consumers. We can extend the model to include any
+finite number of choices by the consumers. In this case, Proposition 2 goes through
+without any modification. That is, so long as σ is convex, the utility maximizing news
+report for a consumer is always extremely biased, regardless of how many actions she
+can choose from.
+In the general model, the consumers can still be divided into groups according to
+their default actions. In particular, we can identify the “most liberal consumers”, whose
+default action is the “most liberal action”, that is, db(0). Similarly, the “most conservative consumers” are those with default action db(1). Lemma 2 and Proposition 1 still
+hold in the general model for the most liberal action and the most liberal consumers
+as well as the most conservative ones.
+
+4. The Industrial Organization of the Market for News
+In this section, we analyze the industrial organization of the market for news and
+examine how equilibrium demand and supply respond to changes in market conditions.
+We then relate our results to empirical observations made by other researchers.
+4.1. The Consumers. Recall that there is a continuum of consumers with unit mass.
+Each consumer is described by a five-dimensional vector, (α, β, δ, γ, π) that specifies
+her utility function and prior belief. In the rest of the paper, we consider the aggregate
+demand by these consumers for news reports offered by an array of media outlets. In
+order to keep track of the demand of all the consumers, we restrict attention to the
+case in which all of the consumers share the same utility function as summarized in
+Table 4.1. Here, c ∈ (0, 1) represents the cost associated with taking action l or r. For
+expositional brevity, we shall identify a consumer with her prior belief.
+The consumers may still differ in their prior beliefs and, hence, default optimal
+), a conservative has prior belief in
+actions. A liberal now has prior belief in [0, 1−c
+2
+
+1+c
+1+c
+( 2 , 1], and a moderate’s prior belief falls in the interval 1−c
+,
+. Let the distribution
+2
+2
+20
+
+Table 4.1. Consumers’ Utility Function
+L
+R
+l 1 − c −1 − c
+r −1 − c 1 − c
+a
+0
+0
+of the consumers’ prior beliefs be summarized by the distribution function F , which
+has a continuous density f and support [0, 1].15
+4.2. The Producers. The producers in the market for news are N ∈ N profitmaximizing media outlets. The media outlets’ profits, denoted Πj , for j = 1, 2, . . . N ,
+are assumed to be an increasing affine function of the measure of consumers they
+attract. Thus, maximizing expected profits is the same as maximizing expected readership / viewership. This assumption is common in the literature and is appropriate
+when the majority of the media outlets’ profits come from advertising.
+Realistically, a media outlet’s advertising income should also depend on the demographic characteristics of its readers / viewers. In particular, advertisers might pay
+different rates for consumers who only consume news from one media outlet from
+those who consume news from multiple sources (Gentzkow, Shapiro, and Sinkinson (2012), Ambrus, Calvano, and Reisinger (2013)). As we show below, this
+can be easily accommodated in our model by adjusting the weight on the measures of
+different groups of consumers.
+4.3. The Market Demand for News. Recall that, the value of news consumption
+bundle σ ≡ (σL , σR ) to the consumer is the difference between U ∗ (σL , σR , π) and u∗ (π).
+We denote this value by V (σL , σR , π). Define π∗ (σL , σR ) implicitly by pσπ∗ (R | sN ) =
+1−c
+and π ∗ (σL , σR ) by pσπ∗ (R | sN ) = 1+c
+.16 U ∗ (σL , σR , π) and u∗ (π) are given by:
+2
+2
+
+
+π ∈ [0, π∗ (σL , σR )]
+
+1 − 2π − c + 2σL π
+U ∗ (σL , σR , π) =
+[σL π + σR (1 − π)] (1 − c) π ∈ (π∗ (σL , σR ) , π ∗ (σL , σR )) ,
+
+
+
+2π − 1 − c + 2σR (1 − π) π ∈ [π ∗ (σL , σR ) , 1]
+15Some readers may be concerned by the assumed combination of homogeneous utility functions and
+
+heterogeneous priors. However, as demonstrated by the analysis so far, the behavior characteristics
+of the consumers and, in particular, their preferences for biased news reports, are not driven by
+any restrictions on their utilities or beliefs. Moreover, this is also only a choice of representation:
+the consumers described above behave identically as a set of consumers with a common prior and
+heterogeneous utility functions. Detailed discussion is given in Appendix 7.3.
+16Thus, fixing a news consumption bundle σ, π (σ , σ ) is the prior belief of a consumer who is
+∗
+L
+R
+indifferent between actions l and a after learning inconclusive evidence sN . Similarly, consumer
+π ∗ (σL , σR ) is indifferent between actions a and r after learning sN .
+21
+
+and
+u∗ (π) =
+
+
+ 1−c 
+
+1
+−
+2π
+−
+c
+π
+∈
+0, 2
+
+
+
+1−c 1+c
+, 2
+2
+ 1+c 
+π ∈ 2 ,1
+
+π∈
+
+0
+
+
+
+
+2π − 1 − c
+
+
+
+.
+
+Recall that, π∗ < 1−c
+and π ∗ < 1+c
+, if σL < σR , while the opposite is true, if σL > σR .
+2
+2
+The consumers can acquire any number of news reports offered in the market at
+a constant cost (in terms of money, time, effort and other resources) of κ > 0 per
+
+≡ κ, where
+news report.17 To avoid triviality, κ needs to satisfy κ < V σ (q) , 0, 1−c
+2
+
+
+1+c
+1−c
+V σ (q) , 0, 2 = V 0, σ (q) , 2 is the highest possible value of a single news report
+to any consumer.
+The consumers each choose a set of news reports that maximizes their expected
+utilities. We assume that when a consumer is indifferent between consuming a news
+report or not, she always chooses to consume it.18 Moreover, when a consumer is
+indifferent between a number of news consumption bundles, she randomly chooses one
+of them and all news consumption bundles are chosen with equal probabilities.
+To illustrate how market demand is determined, suppose there are two media outlets
+operating in the market, namely, media outlets j and k. They each offer a news report,
+
+
+characterized by qj = qLj , qRj and qk = qLk , qRk respectively. A consumer with
+ 
+prior belief π values these reports at V (σ (qj ) , π) and V σ qk , π , and values the
+ 
+bundle of these two reports at V τ σ (qj ) , σ qk , π . Without loss of generality, let
+ 
+V (σ (qj ) , π) ≥ V σ qk , π . Thus the consumer will consume qj , if V (σ (qj ) , π) ≥
+ 
+κ. She will choose to consume both qj and qk if V τ σ (qj ) , σ qk , π ≥ 2κ and
+ 
+V τ σ (qj ) , σ qk , π − V (σ (qj ) , π) ≥ κ.
+4.4. Model Specialization. We have defined all of the necessary components of our
+formal model. However, this setup is quite general. While all of the qualitative results
+in the following sections are stated and proved within this general setting, sharper
+characterizations can be given if the model is further specialized. Thus, in addition
+to the general model, we consider a specialized model with the following additional
+assumptions.
+2c
+Assumption 1. c, q, and σ satisfy: σ (q) > 1+c
+.
+17The assumption of a constant marginal consumption cost is made for convenience only.
+
+Letting
+the marginal consumption cost depend on the number of news reports received does not qualitatively
+change our results.
+18This implies that the sum of the media outlets’ readership / viewership is upper semi-continuous in
+their reporting strategies.
+22
+
+Assumption 1 ensures that any moderate consumer can potentially be persuaded to
+take a partisan action even when the evidence is not conclusive.
+Assumption 2. σ (x) ≡ x
+The following analyses focus on market forces that drive media bias, and not on the
+media outlets’ considerations for production efficiency. Therefore, in the specialized
+model, σ is assumed to be linear. Since σ (0) = 0, letting the slope of σ be unity, i.e.,
+σ (x) ≡ x, is without loss of generality.
+Assumption 3. F is given by the truncated normal distribution with mean µ ∈
+ 1−c 1+c 
+, 2 and variance σ 2 , i.e.,
+2
+
+
+(x−µ)2
+1
+1
+−
+
+2σ 2
+√
+f (x) =  ´
+e
+(y−µ)2
+1
+−
+σ 2π
+√1 e
+2σ 2 dy
+0 σ 2π
+
+for all x ∈ [0, 1] and is equal to 0 otherwise.19
+While most of the results stated in the following sections only require the distribution
+F to be uni-modal, some of them do depend on its shape. Instead of imposing a number
+of conditions on F , we simply assume that it takes the form of a truncated normal
+distribution.
+4.5. Monopoly. When there is only one media outlet in the market, the consumers
+can consume at most one news report. Therefore, given the monopolist j’s reporting
+strategy qj , consumer π chooses to consume j’s news report if and only if V (σ (qj ) , π) ≥
+κ. Thus, j faces the following problem:
+ˆ
+
+j
+j
+max
+Πj qL , qR ; κ
+= max
+f dπ
+(4.1)
+j j
+j j
+j
+qL
+,qR
+qL
+,qR {π∈[0,1]|V (σ (qL
+),σ(qRj ),π)≥κ}
+s.t. qLj , qRj ≥ 0
+qLj + qRj ≤ q.
+
+
+Lemma 1 implies that, for any κ > 0 and any qeLj , qeRj >> qLj , qRj , {π ∈ [0, 1] |
+
+
+V qLj , qRj , π ≥ κ} ( {π ∈ [0, 1] | V qeLj , qeRj , π ≥ κ}. Since F has full support on
+[0, 1], this implies that j can strictly increase its profit by increasing both qLj and qRj .
+
+Therefore, any solution to (4.1), qj∗ ≡ qLj∗ , qRj∗ , must satisfy: qLj∗ + qRj∗ = q.
+The same holds for a duopolist, a triopolist, or, in general, any producer in the
+market. Since f is supported on [0, 1], there are always marginal consumers that
+are indifferent between distinct news reports or indifferent between consuming a news
+19π in this expression is the familiar mathematical constant.
+
+23
+
+report or not. Therefore, it is always suboptimal for a profit maximizing media outlet
+to underutilize its resources.20 Moreover, a media outlet has no incentive to garble its
+signals, that is, mis-reporting the findings from its investigation. Blackwell’s (1951)
+theorem implies that any garbling by the media outlet can only reduce the value of its
+news report to all of the consumers and, consequently, leads to lower profits.
+j
+qL
+Fixing qLj + qRj , changing the bias ρj = qj +q
+j , makes a news report more valuable to
+L
+R
+some consumers and less valuable to others. Thus, in general, the monopolist’s choice
+of bias in its report involves a tradeoff between one group of consumers and another.
+However, there are exceptions, as illustrated by the next lemma.
+Lemma 3. There exists κ∗ ∈ (0, κ) such that, if κ ∈ (κ∗ , κ), then the monopolist’s
+problem (4.1) has only extreme solutions (i.e., either (q, 0) or (0, q)).
+That is, when the news consumption costs borne by the consumers are sufficiently
+high, the only profit maximizing reporting strategies of the monopolist are extremely
+biased.
+When the monopolist increases the bias of its news report in a particular direction,
+the consumers whose initial position lies opposite to that direction are alienated. However, when the cost of consuming news is high, these consumers would not consume the
+monopolist’s news report even without the increase in bias. Therefore, the monopolist
+faces no real tradeoff and is better off choosing an extreme position. However, the next
+observation shows that, when the cost of consuming news is low, the opposite is true.
+
+
+Lemma 4. For any interior qLj , qRj , there exists κ
+b qLj , qRj > 0 such that, if κ ∈
+
+
+0, κ
+b qLj , qRj , Πj qLj , qRj is strictly higher than both Πj (q, 0) and Πj (0, q).
+Thus, if the news consumption costs are sufficiently low, the extremely biased reporting strategies are suboptimal, and Problem (4.1) has only interior solutions.
+Lemmas 3 and 4 lead to the following Proposition.
+Proposition 3. The solution to the monopolist’s problem (4.1) exists for all κ. Moreover, there exist κ∗1 and κ
+b1 in (0, κ), such that, when κ ∈ (κ∗1 , κ), the monopolist’s
+profit maximizing reporting strategies must be extreme (i.e. (q, 0) or (0, q)), and, when
+κ ∈ (0, κ
+b1 ), the monopolist’s profit maximizing reporting strategies must be interior.
+Compared with a more balanced news report, an extremely biased news report provides strictly higher value to some consumers. On the other hand, Lemma 2 implies
+20Note that τ is a strictly increasing function, so the consumers’ valuation of their second (third, etc)
+
+news report is also increasing in the resources devoted by the media out.
+24
+
+that an extremely biased news report provides no value to consumers with strong positions contrary to the direction of its bias, while a more balanced news report provides
+positive value to all consumers. When the consumption costs are high, only high value
+news reports are consumed. Consequently, the monopolist is better off focusing on a
+segment of the market and attracting as many consumers in that segment as possible.
+This is achieved by producing an extremely biased news report. On the other hand,
+when the consumption costs are low, a monopolist can capture the whole market by
+offering a more balanced news report.
+We can further characterize the monopolist’s optimal reporting strategy, by focusing
+on the specialized model.
+Proposition 4. Under Assumptions 1 to 3, the monopolist’s profit maximizing reporting strategies are biased to the left (right) if and only if µ < 12 (µ > 12 ). Moreover,
+when κ < κ
+b1 , the monopolist’s profit maximization strategy is unique and it becomes
+less biased (i.e. | ρj∗ − 21 | decreases) as κ falls.
+In the specialized model, when consumption costs are low, the monopolist’s problem
+essentially becomes a tradeoff between marginal liberal consumers and conservative
+ones. This comes down to comparing the population density of the marginal consumers,
+j∗
+qL
+and hence the dependence of ρ∗ = qj∗ +q
+j∗ on µ.
+L
+
+R
+
+4.6. Duopoly. Now suppose there are two media outlets, j and k. The oligopolistic
+competition amongst media outlets is modeled as a strategic game, in which the media outlets independently and simultaneously choose their reporting strategies. The
+payoff to a player is the profits it makes. In the following sections, we study the Nash
+Equilibria of this game.
+The duopolists each offer a news report. Thus, the consumers can consume up to two
+news reports at a cost of κ per report. Fixing the reporting strategy of its competitor,
+k, and that of itself, the consumers attracted to media outlet j can be broken down to
+two groups. One group of the consumers have a unique optimal consumption bundle
+that includes j’s news report. The other group of consumers have multiple optimal
+consumption bundles, and j’s news report is included in some of them. The first group
+of consumers, denoted by Aj ⊆ [0, 1], choose to consume j’s report with probability one.
+On the other hand, the second group of consumers randomly choose from their optimal
+consumption bundles, and thus may only choose to consume j’s report with positive
+m
+probability. Let AjM denote the set of consumers who have M optimal consumption
+bundles, m of which include j’s report.
+25
+
+In a duopoly, j’s profit can be written as:
+ˆ
+ˆ
+
+1
+j
+k
+f dπ.
+Πj q ; q , κ =
+f dπ +
+2 Aj12
+Aj
+The duopolists’ game and, more generally, any oligopolists’ game are not continuous,
+that is, the media outlets’ payoffs are not continuous in their strategies, and pure
+strategy Nash equilibria do not exist in general. However, as the next proposition
+shows, there always exists at least one Nash equilibrium in mixed strategies. In fact,
+there exists at least one symmetric equilibrium. Moreover, the mixed strategy equilibria
+have to satisfy certain properties:
+Proposition 5. The duopolists’ game has at least one symmetric Nash equilibrium
+(in mixed strategies) for any κ ∈ (0, κ). Moreover, there exist κ∗2 and κ
+b2 in (0, κ),
+∗
+such that, if κ ∈ (κ2 , κ), only (q, 0) and (0, q) can be in the support of any equilibrium
+strategy, while, if κ ∈ (0, κ
+b2 ), then, in any equilibrium, the probability that some interior
+reporting strategy is chosen must be strictly positive.
+That is, when the news consumption costs are sufficiently high, only extremely biased news reports are produced with positive probability. However, when the news
+consumption costs are sufficiently low, more balanced news reports are produced with
+positive probability. Thus, similar to the monopolist’s case, as the costs of consuming news fall, the news reports offered in equilibrium become more balanced, albeit in
+a probabilistic sense.21 Note that, when news consumption costs are low, all media
+outlets choose interior reporting strategies with positive probability in the symmetric
+equilibrium.
+The logic behind Proposition 5 is also similar to the logic behind the monopolist’s
+problem. Even though the consumers have the freedom to choose two news reports,
+when consumption costs are high, doing so is not economical. Thus, an oligopolist’s
+problem is similar to that of a monopolist when consumption costs are high. Thus, its
+optimal strategy is to focus on a segment of the market.
+On the other hand, when the consumption costs are low, then it is possible for some
+consumers to consume two news reports. However, just like before, an extremely biased
+news report is not valuable to consumers with strong positions opposite to the direction
+of the report’s bias even as a second choice. On the other hand, like in the monopolist’s
+case, any media outlet can serve the whole market with a more balanced news report.
+Consequently, the media outlets have incentives to reduce biases in their news reports.
+With the specialized model, we can further characterize the equilibria of this game.
+21Note that, in general, κ
+e
+
+e2 and κ
+b1 6= κ
+b2 .
+1 6= κ
+26
+
+Proposition 6. Under Assumptions 1 to 3, there exists κ̌2 ∈ (0, κ∗2 ], such that, when
+µ = 21 and κ ∈ (0, κ̌2 ), the game has a symmetric Pure Strategy Nash Equilibrium
+
+
+(PSNE) at 2q , 2q , 2q , 2q . Moreover, if | µ − 21 | is sufficiently small, then there is a
+PSNE ((x∗ q, (1 − x∗ ) q) , (x∗ q, (1 − x∗ ) q)), where x∗ ∈ [0, 1] and x∗ ≈ 12 .
+Thus, in the specialized model with enough symmetry and low consumption costs,
+the duopolists each choose a (almost) perfectly balanced news report with probability
+one in equilibrium.
+Note that, the consumers’ ability to choose any number of news reports is essential
+for these results. The reason a media outlet offers a less biased news report, when
+news consumption costs are low, is to attract consumers initially located at the other
+end of the ideological spectrum, who might consume the less biased report as a second
+news source. For that reason, Propositions 5 and 6 may not hold if the consumers are
+restricted to consuming only one news report, as illustrated by the next example.
+Example 1. In addition to Assumptions 1 and 3, assume that the consumers are
+restricted to consuming no more than one news report. Then, for any κ > 0, only
+(q, 0) and (0, q) can be chosen with positive probability in any equilibrium.
+4.7. Multiple Competitors. When there are N > 2 media outlets competing in the
+market, results analogous to Propositions 5 and 6 still hold. That is, fixing the number
+of media outlets operating in the market, when news consumption costs are sufficiently
+high, we can only expect to see extremely biased news reports in equilibrium. As the
+consumption costs fall, extreme reporting strategies become less profitable to media
+outlets compared to more balanced ones. Indeed, in some cases, all media outlets end
+up offering perfectly balanced news reports with probability one.
+The next result shows that, for any level of consumption costs, increase in competition eventually makes the extreme reporting strategies profitable. Thus, the trend
+of decreasing biases brought about by falling consumption costs can be reversed by
+intensifying competition.
+e (κ), such that,
+Proposition 7. For each κ ∈ (0, κ), there exists a positive integer N
+e (κ) media outlets and news consumption
+in any equilibrium of the game with N > N
+cost κ, (q, 0) must be chosen with positive probability, and so is (0, q).
+With low consumption costs, the reason that a media outlet produces a less biased
+news report in equilibrium is so that it can attract more consumers from the other
+end of the ideological spectrum. However, this becomes difficult when there are more
+media outlets producing news with biases that are preferred by those consumers. On
+the other hand, by reducing the bias in its news report, a media outlet risks losing
+27
+
+consumers who favor such biases, when there are other media outlets targeting those
+consumers and are willing to produce news with more bias. Consequently, increasing
+biases eventually becomes more profitable to the media outlets.
+4.8. Empirical Implications. As argued above, when news consumption costs are
+low, there must be (symmetric) Nash equilibria in which all media outlets choose interior reporting strategies with positive probability. In particular, we may observe
+outcomes in which news reports are produced with biases across the ideological spectrum. The next example illustrates such a scenario.
+Example 2. Let σ (x) ≡ x and let F be uniform over [0, 1]. Consider a market with
+three media outlets. Suppose that κ is sufficiently low and the following strategy profile
+is in the support of the equilibrium strategies: ((xq, (1 − x) q) , (yq, (1 − y) q) , ((1 − x) q, xq)),
+where 0 < x < y < 1−x. When κ is sufficiently low, all three media outlets can attract
+consumers from
+all three ideological groups.
+h
+i Specifically, all consumers whose prior beκ
+κ
+lief falls in 2xq , 1 − 2(1−xq)[1−(1−y)q](1−x)q consume the news report (xq, (1 − x) q), all
+i
+h
+κ
+κ
+, 1 − 2(1−xq)(1−y)q
+consume the news report (yq, (1 − y) q), and all
+consumers 2(1−xq)yq
+i
+h
+κ
+κ
+consume the report ((1 − x) q, xq).
+consumers 2(1−xq)(1−yq)(1−x)q
+, 1 − 2xq
+
+
+κ
+In this example, the media outlet most biased to the left attracts 1−c
+−
+liberals
+2
+2xq
+
+
+κ
+conservatives. Similarly, the most right-biased media
+and 1−c
+− 2(1−xq)[1−(1−y)q](1−x)q
+2
+
+
+
+
+1−c
+1−c
+κ
+κ
+outlet attracts 2 − 2(1−xq)(1−yq)(1−x)q liberals and 2 − 2xq conservatives. The
+
+
+
+
+κ
+1−c
+κ
+most balanced news report attracts 1−c
+−
+liberals
+and
+−
+2
+2(1−xq)yq
+2
+2(1−xq)(1−y)q
+conservatives. Thus, the ratio of liberals to conservative consumers decreases as the
+R
+media outlet’s bias ρ = qLq+q
+increases. The average ideological position of a media
+R
+outlet’s consumers is correlated with the bias in its news report. This matches the
+findings by the Pew Research Center for the People and the Press (2012) in a recent
+survey of news consumption patterns (see Figure 4.1).
+Moreover, there are overlaps between the
+outh readership / viewership of the media
+i
+κ
+κ
+lets. The consumers with prior beliefs in 2(1−xq)yq , 1 − 2(1−xq)[1−(1−y)q](1−x)q consume
+both the most
+left biased news report and the
+h
+i most balanced news report. The conκ
+κ
+sumers in 2(1−xq)(1−yq)(1−x)q , 1 − 2(1−xq)(1−y)q consume both the balanced report and
+the most right biased
+report. The two media outlets with strong
+opposite biases share
+h
+i
+κ
+κ
+the consumers in 2(1−xq)(1−yq)(1−x)q , 1 − 2(1−xq)[1−(1−y)q](1−x)q . Thus, the media outlets
+with similar biases share larger overlapping readership / viewership. This pattern of
+overlapping readership / viewership is consistent with the findings by a Nielson survey
+28
+
+Figure 4.1. Pew Research Center Survey on Audience Ideology
+
+conducted on behalf of Pew Research Center (Mitchell, Jurkowitz, Enda, and Olmstead (2013)), which shows a similar pattern of cross viewership between cable news
+programs in the U.S. market (See Figure 4.2).
+Hamilton (2006) documents historical changes of media bias in the U.S. market for
+news. There was first a trend of decreasing media bias occurred in the late 19th century.
+Before then, most U.S. newspapers are openly affiliated with political parties. However,
+since the 1870s, “nonpartisan reporting emerged as a commercial product.” 22 Gentzkow,
+Glaeser, and Goldin (2006) provided a similar account for this change. According to
+them, in 1870, only 11 percent of all political newspapers claimed to be independent.
+22Hamilton (2006) P. 3
+
+29
+
+Figure 4.2. Nielson Survey on Cross-Viewership
+
+By 1920, this number had risen to 62 percent. An opposite trend occurred since the
+1990s, when “elements of partisanship reemerged in television.” 23
+Both of these historical trends can be explained by the present model. As noted
+by Hamilton (2006), the first trend of decreasing media bias corresponded with the
+invention of rotary printing press. Mass printing and other technological innovation
+drastically reduced the cost of newspapers to the consumers. Thus, as predicted by
+Proposition 5 and 6, the papers had the incentive to reduce bias in their reporting in
+order to capture a larger share of the market.
+While news consumption costs did not rise in the 1990s, new technologies such as
+cable and satellite provided consumers with easy access to a wider range of programs.
+Thus, as predicted by Proposition 7, increase in competition among media outlets gave
+them incentives to bias their news reports. The late 1990s saw the establishment of the
+Fox News Channel and MSNBC, which over the years have established strong branding
+as conservative and progressive news stations. Moreover, it has been argued that “the
+rise of the conservative Fox News Channel caused CNN to shift to the left. ” 24 Chiang
+23Hamilton (2006) P.3
+24Posner (2005)
+
+30
+
+(2010) provides further evidence that competition induces media outlets to increase
+their bias.
+4.9. The Merits of Fairness. Content regulations such as the FCC’s Fairness Doctrine and the Ofcom’s Due Impartiality rules can be modeled in our framework as
+constraints on the degree of bias with which the media outlets can produce their
+ 
+news reports. Formally, such regulations can be represented by a number b ∈ 0, 12
+such that all media outlets can only choose reporting strategies (qL , qR ) that satisfy
+L
+| qLq+q
+− 12 |≤ b. Such regulations are said to be binding, if, without these conR
+straints, the media outlets’ equilibrium strategies assign positive probabilities to reporting strategies that violate these constraints. The next proposition shows that such
+regulations, if binding, will always make some consumers worse off. Moreover, there
+are conditions under which they can make all consumers worse off.
+Proposition 8. Content regulations, if binding, can never result in Pareto improvements but can result in Pareto dominated outcomes.
+Thus, contrary to widely held beliefs, content regulations like the Fairness Doctrine
+are poorly justified on the ground of protecting consumer welfare. However, as we
+show in the next section, they may help to mitigate other potentially harmful social
+consequences of media bias, such as political polarization.
+5. Political Polarization
+The consumers’ preferences for the biases in their news consumption are not continuous, that is, two consumers with very similar utility functions and prior beliefs may
+prefer their news consumption to contain very different biases. On the other hand,
+having received news reports containing different biases, the posterior beliefs of two
+almost identical consumers may end up being quite far apart. Thus, as we show in
+the following example, media bias can cause political polarization, which is defined
+behaviorally as consumers choosing more extreme actions in opposite directions.
+Suppose there are two media outlets operating in the market, and the market conditions are such that in equilibrium, all consumers consume at most one news report
+and the two media outlets offer news reports that are extremely biased in opposite
+directions, i.e., (q, 0) and (0, q).25 Moreover, suppose that Assumptions 1 and 2 hold.
+Thus, all consumers with prior beliefs smaller than 21 strictly prefer the news report
+(q, 0), while the report (0, q) is strictly preferred by consumers with prior beliefs greater
+than 21 .26
+25By virtue of Proposition 5, such an equilibrium exists when κ is sufficiently high.
+26These assumptions are not essential for this analysis but are made for expositional brevity.
+
+31
+
+Consider two moderates with prior beliefs π 0 and π 00 respectively, where π 0 < 21 < π 00 .
+Further, let π 0 and π 00 be such that the two moderates each consume one news report.27 The two media outlets are expected to both report message σN with probability 1 − σ (q). In that event, consumers π 0 and π 00 learn the inconclusive evidence
+(σ(q),0)
+presented by their news reports of choice and update their beliefs to pπ0
+(R | sN )
+(0,σ(q))
+and pπ00
+(R | sN ) respectively. By virtue of Assumption 1, both moderates abandon
+their default action after seeing the evidence. However, while consumer π 0 chooses
+action l, consumer π 00 goes in the other direction and chooses action r.
+Thus, media bias leads to political polarization. Given the choice, both moderate consumers consume a biased news report. However, due to the difference in the
+consumers’ prior beliefs, the biases in their chosen news reports are in the opposite
+directions. This difference in their beliefs is not significant enough for the consumers
+to choose different actions without additional information. However, in some event, the
+consumers learn inconclusive evidence that point to opposite directions. As a result,
+the two moderates end up choosing opposite partisan actions.
+The two consumers in this example each represent a positive measure of other moderates whose choices agree with theirs. Thus, in the absence of conclusive evidence,
+there can be a significant reduction in the population of moderate consumers, while
+the populations of both partisan groups increase.
+The extent of political polarization depends on the level of news consumption costs
+and the degree of competition. In the previous example, when κ is high, the news
+reports produced are extremely biased. However, polarization is not severe, since very
+few consumers consume any news. As κ falls, the news reports remain extremely biased,
+and more moderates choose to consume one of the two news reports. Consequently,
+polarization becomes more severe, that is, in the event that no conclusive evidence is
+found, more moderates become partisans. However, as κ continues to fall, some moderates find it worthwhile to consume both news reports, which gives them a perfectly
+balanced news consumption bundle. When presented with inconclusive evidence, these
+consumers do not change their action, since the evidence in the news reports balance
+out. Thus, polarization is mitigated. It is further mitigated if κ falls even more, as the
+media outlets produce more balanced news in response.
+On the other hand, when news consumption costs are low such that political polarization is not severe to begin with, it can be exacerbated by increase in competition. As
+more media outlets enter the market, the news reported in equilibrium becomes more
+biased again. Moreover, the moderates that used to consume two news reports with
+27Such π 0 and π 00 exist for any κ < κ.
+
+32
+
+opposite biases end up consuming news reports biased in the same direction. Thus,
+polarization becomes more severe again. However, with more media outlets acquiring
+information, the probability that conclusive evidence is produced increases. So does
+consumer surplus.
+5.1. Political Polarization and Social Inefficiency. The reason why a consumer
+prefers her news to be biased is because that, in the absence of any conclusive evidence,
+evidence that is more one-sided can make her more certain of what the true state is.
+Indeed, such evidence can be strong enough to convince her to take a more extreme
+action. However, her decision to change action may not be justifiable if all the social
+costs associated with her action are taken into account. Higher social costs means that
+stronger evidence is needed to justify the consumer’s new action. In other words, the
+consumer’s choice in light of the evidence presented by her choice of news consumption
+may be premature from the society’s perspective.
+Let us consider a simple scenario where, in addition to costing c to the consumers,
+the partisan actions l and r also impose an externality on the society, which makes
+the social cost of these actions equal to c0 > c. As illustrated in the previous example,
+media bias can lead to political polarization. The two moderates in the earlier example
+end up choosing partisan actions after learning inconclusive evidence presented by their
+news reports.
+0
+<
+Consider consumer π 0 . Suppose that the externalities are significant so that 1−c
+2
+(σ(q),0)
+1−c
+0
+pπ 0
+(R | sN ) < 2 . Thus, if consumer π takes into account the costs her action
+imposes on the society, she would not change her action after learning sN . In the
+absence of any means to ensure that the consumer internalize all the social costs, she
+ends up choosing l, and expected social welfare is brought down.
+5.2. Mitigating Political Polarization. Now suppose a content regulation, b, is imposed. For expositional convenience, let b = 0. Then, the only reporting strategies the
+
+
+media outlets can choose is 2q , 2q . The inconclusive evidence reported by 2q , 2q is not
+strong enough to persuade the consumer to change her action, so political polarization
+is mitigated. Moreover, it is easy to verify that, the ex ante expected social welfare
+
+is higher when consumer π 0 chooses news report 2q , 2q instead of (q, 0), as long as
+(σ(q),0)
+1−c0
+< pπ0
+(R | sN ) < 1−c
+. Therefore, the content regulation helps to correct the
+2
+2
+distortions caused by the externalities.
+However, the effectiveness of such regulations in mitigating political polarization depends crucially on market conditions. In fact, there are circumstances under which
+content regulations can exacerbate political polarization, rather than mitigate it. Suppose that, in the previous example, the consumption costs are lower so that some
+33
+
+moderates choose to consume both news reports. However, suppose that the media
+outlets still produce extremely biased news.28 Now suppose that a content regulation,
+characterized by 0 < b < 12 , is introduced and is binding in equilibrium.29
+After the media outlets reduce their bias to satisfy the regulations, the moderate
+consumers who were close to being indifferent between consuming one and two news
+reports before the regulation is introduced end up consuming only one news report.
+Comparing with their initial consumption bundle, which was completely balanced, the
+news report they consume now is more biased. Consequently, in addition to reducing
+consumer surplus, the content regulation can also aggravate polarization, because some
+of those moderates that end up consuming more biased news might end up choosing a
+partisan action in the absence of conclusive evidence.30
+
+6. Conclusion
+We present a theory of media bias where preference for biased news is consistent
+with Bayesian rationality. To an individual consumer, consuming biased news may be
+a more efficient means to acquire information than consuming more balanced news.
+Consequently, profit maximizing media outlets have the incentive to bias their news
+reports in order to attract more consumers.
+Our model offers theoretical explanations for a number of empirical findings pertaining to consumer and supplier behaviors in the news market uncovered in recent
+studies. We find that falling costs of consuming news encourages the media outlets to
+offer more balanced news in equilibrium, while the opposite happens when competition
+heightens. The biases in the news reports are correlated with the prior positions of the
+consumers they attract. The consumer bases of different media outlets may overlap,
+and the overlap is larger if the biases in their news reports are closer.
+Moreover, this new formal framework sheds some light on the social impact of media
+bias and the regulations designed to curtail it. We show that media bias may lead
+to political polarization, which can be socially inefficient when there are externalities.
+Content regulations such as the FCC’s Fairness Doctrine can help to mitigate polarization and correct distortions. However, the severity of political polarization and the
+28In general, without strong efficiency gains, to make the media outlets choose an interior strategy, the
+
+consumption costs need to be sufficiently low so that balanced reports can potentially attract sizable
+populations of partisan consumers.
+29Otherwise, it would be unnecessary to introduce this regulation.
+30Because the consumers’ posterior beliefs p(σL ,σR ) (s ) and their valuation of information
+π
+N
+
+V (σL , σR , π) are both continuous, the set of parameters σ (q) , κ, b that can give rise to such scenarios
+is non-empty.
+34
+
+effectiveness of content regulations both depend critically on market conditions. Under some circumstances, content regulations might exacerbate polarization rather than
+mitigate it.
+Our model can be extended in a number of directions. As discussed in Section 3, an
+implicit assumption we make is that the media outlets are equally efficient in acquiring
+information biased to both directions. If, instead, the media outlets are more efficient
+in producing news reports biased to the left, then even a conservative might prefer left
+biased news reports to right biased ones.
+Many scholars as well as political commentators have argued that the American
+public media is biased to the left (e.g., Goldberg (2002), Groseclose and Milyo (2005),
+and Groseclose (2011)). One explanation they give for why a liberal bias exists is that
+the members of the media elite themselves have liberal views that, in turn, make them
+more open to liberal arguments. As a consequence, they are more efficient in acquiring
+information biased to the left.
+For example, Groseclose and Milyo (2005) quote the following from Sutter (2001):
+If the majority of journalists have left-of-center views, liberal news might
+cost less to supply than unbiased news.31
+Arguments like these are supported by our model. If the media outlets’ production
+technology is sufficiently asymmetrical, both liberals and conservatives prefer news
+reports biased to the left. Consequently, the media outlets produce mostly left biased
+news in the equilibrium.
+However, if the liberal bias results from taking advantage of more efficient production
+technology, then such biases are beneficial to all consumers, including the conservatives.
+The conservatives would be better off if the media outlets could produce right biased
+news more efficiently. However, when this is not feasible, consuming left biased news
+is optimal for them.
+We can also let consumers’ well-being depend on each other’s actions (as in an election). Then a consumer’s choice of news consumption imposes an externality on others
+through her expected choice of action. Consequently, an individual consumer might
+prefer regulations that affect the variety of news reports other consumers can consume.
+Given the heterogeneity among the consumers, their preferred policy interventions are
+also going to differ.
+
+31
+
+Sutter (2001) P. 444. Quoted by Groseclose and Milyo (2005) P. 1227
+35
+
+References
+Alterman, E. (2003): What Liberal Media? : The Truth about Bias and the News.
+Basic Books, New York, paperback edition edn.
+Ambrus, A., E. Calvano, and M. Reisinger (2013): “Either or Both Competition:
+A "Two-sided" Theory of Advertising with Overlapping Viewerships,” .
+Anderson, S. P., and J. McLaren (2012): “Media Mergers and Media Bias with
+Rational Consumers,” Journal of the European Economic Association, 10(4), 831–
+859.
+Baron, D. P. (2006): “Persistent Media Bias,” Journal of Public Economics, pp. 1–36.
+Bernhardt, D., S. Krasa, and M. Polborn (2008): “Political Polarization and
+the Electoral Effects of Media Bias,” Jounal of Public Economics, 92, 1092–1104.
+Besley, T., and A. Prat (2006): “Handcuffs for the Grabbing Hand? Media Capture
+and Government Accountability,” American Economic Review, 96(3), 720–736.
+Blackwell, D. (1951): “Comparison of Experiments,” in Proceedings of the Second
+Berkeley Symposium on Mathematical Statistics and Probability, pp. 93–102. University of California Press.
+Brock, D., A. Rabin-Havt, and Media Matters for America (2012): The
+Fox Effect: How Roger Ailes Turned a Network into a Propaganda Machine. Anchor
+Books.
+Calvert, R. L. (1985): “The Value of Biased Information: A Rational Choice Model
+of Political Advice,” Journal of Politics, 47, 530–55.
+Chan, J., and W. Suen (2008): “A Spatial Theory of News Consumption and Electoral Competition,” The Review of Economic Studies, 75, 699–728.
+Chiang, C.-F. (2010): “Political Differentiation in Newspaper Markets,” .
+Chiang, C.-F., and B. Knight (2011): “Media Bias and Influence: Evidence from
+Newspaper Endorsements,” The Review of Economic Studies, 78, 795–820.
+Coulter, A. (2003): Slander: Liberal Lies about the American Right. Three Rivers
+Press, 1 st edition edn.
+DellaVigna, S., and E. Kaplan (2007): “The Fox News Effect: Media Bias and
+Voting,” Quarterly Journal of Economics, pp. 1187–1234.
+Duggan, J., and C. Martinelli (2011): “A Spatial Theory of Media Slant and
+Voter Choice,” The Review of Economic Studies, 78(2), 640–666.
+Gentzkow, M. A., E. L. Glaeser, and C. Goldin (2006): “The Rise of the Fourth
+Estate: How Newspapers Became Informative and Why It Mattered,” in Corruption
+and Reform: Lessons from America’s Economic History, ed. by E. L. Glaeser, and
+C. Goldin. University of Chicago Press.
+36
+
+Gentzkow, M. A., and J. M. Shapiro (2004): “Media, Education and AntiAmericanism in the Muslim World,” Journal of Economic Perspectives, 18(3), 117–
+133.
+(2006): “Media Bias and Reputation,” Journal of Political Economy, 114(2),
+280–316.
+(2010): “What Drives Media Slant? Evidence from U.S. Daily Newspapers,”
+Econometrica, pp. 35–71.
+Gentzkow, M. A., J. M. Shapiro, and M. Sinkinson (2012): “Competition and
+Ideological Diversity: Historical Evidence from US Newspapers,” .
+Goldberg, B. (2002): Bias: A CBS Insider Exposes How the Media Distort the
+News. Originally Published by Regnery Publishing, Inc. and Reprinted by Perennial,
+Washington.
+Groseclose, T. (2011): Left Turn: How Liberal Media Bias Distorts the American
+Mind. St. Martin’s Press, New York.
+Groseclose, T., and J. Milyo (2005): “A Measure of Media Bias,” Quarterly Journal of Economics, 120(4), 1191–1237.
+Hamilton, J. T. (2006): All the News That’s Fit to Sell: How the Market Transforms
+Information into News. Princeton University Press, Princeton, New Jersey.
+Klayman, J. (1995): “Varieties of Confirmation Bias,” Psychology of Learning and
+Motivation, 32, 385–418.
+Limburg, V. E. (2013): “Fairness Doctrine - U.S. Broadcasting Policy,” .
+Mitchell, A., M. Jurkowitz, J. Enda, and K. Olmstead (2013): “How Americans Get TV News at Home,” .
+Mullainathan, S., and A. Shleifer (2005): “The Market for News,” American
+Economic Review, 95(4), 1031–1053.
+Nickerson, R. S. (1998): “Confirmation Bias: A Ubiquitous Phenomenon in Many
+Guises,” Review of General Psychology, 2(2), 175–220.
+Oliveros, S., and F. Vardy (2012): “Demand for Slant: How Abstention Shapes
+Voters’ Choices of News Media,” .
+Posner, R. A. (2005): “Bad News,” .
+Prat, A., and D. Stromberg (2011): “The Political Economy of Mass Media,” .
+Puglisi, R., and James M. Snyder Jr. (2012): “The Balanced U.S. Press,” .
+Rabin, M., and J. L. Schrag (1999): “First Impressions Matter: A Model of Confirmatory Bias,” The Quarterly Journal of Economics, 114(1), 37–82.
+Radner, R., and J. E. Stiglitz (1984): “A Nonconcavity in the Value of Information,” in Bayesian Models of Economic Theory, ed. by M. Boyer, and R. E. Kihlstrom.
+Elsevier, Amsterdam.
+37
+
+Reny, P. J. (1999): “On the Existence of Pure and Mixed Strategy Nash Equilibria
+in Discontinous Games,” Econometrica, 67(5), 1029–1056.
+Savage, L. J. (1972): The Foundations of Statistics. 1954. Dover Publications, Inc.,
+New York, second edn.
+Sobbrio, F. (2013): “Citizen-Editors’ Endogenous Information Acquisition and News
+Accuracy,” .
+Stone, D. F. (2011): “Ideological Media Bias,” Journal of Economic Behavior and
+Organization, 78, 256–271.
+Suen, W. (2004): “The Self-Perpetuation of Biased Beliefs,” The Economic Journal,
+114, 377–396.
+Sutter, D. (2001): “Can the Media Be So Liberal? The Economics of Media Bias,”
+The Cato Journal, pp. 431–451.
+the Pew Research Center for the People and the Press (2011): “Press
+Widely Criticized, But Trusted More than Other Information Sources: Views of the
+News Media: 1985 - 2011,” .
+(2012): “In Changing News Landscape, Even Television is Vulnerable: Trends
+in News Consumption: 1991-2012,” .
+7. Appendix
+7.1. Proofs of Lemmas 1 and 2.
+Proof. Let Σ = σL + σR and recall that ω = σΣR and up (d) is the consumers expected
+utility when her belief is given by p and she chooses d ∈ {l, r, a}. It is easy to verify
+that, when Σ ≤ 1:
+U ∗ (Σ, 0, π) = max{uπ (l) + (γ + β) πΣ, uπ (r) , γπΣ},
+
+(7.1)
+
+U ∗ (0, Σ, π) = max{uπ (l) , uπ (r) + (α + δ) (1 − π) Σ, α (1 − π) Σ},
+
+(7.2)
+
+and,
+U ∗ (σL , σR , π) = max{(1 − ω) [uπ (l) + (γ + β) πΣ] + ωuπ (l) ,
+(1 − ω) uπ (r) + ω [uπ (r) + (α + δ) (1 − π) Σ] ,
+(1 − ω) [γπΣ] + ω [α (1 − π) Σ]}.
+
+(7.3)
+
+When Σ > 1, (7.1) and (7.2) no longer hold, but (7.3) still holds so long as (σL , σR ) ∈
+[0, 1]2 .
+38
+
+The monotonicity of U ∗ stated in Lemma 1 follows from the fact that each of the linear functions supporting U ∗ (σL , σR , π) is non-decreasing in σL = (1 − ω) Σ or σR = ωΣ
+and strictly increasing in Σ. Now if either σL or σR is 1, the news reports are perfectly
+informative and the consumer can achieve the highest expected utility
+possible. 
+
+(σL ,σR )
+b
+Lemma 2 follows from the fact that for any (σL , σR ) such that d pπ
+(R | sN ) =
+∗
+π
+r, U (σL, σR , π) = u (r)+(α
+ + δ) πσR , which clearly does not depend on σL . Similarly,
+(σL ,σR )
+b
+when d pπ
+(R | sN ) = l, U ∗ (σL , σR , π) = uπ (l) + (γ + β) πσL , which does not
+depend on σR .
+
+7.2. Proofs of Proposition 2.
+Proof. Recall that U ∗ (σL , σR , π) is convex in (σL , σR ). Therefore, given the monotonicity of U ∗ and σ, if σ is convex, then U ∗ (σ (qL ) , σ (qR ) , π) is also convex in (qL , qR ).
+The set of feasible (qL , qR ) is a polyhedron, thus U ∗ is maximized at an extreme point.
+Clearly, (0, 0) cannot be a solution. Therefore, we must have:
+U ∗ (σ (qL ) , σ (qR ) , π) ≤ max{U ∗ (σ (q) , 0, π) , U ∗ (0, σ (q) , π)}.
+
+7.3. Isomorphic Representation. In Section 4, we suggested that our restriction
+of the consumer’s utility function to that defined in Table 4.1 is only a matter of
+representation. The consumers in our simplified model behave identically as a set of
+consumers with a common prior and heterogeneous utility functions.
+Formally, for any π, π 0 ∈ (0, 1), there exists a vector (α, β, δ, γ) such that, α, β, δ, γ >
+γ
+β
+0 and δ+γ
+< α+β
+, and, if consumer i’s utility function is that given in Table 4.1 and
+her prior belief is π, and if consumer j’s utility function and prior belief is given by the
+vector (α, β, δ, γ, π 0 ), the following statements hold:
+(1) dbi (π) = dbj (π 0 );
+(2) forany σ ≡ (σL , σR) ∈ [0, 1]2 , Vi (σL , σR ) =Vj (σL , σR ); and,
+(σ ,σ )
+(σ ,σ )
+(3) dbi pπ L R (L | sN ) = dbj p 0 L R (L | sN ) .
+π
+
+Proof. It suffices to show that, we can find (α, β, δ, γ), such that, for any σ ≡ (σL , σR ) ∈
+0
+[0, 1]2 : i) uπi (d) = uπj (d), for d ∈ {l, r, a}; ii) Vi (σL , σR ) = Vj (σL , σR ); and, iii) for all
+(σ ,σ )
+(σ ,σ )
+(σ ,σ )
+pπ0 L R (R|sN )
+pπ L R (R|sN )
+pπ L R (R|sN )
+0
+d, d ∈ {l, r, a}, ui
+(d) ≥ ui
+(d ) if and only if uj
+(d) ≥
+(σL ,σR )
+p
+(R|sN )
+uj π0
+(d0 ).
+0
+
+39
+
+By definition, ii) holds if i) holds and Ui∗ (σL , σR , π) = Uj∗ (σL , σR , π 0 ). (7.1) to (7.3)
+guarantee that both i) and Ui∗ (σL , σR , π) = Uj∗ (σL , σR , π 0 ) hold if:
+
+
+[(1 − π 0 ) α − π 0 β + (γ + β) π 0 Σ] = [1 − 2π − c + 2πΣ]
+
+
+
+
+
+
+[(1 − π 0 ) α − π 0 β] = [1 − 2π − c]
+
+
+
+
+[− (1 − π 0 ) δ + π 0 γ] = [2π − 1 − c]
+
+[− (1 − π 0 ) δ + π 0 γ + (α + δ) (1 − π 0 ) Σ] = [2π − 1 − c + 2 (1 − π) Σ]
+
+
+
+
+
+[γπ 0 Σ] = [(1 − c) πΣ]
+
+
+
+
+[α (1 − π 0 ) Σ] = [(1 − c) (1 − π) Σ]
+.
+Thus, there exists (α, β, δ, γ) such that both i) and ii) hold if the system of linear
+equations above has a solution.
+
+1−π
+π
+1−π
+π
+It is easy to verify that (α, β, δ, γ) = (1 − c) 1−π
+0 , (1 + c) π 0 , (1 + c) 1−π 0 , (1 − c) π 0
+is a solution to the system. It is, in fact, the unique solution.
+Note that, when the system of equations hold, we also have:
+p
+
+(σL ,σR )
+
+p
+
+(σL ,σR )
+
+ui π
+
+= uj π0
+
+(σ ,σ )
+p L R (R|sN )
+
+(R|sN )
+
+(d) − ui π
+
+(R|sN )
+
+(d) − uj π0
+
+(σ ,σ )
+p L R (R|sN )
+
+for all d, d0 ∈ {l, r, a}. Thus, iii) also holds.
+
+(d0 )
+(d0 )
+
+
+7.4. Proof of Lemma 3.
+Proof. For any qL0 ∈ ( 2q , q], we have σ (qL0 ) > σ (q − qL0 ) and hence 1−c
+< π∗ (σ (qL0 ) , σ (q − qL0 )).
+2
+Suppose π∗ (σ (qL0 ) , σ (q − qL0 )) < 1+c
+, then V (σ (qL0 ) , σ (q − qL0 ) , π) is strictly increas2
+
+
+ 1+c 
+, 1 . That
+ing in π over π∗ (σ (qL0 ) , σ (q − qL0 )) , 1+c
+and
+strictly
+decreasing
+over
+2
+2
+is to say
+1+c
+} = arg
+max
+V (σ (qL0 ) , σ (q − qL0 ) , π) .
+π∈[π∗ (σ(qL ),σ(qR )),1]
+2
+
+Now let κ∗ = maxqL ∈[ q ,q] V σ (qL ) , σ (qR ) , 1+c
+. The maximum is attained given
+2
+2
+
+the continuity of V in (qL , qR ). By Lemma 1, κ∗ < V σ (q) , σ (q) , 1+c
+= κ. It
+2
+q
+∗
+0
+0
+0
+follows that, for any κ > κ and qL ∈ ( 2 , q], V (σ (qL ) , σ (q − qL ) , π) > κ implies
+π ∈ [0, π∗ (σ (qL0 ) , σ (q − qL0 ))], which, in turn, implies that V (σ (qL0 ) , σ (q − qL0 ) , π) is
+.
+strictly increasing in qL0 . The same clearly holds when π∗ (σ (qL0 ) , σ (q − qL0 )) ≥ 1+c
+2
+∗
+Therefore, when κ ∈ (κ , κ), {(q, 0)} = arg maxqL ∈[ q ,q] Π (qL , qR ).
+2
+A symmetrical argument establishes that {(0, q)} = arg maxqR ∈[ q ,q] Π (qL , qR ). We
+2
+have thus proved Lemma 3.
+
+{
+
+40
+
+7.5. Proof of Lemma 4 and Proposition 3.
+Proof. Lemma 4 follows from the fact that Π (qL , qR ; κ) is continuous in κ over
+
+
+ 
+
+
+1+c
+1−c
+, V σ (qL ) , σ (qR ) ,
+}
+,
+0, max{V σ (qL ) , σ (qR ) ,
+2
+2
+and hence for any interior (qL , qR ), limκ→0 Π (qL , qR ; κ) = 1 and limκ→0 Π (q, 0; κ) , limκ→0 Π (0, q; κ) <
+1.
+Continuity of Π (qL , qR ; κ) in (qL , qR ) over {(qL , qR ) | qL , qR ≥ 0, qL + qR ≤ q} guarantees that the solution set is non-empty. The rest of Proposition 3 follows from Lemmas
+3 and 4.
+
+7.6. Proof of Proposition 4.
+Proof. Under Assumption 2, V (σ (qL ) , σ (qR ) , π) = V (qL , qR , π). Suppose, qL > qR >
+0, we have: 1−c
+< π∗ (qL , qR ) < π∗ (q, 0). Moreover, Assumption 1 implies that
+2
+1
+π∗ (q, 0) > 2 .
+It is obvious that for all π ∈ [0, π∗ (qL , qR )], U ∗ (q, 0, π) > U ∗ (qL , qR , π) and hence
+V (q, 0, π) > V (qL , qR , π). Now, for all π ∈ (max{ 21 , π∗ (qL , qR )}, π∗ (q, 0)], we have:
+U ∗ (q, 0, π) = 1 − 2π − c + 2qπ
+≥ πq (1 − c)
+> [σ (qL ) π + σ (qR ) (1 − π)] (1 − c)
+= U ∗ (qL , qR , π) ,
+
+
+and for all π ∈ min{ 12 , π∗ (qL , qR )}, 12 , we have:
+U ∗ (q, 0, π) > U ∗ (q, 0, π∗ (q, 0))
+= π∗ (q, 0) q (1 − c)
+q
+(1 − c)
+>
+2
+≥ [σ (qL ) π + σ (qR ) (1 − π)] (1 − c)
+= U ∗ (qL , qR , π) .
+Finally, if π∗ (q, 0) < π ∗ (qL , qR ), it is obvious that U ∗ (q, 0, π) > U ∗ (qL , qR , π) for all
+[π∗ (q, 0) , π ∗ (qL , qR )].
+Therefore, for all interior q = (qL , qR ) such that qL > qR and all π ∈ [0, π ∗ (qL , qR )],
+we have V (q, 0, π) > V (qL , qR , π). Similarly, one can show that, for all interior q =
+(qL , qR ) such that qL < qR and all π ∈ [π∗ (qL , qR ) , 1], we have V (0, q, π) > V (qL , qR , π).
+Define π (σL , σR , κ) ≡ inf{π | V (σL , σR , π) ≥ κ} and π (σL , σR , κ) ≡ sup{π |
+V (σL , σR , π) ≥ κ}.
+41
+
+Consider qL > qR > 0. If κ ≥ V (qL , qR , π ∗ (qL , qR )), then π (qL , qR , κ) ≥ π ∗ (qL , qR ).
+Thus, V (q, 0, π) > V (qL , qR , π) implies that Π (q, 0; κ) > Π (qL , qR ; κ). Similarly, if
+0 < qL < qR and κ ≥ V (qL , qR , π∗ (qL , qR )), then Π (0, q; κ) > Π (qL , qR ; κ).
+Suppose there is an interior solution to (4.1), denoted (qL∗ , qR∗ ). Then if qL∗ > qR∗ ,
+it must be that κ < V (qL∗ , qR∗ , π ∗ (qL∗ , qR∗ )) (or, equivalently, qR∗ > 2π∗ qκ∗ ,q∗ ), while
+( L R)
+qL∗ < qR∗ implies κ < V (qL∗ , qR∗ , π∗ (qL∗ , qR∗ )) (or, equivalently, qL∗ > 2π qκ∗ ,q∗ ). In either
+∗( L R)
+case, the monopolist’s profit is given by:
+ˆ π(qL∗ ,qR∗ ,κ)
+∗
+∗
+Π (qL , qR ; κ) =
+f dπ,
+∗ ,q ∗ ,κ
+π (qL
+R )
+where π (qL∗ , qR∗ , κ) = 2qκ∗ and π (qL∗ , qR∗ , κ) = 2qκ∗ . Hence, the FOC is given by:
+L
+R
+
+
+ ∗ 2
+f 1 − 2σ κq∗
+( L)
+qL
+
+
+.
+=
+qR∗
+κ
+f 2σ qj
+( R)
+
+(7.4)
+
+Under Assumption 3, (7.4) can only be satisfied by one interior reporting strategy
+and qL∗ > qR∗ (respectively, qL∗ < qR∗ ) if and only if µ < 21 (respectively, µ > 12 ). It is
+1
+obvious that Π (q, 0; κ) > Π (0, q; κ)
+Finally, it is easy to verify
+ if and only
+ if µ < 2 . 
+that when µ < 12 and qL∗ > qR∗ , f
+
+1 − 2σ κq∗
+( L)
+1
+∗
+the opposite is true when µ > 2 and qL < qR∗ .
+
+/f
+
+κ
+j
+2σ (qR
+)
+
+is increasing in κ, while
+
+
+7.7. Proof of Proposition 5.
+Proof. We apply Corollary 5.2 of Reny (1999) to prove the existence of mixed strategy
+Nash equilibria for the dupololists’ game. To apply the corollary, we want to show that
+the mixed extension of the duopolists’ game is both “reciprocally upper semicontinuous”
+and “payoff secure” 32.
+The sum of the duopolists’ payoffs always equals the total news consumption by all
+the consumers, and is hence upper semicontinuous in qj and qk for all κ. Proposition
+5.1 of Reny (1999) then ensures that the mixed extension of the duopolists’ game is
+always “reciprocally upper semicontinuous”.
+
+Let EΠj ϑj , ϑk ; κ denote player j’s expected payoff when j and k play mixed strate
+gies ϑj and ϑk , respectively. Since Πj qj , qk ; κ is only discontinuous at points where
+
+qj = qk , EΠj ϑj , ϑk ; κ can only be discontinuous at points where ϑj and ϑk have mass
+points at qj and qk , respectively, for some qj = qk . Moreover, for any q = (qL , qR ) and
+
+∆ ∈ R, let q + ∆ denote (qL + ∆, qR − ∆), then Πj qj , qk ; κ is only discontinuous
+32See Reny (1999) for the relevant definitions
+
+42
+
+at (q, q) if Πj (q + ε∆, q; κ) > Πj (q + (−ε∆) , q; κ) for all ε > 0 sufficiently small.
+
+Therefore at those points where EΠj ϑj , ϑk ; κ is discontinuous, player j can “secure”
+
+a payoff EΠj ϑj , ϑk ; κ by moving the mass point at qj to qj +ε∆ for some ε arbitrarily
+small. Thus the mixed extension of the duopolists’ game is “payoff secure”.
+Therefore the duopolists’ game has at least one Nash equilibrium in mixed strategies.
+Moreover, the duopolist’s game is clearly symmetrical. Therefore, Corollary 5.3 of Reny
+(1999) implies that there exists at least one symmetric Nash equilibrium in mixed
+strategies of this game. The same argument can be applied to proving the existence of
+symmetric mixed strategy Nash equilibria for the media outlets’ game with any number
+of players.
+
+Recall from the proof of Lemma 3 that if κ > maxqL ∈[ q ,q] V σ (qL ) , σ (qR ) , 1+c
+and
+2
+2
+if V (σ (q L ) , σ (q − q L ) , π) ≥ κ, then V (σ (q L ) , σ (q − q L ) , π) is either strictly increasing in qL or strictly decreasing in qL . On the other hand, the bundle of news reports con
+sisting one from each media outlet can be valued at most at V τ (σ (q) , σ (q)) , 0, 1−c
+.
+2
+
+1−c
+1
+Thus, if κ > 2 V τ (σ (q) , σ (q)) , 0, 2 , no consumer would purchase more than one
+
+news report. Moreover, V τ (σ (q) , σ (q)) , 0, 1−c
+< 2σ (q) (1 − c) = 2κ.
+2
+∗
+Now let κ2 be defined by:
+
+
+
+
+1−c
+1+c
+1
+∗
+κ2 = max{ max V σ (qL ) , σ (qR ) ,
+, V τ (σ (q) , σ (q)) , 0,
+}.
+2
+2
+2
+qL ∈[ 2q ,q ]
+It follows that, when κ > κ∗2 , at least one extreme reporting strategy (i.e. (q, 0) or
+(0, q) or both) strictly dominates all interior strategies for either media outlet.
+Finally, let qk = (q, 0). For κ sufficiently small, j’s payoff when choosing strategy
+(q, 0) is:
+ˆ
+ˆ
+
+1
+k
+f dπ
+f dπ +
+Πj (q, 0) , q ; κ =
+2 Aj12
+Aj
+1+c−2κ
+κ
+ˆ
+ˆ
+2−(1−c)τ (σ(q),σ(q))
+1 2[τ (σ(q),σ(q))−σ(q)]
+=
+f dπ +
+f dπ,
+κ
+κ
+2 2τ (σ(q),σ(q))
+2[τ (σ(q),σ(q))−σ(q)]
+while its payoff when choosing strategy (0, q) is:
+ˆ
+
+k
+Πj (0, q) , q ; κ =
+f dπ
+Aj
+
+ˆ 1− κ
+
+2σ(q)
+
+=
+
+f dπ.
+κ+(1−c)[1−σ(q)]
+2[1−σ(q)]
+
+43
+
+Now pick any interior strategy (qL , qR ), j’s payoff when choosing (qL , qR ) is:
+ˆ
+
+k
+Πj (qL , qR ) , q ; κ =
+f dπ
+Aj
+
+ˆ 1−
+=
+
+κ
+2σ (qR )
+
+f dπ.
+
+κ
+2[τ (σ(q),σ (qL ))−σ(q)]
+
+All of these payoffs are continuous in κ when κ is sufficiently small. Thus, we have
+
+
+
+limκ→0 Πj (qL , qR ) , qk ; κ = 1 while limκ→0 Πj (q, 0) , qk ; κ , limκ→0 Πj (0, q) , qk ; κ <
+
+1. Therefore, there exists a κ0 > 0 such that Πj (qL , qR ) , qk ; κ is strictly higher than
+
+
+both Πj (q, 0) , qk ; κ and Πj (0, q) , qk ; κ for all κ < κ0 .
+Similarly, we can prove that, when qk = (0, q), there exists a κ00 > 0 such that
+
+
+
+Πj (qL , qR ) , qk ; κ is strictly higher than both Πj (q, 0) , qk ; κ and Πj (0, q) , qk ; κ
+for all κ < κ00 . In fact, the analogous statement can be proved by the same argument
+for any reporting strategy qk .
+Now let κ
+b2 = min{κ0 , κ00 }. Then, when κ < κ
+b2 , an interior strategy (qL , qR ) strictly
+dominates both (q, 0) and (0, q) for media outlet j when k is restricted to randomizing
+over only {(q, 0) , (0, q)}. Therefore, there cannot be any Nash equilibria where both
+players only randomize over {(q, 0) , (0, q)}.
+We have thus proved Proposition 5.
+
+7.8. Proof of Proposition 6.
+
+
+Proof. When both media outlets choose q = 2q , 2q and κ < 1 − 2q q 1−c
+, each receives
+2
+a payoff equal to:
+κ
+ˆ κ
+ˆ
+1 1− q
+1 1− (1− 2q )q
+Π (q, q; κ) =
+f dπ +
+f dπ.
+κ
+2 κq
+2
+q
+(1− 2 )q
+
+On the other hand, if media outlet j deviate to some other interior reporting strategy
+(qL , qR ) with qL > qR its payoff is equal to:
+ˆ π̃
+Π ((qL , qR ) , q; κ) =
+f dπ,
+κ
+2qL
+
+where π
+e is the prior belief of the most conservative consumer who is willing to choose
+j’s news report as her second choice, which, depending on κ, has to satisfy one of the
+following equations:
+
+
+q q
+ 1 V (σ , σ , π
+e
+)
+=
+κ
+if
+V
+(σ
+,
+σ
+,
+π
+e
+)
+≥
+2V
+,
+,
+π
+e
+L
+R
+L
+R
+2
+2 2
+,
+
+q q
+V (σL , σR , π
+e) − V , , π
+e = κ Otherwise
+2 2
+
+44
+
+
+
+
+L
+R
+where σL = τ 2q , qL and σR = τ 2q , qR . Note that, ∂σ
+= ∂σ
+= 1 − 2q , which
+∂qL
+∂qR
+
+implies that V (σL , σR , π
+e) is strictly increasing in qL over 12 , π ∗ (σL , σR ) . It follows
+that, if π
+e < π ∗ (σL , σR ), then it is strictly increasing in qL , and Π ((qL , qR ) , q; κ) <
+
+Π ((q, 0) , q; κ). When π
+e ≥ π ∗ (σL , σR ), which implies that κ ≤ 2π ∗ (σL , σR ) σR − 2q ,
+we have π
+e = 1 − 2 σ κ− q = 1 − 2 1−κq q , which is strictly increasing in qR . 2qκL , on the
+( R 2)
+( 2) R
+other hand, is strictly decreasing in qL . Thus any (qL , qR ) with qL + qR < q cannot be
+profit maximizing for j. Therefore, we can, without loss generality, focus on reporting
+strategies satisfying qL + qR = q, and can identify j’s strategy with x = qqL . j’s payoff
+then becomes:
+κ
+ˆ 1−
+q
+2(1− 2 )(1−x)q
+Π (x, q; κ) =
+f dπ.
+κ
+2xq
+
+Differentiating with respect to x yields:
+!
+
+
+κ
+κ
+κ
+κ
+
+
+−f 1−
+f
+q
+q
+2
+2xq 2qx
+2 1 − 2 (1 − x) q 2 1 − 2 q (1 − x)2
+
+,
+
+(7.5)
+
+which, when µ = 12 , is negative for x > 12 . The case when qL < qR is symmetrical
+is positive for x < 12 . Finally, it is easy to verify that, when
+and, when µ = 12 , ∂Π(x,q;κ)
+∂x
+
+
+
+µ = 21 , limx→ 1 Π (x, q; κ) = Π 12 , q; κ . Therefore, at 2q , 2q , 2q , 2q , if a media outlet
+2
+has a profitable deviation, then its payoff must be maximized by either (q, 0) or (0, q).
+However, an argument similar to that applied towards the end of the previous proof
+
+, κ∗2 }, such that for all κ ∈ (0, κ̌2 ),
+shows that we can find a κ̌2 ≤ min{ 1 − 2q q 1−c
+2
+
+Π x = 21 , q; κ is strictly higher than both Π (0, q; κ) and Π (1, q; κ).
+
+
+Therefore, when µ = 12 and κ ∈ (0, κ̌2 ), 2q , 2q , 2q , 2q is a Nash equilibrium.
+Moreover, it is easy to show that, for all ε > 0, if µ is sufficiently close to 21 , there
+
+exists an x∗ in 12 − ε, 21 + ε , such that limx→x∗ Π (x, x∗ ; κ) = Π (x∗ , x∗ ; κ).
+
+On the other hand, when κ < 1 − 2q q 1−c
+, Π (x, q; κ) is continuous in (x, q, µ) at
+2
+ 1
+q q
+1
+, 2 , 2 , 2 , so is its derivative with respect to x. Therefore, for x∗ and µ sufficiently
+2
+close to 12 , we can simply replace 12 by x∗ in the above argument, and continuity ensures
+that all the strict inequalities still hold. Then, (x∗ , x∗ ) is a Nash equilibrium if we also
+have limx→x∗ Π (x, x∗ ; κ) = Π (x∗ , x∗ ; κ).
+Therefore, for the same κ, if µ is sufficiently close to 21 , the game has a Nash equi
+
+
+librium at some ((x∗ q, (1 − x∗ ) q) , (x∗ q, (1 − x∗ ) q)) close to 2q , 2q , 2q , 2q .
+
+7.9. Proof of Proposition 7.
+45
+
+Proof. If no media outlet chooses (q, 0) (respectively, (0, q)) with positive probability,
+´1
+´ 1−c
+then a player can secure a payoff of at least 0 2 f dπ (respectively, 1+c f dπ) by choos2
+ing (q, 0) (respectively, (0, q)) with probability one. On the other hand, fixing κ, the
+
+number of news report a consumer will consume is bounded above by V 1, 0, 12 /κ.
+Thus, when there are N media outlets, the average payoff of a media outlet is bounded
+
+by V 1, 0, 12 / (κN ). Therefore, for N sufficiently large, some player must find it more
+profitable to play (q, 0) (respectively, (0, q)) than any other interior reporting strategy if none of the other media outlets chooses (q, 0) (respectively, (0, q)) with positive
+probability.
+
+7.10. Proof of Proposition 8.
+Proof. First, by inspecting V , the difference between functions U ∗ and u∗ , we see
+that for any news consumption bundle (σL , σR ) and any π ∈ [0, 1], we must have
+
+
+V (σL , σR , π) ≤ max{V σL , σR , 1−c
+, V σL , σR , 1+c
+}. That is, either the consumers
+2
+2
+1−c
+with prior belief given by π = 2 or those with prior π = 1+c
+must value (σL , σR )
+2
+higher than any other consumers. It follows that if any news report is consumed at
+or 1+c
+. Since V
+all, it must be consumed by some consumers with prior beliefs 1−c
+2
+2
+is continuous in π, this implies that the news report is also consumed by either some
+liberals or some conservatives.
+ 
+Now let b ∈ 0, 12 be a set of binding content regulations. Let Σj0 and Σj1 denote the
+supports of media outlet j’s pre-regulation equilibrium strategy and its post-regulation
+equilibrium strategy, respectively. Then, there must be some media outlet j, for whom
+j
+
+qL
+1
+the set Σj∗ ≡ { qLj , qRj ∈ Σj0 \ Σj1 || qj +q
+j − 2 |> b} is non-empty. Moreover, either
+L
+R
+
+
+the set { qLj , qRj ∈ Σj∗ | qLj < qRj } or the set { qLj , qRj ∈ Σj∗ | qLj < qRj } is non-empty.
+
+Without loss of generality, let { qLj , qRj ∈ Σj∗ | qLj < qRj } be non-empty. Note that,
+
+by definition, the reporting strategies in { qLj , qRj ∈ Σj∗ | qLj < qRj } are played with
+positive probability before the regulations were imposed.
+Now let (qL0 , qR0 ) denote the news report in the set ∪j Σj1 that is most biased to the
+left. By the above argument, there must be some liberal consumer who are willing
+to consume (qL0 , qR0 ). Moreover, concavity of τ implies that a liberal who is willing to
+consume (qL0 , qR0 ) in a bundle must be willing to consume it on its own. On the other
+hand, we know that a liberal with prior belief given by π = 0 is not willing to consume
+(qL0 , qR0 ) at any positive κ. Thus, by continuity of V , there exists π 0 ∈ (0, 1) such that
+consumers with prior belief π 0 are indifferent between consuming (qL0 , qR0 ) on its own
+and not consuming any news. Fixing κ, consumers with prior belief π < π 0 are not
+willing to consume (qL0 , qR0 ) and are therefore not willing to consume any news with
+positive probability. On the other hand, continuity of V implies that some of these
+46
+
+
+consumers are willing to consume news reports in { qLj , qRj ∈ Σj∗ | qLj < qRj } at κ.
+Thus, these consumers enjoy positive expected surplus in the equilibrium before the
+content regulations are imposed and are made strictly worse-off by the introduction of
+such regulations. We have thus proved the first half of the proposition.
+Consider a game with two media outlets. Let σ be convex and suppose that, in
+the equilibrium before content regulations are introduced, one of the two media outlet produces news report (q, 0) with probability one and the other produce (0, q) with
+probability one. Then Proposition 2 and the concavity of τ implies that the introduction of binding content regulations must make all consumers worse-off. This proves the
+second half of the proposition.
+
+
+47
+
+

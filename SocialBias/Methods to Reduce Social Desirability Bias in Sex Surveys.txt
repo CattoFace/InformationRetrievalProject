@@ -1,0 +1,1059 @@
+& Wolters Kluwer Lippincett
+Healt Williams & Wilkins
+
+ 
+
+Methods to Reduce Social Desirability Bias in Sex Surveys in Low-Development Settings:
+
+Experience in Zimbabwe
+
+Author(s): SIMON GREGSON, TOM ZHUWAU, JOSHUA NDLOVU and CONSTANCE A.
+NYAMUKAPA
+
+Source: Sexually Transmitted Diseases, Vol. 29, No. 10 (October 2002), pp. 568-575
+Published by: Lippincott Williams & Wilkins
+
+Stable URL: https://www .jstor.org/stable/44966265
+
+Accessed: 22-11-2022 13:19 UTC
+
+ 
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+C Lippincott Williams & Wilkins is collaborating with JSTOR to digitize, preserve and extend
+& y access to Sexually Transmitted Diseases
+cy
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+Methods to Reduce Social Desirability Bias in Sex Surveys in
+
+Low-Development Settings
+
+Experience in Zimbabwe
+
+SIMON GREGSON, DPhil,*t TOM ZHUWAU, MSc,t JOSHUA NDLOVU,? AND CONSTANCE A. NYAMUKAPA, BSwt
+
+Background: Social desirability bias hampers measurement
+of risk behavior for acquiring STDs and evaluation of control
+interventions. More confidential data collection methods re-
+duce this bias in Western countries but generally require
+technology not available in less developed settings.
+
+Goal: The goal of this report was to describe and evaluate
+an informal, confidential, low-technology method—Informal
+Confidential Voting Interviews (IC VIs)—for collecting sexual
+behavior data in less developed settings.
+
+Study Design: Reports of multiple sex partners by sexually
+active, basic-literate, population-based survey participants in
+rural Zimbabwe randomly assigned to ICVIs and face-to-face
+interviews (FTFIs) were compared.
+
+Results: Ninety-two percent of respondents (n = 7823) were
+sufficiently literate for IC VIs. Error rates were low but higher
+than in FTFIs. More male and female ICVI respondents in-
+terviewed reported multiple current sex partners (OR = 1.33
+and 5.24, respectively) and multiple partners in the past month
+(OR = 1.71 and 2.92) and the past year (OR = 1.35 and 1.97).
+
+Conclusion: The ICVI method appears to reduce bias but
+requires further evaluation to assess viability and effect in
+alternative settings.
+
+RELIABLE DATA on sexual behavior are an essential
+prerequisite for the development and evaluation of sexually
+transmitted disease (STD) control and other reproductive
+health interventions. This is especially so in sub-Saharan
+Africa and other low-development settings subject to exten-
+sive HIV epidemics and/or high prevalence of STDs. In
+these settings, reliable data on sexual behavior are needed
+(1) to understand the influence of behavioral and other
+determinants of patterns of HIV and STD transmission;!
+(2) to understand the influence of cultural, economic, psy-
+
+ 
+
+The authors thank Brent Wolff for helpful advice; Elijah Dauka, Louis
+Chisvo, and Makalima Mlilo for organizing the data collection; and the
+Wellcome Trust and UNAIDS for financial support.
+
+Reprint requests: Simon Gregson, DPhil, Department of Infectious Dis-
+ease Epidemiology, Imperial College Faculty of Medicine, Norfolk Place,
+London W2 IPG, United Kingdom. E-mail: sajgregson@aol.com
+
+Received for publication June 7, 2001, revised October 29, 2001, and
+accepted January 3, 2002.
+
+568
+
+From the *Department of Infectious Disease Epidemiology,
+imperial College Faculty of Medicine, London, United
+Kingdom; tBiomedical Research and Training Institute,
+Harare, Zimbabwe; and *Blair Research Institute,
+
+Harare, Zimbabwe
+
+ 
+
+chosocial, and structural determinants of sexual behavior;?
+(3) for behavior (change) surveillance designed to aid in-
+terpretation of HIV/STD surveillance data;? and (4) for
+evaluation of specific HIV/STD prevention strategies.+
+
+Unfortunately, problems such as selective participation,
+poor recall, and incorrect response due to desire to conceal
+socially proscribed activities—social desirability bias5—
+frequently result in serious bias in sexual behavior data.?
+Extensive work has been conducted to develop methods that
+reduce the impact of bias.°-? However, more research is
+needed on alternative modes of survey administration
+within diverse populations so that a consensus can be built
+on the methods most likely to yield reliable and valid data
+in any given context.>
+
+Methods
+Social Desirability Bias
+
+In this article we describe and evaluate an interview
+strategy developed during work in rural areas of Manicaland
+Province, Zimbabwe, that was designed with a view to
+reducing social desirability bias in sexual behavior surveys
+in low-development environments. Social desirability bias
+is particularly problematic, as it can differ by location and
+over time. The former can lead to incorrect conclusions
+being drawn from studies that compare the relative levels of
+potentially high-risk behavior for HIV and STD infection in
+different populations. The latter can provide a false impres-
+sion of temporal changes in behavior, especially where
+intensive control activities have been implemented, and can
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+Vol. 29*No. 10
+
+distort results from randomized controlled trials of candi-
+date intervention strategies.
+
+Social desirability bias is most likely to occur when data
+are sought on attitudes toward or experience of activities
+that run contrary to dominant local social norms or the
+respondents’ perceptions of the views of the person(s) con-
+ducting the interviews.* In any given interview, the extent of
+bias can be exacerbated by shyness or fear of breach of
+confidentiality. Bias may be reduced where respondents
+understand and value the research objectives and appreciate
+the detrimental consequences of providing incorrect or in-
+complete information.
+
+Thus, questionnaire designs and survey and interview
+strategies that provide clear information on the purpose and
+rationale of the research and involve clearly understandable,
+easily verifiable procedures that reduce potential embarrass-
+ment, ensure confidentiality, match respondents with inter-
+viewers with whom they feel most comfortable (in terms of
+sex,> age, and socioeconomic background), and support
+interviewers in securing the trust and cooperation of respon-
+dents are the most likely to be effective.
+
+In addition, (1) careful ordering of questions to deter
+interviewers from falsifying responses so as to skip sensi-
+tive questions and (2) careful wording of questions to reflect
+the preferred direction of bias!® and deny easy retreat to
+socially acceptable answers!! will tend to reduce bias.
+
+In Western populations, self-administered postal, tele-
+phone, and computer-assisted surveys that provide greater
+privacy typically yield more complete reporting of highly
+sensitive behaviors.’? However, this advantage may be offset
+by greater nonresponse and consequent participation bias.
+These methods also preclude the advantages that can flow
+from developing a strong rapport with respondents and limit
+opportunities for providing clarifications of the meaning of
+individual questions and for within-interview verification
+and correction of mistakes— benefits often associated with
+face-to-face interview (FTFD methods.
+
+In an African setting, a computer-assisted self-interview
+method (ACASD)!? worked well among more-educated re-
+spondents in an urban population,!3 but doubts remain as to
+its practicability in the less-developed rural areas where the
+majority of people live. In these circumstances, in-depth,
+less structured interviews, in which time is taken to develop
+a good rapport with individual respondents, yield fuller
+reporting of socially proscribed behaviors than more formal,
+standardized approaches.'*; 15 While this method is too
+time-consuming to be used in a large-scale survey, these
+findings suggest that a more informal, less rigid, less mech-
+anistic approach to survey interviewing could improve the
+reliability of reporting on sensitive topics.
+
+Hybrid approaches, in which the most sensitive questions
+are self-administered in the presence of the enumerator, may
+provide the best balance between the need to build rapport
+and motivation and the need to guarantee privacy (and thus
+
+REDUCING SOCIAL DESIRABILITY BIAS IN SEX SURVEYS 569
+
+confidentiality).'''6 Deferring questions on the most sensi-
+tive topics until late in the interview provides the enumer-
+ator with more opportunity to establish a good rapport
+before these questions are addressed. The interview process
+tends to sensitize respondents and thereby influences re-
+sponses to later questions.!”? Thus, in a face-to-face inter-
+view situation, where suitably selected and well-trained
+enumerators are deployed, this process can be used to neu-
+tralize respondents’ initial preconceptions of the responses
+most likely to find favor with their enumerators.?
+
+Manicaland Study
+
+In the mid-1990s, we conducted a study of the early
+sociodemographic impact of the HIV epidemic in rural
+areas of Manicaland Province in eastern Zimbabwe.!8 The
+local Manyika people are renowned for their secretive na-
+ture and have a strong taboo against women having extra-
+marital sexual relationships. Using information collected
+from women met at beer halls, we estimated that 50 to 60
+local women were actively engaged in commercial sex work
+at the time. However, only 2 of the women (0.48%) inter-
+viewed by female enumerators using standard population-
+based survey methods reported having more than 2 sex
+partners in the previous 4 weeks.!9
+
+During subsequent preparations for a randomized con-
+trolled trial of a behavioral intervention, we sought to de-
+velop a survey methodology that would elicit more com-
+plete reporting of extramarital sexual behavior. In a series of
+formative research studies, we established that people pre-
+ferred to be interviewed by “qualified,” same-sex adults
+who were not known locally but were familiar with the local
+dialect and customs. Most people preferred self-completion
+interview methods (the exceptions were older and less ed-
+ucated people). Respondents were more likely to report
+recent experience of unprotected sex with casual partners
+when a simple confidential voting interview method (see
+below) was used.?°
+
+The method was improved and tested again in a pilot
+study for the intervention trial and was evaluated more
+extensively in the subsequent baseline survey. In the re-
+mainder of this article, we describe the method and the
+design and results of the baseline survey evaluation.
+
+Informal Confidential Voting Interviews
+
+The Informal Confidential Voting Interview (ICVI]) ap-
+proach constitutes a blend of face-to-face interview (FTFI)
+and self-completion methods. The first part of the interview
+is conducted with an informal variant of the FTFI method
+and is used to establish motivation, to build a strong rapport
+between respondent and enumerator, and to sensitize the
+respondent to the nonprejudicial viewpoint of the enumer-
+ator and the study. Questions gradually progress from rel-
+atively straightforward matters to more private topics. Time
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+570 GREGSON ET AL
+
+ 
+
+Fig. 1. Secret voting box and voting tokens used in applying the
+Informal Confidential Voting Interview (ICVI) method in rural Mani-
+caland, Zimbabwe, 1998 to 2000.
+
+is allowed for some informal discussion of the subjects
+raised. Information on the most sensitive personal subjects
+is sought in the second half of the interview by means of a
+secret voting procedure based on Pocket Chart Voting, a
+participatory rapid assessment technique used in community
+development projects. !921
+
+In the current study, the secret voting procedure was
+applied with use of lightweight, portable wooden “voting”
+boxes (Figure 1). The boxes were divided into three com-
+partments, each with a narrow slot in the top labeled with a
+different color. Sets of three short strips of cardboard in the
+same colors were used as voting tokens. The tokens were all
+subdivided into six sections, each prelabeled with a number.
+The colors of the voting strips and the numbers marked on
+the sections were cross-referenced to questions in the
+questionnaire.
+
+In each interview, time was set aside for the enumerator
+to provide a full explanation of the reasons for using the
+voting box and the ways in which the design and associated
+procedure reduce possible embarrassment and ensure con-
+fidentiality. The enumerator then wrote the respondent’s
+survey identification number on the back of the voting strips
+before handing them one by one to the respondent in a
+predetermined sequence. The enumerator read out the cor-
+responding questions from the questionnaires, one at a time,
+and the respondent wrote his or her answers in the appro-
+priate sections on the voting strips. The boxes had lids that
+respondents used as screens to conceal what they were
+writing from the enumerators and were prelocked with keys
+held by the supervisors.
+
+Respondents could seek clarification on the meanings of
+questions from their enumerators but were discouraged
+from discussing the substance of their responses. After
+completing each strip, a respondent would place it into the
+box through the slot labeled with the same color and mix it
+
+Sexually Transmitted Diseases * October 2002
+
+with those completed by earlier participants. Thus, the in-
+formation provided was kept secret from the enumerators.
+
+The field supervisors, who did not know the identities of
+individual respondents, subsequently matched the voting
+responses to the appropriate questionnaires (using the sur-
+vey identification numbers) and questions (using the colors
+of the voting strips and the question numbers marked on the
+six sections of each strip).
+
+Study Design
+
+The application of the ICVI method reported upon here
+was embedded within the baseline population-based survey
+for the proposed HIV prevention trial in 12 rural locations in
+Manicaland. The survey was carried out between July 1998
+and January 2000, and the sites comprised 4 roadside trad-
+ing centers, 4 commercial farming estates, and 4 subsistence
+farming areas. Male and female residents (present in a local
+household for at least 4 nights in the past month and at the
+same time one year ago) aged 15 to 54 years identified in a
+preliminary household census were considered eligible.
+Written informed consent was sought as a precondition for
+enrollment (prior ethical approval for the study was granted
+by the Research Council of Zimbabwe, the Institutional
+Review Board of the Biomedical Research & Training
+Institute, and the Applied and Qualitative Research Ethics
+Committee, Oxford, United Kingdom).
+
+Household and individual participation rates were 98%
+(8233/8386) and 79% (9826/12,383), respectively. Of the
+nonparticipants, 20% (509) were known to be refusers and
+the remainder were still absent or unavailable after 3 house-
+hold visits. The most common reason for declining to par-
+ticipate was unwillingness to provide the dried blood spot
+sample required for HIV and STD testing, due to a fear of
+Satanism that was rife in Zimbabwe at the time. Further
+details of the baseline survey methods are reported else-
+where.?022 The study population for the current analysis
+was restricted to sexually experienced adults in the most
+sexually active age range (15-49 years).
+
+The ICVI method was evaluated with use of a short series
+of questions on sex partnerships, including questions on
+numbers of partners within various time frames (lifetime,
+past 12 months, past month, and current) and details of
+partnerships in the past month (sex acts, condom use, and
+characteristics of partners). Questions were constructed so
+as to elicit simple yes/no/don’t know or numerical responses
+and thereby to minimize nonparticipation and response er-
+rors. When respondents had writing difficulties, simple pic-
+ture codes were used to illustrate standardized symbols for
+yes (tick), no (cross), and so on.
+
+Nonliterate respondents and a sample of literate respon-
+dents were interviewed by the FTFI method. Two enumer-
+ators, one male and one female, were instructed to use the
+FTFI method in each study site so that any difference in
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+Vol. 29¢No. 10
+
+reporting of socially proscribed behaviors could be mea-
+sured. These enumerators used the FIFI method in all
+interviews in the households they visited so that the selec-
+tion process was random, and they were rotated as the
+survey team moved from site to site to minimize interviewer
+effects. Other cases where the FIFI method was used—for
+example, due to enumerator error or respondent refusal to
+use the ICVI method—were quantified.
+
+In the questionnaires, the sexual behavior questions fol-
+lowed a lengthy section on sociodemographic characteris-
+tics and were asked in order of increasing sensitivity. The
+survey introduction and early part of the interview process
+was used to sensitize respondents in ways intended to en-
+courage them to be more open about the later questions on
+sexual behavior. The questions on age at first sex (and
+thereby on experience of sexual debut) and time since last
+sexual intercourse were asked with use of the FTFI method,
+even in interviews where the ICVI method was used to
+obtain the data on partnership details.
+
+All interviews (ICVI and FTFI) were conducted by social
+science graduates; most were qualified social workers
+skilled at establishing relationships of trust with clients.
+Enumerators familiar with the local language and customs
+were selected and matched for sex with respondents. Enu-
+merators were trained to make culturally appropriate intro-
+ductions and to explain the importance of the research
+objectives, the possibility that incorrect decisions might be
+made if unreliable data were provided, and the measures
+being taken to maintain confidentiality of information. Enu-
+merators were trained to adopt an informal/flexible ap-
+proach so that their rapport with respondents could develop
+as interviews progressed and to adopt a nonprejudicial ap-
+proach. During the survey, project supervisors carried out
+routine quality control checks on the interview process and
+on all completed questionnaires.
+
+Comparison of ICVI and FTFI Methods
+
+We calculated the proportions of male and female respon-
+dents considered unable to be interviewed by the ICVI
+method because of total illiteracy. Thereafter, the evaluation
+of the ICVI method was conducted by reference to literate
+respondents only. The sociodemographic profiles of men
+and women interviewed by the two methods were con-
+trasted to identify any possible participation bias. The com-
+pleteness and internal consistency of the data obtained by
+the two interview methods were compared.
+
+The statistical significance of observed differences in
+reporting between the ICVI and FTFI methods was assessed
+with use of standard statistical chi-square tests. Age, marital
+status, education, and socioeconomic environment—adjusted
+odds ratios and 95% confidence intervals for reporting more
+than one partner currently, in the past month, and in the past
+year by interview method were calculated by means of
+
+REDUCING SOCIAL DESIRABILITY BIAS IN SEX SURVEYS 571
+
+logistic regression analysis with STATA version 5.23 Po-
+lygynists were excluded. For each time interval, adjusted
+negative binomial regression coefficients for total numbers
+of sex partners reported by respondents with more than one
+partner were computed to assess whether application of the
+ICVI method was associated with reporting of higher num-
+bers of partners.
+
+Results
+Study Participants
+
+Two hundred twenty-seven of 3460 men (6.56%) and
+410/4363 women (9.40%) were insufficiently literate to be
+interviewed by the ICVI method. These respondents were
+interviewed by the FIFI method, and their records were
+excluded from subsequent analyses of the relative effective-
+ness of the ICVI method. In 54 other cases, no data on
+literacy status were collected; 39 were assumed to be literate
+because they were interviewed by the voting method; the
+remainder did not vote and were dropped from the analysis.
+
+Of those considered sufficiently literate for the ICVI
+method, 77.76% of men and 73.44% of women were inter-
+viewed in this way. ICVI and FIFI respondents were sim-
+ilar in age, employment, and recent health profiles. Slightly
+higher proportions of women interviewed by the ICVI
+method had a secondary education (51% versus 47%) and
+were currently married (35% versus 32%). A higher per-
+centage lived in subsistence farming areas (41% versus
+32%), whereas fewer lived in roadside trading centers (334%
+versus 42%). Among men, slightly more ICVI respondents
+were married (24% versus 21%) and more lived on estates
+(44% versus 30%) rather than at roadside trading centers
+(30% versus 45%).
+
+For both men and women, similar proportions of ICVI
+and FTFI interviewees reported abstinence from sexual ac-
+tivity for more than 12 months. More of the men inter-
+viewed by the ICVI method (23% versus 20%; P = 0.096)
+but fewer of the women (29% versus 34%; P = 0.003) were
+HIV-positive. After adjustment for differences in age level,
+marital status, education level, and study location, the dif-
+ference in HIV infection status remained nonsignificant for
+men (OR = 1.17; P = 0.171) but significant for women
+(OR = 0.84; P = 0.035).
+
+Item Response Rates and Internal Consistency
+
+Levels of missing data for selected questions for the two
+methods are compared in the top half of Table 1. Missing
+data are more common when the ICVI method is used,
+particularly on the later questions covering partnership char-
+acteristics. However, levels remain low in absolute terms.
+
+Frequencies of internally inconsistent responses for se-
+lected questions for the two methods are compared in the
+second half of Table 1. In the final three comparisons
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+572
+
+TABLE 1.
+
+GREGSON ET AL
+
+Sexually Transmitted Diseases * October 2002
+
+Comparison of Levels of Missing Data and Internal Consistency of Response for
+
+Informal Confidential Voting Interview (ICVI} and Face-to-Face Interview (FTFI) Methods
+
+ 
+
+ 
+
+ICvl FTFI Test for
+Difference:
+Variables Compared n % n % P Value
+Missing data
+Number of lifetime partners 5417 1.8 1769 0.5 <0,001
+Number of partners in past year 5417 1.9 1769 0.2 <0.001
+Number of partners in past month 5417 2.0 1769 0.4 <0.001
+Number of current partners 5417 1.9 1769 0.5 <0.001
+Sex acts with most recent partner in the
+past month 3238 3.1 1046 0.5 <0.001
+Condom use with most recent partner in
+the past month 3238 3.6 1046 0.5 <0.001
+Most recent partner a regular partner 3238 4.0 1046 0.8 <0.001
+Previous partner has other partners 241 41 51 0.0 0.145
+Inconsistent responses
+No sex for >1 year* but sex partner in the
+past month 749 4.0 285 1.4 0.029
+No sex for >1 year* but multiple sex
+partners in the past month 749 0.4 285 0.4 0.500
+New partners exceed total partners in the
+past year 5304 41 1764 2.8 0.007
+Sex acts with most recent one/two partners
+exceed total for past 2 weeks 3294 9.9 1048 2.0 <0.001
+Condoms used exceed sex acts with most
+recent partner in the past 2 weeks 2631 3.5 862 1.3 <0.001
+
+ 
+
+Comparisons were restricted to literate respondents for both interview methods; respondents yet to
+commence sexual activity were also excluded. Test for difference used normal approximation to the
+binomial distribution with continuity correction. Except for the last question, “don’t know” responses
+were treated as missing values; questions are listed in the order they were asked in the interviews.
+
+*This information was deduced from a question on time since last sex that was asked by the FTFI
+
+method in all interviews.
+
+shown, both questions for which responses are compared
+were asked by the same interview method, so that each
+inconsistency in reporting could have occurred due to error
+in either or both responses. Again, internal inconsistencies
+were more common in interviews where the ICVI method
+was used but generally remained below 5%.
+
+Comparison of Reports of Risk Behavior for HIV/STDs
+
+Overall, 18.9%, 10.3%, and 41.4% of men (n = 3,171)
+and 2.2%, 1.8%, and 5.4% of women (n = 3,876) reported
+more than one current sexual relationship and more than one
+sex partner in the past month and past year, respectively.
+The figures for current partnerships were higher than those
+for partners in the past month, probably because the former
+included sexual relationships that were still considered to be
+ongoing but that may not have been active in the past
+month.
+
+Adjusted odds ratios (ORs) for reporting multiple sex
+partners by period before the interview for men and women
+interviewed by the ICVI versus FTFI method are shown in
+Figure 2A. Male and female respondents interviewed by the
+ICVI method were more likely to report multiple sex part-
+ners in all periods: current (OR = 1.33 and P = 0.028;
+OR = 5.24 and P < 0.001), past month (OR = 1.71 and
+
+P = 0.002; OR = 2.92 and P < 0.001), and past year
+(OR = 1.35 and P = 0.002; OR = 1.97 and P = 0.003).
+
+Adjusted ORs for reporting more than one partner in the
+month preceding the interview by socioeconomic group are
+shown in Table 2. Higher numbers of young and single men
+reported multiple sex partners when the ICVI method was
+used. The difference between methods was of only border-
+line significance for married men as a whole but was sig-
+nificant for those cohabiting with their wives. The effect
+was highly significant among men interviewed in subsis-
+tence farming areas but not for those in roadside trading
+centers and estates.
+
+Higher numbers of both young and older women reported
+having multiple sex partners in the preceding month when
+interviewed by the ICVI method; the effect was strongest
+among married women. Those cohabiting with their hus-
+bands were least likely to report extramarital partners
+(OR = 0.40; 95% CI, 0.17—0.91); those who did so had all
+been interviewed by the ICVI method (9/881 versus 0/380;
+P > 0.05). Similarly, women living in subsistence farming
+areas were less likely than women in estates and business
+centers to report multiple sex partners (OR = 0.36; 95% CI,
+0.19-0.66). Again, the few who did so had all been inter-
+viewed by ICVI (13/1175 versus 0/336; P > 0.05).
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Vol. 29*No. 10
+100
+S
+c
+t
+a
+= 10 +
+A
+a
+&
+£
+°
+Qa
+2 3 }
+°
+£ 5 ©
+¢ 1
+“
+ss
+oS
+5
+0.1
+& 6 6
+Se, %, ey, So, oy,
+% ty "ny ”
+A MEN WOMEN
+0.5
+
+ 
+
+of £
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a
+
+z L
+8s
+3
+e
+3 T
+= 0.5
+2
+a
+wn
+2
+£ i
+oO
+2
+
+“1.0
+
+5
+
+4 a 6
+Se, 4, Oy Se, *,, oy,
+% % e So
+
+B MEN WOMEN
+
+Fig. 2. Effects of ICVI method on likelihood of reporting multiple
+sex partners, by sex and time interval before interview. (A) Age,
+marital status (including polygyny), education, and study site—ad-
+justed odds ratios and 95% confidence intervals for reporting more
+than one sex partner; (B) adjusted negative binomial regression
+coefficients and 95% confidence intervals for reporting higher num-
+bers of sex partners.
+
+In the negative binomial regression analyses for men
+(Figure 2B), use of the ICVI method was positively asso-
+ciated with number of partners in the past year (P = 0.025;
+n = 1188), number of partners in the past month (P =
+0.105; n = 233), and number of current partners (P =
+
+REDUCING SOCIAL DESIRABILITY BIAS IN SEX SURVEYS 573
+
+0.703; n = 471). For women, there were negative associa-
+tions with number of partners in the past year (P < 0.001;
+n = 217), number of partners in the past month (P = 0.135;
+n = 77), and number of current partners (P = 0.086; n =
+86).
+
+Discussion
+
+Improvements in the reliability of sexual behavior data
+are needed to guide the development of more effective HIV
+and STD control programs, particularly in resource-poor
+settings. While it is unrealistic to expect to eliminate social
+desirability bias entirely, an improvement in reporting
+would facilitate identification of significant trends in behav-
+ior. A particular concern is the need for methods that are
+sufficiently robust to control for possible shifts in percep-
+tions as to what constitutes socially acceptable behavior or
+is regarded as such by personnel engaged in HIV-related
+surveys. In the absence of such methods, identification of
+effective HIV/STD control strategies through randomized
+controlled trials and other scientific research designs with
+behavioral as well as biomedical endpoints will continue to
+be problematic.
+
+Qualitative data collected in the current study populations
+indicate that the effects of the HIV epidemic and the asso-
+ciated public information campaigns have been such that
+even men now tend to underreport their numbers of sex
+partners, particularly when interviewed in health-related
+surveys. The results of the large-scale trial of the ICVI
+method described in this article show that this method is
+associated with significant increases in the proportions of
+men and women who report what constitutes socially pro-
+scribed sexual behavior in rural Zimbabwe, over periods
+ranging from the present to a year.
+
+The strongest evidence of increased reporting of multiple
+sex partners was found in the sociodemographic subgroups
+for which this behavior is least socially acceptable, e.g.,
+women (especially married women), cohabiting spouses,
+and people living in subsistence farming areas. Method of
+interview shows little or no effect among divorced and
+widowed men and male labor migrants who live apart from
+their wives, all of whom are relatively free to engage in
+casual relationships. Among women, there was stronger
+evidence of increased reporting of multiple sex partners in
+the shorter, more recent time periods (current and past
+month). This was probably because, over longer time peri-
+ods, greater numbers of women will have had multiple
+regular partners, and these are less likely to be
+underreported.
+
+The absence of a similar pattern for men could be because
+they are less likely to underreport casual partners. More men
+but fewer women in the ICVI group were HIV-positive than
+in the FTFI group. This suggests that the women’s results
+are more conservative, since men and women reporting
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+574 GREGSON ET AL
+
+Sexually Transmitted Diseases * October 2002
+
+TABLE 2. Adjusted Odds Ratios for Reporting More Than One Partner in the Preceding Month, by Socioeconomic Subgroup: ICVI
+
+Method Versus FTF] Method
+
+ 
+
+ 
+
+ 
+
+ 
+
+Males Females
+
+Sociodemographic
+Subpopulation OR 95% Cl P Value* OR 95% Cl P Value*
+Age group (years)
+
+15-29 1.78 1.15-2.76 0.010 2.88 1.11-7.52 0.030
+
+30-49 1.57 0.90-2.73 0.112 2.99 1.19-7.51 0.020
+Marital status
+
+Single 1.95 1.20-3.17 0.007 1.89 0.60-5.98 0.279
+
+Married 1.69 0.99-2.89 0.055 9.20 1.24-68.20 0.030
+
+Divorced or widowed 0.93 0.31-2.79 0.899 2.38 0.88-6.43 0.087
+Cohabitating with spouse
+
+Yest 2.08 1.06-4.12 0.035 _ _ _
+
+No 1.20 0.50-2.87 0.685 4.25 0.56-32.31 0.163
+Socioeconomic environment
+
+Commercial estate 0.98 0.58-1.65 0.937 7A 0.97-56.88 0.054
+
+Roadside trading center 1.50 0.86-2.61 0.156 1.93 0.91~-4.07 0.086
+
+Subsistence farming areat 6.04 2.29-15.93 <0.001 _ _ _
+Number of respondents 3181 3875
+
+ 
+
+*Comparison was restricted to literate respondents for both interview methods and respondents who had commenced sexual activity. Odds
+ratios for each subpopulation were adjusted for the effects of the other sociodemographic correlates of enhanced reporting. Seasonal migrant
+workers and their spouses were excluded from cohabiting comparison (12 men, 219 women).
+
+tNone of the women interviewed in FTFls in these subgroups reported having more than one partner in the preceding month. See text for further
+
+details.
+
+larger numbers of lifetime partners both had higher HIV
+prevalence (P < 0.001).
+
+We were able to achieve a good participation rate in a
+rural population with a relatively high level of basic literacy.
+Item-nonresponse and inconsistency in reporting were kept
+to modest levels. The enumerators reported no major prob-
+lems with interruption of the flow of interviews; indeed, the
+voting procedure introduced a certain novelty value and
+added interest to the proceedings. The method is inexpen-
+sive and practical to apply in household surveys in low-
+development settings and performed well in comparison
+with FTFIs, even when the latter were applied in favorable
+circumstances—i.e., with carefully chosen and trained enu-
+merators and procedures to enhance rapport and motivation
+and to counter respondents’ initial perceptions about what
+might constitute “correct” responses.
+
+We believe that the reporting of multiple sex partners is
+higher with the ICVI method principally because respon-
+dents are more certain that the personal information they
+provide will be kept confidential and are more relaxed about
+giving this information when not obliged to discuss it
+openly with their interviewers. However, some of the dif-
+ference in reporting in comparison with FTFIs may be due
+to the increased misreporting associated with the method
+due to the inability of enumerators to check the internal
+consistency of responses during interviews.® In the current
+study, the extent of such errors was kept low by recruiting,
+training, and closely supervising skilled enumerators. Even
+so, in population subgroups from whom reports of multiple
+sex partners are uncommon, the distribution of these errors
+will be skewed towards greater reporting of multiple part-
+
+ners and will exaggerate the strength of any positive effect
+of the interview method on reporting.
+
+However, questionnaire completion errors might be ex-
+pected to have a less biased effect for questions about
+numbers of sex partners for respondents reporting more than
+one partner. For men, these also show a consistent pattern of
+increased reporting of high-risk behavior for HIV infection.
+For women the opposite is true, but this can be explained by
+a greater underlying tendency by women who do not regu-
+larly engage in commercial sex work to conceal any extra-
+marital sexual activity. Thus, those who report extramarital
+relationships only in ICVIs generally report smaller num-
+bers than those who do so even in FTFIs.
+
+Furthermore, our results are consistent with those from
+studies of other methods that offer a similar degree of
+privacy, conducted in both Western’ and African con-
+texts (Wolff and Woelk, personal communications); these
+studies also showed reductions in social desirability bias.
+Nonetheless, caution must be exercised in interpreting
+the results. Further scientific evaluations of similar meth-
+ods, including studies employing biomarkers,?4?5 are
+needed both to validate these results and to establish their
+broader relevance.
+
+The effect of procedures integral to the method that are
+designed to increase motivation, develop rapport, and sen-
+sitize respondents to the nonprejudicial study objectives was
+not measured in this study, as the same background survey
+procedures were used in both ICVI and FTFI interviews.
+However, earlier studies have shown that these measures—
+which are less feasible in, for example, computer-assisted
+interviews—can reduce social desirability bias."!
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+Vol. 29¢No. 10
+
+Other limitations of the ICVI method are that it is rela-
+tively time-consuming to conduct, it requires skilled inter-
+viewers who are thoroughly trained and supervised, it limits
+the complexity of questions that can be asked, and it is not
+suitable for non-literate respondents. The latter was not a
+major problem in rural Zimbabwe and would not be ex-
+pected to be so in many of the populations in southern
+Africa where STDs are common and the incidence of HIV
+infection is currently highest.2° Even in countries where
+overall literacy levels are very low, the ICVI method could
+still be applied in some subpopulations with a high HIV/
+STD incidence, e.g., in the typically more educated younger
+age groups and urban populations.
+
+Finally, a useful distinction has been drawn between the
+concepts of risk screening (dichotomous indication of pres-
+ence of risk behavior) and risk assessment (continuous
+indication of level of risk behavior).!! The results of this
+study suggest that more women underreport experience of
+extramarital partnerships but that more of the men who
+report such relationships underreport their numbers of ex-
+tramarital partners. If this is so, it might indicate that the
+ICVI method is more effective at improving risk screening
+for women but risk assessment for men.
+
+References
+
+1. Aral SO. Sexual behaviour in sexually transmitted disease research.
+Sex Transm Dis 1994; 21(suppl):S59-S64.
+
+2. Catania JA, Chitwood DD, Gibson DR, Coates TJ. Methodological
+problems in AIDS behavioural research: influences on measurement
+error and participation bias in studies of sexual behaviour, Psych
+Bull 1990; 108:339-362.
+
+3. Amon J, Brown T, Hogle J, et al. Behavioral Surveillance Surveys
+(BSS): Guidelines for Repeated Behavioral Surveys in Populations
+at Risk of HIV. Arlington, VA: Family Health International, 2000.
+
+4. Hayes R, Mosha F, Nicoll A, et al. A community trial of the impact of
+improved sexually transmitted disease treatment on the HIV epi-
+demic in rural Tanzania: 1. Design. AIDS 1995; 9:919-926.
+
+5. Schopper D, Doussantousse S, Orav J. Sexual behaviours relevant to
+HIV transmission in a rural African population: how much can a
+KAP survey tell us? Soc Sci Med 1993; 37:401-412.
+
+6. Dare OO, Cleland JG. Reliability and validity of survey data on sexual
+behaviour. Health Trans Rev 1995; 4(suppl):93-110.
+
+7. Aral SO, Peterman TA. Measuring outcomes of behavioural interven-
+tions for STD/HIV prevention. Int J STD AIDS 1996; 7(suppl
+2):30~38.
+
+8. Caldwell JC, Orubuloye IO, Caldwell P. Methodological advances in
+studying the social context of AIDS in West Africa. In: Basu AM,
+
+REDUCING SOCIAL DESIRABILITY BIAS IN SEX SURVEYS
+
+10.
+
+11,
+
+20.
+
+21.
+
+22.
+
+23.
+24.
+
+25.
+
+26.
+
+575
+
+Aaby P, eds. The Methods and Uses of Anthropological Demogra-
+phy. Oxford: Clarendon Press, 1998.
+
+. Gribble JN, Miller HG, Rogers SM, Turner CF, Interview mode and
+
+measurement of sexual behaviors: methodological issues. J Sex Res
+1999; 36:16-24.
+
+Weinhardt LS, Forsyth AD, Carey MP, Jaworski JB, Durant LE.
+Reliability and validity of self-report measures of HIV-related be-
+haviour: progress since 1990 and recommendations for research and
+practice. Arch Sex Behaviour 1998; 27:155-180.
+
+Wolff B. Draft Protocol for Monitoring Risk Behaviour for HIV
+Transmission During Phase III Vaccine Trials. London: London
+School of Hygiene and Tropical Medicine, 2000.
+
+. Turner CF, Ku L, Rogers SM, Londberg LD, Pleck J, Sonenstein FL.
+
+Adolescent sexual behaviour, drug use and violence: increased re-
+porting with computer survey technology. Science 1998; 280:867-
+873.
+
+. Van de Wijgert J, Padian N, Shiboski S, Turner C. Is audio computer-
+
+assisted self-interviewing a feasible method of surveying in Zimba-
+bwe? Int J Epidemiol 2000; 29:885-—890.
+
+. Konings E, Bantebya G, Caraél M, Bagenda D, Mertens T. Validating
+
+population surveys for the measurement of HIV/STD prevention
+indicators. AIDS 1995; 9:375-382.
+
+. Voeten HACM, Meester EI, Egesah OB, Habbema JDF. Experiences
+
+with method triangulation in a study on sexual behaviour of young
+adults aged 15-29 years in Nyanza province, Kenya. Presented at the
+TUSSP Conference on Partnership Networks and the Spread of HIV
+and Other Infections, Chiang Mai, Thailand, 7-10 February 2000.
+
+. Johnson AM, Wadsworth J, Wellings K, Field J, Bradshaw S. Sexual
+
+Attitudes and Lifestyles. Oxford: Blackwell Scientific Publications,
+1994,
+
+. Bradburn N, Sudman S. Asking Questions: A Practical Guide to
+
+Questionnaire Design. San Francisco: Jossey-Bass, 1983.
+
+. Gregson S, Anderson RM, Ndlovu J, Zhuwau T, Chandiwana SK.
+
+Recent upturn in mortality in rural Zimbabwe: evidence for an early
+demographic impact of HIV-1 infections? AIDS 1997; 11:1269-
+1280.
+
+. Gregson S, Zhuwau T, Anderson RM, Chandiwana SK. Is there
+
+evidence for behaviour change in response to AIDS in rural Zimba-
+bwe? Soc Sci Med 1998; 46:321-330,
+
+Gregson S, Nyamukapa CA, Garnett GP, et al. Sexual mixing patterns
+and sex-differentials in teenage exposure to HIV infection in rural
+Zimbabwe. Lancet 2002; 359:1896-1903.
+
+Srinivasan L. Tools for Community Participation: A Manual for Train-
+ing Trainers in Participatory Techniques. Washington, DC: PROW-
+WESS/UNDP, 1990.
+
+Gregson S, Terceira N, Kakowa M, et al. Study of bias in antenatal
+clinic HIV-1 surveillance data in a high contraceptive prevalence
+population in sub-Saharan Africa. AIDS 2002; 16:643-652.
+
+Hamilton LC. Statistics with STATA 5. Belmont: Duxbury Press,
+1998,
+
+Udry JR, Morris NM. A method for validation of reported sexual data.
+J Marriage Family 1967; 29:442—446.
+
+Cowan FM, Johnson AM, Ashley R, Corey L, Mindel A. Antibody to
+HSV-2 as serological marker of sexual lifestyle in populations. BMJ
+1994; 309:1325-1329.
+
+UNAIDS Report on the global HIV/AIDS epidemic, 2002. Geneva:
+UNAIDS, 2002.
+
+This content downloaded from 132.74.210.56 on Tue, 22 Nov 2022 13:19:59 UTC
+All use subject to https://about.jstor.org/terms
+

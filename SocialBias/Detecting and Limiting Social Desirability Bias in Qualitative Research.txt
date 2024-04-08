@@ -1,0 +1,1145 @@
+® Check for updates
+
+ 
+
+Methods
+Qualitative Health Research
+e 2020, Vol. 30(5) 783-792
+“Everything Is Perfect, and We Have © Theatr) 2013
+a, 1 1 itl sasepub,com/ournale-permissions
+
+No Problems”: Detecting and Limiting sgepub.comjoural-permissons
+
+s s tis s s s s journals.sagepub.com/home/qhr
+Social Desirability Bias in Qualitative SSAGE
+Research
+
+Nicole Bergen'® and Ronald Labonté’
+
+Abstract
+
+Many qualitative research studies acknowledge the possibility of social desirability bias (a tendency to present reality
+to align with what is perceived to be socially acceptable) as a limitation that creates complexities in interpreting
+findings. Drawing on experiences conducting interviews and focus groups in rural Ethiopia, this article provides
+an empirical account of how one research team developed and employed strategies to detect and limit social
+desirability bias. Data collectors identified common cues for social desirability tendencies, relating to the nature of
+the responses given and word choice patterns. Strategies to avoid or limit bias included techniques for introducing
+the study, establishing rapport, and asking questions. Pre-fieldwork training with data collectors, regular debriefing
+sessions, and research team meetings provided opportunities to discuss social desirability tendencies and refine
+approaches to account for them throughout the research. Although social desirability bias in qualitative research
+may be intractable, it can be minimized.
+
+Keywords
+qualitative research; social desirability bias; Ethiopia; methodology
+
+Introduction for answering a question in a particular way has links to
+rational choice theory—that is, to maximize utility and
+goal achievement—and the subjective expected utility
+theory—considering the risks, losses, and outcomes
+associated with the decision to admit to a sensitive
+behavior or not (Krumpal, 2013). Researchers under-
+score the distinction between response styles (consistent
+across time) and response sets (short-lived responses
+
+Social desirability bias refers to the tendency to present
+oneself and one’s social context in a way that is per-
+ceived to be socially acceptable, but not wholly reflec-
+tive of one’s reality. In research, the bias denotes a
+mismatch between participants’ genuine construction
+of reality and the presentation of that reality to research-
+
+ers. Researchers have noted a distinction between social that may be influenced by situational factors such as the
+
+csirapuity responding 4 a personaity attribute presence of an interviewer) (D. N. Jackson & Messick,
+(inflated, but honestly held, positive self-perception) 1958: Paulhus, 2001).
+
+and social desirability responding as a response style (a
+tendency to do impression management, or alter how
+others perceive one’s reality) (Pauls & Stemmler,
+2003), cautioning that the measurement or correction of
+social desirability bias in research should focus on the
+latter (Paulhus, 1984, 2001).
+
+Early explorations of the construct of social desir-
+ability bias derive from psychology, attending to matters
+related to response tendencies and intentionality. Based
+on the use of standardized surveys, social desirability 'University of Ottawa, Ottawa, Ontario, Canada
+bias is considered to stem from the sensitive nature of an .
+
+- qe ge ape age : : Corresponding Author:
+answer, and is distinct from sensitivities associated with Nicole Bergen, University of Ottawa, 75 Laurier Ave East, Ottawa,
+the intrusiveness of a question or the respondent’s per- Ontario, Canada KIN 6N5.
+ceived risk of disclosure (Krumpal, 2013). The rationale Email: nicolejbergen@gmail.com
+
+In research, social desirability tendencies tend to
+emerge in characteristic ways. They are more common in
+research on issues that participants find sensitive or con-
+troversial, and in situations where there are widely
+accepted attitudes, behaviors, or norms (Grimm, 2010).
+Social desirability bias has been found to present differ-
+ently depending on the affluence of the country (Johnson
+
+ 
+784
+
+Qualitative Health Research 30(5)
+
+ 
+
+& Van de Vijver, 2002), prevailing cultural norms
+(Johnson & Van de Vijver, 2002) such as the collectivist
+versus individualist nature of the society (Lalwani et al.,
+2006), and individual characteristics such as social posi-
+tion (Johnson & Van de Vijver, 2002), gender (Kelly
+et al., 2013), and personality traits (Iohnson & Van de
+Vijver, 2002).
+
+Social desirability bias is problematic because it can
+lead to overestimation of the positive and diminished het-
+erogeneity in responses, resulting in a questionable
+appearance of consensus. Researchers have suggested
+different approaches to minimize or account for the bias.
+Some advocate the collection of data through self-admin-
+istered questionnaires, positing that the absence of
+another person removes the normative pressure to answer
+in a certain manner (Grimm, 2010; Johnson & Van de
+Vijver, 2002). Participant observation techniques have
+been recommended to triangulate other forms of data col-
+lection (Freeth et al., 2012; Harvey, 2018), while face-to-
+face interviews permit trained interviewers to take
+measures to probe and clarify participant responses
+(Kelly et al., 2013; Mooney et al., 2018).
+
+This article pertains to social desirability bias in a
+qualitative research study, providing an empirical account
+of how one research team developed and employed strat-
+egies to detect and limit social desirability bias. We draw
+from our own research study about maternal, neonatal
+and child health (MNCH) in Ethiopia, where we con-
+ducted in-depth interviews and focus group discussions
+with community stakeholders to learn more about their
+attitudes, perceptions, and experiences related to MNCH,
+including barriers and enablers of health service use
+(Bergen, 2018). In Ethiopia, a highly collectivist society,
+the prevailing cultural, social, and political environments
+encourage high conformity and compliance to institu-
+tional norms and values (Maes, 2017; Ostebo et al.,
+2018). Previous qualitative studies about health services
+in Ethiopia have acknowledged the possibility of social
+desirability bias as a research limitation (Girma et al.,
+2011; R. Jackson et al., 2017; King et al., 2016), yet few
+elaborate on steps taken to detect and limit the bias. In
+this article, we describe how social desirability bias
+emerged as a consideration during the data collection
+stage of our study, and how researchers worked alongside
+a team of data collectors to characterize social desirabil-
+ity tendencies in participants, and then develop/imple-
+ment approaches to minimize the bias.
+
+Methods
+
+Context
+
+The Safe Motherhood Project is a collaboration between
+researchers at Jimma University and the University of
+
+Ottawa. In 2016, in the preliminary stages of this project,
+we undertook a qualitative rapid assessment study to
+explore community perceptions and experiences related
+to the following: health (generally); MNCH service use;
+MNCH traditions, practices, and beliefs; stakeholder
+roles in promoting MNCH; and MNCH knowledge
+acquisition and sources of information (Asfaw et al.,
+2019; Bergen et al., 2018; Mamo et al., 2019). The pri-
+mary purpose of the rapid assessment study was to inform
+the design and delivery of the two Safe Motherhood
+Project interventions (information, education and com-
+munication activities, and improved infrastructure and
+functionality of maternal waiting areas); the findings
+from the rapid assessment study were also used to develop
+survey tools for use in the project’s baseline data collec-
+tion in 2017-2018.
+
+As part of the qualitative rapid assessment study, we
+conducted a series of 24 in-depth interviews and 12 focus
+group discussions in rural areas of Jimma Zone, Ethiopia.
+The participants included various stakeholders in MNCH.
+Health extension workers (HEWs) (locally recruited,
+female community health workers comprising the most
+decentralized component of the formal health workforce
+in Ethiopia), members of the Women’s Development
+Army (a volunteer-based community group that supports
+the work of HEWs), members of the Male Development
+Army (a volunteer-based community group focusing on
+aspects of community development related to physical
+infrastructure or agriculture), and religious leaders (pre-
+dominantly Muslim imams) participated in in-depth inter-
+views, while focus group discussions with 6-12
+participants were held with female and male community
+members. The focus group discussions and in-depth inter-
+views posed similar questions, with less specificity in the
+focus group discussions and more detailed probes in the
+in-depth interviews. The study took place at six rural or
+semirural health posts (basic health facilities staffed by
+2-3 HEWs), located in three districts of Jimma Zone. The
+six health posts were invited to participate due to their
+accessibility from Jimma, established contact between
+health post personnel and members of the research team,
+and willingness of at least one HEW to participate. The
+HEWs at each of the six health posts, under guidance from
+the Safe Motherhood Project coordinator, recruited other
+participants for the in-depth interviews and focus group
+discussions. Participants received a small financial com-
+pensation to help cover transportation costs.
+
+The Safe Motherhood Project researchers worked
+closely with a team of data collectors from Jimma
+University, who assisted with fieldwork tasks (namely,
+conducting the in-depth interviews and focus group dis-
+cussions) and post-fieldwork tasks (namely, preparing
+written transcripts of the in-depth interviews and focus
+group discussions in English). Other activities, including
+Bergen and Labonté
+
+785
+
+ 
+
+keeping field notes, participating in a series of debriefing
+and reflection sessions, and participating in research team
+meetings, were completed concurrently (see the “Data
+Sources” section for more details).
+
+Ethical clearance for this research was obtained from
+Jimma University College of Health Sciences Institutional
+Review Board and University of Ottawa Health Sciences
+and Science Research Ethics Board; the research was
+conducted in accordance with the prevailing ethical
+principles.
+
+Working With Data Collectors
+
+The study employed nine data collectors (7 male and 2
+female) who were graduate students and/or staff at Jimma
+University, and fluent in English and Afan Oromo (the
+local language). They each had previous experience or
+exposure to qualitative research. The data collectors par-
+ticipated in a two-day induction workshop facilitated by
+three of the Safe Motherhood Project researchers and the
+project coordinator. The induction workshop introduced
+the overall aims of the Safe Motherhood Project and the
+rapid qualitative assessment study; researchers facilitated
+sessions about ethical considerations, confidentiality, and
+field notes. The group worked through an extensive
+review of the research instruments, including discussions
+about translation into Afan Oromo, and minor modifica-
+tions to the in-depth interview and focus group discussion
+guidelines.
+
+Fieldwork took place over 6 days, with one research
+site visit per day. Seven or eight data collectors (including
+at least one female) were in attendance each day, and at
+least two Safe Motherhood Project researchers from
+Jimma University and/or the University of Ottawa were
+present in a supervisory capacity. Focus group discus-
+sions were facilitated by teams of two data collectors, and
+there was one data collector per in-depth interview. Data
+collectors obtained written or oral informed consent for
+participation from each participant at the beginning of the
+in-depth interview or focus group discussion. In most
+cases, oral consent was obtained due to low literacy lev-
+els and cultural considerations about the acceptability of
+signing consent forms.
+
+Data Sources
+
+We captured data collectors’ and project researchers’
+reflections and experiences about social desirability bias
+through three main sources: field notes, an internal field
+report, and relevant email exchanges between the Safe
+Motherhood Project researchers.
+
+e Project researchers and data collectors partici-
+pated in daily debriefing sessions after each day
+
+of fieldwork to discuss key findings, challenges,
+and other issues and to share strategies to enhance
+data collection. These sessions took place directly
+after the data collection activities to capture the
+group’s impressions. Typically, they were held in
+a private area at the field site, during transporta-
+tion home from the field site, or in a private area
+of a coffee shop. The sessions became more
+detailed and longer in duration as the study pro-
+gressed. To document their experiences and
+impressions, and to capture the issues raised dur-
+ing the debriefing sessions, data collectors and
+researchers kept extensive field notes, which were
+submitted to the research team. The protocol for
+field notes was discussed in the pre-fieldwork
+training session, based on a field note guide devel-
+oped by the research team.
+
+e Midway through the fieldwork, a larger meeting
+facilitated by a senior researcher on the Safe
+Motherhood Project and attended by project
+researchers, the project coordinator, and data col-
+lectors, provided an opportunity to elaborate on
+issues identified in the daily debriefing sessions
+and brainstorm possible solutions. This meeting
+was held on the university campus and lasted for
+about 2 hr. The minutes and notes from this meet-
+ing were summarized in the internal field report.
+
+e Inthe 2 weeks following the completion of field-
+work, project researchers held individual reflec-
+tion sessions with each data collector to inquire
+about the data collection activities, and their
+impressions of the findings; the salient aspects of
+these discussions were summarized as field notes
+and served as a major input for the internal field
+report. These sessions took place on the university
+campus and lasted about half an hour each. They
+were administered by two members of the research
+team, and though not mandatory for the data col-
+lectors, all data collectors agreed to participate.
+
+Throughout all stages of the study, the project researchers
+in Ethiopia and Canada communicated through email
+about the progress of the research, highlighting salient
+observations and reflections. Some aspects of these
+exchanges were similar to the project researchers’ field
+notes, though the questions and prompts from off-site
+project researchers generated new avenues of thought.
+
+Data Analysis
+
+Data analysis drew from the content of field notes, the
+internal field report, and relevant email exchanges
+between Safe Motherhood Project researchers. In total,
+51 documents were imported into Atlas.ti software for
+786
+
+Qualitative Health Research 30(5)
+
+ 
+
+analysis. We coded the material by two major themes:
+how social desirability bias may have presented in the
+research, and strategies adopted by the research team
+to navigate these influences. Then, we summarized
+emergent ideas within each theme. These ideas tended
+to be present across multiple sources of data. For
+example, issues raised in field notes were often dis-
+cussed through email exchanges and highlighted in the
+internal field report. We consulted the 36 in-depth
+interview and focus group discussion transcripts gen-
+erated for the study to cross-reference examples men-
+tioned in the documents (when provided), or to identify
+examples that illustrated ideas raised in the documents
+(when examples were not provided). When possible,
+we used the date from the field note to obtain a tran-
+script from the same day to find an example that illus-
+trated the issue identified by the data collector or
+researcher.
+
+Results
+
+Detecting Social Desirability Tendencies
+
+All data collectors employed in the study believed that
+some participant responses reflected social desirability
+tendencies. As university students or staff with prior
+experience in community-based public health research,
+the data collectors relied on their preexisting exposure to
+the research context as well as their interactions with the
+participants to identify common cues suggesting social
+desirability tendencies in in-depth interview and focus
+group discussion participant answers. These included:
+denial of (already known) problems, challenges, or short-
+comings; providing only partial or vague answers (palter-
+ing); excessive and repeated praise for government
+initiatives; nervous facial expression and other body lan-
+guage cues; and inconsistent use of advanced vocabulary
+related to the study topic. The data collectors provided
+examples of instances when participants exhibited these
+behaviors in the study interviews (Table 1).
+
+Data collectors did not think that all participants
+demonstrated social desirability tendencies, and they
+also did not think that all responses were biased. Data
+collectors discussed how they distinguished between
+participants’ authentic beliefs (e.g., that there were no
+problems, or that the government deserved excessive
+praise) versus participants’ presentation of their reality
+in ways that suggested a social desirability bias (e.g.,
+immediate praise or denial of problems without time for
+reflection). Some data collectors noticed a pattern
+whereby participants displayed more social desirability
+tendencies at the onset of the in-depth interview or focus
+group discussion and the behavior diminished as the
+encounter progressed. They noted that there were
+
+sometimes inconsistencies in a participant’s responses
+within a single in-depth interview or focus group dis-
+cussion. For example, while some participants expressed
+that home births never happen, when they were later
+asked to state where they had given birth to their own
+children, the majority indicated that the births had taken
+place at home. This contradiction flagged the possibility
+of incongruence between their expressed beliefs and
+practices regarding place of birth.
+
+Some data collectors noted that participants in one-on-
+one interviews were more likely to respond in a socially
+desirable manner if another individual was within ear-
+shot, especially if the individual was an HEW or an influ-
+ential community member. In focus group discussions, if
+one of the participants held a position of power within the
+community (e.g., a community leader or relative of a
+community leader), the other participants would some-
+times let them speak first, and then agree with their
+opinions.
+
+Strategies to Minimize Social Desirability Bias
+
+Throughout the data collection activities, the data collec-
+tors developed strategies to avoid or mitigate social
+desirability tendencies. When setting up the in-depth
+interviews or focus group discussions, data collectors
+tried to ensure that the location was private and not
+within earshot of others. At the beginning of each in-
+depth interview or focus group discussion, the data col-
+lectors confirmed that the participants met the criteria to
+participate in the study. For example, development army
+leaders and HEWs, though part of the community, were
+not permitted to participate in focus group discussions
+for community members.
+
+While conducting the in-depth interviews or focus
+group discussions, data collectors used various
+approaches to establish rapport with participants,
+including the use of humor, self-disclosure, and/or
+making displays of respect. Given that data collectors
+were outsiders to the community, these strategies
+helped to put participants at ease and make them feel
+comfortable. Data collectors came to appreciate the
+importance of clearly explaining details about the study
+to participants, including the purpose of the overall
+study, how the data would be used, and confidentiality
+and anonymity procedures. Data collectors felt that
+with a better understanding of the purpose of the
+research (i.e., to learn about MNCH perspectives and
+experiences, positive and negative, and support inter-
+ventions to promote MNCH) the participants were less
+likely to view the encounter as an audit or evaluation of
+their performance.
+
+As they became more familiar with the in-depth inter-
+view and focus group discussion guides and more
+Bergen and Labonté
+
+787
+
+ 
+
+Table |. Cues for Detecting Social Desirability Tendencies.
+
+ 
+
+Behavior
+
+Example
+
+ 
+
+Denial of any
+problem,
+challenge, or
+shortcomings
+
+Providing partial
+or vague answers
+(paltering)
+
+Excessive and
+repeated praise
+for government
+initiatives
+
+Nervous facial
+expression and
+body language
+
+Inconsistent use of
+vocabulary
+
+A major government initiative in Ethiopia is for all women to give birth at a health facility. When asked
+about usual place of delivery, women in a focus group discussion insisted that there was complete
+adherence to the facility birth initiative, with comments like: “No women ever give birth at home. We
+are perfect in this kebele.”
+
+Religious leaders are prominent opinion leaders in many communities and are sometimes called upon
+to reinforce health messages. When probed about his role in promoting health, one religious leader
+responded: “We have a role. It is important.”
+
+The Ethiopian Ministry of Health has introduced a series of major primary health care reforms since
+2004. When asked about maternal health challenges in their community, participants in a focus group
+discussion answered as follows: “The government has helped us all. After the government plan the health
+extension workers were with us, and mothers did not encounter problems. Thanks to our government.”
+
+Data collectors asked participants about what actions would be needed to be taken by various
+stakeholders to further improve health in their communities. Focus group discussion participants looked
+to others for affirmation of their opinions or appeared nervous, especially if prompted to comment on
+the roles of stakeholders with political connections.
+
+Data collectors noted that some participants used advanced vocabulary (in the local language) when
+discussing certain topics, which was inconsistent with their education level and other use of language.
+One participant used advanced terms to refer to phases of antenatal care in a manner that the data
+collector suspected resulted from a preinterview briefing by the health extension worker (HEW) (i.e.,
+where the participant was advised how to respond to certain questions).
+
+ 
+
+experienced in the field, data collectors developed ways
+of asking questions to minimize social desirability biases
+(Table 2). These techniques attempted to minimize par-
+ticipants’ social desirability bias and to promote more
+candid and detailed responses. Data collectors noted that
+if they suspected a response to reflect social desirability
+tendencies, they would remain nonconfrontational and
+
+respectful, and try one of these techniques to try to elicit
+amore authentic response. In a few cases where data col-
+lectors suspected that the participant had been primed
+about what to say (e.g., in a preinterview briefing by the
+HEW), they listened as the participant expressed these
+ideas, and then proceeded to ask questions about the par-
+ticipants’ own experiences and perspectives.
+
+Table 2. Techniques for Asking Questions in a Manner That Limits Social Desirability Responses, With Examples.
+
+ 
+
+ 
+
+Technique Original Approach Improved Approach
+Indirect Posing questions directly Posing indirect questions about the past, or the behaviors of others
+questioning Example: What harmful traditional Example: What harmful practices do you know about that existed
+practices are done in your in the past? Do you think these practices might exist today in a
+community? hidden or open manner?
+Providing Asking questions and waiting for Responding to hesitant participants by assuring them that their
+assurances participants to respond opinions are not wrong, and asking them to please speak freely
+
+Probing for more
+
+Briefly explaining the confidentiality
+and anonymity procedures at the
+beginning of the in-depth interview
+or focus group discussion
+
+Accepting generic or incomplete
+
+information responses
+
+Requesting Accepting generic or incomplete
+stories or responses
+examples
+
+Prefacing the Posing questions directly and with
+question little context
+
+Example: Why do women attend
+(or not attend) antenatal care
+visits?
+
+Thoroughly explaining the confidentiality and anonymity
+procedures at the beginning of the in-depth interview or focus
+group discussion, and then offering reminders throughout the
+encounter, especially preceding sensitive questions
+
+Asking follow-up questions, or prompts
+
+Example: Can you explain more about why you feel this way?
+
+Requesting that participants provide a story or example to
+illustrate their response
+
+Example: Can you tell me about a time that you experienced this?
+
+Providing context when asking questions, acknowledging that
+all communities have challenges and that people have diverse
+experiences
+
+Example: We know that some women attend antenatal care visits
+and others do not. What do you think are the reasons why
+women do (and do not) attend?
+
+ 
+788
+
+Qualitative Health Research 30(5)
+
+ 
+
+Discussion
+
+To date, little research attention has been given to devel-
+oping practical strategies for how to identify and mini-
+mize social desirability during qualitative fieldwork. This
+article proposes approaches for researchers to work
+together with data collectors to identify context-specific
+forms of social desirability bias in health research and to
+develop protocols to strengthen data collection practices
+in ways that expose social desirability tendencies and
+facilitate open communication within the research team.
+Although our findings are not an attempt to measure
+social desirability bias per se, they do provide an account
+of how the implications of social desirability bias in qual-
+itative research can be better understood and addressed.
+Our findings add to a small body of literature that
+explores social desirability in community-based qualita-
+tive health research in Ethiopia. Social environments
+within Ethiopia, a highly collectivist society, tend to
+reinforce conformity and compliance to established
+norms and values. Certain strategies that we identified
+for limiting social desirability bias (i.e., detailing the
+purpose of the study and providing assurances) have
+been applied by other Ethiopian-based research groups.
+King et al. (2016), in their qualitative study with HEWs
+about maternal health service use, counteracted sus-
+pected social desirability bias by communicating the
+benefits of the research and assuring participants of the
+confidentiality measures (King et al., 2016). R. Jackson
+et al. (2017), in effort to limit social desirability bias,
+clarified that the purpose of their study was not to evalu-
+ate job performance of the HEWs that they interviewed
+but to better understand delays in access to care (an
+important distinction, which was also noted in our find-
+ings). In both articles, detailed commentary about the
+deployment and/or success of these strategies was,
+understandably, outside the scope of reporting.
+
+Personality Attribute or Response Style?
+
+When data collectors suspected that participants were
+exhibiting social desirability tendencies, they primarily
+relied on their intuition, knowledge, and previous expo-
+sure to distinguish impression management response
+styles from personality attributes associated with exag-
+gerated self-regard. The data collectors attest to this judg-
+ment sharpening as they became more immersed in the
+research and were generally very confident in their ability
+to detect instances of social desirability bias; however,
+beyond describing the cues for detecting social desirabil-
+ity bias and patterns in their occurrence, they could offer
+little explanation about how they made the distinction.
+Psychology research has demonstrated that certain condi-
+tions and preparations can enhance an individual’s ability
+
+to understand and make judgments about the behaviors
+and interactions of others (Shaw et al., 2013; ten Brinke
+et al., 2016). These findings lend support to the notion
+that the data collectors can become more effective at
+detecting social desirability bias as a result of group dis-
+cussions and debriefings. Researchers engaged in in-
+depth interviews or focus group discussions may benefit
+from training programs that integrate a focus on detecting
+social desirability bias.
+
+Data collectors in our study relied on behavioral cues
+to detect social desirability, including both verbal and
+nonverbal cues. Previous research supports the idea that
+individuals may be more effective in detecting bias
+when considering both types of cues (Vrij et al., 2000).
+We note, however, that while nervousness may be a cue
+of social desirability bias, it is also a common occur-
+rence in many social interactions, especially if the indi-
+viduals are not familiar with one another, or if they are
+not used to sharing opinions in a group setting. The data
+collectors in our study suggested that they sometimes
+based their suspicion of social desirability bias on con-
+tradictions and inconsistencies in participants’
+responses. We interpret this finding with caution, given
+that participants in research studies may change their
+answers, may misinterpret questions, and/or may genu-
+inely have conflicting or complex views. Data collectors
+may, however, become familiar with the sensitivity of
+particular questions over time, and thus be able to better
+ascertain patterns of social desirability bias (replicating
+aspects of social desirability measurement tools applied
+in psychology; Furnham, 1986).
+
+Questioning Techniques, Rapport Building, and
+Power Differentials
+
+The wording and delivery of questions by data collectors
+during in-depth interviews and focus group discussions
+might steer participants toward biased or unbiased
+responses. Fisher (1993), who examined the indirect
+questioning technique on social desirability bias in mar-
+keting, found a difference between the mean scores of
+socially sensitive questions when asked directly versus
+indirectly; the difference was not apparent for socially
+neutral questions. Fisher (1993) further distinguishes
+between questions that address personal outcomes (based
+on internalized values that are independent of social con-
+siderations) versus normative constructs (motivate by the
+expectations and approval/disapproval by others),
+hypothesizing that the former line of questioning is less
+subject to social desirability bias than the latter. Thus,
+participants may be less likely to engage in impression
+management when their responses do not require them to
+make social judgments. Techniques such as indirect
+Bergen and Labonté
+
+789
+
+ 
+
+questioning and prefacing the question (whereby the data
+collector asserts the social judgment) may be useful
+options to reorient the nature of the question and thereby
+reduce social desirability bias, encouraging participants
+to speak freely, without judgment. Highly collectivist
+societies tend to make sharper in-group and out-group
+distinctions and are less forthcoming to those perceived
+to be part of the out-group (Johnson & Van de Vijver,
+2002). Thus, researchers engaged with participants in
+these settings may require deliberate efforts to minimize
+the extent to which they are viewed as the out-group,
+especially in interactions with individuals who hold less
+influential social positions.
+
+Rapport building techniques such as humor, self-dis-
+closure, and researcher—participant matching by sociode-
+mographic characteristics have been applied in other
+settings. Vallano and Compo (2011), studying the accu-
+racy of eye-witness accounts, found that verbal rapport
+building through interviewer self-disclosure and express-
+ing interest in the respondent improved recall accuracy of
+past events and acted as a buffer against inaccurate
+reporting. Humor is another strategy that can help to alle-
+viate power differentials and facilitate rapport building in
+group-based research (Hewer et al., 2019). Matching by
+sociodemographic characteristics (e.g., gender, ethnicity,
+and age) is a common strategy to enhance relations and
+foster a mutual sense of understanding and empathy. In
+settings with prevailing ethnic tensions or strong gender
+norms, matching by these characteristics can be particu-
+larly important (Chiumento et al., 2018). In our study,
+data collectors used approaches that fit with their person-
+ality to establish rapport, which may have relied on a
+shared characteristic with the participant (especially lan-
+guage and cultural ties) but sometimes relied on a differ-
+ing characteristic (such as younger data collectors making
+gestures of respect to elderly participants). Interestingly,
+in the context of our research, gender matching between
+data collectors and participants was not a factor that data
+collectors considered to be important with regard to social
+desirability bias.
+
+The benefits of rapport building, however, have lim-
+its. In a study in Vietnam, Latkin et al. (2016) found that
+the interviewer strategy of establishing rapport with the
+participant did not always have the intended effect:
+While participants underscored the importance of feel-
+ing comfortable and trusting the interviewer, this famil-
+larity also led to decreased reports of risk behavior. The
+study, which asked a subsample of participants from a
+previous survey to reflect on the experiences of them-
+selves and other participants, discovered that partici-
+pants sometimes tailored their answers to ensure that
+they met the criteria to be part of the study, or to alter the
+duration of the survey (Latkin et al., 2016). Researchers
+should be cognizant of the potential risks of rapport
+
+building and the power imbalances implicit in the
+researcher—participant relationship.
+
+Power differentials were apparent in our study on
+several levels and impacted how the research team came
+to understand issues related to social desirability bias.
+Initially, some of the data collectors in our study were
+hesitant to openly discuss the possibility of such bias.
+Given the complex role that data collectors assumed as
+partial insiders and outsiders both in the community and
+within the research team, the impetus to discuss the pos-
+sibility of social desirability bias was low, while the
+potential costs, such as reflecting upon the interviewing/
+facilitation skills of the data collector or questioning the
+integrity of community participants in the study, were
+high. Lowering social costs may facilitate more open
+conversations (ten Brinke et al., 2016). Senior research-
+ers and supervisors can lower data collectors’ social
+costs by demonstrating an awareness of the possibility
+of social desirability bias, offering examples of when
+they have previously encountered social desirability
+bias, and providing necessary assurances about the inev-
+itability of social desirability tendencies. Open commu-
+nication between the researcher and data collectors can
+strengthen the research process, facilitate nuanced
+insights into the data, and enable comprehensive and
+transparent reporting (Bergen, 2018).
+
+Power differentials also exist within communities.
+The data collectors in our study mentioned that many of
+the HEW-recruited participants had links to political
+leaders, and that the participants had been selected
+because of these links. This recruitment method may
+have exacerbated social desirability tendencies through
+selection bias (i.e., those with certain views and experi-
+ences were invited to participate), preinterview brief-
+ings by the HEWs about how to respond, exposure to
+political propaganda, desire to protect the community
+reputation, and expectations that participants would be
+financially compensated.
+
+Preempting Social Desirability Bias
+
+Rather than ignoring or denying the persistence of social
+desirability bias, researchers should acknowledge it as a
+reality and take measures to account for it throughout the
+research process. If unattended to at previous stages of
+the research, social desirability bias can affect the quality
+of the data, leaving researchers with incomplete and shal-
+low contextualization of responses, missing information
+about weaknesses and barriers, and/or a preponderance of
+one-sided perspectives. Taking active measures to detect
+and limit biases strengthens the rigor and transparency of
+qualitative research and provides opportunities for reflex-
+ive contemplation. To this end, embracing tensions and
+ambiguity in research, and leaving room for flexibility,
+790
+
+Qualitative Health Research 30(5)
+
+ 
+
+creativity, and responsiveness can lead researchers to new
+insights (Simovska et al., 2019).
+
+Researchers in Ethiopia and abroad may benefit from
+the lessons learned in our study. In particular, we high-
+light the importance of planning regular debriefing ses-
+sions as a research team. This encourages data collectors
+to discuss and address challenges on an ongoing basis,
+helps to keep morale high, and encourages skill develop-
+ment. We also underscore that researchers’ engagement
+with data collectors and the data collection process can
+yield insights into possible sources of bias that may not
+be apparent solely by reviewing transcripts. Although
+these measures emanate from our work in Ethiopia, they
+are general in nature and may be adapted for any interna-
+tional setting where social desirability tendencies are
+apparent (see Table 1). We welcome further studies or
+comments on their applicability in other contexts. (As an
+extension of our findings, Table S1 in the supplemental
+file specifies measures that research teams can take to
+minimize social desirability bias in the pre-fieldwork
+stage of research.)
+
+Limitations and Future Research Directions
+
+Our findings are derived from studying field notes, obser-
+vations, and communications, which provided a rich
+array of perspectives from members of the research team.
+We acknowledge that our findings derive from our expe-
+riences working with a research team that is native to the
+research setting, which may not be feasible in all research
+endeavors. We did not engage with the community-based
+participants in the study to explore and characterize social
+desirability tendencies per se. Previous research has sug-
+gested that early engagement with community leaders
+provides critical insight when preparing for subsequent
+interviews with community members (Jimenez et al.,
+2019), which could be a useful strategy to anticipate
+social desirability tendencies. Future research may seek
+to incorporate the participants’ feedback about why and
+when they adopt social desirability tendencies, which
+would triangulate our findings.
+
+Additional research is warranted to better understand
+the underlying reasons why (and when) individuals
+adopt social desirability tendencies and then, 1f appropri-
+ate, identify approaches to respond to the underlying
+causes that drive the behavior. The study of social desir-
+ability bias in qualitative research may benefit from the
+integration of learnings from cultural consensus theories
+(.e., theories studying cultural beliefs and the degree to
+which individuals know or report them; Weller, 2007)
+and integration with approaches to quantify and account
+for reporting biases. We also call for more research to
+explore strategies to account for social desirability bias
+during data analysis and reporting, as well as to compare
+
+how strategies to detect and limit social desirability bias
+can be translated to different settings and research topics.
+We acknowledge that there may be an inherent circular
+issue in the discussion of social desirability bias, as the
+investigators themselves may also demonstrate desir-
+ability bias on the subject.
+
+Conclusion
+
+While social desirability bias is often cited as a limita-
+tion in qualitative research, detailed characterization of
+the phenomenon is lacking, especially in highly collec-
+tivist settings such as rural Ethiopia. Our findings,
+which characterized social desirability bias issues in our
+research about MNCH in Jimma Zone, contribute to the
+broader literature in two important ways. First, acknow]-
+edging that social desirability bias was an inherent part
+of our research, we describe strategies that we devel-
+oped to detect and limit such bias. These strategies
+advance current approaches to qualitative data collec-
+tion and stand to benefit other researchers undertaking
+studies of a similar nature. Second, through our process
+of ongoing engagement with the research team about
+social desirability issues, we gained insight into how
+research groups can foster a heightened consciousness
+about social desirability bias. We advocate for research
+teams to create opportunities to discuss social desirabil-
+ity bias at various stages of the research process in a
+trusting and confidential environment.
+
+Acknowledgments
+
+The authors would like to acknowledge members of the research
+team (Lakew Abebe, Muluemebet Abera, Yisalemush Asefa,
+Shifera Asfaw, Kunuz Haji Bedru, Gemechu Beyene, Gebeyehu
+Bulcha Duguma, Getachew Kiros, Manisha A. Kulkarni,
+Jaameeta Kurji, Abebe Mamo, Sudhakar Morankar, and
+Corimne Packer). A special thanks to Lakew Abebe, Shifera
+Asfaw, Alzahra Hudani, Getachew Kiros, Manisha A. Kulkarni,
+Abebe Mamo, and Sudhakar Morankar for reviewing and pro-
+viding comments on drafts of the manuscript.
+
+Declaration of Conflicting Interests
+
+The authors declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+
+Funding
+
+The authors disclosed receipt of the following financial support
+for the research, authorship, and/or publication of this article:
+This work was carried out with the aid of a grant from the
+Innovating for Maternal and Child Health in Africa initiative—
+a partnership of Global Affairs Canada (GAC), the Canadian
+Institutes of Health Research (CIHR), and Canada’s
+International Development Research Centre (IDRC).
+Bergen and Labonté
+
+79\
+
+ 
+
+ORCID iD
+Nicole Bergen (®) https://oreid.org/0000-0002-8 161-2599
+
+Supplemental Material
+
+Supplemental Material for this article is available online at jour-
+nals.sagepub.com/home/qhr. Please enter the article’s DOI,
+located at the top right hand corner of this article in the search
+bar, and click on the file folder icon to view.
+
+References
+
+Asfaw, S., Morankar, S., Abera, M., Mamo, A., Abebe, L.,
+Bergen, N., Kulkarni, M.A., & Labonté, R. (2019). Talking
+health: Trusted health messengers and effective ways of
+delivering health messages for rural mothers in Southwest
+Ethiopia. Archives of Public Health, 77, Article 8.
+
+Bergen, N. (2018). Narrative depictions of working with lan-
+guage interpreters in cross-language qualitative research.
+International Journal of Qualitative Methods, 17(1).
+https://doi-org/10.1177/16094069 18812301
+
+Bergen, N., Mamo, A., Asfaw, S., Abebe, L., Kurji, J., Kiros, G.,
+Abera, M., Bulcha Duguma, G., Haji Bedru, K., Kulkarni,
+M.A., Labonté, R. & Morankar, S. (2018). Perceptions and
+experiences related to health and health inequality among
+rural communities in Jimma Zone, Ethiopia: A rapid quali-
+tative assessment. International Journal for Equity in
+Health, 17(1). https://doi.org/10.1186/s12939-018-0798-9
+
+Chiumento, A., Rahman, A., Machin, L., & Frith, L. (2018).
+Mediated research encounters: Methodological consider-
+ations in cross-language qualitative interviews. Qualitative
+Research, 18, 604-622.
+
+Fisher, R. J. (1993). Social desirability bias and the validity
+of indirect questioning. Journal of Consumer Research,
+20(2), 303-315.
+
+Freeth, D., Sandall, J., Allan, T., Warburton, F., Berridge, E.,
+Mackintosh, N., & Abbott, S. (2012). A methodologi-
+cal study to compare survey-based and observation-based
+evaluations of organisational and safety cultures and then
+compare both approaches with markers of the quality of
+care. Health Technology Assessment, 16(25). https://doi.
+org/10.33 1 0/htal6250
+
+Furnham, A. (1986). Response bias, social desirability and dis-
+simulation. Personality and Individual Differences, 7(3),
+385-400.
+
+Guma, F., Jira, C., & Girma, B. (2011). Health services utilization
+and associated factors in Jimma zone, south west Ethiopia.
+Ethiopian Journal of Health Sciences, 21(3), 85-94.
+
+Grimm, P. (2010). Social desirability bias. In J. Sheth & N.
+Malhotra (Eds.), Wiley international encyclopedia of mar-
+keting. https://doi.org/10.1002/978 14443 16568.wiem02057
+
+Harvey, S. A. (2018). Observe before you leap: Why observa-
+tion provides critical insights for formative research and
+intervention design that you'll never get from focus groups,
+interviews, or KAP surveys. Global Health: Science and
+Practice, 6, 299-316.
+
+Hewer, R., Smith, K., & Fergie, G. (2019). The social function-
+ality of humor in group-based research. Qualitative Health
+Research, 29, 431-444.
+
+Jackson, D. N., & Messick, S. (1958). Content and style in per-
+sonality assessment. Psychological Bulletin, 55(4), 243-
+252. https://doi.org/10.1037/n0045996
+
+Jackson, R., Tesfay, F. H., Gebrehiwot, T. G., & Godefay,
+H. (2017). Factors that hinder or enable maternal health
+strategies to reduce delays in rural and pastoralist areas in
+Ethiopia. Tropical Medicine & International Health, 22(2),
+148-160. https://doiorg/10.1111/tmi.12818
+
+Jimenez, M. E., Hudson, S. V., Lima, D., & Crabtree, B. F.
+(2019). Engaging a community leader to enhance prepa-
+ration for in-depth Interviews with community members.
+Qualitative Health Research, 29(2), 270-278.
+
+Johnson, T. P., & Van de Vijver, F. J. (2002). Social desirabil-
+ity in cross-cultural research. In J. Harness, F. J. Vijver,
+& P. Mohler (Eds.), Cross-cultural survey methods
+(pp. 193-202). John Wiley.
+
+Kelly, C. A., Soler-Hampejsek, E., Mensch, B. S., & Hewett,
+P. C. (2013). Social desirability bias in sexual behavior
+reporting: Evidence from an interview mode experiment
+in rural Malawi. International Perspectives on Sexual
+and Reproductive Health, 39(1), 14-21. https://doi.
+org/10.1363/3901413
+
+King, R., Jackson, R., Dietsch, E., & Hailemariam, A. (2016).
+Utilisation of maternal health services in Ethiopia: A key
+informant research project. Development in Practice,
+26(2), 158-169. https://doi.org/10.1080/09614524.2016
+1131244
+
+Krumpal, I. (2013). Determinants of social desirability bias in
+sensitive surveys: A literature review. Quality & Quantity,
+47(4), 2025-2047. https://doi.org/10.1007/s11135-011-
+9640-9
+
+Lalwani, A. K., Shavitt, S., & Johnson, T. (2006). What is
+the relation between cultural orientation and socially
+desirable responding? Journal of Personality and Social
+Psychology, 90(1), 165-178. https://doi.org/10.1037/0022-
+3514.90.1.165
+
+Latkin, C. A., Mai, N. V. T., Ha, T. V., Sripaipan, T., Zelaya,
+C., Le Minh, N., & Go, V. F. (2016). Social desirability
+response bias and other factors that may influence self-
+reports of substance use and HIV risk behaviors: A quali-
+tative study of drug users in Vietnam. AJDS Education
+and Prevention, 28(5), 417-425. https://doi.org/10.1521/
+aeap.2016.28.5.417
+
+Maes, K. (2017). The lives of community health work-
+ers: Local labor and global health in urban Ethiopia.
+Routledge.
+
+Mamo, A., Morankar, S., Asfaw, S., Bergen, N., Kulkarni,
+M. A., Abebe, L., Labonté, R., Birhanu, Z., & Abera, M.
+(2019). How do community health actors explain their
+roles? Exploring the roles of community health actors in
+promoting maternal health services in rural Ethiopia. BMC
+Health Services Research, 19, Article 724.
+
+Mooney, A. C., Campbell, C. K., Ratlhagana, M.-J., Grignon,
+J. S., Mazibuko, S., Agnew, E., & Lippman, S. A. (2018).
+Beyond social desirability bias: Investigating inconsisten-
+cies in self-reported HIV testing and treatment behaviors
+among HIV-positive adults in North West province, South
+Africa. AIDS and Behavior, 22(7), 2368-2379. https://doi.
+org/10.1007/s10461-018-2155-9
+792
+
+Qualitative Health Research 30(5)
+
+ 
+
+Ostebe, M. T., Cogburn, M. D., & Mandani, A. S. (2018).
+The silencing of political context in health research in
+Ethiopia: Why it should be a concern. Health Policy
+and Planning, 33(2), 258-270. https://doi-org/10.1093/
+heapol/czx150
+
+Paulhus, D. L. (1984). Two-component models of social
+desirable responding. Journal of Personality and Social
+Psychology, 46(3), 598-609.
+
+Paulhus, D. L. (2001). Socially desirable responding: The
+evolution of a construct. In H. I. Braun, D. N. Jackson, &
+D. E. Wiley (Eds.), The role of constructs in psychologi-
+cal and educational measurement (pp. 49-69). Lawrence
+Erlbaum.
+
+Pauls, C. A., & Stemmler, G. (2003). Substance and bias in
+social desirability responding. Personality and Individual
+Differences, 35(2), 263-275.
+
+Shaw, J., Porter, S., & ten Brinke, L. (2013). Catching liars:
+Training mental health and legal professionals to detect
+high-stakes lies. The Journal of Forensic Psychiatry &
+Psychology, 24(2), 145-159. https://doi.org/10.1080/1478
+9949.2012.752025
+
+Simovska, V., Colding Lagermann, L., Salah Abduljalil, H.,
+Lerche Merck, L., & Kousholt, D. (2019). Inside out:
+What we (don’t) talk about when we talk about research.
+Qualitative Research, 19, 113-130.
+
+ten Brinke, L., Vohs, K. D., & Carney, D. R. (2016). Can ordi-
+nary people detect deception after all? Trends in Cognitive
+Sciences, 20(8), 579-588. https://doi.org/10.1016/).-tics.
+2016.05.012
+
+Vallano, J. P., & Compo, N. S. (2011). A comfortable wit-
+ness is a good witness: Rapport-building and suscepti-
+bility to misinformation in an investigative mock-crime
+interview. Applied Cognitive Psychology, 25(6), 960-
+970.
+
+Vrij, A., Edward, K., Roberts, K. P., & Bull, R. (2000).
+Detecting deceit via analysis of verbal and nonverbal
+behavior. Journal of Nonverbal Behavior, 24(4), 239-
+263.
+
+Weller, S. C. (2007). Cultural consensus theory: Applications
+and frequently asked questions. Field Methods, 19(4), 339-
+368. https://doi.org/10.1177/1525822X07303502
+
+Author Biographies
+
+Nicole Bergen MHSc, BSc is a PhD Candidate in Population
+Health, University of Ottawa, ON, Canada.
+
+Ronald Labonté PhD, FCAHS, HonFFPH is Distinguished
+and former Canada Research Chair in Globalization and Health
+Equity, and a professor in the School of Public Health and
+Epidemiology, University of Ottawa, ON, Canada.
+

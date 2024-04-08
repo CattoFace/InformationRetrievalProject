@@ -1,0 +1,1599 @@
+® Check for updates
+
+ 
+
+Social Biases of Destination Perceptions
+
+Chun-Chu Chen', Yueh-Hsiu Lin’, and James F. Petrick'
+
+Abstract
+
+Journal of Travel Research
+
+52(2) 240-252
+
+© 2012 SAGE Publications
+
+Reprints and permission:
+sagepub.com/journalsPermissions.nav
+DOK: 10.1 177/00472875 12459106
+http://jtrsagepub.com
+
+@SAGE
+
+This research examines how destination perceptions are socially constructed in the context of international tourism. Building
+on social identity theory, this research proposes that the process of international stereotyping might be triggered when two
+countries have conflicts, resulting in the formation of negatively biased country and destination images. The results show
+that individuals who have higher identification with their own country (guest country) might possess poorer evaluations of
+the host country. The results further indicate that biased perceptions are fairly solid in that they might not be dispelled after
+actual visitation. The results of this research provide evidence that destination image might be a collective construction and
+that biased destination perceptions might be determinant factors influencing destination choice decisions.
+
+Keywords
+
+destination image, country image, social bias, social identity theory.
+
+Tourism, as argued by Pearce and Stringer (1991), is essen-
+tially a social psychological phenomenon. For example, the
+interactions between tourists and residents of tourist destina-
+tions can be viewed as the interactions between two groups
+of people who share similar values and cultures in their own
+groups (Pearce 2005). On the other hand, it is well docu-
+mented in the social psychology literature that members of a
+group are often exposed to similar patterns of social informa-
+tion, which might result in collective perceptions of outgroup
+people (people we see as different from us) or foreign nations
+(Alexander, Brewer, and Herrmann 1999; Rubin and Hewstone
+2004; Stangor and Lange 1993). Therefore, the formation of
+destination image might also be a social psychological pro-
+cess and influenced by social factors, such as the national or
+racial/ethnic origins of potential tourists (Mackay and
+Fesenmaier 2000; Prentice 2006; Tasci and Gartner 2007).
+
+This research examines the concept of destination image
+from a social psychological perspective. Even though desti-
+nation image has been a pivotal issue in the tourism literature
+(Tasci and Gartner 2007), previous work on destination
+image has tended to regard it as a subjective construction
+without considering the importance of sociocultural factors
+in the process of destination-image formation (Tasci 2009).
+It is thus arguably important to examine destination image
+from a social psychological perspective as social perceptions
+might be biased against reality (Alexander, Brewer, and
+Herrmann 1999). For example, when the cultural distance
+between guests’ cultures and those of their hosts is not great,
+destination images might be positively biased (Prentice
+2006). Destination images might also be negatively biased if
+guests have an overall negative image of the host country
+(Chen, Lin, and Petrick 2012; Nadeau et al. 2008).
+
+It is therefore proposed that tourism researchers and prac-
+titioners should pay attention to social biases of destination
+perceptions. In fact, it has been argued to be a goal of desti-
+nation marketers to create positively biased perceptions of
+their destinations by investing in promotional campaigns
+(Tasci, Gartner, and Cavusgil 2007). However, creating pos-
+itive destination images is expensive and time-consuming
+(Fakeye and Crompton 1991), especially when preexisting
+negative images of a destination are widely perceived as real
+in a tourist-generating area (Chen, Lin, and Petrick 2012;
+Tasci, Gartner, and Cavusgil 2007). Given that negative
+biases of destination perceptions might become formidable
+barriers for destination marketing, this research attempts to
+investigate how biased perceptions are socially constructed
+in the context of international tourism.
+
+Specifically, marketing researchers have long been inter-
+ested in the effect of country stereotyping, which suggests
+that customer evaluations of products made in a certain
+country (product image) might be influenced by their overall
+evaluations of the country (country image) (Knight and
+Calantone 2000; Laroche et al. 2005). The effect of country
+stereotyping has also been tested and confirmed in the tour-
+ism literature (Elliot, Papadopoulos, and Kim 2011; Nadeau
+et al. 2008). Therefore, negative country images might result
+
+ 
+
+'Texas A&M University, College Station, TX, USA
+2National Kaohsiung University of Hospitality and Tourism, Kaohsiung,
+Taiwan
+
+Corresponding Author:
+
+Chun-Chu Chen, Department of Recreation, Park and Tourism Sciences,
+Texas A&M University, TAMU 2261, College Station, TX 77843
+
+Email: chen | 980033 | @neo.tamu.edu
+Chen et al.
+
+24 |
+
+ 
+
+in negatively biased destination perceptions. However,
+examining country image as an antecedent of destination
+image seems to be merely explanatory in that this country-
+destination image model fails to explain when and why neg-
+ative biases would form.
+
+Social identity theory (Tajfel and Turner 1979) might
+shed light on the formation of biased destination perceptions
+in the context of international tourism. According to the the-
+ory, the contexts of intergroup (or inter-nation) conflicts
+might trigger individuals to think or act based on group iden-
+tities (such as ethnic identity or national identity) (Turner
+et al. 1994). The presence of group identities, as predicted by
+social identity theory, will result in collectively biased
+perceptions of outgroup members or foreign countries
+(Alexander, Levin, and Henry 2005; Herrmann et al. 1997;
+Rubin and Hewstone 2004). Based on social identity theory,
+it is therefore proposed that national identities in a guest
+country might be the source of biased country images and
+destination images of a host country when two countries are
+involved in conflict(s).
+
+Therefore, this research has the following purposes: (1) to
+examine the effects of national identity on country images in
+the context of inter-nation conflicts and (2) to examine the
+effects of national identity on destination images in the con-
+text of inter-nation conflicts. Since previous research has
+demonstrated that destination images are influenced by pre-
+vious destination experience (Baloglu 2001; Fakeye and
+Crompton 1991; Hu and Ritchie 1993), the proposed effects
+will be tested with and without controlling for the variable
+of actual visitation. Furthermore, as destination images are
+likely to be influenced by national identity and previous
+destination experience (Baloglu 2001), this research also
+attempts (3) to examine the interaction effects of national
+identity and previous destination experience on country
+images and destination images.
+
+Literature Review
+Destination and Country Image
+
+Since destinations are intangible products, customers heav-
+ily rely on their images of alternative destinations when
+making their destination-choice decisions (Um and
+Crompton 1990). Therefore, tourism scholars have fre-
+quently examined how to conceptualize destination image
+(Tasci, Gartner, and Cavusgil 2007) and how to measure this
+concept (Govers, Go, and Kumar 2007). More recent studies
+have frequently investigated the antecedents of destination
+image, intending to understand how favorable destination
+images can be built (Baloglu and McCleary 1999; Beerli and
+Martin 2004; Prentice 2006). However, it is articulated that
+tourism scholars tend to assume that the formation of desti-
+nation image is an individual process in that the investiga-
+tions have been mostly made to identify several personal
+factors influencing destination images, such as travel
+
+motivation (Baloglu and McCleary 1999; Beerli and Martin
+2004; Hsu, Cai, and Li 2010), destination familiarity
+(Baloglu 2001; Baloglu and McCleary 1999; Lee, Scott, and
+Kim 2008), and previous visitation (Beerli and Martin 2004;
+Hyun and Perdue 2010).
+
+Although there is still a lack of consensus on whether or
+not the concept of destination image can be a collective con-
+struction (Chen, Lin, and Petrick 2012), a number of tourism
+studies have shown that people from different countries have
+different images of a foreign country as a tourist destination
+(Kim and Morrison 2003; Lee, Lee, and Lee 2005; Prebensen
+2007). These studies have provided evidence that destination
+images can be a collective construction at least in the context
+of international tourism, while they have failed to further
+explain why people of different national origins have differ-
+ent destination images of a foreign country.
+
+It is possible that the relationship between national origin
+and destination image can be explained by the country-of-
+origin (COD effect (Nadeau et al. 2008). The COI effect pos-
+tulates that customers heavily rely on their overall
+impressions of a country to evaluate the quality of products
+made in the country (Laroche et al. 2005). Therefore, nega-
+tive country images might become barriers to selling prod-
+ucts (made in this country) in the global market. This process
+of country stereotyping has been well documented in the
+marketing literature (Roth and Diamantopoulos 2009). It has
+also been demonstrated that the COI effect is relevant to the
+destination-choice process (Nadeau et al. 2008). In other
+words, destination images of a country, as perceived by
+future tourists, might be influenced by their overall impres-
+sions of the country.
+
+Yet, the concept of country image has rarely been
+addressed in the tourism literature in that this concept is
+beyond the traditional destination image perspective (Nadeau
+et al. 2008). However, country image is related to Gunn’s
+(1972) concept of organic image. According to Gunn (1972),
+in the early stages of destination-image formation, organic
+images are formed based on noncommercial information
+sources, while the images are further induced by commercial
+information sources and modified by actual visitations in the
+later stages. As organic images are formed based on the
+knowledge that people gain from textbooks, magazines, and
+news (Fakeye and Crompton 1991; Gunn 1972), they should
+include more general perceptions of a destination, while
+induced images should include more tourism-experience
+perceptions. Therefore, when the destination is a country, the
+concepts of organic and induced images are supposedly anal-
+ogous to those of country and destination images.
+
+Moreover, as noncommercial information sources have
+been found to be more credible than commercial information
+sources (Fodness and Murray 1997), organic images seem
+to be persistent throughout the process of image formation
+(Gartner 1993). Even though marketers can induce an image
+by investment in destination promotions (Gunn 1972), the
+task of changing image can be time-consuming and costly
+242
+
+journal of Travel Research 52(2)
+
+ 
+
+(Fakeye and Crompton 1991). Therefore, destination mar-
+keting does not start from a zero base but depends on pres-
+ently held images or organic images (Chen and Lin 2012).
+As induced images might be influenced by organic images,
+this association might support the structural model of coun-
+try and destination images.
+
+Country and Destination
+Images as Collective Biases
+
+Even though the effect of country image on destination
+image has been empirically and theoretically supported,
+these effects do not explain when and why negative country
+images might be formed. It is proposed that social identity
+theory (Tajfel and Turner 1979) can provide insights into
+this topic. According to social identity theory, when two
+groups are involved in conflicts, group identities in each
+group might be activated, which means that group members
+might act and think based on their group identities (Tajfel
+and Turner 1979). Subsequently, members in each group
+might behave as a part of their social groups and adopt
+shared attitudes toward outgroup members, which tend to be
+mostly negative when two groups have conflicts (Alexander,
+Levin, and Henry 2005; Turner et al. 1994).
+
+Research has also revealed that the concepts of social
+identity and social perception could be further applied to an
+inter-nation context (Huddy 2001), especially in the context
+of international conflicts (Herrmann et al. 1997). Specifically,
+the conflicts between two nations might activate national
+identities in each nation, resulting in collective perceptions
+of a foreign nation as hostile, which might influence how
+people from two nations see and interact with each other
+(Alexander, Levin, and Henry 2005).
+
+It has been witnessed that political elites often attempt to
+portray negative images of a rival country through mass
+media (Lee 1990; Manheim and Albritton 1984; Wei 2000)
+and education (Bar-gal 1994; Coman 1996; Hart 1999;
+Hughes and Stone 1999). Since information receivers tend to
+regard news and education as credible information sources,
+they might be unconsciously influenced by the value-laden
+pieces of information from news and education (Croteau and
+Hoynes 2002; Manheim and Albritton 1984). Moreover,
+even though education and mass media are less likely to be
+deliberately controlled in democratic societies, power is still
+wielded in the domain of everyday life (Gramsci 1971). In
+other words, the contents of mass media and education might
+not be deliberately represented, but the contents might reflect
+what we believe to be true (Chen 2002; Gamson et al. 1992).
+
+Therefore, no matter whether the knowledge conveyed
+through mass media and education is purposefully repre-
+sented by political elites or simply reflects shared view-
+points, the perceived hostility of a foreign country might be
+socially constructed. Furthermore, since education and mass
+media are important organic sources in the process of
+destination-image formation (Gartner 1993; Gunn 1972), it
+
+is articulated that the social construction of hostile images
+might contribute to negative country and destination images.
+Given that individuals who have higher identification with
+their own country are more likely to regard themselves as a
+part of their country, and at the same time are more likely to
+perceive a foreign country that has conflicts with their coun-
+try as hostile (Alexander, Levin, and Henry 2005), this
+research was guided by the following hypotheses:
+
+Hypothesis 1: When two countries are involved in
+conflicts, individuals who have higher identifica-
+tion with their own country will have more nega-
+tive overall images of the foreign country (country
+image).
+
+Hypothesis 2: When two countries are involved in
+conflicts, individuals who have higher identifica-
+tion with their own country will have more negative
+destination images of the foreign country.
+
+Hypothesis 3: When two countries are involved in con-
+flicts, individuals who have higher identification
+with their own country will have lower intentions
+to visit the foreign country.
+
+The Effects of Previous
+Destination Experience
+
+The effects of previous destination experience on destination
+images have been frequently examined in the tourism litera-
+ture (Baloglu 2001; Fakeye and Crompton 1991; Hu and
+Ritchie 1993). One of the early works is the aforementioned
+Gunn’s (1972) stage theory of destination image that sug-
+gested that destination images might be modified after
+actual visitations. Fakeye and Crompton (1991) suggested
+that destination images might become more complicated
+after actual visitations. A number of subsequent studies have
+investigated the effects of previous destination experience
+on destination image (Baloglu 2001; Beerli and Martin
+2004; Hu and Ritchie 1993; Milman and Pizam 1995), while
+the results have been varied.
+
+Some studies have indicated that destination experience
+positively affects destination image (Baloglu 2001; Milman
+and Pizam 1995). One of the ways to explain these positive
+effects is with destination familiarity (Prentice 2006), which
+can be defined as the number of destination-related experi-
+ences accumulated by a customer (Baloglu 2001, p. 128). As
+tourists gain more knowledge about destinations during their
+trips (Fakeye and Crompton 1991), they might become more
+familiar with the destinations that they have visited. Since
+most customers would likely feel safer to visit a familiar des-
+tination (Lehto, O’Leary, and Morrison 2004; Wong and
+Yeh 2009), familiar customers arguably have more positive
+destination images.
+
+Another explanation of the positive effects is with the
+argument that tourism can reduce tension between countries
+and ultimately promote peace (D’Amore 1988; Hobson and
+Chen et al.
+
+243
+
+ 
+
+Ko 1994; Jafari 1989). Specifically, with the increase of
+bilateral tourism flows between two countries, people from
+both countries might know more about each other, which
+might subsequently improve the relationships between two
+countries (Butler and Mao 1996). As the argument of tour-
+ism as a peacemaker suggests mutual understanding could
+lead to mutual appreciation (D’ Amore 1988), it also supports
+that destination experiences can positively affect destination
+image.
+
+However, the positive effects of destination experiences
+on destination images have not been supported by all empiri-
+cal studies. A number of studies have investigated the effects
+of destination experience in a context where guest and host
+countries are involved in political disputes (Anastasopoulous
+1992; Milman, Reichel, and Pizam 1990; Pizam, Milman,
+and Jafari 1991). The results have revealed that direct desti-
+nation experiences can result in negative evaluations of host
+countries (Anastasopoulous 1992) or only marginally
+improve evaluations (Milman, Reichel, and Pizam 1990;
+Pizam, Milman, and Jafari 1991). Negative effects of desti-
+nation experience might be explained by stereotypes, which
+are simple and exaggerated images of foreign people and
+places (Andsager and Drzewiecka 2002). Preexisting stereo-
+types might not be dispelled, but only modified or even
+strengthened by destination experiences (Andsager and
+Drzewiecka 2002; Laxson 1991), which suggests that tour-
+ists might only see what they want to see. As mentioned
+before, individuals who have higher identification with their
+own country are more likely to think and act as a part of their
+own country, so this research hypothesized,
+
+Hypothesis 4: When two countries are involved in
+conflicts, the images of the foreign country will not
+be improved by actual experiences in the foreign
+country among individuals who have higher identi-
+fication with their own country.
+
+The Current Study
+
+The primary purpose of this research is to investigate the
+effects of national identity on country and destination
+images in the context of inter-nation conflicts. The proposed
+hypotheses were tested in the context of Taiwan and
+China, particularly focusing on how destination images of
+China are formed in Taiwan. The context of Taiwan and China
+might not be exactly analogous to an international context in
+that the legal status of Taiwan has remained unsettled (Yu
+and Chung 2001). Since this research examined the psycho-
+logical process underlying the formation of destination
+image, the validity of hypothesis testing lies in how
+Taiwanese residents perceive Mainland China as a country
+and a tourist destination rather than the political status of
+Taiwan.
+
+In fact, since the Chinese Civil War in 1945, Taiwan and
+China have been politically divided (Yu and Chung 2001).
+
+After the Chinese Civil War, Chiang Kai-shek and his son
+Chiang Ching-kuo ruled Taiwan for four decades. In this
+authoritarian period, given that the Chiangs’ regime contin-
+ued to legitimate itself as the only Chinese regime in the
+world (Uhalley 1967), this regime endeavored to construct
+Chinese identity in Taiwan (Rawnsley 2007; Scott and Tiun
+2007; Su 2007). Subsequently, with the democratization of
+politics in Taiwan since the late 1980s, the Democratic
+Progressive Party (DDP) has emerged as a potent force
+against the ruling party (Kuomintang or KMT) and its
+Chinese ideology (Chu and Lin 2001), resulting in division
+of political identity in Taiwan (Jacobs and Liu 2007).
+
+Political elites in Taiwan had used education to dissemi-
+nate their ideologies, including the Chinese ideology dis-
+seminated by the KMT during Chiang’s regime and the
+anti-Chinese or Taiwanese ideology disseminated by the
+DPP during Chen’s presidency (Chen 2002; Law 2002; Scott
+and Tiun 2007; Su 2007). The situation regarding mass
+media is similar in that major newspapers and TV channels
+in Taiwan have catered to audiences with different ideolo-
+gies (Rawnsley 2007; Wei 2000), which is partially influ-
+enced by politics and partially driven by market mechanisms
+(Rawnsley 2007).
+
+In this context, it has been demonstrated that Taiwanese
+residents who possess different identities are exposed to dif-
+ferent patterns of social information about China (Rawnsley
+2007; Wei 2000) and supposedly have different perceptions
+of China. Furthermore, the collective perceptions of China
+that can be reinforced by national identities might not be lim-
+ited to general perceptions (country image). As education
+and mass media are important organic sources in the process
+of destination-image formation (Gartner 1993; Gunn 1972),
+destination images of China as perceived by Taiwanese resi-
+dents are also proposed to be collective and influenced by
+their national identities.
+
+Research Methods
+
+The main variables in this research included destination
+image, country image, previous destination experience,
+national identity, and the perceived relationship between
+Taiwan and China. The items measuring these variables were
+generated from a thorough literature review. The items mea-
+suring destination image and the perceived relationship
+between Taiwan and China were additionally generated with
+the use of in-depth interviews. Since determinant attributes
+measuring destination image might vary from destination to
+destination (Pike 2003), the authors interviewed 25 Taiwanese
+residents and asked them to list salient attributes of China as
+a tourist destination. In the process of sampling, the authors
+purposefully selected interviewees with different backgrounds
+to help get rich information. Sampling was discontinued once
+the data appeared to be saturated.
+
+As a result, the concept of destination image was mea-
+sured with a 19-item, 7-point Likert-type scale (1 = low
+244
+
+journal of Travel Research 52(2)
+
+ 
+
+evaluation to 7 = high evaluation), which consisted of
+10 items generated from previous literature (Beerli and
+Martin 2004; Chen and Lin 2012) and 9 items elicited from
+the results of the in-depth interviews. The concepts of coun-
+try image and travel intention were also measured with
+7-point Likert-type scales. Items measuring the concept of
+country image were adopted from Nadeau et al.’s (2008)
+scale, which consisted of 20 items (1 = totally disagree to
+7 = totally agree). Respondents’ intentions to visit China
+were measured by a single question asking their likelihood to
+visit China in the next year (1= unlikely to visit China to
+7 very likely to visit China).
+
+Regarding previous destination experience, respondents
+were asked to answer how many times they had visited
+China. For national identity, respondents were asked if they
+were Taiwanese, Chinese, or both. This measurement of
+Taiwanese national identity has been frequently used in pre-
+vious political science literature (Hsieh and Niou 2005; Law
+2002; Sheng 2002). Respondents’ political generations were
+measured with two questions asking their ethnicities (Hoklo,
+Hakka, Mainlander, Aborigine, or others) and their birth
+years (Liu 1996; Sheng 2002).
+
+Since items measuring destination image and country
+image were initially written in English, the authors used the
+technique of back-translation to identify and reduce transla-
+tion errors. In the process, the survey questions were first
+translated from Chinese to English by a group of translators,
+and another group of translators translated them back to
+English. By comparing the two versions of English ques-
+tions, the authors were able to make minor modifications to
+questions to make them more accurate.
+
+Furthermore, as mentioned before, the conflicts between
+two countries might activate national identities in both coun-
+tries, resulting in collectively biased perceptions of the rival
+country (Alexander, Levin, and Henry 2005; Herrmann et al.
+1997). In order to test the premise of social identity theory,
+the perceived relationship between Taiwan and China was
+also measured in this research. In fact, international relations
+scholars have identified three critical components of per-
+ceived international relationship: goal compatibility, relative
+power, and relative cultural status (Alexander, Brewer, and
+Herrmann 1999; Alexander, Levin, and Henry 2005;
+Herrmann et al. 1997). They have also defined the “enemy”
+stereotype as the perceptions of goal incompatibility, equal
+power, and equal cultural status, and the “ally” stereotype as
+the combination of goal compatibility, equal power, and
+equal cultural status. Arguably, the premise of international
+conflicts is met when a foreign country is perceived as an
+enemy.
+
+The perceived relationship between Taiwan and China
+were measured with five questions based on previous litera-
+ture (Alexander, Brewer, and Herrmann 1999; Alexander,
+Levin, and Henry 2005) and the results of in-depth inter-
+views. Goal compatibility was measured with two questions,
+asking respondents which of the following categories best
+
+captured their feeling toward the economic and political inte-
+gration between China and Taiwan, including the integration
+is beneficial for China but harmful for Taiwan, the integra-
+tion is harmful to both sides, the integration is beneficial for
+China without hurting Taiwan, or the integration is benefi-
+cial for both Taiwan and China. Relative power was mea-
+sured with two questions asking respondents which of the
+following categories best captured the relative military and
+economic powers between Taiwan and China, including
+China is much stronger, China is stronger, Taiwan and China
+are equal, Taiwan is stronger, or Taiwan is much stronger.
+Finally, relative cultural status was measured by asking
+respondents which of the following responses best captured
+the relative cultural status between Taiwan and China,
+including China is far superior, China is superior, Taiwan
+and China are equal, Taiwan is superior, or Taiwan is far
+superior.
+
+Individuals who were 18 to 71 years old and living in
+Taiwan at the time of data collection were considered to be
+the target population. Since this research intended to exam-
+ine the relationships between Taiwanese nationality identi-
+ties and their destination images of China, a quota sampling
+technique was used in order to reach Taiwanese residents
+who had different national identities, including those who
+were prone to be Chinese and those who were prone to be
+Taiwanese.
+
+Since Taiwanese national identities have been arguably
+best predicted by their political generations (Hsieh and Niou
+2005; Law 2002; Sheng 2002; Yu and Hsiao 2007), political
+generation was identified as the background variable of
+quota allocation. Political generation is the combination of
+ethnicity and birth year. Previous research (Hsieh and Niou
+2005; Law 2002; Sheng 2002; Yu and Hsiao 2007) has
+shown that Hoklo people are more likely to self-identify as
+Taiwanese, while the other ethnic groups—including Hakka
+people, Mainlanders, and Aborigines—are more likely to
+self-identify as Chinese (Liu 1996; Sheng 2002).
+
+Moreover, previous studies have defined Taiwanese resi-
+dents as three generations in accordance with their birth
+years (Liu 1996; Sheng 2002). The first generation (those
+who were born before 1945) arguably has stronger national
+identities because they had grown up either in Taiwan dur-
+ing the Japanese colonial period or in China before the
+Chinese Civil War (Liu 1996; Sheng 2002). The second
+generation (those who were born before 1966 but after
+1946) is also likely to have strong national identities because
+they might be deeply influenced by their parents (the first
+generation) in political attitudes (Liu 1996; Sheng 2002).
+However, the third generation or those who were born after
+1967 arguably have more neutral national identities because
+they had grown up in the democratic transformation period
+(Liu 1996; Sheng 2002).
+
+Therefore, it was planned to obtain an equal number of
+samples in each of the following cells: (1) the first- and
+second-generation Hoklo (born before 1966); (2) the
+Chen et al.
+
+245
+
+ 
+
+Table |. The Sample Profile
+
+Table 2. National Identity, Ethnicity, and Political Generation
+
+ 
+
+ 
+
+Variables n %
+Ethnicity
+Hoklo 402 56.2
+Hakka 147 20.6
+Mainlander 114 15.9
+Aborigine 52 7.3
+Birth year
+Before 1965 312 43.6
+After 1966 403 56.4
+Residence
+North 211 29.5
+Central 173 24.2
+South 170 23.8
+East 156 21.8
+Islets 5 0.7
+Political generation
+Ist- and 2nd-generation Hoklo 161 22.5
+3rd-generation Hoklo 241 33.7
+Ist- and 2nd-generation Others 151 21.1
+3rd-generation Others 162 22.7
+National identity
+Taiwanese 419 58.6
+Both Taiwanese and Chinese 261 36.5
+Chinese 35 49
+
+ 
+
+third-generation Hoklo (born after 1967); (3) the first- and
+second-generation Hakka, Mainlander, and Aborigines (born
+before 1966); and (4) third-generation Hakka, Mainlander,
+and Aborigines (born after 1967).
+
+Considering available resources, this research intended to
+reach a minimum of 600 respondents, with 150 targeted
+respondents in each of the four geographic areas in Taiwan
+(the North, South, Central, and East). It was also planned to
+obtain an equal number of respondents (7 = 35) in each of the
+aforementioned cells. The survey data were collected from
+August to November 2009. The research questionnaire was
+administered personally to the respondents in the streets of
+four main cities in Taiwan, including Taipei (North),
+Taichung (Central), Kaohsiung (South), and Hualien (East).
+In the process of data collection, interviewers in each city
+were asked to purposively select an equal number of respon-
+dents who were born either before 1966 or after 1967. In
+each of two age groups, interviewers were also asked to pur-
+posively select an equal number of respondents belong to
+Hoklo or the other ethnic groups in Taiwan (including
+Hakka, Mainlander, and Aborigine). As a result, 722 ques-
+tionnaires were obtained, while seven questionnaires were
+eliminated because the respondents lived in foreign areas.
+
+The sample profile displayed in Table 1 indicates that the
+authors successfully obtained nearly equal samples in the
+four geographical areas (North = 29.5%; Central = 24.2%;
+South = 23.8%; East = 21.8%) and in the four political gen-
+eration cells (cell 1 = 22.5%; cell 2 = 33.7%; cell 3 = 21.1%;
+
+National Identity
+
+Both Taiwanese
+
+ 
+
+Taiwanese and Chinese Total
+Ethnicity
+Hoklo 272 (69.6) 119 (304) 391 (100)
+Hakka 82 (57.7) 60 (42.3) 142 (100)
+Mainlander 36 (36.4) 63 (63.6) 99 (100)
+Aborigine 29 (60.4) 19 (39.6) 48 (100)
+Total 419 (61.6) 261 (38.4) 680 (100)
+Political generation
+Ist- and 108 (69.2) 48 (30.8) 156 (100)
+2nd-generation
+Hoklo
+3rd-generation 164 (69.8) 71 (30.2) 235 (100)
+Hoklo
+Ist- and 61 (45.5) 73 (54.5) 134 (100)
+2nd-generation
+Others
+3rd-generation 86 (55.5) 69 (44.5) 155 (100)
+Others
+Total 419 (61.6) 261 (38.4) 680 (100)
+
+ 
+
+Note: Values are n (%).
+
+cell 4 = 22.7%). As a result, Taiwanese residents holding
+different national identities were likely reached. Among
+study respondents, 419 (58.6% of the respondents) identified
+themselves as Taiwanese, 261 (36.5% of the respondents) as
+both Taiwanese and Chinese, while 35 (4.9% of the respon-
+dents) as Chinese. Even though more respondents were
+prone to be Taiwanese, the proportion obtained in this
+research is close to the latest statistics released by the
+Election Study Center of the National Cheng-Chi University
+(2010): 52.4% Taiwanese residents regarded themselves as
+Taiwanese, 40.4% regarded themselves as both Taiwanese
+and Chinese, 3.8% regarded themselves as Chinese, and
+3.4% had no opinion.
+
+As shown in Table 2, Hoklo people tended to identify
+themselves as Taiwanese (69.6%), followed by Aborigines
+(60.4%), Hakka people (57.7%), and Mainlanders (36.4%).
+On the contrary, Mainlanders tended to identify themselves
+as both Taiwanese and Chinese (63.6%), while nearly 40%
+of Hakka people (42.3%) and Aborigines (39.6%) were dual
+identity holders, and only 30% of Hoklo people (30.4%)
+identified themselves as both Taiwanese and Chinese.
+Regarding political generation, Hoklo people across the gen-
+erations tended to identify themselves as Taiwanese (the first
+and second generations = 69.2%; the third generation =
+69.8%), while the first- and second-generation Hakka peo-
+ple, Mainlanders, and aborigines tended to regarded them-
+selves as both Taiwanese and Chinese (54.5%).
+
+Data analysis in this study consisted of five steps. The first
+step involved assessing whether China is perceived as hostile
+by Taiwanese residents. In the second step, factor analysis was
+246
+
+journal of Travel Research 52(2)
+
+ 
+
+conducted on the destination image and country image scales to
+assist in data reduction (Hair et al. 1998). The third step involved
+assessing the effects of national identity on country image, des-
+tination image, and travel intention with multiple analyses of
+variance (MANOVAs) and ¢tests. In the fourth step, in order to
+block the effects of previous destination experience, the study
+respondents were further separated as visitors (those who had
+been to China) and nonvisitors (those who had not been to
+China), and the effects of national identity were tested sepa-
+rately among visitors and nonvisitors. In the final step, in order
+to assess the interaction effects of national identity and previous
+destination experience, MANOVA tests and ¢-tests were used
+to compare how destination experience affects destination
+image separately between two different identity holders.
+
+Results
+
+The Perceived Relationship
+between Taiwan and China
+
+As mentioned before, the perceived relationship between
+Taiwan and China was assessed with five questions related
+to political power, economic power, cultural status, political
+compatibility, and economic compatibility. The results indi-
+cated that respondents perceived China as having stronger
+political (mean = 4.46) and economic power (mean = 3.73),
+while the cultural status between Taiwan and China was
+perceived as equal (mean = 3.15).
+
+Regarding political compatibility, only a small proportion
+of the respondents (23.1%) believed that political integration
+is beneficial for both sides, while most respondents believed
+that political integration is either beneficial for China but
+harmful for Taiwan (46.3%) or more beneficial for China
+(21.8%). On the other hand, nearly half of the respondents
+believed that economic integration is either beneficial for
+China but harmful for Taiwan (26%) or more beneficial for
+China (23.7%), while slightly fewer respondents believed
+that political integration is beneficial for both sides (46.2%).
+
+In summary, most respondents perceived Taiwan and
+China as having incompatible goals, equal cultural status,
+and unequal relative powers (China is stronger). Based on
+the definitions of the enemy and ally stereotypes (Alexander,
+Brewer, and Herrmann 1999; Alexander, Levin, and Henry
+2005; Herrmann et al. 1997), respondents tended to regard
+China as an enemy to Taiwan.
+
+Data Reduction by Factor Analysis
+
+In order to reduce the number of variables to be, a series of
+principal components analyses with VARIMAX rotation
+was conducted on 20 country image items and 19 destina-
+tion image items. Based on Hair et al.’s (1998) suggestion,
+the latent root criterion of 1.0 was used for factor extraction,
+and factor loadings of .50 and communalities of .50 were
+used for item inclusion.
+
+Table 3. Principal Component Analysis of Country Image Items
+
+ 
+
+ 
+
+Factors
+Items People Country Communalities
+Courteous -833 300 .784
+Trustworthy -827 313 781
+Friendliness -823 297 766
+Helpful -815 316 763
+Honest -813 313 759
+Likeability 774 285 681
+Work ethic -736 344 660
+Available skilled workers 287 -845 797
+Technology level .286 -843 792
+Workers skill level 328 -801 749
+Quality of life 292 -753 69 |
+Economics 352 -753 652
+
+ 
+
+Note: % variance explained: 73.955. Kaiser-Meyer—Olkin measure of
+sampling (KMO): .934. Bartlett’s test of sphericity: 7323.960. Significance,
+P <.001. Bold values indicate the largest factor loadings for each item.
+
+The principal components analysis of the country image
+scale produced two factors (see Table 3). The first factor
+explained 62.2% of the variance and included seven items
+related to beliefs about the characteristics of people living in
+the country, so the first factor was labeled “people belief.” The
+second factor explained 11.8% of the variance and included
+five items related to beliefs about the characteristics of the
+country, so the second factor was labeled “country belief.”
+The assumptions in factor analysis were met as the KMO
+value for the analysis was higher than .80 and the Bartlett test
+of sphericity was significant at the .001 level. The results of
+reliability analysis indicated high internal consistency for the
+entire country image scale (all 12 items) (Cronbach’s alpha =
+.94) as well as the People factor (Cronbach’s alpha = .94) and
+the Country factor (Cronbach’s alpha = .91).
+
+The principal components analysis of the destination
+image scale produced two factors (see Table 4). The first fac-
+tor explained 48.9% of the variance and included seven items
+related to overall quality of the destination, so the first factor
+was labeled “quality.” The second factor explained 22.2% of
+the variance and included three items related to the unique-
+ness of the destination, so the second factor was labeled
+“uniqueness.” The assumptions in factor analysis were met as
+the KMO value for the analysis was higher than .80 and the
+Bartlett test of sphericity was significant at the .001 level. The
+results of reliability analysis indicated high internal consis-
+tency forthe entire cognitive scale (all nine items) (Cronbach’s
+alpha =.88) as well as the Quality factor (Cronbach’s alpha =
+.90) and the Uniqueness factor (Cronbach’s alpha = .93).
+
+The Effects of National Identity without
+Blocking the Effects of Previous Experience
+
+In the second step of the data analysis, the effects of national
+identity on country image, destination image, and travel
+Chen et al.
+
+247
+
+ 
+
+Table 4. Principal Components Analysis of Destination Image
+Items
+
+ 
+
+ 
+
+Factors
+Items Quality Uniqueness Communalities
+Overall service quality 810 152 678
+Food quality 795 ASI 655
+Accommodation quality .791 .207 669
+General infrastructure -782 AZ 625
+Tourism facilities 773 248 659
+Local transportation -770 124 609
+Cleanliness 753 —.1T 579
+Cultural attractions 136 941 904
+Historical attractions 101 935 884
+Beautiful scenery 170 -903 844
+
+ 
+
+Note: % variance explained: 71.069. Kaiser-Meyer—Olkin measure of
+sampling (KMO): .874. Bartlett’s test of sphericity: 4700.|75. Significance,
+P< .001. Bold values indicate the largest factor loadings for each item.
+
+intentions were assessed. As a result of factor analyses in the
+first step, two factors of country image (people belief and
+country belief) and two of destination image (quality and
+uniqueness) were produced. These four factors as well as the
+variable measuring travel intention were identified as depen-
+dent variables in the second step of analysis, while national
+identity was identified as the independent variable. The
+effects of national identity across the two factors of country
+image were first assessed by MANOVAs. Results indicated
+that Taiwanese identity holders possessed significantly
+poorer country images of China (Wilks’s Lambda = 0.947,
+Fy en 18.818, P < .001). The results of ¢-tests (Table 5)
+also showed that Taiwanese identity holders had signifi-
+cantly poorer country beliefs of China (P < .001) and poorer
+people beliefs of Mainland Chinese (P < .001).
+
+Significant effects of national identity across the two factors
+of destination image (Wilks’s Lambda = 0.965, Fen = 12.309,
+P< 001) were also observed. Specifically, Taiwanese identity
+holders had generally poorer images of China as a tourist des-
+tination. The results of tests in Table 5 further showed that
+Taiwanese identity holders had significantly poorer evalua-
+tions of travel quality in China (P < .001), poorer evaluations of
+the uniqueness of China as a tourist destination (P < .001), and
+lower likelihood of visiting within one year (P < .001).
+
+The Effects of National Identity with
+Blocking the Effects of Previous Experience
+
+To block the effects of previous experience, respondents
+were further separated as visitors and nonvisitors.
+Subsequently, the effects of national identity were assessed
+separately among visitors and nonvisitors. Among visitors,
+the effects of national identity were also significant across
+the two factors of country image (Wilks’s Lambda = 0.912,
+F. = 18.488, P < .001) and the two factors of destination
+
+2, 385
+
+image (Wilks’s Lambda = 0.929, F385 = 14.621, P< .001).
+Furthermore, among visitors, as shown in Table 5, Taiwanese
+identity holders had significantly lower people beliefs
+(P < .001), lower country beliefs (P < .001), lower percep-
+tions of travel quality (P < .001), lower perceptions of desti-
+nation uniqueness (P < .001), and lower likelihood of
+visiting within one year (P < .001).
+
+On the other hand, among nonvisitors, the results of
+MANOVA tests indicated that effects of national identity
+were only significant across the two factors of country image
+(Wilks’s Lambda = 0.976, F = 3.509, P < .05), while its
+effects across the three factors of destination image were not
+significant (Wilks’s Lambda = 0.991, FP, og = 1-251,
+P > .05). As displayed in Table 5, the results of t-tests indi-
+cated lower people beliefs (P < .005) and lower likelihood of
+visiting within one year (P < .05).
+
+In summary, since Taiwanese identity holders had poorer
+country images of China than dual identity holders regard-
+less of whether they had visited China before, the first
+hypothesis was supported. Regarding the second hypothesis,
+among those who had visited China before, Taiwanese iden-
+tity holders had poorer destination images of China; how-
+ever, among those who had never visited China before,
+China was equally evaluated by Taiwanese identity holders
+and dual identity holders. Therefore, the second hypothesis
+was partially supported. Moreover, since Taiwanese identity
+holders had lower likelihood to visit China within one year
+than dual identity holders regardless of whether they had vis-
+ited China before, the third hypothesis was also supported.
+
+The Effects of Previous Experience
+
+In the final step, the effects of previous experience on coun-
+try image, destination image, and travel intention were
+examined separately among Taiwanese identity holders and
+among dual identity holders. The results of MANOVA indi-
+cated that, among Taiwanese identity holders, visitors had
+significantly lower country images (Wilks’s Lambda =
+0.972, Fy ae = 6.021, P < .01) and lower destination images
+(Wilks’s Lambda = 0.961, Fy ue = 8-424, P < .001).
+Furthermore, as displayed in Table 6, the results of t-tests
+showed that among Taiwanese identity holders, visitors had
+significantly lower country beliefs (P < .01), lower percep-
+tions of destination uniqueness (P < .001), and lower likeli-
+hood of visiting within one year (P < .001). Therefore, the
+fourth hypothesis was supported.
+
+However, among dual identity holders, although the
+effects of previous experience across two factors of country
+image were not significant (Wilks’s Lambda = 0.988,
+Fy ose 1.525, P > .05), visitors had significantly higher des-
+tination images (Wilks’s Lambda = 0.963, Fy ose = 5.009,
+P<.01). The results of t-tests showed that, among dual iden-
+tity holders, visitors had significantly higher perceptions of
+destination quality (P < .05) and higher likelihood of visiting
+within one year (P < .001).
+248
+
+journal of Travel Research 52(2)
+
+ 
+
+Table 5. The Effects of National Identity
+
+ 
+
+Country Image*
+
+Destination Image? Travel Intention
+
+ 
+
+PEO CON QUA UNI LIKI
+
+All respondents (n = 680)
+
+Taiwanese identity holders (n = 419) 2.7708 3.277 3.467 5.746 2.890
+
+Dual identity holders (n = 261) 3.286 3.667 3.806 6.049 3.690
+
+t value -6.124 -4.469 -4.359 -3.668 -5.295
+
+Significance >.001 >.001 >.001 >.001 >.001
+Visitors (n = 388)
+
+Taiwanese identity holders (n = 223) 2.757 3.133 3.441 5.546 3.250
+
+Dual identity holders (n = 165) 3.374 3.702 3.913 5.99 4.080
+
+t value -5.772 -5.369 -4.926 —3.863 -4.283
+
+Significance >.001 >.001 >.001 >.001 >.001
+Nonvisitors (n = 292)
+
+Taiwanese identity holders (n = 196) 2.784 3.441 3.498 5.975 2.480
+
+Dual identity holders (n = 96) 3.133 3.606 3.622 6.149 3.020
+
+t value -2.547 -1.071 -1.033 -1.464 -2.495
+
+Significance >.05 .285 .303 144 >.05
+
+ 
+
+a. PEO: people belief; CON: country belief.
+
+b. QUA: Quality; UNI: uniqueness.
+
+c. LIKI: likelihood of visiting China within | year.
+d. Summated scores were calculated.
+
+Table 6. The Effects of Previous Experience
+
+ 
+
+Country Image”
+
+Destination Image” Travel Intention
+
+ 
+
+PEO CON QUA UNI LIKI‘
+
+Taiwanese identity holders (n = 419)
+
+Visitors (n = 223) 2.7574 3.133 3.441 5.546 3.250
+
+Nonvisitors (n = 196) 2.784 3.441 3.498 5.975 2.480
+
+t value 0.271 2.664 0.575 4.093 -4.453
+
+Significance 786 >.01 566 >.001 >.001
+Dual identity holders (n = 261)
+
+Visitors (n = 165) 3.374 3.702 3.913 5.990 4.080
+
+Nonvisitors (n = 96) 3.134 3.606 3.622 6.149 3.020
+
+t value -1.685 -0.699 -2.374 1.232 -4.304
+
+Significance 093 485 >.05 219 >.001
+
+ 
+
+a. PEO: people belief; CON: country belief.
+
+b. QUA: Quality; UNI: uniqueness.
+
+c. LIKI: likelihood of visiting China within | year.
+d. Summated scores were calculated.
+
+Conclusions
+
+This research examined how destination images could be a
+part of social biases in the context of international tourism.
+As suggested by social identity theory (Alexander, Levin,
+and Henry 2005), when two countries are involved in con-
+flicts, national identities might be triggered, which might
+subsequently result in negatively biased perceptions of a
+foreign country. This research found that in the context of
+international conflicts, individuals who had higher identifi-
+cation with their own country (guest country) had more
+
+negative country and destination images of the host country.
+This research also found that biased perceptions might
+not be disintegrated after actual visitations. Therefore, this
+research has both theoretical and practical implications.
+Theoretically, this research provides evidence that destina-
+tion image might be a collective construction. As mentioned
+before, previous tourism studies have shown that people
+from different countries have different images of a destina-
+tion (Kim and Morrison 2003; Lee, Lee, and Lee 2005;
+Prebensen 2007). As the relationship between national origin
+and destination image can be explained by country stereotyping
+Chen et al.
+
+249
+
+ 
+
+(Nadeau et al. 2008), this research further specified when
+and why negative country images might form. This research
+found that negative country images might result from the
+construction of social biases between countries involved in
+political conflicts.
+
+Second, this research also found that destination images
+might be socially biased. In fact, previous studies have fre-
+quently examined the concept of destination image in order to
+understand how to build positive destination images by invest-
+ing in promotion campaigns (Tasci, Gartner, and Cavusgil
+2007). However, this research demonstrated that negative
+biases of destination perceptions might become formidable
+barriers for destination marketing. At least in the context of
+international conflicts, the images of a rival country might be
+constructed through education and mass media on a daily
+basis. Therefore, the resulting negative country images might
+be perceived as organic destination images, which are diffi-
+cult to change via marketing information (Gartner 1993).
+
+Furthermore, this research found that biased destination
+perceptions were not positively changed after actual visita-
+tion. Specifically, it was found that previous destination
+experience had negative effects on the country and destina-
+tion images of the host country among individuals had higher
+identification with their own country (host country), which
+was consistent with the findings in previous studies that
+direct destination experiences resulted in negative evalua-
+tions of host countries or only marginally improvement in
+the evaluations (Anastasopoulous 1992; Milman, Reichel,
+and Pizam 1990; Pizam, Milman, and Jafari 1991). In fact,
+social psychology studies (Brown and Hewstone 2005;
+Pettigrew and Tropp 2006) have shown that intergroup con-
+tacts do not always result in positive changes in intergroup
+stereotypes, while one of the most important conditions for
+positive changes is that members in each group have inti-
+mate contacts. Since group tourists generally have lower lev-
+els of social contacts with local residents (Pizam, Uriely, and
+Reichel 2000), it is articulated that negative perceptions are
+very difficult to be changed through package tours, which
+might explain the negative effects of previous destination
+experience in this study.
+
+This research also has practical implications. First, the
+study results revealed that among Taiwanese identity hold-
+ers, previous visitors had poorer evaluations of China and
+lower intentions to visit China than nonvisitors had, which
+indicates that negative stereotypes of China among
+Taiwanese identity holders were actually strengthened after
+actual visitations. Although previous research has addressed
+the potential of cross-strait tourism development to reduce
+tension (Chen 2010; Guo et al. 2006), the results of this
+research indicated that the ideological distance between
+China and Taiwan might still remain, and it might serve as
+an inhibitor of the tourism flow from Taiwan to China.
+
+Moreover, the study results also indicated that China was
+an attractive destination for dual identity holders. As this
+
+research found that dual identity holders had more positive
+evaluations of China as a tourist destination and higher inten-
+tions to visit China in the foreseeable future, China’s tourism
+industry should regard dual identity holders as a target mar-
+ket for marketing China to Taiwan. Results further revealed
+that among dual identity holders, previous visitors had higher
+evaluations of China and higher intentions to visit China
+than nonvisitors, which indicates that overall destination
+evaluations of China among dual identity holders might be
+improved after actual visitation. Therefore, since direct
+flights across the Taiwan Strait can considerably reduce time
+and costs of traveling from Taiwan to China, it is suggested
+that China’s tourism management should build dual identity
+holders’ loyalty, which might subsequently result in repeat
+visitations.
+
+This research examined how destination perceptions are
+socially constructed, especially focusing on the process of
+international stereotyping and its effects on the formation
+of negative country and destination images in the context of
+international conflicts. Since hypotheses in this research
+were tested with only two countries, future research is rec-
+ommended to further examine other contexts of international
+conflicts, such as China and Japan. Furthermore, even though
+intergroup or inter-nation stereotypes might be socially con-
+structed, individuals also differ in their willingness to inter-
+nalize group beliefs and discriminate against outgroup
+members (Huddy 2001). Therefore, it is recommended to
+incorporate individual difference variables in the research
+model, such as social dominance orientation (Rubin and
+Hewstone 2004).
+
+This research also examined the effects of previous desti-
+nation experience in the process of international stereotyp-
+ing. However, the effects were examined by simply
+comparing the differences between visitors and nonvisitors,
+which is a limitation of this research. Therefore, future
+research is recommended to further examine how negative
+destination perceptions are changed before and after destina-
+tion experience. Furthermore, this research examined the
+effects of international stereotyping on destination image
+and travel intention, while future research is also recom-
+mended to examine the effects of international stereotyping
+on other dependent variables, such as host-guest interaction
+and trip satisfaction.
+
+Declaration of Conflicting Interests
+
+The authors declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+
+Funding
+
+The authors disclosed receipt of the following financial support
+for the research, authorship, and/or publication of this article: This
+research project was supported by the National Science Council of
+the ROC (grant no. NSC97-2410-H-259-014-S82).
+250
+
+journal of Travel Research 52(2)
+
+ 
+
+References
+
+Alexander, Michele G., Marilynn B. Brewer, and Richard K.
+Herrmann. (1999). “Images and Affect: A Functional Analysis
+of Out-Group Stereotypes.” Journal of Personality and Social
+Psychology, 77 (1): 78-93.
+
+Alexander, Michele G., Shanna Levin, and P. J. Henry. (2005).
+“Image Theory, Social Identity, and Social Dominance: Struc-
+tural Characteristics and Individual Motives Underlying Inter-
+national Images.” Political Psychology, 26 (1): 27-45.
+
+Anastasopoulous, Petros G. (1992). “Tourism and Attitude Change
+Greek Tourists Visiting Turkey.” Annals of Tourism Research,
+19: 629-42.
+
+Andsager, Julie L., and Jolanta A. Drzewiecka. (2002). “Desir-
+ability of Differences in Destinations.” Annals of Tourism
+Research, 29 (2): 401-21.
+
+Baloglu, Seyhmus. (2001). “Image Variations of Turkey by Famil-
+iarity Index: Informational and Experiential Dimensions.”
+Tourism Management, 22 (2): 127-33.
+
+Baloglu, S., and Ken W. McCleary. (1999). “A Model of Destina-
+tion Image Formation.” Annals of Tourism Research, 26 (4):
+868-97.
+
+Bar-gal, Yoram. (1994). “The Image of ‘Palestinian’ in Geog-
+raphy Textbooks in Israel.” Journal of Geography, 93 (5):
+224-32.
+
+Beerli, Asuncon, and Josefa D. Martin. (2004). “Factor Influenc-
+ing Destination Image.” Annals of Tourism Research, 31 (3):
+657-81.
+
+Brown, Rupert, and Miles Hewstone. (2005). “An Integrative The-
+ory of Intergroup Contact.” Advances in Experimental Social
+Psychology, 37: 255-343.
+
+Butler, Richard W., and Baodi Mao. (1996). “Conceptual and The-
+oretical Implications of Tourism between Partitioned States.”
+Asia Pacific Journal of Tourism Research, | (1): 25-34.
+
+Chen, Chien-Min. (2010). “Role of Tourism in Connecting Taiwan
+and China: Assessing Tourists’ Perceptions of the Kinmen-
+Xiamen Links.” Tourism Management, 31: 421-24.
+
+Chen, Chun-Chu, and Yueh-Hsiu Lin. (2012). “Segmenting Main-
+land Chinese Tourists to Taiwan by Destination Familiarity: A
+Factor-Cluster Approach.” International Journal of Tourism
+Research, 14 (4): 339-52.
+
+Chen, Chun-Chu, Yueh-Hsiu Lin, and James F. Petrick. (2012).
+“International Stereotype and the Collective Construction of
+Destination Image.” Tourism Analysis, 17 (1): 55-66.
+
+Chen, Jyh-Jia. (2002). “Reforming Textbooks, Reshaping School
+Knowledge: Taiwan’s Textbook Deregulation in the 1990s.”
+Pedagogy, Culture and Society, 10 (1): 39-72.
+
+Chu, Yun-han, and Jih-wen Lin. (2001). “Political Development in
+20th-Century Taiwan: State-Building, Regime Transformation
+and the Construction of National Identity.” The China Quar-
+terly, 165: 102-29.
+
+Coman, Paul. (1996). “Reading about the Enemy: School Textbook
+Representation of Germany’s Role in the War with Britain dur-
+ing the Period from April 1940 to May 1941.” British Journal
+of Sociology of Education, 17 (3): 327-40.
+
+Croteau, David R., and William D. Hoynes. (2002). Media Society:
+Industries, Images, and Audiences. Thousand Oaks, CA: Pine
+Forge.
+
+D’Amore, Louis J. (1988). “Tourism—A Vital Force for Peace.”
+Annals of Tourism Research, 15: 268-71.
+
+Election Study Center of the National Cheng-Chi University.
+(2010). “Changes in the Taiwanese/Chinese Identity of Tai-
+wanese as Tracked in Surveys.” http://esc.nccu.edu.tw/eng
+(accessed July 10, 2010).
+
+Elliot, Statia, Nicolas Papadopoulos, and Samuel S. Kim. (2011).
+“An Integrative Model of Place Image: Exploring Relationships
+between Destination, Product, and Country Images.” Journal of
+Travel Research, 50 (5): 520-34.
+
+Fakeye, Paul C., and John L. Crompton. (1991). “Image Differ-
+ences between Prospective, First-Time, and Repeat Visitors to
+the Lower Rio Grande Valley.” Journal of Travel Research, 30
+(2): 10-16.
+
+Fodness, Dale, and Brian Murray. (1997). “Tourist Information
+Search.” Annals of Tourism Research, 24 (3): 503-23.
+
+Gamson, William A., David Croteau, William Hoynes, and
+Theodore Sasson. (1992). “Media Images and the Social
+Construction of Reality.” Annual Review of Sociology, 18:
+373-93.
+
+Gartner, William C. (1993). “Image Formation Process.” Journal of
+Travel and Tourism Marketing, 2 (2/3): 191-215.
+
+Govers, Robert, Frank M. Go, and Kuldeep Kumar. (2007).
+“Promoting Tourism Destination Image.” Journal of Travel
+Research, 46 (1): 15-23.
+
+Gramsci, Antonio. (1971). Selections from the Prison Notebooks.
+London: Lawrence and Wishart.
+
+Gunn, Clare A. (1972). Vacationscape—Designing Tourist Regions.
+Austin: University of Texas.
+
+Guo, Yingzhi, Samuel S. Kim, Dallen J. Timothy, and Kuo-Ching
+Wang. (2006). “Tourism and Reconciliation between Mainland
+China and Taiwan.” Tourism Management, 27: 997-1005.
+
+Hair, Joseph F., Rolph E. Anderson, Ronald L. Tatham, and
+William C. Black. (1998). Multivariate Data Analysis.
+Upper Saddle River, NJ: Prentice Hall.
+
+Hart, D. (1999). “Creating the National Other: Opposing Images
+of Nationalism in South and North Korean Education.” Korean
+Studies, 23: 68-93.
+
+Herrmann, Richard K., James F. Voss, Tonya Y. E. Schooler, and
+Joseph Giarrochi. (1997). “Images in International Relations:
+An Experimental Test of Cognitive Schemata.” International
+Studies Quarterly, 41: 403-33.
+
+Hobson, J. S. Perry, and Goldwyn Ko. (1994). “Tourism and
+Politics: The Implications of the Change in Sovereignty on
+the Future Development of Hong Kong’s Tourism Industry.”
+Journal of Travel Research, 32 (4): 2-8.
+
+Hsieh, John F., and Emerson M. S. Niou. (2005). “Measuring
+Taiwanese Public Opinion on Taiwanese Independence.” The
+China Quarterly, 181: 158-68.
+
+Hsu, Cathy H. C., Liping A. Cai, and Mimi Li. (2010). “Expecta-
+tion, Motivation, and Attitude: A Tourist Behavioral Model.”
+Journal of Travel Research, 49 (3): 282-96.
+Chen et al.
+
+25 |
+
+ 
+
+Hu, Yangzhou, and J. R. Brent Ritchie. (1993). “Measuring Des-
+tination Attractiveness: A Contextual Approach.” Journal of
+Travel Research, 32 (2): 25-34.
+
+Huddy, Leonie. (2001). “From Social to Political Identity: A Criti-
+cal Examination of Social Identity Theory.” Political Psychol-
+ogy, 22 (1): 127-56.
+
+Hughes, Christopher, and Robert Stone. (1999). “Nation-Building
+and Curriculum Reform in Hong Kong and Taiwan.” The China
+Quarterly, 160: 977-91.
+
+Hyun, Sunghyup S., and Richard R. Perdue. (2010). “Previous Trip
+Satisfaction, Destination Images, and Probability of Future Vis-
+itation.” Tourism Analysis, 15 (6): 725-28.
+
+Jacobs, J. Bruce, and I-Hao B. Liu. (2007). “Lee Teng-hui and the
+Idea of ‘Taiwan.’” The China Quarterly, 190: 375-93.
+
+Jafari, Jafar. (1989). “Tourism and Peace.” Annals of Tourism
+Research, 16: 439-44.
+
+Kim, Samuel S., and Alastair M. Morrison. (2003). “Change of
+Images of South Korea among Foreign Tourists after the 2002
+FIFA World Cup.” Tourism Management, 26 (2): 233-47.
+
+Knight, Gary A., and Roger J. Calantone. (2000). “The Flexible
+Model of Consumer Country-of-Origin Perceptions: A Cross-
+Cultural Investigation.” Jnternational Marketing Review, 17
+(2): 127-45.
+
+Laroche, Michel, Nicolas Papadopoulos, Louise A. Heslop, and
+Mehdi Mourali. (2005). “The Influence of Country Image
+Structure on Consumer Evaluations of Foreign Products.”
+International Marketing Review, 22 (1): 96-115.
+
+Law, Wing-Wah. (2002). “Education Reform in Taiwan: A Search
+for a “National” Identity through Democratization and Taiwan-
+isation.” Compare, 32 (1): 61-81.
+
+Laxson, Joan D. (1991). “How ‘We’ See ‘Them’: Tourism and Native
+Americans.” Annals of Tourism Research, 18 (3): 365-91.
+
+Lee, Choong-Ki, Yong-Ki Lee, and BongKoo Lee. (2005). “Korea’s
+Destination Image Formed by the 2002 World Cup.” Tourism
+Management, 32 (4): 839-58.
+
+Lee, Soojin, David Scott, and Hyounggon Kim. (2008). “Celebrity
+Fan Involvement and Destination Perceptions.” Annals of Tour-
+ism Research, 35 (3): 809-32.
+
+Lee, Paul S. (1990). “The Official Chinese Image of Taiwan.” The
+Australian Journal of Chinese Affairs, 24: 143-61.
+
+Lehto, Xinran Y., Joseph T. O’Leary, and Alastair M. Morrison.
+(2004). “The Effect of Prior Experience on Vacation Behav-
+ior.” Annals of Tourism Research, 31 (4): 801-18.
+
+Liu, I-chou. (1996). “Generational Discrepancies in Public Attitude
+on Taiwan’s Unification Issue.” Issues & Studies, 32 (9): 103-21.
+
+Lin, Yueh-Hsiu, Chun-Chu Chen, and Chung Wong Park (2012).
+“The Salient and Organic Images of Taiwan as Perceived by
+Mainland Chinese Tourists.” Asia Pacific Journal of Tourism
+Research, 17(4): 381-393.
+
+Mackay, Kelly J., and Daniel R. Fesenmaier. (2000). “An Explora-
+tion of Cross-Cultural Destination Image Assessment.” Journal
+of Travel Research, 38 (4): 417-23.
+
+Manheim, Jarol B., and Robert B. Albritton. (1984). “Changing
+National Images: International Public Relations and Media Agenda
+Setting.” The American Political Science Review 78 (3): 641-57.
+
+Milman, Ady, and Abraham Pizam. (1995). “The Role of Aware-
+ness and Familiarity with a Destination: The Central Florida
+Case.” Journal of Travel Research, 33 (3): 21-27.
+
+Milman, Ady, Arie Reichel, and Abraham Pizam. (1990). “The
+Impact of Tourism on Ethnic Attitudes: The Israeli-Egyptian
+Case.” Journal of Travel Research, 29: 45-49.
+
+Nadeau, John, Louise Heslop, Norm O’Reilly, and Peter Luk.
+(2008). “Destination in a Country Image Context.” Annals of
+Tourism Research, 35 (1): 84-106.
+
+Pearce, Philip L. (2005). Tourist Behavior: Themes and Conceptual
+Schemes. Buffalo, NY: Channel View.
+
+Pearce, Philip L., and Peter F. Stringer. (1991). “Psychology and
+Tourism.” Annals of Tourism Research, 18 (1): 136-54.
+
+Pettigrew, Thomas F., and Linda R. Tropp. (2006). “A Meta-analytic
+Test of Intergroup Contact Theory.” Journal of Personality and
+Social Psychology, 90 (5): 751-83.
+
+Pizam, Abraham, Ady Milman, and Jafar Jafari. (1991). “Influence
+of Tourism on Attitudes: US Students Visiting USSR.” Tour-
+ism Management, 12: 47-54.
+
+Pizam, Abraham, Natan Uriely, and Arie Reichel. (2000).
+“The Intensity of Tourist-Host Social Relationship and Its
+Effects on Satisfaction and Change of Attitudes: The Case
+of Working Tourists in Israel.” Tourism Management, 21 (4):
+395-406.
+
+Prebensen, Nina K. (2007). “Exploring Tourists’ Images of a Dis-
+tant Destination.” Tourism Management, 28 (3): 747-56.
+
+Prentice, Richard. (2006). “Evocation and Experiential Seduction:
+Updating Choice-Sets Modeling.” Tourism Management, 27 (6):
+1153-70.
+
+Rawnsley, Gary D. (2007). “The Media and Democracy in China
+and Taiwan.” Taiwan Journal of Democracy, 3 (1): 63-78.
+Roth, Katharina, and Adamantios Diamantopoulos. (2009). “Advanc-
+ing the Country Image Construct.” Journal of Business Research,
+
+62: 726-40.
+
+Rubin, Mark, and Miles Hewstone. (2004). “Social Identity, Sys-
+tem Justification, and Social Dominance: Commentary on
+Reicher, Jost et al., and Sidanius et al.” Political Psychology,
+25 (6): 823-44.
+
+Scott, Mandy, and Hak-khiam Tiun. (2007). “Mandarin-Only to
+Mandarin-Plus: Taiwan.” Language Policy, 6: 53-72.
+
+Sheng, Emile C. J. (2002). “Cross-Strait Relations and Public Opin-
+ion in Taiwan.” Issues & Studies, 38: 17-46.
+
+Stangor, Charles, and James Lange. (1993). “Mental Representa-
+tions of Social Groups: Advances in Understanding Stereotypes
+and Stereotyping.” In Advances in Experimental Social Psy-
+chology, Vol. 26, edited by Mark P. Zanna. New York: Aca-
+demic Press, pp. 357-416.
+
+Su, Ya-Chen. (2007). “Ideological Representations of Taiwan’s
+History: An Analysis of Elementary Social Studies Textbooks,
+1978-1995.” Curriculum Inquiry, 37 (3): 205-37.
+
+Tajfel, Henri, and John C. Tumer. (1979). The Social Psychology of
+Intergroup Relations. Monterey, CA: Brooks/Cole.
+
+Tasci, Asli D. A. (2009). “Social Distance: The Missing Link in the
+Loop of Movies, Destination Image, and Tourist Behavior?”
+Journal of Travel Research, 47 (4): 494-507.
+252
+
+journal of Travel Research 52(2)
+
+ 
+
+Tasci, Asli D. A., and W. C. Gartner. (2007). “Destination Image
+and Its Functional Relationships.” Journal of Travel Research,
+45 (4): 413-25.
+
+Tasci, Asli D. A., William C. Gartner, and S. Tamer Cavusgil.
+(2007). “Measurement of Destination Brand Bias Using a
+quasi-Experimental Design.” Journal of Travel Research, 28
+(6): 1529-40.
+
+Tumer, John C., Penelope J. Oakes, S. Alexander Haslam, and
+Craig McGarty. (1994). “Self and Collective: Cognition and
+Social Context.” Personality and Social Psychology Bulletin,
+20 (5): 454-63.
+
+Uhalley, Stephen. (1967). “Taiwan’s Response to the Cultural Rev-
+olution.” Asian Survey, 7 (11): 824-29.
+
+Um, Secho, and John L. Crompton. (1990). “Attitude Determinants
+in Tourism Destination Choice.” Annals of Tourism Research,
+17 (3): 432-48.
+
+Wei, Ran. (2000). “Mainland Chinese News in Taiwan’s Press:
+The Interplay of Press Ideology, Organizational Strategies, and
+News Structure.” In Power, Money, and Media: Bureaucratic
+Control and Communication Patterns in Cultural China, edited
+by Chin-Chuan Lee. Evanston, IL: Northwestern University
+Press, pp. 337-65.
+
+Wong, Jehn-Yih, and Ching Yeh. (2009). “Tourist Hesitation in
+Destination Decision Making.” Annals of Tourism Research,
+36 (1): 6-23.
+
+Yu, Ching-Hsin, and Yi-Ching Hsiao. (2007). “New Voters’ Politi-
+cal Attitudes and the Future of Taiwan’s Democracy.” Taiwan
+Journal of Democracy, 4 (3): 109-52 [Chinese].
+
+Yu, Larry, and Moo H. Chung. (2001). “Tourism as a Catalytic
+Force for Low-Politics Activities between Politically Divided
+Countries: The Cases of South/North Korea and Taiwan/
+China.” New Political Science, 23 (4): 537-45.
+
+Bios
+
+Chun-Chu Chen is a PhD candidate in the Department of
+Recreation, Park, & Tourism Sciences at Texas A&M University.
+His research interests are in tourism marketing and advertising,
+particularly focusing on attitude formation and change in the con-
+text of tourism.
+
+Yueh-Hsiu Lin is a Professor and Dean of the School of Hospitality
+Management at National Kaohsiung University of Hospitality and
+Tourism. She is an alumna of the National Taiwan University,
+University of Oregon and Oxford Brookes University and has been a
+life member of World Leisure and Recreation Association since 1990.
+
+James F. Petrick is a Professor in the Department of Recreation,
+Park, & Tourism Sciences at Texas A&M University. His research
+interests are in tourism marketing and tourist behavior with an
+emphasis on the determinants of repurchase and loyalty.
+

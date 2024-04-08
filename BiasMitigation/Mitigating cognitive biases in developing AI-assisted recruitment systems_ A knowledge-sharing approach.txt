@@ -1,0 +1,404 @@
+DOI: 10.4018/IJKM.290022International Journal of Knowledge Management
+Volume 18 • Issue 1 
+This article published as an Open Access article distributed under the terms of the Creative Commons Attribution License
+(http://creativecommons.org/licenses/by/4.0/) which permits unrestricted use, distribution, and production in any medium,
+provided the author of the original work and original publication source are properly credited.
+1Mitigating Cognitive Biases in Developing 
+AI-Assisted Recruitment Systems:
+A Knowledge-Sharing Approach
+Melika Soleimani, Massey University, New Zealand
+Ali Intezari, University of Queensland, Australia
+ https://orcid.org/0000-0001-9369-2859
+David J. Pauleen, Massey University, New Zealand
+ https://orcid.org/0000-0003-4412-0162
+ABSTRACT
+Artificial intelligence (AI) is increasingly embedded in business processes, including the human 
+resource (HR) recruitment process. While AI can expedite the recruitment process, evidence from the industry, however, shows that AI-recruitment systems (AIRS) may fail to achieve unbiased decisions about applicants. There are risks of encoding biases in the datasets and algorithms of AI which lead AIRS to replicate and amplify human biases. To develop less biased AIRS, collaboration between HR managers and AI developers for training algorithms and exploring algorithmic biases is vital. Using an exploratory research design, 35 HR managers and AI developers globally were interviewed to understand the role of knowledge sharing during their collaboration in mitigating biases in AIRS. The findings show that knowledge sharing can help to mitigate biases in AIRS by informing data labeling, understanding job functions, and improving the machine learning model. Theoretical contributions and practical implications are suggested.
+Keywo RDS
+AI Developers, Algorithms, Artificial Intelligence, Cognitive Biases, Datasets, HR Managers, Knowledge Sharing, Recruitment
+INTR oDUCTI oN
+According to Upadhyay and Khandelwal (2018), the recruitment and selection process is one area in which many HR managers and hiring professionals are considering increasing the adoption of AI. Although AI can be a breakthrough technology to improve the recruitment and selection process, evidence from the industry shows that there are concerns about AI being biased due to the way algorithms are developed and datasets used to train them (Manyika et al., 2018). A recent study shows that AI as used in the recruitment processes is not unbiased (Soleimani et al., 2021). Mitigating biases International Journal of Knowledge Management
+Volume 18 • Issue 1
+2in AI-assisted decision-making is one of the challenges of developing AI (Martin, 2018; Shrestha 
+et al., 2019; Tambe et al., 2019) as datasets and algorithms are significantly influenced by human biases (Varshney, 2018).
+AI is a system that improves the efficiency of decision-making through extracting patterns 
+from “enormous volumes of data and model[ing] complex, interdependent systems” using machine learning (ML) algorithms (Rhem, 2020, p. 33). AI systems can be used in different areas to support the recruitment and selection process such as reviewing and extracting information from résumés and ranking them, analyzing video interviews to evaluate person-organization and person-job fit, and scanning through multiple databases for candidate sourcing (Albert, 2019). The software development literature suggests that the development of such systems requires the end users and software developers to work closely together to exchange ideas and share knowledge about expectations, requirements and limitations (Ghafoor et al., 2015). The role of knowledge sharing in mitigating biases that are embedded in AI is, however, understudied.
+Knowledge sharing in software development is defined as the process of “exchanging of task-
+related information, ideas, know-hows, and feedback regarding software products and processes” (Cummings, 2004, p. 352). Knowledge sharing in software development has been the subject of ongoing study for nearly thirty years (Ghobadi, 2015; Pardo et al., 2006; Walz et al., 1993; Waterson et al., 1997; Wiredu, 2011). The knowledge sharing literature provides an appropriate theoretical framework to examine the development process of unbiased AIRS. Researchers have studied different processes of knowledge sharing between developers and users in software development, including gathering requirements and giving feedback (Hanisch & Corbitt, 2007; Schott, 2011). However, there is no known study on the role of knowledge sharing in software development with the objective of mitigating biases in the product coming out of the development process.
+This current study aims at understanding the role of knowledge sharing in developing AIRS. 
+To answer the question, how can knowledge sharing between HR managers and AI developers lead to mitigating cognitive biases in developing AI recruitment systems?, this study uses a grounded theory research design and proposes a model of knowledge sharing between HR managers and AI developers in developing AIRS.
+In the sections below, AI and the development process, cognitive biases and AI in recruitment, 
+and knowledge sharing in software development are outlined. Data collection and analysis are then explained, followed by a discussion of the findings and conclusions, as well as implications for practice and research.
+CoNCePTUAL BACKGR oUND
+In this section, the relevant literature on AI and the development process, cognitive biases and AI in recruitment, and knowledge sharing in software development, is introduced.
+Artificial Intelligence
+Artificial Intelligence (AI) is a science concerned with developing machines capable of performing 
+functions a human can perform and that require human intelligence (Minsky, 1968), such as decision-making, object recognition, understanding, and responding to language. Kaplan and Haenlein (2019b) focus on how AI can do tasks that require human intelligence. They define AI as “a system’s ability to interpret external data correctly, to learn from such data, and to use those learnings to achieve specific goals and tasks through flexible adaptation” (Kaplan & Haenlein, 2019b, p. 17). AI is a part of computer science focusing on machine learning, making computers act intelligently with the computers continually learning and improving their performance (Nilsson, 1998). ML is a central part of AI and provides systems with the ability to learn (Kaplan & Haenlein, 2019b). The learning ability, which takes place by extracting information from data through ML algorithms, is the distinctive characteristic of AI (Akerkar, 2013) compared to other forms of communication and decision support International Journal of Knowledge Management
+Volume 18 • Issue 1
+3technologies such as DSS (Decision Support System) and KMS (Knowledge Management System) 
+(Gressel et al., 2020). ML, due to its learning ability, can learn from the current context and, generalize what it has learned into a new context when exposed to new data (Jordan & Mitchell, 2015; Kaplan & Haenlein, 2019b).
+ML uses mathematical models (Cormen, 2009) and statistics to prepare training data and derive 
+a set of results from datasets (Kumar, 2017). Training datasets should be labeled so that ML can learn from them. Data labeling is the process of giving each data point a cluster label that is meaningful and informative to provide context so that ML models to learn from datasets (Chen et al., 2008). For example, labels show a photo containing various objects such as a bird or car or indicate words heard in an audio recording.
+After labeling datasets, algorithms are trained to “develop a model capable of formulating a 
+target value (attribute), and some unknown value of each data object” (Akerkar, 2019, p. 22). The ML models can then be retrained for better performance by using outputs of the building model (Zheng et al., 2013). However, there is a possibility that label bias occurs, for example when the set of labeled data is not fully representative of all of the potential labels (Mehlin et al., 2018), and this bias may be embedded into AI. Figure 1 illustrates the process of developing ML.
+Cognitive Biases and AI in Recruitment
+Cognitive constraints affect managers’ decision-making and can lead to biased outcomes (Intezari & 
+Pauleen, 2019, 2020). Cognitive biases refer to the result of using shortcuts, also termed heuristics, in thinking (Bazerman & Moore, 2013). Researchers have been studying cognitive biases for a long time and have identified biases that can be seen in human decision-making in laboratory and field contexts (Barnes, 1984; Duhaime & Schwenk, 1985; Simon, 1997). Other studies have shown that in the business context, cognitive biases can significantly distort managers’ understanding of the decision situation and lead to biased decisions (Kahneman et al., 2011).
+In the recruitment and selection process, researchers empirically study cognitive biases such as 
+gender bias (Moss-Racusin et al., 2012) and anchoring and adjustment (Buijsrogge, 2014). Moss-Racusin et al. (2012) study gender bias and point out that faculty members rated male applicants as more competent than females equally qualified for a laboratory manager role. Buijsrogge (2014) finds that anchoring of the initial impression formation leads to the interviewer’s overconfidence about their decisions.
+More recent studies show that human biases can find their way into AI in a way that leads decisions 
+made by AI to be more systematically biased against individuals or groups (Ntoutsi et al, 2020). There are two drivers of biases in AI: training datasets and algorithms (Kaplan & Haenlein, 2019a; Shrestha et al., 2019). The previous empirical research finds like-me and cliché biases as two known biases in the recruitment and selection process that might happen in developing AIRS due to using HR managers’ past hiring decisions as training datasets for developing AI (Soleimani et al., 2021).
+Figure 1. The process of developing Machine Learning and producing an outcome (Soleimani et al., 2021, p.5092)
+International Journal of Knowledge Management
+Volume 18 • Issue 1
+4AI in the recruitment and selection process can be used in various areas such as reviewing 
+a large volume of CVs, assessing candidates’ personality through video interviews, and chatbots 
+for candidates’ engagement (Albert, 2019; Vedapradha et al., 2019). According to Upadhyay and Khandelwal (2018), AIRS can speed up the hiring process and improve the quality of the process by increasing the probability of hiring the best-fit candidates. However, HR managers as advisors need to assess candidates for cultural fit, communication, and rapport building (Upadhyay & Khandelwal, 2018).
+AI is very likely to become biased when it is trained with small and non-representative or “over-
+representative of certain groups” datasets (Ntoutsi et al., 2020). For example, Amazon AI Recruiter learned from biased datasets and was biased against women (Kaplan & Haenlein, 2019a; Taniguchi et al., 2018). Amazon AI Recruiter did not rate candidates for technical jobs in a gender-neutral way, based on the patterns it found from CVs (training datasets) submitted to the company over a decade when a large majority of the data points were male applicants. Moreover, datasets might be biased because of the methods used for labeling data (Mehlin et al., 2018). Datasets might be labeled in a way that encodes biases such as gender, ethnic, and cultural biases when using crowdsourcing platforms like Amazon Mechanical Turk or labeling by graduate students (Mehlin et al., 2018).
+Another source of biases in AI is when algorithms are codified. Biased algorithms might be 
+developed when developers cannot formulate users’ assumptions objectively or use inaccurate selection criteria (Tambe et al., 2019). For example, if specific age ranges, genders, and ethnicities are used in algorithms, the algorithms will find the relationship between the chosen attributes and the target, which in the case of ML may lead to generating biased algorithmic outcomes (Saifee, 2020).
+Scholz (2017) asserts that algorithms can learn from the input data but are not capable of judging 
+and making decisions. He suggests the collaboration between HR managers and AIRS helps both to improve, adapt, and learn from each other to make better hiring decisions (Scholz, 2017). Moreover, the knowledge sharing between HR managers and developers of AIRS can contribute to developing unbiased AIRS. HR managers as the users of AIRS can share their knowledge with AI developers to develop AI.
+Knowledge Sharing in Software Development
+Knowledge sharing plays an important role in knowledge-intensive organizations such as software 
+companies (Probodha & Vasanthapriyan, 2019). The software development process is an iterative, collaborative, and knowledge-intensive process (Patnayakuni et al., 2007). In the development process, knowledge sharing refers to the process of “exchanging task-related information, ideas, know-hows, and feedback” (Cummings, 2004, p. 352) to define various aspects of the projects and find solutions to the development challenges (Chua & Pan, 2008).
+The knowledge sharing process engages various activities: ‘participation’ (Aladwani et al., 2000; 
+Bagozzi & Dholakia, 2006), ‘requirement gathering’ (Hands et al., 2004; Hanisch & Corbitt, 2007), ‘activity engagement’ (Hertel et al., 2003), and ‘sense giving’ (Vlaar et al., 2008). ‘Participation’ and ‘activity engagement’ refer to answering team members’ questions (Bagozzi & Dholakia, 2006) as well as being active in virtual open-source development teams (Hertel et al., 2003). ‘Requirement gathering’ is when users share business and technical knowledge and their expectations of the software with the development team (Hands et al., 2004). Furthermore, in the knowledge sharing process the clients and users of the system’s feedback needs to be embedded in the development process (Williams, 2011).
+Researchers study knowledge sharing as part of knowledge management in software development 
+and knowledge sharing failure in software companies (Kautz, 2008; Kukko, 2013). However, these studies focus mainly on knowledge sharing and knowledge sharing failures within software development teams (Chugh et al., 2020), or on barriers to knowledge sharing in developing software (Habeh et al., 2020). There are also many studies looking at user-developers’ communication during the development process of systems such as architecture, engineering and construction (Moraru & Pozanski, 2020) and particularly in software development systems (Bon, 2020). Communication International Journal of Knowledge Management
+Volume 18 • Issue 1
+5challenges between AI developers and users who are bio-medical scientists have also been studied in 
+scientific discovery studies (Zhang et al., 2020). However, the topic of knowledge sharing between users (HR managers) and AI developers is underdeveloped as AI is an emerging field in HR.
+In this section, the conceptual framework was explored and reviewed. To explain how knowledge 
+sharing between HR managers and AI developers may lead to mitigating biases in developing AI, the research design and data analysis are discussed in the following section.
+ReSeARCH D eSIGN
+To respond to the research question − how can knowledge sharing between HR managers and AI developers mitigate cognitive biases in developing AI recruitment systems? − semi-structured interviews were carried out by asking open-ended questions. In this study, open-ended questions were asked to allow interviewees to talk freely and to allow the lead researcher to gain as much information as possible. The questions were about cognitive biases that are likely to occur in the recruitment and selection process and might happen in AIRS as training datasets, the development process of AIRS, and/or strategies to mitigate cognitive biases in the development process of AIRS.
+Interviews were conducted with twenty-one HR managers and fourteen AI developers globally, 
+including countries such as New Zealand, Australia, USA, Germany, Israel, and India. Interviews were conducted in English. Out of twenty-one HR managers, sixteen were female, and five were male, with an average of fourteen years of work experience in HR. Among fourteen AI developers, two were female, and twelve were male, from AI companies in various countries (New Zealand, Australia, USA, Germany, Israel, and India). The number of AI developers interviewed in this study is less than the number of HR participants because the pool of participants who are experts in developing AI for the recruitment and selection process is very limited. The demographic information on HR managers and AI developers is shown in the Appendix.
+Since cognitive biases in AI-assisted decision-making is a rather new issue (Haenlein & Kaplan, 
+2019), there is a lack of theory about mitigating cognitive biases in the development process of AI, more specifically in the HR sector. For this reason, grounded theory was a well-suited method for this study as this theory enables the researcher to develop a new and relevant theory that is grounded in the field data (Glaser & Strauss, 1967). The grounded theory approach in this study helps to provide an understanding of how to mitigate cognitive biases in the development process of AIRS with the knowledge sharing between HR managers and AI developers. Grounded theory allowed such an understanding to be grounded in the field experience of the practitioners in situ. In the next section, data collection and data analysis are explained.
+Data Analysis
+Data collection and data analysis were done simultaneously (Figure 2). Categories were identified 
+using three coding strategies: open coding, axial coding, and selective coding (Glaser & Strauss, 1967). The QSR NVivo 12 software package was used as a tool to identify and present the categories. To collect data, the principal researcher followed the grounded theory sampling procedures. The criteria for selecting the interviewees in different phases included a) HR managers who have experiences in the recruitment and selection decisions b) HR managers who were more conceptually knowledgeable about AI and more technically familiar with the process of developing AI, c) AI developers who were experts in AI development for recruitment purposes.
+First, data were collected from ten HR managers to understand the recruitment and selection 
+process, finding out common biases that might happen in the recruitment and selection process, and understanding HR managers’ views on using AI for the recruitment and selection process and mitigating their biases in the hiring decisions by using AI.
+Initial data analysis started with memo-writing to gain familiarity with the context and main 
+points. Then the principal researcher assigned open codes to each sentence or paragraph. This process International Journal of Knowledge Management
+Volume 18 • Issue 1
+6continued for each interview transcript until all texts within the transcripts were coded. Whenever 
+needed, more than one code was assigned to a sentence or paragraph to find various and possible descriptions for each concept (Glaser, 1978). The codes were then cross-checked with the second researcher. They discussed the results after each interview analysis and resolved any disagreement upon the codes to ensure that their coding was consistent with each other.
+After data analysis in phase 1 of the data collection from HR managers, the principal researcher 
+decided to collect more data about some codes (theoretical sensitivity), and more purposeful questions were asked. The reason for collecting more data was to better understand HR managers’ perception of the use of AI in the recruitment and selection process. As Glaser and Strauss (1967) mention, the “analyst decides what data to collect next and where to find them in order to develop her theory as it emerges” (p. 45). In phase 2, the principal researcher, who had conducted phase 1, interviewed eleven HR managers who are more conceptually knowledgeable about AI and more technically familiar with the process of developing AI (theoretical sampling). This phase mostly focused on understanding HR managers’ views on collaborating with AI developers in the AI development process.
+When conceptual codes were derived, the codes were grouped under “more abstract explanatory 
+terms, conceptual categories” (Strauss & Corbin, 1998, p. 114). Codes mentioned by no more than two informants were excluded from the data analysis, as the codes did not seem to be a concern for most of the informants. The number of conceptual codes changed over the process of data gathering and analysis. Some categories were combined and some new categories emerged. Table 1 illustrates an example of a developed conceptual category.
+Once the data were analyzed in phase 2, the researchers conducted theoretical sampling to better 
+understand how AI is developed for the recruitment and selection process (theoretical sensitivity). For this reason, AI developers who were experts in AI development for recruitment purposes were interviewed. Eight AI developers were interviewed to better understand the development process of AI in the recruitment and selection process, their understanding of any cognitive biases, and the strategies for mitigating biases in the development process. The data were analyzed by the principal researcher and cross-checked with the second researcher. This phase was followed by further interviews. In phase Figure 2. Data collection and analysis process
+International Journal of Knowledge Management
+Volume 18 • Issue 1
+74, six AI developers were interviewed to further explore what strategies or techniques AI developers 
+use to mitigate cognitive biases in developing AIRS. This phase focused particularly on AI developers and HR managers’ collaboration. The same steps used in analyzing HR managers’ data were followed for analyzing AI developers’ data.
+By the end of phase 4, thirty-one conceptual codes such as understanding job functions, engaging 
+with HR managers and employees, data labeling, choosing predictor variables, giving feedback by testing ML models, applying feedback into the model, cliché bias, and like-me bias were identified. The conceptual codes constitute nine conceptual categories such as HR managers’ assumptions and requirements, data preparation, codifying assumptions, and retraining ML models. Table 2 presents samples of the coding process.
+FINDINGS
+The findings show that AI developers and HR managers can share their knowledge at three stages during the design and development of AIRS − pre-development process, development process, and post-development process − to mitigate AIRS biases.
+Pre-Development Process
+The pre-development process refers to articulating the requirements of AIRS, engaging with HR 
+managers, and asking HR managers good questions to understand job position requirements. Thus, a good understanding of essential criteria for each position is required to develop less biased AI. The statements below show that AI developers believe that HR managers should share their knowledge and articulate what they need before developing AI for recruiting:
+I think HR managers should understand that AI is not a magic thing, it is something developed by 
+someone who is prone to errors. So, they really need to set the expectations right in the first place. (AI developer, 10)
+For the recruitment, it’s all about first being educated about what it really means. So when you talk 
+about job requirements, and knowing what characteristics make that person the right person, it eases the pain on the AI developers on how they need to model those. (AI developer, 14)
+Although AI developers point to HR managers’ responsibility to share their knowledge and 
+articulate each job position’s requirements, they believe that it is the AI developers’ responsibility to know how to engage with HR managers and benefit from HR managers’ knowledge. The statements below indicate that AI developers need to know what questions to ask HR managers to understand job functions and the requirements in the first stage of the development process:Table 1. An example of a developed conceptual category
+Conceptual codes Conceptual categories
+Accurate datasets
+Data preparationEnough datasets
+Diverse datasetsSmall datasetsIncomplete datasetsInternational Journal of Knowledge Management
+Volume 18 • Issue 1
+8The developer needs to understand what questions to ask and AI developers need to work on this 
+skill. Also, HR people should help developers by thinking of important points for example, what little gotchas are there that maybe the machine learning person isn’t aware of? (AI developer, 1)
+AI developers should ask the right questions from HR, like, which are going to be the attributes or 
+parameters in each job position. (AI developer, 10)Table 2. Samples of coding process
+Selective Coding Axial Coding Open Coding
+Exemplary Excerpts
+Core Category Sub-core Categories Conceptual Categories Conceptual Codes
+Developing 
+unbiased AIRSUnderstanding 
+requirements (pre-
+development process)HR managers’ 
+assumptions and 
+requirementsUnderstanding job 
+functions“Maybe don’t know what they’re looking for. And so I think what we need to do before AI can really help us fix the start of the process in terms of understanding what it is that we’re looking for first, so that everyone knows, everyone at the start of the process is aware of what we’re looking for and drawing the right information out”(HR manager, 8).
+Engaging with HR managers and employees“The very early stages of our development process are engaging with a company. We’re looking at, what is this particular role you’re hiring for? (AI developer, 4).
+Harmonizing data with human input and developing ML models (development process)Data preparation Data labeling“HR managers can collaborate and do the annotation of data, making datasets to be supervised” (AI developer, 7).
+Codifying assumptionsChoosing predictor variables“It also depends on managers, so you might have a role and over a period of 20 years there are five different managers that manage that role, the chosen elements will be very different for all five of those because the managers will put their own view forward” (HR manager, 10).
+Finding biases and 
+retraining ML models 
+(post-development process)Retraining ML modelsGiving feedback by testing ML models“Having a good feedback loop and the ability that AI developers can communicate with users is very important” (AI developer, 7).
+Applying feedback into the model“If HR managers can share the data, anonymous data, I think it helps advance AI eco systems and most of the time the loop is never closed. So, no feedback is really provided, let’s say six months down the road, one year down the road, to correct it if there are any wrong elements inside those algorithms” (AI developer, 14).
+Past decisions’ biasesCliché bias“So, I know the engineers at that company are really good. And so that person gets a little bit more credibility when I read her CV because I know from experience that she’s a really good engineer if she’s been working for five years in that company” (HR manager, 10).
+Like-me bias“People in the panel are somehow similar. Yeah, so that kind of reinforces the, you know, hiring someone like us” (HR manager, 4).International Journal of Knowledge Management
+Volume 18 • Issue 1
+9One challenge, however, seems to be the difficulty of articulating expectations (e.g. job 
+requirements). HR managers point out that HR managers sometimes cannot explain what they want 
+because they have incorrect assumptions about the job positions. Incorrect assumptions include a limited understanding of the job functions and the required soft skills for a job position. The statement below shows that when an HR manager is unaware of the actual requirements of the job positions, they only consider the requirements based on job descriptions rather than the job functions:
+Sometimes, I’m trying to recruit for a skill that I don’t have, but understanding what I need might be 
+difficult. The person that was hired was going to have very little awareness of what the actual job needs. (HR manager, 5)
+The following HR manager, who is an experienced manager with twenty years of experience in 
+HR, explains that they very often rely on the job description to identify the skills, instead of looking at the actual requirements. This, however, leads to a hiring that is very unlikely to fill the skill gap for which the recruitment is taking place:
+Very often, teams are not even aware of the work they do. So, they hire for a defined role and not 
+for a gap. They say ‘we need another tester.’ instead of ‘we need someone who’s going to do a lot of the communications and upward reporting or spreading the information about the quality of the product’. (HR manager, 1)
+The ambiguity and inaccuracy of the job expectations and requirements are often passed on to 
+the AI developers. The statement below highlights how important the knowledge of employees about the job position is to help developers understand the positions better to improve their ML models. The knowledge that AI developers need about the job position is more than what is outlined in the job description. The knowledge about the job requirements should come from the employees who are working in the relevant job positions in the company:
+When we think about developing AI systems for HR within a particular business culture, we would 
+expect that you would get input from stakeholders who are actually in that role within that company, and that is the only way we can make this work. (AI developer, 1)
+The need for the knowledge sharing between HR managers and AI developers extends into 
+the development process, where the two parties should work together and share their knowledge to mitigate cognitive biases in developing AIRS.
+Development Process
+The development process involves HR managers and AI developers’ knowledge sharing for preparing 
+datasets regarding labeling data to train algorithms. Moreover, HR experts such as academics in the HR field can assist AI developers to prepare representative datasets and train algorithms that are not biased towards a particular group. The statement below reveals the important role that HR managers can play to exchange knowledge with AI developers about various aspects of the AI system. HR managers’ knowledge enables developers to identify raw data and add meaningful, informative, and unique “labels” to datasets. Having meaningful labeled data leads to providing context that a machine learning model can learn from:
+HR managers can collaborate and do the annotation of data, making datasets to be supervised. So 
+how you actually clean that dataset and make it something that is good enough, that you don’t have International Journal of Knowledge Management
+Volume 18 • Issue 1
+10two things that represent the same thing or don’t have something completely wrong. So human experts 
+can at least curate data labeling. (AI developer, 7)
+Another AI developer, who is the founder of an AI recruitment company, further explains that 
+with experts in the HR field, such as academics, they can “curate” datasets and prepare diverse and representative datasets considering different ages, genders, demographics, and education levels for training AI:
+It’s hard sometimes for us as individual builders of technology, to effectively curate all of the datasets 
+ourselves. We need research partners; we need academic partners who can help us do that. Having academics as research partners help us curate datasets that cover different ages and genders and demographics and education levels. (AI developer, 5)
+The knowledge sharing during the development process is not a one-way process in which AI 
+developers are the knowledge providers. The knowledge sharing that occurs during this process is two-way knowledge sharing. Without real two-way knowledge sharing, the AIRS that is developed is likely to fail to make unbiased decisions. These two developers elaborate:
+Bias is a really complex concept, and it cannot be solved technically. It has to be solved through 
+communication and collaboration, it needs different stakeholders coming together and having just general conversations so that they can pick up on these things. It shouldn’t be solved by a bunch of machine learning AI researchers sitting in an office somewhere, most of whom are male. (AI developer, 1)
+Although training AI is done by engineers, HR managers are still the trainer of the system and 
+involved in the development process. For example, recruiters can type fake conversations and see how it understands the conversation and find out the errors. So, basically, HR is kind of involved in the development process. (AI developer, 12)
+After the development process, HR managers and AI developers’ knowledge sharing is still 
+required to helps examine and mitigate the AIRS’ biases.
+Post-Development Process
+The post-development process explains the knowledge sharing between HR managers and AI 
+developers after developing AIRS. The knowledge sharing in this process includes testing ML models, retraining and tuning ML models based on HR managers’ feedback to mitigate biases. According to findings from AI developers, AI developers believe that HR managers can test the ML models and give feedback about ML models’ unforeseen problems such as biases in a pilot study. They can give feedback based on the AI systems’ scores and outcomes after hiring the candidate. While AI is ranking the test samples, HR managers can rank the same test samples and help developers with their knowledge to improve their model and determine what is missing from AI outcomes. Then, AI can learn from the results that HR managers generated:
+Whenever we start a project with a customer, we do a pilot that usually runs within three to six months, 
+depending on the number of roles they’re hiring, and how large the organization is. So, in the pilot, candidates take our test and they are assessed in the regular way that the organization assesses by a system. Then, we can see the correlation between our scores and the outcomes. Then, there’s a discussion around that: do the outcomes make sense? If all parties agree, the predictions are well aligned; then we go live with the product. (AI developer, 2)International Journal of Knowledge Management
+Volume 18 • Issue 1
+11One of our very early stage phase one research projects will involve us taking a sample set of candidate 
+videos, and feeding that to a test group of HR executives, who would rank these candidate videos in certain soft skill attributes up to 10 to see what they came up with. We had our AI go through the same process to make those same rankings based off how we had built it to assess the inputs it was receiving from the video feed. And then we compare these two. Then we brought all this knowledge over from what the Human Resources said, and put it into our machine learning or modeling and maybe I’m looking at this batch of videos with human beings to see the missing parts in our outcomes. (AI developer, 5)
+DISCUSSI oN
+The findings of this study demonstrate the vital role of cross-functional knowledge sharing between HR managers and AI developers. Both AI developers and HR managers are responsible for developing less biased AI. The responsibility manifests itself in the extent to which the two parties share their knowledge in the pre-, during, and post-development processes. The nature of software development implies the significance of effective knowledge sharing in the development process (Ghobadi, 2015). The AI development process is a knowledge-intensive process. According to Jennex et al. (2009), the effective implementation of knowledge sharing can significantly improve such knowledge-intensive and technological processes. HR managers and AI developers can share their knowledge in different stages of developing AIRS such as building ML models based on important criteria for each job position, preparing datasets (labeling data) for training ML models, testing ML models and giving feedback, retraining and improving models based on managers’ feedback.
+Understanding important criteria for each job position refers to requirements gathering in software 
+development before starting the development process. Using inappropriate inputs such as choosing the required characteristics of job positions might lead to developing biased AIRS. Tambe et al. (2019) argue that ML models might be biased as they are based on managers’ assumptions about required criteria for managerial decision making. Examining criteria separately and finding out how the criteria are weighted is difficult for humans (Shrestha et al., 2019). When HR managers understand the requirements of each job position and how criteria should be weighted, they can contribute to developing AIRS by sharing their knowledge with AI developers. Moreover, in software development, identifying business requirements and understanding users of the software is important (Courage & Baxter, 2004). To improve ML models, AI developers need to engage with HR managers and employees who are working in the same or similar roles to be familiar with job functions and required criteria.
+While AI developers are developing AIRS, HR managers can assist AI developers in labeling 
+data for training AI based on their technical knowledge. Manyika et al. (2018) mention that training ML still requires human effort to label datasets for training AI. In addition, HR managers’ feedback can assist AI developers to make their ML models better. Users’ feedback is part of knowledge sharing in software development (Williams, 2011). Users’ feedback refers to applying users’ views and feedback while developing software. In developing AIRS, HR managers’ feedback can help AI developers to determine biases and retrain AI to improve the model.
+Based on the findings of this study, the following conceptual model has been developed (Figure 
+3). The conceptual model shows the knowledge sharing between HR managers and AI developers in three stages of developing AIRS.
+The conceptual model demonstrates that both HR managers and AI developers need to understand 
+the job functions and important criteria to develop a model. Then, HR managers’ knowledge can significantly help AI developers to more accurately label datasets and prepare datasets for training AI algorithms. When the model is developed, HR managers need to test it to determine whether the AIRS are biased, for example, being biased towards or against a particular group. After testing the ML model and receiving feedback from HR managers, AI developers can retrain and improve the ML model.International Journal of Knowledge Management
+Volume 18 • Issue 1
+12CoNCLUSI oN
+AI for recruitment holds promise for enhancing the recruitment and selection process as well as 
+reducing unconscious biases in hiring decisions. However, biased AI negatively affects hiring decisions. There is a considerable research gap about how less biased AI can be developed. This study proposes a knowledge sharing model for AI developers and HR managers for developing AIRS that can mitigate cognitive biases in AIRS.
+While this study focused on the role of knowledge sharing in developing AIRS, the findings 
+of this study can inform other fields such as healthcare and logistics to understand how knowledge sharing between the users of AI systems and AI developers can mitigate biases in developing AI. For example, a recent study by Piorkowski et al. (2021) shows that there are communication and collaboration problems between AI developers and external stakeholders such as domain experts and business experts that cause challenges in developing AI.
+The conceptual model can provide insight into improving knowledge sharing in developing AI 
+in practice and research. In practice, the conceptual model can be applied as a guideline for both HR managers and AI developers for developing AIRS. Moreover, this study contributes to the growing discussion of knowledge sharing in the systems development life cycle (SDLC) among academics.
+Developing AI in the recruitment and selection process is a relatively new field. Finding AI developers 
+who are experienced in developing AI for recruitment was one of the challenges of this study. Furthermore, AI developers could not give information about some of their strategies that they were applying for developing their product and mitigating biases due to their companies’ internal confidentiality policies. In addition, developers are not necessarily willing to talk about the negative aspects of their products.
+This study is qualitative and exploratory, and data was collected by conducting interviews. The 
+conceptual model can be tested in future research where AI developers and HR managers work in a real situation and share their knowledge. This study introduced a model that provides a basis for understanding in what ways AI developers’ and users (e.g. HR managers’) knowledge sharing in different stages of developing AI can help to develop less biased AI.
+ACKN owLeDGM eNT
+We acknowledge that an earlier version of this paper was delivered at HICCS 2021. We also would like to thank the HR managers and AI engineers who participated in this study for being generous with their time and perspectives.Figure 3. Knowledge sharing between AI developers and HR managers in developing AI recruitment systems
+International Journal of Knowledge Management
+Volume 18 • Issue 1
+13ReFeReNCeS
+Akerkar, R. (2013). Big Data Computing. Taylor & Francis Group. doi:10.1201/b16014
+Akerkar, R. (2019). Artificial Intelligence for Business. Springer Nature Switzerland AG. doi:10.1007/978-3-
+319-97436-1
+Aladwani, A. M., Rai, A., & Ramaprasad, A. (2000). Formal Participation and Performance of the System 
+Development Group: The Role of Group Heterogeneity and Group-Based Rewards. The Data Base for Advances 
+in Information Systems, 31(4), 25–40. doi:10.1145/506760.506763
+Albert, E. T. (2019). AI in talent acquisition: A review of AI-applications used in recruitment and selection. 
+Strategic HR Review, 18(5), 215–221. doi:10.1108/SHR-04-2019-0024
+Bagozzi, R. P., & Dholakia, U. M. (2006). Open source software user communities: A study of participation in 
+Linux user groups. Management Science, 52(7), 1099–1115. doi:10.1287/mnsc.1060.0545
+Bazerman, M. H., & Moore, D. A. (2013). Judgement in Managerial Decision making. Wiley.Bon, A. (2020). Intervention or collaboration? redesigning information and communication technologies for 
+development. Pangea., doi:10.26481/dis.20201215abBuijsrogge, A. (2014). Bias in interview judgments of stigmatized applicants: A dual process approach  [Doctoral 
+dissertation]. Ghent University.
+Chen, H. L., Chuang, K. T., & Chen, M. S. (2008). On data labeling for clustering categorical data. IEEE 
+Transactions on Knowledge and Data Engineering, 20(11), 1458–1471. doi:10.1109/TKDE.2008.81
+Chua, A. L., & Pan, S. L. (2008). Knowledge transfer and organizational learning in IS offshore sourcing. Omega , 
+36(2), 267–281. doi:10.1016/j.omega.2006.06.008Chugh, M., Chanderwal, N., Upadhyay, R. K., & Punia, D. K. (2020, May). Antecedents and consequences 
+of knowledge sharing for software process improvement in the Indian software industry. Journal of Software: 
+Evolution and Process, 1–18.
+Cormen, T. (2009). Introduction to algorithms. MIT Press.
+Courage, C., & Baxter, K. (2004). Understanding your users : A practical guide to user requirements methods, 
+tools, and techniques. Morgan Kaufmann.
+Cummings, J. N. (2004). Work Groups, Structural Diversity, and Knowledge Sharing in a Global Organization. 
+Management Science, 50(3), 352–364. doi:10.1287/mnsc.1030.0134
+Duhaime, I., & Schwenk, C. (1985). Conjectures on Cognitive Simplification in Acquisition and Divestment 
+Decision Making. Academy of Management Review, 10(2), 287–295. doi:10.5465/amr.1985.4278207
+Ghafoor, S., Khan, R., & Humayun, M. (2015). A Survey of Knowledge Management Techniques in SDLC to 
+improve Software Quality. Journal of Computer Sciences and Communicatin, 1(2), 12–31.
+Ghobadi, S. (2015). What drives knowledge sharing in software development teams: A literature review and 
+classification framework. Information & Management, 52(1), 82–97. doi:10.1016/j.im.2014.10.008
+Glaser, B. (1978). Theoretical Sensitivity: Advances in the methodology of grounded theory. Sociology Press.Glaser, B., & Strauss, A. (1967). The discovery of grounded theory: Strategies for qualitative research. Aldine 
+De Gruyter.Gressel, S., Pauleen, D., & Taskin, N. (2020). Management decision-making, big data and analytics. Sage 
+(Atlanta, Ga.).Habeh, O., Thekrallah, F., Salloum, S. A., & Shaalan, K. (2020). Recent Advances in Intelligent Systems and 
+Smart Applications. In M. Al-Emran, K. Shaalan, & A. E. Hassanien (Eds.), Recent Advances in Intelligent 
+Systems and Smart Applications (Vol. 295, pp. 121–141). Springer. doi:10.1007/978-3-030-47411-9_7
+Haenlein, M., & Kaplan, A. (2019). A brief history of artificial intelligence: On the past, present, and future of 
+artificial intelligence. California Management Review, 61(4), 5–14. doi:10.1177/0008125619864925International Journal of Knowledge Management
+Volume 18 • Issue 1
+14Hands, K., Peiris, D. R., & Gregor, P. (2004). Development of a computer-based interviewing tool to enhance 
+the requirements gathering process. Requirements Engineering , 9(3), 204–216. doi:10.1007/s00766-003-0185-x
+Hanisch, J., & Corbitt, B. (2007). Impediments to requirements engineering during global software development. European Journal of Information Systems, 16(6), 793–805. doi:10.1057/palgrave.ejis.3000723
+Hertel, G., Niedner, S., & Herrmann, S. (2003). Motivation of software developers in open source projects: 
+An Internet-based survey of contributors to the Linux kernel. Research Policy, 32(7), 1159–1177. doi:10.1016/
+S0048-7333(03)00047-7
+Intezari, A., & Pauleen, D. (2019). Wisdom, Analytics and Wicked Problems: Integral Decision Making for the 
+Data Age. Routledge.Intezari, A., & Pauleen, D. J. (2020). Time-Bounded Decision Making: What We Need to Know About Knowledge. 
+In M. E. Jennex (Ed.), Knowledge management, innovation, and entrepreneurship in a changing world (pp. 
+187–208). IGI Global. doi:10.4018/978-1-7998-2355-1.ch008
+James, B. (1984). Cognitive Biases and Their Impact on Strategic Planning. Strategic Management Journal, 
+5(2), 129–137. doi:10.1002/smj.4250050204
+Jennex, M. E., Smolnik, S., & Croasdell, D. T. (2009). Towards a consensus knowledge management success 
+definition. Vine, 39(2), 174–188. doi:10.1108/03055720910988878
+Jordan, M. I., & Mitchell, T. M. (2015). Machine learning: Trends, perspectives, and prospects. Science , 
+349(6245), 255–260. doi:10.1126/science.aaa8415 PMID:26185243Kahneman, D., Lovallo, D., & Sibony, O. (2011, June). Before you make the big decision. Harvard Business 
+Review.Kaplan, A., & Haenlein, M. (2019a). Rulers of the world, unite! The challenges and opportunities of artificial 
+intelligence. Business Horizons, 63(1), 37–50. doi:10.1016/j.bushor.2019.09.003
+Kaplan, A., & Haenlein, M. (2019b). Siri, Siri, in my hand: Who’s the fairest in the land? On the interpretations, 
+illustrations, and implications of artificial intelligence. Business Horizons , 62(1), 15–25. doi:10.1016/j.
+bushor.2018.08.004
+Kautz, K. (2008). Towards an Integrated Model of Knowledge Sharing in Software Development: Insights from 
+a Case Study. In Knowledge Networks (pp. 1–402). The Social Software Perspective.
+Kukko, M. (2013). Knowledge sharing barriers in organic growth: A case study from a software company. The 
+Journal of High Technology Management Research, 24(1), 18–29. doi:10.1016/j.hitech.2013.02.006Kumar, R. (2017). Machine Learning and Cognition in Enterprises. Apress.Manyika, J., Bughin, J., Silberg, J., & Gumbel, P. (2018). The promise and challenge of the age of Artificial 
+Intelligence. McKinsey & Company.
+Martin, K. (2018). Ethical Implications and Accountability of Algorithms. Journal of Business Ethics, 1–16.
+Mehling, M. A., Asselt, V., Das, K., & Droege, S. (2018). Design AI so that it is fair. Springer Nature, 559, 
+324–326.Minsky, M. (1968). Semantic Information Processing. MIT Press.Moraru, A. C., & Pozanski, K. (2020). Integrating BIM, Virtual Reality and Serious Gaming for effective 
+collaboration and communication between end-users and the design team  [Doctoral dissertation]. Aalborg 
+University.Moss-Racusin, C. A., Dovidio, J. F., Brescoll, V. L., Graham, M. J., & Handelsman, J. (2012). Science faculty’s 
+subtle gender biases favor male students. Proceedings of the National Academy of Sciences of the United States 
+of America, 109(41), 16474–16479. doi:10.1073/pnas.1211286109 PMID:22988126
+Nilsson, N. J. (1998). Introduction to machine learning. An Early Draft of A Proposed Textbook.International Journal of Knowledge Management
+Volume 18 • Issue 1
+15Ntoutsi, E., Fafalios, P., Gadiraju, U., Iosifidis, V., Nejdl, W., Vidal, M. E., Ruggieri, S., Turini, F., Papadopoulos, 
+S., Krasanakis, E., Kompatsiaris, I., Kinder-Kurlanda, K., Wagner, C., Karimi, F., Fernandez, M., Alani, H., Berendt, B., Kruegel, T., Heinze, C., & Staab, S. et al. (2020). Bias in data-driven artificial intelligence systems—An introductory survey. Wiley Interdisciplinary Reviews. Data Mining and Knowledge Discovery, 
+10(3), 1–14. doi:10.1002/widm.1356
+Pardo, T. A., Cresswell, A. M., Thompson, F., & Zhang, J. (2006). Knowledge sharing in cross-boundary 
+information system development in the public sector. Information Technology and Management, 7(4), 293–313. 
+doi:10.1007/s10799-006-0278-6
+Patnayakuni, R., Rai, A., & Tiwana, A. (2007). Systems development process improvement: A knowledge 
+integration perspective. IEEE Transactions on Engineering Management , 54(2), 286–300. doi:10.1109/
+TEM.2007.893997
+Piorkowski, D., Park, S., Wang, A. Y. I., Wang, D., Muller, M., & Portnoy, F. (2021). How AI Developers 
+Overcome Communication Challenges in a Multidisciplinary Team: A Case Study. ArXiv, 1–25.
+Probodha, J., & Vasanthapriyan, S. (2019). Analysis of Knowledge Sharing Barriers in Sri Lankan Software 
+Companies. International Journal of Knowledge Management, 15(4), 78–93. doi:10.4018/IJKM.2019100105
+Rhem, A. J. (2020). AI ethics and its impact on knowledge management. AI and Ethics , 1(1), 33–37. doi:10.1007/
+s43681-020-00015-2
+Saifee, M. (2020). Can AI Algorithms be Biased? Retrieved 22 January 2020 from https://towardsdatascience.
+com/can-ai-algorithms-be-biased-6ab05f499ed6Scholz, T. M. (2017). Big Data in Organizations and the Role of Human Resource Management. In Big Data in 
+Organizations and the Role of Human Resource Management. Peter Lang GmbH. doi:10.3726/b10907Schott, K. (2011). Vendor-vendor knowledge transfer in global ISD outsourcing projects: Insights from a German 
+case study. PACIS 2011 - 15th Pacific Asia Conference on Information Systems: Quality Research in Pacific.
+Shrestha, Y. R., Ben-Menahem, S. M., & von Krogh, G. (2019). Organizational Decision Making Structures in 
+the Age of Artificial Intelligence. California Management Review , 61(4), 66–83. doi:10.1177/0008125619862257
+Simon, H. A. (1997). Models of Bounded Rationality  : Empirically Grounded Economic Reason . The MIT Press. 
+doi:10.7551/mitpress/4711.001.0001
+Soleimani, M., Intezari, A., Taskin, N., & Pauleen, D. (2021). Cognitive biases in developing biased Artificial 
+Intelligence recruitment system. Hawaii International Conference on System Sciences, 54, 5091–5099.
+Strauss, A., & Corbin, J. (1998). Basics of qualitative research : techniques and procedures for developing 
+grounded theory. SAGE Publications.
+Tambe, P., Cappelli, P., & Yakubovich, V. (2019). Artificial Intelligence in Human Resources Management: C 
+hallenges and a Path Forward. California Management Review, 61(4), 15–42. doi:10.1177/0008125619867910
+Taniguchi, H., Sato, H., & Shirakawa, T. (2018). A machine learning model with human cognitive biases capable of learning from small and biased datasets. Scientific Reports, 8(1), 7397. doi:10.1038/s41598-018-25679-z 
+PMID:29743630
+Upadhyay, A. K., & Khandelwal, K. (2018). Applying artificial intelligence: Implications for recruitment. 
+Strategic HR Review, 17(5), 255–258. doi:10.1108/SHR-07-2018-0051
+Varshney, K. (2018). Introducing AI Fairness 360 . IBM. https://www.ibm.com/blogs/research/2018/09/ai-
+fairness-360/
+Vedapradha, R., Hariharan, R., & Shivakami, R. (2019). Artificial Intelligence: A Technological Prototype in 
+Recruitment. Journal of Service Science and Management, 12(03), 382–390. doi:10.4236/jssm.2019.123026
+Vlaar, P., Fenema, P., & Tiwari, V. (2008). Cocreating Understanding and Value in Distributed Work: How 
+Members of Onsite and Offshore Vendor Teams Give, Make, Demand, and Break Sense. Management Information 
+Systems Quarterly, 32(2), 227–255. doi:10.2307/25148839International Journal of Knowledge Management
+Volume 18 • Issue 1
+16Walz, D. B., Elam, J. J., & Curtis, B. (1993). Inside a software design team: Knowledge acquisition, sharing, 
+and integration. Communications of the ACM, 36(10), 63–77. doi:10.1145/163430.163447
+Waterson, P. E., Clegg, C. W., & Axtell, C. M. (1997). The dynamics of work organization, knowledge and 
+technology during software development. International Journal of Human-Computer Studies, 46(1), 79–101. 
+doi:10.1006/ijhc.1996.0084
+Williams, C. (2011). Client-vendor knowledge transfer in IS offshore outsourcing: Insights from a survey of 
+Indian software engineers. Information Systems Journal , 21(4), 335–356. doi:10.1111/j.1365-2575.2010.00354.x
+Wiredu, G. O. (2011). Understanding the functions of teleconferences for coordinating global software development projects. Information Systems Journal, 21(2), 175–194. doi:10.1111/j.1365-2575.2010.00364.x
+Zhang, A. X., Muller, M., & Wang, D. (2019). How do data science workers collaborate? Roles, workflows, and 
+tools. Proceedings Of the ACM on Human-Computer Interaction 3, 4(May), 1–23.
+Zheng, H., Kulkarni, S., & Poor, V. (2013). A sequential predictor retraining algorithm and its application to 
+market prediction. Annals of Operations Research, 208(1), 209–225. doi:10.1007/s10479-013-1396-2International Journal of Knowledge Management
+Volume 18 • Issue 1
+17APP eNDIX A: D eMoGRAPHIC INF oRMATI oN
+Table 3. AI developers’ demographics
+ID Gender AgeExperience 
+(Year)PositionAcademic 
+QualificationCountry
+1 Female 30 3 Data scientist PhD Australia
+2 Male 32 5 Data scientist Master Australia
+3 Male 35 5 AI Engineer Master Germany
+4 Female 35 4 Data scientist PhD United States
+5 Male 44 3 Project Manager College degree United States
+6 Male 35 3 Solution Engineer Bachelor New Zealand
+7 Male 31 5 Data scientist Master Israel
+8 Male 30 3 AI Engineer Bachelor New Zealand
+9 Male 27 4 AI Engineer Bachelor United States
+10 Male 27 4 AI Engineer Master India
+11 Male 40 4 AI Engineer Master New Zealand
+12 Male 30 3 AI Engineer Master United States
+13 Male 50 6 AI Engineer PhD United States
+14 Male 34 4 AI Engineer PhD United States
+Table 4. HR managers’ demographics
+ID Gender AgeExperience 
+(Year)Field PositionAcademic 
+QualificationAI familiarity 
+Scale (1-10)
+Conceptually Technically
+1 Female 42 22 Technology HR manager PhD of HR 7 0
+2 Female 50 17 SportGeneral 
+managerHigh school 0 0
+3 Female 44 14 EngineeringPeople managerBachelor of education6 0
+4 Male 41 18 ConsultancyAssociate directorMaster of commerce9 3
+5 Male 43 15 Education instituteMiddle managerMaster of business8 0
+6 Male 28 1 Recruiter agency RecruiterBachelor of management7 3
+7 Female 59 25 Technology HR mangerMaster of psychology5 0
+8 Female 29 7 TechnologyPartner development managerMaster of technology9 3
+9 Female 32 7 FinanceHR researcherMaster of psychology7 0
+continued on following pageInternational Journal of Knowledge Management
+Volume 18 • Issue 1
+18Ali Intezari (PhD) is a Lecturer at UQ Business School, University of Queensland, Brisbane, Australia. His research 
+studies are published in the very top international journals such as Decision Sciences, Journal of Knowledge Management, Journal of Management Inquiry, Communications of the Association for Information Systems, Information Technology & People, and Journal of Business Ethics. Dr. Intezari is the lead author of the book, “Wisdom, Analytics and Wicked Problems: Integral decision-making in and beyond the information”, and the co-editor of “Practical Wisdom in the Age of Technology: Insights, Issues and Questions for a New Millennium” and “Practical Wisdom, Leadership, and Culture: Indigenous, Asian, and Middle-Eastern Perspectives.”
+David J. Pauleen is a Professor of Technology Management in the School of Management, Massey University, 
+Auckland, New Zealand. He has published extensively in the areas of emerging work practices, knowledge management, research methods, and management wisdom. He is co-editor of the Routledge Practical Wisdom in Leadership and Organization Series, and co-author of the books, Management Decision Making, Big Data and Analytics (Sage, 2021) and Wisdom, Analytics and Wicked Problems: Integral decision making in the data age (Routledge, 2019).ID Gender AgeExperience 
+(Year)Field PositionAcademic 
+QualificationAI familiarity 
+Scale (1-10)
+Conceptually Technically
+10 Male 57 14Human Resources New Zealand 
+(HRNZ)Chief 
+executive 
+officerPost-graduate 
+of HR5 0
+11 Female 49 12 Technology HR managerMaster of technology5 2
+12 Female 34 17 TelecommunicationPeople managerMaster of HR 6 2
+13 Female 45 16 ConsultancyPrinciple 
+consultantQualified degree6 2
+14 Female - 15 TelecommunicationSenior 
+recruiterBachelor of social work8 3
+15 Male 40 14 ConsultancyPrinciple consultantTertiary hospital5 2
+16 Female 44 20 BankBanking and financeMaster of tech futures9 5
+17 Female 47 9 Consultancy ConsultantMaster of tech futures7 5
+18 Female 56 20 Telecommunication HR leadMaster of tech futures7 5
+19 Female 50 17 TechnologyGlobal HR 
+managerQualified degree5 5
+20 Female 47 18 TechnologyCo-founder 
+of a start-upPost-graduate of business8 3
+21 Female 32 8 Telecommunication HR mangerQualified degree8 5Table 4. Continued

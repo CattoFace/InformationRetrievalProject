@@ -1,0 +1,987 @@
+Public Opinion Quarterly, Vol. 72, No. 5 2008, pp. 847-865
+
+SOCIAL DESIRABILITY BIAS IN CATI, IVR, AND
+WEB SURVEYS
+THE EFFECTS OF MODE AND QUESTION SENSITIVITY
+
+ 
+
+FRAUKE KREUTER
+STANLEY PRESSER
+ROGER TOURANGEAU
+
+Abstract Although it is well established that self-administered ques-
+tionnaires tend to yield fewer reports in the socially desirable direction
+than do interviewer-administered questionnaires, less is known about
+whether different modes of self-administration vary in their effects on
+socially desirable responding. In addition, most mode comparison stud-
+ies lack validation data and thus cannot separate the effects of differ-
+ential nonresponse bias from the effects of differences in measurement
+error. This paper uses survey and record data to examine mode effects
+on the reporting of potentially sensitive information by a sample of re-
+cent university graduates. Respondents were randomly assigned to one
+of three modes of data collection—conventional computer-assisted tele-
+phone interviewing (CATD, interactive voice recognition (IVR), and the
+Web—and were asked about both desirable and undesirable attributes of
+their academic experiences. University records were used to evaluate the
+accuracy of the answers and to examine differences in nonresponse bias
+by mode. Web administration increased the level of reporting of sensi-
+tive information and reporting accuracy relative to conventional CATI,
+with IVR intermediate between the other two modes. Both mode of data
+collection and the actual status of the respondent influenced whether
+respondents found an item sensitive.
+
+FRAUKE KREUTER is with the Joint Program in Survey Methodology, 1218 LeFrak Hall, University
+of Maryland, College Park, MD 20742, USA. STANLEY PRESSER is with the Sociology Department
+and the Joint Program in Survey Methodology at the University of Maryland. ROGER TOURANGEAU
+is with the Joint Program in Survey Methodology at the University of Maryland and the Institute
+for Social Research at the University of Michigan. We thank Carolina Casas-Cordero, Elisabeth
+Coutts, James Druckman, Stephanie Eckman, Michael Lemay, and four anonymous reviewers for
+critical comments and helpful suggestions. We are especially grateful to Katharine Abraham and
+Mirta Galesic who oversaw the data collection and to the Alumni Association and Registrar’s Office
+for their cooperation. Students in the JPSM Practicum class provided assistance in the development
+of the study. Michael Lemay was of great help in preparing the data sets. Address correspondence
+to Frauke Kreuter; e-mail: FKreuter@ survey.umd.edu.
+
+doi: 10.1093/poq/nfn063 Advance Access publication January 26, 2009
+© The Author 2009. Published by Oxford University Press on behalf of the American Association for Public Opinion Research.
+All rights reserved. For permissions, please e-mail: journals.permissions @ ox fordjournals.org
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+848 Kreuter, Presser, and Tourangeau
+
+Introduction
+
+Questions about sensitive topics are common in household surveys. Questions
+can be considered sensitive if respondents perceive them as intrusive, if the
+questions raise fears about the potential repercussions of disclosing the infor-
+mation, or if they trigger social desirability concerns (Tourangeau and Yan
+2007). In this paper we focus on the third type of sensitive questions, those
+that trigger social desirability concerns. The concept of social desirability rests
+on the notions that there are social norms governing some behaviors and atti-
+tudes and that people may misrepresent themselves to appear to comply with
+these norms. In the general population, for example, voting is often seen as a
+civic duty and not voting as constituting a violation of the norm. Thus some
+survey respondents overreport voting (Belli, Traugott, and Beckmann 2001).
+Similarly, some respondents underreport undesirable behaviors, such as illicit
+drug use or heavy drinking (see Tourangeau and Yan 2007). A wide variety of
+topics may be prone to social desirability effects, ranging from abortion (Jones
+and Forrest 1992) to religious service attendance (Presser and Stinson 1998)
+to having a library card (Parry and Crossley 1950), though some “sensitive”
+topics are doubtless more susceptible to social desirability biases than others.
+
+Numerous methodological studies have established that self-administration
+lessens social desirability effects. For example, Tourangeau, Rips, and Rasinski
+(2000) found that every one of nine mode experiments measuring self-reported
+illicit drug use showed higher rates of reporting with self-administration than
+with interviewer administration.
+
+Although this finding on the impact of self-administration has been repli-
+cated many times, it is not clear whether computerized self-administration
+is more effective at reducing social desirability bias than traditional paper
+methods (see Tourangeau and Yan 2007, for a recent, somewhat inconclusive,
+meta-analysis). Indeed, there are few studies that compare different meth-
+ods of self-administration, e.g., paper self-administered questionnaires versus
+audio-computer-assisted survey instruments versus interactive voice recog-
+nition versus Web administration (see Tourangeau and Smith 1996 for an
+exception).
+
+Another limitation of the prior literature on mode differences in socially
+desirable responding is that most of the studies lack validation data. Such
+data are often difficult (or impossible) to obtain; when they are available,
+they may involve very specialized populations. The lack of validation data
+forces investigators to make two assumptions in determining which mode leads
+to “better” results. The first assumption is that social desirability concerns
+lead respondents to underreport socially undesirable behaviors so that the data
+collection mode that yields higher levels of reporting is the more accurate one.
+The second assumption is that lower reports of socially desirable behaviors
+reflect more accurate answers. The extent to which these assumptions are
+correct cannot be determined without validation data.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 849
+
+Validation data are also useful in two other ways. First, underreporting
+of socially undesirable behavior is partly a function of perceived question
+sensitivity but question sensitivity depends on the respondent’s actual status
+on the variable in question. For example, an inquiry about voting is subject to
+social desirability effects only among those respondents who did not vote. Thus,
+external validation data can permit more sensitive tests of the effects of data
+collection mode (and of other variables that might affect reporting accuracy) by
+focusing on those who are at risk of misreporting. Second, mode comparisons,
+like other comparisons, are subject to nonresponse. If respondents drop out after
+the assignment to mode and the dropout rates differ by mode, nonresponse bias
+can affect the results; mode differences then represent the combined effect of
+differences in nonresponse bias and differences in reporting error. External
+data for both respondents and nonrespondents allow a direct assessment of
+the nonresponse bias. Finally, most studies of social desirability have focused
+either solely on socially undesirable behavior or socially desirable behavior,
+with the great majority examining undesirable behavior. As a result, we know
+little about the relative effect of different modes of data collection on the two
+forms of misreporting error produced by social desirability.
+
+We address all these issues in the study reported here. First, the study includes
+questions prone to both over- and underreporting. Second, it compares inter-
+viewer administration via computer-assisted telephone interviewing (CATI)
+with two methods of self-administration, interactive voice response (IVR) and
+the Web, both of which have become increasingly widespread. Third, it uses
+external records to determine respondents’ true values. In addition, the study
+collected ratings of item sensitivity at the end of the survey. Most prior stud-
+ies of social desirability biases in survey reporting rely on the researchers’
+judgments about which items are sensitive (although see Bradburn, Sudman,
+and Associates 1979, and Holbrook, Green, and Krosnick 2003, for two ex-
+ceptions). It is useful to have respondent data to confirm or disconfirm those
+judgments.
+
+Our data come from the Joint Program in Survey Methodology 2005
+Practicum survey. We use those data to explore the following questions:
+
+1. What are the relative effects of the two self-administered modes and how
+do they compare to interviewer administration of the questionnaire? Are
+there differences in the mode effects for socially desirable and undesirable
+behaviors?
+
+2. Do the record check data support the usual assumptions regarding the di-
+rection of errors (that is, most errors are in the socially desirable direction)?
+Are any other sources of systematic error apparent in the reports?
+
+3. Does the perceived level of question sensitivity vary with mode of data
+collection? If so, are mode differences mediated by perceptions of an item’s
+sensitivity?
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+850 Kreuter, Presser, and Tourangeau
+
+The Study
+
+Each year, the Joint Program in Survey Methodology (JPSM) at the University
+of Maryland carries out a survey in conjunction with its Practicum class. The
+2005 JPSM Practicum involved a survey of University of Maryland alumni.
+Interviewing was conducted by Schulman, Ronca, and Bucuvalas, Inc., in
+August and early September, 2005. The alumni were initially contacted by
+telephone and were asked a brief set of screening questions about their personal
+and household characteristics (including access to the Internet). The survey
+introduction did not refer to the potentially sensitive items in the questionnaire:
+
+Hello, my name is [INTERVIEWER’S NAME] and I’m calling on behalf of
+the University of Maryland. You have been randomly selected to participate in
+a survey of Maryland alumni. I’m not calling to ask you for a donation. I will
+be asking you about your college experience, interest in alumni activities, and
+community involvement. Your participation is strictly voluntary and you may
+skip any questions you don’t want to answer. All of your responses will be kept
+confidential. The survey will take about 10 minutes.
+
+ITEMS USED
+
+The main questionnaire included 37 questions about educational experiences,
+current relationships with the University, community involvement, and a final
+set of questions to measure the sensitivity of some of the earlier items. Most
+of the questions were included to further the research aims of the Alumni
+Association and are not relevant here. The items used for this study are listed
+in table 1 and in the remaining part of this section.
+
+Table 1 lists the items (and the question wording of the items) for which
+records were available from the Registrar’s office or the Alumni Association.
+Three of them involve socially undesirable behaviors—dropping a class, getting
+an unsatisfactory grade, and receiving an academic warning or being placed
+on probation. Four others asked about socially desirable behaviors—receiving
+academic honors, being a member of the Alumni Association, and donating
+money to the University of Maryland (two items asked about this last topic).
+The eighth item asked about the respondent’s grade point average (GPA). We
+treat GPAs lower than 2.5 as undesirable and those higher than 3.5 as desirable.
+A GPA of 3.5 or more qualifies for the Dean’s list at the University of Maryland,
+whereas GPAs below 2.5 are poor—ess than 2.0 triggers academic warning.!
+
+It is useful to note that the behaviors tapped by these items vary in their actual
+prevalence. According to the records, fewer than 3 percent of all alumni had
+been placed on academic warning or probation. This stands in contrast to the
+
+1. The perception of what constitutes a good and bad GPA will vary across individuals. However,
+this is true for the classification of any item. Using cut-points that reflect formal aspects of the
+academic system seemed a reasonable approach to capturing typical views.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 851
+
+Table |. Sensitive Items from the 2005 JPSM Practicum and Prevalence in
+Sampling Frame
+
+ 
+
+Item Question Frame
+
+ 
+
+Dropping a class During the time you were an 70.9%
+undergraduate at the University of
+Maryland, did you ever drop a class
+and receive a grade of “W’?
+
+Receiving an Did you ever receive a grade of “D” or 62.7%
+unsatisfactory grade “P’ for a class?
+(D or F)
+Receiving an academic Were you ever placed on academic 2.6%
+warning/probation warning or academic probation?
+GPA What was your cumulative overall <2.5 =15.2%
+undergraduate grade point average or
+GPA at the time you received your >3.5 =18.6%
+
+undergraduate degree’?
+
+Receiving academic ...did you graduate with cum laude, 9.5%
+honors magna cum laude, or summa cum
+laude?
+Being in the Alumni Are you a dues-paying member of the 7.3%
+Association University of Maryland Alumni
+Association?
+Donating money to Since you graduated, have you ever 25.3%
+UMD donated financially to the University
+of Maryland?
+Did you make a donation to the 8.4%
+University of Maryland in calendar
+year 2004?
+
+ 
+
+almost two-thirds of the alumni who had received an unsatisfactory or failing
+grade and the roughly 70 percent who had dropped a class at least once during
+their time as an undergraduate at Maryland.
+
+These items came relatively early in the questionnaire and were followed by
+questions on topics such as the respondent’s current relationship with the Uni-
+versity, views about alumni activities, attendance at reunions, and donations to
+the Alumni Association. The final item in the questionnaire asked respondents
+to rate the sensitivity of some of the earlier items. It began
+
+Questions sometimes have different effects on people. We'd like your opinions
+about some of the questions in this interview. [CATI/IVR:] As I mention a question,
+please indicate whether you think it might make people you know falsely report or
+exaggerate their answers. [Web:] Do you think that the following questions might
+make people you know falsely report or exaggerate their answers? (Please answer
+“yes” if you think a question might make people falsely report or exaggerate their
+answer. Otherwise please answer “no”’).
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+852 Kreuter, Presser, and Tourangeau
+
+We used this item to assess the sensitivity of the first four questions in
+table 1 (e.g., What about the question on dropping a class and a receiving
+grade of W? Would you say that this question might make people you know
+falsely report or exaggerate their answer?).*
+
+SAMPLING AND RESPONSE RATES
+
+A random sample (stratified by graduation year) was drawn from the 55,320
+individuals listed in the Registrar’s records as receiving undergraduate degrees
+from the University of Maryland from 1989 to 2002. Of the 20,000 graduates
+sampled, 10,325 could be matched to Alumni Association records containing
+telephone contact information. After various ineligible numbers were dropped,
+including those used in pretesting, 7,591 phone numbers were fielded for the
+survey.* More than a third of the telephone numbers on the Alumni Association
+records were invalid (e.g., the number was disconnected or the sample member
+did not live at the residence linked to the number). In addition, the status of
+25 percent of the telephone numbers could not be determined (e.g., an answering
+machine picked up during every one of the call attempts). A total of 1,501
+alumni completed the screener and were randomly assigned to a mode of data
+collection.+ The response rate (AAPOR Response Rate 1; AAPOR 2008) for
+the screener was 31.9 percent.° Most of the nonresponse appeared to reflect our
+inability to contact the alumni rather than their unwillingness to complete the
+interview. The refusal rate is only about 9 percent of the fielded phone numbers
+excluding the noneligible cases (see table 2).
+
+It is possible that the relatively low response rate caused nonresponse bias.
+If the participating alumni tended not to exhibit any undesirable behaviors,
+our mode comparison would be unlikely to show large differences in reporting
+error for those variables. The random assignment to a mode of data collection
+occurred after the bulk of the nonresponse, however, and thus nonresponse bias
+(at least through the screening interviews) would be expected to affect all three
+mode groups in the same way.
+
+2. One should note that the IVR respondents could not return to previous items and change their
+answers, though they could skip a question or get it repeated. CATI and Web respondents could
+conceivably have gone back to the earlier questions, though we are unaware of whether any actually
+did this.
+
+3. Among the 10,325 graduates for whom phone numbers were available, 14 were listed as
+residents of Puerto Rico, the Virgin Islands, or on military bases and were excluded from the
+sample, as were 151 listed with the same phone number as another graduate (in these cases, one
+graduate was dropped randomly). Also excluded were those who had previously been contacted
+as part of a small-scale pretest conducted during the Spring of 2005 or a larger-scale, operations
+test (7 = 1,975) conducted on July 27-28, 2005.
+
+4. For 37 individuals without access to the Web, the random assignment was restricted to CATI
+versus IVR.
+
+5. This is a conservative estimate, since it assumes that all cases for which we could not determine
+eligibility were eligible.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 853
+
+Table 2. Final Disposition Codes
+
+ 
+
+ 
+
+Total Percentage Percentage
+
+Seemingly usable phone numbers fielded 7,591 100.0 -
+Not eligible or deceased 2,889 38.1 -
+Eligible cases and unknown eligibility 4,702 61.9 100.0
+Unknown eligibility 1,914 - 40.7
+Eligible, no interview
+
+Language barrier 33 - 0.7
+
+Physically/mentally unable 7 - 0.1
+
+Noncontact 797 - 17.0
+
+Refusal 441 - 94
+
+Partial screener completion 9 - 0.2
+Screener completed and assigned to mode 1,501 - 31.9
+
+ 
+
+Table 3. True Status in Percent for Frame Data and Screener Respondents
+
+ 
+
+ 
+
+Frame data (after Respondents assigned to
+successful match to mode experiment
+Alumni Association (95% confidence
+records) intervals)
+Undesirable characteristic
+GPA «< 2.5 15.2 13.7 (12.0-15.5)
+At least one D or F 62.7 61.0 (58.5-63.4)
+Dropped a class 70.9 69.3 (67.0-71.6)
+Warning or probation 2.6 2.7 (1.8-3.5)
+Desirable characteristic
+GPA > 3.5 18.6 20.9 (18.9-23.0)
+Honors 9.5 11.3 (9.7-12.9)
+Donations ever 25.3 38.0 (35.5—40.4)
+Donations in 2004 8.4 15.1 (13.2-16.9)
+Alumni Association member 73 14.5 (12.7-16.3)
+Total 10,325 1,501
+
+ 
+
+The availability of record data for both the respondents and nonrespondents
+allowed us to assess the effects of nonresponse and sampling error on the
+composition of the sample that was successfully screened. Table 3 shows that
+there was no relation between screener nonresponse and the true values for any
+of the socially undesirable behaviors but there was a relation for the socially
+desirable characteristics—the screener respondents were a little more apt than
+the frame population as a whole to have performed well as undergraduates and
+more likely to be members of the Alumni Association and to have donated to
+the University. We suspect that this reflects the greater accuracy of the con-
+tact information for alumni who are donors or are members of the Alumni
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+854 Kreuter, Presser, and Tourangeau
+
+Table 4. Dropout Rates by Mode of Data Collection
+
+ 
+
+ 
+
+Total CATI Web IVR
+Initially assigned 1,501 338 639 524
+Agreed to participate in Web - 617 -
+Agreed to participate in IVR - - 508
+Started the main questionnaire 1,107 329 368 410
+
+Number of completes (in percent) 1,003 (66.8) 320 (94.7) 363 (56.8) 320 (61.1)
+
+ 
+
+Association. Even though individuals with these positive characteristics were
+overrepresented among the screener respondents, they still constituted a minor-
+ity of respondents, and thus the majority of the respondents were in a position
+to overreport these behaviors.
+
+Nonresponse occurring after the screening interview could also introduce
+bias and affect comparisons across the modes of data collection. Table 4 shows
+the number of cases assigned to each mode of data collection, the number
+who started the questionnaire, and the number who completed it.° The overall
+completion rate among the screener respondents was 67 percent.’ The rate
+was highest among those assigned to the interviewer-administered interview
+(320 completed the main questionnaire out of the 338 assigned to CATI, or
+94.7 percent) and lower for the Web group and those switched to IVR, the in-
+teractive voice recognition system (56.8 and 61.1 percent, respectively). These
+differences are highly significant—y? = 155.0 with 2 df (p < .001). Most
+of the nonresponse to the main questionnaire in the Web and IVR conditions
+occurred before the sample alumni started the questionnaire. Of the 617 re-
+spondents who agreed to do the survey over the Web, 40.4 percent (249 of
+617) never actually started the main questionnaire; only five Web cases quit
+partway through. Similarly, most of the IVR cases that didn’t complete the
+main questionnaire (a total of 204 alumni) either refused to be switched to the
+IVR questionnaire (16 cases) or dropped out during the switch to the automated
+system (98 more cases). Once respondents began either the IVR or Web survey,
+IVR cases were more likely to drop out (90 of 410) between the beginning and
+the end of the interview than the Web cases (5 of 368); the difference between
+
+6. The sample was divided into 40 replicates that were released in sequence to allow changes
+in the mode allocation throughout the data collection period. The initial goal was to achieve 360
+completed cases from each mode. Based on response rate estimates by mode from the operations
+pretest, the initial allocation of sample cases was set at 19, 56, and 25 percent for CATI, Web,
+and IVR, respectively. The allocation by mode was adjusted to 24, 36, and 40 percent at the end
+of August. In the second week of September, all the remaining cases were designated to the IVR
+mode of collection.
+
+7. This leads to an overall response rate of 21.3 percent (AAPOR Response Rate | computed by
+multiplying the screener completion rate of 31.9 percent times the completion rate after initial
+assignment of 66.8 percent).
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 855
+
+Table 5. True Status (in Percent) for Item Responders, by Item and Mode
+Group
+
+ 
+
+CATI IVR Web x? (df; p-value)
+
+ 
+
+Undesirable characteristic
+
+GPA «< 2.5 10.8 9.6 14.6 4.16 (2; 125)
+At least one D or F 61.0 58.6 62.3 0.96 (2; .617)
+Dropped a class 68.0 64.4 70.7 3.05 (2; .217)
+Warning or probation 1.9 2.9 2.2 0.68 (2; .714)
+Desirable characteristic
+GPA > 3.5 22.2 23.3 20.8 0.59 (2; .743)
+Honors 12.4 15.1 9.9 4.13 (2; 127)
+Donations ever 40.1 38.6 42.7 1.19 (2; .552)
+Donations in 2004 28.3 30.8 30.4 0.20 (2; .905)
+Alumni Association member 16.1 14.4 17.5 1.17 (2; .556)
+
+ 
+
+these dropout rates was significant (x? = 65.8, 1 df, p < .001). Overall, there
+are 1,003 completes that were used in the analyses.
+
+Table 5 shows the distribution by mode of the true statuses according to
+University records for the responding cases. None of the differences across the
+three groups is significant, suggesting that the differential nonresponse bias
+does not jeopardize the mode comparisons.®
+
+In addition, there appears to be no systematic relation between the content
+of the questions and the decision to drop out among those who started the
+survey. Figure 1 shows where partial respondents dropped out during the main
+interview by mode. In the Web survey, only three respondents discontinued
+the survey after the first set of questions (about the year of graduation and
+their living situation during their college years) and none thereafter. CATI
+respondents show a similar pattern; 10 respondents dropped out before the first
+block of sensitive questions and five immediately thereafter. IVR respondents
+dropped out throughout the questionnaire, a pattern suggesting that fatigue (or
+annoyance with IVR) was the main cause of breaking off rather than question
+sensitivity. The rate of breaking off was highest toward the end of the IVR
+interview, with no jump in breakoffs after the sections with the sensitive items.
+
+To summarize, the response rates to the main questionnaire differed signif-
+icantly by mode (with CATI having the highest response rate) but the bulk of
+the nonresponse occurred before respondents started the questionnaire. Across
+the items for which validation data were available, the respondents in the three
+mode groups included a similar mix of cases in the desirable and undesirable
+categories on our key variables. Overall, those with poor academic records or
+
+8. We also tested for differences in age (both raw values and Box—Cox transformed values) as well
+as year of graduation between the three mode groups to see whether older alumni were less likely
+to complete a survey on the Web or through IVR. Neither version of the age variable showed a
+significant difference by mode.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+856 Kreuter, Presser, and Tourangeau
+
+ 
+
+ 
+
+ 
+
+700
+--@-- CAT| —®— Web —#%— IVR
+600
+Undesirable behaviors
+500 \ Desirable behaviors Current relation to UMD
+Reunion and donation
+a Civil engmnt & voting
+400 ~~
+— —,
+~ _
+@--0-__,
+‘© —~ -@— — —@ —— -@- — -6- —-— -@- —-@ —---@-—-—-~9——»
+300
+x x T T T T T T T T T x
+Ss & Ss
+&
+&
+
+Figure |. Distribution of Dropouts by Mode: Number of Respondents
+Responding at 10 Time Points between Random Assignment, Start of the
+Questionnaire, and the End of the Survey.
+
+NOTE.— Question sections are marked inside the graph.
+
+poor relationships with the University were somewhat less likely to complete
+the main questionnaire but the overall biases were small and did not differ
+by mode. It is conceivable that the reports of the nonrespondents would have
+been affected by mode differently from those of respondents; unfortunately,
+this conjecture cannot be tested with the data at hand.
+
+Analysis
+
+We present the analysis in three parts, each related to our initial research
+questions. First, we compare the survey reports by mode without making use
+of the data from official University records. Next, we examine accuracy of
+the survey reports by mode, comparing the survey reports to the University
+records. Both of these analyses shed light on the relative effectiveness of the
+two self-administered modes (IVR and Web) for eliciting sensitive information
+compared to an interviewer-administered telephone interview. Our final set of
+analyses explore whether the mode of data collection affects perceived question
+sensitivity.
+
+DIFFERENCES IN REPORTING AND ITEM NONRESPONSE BY MODE
+
+Table 6 shows the proportion of respondents reporting each of the undesirable
+and desirable characteristics by mode of data collection. In addition, it shows
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Table 6. Proportions Reporting Desirable and Undesirable Characteristics, by Item and Mode of Data Collection
+
+ 
+
+t-statistic/y? (df; p-value),
+
+ 
+
+CATI IVR Web ANOVA/? (df; p-value) CATI versus Web
+Percentage “yes” summing across the four 25.8 27.7 30.5 F(2, 996) = 2.72, p = .07 t = —2.30 (680; .01)
+undesirable characteristics
+GPA «< 2.5 1.8 3.7 6.2 7.74 (2; .021) 7.30 C1; .01)
+At least one D or F 42.2 44.3 50.7 5.44 (2; .066) 4.90 (1; .03)
+Dropped a class 46.7 45.6 50.6 1.84 (2; .399) 0.99 (1; .32)
+Warning/probation 10.2 13.4 13.8 2.34 (2; .311) 2.07 1; .15)
+Percentage “‘yes” summing across the five 27.0 25.5 26.0 F(2, 997) = 0.27, p = .76 t = 0.554 (688; .71)
+desirable characteristics
+GPA > 3.5 23.8 20.4 24.2 1.43 (2; .489) 0.01 1; .92)
+Honors 16.3 19.9 15.5 2.58 (2; .275) 0.08 (1; .77)
+Ever donate 42.1 40.5 41.3 0.15 (2; .927) 0.04 1; .84)
+Donated in last year 44.2 41.9 40.5 0.36 (2; .835) 0.36 C1; .55)
+Member of Alumni Association 24.8 21.5 23.6 0.97 (2; .615) 0.12 (1; .73)
+
+seig AyjIqeaiseq [1205
+
+ 
+
+LS8
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+858 Kreuter, Presser, and Tourangeau
+
+Table 7. Item Nonresponse Rates, by Mode of Data Collection
+
+ 
+
+Item missing (in percent)
+
+ 
+
+ 
+
+CATI IVR Web
+Undesirable
+At least one D or F 2.19 1.88 0.00
+Dropped a class 6.25 3.44 0.28
+Warning/probation 1.56 1.88 0.00
+Desirable
+Honors 4.06 2.81 0.28
+Ever donated 3.44 4.38 0.55
+Member of Alumni Association 2.81 2.50 0.83
+GPA? 12.80 15.60 1.93
+
+ 
+
+NoTE.—*The missing item rates for GPA are reported overall, not grouped by low and high
+GPA.
+
+two summary measures, one for the four undesirable items and one for the five
+desirable times.
+
+We examined the proportion of the four undesirable items that respondents
+answered affirmatively. On the average, this was lowest for the interviewer-
+administered telephone interview (CATI showed an average of 25.8 percent)
+and highest for the Web (30.5 percent). The corresponding figure for IVR was
+27.7 percent. A one-way ANOVA among the three modes shows that these dif-
+ferences are marginally significant (p < .07), with the difference between CATI
+and Web reaching significance (p < .02). This overall pattern generally holds
+at the item level. The rate of positive reporting for all four of the undesirable
+items is highest via the Web but the difference by mode is significant only for
+low GPA (p < .05); it is marginally significant for grades of D or F (p < .07).
+
+In contrast, for the socially desirable items, there are no significant differ-
+ences across modes either for the average proportion of “yes” answers to the
+five desirable items or for any of the individual items.
+
+Another way by which respondents can avoid making embarrassing admis-
+sions about themselves is to skip the question. Table 7 shows the item nonre-
+sponse rates by mode on our key questions. (We leave out donations in the prior
+year, since that item was skipped for the respondents who said that they had
+never made a donation to the University). The CATI and IVR respondents were
+more likely not to answer these questions than the Web respondents.’ Most of
+the CATI item nonresponse comes from respondents saying they didn’t know
+instead of refusing to answer. The distinction between don’t know and refusal
+is not available for the [VR and Web mode.
+
+9. With the exception of Alumni Association membership, all of these differences show significant
+chi-square values (p < .05).
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 859
+
+Table 8. Percent Reporting Having a D or F for a Class, by Recorded Status
+
+ 
+
+ 
+
+Survey Report of D or F
+Yes No Total
+Status according to records Yes 73.4 26.6 60.7
+No 3.6 96.4 39.3
+Total 46.0 54.0 n=990
+
+ 
+
+ACCURACY OF REPORTING BY MODE
+
+Because we have external record data, we can compare the modes not only on
+levels of reporting (and levels of item nonresponse) but on levels of accuracy
+as well. By comparing the survey reports to the record data, we can measure
+two types of errors: (1) behavior that is reported in the survey but not in the
+records represents a false positive or overreport, while (2) behavior that is not
+reported in the survey but is indicated in the records represents a false negative
+or underreport.
+
+As an example, table 8 shows the false positive and false negative rates
+for grades of D or F. Of the 990 respondents who answered that question,
+60.7 percent had received such a grade according to the records. Of those,
+roughly 27 percent did not report an unsatisfactory grade (false negatives). The
+false positive rate (respondents claiming a grade of “D or F” when records
+show they did not receive one) is only about 4 percent. We exclude respondents
+who didn’t answer the question from this analysis and the analysis of other
+individual items.
+
+Table 9 shows false negative and false positive rates for each of the items
+by mode. The errors in the expected direction are boldfaced. For the three
+socially undesirable items, the false negative rates are much higher than the
+false positive rates and this is true for all three modes of data collection. For all
+three socially undesirable items, the false negative rates are lowest for the Web
+respondents. For the socially desirable items, the difference between the false
+negative and false positive rates across all survey modes is less pronounced and
+the differences across the modes are somewhat smaller.
+
+Some of the false negative and false positive rates are based on small num-
+bers of cases. For example, only about 2 percent of the respondents actually
+received a warning or were placed on academic probation; only 12 percent re-
+ceived honors. For four of the items, more than half of the respondents in each
+mode group were in the socially undesirable category (that is, they had in fact
+received at least one D or F, dropped a course, earned a GPA less than 3.5, or
+never donated money to the University). We carried out tests examining mode
+differences for these four individual items and found that the mode differences
+were significant for two of them (the item asking about getting a D or an F and
+the item on the respondent’s GPA).
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Table 9. False Negative and False Positive Rates, by Item and Mode
+
+ 
+
+CATI IVR Web All respondents
+
+098
+
+ 
+
+False negative False positive False negative False positive False negative False positive Yes (record)
+
+ 
+
+True status (%) (%) (%) (%) (%) (%) (%)
+GPA <«< 2.5 83.3 0.0 69.2 0.8 61.5 0.7 12.1
+At least one D or F 33.0 3.3 28.3 54 19.9 2.2 61.1
+Dropped a class 34.3 6.3 34.2 9.1 31.6 7.6 68.4
+Warning or probation 33.3 9.1 33.3 11.8 25.0 12.4 2.4
+GPA > 3.5 16.7 7A 19.1 19 6.8 6.0 21.4
+Honors 53 5.2 0.0 5.7 2.8 6.4 12.1
+Donations ever 31.5 24.3 25.4 19.2 30.5 20.3 40.7
+Donations in last year 8.8 25.6 22.2 25.9 20.0 23.3 15.7
+Member of Alumni Association 2.0 10.7 11.1 10.1 3.2 8.1 16.2
+
+ 
+
+neasueinoy pue Yasseig “eyne.1y|
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 86l
+
+To boost power and examine the pattern of results across the entire set of
+items, we pooled across all seven items. The pooled analysis examined the false
+negative rates for the items involving socially undesirable behaviors and the
+false positive rates for the items involving socially desirable behaviors. We fitted
+a random-effects logit model that treated the data as clustered by respondent;
+it estimated the mode differences taking into account all of the items for which
+record data were available. Compared to CATI respondents, Web respondents
+were significantly less likely to misreport in a socially desirable direction (odds
+tatio of 0.8). The difference between IVR and CATI is somewhat smaller and
+marginally significant (odds ratio of 0.86; p = .13). The misreporting rates for
+the Web and IVR do not differ significantly (p > .50). Testing for the overall
+difference between IVR and Web versus CATI gives an odds ratio of 1.21,
+reflecting CATI’s significantly higher rate of misreporting (p < .05).'°
+
+RATINGS OF QUESTION SENSITIVITY
+
+One possible explanation for the mode differences in social desirability bias
+in tables 6 and 9 is the impact of mode of data collection on the sensitivity
+of the question. Question sensitivity is likely to reflect the true status of the
+respondents but may also vary by mode. That is, the questions probably seem
+less sensitive to those in the desirable category than to those in the undesirable
+category and they may also seem less sensitive when a computer administers the
+questions than when an interviewer does. We examine these possibilities with
+the responses to the items at the end of the questionnaire that asked respondents
+whether they thought the first four questions listed in table 1 might make people
+they know report falsely or exaggerate their answers.
+
+Figure 2 shows the average perceived sensitivity of each item by the
+true status of the respondent and the mode of data collection. For example,
+Al percent of the CATI respondents who had in fact dropped a class considered
+the question about dropping a class as one for which people they knew were
+likely to misreport. For all four items (and regardless of whether the respon-
+dents were in the socially desirable or the socially undesirable category), the
+CATI respondents were most likely to say that people might not answer the
+questions truthfully. With the exception of “Dropping a class,” respondents
+in the socially undesirable category were more likely to perceive an item as
+sensitive.
+
+The results from a logistic regression with perceived sensitivity as the de-
+pendent variable are given in table 10. They confirm the patterns apparent in
+figure 2. For all four items, mode significantly affected the perceived sensi-
+tivity of the items; perceived sensitivity was lower for both self-administered
+modes than for CATI (demonstrated by the odds ratios less than 1). In addition,
+for three of the four items, there was a significant effect for the respondent’s
+
+10. Adding an indicator variable for recent alumni did not change the odds ratio of IVR and Web.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+862 Kreuter, Presser, and Tourangeau
+
+ 
+
+ 
+
+ 
+
+ 
+
+peceeenensees etn eseeeesipeeeseeesueceeesnesaeesnsesnenssessusenseesuesneesatesnensneennesend
+Dropped class
+YQ peceietesteeeees OO eeteceeeeeeee Doone een ae seen esnanaeneneenaseaenaeseseensnsaanea|
+NO feverereseeses reser OO veerreerrsereen Qi ieee eseeeeneesenneceeseerssnneseeseesesrsnnseseesseseey
+DorF
+YQ peeceicteereseeeeeeesereensseneernene Orr eeereen Qe eter nee nntieenieeee
+NO fevtereeeeeessseseeessenenee Ore Qecereteneneee enti eeeene teense as aeeneneensneeeaneneeen
+Warning/Prob.
+YS pecereereteseeseeteeseeesteneeeeensennene Oe ere ete te e anette eee neeae etree Pe
+NO fevrerssessseteesseeeeneteens Qrereeneeee Qreceee ieee ene cee eaneenenneaeneenaneeneneeeaeal
+GPA < 2.5
+YS peecersteeteseeseeseeseene esses renee Qe reese Qiteteeeeeneees AD cere eeeeeeeeeeesees]
+T T T T T
+0 2 4 6 8 1
+
+Percent respondents perceiving item as sensitive
+
+© IVR © Web e@ CATI
+
+Figure 2. Mean Sensitivity Ratings, by Item, Mode, and True Status.
+NoTE.—For each item, the top row represents the desirable state and the
+bottom row the undesirable state.
+
+Table 10. Odds Ratios (and Standard Errors) From Logit Models for Perceived
+Sensitivity by Mode and Status
+
+ 
+
+ 
+
+Dropped class DorF Warning/probation Low GPA
+Web 0.546 (0.093) 0.498 (0.081) 0.471 (0.075) 0.660 (0.104)
+IVR 0.367 (0.071) 0.420 (0.073) 0.363 (0.062) 0.374 (0.064)
+Undesirable 1.071 (0.172) = 2.172 (0.311) 2.560 (1.114) 1.775 (0.366)
+category
+n 951 955 956 954
+Likelihood 29.83 60.20 44,43 43.27
+ratio x7
+Prob. > x? -000 -000 000 -000
+
+ 
+
+actual status—those in the undesirable category found the items significantly
+more sensitive (demonstrated by odds ratios greater than 1) than those in the
+desirable category. Even with the one item for which true status didn’t have a
+significant effect (the item on having dropped a course), the trend was in the
+right direction.
+
+Discussion
+
+We report three main findings, corresponding to the research questions we
+posed initially. First, Web administration increased the reporting of sensitive
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 863
+
+information relative to conventional CATI, with IVR intermediate between
+the other two modes (table 6). These differences by mode were larger for the
+socially undesirable items than for the socially desirable ones. Researchers have
+speculated that Web surveys might produce increases in reporting of sensitive
+information similar to those of other methods of self-administration but ours is
+the first study we are aware of that demonstrates such gains (Knapp and Kirk
+2003 found no differences between modes in a comparison of the Web, IVR,
+and paper self-administration!!).
+
+Second, the increased levels of reporting in the Web represented increased
+accuracy. Not only were Web respondents more likely than CATI respondents
+to report more socially undesirable things about themselves, they were less
+likely to falsely deny them (lower false negative rates for the undesirable
+items); IVR was generally in between the other two modes (table 9). Although
+IVR has figured in several mode studies (mainly with CATI as the comparison
+group), ours is the first that included validation data. As with the differences in
+reporting, the improvements in accuracy produced by the Web (and to a lesser
+extent by IVR) were much more apparent for the items concerning undesirable
+characteristics than for those about desirable characteristics. The preponderance
+of the errors was in the socially desirable direction for all but one of the seven
+items for which we had validation data. The one exception (which we cannot
+explain) was the question on ever having donated to the Alumni Association.
+This behavior tended to be reported poorly overall, with underreporting more
+likely than overreporting, regardless of the respondent’s true status.
+
+Finally, both mode of data collection and the actual status of the respondent
+influenced whether respondents found an item sensitive as measured by our
+question about whether other people might misreport or exaggerate in respond-
+ing to the item. For all four items, the IVR respondents were least likely and
+CATI respondents most likely to say that people would misreport. In addition,
+for all of the items and all three modes of data collection, the respondents in
+the socially undesirable category were more likely than those in the socially
+desirable category to say that people would misreport. As might be expected,
+there was a substantial variation in sensitivity across the four items, with the
+question on GPA deemed the most sensitive of the four items. Somewhat sur-
+prisingly, items were seen as more sensitive by the Web respondents than by
+the IVR respondents, even though the Web respondents answered them more
+accurately and were less likely to skip them than the IVR respondents. This
+may reflect lingering concerns among some of the respondents about whether
+data that are transmitted over the Web are really secure.
+
+Although we found that differences by mode in reporting were much clearer
+for the questions about undesirable characteristics than for those about desirable
+
+11. One should note that the experimental groups in Knapp and Kirk (2003) are very small and
+many of their tests have little power to detect significant results. The study also did not include any
+interviewer-administered condition.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+864 Kreuter, Presser, and Tourangeau
+
+ones (see tables 6 and 9), this might be a function of the specific items we used.
+A question about getting a grade of a D or an F, for example, could be more
+sensitive than one about graduating with honors and therefore more prone to
+misreporting. With other items, the pattern might differ.
+
+Our study provides a good illustration of both the value and limitations of
+using validation data to study reporting error for questions that raise social
+desirability issues. Records data allowed us to conduct more sensitive tests of
+mode differences in reporting, to determine whether the differences in reporting
+that we observed represented differences in accuracy, and finally to examine
+whether nonresponse affected comparisons across the different mode groups.
+Still, our ability to access these data involved a cost. Our study involves a
+specialized population—recent alumni of a single university—and focuses on
+questions about a specialized set of topics relevant to that population.
+
+We suspect that our findings are likely to generalize to other questions and
+to other populations. Even with our not-very-sensitive questions, we find mode
+differences in both levels of reporting and reporting accuracy that are con-
+sistent with the past literature on social desirability biases and mode effects
+(Tourangeau and Yan 2007). We note, however, that our sample was relatively
+young and well educated and therefore might have been more receptive to com-
+puter administration of the questions than members of the general population.
+Social desirability bias is, of course, not the only source of reporting error to
+these questions. Time since graduation, via recall error, contributed as well. But
+although older alumni (those who graduated before 1995) misreported more
+than younger ones, the effects of mode were the same for the two groups.
+
+A possible weakness of our study is that identifying the survey sponsor as the
+University of Maryland might have led some respondents to suppose that the
+researchers would have access to the validation variables. Although this might
+have reduced the overall level of misreporting, we have no reason to believe
+that it would have operated differently across mode and thus do not believe that
+it affected our mode comparisons.
+
+Considering all our findings, no mode of data collection dominated the other
+two. Each of our three main outcome variables—unit nonresponse, item non-
+response, and reporting accuracy—yielded a different ranking of the modes.
+CATI had the best response rate and the Web, the worst. CATT had the highest
+tate of item missing data and the Web the lowest. The Web had the high-
+est levels of reporting accuracy and CATI had the worst. Thus the choice
+of mode could depend on which source of error is most important for a
+survey.
+
+References
+
+Belli, Robert F., Michael W. Traugott, and Matthew N. Beckmann. 2001. “What Leads to Voting
+Overreports? Contrasts of Overreporters to Validated Votes and Admitted Nonvoters in the
+American National Election Studies.” Journal of Official Statistics 17:479-98.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+Social Desirability Bias 865
+
+Bradburn, Norman, Seymour Sudman, and Associates. 1979. Improving Interview Method and
+Questionnaire Design. San Francisco, CA: Jossey-Bass.
+
+Holbrook, Allyson L., Melanie C. Green, and Jon A. Krosnick. 2003. “Telephone Versus Face-
+to-Face Interviewing of National Probability Samples with Long Questionnaires: Comparisons
+of Respondent Satisficing and Social Desirability Response Bias.” Public Opinion Quarterly
+67:79-125.
+
+Jones, Elise F., and Jacqueline D. Forrest. 1992. “Underreporting of Abortion in Surveys of U.S.
+Women: 1976 to 1988.” Demography 29:113-26.
+
+Knapp, Herschel, and Stuart A. Kirk. 2003. “Using Pencil and Paper, Internet and Touch-Tone
+Phones for Self-Administered Surveys: Does Methodology Matter?” Computers in Human
+Behavior 19:117-34.
+
+Parry, Hugh J., and Helen M. Crossley. 1950. “Validity of Responses to Survey Questions.” Public
+Opinion Quarterly 14:61-80.
+
+Presser, Stanley, and Linda Stinson. 1998. “Data Collection Mode and Social Desirability Bias in
+Self-Reported Religious Attendance.” American Sociological Review 63:137-45.
+
+The American Association for Public Opinion Research (AAPOR). 2008. Standard Definitions:
+Final Dispositions of Case Codes and Outcome Rates for Surveys. 5th ed. Lenexa, KS: AAPOR.
+
+Tourangeau, Roger, Lance J. Rips, and Kenneth Rasinski. 2000. The Psychology of Survey
+Response. Cambridge: Cambridge University Press.
+
+Tourangeau, Roger, and Ting Yan. 2007. “Sensitive Questions in Surveys.” Psychological Bulletin
+133:859-83.
+
+Tourangeau, Roger, and Tom W. Smith. 1996. “Asking Sensitive Questions: The Impact of Data
+Collection Mode, Question Format, and Question Context.” Public Opinion Quarterly 60:275—
+304.
+
+ZZ0Z JEqUIeAON Zz Uo Jesn Aysuealup) eer Aq ZOLEEeL//Pe/sizz/eloje/bod/woo dno slwepeseys:scyy Wo. pepeojumog
+

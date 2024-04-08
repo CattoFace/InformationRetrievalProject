@@ -1,0 +1,1695 @@
+® Check for updates
+
+Journal of Information Technology (2018) 33, | 9-30 Se
+© 2016 Association for Information Technology Trust All rights reserved 0268-3962/16
+
+www.palgrave.com/journals
+
+ 
+
+Research Article
+
+Effects of transparency: analyzing social
+biases on trader performance in social
+trading
+
+Florian Glaser’, Marten Risius?
+
+‘Goethe University Frankfurt, Theodor-W.-Adorno-Platz 4, 60323 Frankfurt am Main, Germany;
+?University of Mannheim, Mannheim, Germany
+
+Correspondence:
+
+F Glaser, Goethe University Frankfurt, Theodor-W.-Adorno-Platz 4, 60323 Frankfurt am Main, Germany.
+Tel: +49 (0)69 798 34679;
+
+E-mail: fglaser@wiwi.uni-frankfurt.de
+
+ 
+
+Abstract
+
+Social Trading platforms combine the trading functionalities of classical online broker
+services with the communication and interaction features of social networks. Next to
+following other users’ profiles, a main characteristic of social trading platforms is the
+possibility to follow other users by automatically copying their trades. By being a
+technologically based financial intermediary that enables individual profit maximization,
+social trading platforms constitute a contemporary example of financialization. Our
+empirical analysis of the behavior of traders on a social tracing platform provides new
+insights on financialization related questions regarding the influence of transparency and
+interaction in delegated investment environments. The disposition effect is a well-studied
+behavioral bias of investors and traders. Human investors tend to realize returns of their
+winning positions too early and let unfavorable positions accumulate losses for too long.
+We find that on social trading platforms the traders’ sensitivity to the disposition effect is
+influenced by the amount of attention they receive from their followers who invested capital
+into the traders’ strategy. These novel insights propose a link between principal-agent
+theory and the disposition effect induced by transparency mechanisms. We extend the
+literature on trader-investor interaction channels in social trading networks. The results
+obtained in a social network environment are of high relevance for regulators who have a
+strong focus on customer protection and financial services regulation. They also provide
+guidelines for platform designers, traders, investors and social trading platform operators.
+Journal of Information Technology (2018) 33, 19-30. https://doi.org/10.1057/s41265-016-
+0028-0; published online 20 December 2016
+
+Keywords: social trading; digitalization of financial services; financialization; disposition
+effect; agency theory; individual trading performance
+
+Introduction
+
+motives, financial markets, financial actors and financial
+
+institutions in the operation of the domestic and
+international economies” (Epstein, 2005: 3), which results
+“in a structural transformation of economies, firms (includ-
+ing financial institutions), states and households” (Aalbers,
+2015: 3). It is considered to be the politically inadvertent
+solution to current economic problems (Buchanan, 2016)
+such as the diminished trust of private persons into
+institutional investors (Lagoarde-Segot, 2016). Thereby,
+financialization focuses on the benefit of actors within
+
+F inancialization describes “the increasing role of financial
+
+financial markets (Aalbers, 2008) where profit is generated
+through financial channels rather than productive means
+(Buchanan, 2016). Symptomatically, personal speculative
+trading in form of day trading or foreign exchange transac-
+tions has seized unprecedented market shares over the past
+years (Lagoarde-Segot, 2016). These developments are con-
+sidered to be mainly driven by information technology,
+which decreases the cost of traded assets for households
+(Philippon, 2015). Therefore, in conjunction with the
+accelerated digitization of the financial industry, financial-
+ization has provided leeway for the development of market
+; : Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+20
+
+innovations such as technologically supported (dis-)inter-
+mediation (Currie and Lagoarde-Segot, 2016).
+
+In this regard, particularly social trading networks are
+becoming increasingly relevant as disintermediating platforms
+that provide a high degree of transparency for investors. Social
+trading platforms, on the one hand, embody financialization
+by providing individuals with further means of generating
+profits through purely financial channels like speculative
+trading (Doering et al., 2015). Accordingly, the platform www.
+zulutrade.com — henceforth Zulutrade, which is subject to our
+analysis — reports a total trading volume of more than $8.6
+billion since its inception in 2008 (www.zulutrade.com). On
+the other hand, social trading also helps to address problems
+associated with financialization. Specifically, they satisfy the
+increasing need for transparency and trust, either due to reg-
+ulatory requirements (e.g., the Markets in Financial Instru-
+ments Directive I[— MiFID2) or due to the diminishing trust in
+incumbent financial service providers (Sapienza and Zingales,
+2012; Alt and Puschmann, 2012; Ba and Pavlou, 2002) and
+online services in general (Jasang et al., 2007).
+
+Given the currently strong trend towards disintermediation
+of financial services (e.g., Blockchain technology, peer-to-peer
+lending), social trading is a candidate for disrupting incum-
+bent asset management services. However, social trading is a
+novel service for online trading and investing, which has barely
+been researched so far (Neumann et al., 2015; Pan et al., 2012)
+and, hence, is not as well understood as comparable incum-
+bent investment delegation services like fund management or
+asset management. Research on social trading platforms has
+been limited to the analysis of whether traders can gain profits
+from social trading platforms at all (Pan e¢ al., 2012; Abbey
+and Doukas, 2015; Neumann et al., 2015). We consider social
+trading to be relevant for information systems researchers,
+because this type of service platform has the potential to
+simultaneously address two core aspects of financialization. Its
+features enable full transparency for investors and near-real
+time resolution control over the investor’s invested capital,
+which enables individual investors to maximize their profit.
+These features imply both great possibilities (e.g., allocating
+capital to skilled and more experiences investors while
+bypassing unnecessary intermediaries) as well as risks (e.g.,
+loss of invested money due to overly risky investment
+strategies). The ability to leverage the full potential of these
+electronic markets and financial services, however, depends on
+the design of their functionalities and integrated services for
+investors to enable trust and alleviate interaction and trans-
+action (Ba and Pavlou, 2002). To the best of our knowledge,
+we are the first to investigate the influence of the design-
+inherent transparency on trader behavior.
+
+Against the backdrop of these developments, we focus our
+research on cooperation and influencing channels of inter-
+action in online trading environments, specifically in the
+context of social trading. The goal of this work is to provide
+answers to the underlying research question:
+
+How is trader behavior influenced by real-time interaction
+
+with the investors?
+
+In search for answers, we analyze the behavior of traders on one
+of the leading social trading platforms — www.zulutrade.com —
+to obtain novel insights and extend the knowledge on behavior
+in fully digitized, transparent financial trading environments.
+
+The remainder of the paper is structured as follows. In
+“Social trading background” section, we start with a review of
+social trading platforms in general. Afterwards, we provide an
+overview of day trading and foreign exchange trading, which is
+the predominant type of investment on social trading
+platforms. In “Related literature and hypotheses development”
+section we review the related literature, derive theoretical
+hypotheses and propose our research model which is empir-
+ically validated in “Empirical analysis” section. “Discussion”
+section provides a critical reflection on our research approach.
+We conclude with a general overview of the contributions and
+limitations of this work in “Conclusion” section.
+
+Social trading background
+
+This section provides a short introduction to social trading to
+highlight the features and functionalities that define the novel
+online broker service in relation to other social media
+platforms and traditional investor-broker relationships as well
+as provide an overview over related social trading literature.
+
+Functionalities of social trading platforms
+
+Social trading platforms provide the infrastructure to display
+profiles of users (in this context traders) to other users in a
+fashion that is similar to social networks. The displayed profile
+information contains performance and risk metrics of the
+users’ trading activities. Trades of users are visible to every
+other user on a per trade basis, i.e. every trading decision is
+made public thereby introducing full transparency.
+
+Users can copy other users’ trades with a single click.
+Copying means that the same trade is executed in the copying
+user’s online broker account. This distinguishing feature is
+known as copy-trading. From a technological perspective,
+this is achieved by linking accounts. Users’ platform trading
+accounts are directly linked to their online broker accounts.
+The operator is often an online brokerage company. How-
+ever, the operator and the broker can be different institutions
+as well. Figure 1 provides a generalized visualization of the
+technical design of a social trading platform.
+
+The resulting dependency between traders and their
+followers is comparable to that in traditional delegated
+portfolio management. In the traditional portfolio manage-
+ment setup investors delegate their capital to portfolio
+managers in order to invest the capital on the investors’
+behalf. Consequently, the relationship bears a similar moral
+hazard as a result of the principal-agent connection between
+trader and follower (Bhattacharya and Pfleiderer, 1985;
+Stoughton, 1993). That is the portfolio manager (agent)
+might have an incentive to maximize his own profit instead
+of the investor’s profit. If his incentives are not tightly
+linked to the performance of his investment decisions (e.g.,
+he receives a yearly share of the total amount invested
+regardless of the performance), the incentive to maximize
+performance for the investors might not be strong enough.
+This can be mitigated by performance bound incentives,
+enabling monitoring of the agents behavior and increased
+possibilities control (Farnsworth and Taylor, 2006). A
+fundamental difference to the traditional principal-agent
+relationship is the level of transparency regarding actions
+and decisions made by agents (traders). While in the
+traditional principal-agent situation an investor only gets
+periodic portfolio performance summaries, every single
+Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+21
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+f \ Social Trading Platform
+i Operator ro
+. !
+! i Trader Account Social Network
+—) : i
+! 1 Performance/Risk Profile
+1 : Follow
+. 1
+! ; LT TT
+I '
+w I ; — Portfolio L->} Trades <»
+2 ! ' x .
+5 1 ; Chat
+= i s| Follower |8
+z Accounts ; 8 Account |@
+“ey I
+e ; —>
+o ; I Portfolios Trades
+£ ! ; Comments
+iL 1 ; tL J
+I
+i ! \ Performance/Risk Profile
+. 1
+i !
+. 1
+YY SD)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 1 Generic social trading platform design.
+
+opening of a position and every decision to close a position
+can be monitored in real time by every follower (principal)
+on a social trading platform. Due to the direct linking of
+accounts, investors can immediately withdraw their capital
+from a trader at almost no costs. In traditional asset
+management, investors face far longer lead times for fund
+withdrawal and comparably less transparency, especially
+with respect to costs.
+
+Most social trading platforms primarily focus on foreign
+exchange (FX) trading and facilitate day trading by their
+tool setup. Therefore, they concur with the general
+financialization related increase in speculative trading,
+which have resulted in a global daily FX transaction
+turnover of $9 trillion (Lagoarde-Segot, 2016). This focus
+has historical reasons as online trading communities based
+on forums (Antweiler and Frank, 2004) have a long
+tradition in FX trading. The digitization has brought these
+communities to the next level of automated trade and
+strategy copying in the form of social trading platforms.
+Furthermore, trading of currencies is less regulated and
+markets for major currencies are known to be the most
+liquid markets. Thus, adverse price effects like market
+impact costs of copied trades are very unlikely to
+negatively influence followers’ performance (e.g., in an
+illiquid market, the trade of a follower could be executed
+at a worse price due to a lack of supply for the traded asset
+and hence higher quoted prices).
+
+Day trading and FX trading
+
+Day trading and foreign exchange trading follow different
+conventions and standards in comparison to stock or fund
+trading. This section provides a general introduction to some
+peculiarities in order to enhance the understanding for the
+trading environment and the relevant variables.
+
+A fundamental concept in FX trading is the notion of a
+“lot”. A lot is the unit for the size of a trade and one lot
+usually refers to a trade size of $100.000. The profit in FX
+trading is often measured in pips where one pip represents
+the smallest change of the price for a currency pair. Prices of
+
+currency pairs are usually quoted with a precision of four
+digits, so the smallest change in price is a change on the
+fourth digit by one, i.e. one pip (Garner, 2012).
+
+To increase the returns on investment given these small
+changes in prices, investors can leverage their exposure, often
+up to a leverage of 1:100 or even more. That means investors
+only invest 1/100th of the actual traded amount but fully
+participate on the return (positive or negative) on the actual
+traded amount. The followers on the platform can decide
+about the leverage that is applied when a trade is copied. This
+decision can be set to a default value for every copied trade or
+on a per trade basis. It follows that considering the level of
+returns of a trade is not a valid indicator for the actual return
+of a trader’s followers. We can only know with certainty if the
+trade had a positive or negative return. The actual realized
+return depends on each follower’s individual leverage deci-
+sion for their copy of the trade (Garner, 2012).
+
+FX traders are usually day traders, i.e. they are opening and
+closing positions within a single day (Bjgnnes et al., 2005;
+Bjonnes and Rime, 2005; Breedon and Ranaldo, 2013).
+
+Remuneration and incentive schemes
+
+According to Neumann et al. (2015), there are three generic
+remuneration schemes in social trading for brokers in general:
+Follower-based, profit-based and volume-based. The Follower-
+based model compensates traders based on the actual number
+of followers. The more followers a trader has, the higher the
+compensation, irrespective of the trader’s or followers’ perfor-
+mances. Profit-based remuneration means that the traders
+participate on the profits of the trades that are executed in the
+accounts of their followers. In volume-based models, traders
+share the profit from premiums imposed on execution prices
+for follower trades with the platform operating broker. The
+prices at which a follower trade is executed are slightly higher to
+compensate the broker and the trader. It follows that the more
+trades are executed in follower accounts, the higher the revenue
+for a trader. Note that the trades need not be winning trades
+(Le., trades with positive return when they are closed) in order
+to let the trader make revenue.
+; : Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+22
+
+Incentives on Zulutrade follow a volume-based model. A
+trader receives an absolute amount in pips for each lot that is
+executed by their followers. Additionally, they earn the return
+on their own trades given the case they execute trades with
+their own capital.
+
+It is crucial for our latter argumentation that on Zulutrade
+traders do not necessarily need to trade with actual money.
+They can simply provide paper trades (trades that are
+executed without placing any money) in their accounts and
+profit from followers that automatically execute these trades
+with their capital. Whether traders simply conduct paper
+trades or invest actual money naturally has strong implica-
+tions for the moral hazard and agency problems hypotheses,
+which will be discussed later in “Subjective biases on
+individual trading performance’ section.
+
+Economic and theoretical aspects of the social trading industry
+Social trading platforms developed following the general
+dissemination of social media tools and, therefore, constitute
+a comparatively young phenomenon. While a large number
+of platform providers have arisen, the two most prominent
+examples with the largest user numbers are eToro (4.5
+million users) and Zulutrade (1 million users) (Robinson,
+2014). The platforms differ regarding the traded instruments
+(most commonly mentioned are Forex, Indices, Commodi-
+ties, Shares, and ETFs). During the initial phase of dissem-
+ination, these platforms annually enabled $40 million
+revenue through FX trading accounting for 0.5% of the
+global market (Falkner and Corsthwaite, 2013).While it is
+generally difficult to obtain independently published figures,
+Wikifolio reports an annual trading volume of $300 million
+in 2014 (Oehler et al., 2016) and Zulutrade claims a
+transaction volume of over $917 billion since its inception
+in 2007 (Zulutrade, 2016).
+
+Due to the growing adoption and substantial economic
+prospects, social trading has already been subject to several
+studies. First research addressed concerns regarding the
+performance and reliability of social trading. Comparing the
+returns of social trading certificates to respective benchmark
+market indexes demonstrates a comparable performance of
+the traditional and novel investment approaches with
+particularly high short-term returns for the latter (Doering
+et al., 2015; Oehler et al, 2016). Moreover, the analysis of
+stock assessments posted by users on a social trading
+platform have been found to provide significant explanatory
+power for future stock returns (Chen et al., 2014; Pelster and
+Breitmayer, 2016). Regarding the common trading behavior,
+classical phenomena like “loss aversion” were successfully
+replicated by large-scale analyses of the online financial
+communities (Liu et al., 2014). These results document the
+relevance and transferability of the findings on social trading
+platforms to other trading environments. Due to the unique
+opportunity of accessing relational information on social
+trading sites, further research has investigated the influence
+of social factors on the individual trading behavior. Pan et al.
+(2012) found higher returns for trades copied from platform-
+dependent expert traders compared to individually self-
+initiated trades. However, they also found preliminary
+evidence that the assessment of expertise does not only
+depend on objective performance measures but also on social
+cues (e.g., follower numbers). In a more targeted analysis,
+
+Wohlgemuth ef al. (2016) consequently found that expert
+trustworthiness depends on objective performance measures
+(ie., profitable trades, returns, maximum losses, and risk
+level) as well as on social cues (i.¢., profile pictures, displaying
+the real name, and interaction frequency). In order to
+improve the selection of experts, researchers proposed an
+algorithmic system that helps to identify and visualize expert
+traders based on their performance, risk, and consistency
+history (Lee and Ma, 2015). Furthermore, platform enabled
+social cues on individual (i.e., detailed decision information
+from peers) and network levels (ie., aggregated decisions
+from the crowd) have been found to improve the risk
+management of otherwise risk averse investors (Zhao et al.,
+2015) by reducing under-diversification (Baghestanian ef al.,
+2015). This effect, however, partially depends on the way in
+which the related peer information is framed. Prominently
+displaying the highest earning trader can actually increase the
+risk affinity of the other users (Baghestanian et al., 2015).
+This is particularly relevant, since especially traders with a
+good past performance publicly present their strategies
+(Amman and Schaub, 2016), which might move people to
+underestimate risks. Interestingly, however, it is not the
+information but rather the sentiment of the trader commu-
+nication that drives the followers’ investment behavior
+(Amman and Schaub, 2016).Thus, in general it can be seen
+that social trading platforms offer a unique opportunity for
+researchers to investigate the impact of social characteristics
+on trading behavior, which we will elaborate in the subse-
+quent section.
+
+Related literature and hypotheses development
+
+Measuring individual trading performance
+
+The goal of this paper is to identify influences on the decision
+making of traders in fully transparent trading environments.
+We first consider how to measure trading performance and
+how to identify known influences and agency-related biases
+that affect traders in general and might have an impact on
+traders on social trading platforms as well.
+
+A common metric for the skill or success of any trader is
+the ratio of trades with positive returns (henceforth winratio)
+(Dewally e al., 2009). Considering that day trading and
+especially FX trading allow high levels of leverage, followers
+can yield a much higher return on a trade if they copy the
+trade and apply a high individual leverage. Accordingly, in an
+expert interview the customer support of Zulutrade men-
+tioned winratio a key measure for customers to focus on
+when assessing the quality of traders. Therefore, Zulutrade
+recommends new platform users — irrespective of their
+experience in financial markets — to select traders mainly by
+the overall winratio, among other variables like age of the
+account.
+
+Moreover, the winratio depends solely on the decision of
+the traders to close any of the open trades that provide a
+positive return independent of the level of the return. Put
+differently, the winratio performance measure reacts imme-
+diately to any changes in the decision makers’ behavior but
+still captures the quality of the trader decisions (number of
+positive trades). Return levels do not capture this behavioral
+decision dimension as they can hardly be influenced by
+traders. This is essential in this case, as we investigate exactly
+Effects of transparency
+
+F Glaser and M Risius ;
+
+ 
+
+these immediate changes in the behavior and decision
+making of traders. The individual trader’s performance and
+decision making is not only based on skill and ability levels
+but has been found to be affected through certain behavioral
+and social characteristics, as we elaborate in the following.
+
+Subjective biases on individual trading performance
+
+It has long been proposed by the efficient market hypothesis
+that stock prices objectively reflect all related information at
+the given time (Fama, 1970, 1998). New information is
+instantly processed by the markets, which establishes a price
+equilibrium and precludes misspecification of stocks (Lo,
+2004). In this sense, prices are objectively justified and
+returns are independent from subjective characteristics of the
+trader. Criticism of this perspective has been fueled by events
+like financial crises due to overrated market estimations
+(Shiller, 2015) and empirical findings that show the non-
+compliance of stock price movements with company funda-
+mentals (Cornell, 2013). This has given rise to the assump-
+tion of behavioral finance that irrational human behavior can
+affect stock market reactions. As one of the most prominent,
+(Keynes, 2013) argued that subjective impacts like sentiment
+or conventional valuations affect human long-term expecta-
+tions and investment decisions beyond rational fact-based
+judgement. The establishment of financialization in academic
+finance research corresponds with this development to a
+certain degree. Academic finance relied on the ‘representative
+idiom’ which assumes an objectively identifiable financial
+reality — like the efficient market hypothesis — represented by
+an empirical equivalent (Lagoarde-Segot, 2016). Behavioral
+finance, however, considers an objectivist world view to be
+somewhat outdated (Orlean, 2012). Correspondingly, finan-
+cialization researchers follow the ‘performative idiom’, which
+allows for external factors to influence multiple realities of
+economic agents (Lagoarde-Segot, 2016). Consequently,
+researchers call for multidisciplinary approaches to purpose-
+fully address financialization and behavioral finance (Aalbers,
+2015; Orlean, 2012). Therefore, we refer to findings from
+behavioral finance on subjective effects to evaluate the
+individual trading performance. Social trading platforms
+have been found to be a particularly viable environment to
+study subjective effects on trading behavior, because of their
+key features regarding transparent social network structures
+and immediate communicative exchanges (e.g., Chen et al.,
+2014; Liu et al., 2014; Wohlgemuth et al., 2016). In line with
+
+Disposition
+
+LY (Sign preference}
+Realized return
+
+J level
+
+  
+
+ 
+
+Trade duration
+
+Optimal closing point
+
+23
+
+the aforementioned social trading research, we consider
+errors of human judgement due to the attention from others
+(ie., behavioral and relational biases) to be particularly
+relevant (Shiller, 2005).
+
+Behavioral biases and patterns of day traders
+A trader can close trades prematurely to guarantee capturing
+a positive return. If an open position would yield a negative
+return, traders can decide to wait if the position yields a
+positive return later on. In behavioral finance, these two
+behavioral patterns are known as the “disposition effect”. It
+states that investors are likely to close a winning trade too
+early and to avoid closing a trade at a loss for too long
+(Shefrin and Statman, 1985). It is one of the most prominent
+stylized facts in behavioral finance and empirically validated
+over time, different asset classes, countries and known to
+affect professional and novice investors alike (Weber and
+Camerer, 1998). It is sometimes also referred to as “sign
+preference effect” (Ben-David and Hirshleifer, 2012). Figure 2
+depicts the different scenarios regarding the disposition effect
+and the timing of the closing of a trade which makes the
+difference (for a more detailed overview of the relevance and
+difficulty of timing specifically for FX trading, we recom-
+mend Rosov and Foster (2014)). In the context of social
+trading, the disposition effect has been found to be reduced
+through mirror trading of expert strategies (Liu et al., 2014).
+Since, however, pure mirror trading approaches only account
+for two percent of the trades initiated over the platforms (Pan
+et al., 2012), the respectively mitigating effects can be
+considered to be rather low.
+
+Given the previous discussion regarding behavioral per-
+formance drivers, for social trading platforms we hypothesize:
+
+H1 The timing of trades significantly affects the trader
+performance.
+
+H2 Letting losing positions accumulate losses and pre-
+maturely closing winning positions biases the trader
+performance.
+
+Apart from the behavioral drivers of trader performance,
+the broker’s portfolio focus/diversity has been found to
+influence the investment behavior. For example, Chen and
+Lai (2015) compared concentrated investment styles (i.e.,
+investors focusing on only a few different assets) to less
+concentrated, ie., overconfident ones (i.e. investors feeling
+able to assess many different assets simultaneously and with
+
+Disposition
+
+(Keep losses running}
+
+Trade duration Trade duration
+
+ 
+
+Return
+Return
+
+Return
+
+ 
+
+Equivalent contribution to winratio (both positive) but different realized return levels
+
+Figure 2 Disposition effect related scenarios of timing the closing of a trade.
+; : Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+24
+
+the same quality). They find that fund managers exhibit
+higher performance if they concentrate on few stocks.
+Furthermore, Hiraki et al. (2015) show that industry-
+concentrated funds outperform more diversified peers.
+Specifically for FX trading, Jacobs and Weber (2015) find
+that distraction (induced by following different assets) of
+traders results in a negative influence on their performance.
+Hence, we hypothesize:
+
+H3 Focusing on particular instruments improves trader
+performance compared to diversified investment.
+
+Lastly, behavioral finance research has investigated the role
+of the level of trading activity on performance. The promi-
+nent work of Barber and Odean (2002) shows that individual
+online retail investors tend to perform worse when they
+increase their trading frequency. However, Abbey and
+Doukas (2015) find for individual currency traders that an
+increased turnover is associated with higher performance.
+This is in line with the findings of Dewally et al. (2009) for
+non-Household traders. An extended review of profiles of
+traders on Zulutrade revealed that traders are often experi-
+enced FX traders. They either have a professional background
+in finance and trading or document a strong dedication to
+trading as part time job or additional source of personal
+income. Hence, we assume that the sample comprises
+primarily non-Household investors and hypothesize:
+
+H4 An increased trading experience positively affects the
+trader performance.
+
+Moral hazard in delegated investment setups
+
+In social trading environments, traders and investors are tied
+together in a classical principal-agent setup (Holmstrom and
+Milgrom, 1991). The setup is comparable to delegated
+portfolio management (Bhattacharya and Pfleiderer, 1985;
+Fernandes et al., 2010). In general, agency theory explains the
+forces on relationships in transactional environments where
+either party is following personal interests and uncertainty
+prevails due to information asymmetry, ie., imperfect
+monitoring capabilities (Pavlou et al., 2007). The agent
+performs actions on behalf of the principal. The principal
+cannot perfectly monitor the agent’s behavior but has to rely
+on the incentives and motives that are guiding the agent’s
+decision on the investor’s behalf. For example, an investor
+has invested a share of the personal capital into a fund of a
+professional manager. The principal cannot fully monitor the
+motives and incentives guiding the professional investor but
+has to rely on the incentive of the fund manager who is
+rewarded based on the performance. For portfolio manage-
+ment these relationships are extensively studied in different
+literature streams. For instance, Evans (2008) reports the
+decrease of agency costs and decrease of turnover to be
+associated with higher personal investments of fund man-
+agers in their own funds. A general review of relationships
+between compensation, incentives and risk based on an
+extensive theoretical analysis is provided by Ross (2004). The
+decisive factor for the quality of the principal-agent rela-
+tionship is the moral hazard. The conceptual similarity of
+asset management to social trading environments (followers
+invest their capital in traders’ strategies) introduces a
+principal-agent relationship similar to the classical asset
+
+management. Hence, they face a comparable issue of moral
+hazard due to the previously described incentive schemes put
+in place to remunerate traders (Neumann e¢ al., 2015). The
+moral hazard they face can be described as follows: in order
+to maximize their own profit they could simply increase their
+trading activity as they are rewarded based on lot sizes that
+are executed in form of copied trades in their followers’
+broker accounts. Irrespective of the outcome of a trade, the
+trader would benefit from the transaction. However, traders
+can earn more if they attract more capital by improving the
+track record, ie. the overall performance. For example, one
+could try to improve the winratio in terms of the number of
+trades that yield a positive return. One could also face a
+moral pressure to increase performance when followers
+invest more money and trust in the trader’s abilities.
+
+If the trading performance is poor, investors can imme-
+diately withdraw their funds and the trader’s revenue would
+drop accordingly. In this regard, the platform mechanics on a
+social trading platform are particularly unique, offering
+solutions for that kind of moral hazard related issues:
+
+First, monitoring capabilities of investors are fundamen-
+tally different compared to asset management. Every investor
+can monitor the trader’s behavior at any point in time on a
+per trade basis in every detail. According to principal-agent
+theory, the capability of the principal to monitor the agent is
+negatively related to the moral hazard of the agent.
+
+Second, with linked brokerage accounts, investors’ reac-
+tion time is reduced to near-real time. Penalties for undesired
+behavior can thus be imposed immediately by every investor.
+A withdrawal of invested capital is the most radical. Leaving a
+comment on the public profile of the trader or providing a
+rating visible to others are less intense. These so called social
+feedback mechanisms (Ba and Pavlou, 2002; Pavlou et al.,
+2007) have been found to improve user generated content in
+online community setups (Siering and Muntermann, 2013).
+
+Third, the incentives of volume-based compensation should
+intuitively expose traders to the temptation of hazardously
+maximizing their monetary outcome. Consequently, traders
+would increase the order quantity in order to increase their
+compensation per lot copy-traded in a follower account.
+
+Fourth, traders that are not invested with their own money
+simply have an incentive profile that is similar to payout
+profiles of buying a stock option. The trader can earn positive
+returns with no monetary risks besides the premium (in this
+case invested time in trading on the platform).
+
+In summary, a trader on Zulutrade has strong incentives
+(volume-based remuneration) to behave morally hazardous.
+However, the trader is aware of being monitored in real-time
+and in detail, while the reaction time of the followers can also
+be near real-time. Hence, principal-agent theory suggests that
+the trader is more likely to behave in the interest of the
+follower. These considerations lead us to the following
+hypothesis:
+
+H5 Changes in the amount of invested capital improves a
+trader’s performance.
+
+Investors can use the rating scale on a trader’s profile to
+(dis-)approve of recent decisions. Changes of the average
+rating of a trader indicate the general activity of investors on
+the profile of the trader. A change of the rating therefore
+shows an increased monitoring activity of investors. Conse-
+quently, we hypothesize:
+Effects of transparency
+
+F Glaser and M Risius ;
+
+ 
+
+r
+Behavior / Style
+
+ 
+
+Timing
+(Duration)
+
+ 
+
+ 
+
+Disposition Effect
+(Distance Highest)
+
+ 
+
+ 
+
+Focus
+(Number of Pairs)
+
+ 
+
+ 
+
+Activity
+(Number of Trades)
+
+ 
+
+Social Relationship
+
+ 
+
+Moral Hazard
+(Capital Invested)
+
+ 
+
+ 
+
+Social Feedback
+(User Rating )
+
+ 
+
+ 
+
+ 
+
+Performance
+
+ 
+
+25
+
+ 
+
+Experience
+{Active Days)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 3 Overview of relationships according to our research model. Variables used to capture the proposed construct are mentioned in parentheses for each
+
+construct.
+
+H6 Changes in social feedback lead to a better trading
+performance.
+
+An overview of the previously derived research model is
+depicted by Figure 3. We attach the variables that we
+operationalize to test our hypotheses to the theoretical concepts.
+
+In the next section we explain the data set and the
+methodology, which we applied for empirical validation of
+our proposed model.
+
+Empirical analysis
+
+Data set
+
+Through an advanced data scraping method, we were able to
+extend the focus of previous studies on social trading or
+investment delegation decision beyond the single trade focus,
+by simultaneously collecting a data set that includes both
+trader profiles and trade information.
+
+Data regarding traders on Zulutrade is publicly available
+and was gathered in an automated and structured way: We
+scraped all trader profiles on a daily basis between 10 pm and
+12 pm UTC + 2. The raw profile data set comprises profile
+snapshots of around 33.000 traders for each day between
+06/2013 and 01/2014. Historical trades for every unique
+trader profile were obtained subsequently, resulting in almost
+9 million trades over the years 2007 to 2014.
+
+To reduce data noise and guarantee high data quality, the
+original sample of profiles and trades were pre-processed as
+follows: Initially, trade data was reduced to observations
+within the time window for which we obtained the corre-
+sponding profile data. A total of 3.79 million trades and
+around 33.000 profiles per day remained. It is worth noting
+
+that this vast number of daily accounts contains a high share
+of inactive or test accounts, which we dropped consequently.
+The platform is open for everyone to register and start
+trading, Le. providing signals. On the one hand, this
+unrestricted access policy leads to a broad diversity of
+traders, i.e. professional and less experienced traders. On the
+other hand, many users register only for testing purposes and
+churn after a short period of time.
+
+Based on a rule of thumb, we only consider traders that
+have been trading on more than two days within the
+observation window and for which the distance between their
+first and their last trade is more than four weeks to exclude
+test accounts. This reduces noisy data from the profiles set
+that actually might have one or more followers but only
+remain active for the four weeks test phase of a demo
+account. After removing all traders that are not active for at
+least four weeks, the final sample contains 201 traders over
+216 days. Lastly, it is worth noting that — since we are
+working with lagged variables — the subset of traders for
+which we do not observe at least three consecutive trading
+days are dropped during the estimation procedure. Hence the
+results presented are estimated with n = 178 traders for
+T = 107 distinct days.
+
+The trade data sample is aggregated on a daily basis. Trades
+that were opened and trades that were closed are counted
+separately for each day. Figures that are containing the
+numbers of both opened and closed trades on the same day
+are marked with the suffix “Total”. To increase internal
+validity, we dropped the numerically negligible non-FX asset
+classes (e.g., Gold, Oil or the S&P 500 Index). Lastly, due to
+our focus of socially biased trading behavior, we only
+consider paper-traders who are not affected by additional
+3k
+
+Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+26
+
+financial return strategies. In total, the data sample com-
+prised 428,153 single trades for the aforementioned 178
+traders over a period of 107 days.
+
+Variable operationalization
+
+To approximate social feedback we included “Rating” as the
+average rating from all followers who have invested capital
+into a traders’ strategy ranging from 0 to 5.
+
+Moral hazard is measured through “Capital’, which repre-
+sents the total amount of USD that is invested in the traders’
+strategy and is observed on a daily basis. As typically found in
+scale-free networks, capital has a skewed power law distribution,
+because a small number of traders capture the major share of the
+total capital invested (Newman and Park, 2003). Nonetheless,
+50% of the traders are entrusted several thousand $USD. To
+avoid potential biasing effects of the skewed distribution to a
+linear regression model, we considered (lagged) first order
+differences for our further analysis (Wooldridge, 2010).
+
+Performance of a trader is measured by the “winratio” as
+discussed in previous chapters. Winratio is defined on a daily
+basis for each trader. It represents the share of trades with a
+positive return that a trader closed ona particular day. The share
+was derived from the unprocessed dataset where winning trades
+are flagged with a dummy that is set to 1 if the trade yields a
+positive return on close and is set to 0 in the case of a loss. Thus,
+the winratio can take values between 0 (i.e., only trades with
+negative or zero returns) and 1 (ie., only trades with positive
+returns) for each trader for any given day (Table 1).
+
+To measure the disposition effect, we considered “Dis-
+tanceHighest” as the number of days between the maximum
+return that the trader could have realized with that particular
+trade and the point in time the trade was actually closed by
+the trader. This information is retrospectively reported by the
+platform operator for each single trade. Thus, this variable
+
+Table 1 Descriptive statistics of operationalized variables
+
+captures the effects of keeping less favorable trades open in
+the hope for higher returns in the future which is in line with
+the known aversion to realize a loss. A “DistanceHighest”
+around 0 means to close the trade around the (current)
+optimum, which can also be premature, i.e. closing a trade as
+long as its return is increasing.
+
+With “Duration” we capture a trader’s timing represented
+by the time between the opening time of a trade and its closing
+time denoted in days. We compute the average duration over
+all trades that are closed on a daily basis for every trader. Last,
+to include the behavioral patterns in terms of a trader’s focus
+and activity, we considered “PairsTotal” (count of unique
+currency pairs traded) and “TradesTotal” (the total number of
+trades handled, i.e., opened and closed). Both are calculated
+for each trader and each day of the sample.
+
+The pairwise correlations (Table 2) between these mea-
+sures are generally low except for the average duration of
+trades paired with the distance to highest price, which are
+inherently related. Otherwise, the cross-correlations are well
+within acceptable limits.
+
+Methodology
+To obtain answers to our research question, we conducted a
+fixed-effects panel regression. The final model is represented
+by Equation (1).
+Winratioy = 0%; + B, ACapital,, + B,ACapitalj,_,
++ B,ACapital,_. + B,ARating; + B,;ARatingi,—,
++ f,DistanceHighest;, + B,Durationi,
++ f,PairsTotalj, + ByTradesTotalj,
++ Bo TradesTotalj,_, + B,, Experiences, + &4
+
+(1)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Variable N Mean Median Minimum Maximum SD
+Winratio 13,852 0.81 1.00 0.00 1.00 0.32
+Capital 13,852 237,558.45 4400.92 0.00 12,374,490.00 902,516.37
+Rating 13,852 2.35 3.00 0.00 5.00 1.80
+DistanceHighest 13,852 0.76 0.00 0.00 30.00 2.48
+Duration 13,852 1.92 0.58 0.00 91.03 3.96
+PairsTotal 13,852 3.61 3.00 2.00 29.00 2.43
+TradesTotal 13,852 16.04 13.00 2.00 90.00 12.22
+Experience 13,852 596.63 552.31 5.19 1858.06 388.73
+Table 2 Pairwise correlations of variables
+
+Variable 1 2 3 4 5 6 7 8
+1 Winratio 1.00
+2 Capital —0.01 1.00
+3 Rating —0.07 0.10 1.00
+4 DistanceHighest —0.35 0.00 —0.01 1.00
+5 Duration —0.15 —0.03 —0.03 0.69 1.00
+6 PairsTotal —0.17 0.06 0.04 —0.02 —0.05 1.00
+7 TradesTotal —0.02 0.07 0.06 0.00 —0.01 0.19 1.00
+8 Experience 0.04 0.02 0.10 0.08 0.10 —0.03 —0.04 1.00
+
+ 
+Effects of transparency
+
+F Glaser and M Risius ;
+
+ 
+
+This approach enabled us to control for (1) any invariant,
+a priori idiosyncratic differences among the traders (ie.,
+personal traits, situational effects) through the restricted
+fixed effects assumption, (2) for a temporal learning trend
+(Le., experience), and (3) the (dummy encoded) day specific
+changes (which are not explicitly displayed in the tables or
+equation for the sake of clarity) additionally to the consid-
+eration of the hypothesized focal effects of trader style and
+social influences (Wooldridge, 2010).
+
+These aspects were controlled for considering that each
+trader in the sample could be endowed with unique tools
+or distinguishing personal traits. We selected a fixed-effects
+model, to control for individual performance altering
+effects because the present work focuses on systematic
+patterns common for all traders (Wooldridge, 2010). Time
+dummy variables for each day were included to rule out
+time-specific effects that systematically influence traders
+(e.g., seasonal effects, holidays, weather changes) during
+certain periods of time (Wooldridge, 2010). Considering,
+that traders learn over time and improve their perfor-
+mance (Chiang ef al., 2011), we controlled for the
+progressive learning of a trader through the number of
+days since the trader’s first trade on the platform (i.e.,
+experience).
+
+Lastly, we included lagged variables of Capital, Rating, and
+the number of trades to enable inferences of chronological
+causality (i.e., repeating occurrence of events that follow each
+other with reasonable time delay) As reported by Abbey and
+Doukas (2015), a day trader’s trading activity in a previous
+period influences the performance of a trader in the current
+period. Regarding the interpretation of the metrics, we do
+not consider the (generally rather persistent) levels of these
+variables, but the first order differences in comparison to the
+previous period. For example, ACapital;,_; denotes the
+absolute change of capital invested in trader i between
+period t — 2 and t — 1. We tested models with higher lag
+lengths but could not find any remarkable differences
+regarding model fit or specification analytical metrics.
+Besides, additional lags were insignificant.
+
+27
+
+Robustness considerations
+
+During the course of the description of our analysis, we
+documented additional approaches taken to test our results
+against outliers, skewed distributions of explanatory variables
+and sub-sampling issues. In this section we briefly take
+account of decisions regarding our econometric estimation
+procedure that could systematically bias the results.
+
+First of all, a test for unobserved effects in the individual
+residuals rejects the null hypothesis and, thus, justifies the
+modelling of individual effects through a random- or fixed-
+effects panel regression (Wooldridge, 2010). The choice of fixed
+effects estimation over random effects estimation was based on
+the rejection of the null hypothesis in the Hausman test
+procedure for misspecification (Hausman and Taylor, 1981).
+Lastly, we considered serial-correlation and heteroscedasticity
+patterns of error terms commonly found in panel regressions.
+Our panel data is not suffering from being a “short” panel set
+and hence the standard tests for serial correlation are feasible
+(Wooldridge, 2010). Both Breusch-Godfrey and Durbin-Wat-
+son tests for serial correlation both reject the null-hypothesis
+indicating serial correlation. Hence, we need to correct for these
+effects by using robust standard errors (Arellano, 1987).
+
+Empirical results
+The results of our empirical model validation with standard-
+ized beta coefficients are presented in Table 3.
+
+Overall, the results support our underlying assumption that
+on social trading platforms, the trader performance is affected
+by behavioral and interaction features of the platform
+(adjusted R* = 13.77%, p < .001). In particular, the results
+also support the previously hypothesized relationships.
+
+Regarding the effect of timing (hypothesis 1) and disposition
+(hypothesis 2), we see that both features significantly affect
+trader performance. Considering the correlation of both
+metrics, this means that the duration of a trade is only positive
+as long as the position is running in the favorable direction, i.e.
+increasing return. As soon as the position is running in the
+wrong direction, Le., moving away from highest price and
+possibly into the loss zone, the duration of the trade is no
+
+Table 3 Coefficients are reported as beta coefficients (also frequently referred to as standardized coefficients)
+
+ 
+
+Dependent variable: winratio (t)
+
+ 
+
+ 
+
+Hypotheses Variable Coefficient p value Sign.
+H1: Timing Duration 0.1294 0.0001 all
+H2: Disposition DistanceHighest —0.4053 0.0000 wn
+H3: Focus PairsTotal —0.2043 0.0002 re
+H4: Activity TradesTotal —0.0346 0.3036
+
+TradesTotal (ft — 1) 0.0616 0.0115 ail
+H5: Moral ACapital 0.3212 0.5363
+
+ACapital (¢ — 1) 0.8889 0.0013 wn
+
+ACapital (¢ — 2) 0.5724 0.0674 *
+H6: Social feedback ARating 0.2219 0.0043 oe
+
+ARating (t — 1) —0.0231 0.8382
+Controls Experience 0.0771 0.0294 ail
+Dummies Time included
+
+Adjusted R? 0.1377
+
+F statistics 63.0005 0.0000 Or
+
+ 
+; : Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+28
+
+longer favorable. The median of DistanceHighest was 0,
+indicating that the majority of trades were closed as long as the
+trade was running in the favorable direction. Put differently,
+the trade was closed at the so far highest return of that trade.
+Thus, the results confirm hypotheses H1 and H2.
+
+As suggested by our third hypothesis H3, the number of
+traded pairs measuring the focus of the trader is influencing
+the performance outcome. The more focused a trader, with
+respect to asset classes, the better the performance of the
+trades.
+
+Hypothesis H4 is in accordance with the findings of Abbey
+and Doukas (2015), showing that a higher level of activity in
+the previous period indicates a higher performance in the
+current period. To test for collinearity issues, we exclude the
+lag of TradesTotal and find the results to be stable.
+TradesTotal in the current period remains insignificant.
+
+In line with hypotheses H5, we find an increase in the capital
+invested in the preceding days to influence the daily winratio.
+We assume that two forms of influence account for this
+observation. First, it indicates that the trader assumes to be
+monitored in the current period, i.e., immediately after new
+investments, and is trying to please the new investor with
+positive returns. Second, it shows that a change in investments
+on the previous day causes the trader to become more prone to
+the disposition effect. This finding shows the link between real-
+time monitoring capabilities of a principal and the behavioral
+bias of the trader. It needs to be noted that the effect is only
+valid with respect to a change in the previous period.
+
+While the results indicate support regarding the proposed
+social feedback hypothesis H6, the absence of a lagged effect
+does not allow inferring (chronological) causality from the
+finding. Although we see a significant coefficient for the
+current period first difference, we cannot establish a clear
+chronological order. Rating is obtained on an end of day
+basis, whereas winratio is determined within that same day.
+Thus, apart from the theoretical reasoning, we cannot
+provide final empirical evidence that the rating increased
+during the day due to the good performance of the trade, or
+if the trader’s performance is influenced by a higher rating in
+comparison to the previous day.
+
+Discussion
+
+The goal of this study was to investigate how trader
+performance can be enhanced through the transparency
+and social interactions on social trading platforms. For this
+purpose, we collected and analyzed a panel of 178 trader
+profiles and their respective trade information over more
+than 100 days from a leading social trading platform —
+Zulutrade. Contrary to assumptions of the efficient market
+hypothesis, our results generally show that social trader
+performance is subject to behavioral (i.e., Disposition) and
+relational biases (i.e., Moral-Hazard, Social Feedback) com-
+parable to incumbent investment environments. Further-
+more, we are able to closely consider time-dependent
+interacting effects of the prominent disposition and moral
+hazard biases that impair trader returns. The disposition
+effect describes the tendency of a trader to prematurely close
+winning trades or overrun losing trades. Our results show
+that the disposition effect intensifies with a anteriorly
+increase in moral hazard expressed through capital entrusted
+to a trader. In other words, paying more attention to a trader
+
+enhances the trader’s urge to avoid losses even if it means
+passing on optimal returns. The reported effects remain
+stable under simultaneous control for known performance
+drivers such as trade duration, trade frequency, lagged trade
+frequency, investment focus, and experience of the trader.
+Lastly, one needs to acknowledge that the present empirical
+results do not necessarily indicate the assumed causal
+dependency between monitoring proxies and winratio. The
+positive relationship states that decreasing ratings or capital is
+associated with a decreasing winratio. Alternatively, it could
+be assumed that the effect is moderated through additional
+variables. This could, for example, be that a reduced
+monitoring from users decreases the trader’s effort or the
+willingness to trim publicly displayed performance metrics. It
+is also possible that traders focus on higher returns instead of
+higher winratios. Therefore, they need to take more risk and
+hence suffer from a higher share of trades they need to close
+with a loss. These additional explanations, however, do not
+repeal the relationship but offer venues for further research
+on social trading.
+
+Conclusion
+
+While the efficient market hypothesis assumes stock prices to
+be purely rationality based, trader performance in offline-
+settings has been found to be affected by a set of behavioral
+and social biases. Due to their key features of transparent
+communication and social relations, social trading platforms
+offer the unique opportunity to study behavioral and social
+impacts on trading behavior. To the best of our knowledge,
+we are the first to combine profile and trade data from a
+social trading platform to analyze comparable effects in an
+upcoming online real-time environment of trader investor
+relationships. Thereby, we confirm the disposition effect for
+traders in the online environment of a social trading
+platform. This contributes to financialization research, con-
+sidering that social trading represents an associated phe-
+nomenon in terms of technologically disintermediating
+platforms that enable maximizing individual financial profits
+through speculative trading. In particular, we exploit unique
+characteristics of the winratio performance measure and
+observe that traders tend to be more prone to the disposition
+effect in the current period if their rating or the invested
+capital has changed in the previous period. We conclude that
+traders try to improve their performance metrics when they
+receive more attention from the community, ie., capital
+investments in the previous period or changes in the average
+user rating. The reported effects remain stable while con-
+trolling for established performance drivers such as trade
+duration, trade frequency, lagged trade frequency, attention
+level and experience of the trader.
+
+These insights are relevant from a theoretical as well as
+practical perspective. Foremost, we extend the theoretical
+knowledge regarding the drivers of the prominent and well-
+studied disposition effect in an innovative online trading
+environment. Thereby, we further supplement findings from
+behavioral finance contradicting the efficient market hypoth-
+esis. While social trading platforms differ substantially from
+the common trading environment regarding levels of trans-
+parency and types of relationships, the disposition effect is
+stable across settings. Even more so, the augmented exposi-
+tion to investor attention seems to enhance the disposition
+Effects of transparency
+
+F Glaser and M Risius ;
+
+ 
+
+effect while decreasing the trader performance significantly.
+Additionally, we extend the literature on principal-agent
+theory in the digitized financial service world. We show that
+full transparency and exertion of control does not necessarily
+introduce positive effects. The behavior of the agent is
+influenced by recognition of being monitored. Hence, the
+principal could inadvertently induce unfavorable behavior of
+the agent through monitoring. Thus, we also obtain insights
+on the effects of financialization related issues regarding the
+impact of increased transparency and deregulation (Bucha-
+nan, 2016). Moreover, we provide insights on trader behavior
+and the impact of social trading service features. Making
+traders and their performance visible to the community and
+enabling social feedback from investors in terms of ratings,
+helps to make traders act more conservatively and temporar-
+ily increase the winratio.
+
+Therefore, platform operators can refer to these findings to
+improve or measure the impact of different incentive struc-
+tures and monitoring capabilities provided on their platform.
+Based on these results, we argue that operators need to decide
+which type of trading behavior they would like to encourage on
+their platforms and design the features accordingly. If, on the
+one hand, high risk investment strategies with potentially
+maximized returns are desirable, platforms should offer only
+restrictive attention signaling features such as subjective user
+ratings. On the other hand, however, if they want to encourage
+rather risk-aware trading, social feedback mechanisms help to
+establish such behaviors. Furthermore, regulators are provided
+with insights regarding recently emerging financial services. As
+customer protection is frequently postulated and enforced by
+regulatory authorities, our findings can provide helpful
+guidance for future regulatory discussions. As such, we are
+able to demonstrate effects of an augmented transparency of
+trader behavior for regulatory and investment entities. Specif-
+ically, when investors can openly compare success measures of
+traders, it causes traders to trim their performance metrics even
+though it might not yield optimal returns. Thereby, we also
+address the major global aspect of financialization regarding
+market deregulation (Buchanan, 2016).
+
+However, these contributions need to be considered in the
+light of the study’s limitations, which simultaneously provide
+venues for future research. In its current state, the findings
+might be subject to a sampling or survivorship bias. Due to our
+filtering methodology of only using traders who have con-
+ducted at least two trades on the platform, one might argue that
+more skilled traders remained in the sample which explains
+higher winratios. However, it needs to be noted that such a
+sample bias would imply that the obtained coefficients are
+more likely to underestimate the actual effect size. Considering
+that skilled traders should be less prone to react to the external
+and, at least for their strategy, irrelevant influences like changes
+of capital invested or changing of ratings. Especially since
+traders on Zulutrade are completely independent of the
+amount invested in their strategy. This is different for funds
+and traditional asset management setups, where traders would
+benefit from the volume of the portfolio they manage.
+However, further research is needed to investigate the
+assumption that this sample bias rather underestimates the
+effect sizes.
+
+Regarding the generalizability of our findings, it needs to
+be considered that the data was obtained from one social
+trading platform, which is structurally different from other
+
+29
+
+platforms (e.g., imposes less controls and constraints regard-
+ing admission criteria or track record evaluation for traders).
+Consequently, the environment could encourage rather
+hazardous trading behavior.
+
+Lastly, further research in this regard could focus on
+changing the design of functionalities for communication
+between traders and followers or more elaborate recommen-
+dation systems for traders or trading strategies or incorporate
+other dimensions like changes of risk taking behavior in the
+presence of higher levels of followers and entrusted capital.
+This would enable to analyze more closely how risk taking is
+influenced by social presence, interaction or social function-
+alities in online trading environments.
+
+References
+
+Aalbers, M. (2008). The Finacialization of Home and the Mortage Market Crisis,
+Competition & Change 12(2): 148-166.
+
+Aalbers, M. (2015). Corporate Financialization, The International Encyclopedia of
+Geography: People, the Earth, Environment, and Technology, Oxford, UK: Wiley.
+
+Abbey, B.S. and Doukas, J.A. (2015). Do Individual Currency Traders Make
+Money? Journal of International Money and Finance 56: 158-177.
+
+Alt, R. and Puschmann, T. (2012). The Rise of Customer-Oriented Banking —
+Electronic Markets Are Paving the Way for Change in the Financial Industry,
+Electronic Markets 22(4): 203-215.
+
+Amman, M. and Schaub, N. (2016). Social Interaction and Investing: Evidence
+form an Online Social Trading Network [WWW document] https://www.rsm.
+nl/fileadmin/home/Department_of_Finance__VG5_/PAM2016/Final_Papers/
+Nic_Schaub.pdf (accessed 25 August 2016).
+
+Antweiler, W. and Frank, M.Z. (2004). Is All That Talk Just Noise? The
+Information Content of Internet Stock Message Boards, The Journal of Finance
+59(3): 1259-1294.
+
+Arellano, M. (1987). Computing Robust Standard Errors for Within-groups
+Estimators, Oxford Bulletin of Economics and Statistics 49(4): 431-434.
+
+Ba, S. and Pavlou, P.A. (2002). Evidence of the Effect of Trust Building
+Technology in Electronic Markets: Price Premiums and Buyer Behavior, MIS
+Quarterly 26(3): 243-268.
+
+Baghestanian, S., Gortner, P.J. and van der Weele, J. (2015). Peer Effects and
+Risk Sharing in Experimental Asset Markets, SAFE Working Paper No. 67.
+Barber, B. M. and Odean, T. (2002). Online Investors: Do the Slow Die First?
+
+Review of Financial Studies 15(2): 455-487.
+
+Ben-David, I. and Hirshleifer, D. (2012). Are Investors Really Reluctant to
+Realize Their Losses? Trading Responses to Past Returns and the Disposition
+Effect, Review of Financial Studies 25(8): 2485-2532.
+
+Bhattacharya, S. and Pfleiderer, P. (1985). Delegated Portfolio Management,
+Journal of Economic Theory 36(1): 1-25.
+
+Bjonnes, G.H. and Rime, D. (2005). Dealer Behavior and Trading Systems in
+Foreign Exchange Markets, Journal of Financial Economics 75(3): 571-605.
+Bjonnes, G.H., Rime, D. and Solheim, H.O. (2005). Liquidity Provision in the
+Overnight Foreign Exchange Market, Journal of International Money and
+
+Finance 24(2): 175-196.
+
+Breedon, F. and Ranaldo, A. (2013). Intraday Patterns in FX Returns and Order
+Flow, Journal of Money, Credit and Banking 45(5): 954-965.
+
+Buchanan, B.G. (2016). The Way We Live Now: Financialization and Securiti-
+zation, Research in International Business and Finance Advance Online
+Publication 23 January, doi:10.1016/j.ribaf.2015.11.019.
+
+Chen, H., De, P., Hu, Y. and Hwang, B.-H. (2014). Wisdom of Crowds: The
+Value of Stock Opinions Transmitted Through Social Media, Review of
+Financial Studies 27(5): 1367-1403.
+
+Chen, X. and Lai, Y.-J. (2015). On the Concentration of Mutual Fund Portfolio
+Holdings: Evidence from Taiwan, Research in International Business and Finance
+33: 268-286.
+
+Chiang, Y.-M., Hirshleifer, D., Qian, Y. and Sherman, A.E. (2011). Do Investors
+Learn from Experience? Evidence from Frequent IPO Investors, Review of
+Financial Studies 24(5): 1560-1589.
+
+Cornell, B. (2013). What Moves Stock Prices: Another Look, Journal of Portfolio
+Management 39(3): 32-39.
+; : Effects of transparency
+
+F Glaser and M Risius
+
+ 
+
+30
+
+Currie, W.L. and Lagoarde-Segot, T. (2016). Call For Papers: Finacialization and
+Information Technology, Journal of Information Technology.
+
+Dewally, M., Ederington, L. and Fernando, C. (2009). Determinants of Trader
+Profits in Commodity Futures Markets, Review of Financial Studies 26(10):
+2548-2683.
+
+Doering, P., Neumann, S. and Paul, S. (eds.) (2015). A Primer on Social Trading
+Networks: Institutional Aspects and Empirical Evidence.
+
+Epstein, G.A. (2005). Financialization and the world economy, Cheltenham, UK:
+Edward Elgar Publishing.
+
+Evans, A.L. (2008). Portfolio Manager Ownership and Mutual Fund Perfor-
+mance, Financial Management 37(3): 513-534.
+
+Falkner, R. and Corsthwaite, D. (2013). Mirror Trading and Social Media Marketing:
+Reulatory and Business Risks [WWW document] http://de.slideshare.net/black
+swanpartners/black-swan-partners-reedreed-smithsocialtradingmarketingseminar
+booklet (accessed 29 August 2016).
+
+Fama, E.F. (1970). Efficient Capital Markets: A Review of Theory and Empirical
+Work, The Journal of Finance 25(2): 383-417.
+
+Fama, E.F. (1998). Market Efficiency, Long-Term Returns, and Behavioral
+Finance, Journal of Financial Economics 49(3): 283-306.
+
+Farnsworth, H. and Taylor, J. (2006). Evidene on the Compenstation of Portfolio
+Managers, The Journal of Financial Research 29(3): 305-324.
+
+Fernandes, J.L.B., Peiia, J.I. and Tabak, B.M. (2010). Delegated Portfolio
+Management and Risk-Taking Behavior, The European Journal of Finance 16(4):
+353-372.
+
+Garner, C. (2012). Currency Trading in the Forex and Futures Markets, New Jersey,
+USA: FT Press.
+
+Hausman, J. and Taylor, W. (1981). Panel Data and Unobservable Individual
+Ects, Econometrica 49: 1377-1398.
+
+Hiraki, T., Liu, M. and Wang, X. (2015). Country and Industry Concentration
+and the Performance of International Mutual Funds, Journal of Banking &
+Finance 59: 297-310.
+
+Holmstrom, B. and Milgrom, P. (1991). Multitask Principal-Agent Analyses:
+Incentive Contract, Asset Ownership, and Job Design, Journal of Law,
+Economics, & Organization 7(Special Issue): 24-52.
+
+Jacobs, H. and Weber, M. (2015). On the Determinants of Pairs Trading
+Profitability, Journal of Financial Markets 23: 75-97.
+
+Josang, A., Ismail, R. and Boyd, C. (2007). A Survey of Trust and Reputation
+Systems for Online Service Provision, Decision Support Systems 43(2): 618-644.
+
+Keynes, J.M. (2013). The state of long-term expectation (4th ed.), New York, USA:
+Cambridge University Press.
+
+Lagoarde-Segot, T. (2016). Financialization: Towards a New Research Agenda.
+International Review of Financial Analysis, International Review of Financial
+Analysis advance online publication 3 April, doi: 10.1016/j.irfa.2016.03.007.
+
+Lee, W. and Ma, Q. (2015). Whom to Follow on Social Trading Services?
+
+A System to Support Discovering Expert Traders, in Proceedings of thel0th
+International Conference on Digital Information Management (ICDIM),
+pp. 188-193.
+
+Liu, Y.-Y., Nacher, J. C., Ochiai, T.. Martino, M. and Altshuler, Y. (2014).
+Prospect Theory for Online Financial Trading, PLoS ONE 9(10): 1-7.
+
+Lo, A.W. (2004). The Adaptive Markets Hypothesis: Market Efficiancy from an
+Evolutionary Perspective, Journal of Portfolio Management 30(5): 15-29.
+
+Neumann, S., Paul, S. and Doering, P. (2015) A Primer on Social Trading:
+Remuneration Schemes, Trading Strategies and Return Characteristics, in
+Proceedings of the EFMA Annual Meetings 2015.
+
+Newman, M.E.J. and Park, J. (2003). Why Social Networks are Different from
+Other Types of Networks, Physical Review E 68(3): 1-8.
+
+Oehler, A., Horn, M. and Wendt, S. (2016). Benefits from Social Trading?
+Empirical Evidence for Certificates on Wikifolios, International Review of
+Financial Analysis 46: 202-210.
+
+Orlean, A. (2012). Knowledge in Finance: Objective Value versus Convention.
+Northamption, MA: Edward Elgar Publishing.
+
+Pan, W., Altshuler, Y. and Pentland, A. (2012) Decoding Social Influence and
+the Wisdom of the Crowd in Financial Trading Network, in Privacy, Security,
+Risk and Trust (PASSAT), 2012 International Conference on and 2012
+International Confernece on Social Computing (SocialCom), pp. 203-209.
+
+Pavlou, P.A., Liang, H. and Xue, Y. (2007). Understanding and Mitigating
+Uncertainty in Online Exchange Relationships: A Principal-Agent Perspective,
+MIS Quarterly 31(1): 105-136.
+
+Pelster, M. and Breitmayer, B. (2016) Swarm Intelligence? Stock Opinions of the
+Crowd and Stock Returns [WWW document] http://dx.doi.org/10.2139/ssrn.
+2787744 (accessed 25 August 2016).
+
+Philippon, T. (2015). Has the U.S. Finance Industry Become Less Efficient?
+American Economic Review 105(4): 1408-1438.
+
+Robinson, D. (2014). Return of the daytrader: Can You Earn a Living by Copying
+Other Investors? [WWW document] http://www.telegraph.co.uk/finance/
+personalfinance/investing/11123162/Return-of-the-daytrader-can-you-earn-a-
+living-by-copying-other-investors.html (accessed 29 August 2016).
+
+Rosov, S. and Foster, F.D. (2014). Customer Foreign Exchange Orders: When
+Timing Really Does Matter, Australian Journal of Management 39(3): 351-368.
+
+Ross, S.A. (2004). Compensation, Incentives, and the Duality of Risk Aversion
+and Riskiness, The Journal of Finance 59(1): 207-225.
+
+Sapienza, P. and Zingales, L. (2012). A Trust Crisis, International Review of
+Finance 12(2): 123-131.
+
+Shefrin, H. and Statman, M. (1985). The Disposition to Sell Winners Too Early
+and Ride Losers Too Long: Theory and Evidence, The Journal of Finance 40(3):
+777,
+
+Shiller, R.J. (2005). Irrational Exuberance (2nd ed.), New Jersey, USA: Princeton
+University Press.
+
+Shiller, R.J. (2015). Irrational Exuberance (31rd ed.), New Jersey, USA: Princeton
+University Press.
+
+Siering, M. and Muntermann, J. (2013). How to Identify Tomorrow’s Most
+Active Social Commerce Contributors? Inviting Starlets to the Reviewer Hall of
+Fame, in Proceedings of the International Conference on Information Systems
+2013, Milan, Italy.
+
+Stoughton, N.M. (1993). Moral Hazard and the Portfolio Management Problem,
+The Journal of Finance 48(5): 2009-2028.
+
+Weber, M. and Camerer, C.F. (1998). The Disposition Effect in Securities
+Trading: An Experimental Analysis, Journal of Economic Behavior & Organi-
+zation 33(2): 167-184.
+
+Wohlgemuth, V., Berger, E.S. and Wenzel, M. (2016). More than Just Financial
+Performance: Trusting Investors in Social Trading, Journal of Business Research
+69(1 1): 4970-4974.
+
+Wooldridge, J.M. (2010). Econometric Analysis of Cross Section and Panel Sata
+(2nd ed.), Cambridge, USA: MIT Press.
+
+Zhao, J.C., Fu, W.-T., Zhang, H., Zhao, S. and Duh, H. (2015). To Risk or Not
+to Risk? in The 18th ACM Conference (Vancouver, BC, Canada), pp. 95-104.
+
+Zulutrade. (2016). Zulutrade Homepage [WWW document] http://www.
+zulutrade.com/index (accessed 29 August 2016).
+
+About the Authors
+
+Florian Glaser is a Ph.D. candidate at Goethe University,
+Frankfurt, Germany. His research interests are in the area of
+innovations in electronic financial networks in general and in
+particular in algorithmic trading and blockchain system
+design.
+
+Marten Risius is a Postdoc at the University of Mannheim,
+Germany. His research interests are in the areas of digital-
+ization, social media management, and social media analyt-
+ics. His articles have been published in JSIS, Information &
+Management, and in the conference proceedings of the ECIS,
+the HICSS, and the AMCIS.
+

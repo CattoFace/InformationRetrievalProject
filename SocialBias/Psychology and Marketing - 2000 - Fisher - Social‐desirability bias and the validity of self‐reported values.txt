@@ -1,0 +1,1246 @@
+Social-Desirability Bias
+and the Validity of
+Self-Reported Values
+
+Robert J. Fisher
+University of Western Ontario
+
+James E. Katz
+Rutgers University
+
+ABSTRACT
+
+Unlike prior research that treats social-desirability bias (SDB) as
+measure contamination, the present research asserts that significant
+associations between measures of SDB and value self-reports are
+evidence of measure validity. The degree to which value self-reports
+are influenced by SDB also reflects the relative importance of values
+within a culture. Values that are most important have the greatest
+self-presentational implications and therefore should be most
+affected by SDB. Moreover, differences between raw and SDB-
+corrected value self-reports indicate the extent to which values are
+personal (i.e., private) or public in nature. The research is based on
+two national samples of American adults 18 years of age and older.
+Implications for research on values are discussed. © 2000 John Wiley
+& Sons, Inc.
+
+The tendency of respondents to provide socially desirable answers is the
+most studied form of response bias in the social sciences (cf. Paulhus,
+1991). Social-desirability bias (SDB) has been found to affect the meas-
+urement of personality variables (e.g., Mick, 1996), attitudes (e.g.,
+Fisher, 1993), and self-reported behaviors (e.g., Mensch & Kandel,
+1988). Moreover, SDB effects are complex and have the potential to
+attenuate, inflate, or moderate variable relationships depending on the
+
+Psychology & Marketing Vol. 17(2):105—120 (February 2000)
+© 2000 John Wiley & Sons, Inc. CCC 0742-6046/00/020105-16
+
+105
+
+UNA BIEH IQ Aust9A UC) q 6-Z!0D'0'E<EMWN-CIW=50 [> Z:L L(ZO000Z)EBLS-OZS [(IDIS)/200 | ‘OL opAuOs Kapa: Kieaqyaunyuoysdny wo papeojumad °Z ‘000Z *E6L90Z5 |
+
+loMIpUOD PUR suUa) ain 29g “[zz0z/1 L/ZZ] UO AmRIg] aUYIUO KoplAy “UELBEEN BABIOS = Sal
+
+aeuoy] suoUMAg aAmBaID a1quoydde aip q poLMO are sa]sruE YC ‘9m Jo sop soy ug] aUUQ Aap) Uo (SuORIPUND-pUR-suLaYUOs Kapya-EuBaqauyUa/sdny) Sui
+measures being used and the model under consideration (for a review
+see Zerbe & Paulhus, 1987). Hence, SDB research can be found in psy-
+chology (e.g., Maher, 1978; Paulhus, 1984; Robinette, 1991; Wagner,
+Hilsenroth, & Sivec, 1990); marketing (e.g., Steele, 1964); organiza-
+tional behavior (e.g., Zerbe & Paulhus, 1987); economics (e.g., Kilpa-
+trick, 1957); sociology (e.g., Simon & Simon, 1975); education (e.g., Pel-
+tier & Walsh, 1990) and virtually every other area that relies on
+self-report measures.
+
+The extent to which SDB adds nontrait variance to a measure is typ-
+ically estimated by the correlation between the variable of interest and
+one or more SDB measures. In consumer research, for example, the
+Marlowe—Crowne Social Desirability (MCSD) scale (Crowne & Marlowe,
+1960; 1964) has been used to assess SDB in measures of materialism
+(e.g., Richins & Dawson, 1992), values (Beatty, Kahle, Homer, & Misra,
+1985), and compulsive buying (Mick, 1996). If a significant SDB effect
+occurs, researchers typically try to remove the bias component or ignore
+it because the contamination is trivial (for a review of methods see Paul-
+hus, 1991). If no significant association between the variable and SDB
+measure is found, researchers conclude that the variable is uncontami-
+nated and continue with measure development or hypothesis testing.
+
+Yet SDB effects are not always undesirable and therefore should not
+be controlled indiscriminately (Zerbe & Paulhus, 1987). In particular,
+SDB measures may be conceptually related to a construct of interest,
+and therefore a significant association between the two provides evi-
+dence of convergent validity. Relationships between self-reported values
+and measures of SDB are a case in point. A value can be defined as “an
+enduring belief that a specific mode of conduct or end-state of existence
+is personally or socially preferable to an opposite or converse mode of
+conduct or end-state of existence” (Rokeach, 1973, p. 5). Put simply,
+values are a conception of what is desirable within a culture (cf. Kluck-
+hohn, 1951; Smith, 1969; Spates, 1983). Consequently, associations be-
+tween measures of SDB and values should be expected because both
+have a desirability component.
+
+Moreover, the degree to which SDB affects a value self-report depends
+on the value’s self-presentation potential. Respondents are motivated
+to bias their responses to the degree that the value is strongly prescribed
+within the social system and therefore has important social implica-
+tions. Conversely, a value that is of marginal importance is less affected
+by social expectations, and so the motivation to bias is weaker. Some
+preliminary evidence supports this assertion. Kelly, Silverman, and
+Cochrane (1972) found significant differences in the level of SDB across
+values in the Rokeach Value Survey (RVS) with the use of an under-
+graduate student sample (Rokeach, 1973). More recently, Beatty et al.
+(1985) found variations in estimates of SDB across the List of Values
+(LOV) (Beatty et al., 1985) and RVS. The researchers split a convenience
+sample of students and neighborhood adults into high- and low-social-
+
+ 
+
+106 FISHER AND KATZ
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+4
+2
+z
+S
+a
+8
+3
+&
+=
+5
+=
+5
+a
+8
+§
+i
+Q
+F
+3
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+desirability subgroups on the basis of median scores on the Bem (1974)
+and MCSD scales. The study reports significant social desirability ef-
+fects for three of nine of the LOV and 10 of the 18 terminal values in
+the RVS.1 If SDB affects the self-reports of some values more than oth-
+ers, value rankings are likely to be affected.
+
+The objective of the present research is to examine the effects of SDB
+on self-reported values. The research investigates the validity of value
+self-reports from a social desirability perspective. Contrary to prior re-
+search, however, it is argued that a significant SDB component is evi-
+dence of measure validity rather than contamination. The research also
+assesses the relative degree of SDB, and therefore the self-presenta-
+tional significance of the nine values in the Beatty et al. (1985) LOV.
+
+The article begins with the conceptual model that guides the research.
+It then describes the method and results based on two national samples
+of American adults. Finally, the article discusses the implications of the
+findings for value research.
+
+THE EFFECTS OF SOCIAL-DESIRABILITY BIAS ON
+VALUE SELF-REPORTS
+
+Paulhus (1984; 1992) provides evidence that measures of social-desir-
+ability bias can be partitioned into two factors. The first factor, self-
+deceptive positivity, reflects an honest but overly favorable self-presen-
+tation. Self-deception is linked to personality constructs such as
+self-esteem and optimism (e.g., Winters & Neale, 1985). The second,
+impression management, is associated with the desire to present oneself
+in a socially conventional way (Paulhus, 1991). Individuals who score
+high on the impression-management component tend to be more re-
+sponsive to social influence. They prefer low-profile behaviors that en-
+able them to avoid evaluations by others, even when they perceive that
+such evaluations might lead to social rewards.
+
+Although the MCSD scale was developed as a general measure of
+social-desirability bias, it more precisely reflects the inclination to seek
+approval or avoid disapproval (Crowne, 1979). As a consequence, sig-
+nificant associations between the scale and self-reported values primar-
+ily reflect respondents’ self-presentation concerns. Respondents who
+score high on the MCSD scale are likely to bias their responses as a way
+of blending in and escaping negative evaluations.?
+
+1These results probably understate the effects of social-desirability bias given the loss of power
+inherent in splitting the sample at the median and using ranked rather than continuous data
+(Cohen & Cohen, 1983).
+
+2Controlling SDB can actually reduce the predictive validity of content measures if the self-decep-
+tive positivity component is removed. Paulhus (1991) states that the self-deceptive component
+is closely linked to personality traits such as well-being, perceived control, and self-esteem, and
+therefore “should not be controlled” (p. 23). The MCSD scale is appropriate to use because it is
+relatively independent of the self-deception factor.
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES 107
+
+UNA BIEH IQ Aust9A UC) q 6-Z!0D'0'E<EMWN-CIW=50 [> Z:L L(ZO000Z)EBLS-OZS [(IDIS)/200 | ‘OL opAuOs Kapa: Kieaqyaunyuoysdny wo papeojumad °Z ‘000Z *E6L90Z5 |
+
+loMIpUOD PUR suUa) ain 29g “[zz0z/1 L/ZZ] UO AmRIg] aUYIUO KoplAy “UELBEEN BABIOS = Sal
+
+aeuoy] suoUMAg aAmBaID a1quoydde aip q poLMO are sa]sruE YC ‘9m Jo sop soy ug] aUUQ Aap) Uo (SuORIPUND-pUR-suLaYUOs Kapya-EuBaqauyUa/sdny) Sui
+Given that values are a conception of the desirable, self-reported val-
+ues should be particularly susceptible to social-desirability bias, and so
+there should be a positive association between respondents’ MCSD
+scores and measured values. Indeed, a lack of association between the
+MCSD scale and a value would suggest that respondents perceive that
+the degree to which they hold the value has no implications for self-
+presentation. In other words, others will think no more or less of them
+for indicating that the value is important because the value is not
+strongly prescribed within the culture. Indeed, a finding of no relation-
+ship between the SDB measure and a self-reported value suggests that
+respondents do not consider the value to be a conception of what is de-
+sirable in the social system. Formally, we give the following hypothesis.
+
+H1: Self-reported values contain a significant SDB component.
+
+Further, the values that are the most socially desirable within a culture
+have the greatest consequences for self-presentation. Successful im-
+pression management requires that individuals identify what is nor-
+mative and provide responses consistent with the norm (e.g., Leary,
+1996). Individuals should perceive that their best chance of creating
+favorable (or avoiding unfavorable) reactions from others is by acting in
+accordance with what is accepted and admired by others in the culture.
+
+Consumer research based on the LOV methodology has found that
+the values that are most important to Americans are self-respect, warm
+relationships with others, security, and a sense of accomplishment
+(Beatty et al., 1985; Kahle, 1984; Kahle, Poulos, & Sukhdial, 1988) (see
+Table 1). It is therefore expected that self-reports of these four values
+should contain the largest SDB components. In contrast, values related
+to the approval of others (i.e., a sense of belonging and being well-re-
+
+Table 1. Most Important Consumer Values (1976 and 1986)
+
+ 
+
+ 
+
+ 
+
+19764 1986»
+
+GA Ranking % Ranking
+Self-respect 21.1 1 23.0 1
+Warm relationships with others 16.2 3 19.9 2
+Security 20.6 2 16.5 3
+Sense of accomplishment 11.4 4 15.9 4
+Fun and enjoyment of life\excitement* 4.5 8 7.2 5
+Self-fulfillment 9.6 5 6.5 6
+Being well-respected 8.8 6 5.9 7
+Sense of belonging 7.9 7 5.1 8
+Total 100.0 100.0
+
+ 
+
+aReported in Kahle (1984).
+
+bReported Kahle, Poulos, and Sukhdial (1988).
+
+‘Included as part of the Fun and Enjoyment of Life value.
+“% of sample who identified value as “Most Important”
+
+ 
+
+108 FISHER AND KATZ
+
+UNA BIEH IQ Aust9A UC) q 6-Z!0D'0'E<EMWN-CIW=50 [> Z:L L(ZO000Z)EBLS-OZS [(IDIS)/200 | ‘OL opAuOs Kapa: Kieaqyaunyuoysdny wo papeojumad °Z ‘000Z *E6L90Z5 |
+
+loMIpUOD PUR suUa) ain 29g “[zz0z/1 L/ZZ] UO AmRIg] aUYIUO KoplAy “UELBEEN BABIOS = Sal
+
+aeuoy] suoUMAg aAmBaID a1quoydde aip q poLMO are sa]sruE YC ‘9m Jo sop soy ug] aUUQ Aap) Uo (SuORIPUND-pUR-suLaYUOs Kapya-EuBaqauyUa/sdny) Sui
+spected) are rated as most important by only a small proportion of Amer-
+icans. Other values that are infrequently identified as most important
+appear to have a hedonistic component, that is, fun and enjoyment of
+life, and excitement. Such a small percentage of respondents identified
+these values as their most important that the response categories were
+collapsed in the 1976 and 1986 surveys (Kahle, 1984; Kahle et al., 1988).
+Values that are less important within American culture should exhibit
+a low level of SDB. Formally, we give the following hypothesis.
+
+H2: The more important a value is within the culture, the greater the
+SDB component in the self-report measure.
+
+To the extent that self-reported values are biased by SDB, they contain
+both personal (i.e., private or nonsocial) and self-presentational com-
+ponents. The personal component is the part of the response that is
+uncontaminated by SDB. Hence, it reflects the importance of the value
+to the respondent independent of any self-presentational considera-
+tions. Removing the SDB component from a value self-report therefore
+provides an estimate of the personal importance of that value. By the
+same logic, the self-presentational component is represented by that
+portion of the response that is affected by the respondent’s tendency to
+respond in a socially desirable manner.
+
+If the self-presentational component varies significantly across the
+value inventory, systematic differences are likely to exist between value
+rankings based on raw self-reports and those based on SDB-corrected
+measures. For example, if excitement is ranked more highly with the
+use of an SDB-corrected measure than a raw self-report it is because
+the value has minor self-presentational significance compared to other
+values in the inventory. Therefore, excitement might be more likely to
+guide some behaviors than would be anticipated by its raw ranking. On
+the other hand, if excitement is ranked higher with the use of the raw
+self-report than an SDB-corrected measure, then the self-presentational
+benefits of the value are relatively high. In this example the raw self-
+report might overstate the importance of the value in respondent be-
+havior.
+
+On this basis, a comparison of raw and SDB-corrected value measures
+provides insights into the validity of value self-reports. Systematic dif-
+ferences between raw self-reports and SDB-corrected measures call the
+validity of value self-reports into question because the raw measures
+are unequally affected by SDB. Conversely, the validity of self-reported
+values is supported if correcting the measures for SDB does not change
+the relative importance of the raw scores. Given that H2 proposes that
+significant differences exist in the level of SDB across value inventories,
+variations in raw and SDB-corrected rankings are expected. Formally,
+we give the following hypothesis.
+
+H3: Systematic differences exist in value rankings based on raw self-
+reports compared to those corrected for SDB.
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES 109
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+i
+2
+z
+S
+g
+2
+g
+&
+=
+3
+z
+z
+é
+3
+8
+5
+2
+Q
+z
+Z
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+METHOD
+
+A stratified random sample was taken of the customers of two large
+regional telephone companies in the United States in 1993. Two inde-
+pendent samples were drawn for purposes unrelated to the present re-
+search. A cover letter from the research sponsor asked that the survey
+be completed by the person in the household who most recently had a
+birthday and was 18 years of age or older. Twelve percent of the initial
+mailing was undeliverable and returned by the post office. One week
+after the initial mailing a postcard reminder was sent to all households.
+Three weeks later a follow-up letter and a new survey were sent to
+households that had not yet responded. A final postcard reminder was
+sent at Week 6. After eliminating responses that contained missing
+data, the final response rates were 23% (Sample 1, n = 1,108) and 19%
+(Sample 2, n = 927). An analysis of early versus late responders re-
+vealed no significant differences on demographic characteristics or the
+variables of interest (p > .05). Sample characteristics are summarized
+in Table 2.
+
+Measures
+
+Individual Values. The list of values (LOV) was used to measure con-
+sumers’ values (Kahle, Beatty, & Homer, 1986). The LOV is an inven-
+tory of nine values based on Rokeach’s list of 18 terminal values, Mas-
+low’s hierarchy of needs, and other value research. The nine values
+included in the inventory are self-respect, a sense of accomplishment,
+being well respected, security, warm relationships with others, a sense
+of belonging, fun and enjoyment in life, self-fulfillment, and excitement.
+
+The LOV is used in the present research because it is easier to ad-
+minister than the Rokeach Value Survey (RVS) and therefore more
+likely to be used in marketing contexts (Beatty et al., 1985). Whereas
+the RVS requires a ranking of 18 terminal and 18 instrumental values,
+the LOV is based on a rating-scale format. Respondents are also asked
+to indicate which values are the two most important in their daily lives.
+In the present study the LOV was measured on a 10-point scale ranging
+from “not at all important” to “highest importance.” The analyses re-
+ported here are based on the rating-scale results because they are more
+sensitive to social-desirability bias than rankings (Rokeach, 1973). Ad-
+ditionally, research suggests that aggregate results obtained with rank-
+ing and monadic rating scales are convergent (e.g., Alwin & Krosnick,
+1985).
+
+Social Desirability Bias. This variable was measured with Reynolds’
+(1982) short form of the MCSD scale. The scale is composed of 18 cul-
+turally approved behaviors (five worded positively and eight worded
+negatively) that have a low probability of occurrence. Examples of the
+
+ 
+
+110 FISHER AND KATZ
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+4
+2
+z
+S
+a
+8
+3
+&
+=
+5
+=
+5
+a
+8
+§
+i
+Q
+F
+3
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+Table 2. Sample Characteristics
+
+ 
+
+ 
+
+Sample 1 Sample 2
+(%) (%)
+Sex
+Males 40.7 38.3
+Females 59.3 61.7
+Total 100.0 100.0
+Age
+18-28 12.9 11.5
+29-38 25.3 20.8
+39-48 21.3 25.3
+49-58 17.1 16.1
+59-68 11.2 13.7
+69-78 8.3 8.5
+79 or older 3.9 41
+Total 100.0 100.0
+Subculture
+Asian 48 3.8
+Black 8.7 8.9
+White 76.4 75.5
+Hispanic 10.1 11.8
+Total 100.0 100.0
+Education (highest grade completed)
+Grades 1-8 2.8 1.8
+Grades 9-11 5.0 4.2
+High school graduate 15.0 14.5
+Some vocational or technical school 43 3.8
+Vocational or technical school graduate 3.2 3.8
+Some college 29.3 31.2
+College graduate 24.9 24.6
+Graduate-level degree 15.6 16.2
+Total 100.0 100.0
+Income
+$10K or less 10.1 10.6
+$10K to 15K 6.5 1.7
+$15K to 25K 13.9 15.0
+$25K to 35K 14.6 13.1
+$35K to 50K 17.9 16.8
+$50K to 75K 20.7 16.8
+$75K plus 16.3 20.1
+Total 100.0 100.0
+
+ 
+
+Note. Sample 1,n = 1,108; Sample 2,n = 927.
+
+scale items include: “No matter who I’m talking to, ’m always a good
+listener,” and “I sometimes feel resentful when I don’t get my way” (re-
+verse coded). Because of the research sponsor’s concerns that a yes\no
+format would be threatening to respondents and therefore nonresponse
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES
+
+111
+
+oy papeojumog “2 QO0E “E6L905 |
+
+ 
+ 
+    
+
+(S)/Z001 OL OpAnOD apie Kaze
+
+&
+=
+3
+=
+5
+2
+8
+g
+2
+Q
+z
+zs
+
+i
+z
+g
+z
+3
+E
+é
+
+   
+
+1o0-pur-swsayuios Kaye
+
+=
+g
+£
+S
+z
+z
+5
+9
+8
+3
+a
+i
+R
+=
+8
+3
+3
+c
+&
+bias would occur, the scale was administered on a 5-point “strongly dis-
+agree” to “strongly agree” scale. The items are coded such that higher
+scores are more socially desirable, and reflect the respondent’s tendency
+to present him\herself in a favorable manner.
+
+Demographic Control Variables. Self-reported values are affected by
+a variety of demographic characteristics. For example, Timmer and
+Kahle (1983) found significant correlations between values and respon-
+dent age, sex, and race\subculture (e.g., Asian, Black, Caucasian).
+Hence, the present research includes these variables to control for their
+effects when estimating the level of SDB in the value self-report. Re-
+spondent education is also included because it is expected to affect the
+degree to which respondents recognize the need for impression man-
+agement.
+
+SDB-Corrected Means. SDB-corrected mean scores were estimated by
+regressing each of the raw value measures on Reynolds’ (1982) social-
+desirability short form. The intercept term in the regression equation
+provides an estimate of the SDB-corrected mean because it reflects the
+mean of the value score when social desirability bias (i.e., the indepen-
+dent variable) is zero.
+
+RESULTS
+
+Tests of Hypotheses
+
+The hypotheses were tested using nine OLS regression equations, one
+for each of the nine values. The independent variables in each value
+model were the tendency to respond in a socially desirable manner (i.e.,
+the Reynold’s 1982 short form), respondent age, sex, education, and
+dummy variables representing membership in Asian, Black, Caucasian,
+and Hispanic subcultures. The dummy variables were coded such that
+Caucasian respondents formed the reference category because this is
+the largest subgroup in the sample. Accordingly, a significant positive
+beta coefficient for the Asian, Black, or Hispanic subgroup indicates that
+the value is more important in that subgroup than for Caucasian re-
+spondents.
+
+H1 received mixed support. Although six of the nine values had sig-
+nificant SDB components with standardized betas ranging from 0.10
+(p < .05) for fun and enjoyment of life, to 0.20 (@ < .01) for warm rela-
+tionships with others, three values had small or insignificant SDB ef-
+fects. Excitement was the least biased, with no significant SDB effect in
+Sample 1 and a marginally significant effect in Sample 2 ( < .10). Also,
+SDB effects on a sense of belonging and security were marginal in Sam-
+ple 1 (@ < .10). The results suggest that a significant impression man-
+agement component is not present in all nine LOVs (see Table 3).
+
+ 
+
+112 FISHER AND KATZ
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+i
+2
+z
+S
+g
+2
+g
+&
+=
+3
+z
+z
+é
+3
+8
+5
+2
+Q
+z
+Z
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+SGN TVA CaLYOdauYATHS AGNV SVId ALITIAVUISAC-TVIOOS
+
+SIT
+
+ 
+
+Table 3. Association between SDR and Consumer Values with Demographic Control Variables
+
+ 
+
+ 
+
+ 
+
+Subculture Membership
+Value SDR Sex Education Age Asian Black Hispanic
+Sample 1
+Sense of accomplishment 162 10> -08¢ — — .08° — —
+Self-respect 158 132 — — — .08¢ —
+Being well-respected 138 -09> — 10% — .09> -09>
+Warm relationships with others 128 242 — — — — —
+Self-fulfillment 128 07° 10 - — — —
+Fun and environment of life -10° _— — .07¢ — 132 _— _— _—
+Security 08° 178 — .08° — —.07 OT —
+Sense of belonging 08° 15? — .08° — — — —
+Excitement — — — —.13 — -10° 11>
+Sample 2
+Warm relationships with others 208 258 — — — — —
+Self-respect 198 132 — — — — —
+Sense of accomplishment 158 .O7¢ -12 — — — —
+Being well-respected 14a 162 — — — — —
+Self-fulfillment 12> _— -11> — .09> _— _— _—
+Security 11> 182 — — — .08¢ OT
+Fun and enjoyment of life 10> -08¢ — —.14a — — —
+Sense of belonging .O9> 182 — .08¢ — — — —
+Excitement OT _— _— — 232 _— 08° _—
+
+ 
+
+Note. Sample 1, n = 1,108; Sample 2, n = 927.
+
+apn < .01 (two-tailed).
+bp < .05 (two-tailed).
+*p < .10 (two-tailed).
+
+solr Keonoo26s-025 121 S)2001 1928
+
+ 
+
+ 
+H2 received general support, with SDB effects directly related to the
+importance of the nine LOVs in American society. The four values most
+frequently identified as the most important in prior research had the
+largest estimates of SDB. A sense of accomplishment, self-respect, being
+well-respected, and warm relationships with others had the strongest
+association with the measure of SDB in both samples (ranging from
+b = 0.12, p < .01 to 6 = 0.20, p < .01). Further, the rankings of the
+remaining values followed the expected pattern with the least bias re-
+lated to excitement and a sense of belonging (ranging from b = 0.00, NS
+to b = 0.09, p < .05).
+
+H3 was supported with significantly different rankings depending
+upon whether raw or SDB-corrected self-reports were used for a sense
+of accomplishment and fun and enjoyment of life (see Table 4). A sig-
+nificant ranking difference is defined as one that varies in the same
+direction across both samples. A sense of accomplishment was given a
+lower rank when SDB-corrected measures were used. The value was
+two ranks lower in Sample 1 and three ranks lower in Sample 2 with
+the use of the SDB-corrected means. The opposite effect occurred for fun
+and enjoyment of life. Correcting for SDB resulted in this value be-
+ing positioned two ranks higher in Sample 1 and one rank higher in
+Sample 2.
+
+Table 4. Raw Scores and Scores Corrected for Social-Desirability Bias
+
+ 
+
+ 
+
+ 
+
+Raw SDB-corrected
+Rank Mean Rank Mean
+Sample 1
+Self-respect 1 9.36 1 8.30
+Sense of accomplishment 2 8.86 4 7.66
+Security 3 8.78 2 7.90
+Fun and enjoyment of life 4 8.76 3 7.84
+Self-fulfillment 5 8.64 7 7.04
+Being well-respected 6 8.62 5 7.56
+Warm relationships with others 7 8.59 6 7.50
+Sense of belonging 8 7.97 9 6.86
+Excitement 9 7.41 8 6.87
+Sample 2
+Self-respect 1 9.38 1 8.21
+Sense of accomplishment 2 8.82 5 7.65
+Security 3 8.80 3 7.86
+Fun and enjoyment of life 4 8.67 2 7.92
+Being well-respected 5 8.67 6 7.18
+Self-fulfillment 6 8.58 4 7.73
+Warm relationships with others 7 8.49 7 7.06
+Sense of belonging 8 7.86 8 6.96
+Excitement 9 7.16 9 6.45
+
+ 
+
+Note. Sample 1, n = 1,108; Sample 2, n = 927.
+
+ 
+
+114 FISHER AND KATZ
+
+2001 “oL/IoPAAOD Kaye Kesaqyouuogesdny exo. papeoqUMnod “Z“Q00T “E6LIOTSL
+
+ 
+
+SOUND, ENE} JO Ansiaawig Aq §-ZIOIPECEMVA-CIY=SOL>T:L (ZOO00T)E
+
+seuody] suoUMAg aamBaID a]quoydde ain Aq poLa\o# am sojaruE YC ‘om jo sop ay uRgT7] sUyU Fay] 4 Uo (sUORIPUOS-pUE-suLayuos Koptea’eqaUyuOy:sdny) suORIPUND PUR SHLD L aI 29g “[ZzOZ/L LEZ] uo &amsgT] aUYUC Ka]YA\ “UBLEEN BABIOS =p
+DISCUSSION
+
+Results across the two national samples of Americans indicate that most
+values in the LOV inventory contain a social-desirability-bias compo-
+nent. Respondents appear to have upwardly adjusted the importance of
+these values as a self-presentation tactic because they anticipated pos-
+itive social feedback for doing so. Overall, the significant SDB effects
+found here support the validity of the LOV to the extent that values are
+a conception of the desirable within the social system.
+
+Nevertheless, the effects of SDB on security, sense of belonging, and
+excitement were generally less than on the other values. Indeed, in
+Study 1 the association between the social-desirability scale and the
+security, a sense of belonging, and excitement values were significant
+at only p < .10 or not at all. In Study 2 security and a sense of belonging
+were significant at p < .05 and excitement was significant at p < .10,
+but they had the smallest SDB components. It appears that respondents
+saw the values as having marginal or no self-presentational implica-
+tions. The lack of social desirability bias on these values calls into ques-
+tion the appropriateness of including them in the LOV inventory. If
+respondents do not feel self-presentational pressure to rate excitement,
+security, and a sense of belonging as important, it is difficult to argue
+that these values are conceptions of what is desirable within the culture
+(although they may be personally important).
+
+At the other end of the spectrum, some values were consistently
+viewed as having significant self-presentational implications. Self-re-
+spect, a sense of accomplishment, warm relationships with others, being
+well respected, and self-fulfillment were rated as the most important
+values in both samples. These findings are consistent with prior LOV
+studies in 1976 and 1986, and other studies that suggest that American
+culture is individualist rather than collectivist in nature (e.g., Hofstede,
+1980; Trafimow, Triandis, & Goto, 1991). Individualist cultures tend to
+emphasize values that relate to personal achievement, independence,
+and self-interest (Triandis Bontempo, Villareal, Masaaki, & Lucca, 1988).
+
+In addition to the more individualistic values in the LOV (i.e., a sense
+of accomplishment and self-fulfillment), the present research found a
+significant level of SDB associated with interpersonal relations (i.e.,
+warm relationships with others and being well respected). At first
+glance the strong bias associated with what might be termed “social” or
+“collective” values might appear to be contrary to the widely accepted
+view that Americans are the prototypical individualists (cf. Triandis
+Bontempo, Villareal, Masaaki, & Lucca, 1988). Nevertheless, it seems
+likely that warm relationships are desirable even in the most individ-
+ualistic cultures. Despite the emphasis on “doing one’s own thing” in
+American culture, individuals still need and value the support of others.
+The strong SDB component in this value indicates that interpersonal
+relationships are significant and important to Americans.
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES 115
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+4
+2
+z
+S
+a
+8
+3
+&
+=
+5
+=
+5
+a
+8
+§
+i
+Q
+F
+3
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+The significant SDB effect on the importance of being well respected
+is perhaps more consistent with the individualistic nature of American
+culture. Although respect is a desired reaction from others and therefore
+social in nature, it depends to a large extent upon the individual’s per-
+sonal characteristics and accomplishments. Indeed, garnering the re-
+spect of others requires that the individual be visibly distinctive in some
+fashion. More research is needed in this area.
+
+Correcting for social-desirability bias did not change the rankings of
+most values, but some notable ranking differences did occur. The most
+important difference was that a sense of accomplishment fell from sec-
+ond to fourth in importance in Study 1 and from second to fifth in im-
+portance in Study 2 when SDB was removed from the raw mean. The
+results suggest that uncorrected mean scores of this value may over-
+estimate its true importance relative to other values. This is an impor-
+tant finding, because accomplishment is thought to be a central value
+in individualistic cultures in general and for Americans in particular.
+Although clearly a desirable value, perhaps accomplishment is empha-
+sized more in public than in private. Americans may feel some conflict
+between their personal values and societal expectations related to the
+pursuit of success. They appear to believe that they should or ought to
+feel that accomplishment is desirable, but privately they place less em-
+phasis on the value.
+
+The second consistent difference was that fun and enjoyment of life
+were more important in both samples when the values were ranked with
+the use of SDB-corrected means compared to raw self-reports. Interest-
+ingly, this value is very much the opposite of the success, achievement,
+and perhaps hard work that is implied by a sense of accomplishment.
+Although both a sense of accomplishment and fun and enjoyment em-
+phasize the self, the latter is hedonistic in nature. The higher rankings
+of this value when SDB is controlled appears consistent with earlier
+comments related to the tendency of respondents to overstate the im-
+portance of accomplishment in their lives.
+
+Should researchers remove the SDB component from ail value self-
+reports? The answer is clearly no. As noted by Paulhus and his associ-
+ates (Paulhus, 1991; Zerbe & Paulhus, 1987), removing the social-de-
+sirability component from content measures that reflect self-deception
+actually reduces their predictive validity. Although the Marlowe—
+Crowne scale does not include a strong self-deception component, other
+measures of SDB, such as the Edwards scale, do (Paulhus, 1991). By
+the same token, removal of the SDB impression-management compo-
+nent is inappropriate to the extent that the behaviors being predicted
+by the values are socially visible. In this situation, both the value and
+the related behavior are affected by the reactions of others and are
+therefore influenced by impression-management concerns. Conversely,
+impression-management concerns are unlikely for anonymous behav-
+iors, and so an SDB-corrected measure should have better predictive
+
+ 
+
+116 FISHER AND KATZ
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+i
+2
+z
+S
+g
+2
+g
+&
+=
+3
+z
+z
+é
+3
+8
+5
+2
+Q
+z
+Z
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+validity in this situation. Whereas SDB-corrected scores are likely to be
+better predictors of private behaviors, raw scores should be superior for
+behaviors that are public.
+
+DIRECTIONS FOR FUTURE RESEARCH
+
+The research has several important implications for future research in
+the area. At a minimum, researchers should be cognizant of the self-
+presentational concerns of their respondents when administering value
+self-reports. The present study found that most of the LOV inventory
+includes a significant SDB component, and also that the level of SDB
+depends upon the value being measured. Consequently, researchers
+may wish to employ one or more of the strategies available to lessen
+SDB in sensitive variables such as increasing response anonymity (cf.
+Fisher, 1993), adjusting question wordings (Orne, 1969), avoiding in-
+terviewer—interviewee similarity (Dohrenwend, Colombotos, & Doh-
+renwend, 1968), and being sensitive to sample characteristics (Park &
+Lessig, 1977). Investigators may also reduce SDB a posteriori by using
+a statistical control technique such as the regression method used in
+the present research (for a review of methods see Paulhus, 1991). How-
+ever, the imperfect nature of control techniques makes it important to
+minimize the impact of SDB at the earliest possible stages of research.
+
+As discussed earlier, the results also imply that in some instances it
+is inappropriate to reduce or control for SDB. In the present context,
+SDB levels provided important insights into the self-presentational im-
+plications of holding specific cultural values. Researchers may benefit
+from using this technique to understand the normative context of a va-
+riety of other variables of interest to marketers. For example, the as-
+sociation between SD scales and measures of social approval, brand rat-
+ings, tipping, gift-giving behaviors, and so on, might provide insights
+into the impression-management concerns of consumers related to these
+attitudes and behaviors. More research is needed here.
+
+CONCLUSION
+
+Overall, associations between measures of SDB provide important in-
+sights into self-reported values. Whereas past research has considered
+associations between the tendency to respond in a socially desirable
+manner and values to be error variance, the present research proposes
+that values should be correlated with these measures. The research
+found important support for the LOV methodology, but also identified
+concerns related to the inclusion of some values in the list (e.g., excite-
+ment), and the public versus private nature of some values.
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES 117
+
+sdny Woy papeo|uMog *Z “00 “EBLIOZS |
+
+   
+
+4
+2
+z
+S
+a
+8
+3
+&
+=
+5
+=
+5
+a
+8
+§
+i
+Q
+F
+3
+
+4
+z
+z
+‘9
+E
+4
+8
+g
+g
+:
+Z
+2
+i
+
+ 
+
+aausdy] suoUMIAg aAmBaID a1quoydde oip Aq poLa.O® am sojaiuE YC ‘om Jo sop way AuRgT7] Suu Say1A UO (SuORTPUOD-pUE-suLayuIoD opt CBA OUI
+REFERENCES
+
+Alwin, D. F., & Krosnick, J. K. (1985). The measurement of values in surveys:
+A comparison of ratings and rankings. Public Opinion Quarterly, 49, 535—-
+552.
+
+Beatty, S. E., Kahle, L. R., Homer, P., & Misra, S. (1985). Alternative meas-
+urement approaches to consumer values: The list of values and the Rokeach
+value survey. Psychology & Marketing, 2, 181-200.
+
+Bern, S. L. (1974). The measurement of psychological androgyny. Journal of
+Consulting and Clinical Psychology, 42, 155-162.
+
+Cohen, J., & Cohen, P. (1983). Applied multiple regression \correlation analysis
+for the behavioral sciences (2nd ed.). Hillsdale, NJ: Lawrence Erlbaum.
+
+Crowne, D. P. (1979). The experimental study of personality. Hillsdale, NJ:
+Lawrence Erlbaum.
+
+Crowne, D. P., & Marlowe, D. (1960). A new scale of social desirability inde-
+pendent of psychopathy. Journal of Consulting Psychology, 24, 8349-354.
+Crowne, D. P., & Marlowe, D. (1964). The approval motive. New York: John
+
+Wiley & Sons.
+
+Dohrenwend, B. 8., Colombotos, J., & Dorhenwend, B. P. (1968). Social distance
+and interviewer effects. Public Opinion Quarterly, 32, 410-422.
+
+Fisher, R. J. (1993). Socially desirable responding and the validity of indirect
+questioning. Journal of Consumer Research, 20, 303-315.
+
+Hofstede, G. (1980). Culture’s consequences. Beverly Hills: Sage.
+
+Kahle, L. R. (1984). The values of Americans: Implications for consumer ad-
+aptation. In R. E. Pitts Jr. & A. G. Woodside (Eds.), Personal values and
+consumer psychology. Lexington, MA: Lexington Books.
+
+Kahle, L. R., Beatty, S. E., & Homer, P. (1986). Alternate measurement ap-
+proaches to consumer values: The list of values (LOV) and values and life
+style (VALS). Journal of Consumer Research, 18, 405-409.
+
+Kahle, L. R., Poulos, B., & Sukhdial, A. (1988). Changes in social values in the
+United States during the past decade. Journal of Advertising Research, 28,
+35-41.
+
+Kelly, K., Silverman, B. I., & Cochrane, R. (1972). Social desirability and the
+Rokeach value survey. Journal of Experimental Research in Personality, 6,
+84-87.
+
+Kilpatrick, F. P. (1957). New methods of measuring consumer preferences and
+motivation. Journal of Farm Economics, 39, 1313-1820.
+
+Kluckhohn, C. (1951). Values and value orientation and the theory of action.
+In T. Parsons & E. A. Shils (Eds.), Toward a general theory of action (pp.
+388-433). New York; Harper.
+
+Leary, M. R. (1996). Self-presentation: Impression management and interper-
+sonal behavior. Boulder, CO: Westview Press.
+
+Maher, B. A. (1978). A reader’s, writer’s, and reviewer’s guide to assessing
+research reports in clinical psychology. Journal of Consulting and Clinical
+Psychology, 46, 835-838.
+
+Mensch, B. S., & Kandel, D. B. (1988). Underreporting of substance use in a
+national longitudinal youth cohort. Public Opinion Quarterly, 52, 100-124.
+
+Mick, D. G. (1996). Are studies of dark side variables confounded by socially
+desirable responding? The case of materialism. Journal of Consumer Re-
+search, 23, 106-119.
+
+ 
+
+118 FISHER AND KATZ
+
+UNA BIEH IQ Aust9A UC) q 6-Z!0D'0'E<EMWN-CIW=50 [> Z:L L(ZO000Z)EBLS-OZS [(IDIS)/200 | ‘OL opAuOs Kapa: Kieaqyaunyuoysdny wo papeojumad °Z ‘000Z *E6L90Z5 |
+
+loMIpUOD PUR suUa) ain 29g “[zz0z/1 L/ZZ] UO AmRIg] aUYIUO KoplAy “UELBEEN BABIOS = Sal
+
+aeuoy] suoUMAg aAmBaID a1quoydde aip q poLMO are sa]sruE YC ‘9m Jo sop soy ug] aUUQ Aap) Uo (SuORIPUND-pUR-suLaYUOs Kapya-EuBaqauyUa/sdny) Sui
+Orne, M. T. (1969). Demand characteristics and the concept of quasi-controls.
+In R. Rosenthal & R. L. Rosnow (Eds.), Artifact in behavioral research (pp.
+143-179). New York: Academic Press.
+
+Park, D. W., & Lessig, P. (1977). Students and housewives: Differences in sus-
+ceptibility to reference group influence. Journal of Consumer Research, 4,
+102-110.
+
+Paulhus, D. L. (1984). Two-component models of socially desirable responding.
+Journal of Personality and Social Psychology, 46, 598-609.
+
+Paulhus, D. L. (1991). Measurement and control of response bias. In J. P. Rob-
+inson, P. R. Shaver, & L.S. Wrightsman (Eds.), Measures of personality and
+social psychological attitudes (pp. 17-59). San Diego: Academic Press.
+
+Paulhus, D. L. (1992). The balanced inventory of socially desirable responding
+(Reference manual, BIDR Version 6). Vancouver, BC: University of British
+Columbia.
+
+Peltier, B. D. & Walsh, J. A. (1990). An investigation of response bias in the
+Chapman scales. Educational and Psychological Measurement, 50, 803-815.
+
+Reynolds, W. M. (1982). Development of reliable and valid short forms of the
+Marlowe—Crowne social desirability scale. Journal of Clinical Psychology,
+38, 119-125.
+
+Richins, M. L. & Dawson, S. (1992). A consumer values orientation for mate-
+rialism and its measurement: Scale development and validation. Journal of
+Consumer Research, 19, 3038-316.
+
+Robinette, R. L. (1991). The relationship between the Marlowe—Crowne form
+c and the validity scales of the MMPI. Journal of Clinical Psychology, 47,
+396-399.
+
+Rokeach, M. (1973). The nature of human values. New York: Free Press.
+
+Simon, J., & Simon, R. (1975). The effect of money incentives on family size: A
+hypothetical-question study. Public Opinion Quarterly, 38, 585-595.
+
+Smith, M. B. (1969). Social psychology and human values. Chicago: Aldine.
+
+Spates, J. L. (1983). The sociology of values. Annual Review of Sociology, 9,
+27-49.
+
+Steele, H. (1964). On the validity of indirect questions. Journal of Marketing
+Research, 28, 46-49.
+
+Timmer, S. G., & Kahle, L. R. (1983). Birthright demographic correlates of
+values. In L. R. Kahle (Ed.), Social values and social change: Adaptation to
+life in America, (pp. 73-96). New York: Praeger.
+
+Trafimow, D., Triandis, H. C., & Goto, S. G. (1991). Some tests of the distinction
+between the private self and the collective self. Journal of Personality and
+Social Psychology, 60, 649-655.
+
+Triandis, H. C., Bontempo, R., Villareal, M., Masaaki, A., & Lucca, N. (1988).
+Individualism and collectivism: Cross-cultural perspectives on self-ingroup
+relationships. Journal of Personality and Social Psychology, 54, 323-338.
+
+Wagner, E. E., Hilsenroth, M. J., & Sivec, H. J. (1990). Raw scores vs. per-
+centage conversions in factorial solutions for projective test questions. Per-
+ceptual and Motor Skills, 71, 827-831.
+
+Winters, K. C., & Neale, J. M. (1985). Mania and low self-esteem. Journal of
+Abnormal Psychology, 94, 282-290.
+
+Zerbe, W. J., & Paulhus, D. L. (1987). Socially desirable responding in orga-
+nizational behavior: A reconception. Journal of Management Review, 12,
+250-264.
+
+ 
+
+SOCIAL-DESIRABILITY BIAS AND SELF-REPORTED VALUES 119
+
+UNA BIEH IQ Aust9A UC) q 6-Z!0D'0'E<EMWN-CIW=50 [> Z:L L(ZO000Z)EBLS-OZS [(IDIS)/200 | ‘OL opAuOs Kapa: Kieaqyaunyuoysdny wo papeojumad °Z ‘000Z *E6L90Z5 |
+
+loMIpUOD PUR suUa) ain 29g “[zz0z/1 L/ZZ] UO AmRIg] aUYIUO KoplAy “UELBEEN BABIOS = Sal
+
+aeuoy] suoUMAg aAmBaID a1quoydde aip q poLMO are sa]sruE YC ‘9m Jo sop soy ug] aUUQ Aap) Uo (SuORIPUND-pUR-suLaYUOs Kapya-EuBaqauyUa/sdny) Sui
+The authors would like to thank Philip Aspden for his assistance. The manu-
+script underwent a double-blind review process with Rajan Nataraajan as ed-
+itor.
+
+Correspondence regarding this article should be sent to : R. J. Fisher, Ivey
+School of Business, University of Western Ontario, London, Ontario, Canada
+N6A38K7.
+
+2001 “oL/IoPAAOD Kaye Kesaqyouuogesdny exo. papeoqUMnod “Z“Q00T “E6LIOTSL
+
+ 
+
+SOUND, ENE} JO Ansiaawig Aq §-ZIOIPECEMVA-CIY=SOL>T:L (ZOO00T)E
+
+ 
+
+120 FISHER AND KATZ
+
+seuody] suoUMAg aamBaID a]quoydde ain Aq poLa\o# am sojaruE YC ‘om jo sop ay uRgT7] sUyU Fay] 4 Uo (sUORIPUOS-pUE-suLayuos Koptea’eqaUyuOy:sdny) suORIPUND PUR SHLD L aI 29g “[ZzOZ/L LEZ] uo &amsgT] aUYUC Ka]YA\ “UBLEEN BABIOS =p
+

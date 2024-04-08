@@ -1,0 +1,1090 @@
+Data preprocessing to mitigate bias: A maximum entropy based approach
+L. Elisa Celis1Vijay Keswani1Nisheeth K. Vishnoi2
+Abstract
+Data containing human or social attributes may
+over- or under-represent groups with respect to
+salient social attributes such as gender or race,
+which can lead to biases in downstream applica-
+tions. This paper presents an algorithmic frame-
+work that can be used as a data preprocessing
+method towards mitigating such bias. Unlike prior
+work, it can efﬁciently learn distributions over
+large domains, controllably adjust the representa-
+tion rates of protected groups and achieve target
+fairness metrics such as statistical parity, yet re-
+mains close to the empirical distribution induced
+by the given dataset. Our approach leverages the
+principle of maximum entropy – amongst all dis-
+tributions satisfying a given set of constraints, we
+should choose the one closest in KL-divergence
+to a given prior. While maximum entropy distri-
+butions can succinctly encode distributions over
+large domains, they can be difﬁcult to compute.
+Our main contribution is an instantiation of this
+framework for our set of constraints and priors,
+which encode our bias mitigation goals, and that
+runs in time polynomial in the dimension of the
+data. Empirically, we observe that samples from
+the learned distribution have desired representa-
+tion rates and statistical rates, and when used for
+training a classiﬁer incurs only a slight loss in
+accuracy while maintaining fairness properties.
+1. Introduction
+Datasets often under- or over-represent social groups de-
+ﬁned by salient attributes such as gender and race, and can
+be a signiﬁcant source of bias leading to discrimination in
+the machine learning applications that use this data (O’Neil,
+2016; Calders & ˇZliobait ˙e, 2013; Kay et al., 2015). Methods
+1Department of Statistics and Data Science, Yale University,
+USA2Department of Computer Science, Yale University, USA.
+Correspondence to: L. Elisa Celis <elisa.celis@yale.edu >.
+Proceedings of the 37thInternational Conference on Machine
+Learning , Online, PMLR 119, 2020. Copyright 2020 by the au-
+thor(s).to debias data strive to ensure that either 1) the representa-
+tion of salient social groups in the data is consistent with
+ground truth (King & Zeng, 2001; Chawla et al., 2002; Ze-
+laya, 2019), or 2) the outcomes (where applicable) across
+salient social groups are fair (Calders et al., 2009; Kamiran
+& Calders, 2012; Wang et al., 2019; Calmon et al., 2017;
+Xu et al., 2018; Feldman et al., 2015; Gordaliza et al., 2019).
+The goal of this paper is to learn a distribution that corrects
+forrepresentation andoutcome fairness but also remains as
+close as possible to the original distribution from which the
+dataset was drawn. Such a distribution allows us to generate
+new pseudo-data that can be used in downstream applica-
+tions which is both true to the original dataset yet mitigates
+the biases it contains; this has the additional beneﬁt of not
+requiring the original data to be released when there are pri-
+vacy concerns. Learning this distribution in time polynomial
+in the size of the dataset and dimension of the domain (as
+opposed to the size of the domain, which is exponential in
+the number of attributes and class labels) is crucial in order
+for the method to be scalable. Further, attaining provable
+guarantees on the efﬁciency and desired fairness properties
+is an important concern. Hence, the question arises:
+Can we develop methods to learn accurate distributions that
+do not suffer from biases, can be computed efﬁciently over
+large domains, and come with theoretical guarantees?
+Our contributions. We propose a framework based on
+the maximum entropy principle which asserts that among
+all distributions satisfying observed constraints one should
+choose the distribution that is “maximally non-committal”
+with regard to the missing information. It has its origins in
+the works of Boltzmann, Gibbs and Jaynes (Gibbs, 1902;
+Jaynes, 1957a;b) and it is widely used in learning (Dudik,
+2007; Singh & Vishnoi, 2014). Typically, it is used to learn
+probabilistic models of data from samples by ﬁnding the dis-
+tribution over the domain that minimizes the KL-divergence
+with respect to a “prior” distribution, and whose expectation
+matches the empirical average obtained from the samples.
+Our framework leverages two properties of max-entropy
+distributions: 1) any entropy maximizing distribution can
+be succinctly represented with a small (proportional to the
+dimension of the data) number of parameters (a consequence
+of duality) and, 2) the prior and expectation vector provides
+simple and interpretable “knobs” with which to control the
+statistical properties of the learned distribution.Data preprocessing to mitigate bias: A maximum entropy based approach
+Table 1. Comparison of our paper with related work: The ﬁrst two rows denote the fairness metrics that can be controlled by each
+approach (see Deﬁnitions 2.1 and 2.2). The last two rows denote whether the approach has the ability to sample from the entire domain,
+and whether it has a succinct representation. We compare our performance against these methods empirically in Section 5.
+Properties (Kamiran & Calders, 2012) (King & Zeng, 2001) (Calmon et al., 2017) This paper
+- Statistical Rate X(only for= 1) 7 X(only for= 1) X
+- Representation Rate 7 X 7 X
+- Entire domain 7 7 X X
+- Succinct representation X X 7 X
+We show that by appropriately setting the prior distribu-
+tion and the expectation vector, we can provably enforce
+constraints on the fairness of the resulting max-entropy dis-
+tribution, as measured by the representation rate (the ratio of
+the probability assigned to the under-represented group and
+the probability assigned to the over-represented group - Def-
+inition 2.1) and statistical rate (the ratio of the probability
+of belonging to a particular class given individual is in the
+under-represented group and the probability of belonging
+to the same class given individual is in the over-represented
+group - Deﬁnition 2.2); see Theorem 4.5. However, existing
+algorithms to compute max-entropy distributions depend on
+the existence of fast oracles to evaluate the dual objective
+function and bounds on the magnitude of the optimal (dual)
+parameters (Singh & Vishnoi, 2014; Straszak & Vishnoi,
+2019). Our main technical contribution addresses these prob-
+lems by showing the existence of an efﬁcient and scalable
+algorithm for gradient and Hessian oracles for our setting
+and a bound on the magnitude of the optimal parameters that
+is polynomial in the dimension. This leads to algorithms for
+computing the max-entropy distribution that runs in time
+polynomial in the size of the dataset and dimension of the
+domain (Theorem 4.4). Thus, our preprocessing framework
+for debiasing data comes with a provably fast algorithm.
+Empirically, we evaluate the fairness and accuracy of the
+distributions generated by applying our framework to the
+Adult and COMPAS datasets, with gender as the protected
+attribute. Unlike prior work, the distributions obtained using
+the above parameters perform well for both representational
+and outcome-dependent fairness metrics. We further show
+that classiﬁers trained on samples from our distributions
+achieve high fairness (as measured by the classiﬁer’s statis-
+tical rate) with minimal loss to accuracy. Both with regard
+to the learned distributions and the classiﬁers trained on the
+de-biased data, our approach either matches or surpasses
+the performance of other state-of-the-art approaches across
+both fairness and accuracy metrics. Further, it is efﬁcient
+on datasets with large domains (e.g., approx 1011for the
+large COMPAS dataset), for which some other approaches
+are infeasible with regard to runtime.
+Related work. Prior work on this problem falls, roughly,into two categories: 1) those that try to modify the dataset
+either by reassigning the protected attributes or reweighting
+the existing datapoints (Calders et al., 2009; Kamiran &
+Calders, 2012; Wang et al., 2019; King & Zeng, 2001),
+or 2) those that try to learn a distribution satisfying given
+constraints deﬁned by the target fairness metric on the entire
+domain (Calmon et al., 2017).
+The ﬁrst set of methods often leads to efﬁcient algorithms,
+but are unable to generate points from the domain that are
+not in the given dataset; hence, the classiﬁers trained on the
+re-weighted dataset may not generalize well (Chawla, 2009).
+Unlike the re-labeling/re-weighting approach of (Calders
+et al., 2009; Kamiran & Calders, 2009; 2012; King & Zeng,
+2001) or the repair methods of (Gordaliza et al., 2019; Wang
+et al., 2019; Feldman et al., 2015; Zemel et al., 2013), we
+instead aim to learn a debiased version of the underlying
+distribution of the dataset across the entire domain. The
+second approach also aims to learn a debiased distribution
+on the entire domain. E.g., (Calmon et al., 2017) presents
+an optimization-based approach to learning a distribution
+that is close to the empirical distribution induced by the
+samples subject to fairness constraints. However, as their
+optimization problem has a variable for each point in the
+domain, the running time of their algorithm is at least the
+size of the domain, which is exponential in the dimension of
+the data, and hence often infeasible for large datasets. Since
+the max-entropy distribution can be efﬁciently represented
+using the dual parameters, our framework does not suffer
+from the enumeration problem of (Calders et al., 2009)
+and the inefﬁciency for large domains as in (Calmon et al.,
+2017). See Table 1 for a summary of the properties of our
+framework with key related prior work. Other preprocessing
+methods include selecting a subset of data that satisﬁes
+speciﬁed fairness constraints such as representation rate
+without attempting to model the distribution (Celis et al.,
+2016; 2018).
+GAN-based approaches towards mitigating bias (Mariani
+et al., 2018; Sattigeri et al., 2019; Xu et al., 2018) are inher-
+ently designed to simulate continuous distributions and are
+neither optimized for discrete domains that we consider in
+this paper nor are prevalently used for social data and bench-Data preprocessing to mitigate bias: A maximum entropy based approach
+mark datasets for fairness in ML. While (Choi et al., 2017;
+Xu et al., 2018) suggest methods to round the ﬁnal samples
+to the discrete domain, it is not clear whether such rounding
+procedures preserve the distribution for larger domains.
+While our framework is based on preprocessing the dataset,
+bias in downstream classiﬁcation tasks can also be addressed
+by modifying the classiﬁer itself. Prior work in this direction
+fall into two categories: inprocessing methods that change
+the objective function optimized during training to include
+fairness constraints (Celis et al., 2019; Zhang et al., 2018),
+and post-processing methods that modify the outcome of the
+existing machine learning models by changing the decision
+boundary (Kamiran et al., 2012; Hardt et al., 2016).
+2. Preliminaries
+Dataset & Domain. We consider data from a discrete
+domain 
+ := 
+ 1 
+d=f0;1gd, i.e., each at-
+tribute 
+iis binary.1The convex hull of 
+is denoted by
+conv(
+) = [0 ;1]dand the size of the domain 
+is2d, i.e.,
+exponential in the dimension d. We let the set (not multiset)
+S  
+, along with a frequency n1for each point
+2S, denote a dataset consisting of N=P
+2Sndis-
+tinct points. We consider the attributes of 
+, indexed by the
+set[d] :=f1;:::;dg, as partitioned into three index sets
+where 1)Izdenotes the indices of protected attributes, 2) Iy
+denotes the set of outcomes or class labels considered for
+fairness metric evaluation, and 3) Ixdenotes the remaining
+attributes. We denote the corresponding sub-domains by
+X:=i2Ix
+i,Y:=i2Iy
+i, andZ:=i2Iz
+i.
+Fairness metrics. We consider the following two common
+fairness metrics; the ﬁrst is “representational” (also known
+as “outcome independent”) and depends only on the pro-
+tected attributes and not on the class label, and the second
+one is an “outcome dependent” and depends on both the
+protected attribute and the class label.
+Deﬁnition 2.1 (Representation rate). For2(0;1];a
+distribution p: 
+![0;1]is said to have representation
+ratewith respect to a protected attribute `2Izif for all
+zi;zj2
+`, we have
+p[Z=zi]
+p[Z=zj];
+whereZis distributed according to the marginal of pre-
+stricted to 
+`.
+1Our results can be extended to domains with discrete or cate-
+gorical attributes by encoding an attribute of size kas binary using
+one-hot encodings: i.e., replace the cell with e2f0;1gkwhere
+for a valuej2[k]we sete=fe1;:::;e kgwithej= 1 and
+e`= 0for all`6=k. To handle continuous features, one can apply
+discretization to reduce a continuous feature to a non-binary dis-
+crete feature. However, there is a natural tradeoff between domain
+size and correctness. We refer the reader to the survey (Kotsiantis
+& Kanellopoulos, 2006) for research on discretization techniques.Deﬁnition 2.2 (Statistical rate). For2(0;1];a distribu-
+tionp: 
+![0;1]is said to have statistical rate with
+respect to a protected attribute `2Izand a class label
+y2Y if for allzi;zj2
+`, we have
+p[Y=yjZ=zi]
+p[Y=yjZ=zj];
+whereYis the random variable when pis restricted toY
+andZwhenpis restricted to 
+`.
+We also refer to the statistical rate when the outcome labels
+are instead obtained using a classiﬁer f:XZ!Y . The
+classiﬁer is said to have statistical rate if for allzi;zj2
+`,
+we haveP[f()=yjZ=zi]
+P[f()=yjZ=zj], where the probability is over
+the empirical distribution of the test data.
+In the deﬁnitions above, = 1can be thought of as “perfect”
+fairness and is referred to as representation parity and statis-
+tical parity respectively. In practice, however, these perfect
+measures of fairness are often relaxed: a popular example is
+the “80% rule” in US labor law (Biddle, 2006) to address dis-
+parate impact in employment, which corresponds to = 0:8.
+The exact value of desired is context-dependent and will
+vary by application and domain.
+The reweighting approach to debiasing data. A weight
+w()is assigned to each data point 2 S such that
+w()0, andP
+2Sw() = 1 . I.e., a probability dis-
+tribution over samples is computed. These weights are
+carefully chosen in order to satisfy the desired fairness met-
+rics, such as statistical parity (Kamiran & Calders, 2012) or
+representation parity (King & Zeng, 2001).
+The optimization approach to debiasing data. The goal
+of learning a debiased probability distribution over the entire
+domain is formulated as a constrained optimization problem
+over the spacePof all probability distributions over 
+(and not justS). A prior distribution qis chosen that is
+usually supported on S, a distance measure Dis chosen to
+compare two probability distributions, and a function J:
+P!Rsthat encodes the fairness criteria on the distribution
+is given. The goal is to ﬁnd the solution to the following
+optimization problem: minp2PD(p;q) s:t:J(p) = 0:For
+instance, (Calmon et al., 2017) use the total variation (TV)
+distance as the distance function and encode the fairness
+criteria as a linear constraint on the distribution.
+The maximum entropy framework. Given 
+Rd, a
+prior distribution q: 
+![0;1]and a marginal vector
+2conv(
+) , the maximum entropy distribution p?: 
+!
+[0;1]is the maximizer of the following convex program,
+sup
+p2Rj
+j
+0X
+2
+p() logq()
+p(); (primal-MaxEnt)
+s.t.X
+2
+p() =andX
+2
+p() = 1:Data preprocessing to mitigate bias: A maximum entropy based approach
+The objective can be viewed as minimizing the KL-
+divergence with respect to the prior q. To make this program
+well deﬁned, if q() = 0 , one has to restrict p() = 0 and
+deﬁne log0
+0= 1. The maximum entropy framework is
+traditionally used to learn a distribution over 
+by setting
+:=1
+NP
+2Snandqto be the uniform distribu-
+tion over 
+. This maximizes entropy while satisfying the
+constraint that the marginal is the same as the empirical
+marginal. It is supported over the entire domain 
+(asq
+is also supported on all of 
+) and, as argued in the litera-
+ture (Dudik, 2007; Singh & Vishnoi, 2014), is information-
+theoretically the “least constraining” choice on the distribu-
+tion that can explain the statistics of S. Later we consider
+other choices for qthat takeSand our fairness goals into
+account and are also supported over the entire domain 
+.
+Computationally, the number of variables in
+(primal-MaxEnt) is equal to the size of the domain
+and, hence does not seem scalable. However, a key property
+of this optimization problem is that it sufﬁces to solve
+the dual (see below) that only has dvariables (i.e., the
+dimension of the domain and not the size of the domain):
+inf
+2Rdh;q() := log X
+2
+q()eh ;i!
+;
+(dual-MaxEnt)
+where the function h;q:Rd!Ris referred to as the dual
+max-entropy objective. For the objectives of the primal and
+dual to be equal (i.e., for strong duality to hold), one needs
+thatlie in the “relative interior” of conv(
+) ; see (Singh &
+Vishnoi, 2014). In the case conv(
+) = [0 ;1]d, this simply
+means that 0<i<1for all 1id. This is satisﬁed if
+for each attribute 
+ithere is at least one point in the set S
+that takes value 0and at least one point that takes value 1.
+Strong duality also implies that, if ?is a minimizer of h;q,
+thenp?can be computed as
+p?() =q()eh?;i
+P
+2
+q()eh?;i;
+see (Dudik, 2007; Singh & Vishnoi, 2014). Thus, the distri-
+butionp?can be represented only using dnumbers?
+ifor
+1id. However, note that as some igo close to an
+integral value or some q()!0, these optimal dual vari-
+ables might tend to inﬁnity. Further, given a , computing
+h;qrequires computing a summation over the entire do-
+main 
+– even in the simplest setting when qis the uniform
+distribution on 
+– that can a priori take time proportional
+toj
+j= 2d. Hence, even though the dual optimization
+problem is convex and has a small number of variables ( d),
+to obtain a polynomial (in d) time algorithm to solve it, we
+need both an algorithm that evaluate the dual function h;q
+(a summation over the entire domain 
+) and its gradient ef-
+ﬁciently at a given point , and (roughly) a bound on k?k2
+that is polynomial in d.3. Our framework
+Our approach for preprocessing data uses the maximum
+entropy framework and combines both the reweighting and
+optimization approaches. Recall that the maximum entropy
+framework requires the speciﬁcation of the marginal vector
+and a prior distribution q. We useqandto enforce our
+goals of controlling representation and statistical rates as
+deﬁned in Deﬁnitions 2.1 and 2.2, while at the same time
+ensuring that the learned distribution has support all of 
+and is efﬁciently computable in the dimension of 
+. Another
+advantage of computing the max-entropy distribution (as
+opposed to simply using the prior q) is that it pushes the prior
+towards the empirical distribution of the raw dataset, while
+maintaining the fairness properties of the prior. This leads
+to a distribution which is close to the empirical distribution
+and has fairness guarantees.
+Prior distributions. Letudenote the uniform distribution
+on
+:u() :=1
+j
+jfor all2
+. Note that the uniform
+distribution satisﬁes statistical rate with = 1. We also
+use a reweighting algorithm (Algorithm 1) to compute a
+distribution wsupported onS. Our algorithm is inspired
+by the work of (Kamiran & Calders, 2012) and, for any
+given2(0;1], Algorithm 1 can ensure that wsatisﬁes the
+-statistical rate property; see Theorem 4.1. We introduce a
+parameterC2[0;1]that allows us to interpolate between
+wanduand deﬁne:
+qw
+C:=Cu+ (1 C)w: (1)
+A desirable property of qw
+C, that we show is true, is that
+the dual objective function h;qw
+Cand its gradient are com-
+putable in time polynomial in N;d and the number of bits
+needed to represent for any weight vector wsupported
+onS; see Lemma 4.3. Further, we show that, if whas-
+statistical rate, then for any C2[0;1], the distribution qw
+C
+also has-statistical rate; see Theorem 4.1.
+Thus, the family of priors we consider present no compu-
+tational bottleneck over exponential-sized domains. More-
+over, by choosing the parameter C, our framework allows
+the user to control how close they would like the learned
+distribution to be to the empirical distribution induced by
+S. Finally, using appropriate weights wwhich encode the
+desired statistical rate, one can aim to ensure that the opti-
+mal distribution to the max-entropy program is also close to
+satisfying statistical parity (Theorem 4.5).
+Marginal vectors. The simplest choice for the marginal
+vectoris the marginal of the empirical distribution
+1
+NP
+2Sn. However, in our framework, the user
+can select any vector . In particular, to control the repre-
+sentation rate of the learned distribution with respect to a
+protected attribute `, we can choose to set it differently. For
+instance, if 
+`=f0;1gand we would like that in learned
+distribution the probability of this attribute being 1is0:5, itData preprocessing to mitigate bias: A maximum entropy based approach
+Algorithm 1 Re-weighting algorithm to assign weights to
+samples for the prior distribution
+1:Input: DatasetS:=f(X;Y;Z)g2SXY
+
+`, frequency listfng2Sand parameter 2(0;1]
+2:fory2Y do
+3:c(y) P
+2S1(Y=y)n
+4:c(y;0) 1
+P
+2S1(Y=y;Z= 0)n
+5:c(y;1) P
+2S1(Y=y;Z= 1)n
+6:end for
+7:w 0
+8:for2S do
+9:w() nc(Y)=c(Y;Z)
+10:end for
+11:W P
+2Sw()
+12:returnfw()=Wg2S
+sufﬁces to set `= 0:5. This follows immediately from the
+constraint imposed in the max-entropy framework. Once
+we ﬁx a choice of andq, we need to solve the dual of
+the max-entropy program and we discuss this in the next
+section. The dual optimal ?can then be used to sample
+from the distribution p?in a standard manner; see Section B
+in the supplementary material.
+4. Theoretical results
+Throughout this section we assume that we are given C2
+[0;1],S
+and the frequency of elements in S,fng2S.
+The reweighting algorithm and its properties. We start
+by showing that there is an efﬁcient algorithm to compute
+the weightswdiscussed in the previous section.
+Theorem 4.1 (Guarantees on the reweighting algo-
+rithm). Given the dataset S, frequenciesfng2Sand
+a2[0;1], Algorithm 1 outputs a probability distribution
+w:S! [0;1]such that
+1. The algorithm runs in time linear in N.
+2.qw
+C, deﬁned in Eq. (1)usingw, satisﬁes-statistical rate,
+i.e, for anyy2Y and for allz1;z22
+`,
+qw
+C(Y=yjZ=z1)
+qw
+C(Y=yjZ=z2):
+The proof of this theorem uses the fact that qw
+Cis a convex
+combination of uniform distribution, which has statistical
+rate 1, and weights from Algorithm 1, which by construction
+satisfy statistical rate ; it is presented in Section A in the
+supplementary material.
+Computability of maximum entropy distributions.
+Since the prior distribution qw
+Cis not uniform in general, the
+optimal distribution p?is not a product distribution. Thus,
+as noted earlier, the number of variables in (primal-MaxEnt)
+isj
+j= 2d, i.e., exponential in d, and standard methods
+from convex programming to directly solve primal-MaxEntdo not lead to efﬁcient algorithms. Instead, we focus on
+computing (dual-MaxEnt). Towards this, we appeal to the
+general algorithmic framework of (Singh & Vishnoi, 2014;
+Straszak & Vishnoi, 2019). To use their framework, we
+need to provide (1) a bound on k?k2and (2) an efﬁcient
+algorithm (polynomial in d) to evaluate the dual objective
+h;qand its gradient. Towards (1), we prove the following.
+Lemma 4.2 (Bound on the optimal dual solution). Sup-
+poseis such that there is an  > 0for which we have
+ < i<1 for alli2[d]. Then, the optimal dual
+solution corresponding to such a andqw
+Csatisﬁes
+k?k2d
+log1
+C:
+The proof uses a result from (Singh & Vishnoi, 2014) and
+appears in Section B in the supplementary material. We note
+that, for our applications, we can show that the assumption
+onfollows from an assumption on the “non-redundancy”
+of the data set. Using recent results of (Straszak & Vishnoi,
+2019), we can get around this assumption and we omit the
+details from this version of the paper.
+Towards (2), we show that qw
+Chas the property that not only
+can one evaluate h;qw
+C, but also its gradient (and Hessian).
+Lemma 4.3 (Oracles for the dual objective function).
+There is an algorithm that, given a reweighted distribution
+w:S! (0;1], values;2Rd, and distribution q=qw
+C,
+computesh;q();rh;q();andr2h;q()in time poly-
+nomial inN;d and the bit complexities of all the numbers
+involved:w()for2S, andei;ifor1id:
+The proof of this lemma, along with the algorithm, appears
+in Section B.3 in the supplementary material. It uses the fact
+thatqw
+Cis a convex combination of uniform distribution (for
+which efﬁcient oracles can be constructed) and a weighted
+distribution supported only on S, and can be generalized to
+any priorqthat similarly satisﬁes these properties.
+Thus, as a direct corollary to Theorem 2.8 in the arxiv ver-
+sion of (Singh & Vishnoi, 2014) we obtain the following.
+Theorem 4.4 (Efﬁcient algorithm for max-entropy dis-
+tributions). There is an algorithm that, given a reweighted
+distributionw:S! [0;1], a2[;1 ]d, and an">0,
+computes asuch that
+h;q()h;q(?) +":
+Here?is an optimal solution to the dual of the max-entropy
+convex program for q:=qw
+Cand. The running time of the
+algorithm is polynomial in d;1
+;1
+"and the number of bits
+needed to represent andw.
+Fairness guarantees. Given a marginal vector that has
+representation rate , we can bound the statistical rate and
+representation rate of the the max-entropy distribution ob-
+tained using qw
+Cand.Data preprocessing to mitigate bias: A maximum entropy based approach
+Theorem 4.5 (Fairness guarantees ).Given the dataset
+S, protected attribute `2Iz, class label y2 Y and
+parameters ;C2[0;1], letw:S![0;1]be the
+reweighted distribution obtained from Algorithm 1. Sup-
+poseis a vector that satisﬁes1
+2`1
+1+. The max-
+entropy distribution p?corresponding to the prior distribu-
+tionqw
+Cand expected value has statistical rate at least
+0with respect to `andy, where0= 4(1+)
+C+4, and
+= maxz2
+`jp?(Y=y;Z =z) qw
+C(Y=y;Z =z)j;
+hereYis the random variable when the distribution is re-
+stricted toYandZis the random variable when the distri-
+bution is restricted to 
+`.
+The condition on , when simpliﬁed, implies that
+(1 `)=`and`=(1 `)1, i.e., the marginal prob-
+ability ofZ= 0is atleasttimes the marginal probability
+ofZ= 1. This directly implies that the representation rate
+ofp?is at least. As we control the statistical rate using the
+priorqw
+C, the statistical rate of p?depends on the distance
+betweenqw
+Candp?. The proof of Theorem 4.5 is provided
+in Section C in the supplementary material.
+Remark 4.6. Two natural choices for that satisfy the
+conditions of Theorem 4.5 are the following:
+1.The reweighted vector w:=P
+2Sw(), wherew
+is the weight distribution obtained using Algorithm 1;
+sincewhas representation rate , it can be seen that
+w
+`= 1=(1 +).
+2.The vectorbthat is the mean of the dataset Sfor all
+non-protected attributes and class labels, and is balanced
+across the values of any protected attribute. I.e.,
+b:= X
+2Sn
+NX;X
+2Sn
+NY;1
+2!
+:
+5. Empirical analysis
+Our approach, as described above, is ﬂexible and can be
+used for a variety of applications.2In this section we show
+its efﬁcacy as compared with other state-of-the-art data de-
+biasing approaches, in particular reweighting methods by
+(Kamiran & Calders, 2012; King & Zeng, 2001) and an opti-
+mization method by (Calmon et al., 2017). We consider two
+applications and three different domain sizes: The COM-
+PAS criminal defense dataset using two versions of the
+data with differently sized domains, and the Adult ﬁnancial
+dataset. With regard to fairness, we compare the statisti-
+cal rate and representation rate of the de-biased datasets
+as well as the statistical rate of a classiﬁer trained on the
+de-biased data. With regard to accuracy, we report both the
+divergence of the de-biased dataset from the raw data, as
+2The code for our framework is available at https:
+//github:com/vijaykeswani/Fair-Max-Entropy-
+Distributions .well as the resulting classiﬁer accuracy. We ﬁnd that our
+methods perform at least as well as if not better than existing
+approaches across all fairness metrics; in particular, ours are
+the only approaches that can attain a good representation
+rate while, simultaneously, attaining good statistical rate
+both with regard to the data and the classiﬁer. Further, the
+loss as compared to the classiﬁer accuracy when trained
+on raw data is minimal, even when the KL divergence be-
+tween our distribution and the empirical distribution is large
+as compared to other methods. Finally, we report the run-
+time of ﬁnding the de-biased distributions, and ﬁnd that our
+method scales well even for large domains of size 1011.
+5.1. Setup for empirical analysis
+Datasets. We consider two benchmark datasets from the
+fairness in machine learning literature.3
+(a) The COMPAS dataset (Angwin et al., 2016; Larson
+et al., 2016) contains information on criminal defendants at
+the time of trial (including criminal history, age, sex, and
+race), along with post-trail instances of recidivism (coded as
+any kind of re-arrest). We use two versions of this dataset:
+thesmall version has a domain of size 144, and contains sex,
+race, age, priors count, and charge degree as features, and
+uses a binary marker of recidivism within two years as the
+label. We separately consider race (preprocessed as binary
+with values “Caucasian” vs “Not-Caucasian”) and gender
+(which is coded as binary) as protected attributes. The large
+dataset has a domain of size approximately 1:41011and
+consists of 19 attributes, 6 different racial categories and
+additional features such as the type of prior and juvenile
+prior counts.
+(b) The Adult dataset (Dheeru & Karra Taniskidou, 2017)
+contains demographic information of individuals along with
+a binary label of whether their annual income is greater
+than $50k, and has a domain of size 504. The demographic
+attributes include race, sex, age and years of education. We
+take gender (which is coded as binary) as the protected
+attribute.
+Using our approach. We consider the prior distribution qw
+C,
+which assigns weights returned by Algorithm 1 for input
+Sand= 1andC= 0:5.4Further, we consider the two
+different choices for the expectation vector as deﬁned in
+Remark 4.6, namely: (1) The weighted mean of the samples
+wusing the weights was obtained from Algorithm 1, and
+(2) the empirical expectation vector with the marginal of the
+protected attribute modiﬁed to ensure equal representation
+of both groups b. In this case, since the protected attribute
+3The details of both datasets, including a description of features
+are presented in Sections D and E of the supplementary material.
+4This choice for Cis arbitrary; we evaluate performance as a
+function ofCin Section D of the supplementary material.Data preprocessing to mitigate bias: A maximum entropy based approach
+is binary we set b
+`= 1=2.5
+Baselines and metrics. We compare against the raw data,
+simply taking the prior qw
+Cdeﬁned above, a reweighting
+method (Kamiran & Calders, 2012) for statistical parity, a
+reweighting method (King & Zeng, 2001) for representation
+parity, and an optimized preprocessing method (Calmon
+et al., 2017). We consider the distributions themselves in
+addition to classiﬁers trained on simulated datasets drawn
+from these distributions, and evaluate them with respect to
+well-studied metrics of fairness and accuracy.
+For fairness metrics, we report the statistical rate (see Deﬁni-
+tion 2.2), i.e., the ratio between the probability of observing
+a favorable outcome given unprivileged group membership
+and the probability of observing a favorable outcome given
+privileged group membership. Note that this can be eval-
+uated both with regard to the instantiation of the outcome
+variable in the simulated data, and with regard to the out-
+come predicted by the classiﬁer; we report both. We also
+report the representation rate (see Deﬁnition 2.1) of the sim-
+ulated data; for gender this corresponds to the ratio between
+fraction of women and men in the simulated datasets, while
+for race this corresponds to the ratio between fraction of
+Caucasian and Non-Caucasian individuals in the simulated
+datasets. For all fairness metrics, larger values, closer to 1,
+are considered to be “more fair”.
+We report the classiﬁer accuracy when trained on the syn-
+thetic data. Further, we aim to capture the distance between
+the de-biased distribution and the distribution induced by the
+empirical samples. For the Adult dataset and small COM-
+PAS dataset we report the KL-divergence.6For the large
+COMPAS dataset, the KL-divergence is not appropriate as
+most of the domain is not represented in the data. We instead
+consider the covariance matrix of the output dataset and the
+raw dataset and report the Frobenius norm of the difference
+of these matrices. In either case, lower values suggest the
+synthetic data better resembles the original dataset. Lastly,
+we report the runtime (in seconds) of each approach.
+Implementation details. We perform 5-fold cross-
+validation for every dataset, i.e., we divide each dataset into
+ﬁve partitions. First, we select and combine four partitions
+into a training dataset and use this dataset to construct the
+distributions. Then we sample 10,000 elements from each
+distribution and train the classiﬁer on this simulated dataset.
+We then evaluate our metrics on this simulated dataset and
+classiﬁer (where the classiﬁer accuracy and statistical rate
+is measured over the test set, i.e., the ﬁfth partition of the
+5In Section D of the supplementary material we evaluate the
+performance using alternate priors and expectation vectors such as
+qd
+Canddwhich correspond to the raw data.
+6For this to be well-deﬁned, if a point does not appear in the
+dataset, before calculating KL-divergence, we assign it a very
+small non-zero probability ( 10 7).original dataset). This sampling process is repeated 100
+times for each distribution. We repeat this process 5 times
+for each dataset, once for each fold. We report the mean
+across all (500) repetitions and folds. Within each fold, the
+standard error across repetitions is low, less than 0.01 for all
+datasets and methods. Hence, for each fold, we compute the
+mean of metrics across the 100 repetitions and then report
+the standard deviation of this quantity across folds.
+We use a decision tree classiﬁer with gini information crite-
+rion as the splitting rule. A Gaussian naive Bayes classiﬁer
+gives similar results. Further details are presented in Section
+D of the supplementary material. In the computation of the
+max-entropy distribution, we use a second-order algorithm
+inspired from works of (Allen Zhu et al., 2017; Cohen et al.,
+2017) that is also provably polynomial time in the param-
+eters above and turns out to be slightly faster in practice.
+We present the details in Section F of the supplementary
+material. The machine speciﬁcations are a 1.8Ghz Intel
+Core i5 processor with 8GB memory.
+5.2. Empirical results
+The empirical results comparing our max-entropy approach
+against the state-of-the-art are reported in Table 2. The per-
+formance of using just the prior qw
+Cis also reported in the
+table. For all datasets, the statistical rate of our max-entropy
+distributions is at least 0:97, which is higher than that of
+the raw data and higher or comparable to other approaches,
+including those speciﬁcally designed to optimize statisti-
+cal parity (Calmon et al., 2017; Kamiran & Calders, 2012).
+Additionally, the representation rate of our max-entropy dis-
+tributions is at least 0:97, which is higher than that of the raw
+data and higher or similar to other approaches, including
+those speciﬁcally designed to optimize the representation
+rate (King & Zeng, 2001). Recall that both fairness met-
+rics can be at most 1, so this suggests the synthetic data
+our distributions produce have a near-equal fraction of in-
+dividuals from both groups of protected attribute values
+(women/men or Caucasian/Not-Caucasian) andthe proba-
+bility of observing a favorable outcome is almost equally
+likely for individuals from both groups.
+Note that Theorem 4.5 gives a bound on the statistical rate
+0. While this bound can be strong, the statistical rates
+we observe empirically are even better. E.g., for the small
+COMPAS dataset with gender as the protected attribute, by
+plugging in the value of for priorqw
+Cand expected vector
+w, we get that 0= 0:85(i.e., satisfying the 80% rule),
+but we observe that empirically it is even higher (0.98).
+However, the bound may not always be strong. E.g., or
+the Adult dataset, we only get 0= 0:23. In this case, the
+distance between the prior qw
+Cand max-entropy distribution
+p?is large hence the bound on the statistical rate of p?,
+derived using qw
+C, is less accurate. Still, the statistical rate ofData preprocessing to mitigate bias: A maximum entropy based approach
+Table 2. Empirical results. Our max-entropy distributions use prior qw
+CforC= 0:5and expected value worb(as deﬁned in
+Remark 4.6). “SR” denotes statistical rate. We report the mean across all folds and repetitions, with the standard deviation across folds
+in parentheses. For each measurement and dataset, the results that are not statistically distinguishable at p-value = 0:05from the best
+result across all baselines and approaches are given in bold. Note that the approach is infeasible for larger domains, such as the large
+version of COMPAS datasets, and hence we do not present the results of (Calmon et al., 2017) on that dataset. The results in this table are
+represented graphically in Figure 7 in the Supplementary File.
+This paper Baselines
+Raw Data Prior qw
+C Max-
+Entropy
+withqw
+C,
+wMax-
+Entropy
+withqw
+C,
+b(Calmon
+et al.,
+2017)(Kamiran
+& Calders,
+2012)(King
+& Zeng,
+2001)Adult
+gender
+FairnessData SR 0.36 (0) 0.97 (0.02) 0.98 (0.02) 0.98 (0.02) 0.96 (0.01) 0.97 (0.02) 0.36 (0)
+Representation Rate 0.49 (0) 0.97 (0.01) 0.97 (0.02) 0.99 (0.01) 0.49 (0.01) 0.49 (0.01) 0.98 (0)
+Classiﬁer SR 0.36 (0) 0.96 (0.03) 0.95 (0.02) 0.96 (0.01) 0.97 (0.01) 0.85 (0.03) 0.36 (0)AccuracyKL-divergence w.r.t
+raw data0(0) 1.23 (0.03) 0.24 (0.01) 0.24 (0.01) 0.16 (0) 0.22 (0.01) 0.08 (0)
+Classiﬁer Accuracy 0.80 (0) 0.75 (0.01) 0.77 (0.02) 0.76 (0.01) 0.77 (0.01) 0.78 (0.01) 0.80 (0)
+Runtime - 0.73s 10s 10s 62s 0.16s 0.57sCOMPAS (small)
+gender
+FairnessData SR 0.73 (0.02) 0.98 (0.01) 0.98 (0.02) 0.99 (0.01) 0.87 (0.02) 0.98 (0.02) 0.73 (0.03)
+Representation Rate 0.24 (0.01) 0.97 (0.02) 0.98 (0.01) 0.98 (0.02) 0.24 (0.01) 0.24 (0.01) 0.98 (0)
+Classiﬁer SR 0.72 (0.01) 0.96 (0.02) 0.95 (0.02) 0.96 (0.02) 0.93 (0.04) 0.93 (0.03) 0.72 (0.01)AccuracyKL-divergence w.r.t
+raw data0(0) 0.57 (0.03) 0.35 (0.01) 0.37 (0.02) 0.02 (0) 0.14 (0.02) 0.24 (0)
+Classiﬁer Accuracy 0.66 (0.01) 0.65 (0.01) 0.64 (0.01) 0.65 (0.02) 0.66 (0.01) 0.66 (0.01) 0.66 (0.01)
+Runtime - 0.06s 2.5s 2.6s 25s 0.04s 0.10srace
+FairnessData SR 0.76 (0.01) 0.98 (0.01) 0.98 (0.01) 0.99 (0.01) 0.93 (0.01) 0.98 (0.01) 0.76 (0.01)
+Representation Rate 0.66 (0.01) 0.99 (0.01) 0.99 (0.01) 0.99 (0.01) 0.74 (0.02) 0.67 (0.02) 0.99 (0)
+Classiﬁer SR 0.75 (0.02) 0.95 (0.03) 0.96 (0.01) 0.94 (0.03) 0.85 (0.09) 0.96 (0.03) 0.75 (0.02)AccuracyKL-divergence w.r.t
+raw data0(0) 0.36 (0.02) 0.13 (0.01) 0.13 (0.01) 0.02 (0.01) 0.02 (0) 0.03 (0)
+Classiﬁer Accuracy 0.66 (0.01) 0.64 (0.02) 0.65 (0.02) 0.65 (0.01) 0.58 (0.02) 0.65 (0.01) 0.66 (0.01)
+Runtime - 0.06s 2.5s 2.6s 25s 0.04s 0.10sCOMPAS (large)
+gender
+FairnessData SR 0.71 (0.02) 0.97 (0.01) 0.98 (0.01) 0.97 (0.02) - 0.99 (0.01) 0.71 (0.02)
+Representation Rate 0.26 (0.01) 0.96 (0.01) 0.98 (0.01) 0.98 (0.01) - 0.26 (0.01) 0.98 (0)
+Classiﬁer SR 0.73 (0.06) 0.89 (0.02) 0.88 (0.02) 0.85 (0.06) - 0.79 (0.01) 0.73 (0.03)AccuracyCovariance matrix
+difference norm0(0) 4.64 (0.26) 3.20 (0.44) 5.18 (0.84) - 4.89 (0.04) 0.16 (0.01)
+Classiﬁer Accuracy 0.65 (0.01) 0.63 (0.01) 0.63 (0.01) 0.63 (0.01) - 0.62 (0.02) 0.63 (0.01)
+Runtime - 35s 40s 40s - 0.25s 2srace
+FairnessData SR 0.73 (0.03) 0.98 (0.02) 0.98 (0.02) 0.97 (0.02) - 0.99 (0) 0.72 (0.03)
+Representation Rate 0.06 (0) 0.99 (0.01) 0.99 (0.01) 0.99 (0.01) - 0.01 (0.01) 0.98 (0)
+Classiﬁer SR 0.72 (0.01) 0.89 (0.06) 0.91 (0.06) 0.91 (0.05) - 0.85 (0.11) 0.71 (0.13)AccuracyCovariance matrix
+difference norm0.01 (0) 1.94 (0.25) 1.93 (0.24) 1.87 (0.26) - 0.88 (0.14) 0.36 (0.01)
+Classiﬁer Accuracy 0.66 (0.01) 0.64 (0.01) 0.64 (0.01) 0.63 (0.01) - 0.41 (0.08) 0.64 (0.01)
+Runtime - 35s 40s 40s - 0.25s 2sData preprocessing to mitigate bias: A maximum entropy based approach
+max-entropy distribution is observed to be 0:97, suggesting
+that perhaps stronger fairness guarantees can be derived.
+The statistical rate of the classiﬁers trained on the synthetic
+data generated by our max-entropy approach is comparable
+or better than that from other methods, and signiﬁcantly bet-
+ter than the statistical rate of the classiﬁer trained on the raw
+data. Hence, as desired, our approach leads to improved fair-
+ness in downstream applications. This is despite the fact that
+the KL-divergence of the max-entropy distributions from
+the empirical distribution on the dataset is high compared
+to most other approaches. Still, we note that the difference
+between the max-entropy distributions and the empirical
+distribution tends to be smaller than the difference between
+the priorqw
+Cand the empirical distribution (as measured
+by KL divergence and the covariance matrix difference as
+discussed above). This suggests that, as expected, the max-
+entropy optimization helps push the re-weighted distribution
+towards the empirical distribution and highlights the beneﬁt
+of using a hybrid approach of reweighting and optimization.
+For the COMPAS datasets, the raw data has the highest
+accuracy and the average loss in accuracy when using the
+datasets generated from max-entropy distributions is at most
+0.03. This is comparable to the loss in accuracy when using
+datasets from other baseline algorithms. In fact, for the small
+version of COMPAS dataset, the accuracy of the classiﬁer
+trained on datasets from the max-entropy distribution using
+marginalbis statistically similar to the accuracy of the
+classiﬁer trained on the raw dataset. For the Adult dataset,
+(King & Zeng, 2001) achieves the same classiﬁer accuracy
+as the raw dataset. As the Adult dataset is relatively more
+gender-balanced than COMPAS datasets and outcomes are
+not considered, (King & Zeng, 2001) do not need to modify
+the dataset signiﬁcantly to achieve a high representation rate
+(indeed its KL-divergence from the empirical distribution
+of the raw data is the smallest). In comparison, all other
+methods that aim to satisfy statistical parity (max-entropy
+approach, (Calmon et al., 2017; Kamiran & Calders, 2012))
+suffer a similar (but minimal) loss in accuracy of at most
+0:03.
+With respect to runtime, since (Kamiran & Calders, 2012),
+(King & Zeng, 2001) and prior qw
+Care simple re-weighting
+approaches and do not look at features other than class
+labels and protected attribute, it is not surprising that they
+have the best processing time. Amongst the generative
+models, the max-entropy optimization using our algorithm
+is signiﬁcantly faster than the optimization framework of
+(Calmon et al., 2017). In fact, the algorithm of (Calmon
+et al., 2017) is infeasible for larger domains, such as the
+large COMPAS dataset, and hence we are not able present
+the results of their algorithm on that dataset.6. Conclusion, limitations, and future work
+We present a novel optimization framework that can be used
+as a data preprocessing method towards mitigating bias. It
+works by applying the maximum entropy framework to mod-
+iﬁed inputs (i.e., the expected vector and prior distribution)
+which are carefully designed to improve certain fairness
+metrics. Using this approach we can learn distributions over
+large domains, controllably adjust the representation rate or
+statistical rate of protected groups, yet remains close to the
+empirical distribution induced by the given dataset. Further,
+we show that we can compute the modiﬁed distribution in
+time polynomial in the dimension of the data. Empirically,
+we observe that samples from the learned distribution have
+desired representation rates and statistical rates, and when
+used for training a classiﬁer incurs only a slight loss in
+accuracy while signiﬁcantly improving its fairness.
+Importantly, our pre-processing approach is also useful in
+settings where group information is not present at runtime
+or is legally prohibited from being used in classiﬁcation
+(Edwards & Veale, 2017), and hence we only have access
+to protected group status it in the training set. Further,
+our method has an added privacy advantage of obscuring
+information about individuals in the original dataset, since
+the result of our algorithm is a distribution over all points in
+the domain rather than a reweighting of the actual dataset.
+An important extension would be to modify our approach to
+improve fairness metrics across intersectional types. Given
+multiple protected attributes, one could pool them together
+to form a larger categorical protected attribute that captures
+intersectional groups, allowing our approach to be used
+directly. However, improving fairness metrics across mul-
+tiple protected attributes independently seems to require
+additional ideas.
+Achieving “fairness” in general is an imprecise and context-
+speciﬁc goal. The choice of fairness metric depends on
+the application, data, and impact on the stakeholders of
+the decisions made, and is beyond the scope of this work.
+However, our approach is not speciﬁc to statistical rate or
+representation rate and can be extended to other fairness
+metrics by appropriately selecting the prior distribution and
+expectation vector for our max-entropy framework.
+Acknowledgements
+This research was supported in part by NSF CCF-1908347
+and an AWS MLRA Award. We thank Ozan Yildiz for initial
+discussions on algorithms for max-entropy optimization.Data preprocessing to mitigate bias: A maximum entropy based approach
+References
+Allen Zhu, Z., Li, Y ., Oliveira, R., and Wigderson, A. Much
+faster algorithms for matrix scaling. In FOCS’17: Pro-
+ceedings of the 58th Annual IEEE Symposium on Foun-
+dations of Computer Science , 2017.
+Angwin, J., Larson, J., Mattu, S., and Kirchner, L. COM-
+PAS recidivism risk score data and analysis, 2016. URL
+https://www :propublica :org/datastore/
+dataset/compas-recidivism-risk-score-
+datan/--and-analysis .
+Biddle, D. Adverse impact and test validation: A practi-
+tioner’s guide to valid and defensible employment testing .
+Gower Publishing, Ltd., 2006.
+Calders, T. and ˇZliobait ˙e, I. Why Unbiased Computational
+Processes Can Lead to Discriminative Decision Proce-
+dures , pp. 43–57. Springer Berlin Heidelberg, Berlin,
+Heidelberg, 2013.
+Calders, T., Kamiran, F., and Pechenizkiy, M. Building
+classiﬁers with independency constraints. In Data min-
+ing workshops, 2009. ICDMW’09. IEEE international
+conference on , pp. 13–18. IEEE, 2009.
+Calmon, F., Wei, D., Vinzamuri, B., Ramamurthy, K. N.,
+and Varshney, K. R. Optimized pre-processing for dis-
+crimination prevention. In Advances in Neural Informa-
+tion Processing Systems , pp. 3992–4001, 2017.
+Celis, L. E., Deshpande, A., Kathuria, T., and Vishnoi, N. K.
+How to be fair and diverse? In Fairness, Accountability,
+and Transparency in Machine Learning , 2016.
+Celis, L. E., Keswani, V ., Straszak, D., Deshpande, A.,
+Kathuria, T., and Vishnoi, N. Fair and diverse DPP-based
+data summarization. In Dy, J. and Krause, A. (eds.),
+Proceedings of the 35th International Conference on Ma-
+chine Learning , volume 80 of Proceedings of Machine
+Learning Research , pp. 716–725, Stockholmsmassan,
+Stockholm Sweden, 10–15 Jul 2018. PMLR.
+Celis, L. E., Huang, L., Keswani, V ., and Vishnoi, N. K.
+Classiﬁcation with fairness constraints: A meta-algorithm
+with provable guarantees. In Proceedings of the Confer-
+ence on Fairness, Accountability, and Transparency , pp.
+319–328. ACM, 2019.
+Chawla, N. V . Data mining for imbalanced datasets: An
+overview. In Data mining and knowledge discovery hand-
+book , pp. 875–886. Springer, 2009.
+Chawla, N. V ., Bowyer, K. W., Hall, L. O., and Kegelmeyer,
+W. P. Smote: synthetic minority over-sampling technique.
+Journal of artiﬁcial intelligence research , 16:321–357,
+2002.Choi, E., Biswal, S., Malin, B., Duke, J., Stewart, W. F., and
+Sun, J. Generating multi-label discrete patient records
+using generative adversarial networks. In Proceedings
+of the Machine Learning for Health Care Conference,
+MLHC 2017, Boston, Massachusetts, USA, 18-19 August
+2017 , pp. 286–305, 2017.
+Cohen, M. B., Madry, A., Tsipras, D., and Vladu, A. Ma-
+trix scaling and balancing via box constrained Newton’s
+method and interior point methods. In FOCS’17: Pro-
+ceedings of the 58th Annual IEEE Symposium on Foun-
+dations of Computer Science , 2017.
+Dheeru, D. and Karra Taniskidou, E. UCI machine learn-
+ing repository. http://archive :ics:uci:edu/ml ,
+2017.
+Dudik, M. Maximum entropy density estimation and mod-
+eling geographic distributions of species, 2007.
+Edwards, L. and Veale, M. Slave to the algorithm? why a
+“right to an explanation” is probably not the remedy you
+are looking for. Duke Law & Technology Review , 16:18,
+2017.
+Feldman, M., Friedler, S. A., Moeller, J., Scheidegger, C.,
+and Venkatasubramanian, S. Certifying and removing dis-
+parate impact. In Proceedings of the 21th ACM SIGKDD
+International Conference on Knowledge Discovery and
+Data Mining , pp. 259–268. ACM, 2015.
+Gibbs, J. W. Elementary principles in statistical mechan-
+ics: developed with especial reference to the rational
+foundation of thermodynamics . C. Scribner’s sons, 1902.
+Gordaliza, P., Del Barrio, E., Fabrice, G., and Jean-Michel,
+L. Obtaining fairness using optimal transport theory.
+InInternational Conference on Machine Learning , pp.
+2357–2365, 2019.
+Hardt, M., Price, E., and Srebro, N. Equality of opportunity
+in supervised learning. In Advances in Neural Infor-
+mation Processing Systems 29: Annual Conference on
+Neural Information Processing Systems 2016, December
+5-10, 2016, Barcelona, Spain , pp. 3315–3323, 2016.
+Jaynes, E. T. Information theory and statistical mechan-
+ics. Physical Review , 106:620–630, May 1957a. doi:
+10:1103/PhysRev :106:620.
+Jaynes, E. T. Information theory and statistical mechanics.
+II.Physical Review , 108:171–190, October 1957b. doi:
+10:1103/PhysRev :108:171.
+Kamiran, F. and Calders, T. Classifying without discrim-
+inating. In 2nd International Conference on Computer,
+Control and Communication, 2009. IC4 2009. , pp. 1–6.
+IEEE, 2009.Data preprocessing to mitigate bias: A maximum entropy based approach
+Kamiran, F. and Calders, T. Data preprocessing techniques
+for classiﬁcation without discrimination. Knowledge and
+Information Systems , 33(1):1–33, 2012.
+Kamiran, F., Karim, A., and Zhang, X. Decision theory
+for discrimination-aware classiﬁcation. In 12th IEEE
+International Conference on Data Mining, ICDM 2012,
+Brussels, Belgium, December 10-13, 2012 , pp. 924–929,
+2012. doi: 10 :1109/ICDM :2012:45.
+Kay, M., Matuszek, C., and Munson, S. A. Unequal repre-
+sentation and gender stereotypes in image search results
+for occupations. In Proceedings of the 33rd Annual ACM
+Conference on Human Factors in Computing Systems ,
+CHI ’15, pp. 3819–3828. ACM, 2015. ISBN 978-1-4503-
+3145-6.
+King, G. and Zeng, L. Logistic regression in rare events
+data. Political analysis , 9(2):137–163, 2001.
+Kotsiantis, S. and Kanellopoulos, D. Discretization tech-
+niques: A recent survey. GESTS International Trans-
+actions on Computer Science and Engineering , 32(1):
+47–58, 2006.
+Larson, J., Mattu, S., Kirchner, L., and Angwin, J. How we
+analyzed the compas recidivism algorithm. ProPublica
+(5 2016) , 9, 2016.
+Mariani, G., Scheidegger, F., Istrate, R., Bekas, C., and
+Malossi, C. Bagan: Data augmentation with balancing
+gan. arXiv preprint arXiv:1803.09655 , 2018.
+O’Neil, C. Weapons of Math Destruction: How Big
+Data Increases Inequality and Threatens Democracy .
+Crown/Archetype, 2016. ISBN 9780553418828.
+Sattigeri, P., Hoffman, S. C., Chenthamarakshan, V ., and
+Varshney, K. R. Fairness gan: Generating datasets with
+fairness properties using a generative adversarial network.
+IBM Journal of Research and Development , 63(4/5):3–1,
+2019.
+Singh, M. and Vishnoi, N. K. Entropy, optimization and
+counting. In Proceedings of the 46th Annual ACM Sym-
+posium on Theory of Computing , pp. 50–59. ACM, 2014.
+Straszak, D. and Vishnoi, N. K. Maximum entropy distri-
+butions: Bit complexity and stability. In Conference on
+Learning Theory , pp. 2861–2891, 2019.
+Wang, H., Ustun, B., and Calmon, F. Repairing without
+retraining: Avoiding disparate impact with counterfactual
+distributions. In International Conference on Machine
+Learning , pp. 6618–6627, 2019.
+Xu, D., Yuan, S., Zhang, L., and Wu, X. Fairgan: Fairness-
+aware generative adversarial networks. In 2018 IEEEInternational Conference on Big Data (Big Data) , pp.
+570–575. IEEE, 2018.
+Zelaya, C. V . G. Towards explaining the effects of data
+preprocessing on machine learning. In 2019 IEEE 35th
+International Conference on Data Engineering (ICDE) ,
+pp. 2086–2090. IEEE, 2019.
+Zemel, R., Wu, Y ., Swersky, K., Pitassi, T., and Dwork, C.
+Learning fair representations. In International Confer-
+ence on Machine Learning , pp. 325–333, 2013.
+Zhang, B. H., Lemoine, B., and Mitchell, M. Mitigating un-
+wanted biases with adversarial learning. In Proceedings
+of the 2018 AAAI/ACM Conference on AI, Ethics, and
+Society , pp. 335–340. ACM, 2018.

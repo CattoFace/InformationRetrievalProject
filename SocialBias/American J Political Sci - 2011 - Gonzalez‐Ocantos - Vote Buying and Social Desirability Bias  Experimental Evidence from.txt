@@ -1,0 +1,2240 @@
+Vote Buying and Social Desirability Bias:
+Experimental Evidence from Nicaragua
+
+Ezequiel Gonzalez-Ocantos University of Notre Dame
+Chad Kiewiet de Jonge University of Notre Dame
+
+Carlos Meléndez University of Notre Dame
+
+Javier Osorio University of Notre Dame
+
+David W. Nickerson University of Notre Dame
+
+Qualitative studies of vote buying find the practice to be common in many Latin American countries, but quantitative
+
+studies using surveys find little evidence of vote buying. Social desirability bias can account for this discrepancy. We employ
+a survey-based list experiment to minimize the problem. After the 2008 Nicaraguan municipal elections, we asked about
+vote-buying behavior by campaigns using a list experiment and the questions traditionally used by studies of vote buying on
+a nationally representative survey. Our list experiment estimated that 24% of registered voters in Nicaragua were offered
+a gift or service in exchange for votes, whereas only 2% reported the behavior when asked directly. This detected social
+desirability bias is nonrandom and analysis based on traditional obtrusive measures of vote buying is unreliable. We also
+
+provide systematic evidence that shows the importance of monitoring strategies by parties in determining who is targeted
+
+for vote buying.
+
+lientelistic electoral linkages are characterized by
+
+a transaction of political favors in which politi-
+
+cians offer immediate material incentives to cit-
+izens or groups in exchange for electoral support.! Vote
+buying, which is a more particularized form of clien-
+telism involving the exchange of goods for votes at the
+individual level (Stokes 2007), has generated numerous
+ethnographies and surveys to measure its incidence and
+test-related hypotheses. While qualitative research rou-
+tinely finds vote buying to be pervasive in the developing
+world (e.g., Auyero 2001), individual-level surveys often
+uncover low levels of such exchanges (e.g., Transparency
+
+International 2004). If respondents are reluctant to ad-
+mit to receiving gifts in exchange for votes, then surveys
+could systematically understate the amount of vote buy-
+ing. Moreover, if this measurement error is nonrandom,
+then empirical results about the dynamics of vote buying
+derived from surveys are on a shaky foundation. This ar-
+ticle uses a survey experiment to lessen social desirability
+bias, describe whom campaigns targeted with vote buy-
+ing in an election, and demonstrate that this measurement
+error is nonrandom.
+
+The academic consensus is that the exchange of gifts
+and favors for votes has deleterious consequences for
+
+ 
+
+Ezequiel Gonzalez-Ocantos is a Ph.D. candidate in Political Science, 217 O'Shaughnessy Hall, University of Notre Dame, Notre Dame,
+IN 46556 (egonzal4@nd.edu). Chad Kiewiet de Jonge is a Ph.D. candidate in Political Science, 217 O’Shaughnessy Hall, University of
+Notre Dame, Notre Dame, IN 46556 (ckiewiet@nd.edu). Carlos Meléndez is a Ph.D. candidate in Political Science, 217 O'Shaughnessy
+Hall, University of Notre Dame, Notre Dame, IN 46556 (cmelend1@nd.edu). Javier Osorio is a Ph.D. candidate in Political Science, 217
+O’Shaughnessy Hall, University of Notre Dame, Notre Dame, IN 46556 (fosorioz@nd.edu). David W. Nickerson is Associate Professor of
+Political Science, 217 O’Shaughnessy Hall, University of Notre Dame, Notre Dame, IN 46556 (dnickers@nd.edu).
+
+The authors would like to thank Darren Davis, Fran Hagopian, Victoria Murillo, Anabella Expafia-Najera, Simeon Nichter, Ana de la O,
+Maya Parson, Shannon Walsh, and Rebecca Weitz-Shapiro for generous feedback; Paul Avey, Robert Braithwaite, and Christopher Sullivan
+for their collaboration in designing the survey; and Borge y Asociados for fielding the survey. Nickerson would like to thank the Center for
+the Study of Democratic Politics at Princeton University for the time to write the article and the Dean of the College of Arts and Letters
+at the University of Notre Dame for providing funds for the survey. Appendices and material for replicating the statistical analysis can be
+found at www.nd.edu/~dnickers.
+
+' Programmatic linkages, by contrast, are based on the promise of indirect benefits resulting from investment in public goods or on direct
+benefits distributed by public bureaucracies according to standardized rules (Kitschelt 2000).
+
+American Journal of Political Science, Vol. 56, No. 1, January 2012, Pp. 202-217
+
+©2011, Midwest Political Science Association DOI: 10.1111/j.1540-5907.2011.00540.x
+
+202
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+democracy.” Vote buying (and clientelism more generally)
+shortens the time horizons of public policies, thereby gen-
+erating development and poverty traps (Magaloni 2006);
+inverts the rationale of vertical accountability, making
+voters and not politicians subject to monitoring and con-
+trol (Stokes 2005); and, when practiced primarily by those
+in control of public monies, hinders the creation ofa level
+and competitive political playing field. It is therefore im-
+perative not only to study the causes, consequences, and
+dynamics of vote buying, but also to estimate its perva-
+siveness in any given polity.
+
+Scholars have employed a number of methodological
+approaches to studying vote buying. Most of the existing
+knowledge on vote buying is based on qualitative ethnog-
+raphies detailing the ways in which clients interact with
+political brokers and how clients view such exchanges
+(see Stokes 2007 for a review). Based on these studies,
+the widely held assumption is that clientelistic electoral
+linkages are pervasive, particularly but not exclusively,
+in politics in the developing world (Kitschelt 2000) and
+that the poor are the most likely targets of such strate-
+gies. Although these studies have greatly increased our
+understanding of the processes undergirding vote buying
+in specific contexts, this qualitative literature is limited by
+its inability to measure the extent of vote buying and test
+competing theories about party macrostrategy.
+
+In response to this disadvantage, some scholars have
+used mass surveys to study vote buying. In stark contrast
+to ethnographic studies, survey data often show that small
+percentages of respondents report personally receiving a
+good or favor from a political party when asked about
+it directly (e.g., Transparency International 2004). For
+example, Stokes (2005) finds that only 7% of Argentine
+respondents reported receiving goods for their votes, even
+though ethnographic work shows that vote buying is a key
+component of modern Argentine politics (Auyero 2001;
+Levitsky 2003). Most surveys reported single-digit vote-
+buying rates, with those reporting double-digit rates re-
+stricted to Southeast Asian democracies (Schaffer 2007).
+These types of findings leave many scholars optimistic
+about the low incidence of vote buying (e.g., Seligson
+et al. 2006, 93). These data collected by surveys require
+researchers to assume that measurement error in survey
+items on vote buying is negligible or at least random.
+
+To determine if respondents are targeted for vote
+buying, researchers generally ask respondents directly
+whether they have received a gift or favor from a po-
+litical party or candidate. Survey items that ask about
+
+Some authors have pointed to potential benefits of vote buying and
+clientelism in institutionalizing political systems. See Huntington
+(1968) and Philipson and Snyder (1996).
+
+203
+
+stigmatized or illegal attitudes or behaviors often pro-
+duce social desirability bias, as many respondents wish
+to present themselves in a favorable light to interviewers
+(Bradburn et al. 1978; DeMaio 1984; Nadeau and Niemi
+1995; Tourangeau and Yan 2007). Since vote buying is ille-
+gal in most countries and generally associated with a neg-
+ative social stigma due to its disjuncture with democratic
+norms and association with poverty, items that directly
+ask respondents about it are likely subject to significant
+levels of measurement error.
+
+Consequently, the use of direct, obtrusive survey
+items may provide inaccurate estimates of aggregate levels
+of vote buying and bias analyses of the targeting strate-
+gies of political parties due to systematic patterns in so-
+cial desirability bias. While such bias has not gone com-
+pletely unacknowledged by scholars (Brusco, Nazareno,
+and Stokes 2004, 69-72; Stokes 2005, 321, fn. 20), exist-
+ing alternatives, such as those asking about vote buying
+occurring in respondents’ neighborhoods, do not suffi-
+ciently eliminate social desirability concerns, nor do they
+allow particularly precise understandings of whom par-
+ties and candidates target for vote buying. Asa result, the
+implications of significant measurement error for em-
+pirical analyses have largely been ignored. Without more
+valid and reliable measures of vote buying, advancing the
+clientelism research agenda will be difficult.
+
+To assess the validity of these arguments, we em-
+ployed a measurement technique to determine the degree
+to which social desirability bias affects direct vote-buying
+items and how such bias is distributed across relevant
+variables. We surveyed registered voters in Nicaragua im-
+mediately after the 2008 municipal elections and found
+that nearly a quarter of respondents received a gift or
+favor in exchange for their vote according to an unob-
+trusive “list experiment.” In contrast, less than 3% of
+respondents reported that they had received a gift or fa-
+vor when asked directly. Not only does the direct measure
+vastly underestimate vote buying, but the social desirabil-
+ity bias is also nonrandom and correlated with politically
+important variables. This finding implies that analyses
+employing direct measures are likely to yield inaccurate
+results. We also find that political campaigns target in-
+dividuals who think parties can monitor their vote, thus
+overcoming the commitment problems inherent to these
+transactions.
+
+Response Bias and Vote Buying
+
+When respondents fear expressing socially undesirable
+attitudes or admitting to participating in stigmatized
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+204
+
+or illegal behavior, social desirability bias can occur
+(Bradburn et al. 1978; DeMaio 1984; Johnson and Van de
+Vijver 2003). Some respondents misrepresent themselves
+to show favorable images of themselves to interviewers on
+subjects such as racial attitudes (Berinsky 1999; Kuklinski,
+Cobb, and Gilens 1997; Kuklinski et al. 1997), religious
+attitudes and behaviors (Kane, Craig, and Wald 2004;
+Presser and Stinson 1998), sexual behavior (Tourangeau
+and Smith 1996), drug use (Bachman and O’Malley 1981;
+Tourangeau and Smith 1996), and voter turnout (Silver,
+Anderson, and Abramson 1986).
+
+Survey respondents may view standard vote-buying
+items as sensitive due to the practice’s illegality, its con-
+tradiction of democratic norms, and its association with
+negative stigmas attached to poverty (Stokes 2005, 321,
+fn. 20). Thus, asking directly about receiving a gift in ex-
+change for a vote may result in social desirability bias and
+the underreporting of its incidence. This makes it par-
+ticularly difficult to reliably estimate the proportion of
+people receiving goods, much less determine what type
+of people parties target for vote buying.*
+
+Although scholars sometimes recognize the bias in-
+herent in their direct measure of vote buying, they too
+easily dismiss the problem in the testing of their mod-
+els. Following King, Keohane, and Verba (1994, 157-68),
+some have argued that when vote buying is the dependent
+variable, measurement error is of less concern, since mea-
+surement error in the dependent variable generally only
+decreases the efficiency of the estimate (i-e., the standard
+errors increase and the statistical significance of coeffi-
+cients decrease), while it is unlikely to bias the coefficients.
+Thus, they argue, measurement error places a greater bur-
+den on the researcher by making it more difficult to find
+significant associations (e.g., Stokes 2005, 321, fn. 20).
+
+This reasoning, however, is not entirely convincing
+since it is based on the assumption that error in direct
+measures of vote buying is nonsystematic (i-e., random)
+and constant across all relevant subgroups. Measure-
+ment error that systematically varies across subgroups
+would bias inferences (King, Keohane, and Verba 1994,
+155-57). For example, adjudicating between game the-
+
+3 While not all survey items exhibit response bias, questions that
+appear either threatening—due, for instance, to the illegality of the
+behavior—or sensitive—as a result of negative social stigmas—are
+most likely to cause significant misreporting and thereby increase
+measurement error.
+
+4 Brusco, Nazareno, and Stokes (2004, 69-72) note that as a result of
+these considerations, it is nearly impossible to provide an accurate
+point estimate of vote buying and suggest that the best estimate lies
+somewhere in between the estimates provided by individual and
+neighborhood vote-buying items.
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+oretic models often hinges on the decision of parties
+to target either weakly opposed voters for vote buying
+(e.g., Stokes 2005) or strong supporters for turnout buy-
+ing (e.g., Nichter 2008). Assume that contrary to both
+of these models, parties distribute gifts to both groups
+at equal levels or that they distribute goods randomly.
+If strong supporters see gift dispensation by their party
+as a commendable component of clientelistic “problem
+solving networks” (Auyero 2001), they may underreport
+vote buying to a lesser extent than weak supporters. Sim-
+ilarly, compared to strong supporters, swing voters may
+be relatively reluctant to admit being offered gifts because
+they are consciously “selling” their vote. In either case,
+systematic social desirability bias would cause traditional
+analysis to wrongly suggest weakly opposed citizens are
+less likely to receive gifts or favors than strong supporters.
+Thus, findings from direct questions that core supporters
+are more likely to be targeted are not on firm empirical
+ground.
+
+The primary alternative to the direct individual item
+is asking about vote buying more indirectly by inquir-
+ing about vote buying in the respondent’s neighborhood,
+but this tactic also introduces potentially nonrandom
+measurement error.° Unfortunately, respondents may re-
+main hesitant to answer this item truthfully due to social
+desirability concerns. It is also unclear that indicating
+vote buying in one’s neighborhood is a good proxy for
+individual-level vote buying. Response bias can result if
+supporters of a given party report vote-buying opera-
+tions by rival organizations in their neighborhood to dis-
+credit them. Additionally, questions regarding campaign
+vote buying in neighborhoods have the obvious prob-
+lem of not directly or reliably capturing who is being
+targeted. Such items may simply capture the public na-
+ture of vote buying and not its frequency. For example,
+neighborhood measures may overestimate vote buying in
+urban areas and underestimate the frequency in rural ar-
+eas where the probability of a clientelistic exchange being
+observed by other citizens is lower. Thus, it is entirely
+plausible that measurement error in neighborhood esti-
+mates of vote-buying behavior is correlated with politi-
+cally relevant variables and can lead to biased inferences as
+well.
+
+5 Asking whether the respondent has turned or would turn to a
+party operative for help has also been used as an alternate dependent
+variable. While this might improve inferences, such items are less
+direct measures of vote buying and assume that the same people
+who turn to parties for help also are given gifts in return for votes
+and people who do not seek assistance are not provided gifts. This
+empirically verifiable assumption is hard to test given the high
+likelihood of bias in the measurement of each variable.
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+The List Experiment
+
+In order to reduce social desirability bias in the measure of
+vote buying, we employed an unobtrusive measurement
+technique known as the list experiment (or unmatched
+item count technique). While this is the first attempt to use
+a list experiment to gauge levels of vote buying, political
+scientists have successfully used list experiments to study
+a number of other topics subject to social desirability
+bias, including racism (Kuklinski, Cobb, and Gilens 1997;
+Kuklinski et al. 1997) and self-reported voter turnout
+(Holbrook and Krosnick 2010).°
+
+The logic of the list experiment is straightforward.
+First, the survey sample is split into random halves: a treat-
+ment and a control group. Each group is read the same
+question and shown a card with the response options,
+which differs only in the number of response categories:
+
+I'm going to hand you a card that mentions var-
+ious activities, and I would like for you to tell me
+if they were carried out by candidates or activists
+during the last electoral campaign. Please, do not
+tell me which ones, only HOW MANY.
+
+For the control group, the following campaign activities
+are listed and read to respondents:
+
+e they put up campaign posters or signs in your
+neighborhood/city;
+
+e they visited your home;
+
+e they placed campaign advertisements on television
+or radio;
+
+e they threatened you to vote for them.
+
+The treatment group is shown and read a fifth category,
+placed in the third response position:
+
+e they gave you a gift or did you a favor’
+
+The question does not ask respondents to reveal to
+the interviewer the specific activities parties or activists
+
+® For a discussion of the validity of the technique and associated
+strengths and weaknesses, see Appendix C in the online supporting
+information. We complement this with the results of a validation
+experiment conducted in Uruguay and Honduras.
+
+7 We included the final category (threatening the respondent) in
+order to reduce the chance of a ceiling effect (see Kuklinski et al.
+1997). Even with this item, though, 26 respondents indicated all
+five items, suggesting that some ceiling effect may have occurred.
+However, such an effect would only serve to depress estimates,
+thereby working against our social desirability bias hypothesis. The
+English and Spanish versions of the instrument can be found in
+Appendix B in the online supporting information.
+
+205
+
+practiced. The respondents only have to tell the inter-
+viewer how many activities were carried out, so the ques-
+tion provides the respondent a high degree of anonymity
+since the interviewer cannot ascertain which activities
+the respondent indicates. Because respondents intuitively
+understand this anonymity, social desirability pressures
+should be reduced, providing less incentive to underre-
+port vote buying.
+
+Since respondents were randomly assigned to the
+treatment and control groups, the two groups will be
+identical on both observable and unobservable charac-
+teristics, in expectation. Thus, an estimate of the propor-
+tion of respondents receiving a gift or favor can be de-
+rived simply by comparing the average number of items
+indicated by the respondents in each group to the list-
+experiment question. If no vote buying occurred, there
+would be no difference in the mean number of items re-
+ported by each group on average. Systematic differences
+in the means provide a point estimate on the number of
+people reporting vote-buying activity. For example, if the
+average number of items indicated by the control group
+is 2.10 and the average number of items indicated by
+the treatment group is 2.35, then we can conclude that
+25% of respondents received a gift or favor (2.35 — 2.10
+= 0.25, and 0.25*100 = 25%). The list experiment can
+also estimate means within different subgroups of the
+overall sample (e.g., partisan, socioeconomic, gender).
+Estimates of social desirability bias across subgroups can
+be determined by the absolute difference between the list
+experiment estimates and the estimates derived by both
+direct individual and neighborhood items.
+
+The Nicaraguan Case
+
+The central aim of this article is to show that the method-
+ology usually employed to measure the pervasiveness of
+vote buying and its political dynamics is potentially bi-
+ased. We use the list experiment to demonstrate this em-
+pirically with survey evidence from Nicaragua following
+the country’s November 2008 municipal elections.
+
+Over the past two decades, two main political factions
+have become dominant in Nicaragua’s political system, al-
+ternating in power on several occasions. The former guer-
+rilla movement and current leftist party, Frente Sandinista
+de Liberacién Nacional (FSLN),® controls the presidency
+
+’ The party is headed by Daniel Ortega, who was a member of
+the Junta Nacional de Reconstruccién that took office when dictator
+Somoza was overthrown in July 1979. When the FSLN came to
+dominate the junta, Ortega became the de facto ruler of Nicaragua.
+In 1984, through competitive elections, Ortega became president
+for the period 1985-1990, and more recently, in 2006, he was re-
+elected.
+
+Hol Aoppuico korn Kseaqurauyuoyrsdny woss papeovumog ‘|Z 10Z ‘LO6SOPSI
+
+ 
+
+asuaor] suOWIUIOD aguas a[quouidde ayy Kq pausono8 axe sajouuE WO fasn Jo Sama 40} Kaeaqe] aUL[U aft Wo (suONIPUCD-puE-suUDIAUOD’Ka[UMaesqu{aut[uoyesdiy) SHORE puE SHAY, 2H 29 TZZOZ/I H/C] YO Kacsqey] aUYUO KLM ‘WeUETEN RAwIOg 7 s9UMOA BIEL IO Aussoawan £q XOHSOO' | 1OZLO6S-OFS ITY
+206
+
+and maintains a firm support base around 40%, with
+electoral strongholds in poor urban areas. Since the late
+1990s, the Partido Liberal Constitucionalista (PLC) has
+positioned itself as the primary center-right opposition
+to the Sandinistas by attracting support from the middle
+classes, small businesses, and poor voters in rural areas
+(Guzman and Pinto 2008).? The rightist parties when
+considered together have generally held more than half of
+the vote share (around 55%), but in the 2006 presidential
+elections votes were spread across several parties. !°
+
+The 2008 municipal elections were not heavily con-
+tested in all parts of the country, but high levels of com-
+petition in some of the largest and most important mu-
+nicipalities in the country, including the capital Managua
+and Le6n, led the major parties to use every tool at their
+disposal to secure victory (Marti ] Puig 2008).!' Although
+media sources were attentive to vote buying during the
+campaign and reported that “food stamps, rice, beans .. .
+and 25 thousand stoves were distributed,”'” how widely
+vote buying was practiced is unclear.
+
+A strong history of patrimonialism and clientelism
+more generally suggests that vote buying should be preva-
+lent in Nicaragua. Dye and Close (2004) argue that un-
+der Somoza’s dictatorial regime (1939-79), Nicaraguans
+experienced the establishment of a patrimonial state in
+which the distinction between public and partisan realms
+was blurred.!* This long-standing tradition of using state
+
+° PLC leaders governed Nicaragua for two consecutive periods:
+Arnoldo Aleman between 1997 and 2002, and Enrique Bolafios
+between 2002 and 2007.
+
+'0 Since the 2006 presidential election, and with the return of
+Montealegre to the PLC, the other rightist party, Alianza Liberal
+Nicaragiiense (ALN), has lost its political appeal. In the 2008 mu-
+nicipal elections, ALN obtained only 2.1% of the valid votes.
+
+"| According to the electoral council’s provisional results, the San-
+dinistas won 94 ofthe 146 municipalities, including Managua. With
+70% of the votes counted in Managua, the Consejo Supremo Elec-
+toral (CSE) claimed that FSLN candidate Alexis Arguello received
+51.3% of the valid votes and defeated PLC’s Eduardo Montealegre,
+who garnered 46.5%. These results were challenged by the oppo-
+sition and international observers. During several days after the
+election, the Nicaraguan capital was the scene of riots and con-
+frontations between the Liberals, who were claiming fraud, and
+the Sandinistas, who were “defending the people’s choice.” Despite
+pressures from the international community, the opposition’s claim
+did not advance and the electoral council proclaimed the FSLN as
+the winner of the elections. In January 2009, several civil society
+organizations presented 100,000 signatures to the CSE demanding
+a recount of votes. As of December 2010, the state has still not re-
+leased official election results. Currently, the official website makes
+no mention of the election. See http://www.cse.gob.ni.
+
+ Envio, October 2008, report No. 309.
+
+5 See Millet (1977) for a history of the partisan use of public
+monies, especially during Somoza’s regime. See Vargas (2004) for
+more recent accounts of this phenomenon.
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+resources to oil political machines enables the capture of
+state bureaucracies to reward political allies and to funnel
+resources to the government's electoral base in contem-
+porary Nicaraguan politics (Marenco 2004).!4
+
+Given the wide-ranging forms of corruption in
+Nicaragua, one might wonder why parties need to en-
+gage in vote buying at all. Not only were the 2008 mu-
+nicipal elections in Nicaragua tainted by accusations of
+electoral fraud, but the Supreme Electoral Council also
+made a series of rulings before the election that system-
+atically benefited the FSLN (Greene 2010). Furthermore,
+voters can be wooed with the promise of patronage jobs
+and the provision of club goods, neither of which falls
+under our strict definition of vote buying. With so many
+tools at a regime’s disposal, vote buying may be “un-
+necessary.” However, there are three reasons that parties
+may still decide to engage in vote buying. First, vote buy-
+ing is probably less costly than electoral fraud, so parties
+may buy votes in order to obviate the need to engage
+in postballot forms of electoral corruption. Second, vote
+buying could be a logical extension of goods and services
+provided in nonelectoral time periods. The vote buying
+immediately prior to the election might even be a neces-
+sary reminder of the ongoing largess provided to the voter
+by the party. Finally, elections are competitive and parties
+seize every opportunity to secure votes. Just as campaigns
+hang posters, air radio ads, and stage rallies regardless of
+their effectiveness, campaigns may engage in vote buying
+to gain an edge on (or keep up with) the competition.
+Thus, the documented presence of alternative forms of
+electoral corruption does not rule out the utilization of
+vote buying as a campaign strategy.
+
+While research on the actual incidence of vote
+buying—rather than broader clientelism—in Nicaragua
+is limited, extant literature suggests that vote buying is
+an important component of electoral competition in
+the country. Nicaraguan parties across the ideological
+spectrum engage in clientelistic practices both in and
+out of power (Guzman and Pinto 2008). Even though
+vote buying is considered an electoral crime according
+to Nicaraguan Electoral Law,’ enforcement is nonexis-
+tent and vote buying has become a common mobilization
+
+“ Vote buying is only but one option in the large “menu of ma-
+nipulation” used by incumbents seeking to secure electoral victory
+(Schedler 2002). Indeed, the Liberal opposition claimed outright
+fraud in vote counts in Managua (see fn. 13).
+
+'S Article 174 allows campaign activity but is unequivocal with re-
+spect to the distribution of goods in exchange for votes: “anyone
+who bribes someone else in order to support any specific candidacy,
+vote for a specific option, or abstain from voting will be sanctioned
+with six to twelve months in prison” (Law 331, Electoral Law [Jan-
+uary 19, 2000], Title XIV, Unique Chapter on Electoral Crimes,
+Article 174; translation is ours).
+
+Hol Aoppuico korn Kseaqurauyuoyrsdny woss papeovumog ‘|Z 10Z ‘LO6SOPSI
+
+ 
+
+asuaor] suOWIUIOD aguas a[quouidde ayy Kq pausono8 axe sajouuE WO fasn Jo Sama 40} Kaeaqe] aUL[U aft Wo (suONIPUCD-puE-suUDIAUOD’Ka[UMaesqu{aut[uoyesdiy) SHORE puE SHAY, 2H 29 TZZOZ/I H/C] YO Kacsqey] aUYUO KLM ‘WeUETEN RAwIOg 7 s9UMOA BIEL IO Aussoawan £q XOHSOO' | 1OZLO6S-OFS ITY
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+strategy. Parties on the left and right have resources to de-
+velop and maintain clientelistic networks. In the context
+of the 2008 elections, both sides could engage in vote buy-
+ing since the FSLN had access to government resources
+and the PLC possessed strong ties to business interests
+and still controlled some subnational offices. In addition,
+being the second poorest country in Latin America, both
+leftist and rightist parties in Nicaragua have low-income
+core constituencies that allow them to engage success-
+fully and efficiently in vote-buying strategies alongside or
+in detriment of programmatic ones because of the high
+relative value that inexpensive gifts have for these voters.!
+In this respect, Nicaraguan politics is different from po-
+litical practices in countries where vote buying is usually
+studied (e.g., Argentina) because two, rather than one,
+well-articulated machines extensively practice vote buy-
+ing. This depiction of Nicaraguan politics anticipates high
+levels of vote buying but hints that vote buying might be
+accepted as “politics as usual” by respondents, who would
+therefore be less concerned with social desirability.
+
+An alternative view of Nicaraguan political culture
+examines the lasting effect of the Sandinista revolution
+on political attitudes and behaviors and argues that the
+movement that overthrew Somoza created a context unfa-
+vorable to clientelistic relationships (Anderson and Dodd
+2005, 2009). According to this literature, the Sandinista-
+led social revolution helped to foster a highly participatory
+society hostile to vertical ties between party leaders and
+citizens. In contrast to its nonrevolutionary neighbors,
+Nicaraguans and their political institutions have demon-
+strated less authoritarianism and have tended to be more
+politically engaged and tied to political parties (Booth
+and Richard 2006). However, these same authors have
+argued that this distinctiveness has decayed over time,
+as the differences between Nicaragua and its neighbors
+in electoral behavior have largely diminished (Booth and
+Richard 2006), but this trend may not hold at the local
+level (Anderson and Dodd 2009). Given this grassroots
+nature of the Nicaraguan political culture, these authors
+would anticipate a strong social stigma against the prac-
+tice of vote buying, suggesting that even if the practice has
+become a part of everyday politics, the cultural legacy of
+the revolution may still induce significant socially desir-
+able responding in the context of a survey.
+
+To gauge the extent to which vote buying is stig-
+matized in Nicaraguan political culture, we added two
+survey questions to an omnibus, face-to-face survey of
+
+‘6 Fora similar argument based on the Argentine case, see Calvo and
+Murillo (2004). According to the World Bank (2005), the regional
+average of per capita GDP in Latin America and the Caribbean
+during the period 1990-2006 was $3,489 (constant US dollars),
+but only $451 in Nicaragua.
+
+207
+
+TABLE 1 Likelihood of Social Desirability Bias
+
+ 
+
+ 
+
+in Nicaragua
+Likelihood of Admitting Acceptability of
+to Receiving Gift Hypothetical Vote-
+ona Survey Buying Exchange
+Very Likely 5.7% Totally 1.8%
+Acceptable
+Somewhat Likely 14.2% Acceptable 6.3%
+Not Very Likely 20.1% Understandable 11.7%
+but not
+Acceptable
+Not at All Likely 51.3% Unacceptable 40.3%
+‘Totally 36.5%
+Unacceptable
+Don’t Know / No 8.7% Don’t Know / No 3.5%
+Answer Answer
+N 1008 1008
+
+ 
+
+Nicaraguan adults conducted in September 2010 (nearly
+two years after the election we studied).'” The first ques-
+tion directly asked about the likelihood that survey re-
+spondents would admit to receiving a gift. The second
+question sought to measure the stigma associated with
+vote buying by asking about the acceptability of a hypo-
+thetical patron-client exchange.'®
+
+The results (Table 1) provide strong evidence against
+the hypothesis that social desirability bias should be min-
+imal due to the everyday nature of practice. Over 70% of
+respondents reported that they thought it was not very
+or not at all likely that a person would admit to having
+taken part in a vote-buying exchange, while fewer than
+20% thought it would be very or somewhat likely that
+a person would admit to selling his or her vote on a
+survey. Results are similar when respondents were asked
+to evaluate the acceptability of a hypothetical patron-
+client exchange. Over 75% of respondents thought that
+the hypothetical exchange was unacceptable or totally un-
+acceptable, while only 8% thought that the situation was
+acceptable or totally acceptable. These two items demon-
+strate a strong normative stigma against vote buying in
+the context of surveys conducted in Nicaragua. This find-
+ing suggests that social desirability bias can be strong even
+
+'” For a full description of the survey design, see Appendix B in the
+online supporting information.
+
+'8 Spanish and English versions of the survey items can be found in
+the online supporting information.
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+208
+
+in a country in which clientelism is a deeply embedded
+practice.?
+
+In order to pilot test our survey questions, get a
+feel for campaign dynamics, and generate hypotheses to
+test with the data generated during the 2008 municipal
+election, one of the authors conducted fieldwork that
+documented the existence of well-articulated political
+brokerage networks managing highly detailed personal
+information about the needs of their potential clients
+on behalf of candidates. These networks of local brokers
+allow political parties to tailor the goods and services
+provided to the needs of particular voters and distribute
+them in exchange for their votes. For example, Alexis
+Arguello, the Sandinista candidate for mayor of Man-
+agua, on October 22, 2008, visited the Asentamiento Hugo
+Chavez Frias, one of the many shantytowns surround-
+ing Managua, and delivered precisely nine wheelchairs
+to the nine handicapped people in the neighborhood.”°
+According to Nicaraguan political analysts interviewed
+during fieldwork, the conservative parties’ networks op-
+erate in a similar fashion. The PLC has built deeply rooted
+clientelistic networks in the rural areas of the country, de-
+livering goods such as chickens or cows in order to mobi-
+lize voters.”! These kinds of goods are clearly considered
+part ofa political transaction. According to a Nicaraguan
+social researcher, “construction materials, cattle, money,
+and medicine are traditionally the most frequent goods
+delivered in electoral campaigns in exchange for votes.”
+
+More recently, the Sandinistas have taken advantage
+of government-sponsored (and Sandinista-controlled)
+Consejos de Poder Ciudadano (Citizen Power Councils,
+CPCs) for clientelistic purposes.” Distribution of goods
+through the CPC is not part of an official welfare pro-
+gram or part of policy-targeting techniques, since they
+are manipulated under a clientelistic logic (Marti I Puig
+
+'? During the 2008 electoral campaign the Catholic Church’s edu-
+cation campaign against vote buying may have enhanced the stigma
+attached to the practice (La Prensa, October 31, 2008).
+
+0 Field notes (October 2008).
+21 Interview (October 2008).
+
+2 Tn contrast, the possibility of getting a job is perceived “as a nor-
+mal reward for their collaboration during campaigns.” Interview
+(October 2008).
+
+°3 The Nicaraguan Constitution (1985) and the Municipal Law
+(Law 40, reformed in 1997) established several mechanisms that
+encourage citizen participation in public affairs (Avendafio 2006).
+Since his comeback to office in 2006, President Ortega introduced
+“participatory democracy” reforms by creating the Consejos de
+Poder Ciudadano, which are state-sponsored deliberative neigh-
+borhood organizations.
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+2009).”4 Furthermore, such brokerage networks play a key
+role not only in distributing goods and favors but also in
+monitoring the behavior of clients. According to a multi-
+lateral agency official, citizens believe that their votes can
+be monitored by the FSLN and by the Nicaraguan Intel-
+ligence Agency, Direccién General de Inteligencia Civil. It
+is in the interest of political parties to foster this miscon-
+ception because it makes noncompliance by gift recipients
+less likely.”°
+
+Survey Description
+
+We conducted a nationally representative face-to-face sur-
+vey between November 25 and December 8, 2008, two
+weeks after the municipal elections.*° The survey was a
+multistage random sample with the electoral registry serv-
+ing as the sampling frame with voting centers (precincts)
+randomly chosen proportionate to department and mu-
+nicipality size. There were 84 final sampling points (seg-
+ments), including 12 respondents per segment who were
+randomly assigned to treatment and control surveys.””
+The American Association of Public Opinion Research
+(AAPOR) response rate 3 for the survey was 77% and
+resulted in 1,008 respondents.
+
+In addition to the list experiment described previ-
+ously, the survey instrument also included a number of
+other items used in the empirical analysis. To compare
+and contrast the different techniques for detecting vote
+buying, respondents were asked whether they had seen
+vote buying in their neighborhood and whether they had
+
+4 According to Envio (October 2008, Report 309), the CPCs
+have “two faces.” First, these organizations recruit and mobilize
+people who need food stamps or low-interest loans (two key so-
+cial programs are Hambre Cero [Zero Hunger] and Usura Cero
+[Zero Profiteering]). Any member of a CPC has access to house-
+building programs, legal property titles, and employment pro-
+grams. Second, the government gives power and resources to CPC’s
+leaders in order to monitor the political loyalty of members of the
+community.
+
+5 Tn interviews with various citizens in a poor neighborhood in
+Managua (October 2008), the Sandinista practice of “helping” poor
+citizens in obtaining electoral identification documents “practically
+for free” is perceived by these citizens to be a mechanism to monitor
+their vote, even though they cannot identify with precision how it
+operates.
+
+26 Elections were not held in the seven municipalities in the au-
+tonomous North Atlantic Region, which was still recovering from
+the 2007 Hurricane Felix and postponed elections until January
+2009. Thus, the two autonomous regions on the Atlantic coast
+(representing 10% of the Nicaraguan population) were excluded
+from the sample.
+
+”’ For a full description of the survey design as well as for Spanish
+and English versions of the questionnaire, go to the online sup-
+porting information. Randomization occurred at the individual
+level.
+
+Hol Aoppuico korn Kseaqurauyuoyrsdny woss papeovumog ‘|Z 10Z ‘LO6SOPSI
+
+ 
+
+asuaor] suOWIUIOD aguas a[quouidde ayy Kq pausono8 axe sajouuE WO fasn Jo Sama 40} Kaeaqe] aUL[U aft Wo (suONIPUCD-puE-suUDIAUOD’Ka[UMaesqu{aut[uoyesdiy) SHORE puE SHAY, 2H 29 TZZOZ/I H/C] YO Kacsqey] aUYUO KLM ‘WeUETEN RAwIOg 7 s9UMOA BIEL IO Aussoawan £q XOHSOO' | 1OZLO6S-OFS ITY
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+been targeted themselves using wording nearly identical
+
+to the treatment item on the list experiment in order to
+
+allow for a direct comparison of the different items.”
+
+Follow-up questions asked those who responded affir-
+matively to either of the direct questions about which
+parties engaged in the distribution of gifts, the kinds of
+material incentives dispensed, and whether the gifts had
+an influence on their vote.
+
+To test existing predictions about party targeting, we
+collected information about the respondent’s socioeco-
+nomic status (i.e., income, education, gender, age, and
+area of residency; e.g., Calvo and Murillo 2004; Kitschelt
+and Wilkinson 2007),”? partisanship (e.g., Cox and Mc-
+Cubbins 1986; Dixit and Londregan 1996; Nichter 2008;
+Stokes 2005), beliefs about party monitoring of vote
+choice (e.g., Stokes 2005), and proximity to institutions
+that may facilitate the distribution of goods or alter per-
+ceptions of monitoring capacities.
+
+These last two sets of items require some additional
+elaboration, as they have generally not been subject to
+empirical testing, even though they are important in
+theoretical models. Vote buying is characterized by a
+
+?8 Readers may wonder whether the wording “gifts or favors” ad-
+equately captures the type of exchanges that interest vote buying
+researchers. Follow-up questions to the direct neighborhood and
+individual questions in our Nicaragua survey mitigate this con-
+cern. When asked about the specific gifts or favors given away in
+their neighborhood, respondents indicate that furniture, animals,
+food, tools, and construction material constitute 77% of the items
+delivered, 6% reported parties handing out money, and a miscella-
+neous group of gifts represents another 5%. Only 12% of the gifts
+reported could be associated with common campaign giveaways,
+such as clothing (hats and T-shirts) and souvenirs (banners and
+backpacks). The proportions remain similar when respondents are
+asked if they personally received gifts or favors. These data indicate
+that (a) parties deliver a broad variety of goods targeting particular
+needs and (b) our question wording has high measurement validity.
+Furthermore, if social desirability bias is deflating estimates from
+the direct measures, it is unlikely that those providing misleading
+answers do so to cover up the receipt of relatively benign campaign
+giveaways. Thus, the list experiment should help to eliminate the
+reporting of gifts not usually associated with vote buying.
+
+» Income is measured using dummy variables so that respondents
+for whom we have missing income data (7% of the sample) are not
+excluded from the analysis and to avoid imposing linearity. “Very
+poor” indicates that the respondent makes less than $100 USD per
+month (approximately less than C$3,000 Cordoba Oros). “Poor”
+signifies that the respondent’s income is between $100 and $200
+USD per month (between C$3,001 and C$4,250). “Middle/upper”
+indicates that the respondent makes more than $200 USD (more
+than C$4,251) per month. Education is operationalized as a four-
+point ordinal variable, ranging from 0 (less than primary education
+completed) to 3 (postsecondary education). Gender is a dichoto-
+mous variable taking the value of 1 if the respondent is a female.
+Age is coded as a three-value ordinal variable for people between 18
+and 29 years old, between 30 and 49, and older than 50. Residency
+is coded as a dummy variable taking the value of 1 if the respondent
+lives in an urban area and 0 if the respondent lives in a rural area.
+
+209
+
+commitment problem requiring the development of a
+deeply penetrating political machine to monitor com-
+pliance (Kitschelt 2000; Stokes 2005). That said, there is
+some disagreement on the importance of monitoring in
+the politics of vote buying. Nichter (2008) argues that
+given the existence of the secret ballot and the ensuing
+impossibility of reliable monitoring, parties target their
+own supporters in an effort to get out the vote, as op-
+posed to buying off indifferent or opposition voters. Some
+scholars go as far as to suggest that it is this inability to
+solve the commitment problem that makes vote buying
+a very ineffective form of electioneering and therefore a
+rare phenomenon (e.g., Lehoucg 2007). Only by com-
+bining a reliable measurement of the aggregate levels of
+vote buying with an appropriate operationalization of
+monitoring can these rival explanations be adjudicated.
+Although the ethnographic literature has described the
+workings of effective monitoring machines (e.g., Auyero
+2001) and formal models have incorporated monitor-
+ing as an important parameter (e.g., Stokes 2005), the
+survey-based quantitative literature has not consistently
+measured monitoring.
+
+The item on party monitoring asked whether respon-
+dents believed that the government or parties could find
+out how people in their community voted. Whether re-
+spondents had received social welfare benefits was asked,
+with the intuition that being in the government’s records
+increases the probability of both harassment and mon-
+itoring.*° We also asked whether their neighborhood
+had received investments in public works in the last six
+months, with the expectation that those areas where the
+state’s presence is higher or where the incumbent party
+invests more resources may be more susceptible to clien-
+telistic practices. Finally, we inquired about the frequency
+of involvement in CPCs. Participation in these local de-
+liberative bodies could raise the visibility of participants
+in the eyes of the clientelistic machine and increase the
+latter’s ability to monitor the voting behavior of these
+individuals, making them likely targets of vote buying.
+
+Results from the List Experiment
+
+The first step in the analysis is to estimate the number
+of people reporting the receipt of a gift or favor through
+the list experiment.*! The first column of Table 2 reports
+
+3° Depending on how welfare policies are distributed, they can also
+be used as a form of vote buying by parties. In our pilot testing
+and responses to the survey, no respondents mentioned welfare
+programs under the term “vote buying.”
+
+3! The balance between treatment and control groups across rel-
+evant demographic variables suggests that the randomization
+
+Hol Aoppuico korn Kseaqurauyuoyrsdny woss papeovumog ‘|Z 10Z ‘LO6SOPSI
+
+ 
+
+asuaor] suOWIUIOD aguas a[quouidde ayy Kq pausono8 axe sajouuE WO fasn Jo Sama 40} Kaeaqe] aUL[U aft Wo (suONIPUCD-puE-suUDIAUOD’Ka[UMaesqu{aut[uoyesdiy) SHORE puE SHAY, 2H 29 TZZOZ/I H/C] YO Kacsqey] aUYUO KLM ‘WeUETEN RAwIOg 7 s9UMOA BIEL IO Aussoawan £q XOHSOO' | 1OZLO6S-OFS ITY
+210
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+TABLE 2 Vote Buying, Direct and Unobtrusive Measures
+
+ 
+
+Direct Items
+
+ 
+
+ 
+
+List Experiment Individual Gifts Neighborhood Gifts
+Control 2.06 [495]
+Treatment 2.31[500]
+
+Estimated % receiving gifts 24.34% (5.53)
+N 995
+
+2.39%*** (0.58) 17.84% (1.80)
+1003 998
+
+ 
+
+Notes: List-experiment control and treatment values are the mean number of items identified by respondents. The numbers of subjects in
+each condition are in brackets. Linearized standard errors adjusted for the survey design are in parentheses.
+
+atakok
+
+p < .01 for difference between list-experiment proportion and the direct individual proportion. The difference between the list and
+
+neighborhood proportions is not statistically significant. Tests are two-tailed difference of proportions tests.
+
+the results of the list experiment. The mean number of
+electoral activities reported by respondents in the control
+group with only four options is 2.06, while the mean in
+the treatment group where subjects had the added choice
+of “receiving a gift or favor” is 2.31. Random assign-
+ment ensures that the difference is due to respondents
+reporting vote buying. Thus, the estimated percentage of
+respondents receiving gifts during the election accord-
+ing to the list experiment is 24% (s.e. = 5.5 percentage
+points).°?
+
+This number is not only statistically significant, but
+also very different than when asking respondents about
+vote buying directly. Only 2.4% of respondents (s.e. =
+0.6 percentage points) admitted receiving a gift or fa-
+vor personally (Table 2, column 2). The nearly 20-point
+difference is a different order of magnitude altogether
+(unsurprisingly, the difference between the two estimates
+is highly significant). The list experiment depicts vote
+buying to be pervasive, while the direct survey measure
+used in most quantitative studies suggests the practice is
+rare.*> The aggregate results are somewhat better when
+relying on the neighborhood vote-buying item, which in-
+dicates that 17.7% of respondents (s.e. = 1.8 percent-
+age points) answered in the affirmative. The 6.7 per-
+centage point difference between the list experiment and
+the neighborhood question is not statistically significant
+(p = 0.263).
+
+procedure worked properly. See Appendix A in the online sup-
+porting information.
+
+*» For the entire analysis, standard errors are adjusted for the survey
+design.
+
+*? Even though the list experiment preceded the direct questions,
+there is little evidence to support the hypothesis that the question
+order in the survey instrument affected responses. Those respon-
+dents assigned to the treatment list were no more or less likely
+to report individual vote buying and only marginally more likely
+to indicate neighborhood vote buying (neither difference reaches
+conventional levels of statistical significance).
+
+Examining the list experiment by important sub-
+groups makes it possible to construct a map of which
+types of people parties target for vote buying. The pre-
+cision of the list experiment depends on the number of
+subjects in a particular cell (see Table 3, column 3 for
+the proportion of the overall sample in each category),
+so the uncertainty surrounding each subgroup is large,
+but it is striking how few differences there are across
+subgroups on key variables (see Table 3, column 4). Inde-
+pendents and members of both parties all received gifts
+(none of the estimates are significantly different from
+each other), offering little support for Nichter’s (2008)
+argument that machines mainly target core supporters
+in an effort to buy turnout. The patterns observed could
+be evidence that both parties attempt to buy off oppo-
+sition and independent voters, thus supporting Stokes’s
+(2005) theory. Alternatively, since our fieldwork obser-
+vation in Nicaragua revealed that two clientelistic ma-
+chines are competing against each other for votes, parties
+might engage in gift dispensation to both safeguard their
+core constituency and lure weakly opposed or indepen-
+dent voters, giving rise to more widespread patterns of
+distribution.
+
+Contrary to expectations from the broader clien-
+telism literature (e.g., Calvo and Murillo 2004; Kitschelt
+and Wilkinson 2007), there was no evidence of a neg-
+ative linear relationship between respondents’ socioeco-
+nomic status and goods dispensation (e.g., welfare, in-
+come, and education). This null finding suggests that
+either Nicaragua is an exception or vote buying is prac-
+ticed differently in municipal elections than in relatively
+high-turnout national elections. Alternatively, it could be
+suggested that the population is sufficiently poor that
+gifts or favors would still remain appealing to those with
+comparatively higher levels of income. The percent of re-
+spondents reporting vote buying among the poorest (less
+than $100 USD per month) and the marginally better off
+($100 to $200 USD per month) is very similar. Although
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+ 
+
+ 
+
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS 211
+TABLE 3 Reports of Vote Buying in Important Subpopulations
+Proportion of List-Experiment —_ Individual Neighborhood
+Subgroup the Sample Estimate Estimate Estimate
+Political Voted 63.4% 22.9% (8.9)** 2.7% (0.8) 20.0% (2.1)
+Abstained 36.6% 27.5% (10.7)** 1.9% (0.8)17 14.0% (2.1)
+Support FSLN 40.1% 20.9%(10.8)* 4.5% (1.2) 18.2% (2.7)
+Support PLC 20.8% 32.6%(15.6)** 1.0% (0.7)77 24.8% (3.4)
+Independents 37.6% 26.2%(10.2)** 1.1% (0.6)77 13.1% (2.1)
+Welfare and Public Works Welfare 7.5% 10.0% (27.9) 18.9% (5.2) 27.0% (5.2)
+No welfare 92.5% 24.7%(5.8)*** 1.1% (0.4)*T 17.1% (1.8)
+Public works 40.8% 22.0% (9.4)** 4.2% (1.1) 24.4% (2.8)
+No public works 59.2% 24.6%(8.3)*** 1.2% (0.6)*t 13.6% (1.8)
+Citizen Power Councils Ever attended 18.3% 48.3% (16.5)"** 4.9% (1.8)tTT 19.8% (3.8)9
+Never attended 81.7% 19.0%(7.0)*** 1.8% (0.6)77 17.4% (1.8)
+Monitor Can monitor 35.7% 49.2%(11.4)*** 1.4% (0.6) ‘tt 19.8% (2.7)98
+Cannot monitor 55.2% 6.3% (8.5) 2.9% (0.8) 16.0% (2.2)
+Don’t know 9.1% 40.2%(21.1)* 3.3% (1.8)1 20.9% (4.4)
+Income Very Poor 20.8% 23.1%(15.4) 4.3% (1.4) 16.3% (3.0)
+Poor 46.0% 26.3%(10.2)** 2.4% (0.7)17 17.2% (2.5)
+Middle/Upper 26.2% 14.2%(14.0) 1.5% (0.9) 22.2% (3.1)
+Income No Answer 6.9% 52.1%(25.4)** 0.0% (0.0)17 10.0% (3.9)
+Education No education 9.5% 16.1% (18.0) 3.1% (1.7) 15.1% (4.7)
+Primary 34.0% 20.9%(10.8)* 3.5% (1.1) 15.8% (2.3)
+Secondary 42.2% 26.7% (10.1)** 1.4% (0.6)17 20.0% (2.5)
+University 14.3% 37.4%(19.3)* 2.1% (1.2)7 18.1% (4.2)
+Age 18-29 36.1% 7.1%(10.1) 3.3% (1.2) 20.3% (3.3)
+30-49 38.8% 29.7%(10.8)"** 1.5% (0.6)1T 17.2% (2.3)
+50 or more 25.1% 41.3%(13.1)"** 2.4% (0.9)1T 15.3% (2.3)9
+Gender Female 50.5% 33.2% (10.5)"** 2.2% (0.7) tT 15.5% (2.1)9
+Male 49.5% 15.3%(9.0)* 2.6% (0.7) 20.2% (2.1)
+Zone Rural 36.9% 25.5% (8.0)*** 3.0% (1.0) tT 18.9% (3.3)
+Urban 63.1% 23.6% (7.5)*** 2.1% (0.7) tT 17.2% (2.1)
+
+ 
+
+Notes: Linearized standard errors are in parentheses and are adjusted for the survey design.
+* Denotes the statistical significance of the estimated difference between treatment and control groups according to the list experiment
+
+(*p < 0.1, **p < 0.05, ***p < 0.01).
+
+} Denotes the statistical significance of the difference between the estimated proportion of vote buying according to the list experiment
+and the proportion of respondents directly reporting individual gifts (} p<0.1, tf p<0.05, t/t p <0.01).
+
+§ Denotes the statistical significance of the difference between the estimated proportion of vote buying according to the list experiment
+and the proportion of respondents directly reporting vote buying in their neighborhood (§ p<0.1, §§ p<0.05).
+
+the point estimate for the wealthiest income group (more
+than $200 USD per month) hints of some drop-off at
+higher levels of income, the size of the standard errors for
+the income subgroups suggests that there is no statistical
+difference between the three groups.*4
+
+** Changing the coding of the income categories (i.e., middle or
+upper class) does not change this conclusion. Point estimates for
+more restricted ranges of people at the top of the income distribu-
+tion do not suggest that higher-income respondents are less likely
+to receive gifts or favors from parties. A final interpretation for the
+surprising result that vote buying is not more prevalent among the
+
+Two differences between subgroups are statistically
+significant and worthy of note. First, people who believe
+ballots are secret are very unlikely to report vote buying
+(6% with s.e. = 8.5 percentage points), while nearly half
+
+poorest citizens is that the very poor are located in areas that are
+difficult to reach. As a result, parties choose to target more geo-
+graphically proximate voters in the urban working class sectors,
+who in a country like Nicaragua are still sufficiently poor in abso-
+lute terms so as to make their votes relatively cheap. However, we
+do not find strong evidence that vote buying is less prevalent in
+rural areas. We are indebted to Ana de la O for pointing out this
+interpretation.
+
+asu20r] suOWIUIO aguas aiquouidde aq Kq pausaRo8 axe sapouuE WO f9sn Jo sams 40} Keaqe] aUL{UG Ka[LA Uo (suOgIUOD-puE-suNDIAUOD’Ka[LMKresqu(aut[uoyesdiY) sHOUKDUDD pUE SUMAY, 2H 2G TZZOZI ICE] HO Kresge] UYU K2LLM “WEUETENY ATO 7% SUMO A BIEL IO AUUSHOALUT] £q XOHSOO' I 1OZ'LOGS-OPS ILI N01 AORPUOD Ka [Em Kaeaquauruoyrsduy wsosy PapeO[UMOK *] ‘Z10Z ‘LO6COPSI
+212
+
+of those respondents with doubts about the secrecy of the
+ballot report vote buying (s.e. = 9.6 percentage points).
+The second notable difference is that respondents who
+ever attended CPC meetings were far more likely (48%) to
+report vote buying than those who never attended (19%).
+This difference confirms our observation that the CPCs
+play an important role in the distribution of clientelistic
+goods. CPC meetings could be used to transfer goods,
+but the mechanism could also be persuading individuals
+that the party can monitor ballots.*° These findings pro-
+vide the first systematic piece of evidence in support of
+scholars who hypothesize that parties either pinpoint peo-
+ple who think monitoring is possible or convince targeted
+individuals of the party’s ability to monitor the vote. Thus,
+parties can solve the commitment dilemma inherent to
+vote-buying exchanges during electoral processes that are
+secret without the use of widespread coercive practices
+(Auyero 2001; Levitsky 2003; Stokes 2005). In the pres-
+ence of well-articulated clientelistic machines, theories
+of vote-buying dynamics should not rule out the ability
+of parties to monitor or credibly threaten noncompliant
+voters (cf. Nichter 2008).
+
+Analyzing the subgroups using the two obtrusive
+measures (individual and neighborhood levels) highlights
+the degree to which direct measures can understate the
+incidence of vote buying. In nearly every category the
+individual-level question estimates only a small fraction
+of the clientelistic exchanges detected by the list experi-
+ment (see Table 3, column 5).
+
+The neighborhood measure fares a little better in
+terms of the relative magnitudes of the proportions but
+consistently produces estimates below those generated
+by the list experiment (Table 3, column 6), suggest-
+ing that Brusco, Nazareno, and Stokes’s (2004) rough
+guess that the true level of vote buying may fall into
+the range bounded by the individual and neighborhood
+items may still understate levels of vote buying, at least
+in the Nicaraguan context. One may be tempted to con-
+clude that asking about vote buying in neighborhoods is
+a viable alternative for overcoming social desirability bias
+than the question focused on the individual. However,
+not only are there validity questions associated with using
+the neighborhood item as a proxy, but the neighborhood
+
+35 CPCs play a strategic role in monitoring political loyalty. Ac-
+cording to Anderson and Dodd (2009), CPCs are parallel local
+institutions created and financed by Ortega, and overseen by his
+wife, that try to undermine the independence of local governments
+by delivering goods and services conditioned on political support
+for the president. Scholars have warned that the government uses
+these organizations politically and that under the pretext of fight-
+ing poverty, the Sandinista administration is creating a “captive
+electorate,” jeopardizing citizen autonomy by means of political
+monitoring (e.g., Marti I Puig 2009).
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+question also fails to detect differences between subgroups
+suggested by the list experiment. The difference in CPC
+meeting attendance, certainty about ballot secrecy, and
+the positive age association are not present when using
+the neighborhood question. Thus, it is not clear that ask-
+ing about vote buying in neighborhoods yields superior
+estimates to the individual-level question.*©
+
+The Reliability of Models Using
+Traditional Obtrusive Measures
+
+If measurement error in the individual and neighbor-
+hood vote-buying measures is truly random, then only
+the estimates of the average rate of vote buying will be
+biased and researchers can successfully model whom par-
+ties target for gifts and favors. The deviations from the list
+experiment in Tables 2 and 3 suggest the measurement
+error is probably correlated with important observed and
+unobserved causes of clientelistic relationships. To eval-
+uate this claim more rigorously, we conducted multivari-
+ate models predicting vote buying using the individual,
+neighborhood, and list-experiment measures as depen-
+dent variables (Table 4). Since the individual and neigh-
+borhood items are binary, Models 1-4 are logistic regres-
+sions. In order to generate comparable estimates with
+the list experiment, ordinary least squares regressions
+were estimated using the list-experiment counts as the
+dependent variable (Models 5 and 6).°” In addition to the
+independent variables included in the other models, in
+Models 5 and 6 we included a dummy variable indicating
+the list-experiment condition along with interactions be-
+tween the list-experiment condition and all the indepen-
+dent variables. These interactions test the magnitude of
+
+6 The validity of the neighborhood measure is further called
+into question when direct individual-level vote buying and list-
+experiment estimates are tabulated by responses to the neighbor-
+hood question. Nearly every individual reporting that she received
+a gift or favor also reported vote buying in the neighborhood (only
+0.5% did not). However, among people reporting vote buying in
+the neighborhood, only 53% received a gift themselves according
+to the list experiment. That is, many of these people were reporting
+on the behavior of neighbors and not themselves. Among those
+people claiming that vote buying did not occur in their neighbor-
+hood, nearly 18% received a gift from a party. Further, responses
+to the neighborhood-level question provide direct evidence that
+respondents sought to strategically implicate the opposing party in
+vote buying. PLC sympathizers overwhelmingly (85%) pointed to
+the FSLN as the party giving out gifts in their neighborhood, while
+only 11% of FSLN sympathizers pointed toward the PLC.
+
+7 Results are virtually identical when using count models (poisson
+and negative binomial regressions). For ease of interpretation, OLS
+estimates are reported.
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+ 
+
+ 
+
+ 
+
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS 213
+TABLE 4 Comparing Vote-Buying Models Using Direct Measures and the List Experiment
+Individual Neighborhood List Experiment
+Model 1 Model 2 Model 3 Model 4 Model 5 Model 6
+Supporter of FSLN (0-1) 1.398** 0.935 0.328 0.187 —0.012 —0.053
+(0.64) (0.734) (0.216) (0.222) (0.166) (0.173)
+Supporter of PLC (0-1) —0.144 —0.303 0.750*** 0.746*** 0.065 0.018
+(0.925) (1.04) (0.243) (0.254) (0.191) (0.204)
+Very Poor (0-1) 1.174 1.215* 0.479 0.483 —0.259 —0.214
+(0.737) (0.711) (0.49) (0.518) (0.342) (0.331)
+Poor (0-1) 0.702 1.043 0.511 0.584 —0.275 —0.174
+(0.691) (0.656) (0.467) (0.49) (0.306) (0.288)
+Middle/Upper Income (0-1) 0.791 0.862* —0.393 —0.205
+(0.478) (0.509) (0.299) (0.288)
+Education (0-3) —0.327 —0.51 0.041 0.049 0.152* 0.181*
+(0.354) (0.414) (0.137) (0.13) (0.087) (0.092)
+Age (1-3) —0.366 —0.432 —0.151 —0.136 0.208** 0.250**
+(0.395) (0.432) (0.135) (0.139) (0.103) (0.108)
+Female (0-1) —0.304 —0.723 —0.317* —0.349** 0.177 0.176
+(0.361) (0.435) (0.162) (0.166) (0.165) (0.163)
+Monitor (yes or DK, 0-1) —0.578 0.303 0.323**
+(0.467) (0.209) (0.143)
+Welfare (0-1) 2.917*** 0.402 —0.051
+(0.444) (0.316) (0.306)
+Public Works (0-1) 0.562 0.677*** —0.036
+(0.558) (0.2) (0.135)
+Citizen Power Council (0-1) 0.621 0.107 0.287
+(0.459) (0.232) (0.197)
+Urban (0-1) 0.656 —0.158 —0.187
+(0.609) (0.248) (0.129)
+Constant —3.861** —4.5817** —2.033*** —2.459*** 1.687*** 1.760***
+(1.497) (1.648) (0.611) (0.667) (0.318) (0.325)
+N 1003 993 998 989 995 986
+Pseudo/Adjusted R? 0.086 0.281 0.025 0.051 0.043 0.069
+
+ 
+
+Notes: *p < 0.1, **p < 0.05, ***p < 0.01.
+
+Models 1— are logistic regressions. For income, “no answer/refused” is the excluded category, except for Models 1-2, which also ex-
+clude the middle/upper-income group, since zero respondents who refused the income item admitted to vote buying at the individual
+level, thereby necessitating the exclusion of two categories for estimation purposes. Models 5-6 are OLS regressions with the list-
+experiment count as the dependent variable. For ease of interpretation, all coefficients for Models 5-6 are interactions between the
+independent variable and the list-experiment condition (the treatment), since these provide the most comparable estimates. The coef-
+ficients for the main independent variables, which predict the number of other items on the list, are omitted but are available upon
+
+request.
+
+adding the vote-buying item to the list for each indepen-
+dent variable; that is, the coefficients for these variables
+can be interpreted as comparable to the independent vari-
+ables in Models 1-4 (Coutts and Jann forthcoming, 23;
+Holbrook and Krosnick 2010, 53-55). For ease of com-
+parison, only the interacted independent variables are dis-
+
+played, while the noninteracted independent variables are
+omitted.°®
+
+38 These latter variables predict the mean number of list items aside
+from the vote-buying item, so these coefficients are less central
+to the analysis. A common misconception is that list-experiment
+
+asu20r] suOWIUIO aguas aiquouidde aq Kq pausaRo8 axe sapouuE WO f9sn Jo sams 40} Keaqe] aUL{UG Ka[LA Uo (suOgIUOD-puE-suNDIAUOD’Ka[LMKresqu(aut[uoyesdiY) sHOUKDUDD pUE SUMAY, 2H 2G TZZOZI ICE] HO Kresge] UYU K2LLM “WEUETENY ATO 7% SUMO A BIEL IO AUUSHOALUT] £q XOHSOO' I 1OZ'LOGS-OPS ILI N01 AORPUOD Ka [Em Kaeaquauruoyrsduy wsosy PapeO[UMOK *] ‘Z10Z ‘LO6COPSI
+214
+
+Models 1, 3, and 5 use basic explanatory variables of
+vote buying, similar to the models used in Stokes (2005).
+Models 2, 4, and 6 use a more complete set of covari-
+ates the literature suggests should matter.*? The results
+from Model 1 strongly suggest that vote buying is rare
+but primarily targets FSLN supporters. Adding the con-
+trols in Model 2 muddies the picture somewhat, but the
+reduced point estimates and increased standard errors are
+probably due to collinearity between support for FSLN,
+poverty, participation in welfare programs, and attend-
+ing CPC meetings. The ultimate conclusion reached us-
+ing the individual-level measure of vote buying would
+be that vote buying primarily targets poor Sandinista
+sympathizers.
+
+Shifting to the neighborhood measure of clientelis-
+tic behavior in Model 3 almost directly contradicts the
+individual-level regression in Model 1 since PLC sup-
+porters are more likely to report vote-buying activity. It
+also appears that wealthier neighborhoods and males are
+marginally more likely to be targeted by vote-buying cam-
+paigns, whereas the individual-level model hinted that
+poorer people received gifts or favors in exchange for
+votes. Adding the covariates in Model 4 does little to
+change the point estimates from Model 3, and in contrast
+to Model 2, the public works dummy is now highly sig-
+nificant, and the welfare coefficient is much smaller and
+not significant.
+
+Not only do the individual and neighborhood models
+lead to contradictory results, but the models using list-
+experiment data also paint a very different picture of the
+dispensation of gifts in Nicaragua. In contrast to the direct
+models, both Models 5 and 6 suggest that gifts are given to
+all types of partisans and that income is not very predictive
+of the receipt of gifts. Furthermore, both Models 5 and 6
+point toward age as an important positive factor in vote
+buying, while the direct models produced nonsignificant
+negative coefficients. Finally, education generates a posi-
+
+estimates cannot be used in multivariate analyses, since the re-
+searcher does not know which particular individuals respond to
+which items on the list (e.g., Kuklinski et al. 1997). While it is
+true that researchers cannot make such individual-level inferences,
+subgroup-level inferences with controls are possible. Thus, the in-
+teraction coefficients in Table 4 represent the group-level averages
+(similar to Table 2) while at the same time controlling for the
+overlap among groups.
+
+°° Tn order to avoid dropping respondents who refused to an-
+swer the income question since such respondents are also likely
+to edit their answers regarding the sensitive vote-buying items (see
+Table 3), income dummy variables are included. In Models 3-6,
+those who refused to answer the income question serve as the
+excluded baseline category, while in Models 1-2 the middle/upper-
+income dummy was also excluded, since zero respondents who re-
+fused the income item indicated personally receiving a gift, thereby
+complicating estimation.
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+tive coefficient that is marginally significant in Models 5
+and 6, which contrasts with the negative coefficients in
+Models 1 and 2 and positive coefficients in Model 4 (none
+significant). While this marginally significant result is un-
+expected, it may reflect the fact that, controlling for other
+factors, the more educated are more likely to be involved
+in politics and therefore more likely to be exposed to po-
+litical tactics such as vote buying. The difference between
+the list experiment and direct question could be due to
+increased sensitivity to social desirability pressures with
+regard to elections by the more educated.”
+
+Theoretically, one of the most important findings in
+Model 6 is that doubt about the secrecy of the ballot is a
+very strong predictor of vote buying; on average over 32%
+of those who think that their vote can be monitored or ex-
+press doubts about ballot secrecy received a gift or favor.
+In stark contrast, the direct models produced nonsignifi-
+cant results, with Model 2 producing a negative coefficient
+and Model 4a positive coefficient for the monitor variable.
+Although the coefficient for the CPC attendance variable
+is substantively large and consistent with field research,
+its collinearity with several other variables in the model
+probably accounts for its lack of statistical significance in
+Model 6. While both Models 2 and 4 produce similarly
+positive nonsignificant results for the CPC variable, only
+in the individual-level model is the coefficient substan-
+tively large (0.6 logits versus 0.1 logits).
+
+Consequently, researchers should be very cautious
+when constructing models relying on obtrusive measures
+of vote buying. Not only do the models underestimate
+the extent to which vote buying occurs, but also the re-
+sults are highly dependent on model specification. Signs
+flipped for important variables such as party affiliation,
+income, and whether voters think they can be moni-
+tored. The models using direct measures also failed to
+uncover factors that the list experiment, theory, and field-
+work suggest are important. Thus, the measurement error
+from social desirability bias in obtrusive measures of vote
+buying does not appear to be purely random and biases
+results.
+
+Discussion
+
+This article has shown that list experiments offer a
+technique that solves some bias issues by offering
+
+“© An alternative explanation is that more educated respondents feel
+they should report greater amounts of political participation, so it is
+possible that the list experiment is biased for educated respondents.
+The existing literature on list experiments provides no evidence for
+this thesis, but it is possible.
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+respondents a high degree of anonymity when answering
+questions about vote buying. However, the list experi-
+ment is unlikely to purge all social desirability bias from
+responses and the point estimate is likely to constitute a
+lower bound. Vote buying may be such a sensitive topic
+that some respondents may be reluctant to “tell the truth”
+even when provided a forum where it is literally impossi-
+ble to determine which individuals report vote buying.*!
+This greater sensitivity to stigma is likely to exist in con-
+texts where social sanctions, political violence, or legal
+punishment are possible outcomes from admissions of
+vote buying.
+
+This inability to identify particular persons admit-
+ting to stigmatized behaviors does not prevent researchers
+from conducting subgroup analysis, even using multi-
+variate techniques. Within each subgroup, respondents
+are randomly assigned to treatment and control lists, so
+researchers can understand the average response from cat-
+egories of people. Such estimation techniques will be sta-
+tistically inefficient, but they will have lessened social de-
+sirability bias and allow researchers to map the contours of
+vote buying. The greater efficiency gained by using direct
+questions about individual- and neighborhood-level vote
+buying comes at the cost of underestimating aggregate-
+level gift dispensation and possibly misleading inferences
+concerning the targeting of such goods and favors. This
+bias-efficiency trade-off suggests that researchers desir-
+ing accurate models of whom campaigns target with vote
+buying should ideally conduct list experiments on very
+large samples.
+
+Nicaragua is the second poorest country in Latin
+America and political parties across the ideological
+spectrum have recently demonstrated high levels of
+vote-buying activities. Given these characteristics, we are
+confident that the extent of vote buying is clearly under-
+estimated by direct measures and that the list experiment
+provides a more accurate assessment at the aggregate level.
+However, our results should not be taken to imply that
+vote buying is ubiquitous in Latin America. Low reported
+levels of vote buying using traditional surveys may reflect
+a genuine lack of illicit campaign activity. Our point is
+that social desirability bias is an alternative explanation
+that is not easily dismissed.
+
+In order to gain greater confidence in the external
+validity of the results yielded by the list experiment in
+Nicaragua, more explicit comparative research using list
+experiments is necessary in the developing world. One
+line of future research is to identify the conditions that
+
+4! The exceptions to this rule are respondents who report the highest
+possible value in the treatment condition. For this reason, low-
+incidence categories should be included in the control list.
+
+215
+
+increase or decrease the impact of social desirability bias.
+Our article shows that the difference in reporting between
+obtrusive and unobtrusive measures of vote buying is sta-
+tistically significant among females, older voters, better-
+educated individuals, those living in rural and urban ar-
+eas, and middle-income voters. This evidence suggests
+that poorer voters may be more inclined to regard vote
+buying as “politics as usual,” as an inherent part of their
+social and political problem-solving networks (Auyero
+2001). As a result, the poor may be less inclined to lie
+about receiving gifts or favors during campaigns. The na-
+ture and shape of the stigma associated with vote buying
+is a topic worth understanding in greater depth since it
+will help to guide attempts to curb the practice.
+
+Our research uncovered two key mechanisms for
+vote-buying linkages in the Nicaraguan context: (1) vot-
+ers’ perception that parties can monitor their vote and
+(2) voters’ participation or proximity to state-sponsored
+community organizations like the CPCs. The latter mech-
+anism could be a subtype of the first one since these in-
+stitutionalized interactions between voters and the state
+via the councils can offer politicians an infrastructure
+of surveillance different from that offered by partisan
+electoral machines. The literature relying on quantita-
+tive analyses of survey data has more often than not in-
+corporated successful monitoring efforts in the formal
+models that inspire that research, but it has rarely tested
+these assumptions systematically. In this article, we of-
+fer systematic evidence that shows that these theoretical
+intuitions are correct and should be at the forefront of
+future research on vote buying in Latin America and else-
+where.
+
+References
+
+Anderson, L. E., and L. C. Dodd. 2005. Learning Democ-
+racy: Citizen Engagement and Electoral Choice in Nicaragua,
+1990-2001. Chicago: University of Chicago Press
+
+Anderson, L. E., and L. C. Dodd. 2009. “Nicaragua: Progress
+amid Regress?” Journal of Democracy 20(3): 153-67. Article
+174. Nicaraguan Electoral Law. www.cse.gob.ni (March 17,
+2010).
+
+Auyero, J. 2001. Poor People’s Politics: Peronist Survival Networks
+and the Legacy of Evita. Durham, NC: Duke University Press.
+
+Avendario, F. 2006. Manual de Participaci6n Ciudadana. Man-
+agua: Fundacion Konrad Adenauer.
+
+Bachman, J., and P. O’Malley. 1981. “When Four Months Equal
+a Year: Inconsistencies in Student Reports of Drug Use.”
+Public Opinion Quarterly 45: 536-48.
+
+Berinsky, A. 1999. “The Two Faces of Public Opinion.” Ameri-
+can Journal of Political Science 43(4): 1209-30.
+
+Booth, J., and P. Richard. 2006. “Revolution’s Legacy: Resid-
+ual Effects on Nicaraguan Participation and Attitudes in
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+216
+
+Comparative Context.” Latin American Politics and Society
+48(2): 117-40.
+
+Bradburn, N., S. Sudman, E. Blair, and C. Stocking. 1978.
+“Question Threat and Response Bias.” Public Opinion Quar-
+terly 42(2): 221-34.
+
+Brusco, V., M. Nazareno, and S. Stokes. 2004. “Vote Buying in
+Argentina.” Latin American Research Review 39(2): 66-88.
+
+Calvo, E., and M. V. Murillo. 2004. “Who Delivers? Partisan
+Clients in the Argentine Electoral Market.” American Journal
+of Political Science 48(4): 742-57.
+
+Consejo Supremo Electoral. 2010. www.cse.gob.ni. (March 17).
+
+Coutts, E., and B. Jann. Forthcoming. “Sensitive Questions in
+Online Surveys: Experimental Results for the Randomized
+Response Technique (RRT) and the Unmatched Count Tech-
+nique (UCT).” Sociological Methods & Research.
+
+Cox, G., and M. McCubbins. 1986. “Electoral Politics as
+a Redistributive Game.” Journal of Politics 48(2): 370-
+89.
+
+DeMaio, T. 1984. “Social Desirability and Survey Measure-
+ment: A Review.” In Surveying Subjective Phenomenon, ed.
+C. Turner and E. Martin. Thousand Oaks, CA: Sage, 257—
+82.
+
+Dixit, A., and J. Londregan. 1996. “The Determinants of Suc-
+cess of Special Interests in Redistributive Politics.” Journal of
+Politics 58(4): 1132-55.
+
+Dye, D., and D. Close. 2004. “Patrimonialism and Economic
+Policy in the Aleman Administration.” In Undoing Democ-
+racy: The Politics of Electoral Caudillismo, ed. D. Close
+and K. Deonandan. Lanham, MA: Lexington Books, 119-
+4l.
+
+Greene, Samuel R. 2010. “Learning the Wrong Lessons
+about Nicaraguan Democracy: A Response to Ander-
+son and Dodd.” Journal of Democracy (web-only). http:
+/fwww.journalofdemocracy.org/.
+
+Guzman, L., and A. Pinto. 2008. Democracia y Partidos en
+Nicaragua. Managua: Netherlands Institute for Multiparty
+Democracy.
+
+Holbrook, A. L., and J. A. Krosnick. 2010. “Social Desirability
+Bias in Voter Turnout Reports: Tests Using the Item Count
+Technique.” Public Opinion Quarterly 74(1): 37-67.
+
+Huntington, Samuel P. 1968. Political Order in Changing Soci-
+eties. New Haven, CT: Yale University Press.
+
+Johnson, T., and F. Van deVijver. 2003. “Social Desirability Bias
+in Cross-Cultural Research.” In Cross-Cultural Survey Meth-
+ods, ed. J. Harkness, FE Van deVijver, and P. Mohler. Hoboken,
+NJ: John Wiley & Sons, 195-204.
+
+Kane, J., S. Craig, and K. Wald. 2004. “Religion and Presiden-
+tial Politics in Florida: A List Experiment.” Social Science
+Quarterly 85(2): 281-93.
+
+King, G., R. Keohane, and S. Verba. 1994. Designing Social In-
+quiry. Princeton, NJ: Princeton University Press.
+
+Kitschelt, H. 2000. “Linkages between Citizens and Politicians in
+Democratic Politics.” Comparative Political Studies 33 (6-7):
+845-79.
+
+Kitschelt, H., and S. Wilkinson, eds. 2007. “Citizen-Politician
+Linkages: An Introduction.” In Patrons, Clients, and Policies:
+Patterns of Democratic Accountability and Political Competi-
+tion. Cambridge: Cambridge University Press, 1-49.
+
+EZEQUIEL GONZALEZ-OCANTOS ET AL.
+
+Kuklinski, J.. M. Cobb, and M. Gilens. 1997. “Racial Atti-
+tudes and the ‘New South.” Journal of Politics 59(2): 323—
+49.
+
+Kuklinski, J., P. Sniderman, K. Knight, T. Piazza, P. Tetlock,
+G. Lawrence, and B. Mellers. 1997. “Racial Prejudice and
+Attitudes toward Affirmative Action.” American Journal of
+Political Science 41(2): 402-19.
+
+Lehoucq, E. 2007. “When Does a Market for Votes Emerge?”
+In Elections for Sale: The Causes and Consequences of Vote
+Buying, ed. Frederic Charles Schaffer. Boulder, CO: Lynne
+Rienner, 33-46.
+
+Levitsky, S. 2003. Transforming Labor Based Parties in Latin
+America: Argentine Peronism in Comparative Perspective.
+Cambridge: Cambridge University Press.
+
+Magaloni, B. 2006. Voting for Autocracy: Hegemonic Party Sur-
+vival and Its Demise in Mexico. Cambridge: Cambridge Uni-
+versity Press.
+
+Marenco, E. 2004. Nicaragua: Entre el patrimonialismo de los
+
+Somozay la corrupcion de Aleman. Managua: Fondo Editorial
+CIRA.
+
+Marti I Puig, S. 2008. “El regreso de Ortega: Los primeros pasos
+de su segunda administracién.” Revista de Ciencia Politica
+28(1): 287-303.
+
+Marti I Puig, S. 2009. “Nicaragua 2008: Polarizacién y pactos.”
+Revista de Ciencia Politica 29(2): 515-31.
+
+Millett, R. 1977. Guardians of the Dynasty. Maryknoll, NY: Orbis
+Books.
+
+Nadeau, R., and R. Niemi. 1995. “Educated Guesses:
+The Process of Answering Factual Knowledge Ques-
+tions in Surveys.” Public Opinion Quarterly 59(3): 323—
+46.
+
+Nitchter, $. 2008. “Vote Buying or Turnout Buying? Machine
+Politics and the Secret Ballot.” American Political Science
+Review 102(1): 19-31.
+
+Philipson, Tomas J., and James M. Snyder. 1996. “Equilibrium
+and Efficiency in an Organized Vote Market.” Public Choice
+89: 245-65,
+
+Presser, S., and L. Stinson. 1998. “Data Collection Mode
+and Social Desirability Bias in Self-Reported Religious
+Attendance.” American Sociological Review 63(1): 137-
+45.
+
+Schaffer, C., ed. 2007. Elections for Sale: The Causes and Conse-
+quences of Vote Buying. Boulder, CO: Lynne Rienner.
+
+Schedler, A. 2002. “The Menu of Manipulation.” Journal of
+Democracy 13(2): 36-50.
+
+Seligson, M., A. Cordova, J. Donoso, D. Moreno Morales, D.
+Orces, and V. Schwarz Blum. 2006. Democracy Audit: Bolivia
+2006 Report. Latin American Public Opinion Project. http:
+/fwww.vanderbilt.edu/lapop/.
+
+Silver, B., B. Anderson, and P. Abramson. 1986. “Who Over-
+reports Voting?” American Political Science Review 80(2):
+613-24,
+
+Stokes, $. 2005. “Perverse Accountability: A Formal Model of
+Machine Politics with Evidence from Argentina.” American
+Political Science Review 99(3): 315-25.
+
+Stokes, S. 2007. “Political Clientelism.” In The Oxford Handbook
+of Comparative Politics, ed. C. Boix and S. Stokes. Oxford:
+Oxford University Press, 604—27.
+
+ssdny wos papeorumog ‘| °Z 10% “LO6S0rS1
+
+  
+
+asua0r7] SuOUNIOD aAueaID aiquoydde ay) Kq pausano? axe safouse YO ‘asm Jo Sains Jog KsesqLT BULL Aa[LA UO (suONmpUCD-puE-suuaIAUoD ca[iMAaesquaur{uoysduy) suOURDUOS puZ Sua), 241 22g ‘[ZZOE/I I/ZZ] HO KsesQeT aUYC KalLAy ‘MELEE BKeIOS Ip SOUMOA BALE IO AALSHBALIPL Kq XOHSOO' | 1OZLOGS-OS 1/1 HI OL AOp/UOD Kaye Kae,
+VOTE BUYING AND SOCIAL DESIRABILITY BIAS
+
+Tourangeau, R., and T. Smith. 1996. “Asking Sensitive Ques-
+tions: The Impact of Data Collection Mode, Question
+Format, and Question Context.” Public Opinion Quarterly
+60(2): 275-304.
+
+Tourangeau, R., and T. Yan. 2007. “Sensitive Questions in Sur-
+veys.” Psychological Bulletin 133(5): 859-83.
+
+Transparency International. 2004. “Vote Buying.” In Global
+
+217
+
+Corruption Report 2004. Sterling, VA: Pluto Press, 76-88.
+http: //www.transparency.org/publications/ger/gcr2004.
+
+Vargas, O. 2004. Veinticinco afios después (1979-2004): De los
+comandantes a los banqueros. Managua: Centro de Estudios
+de la Realidad Nacional.
+
+World Bank. 2005. “World Development Indicators.” http:
+//www.worldbank.org.
+
+“OI Aoppuoo Kayum Krerquauyuoyssdny woss papeo[wmog | °Z OZ “LO6SOPS1
+
+  
+
+8
+8
+3
+8
+3
+z
+3
+z
+g
+8
+g
+z
+x
+$
+g
+g
+Pe
+o
+g
+z
+5.
+z
+=
+2
+@
+G
+g
+s
+3
+s
+8
+8
+&
+2
+&
+=
+z
+z
+a
+zB
+°
+s
+2:
+g
+2
+3
+g
+
+ 
+
+asu20r] suOUIUIOD aageasD aiqeouidde aqp Kq pausanc8 a1e sajouue WO ‘asm Jo sama 4oy Kaesqe7] BULU KafiAA Wo (suONmUOD-puE-suMDIAUIOD’Ka[uM hae
+

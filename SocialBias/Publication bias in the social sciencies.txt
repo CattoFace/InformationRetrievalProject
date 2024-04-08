@@ -1,0 +1,1006 @@
+RESEARCH | REPORTS
+
+ 
+
+also capture signals of warm-season upwell-
+ing, which in the CC is uncorrelated to winter
+upwelling and dominated by decadal-scale vari-
+ability (3, 5, 26). Overall, multivariable indices
+such as those we developed and describe here
+highlight broad physical-ecological connections
+and may provide new options for monitoring
+and “hindcasting” ecosystem states. In this exam-
+ple, covariance among fish, seabirds, and trees
+demonstrates a remarkable degree of connectivity
+across the coastal interface that not only provides
+context for interpreting variability in observation-
+al records but may also be relevant to manage-
+ment. Identifying biologically important indicators,
+their current status, and their ranges of historical
+variability is central to the desired transition from
+single-species fisheries stock assessments to the
+next generation of integrative ecosystem-based
+strategies (27).
+
+REFERENCES AND NOTES
+
+1. A. Huyer, Prog. Oceanogr. 12, 259-284 (1983)
+
+2. RL. Smith, Oceanogr. Mar Biol. Annu. Rev. 6, 11-46
+(1968)
+
+3. W. J. Sydeman et af., Science 345, 77-80 (2014)
+
+4. B.A. Black, Mar. Ecol. Prog. Ser 378, 37-46 (2009).
+
+5. B.A. Black et af., Glob. Change Biol. 17, 2536-2545
+(2011)
+
+ 
+
+a
+
+|. D. Schroder ef af., Geophys. Res. Leti. 40, 1-6
+
+(2013)
+
+7. M. Garcia-Reyes et af., Ecosystems (N.Y.) 16, 722-735
+(2013)
+
+8. S. St George, D. M. Meko, E. R. Cook, Holocene 20, 983-988
+(2010)
+
+9. F. B. Schwing, T. Murphree, P. M. Green, Prog. Oceanogr. 53,
+115-139 (2002)
+
+10. F. B. Schwing, M. O'Farrell, J. M. Steger, K. Baltz, “Coastal
+upwelling indices, West Coast of North America, 1946-1995”
+NOAA Technical Memo, NOAA-TM-NMFS-SWFSC (NOAA,
+Washington, DC, 1996)
+
+11. D. W. Stahle et af., Earth interact. 17, 1-23 (2013).
+
+12. J. E. Keister, E. Di Lorenzo, C. A. Morgan, V. Combes,
+
+W. T. Peterson, Glob. Change Biol. 17, 2498-2511 (2011)
+
+13. W. J. Sydeman, J. A. Santora, S. A. Thompson,
+
+B. M. Marinovie, E. Di Lorenzo, Glob. Change Biol. 19,
+1662-1675 (2013).
+
+14. A. F. Hamlet, D. P. Lettenmaier, Water Resour. Res. 43,
+w06427 (2007)
+
+15, N. J. Mantua, S. R. Hare, Y. Zhang, J. M. Wallace, R. C. Francis,
+Bull. Am. Meteorol. Soc. 78, 1069-1079 (1997)
+
+16. K. F. Kipfmueller, E. R. Larson, S. St George, Geophys. Res.
+Lett. 39, L21705 (2012)
+
+17. K. Wolter, M. S. Timlin, Weather 53, 315-324 (1998)
+
+18. J.B. Li et af., Nat. Clim. Change 1, 114-118 (2011)
+
+19. D. W. Stahle ef af., Bull. Am. Meteorol. Soc. 79, 2137-2152
+(1998)
+
+20. A. M. Fowler et af, Nat. Clim. Change 2, 172-176 (2012).
+
+21. K. M. Cobb et af., Science 339, 67-70 (2013)
+
+22. M. Collins et af., Nat. Geosci. 3, 391-397 (2010)
+
+23. J. F. MeLaughlin, J. J. Hellmann, C. L. Boggs, P. R. Ehrlich,
+
+Proc. Natl. Acad. Sci. U.S.A. 99, 6070-6074 (2002)
+
+ 
+
+24. N. E. Graham et af, Clim. Change 83, 241-285 (2007).
+
+25. F. P. Malamud-Roam, B. L. Ingram, M. Hughes, J. L. Florsheim,
+Quat. Sci. Rev. 25, 1570-1598 (2006)
+
+26. F. B. Schwing, R. Mendelssohn, J. Geophys. Res. Oceans 102,
+3421-3438 (1997).
+
+27, P. S. Levin, M. J. Fogarty, S. A. Murawski, D, Fluharty, PLOS
+Biol. 7, e1000014 (2009).
+
+ACKNOWLEDGMENTS
+
+Funding was provided by NSF (grant no, 1130125), the NOAA
+Fisheries and the Environment (FATE) program, the California
+Department of Fish and Wildlife Ecosystem Restoration Program
+(grant no, ERPO2-P30), and the Nippon Foundation- University of
+British Columbia Nereus Program. D.G. was supported by a NOAA
+Climate and Global Change Postdoctoral Fellowship. Seabird data
+were obtained from Point Blue Conservation Science/Farallon
+National Wildlife Refuge. We are grateful to contributors to the
+International Tree-Ring Databank and thank M. O'Connor for
+assistance with Fig. 1. Finally, we thank the reviewers for their
+comments and insights, which greatly improved the paper. All data
+used in this work, or the sources from which they are available, are
+included in the supplementary materials
+
+SUPPLEMENTARY MATERIALS
+
+www.sciencemag org/content/345/6203/1498/supp|/DC1
+Materials and Methods
+
+Figs. Sl to S7
+
+Tables S1 to S6
+
+References (28-30)
+
+11 March 2014; accepted 7 August 2014
+10.1126/science 1253209
+
+ 
+
+SOCIAL SCIENCE
+
+Publication bias in the social
+sciences: Unlocking the file drawer
+
+Annie Franco,’ Neil Malhotra,?* Gabor Simonovits’
+
+We studied publication bias in the social sciences by analyzing a known population of
+conducted studies—221 in total—in which there is a full accounting of what is published
+and unpublished. We leveraged Time-sharing Experiments in the Social Sciences (TESS),
+a National Science Foundation-sponsored program in which researchers propose
+survey-based experiments to be run on representative samples of American adults.
+Because TESS proposals undergo rigorous peer review, the studies in the sample all
+exceed a substantial quality threshold. Strong results are 40 percentage points more likely
+to be published than are null results and 60 percentage points more likely to be written
+
+up. We provide direct evidence of publication bias and identify the stage of research production
+at which publication bias occurs: Authors do not write up and submit null findings.
+
+ublication bias occurs when “publication
+of study results is based on the direction
+or significance of the findings” (7). One per-
+nicious form of publication bias is the
+greater likelihood of statistically signif-
+icant results being published than statistically
+insignificant results, holding fixed research qual-
+ity. Selective reporting of scientific findings is often
+referred to as the “file drawer” problem (2). Such
+a selection process increases the likelihood that
+published results reflect type I errors rather than
+true population parameters, biasing effect sizes
+upwards. Further, it constrains efforts to assess
+
+ 
+
+1Department of Political Science, Stanford University,
+Stanford, CA, USA. ?Graduate School of Business, Stanford
+University, Stanford, CA, USA.
+
+*Corresponding author. E-mail: neilm@stanford.edu
+
+1502 19 SEPTEMBER 2014 + VOL 345 ISSUE 6203
+
+ 
+
+the state of knowledge in a field or on a particular
+topic because null results are largely unobservable
+to the scholarly community.
+
+Publication bias has been documented in var-
+ious disciplines within the biomedical (3-9) and
+social sciences (10-17). One common method of
+detecting publication bias is to replicate a meta-
+analysis with and without unpublished litera-
+ture (78). This approach is limited because much
+of what is unpublished is unobserved. Other
+methods solely examine the published literature
+and rely on assumptions about the distribution
+of unpublished research by, for example, compar-
+ing the precision and magnitude of effect sizes
+among a group of studies. In the presence of pub-
+lication bias, smaller studies report larger effects
+in order to exceed arbitrary statistical significance
+
+ 
+
+thresholds (79, 20). However, these visualization-
+based approaches are sensitive to using different
+measures of precision (27, 22) and also assume
+that outcome variables and effect sizes are com-
+parable across studies (23). Last, methods that
+compare published studies to “gray” literatures
+(such as dissertations, working papers, confer-
+ence papers, or human subjects registries) may
+confound strength of results with research qual-
+ity (7). These techniques are also unable to de-
+termine whether publication bias occurs at the
+editorial stage or during the writing stage. Editors
+and reviewers may prefer statistically signifi-
+cant results and reject sound studies that fail
+to reject the null hypothesis. Anticipating this,
+authors may not write up and submit papers
+that have null findings. Or, authors may have their
+own preferences to not pursue the publication
+of null results.
+
+A different approach involves examining the
+publication outcomes of a cohort of studies, either
+prospectively or retrospectively (24, 25). Analyses
+of clinical registries and abstracts submitted to
+medical conferences consistently find little to
+no editorial bias against studies with null find-
+ings (26-32). Instead, failure to publish appears
+to be most strongly related to authors’ perceptions
+that negative or null results are uninteresting
+and not worthy of further analysis or publica-
+tion (32-35). One analysis of all institutional re-
+view board-approved studies at a single university
+over 2 years found that a majority of conducted
+research was never submitted for publication or
+peer review (36).
+
+Surprisingly, similar cohort analyses are much
+rarer in the social sciences. There are two main
+reasons for this lacuna. First, there is no process
+in the social sciences of preregistering studies
+
+sciencemag.org SCIENCE
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+RESEARCH | REPORTS
+
+ 
+
+comparable with the clinical trials registry in the
+biomedical sciences. Second, even if some un-
+published studies could be identified, there are
+likely to be substantial quality differences be-
+tween published and unpublished studies that
+make them difficult to compare. As noted, pre-
+vious research attempted to identify unpub-
+lished results by examining conference papers
+and dissertations (87) and human subjects re-
+gistries of single institutions (36). However, such
+techniques may produce unrepresentative sam-
+ples of unpublished research, and the strength of
+the results may be confounded with research
+quality. Conference papers, for example, do not
+undergo a similar process of peer review as do
+journal articles in the social sciences and there-
+fore cannot be used as a comparison set. This
+work is distinctive in the study of publication
+bias in the social sciences in that we analyzed a
+known population of conducted studies, and all
+studies in the population exceed a substantial
+quality threshold.
+
+We leveraged TESS (Time-sharing Experi-
+ments in the Social Sciences), a National Science
+Foundation-sponsored program established in
+2002 in which researchers propose survey-based
+experiments to be run on nationally representa-
+tive samples. These experiments typically embed.
+some randomized manipulation (such as visual
+stimulus or question wording difference) with-
+in a survey questionnaire. Researchers apply to
+TESS, which then submits the proposals to peer
+review and distributes grants on a competitive
+
+ 
+
+basis (38). Our basic approach is to compare the
+statistical results of TESS experiments that even-
+tually got published with the results of those that
+remain unpublished.
+
+This analytic strategy has many advantages.
+First, we have a known population of conducted
+studies and therefore have a full accounting of
+what is published and unpublished. Second, TESS
+proposals undergo rigorous peer review, mean-
+ing that even unpublished studies exceed a sub-
+stantial quality threshold before they are conducted.
+Third, nearly all of the survey experiments were
+conducted by the same high-quality survey re-
+search firm (Knowledge Networks, now known
+as GfK Custom Research), which assembles prob-
+ability samples of Internet panelists by recruit-
+ing participants via random digit dialing and
+address-based sampling. Thus, there is remark-
+able similarity across studies with respect to
+how they were administered, allowing for com-
+parability. Fourth, TESS requires that studies have
+requisite statistical power, meaning that the fail-
+ure to obtain statistically significant results is
+not simply due to insufficient sample size.
+
+One potential concern is that TESS studies may
+be unrepresentative of social science research,
+especially scholarship based on nonexperimen-
+tal data. Although TESS studies are clearly not a
+random sample of the research conducted in
+the social sciences, it is unlikely that publication
+bias is less severe than what is reported here.
+The baseline probability of publishing exper-
+imental findings based on representative sam-
+
+Table 1. Distribution of studies across years and disciplines. Field coded based on the affiliation of the
+first author. “Other” category includes Business, Computer Science, Criminology, Education, Environmental
+
+Studies, Journalism, Law, and Survey Methodology.
+
+Year Communication Economics
+
+Political Public
+science healt
+
+h Psychology Sociology Other Total
+
+ 
+
+2002 0 0 1
+2003 0 1 4
+2004 0 2 9
+2005 2 2 13
+2006 3 1 12
+2007 0 0 5
+2008 2 0 ll
+2009 0 0 12
+2010 3 3 22
+2011 2 0 19
+2012 1 1 5
+Total 13 10 113
+
+0 0 0 0 1
+0 6 2 1 14
+1 5 0 0 17
+0 10 7 1 35
+1 9 6 0 32
+0 3 2 0 10
+1 4 2 1 21
+1 8 2 3 26
+0 5 6 2 41
+1 9 6 2 39
+1 1 3 1 13
+6 60 36 ll 249
+
+ 
+
+Table 2. Cross-tabulation between statistical results of TESS studies and their publication status.
+Entries are counts of studies by publication status and results. Bolded entries inclicate observations included
+in the final sample for analysis (40). Results are robust to the inclusion of book chapters (table S7).
+
+ 
+
+Unpublished, Unpublished, . Book a
+not written written Published chapter Missing Total
+Null results 31 7 10 1 0 49
+Mixed results 10 32 40 3 1 86
+Strong results 4 31 56 1 1 93
+Missing 6 1 0 2 12 21
+Total 51 71 106 7 14 249
+
+ 
+
+SCIENCE sciencemag.org
+
+ 
+
+ples is likely higher than that of observational
+studies using “off-the-shelf” data sets or experi-
+ments conducted on convenience samples in
+which there is lower “sunk cost” involved in ob-
+taining the data. Because the TESS data were
+collected at considerable expense—in terms of
+time to obtain the grant—authors should, if any-
+thing, be more motivated to attempt to publish
+null results.
+
+The initial sample consisted of the entire on-
+line archive of TESS studies as of 1 January 2014
+(39). We analyzed studies conducted between
+2002 and 2012. We did not track studies conducted
+in 2013 because there had not been enough
+time for the authors to analyze the data and
+proceed through the publication process. The
+249 studies represent a wide range of social sci-
+ence disciplines (Table 1). Our analysis was re-
+stricted to 221 studies, 89% of the initial sample.
+We excluded seven studies published in book
+chapters and 21 studies for which we were un-
+able to determine the publication status and/or
+the strength of experimental findings (40). The
+full sample of studies is presented in Table 2;
+the bolded entries represent the analyzed sub-
+sample of studies.
+
+The outcome of interest is the publication status
+of each TESS experiment. We took numerous
+approaches to determine whether the results
+from each TESS experiment appeared in a peer-
+reviewed journal, book, or book chapter. We first
+conducted a thorough online search for pub-
+lished and unpublished manuscripts and read
+every manuscript in order to verify that it relied
+on data collected through TESS and that it re-
+ported experimental results (40). We then e-mailed
+the authors of more than 100 studies for which
+we were unable to find any trace of the study
+and asked what happened to their studies. We
+also asked authors who did not provide a pub-
+lication or working paper to summarize the re-
+sults of their experiments.
+
+The outcome variable distinguishes between
+two types of unpublished experiments: those pre-
+pared for submission to a conference or journal,
+and those never written up in the first place. It
+is also possible that papers with null results
+may be excluded from the very top journals but
+still find their way into the published literature.
+Thus, we disaggregated published experiments
+according to their placement in top-tier or non-
+top-tier journals (40) (a list of journal classi-
+fications is provided in table SI). The results from
+the majority of TESS studies in our analysis sam-
+ple have been written up (80%), whereas less than
+half (48%) have been published in academic
+journals.
+
+We also ascertained whether the results of
+each experiment are described as statistically
+significant by their authors. We did not analyze
+the data ourselves to determine whether the find-
+ings were statistically significant for two main
+reasons. First, it is often very difficult to discern
+the exact analyses the researchers intended. The
+proposals that authors submit to TESS are not
+a matter of public record, and many experi-
+ments have complex experimental designs with
+
+19 SEPTEMBER 2014 + VOL 345 ISSUE 6203 1503
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+RESEARCH | REPORTS
+
+ 
+
+numerous treatment conditions, outcome var-
+iables, and moderators. Second, what is most
+important is whether the authors themselves
+consider their results to be statistically signifi-
+cant because this influences how they present
+their results to editors and reviewers, as well as
+whether they decide to write a paper. Studies
+were classified into three categories of results:
+strong (all or most of hypotheses were sup-
+ported by the statistical tests), null (all or most
+hypotheses were not supported), and mixed (re-
+mainder of studies) (40). Approximately 41% of
+the studies in our analysis sample reported strong
+evidence in favor of the stated hypotheses, 37%
+reported mixed results, and 22% reported null
+results.
+
+There is a strong relationship between the
+results of a study and whether it was published,
+a pattern indicative of publication bias. The main
+findings are presented in Table 3, which is a cross-
+tabulation of publication status against strength
+of results. A Pearson x” test of independence is
+easily rejected [77(6) = 80.3, P < 0.001], implying
+that there are clear differences in the statistical
+results between published and unpublished studies.
+Although around half of the total studies in our
+sample were published, only 20% of those with
+null results appeared in print. In contrast, ~60%
+of studies with strong results and 50% of those
+with mixed results were published. Although
+more than 20% of the studies in our sample had
+null findings, <10% of published articles based
+on TESS experiments report such results. Although
+the direction of these results may not be surpris-
+ing, the observed magnitude (an ~40 percentage
+point increase in the probability of publication
+from moving from null to strong results) is re-
+markably large.
+
+However, what is perhaps most striking in
+Table 3 is not that so few null results are pub-
+lished, but that so many of them are never even
+written up (65%). The failure to write up null re-
+sults is problematic for two reasons. First, re-
+searchers might be wasting effort and resources
+in conducting studies that have already been
+executed in which the treatments were not ef-
+ficacious. Second, and more troubling, if future
+researchers conduct similar studies and obtain
+statistically significant results by chance, then
+the published literature on the topic will erro-
+neously suggest stronger effects. Hence, even
+if null results are characterized by treatments
+that “did not work” and strong results are char-
+acterized by efficacious treatments, authors’
+failures to write up null findings still adverse-
+ly affects the universe of knowledge. Once we
+
+ 
+
+condition on studies that were written up, there
+is no statistically significant relationship be-
+tween strength of results and publication status
+(table S2).
+
+A series of additional analyses demonstrate
+the robustness of our results. Estimates from
+multinomial probit regression models show
+that studies with null findings are statistically
+significantly less likely to be written up even after
+controlling for researcher quality (using the
+highest-quality researcher’s cumulative h-index
+and number of publications at the time the study
+was run), discipline of the lead author, and the
+date the study was conducted (supplementary
+text and table $3). Further, the relationship be-
+tween strength of results and publication status
+does not vary across levels of these covariates
+(supplementary text and tables S4 and S65).
+Another potential concern is that our coding
+of the statistical strength of results is based on
+author self-reports, introducing the possibility
+of measurement error and misclassification.
+A sensitivity analysis shows that our findings
+are robust to even dramatic and unrealistic
+rates of misclassification (supplementary text
+and fig. $1).
+
+Why do some researchers choose not to write
+up null results? To provide some initial explana-
+tions, we classified 26 detailed e-mail responses
+we received from researchers whose studies
+yielded null results and did not write a paper
+(table S6). Fifteen of these authors reported that
+they abandoned the project because they be-
+lieved that null results have no publication po-
+tential even if they found the results interesting
+personally (for example, “I think this is an in-
+teresting null finding, but given the discipline’s
+strong preference for P < 0.05, I haven’t moved
+forward with it”). Nine of these authors reacted
+to null findings by reducing the priority of writing
+up the TESS study and focusing on other projects
+(for example, “There was no paper unfortunately.
+There still may be in future. The findings were
+pretty inconclusive”). Two authors whose studies
+“didn't work out” eventually published papers
+supporting their initial hypotheses using findings
+obtained from smaller convenience samples.
+
+How can the social science community com-
+bat publication bias of this sort? On the basis of
+communications with the authors of many ex-
+periments that resulted in null findings, we found
+that some researchers anticipate the rejection of
+such papers but also that many of them simply
+lose interest in “unsuccessful” projects. These find-
+ings show that a vital part of developing institu-
+tional solutions to improve scientific transparency
+
+Table 3. Cross-tabulation between statistical results of TESS studies and their publication
+status (column percentages reported). Pearson x? test of independence: x (6) = 80.3, P< 0.001.
+
+ 
+
+ 
+
+Null (%) Mixed (%) Strong (%)
+Not written 64.6 2.2 44
+Written but not published 14.6 39.0 341
+Published (non—top-tier) 10.4 378 38.4
+Published (top-tier) 10.4 11.0 23.1
+Total 100.0 100.0 100.0
+1504 19 SEPTEMBER 2014 + VOL 345 ISSUE 6203
+
+ 
+
+would be to understand better the motivations
+of researchers who choose to pursue projects as
+a function of results.
+
+Few null findings ever make it to the review
+process. Hence, proposed solutions such as two-
+stage review (the first stage for the design and
+the second for the results), pre-analysis plans (42),
+and requirements to preregister studies (76) should
+be complemented by incentives not to bury sta-
+tistically insignificant results in file drawers. Creat-
+ing high-status publication outlets for these studies
+could provide such incentives. The movement
+toward open-access journals may provide space
+for such articles. Further, the pre-analysis plans
+and registries themselves will increase researcher
+access to null results. Alternatively, funding agen-
+cies could impose costs on investigators who do
+not write up the results of funded studies. Last,
+resources should be deployed for replications of
+published studies if they are unrepresentative of
+conducted studies and more likely to report
+large effects.
+
+REFERENCES AND NOTES
+
+K. Dickersin, JAMA 263, 1385-1389 (1990).
+
+R. Rosenthal, Psychol. Bull, 86, 638-641 (1979)
+
+C. B. Begg, J. A. Berlin, J. R. Stat. Soc. Ser. 151, 419-463
+
+(1988)
+
+4, J. A. Berlin, C. B. Begg, T. A. Louis, J. Am. Stat. Assoc. 84,
+381-392 (1989)
+
+5, P. J. Easterbrook, J. A. Berlin, R. Gopalan, D. R. Matthews,
+Lancet 337, 867-872 (1991)
+
+6. L. McAuley, B. Pham, P. Tugwell, D. Moher, Lancet 356,
+1228-1231 (2000).
+
+7. M. Egger, P. Juni, C. Bartlett, F. Holenstein, J. Sterne, Health
+Technol. Assess. 7, 1-76 (2003).
+
+8. H.R. Rothstein, A. J. Sutton, M. Borenstein, Eds., Pubfication
+
+Bias in Meta-Analysis: Prevention, Assessment and Adjustments
+
+(Wiley, Chichester, UK, 2006)
+
+F. Song et af, Health Technol. Assess. 14, ili, ix-xi, 1-193
+
+(2010)
+
+10. T. D. Sterling, 4. Am. Stat. Assoc. 54, 30-34 (1959).
+
+11. A. Coursol, E. E. Wagner, Prof, Psychol. Res. Pr. 17, 136-137
+(1986)
+
+12. A. G. Greenwald, Psychol. Bull, 82, 1-20 (1975)
+
+13. D. Card, A. B. Krueger, Am. Econ. Rev. 85, 238-243
+(1995)
+
+14. O. Ashenfelter, C. Harmon, H. Oosterbeek, Labour Econ. 6,
+453-470 (1999)
+
+15. C. Doucouliagos, 4 Econ. Surv. 19, 367-387 (2005).
+
+16. A. Gerber, N. Malhotra, Quart. J Pol. Sci. 3, 313-326
+(2008)
+
+17. A. Gerber, N. Malhotra, Sociol. Methods Res. 37, 3-30
+(2008)
+
+18. H. Cooper, L. V. Hedges, J. C. Valentine, Eds., The Handbook of
+Research Synthesis and Meta-Analysis (Russell Sage
+Foundation, New York, ed. 2, 2009)
+
+19. R. J. Light, D. B. Pillemar, Summing Up: The Science of
+Reviewing Research (Harvard Univ, Press, Cambridge, MA,
+1984)
+
+20. M. Egger, G. D. Smith, M. Schneider, C. Minder, BAL 315,
+
+629-634. (1997)
+
+J.P. loannidis, T. A. Trikalinos, CMAJ 176, 1091-1096
+
+(2007)
+
+J. Lau, J. P. loannidis, N. Terrin, C. H. Schmid, |. Olkin, BMJ
+
+333, 597-600 (2006)
+
+23. D. T. Felson, J. Clin. Epidemiol. 45, 885-892 (1992)
+
+24. K. Dickersin, in Publication Bias in Meta-Analysis: Prevention,
+
+Assessment and Adjustments, H. R. Rothstein, A. J. Sutton,
+
+M. Borenstein, Eds. (Wiley, Chichester, UK, 2006), ch, 2.
+
+K. Dwan et al., PLOS One 3, e3081 (2008).
+
+M. L. Callaham, R. L. Wears, E. J. Weber, C. Barton, G. Young,
+
+JAMA 280, 254-257 (1998)
+
+M. Callaham, R. L. Wears, E. Weber, JAMA 287, 2847-2850
+
+(2002)
+
+28. C. M. Olson ef al, JAMA 287, 2825-2828 (2002)
+
+Wnt
+
+wo
+
+2
+
+2
+
+Ss
+
+oO
+
+2
+2
+
+aa
+
+2
+
+NS
+
+sciencemag.org SCIENCE
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+RESEARCH | REPORTS
+
+ 
+
+29. A. Timmer, R. J. Hilsden, J. Cole, D. Hailey, L. R. Sutherland,
+BMC Med. Res. Methodol. 2, 7 (2002).
+
+30. K. P. Lee, E. A. Boyd, J. M. Holroyd-Ledue, P. Bacchetti,
+L. A. Bero, Med. J. Aust. 184, 621-626 (2006).
+
+31. K. Okike, M. S. Kocher, C. T. Mehlman, J. D. Heckrnan,
+M. Bhandari, J. Bone Joint Surg. 90, 595-601 (2008)
+
+32. K. Dickersin, S. Chan, T. C. Chalmers, H. S. Sacks, H. Smith Jr.,
+Control. Clin. Trials 8, 343-353 (1987)
+
+33. K. Dickersin, Y. |. Min, C. L. Meinert, JAMA 267, 374-378 (1992).
+
+34. K. Dickersin, Y. |. Min, Online J. Curr. Clin. Trials 1993, 50
+(1993)
+
+35, R. M. D. Smyth et al., BMJ 342 (jan06 1), ¢7153 (2011)
+
+36. H. Cooper, K. DeNeve, K. Charlton, Psychol. Methods 2,
+447-452 (1997)
+
+37. G. V. B. Glass, B. MeGaw, M. L. Smith, Meta Analysis in Social
+Research (Sage, Beverly Hills, CA, 1981).
+
+3
+
+fed
+
+The rate at which research-initiated proposals are approved by
+
+the peer reviewers engaged by TESS is provided in the
+
+supplementary materials.
+
+39. TESS archive; www.tessexperiments.org.
+
+40. Materials and methods are available as supplementary
+materials on Science Online.
+
+41. K. Casey, R. Glennerster, E. Miguel, Q. J Econ. 127, 1755-1812
+
+(2012)
+
+o
+
+ACKNOWLEDGMENTS
+
+Data and replication code are available on GitHub (DOI: 10.5281/
+zenodo. 11300). All authors contributed equally to all aspects of
+the research. No funding was required for this article. The
+authors declare no conflicts of interest. We thank seminar
+participants at the 2014 Annual Meeting of the Midwest Political
+Seience Association, the 2014 Annual Meeting of the Society for
+
+Political Methodology, the 2014 West Coast Experiments
+Conference, Stanford University, and University of California,
+San Diego. We thank C. McConnell and S. Liu for valuable
+research assistance
+
+SUPPLEMENTARY MATERIALS
+www.sciencemag.org/content/345/6203/1502/suppl/DC1
+Materials and Methods
+
+Supplementary Text
+
+Fig, Sl
+
+Tables S1 to S?
+
+Reference (42)
+
+1 May 2014; accepted 14 August 2014
+Published online 28 August 2014;
+10.1126/science 1255484
+
+ 
+
+NEUROMUSCULAR DISEASE
+
+DOK7 gene therapy benefits mouse
+models of diseases characterized by
+defects in the neuromuscular junction
+
+Sumimasa Arimura,’ Takashi Okada,” Tohru Tezuka,’ Tomoko Chiyo,” Yuko Kasahara,”
+Toshiro Yoshimura,” Masakatsu Motomura,* Nobuaki Yoshida,” David Beeson,°
+
+Shin’ichi Takeda,” Yuji Yamanashi'*
+
+The neuromuscular junction (NMJ) is the synapse between a motor neuron and
+skeletal muscle. Defects in NMJ transmission cause muscle weakness, termed myasthenia.
+The muscle protein Dok-7 is essential for activation of the receptor kinase MuSK, which
+governs NMJ formation, and DOK7 mutations underlie familial limb-girdle myasthenia
+(DOK7 myasthenia), a neuromuscular disease characterized by small NMJs. Here, we
+show in a mouse model of DOK7 myasthenia that therapeutic administration of an
+adeno-associated virus (AAV) vector encoding the human DOK7 gene resulted in an
+enlargement of NMJs and substantial increases in muscle strength and life span. When
+applied to model mice of another neuromuscular disorder, autosomal dominant
+Emery-Dreifuss muscular dystrophy, DOK7 gene therapy likewise resulted in enlargement
+of NMJs as well as positive effects on motor activity and life span. These results
+suggest that therapies aimed at enlarging the NMJ may be useful for a range of
+
+neuromuscular disorders.
+
+he neurotransmitter acetylcholine (ACh) is
+released from the presynaptic motor nerve
+terminal and binds to ACh receptors (AChRs)
+on the postsynaptic muscle membrane of
+the neuromuscular junction (NMJ), which
+forms in the central region of each myotube (7, 2).
+To achieve efficient neuromuscular transmission,
+AChRs must be densely clustered on the postsyn-
+aptic membrane (J, 2). Impaired AChR clustering
+is associated with disorders of neuromuscular
+
+ 
+
+1Division of Genetics, The Institute of Medical Science, The
+University of Tokyo, Tokyo, Japan. “Department of Molecular
+Therapy, National Institute of Neuroscience, National Center
+of Neurology and Psychiatry, Tokyo, Japan. *Department of
+Occupational Therapy, Nagasaki University School of Health
+Sciences, Nagasaki, Japan. Department of Electrical and
+Electronics Engineering, Faculty of Engineering, Nagasaki
+Institute of Applied Science, Nagasaki, Japan. °Laboratory of
+Developmental Genetics, The Institute of Medical Science,
+The University of Tokyo, Tokyo, Japan. "Neurosciences
+Group, Weatherall Institute of Molecular Medicine, University
+of Oxford, Oxford, UK.
+
+*Corresponding author. E-mail: yyamanas@ims.u-tokyo.ac.jp
+
+SCIENCE sciencemag.org
+
+ 
+
+transmission, including subtypes of congenital
+myasthenic syndromes and myasthenia gravis
+(2-4). The muscle-specific receptor tyrosine ki-
+nase MuSK is required for the formation and
+maintenance of NMJs (/, 2).
+
+The cytoplasmic protein Dok-7 (downstream
+of tyrosine kinases 7) is an essential activator of
+the receptor kinase MuSK, and mice lacking Dok-7
+form no NMJs (5-8). Recessive loss- or reduction-
+of-function mutations in the human DOK7 gene
+underlie a limb-girdle type of congenital myas-
+thenic syndrome, DOK7 myasthenia, a disorder
+characterized by NMJs that are about half the
+normal size (7, 9, 10). In contrast to many NMJ
+channelopathies (17), DOK7 myasthenia is not
+associated with abnormalities in the function
+and local density of AChRs or the quantal re-
+lease per unit size of the endplates (the region of
+synaptic specialization on the myotube). These
+observations suggest that DOK7 myasthenia
+should be classified as a synaptopathy rather than
+a channelopathy (2, 7). Interestingly, there is ac-
+
+ 
+
+cumulating evidence that NMJ structural defects
+may be a common feature of other neuromus-
+cular disorders (72-18), including muscular dys-
+trophy (MD), amyotrophic lateral sclerosis (ALS),
+spinal muscular atrophy (SMA), and age-related
+muscle weakness or sarcopenia. Indeed, studies
+of patients with autosomal dominant Emery-
+Dreifuss muscular dystrophy (AD-EDMD) and
+a mouse model of this disease have produced
+data suggestive of inefficient neuromuscular
+transmission (72). Because the size of NMJs is
+an important determinant of NMJ function (2),
+these observations raise the possibility that en-
+largement of the synaptic area may mitigate
+muscle weakness associated with defective NMJ
+structure.
+
+We previously generated Dok-7 transgenic (Tg)
+mice that overexpress Dok-7 uniformly through-
+out the skeletal muscle under the control of the
+human skeletal c-actin (HSA) promoter (6). Using
+these mice, we found that forced expression of
+Dok-7 in vivo enhanced the activation of muscle-
+specific kinase MuSK and subsequent NMJ for-
+mation at the correct, central region of muscle
+fibers in embryos (6). Consistent with this, Dok-7
+Tg mice showed greatly enlarged NMJs at 12
+weeks of age (fig. SIA). Because exogenous Dok-7
+was expressed only in the skeletal muscle (6), these
+data indicate that forced expression of Dok-7 in
+muscle triggers not only intramuscular signaling
+but also retrograde signaling that enlarges motor
+axon terminals. Interestingly, although these mice
+have enlarged NMJs, they did not exhibit ob-
+vious defects in motor activity, as determined by
+wire-hang and rotarod tests (fig. S1, B and C). To-
+gether, these findings suggest that Dok-7-mediated
+enhancement of NMJ formation merits inves-
+tigation as a possible therapeutic approach for
+neuromuscular disorders associated with an NMJ
+synaptopathy.
+
+To facilitate Dok-7-mediated NMJ formation
+in the muscle, we generated AAV-D7, a recom-
+binant adeno-associated virus (AAV) serotype 9
+(AAV9) vector carrying the human DOK7 gene
+tagged with enhanced green fluorescent protein
+(EGFP) under the control of the cytomegalovirus
+(CMV) promoter. This promoter shows higher ac-
+tivity in skeletal muscle than the HSA promoter
+(79). The AAV vector is a powerful tool for deliver-
+ing therapeutic genes to skeletal muscle and other
+tissues (20, 22). We first treated C2C12 myotubes
+
+19 SEPTEMBER 2014 * VOL 345 ISSUE 6203 1505
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+Science
+
+Publication bias in the social sciences: Unlocking the file drawer
+Annie Franco, Neil Malhotra, and Gabor Simonovits
+
+Science, 345 (6203), * DOI: 10.1126/science.1255484
+
+The file drawer is full. Should we worry?
+
+Experiments that produce null results face a higher barrier to publication than those that yield statistically significant
+differences. Whether this is a problem depends on how many null but otherwise valid results might be trapped in the
+file drawer. Franco et al. use a Time-sharing Experiments in the Social Sciences archive of nearly 250 peer-reviewed
+proposals of social science experiments conducted on nationally representative samples. They find that only 10 out of
+48 null results were published, whereas 56 out of 91 studies with strongly significant results made it into a journal.
+
+Science, this issue p. 1502
+
+View the article online
+
+https:/Avww.science.org/doi/10.1126/science. 1255484
+Permissions
+
+https:/Avww.science.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of service
+
+ 
+
+Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW,
+Washington, DC 20005. The title Science is a registered trademark of AAAS.
+Copyright © 2014, American Association for the Advancement of Science
+
+TOT ‘TT JAQUIAAON UO AreIQrT eyeY Jo Alssaatug 1 B1o‘souaps MMAyssdny wo papeopumog
+

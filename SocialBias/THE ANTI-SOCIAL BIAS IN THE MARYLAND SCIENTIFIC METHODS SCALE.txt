@@ -1,0 +1,1017 @@
+TIM HOPE
+
+PRETEND IT DOESN’T WORK: THE ‘ANTI-SOCIAL’ BIAS IN THE
+MARYLAND SCIENTIFIC METHODS SCALE
+
+ABSTRACT. The social constructs and methodological principles embodied in the Mary-
+land Scientific Methods Scale (SMS), comprising part of the Campbell Collaboration in
+Crime and Justice assessment protocol, induce a series of biases in the evaluation of evidence
+of crime prevention policy interventions that focus on collective social phenomena, such as
+communities. Applying these principles leads to negative conclusions about effectiveness;
+yet their inherent ‘anti-social’ bias may induce Type II error with regard to the desirability
+of ‘social’ interventions to reduce crime. Policy-making is poorly served as a result. This
+point is illustrated, first, through a scrutiny of the social constructs used, including those
+that typify treatments, institutional settings and units of analysis. These are seen as being
+constructed in a way that is congenial to the underlying methodological issue of ‘control’
+but that constitute nevertheless a distorted definition of the governance issues involved in
+crime reduction in community settings. A model more appropriate for evaluating volun-
+taristic action in civil society is needed. Second, it is suggested that this methodological
+bias arises particularly in policy interventions and change programmes that address issues
+concerming the ‘collective efficacy’ of local communities in reducing crime. An empirical
+exemplification of these arguments is presented with reference to a completed evaluation
+research study (Foster and Hope, 1993).
+
+KEY WORDS: evaluation methods, community crime prevention, Campbell Collaboration,
+Maryland Scientific Methods Scale, random controlled trials, Type 2 error, governance,
+selection bias, collective efficacy, Priority Estates Project
+
+INTRODUCTION
+
+A published ‘protocol’ of the Campbell Collaboration in Crime and Justice
+(Campbell Collaboration 2004) states that its aim is to include the “best”
+evaluations by selecting “rigorous evaluations. ..based on the Maryland
+Scientific Methods Scale (SMS) (Sherman et al. 1997)” (Bennett et al.
+no date). Briefly, the SMS is proposed as a method for ranking evalua-
+tion research studies according to three methodological criteria: control
+over other variables that might be causing an observed relationship be-
+tween an intervention and its outcome; measurement error; and statistical
+power to detect programme effects (see Sherman et al. 1998). In essence,
+the SMS uses a number of criteria applied to a study’s research methods
+that reflect the methodological precepts of the ‘experimental method’ as
+developed for application in social ‘field settings’ (Cook and Campbell
+1979; Welsh et al. 2002). The ranking on the SMS given to a study’s
+research design reflects the level of its approximation to the paradigmatic
+
+European Journal on Criminal Policy and Research (2005) 11: 275-296
+DOT: 10.1007/s10610-005-9000- 1 © Springer 2005
+276 T, HOPE
+
+model of the ‘random controlled trial’ (RCT) experiment. Neither the de-
+tails of the SMS, nor its methodological bases, are themselves the subject
+of this paper. However, what is of concern here are the kind of infer-
+ences drawn by its application, specifically for the purposes of making
+recommendations to policy-makers about “what works” in the reduction of
+crime.
+
+The argument presented here is that the conclusion validity of *commu-
+nity crime prevention’ interventions that are the result of research designs
+that score highly on the SMS are likely to suffer from Type I Error — that
+is, they are likely to be interpreted as inferring erroneously that treatment
+effects do not exist when in fact they do (Judd and Kenny 1981); in this
+case, that community crime prevention initiatives are ineffective when in-
+deed they may be effective’. For the purposes of this paper, ‘community
+crime prevention’ is defined as change in the institutional structure of local
+communities in ways that increase the exercise of informal social control
+by residents, thereby reducing the incidence of crime victimisation in the
+residential environment (Hope and Karstedt 2003; Hope 1998, 1995; Foster
+and Hope 1993). In essence, these are interventions that address ‘commu-
+nities’ as holistic entities that encapsulate their own internal social relations
+and dynamics.
+
+The reasons for drawing erroneous conclusions from SMS-type eval-
+uation research lie in two, related, ‘threats to validity’ that, according to
+SMS-like methods, properly designed and conducted experiments are sup-
+posed to guard against (Judd and Kenny 1981):
+
+1. correlation between the process of selection of cases (communities) and
+the intervention (treatment) applied during the ‘experiment’,
+2. social processes that mediate between treatment and outcome.
+
+An unreliable experiment will not have controlled for such biases; a
+rigorous experiment will have taken steps in the research design to remove
+these possibilities. To the extent to which these have been accomplished
+reliably, valid inferences of effect (what works) can be drawn. In contrast,
+the argument here is that these two so-called threats to validity encapsulate,
+paradoxically, much of what is typical of community crime prevention in-
+terventions, and much of what underlies the way they work — that is, the
+social, collective ‘mechanisms’ that they activate in order to bring about
+
+' Since drafting this paper I have come to realise that the general argument presented here
+is similar to that developed by Heckman and Smith (1995) regarding the use of experimental
+methods in policy evaluation (Hope 2005) which, more generally still, illustrates various
+forms of selection bias that pose substantial methodological problems in the scientific
+evaluation of public policy (Heckman 2001).
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 277
+
+outcomes. Thus, even studies of community crime prevention that score
+highly on the SMS still may be likely to be biased against demonstrating
+“what works” in community crime prevention, as a result of the method-
+ological criteria applied, rather than the presumed ineffectiveness of the
+intervention. Research and reviews of community crime prevention, that
+use designs favoured by the Campbell Collaboration in Crime and Justice
+(i.e. the SMS), may well be biased against detecting effects when they
+actually might be there, and thus seriously mislead policy-makers, induc-
+ing them to reject programmes needlessly and undermining the political
+investment made in them. Rather than being useful to policy-makers, the
+inappropriate application of the SMS criteria of reliability and validity may
+actually harm the policy-process, at least to the extent that they introduce
+error into the evidentiary process that is supposed to be underpinning the
+claim to ‘evidence-based’ policy-making.
+
+COMMUNITY SETTINGS AND SMS-BASED REVIEWS
+
+A recent review using the SMS criteria concludes that only the ‘institu-
+tional setting’ of ‘communities’ did not support at least one type of pro-
+gramme where there was evidence of ‘proven effectiveness’ in preventing
+crime (Welsh et al. 2002, p. 21). In contrast, the institutional setting where
+there was found to be the highest number of effective programmes was
+‘courts/corrections’ followed by ‘schools’. The difficulty here in accept-
+ing these as valid conclusions is the incommensurate definitions applied to
+programmes found in different so-called ‘settings’. Interventions in ‘com-
+munity’ settings (according to the review team’s criteria) accord very much
+to the definition used in my own review (Hope 1995) — that is, interventions
+acting to change holistically the structure and organisation of communi-
+ties, with outcomes also defined in aggregate terms, such as changes in area
+crime victimisation or offending rates. This is rarely so for programmes
+reviewed in the other types of settings. Thus, there are no evaluations of
+efforts to change the organisation or ethos of schools, or the structure of
+labour markets (e.g. with the introduction of a minimum wage), that reach
+the reviewers’ acceptable standard on the SMS. Rather, the interventions
+reaching proven effectiveness are those that are about equipping individu-
+als to operate more effectively within institutional settings by delivering to
+them benefit incentives, assistance or sanctions.
+
+There are two obvious connected reasons for this: first, there are very
+different styles of governance associated with the different institutional
+settings and the programmes typically implemented in them. In practice,
+this shapes the ability to exercise control in order to bring about subjects’
+compliance with the programme, and hence defines the nature of the inter-
+278 T, HOPE
+
+vention itself. Community interventions tend to be premised upon mecha-
+nisms of collective, voluntary participation — for example, where a com-
+munity group, or non-state agency acting on its behalf, is concerned with
+collective self-advancement; or where a government is concerned with the
+physical, economic or social ‘regeneration’ of a residential area. Here,
+the ideas and stimuli for the intervention arise out of the sphere of urban
+politics as it reflects the interplay between government and civil society
+(Hope and Karstedt 2003). In contrast, the ‘treatment’ programmes tak-
+ing place in courts and corrections, and even labour markets (according to
+these reviews), are characterised by individual, constrained participation.
+Typically, they are concerned with altering the rewards and/or sanctions
+bearing upon individuals so that they can ‘fit-in’ to prevailing institutional
+arrangements. Here, ideas about intervention arise from different spheres
+— of criminal justice, education and ‘correction’ — that are, at root, the re-
+sponsibility of the state — the institution with legitimate, judicial powers of
+coercion over subjects.
+
+Participation in community programmes is voluntary because these in-
+volve the social and institutional arrangements of civil society. The mode
+of governance in civil society is indirect and diffuse — holders of power
+(government) have to govern ‘at a distance’, influencing and shaping the
+setting itself, utilising a range of essentially non-coercive measures, in or-
+der to engineer the compliance of private citizens, including influencing
+the future behaviour of ‘putative’ as distinct from actual offenders or vic-
+tims”. In contrast, settings such as courts, prisons and (only to a lesser
+extent) schools, and even labour markets (particularly of the unemployed
+or low waged), include subjects whose participation is largely involuntary
+or over whom power-holders (essentially the state and its agencies) have
+some considerable (ultimately coercive) power of control and influence.
+These latter settings differ therefore from civil society communities in that
+they comprise the various arenas where there is a greater level of resource
+for engineering the compliance of subjects available to agencies with the
+authority and legitimacy to bring about change.
+
+The second, related, reason for the relative paucity of high SMS-type
+evaluated programmes in community settings, relative to the other kinds
+of setting reviewed, is thus due to the reliance of SMS research designs on
+the capacity to control subjects directly — not least, the ability to allocate
+subjects randomly to different experimental conditions, and (to a lesser
+degree) to command the compliance of state-agencies in implementing
+
+nee
+
+? That is, they accord to the sphere of ‘primary crime prevention’ “identifying conditions
+of the physical and social environment that provide opportunities for or precipitate criminal
+acts (Brantingham and Faust 1976; p. 290).
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 279
+
+experiments’. In this respect, it could be said that the SMS methodology
+itself selects the settings in which it is to be implemented. What compe-
+tent experimenter would contemplate randomisation in settings where a
+priori the likelihood of creating such experimental conditions would be
+slim? Indeed, Cook and Campbell’s (1979) classic book is mostly taken up
+with research design and analytic methods, addressed to the commissioned
+evaluator, and designed to compensate for the inability to maintain rigor-
+ous experimental control. Yet many of their precepts —arguably examples of
+quality (i.e. scientifically rigorous ingenuity) in research design — would be
+scored at lower SMS levels than experimental designs. Thus, it is possible
+that poor quality research may be over-valued and good quality research
+down-played. In sum, the application of the SMS review methodology does
+not tell us to what extent the differential findings between community and
+other settings are due to the selective use of SMS-favoured methods rather
+than the relative efficacy of the various treatments. Worse, comparatively
+unfavourable inferences could be drawn simply on the basis of comparing
+foolish (and thus flawed) efforts at ‘experimentation’ in community settings
+with competently-designed and well-executed experiments in settings more
+amenable to the manipulation and control of human subjects.
+
+THE DIMENSIONS OF COMMUNITY INTERVENTION
+
+The first review of crime prevention using the SMS meta-evaluation criteria
+was carried out by Sherman et al. following a US Congressional mandate
+(1998). Under the heading “what doesn’t work?” is listed “. . .community
+mobilization of residents’ efforts against crime in high-crime, inner city
+areas of concentrated poverty” (op. cit, p. 8), citing my own review of
+the field (Hope 1995) as corroboration of this proposition (erroneously in
+my view, see below). In his discussion, Sherman (in Sherman et al. 1997,
+Chapter 3) draws attention to the distinction I have made between two
+‘dimensions’ through which community influences and change strategies
+might be thought to operate (Hope 1995). First, there is the horizontal
+dimension of informal social relations amongst residents. Sherman is right
+to conclude that the traditional American approach (reviewed extensively in
+my paper) has been premised on a voluntaristic conception of community
+self-help, that has proven insufficient, especially in the face of a growing
+linkage between the concentration of poverty and the concentration of
+crime in inner city communities — a relationship that, following Sampson
+
+3 Of course, this is not to deny that agencies can entice people to participate in programmes
+by the use of incentives, rewards or benefits, though they will still need to offer these in a
+legitimate manner.
+280 T, HOPE
+
+and Wilson (1995), exemplifies the concentration effect of social exclusion
+(Pitts and Hope 1997):
+
+“", ironically, a central tenet of community prevention programs has been the empow-
+erment of local community leaders to design and implement their own crime prevention
+strategies. This philosophy may amount to throwing people overboard and then letting
+them design their own life preserver. The scientific literature shows that the policies and
+market forces causing criminogenic community structures and cultures are beyond the
+control of neighbourhood residents, and that ‘empowerment’ does not include the power
+to change those policies (Hope 1995)” (Sherman 1997, Chapter 3y*.
+
+Clearly, to the extent that the preponderance of American evaluations (at
+least in the studies reviewed by Sherman et al. 1997), have concentrated
+on American community crime prevention efforts, they are likely to come
+to these conclusions. Again, though, this conclusion may largely reflect
+correlations between the ‘selection’ of cases (treatments) and the preferred
+methods of evaluation. Not only was the Sherman et al. (1997) review
+constrained precisely by the American political process” but both the se-
+lection of treatments and the methods used for evaluation reflect conflicting
+tendencies in American political culture — on the one hand, associational
+voluntarism — which is correlated with the favoured type of intervention
+(resident mobilisation) (Halpern 1995); on the other hand, the applica-
+tion of scientific method to social reform — which is correlated with the
+favoured type of evaluation method (experimentation) (see Oakley 2000)°.
+American community-based efforts to reduce crime have foundered on
+this conflict (Hope 2000, 1995), precisely because it is an essential conflict
+within American governance (see Wilson 1974; Kahn 1968). Not surpris-
+ingly, the Sherman review cannot spring the trap of its own political culture.
+But that is no reason for politicians from other governance traditions (or
+who are interested in other governance possibilities) to accept such appar-
+ently negative outcomes as evidence if they derive from extra-scientific
+(i.e. political cultural) correlations between types of interventions and of
+evaluation methods.
+
+Second, it follows that both American experimental community inter-
+ventions, and the evaluations available, have ignored the vertical dimension
+of community action — the linkages of communities and their members to
+broader and wider sources of power, and their differential capacities to
+
+4 Actual page numbers are unavailable since this quote is taken from the version published
+on the internet — Sherman et al. (1997).
+
+Sie. a Congressional mandate to review “the effectiveness of State and local crime
+prevention assistance programs funded by the US Department of Justice”, 1998, p. 2.
+
+“Enough evidence is available. . .to create provisional lists of what works. . those lists
+will grow more quickly if the Nation invests more resources in scientific evaluations”
+(Sherman et al. 1998, p. 1).
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 281
+
+mobilise such extra-communal resources to support change at the local
+level (Hope 1995). As Sherman notes: “. . uses of vertical solutions to date
+have been relatively limited. . .leav[ing] untouched most of the risk factors.
+But even local government decisions may make a difference” (in Sherman
+et al. 1997, Chapter 3, emphasis added). Arguably, European policy anal-
+ysis of crime reduction has been more attentive to the linkage between the
+vertical and horizontal dimension as the explanation, and possible source
+of remedy, for the community concentration effects of social exclusion than
+has American policy analysis and evaluation (Pitts and Hope 1997).
+
+We have sought to develop elsewhere an outline theory for an approach
+to crime prevention in civil society (Hope and Karstedt 2003). In essence,
+it typifies the vertical dimension of communities in terms of recent con-
+ceptualisations of governance, seeing the resources for crime prevention
+lying within communities themselves but needing, fundamentally, the for-
+mal authority, legitimacy and support of extra-communal sources of power
+to activate informal, intra-communal, social control. Strategies of gover-
+nance are indirect, diffuse and networked through collective participation
+in institutions. Our approach characterises the internal dimension of com-
+munities — that is, the process that generates informal social control, also
+called collective efficacy (Sampson et al. 1997) — as shaped by the mix of
+different kinds of social capital generated in communities as a consequence
+both of internal, affective, social relations and of participation in collective
+activities and institutions. “Bonding social capital is the type produced
+within families and small groups. Bridging social capital is embedded in
+the links and relationships between different groups, for example, between
+different ethnic groups or different classes and status groups. Linking social
+capital is formed through the relationships that exist between individuals
+(or groups) and the institutions and organisations in society. Linking social
+capital not only defines specific, legal types of rights and obligations that
+link people to organisations, but also their trust in such institutions. Indi-
+viduals participate in the social capital of their groups and build a stock
+of their own that integrates them into the social fabric and defines their
+identities” (Hope and Karstedt 2003, p. 478; Karstedt 2004).
+
+SELECTION EFFECTS IN COMMUNITY-BASED EVALUATION
+
+The implication of this approach to community crime prevention for eval-
+uation research is that an appropriate operationalisation of the theory — in
+order for it to be tested (evaluated) — would contradict the methodological
+precepts of the SMS. In essence, the theory outlined above implies a set of
+necessary interaction effects in order to produce crime reduction outcomes;
+but it is precisely these kinds of interaction effect that the SMS paradigm
+282 T, HOPE
+
+would construe as ‘threats to validity’. Broadly, these take the form of two
+kinds of so-called threat:
+
+Selection x Treatment Interactions
+
+This could itself take two forms: (i.) where the intervention programme
+cannot be separated from the social and political structures in which target
+communities are embedded. For example, only certain kinds of community
+are likely to support ‘neighbourhood watch’ community organisations, thus
+state-agencies interested in establishing them will select only those kinds
+of communities that provide fertile soil for neighbourhood watch groups
+to flourish, and would be foolish and wasteful to implement them in less
+supportive types of communities (Hope and Trickett 2004); (i1.) as a con-
+sequence, a kind of ‘elective affinity’ (to use Weber’s term) is established
+between treatment and selection, so that the one cannot operate without the
+other, to the extent that the treatment itself comes to be defined in terms of
+the selection criteria (i.e. the characteristics of the setting).
+
+Treatment x Outcome (Mediation Effect)
+
+The objective of the SMS evaluation paradigm is to ensure that it is the
+treatment that causes the outcome — Conclusion I (Judd and Kenny 1981).
+However, there are two other relations between treatment and outcome
+that, although they more accurately define the process of change — through
+a sequence of mediating processes — paradoxically reduce the correlation
+between treatment and outcome that SMS designs endeavour to maximise;
+for instance: Conclusion I — where the treatment causes the potential medi-
+ator. Here, the treatment intervention into a community may actually seek
+to enhance the ‘mediating variable’ — for example, the development of the
+right mix of social capital. Thus, the intervention creates opportunities for
+bridging capital to be developed, say, by creating intra-community organi-
+sations, utilising and empowering community leaders (already possessing
+‘linking’ social capital), which then empowers the community by creating
+additional linking capital for community members, that enhances their ef-
+forts to create bridging institutions, and so on. There is also Conclusion
+II — the sum of these activities becomes the mediating variable (e.g. col-
+lective efficacy), such that when it is controlled statistically, or in research
+design, the direct correlation between the treatment variable (the originat-
+ing governance intervention) and the outcome variable (i.e. crime) disap-
+pears, even though it has actually had an important, though indirect, causal
+influence.
+
+Thus, the paradox is that were the evaluation research design to control
+for these apparent threats to validity — or that an SMS review rejected the
+evidence from studies that did not seem to have these qualities — it would
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 283
+
+be likely to reject the influence of the treatment on the outcome when,
+in practice, it had a very significant effect. In this case, it would be the
+evaluation method itself, and not the intervention, that produced the result,
+thus leading to Type II error inferences — that the treatment had no effect
+when in fact it did’. Precisely these kinds of difficulties can be illustrated
+by a concrete example taken from an evaluation of a community crime
+prevention intervention.
+
+A CASE STUDY
+
+The case study to illustrate these problems of inference is taken from our
+evaluation of the impact of the ‘Priority Estates Project’ (PEP) (Foster
+and Hope 1993). During the late 1980s and early 1990s, the PEP operated
+as consultant agents on ‘difficult-to-let’ and run down estates to institute
+changes, in partnership with the local authority, in the delivery of local
+housing services and management, and to involve tenants in the day-to-day
+running of their estates. The PEP operated according toa ‘model’ of housing
+management practice — what might now be called the PEP model of estate
+governance; and we formulated a theory (set of propositions) as to how
+we expected the model to bring about community-level crime reduction
+outcomes (Foster and Hope 1993). The evaluation research design was
+in the form of a quasi-experiment, a prospective non-equivalent control
+group design (Cook and Campbell 1979). Data were collected by survey
+and ethnography between 1987 (the pre-test condition) and 1990 (the post-
+test condition). Two pairs of estates, each consisting of an ‘experimental’
+estate (receiving the PEP intervention) and a ‘control’ estate, were studied,
+respectively, in the city of Kingston-upon-Hull, and the London Borough
+of Tower Hamlets. Both from a substantive research and a methodological
+point of view, the Hull ‘experiment’ has received the most attention (see
+Hope 1995); yet issues raised by the London comparison reveal some of
+the problems arising from the application of the SMS criteria, ironically
+revealed by the quasi-experimental design itself.®
+
+Outcomes
+
+Starting with outcomes, the evaluation appears to show rather startlingly
+counter-intuitive results. Both property crime (Figure 1) and personal
+
+7AlIthough the issue cannot be gone into here, there is also the problem of dealing with
+the ‘unintended’ consequences of the treatment, that is, another form of mediation effect
+where the treatment interacts with other variables to produce outcomes different from those
+intended by the intervention (Hope 2002).
+
+8Pawson and Tilley (1997) give an extended treatment of the Hull estates (pp. 97-103),
+and scant attention to the London estates (p. 97).
+284 T, HOPE
+
+ 
+
+ 
+
+704
+604 —
+50-4
+2
+=
+o
+a
+w
+2
+g 07
+6
+a
+2
+a
+2 Experimental Estate
+3
+oS
+£ W Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 1. Experimental versus control areas — household property crime victimisation
+incidence (per 100 residents).
+
+crime (Figure 2) victimisation of residents on their estates declined — but
+at a far greater rate on the control estate than on the experimental es-
+tate. Indeed, the reduction is dramatic and ought to have been notewor-
+thy — the reported reduction in crime (including burglary) on the control
+estate exceeded that registered during any other comparable (i.e. eval-
+uated) crime reduction initiative during that period, including that at-
+tributed to the much-vaunted Home Office Burglary Prevention Project
+on the Kirkholt Estate, Rochdale (Hope 2002b). Yet, compared with the
+latter, the causes of this reduction have received scarcely any attention
+in the crime reduction policy literature. Presumably in part this is be-
+cause the literature has either followed the general SMS approach which
+would treat such effects as negative evidence about the ‘treatment’, or the
+so-called “scientific realist’ approach that considers them of little value
+since they would be seen merely as an artefact of an invalid research
+design’.
+
+? Pawson and Tilley (1997) note that Foster and Hope (1993) “.. represent their study
+as a quasi-experimental one. . however... .this cannot add anything instructive, and indeed
+it does not do so” (ibid., 97).
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 285
+
+Experimental Estate
+
+ 
+
+Incidence (per 100 residents)
+
+2 1 Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 2. Experimental versus control areas — personal crime incidence (per 100 residents).
+
+Selection x Treatment Effects
+
+Yet the reality of what happened on each of the estates is much more re-
+vealing about the impact of the intervention and, in a sense, is illustrated
+particularly in the comparison between the two, afforded both by the re-
+search design and the collection of data simultaneously on each estate!®. By
+the end of the study period, many of the elements of the PEP model of estate
+governance had been implemented aiso on the control estate (Foster and
+Hope 1993, Table 11, p. 65). This came about for a number of reasons hav-
+ing to do with the correlation between the ‘selection’ and the ‘treatment’. In
+the first place, the principles incorporated in the PEP model were also being
+commended (with accompanying incentives) generally and widely by the
+sponsoring central government department. Thus, the convergence of the
+treatment between the estates may have been due to external national and
+borough-wide changes in policy from which few estates were exempt. The
+control estate also benefited during this period from capital expenditure to
+improve the security of the estate as a whole — again reflecting wider trends
+in social housing management policy of the time.
+
+!0This account is drawn from Foster and Hope (1993, Chapter 7), which provides further
+detail.
+286 T, HOPE
+
+Yet there was also differential interaction between the treatment-
+assignment and the quality of local housing management. As part of the
+political negotiation with the Borough, the neighbourhood housing man-
+ager for the control estate was given membership of the Research Ad-
+visory Group for the study. The consequence was to induce what Cook
+and Campbell (1979) call ‘compensatory rivalry by respondents receiving
+less desirable treatments’|' — a variant of the general ‘Hawthorne Effect’
+induced by participation in intervention programmes. Here, the local hous-
+ing team responsible for the control estate, presumably at the instigation of
+their neighbourhood housing manager, strove hard to implement as much
+of the PEP model as they could and to deliver high-quality housing man-
+agement. In contrast, in its early phases, the experimental estate suffered
+from poor quality and obstructive local housing management, which set
+back the implementation of the PEP model and may have prejudiced the
+full implementation of the treatment, especially in undermining residents’
+trust in the local authority.
+
+In sum, the implementation of the treatment interacted with the selection
+to the extent that the treatment (the selective introduction of the model
+of estate governance) was partially vitiated on the experimental estate,
+while it was mostly obviated on the control estate. Figure 3 shows the
+outcome on residents’ expectations that resulted. Possibly because this
+was a pleasant and unexpected outcome for the residents of the control
+estate, expectations of estate improvement rose during the project; but
+residents’ expectations fell on the experimental estate because the poorer
+quality of the implementation process was disappointing and demoralising.
+To that extent, the observed interactions between selection and treatment
+reflected unintended consequences from an experimental point of view,
+though actually supportive of the theory (of estate governance) on which
+the intervention was predicated, producing predictable effects on crime and
+community life, deducible from the theory that the evaluation was intended
+to test (Foster and Hope, 1993),
+
+Mediation Effects
+
+Thus, crime did reduce on both estates, in both cases as a consequence
+of residents’ maintenance of informal social control. As indicated in
+Figures 4 and 5, the greater reduction in crime on the control estate, rel-
+ative to the experimental estate, may have been produced by the greater
+increase in residents’ informal social control activity on the control estate.
+
+'l “Where the assignment of persons or organisational units to experimental and control
+conditions is made public (as it frequently must be), conditions of social competition may
+be generated. The control group, as the natural underdog, may be motivated to reduce or
+reverse the expected difference” (Cook and Campbell 1979, p. 54).
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 287
+
+445
+
+427
+
+404
+
+387
+
+36 4
+
+34 4
+
+324
+
+ 
+
+ 
+
+ 
+
+304 ane
+e ~ a Experimental Estate
+g .
+a 28 ‘ Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 3. Experimental versus control areas — “area will improve in the next two years”
+(per cent. residents).
+
+Again, this observed outcome is deducible from the theory of community
+crime prevention — that improved ‘vertical’ linkage (greater on the control
+estate, see Figure 3), interacts with ‘horizontal’ social relations to produce
+a mediated effect — informal social control — that reduces crime.
+
+Selection x Mediation Effects
+
+A further mediation effect — contributing to the different outcomes on the
+experimental and control estates — also came about as a result of differ-
+ential estate population (compositional) change, partly as a consequence
+of differential (estate) selection effects. As illustrated in Figure 6, the pro-
+portion of Bengali residents increased on both estates, at a greater rate on
+the experimental than on the control estate. At that time, the Borough as
+a whole was experiencing considerable housing pressure with regard to
+the distribution of the Bengali population — the control estate was located
+in the Western part of the Borough, the initial area of Bengali settlement.
+As a result of housing pressure and area redevelopment, the control es-
+tate Bengali population grew substantially, such that they comprised the
+majority ethnic group on the estate by the end of the ‘experiment’. The
+Borough’s housing strategy was also to alleviate pressure by resettling
+288 T, HOPE
+
+845
+
+824
+
+8074
+
+78
+
+ 
+
+76 4
+
+744
+
+ 
+
+ 
+
+= Experimental Estate
+
+o
+
+2
+
+& 72 1 Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 4. Experimental versus control areas — “feel responsible for area around home
+(territoriality)” (per cent. residents).
+
+Bengali families in the Eastern end of the Borough — where the experi-
+mental estate was located. There was a greater surplus of accommodation
+on estates in this area, though hitherto it had not been an area of settle-
+ment for the Bengali population, largely because the dominant community
+was perceived, at best, as ‘traditionally East End ° or, at worst, hostile and
+racist.
+
+Figures 7-10 show that, on both estates, the Bengali community’s ex-
+ercise of informal social control converged to the level practiced by white
+residents!*. Since, by the end of the experiment, Bengalis now consti-
+tuted the majority of residents on the control estate, overall informal so-
+cial control may have risen to a proportionately greater level than on
+the experimental estate (Figures 4 and 5). Since Bengalis were no more
+likely to be victimised than white residents, on either estate, neither before
+nor after the intervention (Foster and Hope 1993, p. 42), it would seem
+that the relative increase in informal social control on the control estate
+was a contextual effect brought about by the treatment (better housing
+
+'2 The decline in ‘territoriality’ of Bengali residents on the experimental estate may have
+been due to a relaxation of vigilance, or an artefact of small numbers in the first survey.
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 289
+
+664
+
+625
+
+604
+
+58 4
+
+564
+
+Experimental estate
+
+ 
+
+per cent
+
+54 Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 5. Experimental versus control areas — “ask neighbours to keep watch” (per cent.
+residents).
+
+management) rather than a consequence merely of population composi-
+tional change. A result again deducible from the theory of community crime
+prevention.
+
+Nevertheless, ethnographic evidence suggests a differential empower-
+ment effect on the experimental estate between the two ethnic groups, that
+resulted in a mediation of the treatment: while the incoming Bengali resi-
+dents interacted positively with the treatment (i.e. PEP consultants plus the
+local housing management), white and Afro-Caribbean residents tended to
+become demoralised — possibly because of dashed expectations resulting
+from the initially poorer quality implementation of the estate governance
+model -see Figure 3. Feeding off white residents’ inherent attitudes, this de-
+moralisation congealed into a resentment of the Bengalis’ perceived ‘pref-
+erential treatment’ by PEP, fuelling a further disengagement and resistance
+to the ‘treatment’ amongst white residents (Foster and Hope 1993, Chap-
+ter 5): “...in this climate, white residents became apathetic rather than
+aggressive. . .[because they were] a disparate group with little in common”
+(ibid, p. 43). In contrast, then, to the control estate, the residents on the
+experimental estate collectively did not raise informal control on the estate
+to an appreciably higher level — although this was substantially higher than
+290 T, HOPE
+
+80>
+
+705
+
+40+
+
+305
+
+Experimental Estate
+
+ 
+
+Per Cent Residents
+é
+L
+
+a Control Estate
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 6. Experimental versus control areas — change in Bengali resident population (per
+cent. residents).
+
+the control estate at the outset. White residents became more apathetic and
+less empowered, Bengali residents became more empowered though still
+few in numbers to make an appreciable impact. In contrast, Bengali resi-
+dents on the control estate became as empowered as Bengali residents on
+the experimental estate, but because they were greater in number, achieved
+a greater impact on informal control, and hence reduction in crime, than
+on the experimental estate.
+
+CONCLUSION
+
+The conclusion of this paper is that, despite the evident allure for policy-
+makers of the experimental paradigm, and the claims made by its protag-
+onists, it may not be the most useful method of policy evaluation, espe-
+cially applied to interventions that aim to affect the institutions, norms and
+social practices of civil society. As this case study has shown, rigorous
+application of the methodological precepts of the experimental paradigm
+in the interpretation of results can have seriously misleading policy con-
+sequences — especially the unfounded rejection of what might otherwise
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 291
+
+704
+
+405
+
+204
+
+Bengali
+
+ 
+
+per cent
+
+10 White
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 7. Experimental Area: Bengali versus White residents — “ask neighbours to keep
+watch” (per cent.)
+
+be useful and informative results, that is, Type II Error. Here, the prob-
+lem does not so much lie in the reliability of the evidence generated by
+evaluation research (which can be as good or as bad as its social scien-
+tific methodology allows) but in its validity — that is, in the method of
+inference of its logic of scientific enquiry (Popper 2002). In respect of the
+case study reported here, a ‘non-experimental’ interpretation of an ‘ex-
+periment’ yielded more interpretable results than one that faithfully held
+to purely experimental precepts of inference. To that extent, it is the par-
+ticular scientific interpretation — encapsulated in the hierarchy of values
+of Maryland Scientific Methods Scale — rather than the research meth-
+ods themselves, that undermines these protagonists’ claims to political
+utility.
+
+We have noted the rise of a new set of policy-oriented ‘crime sciences’
+who are claiming attention, in part on the grounds of their respective
+
+13 Which is not to say, as Pawson and Tilley (1997) claim, that Foster and Hope (1993) is
+an exemplar of the so-called ‘scientific realist’ method, since the logic of enquiry pursued
+in the evaluation of its research findings (which have been elaborated upon here) stands
+against the principle of induction (Popper 2002) that would seem to underpin their own
+methodological recommendations.
+292 T, HOPE
+
+705
+
+404 a
+
+Bengali
+
+ 
+
+per cent
+
+30 White
+pre-test posttest
+
+Pre-test vs. Post-test
+
+Figure 8. Control Area: Bengali versus White residents — “ask neighbours to keep watch”
+(per cent.)
+
+evaluation methodologies (Hope and Karstedt 2003). Representatives of
+both of the current ‘camps’ of protagonists — “experimentalists’ and ‘real-
+ists’ alike — were aware of the case study examined here and could have
+had the results available to them in published form at the time they were
+conducting their reviews (Sherman et al. 1997; Pawson and Tilley 1997).
+Yet both chose to ignore or over-look them, arguably for similar reasons
+— that the inferences did not arise from the methodological nostrums that
+they were asserting in support of their claims regarding useful knowl-
+edge. Attention has focused in this paper on the experimental paradigm;
+different arguments, though with the same effect, can be made regard-
+ing the realist paradigm (see Hope 2004, 2002). In either case, though,
+the pursuit of such claim-making (via methodological precept) regarding
+‘what works’ in crime reduction risks leading their respective protago-
+nists towards error as much as it does towards certainty. To the extent
+that these errors induce false rather than true conclusions, they will be
+responsible for introducing error into the legitimising claims about the
+efficacy of policy made by government; that is, of evidence leading pol-
+icy. And there is real political damage here: not only may policy-makers
+be discouraged from particular policies that they might otherwise have
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 293
+
+1109
+
+100 4
+
+904
+
+804
+
+Bengali
+
+per cent
+
+70
+pre-test
+
+ 
+
+White
+
+ 
+
+posttest
+
+Pre-test vs. Post-test
+
+Figure 9. Experimental Area: Bengali versus White residents — “feel responsible for area
+around home (territoriality) (per cent.)
+
+ 
+
+ 
+
+905
+807
+70 4
+5 Bengali
+o
+a 60 White
+pre-test
+
+posttest
+
+Pre-test vs. Post-test
+
+Figure 10. Control Area: Bengali versus White residents — “feel responsible for area around
+home (territoriality) (per cent.)
+294 T, HOPE
+
+found ideologically congenial, or felt they had an electoral mandate to
+pursue, but also, their political acumen is being subverted by false scien-
+tific conclusions. Thus, these scientists are also risking their own legiti-
+macy, if ever politicians come to suspect that their trust in science has been
+traduced.
+
+ACKNOWLEDGMENT
+
+This paper was written initially at the invitation of Margaret Shaw and
+Daniel Sansfacgon of the International Centre for the Prevention of Crime
+(ICPC) and presented at a panel organised for the Societies of Criminology
+First Key Issues Conference ‘What Works in Reducing Crime’, Paris, 13-15
+May 2004. I am also grateful to Susanne Karstedt for several discussions
+relevant to the concerns of this paper.
+
+REFERENCES
+
+Bennett, T., D. Farrington, and K. Holloway, (no date) The Effectiveness of Neigh-
+bourhood Watch: Protocal for the Campbell Collaboration in Crime and Justice.
+www.campbellcollaboration.org/fralibrary.html, accessed 4 May 2004.
+
+Brantingham, P.J. and FL. Faust, A conceptual model of crime prevention. Crime and
+Delinquency, 22, pp. 284-296. Reprinted in T. Hope (Ed.) (2000). Perspectives on Crime
+Reduction. The International Library of Criminology, Criminal Justice and Penology.
+Aldershot, Hants.: Ashgate Publishing, 1976.
+
+Campbell Collaboration. www.campbellcollaboration.org/index-html, accessed 4 May
+2004, 2004
+
+Cook, T.D. and D.T. Campbell, Quasi-Experimentation: Design and Analysis Issues for
+Field Settings. Boston, MA.: Houghton Mifflin, 1979.
+
+Foster, J. and T. Hope, Housing, Community and Crime: The impact of the Priority Estates
+Project. Home Office Research Study No. 131. London: HMSO, 1993.
+
+Halpern, R., Rebuilding the Inner City. New York: Columbia University Press, 1995.
+
+Heckman, J., ‘Microdata, heterogeneity, and the evaluation of public policy: Nobel Lecture.
+Journal of Political Economy, 109, 673-748, 2001.
+
+Heckman, J. and J.A. Smith, Assessing the case for social experiments. The Journal of
+Economic Perspectives, 9, 85-110, 1995.
+
+Hope, T., Inference and governance in crime reduction evaluation research. Paper presented
+at the Scottish Criminology Conference, University of Edinburgh, September, 2005,
+2005.
+
+Hope, T., Pretend it works: Evidence and governance in the evaluation of the Reducing
+Burglary Initiative. Criminal Justice, 4 (3), 287-308, 2004.
+
+Hope, T., “What’s “what”, and what does “works” mean?’. Paper presented to the British
+Criminology Conference, Keele, July 2002, 2002a.
+
+Hope, T., The road taken: Evaluation, replication and crime reduction. In: G. Hughes, E.
+McLaughlin and J. Muncie (Eds.), Crime Prevention and Community Safety. London:
+Sage Publications, pp. 37-57, 2002b.
+THE ‘ANTI-SOCIAL’ BIAS IN THE MARYLAND SCALE 295
+
+Hope, T., ‘Community crime prevention’. In: C. Nuttall, P. Goldblatt and C. Lewis (Eds.),
+Reducing Offending: an assessment of research evidence on ways of dealing with of-
+fending behaviour. Home Office Research Study 187. London: Home Office. Pp. 51-62,
+1998.
+
+Hope, T., Community crime prevention. In M. Tonry and D.P. Farrington (Eds). Building a
+Safer Society: Strategic Approaches to Crime Prevention. Chicago: University of Chicago
+Press. Crime and Justice: A Review of Research, 19, 21-89, 1995.
+
+Hope, T. and A. Trickett, ‘Angst Essen Seele Auf. . but it keeps away the burglars! private
+security, Neighbourhood Watch and the social reaction to crime’. KéIner Zeitschrift fiir
+Soziologie und Sozialpsychologie, Sonderheft 43, 441-468, 2004.
+
+Hope, T. and Susanne Karstedt, ‘Towards a new social crime prevention’. In: H. Kury and J.
+Obergfell-Fuchs (Eds.), Crime Prevention: New Approaches. Mainz, De.: Weisse Ring
+Verlag-GmbH. pp. 461-489, 2003.
+
+Judd, C.M. and D.A. Kenny, Estimating the Effect of Social Interventions. Cambridge:
+Cambridge University Press, 1981.
+
+Kahn, AJ. “From delinquency treatment to community development’. In: P. F. Lazarsfeld,
+W.H. Sewell, and H.L. Wilensky (Eds.), The Uses of Sociology, London: Weidenfeld
+and Nicolson. Reprinted in T. Hope (Ed.) (2000), Perspectives on Crime Reduction. The
+International Library of Criminology, Criminal Justice and Penology. Aldershot, Hants:
+Ashgate Publishing, 1968.
+
+Karstedt, S., Linking Capital: Institutionelle Dimensionen sozialen Kapitals. In: F. Kessel
+and H.-U. Otto (Hrsg) Soziale Arbeit und soziales Kapital. Zur Kritik lokaler Gemein-
+schaftlichkeit. 45-62. Wiesbaden: VS Verlag fuer Sozialwissenschaften, 2004.
+
+Oakley, A. Experiments in Knowing. Cambridge: Polity Press, 2000.
+
+Pawson, R. and N. Tilley, Realistic Evaluation. London: Sage, 1997.
+
+Pitts, J. and T. Hope, “The local politics of inclusion: The State and community safety’. Social
+Policy and Administration, Reprinted in T. Hope (Ed.), (2000). Perspectives on Crime
+Reduction. The International Library of Criminology, Criminal Justice and Penology.
+31, pp 37-58, Aldershot, Hants: Ashgate Publishing, 1997.
+
+Popper, K., The Logic of Scientific Enquiry. Routledge Classics. London and New York:
+Routledge, 2002.
+
+Sampson, R.J. and W.J. Wilson, ‘Towards a theory of race, crime and urban inequality’.
+In: J. Hagan and R.D. Peterson (Eds.), Crime and Inequality. Stanford, CA: Stanford
+University Press, 1995.
+
+Sampson, R.J.,S.W. Raudenbusch and F. Earls, Neighbourhoods and violent crime: A multi-
+level study of collective efficacy’. Science, 277, pp. 918-24. Reprinted In: T. Hope (Ed.)
+(2000). Perspectives on Crime Reduction. The International Library of Criminology,
+Criminal Justice and Penology. Aldershot, Hants. : Ashgate Publishing, 1997.
+
+Sherman, L.W., D.C Gottfredeson, D.L. MacKenzie, J. Eck, P. Reuter and S. Bushway,
+Preventing Crime: What Works, What Doesn’t, What's Promising. Research in Brief,
+July 1998. Washington, D.C.: National Institute of Justice. Reprinted in T. Hope
+(Ed.) (2000). Perspectives on Crime Reduction. The International Library of Crim-
+inology, Criminal Justice and Penology. Aldershot, Hants. : Ashgate Publishing,
+1997.
+
+Sherman, L.W., D.C Gottfredeson, D.L. MacKenzie, J. Eck, P. Reuter and S. Bushway,
+Preventing Crime: What Works, What Doesn't, What’ s Promising. Washington, D.C. US
+Office of Justice Programs. (also published as www.ncjrs.org/works/index.html, accessed
+in 1997), 1997.
+
+Welsh, B., D.P. Farrington, L.W. Sherman, D.L. MacKenzie, ‘What do we know about
+crime prevention?’. International Annals of Criminology, 40, pp. 11-31, 2002.
+296 T, HOPE
+
+Wilson, J.Q., ‘Crime and the criminologists’, Commentary, 1974, 47-53. Reprinted in
+T. Hope (Ed.) (2000). Perspectives on Crime Reduction. The International Library of
+Criminology, Criminal Justice and Penology. Aldershot, Hants. : Ashgate Publishing,
+1974.
+
+Centre for Criminological Research
+Keele University
+
+Staffordshire STS 5BG, UK
+E-mail: t.j.hope@crim.keele.ac.uk
+

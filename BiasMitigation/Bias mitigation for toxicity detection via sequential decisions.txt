@@ -1,0 +1,918 @@
+Bias Mitigation for Toxicity Detection via Sequential Decisions
+Lu Cheng
+School of Computing and Augmented
+Intelligence, Arizona State University
+Tempe, AZ, USA
+lcheng35@asu.eduAhmadreza Mosallanezhad
+School of Computing and Augmented
+Intelligence, Arizona State University
+Tempe, AZ, USA
+amosalla@asu.eduYasin N. Silva
+Department of Computer Science,
+Loyola University Chicago
+Chicago, Illinois, USA
+ysilva1@luc.edu
+Deborah L. Hall
+School of Social and Behavioral
+Sciences, Arizona State University
+Glendale, AZ, USA
+d.hall@asu.eduHuan Liu
+School of Computing and Augmented
+Intelligence, Arizona State University
+Tempe, AZ, USA
+huanliu@asu.edu
+ABSTRACT
+Increased social media use has contributed to the greater preva-
+lence of abusive, rude, and offensive textual comments. Machine
+learning models have been developed to detect toxic comments
+online, yet these models tend to show biases against users with
+marginalized or minority identities (e.g., females and African Amer-
+icans). Established research in debiasing toxicity classifiers often
+(1) takes a static or batch approach, assuming that all information
+is available and then making a one-time decision; and (2) uses a
+generic strategy to mitigate different biases (e.g., gender and racial
+biases) that assumes the biases are independent of one another.
+However, in real scenarios, the input typically arrives as a sequence
+of comments/words over time instead of all at once. Thus, decisions
+based on partial information must be made while additional input
+is arriving. Moreover, social bias is complex by nature. Each type of
+bias is defined within its unique context, which, consistent with in-
+tersectionality theory within the social sciences, might be correlated
+with the contexts of other forms of bias. In this work, we consider
+debiasing toxicity detection as a sequential decision-making pro-
+cesswhere different biases can be interdependent . In particular, we
+study debiasing toxicity detection with two aims: (1) to examine
+whether different biases tend to correlate with each other; and (2)
+to investigate how to jointly mitigate these correlated biases in an
+interactive manner to minimize the total amount of bias. At the core
+of our approach is a framework built upon theories of sequential
+Markov Decision Processes that seeks to maximize the prediction
+accuracy and minimize the bias measures tailored to individual
+biases. Evaluations on two benchmark datasets empirically validate
+the hypothesis that biases tend to be correlated and corroborate
+the effectiveness of the proposed sequential debiasing strategy.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.
+SIGIR ’22, July 11–15, 2022, Madrid, Spain
+©2022 Association for Computing Machinery.
+ACM ISBN 978-1-4503-8732-3/22/07. . . $15.00
+https://doi.org/10.1145/3477495.3531945CCS CONCEPTS
+•Security and privacy →Social aspects of security and pri-
+vacy ;•Human-centered computing →Collaborative and so-
+cial computing ;Collaborative and social computing design and
+evaluation methods ;•Computing methodologies →Supervised
+learning .
+KEYWORDS
+unintended bias, toxicity detection, sequential decision-making,
+social media
+ACM Reference Format:
+Lu Cheng, Ahmadreza Mosallanezhad, Yasin N. Silva, Deborah L. Hall,
+and Huan Liu. 2022. Bias Mitigation for Toxicity Detection via Sequential
+Decisions. In Proceedings of the 45th International ACM SIGIR Conference on
+Research and Development in Information Retrieval (SIGIR ’22), July 11–15,
+2022, Madrid, Spain. ACM, New York, NY, USA, 11 pages. https://doi.org/10.
+1145/3477495.3531945
+1 INTRODUCTION
+Current machine learning models for toxicity detection exhibit
+problematic and discriminatory performance, resulting in poorer
+prediction [ 10,33] and negatively impacting disadvantaged and
+minority groups [ 14,21,43]. That is, Instagram1sessions that in-
+clude comments with swear words can be flagged as toxic even
+when the swear words are used inoffensively and tweets containing
+words related to minority groups are more likely to be identified
+as toxic. For example, the widely-used Perspective API2has been
+found to identify “Wussup, n*gga!” and “F*cking love this. ” as toxic
+comments with high probability, revealing swear-words-based lexi-
+cal bias [ 43] and potential dialect-based racial bias against African
+American English (AAE), respectively.
+Despite promising efforts to debias toxicity detection and re-
+lated tasks (e.g., cyberbullying detection), most research to date
+(e.g., [ 9,14,42]) is based on two assumptions: (1) bias mitigation
+is a “static” problem where the model has access to all of the in-
+formation and makes a one-time decision; and (2) different types
+of biases are independent of one another. Yet, comments/words in
+social media often come in a sequence instead of all at once. In
+1https://www.instagram.com/
+2https://www.perspectiveapi.com/SIGIR ’22, July 11–15, 2022, Madrid, Spain Cheng et al.
+Figure 1: Percentages of toxic (red) and non-toxic (green) ses-
+sions containing different biases in the benchmark Insta-
+gram data [20]. “Swear in WE” denotes that there are swear
+words in sessions written in White-aligned English (WE).
+this environment, conventional batch-processing can be impracti-
+cal. Further, the relations among different biases are complex. As
+shown in Fig. 1, sessions containing comments written in Hispanic
+English (HE) or AAE with swear words contribute larger portions
+of toxic sessions than those without swear words in a benchmark
+dataset. Recent work (e.g., [ 21]) also showed evidence of intersec-
+tional bias within toxicity detection: AAE tweets were 3.7 times
+as likely and African American male tweets were 77% more likely
+to be labeled as toxic [ 21]. In the social sciences, intersectionality
+is the idea that multiple identity categories (e.g., race and gender)
+combine interactively in ways that contribute to greater bias than
+the bias associated with each category alone. Informed by these
+findings, we first hypothesize that biases tend to be correlated in
+toxicity detection.
+To effectively mitigate potentially correlated biases with a se-
+quential input, we address two challenges: (1) making sequential
+decisions based on partial information, e.g., comments observed so
+far, given that “static” debiasing may cause unnecessary delay and
+is less responsive when the input is changing (e.g., topic diversion);
+and (2) characterizing unique aspects of individual biases to reduce
+the overall bias. Conventional debiasing strategies provide a generic
+and one-size-fits-all solution. A straightforward approach is to add
+multiple fairness constraints w.r.t. different biases to the training
+process of a toxicity classifier. However, it overlooks the unique
+characteristics of each bias and confronts challenging optimization
+problems. This leads to our second hypothesis: with sequential in-
+put, sequential bias mitigation strategies that include bias measures
+tailored to individual biases can improve the debiasing performance
+in the presence of potentially correlated biases.
+To test our hypotheses, we study the novel problem of joint bias
+mitigation for toxicity detection via sequential decision-making . The
+goal is to effectively detect toxicity and mitigate potentially corre-
+lated biases as comments arrive sequentially. This work proposes a
+sequential debiasing strategy for toxicity detection – Joint – built
+on theories of sequential Markov Decision Processes (MDP) [ 2]
+and a pairwise comparison bias measure that compares every two
+groups sampled from the same bias type. Joint is model-agnostic(i.e., any standard toxicity classifier can be the input model) and
+focuses on debiasing with sequential inputs.
+The major contributions of this paper are the following:
+•We investigate the novel and practical research question of joint
+bias mitigation for toxicity detection via sequential decisions;
+•We propose two hypotheses that offer new theoretical and prac-
+tical insights for research on bias and fairness in AI.
+•We propose a sequential bias mitigation approach that takes
+sequential input seeking to maximize the prediction accuracy
+and minimize the bias measures tailored to individual biases.
+•Empirical evaluation on two benchmark datasets shows that our
+approach can effectively reduce the total amount of bias and
+present competitive prediction accuracy.
+2 RELATED WORK
+We briefly review two lines of research closely related to our work
+– toxicity detection and bias mitigation in text classification.
+2.1 Toxicity Detection
+Toxicity detection has received considerable attention as a tool
+for mitigating the detrimental impact of toxicity online (see, e.g.,
+[5,25])–where toxicity is defined as “a rude, disrespectful, or un-
+reasonable comment that is likely to make you leave a discussion”
+[1]. Toxicity is also used as an umbrella term for different kinds
+of toxic language, including language that is ‘hateful’ [ 31,35,39],
+‘offensive’ [32, 41], ‘cyberbullying’ [12, 24], or ‘abusive’ [25, 28].
+An early work in hate speech detection [ 38] extracted n-grams
+and part-of-speech tags from comments as features to train a Sup-
+port Vector Machine (SVM) classifier. Subsequent work [ 25] ex-
+amined the effectiveness of various linguistic features, such as
+character/word n-grams and word embeddings. Experimental re-
+sults found that models trained with the combination of all fea-
+tures achieved the best predictive performance. Other promising
+approaches have emerged from research on cyberbullying detec-
+tion. For instance, studies that augmented textual features with rich
+social media information, such as social network [ 36] and other
+multi-modal information (e.g., time, location) [ 8], were found to
+improve the performance of cyberbullying detection significantly.
+Notably, there has been growing interest in models designed specif-
+ically for toxicity detection (e.g., [ 5,15]). For example, because toxic
+users may continually modify their content to circumvent comment
+filters, a recent work [ 5] proposed using sentiment information to
+help detect toxicity, based on the hypothesis that it is harder for
+toxic users to hide their sentiments. Their results showed that sen-
+timent information has a positive impact on toxicity detection.
+Recent work [ 6,29] has highlighted the role of semantic context
+in detecting toxicity. Inspired by the hierarchical attention network
+proposed in [ 40], Cheng et al . [6] used a hierarchical structure to
+model a social media session with a sequence of comments and
+attention weights to differentiate the word/comment importance.
+Surprisingly, others (e.g., Pavlopoulos et al . [29] ) have found a
+lack of evidence that context improves the performance of toxicity
+classifiers. These inconsistent findings point to the need for in-depth
+analyses of context-aware toxicity detection.Bias Mitigation for Toxicity Detection via Sequential Decisions SIGIR ’22, July 11–15, 2022, Madrid, Spain
+2.2 Bias Mitigation in Text Classification
+Computational methods can reinforce and even propagate unin-
+tended biases in text classification tasks that stem from datasets [ 14],
+contextual word embeddings [ 22], distributed word embeddings [ 4,
+16], machine learning algorithms [ 9,42], and human annotators [ 18].
+In a pioneering work [ 4], word embeddings trained on Google News
+articles were found to exhibit gender stereotypes to an alarming
+extent. Yet, only a handful of studies [ 9,17,42] have focused on mit-
+igating these unintended biases in text classification, broadly, and
+toxicity detection, specifically. For example, a recent survey [ 43]
+identified and mitigated three types of biases in toxicity detection:
+identity (e.g., “gay”), swear words (e.g., “f*k”), and racial biases (e.g.,
+AAE). One approach for mitigating bias in text classification–and
+mitigating demographic bias, in particular–is data augmentation
+[14,27,34]. This approach seeks to reduce data bias stemming from
+the lower weight and/or under-representation of minority (relative
+to majority) groups by balancing the training data sets. Specifically,
+one can add external labeled data [ 14], swap gender-related terms
+[27], or assign different weights to instances from various groups
+[23]. The primary drawback of these data manipulation methods is
+their impracticality (e.g., costliness of labeling data).
+Recent work by Zhang et al. [ 42] sought to address these lim-
+itations. The authors assumed that there are discriminative and
+non-discriminative data distributions and sought to reconstruct
+the non-discriminative data distribution from discriminative ones
+by instance weighting. Another approach formulates the task as a
+constrained optimization problem [ 17]. The basic idea is to impose
+a fairness constraint w.r.t. a single bias type during model training
+such that the model is enforced to converge to a more equitable
+solution. Critically, however, prior research takes static or batch
+approaches, assuming all information it needs is available. Further-
+more, it overlooks the unique aspects within each bias and does
+not distinguish the debiasing strategies for different biases.
+Our work complements prior work by: (1) studying multiple
+potentially correlated biases with sequential input; (2) providing
+the first sequential bias mitigation strategy to jointly mitigate these
+biases; and (3) conducting an in-depth analysis of the impact of the
+size of historical information on sequential debiasing performance.
+Our findings offer new insights for both the theoretical and practical
+aspects of research on bias and fairness in AI.
+3 PROBLEM DEFINITION
+Given a corpusCof𝑁samples, a sample 𝑖∈{1,2,...,𝑁}can be a
+social media session S𝑖(e.g., an Instagram session) consisting of a
+sequence of 𝐶comments{c1,c2,...,c𝐶}. There is also a pre-defined
+set of𝐾sensitive attributes P={p1,p2,...,p𝐾}. For instance, 𝐾=2
+andP={𝑔𝑒𝑛𝑑𝑒𝑟,𝑟𝑎𝑐𝑒}when the considered sensitive attributes
+are gender and race. A sample 𝑖can also be a comment (e.g., a tweet)
+comprised of a sequence of 𝑊words{w1,w2,...,w𝑊}. Moreover,
+every sample (a session or a comment) is labeled as “non-toxic”
+(𝑌𝑖=0) or “toxic” ( 𝑌𝑖=1). Let𝐷be the number of dimensions of
+the extracted features x𝑖for every comment c𝑖in a session or every
+word w𝑖in a comment. Our proposed sequential debiasing process
+for toxicity detection aims to learn a binary classifier that jointly
+mitigates the overall bias w.r.t. the set of sensitive attributes P
+andaccurately identifies if a session or comment is toxic or not,with sequential input :
+F:P∪{ x1,x2,...,x𝑡,...,x𝐿}∈R𝐷→𝑌∈{0,1}, (1)
+where𝐿denotes the number of comments in a session or words in
+a comment. To simplify the presentation, we will use social media
+sessions in the Method section for illustration. Experimental results
+will be given for both data consisting of sessions and comments.
+4 METHOD
+Existing research in debiasing toxicity classifiers assumes that the
+model observes all the comments and then makes a one-time deci-
+sion regarding the prediction and bias mitigation. However, social
+media users interact in a sequential manner. Conventional debiasing
+approaches, therefore, are less responsive when the conversations
+between users are changing. A desired debiasing strategy should be
+able to process sequentially revealed comments and make depen-
+dent decisions. In addition, prior research studied different biases
+either individually (i.e., debiasing one type of bias at a time) or inde-
+pendently (i.e., debiasing multiple biases that are independent from
+one another). Nevertheless, bias is complex by nature and different
+biases might be correlated, as we will show in Sec. 5. Therefore, it
+is important for the sequential debiasing strategy to identify and
+capture the unique aspects of various biases. In this section, we first
+discuss how to measure bias in the presence of multiple types of bi-
+ases. Then, we detail the proposed joint bias mitigation approaches
+for toxicity detection via sequential decisions.
+4.1 Measuring Bias
+Measuring bias is key for addressing unfairness in NLP and machine
+learning models. This section presents two categories of bias metrics
+that quantify the differences in a classifier’s behaviour across a
+range of groups within the same identity, e.g., {female, male, other}
+for gender. They are the Background Comparison Metric (BCM)
+and the Pairwise Comparison Metric (PCM) [11].
+4.1.1 Background Comparison Metric. The core idea of BCM is to
+compare a measure 𝑚(e.g., False Positive/Negative Rate) of a group
+over the sensitive attribute pwith the group’s background score
+using the same measure 𝑚. The background score is defined based
+on the task at hand and the scientific questions being asked. In
+this study, it is defined as measure 𝑚over the overall evaluation
+set. We use the following common bias metrics in debiasing text
+classification as measure 𝑚in the toxicity classifier: False Negative
+Equality Difference (FNED) and False Positive Equality Difference
+(FPED) [ 14]. FNED and FPED are defined based on the False Positive
+Rate (FPR) and False Negative Rate (FNR). Formally, we define the
+BCM-based fairness metrics, FPED 𝐵𝐶𝑀 and FNED 𝐵𝐶𝑀 , as follows:
+FNED𝐵𝐶𝑀=Õ
+𝑧∈p|FNR𝑧−FNR𝑜𝑣𝑒𝑟𝑎𝑙𝑙|, (2)
+FPED𝐵𝐶𝑀=Õ
+𝑧∈p|FPR𝑧−FPR𝑜𝑣𝑒𝑟𝑎𝑙𝑙|. (3)
+where𝑧denotes the values that a sensitive attribute p∈P can
+be assigned to. For example, in case of p={𝑚𝑎𝑙𝑒,𝑓𝑒𝑚𝑎𝑙𝑒,𝑜𝑡ℎ𝑒𝑟 },
+theFNR𝑧andFPR𝑧are calculated for every group 𝑧∈p. They are
+then compared to FNR𝑜𝑣𝑒𝑟𝑎𝑙𝑙 andFPR𝑜𝑣𝑒𝑟𝑎𝑙𝑙 – which are calculatedSIGIR ’22, July 11–15, 2022, Madrid, Spain Cheng et al.
+on the entire population, including all of the considered sensitive
+attributes.
+4.1.2 Pairwise Comparison Metric. BCM allows us to investigate
+how the performance of a toxicity classifier for particular groups
+differs from the model’s general performance. When applied to
+settings with multiple biases, BCM can be less effective, as it tends
+to cancel out the differences of these distinctive biases. In addition,
+when a toxicity classifier presents low performance, the BCM-based
+metrics may underestimate the bias [ 11]. Here, we present PCM
+that quantifies how distant, on average, the performance for two
+randomly selected groups 𝑧1and𝑧2within the same attribute pis.
+This metric examines whether and to what extent the groups differ
+from one another. For example, given the sensitive attribute Race
+with three groups {White-American, African-American, Asian}, we
+consider performance differences for White-American vsAfrican-
+American ,White-American vsAsian ,African-American vsAsian . We
+formally define the PCM-based metrics as follows:
+FNED𝑃𝐶𝑀=Õ
+𝑧1,𝑧2∈(p
+2)|FNR𝑧1−FNR𝑧2|, (4)
+FPED𝑃𝐶𝑀=Õ
+𝑧1,𝑧2∈(p
+2)|FPR𝑧1−FPR𝑧2|. (5)
+In both Eq. 4 and Eq. 5, we measure the difference between every
+possible pair of groups in p∈P. This forces the algorithm to focus
+on the particular aspects of this sensitive attribute, which otherwise
+will be averaged out in the overall population.
+4.2 Sequential Bias Mitigation
+When comments come in a sequence, a toxicity classifier needs to
+make decisions based on incomplete information, i.e., comments
+observed so far. The current decision will, in turn, influence both
+future prediction results and debiasing strategies. In addition, in
+the presence of multiple biases, debiasing a toxicity classifier can
+be more challenging due to the need to capture the unique charac-
+teristics of each bias and potential correlations among biases. To
+tackle these challenges, in this section, we present a sequential bias
+mitigation approach that leverages a reinforcement learning (RL)
+framework that seeks to maximize prediction accuracy and mini-
+mize bias measures tailored to individual biases at each timestep.
+4.2.1 Debiasing via Sequential Decision Making. As comments ar-
+rive in a sequence, a debiased toxicity classifier needs to respond
+in a timely manner based only on partial information. This process
+might also involve the trade-off between debiasing and prediction
+accuracy. Our proposed solution is an RL framework built upon
+theories in sequential MDP, which allows learning to trade off
+competing objectives in a principled way [ 19]. It considers two
+tasks at each state of the decision-making process: (1) predicting
+whether the session is toxic and (2) minimizing the total amount
+of biases. In a typical RL framework, an agent 𝐴interacts with
+the environment over time. At timestep 𝑡∈{1,2,...,𝑇},𝐴chooses
+an action𝑎𝑡in response to the current state 𝑠𝑡, which causes the
+environment to change its state and returns the reward value 𝑟𝑡+1.
+Formally, we represent every interaction as an experience tuple
+𝑀𝑡=(𝑠𝑡,𝑎𝑡,𝑠𝑡+1,𝑟𝑡+1)used to train 𝐴.
+Figure 2: Proposed sequential bias mitigation approach for
+toxicity detection – Joint . The agent is a biased toxicity clas-
+sifier that takes an action 𝑎𝑡(i.e., predicting the label) based
+on the current state 𝑠𝑡(i.e., the comments observed so far). By
+maximizing the reward value returned by the reward func-
+tion – consisting of the bias measures and prediction error –
+the biased classifier is forced to improve the prediction per-
+formance and reduce the biases on the selected session from
+the evaluation set, which is a subset of the training set.
+In sequential bias mitigation for toxicity detection, the environ-
+ment includes all of the training sessions and 𝐴is a biased toxicity
+classifierF. State𝑠𝑡is a sequence of 𝑡comments𝐴has observed so
+far.𝐴selects an action 𝑎∈{toxic,non-toxic}based on an action-
+selection policy 𝜋(𝑠𝑡), which outputs the probability distribution
+over actions based on 𝑠𝑡.𝜋(𝑠𝑡,𝑎𝑡)represents the probability of
+choosing action 𝑎𝑡when observing 𝑡comments, i.e., 𝑠𝑡. After se-
+lecting𝑎𝑡, the environment returns a reward value 𝑟𝑡+1based on
+the state-action set (𝑠𝑡,𝑎𝑡). The reward values defined by the tox-
+icity prediction error and bias metrics are then used to calculate
+the cumulative discounted reward 𝐺𝑡(i.e., the sum of all rewards
+received so far) and optimize the policy 𝜋(𝑠𝑡). At each state 𝑠𝑡, the
+RL framework maximizes the expected cumulative reward until 𝑡to
+force the agent to improve accuracy and mitigate bias. Essentially,
+the agent is making dependent decisions to adjust to the sequential
+input. Fig. 2 depicts an overview of the RL framework.
+4.2.2 Reward Function. As the key element in the RL framework,
+the reward function is designed to assess the performance of the
+classifierFand jointly mitigate various types of biases over time.
+BCM-based bias metrics seek to compare the performance measure
+𝑚of a specific group 𝑧(e.g., FNR𝑧) with that over the entire popula-
+tion (e.g., FNR𝑜𝑣𝑒𝑟𝑎𝑙𝑙 ), resulting in a solution that might cancel out
+the differences of biases. However, as biases are complex (e.g., cor-
+related) and often defined within different contexts, it is important
+to distinguish the unique aspects of various biases. Therefore, we
+hypothesize that PCM is more appropriate for reducing multiple
+biases because it compares 𝑚of every pair of groups belonging to
+the same sensitive attribute pinstead of across all attributes in P.
+For example, when P={𝑟𝑎𝑐𝑒,𝑔𝑒𝑛𝑑𝑒𝑟}, PCM requires that the FNR
+of all subgroups in gender be similar while BCM seeks for similar
+FNR across all groups in both gender and race. With PCM, we only
+consider sessions related to a certain bias type instead of all of theBias Mitigation for Toxicity Detection via Sequential Decisions SIGIR ’22, July 11–15, 2022, Madrid, Spain
+Algorithm 1 The Optimization Algorithm for Joint
+Input: The dataset{D,P}with labels𝑦∈𝑌, discount rate 𝛾, bias
+importance values 𝛼𝑖∈Γ, learning rate 𝑙𝑟, number of episodes
+𝐸, terminal time 𝑇.
+Output: Debiased classifier/agent ( 𝐴)
+1:Initialize memory 𝑀
+2:Initialize agent 𝐴with parameters 𝜃and𝜋𝜃
+3:while Episode𝑒<𝐸do
+4: Initialize𝑠0by selecting a random session
+5: for𝑡∈{0,1,...,𝑇}do
+6:𝐴selects an action 𝑎𝑡according to 𝜋(𝑠𝑡)
+7:𝑀←𝑀+(𝑠𝑡,𝑎𝑡,𝑟𝑡+1,𝑠𝑡+1)
+8:𝑠𝑡←𝑠𝑡+1
+9: foreach timestep 𝑡, reward in𝑀𝑡do
+10:𝐺𝑡←Í𝑡
+𝑖=1𝛾𝑖𝑟𝑖+1
+11: end for
+12: Calculate the policy loss using
+L(𝜃)=log(𝜋𝜃(𝑠𝑡,𝑎𝑡)·𝐺𝑡)
+13: Update the agent 𝐴using Δ𝜃=𝑙𝑟∇𝜃L(𝜃)
+14: end for
+15:end while
+sessions. We thus propose to use PCM-based metrics to capture the
+unique information of p.
+Formally, we describe the RL framework by defining the environ-
+ment , the state, the action , and the reward function . The environment
+contains the training dataset Din which every session includes a
+sequence of comments. At 𝑡, the environment randomly selects a
+session and passes the first 𝑡comments of that session to the agent
+𝐴, which is a toxicity classifier Fthat outputs a decision probability
+ˆ𝑞𝑡. We convert ˆ𝑞𝑡into an action 𝑎𝑡using the following criterion:
+𝑎𝑡=(
+toxic ˆ𝑞𝑡≥0.5
+non-toxic ˆ𝑞𝑡<0.5,(6)
+Finally, we define the reward function using PCM-based bias metrics
+to jointly evaluate various types of biases as follows:
+𝑟𝑡
+𝑃𝐶𝑀=−𝑙𝑡
+F−Õ
+𝑆pi∈𝑆𝛼𝑖· 1
+|𝑆p𝑖|Õ
+𝑧1,𝑧2∈(pi
+2)|FPR𝑡
+𝑧1(7)
+−FPR𝑡
+𝑧2|+|FNR𝑡
+𝑧1−FNR𝑡
+𝑧2|,
+where𝑙𝑡
+Fdenotes the binary prediction loss (e.g., log loss) of the
+toxicity classifierF,𝛼𝑖represents the importance value of bias
+related to the sensitive attribute p𝑖∈P, and𝑆p𝑖denotes the sessions
+with sensitive attribute p𝑖.
+Similarly, the reward function using BCM-based bias metrics can
+be defined as follows:
+𝑟𝑡
+𝐵𝐶𝑀=−𝑙𝑡
+F−Õ
+𝑆pi∈𝑆𝛼𝑖· Õ
+𝑧∈pi|FPR𝑡
+𝑧 (8)
+−FPR𝑡
+𝑜𝑣𝑒𝑟𝑎𝑙𝑙|+|FNR𝑡
+𝑧−FNR𝑡
+𝑜𝑣𝑒𝑟𝑎𝑙𝑙|.
+4.2.3 Optimization Algorithm. We aim to learn an optimized action-
+selection policy 𝜋(𝑠)that maximizes the cumulative rewards based
+on Eq. 7-8. We consider the agent as a neural network with weights𝜃(e.g., a trained recurrent neural network). We use an optimization
+algorithm similar to [ 9] to force a biased toxicity detection model to
+converge to a more equitable solution. We denote the two sequential
+debiasing models as 𝐽𝑜𝑖𝑛𝑡𝐵and𝐽𝑜𝑖𝑛𝑡𝑃, respectively. Algorithm 1
+shows the high-level training process of the 𝐽𝑜𝑖𝑛𝑡 model3. During
+each episode, the environment selects a random session and returns
+the first𝑡comments in every step. Considering the observed com-
+ments as state 𝑠𝑡, the agent𝐴selects an action according to 𝜋(𝑠𝑡).
+To select the action according to the action-selection policy, we use
+the multinomial distribution to sample from the action probabilities
+𝜋(𝑠𝑡,𝑎𝑡). The performed action results in reward 𝑟𝑡+1and state
+𝑠𝑡+1. We use experiences 𝑀to calculate the cumulative reward 𝐺𝑡.
+Finally, we update the agent’s parameters using the following loss
+function and its gradient:
+L(𝜃)=log(𝜋𝜃(𝑠𝑡,𝑎𝑡)·𝐺𝑡), (9)
+Δ𝜃=𝑙𝑟∇𝜃L(𝜃). (10)
+5 EXPERIMENTS
+To test the proposed hypotheses for sequential bias mitigation in
+toxicity detection, we run experiments on two benchmark datasets
+to answer the following research questions:
+RQ. 1. With multiple types of bias present in toxicity detection,
+will different biases tend to be correlated with each other?
+RQ. 2. If ‘Yes’ to RQ. 1 , will a sequential and joint bias mitigation
+strategy tailored to individual biases outperform conventional static
+and generic debiasing approaches?
+RQ. 3. How do the size of the historical information and parameter
+𝛼influence the performance of the sequential debiasing strategy?
+5.1 Data
+We use two publicly available datasets collected from two platforms:
+Jigsaw and Instagram. They differ on data format, studied bias types,
+sample size, and overall proportion of toxic samples. Particularly,
+theJigsaw dataset consists of comments, in which words are ob-
+served over time; and the Instagram dataset consists of sessions, in
+which comments come in a sequence; The data statistics are shown
+in Table 1. Note that compared to Instagram data, each demographic
+group in the Jigsaw data has a much smaller portion of positive
+instances. We detail the two datasets below.
+•Jigsaw . The Perspective API’s Jigsaw dataset4consists of com-
+ments – extracted from the Civil Comment platform – with tox-
+icity and identity annotations. We consider gender and race as
+the sensitive attributes due to the relatively small number of
+comments associated with other identities.
+•Instagram [20]. Instagram is a top-ranked social networking site
+with the highest percentage of users reporting experiences of cy-
+berbullying [ 37]. Each Instagram sample is a social media session
+comprised of a sequence of comments in temporal order. As this
+dataset has no annotated identities (i.e., sensitive attributes), we
+detail the process of identifying potential attributes regarding
+swear words and dialect in the Experimental Setup subsection.
+3The source code and data can be found at https://github.com/GitHubLuCheng/
+DebiasTD_via_Sequential_Decisions.
+4https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classificationSIGIR ’22, July 11–15, 2022, Madrid, Spain Cheng et al.
+Table 1: Statistics of the Instagram and Jigsaw datasets: percentages of every sensitive attribute and the proportion of toxic
+samples within each group.
+InstagramGroup Swear Words DialectOverallType Present Not Present African-American Hispanic Asian White
+% data 34.80% 65.19% 15.77% 15.50% 1.26% 67.44% 100% (2,218)
+% toxicity 15.14% 13.79% 5.22% 4.59% 0% 19.11% 28.94% (642)
+JigsawGroup Gender RaceOverallType Female Male Other Black White Asian Latino Other
+% data 12.92% 83.06% 4.00% 87.96% 5.87% 2.26% 1.13% 2.75% 100% (60,766)
+% toxicity 1.87% 8.56% 0.86% 9.16% 1.45% 0.21% 0.13% 0.33% 11.30% (6,872)
+Figure 3: Instagram: The total biases (FPED + FNED) w.r.t. swear words and dialect. The 𝑥-axis denotes the number of comments
+(𝑡) the agent has observed. SOTA-D in (a) shows the total bias w.r.t. Swear Words in the Dialect-debiased SOTA.
+Figure 4: Jigsaw: The total biases (FPED + FNED) w.r.t. gender and race. The 𝑥-axis denotes the number of words (𝑡) a model has
+observed. SOTA-R in (a) shows the total bias w.r.t. Gender in the Race-debiased model.
+5.2 Experimental Setup
+We consider two commonly studied types of bias with the Insta-
+gram dataset: swear words bias and dialectal bias. For swear-words-
+related bias, we used a set of predefined toxic keywords suggested
+in the psychology literature [ 26,36]. A comment containing these
+terms is labeled as 1, otherwise as 0. To infer the dialect of a com-
+ment, we employed a lexical detector of words associated with AAE
+or WE [3], as used in previous work studying racial bias [13, 34].
+5.2.1 Baselines. As methods such as data augmentation are not
+suitable for sessions with a sequence of comments and sensitive at-
+tributes with multiple groups, we consider the following baselines:•Biased Models. These are standard machine learning models com-
+monly used for toxicity classification. We consider the hierarchi-
+cal attention network (HAN) [ 40] and the popular commercial
+model Google Jigsaw’s Perspective API . AsPerspective only works
+on a single comment, to assign the toxicity label for each Insta-
+gram session, we first use Perspective to label every comment in
+the session. The session label predicted by Perspective is then the
+majority vote of the comments’ labels.
+•Debiasing with Fairness Constraints. The Constraint model [ 17]
+is a debiased toxicity detection model that imposes fairness con-
+straints of a single bias type on standard classifiers.
+•Debiasing Models for Sequential Data. This is the state-of-the-
+art sequential bias mitigation model ( SOTA ) for cyberbullying
+detection [ 9].SOTA is built upon an RL framework in whichBias Mitigation for Toxicity Detection via Sequential Decisions SIGIR ’22, July 11–15, 2022, Madrid, Spain
+Figure 5: Jigsaw: The separate results for gender FPED and
+FNED. This complements the gender total bias in Fig. 4(a).
+the reward function considers both the predictive error and the
+harmonic mean of bias amount measured by FPED and FNED.
+For fair comparison, we further extend the BCM-based Con-
+straint into PCM-based (denoted as 𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃) and use HAN as
+the backbone model of Constraint ,𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃,SOTA , and Joint .
+Also, Constraint ,𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃, and SOTA are individual debiasing
+methods, therefore, they have several variants when considering
+multiple biases. For instance, when both gender and racial biases
+are present, there are SOTA-gender (SOTA-G, i.e., gender-debiased
+SOTA) and SOTA-race (SOTA-R, i.e., race-debiased SOTA). Detailed
+parameter settings of all approaches can be found in Appendix A.
+5.2.2 Evaluation Metrics. Evaluations in bias mitigation for toxicity
+detection typically focus on two aspects: prediction accuracy and
+bias removal. We adopt standard metrics for binary classification,
+including Precision (Prec.), Recall (Rec.), F1, and Accuracy (Acc.).
+Following [ 14,17], we use FPED, FNED, and total bias (FPED+FNED)
+to assess debiasing effectiveness. An effective model should present
+low bias and high prediction performance. For all compared mod-
+els, we use pre-trained GloVe word embeddings [ 30] and 10-fold
+cross validation with 80% data for training and the rest for testing.
+We also perform McNemar’s test to examine the statistical signifi-
+cance of the difference between models. Unless otherwise noted,
+the differences between our model and the baselines are statistically
+significant. We highlight all of the best results.
+5.3 Results
+5.3.1 Do different biases tend to be correlated? Essentially, we ask
+how a toxicity classifier debiased for one bias influences the results
+for other biases. We first show in Fig. 3-4 the total biases (i.e., FPED
++ FNED) of the two bias types in each dataset, respectively, at eachtimestep. For clear comparisons, all of the selected baselines are
+specifically designed for sequential data. Observe that for Instagram
+data, mitigating an individual bias can also reduce the other bias.
+For example, in Fig. 3(a), the total bias of swear words in SOTA-D
+(i.e., SOTA debiased for Dialect) is reduced significantly compared
+to that of the biased model, HAN. This finding appears less clear
+forJigsaw data as shown in Fig. 4, in part due to the extremely low
+percentage of positive instances in each group in Jigsaw . However,
+a deeper investigation of separate results for FPED and FNED in
+Fig. 5 shows that SOTA-R presents lower FPED and larger FNED
+w.r.t. gender than the biased model HAN. This indicates that an
+individual debiasing method designed for race can help mitigate the
+FPED of gender but increases its FNED. Therefore, we empirically
+validate our first hypothesis that biases tend to correlate .
+5.3.2 How does Joint fare against generic and static debiasing meth-
+ods? First, we observe in Fig.3-4 that sequential and joint bias miti-
+gation strategies with PCM ( 𝐽𝑜𝑖𝑛𝑡𝑃) consistently outperforms the
+biased model HAN and the generic debiasing approaches regarding
+all bias metrics over time. Further, 𝐽𝑜𝑖𝑛𝑡𝑃appears to be more ef-
+fective than 𝐽𝑜𝑖𝑛𝑡𝐵. Here, we consider both bias and classification
+measures of biased models ( HAN andPerspective ), generic and indi-
+vidual debiasing models ( Constraint ,𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃, and SOTA ), and
+sequential and joint debiasing models ( 𝐽𝑜𝑖𝑛𝑡𝐵and𝐽𝑜𝑖𝑛𝑡𝑃). Results
+for both Instagram andJigsaw datasets are shown in Table 2-3.
+We observe the following: First, it is challenging to reduce both
+FPED and FNED within the same or across different sensitive at-
+tributes due to the potential trade-off between the two bias metrics
+and correlations among biases. Second, 𝐽𝑜𝑖𝑛𝑡𝑃significantly reduces
+total bias in both datasets. Regarding prediction, it achieves the
+best recall and F1 and competitive accuracy performance (see the
+last row in Table 2 as an example). By sacrificing precision, 𝐽𝑜𝑖𝑛𝑡𝑃
+focuses more on identifying positive instances (i.e., protecting the
+victims), which is more desirable in toxicity detection [ 7]. Third,
+for the baselines, we again observe correlations between biases,
+supporting findings observed in RQ. 1 . For example, in Table 2, the
+dialect-debiased Constraint (i.e., Constaint-D) presents the lowest
+swear word FNED while in Table 3, the race FNED of Constraint-G
+is largely amplified. Lastly, PCM-based models are more effective
+than BCM-based models w.r.t. both total bias mitigation and pre-
+diction performance, as we also showed in RQ. 1 .
+ForRQ. 2 , we conclude that (1) our joint debiasing strategy out-
+performs conventional approaches in terms of both bias mitigation
+and detection performance, as also shown by previous studies us-
+ing sequential debiasing strategy [ 9]. This suggests the potential
+benefits of debiasing in a sequential manner; (2) PCM is a more ef-
+fective measure than BCM regarding jointly mitigating potentially
+correlated biases. Therefore, with correlated biases, it is important
+to consider strategies tailored to individual biases.
+5.3.3 Ablation Study. How does the size of historical information
+influence the sequential bias mitigation performance? First, the re-
+sults in Fig. 3 show that as the models observe more comments
+in a social media session, the overall bias is progressively reduced.
+ForJigsaw in Fig. 4-5, we see an overall increased bias with more
+words observed. However, for 𝐽𝑜𝑖𝑛𝑡𝑃and𝐽𝑜𝑖𝑛𝑡𝐵, the bias measures
+become more stable and even decrease after the agent observesSIGIR ’22, July 11–15, 2022, Madrid, Spain Cheng et al.
+Table 2: Instagram : Bias and classification performance of various models, “S”=swear words, “D”=dialect.
+Bias Metrics (↓) Classification Metrics ( ↑)
+FPED-S FNED-S FPED-D FNED-D Total ACC. Pre. Rec. F1
+Biased
+ModelsHAN 0.0113 0.0664 0.2229 0.6441 0.9447 0.7800 0.6370 0.5576 0.5947
+Perspective 0.0097 0.0654 0.2149 0.3865 0.6764 0.4829 0.3113 0.5708 0.4029
+Debiased
+ModelsConstraint-S 0.0331 0.0524 0.1555 0.6675 0.8885 0.8532 0.7152 0.9089 0.8004
+Constraint-D 0.0741 0.0316 0.1730 0.1170 0.3957 0.8578 0.7923 0.8994 0.8424
+𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃-S 0.0106 0.0638 0.1601 0.4203 0.6548 0.8465 0.7370 0.9315 0.8230
+𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃-D 0.0032 0.0748 0.1521 0.0797 0.3098 0.8741 0.7463 0.9217 0.8247
+SOTA-S 0.0817 0.1075 0.1260 0.2214 0.5366 0.8747 0.7230 0.9190 0.8093
+SOTA-D 0.0692 0.1336 0.0815 0.1869 0.4712 0.8981 0.9159 0.7737 0.8388
+𝐽𝑜𝑖𝑛𝑡𝐵 0.0274 0.1265 0.1541 0.1527 0.4607 0.9017 0.7819 0.9159 0.8436
+𝐽𝑜𝑖𝑛𝑡𝑃 0.0021 0.0654 0.1619 0.0756 0.3050 0.9008 0.7567 0.9688 0.8497
+Table 3: Jigsaw : Bias and classification performance of various models, “G”=gender, “R”=race.
+Bias Metrics (↓) Classification Metrics ( ↑)
+FPED-G FNED-G FPED-R FNED-R Total ACC. Pre. Rec. F1
+Biased
+ModelsHAN 0.1231 0.1204 0.2942 0.4064 0.9441 0.8811 0.4724 0.4411 0.4562
+Perspective 0.0419 0.0319 0.2011 0.5649 0.8398 0.4820 0.5693 0.3105 0.4019
+Debiased
+ModelsConstraint-G 0.0147 0.0465 0.1941 0.6920 0.9473 0.8893 0.5102 0.3790 0.4349
+Constraint-R 0.0873 0.0991 0.1669 0.3722 0.6255 0.8712 0.4946 0.4513 0.4719
+𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃-G 0.0135 0.0398 0.1863 0.4320 0.6716 0.8893 0.5378 0.3810 0.4460
+𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃-R 0.0970 0.0879 0.1135 0.1843 0.4824 0.8945 0.5421 0.3417 0.4191
+SOTA-G 0.0894 0.1153 0.2862 0.4173 0.9082 0.8828 0.4793 0.4184 0.4468
+SOTA-R 0.1096 0.1468 0.1788 0.2432 0.6784 0.8851 0.4900 0.4003 0.4407
+𝐽𝑜𝑖𝑛𝑡𝐵 0.0519 0.0761 0.1279 0.2674 0.5233 0.8937 0.4396 0.4540 0.4495
+𝐽𝑜𝑖𝑛𝑡𝑃 0.0517 0.0772 0.1198 0.2110 0.4597 0.8921 0.4667 0.4880 0.4771
+approximately 50words. We believe this is partly because a com-
+ment typically contains more semantically richer information than
+a word and biases and semantics are inherently related. For a deeper
+understanding, we vary the size of the observed historical informa-
+tion at each timestep, i.e., “window size” Δ𝐿. For example, Δ𝐿=5
+means that at 𝑡, the agent uses the comments observed from 𝑡−5
+to𝑡to take an action. In this experiment, we use both datasets to
+examine the influence of window size on reduced total bias Δ(FPED
++ FNED) w.r.t. each bias type, compared to the biased model HAN.
+The results are shown in Fig. 6-7.
+We observe that the proposed 𝐽𝑜𝑖𝑛𝑡𝑃model consistently outper-
+forms the baselines when the window size increases. Moreover, as
+window size increases, i.e., more historical comments are observed
+at each timestep, most approaches tend to remove more bias, espe-
+cially for models debiased for the same target sensitive attributes.
+For example, in Fig. 7(a), where gender is the sensitive attribute,
+we can see that the difference in gender bias between SOTA-G and
+HAN increases. The same trend is observed in 𝐽𝑜𝑖𝑛𝑡𝑃and𝐽𝑜𝑖𝑛𝑡𝐵.
+This observation is less clear for the results of Instagram , as shown
+in Fig. 6, e.g., the difference in swear word bias between HAN and
+all the debiasing models is comparatively stable as the window
+size grows. There are multiple potential reasons: (1) the number of
+comments in a session is significantly smaller than the number of
+words in a comment (see the x-axis range for the two datasets); (2)
+the annotation of sensitive attributes for Instagram is noisier, as itis automatically generated whilst that for Jigsaw is human-coded;
+and (3) words and comments provide different levels of semantic in-
+formation, and the dependency among words is often stronger than
+comments. Future experiments are needed to test these hypotheses.
+How does𝛼influence the performance of Joint? We examine the
+impact of𝛼, which controls the importance of individual biases in
+PCM, as shown in Eq. 7. We use Instagram for illustration purposes.
+Specifically, for every bias 𝑖∈{Dialect, Swear Words}, we set 𝛼𝑗≠𝑖=
+0.5while varying the 𝛼𝑖parameter as 𝛼𝑖∈{0.0,0.25,0.50,0.75,1.0}.
+We show both the prediction and bias removal results in Fig. 8.
+We can see a clear trade-off between the performance w.r.t. the
+two biases: by increasing the weight 𝛼𝑖of bias𝑖,𝐽𝑜𝑖𝑛𝑡𝑃shows
+an increase in bias 𝑗and a decrease in bias 𝑖. For example, when
+𝛼𝑆(i.e., weight for Swear Word bias) increases from 0.75to1.0,
+𝐽𝑜𝑖𝑛𝑡𝑃prioritizes the swear word bias, resulting in an increase in
+the dialect bias. In this figure, we observe the overall robustness of
+Joint to changes in 𝛼𝑖as well as the trade-off between mitigating
+multiple biases.
+5.3.4 Case Studies. In addition to the above quantitative analyses,
+we show some case studies performed on Instagram data in Fig.
+9. Several observations further support the previous quantitative
+results. In this non-bullying session, 𝐽𝑜𝑖𝑛𝑡𝑃weighs less the impor-
+tance of swear words as well as comments including these words,
+therefore, making the correct prediction. In contrast, the biasedBias Mitigation for Toxicity Detection via Sequential Decisions SIGIR ’22, July 11–15, 2022, Madrid, Spain
+Figure 6: Instagram: Δ(FPED + FNED) w.r.t. swear words
+and dialect biases for different window sizes. For example,
+Δ(FPED + FNED) of SOTA-S is the difference between the to-
+tal bias of SOTA-S and that of HAN. A larger value of Δindi-
+cates a greater reduction in bias.
+Figure 7: Jigsaw: Δ(FPED + FNED) of racial and gender biases
+for different window sizes. For example, Δ(FPED + FNED) of
+SOTA-G is the difference between the total bias of SOTA-G
+and that of HAN. A larger value of Δindicates a greater re-
+duction in bias.
+Figure 8: Instagram: Bias measures and classification perfor-
+mance (F1 score) using different values of 𝛼𝑖.
+(a) Biased model.
+(b)𝐽𝑜𝑖𝑛𝑡 𝑃with window size = 5.
+(c)𝐽𝑜𝑖𝑛𝑡 𝑃with window size = 10.
+Figure 9: Case studies on Instagram . “Probability” denotes
+the model’s output probability of predicting the true label.
+Darker color indicates larger attention weight.
+model mistakenly predicts that this session is “bullying,” due to
+the emphasis on the swear words. In addition, 𝐽𝑜𝑖𝑛𝑡𝑃with a larger
+window size, i.e., more historical information, makes the correct
+prediction with higher confidence.
+In summary, while most of the empirical findings in RQ. 1 and
+RQ. 3 suggest that the size of accessible historical information is
+critical for bias mitigation, future research is warranted to obtain
+more conclusive findings.
+6 CONCLUSION
+In contrast to the static and generic bias mitigation approaches in
+the debiasing toxicity classifier literature, this paper studies the
+novel problem of joint bias mitigation in the presence of potentially
+correlated biases with sequential input. In particular, we first empir-
+ically show that different biases tend to correlate. We then develop
+an effective solution that leverages the strengths of the theoriesSIGIR ’22, July 11–15, 2022, Madrid, Spain Cheng et al.
+in sequential MDP and the PCM-based bias measure to maximize
+prediction accuracy and jointly minimize total bias. PCM forces the
+model to focus on the differences between various biases. Empirical
+evaluation with real-world datasets corroborates the effectiveness
+of the sequential bias mitigation approach with sequential input.
+Given our finding that word- and comment-level semantics impact
+the performance differently, future research can incorporate such
+hierarchical structure and mitigate biases in a hierarchical manner.
+Our work could also be adapted to other applications/domains to
+examine the generalizability of the approach and findings. Lastly,
+the proposed approach could benefit from additional studies about
+the ways semantic context influences sequential debiasing.
+ACKNOWLEDGEMENTS
+This work is supported by the National Science Foundation under
+the grant #2036127. The views, opinions and/or findings expressed
+are the authors’ and should not be interpreted as representing the
+official views or policies of the U.S. Government.
+A REPRODUCIBILITY
+The compared approaches include two biased models (HAN and
+Prospective ), three debiased models ( Constraint ,𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑃, and
+SOTA ), and the proposed joint debiasing models ( 𝐽𝑜𝑖𝑛𝑡𝑃and𝐽𝑜𝑖𝑛𝑡𝐵).
+We detail the parameter settings for each of these approaches below.
+•HAN: We implemented the work of [ 40] with the parameter
+settings in Table 4 to pre-train the model.
+•Perspective: We used Google’s Perspective API to gather the
+toxicity probabilities for every comment in a social media session
+inInstagram and in Jigsaw . We applied the Sigmoid function to
+convert the predicted toxicity probabilities to binary labels, i.e.,
+ˆ𝑦=Sigmoid(𝑃𝑟(toxic|x)). For Instagram , we used the majority
+vote to obtain the “toxic” label for every session,
+•Constraint: We used the implementation of [ 17] and set the
+parameters of the regularization terms as 0.005.
+•Constraint P: We used the same implementation as Constraint ,
+with the constraints changed to PCM-based metrics.
+•SOTA: We used the implementation of [ 9]. The backbone model
+is a HAN following the same parameter settings as in Table 4.
+Parameters used in the RL framework can be found in Table 5.
+We set𝛽– the parameter that balances between the prediction
+error and bias measures – to 1.
+•Joint :We used the same backbone model (i.e., HAN) and param-
+eter setting for training the RL framework as in SOTA . We set
+the alpha values as 0.5for all bias types in 𝐽𝑜𝑖𝑛𝑡𝐵and𝐽𝑜𝑖𝑛𝑡𝑃.
+REFERENCES
+[1] Google Perspective API. 2022. https://www.perspectiveapi.com/.
+[2]RE Bellman. 1957. A markov decision process. journal of Mathematical Mechanics.
+(1957).
+[3]Su Lin Blodgett, Lisa Green, and Brendan O’Connor. 2016. Demographic Dialectal
+Variation in Social Media: A Case Study of African-American English. In EMNLP .
+1119–1130.
+[4]Tolga Bolukbasi, Kai-Wei Chang, James Y Zou, Venkatesh Saligrama, and Adam T
+Kalai. 2016. Man is to computer programmer as woman is to homemaker?
+debiasing word embeddings. NIPS 29 (2016), 4349–4357.
+[5]Eloi Brassard-Gourdeau and Richard Khoury. 2019. Subversive toxicity detection
+using sentiment information. In Proceedings of the Third Workshop on Abusive
+Language Online . 1–10.Table 4: The details of the parameters of the HAN classifier.
+Parameter Instagram Jigsaw
+Learning Rate 3e-3 3e-3
+Batch Size 256 256
+Word Embedding GloVe GloVe
+Embedding Dim. 100 100
+Sentence Length 150 -
+Number of Comments 100 512
+Word Attention Dim. 200 200
+Sentence Attention Dim. 200 200
+Number of Epochs 5 2
+Table 5: The details of the parameters of the RL algorithm.
+Parameter Instagram Jigsaw
+Learning Rate 1e-5 1e-5
+𝛾 0.1 0.1
+Number of Episodes 150 150
+[6]Lu Cheng, Ruocheng Guo, Yasin Silva, Deborah Hall, and Huan Liu. 2019. Hier-
+archical attention networks for cyberbullying detection on the instagram social
+network. In SDM . SIAM, 235–243.
+[7]Lu Cheng, Jundong Li, Yasin Silva, Deborah Hall, and Huan Liu. 2019. PI-bully:
+Personalized cyberbullying detection with peer influence. In The 28th Interna-
+tional Joint Conference on Artificial Intelligence (IJCAI) .
+[8]Lu Cheng, Jundong Li, Yasin N Silva, Deborah L Hall, and Huan Liu. 2019. Xbully:
+Cyberbullying detection within a multi-modal context. In WSDM . 339–347.
+[9]Lu Cheng, Ahmadreza Mosallanezhad, Yasin Silva, Deborah Hall, and Huan
+Liu. 2021. Mitigating Bias in Session-based Cyberbullying Detection: A Non-
+Compromising Approach. In ACL.
+[10] Lu Cheng, Kush R Varshney, and Huan Liu. 2021. Socially responsible AI algo-
+rithms: issues, purposes, and challenges. Journal of Artificial Intelligence Research
+71 (2021), 1137–1181.
+[11] Paula Czarnowska, Yogarshi Vyas, and Kashif Shah. 2021. Quantifying Social
+Biases in NLP: A Generalization and Empirical Comparison of Extrinsic Fairness
+Metrics. TACL (2021).
+[12] Maral Dadvar, Dolf Trieschnigg, Roeland Ordelman, and Franciska de Jong. 2013.
+Improving cyberbullying detection with user context. In ECIR . Springer, 693–696.
+[13] Thomas Davidson, Debasmita Bhattacharya, and Ingmar Weber. 2019. Racial
+Bias in Hate Speech and Abusive Language Detection Datasets. In Proceedings of
+the Third Workshop on Abusive Language Online . 25–35.
+[14] Lucas Dixon, John Li, Jeffrey Sorensen, Nithum Thain, and Lucy Vasserman. 2018.
+Measuring and mitigating unintended bias in text classification. In AIES . 67–73.
+[15] Hong Fan, Wu Du, Abdelghani Dahou, Ahmed A Ewees, Dalia Yousri, Mo-
+hamed Abd Elaziz, Ammar H Elsheikh, Laith Abualigah, and Mohammed AA
+Al-qaness. 2021. Social Media Toxicity Classification Using Deep Learning: Real-
+World Application UK Brexit. Electronics 10, 11 (2021), 1332.
+[16] Nikhil Garg, Londa Schiebinger, Dan Jurafsky, and James Zou. 2018. Word
+embeddings quantify 100 years of gender and ethnic stereotypes. Proceedings of
+the National Academy of Sciences 115, 16 (2018), E3635–E3644.
+[17] Oguzhan Gencoglu. 2020. Cyberbullying detection with fairness constraints.
+IEEE Internet Computing 25, 1 (2020), 20–29.
+[18] Mor Geva, Yoav Goldberg, and Jonathan Berant. 2019. Are We Modeling the
+Task or the Annotator? An Investigation of Annotator Bias in Natural Language
+Understanding Datasets. In EMNLP-IJCNLP . 1161–1166.
+[19] He He. 2016. SEQUENTIAL DECISIONS AND PREDICTIONS IN NATURAL
+LANGUAGE PROCESSING. PhD Dissertation (2016).
+[20] Homa Hosseinmardi, Sabrina Arredondo Mattson, Rahat Ibn Rafiq, Richard Han,
+Qin Lv, and Shivakant Mishra. 2015. Detection of cyberbullying incidents on the
+instagram social network. arXiv preprint arXiv:1503.03909 (2015).
+[21] Jae Yeon Kim, Carlos Ortiz, Sarah Nam, Sarah Santiago, and Vivek Datta. 2020.
+Intersectional bias in hate speech and abusive language datasets. In ICWSM 2020
+Data Challenge Workshop .
+[22] Keita Kurita, Nidhi Vyas, Ayush Pareek, Alan W Black, and Yulia Tsvetkov. 2019.
+Measuring Bias in Contextualized Word Representations. In Proceedings of the
+First Workshop on Gender Bias in Natural Language Processing . 166–172.Bias Mitigation for Toxicity Detection via Sequential Decisions SIGIR ’22, July 11–15, 2022, Madrid, Spain
+[23] Marzieh Mozafari, Reza Farahbakhsh, and Noël Crespi. 2020. Hate speech detec-
+tion and racial bias mitigation in social media based on BERT model. PloS one 15,
+8 (2020), e0237861.
+[24] Vinita Nahar, Xue Li, and Chaoyi Pang. 2013. An effective approach for cy-
+berbullying detection. Communications in information science and management
+engineering 3, 5 (2013), 238.
+[25] Chikashi Nobata, Joel Tetreault, Achint Thomas, Yashar Mehdad, and Yi Chang.
+2016. Abusive language detection in online user content. In WWW . 145–153.
+[26] Andrew Ortony, Gerald L Clore, and Mark A Foss. 1987. The referential structure
+of the affective lexicon. Cognitive science 11, 3 (1987), 341–364.
+[27] Ji Ho Park, Jamin Shin, and Pascale Fung. 2018. Reducing Gender Bias in Abusive
+Language Detection. In EMNLP . 2799–2804.
+[28] John Pavlopoulos, Prodromos Malakasiotis, and Ion Androutsopoulos. 2017. Deep
+Learning for User Comment Moderation. In Proceedings of the First Workshop on
+Abusive Language Online . 25–35.
+[29] John Pavlopoulos, Jeffrey Sorensen, Lucas Dixon, Nithum Thain, and Ion An-
+droutsopoulos. 2020. Toxicity Detection: Does Context Really Matter?. In ACL.
+4296–4305.
+[30] Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe:
+Global Vectors for Word Representation. In EMNLP . 1532–1543. http://www.
+aclweb.org/anthology/D14-1162
+[31] Fabio Poletto, Valerio Basile, Manuela Sanguinetti, Cristina Bosco, and Viviana
+Patti. 2021. Resources and benchmark corpora for hate speech detection: a
+systematic review. Language Resources and Evaluation 55, 2 (2021), 477–523.
+[32] Amir H Razavi, Diana Inkpen, Sasha Uritsky, and Stan Matwin. 2010. Offensive
+language detection using multi-level classification. In Canadian Conference on
+Artificial Intelligence . Springer, 16–27.
+[33] Paul Röttger, Bertram Vidgen, Dong Nguyen, Zeerak Waseem, Helen Margetts,
+and Janet Pierrehumbert. 2021. Hatecheck: Functional tests for hate speechdetection models. In ACL.
+[34] Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah A Smith. 2019.
+The risk of racial bias in hate speech detection. In ACL. 1668–1678.
+[35] Anna Schmidt and Michael Wiegand. 2017. A survey on hate speech detection us-
+ing natural language processing. In Proceedings of the fifth international workshop
+on natural language processing for social media . 1–10.
+[36] Anna Squicciarini, Sarah Rajtmajer, Y Liu, and Christopher Griffin. 2015. Iden-
+tification and characterization of cyberbullying dynamics in an online social
+network. In ASONAM . 280–285.
+[37] Ditch the Label Anti Bullying Charity. 2013. Ditch the Label Anti Bullying
+Charity: The annual cyberbullying survey 2013. https://www.ditchthelabel.org/
+wp-content/uploads/2016/07/cyberbullying2013.pdf. Accessed: 2020-09-18.
+[38] William Warner and Julia Hirschberg. 2012. Detecting hate speech on the world
+wide web. In Proceedings of the second workshop on language in social media .
+19–26.
+[39] Zeerak Waseem and Dirk Hovy. 2016. Hateful symbols or hateful people? predic-
+tive features for hate speech detection on twitter. In Proceedings of the NAACL
+student research workshop . 88–93.
+[40] Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy.
+2016. Hierarchical attention networks for document classification. In NAACL
+HLT. 1480–1489.
+[41] Marcos Zampieri, Shervin Malmasi, Preslav Nakov, Sara Rosenthal, Noura Farra,
+and Ritesh Kumar. 2019. Predicting the Type and Target of Offensive Posts in
+Social Media. In NAACL HLT . 1415–1420.
+[42] Guanhua Zhang, Bing Bai, Junqi Zhang, Kun Bai, Conghui Zhu, and Tiejun
+Zhao. 2020. Demographics should not be the reason of toxicity: Mitigating
+discrimination in text classifications with instance weighting. In ACL.
+[43] Xuhui Zhou, Maarten Sap, Swabha Swayamdipta, Noah A Smith, and Yejin Choi.
+2021. Challenges in automated debiasing for toxic language detection. In EACL .

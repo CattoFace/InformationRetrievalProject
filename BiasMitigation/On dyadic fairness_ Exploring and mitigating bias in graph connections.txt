@@ -1,0 +1,681 @@
+Published as a conference paper at ICLR 2021
+ONDYADIC FAIRNESS : EXPLORING AND MITIGATING
+BIAS IN GRAPH CONNECTIONS
+Peizhao Li1, Yifei Wang1, Han Zhao2, Pengyu Hong1, Hongfu Liu1
+1Brandeis University,2University of Illinois at Urbana-Champaign
+{peizhaoli,yifeiwang,hongpeng,hongfuliu}@brandeis.edu
+hanzhao@illinois.edu
+ABSTRACT
+Disparate impact has raised serious concerns in machine learning applications and
+its societal impacts. In response to the need of mitigating discrimination, fairness
+has been regarded as a crucial property in algorithmic designs. In this work,
+we study the problem of disparate impact on graph-structured data. Speciﬁcally,
+we focus on dyadic fairness, which articulates a fairness concept that a predictive
+relationship between two instances should be independent of the sensitive attributes.
+Based on this, we theoretically relate the graph connections to dyadic fairness on
+link predictive scores in learning graph neural networks, and reveal that regulating
+weights on existing edges in a graph contributes to dyadic fairness conditionally.
+Subsequently, we propose our algorithm, FairAdj , to empirically learn a fair
+adjacency matrix with proper graph structural constraints for fair link prediction,
+and in the meanwhile preserve predictive accuracy as much as possible. Empirical
+validation demonstrates that our method delivers effective dyadic fairness in terms
+of various statistics, and at the same time enjoys a favorable fairness-utility tradeoff.
+1 I NTRODUCTION
+The scale of graph-structured data has grown explosively across disciplines (e.g., social networks,
+telecommunication networks, and citation networks), calling for robust computational techniques to
+model, discover, and extract complex structural patterns hidden in big graph data. Research work has
+been proposed for inference learning on potential connections (Liben-Nowell & Kleinberg, 2007), and
+corresponding algorithms can be used for high-quality link prediction and recommendations (Adamic
+& Adar, 2003; Sarwar et al., 2001; Qi et al., 2006). In this work, we study the potential disparate
+impact in the prediction of dyadic relationships between two instances within a homogeneous graph.
+Despite the wide applications of link prediction algorithms, serious concerns raised by disparate
+impact (Angwin et al., 2016; Barocas & Selbst, 2016; Bose & Hamilton, 2019a; Liao et al., 2020)
+should also be reckoned with by algorithm designers. In an algorithmic context, disparate impact
+often describes the disparity in inﬂuential decisions which essentially derives from the characteristics
+protected by anti-discrimination laws or social norms. Unfortunately, this negative impact derived
+from biased data and conventional algorithms occurs in many applications including link prediction.
+One example is that a user recommender system follows the proximity principle (individuals are
+more likely to interact with similar individuals) or existing connections with intrinsic bias. Such
+an operating mode would deliver biased recommendations dominated by sensitive attributes. For
+example, users with the same religion or ethnic group are more likely to be recommended to a user,
+and consequently generate segregation in social relations by long-term accumulation (Hofstra et al.,
+2017). Another example can be noticed in news streaming. When a news app has collected the
+political proﬁle from a user, in pursuit of the user preference in news streaming, the system might
+only deliver politicking that the user is predisposed to agree with, therefore skews a user’s scope and
+narrows the view by selectively displaying reality (Pariser, 2011). To alleviate these concerns, an
+algorithm should perform a link prediction without being biased by the sensitive attribute of the two
+instances, and should also stream diverse and preferred recommendations.
+Motivated by the potential bias in real cases, in this paper we propose dyadic fairness for the link
+prediction problem in homogeneous graphs, where the dyadic fairness criterion expects the predictions
+1Published as a conference paper at ICLR 2021
+to be statistically independent of the sensitive attributes from the given two vertices. We focus our
+scope on Graph Neural Networks (GNNs), which have already shown remarkable capacity in graph
+representation learning by message passing along the graph structure (Xu et al., 2018; 2020; Ying
+et al., 2018; Wang et al., 2019; Fan et al., 2019; Li et al., 2020). Within the pipeline of GNNs, given
+an arbitrary graph, we theoretically analyze the relationship between dyadic fairness and the graph
+connections. Our ﬁndings suggest adapting weights on existing edges in a graph can contribute to
+dyadic fairness conditionally. Continuing with our theoretical ﬁndings, we propose FairAdj , an
+algorithm to empirically learn a fair adjacency matrix by updating the normalized adjacency matrix
+while keeping the original graph structure unchanged. Integrating with a utility objective function,
+the proposed algorithm seeks supplied dyadic fairness and link predictive utility simultaneously.
+Our deﬁnition of dyadic fairness in a graph context is inspired by the statistical metrics in group
+fairness (Dwork et al., 2012; Kusner et al., 2017). First, vertices in a graph are categorized into several
+groups according to a protected attribute. Then, the dyadic fairness criterion asks some standard
+statistics such as positive outcomes or false positive rate on link score to be approximately equalized
+across intra and inter groups. Essentially, such a requirement asks for a more diverse prediction
+between and within different groups deﬁned by the protected attribute, hence it also allows to mitigate
+social segregation by asking for more interactions across different protected groups in the graph.
+Empirically, we present studies on six real-world social and citation networks to demonstrate the
+effectiveness of the proposed method. We conduct evaluations towards seven measurements of
+both utility and dyadic fairness. Comparing to other baseline methods (Kipf & Welling, 2016b;
+Grover & Leskovec, 2016; Rahman et al., 2019; Bose & Hamilton, 2019b), we consistently observe
+improvements from two aspects. First, dyadic fairness metrics verify that our method can minimize
+the statistical gap between the predictions of intra and inter links. Second, in terms of utility, our
+results are consistent with the existing literature (Zhao & Gordon, 2019; Fish et al., 2016; Calders
+et al., 2009), that satisfying fairness can potentially lead to a decrease in utility. However, our
+algorithm enjoys a more favorable fairness-utility tradeoff (same in fairness but less sacriﬁce in utility,
+and vice versa) when compared to previous works. Additionally, to approach the real application
+cases, we also showcase a direct product that comes from dyadic fairness: our method can effectively
+stream more diverse recommendations containing instances holding different kinds of sensitive
+attributes.
+2 R ELATED WORK
+In this section we mainly review some closely related work in both fair machine learning and graph
+representation learning. We also brieﬂy describe and discuss several existing works on learning fair
+node representations.
+Fair Machine Learning. Various types of fairness notions have been proposed and studied, in-
+cluding group fairness (Kusner et al., 2017; Kearns et al., 2018; 2019), individual fairness (Dwork
+et al., 2012), and preference-based notions (Zafar et al., 2017a; Ustun et al., 2019). Embracing these
+deﬁnitions, relevant algorithms involving fair constraints have been proposed. Zemel et al. (2013)
+propose a method to ﬁnd a good representation to maximize utility while preserving both group
+and individual fairness. Following works on fair representation learning use autoencoder (Madras
+et al., 2018) or adversarial training (Zhao & Gordon, 2019; Zhao et al., 2019; Edwards & Storkey,
+2015; Louizos et al., 2016) to simultaneously remove the sensitive patterns while preserving enough
+information for prediction. Zafar et al. (2017b) optimize for decision boundary fairness through
+regularization in logistic regression and support vector machines, and some other works achieve
+fairness by optimal transport between sensitive groups (Gordaliza et al., 2019; Jiang et al., 2019) and
+fair kernel methods (Donini et al., 2018). However, most proposed learning algorithms for fairness
+are mainly built on independent and identically distributed data, which are not suitable to be directly
+applied to graph-structured data with dyadic fairness.
+Graph Representation Learning. Representation learning on graphs is formulated to convert a
+structural graph into a low-dimensional space while preserving the discriminative and structural
+representations. Efﬁcient graph analytic methods (V on Luxburg, 2007; Tang et al., 2015; Perozzi
+et al., 2014; Grover & Leskovec, 2016; Xu et al., 2019) can beneﬁt a series of downstream appli-
+cations including node classiﬁcation (Wang et al., 2017), node clustering (Nie et al., 2017), link
+2Published as a conference paper at ICLR 2021
+prediction (Zhang & Chen, 2018) and graph classiﬁcation as well. Recently, Graph Neural Net-
+works (GNNs) have shown remarkable capacity in graph representation learning, with emergent
+varieties (Kipf & Welling, 2016a; Veli ˇckovi ´c et al., 2017; Hamilton et al., 2017) consistently deliver-
+ing promising results. Our work uses GNNs for graph representation learning but targets improving
+dyadic fairness in link prediction.
+Fair Graph Embedding. As fairness in graph-structured data a relatively new topic for research,
+only a few studies have investigated the fair issues in graph representation learning. Rahman et al.
+(2019) ﬁrst proposed Fairwalk, a random walk based graph embedding method that revises the
+transition probability according to the vertex’s sensitive attributes. Following the idea of adversarially
+removing sensitive patterns (Madras et al., 2018), Liao et al. (2020) proposed to use adversarial
+training on vertex representations to minimize the marginal discrepancy. This work mainly focuses
+on learning node representations that are free of sensitive attributes, which is different from ours.
+Other works includes fair collaborative ﬁltering (Yao & Huang, 2017), item recommendation (Steck,
+2018; Chakraborty et al., 2019) in bipartite graphs, and fair graph covering problem (Rahmattalabi
+et al., 2019).
+3 P RELIMINARIES
+LetG:= (V,E)as a graph with a ﬁx set of vertices Vand edgesE, where vertex features with M
+dimensions are represented by X∈RN×M. A nonnegative adjacency matrix A∈RN×Ndescribes
+the relations between every pair of vertices. The element avuinArepresents the weight on the
+linkage bridging vandu, and is set to zero if no link exists. Every vertex holds a sensitive attribute,
+and we use S(v)to denotes the sensitive attribute as well as the sensitive group membership of v. Let
+Γ(v)be the set of 1-hop neighbors of vincluding self-loop. Edge (v,u)is called intra if S(v) =S(u),
+and inter implies S(v)/ne}ationslash=S(u).|S|denotes the cardinality of group S. For a binary sensitive attribute
+with two groups S0andS1separated from the graph, /tildewiderS0:={v∈S0|Γ(v)∩S1/ne}ationslash=∅}represents
+the set of vertices in S0which locate on the boundary and has connections with S1, and the same
+for/tildewiderS1. SetUto be the discrete uniform distribution over the set of vertices V. Suppose a bivariate
+link prediction function g(·,·) :RD×RD→R, that given two vectors of the embedded vertices
+representations, a value is obtained showing the model belief that these two vertices are potentially
+linked.
+Having these basic notations, we consider the disparity in link prediction bridging on intra and inter
+sensitive groups. The general purpose of dyadic fairness is to predict links independently of whether
+two vertices having the same sensitive attribute or not. We extend from demographic parity (Edwards
+& Storkey, 2015; Kipf & Welling, 2016b; Madras et al., 2018; Zemel et al., 2013) to formulate a
+speciﬁc criteria for dyadic fairness. In a binary classiﬁcation problem, demographic parity expects a
+classiﬁer gives positive outcomes to two sensitive groups at the same rate. We turn the two groups in
+the content of demographic parity into the groups of intra and inter links. Ideally, achieving dyadic
+fairness will bring intra and inter link predictions at the same rate from a bag of candidate links.
+Having vertices representation vandu, dyadic fairness can be mathematically formulated as
+Deﬁnition 3.1. A link prediction algorithm satisﬁes dyadic fairness if the predictive score satisfy
+Pr(g(u,v)|S(u) =S(v)) = Pr(g(u,v)|S(u)/ne}ationslash=S(v)) (1)
+To quantify the fairness, we establish dyadic fairness on link prediction upon a ﬁxed set of vertices,
+and models the expectation of absolute difference in score outcome across the groups of intra and
+inter links. Note that we also comprehensively evaluate our model on fairness by other four statistics
+gap extended from (Hardt et al., 2016) in Section 6.
+4 H OWGRAPH CONNECTIONS AFFECT FAIRNESS
+In this section, we propose a chain of theoretical analyses1established on a variant of demographic
+parity and graph neural networks to associate dyadic fairness with graph connections. We ﬁrst
+1Proofs for the proposition and theorem are in Appendix A.
+3Published as a conference paper at ICLR 2021
+demonstrate demographic parity in the outcomes of link prediction can be sufﬁciently reduced to
+the achievement of fair vertex representations when employing an inner product function for link
+prediction. Suggested by the sufﬁciency, we reveal how the pipeline of a one-layer graph neural
+network can affect the demographic parity, and draw the conclusion that for an arbitrary graph using
+GNNs for embedding, properly regulating the weights on existing graph connections can contribute
+to fairness conditionally. The theoretical ﬁndings motivate our algorithmic design as presented in
+the next section. Without loss of generality, in this section, we consider the sensitive attribute to be
+binary, where two sensitive groups S0andS1can be separated from the graph, but show the cases
+with sensitive attributes in multiple categorical values in our experimental section.
+Proposition 4.1. For a link prediction function g(·,·)modeled as inner product g(v,u) =v/latticetopΣu,
+whereΣ∈SM
+++is a positive-deﬁnite matrix, ∃Q >0,∀v∼V,/ba∇dblv/ba∇dbl2≤Q, forEv∼U[v]∈RM, for
+dyadic fairness based on demographic parity, if /ba∇dblEv∼U[v|v∈S0]−Ev∼U[v|v∈S1]/ba∇dbl2≤δ,
+∆DP:=|E(v,u)∼U×U[g(v,u)|S(v) =S(u)]−E(v,u)∼U×U[g(v,u)|S(v)/ne}ationslash=S(u)]|≤Q/ba∇dblΣ/ba∇dbl2·δ.
+(2)
+Remark 1. Proposition 4.1 can be applied for a general inner product function in Euclidean space,
+whereΣdirectionally and differently scales two input vectors. When setting Σto an identity matrix,
+function g(·,·)reduces to dot product and is widely used in a series of research work on link
+prediction (Kipf & Welling, 2016b; Trouillon et al., 2016; Yao & Huang, 2017).
+The above proposition implies fair vertex representations is a sufﬁcient condition to achieve demo-
+graphic parity in link prediction. Suggested by the sufﬁciency, the approach to fairness could be
+reduced to achieving vertex representations with a small discrepancy between sensitive groups. With
+the proposition, we are ready to proceed to understand fairness within graph neural networks and
+reveal how the structure or connections of a graph could affect demographic parity.
+A single layer GNN can be generically written as GNNθ(X,/tildewideA):=ρ(/tildewideAXWθ), whereρis a non-
+linear activation function, /tildewideAis the normalized adjacency matrix, and Wθis the trainable weight
+matrix. One GNN layer can be decomposed into two disjoint phases: a vertex feature smoothing phase
+over the graph using /tildewideA, and a feature embedding phase using Wθandρ. Concretely, we consider left
+normalization /tildewideA=D−1A(Dis the degree matrix) for feature smoothing. Equivalently, at an indi-
+vidual level, for each vertex it is one-hop mean-aggregation Agg(v):=degw(v)−1/summationtext
+u∈Γ(v)avuu,
+where degw(v):=/summationtext
+u∈Γ(v)avustands for the weighted degree of vertex v.
+We respectively abbreviate Ev∼U[v|v∈S0]andEv∼U[v|v∈S1]asµ0andµ1. Letσdenotes the
+maximal deviation of vertex representations, namely, ∀v∈S0,/ba∇dblv−µ0/ba∇dbl∞≤σ, and∀v∈S1,
+/ba∇dblv−µ1/ba∇dbl∞≤σ. LetDmax:= max v∈Vdegw(v)be the maximal weighted degree in G,mw:=/summationtext
+S(v)/negationslash=S(u)avube the summation of weights on inter links. With these notations, we show how the
+discrepancy between µ0andµ1changes after conducting feature smoothing for one time over the
+graph.
+Theorem 4.1. For an arbitrary graph with nonnegative link weights, after conducting one mean-
+aggregation over the graph, the consequent representation discrepancy between two sensitive groups
+∆Aggr
+DP:=/ba∇dblEv∼U[Agg(v)|v∈S0]−Ev∼U[Agg(v)|v∈S1]/ba∇dbl2is bounded by
+max{αmin/ba∇dblµ0−µ1/ba∇dbl∞−2σ,0}≤∆Aggr
+DP≤αmax/ba∇dblµ0−µ1/ba∇dbl2+2√
+Mσ, (3)
+whereαmin=min{α1,α2},αmax=max{α1,α2},α1=|1−mw
+Dmax(1
+|S0|+1
+|S1|)|,α2=|1−|/tildewiderS0|
+|S0|−|/tildewiderS1|
+|S1||.
+Remark 2. Theorem 4.1 shows the lower and upper bound given by the graph structure and the
+maximum deviation σof vertex representations in each sensitive group on demographic parity after
+conducting one aggregation function on vertices. The contraction coefﬁcient αmaxis a maximum of
+two absolute terms α1andα2, whereα2is a constant predetermined by the graph connections. It
+is worth pointing out that although in the worst case αmaxcould be 1, e.g., in a complete bipartite
+graph, in most practical graphs it is strictly less than 1, hence the above upper bound corresponds
+to a contraction lemma but under some additional error introduced by deviation σ. We also provide
+several illustrative graph diagrams for the contraction of this theorem in Appendix B.
+To approximate demographic parity after feature smoothing, Theorem 4.1 inspires a strategy to
+regulate the weights on graph connections to change α1inαmaxso as to minimize the upper bound
+4Published as a conference paper at ICLR 2021
+Algorithm 1: Algorithmic routine for FairAdj
+Input: vertex features X, adjacency matrix A, GNNs parameters θ, learning rates ηθandη/tildewideA
+Normalize adjacency matrix /tildewideA←D−1A
+Fix the elements with zero in /tildewideAand select the non-zero elements for optimization
+whileθor/tildewideAhas not converged do
+fort= 1toT1⊿optimize for utility
+do
+ComputeLutilby Eq. (5), gθ←∇θLutil,θ←θ+ηθ·Adam(θ,gθ)
+fort= 1toT2⊿optimize for fairness
+do
+Z←GNNθ(X,/tildewideA),ˆA←ZZ/latticetop⊿reconstruct graph connections
+ComputeLfairby Eq. (6), g/tildewideA←∇/tildewideALfair
+forv= 1toN ⊿projected gradient descent
+do
+Sortnnon-zero elements in [/tildewideA−η/tildewideAg/tildewideA]v,∗in descending order: e1≥e2≥···en
+γ←/summationtextn
+j=11(ej+1
+j(1−/summationtextj
+i=1ei)≥0)⊿1(·):the indicator function
+β←1
+ρ(1−/summationtextγ
+i=1ei)
+foru= 1ton⊿update /tildewideA
+do
+[/tildewideA]v,u←max{[/tildewideA−η/tildewideAg/tildewideA]v,u+β,0}
+Output: Link predictive score between vertex vandu←sigmoid(GNNθ(v,/tildewideA)/latticetopGNNθ(u,/tildewideA))
+for one-layer mean-aggregation. For term α1, obviously if the summation of inter weights are too
+small (mw→0) or too large ( mw→Dw·min{|S0|,|S1|}),α1will approximate to 1. This indicates
+that increasing the weights on inter links cannot always guarantee to achieve a better demographic
+parity although inter group connections are always the minority in links, but should regulate this part
+to a proper range depending on the size of sensitive groups and the connected situation of a graph.
+We combine the upper bound with the second feature embedding phase. Here we denote µ/p∇ime
+i:=
+Ev∼U[GNNθ(v,/tildewideA)|v∈Si],i= 0,1,Q/p∇ime:= sup{/ba∇dblGNNθ(v,/tildewideA)/ba∇dbl2|v∈V} .
+Corollary 4.1. For∆DPon vertices after passing one layer GNN θ(X,/tildewideA) =ρ(/tildewideAXWθ), we have:
+∆DP≤Q/p∇ime/ba∇dblΣ/ba∇dbl2·/ba∇dblµ/p∇ime
+0−µ/p∇ime
+1/ba∇dbl2≤QL2/ba∇dblΣ/ba∇dbl2/ba∇dblWθ/ba∇dbl2
+2·(α/ba∇dblµ0−µ1/ba∇dbl2+2√
+Mσ), (4)
+whereLis the Lipschitz constant for ρ. The ﬁrst inequality holds by Proposition 4.1, the second
+one is by Theorem 4.1 and the deﬁnition of spectral norm and Lipschitz constant, also realizing that
+Q/p∇ime≤L/ba∇dblWθ/ba∇dbl2Q. Multiple layers of GNNs can be reasoned out similarly.
+From the above theorem, we see ∆DPcan be processed with a tighter upper bound by regulating the
+weights on edges, and it is also dependent on the property of Wθ,ρ, and the error term O(σ). When
+settingWθﬁxed, our theoretical ﬁndings provide a feasible solution that regulating weights on graph
+connections can achieve better demographic parity on link prediction, and as supplementary, also
+indicate where or when it cannot perform well with ﬁnite layers of GNNs: (1) The solution cannot
+guarantee arbitrary fairness if we want to preserve the graph structure due to the resistance of α1in
+lower bound in Theorem 4.1. (2) When it is already fair enough in the original graph data, which
+means/ba∇dblµ0−µ1/ba∇dbl2is small and additional error O(σ)is comparable to it, the upper bound cannot
+be reduced signiﬁcantly and the solution may not further mitigate the bias. We include a dataset to
+investigate the potential limitations empirically in response to the above analysis in Appendix D. In
+the following sections, we implement the inspired algorithm and demonstrate that multiple real-world
+networks accept this solution with favorable results and a better fairness-utility tradeoff.
+5Published as a conference paper at ICLR 2021
+5 L EARNING FAIRGRAPH CONNECTIONS
+The above discussion indicates that when employing GNNs for graph embedding, adjusting the
+adjacency matrix can assist the model with achieving fairness conditionally. However, searching
+for the optimal adjacency matrix within hierarchical graph neural networks is a non-trivial problem.
+In this section, continuing with the preceding analysis, we develop FairAdj algorithm to adjust the
+graph connections and learn a fair adjacency matrix by updating /tildewideAwhile preserving the original
+graph structure unchanged. In overview, we implement the algorithm by separately optimizing the
+parameter Wθof GNNs towards utility, and adjusting /tildewideAtowards dyadic fairness by gradient descent
+and empirical risk minimization with structural and right stochastic constraints. Therefore, FairAdj
+is able to pursue the supplied dyadic fairness and link predictive utility simultaneously.
+We employ variational graph autoencoder (Kipf & Welling, 2016b) for feature embedding. A
+two-layer graph neural network is used as inference model GNNθ(·,·).Zdenotes the embedded
+representations, and dot product between embedded representations is the generative model p(·). The
+KL-divergence term KL[·/ba∇dbl·]punishes the discrepancy between latent distribution and a Gaussian
+prior. The objective function to reconstruct graph connections from latent variable can be written as:
+max
+θLutil:=EGNNθ(Z|X,/tildewideA)[logp(A|Z)]−KL[GNNθ(Z|X,/tildewideA)/ba∇dblN(0,1)]. (5)
+For fairness, we impel Lfairto empirically seek for better graph connections, then update /tildewideAwith
+constraints. Speciﬁcally, we optimize the normalized adjacency matrix /tildewideAas follows:
+min
+/tildewideALfair:=/ba∇dblEv,u∼U×U[ˆavu|S(v) =S(u)]−Ev,u∼U×U[ˆavu|S(v)/ne}ationslash=S(u)]/ba∇dbl2,
+s.t.(1).[/tildewideA]vu= 0,if[A]vu= 0,(2)./tildewideA 1= 1,/tildewideA≥0,(6)
+whereˆavutakes value in ˆA=ZZ/latticetopand 1is the all-one vector with size N. The two constraints
+are necessary for optimizing /tildewideA: (1) Elements with zero value should be maintained, meaning no
+new links can be established during optimization. This restriction is proposed to preserve utility, due
+to adding ﬁctitious links might mislead the directions of message passing, and further corrupt the
+representation learning. Therefore, we only adapt weights on existing edges and preserve the original
+graph structure. (2) In consistent with the initial left normalization /tildewideA=D−1A, the optimized matrix
+should still remain a right stochastic matrix. This can restrict the largest eigenvalue of adjacency
+matrix/ba∇dbl/tildewideA/ba∇dbl2= 1, hence avoid numerical instabilities and exploding gradients when training Wθ
+towardsLutil. In practice, we observe explosions during training with no constraints applied on /tildewideA.
+For the ﬁrst constraint in Eq. (6), we only compute gradients and update the elements in /tildewideAwhich
+have non-zero initialization. For the second one, after selecting the variable to optimize, we employ
+projected gradient descent by (Wang & Carreira-Perpinán, 2013) to satisfy the constraint while
+minimizingLfair. Once given computed gradients on /tildewideAdenoted as∇/tildewideALfair, with the corresponding
+learning rate η/tildewideA, we have the following optimization problem that update /tildewideAby projecting /tildewideA−
+η/tildewideA∇/tildewideALfairinto the feasible region with the minimum Euclidean distance:
+min
+/tildewideA−(η/tildewideA∇/tildewideALfair)/prime/summationdisplay
+v/ba∇dbl[/tildewideA−η/tildewideA∇/tildewideALfair]v,∗−[/tildewideA−(η/tildewideA∇/tildewideALfair)/p∇ime]v,∗/ba∇dbl2
+s.t.(/tildewideA−(η/tildewideA∇/tildewideALfair)/p∇ime) 1= 1and/tildewideA−(η/tildewideA∇/tildewideALfair)/p∇ime≥0,(7)
+where[/tildewideA]v,∗are the row-wise elements for /tildewideA, namely, all the connections on v./tildewideA−(η/tildewideA∇/tildewideALfair)/p∇ime
+is the update for /tildewideAafter projection. Since /tildewideAis row-wise independent and the objective function is
+strictly convex for this quadratic program, there exists a unique solution for each row. Solution details
+for projected gradient descent are restated as a part of our algorithmic pipeline.
+The algorithmic routine is elaborated in Algorithm 1. θand/tildewideAare optimized iteratively with T1and
+T2epochs for co-adaptation. Compared to adversarial training method on graph embedding (Bose
+& Hamilton, 2019b), which requires a hyperparameter to control the fairness-utility tradeoff, we
+also ﬁnd regulating the convergence of /tildewideAhas a similar effect as well. That is because the more /tildewideA
+changes, the further /tildewideAis away from the original graph connections, and consequently, the more
+6Published as a conference paper at ICLR 2021
+Table 1: Statistic for datasets in experiments.
+Dataset # Vertex # Edge # Class # Intra # Inter Intra Ratio Inter Ratio Dis. Ratio
+Oklahoma97 3,111 73,230 2 46,368 26,862 1.92e-2 1.11e-2 1.73
+UNC28 4,018 65,287 2 36,212 29,075 8.76e-3 7.38e-3 1.19
+Facebook#1684 786 14,024 2 7,989 6,035 4.76e-2 4.30e-2 1.11
+Cora 2,708 5,278 7 4,275 1,003 6.51e-3 3.30e-4 19.73
+Citeseer 3,312 4,660 6 2,089 2,571 2.13e-3 5.70e-4 3.74
+Pubmed 19,717 44,327 3 33,443 10,884 4.80e-4 9.00e-5 5.33
+Table 2: Experimental results on UNC28 .
+Method AUC↑ AP↑∆DP↓∆true↓∆false↓∆FNR↓∆TNR↓
+VGAE 87.63±0.56 88.69±0.65 2.24±0.42 1.50±0.41 0.44±0.36 7.62±0.84 2.18±0.72
+node2vec 87.22±0.30 87.10±0.37 2.75±0.78 1.30±0.53 1.05±0.93 12.56±1.12 2.24±0.92
+Fairwalk 87.18±0.30 87.07±0.37 2.79±0.70 1.17±0.49 0.90±0.92 12.71±1.11 2.20±0.96
+FairAdjT2=5 86.98±0.54 87.75±0.65 1.53±0.35 0.32±0.29 0.41±0.35 2.84±0.74 2.22±0.68
+FairAdjT2=20 87.04±0.55 87.80±0.65 1.57±0.36 0.34±0.31 0.42±0.35 2.76±0.75 2.16±0.73
+damage in utility but more enhancement in fairness. Thanks to this favorable property, in experiments,
+comparing to adversarially remove sensitive attributes, we present multiple options for T2to control
+the convergence and observe a more favorable fairness-utility tradeoff shown by our method.
+6 E XPERIMENTS
+We present empirical analysis on six real-world datasets, compared with baseline methods in terms of
+seven evaluative metrics on both fairness and utility. Approaching to applications, we testify that our
+method can enhance the diversity in recommendations. Due to the space limitation, we only showcase
+partial results but defer the rest in Appendix D. Moreover, as an intermediate result, we demonstrate
+vertex representations are embedded more fairly assessed by fair clustering in Appendix E.
+6.1 S ETTINGS
+Datasets. We conduct experiments on real-world social networks and citation networks including
+Oklahoma97 ,UNC28 (Traud et al., 2011), Facebook#1684 ,Cora ,Citeseer , and Pubmed .Okla-
+homa97 andUNC28 are two school social networks. A link represents a friendship relation in
+social media, and every user has a proﬁle for vertex features, including student/faculty status, gender
+(sensitive attribute), major, etc. Facebook#1684 is a social ego network from Facebook app. As
+the rest three citation networks, each vertex represents an article with bag-of-words descriptions as
+features. A link stands for a citation regardless the direction. We set the category of an article as the
+sensitive attribute. Statistic for datasets are summarized in Table 1, where #Class is the number of
+sensitive groups, #Intra/Inter Ratio represents the ratio that the number of actual intra/inter links v.s.
+the number of links if the graph is fully connected. These two terms show the density of intra/inter
+links. Dis. Ratio (abbreviated from disparity ratio) is calculated by divide intra ratio into inter ratio.
+Dis. Ratio equaling to one implies intra/inter connections are perfectly balanced in existing graph,
+and the degree of deviation from 1 indicates how skew the link connections are.
+Baselines and Protocols. We involve four baseline methods. Variational graph autoencoder
+(VGAE) (Kipf & Welling, 2016b) inherits from variational autoencoder, which uses two GNN-
+layer as the inference model and leverages latent variables to reconstruct the graph connections.
+Node2vec (Grover & Leskovec, 2016) is a widely used graph embedding approach based on random
+walk. Fairwalk (Rahman et al., 2019) is built upon node2vec and designed speciﬁcally for fairness
+issues. It modiﬁes the transition probability for one vertex according to the sensitive attribute of its
+neighbors. The last one is adversarial training on vertex representations (Bose & Hamilton, 2019b),
+which aims to minimize the discrepancy between different sensitive groups by optimizing parameters
+in GNN. Besides the standard pipeline for utility, it additionally trains the networks to confuse
+a discriminator, meanwhile training the discriminator to distinguish the embedded features with
+different sensitive attributes. A hyperparameter λis used in the overall objective function to balance
+7Published as a conference paper at ICLR 2021
+Figure 2: Diversity and utility in recommendations. Left: UNC28 ; Right: Citeseer . X-axis ‘propor-
+tion’ means we investigate the top x% valued links and check the ratio between inter and intra links
+that presented in y-axis.
+only diminish the group discrepancy, where two irrelevant instances with no connection but from
+different groups may be closely mapped, thus greatly damage the utility. The optimization on /tildewideAdoes
+facilitate the feature smoothing across groups which is not indicated in the original adjacency matrix,
+but still considers the graph connections. (2) Additionally, blue dots are more aggregated, suggesting
+our methods escape from the instability of min-max optimization and acting more robust to different
+train/test splits. However, as shown, FairAdj cannot achieve arbitrary small in ∆DPas red dots do.
+This is indicated in Section 4 as the ﬁrst potential limitation.
+Diversity in Recommendations. We examine the top-scored links in evaluation at a certain pro-
+portion in terms of its diversity and utility, shown in Figure 2. This exploration can be useful when
+conducting recommendations according to scores in descending order. For a ﬁxed proportion, we
+report the diversity as the number of inter links divided by the number of intra links, and the utility
+as the recall rate among these recommendations. Figures show that as a direct product by dyadic
+fairness, FairAdj enhances the diversity in recommendations but is achieved at a sacriﬁce of utility.
+7 C ONCLUSION
+We studied the dyadic fairness in graph-structured data. We theoretically analyzed how the con-
+nections in graph links affect dyadic fairness of demographic parity when employing graph neural
+networks for representation learning. On the basis of the foregoing analysis, we proposed FairAdj to
+learn a fair adjacency matrix, and pursued the dyadic fairness and prediction utility simultaneously.
+Empirical validations demonstrated the achievement of fairness and a better fairness-utility tradeoff.
+ACKNOWLEDGEMENT
+We would like to thank Zizhang Chen and Wei Lu for the helpful discussions, and Lizi Liao for
+providing the Oklahoma97/UNC28 datasets. This work is partially supported by NSF OAC 1920147.
+9Published as a conference paper at ICLR 2021
+REFERENCES
+Lada A Adamic and Eytan Adar. Friends and neighbors on the web. Social networks , 25(3):211–230,
+2003.
+Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner. Machine bias. ProPublica, May , 23:
+2016, 2016.
+Solon Barocas and Andrew D Selbst. Big data’s disparate impact. Calif. L. Rev. , 104:671, 2016.
+Avishek Bose and William Hamilton. Compositional fairness constraints for graph embeddings. In
+International Conference on Machine Learning , pp. 715–724. PMLR, 2019a.
+Avishek Bose and William Hamilton. Compositional fairness constraints for graph embed-
+dings. In Kamalika Chaudhuri and Ruslan Salakhutdinov (eds.), Proceedings of the 36th In-
+ternational Conference on Machine Learning , volume 97 of Proceedings of Machine Learn-
+ing Research , pp. 715–724, Long Beach, California, USA, 09–15 Jun 2019b. PMLR. URL
+http://proceedings.mlr.press/v97/bose19a.html .
+Toon Calders, Faisal Kamiran, and Mykola Pechenizkiy. Building classiﬁers with independency
+constraints. In 2009 IEEE International Conference on Data Mining Workshops , pp. 13–18. IEEE,
+2009.
+Abhijnan Chakraborty, Gourab K Patro, Niloy Ganguly, Krishna P Gummadi, and Patrick Loiseau.
+Equality of voice: Towards fair representation in crowdsourced top-k recommendations. In
+Proceedings of the Conference on Fairness, Accountability, and Transparency , pp. 129–138, 2019.
+Michele Donini, Luca Oneto, Shai Ben-David, John S Shawe-Taylor, and Massimiliano Pontil.
+Empirical risk minimization under fairness constraints. In Advances in Neural Information
+Processing Systems , pp. 2791–2801, 2018.
+Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. Fairness through
+awareness. In Proceedings of the 3rd innovations in theoretical computer science conference , pp.
+214–226, 2012.
+Harrison Edwards and Amos Storkey. Censoring representations with an adversary. arXiv preprint
+arXiv:1511.05897 , 2015.
+Wenqi Fan, Yao Ma, Qing Li, Yuan He, Eric Zhao, Jiliang Tang, and Dawei Yin. Graph neural
+networks for social recommendation. In The World Wide Web Conference , pp. 417–426, 2019.
+Benjamin Fish, Jeremy Kun, and Ádám D Lelkes. A conﬁdence-based approach for balancing
+fairness and accuracy. In Proceedings of the 2016 SIAM International Conference on Data Mining ,
+pp. 144–152. SIAM, 2016.
+Paula Gordaliza, Eustasio Del Barrio, Gamboa Fabrice, and Jean-Michel Loubes. Obtaining fairness
+using optimal transport theory. In International Conference on Machine Learning , pp. 2357–2365,
+2019.
+Aditya Grover and Jure Leskovec. node2vec: Scalable feature learning for networks. In Proceedings
+of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining , pp.
+855–864, 2016.
+Will Hamilton, Zhitao Ying, and Jure Leskovec. Inductive representation learning on large graphs. In
+Advances in neural information processing systems , pp. 1024–1034, 2017.
+Moritz Hardt, Eric Price, and Nati Srebro. Equality of opportunity in supervised learning. In Advances
+in neural information processing systems , pp. 3315–3323, 2016.
+Bas Hofstra, Rense Corten, Frank Van Tubergen, and Nicole B Ellison. Sources of segregation in
+social networks: A novel approach using facebook. American Sociological Review , 82(3):625–656,
+2017.
+Ray Jiang, Aldo Pacchiano, Tom Stepleton, Heinrich Jiang, and Silvia Chiappa. Wasserstein fair
+classiﬁcation. arXiv preprint arXiv:1907.12059 , 2019.
+10Published as a conference paper at ICLR 2021
+Michael Kearns, Seth Neel, Aaron Roth, and Zhiwei Steven Wu. Preventing fairness gerrymandering:
+Auditing and learning for subgroup fairness. In International Conference on Machine Learning ,
+pp. 2564–2572, 2018.
+Michael Kearns, Seth Neel, Aaron Roth, and Zhiwei Steven Wu. An empirical study of rich subgroup
+fairness for machine learning. In Proceedings of the Conference on Fairness, Accountability, and
+Transparency , pp. 100–109, 2019.
+Thomas N Kipf and Max Welling. Semi-supervised classiﬁcation with graph convolutional networks.
+arXiv preprint arXiv:1609.02907 , 2016a.
+Thomas N Kipf and Max Welling. Variational graph auto-encoders. arXiv preprint arXiv:1611.07308 ,
+2016b.
+Matt J Kusner, Joshua Loftus, Chris Russell, and Ricardo Silva. Counterfactual fairness. In Advances
+in Neural Information Processing Systems , pp. 4066–4076, 2017.
+Peizhao Li, Han Zhao, and Hongfu Liu. Deep fair clustering for visual learning. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 9070–9079, 2020.
+Peiyuan Liao, Han Zhao, Keyulu Xu, Tommi Jaakkola, Geoffrey Gordon, Stefanie Jegelka, and
+Ruslan Salakhutdinov. Graph adversarial networks: Protecting information against adversarial
+attacks. arXiv preprint arXiv:2009.13504 , 2020.
+David Liben-Nowell and Jon Kleinberg. The link-prediction problem for social networks. Journal of
+the American society for information science and technology , 58(7):1019–1031, 2007.
+Christos Louizos, Kevin Swersky, Yujia Li, Max Welling, and Richard S. Zemel. The variational fair
+autoencoder. In ICLR , 2016. URL http://arxiv.org/abs/1511.00830 .
+David Madras, Elliot Creager, Toniann Pitassi, and Richard Zemel. Learning adversarially fair and
+transferable representations. arXiv preprint arXiv:1802.06309 , 2018.
+Feiping Nie, Wei Zhu, and Xuelong Li. Unsupervised large graph embedding. In Thirty-ﬁrst AAAI
+conference on artiﬁcial intelligence , 2017.
+Eli Pariser. The ﬁlter bubble: How the new personalized web is changing what we read and how we
+think . Penguin, 2011.
+Bryan Perozzi, Rami Al-Rfou, and Steven Skiena. Deepwalk: Online learning of social representa-
+tions. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery
+and data mining , pp. 701–710, 2014.
+Yanjun Qi, Ziv Bar-Joseph, and Judith Klein-Seetharaman. Evaluation of different biological data and
+computational classiﬁcation methods for use in protein interaction prediction. Proteins: Structure,
+Function, and Bioinformatics , 63(3):490–500, 2006.
+Tahleen Rahman, Bartlomiej Surma, Michael Backes, and Yang Zhang. Fairwalk: towards fair graph
+embedding. In Proceedings of the 28th International Joint Conference on Artiﬁcial Intelligence ,
+pp. 3289–3295. AAAI Press, 2019.
+Aida Rahmattalabi, Phebe Vayanos, Anthony Fulginiti, Eric Rice, Bryan Wilder, Amulya Yadav, and
+Milind Tambe. Exploring algorithmic fairness in robust graph covering problems. In Advances in
+Neural Information Processing Systems , pp. 15750–15761, 2019.
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl. Item-based collaborative ﬁltering
+recommendation algorithms. In Proceedings of the 10th international conference on World Wide
+Web, pp. 285–295, 2001.
+Harald Steck. Calibrated recommendations. In Proceedings of the 12th ACM conference on recom-
+mender systems , pp. 154–162, 2018.
+Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, and Qiaozhu Mei. Line: Large-scale
+information network embedding. In Proceedings of the 24th international conference on world
+wide web , pp. 1067–1077, 2015.
+11Published as a conference paper at ICLR 2021
+Amanda L Traud, Eric D Kelsic, Peter J Mucha, and Mason A Porter. Comparing community
+structure to characteristics in online collegiate social networks. SIAM review , 53(3):526–543, 2011.
+Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. Complex
+embeddings for simple link prediction. International Conference on Machine Learning (ICML),
+2016.
+Berk Ustun, Yang Liu, and David Parkes. Fairness without harm: Decoupled classiﬁers with
+preference guarantees. In International Conference on Machine Learning , pp. 6373–6382, 2019.
+Petar Veli ˇckovi ´c, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, and Yoshua
+Bengio. Graph attention networks. arXiv preprint arXiv:1710.10903 , 2017.
+Ulrike V on Luxburg. A tutorial on spectral clustering. Statistics and computing , 17(4):395–416,
+2007.
+Weiran Wang and Miguel A Carreira-Perpinán. Projection onto the probability simplex: An efﬁcient
+algorithm with a simple proof, and an application. arXiv preprint arXiv:1309.1541 , 2013.
+Xiang Wang, Xiangnan He, Meng Wang, Fuli Feng, and Tat-Seng Chua. Neural graph collaborative
+ﬁltering. In Proceedings of the 42nd international ACM SIGIR conference on Research and
+development in Information Retrieval , pp. 165–174, 2019.
+Xiao Wang, Peng Cui, Jing Wang, Jian Pei, Wenwu Zhu, and Shiqiang Yang. Community preserving
+network embedding. In Thirty-ﬁrst AAAI conference on artiﬁcial intelligence , 2017.
+Hongteng Xu, Dixin Luo, Hongyuan Zha, and Lawrence Carin Duke. Gromov-wasserstein learning
+for graph matching and node embedding. In International Conference on Machine Learning , pp.
+6932–6941, 2019.
+Keyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka. How powerful are graph neural
+networks? arXiv preprint arXiv:1810.00826 , 2018.
+Keyulu Xu, Jingling Li, Mozhi Zhang, Simon S. Du, Ken ichi Kawarabayashi, and Stefanie Jegelka.
+What can neural networks reason about? In International Conference on Learning Representations ,
+2020. URL https://openreview.net/forum?id=rJxbJeHFPS .
+Sirui Yao and Bert Huang. Beyond parity: Fairness objectives for collaborative ﬁltering. In Advances
+in Neural Information Processing Systems , pp. 2921–2930, 2017.
+Rex Ying, Ruining He, Kaifeng Chen, Pong Eksombatchai, William L Hamilton, and Jure Leskovec.
+Graph convolutional neural networks for web-scale recommender systems. In Proceedings of
+the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining , pp.
+974–983, 2018.
+Muhammad Bilal Zafar, Isabel Valera, Manuel Rodriguez, Krishna Gummadi, and Adrian Weller.
+From parity to preference-based notions of fairness in classiﬁcation. In Advances in Neural
+Information Processing Systems , pp. 229–239, 2017a.
+Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez Rogriguez, and Krishna P Gummadi. Fairness
+constraints: Mechanisms for fair classiﬁcation. In Artiﬁcial Intelligence and Statistics , pp. 962–970.
+PMLR, 2017b.
+Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. Learning fair representations.
+InInternational Conference on Machine Learning , pp. 325–333, 2013.
+Muhan Zhang and Yixin Chen. Link prediction based on graph neural networks. In Advances in
+Neural Information Processing Systems , pp. 5165–5175, 2018.
+Han Zhao and Geoff Gordon. Inherent tradeoffs in learning fair representations. In Advances in
+neural information processing systems , pp. 15649–15659, 2019.
+Han Zhao, Amanda Coston, Tameem Adel, and Geoffrey J Gordon. Conditional learning of fair
+representations. arXiv preprint arXiv:1910.07162 , 2019.
+12Published as a conference paper at ICLR 2021
+In Appendix, we present proofs in Section A, illustrative diagrams for Theorem 4.1 in Section B,
+experimental conﬁgurations in Section C, deferred results in Section D, and the demonstration of fair
+vertex representation in Section E.
+A P ROOF
+Proposition 4.1. For a link prediction function g(·,·)modeled as inner product g(v,u) =v/latticetopΣu,
+whereΣ∈SM
+++is a positive-deﬁnite matrix, ∃Q >0,∀v∼V,/ba∇dblv/ba∇dbl2≤Q, forEv∼U[v]∈RM, for
+dyadic fairness based on demographic parity, if /ba∇dblEv∼U[v|v∈S0]−Ev∼U[v|v∈S1]/ba∇dbl2≤δ,
+∆DP:=|E(v,u)∼U×U[g(v,u)|S(v) =S(u)]−E(v,u)∼U×U[g(v,u)|S(v)/ne}ationslash=S(u)]|≤Q/ba∇dblΣ/ba∇dbl2·δ.
+(2)
+Proof. To simplify the notations, we use p:=Ev∼U[v|v∈S0]∈RMandq:=Ev∼U[v|v∈
+S1]∈RMto denote the expectations in representations for S0andS1respectively.
+|Eintra−Einter|=/vextendsingle/vextendsingleE[v/latticetopΣu|v∈S0,u∈S1]−E[v/latticetopΣu|v∈S0,u∈S0∨v∈S1,u∈S1]/vextendsingle/vextendsingle
+=/vextendsingle/vextendsingle/vextendsingle/vextendsinglep/latticetopΣq−/parenleftbigg|S0|2
+|S0|2+|S1|2p/latticetopΣp+|S1|2
+|S0|2+|S1|2q/latticetopΣq/parenrightbigg/vextendsingle/vextendsingle/vextendsingle/vextendsingle
+=/vextendsingle/vextendsingle/vextendsingle/vextendsingle(q−p)/latticetop/parenleftbigg|S0|2
+|S0|2+|S1|2Σp−|S1|2
+|S0|2+|S1|2Σq/parenrightbigg/vextendsingle/vextendsingle/vextendsingle/vextendsingle
+To simplify the notation, we will use α:=|S0|2/(|S0|2+|S1|2)andβ:=|S1|2/(|S0|2+|S1|2)
+≤/ba∇dblq−p/ba∇dbl2·/ba∇dblαΣp−βΣq/ba∇dbl2
+≤δ·/ba∇dblΣ/ba∇dbl2·(/ba∇dblαp/ba∇dbl2+/ba∇dblβq/ba∇dbl2)
+=Q/ba∇dblΣ/ba∇dbl2·δ,
+which completes the proof. The ﬁrst inequality above is due to Cauchy-Schwarz, and the second
+one is by the deﬁnition of spectral norm. The last equality holds by the linearity of expectation: if
+∀v∈V,/ba∇dblv/ba∇dbl2≤Q, then/ba∇dblE[v]/ba∇dbl2≤E[/ba∇dblv/ba∇dbl2]≤Q. /squaresolid
+Theorem 4.1. For an arbitrary graph with nonnegative link weights, after conducting one mean-
+aggregation over the graph, the consequent representation discrepancy between two sensitive groups
+∆Aggr
+DP:=/ba∇dblEv∼U[Agg(v)|v∈S0]−Ev∼U[Agg(v)|v∈S1]/ba∇dbl2is bounded by
+max{αmin/ba∇dblµ0−µ1/ba∇dbl∞−2σ,0}≤∆Aggr
+DP≤αmax/ba∇dblµ0−µ1/ba∇dbl2+2√
+Mσ, (3)
+whereαmin=min{α1,α2},αmax=max{α1,α2},α1=|1−mw
+Dmax(1
+|S0|+1
+|S1|)|,α2=|1−|/tildewiderS0|
+|S0|−|/tildewiderS1|
+|S1||.
+Proof. The feature representation of vafter conducting one mean-aggregation is
+Agg(v) =1
+degw(v)/summationdisplay
+u∈Γ(u)avuu=1
+degw(v)(/summationdisplay
+u∈Γ(u)∩S0avuu+/summationdisplay
+u∈Γ(u)∩S1avuu).
+Here we separate the summation of neighbor features into two parts in terms of the sensitive attribute.
+We use the bracket notation to abbreviate the range of a vector. That is, if a vector usatisﬁes
+µ−σ≤u≤µ+σ, we abbreviate this as u∈[µ±σ].
+Consider the unilateral case v∈S0, we have
+Agg(v)∈[/summationtext
+u∈Γ(v)∩S0
+degw(v)avuµ0+/summationtext
+u∈Γ(v)∩S1
+degw(v)avuµ1±σ· 1]
+∈[(µ0+/summationtext
+u∈Γ(v)∩S1avu
+degw(v)(µ1−µ0))±σ· 1]
+where 1is the all-one vector with proper size.
+13Published as a conference paper at ICLR 2021
+The ﬁrst derivation is due to the fact that each u∈S0lies in the range of [µ0±σ· 1]and eachu∈S1
+lies in the range of [µ1±σ· 1]. The second one is by the deﬁnition of weighted degree.
+Usingβv=/summationtext
+v∈Γ(v)∩Sopp(v)avu/degw(v)whereSopp(v)is the opposite sensitive group where v
+belongs. The expectation of Agg (v)forS0is
+Ev∼U[Agg(v)|v∈S0]∈[(1
+|S0|/summationdisplay
+v∈S0(µ0+βv(µ1−µ0)))±σ· 1]
+∈[(µ0+1
+|S0|/summationdisplay
+v∈S0βv(µ1−µ0))±σ· 1].
+And forv∈S1we have
+Ev∼U[Agg(v)|v∈S1]∈[(µ1+1
+|S1|/summationdisplay
+v∈S1βv(µ0−µ1))±σ· 1].
+Based on the above two terms, the gap in expectation of two groups after passing one mean-
+aggregation layer becomes
+Ev∼U[Agg(v)|v∈S0]−Ev∼U[Agg(v)|v∈S1]∈[(1−(1
+|S0|/summationdisplay
+v∈S0βv+1
+|S1|/summationdisplay
+v∈S1βv))·(µ0−µ1)+2σ· 1].
+Next we study the range of α/p∇ime:= 1−(|S0|−1/summationtext
+v∈S0βv+|S1|−1/summationtext
+v∈S1βv). First we consider the
+term|S0|−1/summationtext
+v∈S0βv. Since degw(v)≤Dmax,∀v∈V, we have
+/summationdisplay
+v∈S0βv=/summationdisplay
+v∈S0/summationtext
+u∈Γ(v)∩S1avu
+degw(v)≥1
+Dmax/summationdisplay
+v∈S0/summationdisplay
+u∈Γ(v)∩S1avu=mw
+Dmax.
+For non-negative weights,
+Dmax≥degw(v) =/summationdisplay
+u∈Γ(v)∩S0avu+/summationdisplay
+u∈Γ(v)∩S1avu≥/summationdisplay
+u∈Γ(v)∩S1avu.
+This means for v∈S0,
+βv=/summationtext
+u∈Γ(u)∩S1avu
+degw(u)≤1,
+thus,/summationdisplay
+v∈S0βv=/summationdisplay
+v∈/tildewiderS0βv≤|/tildewiderS0|.
+The ﬁrst equality holds because βv= 0whenv∈S0//tildewiderS0, meaning vdoesn’t contain any inter-edges.
+Since the analysis for S1is similar, we derive the lower and upper bounds for |Si|−1/summationtext
+v∈Siβv, i=
+0,1
+1
+|Si|·mw
+Dmax≤1
+|Si|/summationdisplay
+v∈Siβv≤(|/tildewideSi|
+|Si|), i= 0,1.
+Based on the above results, we give the bound for α/p∇imeas follows:
+α/p∇ime∈[ 1−(|/tildewiderS0|
+|S0|+|/tildewiderS1|
+|S1|),1−mw
+Dmax(1
+|S0|+1
+|S1|) ],
+Letαminandαmaxbe lower bound and upper bower of |α/p∇ime|, we have
+αmax= max{1−(|/tildewiderS0|
+|S0|+|/tildewiderS1|
+|S1|),1−mw
+Dmax(1
+|S0|+1
+|S1|)}
+αmin= min{1−(|/tildewiderS0|
+|S0|+|/tildewiderS1|
+|S1|),1−mw
+Dmax(1
+|S0|+1
+|S1|)}
+14

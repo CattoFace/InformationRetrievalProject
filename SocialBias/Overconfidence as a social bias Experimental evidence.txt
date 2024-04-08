@@ -1,0 +1,634 @@
+Economics Letters 122 (2014) 203-207
+
+ 
+
+ 
+
+Contents lists available at ScienceDirect
+
+Economics Letters
+
+journal homepage: www.elsevier.com/locate/ecolet
+
+ 
+
+ 
+
+Overconfidence as a social bias: Experimental evidence
+
+Till Proeger ', Lukas Meub*!
+
+Faculty of Economic Sciences, Chair of Economic Policy and SME Research, University of Goettingen, Platz der Goettinger Sieben 3, 37073, Goettingen,
+
+Germany
+
+ 
+
+HIGHLIGHTS
+
+ 
+
+We compare the overconfidence for an individual and a social, observational experiment.
+
+We find realistic confidence levels in the individual setting on average.
+
+The social setting reduces underconfidence compared to the individual setting.
+
+e
+e
+e Introducing the observation of other subjects considerably increases the overconfidence.
+e
+e
+
+Our results suggest that overconfidence is a social rather than an individual bias.
+
+ 
+
+ 
+
+ 
+
+ARTICLE INFO ABSTRACT
+
+Article history: The overconfidence bias is discussed extensively in economic studies, yet fails to hold experimentally once
+
+Received 27 August 2013 monetary incentives and feedback are implemented. We consider overconfidence as a social bias. For a
+
+Received in revised form simple real effort task, we show that, individually, economic conditions effectively prevent overconfi-
+ovember
+
+Accepted 22 November 2013
+Available online 4 December 2013
+
+dence. By contrast, the introduction of a very basic, purely observational social setting fosters overcon-
+fident self-assessments. Additionally, observing others’ actions effectively eliminates underconfidence
+
+compared to the individual setting.
+
+JEL classification:
+c91
+DO3
+D83
+
+Keywords:
+
+Laboratory experiment
+Overconfidence bias
+Real effort
+Self-assessment
+
+Social interaction
+
+© 2013 Elsevier B.V. All rights reserved.
+
+ 
+
+1. Introduction
+
+The overconfidence bias is a firmly established feature of in-
+dividual behavior in psychological research. In economics, it is
+put forth extensively to explain inefficient market outcomes con-
+nected to a biased sense of self-confidence. Recent studies on
+overconfidence cover, among others, the role of investor expe-
+rience (Menkhoff et al., 2013), CEOs’ overconfidence and invest-
+ment (Malmendier and Tate, 2005), insurance behavior (Sandroni
+and Squintani, 2013), gender and investment (Barber and Odean,
+2001), monetary policy decisions (Claussen et al., 2012), financial
+trading (Biais et al., 2005), employee incentive schemes (Larkin and
+
+* Corresponding author. Tel.: +49 551 39 7761; fax: +49 551 39 19558.
+E-mail addresses: till. proeger@wiwi.uni-goettingen.de (T. Proeger),
+lukas. meub@wiwi.uni-goettingen.de (L. Meub).
+
+1 please note that the authors contributed equally to this work.
+
+0165-1765/§ - see front matter © 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.econlet.2013.11.027
+
+Leider, 2012) and pricing decisions for consumer goods (Grubb,
+2009). The majority of economic studies invoking the dismal
+effects of overconfidence either build on overconfidence as a styl-
+ized fact or reproduce the psychological experiments with non-
+incentivized individual tasks and self-assessments.
+
+However, there is substantiated criticism concerning the
+applications of overconfidence within economics as being too far-
+reaching.” Clark and Friesen (2009) point to the uncritical adoption
+of overconfidence by showing that the individual overconfidence
+for both relative and absolute self-assessments is easily avoided
+ina real effort task once monetary incentives and timely feedback
+are provided.? In line with Hoelzl and Rustichini (2005), they show
+
+2 We focus on the economic aspects of overconfidence and thus refrain from
+elaborating upon the debate within psychological research on its robustness. For
+an overview of this discussion, see Moore and Healy (2008).
+
+3 A further economic study critical of the classic interpretations of better-than-
+average self-assessments is provided by Benoit and Dubra (2011), who show that
+204 T. Proeger, L. Meub / Economics Letters 122 (2014) 203-207
+
+that the alleged persistence of overconfidence is mostly due to
+a lack of economic conditions and the ambiguity of the traits
+evaluated. Their doubts over the indiscriminate applicability of
+overconfidence as a stylized fact in economics connect well to
+more general considerations regarding the robustness of biases
+under economic conditions, with monetary incentives and learning
+effects correcting behavioral anomalies (Levitt and List, 2007; List
+and Millimet, 2008). Persistent biases subsequently result from
+laboratory conditions and thus hold little external validity (Zizzo,
+2010).
+
+While these results challenge the notion of a pervasive indi-
+vidual overconfidence in economic contexts, Burks et al. (2013)
+provide a different angle by explaining overconfidence as a social
+signaling bias, as initially suggested by Bénabou and Tirole (2002).
+The signaling of confidence is thus a means of individually gain-
+ing advantages by appearing more competent than others. This
+connects well with Johnson and Fowler’s (2011) model, which
+suggests that overconfidence might be an evolutionarily ratio-
+nal strategy. Therefore, claiming resources through biased self-
+assessments in individuals and populations leads to net benefits
+at the aggregate level. This helps to explain how a swift spread of
+overconfidence in social settings can be favorable, given that the
+potential costs of failure are smaller than the average gains of suc-
+cessfully claiming resources.
+
+However, while overconfidence as a social bias is convincing, to
+date no experimental study applying economic conditions has in-
+vestigated overconfidence in a social context. Although monetary
+incentives and feedback are shown to eliminate the overconfidence
+for individuals, implementing a social context might in turn fos-
+ter overconfidence. This could explain how individuals show a rea-
+sonable confidence when deciding autonomously in experiments
+yet display overconfidence in numerous economic contexts, such
+as finance, trade or investment. Consequently, this paper aims to
+identify the effect of introducing a social setting on individuals’ re-
+ported levels of confidence. We replicate the basic experimental
+features of Clark and Friesen (2009) and implement a simple mech-
+anism of observing other players. By running two experiments, we
+show that even a very basic social context triggers overconfidence.
+We thus find that — while realistic individually — subjects display
+overconfidence once the observation of others is enabled, despite
+monetary incentives.
+
+2. Experimental design
+
+Of the two experiments, experiment 1 (Individual) features
+individual decisions, while experiment 2 (Observation) implements
+a social context by randomly matching three players who observe
+the respective decisions of the other two players. There are no
+pay-off externalities, yet full information on the other players’
+actions. However, observing others neither provides any additional
+information, nor does it alter the rational strategy. Thus, no
+incentives for the active signaling of competence are implemented
+to determine exclusively the increase in confidence due to a social
+context. All other parameters are identical across experiments.
+Subjects are asked to complete a real effort task of ten simple
+calculations and an ensuing self-assessment of their success, which
+is repeated three times. For the real effort task itself, we draw
+on Meub et al. (2013). Participants predict future values using a
+formula that comprises four determinants and remains constant
+throughout the experiment. The formula is x, = a, +b; —C +d,
+
+the behavior regularly characterized as overconfident is actually consistent with
+rational Bayesian updating.
+
+with x, being the value participants are asked to predict in round
+t, while a,, b,, c. are known determinant values changing in each
+round.’ d, is a random variable, which is uniformly distributed
+over the interval [—15, 15]. Its realizations are unknown to the
+participants and change every round. The expected value is zero;
+therefore, the rational strategy to maximize payoffs is given by
+the calculation of the respective expected values, consequently
+ignoring d,.
+
+Following every block of ten calculations, participants are
+asked to assess how many of their predictions were correct.
+We thus draw on Clark and Friesen (2009), who argue that this
+type of frequency-based method for eliciting confidence levels
+is more intuitively understood by participants.’ After every such
+self-assessment, feedback concerning the actual performance is
+provided to participants in order to enable learning effects. Partic-
+ipants have one minute for every calculation and self-assessment.
+To identify over- or underconfidence, we define a prediction as
+correct if it is three points over or under the correct value for the
+respective round. This is explained to participants using a simple
+example in the instructions. For the example of the third round,
+E(x,) equals 114, d,; is —11 and thus the correct value is 103. All pre-
+dicted values within the interval [100, 106] are evaluated as being
+correct. Given that all values for d, are equally likely, the probabil-
+ity of a correct prediction is 7/31 = 0.226 if the prediction does
+not deviate more than 12 points from the expected value. Assum-
+ing this is true for all ten predictions of one block, the rational self-
+assessment or confidence level equals two correct answers out of
+the ten calculations. A confidence level greater than 2 is never op-
+timal and can unambiguously be characterized as overconfident,
+whereas values smaller than two indicate underconfidence.®
+
+The payoff for both experiments in each round is fifty cents
+minus double the absolute difference between the respective
+prediction and the actual value; therefore, payoffs cannot become
+negative. Subjects earn one euro for each correct self-assessment.
+Given the realizations for all determinants, following the rational
+strategy of predicting the expected values of x, yields on average
+0.28€ per prediction in both treatments.’ When choosing the
+rational level of confidence, subjects are correct in two out of
+three blocks, thus earning an additional 2€. A completely rational
+subject would receive 10.34€, plus the 1.5€ show-up fee. For
+Individual (Observation), we have 2 (4) sessions with a total of 30
+(90) subjects (using zTree, Fischbacher, 2007, and ORSEE, Greiner,
+2004). Experiments were conducted at the Géttingen Laboratory
+of Behavioral Economics using a standard subject pool across
+all disciplines. 48% of participants in our sample were female.
+Including show-up fees, subjects earned 11.29€ on average.®
+
+4 Note that the calculations are intentionally relatively easy to complete. For
+instance, the calculation in the third round for the expected value of x is 95 + 55 —
+36 = 114; a task that every participant should be able to complete. Additionally,
+subjects were able to use the Windows calculator implemented in the z-Tree
+program.
+
+5 See Cesariniet al. (2006) for an investigation into the effects of different modes
+of self-assessment. They support the view that confidence interval estimations
+account for a large share of the observable bias and opt for frequency-based self-
+assessments as a more reliable measurement of overconfidence.
+
+6 Clearly, this criterion changes for fewer optimal predictions in a given block.
+However, as we will show in Section 3.1, subjects manage to predict very accurately,
+such that the threshold of two correct answers holds as the optimal level of
+confidence.
+
+7 The actual average payoff per prediction for a rational player is thus slightly
+lower than the expected average payoff given the determinant d’s standard
+deviation of 8.94 = sqrt[(31? — 1)/12]. Plugging the standard deviation in our
+payoff function yields an expected average payoff of 0.32€ [= 50 — 2 * (8.94)].
+
+8 Instructions and screenshots are available from the authors upon request.
+T. Proeger, L. Meub / Economics Letters 122 (2014) 203-207 205
+
+ 
+
+block 1 block 2 block 3
++-
+3.38
+
+7
+& 260 2.63 2.58
+=
+¢
+3 2.20 247
+—
+oad
+o
+>
+2
+c
+oO
+@Q
+E |
+
+ol
+
+observation — individual observation _ individual observation — individual
+
+Fig. 1. Mean reported levels of confidence. Note: the horizontal line represents the rational level of confidence.
+
+3. Results
+3.1. Prediction accuracy
+
+We compare our experiments in terms of the accuracy of pre-
+dictions in the real effort task and the self-assessments. The per-
+formance in the real effort task is measured by the absolute
+deviations of predictions from the payoff maximizing expected
+values. We find around the same prediction accuracy in Observa-
+tion compared to Individual, whereby the average absolute devi-
+ation amounts to 4.641 points and 4.697, respectively. There are
+learning effects, with individuals provided the opportunity to ob-
+serve the actions of others tending to learn faster while starting
+off less accurate in the first block.° Learning leads to a reduction of
+outlier predictions; accordingly, the standard deviation from the
+expected values decreases from 12.03 (16.61) in block 1 of Individ-
+ual(Observation) to 8.40 (7.19) in block 2 to 6.04 (6.03) in block 3.
+
+In sum, subjects perform rather well in our numerical predic-
+tion task; indeed, we find 40.7% (44.7%) of predictions in Individual
+(Observation) to be optimal and 95.4% (95.6%) in the range of po-
+tentially correct predictions opened up by the random variable d,
+of [E(x,) — 15, E(x) + 15].
+
+These small differences in prediction accuracy hold no rele-
+vance for the derivation of the optimal level of confidence. This can
+be seen when deriving the expected number of correct predictions
+conditional on the subjects’ performance, i.e. the optimal levels of
+confidence given the predictions made. In Individual (Observation),
+this optimal reported level of confidence amounts to 2.02 (2.01) in
+block 1, 2.19 (2.21) in block 2 and 2.21 (2.22) in block 3. Recall that
+the payoff-maximizing reported level of confidence for an individ-
+ual is never greater than two. Thus, there should be no differences
+between the experiments in this regard.
+
+However, as can be seen in Fig. 1, there is a higher level of
+confidence in Observation for all blocks (z = 1.961, p = 0.0499 for
+block 1;z = 1.614, p = 0.1066 forblock2;z = 1.968, p = 0.0490
+for block 3; Mann-Whitney U-Test). Thus, the average level of
+confidence is around 30% higher for Observation. For blocks 2 and 3,
+
+9 In Individual (Observation), the average absolute deviation amounts to 5.87
+(7.33) in block 1, 4.69 (3.65) in block 2 and 3.59 (2.97) in block 3.
+
+this gap is reduced to around 20%, which is still remarkably large.'°
+We conclude that the level of confidence depends on the social
+context of the decision situation, which in our case is constituted
+by the opportunity of observing the actions of others.
+
+Result 1. Observing other players’ decisions triggers overconfi-
+dence.
+
+3.2. Distribution of reported confidence
+
+When considering the distribution of the reported levels of con-
+fidence, we can show that underconfidence occurs more frequently
+in Individual. As Fig. 2 shows, there are almost no reported levels of
+confidence smaller than 2 in Observational, with only 6.3% equal to
+1 or 0. In Individual, this value amounts to 17.78% overall, which is
+even higher for blocks 2 (23.33%) and 3 (20%). Accordingly, the dis-
+tribution of reported levels of confidence is significantly different
+across treatments (p = 0.014; Fisher’s exact).
+
+Result 2. When decisions are taken individually, over- and under-
+confident decisions tend to even out on average. Observing others
+eliminates most underconfident decisions.
+
+3.3. Homogeneity of decisions
+
+Finally, we are interested in the effect of the homogeneity of
+decisions within the three randomly matched players (“group”) on
+
+10 Note that the share of male participants is 56.8% in Individual, compared to
+
+33.3% in Observation (Fisher's exact: two-sided: p = 0.061). However, there is
+neither a gender difference for the average reported confidence levels in individual
+(2.5/2.2 for males/females; MWU-test: z = 1.379, p = 0.168) nor for Observation
+(2.8/3.0 for males/females; MWU-test: z = -—1.098,p = 0.272). While the
+treatment effect is apparent for both male (12%) and female participants (36%),
+the effect tends to be weaker for males. Using weighted averages to account
+for the differences in gender distribution shows that overall differences across
+treatments are only slightly affected by the oversampling of females in Individual.
+For block 1/2/3 of Observation (Individual), gender weighted averages of reported
+confidence levels amount to 3.45/2.65/2.60 (2.61/2.25/2.25), ie. a treatment
+effect of 32%/18%/16%. Our results are also robust against other demographic
+characteristics, which are equally distributed across treatments (Fisher’s exact:
+two-sided: p = 0.804 for native speaker, p = 0.683 for age, p = 0.174 for semester
+of study, p = 0.913 for number of former experiment participations, p = 0.295 for
+field of study).
+206
+
+individual, block 1
+
+0
+
+observation, block 1
+
+fraction
+6
+
+ 
+
+ 
+
+individual, block 2
+
+T. Proeger, L. Meub / Economics Letters 122 (2014) 203-207
+
+individual, block 3
+
+observation, block 2
+
+observation, block 3
+
+oo | | | | | & dius Eta | —
+
+ 
+
+23 4 5 5 012 3 4 5 5¢ 0 12 3 4 5 5¢
+reported level of confidence
+Fig. 2. Distribution of reported levels of confidence.
+black 1
+
+eo]
+
+~ o<
+
+o 4 « «
+
+<8 « «
+
+oF “eu eek « « *
+
+adi ce Ne ed hee « «
+
+adn Data cme cee e ae *
+o * er! «
+6 °e4 «
+o
+zs block 2
+=
+cel; «
+6
+Gol « «
+=
+o°7 ac «
+Bk. tots
+2 a4 iecceemense ne <*
+2 2x <n
+oe
+=
+5 block 3
+aol
+oe <
+
+o 4 «
+
+t4ee eee :
+
+ot | Scot encemersoe eee
+
+*
+o4«
+0 25 50 75 100 125
+
+mean deviation
+
+Fig. 3. Homogeneity and reported levels of confidence. Note: mean deviation denotes the sum of absolute deviations of a player’s prediction from the two observed
+predictions averaged over rounds for the respective block. Each cross represents a player’s reported level of confidence in the respective block.
+
+the level of confidence. We measure homogeneity by the sum of
+absolute deviations of a player’s predictions from the two observed
+ones.
+
+Fig. 3 again shows the learning effects in terms of prediction
+accuracy, which makes predictions more homogeneous in blocks 2
+and 3, as well as decreasing levels of confidence. However, there is
+no systematic relationship between the homogeneity of decisions
+(smaller deviations) and confidence. Reported levels of confidence
+vary arbitrarily over the deviations realized within a group.'! Note,
+however, that average deviations within groups are fairly small
+
+11 We applied numerous other measures to identify the level of homogeneity
+within a group. Moreover, we run regressions of the reported level of confidence on
+the different homogeneity measures and a set of control variables (block, number
+of predictions within the optimal interval, etc.). All results indicate that there
+is no systematic relationship between the homogeneity and reported levels of
+confidence.
+
+overall: the highest deviation of around 25 in block 3 implies a
+deviation of only 1.25 points per subject and prediction. Thus,
+within the overall rather homogeneous decisions, less deviation
+does not lead to higher self-assessments.
+
+Result 3. The reported level of confidence does not depend on the
+homogeneity of group members’ decisions.
+
+4. Conclusion
+
+The economic literature on overconfidence seemingly portrays
+a contradiction: while the bias is shown for numerous real-world
+situations, it can be easily eliminated in experiments using mon-
+etary incentives and feedback, both of which doubtlessly prevail
+in the contexts discussed in economic studies on overconfidence
+(e.g. in investment or financial trading).
+
+We resolve this ambiguity by pointing to overconfidence
+as a social bias. Individually, subjects display a rational level
+T. Proeger, L. Meub / Economics Letters 122 (2014) 203-207 207
+
+of confidence, which supports the results of Clark and Friesen
+(2009) and Hoelzl and Rustichini (2005). As one of the most
+basic social settings, the observation of others strongly fosters
+overconfidence by effectively eliminating the underconfidence in
+one’s own performance. This result holds regardless of the actual
+homogeneity of the decisions within a group.
+
+When interpreting the remarkable increase in confidence
+caused by the reduction of underconfident self-assessments, two
+complementary explanations seem plausible. Given that the actual
+intra-group homogeneity is high, underconfident subjects may be
+encouraged by the perception of group conformity. Based on the
+“meta-preference for conformity” (Klick and Parisi, 2008, p. 1319),
+subjects have been shown to become more confident when see-
+ing their compliance with group members. Alternatively, when un-
+derconfident subjects are confronted with rather heterogeneous
+group decisions, they might still perceive homogeneity as being
+high due to the false consensus effect. This anomaly prompts indi-
+viduals to falsely assume that their decisions are in line with the
+majority of others. The subsequent feeling of compliance is shown
+to boost individual confidence regardless of the actual conformity
+of decisions (for the seminal contribution, see Ross et al., 1977). En-
+gelmann and Strobel (2012) confirm this anomaly under economic
+conditions, given that the information on the actual consensus of
+subjects “is not handed to them on a silver platter” (ibid. p.679). This
+would also hold true in our case, as the levels of deviation within
+groups (i.e. the actual consensus) take effortful computing. While
+both approaches appear valid, a comprehensive explanation as to
+why underconfident subjects are encouraged by observing others
+should be subject to further studies.
+
+Acknowledgments
+
+We are grateful to Tonia Sauerwald and Asri Ozgiimiis for the
+excellent research assistance. We also thank an anonymous referee
+for very helpful comments.
+
+References
+
+Barber, B.M., Odean, T., 2001. Boys will be boys: gender, overconfidence, and
+common stock investment. Quart. J. Econ. 116 (1), 261-292.
+http://dx.doi.org/10.1162/003355 301556400.
+
+Bénabou, R., Tirole, J., 2002. Self-confidence and personal motivation. Quart. J. Econ.
+117 (3), 871-915. http://dx.doi.org/10.1162/003355 302760193913.
+
+Benoit, J.P., Dubra, J., 2011. Apparent overconfidence. Econometrica 79 (5),
+1591-1625. http://dx.doi.org/10.3982/ECTA8583.
+
+Biais, B., Hilton, D., Mazurier, K., Pouget, S., 2005. Judgemental overconfidence,
+self-monitoring, and trading performance in an experimental financial
+market. Rev. Econ. Stud. 72 (2), 287-312. http://dx.doiorg/10.1111/j.1467-
+937X.2005.00333.x.
+
+Burks, S.V., Carpenter, J.P., Goette, L., Rustichini, A., 2013. Overconfidence and social
+signalling. Rev. Econ. Stud. 80, 949-983.
+http://dx.doiorg/10.1093/restud/rds046.
+
+Cesarini, D., Sandewall, 6., Johannesson, M., 2006. Confidence interval estimation
+tasks and the economics of overconfidence. J. Econ. Behav. Organ. 61 (3),
+453-470. http: //dx.doi.org/10.1016/j.jebo.2004.10.0 10.
+
+Clark, J., Friesen, L., 2009. Overconfidence in forecasts of own performance: an
+experimental study. Econ. J. 119 (534), 229-251.
+http://dx.doi.org/10.1111/j.1468-0297.2008.02211.x.
+
+Claussen, C.A., Matsen, E., Raisland, @, Torvik, R., 2012. Overconfidence, monetary
+policy committees and chairman dominance. J. Econ. Behav. Organ. 81 (2),
+699-711. http: //dx.doi.org/10.1016/j.jebo.201 1.12.003.
+
+Engelmann, D., Strobel, M., 2012. Deconstruction and reconstruction of an anomaly.
+Games Econom. Behav. 76, 678-689.
+http://dx.doiorg/10.1016/j.geb.2012.07.009.
+
+Fischbacher, U., 2007. z-Tree: Zurich toolbox for ready-made economic experi-
+ments. Exp. Econ. 10, 171-178. http://dx.doi.org/10.1007/s 10683-006-9 159-4.
+
+Greiner, B., 2004. An online recruitment system for economic experiments. GWDG
+Berichte 63, 79-93.
+
+Grubb, M.D., 2009. Selling to overconfident consumers. Amer. Econ. Rev. 99 (5),
+1770-1807. http://dx.doiorg/10.2139/ssrn.721701.
+
+Hoelzl, E., Rustichini, A.. 2005. Overconfident: do you put your money on it? Econ.
+J.115, 305-318. http://dx.doi.org/10.1111/j.1468-0297.2005.00990.x.
+
+Johnson, D.D., Fowler, J.H., 2011. The evolution of overconfidence. Nature 477
+(7364), 317-320. http://dx.doiorg/10.1038/nature 10384.
+
+Klick, J., Parisi, F., 2008. Social networks, self-denial, and median preferences:
+conformity as an evolutionary strategy. J. Socio-Econ. 37 (4), 1319-1327.
+http://dx.doiorg/10.1016/j.socec.2007.08.008.
+
+Larkin, L, Leider, S., 2012. Incentive schemes, sorting, and behavioral biases of
+employees: experimental evidence. Amer. Econo. J.: Microecon. 4 (2), 184-214.
+http://dx.doi-org/10.1257 /mic.4.2.184.
+
+Levitt, S.D., List, JA, 2007. What do laboratory experiments measuring social
+preferences reveal about the real world? J. Econ. Perspect. 21 (2), 153-174.
+http://dx.doi-org/10.1257 /jep.21.2.153.
+
+List, J.A.. Millimet, D.L., 2008. The market: catalyst for rationality and filter of
+irrationality. B. E. J. Econ. Anal. Policy 8, 1-53.
+http://dx.doi.org/10.2202/1935-1682.2115.
+
+Malmendier, U., Tate, G., 2005. CEO overconfidence and corporate investment. J. Fi-
+nance 60 (6), 2661-2700. http: //dx.doi.org/10.1111/j.1540-6261.2005.00813.x.
+
+Menkhoff, L., Schmeling, M., Schmidt, U., 2013. Overconfidence, experience, and
+professionalism: an experimental study. J. Econ. Behav. Organ. 86, 92-101.
+http://dx.doiorg/10.1016/j.jebo.2012.12.022.
+
+Meub, L., Proeger, T., Bizer, K., 2013. Anchoring: a valid explanation for biased
+forecasts when rational predictions are easily accessible and well incentivized?
+CEGE Discussion Paper No. 166.
+
+Moore, D.A., Healy, P.J., 2008. The trouble with overconfidence. Psychol. Rev. 115
+(2), 502-517. http://dx.doi.org/10.1037 /0033-295X.1 15.2.502.
+
+Ross, L., Greene, D., House, P., 1977. The ‘false consensus effect’: an egocentric bias
+in social perception and attribution processes. J. Exp. Soc. Psychol. 13, 279-301.
+http://dx.doi.org/10.1016/0022- 103 1(77)90049-X.
+
+Sandroni, A, Squintani, F. 2013. Overconfidence and asymmetric infor-
+mation: the case of insurance. J. Econ. Behav. Organ. 93, 149-165.
+http://dx.doiorg/10.1016/j.jebo.2012.10.015.
+
+Zizzo, D_J., 2010. Experimenter demand effects in economic experiments. Exp. Econ.
+13, 75-98. http://dx.doi.org/10.1007/s 10683-009-9230-z.
+

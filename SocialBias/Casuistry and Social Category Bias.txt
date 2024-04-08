@@ -1,0 +1,2014 @@
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Journal of Personality and Social Psychology
+2004, Vol. 87, No. 6, 817-831
+
+Copyright 2004 by the American Psychological Association
+0022-3514/04/$12.00 DOT: 10.1037/0022-3514.87.6.817
+
+Casuistry and Social Category Bias
+
+Michael I. Norton
+Massachusetts Institute of Technology
+
+Joseph A. Vandello
+University of South Florida
+
+John M. Darley
+
+Princeton University
+
+This research explored cases where people are drawn to make judgments between individuals based on
+questionable criteria, in particular those individuals’ social group memberships. We suggest that indi-
+viduals engage in casuistry to mask biased decision making, by recruiting more acceptable criteria to
+justify such decisions. We present 6 studies that demonstrate how casuistry licenses people to judge on
+the basis of social category information but appear unbiased—to both others and themselves—while
+doing so. In 2 domains (employment and college admissions decisions), with 2 social categories (gender
+and race), and with 2 motivations (favoring an in-group or out-group), the present studies explored how
+participants justify decisions biased by social category information by arbitrarily inflating the relative
+value of their preferred candidates’ qualifications over those of competitors.
+
+A male bank president is faced with hiring a new vice president
+in this traditionally male-dominated profession. Two finalists
+emerge: a woman with a great deal of experience but mediocre
+recommendations and a man with little experience but strong
+recommendations. The choice is a difficult one, as both dimen-
+sions are clearly relevant and important, and each candidate is
+stronger on one dimension. The decision is made more difficult by
+the fact that the candidates differ in gender, because either choice
+may invite suspicion of bias. If the president selects the male
+candidate, he may be accused of sexism, but if he chooses the
+female candidate he may be suspected of bowing to norms of
+political correctness. Thus the bank president can be accused of
+bias regardless of which candidate he selects.
+
+We suggest that a common strategy used to avoid the appear-
+ance of bias when making such decisions is to cloak decision
+making in more acceptable terms. The president might select the
+male candidate, for example, but claim that his decision was
+motivated by the candidate’s superior qualifications by stressing
+his belief that recommendations are more important than experi-
+
+ 
+
+Michael I. Norton, Sloan School of Management, Massachusetts Insti-
+tute of Technology; Joseph A. Vandello, Department of Psychology, Uni-
+versity of South Florida; John M. Darley, Department of Psychology,
+Princeton University.
+
+These studies were conducted as part of Michael I. Norton’s doctoral
+dissertation at Princeton University. Michael I. Norton thanks the members
+of his dissertation committee: Jon Cohen, Joel Cooper, Susan Fiske, Danny
+Kahneman, and Debbie Prentice. We thank Penny Visser for her helpful
+suggestions in the early stages of this research, Benoit Monin and Leif
+Nelson for their helpful comments on an earlier version of this article, and
+Sarah Molouki for her assistance with data collection.
+
+Correspondence concerning this article should be addressed to Michael
+L Norton, Sloan School of Management, Massachusetts Institute of Tech-
+nology, 20 Ames Street, E15-319, Cambridge, MA 02139. E-mail:
+minorton @media.mit.edu
+
+817
+
+ence. On the other hand, our bank president may feel that it is
+appropriate to give the edge to the woman to make up for tradi-
+tional underrepresentation. Despite this very different motivation,
+our president might still be motivated to hide the true reasons for
+his preference, because an admission that the decision was moti-
+vated by gender might cause others to criticize him for paying lip
+service to political correctness, or may undermine the woman’s
+credibility in the eyes of other employees. This president, then,
+might select the woman but claim that the decision was based on
+his strong belief that experience is important
+qualification.
+
+By recruiting attributes that support a preferred decision through
+reshaping the importance of qualifications— or, more generally, by
+reshaping attributes of the social world—individuals are able to
+mask potentially biased decision making. In the present research
+we explored this general phenomenon in more depth: By engaging
+in casuistry—specious reasoning in the service of justifying ques-
+tionable behavior—when confronted with difficult choices, people
+are better able to make these difficult decisions. In general use,
+casuistry has the connotation of public pronouncements intended
+to mislead others. This first sense of casuistry is intended to bolster
+one’s public image, but the second purpose of casuistry—individ-
+uals’ private rationalization of their questionable behavior—is
+equally important. Our bank president may be faced with both
+extemal (e.g., laws prohibiting discrimination of the basis of
+gender, or political correctness norms) and internal pressures (e.g.,
+his egalitarian beliefs or internalized norms of political correct-
+ness) to make the correct choice. Casuistry may serve both to
+justify questionable decisions to others and to rationalize such
+decisions to oneself, allowing one to maintain what Pyszczynski
+and Greenberg (1987) called a desired “illusion of objectivity”.
+
+Our present focus is on decision making in social domains,
+where categories such as sex or race are morally charged and raise
+questions of prejudice and bias, which likely increases individuals’
+
+the more
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+818 NORTON, VANDELLO, AND DARLEY
+
+motivation to mask questionable behavior.' Social scientists have
+long been interested in exploring cases where the human desire to
+appear moral fails to result in moral behavior, of course. Psychol-
+ogists frequently focus on situations in which people attempt to
+justify or rationalize questionable or immoral behavior (e.g., Ban-
+dura, 1999; Tsang, 2002), and the many ways in which question-
+able decisions, policies, or actions are justified and legitimized are
+well documented (e.g., Kelman, 2001; Scott & Lyman, 1968), as
+with those who engage in self-interested behavior with costs to
+others (e.g., Batson, Thompson, & Chen, 2002; Monin & Norton,
+2003). Batson and his colleagues’ research on moral hypocrisy is
+particularly interesting and relevant: In these paradigms, partici-
+pants engage in a coin flip, ostensibly to make a fair choice about
+whether they or another participant will receive a more attractive
+experimental task. A coin flip is generally used as a public sign of
+fairness— but participants in these studies flip the coin in private,
+and after rigging the flip in their favor continue to see themselves
+as unbiased. Below, we explore in more detail private mechanisms
+for maintaining a view of the self as unbiased—a goal as funda-
+mental as ensuring that others do the same.
+
+Dissonance and Motivated Reasoning in Social
+Decision Making
+
+The fact that people are motivated perceivers of the social world
+is axiomatic in psychology. A large body of research, dating back
+at least as far as S. Freud’s (1894/1962) elaboration of defense
+mechanisms (see also A. Freud, 1936), suggests that people’s
+perceptions of the world—and of themselves—are often shaded
+toward maintaining positive views of the self. Within social psy-
+chology, Festinger’s (1957) theory of cognitive dissonance sug-
+gests that the need for consistency causes individuals to rationalize
+their inconsistent behavior; indeed, several theories of dissonance
+suggest it is precisely the need to maintain a positive view of the
+self that leads to efforts to reduce dissonance (e.g., Aronson, 1968;
+Cooper & Fazio, 1984; C. M. Steele, 1988). Decisions can be
+particularly problematic in the social realm, as poor decisions can
+both threaten this positive view of the self and threaten one’s
+image in the eyes of others. Individuals facing decisions between
+two attractive alternatives—as in our opening example of the bank
+president—may experience what Festinger (1964) termed antici-
+pated dissonance: situations in which individuals are aware that
+any decision will lead to inevitable postdecisional regret. Although
+social category information (e.g., race or gender) provides a clear
+differentiating factor that should simplify such decision making
+(Tversky, 1972), individuals in these situations are often pro-
+scribed from using such information and must search for different
+justification. Indeed, people frequently search for reasons to ratio-
+nalize their decisions only after making those decisions (Shafir,
+Simonson, & Tversky, 1993), often inflating the value of their
+choices as one strategy (Brehm, 1956; Mather, Shafir, & Johnson,
+2000). This process is particularly interesting in the situations
+under investigation in the present studies because the actual reason
+for participants’ choices—social category information—is not
+available for purposes of justification, leaving participants to
+scramble for other compensatory cognitions. In this view, casuistry
+occurs because of this scramble: Forced to make a decision be-
+tween members of different social groups, participants quickly
+search for other cognitions consonant with their eventual choice
+and, having found them, reify them to the status of dominant
+
+criteria to rationalize their decisions—a process that can occur
+before or after the decision is made.
+
+The demonstration of the need for cognitive consistency led to
+a larger effort to demonstrate and define mechanisms by which
+individuals’ motives influence their perceptions of both them-
+selves and the social worlds. Research on motivated reasoning
+(e.g., Kunda, 1990; Pyszczynski & Greenberg, 1987) has primarily
+explored two sometimes-competing motives in human reasoning,
+both of which affect thought and behavior: (a) the motivation to be
+accurate (e.g., Kruglanski, 1989b; Pelham, 1991; Pelham & Neter,
+1995) and (b) an equally compelling motivation to see things in a
+preferred manner (see Kruglanski, 1989a, for an overview). Re-
+search exploring this second motivation has generally focused on
+two human predilections: (a) the tendency to interpret information
+in ways that confirm preexisting beliefs and attitudes about the self
+(e.g., Ditto & Lopez, 1992; Lord, Ross, & Lepper, 1979; Swann,
+Stein-Seroussi, & Giesler, 1992) and others (e.g., Darley & Gross,
+1983; Schaller, 1992) and (b) the robust tendency to view the self
+positively— often more positively than is warranted (e.g., Brown
+& Rogers, 1991; Dunning, Leuenberger, & Sherman, 1995; Epley
+& Dunning, 2000; Goethals, 1986; Pyszczynski & Greenberg,
+1987). This tendency to view the self positively can be supported
+by the tendency to interpret the world in preferred ways, as
+individuals specifically interpret information from the social world
+in ways that serve their need for high self-regard. We suggest that
+this kind of reasoning is common when individuals face problem-
+atic decisions.
+
+In the present studies, we explored reasoning in decisions that
+force a person to choose between individuals with different social
+category memberships. In particular, decisions that require people
+to choose across social categories, such as race or gender, make
+two motivations salient: On the one hand, people generally try hard
+to be objective, impartial, and unbiased; on the other hand, people
+can be motivated to arrive at a desired outcome, such as when
+self-interest leads people to see in-group members as more attrac-
+tive choices or when egalitarian motives lead people to favor
+members of stigmatized or underrepresented groups. Either of the
+last two motivations conflict with the motive to be unbiased, which
+would require turning a blind eye to social category information.
+We suggest that it is these conflicting motivations that lead to
+reasoning strategies that attempt to justify decisions in more so-
+cially acceptable terms, thus honoring the need to maintain a view
+of the self as objective by restructuring the social world in ways
+that make the self seem unbiased. In addition, and implicit in the
+above discussion, although most of the dissonance and motivated
+reasoning involves judgments about the self, the common situa-
+tions explored in the present investigation demonstrate how pro-
+cesses of motivated reasoning and dissonance reduction are
+brought to bear on reasoning about other individuals. Although the
+broad motive is the same, to arrive at desired conclusions and to
+
+‘Tt is not the case, of course, that all use of social category information
+is proscribed. Members of stigmatized groups may feel more licensed to
+use social category information in decision making: The National Associ-
+ation for the Advancement of Colored People, for example, is licensed to
+use racial information in selecting its leaders. Social category use is
+normally proscribed, however, for members of traditionally nonstigmatized
+groups, such as, in the United States, Whites, and particularly White men,
+the two groups we target in this investigation.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 819
+
+maintain an illusion of objectivity, in these situations individuals
+reshape not aspects of themselves but rather their weighting of the
+importance of aspects of others.
+
+Social Categories in Decision Making
+
+Social categories such as race and gender are highly salient, and
+although individuals may be reluctant to use this information,
+countless investigations have shown that social categories do fac-
+tor heavily in social judgment. They can have an automatic influ-
+ence on our judgments and decisions (e.g., Allport, 1954; Devine,
+1989; Fiske & Neuberg, 1990), and recent research suggests that
+race and gender are automatically attended to and encoded almost
+instantly (Ito & Urland, 2003), suggesting that their influence on
+decision making may be hard to avoid. At the same time, research
+has shown that people feel at least somewhat constrained from
+judging others on the basis of their social group memberships,
+particularly in the absence of other information (Yzerbyt, Schad-
+ron, Leyens, & Rocher, 1994). However, although people feel that
+having only social category information does not permit judgment
+of targets, they will ironically rely on social category information
+when given extra information (e.g., Darley & Gross, 1983), even
+if they merely believe they have been given such information
+(Yzerbyt et al., 1994).
+
+Despite this widely documented influence of social category
+information on judgment, this information is among the most
+forbidden in both discourse and decision making in contemporary
+America. Use of these categories has been officially proscribed in
+a variety of contexts, and statements to this effect can be found, for
+example, in Title VII of the 1964 Civil Rights Act and the mission
+statements of most corporations and universities. Although lan-
+guage that suggests freedom from bias does not always reflect an
+actual lack of bias, people are at least often motivated to appear
+unbiased. White Americans, for example, can be motivated to
+appear nonprejudiced toward Blacks (e.g., Plant & Devine, 1998)
+and even to avoid acknowledging the possibility that they may
+have negative attitudes toward Blacks (Gaertner & Dovidio, 1986).
+Because norms in favor of appearing nonprejudiced are strong (at
+least in the United States), people’s desire to appear nonprejudiced
+frequently leads to actions to ensure that others will view them
+accordingly. In a clever study, Dutton (1971) showed that inap-
+propriately dressed couples who attempted to dine at restaurants
+requiring formal dress were twice as likely to be seated if they
+were Black rather than White, presumably because the proprietors
+felt that confronting Black patrons might make them appear prej-
+udiced. In addition to this desire to appear unbiased to others,
+people are also motivated to view themselves as unbiased. When
+people realize they have acted in a biased manner, they often
+attempt to correct for that bias (Wegener & Petty, 1995; Wilson,
+Lindsey, & Schooler, 2000); liberal Whites who learn that deci-
+sions they have made may unfairly target Blacks, for example, are
+likely to attempt to revise those decisions (Tetlock, Kristel, Elson,
+Green, & Lerner, 2000). In sum, then, both internal and external
+pressures combine to make use of social category information
+taboo in decision making.
+
+The Licensing of Bias
+
+Whereas there is a vast literature on the impact of stereotypes on
+judgment, comparatively little research has explicitly examined
+
+how social categories influence choice behavior, when individuals
+discriminate—in both senses of the word—between members of
+different social groups (Fiske, 1998, but see Dovidio & Gaertner,
+2000, and Hodson, Dovidio, & Gaertner, 2002, for notable excep-
+tions). This is a potentially important distinction, because choices
+are more often public, and decision makers are accountable for
+their public preferences in ways that they may not be for their
+private impressions. In particular, nonsocial information that dif-
+ferentiates between individuals may be required to justify public
+choices. In Snyder, Kleck, Strenta, and Mentzer’s (1979) study, for
+example, participants were given a choice of watching a movie
+with either a handicapped person or a nonhandicapped person.
+These participants, presumably motivated to sit with the nonhandi-
+capped person, only did so when the two targets were watching
+different movies; when the two targets were watching the same
+movie, however, and thus did not have differentiating information,
+participants were forced to sit with the handicapped person. This
+kind of attributional ambiguity (Snyder et al., 1979) or elasticity
+(Hsee, 1996) allows individuals to discriminate under the guise of
+more acceptable criteria (e.g., movie preferences).
+
+In the present studies, we were specifically interested in how
+elasticity might allow people to justify decisions involving social
+categories such as race or gender. It is important to note that many
+real-world situations are elastic: Candidates for any position in-
+variably have multiple dimensions on which to be evaluated. In the
+studies reported below we used this natural elasticity to demon-
+strate casuistry in decision making. Allport (1954) was among the
+first to describe how individuals motivated by social category bias
+marshal evidence to rationalize their prejudiced conclusions, by
+engaging in selective perception of the social world. Hodson et al.
+(2002) provided empirical evidence of this kind of strategy for
+masking social category bias; in their study, participants choosing
+between Black and White candidates for admission to college rated
+both highly qualified and highly unqualified White and Black
+applicants similarly. However, when qualifications were mixed
+(candidates were good on one dimension and poor on another),
+social category information influenced judgment, such that preju-
+diced participants rated White candidates higher, whereas non-
+prejudiced participants rated Black candidates more favorably.
+Most interesting is that participants inflated the value of whichever
+qualification their preferred candidate dominated the other candi-
+date on (e.g., if they favored a Black candidate who had a higher
+grade-point average [GPA] than a White candidate, they subse-
+quently claimed that GPA was the more important qualification).
+In the studies below, we used a paradigm similar to that developed
+by Hodson et al., with several key differences. First, our paradigm
+forces participants to make judgments between candidates by
+selecting between members of different social categories, whereas
+Hodson et al. did not require such explicit choice. Our forced-
+choice paradigm has implications for the nature of the expression
+of bias; whereas Hodson et al. argued that only mixed qualifica-
+tions license biased judgment, we suggest that the forced-choice
+nature of our paradigm, which requires choice in the way many
+real-world situations do, allows for any elasticity—even between
+two highly qualified or two unqualified candidates—to license
+choice. Our desire to map these processes onto real-world situa-
+tions underlies the importance of this kind of reweighting of
+criteria to buttress questionable decisions, a process that may
+account for a great deal of biased decision making in the real
+world. As such, the present investigation builds on Hodson et al.’s
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+820 NORTON, VANDELLO, AND DARLEY
+
+research by exploring the processes underlying the phenomenon
+Gncluding the time course and the public and private components
+of the bias) as well as exploring means of correcting the bias (e.g.,
+forcing participants to equate the candidates and using real-world
+manipulations such as precommitment and accountability).
+
+Overview of the Experiments
+
+We first explore casuistry in the domain of gender bias, pre-
+senting two studies in which male participants engage in casuistry
+when motivated to hire a male candidate. In Study 1, we demon-
+strated the basic effect, showing that male participants who select
+men for management positions justify that selection by inflating
+the importance of whichever qualification favors a male candidate,
+while failing to mention gender as a factor; in Study 2, we
+eliminated gender bias by forcing participants themselves to re-
+move the elasticity in the situation. We next show that the effect is
+not used merely to justify in-group preferences, in a series of
+studies in which predominantly White college students motivated
+to favor Black candidates over equally qualified White candidates
+also engage in casuistry to justify their decisions. In Study 3, we
+demonstrated casuistry in the domain of college admissions and
+find that the reshaping of qualifications also leads to distortions in
+recall. Study 4 establishes that the phenomenon is not merely a
+public strategy, as participants inflated the value of qualifications
+favoring a preferred candidate on merely being exposed to candi-
+dates’ resumes. Studies 5 and 6 demonstrate the robustness of the
+phenomenon, as making participants accountable for their deci-
+sions not only fails to attenuate use of social category information
+but actually increases casuistry, and precommitment to qualifica-
+tions also fails to decrease the bias.
+
+Casuistry in Employment Decisions
+
+In the first two studies, we wanted to establish the phenomenon
+of casuistry, demonstrating that individuals making decisions
+based on social category information would mask the true reasons
+for their choices. Gender discrimination in employment is both
+widely studied and widely documented. Women who enter tradi-
+tionally male contexts may be seen as less competent than simi-
+larly qualified men (Deaux & Emswiller, 1974), and in hiring
+contexts in particular the “think manager—think male” phenome-
+non is paramount: Both men and women see the characteristics
+needed for success in management as stereotypically male (Eagly
+& Karau, 2002; Schein, 1973, 1975). In the following studies,
+therefore, we used a simulated employment context in which male
+participants chose between male and female candidates for a
+stereotypically male job, a situation that stacks the deck in favor of
+discrimination against women. In the first study, participants se-
+lected managers for a construction company and then explained
+their decisions in an open-ended format. In the second study,
+participants equated the qualifications of two candidates and then
+chose between these candidates. In Study 1, we expected partici-
+pants to select male managers regardless of qualifications yet
+justify that selection in terms of those qualifications, increasing the
+importance of whichever qualification favored the male candidate.
+In Study 2, we expected the self-equating of the candidates to force
+participants to forgo gender and instead rely on qualifications, but
+we expected these participants to be less satisfied with their
+choices as a result.
+
+Study 1: Gender Bias in Construction Hiring
+
+Male participants read a scenario in which they were asked to
+play the role of a manager of a construction company whose task
+was to recruit a high-level employee (adapted from Monin &
+Miller, 2001). We expected our male participants to be motivated
+to favor male candidates for this stereotypically male position and
+then to justify their decisions by inflating the relative value of the
+male candidate’s qualifications. We chose education and amount
+of relevant experience as the two qualifications to be manipulated.
+Because we used undergraduates in this investigation (who have
+little work experience), we expected them to favor more educated
+candidates in the absence of other information. The condition of
+particular interest in the present study is that in which the candi-
+date with the preferred qualification also holds the undesired social
+category membership: the educated woman. We expected our male
+participants to forgo the importance of education in this incongru-
+ent condition and continue to select male candidates, by claiming
+that experience was the more important qualification.
+
+Method
+
+Participants. Ninety-three male undergraduates completed the study in
+groups of up to 20 as part of a larger packet of questionnaires and were
+paid $8.
+
+Procedure. Participants took part in an employee selection procedure
+in which they, as heads of a construction company, had to select a
+candidate for a stereotypically male job. We stated that the job required
+both experience in the industry and a strong engineering background, thus
+making our two key dimensions— experience and education—salient. Af-
+ter reading this short paragraph, participants were instructed to rank five
+candidates in order of their preference. Two of the candidates were clearly
+better than the other three (and indeed, the vast majority of participants
+ranked them first and second). One candidate had more experience in the
+industry (9 vs. 5 years), and the other had more education (an engineering
+degree and certification from the “American Concrete Masonry Associa-
+tion” vs. an engineering degree only). We included other filler information
+for the candidates (age and reason for seeking job), which were designed
+to be similar. In the control condition, only first initials and last names were
+provided, so that no gender information was available. In the two experi-
+mental conditions, the first names of the candidates were provided, such
+that the two superior candidates were of different genders: In the male-
+educated condition, the male candidate had more education but less expe-
+rience than the female candidate, and in the female-educated condition, the
+female candidate had more education but less experience than the male
+candidate.
+
+After ranking their candidates, participants were asked an open-ended
+question that explored how they would justify their decisions with little
+prompting: “In the space below, briefly describe why you chose the
+applicant you did. What was most important in determining your deci-
+sion?” We expected that participants in the control and male-educated
+conditions would report that education was more important but that par-
+ticipants in the female-educated condition would reverse this preference
+and report that experience was more important. We also expected few
+participants to claim that gender influenced their decision.
+
+Results and Discussion
+
+One naive coder coded the open-ended responses for use of
+gender pronouns and use of gender as justification. The same coder
+and one of the authors coded which of the key qualifications—
+experience or education—was listed as more important. Many
+participants simply listed qualifications in order of importance; for
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 821
+
+those participants who wrote at greater length, the coders made a
+subjective assessment of which qualification the participant felt
+was more important. We used this dichotomous variable to explore
+whether participants inflated the value of the qualification that
+favored their chosen candidate. Agreement was high for these
+ratings (r = .88, p < .001), and discrepancies were resolved by
+using the naive coder’s ratings.
+
+Participants in the control condition tended to view the candi-
+dates as male, even in the absence of any gender information, as
+34% (10/29) spontaneously used male pronouns, whereas only 3%
+(1/29) used female pronouns.
+
+Selection. As expected, our college population showed a
+strong overall preference for education, picking the educated can-
+didate over the experienced candidate 66% (61/93) of the time,
+rd, N = 93) = 9.04, p < .005. This preference, however, was
+moderated by our manipulations. In the control condition, as
+predicted, there was a strong preference for the educated (and
+presumed male by our participants) candidate (76%), and we
+observed this same strong preference when the male candidate was
+more educated (75%). When the female candidate was more edu-
+cated, however, only 43% of participants picked the educated
+candidate (see Table 1). The overall chi-square was significant,
+(2, N = 93) = 9.18, p < .02, as was a planned contrast on
+proportions comparing the female-educated condition with the
+other conditions (Z = 6.04, p < .001 [Rosenthal & Rosnow, 1985],
+residual Z = 0.27, ns). Thus, although education was seen as more
+important in this decision, participants still selected the male
+candidate the majority of the time even when he was less educated.
+
+Justification. Crucial to our hypotheses, however, is that par-
+ticipants justify their selection of candidates by stating that the
+qualification that favored their preferred candidate was more im-
+portant. As we would expect from our results above, the control
+and male-educated conditions looked very similar, as 48% and
+50%, respectively, listed education as more important than expe-
+rience. In contrast, a strong preference emerged for experience as
+the most important qualification in the female-educated condition,
+as only 22% of participants ranked education as more important,
+thus justifying participants’ selection of the more experienced
+male (see Table 1). The overall chi-square was marginally signif-
+icant, (2, N = 88) = 5.65, p = .059, and the same contrast on
+proportions pitting the female-educated condition versus the other
+conditions was again significant (Z = 2.63, p < .01, residual Z =
+0.46, ns).
+
+Equally important is that very few participants cited gender as
+playing a role in their decision, in any of the conditions: control =
+0%, male educated = 8% (3/36), female educated = 14% (4/29).
+Overall, then, participants rarely made mention of gender in ex-
+plaining their choice of candidate, although results clearly indicate
+that gender affected candidate selection.
+
+Table 1
+Percentages of Participants Who Selected the Educated
+Candidates and Ranked Education as More Important, Study 1
+
+ 
+
+Selected educated Ranked education
+
+ 
+
+Candidate candidate higher
+Control (no gender) 76 (22/29) 48 (13/27)
+Male, educated 75 (27/36) 50 (17/34)
+Female, educated 43 (12/28) 22 (6/27)
+
+ 
+
+Study 2: Attenuating Casuistry
+
+Study 1 showed that male participants favored male candidates
+by altering the relative importance of qualifications. In Study 2, we
+hoped to show that by removing elasticity from the situation we
+could circumvent gender-based selection, forcing men to rely on
+qualifications. We accomplished this goal by providing incomplete
+resumes and forcing participants to equate the two candidates
+themselves, then asking them to choose between the two candi-
+dates. Because Study 1 showed that undergraduates were more
+likely to select more educated candidates over more experienced
+candidates, we expected participants overall to favor the more
+educated candidate when forced to choose, in line with Slovic
+(1975), who showed that, after equating options, participants make
+selections on the basis of the more important dimension. Although
+male participants in Study 1 abandoned this preference for educa-
+tion when a female candidate was more educated, we expected the
+equating task to rule out this option. We expected male partici-
+pants’ dissatisfaction with their inability to favor men to be re-
+flected in their desire to review more resumes for the same posi-
+tion; we predicted that male participants who were able to select
+men would show less desire to review more resumes (perhaps
+because future candidates might be more qualified women),
+whereas male participants who were forced into picking women
+(in the female-educated condition) would show a greater desire to
+review more resumes (perhaps in the hope that a more qualified
+man might come along).
+
+Method
+
+Participants. Participants were male undergraduates approached by
+
+either a male or female experimenter (unaware of our hypotheses) in
+campus dining halls; a total of 46 agreed to take part in the study.
+We again used the construction scenario and presented
+participants with abbreviated resumes for two candidates (to simplify the
+task for participants, we removed the three filler candidates used in Study
+1). The first candidate’s resume was complete (36 years of age, BS in
+engineering, 9 years of relevant experience), whereas the second candi-
+date’s resume included age (36) and education (BS in Engineering and
+certification as a concrete technician) but lacked information regarding
+years of relevant experience. Participants were instructed to fill in the
+number of years of experience that would make the two candidates equally
+qualified. As in Study 1, there were three conditions: (a) one in which no
+gender information was provided; (b) one in which the first, less educated
+candidate was male; and (c) one in which this candidate was female.
+
+After participants completed this task, they turned to the next page, on
+which they were asked to imagine that they had to choose between the two
+candidates, given the qualifications on the previous page (including the
+number of years of experience participants had filled in), and indicate
+which of the candidates they felt would be best qualified. After making
+their selection, participants were asked how likely they would be to review
+more resumes before making this selection, on a 7-point scale (range: 1 =
+not at all likely to 7 = very likely).
+
+Procedure.
+
+Results and Discussion
+
+Participants in all three conditions felt that the second candidate
+needed roughly 6 years of experience to make the two candidates
+equal (M = 6.20, SD = 2.01), and this effect did not vary by
+condition (F < 1). Thus, across all conditions participants were
+selecting between similar pairs of candidates. We might have
+expected these results to vary across condition, for the male
+participants to see women as requiring more experience than male
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+822 NORTON, VANDELLO, AND DARLEY
+
+candidates to make up the difference; at least in this phase,
+however, our male participants rated the two similarly.
+
+Participants in the control condition, as in Study 1, did show a
+preference for the educated candidate, as 56% (9/16) picked the
+more educated candidate. In the two gender conditions an even
+stronger consensus emerged. Participants overwhelmingly selected
+the more educated candidate, regardless of whether that candidate
+was male (94%, 15/16) or female (79%, 11/14). Thus we observed
+only a preference for education over experience, y°(2, N = 46) =
+6.25, p < .05; as predicted, the contrast on proportions we used in
+Study 1 comparing the female-educated condition to the others did
+not approach significance (Z = .31, p = .37). In contrast to Study
+1, participants were unable to favor members of a desired social
+group.”
+
+As we expected, men were not equally satisfied with the selec-
+tion process across conditions. In general, participants wanted to
+see more resumes (overall M = 5.83, SD = 1.32, well above the
+scale midpoint of 4), 445) = 9.37, p < .001, which is not
+surprising given the difficulty of choosing between two evenly
+matched candidates. However, participants in the female-educated
+condition expressed a stronger desire to seek more resumes (M =
+6.29, SD = 0.83) than did the more satisfied participants in the
+male-educated condition (MW = 5.25, SD = 1.77), and the no-
+gender participants fell in the middle (M = 6.00, SD = 0.97), FQ,
+45) = 2.69, p = .08. This difference approached significance
+between the two gender conditions, (28) = 1.96, p = .06, al-
+though neither gender condition differed significantly from the
+control (ps > .15).
+
+Summary of the Employment Studies
+
+These two studies both demonstrated casuistry and attenuated
+bias when elasticity was removed from the situation. From a
+psychological standpoint, removing the effect with the manipula-
+tion in Study 2 is important; from a practical standpoint, however,
+this manipulation fails to map onto real-world situations— candi-
+dates usually do not ask prospective employers to complete their
+resumes for them. One of the goals of the experiments described in
+the next section was to explore whether more real-world strategies
+will also deny participants the opportunity to make biased choices.
+In Studies 1 and 2, the pressure for participants to mask their bias
+was quite clear, as the male participants understood (and, we hope,
+all men understand) that selecting other men without regard to
+qualifications is both sexist and illegal. It is possible that these
+male participants who sought to favor other men consciously
+inflated the value of the qualification that favored those candi-
+dates; it is also possible, however, that the desire to favor one
+gender causes participants to come to believe privately that those
+qualifications that favored men truly were more important. An-
+other goal of the experiments described in the next section was to
+explore the more private aspects of casuistry by exploring whether
+casuistry results in memory bias and whether inflation of preferred
+candidates’ qualifications can occur prior to a decision. We also
+sought to demonstrate that casuistry is used as a general strategy to
+justify decisions in the social realm, not only for decisions that
+favor in-groups (as in Studies 1 and 2). We thus chose to show that
+White undergraduates, pressured by desires to be egalitarian,
+norms of political correctness, or both, would favor Black candi-
+dates for admission to college. More important, we wanted to show
+that these participants would continue to engage in casuistry de-
+
+spite this very different motivation, by inflating qualifications that
+favored Black candidates to mask the impact of social categories
+on their decisions.
+
+Casuistry in College Admissions
+
+In Studies 3 through 6, we tested the idea that participants would
+overwhelmingly select a Black candidate over a White student for
+admission to college, regardless of qualifications, and then justify
+that choice by claiming their candidate was more qualified. Study
+3 documents distortions in memory that accompany the biased
+inflation of qualifications favoring preferred candidates. In Study
+4, we showed that inflation of qualifications can occur before a
+selection is made, on simply being exposed to candidates’ quali-
+fications, addressing the possibility that casuistry occurs only as
+postdecisional justification. Finally, we explored the real-world
+robustness of casuistry, showing that making participants account-
+able for their decisions not only fails to attenuate bias but actually
+increases the tendency to reshape qualifications (Study 5) and that
+precommitment to qualifications also fails to decrease the bias
+(Study 6).
+
+Affirmative Action and College Admissions
+
+Some research has supported the view that White Americans are
+opposed to affirmative action programs, including programs that
+affect college admissions (Sniderman & Piazza, 1993), due in part
+to the obvious fact that some Whites are prejudiced (e.g., James,
+Brief, Dietz, & Cohen, 2001) but also due to Whites perceiving
+affirmative action as violating the American creed of merit-based
+achievement (e.g., Kravitz, 1995). When affirmative action is
+framed as addressing injustice or inequity, however, Whites tend
+to be more supportive (Peterson, 1994; Swim & Miller, 1999).
+This support is probably multiply determined, by factors such as a
+desire for equality (Son Hing, Bobocel, & Zanna, 2002); White
+guilt (S. Steele, 1990); and, perhaps most important, a fear of being
+labeled racist. In one recent investigation, racists were rated sim-
+ilarly to terrorists and wife beaters (Crandall, Eshleman, &
+O’Brien, 2002), and Whites are extremely hesitant to label their
+own prejudiced attitudes as reflective of racism (Sommers &
+Norton, 2004). Indeed, the large body of literature on aversive
+racism (e.g., Dovidio & Gaertner, 1998) suggests that prejudice is
+often expressed in disguised or rationalized ways because of this
+fear of being so labeled. The present research suggests that this
+fear can lead Whites to overcorrect, favoring members of minority
+groups as a result of the dilemma with which they are faced.
+
+The paradox of affirmative action for White Americans is that
+selecting Black candidates on the basis of race can imply that these
+candidates require preference to achieve equality, violating impor-
+tant American values and raising the specter of past racism. Both
+
+?It is possible that removing filler information from the resumes in
+Study 2 made the task too obvious, such that it was not the removal of
+elasticity that decreased bias but a heightened awareness of the nature of
+the task. Although our results for selection cannot rule out this possibility,
+our results suggesting that participants’ desire to view more resumes was
+highest in the female-educated condition suggest that it was the removal of
+elasticity in this key condition, rather than an overall tendency for partic-
+ipants to guess the nature of the task, that accounts for attenuation of the
+selection bias.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 823
+
+Whites who genuinely support affirmative action and Whites who
+support affirmative action in name only, then, can be constrained
+from publicly acknowledging that race played a role in any deci-
+sion, or at least that race was the primary basis for judgment, even
+when that decision favors a historically disadvantaged group.
+Norton (2002), for example, found that 80% of White participants
+were willing to state which of two White candidates would be
+more successful in college solely on the basis of their photographs;
+when the two photographs depicted candidates of different races,
+however, only 50% were willing to make the same judgment. In
+addition, the recent trend in judicial decisions has been to limit or
+curtail the use of race as a criterion in decision making, making
+even choices motivated purely by egalitarian motives suspect (e.g.,
+Hopwood v. Texas, 1996). In sum, Whites are under a variety of
+pressures to espouse affirmative action yet simultaneously are very
+reluctant to use a social category to justify decisions based on race.
+Thus, we predicted that being faced with these problematic choices
+would cause participants to favor Black candidates while masking
+the true reason for that preference.
+
+Study 3: Casuistry and Memory Distortion
+
+We created a hypothetical college admissions selection task in
+which participants were asked to review resumes of high school
+seniors and select students they thought were most deserving of
+admission. We predicted that participants would be drawn to select
+Black candidates over White candidates, regardless of the specific
+qualifications of their resumes. After making their selections,
+participants were asked to rank qualifications in order of impor-
+tance for determining admission to college. We expected partici-
+pants to justify their decisions by claiming that qualifications that
+favored preferred candidates were more important.
+
+In Study 3 we also begin to explore the private component of
+casuistry by examining whether participants altered the numerical
+value, and not just the relative ranking, of a preferred candidate’s
+qualifications. We predicted that participants selecting a Black
+candidate with higher GPA would not only see GPA as more
+important in making admissions decisions but also would actually
+inflate their preferred candidate’s advantage on that key dimension
+(with parallel results for number of high school Advanced Place-
+ment [AP] classes). After participants made their selections and
+justifications, therefore, we asked them to recall details of the
+candidate’s applications.
+
+Method
+
+Participants. Two hundred nine Princeton University students com-
+pleted the study in groups of up to 20 as part of a larger packet of unrelated
+questionnaires and were paid $8. Fifty-seven percent of the participants
+were female, and 5% did not specify gender. Because of experimenter
+error, we did not assess ethnicity in this study.
+
+Pretest. To select criteria that would be roughly equal in importance,
+we asked 31 undergraduates to rate a number of qualifications for how
+important they were to being admitted to college on a 7-point scale (range:
+1 = not at all to 7 = very). GPA and difficulty of high school classes
+emerged as the highest ranked qualification (Ms = 6.19 and 5.81, respec-
+tively) and, most important for the present investigation, were seen as
+equally important. We therefore chose to use GPA and difficulty of high
+school classes, operationalized as number of AP classes taken, as our
+primary qualifications.
+
+Participants were instructed to imagine that they were on
+the admissions board at Princeton. To make political correctness norms
+
+Procedure.
+
+salient, all participants read a paragraph stating that “Some admissions
+procedures are alleged to be biased, and activist groups are pressuring
+colleges all over the country to review and reevaluate their admissions
+criteria.” They received resumes from two male high school seniors and
+were instructed to review the resumes and indicate which of the two
+candidates they would choose to admit. Each resume included information
+about GPA, SAT scores, number of AP classes, letters of recommendation
+and essays received, and various extracurricular activities. The resumes
+were designed such that the two candidates were as equally qualified as
+possible, with equal cumulative SAT scores and the same number of
+extracurricular activities and academic awards. The only substantive dif-
+ference was that one candidate had a superior GPA (4.0 vs. 3.85), whereas
+the other candidate had taken more AP classes (9 vs. 6). We counterbal-
+anced whether the candidate with the higher GPA appeared first or second.
+In addition, half of the participants were given information about the race
+of the candidates—one Black, one White—in the form of attached photo-
+graphs of two college-aged males (see Hodson et al., 2002, for a similar
+paradigm), and half were not given any information about the race of the
+candidates.
+
+After selecting candidates, participants ranked eight qualifications (let-
+ters of recommendation, GPA, student government, number of AP classes,
+SAT Verbal, SAT Math, athletic participation, and essays) in order of
+importance for admission to college. We created a dichotomous variable
+assessing whether GPA or AP classes had been ranked higher. Participants
+next completed unrelated questionnaires for approximately 15 min, were
+confronted with a surprise recall task—the original candidates’ resumes,
+but with all qualifications omitted—and were instructed to fill in as much
+of the original information as possible.
+
+Results
+
+Selection. First, we observed a main effect of qualifications, as
+more participants selected the candidate with more AP classes
+(60%, 126/209) than the candidate with the higher GPA, rd, N=
+209) = 8.85, p < .005. Participants in the two control (no social
+category) conditions showed an equal aversion to the candidate
+with a higher GPA, picking him only 23% of the time when they
+saw this candidate first and 37% of the time when they saw him
+second, rd, N = 104) = 2.25, ns. When faced with a White
+candidate with a higher GPA, participants again showed a prefer-
+ence for AP classes, selecting this candidate only 26% of the time;
+when the Black candidate had the higher GPA, however, prefer-
+ences drastically reversed, and the overwhelming majority chose
+this candidate (75%), rd, N = 105) = 24.77, p < .001 (see
+Table 2).?
+
+Justification. Although there was a clear preference for select-
+ing candidates with more AP classes, we observed a main effect of
+qualifications such that participants were more likely to rank GPA
+higher than number of AP classes (63%, 131/209), rd, N=
+209) = 13.44, p < .001. This effect, however, was driven entirely
+by one cell. Participants in the two control conditions ranked GPA
+first roughly half the time (57% and 56%, x” < 1, ns). When the
+White candidate had a higher GPA, participants again showed only
+
+3 In this and all of the admissions studies we explored a moderating role
+for participant gender and found little evidence that gender affected our
+results. In Study 3, for example, both genders chose the candidate with
+more AP classes the vast majority of the time in all conditions (two
+controls: men: 39% and 29%, women: 41% and 19%; White with higher
+GPA: men: 30%, women: 17%) except for the key condition in which the
+Black candidate had the higher GPA, when preferences reversed for both
+genders (men: 74%, women: 76%). We thus do not discuss further a role
+for gender in these studies.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+824 NORTON, VANDELLO, AND DARLEY
+
+a mild preference, with 56% ranking GPA as more important;
+when the Black candidate had the higher GPA, however, 84% of
+participants ranked GPA higher, y°(1, N = 104) = 9.86, p < .01
+(see Table 2).
+
+Memory data. We were interested in whether people would
+exaggerate their preferred candidate’s qualifications. We created
+difference scores for recall of both GPA and AP classes for the two
+candidates. For GPA, the overall interaction was marginally sig-
+nificant, F(1, 205) = 3.25, p = .07. Participants’ estimates did not
+differ when no racial information was provided (Ms = 0.15 and
+0.16, SDs = 0.04 and 0.11, ¢ < 1). Participants who saw a Black
+candidate with a higher GPA—those participants particularly mo-
+tivated to see GPA as important—inflated the difference between
+the two candidates’ GPAs (M = 0.19, SD = 0.12), whereas those
+who saw a White candidate with a higher GPA did not (M = 0.15,
+SD = 0.08), a difference that approached significance, 199) =
+1.81,p= .073.* We found no evidence for a similar phenomenon
+with AP classes (F < 1, ns), due primarily to the fact that recall
+was extremely accurate on this measure, with only a 6% error rate;
+for GPA, in contrast, the error rate was 14%.
+
+Discussion
+
+When making a choice between two equally attractive college
+candidates, participants overwhelmingly selected Black candidates
+and justified this decision by inflating the importance of whichever
+qualification favored the Black candidate. When the Black candi-
+date had a higher GPA than the White candidate, participants
+inflated the importance of GPA, and when the Black candidate had
+taken more AP classes than the White candidate, participants did
+not. Study 3 also offers some evidence that casuistry is not merely
+a strategy intended for public consumption, as participants showed
+some tendency to misremember differences in qualifications be-
+tween candidates and, more important, did so in a way that would
+buttress their preference for Black candidates. It is difficult to
+imagine participants strategically reporting differences in GPA,
+both because they had been given instructions regarding accuracy
+and because misreporting information in this context would be a
+poor justificatory attempt. These memory distortions occurred
+after participants had selected candidates; in the next study we
+examined information processing before selection, to see whether
+reshaping of qualifications can occur before participants commit
+themselves to a candidate.
+
+Table 2
+
+Percentages of Participants Who Selected the Candidate With a
+Higher Grade-Point Average (GPA) and Ranked GPA as More
+Important, Study 3
+
+ 
+
+ 
+
+Selected candidate Ranked GPA
+Condition with higher GPA higher
+Control 1 (no race) 23 (12/52) 57 (30/53)
+Control 2 (no race) 37 (19/52) 56 (29/52)
+White candidate higher GPA 26 (14/54) 56 (30/54)
+Black candidate higher GPA 75 (38/51) 84 (42/50)
+
+ 
+
+Note. The two control conditions are a result of counterbalancing
+qualifications.
+
+Study 4: Temporal Sequence of Casuistry
+
+In Study 3, participants selected candidates and then ranked
+qualifications after that decision had been made. Decades of re-
+search on cognitive dissonance show that individuals inflate the
+value of selected options to reduce dissonance (e.g., Brehm, 1956).
+Is the casuistry we find in the present studies simply postdecisional
+justification, or can the reshaping of qualifications occur prior to a
+decision (see Brownstein, 2003), on merely being exposed to
+information that is tainted by social category? In Study 4 we
+explored whether actual expression of a decision is necessary to
+witness the established pattern of inflating the importance of
+qualifications that favor Black candidates. If inflation of qualifi-
+cations occurs only after decisions have been made, then the
+process might be seen more as justification: Only after choosing do
+people feel compelled to reshape criteria. Finding inflation prior to
+choice would demonstrate that participants do not simply select
+Black candidates and then inflate the value of whichever criterion
+favors them but that they may come to see these candidates’
+qualifications as truly more impressive and make selections on the
+basis of those qualifications.
+
+Method
+
+Participants. Participants were 154 Princeton undergraduates who
+completed the questionnaire as part of a mass testing session in groups of
+up to 20 and were paid $8 for their participation. Fifty-six percent were
+female; 62% were White, 15% were Asian, 11% were Black, 4% were
+Hispanic, 7% reported “other” ethnicity, and 3 participants did not report
+ethnicity.
+
+Procedure. The design was a 2 (qualifications: Black candidate higher
+GPA/Black candidate more AP classes) X 2 (select candidate first/rank
+qualifications first). We used the same resumes as in Study 3, but in Study
+4 all resumes included social category information. Participants in the
+select-first condition picked the candidate they felt was most qualified and
+then ranked qualifications (as in previous studies). Participants in the
+rank-first condition were given no indication that they would be asked to
+choose between candidates, but simply read that we were interested in what
+qualifications were most important in making admissions decisions and
+that they could look at a few sample resumes to get a sense of some
+relevant qualifications. These participants were then given a list of quali-
+fications and asked to rank which they felt were most important in making
+admission decisions. Only after completing this task were these partici-
+pants asked to return to the sample resumes and select a candidate.
+
+Results
+
+Selection. As before, the vast majority (79%) of participants
+selected Black candidates over White candidates, rd, N=
+154) = 52.60, p < .001. It is important to note that this effect held
+regardless of that candidate’s qualifications: When the Black can-
+didate had the higher GPA, participants selected him 77% (59/77)
+of the time, and when he had more AP classes he was chosen 82%
+(63/77) of the time (y* < 1, ns). Most relevant to the present
+
+* Another strategy for exploring memory errors is to test directly for
+accuracy, by conducting one-sample f tests (test value = 0.15). Participants
+accurately remembered the candidates’ GPAs when no racial information
+was attached and when the White candidate had a higher GPA (all ts < 1),
+but those who saw a Black candidate with a higher GPA significantly
+inflated the difference between the two candidates’ GPAs, (49) = 2.15,
+p< .04.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 825
+
+investigation is that the strong preference for Black candidates did
+not vary whether participants ranked qualifications first (83%) or
+selected candidates first (76%, x <1, ns; see Table 3)°
+
+Justification. Although no consensus on qualifications emerged
+in selection, GPA was ranked higher than AP classes 71% of the
+time across versions, rd, N = 154) = 26.60, p < .001. As
+predicted, however, this preference for GPA was moderated by our
+manipulations. GPA was ranked higher than AP classes 81%
+(62/77) of the time when the Black candidate had the higher GPA,
+a number that dropped to 61% (47/77) when the White candidate
+had the higher GPA, rd, N = 154) = 7.06, p < .01. Most
+important to the present investigation is that the relatively higher
+ranking for whichever qualification favored the Black candidate
+was the same whether participants made their selections before
+ranking qualifications or after (89% vs. 74% when the Black
+candidate had the higher GPA; 63% vs. 60% when the White
+candidate did), rd, N = 154) = 1.51, ns (see Table 3). Inflation
+of qualifications, therefore, is not driven only by postdecisional,
+strategic concerns but also appears to occur even when merely
+exposed to resumes.
+
+Discussion
+
+We again found a strong preference for selecting Black candi-
+dates regardless of their qualifications. What is most striking about
+this study is the marked similarity in results for the two conditions.
+Whether participants selected candidates and then ranked qualifi-
+cations, or merely glanced at resumes, ranked qualifications, and
+then made their selections, there was a strong tendency both to
+select Black candidates and inflate the value of qualifications that
+favored these candidates. The fact that participants were given no
+indication that they would have to select between the candidates in
+the rank-first condition, yet still inflated qualifications, suggests
+that there is a change in meaning of qualifications when those
+qualifications are paired with different social categories: Partici-
+pants did not merely justify their decisions by strategically inflat-
+ing the value of whichever criterion favored their preferred can-
+didate but actually saw that person’s qualifications as more
+impressive even before knowing they would be asked to select.®
+As in Study 3, in which memories were distorted to support biased
+decisions, this predecisional inflation we found in the present study
+suggests that casuistry, although certainly containing strategic
+elements, also has private components.
+
+Study 5: Accountability and Casuistry
+
+Having established the phenomenon and found some support for
+casuistry as a private process, we next wanted to explore the more
+
+Table 3
+
+Percentages of Participants Who Selected the Candidate With a
+Higher Grade-Point Average (GPA) and Ranked GPA as More
+Important, as a Function of Order of Ranking, Study 4
+
+ 
+
+ 
+
+Selected candidate Ranked GPA
+Condition with higher GPA higher
+
+Black candidate higher GPA
+
+Rank first 77 (27/35) 89 (31/35)
+
+Select first 76 (32/42) 74 (31/42)
+White candidate higher GPA
+
+Rank first 11 (4/35) 63 (22/35)
+
+Select first 24 (10/42) 60 (25/42)
+
+ 
+
+public aspects of casuistry, by making the situation more like
+real-world decisions. In Studies 1 through 4, participants were not
+called on to explain their decisions. In Study 5, we made the
+selection process public by asking participants to explain to an
+interviewer why they selected the candidate they did. Such ac-
+countability (Tetlock, 1992) is commonly viewed as means of
+reducing bias, and one possibility is that making decisions more
+public would prevent our participants from engaging in casuistry.
+The effects of accountability pressures are more complex (see
+Lerner & Tetlock, 1999), however; in some situations accountabil-
+ity can enhance bias, as with its amplifying effect on commitment
+to decisions (Simonson & Staw, 1992). Accountability thus may
+do little to improve selection biases and because of its amplifica-
+tion of commitment may increase the extent to which participants
+engage in casuistry to justify those decisions. We expected partic-
+ipants to continue to select Black candidates when held account-
+able and to justify their decisions by inflating the value of quali-
+fications that favored Black candidates to an even greater extent.
+
+Finally, our accountability manipulation offered an opportunity
+to demonstrate people’s reluctance to cite race as a factor in
+decision making. Participants who were made accountable for their
+decisions were asked to explain after completing the task how they
+had made their decisions, and we coded their responses for any
+mention of race.
+
+Method
+
+Participants. One hundred twenty-three Princeton undergraduates
+took part in groups of up to 4 to fulfill a course requirement. Fifty-seven
+percent were female; 75% were White, 9% were Black, 9% were Asian,
+4% were Hispanic, and 3% reported “other” ethnicity. One participant did
+not report ethnicity.
+
+Procedure. We used the same resumes as in Study 4. Our design was
+a 2 (qualifications: Black candidate with a higher GPA/Black candidate
+with more AP classes) X 2 (accountability/no accountability). After par-
+ticipants arrived in the laboratory, the experimenter told participants in the
+accountability condition that he was pilot testing resumes and thus would
+ask participants a series of questions after they were done about how they
+had made their selection and about which qualifications were important in
+making that decision. Participants in the no-accountability condition were
+simply reminded that their responses were anonymous. Participants then
+viewed the resumes, made their selection, and completed the other depen-
+dent measures. First, participants ranked qualifications in order of impor-
+tance. As a manipulation check on accountability, we asked participants to
+rank, on a 7-point scale (range: | = not at all to 7 = extremely), how
+difficult their decision had been. Finally, participants in the accountability
+condition were taken individually into a private room (so that the other
+participants could not hear them) and were asked to explain to the exper-
+
+>In Studies 4 through 6 we explored a role for participant race as a
+moderator. Although it would have been ideal to analyze White and Black
+participants separately, our small number of Black participants precludes
+such analyses. The data for White participants alone look very similar to
+the overall data in Study 4: They selected the candidate with the higher
+GPA 79% (rank first) and 75% (select first) of the time when that candidate
+was Black, but these numbers dropped to 10% and 26%, respectively, when
+that candidate was White.
+
+It is possible that participants were able to guess that they would be
+asked to make a decision, complicating the degree to which these decisions
+can truly be seen as private, an issue to which we return in the General
+Discussion.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+826 NORTON, VANDELLO, AND DARLEY
+
+imenter how they had made their decision. The experimenter coded the
+responses for any mention of race.
+
+Results
+
+Manipulation check. As expected, participants who were ac-
+countable found the decision more difficult (MW = 6.47, SD = 0.87)
+than those who were not accountable (M = 6.10, SD = 1.19),
+#120) = 1.99, p < .05.
+
+Selection. As before, selection was driven by race, not quali-
+fications, as 77% (95/123) of the participants selected Black can-
+didates, rd, N = 123) = 36.50, p < .001. Participants in the
+no-accountability condition selected the candidate with the higher
+GPA 70% of the time when that candidate was Black but only 21%
+of the time when that candidate was White, rd, N= 70) = 16.85,
+p < .001, similar to participants in the accountability condition
+(77% and 15%, respectively), rd, N = 53) = 20.62, p < .001
+(see Table 4). There was no effect of accountability on candidate
+selection; although participants were slightly more likely to select
+the Black candidate when they knew they would be held account-
+
+able (81% vs. 74%), this difference was not significant
+OC < 1, ns).
+Justification. We next checked to see whether participants
+
+inflated the value of the qualifications that favored the Black
+candidate, and they had. In the no-accountability condition, 70% of
+participants ranked GPA higher when the Black candidate had the
+higher GPA, whereas only 45% ranked GPA higher when the
+Black candidate had taken more AP classes, rd, N= 70) = 443,
+p < .05, results that were amplified in the accountability condition,
+in which 81% ranked GPA higher when the Black candidate had
+the higher GPA, whereas only 30% did so when the Black candi-
+date had taken more AP classes, rd, N = 50) = 13.98, p < .001.
+Looking directly at the effect of accountability, although 63%
+(44/70) of participants in the no-accountability condition ranked
+whichever qualification favored the Black candidate higher, some
+76% (40/53) did so in the accountability condition, although this
+effect only approached significance, y°(1, N = 123) = 2.22,
+p= 4.
+
+Another method of assessing the impact of accountability on
+casuistry is to explore whether accountability increased people’s
+consistency in justifying their selections. The overall strength of
+the relationship of ranking the qualification higher that favored
+one’s chosen candidate was quite high, r(123) = .74, p < .001;
+thus, participants who selected a candidate with a higher GPA
+were quite likely to rank GPA higher. This relationship was
+weaker for participants in the no-accountability condition, how-
+
+Table 4
+
+Percentages of Participants Who Selected the Candidate With a
+Higher Grade-Point Average (GPA) and Ranked GPA as More
+Important, as a Function of Accountability, Study 5
+
+ 
+
+ 
+
+Selected candidate Ranked GPA
+Condition with higher GPA higher
+Black candidate higher GPA
+Accountable 77 (20/26) 81 (21/26)
+Not accountable 70 (26/37) 70 (26/37)
+White candidate higher GPA
+Accountable 15 (4/27) 30 (8/27)
+Not accountable 21 (7/33) 45 (15/33)
+
+ 
+
+ever, (70) = .68, and stronger for those in the accountability
+condition, 7(53) = .83, Z = 1.92, p < .05.
+
+Mentions of race in posttask interviews. After the task, partic-
+ipants in the accountability condition were asked to explain their
+decisions, and the experimenter coded whether participants men-
+tioned race as a factor in their decisions. Our premise was that
+people would be reluctant to mention race, and indeed participants
+were unlikely to do so, as 81% (43/53) did not. In addition, of the
+participants who did mention race, 8 of 10 mentioned it last when
+explaining their decisions. We correlated mentions of race with
+participants’ selections and found that those who mentioned race
+were somewhat more likely to select the Black candidate, although
+this relationship was only marginally significant (r = .23, p =
+.09). When we removed these participants from our selection
+analyses, the strong preference for the Black candidate still held, as
+77% (33/43) still picked this candidate.
+
+Discussion
+
+Participants who made decisions in private, as in previous
+studies, overwhelmingly selected Black candidates and inflated the
+value of qualifications that favored these candidates. Participants
+under accountability were guilty of these same biases, only more
+so, as they were even more consistent in their inflation, as reflected
+in the increased correlation between selection and justification. In
+addition, we demonstrated participants’ reluctance to use race in
+justifying these decisions. Thus, a necessary precondition for ca-
+suistry, a motive to conceal a forbidden preference, was
+supported.”
+
+Study 6: Precommitment and Casuistry
+
+Given the robustness of both selection and justification biases
+under conditions of accountability, we next wanted to test another
+method of eliminating the bias, one used in some form in many
+organizations: committing people to the criteria they will use to
+make a decision before any candidates are reviewed. Whereas in
+previous studies participants selected their candidates, then ranked
+qualifications (or, in one condition of Study 4, saw resumes before
+ranking and then selected their candidates), in Study 6 we com-
+mitted them to their rankings of qualifications before they were
+given access to any resumes. In this design, if participants rank
+GPA higher than AP classes, they should be bound to pick the
+candidate who dominates on that qualification when they are given
+resumes. If participants continue to make selections on the basis of
+race despite this commitment, then we expect them to engage in
+selective reweighting of qualifications, retrospectively increasing
+the importance of the qualification that favors their candidate. This
+design also allows us to explore whether participants who ignore
+their prerankings in order to favor a Black candidate are less
+certain about their decisions or whether casuistry allows them to
+
+7 We do not suggest that accountability pressures will never improve
+selection biases; accountability in the employment studies, for example,
+may have motivated male participants to base their selections on qualifi-
+cations. Although the effects of accountability on selection may be varied,
+we argue that accountability will always increase casuistry, leading par-
+ticipants to inflate qualifications to justify their choices to an even greater
+degree.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 827
+
+view their decisions—and thus themselves—as positively as their
+consistent counterparts.
+
+Method
+
+Participants. Seventy-two Princeton undergraduates completed the
+questionnaire as part of a mass testing session in groups of up to 20 and
+were paid $8 for their participation. Sixty-five percent were female; 61%
+were White, 15% were Asian, 8% were Black, 8% were Hispanic, and 7%
+reported “other” ethnicity.
+
+Procedure. We used the same resumes as in Studies 4 and 5 but made
+two modifications to the procedure. First, prior to reviewing any resumes,
+participants were asked to prerank the eight qualifications in order of
+importance before they made their selection (and before they knew there
+was a selection to be made). In contrast to all of the earlier studies, then,
+participants ranked qualifications without seeing any actual resumes. Par-
+ticipants were then given resumes to review, made their selections, and
+then were asked to rerank the same qualifications as before. Second, we
+added two dependent variables designed to assess participants’ impressions
+of their decisions, asking them how difficult their decision had been, and
+how confident they were in their decision, both rated on 7-point scales
+(range: 1 = not at all to 7 = extremely).
+
+Results
+
+Prerankings. There was a strong preference for GPA as being
+more important than number of AP classes, as 86% of the partic-
+ipants ranked it higher before seeing any candidate resumes over-
+all, rd, N = 72) = 37.56, p < .001, with results—not surpris-
+ingly—similar whether participants were going to see a Black
+candidate with a higher GPA (84%) or a White candidate with a
+higher GPA (88%; see Table 5). Thus, participants should have
+been bound to select candidates with higher GPAs in the selection
+phase, regardless of the race of the candidate who actually had a
+higher GPA.
+
+Selection. This was clearly not the case, however, because,
+replicating results from earlier studies, 76% of the participants
+(55/72) selected the Black candidate regardless of qualifications,
+(1, N = 72) = 20.06, p < .001. Replicating results from earlier
+studies, 84% of participants selected the candidate with the higher
+GPA when this candidate was Black, but this number dropped to
+32% when that candidate was White, rd, N = 72) = 20.06, p <
+.001 (see Table 5).
+
+Postrankings. It is interesting that although participants were
+not bound by their prerankings in making selections, they appeared
+to be bound somewhat by their prerankings here, as participants in
+both conditions still ranked GPA as more important in both con-
+ditions: 84% when the Black candidate had the higher GPA, and
+74% when the White candidate had the higher GPA. In other
+words, despite the fact that participants chose the candidate with
+the higher GPA only 31% of the time when that candidate was
+White, these participants still reported that GPA was most impor-
+
+Table 5
+
+tant 74% of the time (see Table 5). This 74% postranking repre-
+sents a drop from 88% in the prerankings but is not dramatic
+enough to mirror the results for selection and is not statistically
+significant, rd, N = 72) = 1.24, ns.
+
+Consistent versus inconsistent participants. The results above
+reflect the fact that some participants selected candidates with
+qualifications that did not match participants’ own prerankings of
+importance. It is not surprising that, of the 27 participants who
+were inconsistent, nearly all (85%) contradicted their preranking
+order so that they could select the Black candidate. Did these
+participants see their decision as less valid as a result of their
+inconsistency? Hardly—there were no differences between con-
+sistent and inconsistent participants when rating how difficult the
+decision was (consistent: M = 5.67, SD = 1.54; inconsistent: M =
+5.67, SD = 1.14) or how confident they were that they had made
+the correct decision (consistent: M = 4.04, SD = 4.48; inconsis-
+tent: M = 4.30, SD = 1.33; ts < 1). These results echo those
+obtained by Batson et al. (2002) in their work on moral hypocrisy,
+as participants who cheated in a coin flip to assign themselves a
+positive task failed to update (or downgrade) their feelings of
+morality as a result.
+
+The fact that posttask ratings of difficulty and confidence do not
+differ for inconsistent participants may be due to the fact that
+although the overall correlation between preranking and selec-
+tion—the extent to which participants who ranked GPA higher
+selected the candidate with the higher GPA—was low, r(72) =
+.16, p = .18, the correlation between postrankings and selection
+was highly significant, (72) = .42, p < .001. Although some
+participants made inconsistent choices initially, by the end of the
+task they had made their selections more consistent with their
+reinterpretations of the importance of the qualifications that fa-
+vored their selection. Thus, although not all participants who made
+inconsistent selections changed their postrankings to justify these
+choices, the trend was to do so.
+
+Discussion
+
+Despite committing themselves to qualifications before making
+selections, participants faced with the dilemma of rejecting a Black
+candidate managed to overcome this obstacle and continue to favor
+this candidate. Participants whose prerankings allowed them to be
+consistent when selecting the Black candidate were faced with an
+easy task. Participants who were forced to be inconsistent (e.g.,
+preranking GPA higher, then selecting a candidate with a lower
+GPA) were presented with two dilemmas, of which only one could
+be solved: being consistent with prerankings or selecting the Black
+candidate. Our participants overwhelmingly chose the inconsis-
+tency that would allow them to continue to favor the Black
+candidate, showing that this desire overwhelmed the desire for
+consistency. Having made this choice, however, some participants
+
+Percentages of Participants Who Ranked Grade-Point Average (GPA) Higher (Pre- and
+Postcommitment) and Selected the Candidate With a Higher GPA, Study 6
+
+ 
+
+Ranked GPA higher
+
+Selected candidate Ranked GPA higher
+
+ 
+
+Candidate (precommitment) with higher GPA (postcommitment)
+Black candidate higher GPA 84 (32/38) 84 (32/38) 84 (32/38)
+White candidate higher GPA 88 (30/34) 32 (11/34) 74 (25/34)
+
+ 
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+828 NORTON, VANDELLO, AND DARLEY
+
+then altered their postrankings of qualifications in an attempt to
+regain some of that consistency, as evidenced by the increased
+correlation between selection and postrankings. Thus, one kind of
+inconsistency (changing rankings from pre to post) was used to
+justify another (selecting candidates who violate prerankings).
+
+Summary of the Admissions Studies
+
+The admissions studies accomplished three main goals. First, we
+demonstrated casuistry in another domain, one in which our pre-
+dominantly White participants were motivated to favor members
+of a different social group. Second, we found some evidence for
+private aspects of casuistry, as participants made memory errors in
+line with their biased preferences (Study 3) and reshaped criteria
+before making selections (Study 4). Third, we demonstrated the
+robustness of the phenomenon, as manipulations designed to de-
+crease the bias did little to eliminate the effect; accountability
+pressures, in fact, enhanced participants’ tendency to inflate the
+value of qualifications that favored Black candidates (Study 5),
+and precommitment simply led some participants to change their
+rankings of qualifications post hoc to justify their biased choices
+(Study 6).
+
+The casuistry we witnessed when participants faced the pres-
+sures of making choices that favored an in-group (Studies 1 and 2)
+also occurred when participants made choices that favored an
+out-group (Studies 3-6). This difference in direction of bias in the
+employment studies and the admissions studies warrants comment;
+in the employment studies, male participants favored other men for
+a job unless forced to forgo that preference, which is hardly an
+egalitarian or politically correct choice, whereas in the admissions
+studies this same participant population favored Black candidates,
+a more egalitarian or politically correct choice. This preference for
+Black candidates cannot be attributed to our inclusion of female
+participants in the admissions studies, because gender does not
+moderate our effects; neither can it be attributed solely to the
+egalitarian views of our sample, as this same population recently
+was shown to discriminate against Blacks (e.g., Monin & Miller,
+2001). In part, this difference is due to the fact that sexist behavior
+is more socially sanctioned than racist behavior (e.g., Rodin, Price,
+Bryson, & Sanchez, 1990). In addition, however, we suggest that
+the difference is due in part to participants’ desire to follow the
+prevailing norm; in the employment scenario there is some reason
+to believe that the job truly would be better for a man, and thus
+participants follow this norm, whereas the strong support for
+affirmative action among college undergraduates makes favoring
+Black candidates the norm. These findings are especially interest-
+ing when considered in light of theories of aversive racism (Gaert-
+ner & Dovidio, 1986). Our participants are not expressing preju-
+dice in subtle ways—as when licensed by additional information
+(Darley & Gross, 1983)—but are instead expressing politically
+correct beliefs when licensed to do so. As outlined in the beginning
+of this article, we suggest that the forced-choice nature of our
+paradigm highlights the potential danger of decision making in-
+volving social categories, motivating participants to follow the
+prevailing norm rather than their prejudiced inclinations. Most
+important for our argument is that, despite the different initial
+motivations (favoring male candidates vs. favoring Black candi-
+dates), participants engage in the same strategy to mask their use
+of social category information.
+
+General Discussion
+
+How do individuals engage in biased behavior while retaining a
+view of the self as objective? The present research was designed to
+investigate the casuistry that often accompanies such behavior,
+exploring the process by which individuals’ questionable decision
+making based on social category information can be licensed by
+their arbitrary inflation of qualifications that favor preferred can-
+didates. We demonstrated the phenomenon in two domains, one in
+which men inflated the value of experience or education to favor
+male job candidates and one in which predominantly White par-
+ticipants inflated the importance of GPA or number of AP classes
+to favor Black candidates for admission to college. The two sets of
+studies differ, importantly, in participants’ motivation to hide their
+use of social categories, demonstrating the breadth of the phenom-
+enon. In the employment studies, the reason for casuistry is clear,
+as men masked their preferences for members of their same social
+category. The admissions studies, on the other hand, reveal that
+individuals mask use of social category information even when
+they seek to favor members of different social groups. Both cases,
+however, share the common feature of using casuistry to mask
+decision making that is based on questionable desires. Given the
+small proportion of participants who cited social category infor-
+mation as a factor in their decision making (Studies 1 and 5)—yet
+the overwhelming proportion of participants in each study who did
+so—it appears that casuistry is an effective technique in licensing
+use of social category information.
+
+The Public and Private Nature of Casuistry
+
+In the beginning of this article, we introduced casuistry as a
+strategy that addresses both the public and private dilemmas in
+which people confronted with choices like those in our paradigms
+face: the public fear of being seen as biased and efforts to justify
+that behavior to others and private concerns about being biased and
+efforts to rationalize that behavior to oneself. Many of the studies
+we report here were specifically designed to address this issue. It
+is quite clear that the phenomenon can be entirely conscious and
+strategic, as when a sexist employer who reviews resumes wanting
+to hire a man looks for whichever qualification will favor a male
+candidate and then announces to the company that the man has
+been hired on this basis. This would be an effective technique for
+justification, but casuistry could also involve rationalization: It is
+also possible that the employer may truly wish to avoid using
+social category information, despite some sexist attitudes, yet
+unknowingly allow these stereotypes to influence his review of
+resumes. This well-intentioned manager may end up picking the
+man but truly believe that this candidate is more qualified.
+
+Although the studies reported in this article do not offer con-
+clusive evidence that casuistry is in part a private strategy intended
+for the self, several offer support for such an interpretation. The
+memory distortions we observed in Study 3, for example, which
+suggest that individuals reshape not only the relative rankings but
+also the absolute values of qualifications in order to support
+preferred conclusions, are difficult to cast as a strategy for public
+consumption. It is hard to imagine that misrecalling information
+about candidates would be an effective means of justifying one’s
+decisions to others, who may have access to the original, accurate
+information. The prechoice reweighting of qualifications in Study
+4, as well, seems unlikely to be targeted entirely for public justi-
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 829
+
+fication. As alluded to in footnote 6, it is certainly possible that
+participants anticipated the choice, thus making the shift in rank-
+ings prior to choice due more to anticipated dissonance—a point to
+which we return below. However, even if participants are aware
+that a choice is imminent, and shift their rankings in anticipation,
+this is clearly not a strategy intended for public consumption, as
+there is no need to justify choices to others when one has not
+committed to any choice. There is reason to justify one’s choice to
+oneself even before one has chosen, however: to reduce one’s
+privately experienced conflict.
+
+The two manipulations we included to mimic more real-world
+pressures on decision making, accountability, and precommitment
+also shed light on the nature of casuistry through their collective
+failure to reduce bias. The fact that many of the studies were
+conducted in large, anonymous testing sessions may have served to
+minimize public pressures in general, supporting a view of casu-
+istry as a private process. We used an accountability manipulation
+in Study 5 specifically to increase public pressure; if casuistry
+were an entirely public process, then this incentive should have
+been sufficient to reduce bias. Instead, even in the face of a public
+explanation of the decision, bias was not reduced, and casu-
+istry—as measured by the increased correlation between selection
+and justification when participants were held accountable—actu-
+ally increased. A commitment to qualifications before selection
+also failed to attenuate bias in Study 6, as participants continued to
+make selections based on social category even when that choice
+was inconsistent with their stated rankings of qualifications. Al-
+though this may be a conscious strategy, our data suggesting that
+these inconsistent participants were just as certain of their choice,
+and found the choice no more difficult, raise the possibility that
+these subtle shifts occur outside of awareness, or we might expect
+some acknowledgment that the process was more difficult when
+participants had to reshape qualifications post hoc. With the exer-
+cise of parsing out conscious and unconscious aspects of psycho-
+logical phenomena a difficult task as always (see Tetlock &
+Manstead, 1985), it appears probable that casuistry has both public
+and private functions, serving to justify one’s decisions to others
+and rationalize one’s decisions to oneself.
+
+Casuistry and Dissonance
+
+The view that casuistry is at least in part a private process that
+serves as a means of rationalizing one’s questionable actions to
+oneself, again echoes those versions of cognitive dissonance the-
+ory that stress the role of threats to the self. As we discussed in the
+beginning of this article, in one sense casuistry can be seen as a
+form of dissonance reduction; the subtle shift in pre- and post-
+selection rankings in Study 6, for example, can be seen as a means
+of reducing dissonance caused by the inconsistency of one’s
+choice with one’s previous rankings. The shift in rankings of
+qualifications prior to selection in Study 4, again, might be seen as
+due to a desire to reduce the dissonance one expects to experience
+when actually committing to the questionable choice, supporting
+an anticipated-dissonance interpretation (Festinger, 1964). Our
+results have implications for dissonance theory in general, as well.
+In forced-choice dissonance paradigms in general, dissonance is
+usually reduced by inflating the value of the chosen option, often
+on whichever dimension seems most important. Our paradigm
+complicates this process, as the dimension that seems most impor-
+tant (and in fact is most important, as our selection results clearly
+
+reveal in all studies) is the social category membership of the
+candidates. We find that despite this new constraint, participants
+are able to cope with dissonance more creatively, by recruiting
+alternative attributes to rationalize their decisions.
+
+Conclusion
+
+The present research demonstrates, in two different domains,
+how the social world can be (re)constructed both to justify ques-
+tionable decisions to others and to support a view of the self as
+unbiased—and, most important, that this restructuring has real
+repercussions for others: those we judge. More generally, we
+believe that this restructuring is a common means of abjuring
+responsibility for one’s choices in morally loaded domains, from
+justifying discriminating against—or in favor of—individuals on
+the basis of their physical attractiveness to masking one’s purchase
+of pomography by feigning interest in the magazine’s journalistic
+integrity. Most troubling is that if casuistry causes people truly to
+believe in their justifications, then their subsequent behavior can
+be seen as dictated by the situation, not by any personal bias or
+failing. Social psychologists tend to focus on how situations com-
+pel behavior; casuistry demonstrates how individuals can cre-
+atively structure situations to compel their own behavior. Because
+the true reasons for decisions are often problematic, individuals
+look to other aspects of the situation that can be brought to bear,
+and end up using less diagnostic information to justify their deci-
+sions, both to themselves and others.
+
+References
+
+Allport, G. W. (1954). The nature of prejudice. Reading, MA: Perseus.
+
+Aronson, E. (1968). Dissonance theory: Progress and problems. In R. P.
+Abelson, E. Aronson, W. J. McGuire, T. M. Newcomb, M. J. Rosenberg,
+& P. H. Tannenbaum (Eds.), Theories of cognitive consistency: A
+source-book (pp. 5-27). Chicago: Rand McNally.
+
+Bandura, A. (1999). Moral disengagement in the perpetration of inhuman-
+ities. Personality and Social Psychology Review, 3, 193-209.
+
+Batson, C. D., Thompson, E. R., & Chen, H. (2002). Moral hypocrisy:
+Addressing some alternatives. Journal of Personality and Social Psy-
+chology, 83, 330-339.
+
+Brehm, J. W. (1956). Postdecision changes in the desirability of alterna-
+tives. Journal of Abnormal and Social Psychology, 52, 384-389.
+
+Brown, J. D., & Rogers, R. J. (1991). Self-serving attributions: The role of
+physiological arousal. Personality and Social Psychology Bulletin, 17,
+501-506.
+
+Brownstein, A. L. (2003). Biased predecision processing. Psychological
+Bulletin, 129, 545-568.
+
+Cooper, J., & Fazio, R. (1984). A new look at dissonance. In L. Berkowitz
+(Ed.), Advances in experimental social psychology (Vol. 17, pp. 229-
+268). San Diego, CA: Academic Press.
+
+Crandall, C. S., Eshleman, A., & O’Brien, L. (2002). Social norms and the
+expression and suppression of prejudice: The struggle for internalization.
+Journal of Personality and Social Psychology, 82, 359-378.
+
+Darley, J. M., & Gross, P. H. (1983). A hypothesis-confirming bias in
+labeling effects. Journal of Personality and Social Psychology, 44,
+20-33.
+
+Deaux, K., & Emswiller, T. (1974). Explanations of successful perfor-
+mance on sex-linked tasks: What is skill for the male is luck for the
+female. Journal of Personality and Social Psychology, 29, 80-85.
+
+Devine, P. G. (1989). Stereotypes and prejudice: Their automatic and
+controlled components. Journal of Personality and Social Psychology,
+56, 5-18.
+
+Ditto, P. H., & Lopez, D. F. (1992). Motivated skepticism: Use of differ-
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+830 NORTON, VANDELLO, AND DARLEY
+
+ential decision criteria for preferred and nonpreferred conclusions. Jour-
+nal of Personality and Social Psychology, 63, 568-584.
+
+Dovidio, J. F., & Gaertner, S. L. (1998). On the nature of contemporary
+prejudice: The causes, consequences, and challenges of aversive racism.
+In J. L. Eberhardt & S. T. Fiske (Eds.), Confronting racism: The problem
+and the response (pp. 3-32). Thousand Oaks, CA: Sage.
+
+Dovidio, J. F., & Gaertner, S. L. (2000). Aversive racism and selection
+decisions: 1989 and 1999. Psychological Science, 11, 315-319.
+
+Dunning, D., Leuenberger, A., & Sherman, D. A. (1995). A new look at
+motivated inference: Are self-serving theories of success a product of
+motivational forces? Journal of Personality and Social Psychology, 69,
+58-68.
+
+Dutton, D. G. (1971). Reactions of restauranteurs to Blacks and Whites
+violating restaurant dress requirements. Canadian Journal of Behav-
+toural Science, 3, 298-302.
+
+Eagly, A. H., & Karau, S. J. (2002). Role congruity theory of prejudice
+toward female leaders. Psychological Review, 109, 573-598.
+
+Epley, N., & Dunning, D. (2000). Feeling “holier than thou”: Are self-
+serving assessments produced by errors in self or social prediction?
+Journal of Personality and Social Psychology, 79, 861-875.
+
+Festinger, L. (1957). A theory of cognitive dissonance. Stanford, CA:
+Stanford University Press.
+
+Festinger, L. (1964). Conflict, decision, and dissonance. Stanford, CA:
+Stanford University Press.
+
+Fiske, S. T. (1998). Stereotyping, prejudice, and discrimination. In D. T.
+Gilbert, S. T. Fiske, & G. Lindzey (Eds.), The handbook of social
+psychology (Ath ed., pp. 357-414). New York: McGraw-Hill.
+
+Fiske, S. T., & Neuberg, S. L. (1990). A continuum model of impression
+formation from category-based to individuating processes: Influences of
+information and motivation on attention and interpretation. In M. P.
+Zanna (Ed.), Advances in experimental social psychology (Vol. 23, pp.
+1-74). San Diego, CA: Academic Press.
+
+Freud, A. (1936). The ego and the mechanisms of defense. New York:
+International Universities Press.
+
+Freud, S. (1962). The neuro-psychoses of defense. In J. Strachey (Ed. and
+Trans.), The standard edition of the complete works of Sigmund Freud
+(Vol. 3, pp. 45-61). London: Hogarth Press. (Original work published
+1894)
+
+Gaertner, S. L., & Dovidio, J. F. (1986). The aversive form of racism. In
+J. F. Dovidio & S. L. Gaertner (Eds.), Prejudice, discrimination, and
+racism (pp. 61-89). Orlando, FL: Academic Press.
+
+Goethals, G. R. (1986). Fabricating and ignoring social reality: Self-
+serving estimates of consensus. In J. M. Olson, C. P. Herman, & M. P.
+Zanna (Eds.), Social comparison and relative deprivation: The Ontario
+Symposium (Vol. 4, pp. 135-157). Hillsdale, NJ: Erlbaum.
+
+Hodson, G., Dovidio, J. F., & Gaertner, S. L. (2002). Processes in racial
+discrimination: Differential weighting of conflicting information. Per-
+sonality and Social Psychology Bulletin, 28, 460—471.
+
+Hopwood v. Texas, 78 F. 3d 932 (5th Cir. 1996).
+
+Hsee, C. K. (1996). Elastic justification: How unjustifiable factors influ-
+ence judgments. Organizational Behavior and Human Decision Pro-
+cesses, 66, 122-129.
+
+Ito, T. A., & Urland, G. R. (2003). Race and gender on the brain:
+Electrocortical measures of attention to the race and gender of multiply
+categorizable individuals. Journal of Personality and Social Psychology,
+85, 616-626.
+
+James, E. H., Brief, A. P., Dietz, J., & Cohen, R. R. (2001). Prejudice
+matters: Understanding the reactions of Whites to affirmative action
+programs targeted to benefit Blacks. Journal of Applied Psychology, 86,
+1120-1128.
+
+Kelman, H. C. (2001). Reflections on social and psychological processes of
+legitimization and delegitimization. In J. T. Jost & B. Major (Eds.), The
+psychology of legitimacy: Emerging perspectives on ideology, justice,
+and intergroup relations (pp. 54-73). New York: Cambridge University
+Press.
+
+Kravitz, D. A. (1995). Attitudes toward affirmative action plans directed at
+Blacks: Effects of plan and individual differences. Journal of Applied
+Social Psychology, 25, 2192-2220.
+
+Kruglanski, A. W. (1989a). Lay epistemics and human knowledge: Cog-
+nitive and motivational biases. New York: Plenum.
+
+Kruglanski, A. W. (1989b). The psychology of being “right”: The problem
+of accuracy in social perception and cognition. Psychological Bulletin,
+106, 395-409.
+
+Kunda, Z. (1990). The case for motivated reasoning. Psychological Bul-
+letin, 108, 480-498.
+
+Lerner, J. S., & Tetlock, P. E. (1999). Accounting for the effects of
+accountability. Psychological Bulletin, 125, 255-275.
+
+Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and
+attitude polarization: The effects of prior theories on subsequently con-
+sidered evidence. Journal of Personality and Social Psychology, 37,
+2098-2109.
+
+Mather, M., Shafir, E., & Johnson, M. K. (2000). Misremembrance of
+options past: Source monitoring and choice. Psychological Science, 11,
+132-138.
+
+Monin, B., & Miller, D. T. (2001). Moral credentials and the expression of
+prejudice. Journal of Personality and Social Psychology, 81, 33-43.
+Monin, B., & Norton, M. L (2003). Perceptions of a fluid consensus:
+Uniqueness bias, false consensus, false polarization and pluralistic ig-
+norance in a water conservation crisis. Personality and Social Psychol-
+
+ogy Bulletin, 29, 559-567.
+
+Norton, M. I. (2002). Moral casuistry and the justification of biased
+judgment. Unpublished doctoral dissertation, Princeton University.
+
+Pelham, B. W. (1991). On confidence and consequence: The certainty and
+importance of self-knowledge. Journal of Personality and Social Psy-
+chology, 60, 518-530.
+
+Pelham, B. W., & Neter, E. (1995). The effect of motivation of judgment
+depends on the difficulty of the judgment. Journal of Personality and
+Social Psychology, 68, 581-594.
+
+Peterson, R. S. (1994). The role of values in predicting fairness judgments
+and support of affirmative action. Journal of Social Issues, 50, 95-115.
+
+Plant, E. A., & Devine, P. G. (1998). Internal and external motivation to
+respond without prejudice. Journal of Personality and Social Psychol-
+ogy, 69, 811-832.
+
+Pyszczynski, T., & Greenberg, J. (1987). Toward an integration of cogni-
+tive and motivational perspectives on social inference: A biased
+hypothesis-testing model. In L. Berkowitz (Ed.), Advances in experi-
+mental social psychology (Vol. 20, pp. 297-340). San Diego, CA:
+Academic Press.
+
+Rodin, M. J., Price, J. M., Bryson, J. B., & Sanchez, F. J. (1990).
+Asymmetry in prejudice attribution. Journal of Experimental Social
+Psychology, 26, 481-504.
+
+Rosenthal, R., & Rosnow, R. L. (1985). Contrast analysis. Cambridge,
+England: Cambridge University Press.
+
+Schaller, M. (1992). In-group favoritism and statistical reasoning in social
+inference: Implications for formation and maintenance of group stereo-
+types. Journal of Personality and Social Psychology, 63, 61-74.
+
+Schein, V. E. (1973). The relationship between sex role stereotypes and
+requisite management characteristics. Journal of Applied Psychology,
+57, 95-100.
+
+Schein, V. E. (1975). Relationships between sex role stereotypes and
+requisite management characteristics among female managers. Journal
+of Applied Psychology, 60, 340-344.
+
+Scott, M. B., & Lyman, S. M. (1968). Accounts. American Sociological
+Review, 33, 46-62.
+
+Shafir, E., Simonson, L, & Tversky, A. (1993). Reason-based choice.
+Cognition, 49, 11-36.
+
+Simonson, L, & Staw, B. M. (1992). Deescalation strategies: A comparison
+of techniques for reducing commitment to losing courses of action.
+Journal of Applied Psychology, 77, 419-426.
+
+Slovic, P. (1975). Choice between equally valued alternatives. Journal of
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+CASUISTRY 831
+
+Experimental Psychology: Human Perception and Performance, 1,
+280-287.
+
+Sniderman, P. M., & Piazza, T. (1993). The scar of race. Cambridge, MA:
+Belknap Press.
+
+Snyder, M. L., Kleck, R. E., Strenta, A., & Mentzer, S. J. (1979). Avoid-
+ance of the handicapped: An attributional ambiguity analysis. Journal of
+Personality and Social Psychology, 37, 2297-2306.
+
+Sommers, S. R., & Norton, M. L (2004). Everyday beliefs about racists:
+Lay theories of what constitutes racism (and what doesn’t). Manuscript
+submitted for publication.
+
+Son Hing, L. S., Bobocel, D. R., & Zanna, M. P. (2002). Meritocracy and
+opposition to affirmative action: Making concessions in the face of
+discrimination. Journal of Personality and Social Psychology, 83, 493—
+509.
+
+Steele, C. M. (1988). The psychology of self-affirmation: Sustaining the
+integrity of the self. In L. Berkowitz (Ed.), Advances in experimental
+social psychology (Vol. 21, pp. 261-302). New York: Academic Press.
+
+Steele, S. (1990). The content of our character. New York: St. Martin’s
+Press.
+
+Swann, W. B., Stein-Seroussi, A., & Giesler, R. B. (1992). Why people
+self-verify. Journal of Personality and Social Psychology, 62, 392-401.
+
+Swim, J. K., & Miller, D. L. (1999). White guilt: Its antecedents and
+consequences for attitudes toward affirmative action. Personality and
+Social Psychology Bulletin, 25, 500-514.
+
+Tetlock, P. E. (1992). The impact of accountability on judgment and
+choice: Toward a social contingency model. In M. P. Zanna (Ed.),
+Advances in experimental social psychology (Vol. 25, pp. 331-376).
+New York: Academic Press.
+
+Tetlock, P. E., Kristel, O. V., Elson, S. B., Green, M. C., & Lerner, J. S.
+(2000). The psychology of the unthinkable: Taboo trade-offs, forbidden
+base rates, and heretical counterfactuals. Journal of Personality and
+Social Psychology, 78, 853-870.
+
+Tetlock, P. E., & Manstead, A. S. (1985). Impression management versus
+intrapsychic explanations in social psychology: A useful dichotomy?
+Psychological Review, 92, 59-77.
+
+Title VIL of the Civil Rights Act of 1964, 42 U.S.C. Sec. 2000c-(a)(1)
+(1964).
+
+Tsang, J. (2002). Moral rationalization and the integration of situational
+factors and psychological processes in immoral behavior. Review of
+General Psychology, 6, 25-50.
+
+Tversky, A. (1972). Elimination by aspects: A theory of choice. Psycho-
+logical Review, 79, 281-299.
+
+Wegener, D. T., & Petty, R. E. (1995). Flexible correction processes in
+social judgment: The role of naive theories in corrections for perceived
+bias. Journal of Personality and Social Psychology, 68, 36-51.
+
+Wilson, T. D., Lindsey, S., & Schooler, T. Y. (2000). A model of dual
+attitudes. Psychological Review, 107, 101-126.
+
+Yzerbyt, V. Y., Schadron, G., Leyens, J. P., & Rocher, S. (1994). Social
+judgeability: The impact of meta-informational cues on the use of
+stereotypes. Journal of Personality and Social Psychology, 66, 48-55.
+
+Received January 27, 2004
+Revision received July 8, 2004
+Accepted July 9, 2004 m
+
+ 
+
+and specialty divisions.
+
+ 
+
+Low Publication Prices for APA Members and Affiliates
+
+Keeping you up-to-date. All APA Fellows, Members, Associates, and Student Affiliates
+receive—as part of their annual dues—subscriptions to the American Psychologist and
+APA Monitor. High School Teacher and International Affiliates receive subscriptions to
+the APA Monitor, and they may subscribe to the American Psychologist at a significantly
+reduced rate. In addition, all Members and Student Affiliates are eligible for savings of up
+to 60% (plus a journal credit) on all other APA journals, as well as significant discounts on
+subscriptions from cooperating societies and publishers (e.g., the American Association for
+Counseling and Development, Academic Press, and Human Sciences Press).
+
+Essential resources. APA members and affiliates receive special rates for purchases of
+APA books, including the Publication Manual of the American Psychological Association,
+and on dozens of new topical books each year.
+
+Other benefits of membership. Membership in APA also provides eligibility for
+
+competitive insurance plans, continuing education programs, reduced APA convention fees,
+
+More information. Write to American Psychological Association, Membership Services,
+750 First Street, NE. Washington, DC 20002-4242.
+
+ 
+
+ 
+

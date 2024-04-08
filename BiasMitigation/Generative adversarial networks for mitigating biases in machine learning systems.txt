@@ -1,0 +1,489 @@
+arXiv:1905.09972v1  [cs.LG]  23 May 2019Generative Adversarial Networks for Mitigating
+Biases in Machine Learning Systems
+Adel Abusitta∗
+University of Montreal
+Montreal, CanadaEsma Aïmeur†
+University of Montreal
+Montreal, CanadaOmar Abdel Wahab‡
+Université du Québec en Outaouais
+Gatineau, Canada
+Abstract
+In this paper, we propose a new framework for mitigating bias es in machine learn-
+ing systems. The problem of the existing mitigation approac hes is that they are
+model-oriented in the sense that they focus on tuning the tra ining algorithms to
+produce fair results, while overlooking the fact that the tr aining data can itself be
+the main reason for biased outcomes. Technically speaking, two essential limi-
+tations can be found in such model-based approaches: 1) the m itigation cannot
+be achieved without degrading the accuracy of the machine le arning models, and
+2) when the data used for training are largely biased, the tra ining time automat-
+ically increases so as to ﬁnd suitable learning parameters t hat help produce fair
+results. To address these shortcomings, we propose in this w ork a new frame-
+work that can largely mitigate the biases and discriminatio ns in machine learning
+systems while at the same time enhancing the prediction accu racy of these sys-
+tems. The proposed framework is based on conditional Genera tive Adversarial
+Networks (cGANs), which are used to generate new synthetic f air data with selec-
+tive properties from the original data. We also propose a fra mework for analyzing
+data biases, which is important for understanding the amoun t and type of data that
+need to be synthetically sampled and labeled for each popula tion group. Exper-
+imental results show that the proposed solution can efﬁcien tly mitigate different
+types of biases, while at the same time enhancing the predict ion accuracy of the
+underlying machine learning model.
+1 Introduction
+The world is facing a historical shift toward adopting Artiﬁ cial Intelligence (AI) to automate the
+decision-making process in many sectors, including those o f health, transportation and public ser-
+vices. This, however, has led to growing concerns about the b ias and discrimination that these
+systems might produce, which might negatively affect citiz ens especially those who belong to eth-
+nic and racial minorities. The hazard of bias becomes even mo re crucial when these systems are
+applied to critical and sensitive domains such as health car e and criminal justice. In fact, biased AI
+systems are mainly engendered by the data used to feed the tra ining process of the machine learning
+algorithms [10]. Training data can be incomplete, insufﬁci ently diverse, biased, and/or consisting of
+non-representative samples that are not well (or poorly) de ﬁned before use [10], which might lead
+to biased results and lower accuracy [10]. Obtaining and lab eling new data to compensate and over-
+come these problems is one possible solution to ﬁght against biases. However, it has been shown
+that such a strategy is largely difﬁcult, costly, privacy-s ensitive and dangerous, especially in some
+critical domains like transportation and health [18] [26].
+∗Department of Computer Science and Operations Research, E- mail: adel.abu.sitta@umontreal.ca
+†Department of Computer Science and Operations Research, E- mail: aimeur@iro.umontreal.ca
+‡Department of Computer Science and Engineering, E-mail: om ar.abdulwahab@uqo.ca
+Preprint. Under review.Many approaches have been recently proposed to ﬁght against bias and discrimination in machine
+learning systems. The problem of the existing mitigation ap proaches [30] [32] is that they overlook
+the fact that the data used to train the machine learning algo rithm might be the root cause of un-
+fair results. In particular, these approaches focus on tuni ng the training algorithms to decrease the
+chances of producing biased results. Although such a model- based strategy might end up producing
+fair results, the accuracy of the underlying machine learni ng algorithm will be largely degraded. In
+other words, the mitigation will be achieved on the account o f the overall prediction accuracy [11].
+Besides, when the training data are largely biased, the time needed to complete the training and ob-
+tain a fair model will dramatically increase, compared to th e case of traditional training algorithms.
+The reason is that these approaches not only try to minimize t he loss function (in order to teach
+the machine learning model), but also work on minimizing the chances of producing unfair results.
+Thus, a longer training time is needed to ﬁnd the suitable par ameters for a fair model.
+To address the above-mentioned shortcomings, we propose a n ew framework for mitigating biases
+in machine learning systems, without degrading their accur acy. The proposed framework is based
+on conditional Generative Adversarial Networks (cGANs) [3 3], special versions of the Generative
+Adversarial Networks (GANs) [17], which have shown unprece dented success in generating high-
+quality new synthetic data with selective properties. The p roposed framework allows the designers
+of the machine learning systems to estimate the real distrib ution of the original data pertaining to
+the targeted population groups (population groups that are victims of biases) through formulating
+a minimax two-player game [4] [3]. The game is played between two models, which are trained
+simultaneously, i.e., the Discriminator ( Dis) and the Generator ( Gen).Gen is trained to capture
+the data distribution through trying to maximize the probab ility of Discommitting a mistake. On
+the other hand, Disis trained to maximize the probability that a data sample cam e from a targeted
+population group rather than the Gen. The training of both DisandGen is repeated over many
+iterations until a generative model that can generate new sy nthetic data pertaining to the targeted
+population groups is obtained. The resulting generative mo del is then used to synthetically produce
+new data, which are used to augment the training set so as to co mpensate and overcome the bias
+problem. In this way, machine learning algorithms can be tra ined on these data in order to produce
+unbiased predictions.
+Unlike similar works (e.g., [39]), the proposed model gives the designers of the machine learning
+systems the ﬂexibility to decide on the amount of data that ne eds to be synthetically sampled and
+labeled, taking into account their domain knowledge. The pr oposed framework is also designed to
+be integrated into another framework for analyzing and unde rstanding data biases. The objective
+is to guide the machine learning model designers on the amoun t and type of data that needs to be
+synthetically sampled and labeled. This, in turn, minimize s the chances of synthetically generating
+unnecessary data. Our contributions are summarized as foll ows. First , we propose a new framework
+for mitigating biases in machine learning systems while at t he same time enhancing their overall
+accuracy. Second , we integrate the proposed mitigation framework into an ana lytical framework
+for understanding data biases. This allows us to infer the ty pe and amount of data that needs to be
+synthetically sampled in order to augment the training data .Finally , we propose a new framework
+that gives the designers of the machine learning systems the ﬂexibility to decide on the amount of
+data that needs to be synthetically sampled and labeled, tak ing into account their domain knowledge.
+2 Related Work
+The idea of using adversarial training for mitigating biase s in machine learning systems has recently
+been addressed in several works. For example, Madras et al. [ 32] propose a “fair” representation of
+data [29] that can be used by the classiﬁer to generate fair de cisions. They employ GANs to ensure
+that the generated representation of data is fair. Similarl y, Louppe et al. [30] propose a new approach
+called “Pivot-based approach”. The framework also uses GAN s not to generate new synthetic data
+but to create a new classiﬁer that guarantees unbiased predi ctions. The method modiﬁes the GANs
+design through changing the role of the generator from learn ing how to generate new synthetic data
+to a classiﬁer that is used to produce fair results. During th e training of GANs, the classiﬁer is
+optimized and updated based on the prediction losses of the s ensitive attributes (Ethnicity, Gender,
+etc.). The main disadvantage of this approach is that it does not care about the overall accuracy of
+the classiﬁer during the bias mitigation process. It only ca res about reducing the biased results in the
+classiﬁer. In other words, the mitigation in this approach i s achieved on the account of the overall
+2accuracy. In contrast, our framework can reduce biases whil e at the same time enhancing the overall
+system’s accuracy.
+Xu et al. [39] also adopt the GANs with the aim of generating ne w synthetic fair data, which are
+then used to train the classiﬁer on how to produce unbiased de cisions. For this purpose, another
+discriminator was used to check if the fairness has been achi eved or not. Similar approaches have
+been proposed in [8], [14] [25] and [28]. These data-driven m itigation approaches suffer from
+three essential shortcomings. First, they propose to gener ate new data for each particular population
+group, thus leading to unnecessary data and unnecessary ove rhead. Second, these approaches require
+frequently verifying the machine learning model to check wh ether the generated data lead to a fair
+model or not. Third, these approaches are not complemented b y any framework for analyzing and
+understanding data biases. This makes the designers of the m achine learning systems unable to
+efﬁciently estimate and understand the amount and type of da ta that need to be synthetically sampled
+and labeled.
+In contrast, our proposed mitigation approach is coupled wi th a framework for analyzing data biases.
+This is important to understand the amount of data that needs to be synthetically sampled for each
+particular population group. Moreover, the proposed frame work gives the designers of machine
+learning systems the ﬂexility to decide on the amount of data that should be synthetically sampled,
+taking into account both the domain knowledge and predictio n accuracy with respect to the original
+data. As a result, the proposed model enables us to achieve fa ir machine learning systems while at
+the same time enhancing the accuracy of the prediction with m inimum training overhead.
+Celis et al. [11] formulate the adversarial problem as a mult i-objective optimization model and try
+to ﬁnd the fair model using a gradient descent-ascent algori thm with a modiﬁed gradient update step
+[11]. In fact, their approach is inspired by the work propose d by [41], while adding more robust
+theoretical foundations. Similarly, Agarwal et al. [6] pro pose a minimax optimization problem,
+which is solved using the saddle point methods [27] in order t o derive the fair model. Other model-
+based mitigation approaches also are proposed in [15] [35] [ 38] [22]. These approaches propose
+algorithms to ﬁnd suitable thresholds for trained classiﬁe rs so as to ensure equalized and fair odds.
+In particular, they try to ﬁx the decision boundary in such a w ay to ensure that the ﬁnal classiﬁer is
+fair.
+Most of the above-mentioned model-based mitigation approa ches do not consider the training data as
+a potential reason for biased results. Instead, they focus o nly on modifying the training algorithms
+to produce fair results. Two main disadvantages can be disti nguished in such an approach. First,
+the mitigation is achieved on the account of the accuracy. Se cond, the time needed to obtain the
+fair model is higher than that in traditional training algor ithms, especially when the data used for
+training are largely biased [5] [2]. This is because these mo dels are not only trained to minimize the
+loss function, but also to minimize the chances of producing unfair results.
+3 The Proposed Framework for Mitigating Machine Learning Bi ases
+In this section, we provide the details of the our framework p roposed for mitigating biases in ma-
+chine learning systems. We ﬁrst give some explanations on Ge nerative Adversarial Networks and
+conditional Generative Adversarial Networks and then pres ent the proposed mitigation model in
+detail, followed by our framework for analyzing data biases .
+3.1 Generative Adversarial Nets and the Conditional Versio n
+Generative adversarial networks (or GANs) is a new generati ve model that has been proposed by
+[17]. A generative model can be seen as a way of learning any ki nd of data distribution using unsu-
+pervised learning techniques [7] [23]. Although several ge nerative models have been proposed in the
+literature such as Deep Belief Network (DBN) [23] and Variat ional Autoencoder (V AE) [13], GANs
+have received more attention thanks to their unprecedented ability to generate new synthetic high-
+quality data compared to the traditional generative models . In fact, GANs consist of two models: a
+discriminative ( Des) and a generative ( Gen) models. Gen is trained to capture the data distribution
+through trying to maximize the probability of Discommitting a mistake. On the other hand, Disis
+trained to maximize the probability that a data sample came f rom a targeted population group rather
+than the Gen. The training of both the discriminative and generative mod els is repeated over many it-
+3erations until the discriminative model becomes unable to d istinguish whether the underlying data is
+a sample from the data or generated from the generater. This f ramework is also known as a minimax
+two-player game [34] [21] [20] and is described formally as f ollows:
+min Dismax GenV(Dis,Gen)=Ex∼pdata(x)log[Dis(x)]+Ez∼pz(z)log[1−Dis(Gen(z))] (1)
+Conditional Generative Adversarial Networks (or cGANs) [3 3] are a special case of GANs which
+have shown great success in generating high-quality new syn thetic data with selective properties.
+Although Goodfellow et. al [17] have already indicated in th eir original work the possibility of
+training cGANs, their work did not provide theoretical and e xperimental results to support this
+claim. cGANs can be achieved through adding a condition cas an input in both Gen andDis. The
+formal description of cGANs is described as follows:
+min Dismax GenV(Dis,Gen)=Ex∼pdata(x)log[Dis(x|c)]+Ez∼pz(z)log[1−Dis(Gen(z|c))] (2)
+3.2 The Proposed Model
+The proposed mitigation model is based on cGANs. In particul ar, we train Gen to synthetically
+produce new synthetic data based on the Targeted Population Groups ( TPG ).T PGs represent those
+population groups against whom the machine learning models produce biased results. The new data
+generated using the proposed framework are then used to augm ent the training data (incomplete and
+biased data). The new data (original data and generated data ) will then be used to train the machine
+learning algorithms. Figure 1 depicts the architecture of o ur proposed model.
+In the next section, we present a new framework used for analy zing data biases and exploring the
+T PGs . This framework is designed to be integrated into the propos ed mitigation approach in order
+to allow the designers of the machine learning systems to und erstand the amount and type of data
+that should be synthetically sampled for each population gr oup. To this end, the objective function
+of a two-player minimax game is deﬁned as follows:
+min Dismax GenV(Dis,Gen)=Ex∼pdata(x)log[Dis(x|T PG)]+Ez∼pz(z)log[1−Dis(Gen(z|T PG))] (3)
+z Targ eted P opulation Group(TPG)Gen(z|TPG)Genx Targ eted P opulation Group(TPG)Dis
+Dis(x|TPG)
+Figure 1: The architecture of our proposed model
+Since the standard training of GANs cannot easily converge ( i.e., non-convergence problem) [16]
+and to avoid mode collapse [16], we adopt a Primal-Dual Sub-g radient method to solve this problem.
+This method is proposed by [12] and can be seen as a Lagrangian perspective of GANs [12]. To this
+4Algorithm 1: Algorithm for training a generator
+Input: Targeted Population Group (TPG)
+repeat
+Sample n1 data samples xi,i= 1, ..., n1 (minibatch sampling)
+Sample n2 noise samples zi,i= 1, ..., n2 (minibatch sampling)
+forK steps do
+Update the Disthrough ascending the stochastic gradient:
+∇θdata[1
+n1n1
+∑
+1log(Dis(xi|T PG))+1
+n2n2
+∑
+1log(1−Dis(Gen(zi|T PG)))] (6)
+end
+Update the Gen distribution as follows:
+˜pgen(xi|T PG)=pgen(xi|TPG)−βlog(2(1−Dis(xi|T PG))),i=1,...n1 (7)
+where βrepresents some step size and
+pgen(xi|T PG)=1
+n2n2
+∑
+j=1kσ(Gen(zj|T PG)−xi). (8)
+Update the Gen through descending the stochastic gradient:
+∇θgen[1
+n21
+n2log(1−Dis(Gen(zj|TPG)))+1
+n1n1
+∑
+1(˜pgen(xi|T PG)−pgen(xi|T PG))2] (9)
+until εelapses ;
+end, we construct a convex optimization problem as follows:
+maximizen
+∑
+i=1pdata(xi|T PG)log(Dis(xi|T PG))
+Sub ject to :(1−log(Dis(xi|T PG))≥log(1/2),i=1,...,n
+Dis∈S,(4)
+where Sis some convex set and the variables are Dis=(Dis(x1|TPG ),...Dis(xn|T PG )). Let pgen|T PG
+= (pgen(x1|TPG ), ... , pgen(xn|TPG )), where pgen(xi|TPG ) is the Lagrangian dual associated with the
+i-th constraint. Therefore, the Lagrangian function become s as follows:
+L(Dis,pgen)=n
+∑
+i=1pdata(xi|T PG)log(Dis(xi|T PG))+n
+∑
+i=1pgen(xi|TPG)log(2(1−Dis(xi|T PG)) (5)
+The proposed training algorithm (Algorithm 1), which is ins pired by [12], is based on (5). In Al-
+gorithm 1, the targeted population group ( TPG ) is taken as an input and the goal is to train Gen to
+produce data that cope with the T PG . In the proposed algorithm, the process of updating of Disis
+similar to the standard cGAN training; however, the process of updating Gen is different. For the
+Gen, when the data distribution and generated distribution hav e disjoint supports [19] [12], the Gen
+may not be updated using standard cGAN training (7) (8) (9). This is useful to prevent the main
+source of mode collapse [12]. Note that after a certain ﬁxed p eriod of time denoted by ε, the whole
+steps are repeated in order to enable both the Gen andDisto learn how to produce new high-quality
+synthetic data, based on the targeted population group.
+3.3 A Framework for Analyzing Data Biases
+In the previous section, we proposed a new algorithm (Algori thm 1) for learning how to train the
+generator on how to create new synthetic data based on a given targeted population group. The
+algorithm takes as an input a targeted population group in or der to learn how to produce new data
+with respect to that particular group. In this section, we pr esent a new framework that can be used
+to explore the set of targeted population groups to be used as inputs for Algorithm 1. Note that
+this framework is inspired by the analysis presented in [36] for detecting biases in machine learning
+models, while adapting it to our case where we are interested in detecting biases in the data itself
+rather than in the machine learning model.
+50 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+P(income > 50 K|SEthnicity)prediction distributionAfrican American
+Caucasian
+(a)0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+P(income > 50 K|SGender)prediction distributionFemale
+Male
+(b)
+Figure 2: (Left) Prediction distribution of the original tr aining data with respect to the ethnicity
+attribute. (Right) Prediction distribution of the origina l training data with respect to the gender
+attribute.
+The following steps are used for the analysis of data biases. First, select a set of population groups to
+study if the classiﬁer produces biased results against any o f them. Second, train the classiﬁer on the
+training data. Third, test the classiﬁer by producing resul ts and visualizing the prediction accuracy
+with respect to each population group. The visualization ca n be achieved either by showing the
+probability distribution or by displaying the accuracy obt ained for each population group. Finally,
+analyze these results to see which population group(s) is/a re victim(s) of biases.
+We use the following example to illustrate how does the above -described framework practically
+work. Consider the adult UCI dataset [40], which is used to pr edict the salary of a person (below
+50K$ or above 50k$). The dataset contains two Sensitive Attr ibutes ( SA), i.e., Ethnicity and Gender.
+This leads us to the four following population groups: Afric an American, Caucasian, Female and
+Male. Although we could have combinations of these populati on groups (e.g., African American
+females), we restrict, for the sake of simplicity and withou t loss of generality, our example to only
+the above mentioned four population groups.
+To determine if the training data are biased or not, we need to test whether a machine learning
+classiﬁer, that is trained on these data, produces biased re sults or not. To this end, we trained a
+neural network classiﬁer on this dataset and analyzed the pr ediction accuracy, taking into account
+above mentioned population groups. The results of our testi ng are given in Figure 2.
+Figure 2a shows the distributions of the predicted P(income>50K$ ) given the SA S Ethnicity =
+{African American, Caucasian }. The Figure shows that for the ethnicity attribute, the pred iction
+distribution of an “African American” has a large value at th e low interval of [0.1−0.2]compared to
+a “Caucasian”. These results suggest that when a person is an “African American”, the probability
+that the classiﬁer will predict his/her income below 50K$ is much higher compared to a “Caucasian”.
+Similarly, Figure 2b shows the distributions of the predict edP(income>50K$) given the SA S Gender
+={female,male }. The Figure shows that for the gender attribute, the predict ion distribution of a
+“female” has a large value at the low interval of [0.1 -0.2] co mpared to a “male”. These results
+suggest that when a person is “female”, the probability that the classiﬁer will predict her income
+below 50 K$ is much higher compared to a “male”. The results sh own in Figure 2 give us a clear
+indication that the data used for training is incomplete (i. e., the number of Caucasians and males
+in the dataset is greater than that of African Americans and f emales). Therefore, we conclude that
+the targeted population groups that should be used as inputs to Algorithm 1 based on to the above
+results are: SEthnicity ={African American }andSGender ={female}. Simply put, the generator will
+be trained to generate new African Americans and females.
+4 Experimental Evaluation
+This section ﬁrst describes the setup used to evaluate the pr oposed framework. Then, the perfor-
+mance of the proposed bias mitigation framework is examined .
+60 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+P(income > 50 K|SGender)prediction distributionFemale
+Male
+(a)0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+P(income > 50 K|SEthnicity)prediction distributionAfrican American
+Caucasian
+(b)
+Figure 3: (Left) Prediction distribution when 85% of new syn thetic data (female) were added to the
+original dataset. (Right) Prediction distribution when 85 % of new synthetic data (African American)
+were added to the original dataset.
+4.1 Experimental Setup
+We implemented the proposed framework using Multilayer Per ceptrons (MLPs) with 3 hidden layers.
+We used the ReLU activation function for both the generators and discriminators. The two following
+datasets were tested: the adult UCI dataset [40] and the Adie nce dataset [1], which widely used for
+age and gender prediction. Since the adult UCI dataset conta ins categorial data, we placed in parallel
+a dense-layer per categorical variable, followed by Gumbel -Softmax activation and a concatenation
+to get the ﬁnal output [9] [24] [31]. Prediction performance on the validation dataset is adopted for
+ﬁnding the best hyper-parameter conﬁguration. The results are reported based on a 95% conﬁdence
+interval.
+4.1.1 Results on the adult UCI dataset
+Figure 3 shows the results obtained when applying the propos ed framework on the adult UCI dataset.
+In particular, Figure 3a shows the progress achieved in the p rediction distribution compared to Fig-
+ure 2a. This progress was achieved when we augmented the orig inal data (female) by 85% new data
+obtained synthetically from the generator. Figures 3b also shows the progress achieved in the predic-
+tion distribution, compared to Figure 2b, when we augmented the original data (African American)
+by 85% new data obtained synthetically from the generator. N ote that the proposed framework is
+ﬂexible in the sense that it enables machine learning design ers to control the amount of data (e.g,
+85%) that needs to be synthetically added for each populatio n group. This allows the designers to
+consider the “Domain knowledge” during the data augmentati on process.
+Table 1 shows a comparison between the proposed approach and a recent work proposed in [30].
+This work is called as a “Pivot-based mitigation approach” a nd it uses GANs not to generate new
+synthetic data (like we do) but to create a new classiﬁer that guarantees fairness in predictions. The
+method makes a modiﬁcation on the GANs through changing the r ole of the generator from learning
+how to generate new synthetic data to a classiﬁer that is used to produce fair results. During the
+training process of GANs, the classiﬁer is optimized and upd ated based on the prediction losses of
+the sensitive attributes (e.g., Ethnicity, Gender, etc.).
+Table 1 shows the overall accuracy obtained by the proposed m odel when training the MLP on the
+new training data (original data + generated data) with diff erent numbers of Hidden Units (HUs).
+These results are better than the results obtained using the ‘Pivot-based mitigation approach”. Our
+model also yields a better accuracy compared to the baseline . The baseline means that the classiﬁer
+was trained on the original data without adding new syntheti c data. This can be justiﬁed by the fact
+that the data used for training was incomplete and led to bias ed results, in the sense of having a lower
+measure of accuracy [10]. The proposed framework overcame t his problem through augmenting the
+training data to mitigate biases and enhancing the predicti on accuracy.
+7Table 1: Comparison of the prediction accuracy of different approaches (Adult UCI dataset)
+Acc. (300 HUs) Acc. (500 HUs) Acc. (700 HUs) Acc. (900 HUs)
+The Proposed Approach 84.9 ±1.14 85.1 ±1.09 85.3 ±1.92 85.5 ±1.15
+Pivot-based Approach 76.1±1.11 76.4 ±1.84 77.1 ±1.23 77.3 ±1.78
+Baseline 82.0±1.16 82.3 ±1.06 82.6 ±1.90 82.9 ±0.88
+4.1.2 Results on the Adience dataset
+Table 2 studies the accuracy of the MLP classiﬁer with respec t to a given population group. The
+results suggest the existence of bias against the women of co lor. Table 3 shows the progress achieved
+in the prediction accuracy compared to Table 2 when the train ing data was augmented with more data
+on women of color, which were synthetically obtained from th e generator (the proposed framework).
+Table 2: Classiﬁcation performance with respect to a popula tion group
+Acc. (300 HUs) Acc. (500 HUs) Acc. (700 HUs) Acc. (900 HUs)
+Men of color 86.5±0.34 87.68 ±0.33 87.15 ±0.22 87.5 ±0.26
+Women of color 67.8 ±0.14 67.9 ±0.29 68.3 ±0.36 68.4 ±2.40
+Caucasian men 98.6±0.24 98.7 ±0.35 98.8 ±0.19 98.0 ±0.21
+Caucasian women 90.4±0.45 91.3 ±0.38 91.8 ±2.02 91.7 ±0.44
+Table 3: Classiﬁcation performance after the augmentation with the data on women of color (300%)
+Acc. (300 HUs) Acc. (500 HUs) Acc. (700 HUs) Acc. (900 HUs)
+Men of color 87.9±0.38 88.1 ±0.45 88.1 ±0.84 88.3 ±0.66
+Women of color 88.1 ±0.27 88.2 ±0.30 88.5 ±0.34 88.6 ±0.22
+Caucasian men 99.2±0.31 99.3 ±0.42 99.5 ±0.28 99.7 ±0.37
+Caucasian women 91.9±0.66 92.0 ±0.41 92.3 ±2.07 92.5 ±0.23
+Table 4 shows the overall prediction accuracy of the MLP clas siﬁer trained on the new training data.
+These results outperform both the pivot-based classiﬁer an d the baseline.
+5 Limitation
+Although the proposed framework has the advantage of mitiga ting bias in machine learning systems
+against targeted groups, we cannot claim that our solution f ully solves the problem. In fact, bias
+is a broad and undeﬁned problem, which does not always target members of minority groups (e.g.,
+female). For example, Google conducted a recent study to det ermine whether the company is un-
+derpaying women or not. Surprisingly, they found that men we re less paid than women even for
+the same job position [37]. Therefore, we argue that more eff orts need to be done to generalize the
+proposed framework for unpredictable bias cases.
+6 Conclusion and Future Work
+This paper presents a new framework for the mitigation of bia ses in machine learning systems. The
+proposed framework is based on conditional generative adve rsarial networks, which allows us to
+generate new high-quality synthetic data related to the tar geted population groups. The proposed
+framework is integrated into another analytical framework used for understanding of data biases.
+This allows us to understand the type and amount of data that s hould be synthetically sampled to
+augment the training data and overcome the bias problem. The training process then takes place on
+the new data (original data + generated data). Our model also enables the mitigation to be applied
+while taking into consideration the knowledge domain. Expe rimental results show that the proposed
+framework mitigates the biases against targeted populatio n groups while at the same time enhancing
+the prediction accuracy of the machine learning classiﬁers .
+As future work, we plan to design an automated mitigation pro cess. In particular, after deﬁning
+the bias, the system should automatically generate new data and perform unbiased training. The
+challenge here is to make the system automatically determin e the exact amount of data that should
+be sampled, taking into account the knowledge domain.
+8Table 4: Comparison of overall prediction accuracy (Adienc e dataset)
+Acc. (300 HUs) Acc. (500 HUs) Acc. (700 HUs) Acc. (900 HUs)
+The Proposed Approach 91.77 ±0.29 91.9 ±0.36 92.10 ±0.41 92.27 ±0.25
+Pivot-based Approach 81.71±0.29 80.43 ±0.38 81.01 ±0.31 81.37 ±0.29
+Baseline 85.82±0.33 86.39 ±0.24 86.51 ±0.31 86.40 ±0.37
+Acknowledgment
+The ﬁnancial support of the Natural Sciences and Engineerin g Research Council of Canada is grate-
+fully acknowledged. We also would like to acknowledge Dr. Gi lles Brassard (University of Mon-
+treal), Dr. Kimiz Dalkir (McGill University), Younes Driou iche (Mila), Alexis Tremblay, Amine
+Belabed and Rim Ben Salem for helpful discussions.
+References
+[1]The Adience data set , 2019 (accessed April 2, 2019).
+https://talhassner.github.io/home/projects/Adience/ Adience-data.html#agegender .
+[2] A. Abusitta, M. Bellaiche, and M. Dagenais. An svm-based framework for detecting dos
+attacks in virtualized clouds under changing environment. Journal of Cloud Computing , 7(1):
+9, 2018.
+[3] A. Abusitta, M. Bellaiche, and M. Dagenais. A trust-base d game theoretical model for cooper-
+ative intrusion detection in multi-cloud environments. In 2018 21st Conference on Innovation
+in Clouds, Internet and Networks and Workshops (ICIN) , pages 1–8. IEEE, 2018.
+[4] A. Abusitta, M. Bellaiche, and M. Dagenais. On trustwort hy federated clouds: A coalitional
+game approach. Computer Networks , 145:52–63, 2018.
+[5] A. Abusitta, M. Bellaiche, M. Dagenais, and T. Halabi. A d eep learning approach for proactive
+multi-cloud cooperative intrusion detection system. Future Generation Computer Systems ,
+2019.
+[6] A. Agarwal, A. Beygelzimer, M. Dudík, J. Langford, and H. Wallach. A reductions approach
+to fair classiﬁcation. arXiv preprint arXiv:1803.02453 , 2018.
+[7] Y . Bengio, P. Lamblin, D. Popovici, and H. Larochelle. Gr eedy layer-wise training of deep
+networks. In Advances in neural information processing systems , pages 153–160, 2007.
+[8] F. Calmon, D. Wei, B. Vinzamuri, K. N. Ramamurthy, and K. R . Varshney. Optimized pre-
+processing for discrimination prevention. In Advances in Neural Information Processing Sys-
+tems, pages 3992–4001, 2017.
+[9] R. Camino, C. Hammerschmidt, and R. State. Generating mu lti-categorical samples with gen-
+erative adversarial networks. arXiv preprint arXiv:1807.01202 , 2018.
+[10] A. Campolo, M. Sanﬁlippo, M. Whittaker, and K. Crawford . Ai now 2017 report. AI Now
+Institute at New York University , 2017.
+[11] L. E. Celis and V . Keswani. Improved adversarial learni ng for fair classiﬁcation. arXiv preprint
+arXiv:1901.10443 , 2019.
+[12] X. Chen, J. Wang, and H. Ge. Training generative adversa rial networks via primal-dual sub-
+gradient methods: a lagrangian perspective on gan. arXiv preprint arXiv:1802.01765 , 2018.
+[13] C. Doersch. Tutorial on variational autoencoders. arXiv preprint arXiv:1606.05908 , 2016.
+[14] M. Feldman, S. A. Friedler, J. Moeller, C. Scheidegger, and S. Venkatasubramanian. Certify-
+ing and removing disparate impact. In Proceedings of the 21th ACM SIGKDD International
+Conference on Knowledge Discovery and Data Mining , pages 259–268. ACM, 2015.
+9[15] G. Goh, A. Cotter, M. Gupta, and M. P. Friedlander. Satis fying real-world goals with dataset
+constraints. In Advances in Neural Information Processing Systems , pages 2415–2423, 2016.
+[16] I. Goodfellow. Nips 2016 tutorial: Generative adversa rial networks. arXiv preprint
+arXiv:1701.00160 , 2016.
+[17] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. War de-Farley, S. Ozair, A. Courville,
+and Y . Bengio. Generative adversarial nets. In Advances in neural information processing
+systems , pages 2672–2680, 2014.
+[18] I. Goodfellow, Y . Bengio, and A. Courville. Deep learning . MIT press, 2016.
+[19] I. Gulrajani, F. Ahmed, M. Arjovsky, V . Dumoulin, and A. C. Courville. Improved training of
+wasserstein gans. In Advances in Neural Information Processing Systems , pages 5767–5777,
+2017.
+[20] T. Halabi, M. Bellaiche, and A. Abusitta. A cooperative game for online cloud federation
+formation based on security risk assessment. In 2018 5th IEEE International Conference on
+Cyber Security and Cloud Computing (CSCloud)/2018 4th IEEE International Conference on
+Edge Computing and Scalable Cloud (EdgeCom) , pages 83–88. IEEE, 2018.
+[21] T. Halabi, M. Bellaiche, and A. Abusitta. Toward secure resource allocation in mobile cloud
+computing: A matching game. In 2019 International Conference on Computing, Networking
+and Communications (ICNC) , pages 370–374. IEEE, 2019.
+[22] M. Hardt, E. Price, N. Srebro, et al. Equality of opportu nity in supervised learning. In Advances
+in neural information processing systems , pages 3315–3323, 2016.
+[23] G. E. Hinton, S. Osindero, and Y .-W. Teh. A fast learning algorithm for deep belief nets. Neural
+computation , 18(7):1527–1554, 2006.
+[24] E. Jang, S. Gu, and B. Poole. Categorical reparameteriz ation with gumbel-softmax. arXiv
+preprint arXiv:1611.01144 , 2016.
+[25] F. Kamiran and T. Calders. Data preprocessing techniqu es for classiﬁcation without discrimi-
+nation. Knowledge and Information Systems , 33(1):1–33, 2012.
+[26] D. P. Kingma, S. Mohamed, D. J. Rezende, and M. Welling. S emi-supervised learning with
+deep generative models. In Advances in neural information processing systems , pages 3581–
+3589, 2014.
+[27] J. Kivinen and M. K. Warmuth. Exponentiated gradient ve rsus gradient descent for linear
+predictors. information and computation , 132(1):1–63, 1997.
+[28] E. Krasanakis, E. Spyromitros-Xiouﬁs, S. Papadopoulo s, and Y . Kompatsiaris. Adaptive sen-
+sitive reweighting to mitigate bias in fairness-aware clas siﬁcation. In Proceedings of the 2018
+World Wide Web Conference on World Wide Web , pages 853–862. International World Wide
+Web Conferences Steering Committee, 2018.
+[29] Y . LeCun, Y . Bengio, and G. Hinton. Deep learning. nature , 521(7553):436, 2015.
+[30] G. Louppe, M. Kagan, and K. Cranmer. Learning to pivot wi th adversarial networks. In
+Advances in neural information processing systems , pages 981–990, 2017.
+[31] C. J. Maddison, A. Mnih, and Y . W. Teh. The concrete distr ibution: A continuous relaxation
+of discrete random variables. arXiv preprint arXiv:1611.00712 , 2016.
+[32] D. Madras, E. Creager, T. Pitassi, and R. Zemel. Learnin g adversarially fair and transferable
+representations. arXiv preprint arXiv:1802.06309 , 2018.
+[33] M. Mirza and S. Osindero. Conditional generative adver sarial nets. arXiv preprint
+arXiv:1411.1784 , 2014.
+[34] B. O’Neill. Nonmetric test of the minimax theory of two- person zerosum games. Proceedings
+of the national academy of sciences , 84(7):2106–2109, 1987.
+10[35] G. Pleiss, M. Raghavan, F. Wu, J. Kleinberg, and K. Q. Wei nberger. On fairness and calibration.
+InAdvances in Neural Information Processing Systems , pages 5680–5689, 2017.
+[36] S. Tonk. Towards fairness in ML with adversarial networks , 2019 (accessed April 2, 2019).
+https://blog.godatadriven.com/fairness-in-ml .
+[37] D. Wakabayashi. Google Finds It’s Underpaying Many Men
+as It Addresses Wage Equity , 2019 (accessed May 2, 2019).
+https://www.nytimes.com/2019/03/04/technology/googl e-gender-pay-gap.html .
+[38] B. Woodworth, S. Gunasekar, M. I. Ohannessian, and N. Sr ebro. Learning non-discriminatory
+predictors. arXiv preprint arXiv:1702.06081 , 2017.
+[39] D. Xu, S. Yuan, L. Zhang, and X. Wu. Fairgan: Fairness-aw are generative adversarial networks.
+In2018 IEEE International Conference on Big Data (Big Data) , pages 570–575. IEEE, 2018.
+[40] S.-J. Yen and Y .-S. Lee. Under-sampling approaches for improving prediction of the minor-
+ity class in an imbalanced dataset. In Intelligent Control and Automation , pages 731–740.
+Springer, 2006.
+[41] B. H. Zhang, B. Lemoine, and M. Mitchell. Mitigating unw anted biases with adversarial
+learning. In Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, a nd Society , pages
+335–340. ACM, 2018.
+11

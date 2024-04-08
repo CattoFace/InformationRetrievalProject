@@ -1,0 +1,586 @@
+Economics Letters 122 (2014) 224-228
+
+ 
+
+ 
+
+Contents lists available at ScienceDirect
+
+Economics Letters
+
+journal homepage: www.elsevier.com/locate/ecolet
+
+ 
+
+ 
+
+Bias correcting adjustment coefficients in a cointegrated VAR with
+
+known cointegrating vectors
+
+Kees Jan van Garderen?, H. Peter Boswijk?**
+
+® CrossMark
+
+2 Amsterdam School of Economics, University of Amsterdam, Valckenierstraat 65-67, 1018 XE Amsterdam, The Netherlands
+
+> Tinbergen Institute, The Netherlands
+
+ 
+
+HIGHLIGHTS
+
+ 
+
+We study estimator bias in a cointegrated VAR with known vectors.
+
+Existing bias approximations then yield a bias correction method.
+A Monte Carlo experiment indicates that this method is effective.
+
+We derive a condition for unbiasedness of the adjustment coefficient estimator.
+We relate the adjustment coefficient bias to bias in pure autoregressions.
+
+ 
+
+ 
+
+ARTICLE INFO ABSTRACT
+Article history: The maximum likelihood estimator of the adjustment coefficient in a cointegrated vector autoregressive
+Received 9 July 2013 model (CVAR) is generally biased. For the case where the cointegrating vector is known in a first-order
+
+Received in revised form
+1 November 2013
+Accepted 2 December 2013
+
+Available online 8 December 2013
+Parameter space.
+
+Keywords:
+Cointegration
+
+Vector autoregression
+Bias correction
+
+CVAR with no intercept, we derive a condition for the unbiasedness of the maximum likelihood estimator
+of the adjustment coefficients, and provide a simple characterization of the bias in case this condition is
+violated. A feasible bias correction method is shown to virtually eliminate the bias over a large part of the
+
+© 2013 Elsevier B.V. All rights reserved.
+
+ 
+
+1. Introduction
+
+Consider an m-dimensional first-order vector autoregressive
+(VAR) model in error correction representation
+
+AY, =TTY%;-4+&, t=1,...,T, (1)
+
+where «, are (m x 1) mean zero independently normally dis-
+tributed disturbances with contemporaneous covariance matrix
+2, independent of the observed starting value Yo. The process is
+stable when the eigenvalues of the m x m matrix (I, + JT) are in-
+side the unit circle. If exactly m—r eigenvalues are unity, the matrix
+1 is of reduced rank r and we write JT = of’, where @ and f are
+(m x r)-dimensional matrices. If all eigenvalues of I, + f’o are in-
+side the unit circle (so that f’a is non-singular), then Y, is an I(1)
+process and the model becomes a cointegrated VAR (CVAR). The
+
+* Correspondence to: Amsterdam School of Economics, Valckenierstraat 65-67,
+1018 XE Amsterdam, The Netherlands. Tel.: +31 205254316.
+E-mail addresses: k.j.vangarderen@uva.nl (KJ. van Garderen),
+h.p.boswijk@uva.nl (H. Peter Bos wijk).
+
+0165-1765/§ - see front matter © 2013 Elsevier B.V. All rights reserved.
+http: //dx.doi.org/10.1016/j.econlet.2013.12.003
+
+column vectors of § are cointegrating vectors with the property
+that foreachj = 1,...,7, BEY, is a stable process which defines an
+equilibrium relationship between the variables in Y,. The equilib-
+rium space is an (m — r)-dimensional space orthogonal to f called
+the attractor set. The components a of the adjustment matrix a
+describe the reaction of variable i to the last period’s disequilib-
+rium Bi Yy-4.
+
+We are interested in the bias when q@ is estimated by maxi-
+mum likelihood. Even though the asymptotic distribution of @& is
+centered around a (e.g. Johansen, 1996, Theorem 13.3), there can
+be considerable bias in @ in small samples, especially when B'a
+is small. We consider the case where 8 is known, which occurs,
+e.g., under the Purchasing Power Parity or Forward Rate Unbiased-
+ness hypotheses. In this case there is a simple connection between
+the bias of & and the bias for the autoregressive parameter in the
+AR(1) model. This is obvious since pre-multiplication of (1) by 6’
+gives
+
+BY, = pB'Y:-1 + B'er, (2)
+
+where p = I, + #'a is a matrix which describes the memory of
+the disequilibrium process. If there is only one cointegrating vec-
+KJ. van Garderen, H. Peter Boswijk / Economics Letters 122 (2014) 224-228 225
+
+tor then ¢ is the scalar autoregressive parameter in an AR(1) of the
+univariate process £’Y,. We could estimate p as 6 = |, + B’@ and
+the bias in both estimators is obviously related. The dimension of
+a ism x r, however, and larger than the dimension of p which is
+rxr,sincem>r.
+
+When p = 0 in the univariate AR(1) model without regressors,
+the OLS estimator for p is unbiased, which can be proved using
+an invariance argument. We can invoke the same argument here
+to prove the analogous result for the unbiasedness of @. In the
+present context, 0 = 0 means that any deviation from equilibrium
+has no persistence and the expected value of the process in the
+next period, given the current value, always lies in the equilibrium
+set for every period t. The process is therefore symmetrically
+distributed around the equilibrium set and as a consequence
+the estimator for the adjustment coefficient is unbiased as we
+shall prove in Section 2. When this condition for unbiasedness is
+violated, ie., when p 4 0, we show that the bias in @ can be
+expressed in terms of the bias in 6, which leads to a simple bias
+correction method, illustrated in Section 3.
+
+2. Bias expressions
+
+For known £, the maximum likelihood estimator of the ad-
+justment parameter matrix a, based on the conditional likelihood
+(treating the starting value Yo as fixed) is given by the least-squares
+estimator
+
+T T -1
+a=) Ay.¥_,B (>> Prov) ; (3)
+t=1 t=1
+
+Proposition 1. The maximum likelihood estimator @ is unbiased
+when pa = —I;.
+
+Proof. We use a simple invariance argument as highlighted by
+Kakwani (1967), and used ina slightly different context by Abadir
+et al. (1999). First, substitution of AY, = wf’Y,;_1 + &, in (3) gives
+
+T T -1
+G=a+ dle 6 (>> Ar 8) .
+t=1 t=1
+
+When f’a = —I, so that p = 0, then f’Y, = fe, fort =1,..., T.
+Therefore, defining ¢9 = Yo,
+
+T T -1
+Soere_sB (BD) erie)
+t=1 t=1
+
+= &'AcB (B’e'Bep) | ,
+
+where € = (Yo, €1,..., €r)’,a(f +1) x m matrix, and A and B are
+(T +1) x (FT + 1) matrices:
+
+a@(e) —a@
+
+0 O vs we 0
+1 0 vee eee 0
+
+A-|0 1°. ‘|,
+0 0 1 0
+1 0 0
+0 1
+
+B=
+
+“. 1°40
+
+0 vee 0
+
+Next, define a (T + 1) x (Ff + 1) orthogonal matrix H =
+diag(1, -1, 1, —1,...) and let € = He, such that é and e will
+have the same distribution whenever the distribution of {¢,}1_, is
+symmetric. (The first row of both « and é is Y).) It is easily checked
+that H‘AH = —A and H’BH = B, so
+
+GE) — a = e'H'AHep (6'e'H'BHep) |
+= —e'AeB (p'e'Bep) |
+
+= —(@(e) -—@).
+
+Since ¢ and é have the same distribution, a@(¢) — a and —(a@(e)
+— a) will also have identical distributions, symmetric around
+0. This distribution has finite mean, as follows from the criteria
+derived by Magnus (1986) for the existence of moments of ratios
+of quadratic forms in normal vectors. Therefore, E[@(e) — a] =
+—E[e@(e) — a], whichimplies Ef —a]=0. O
+
+When f’a 4 —I,, and hence p ¥ 0,, then @ is not unbiased.
+The bias in @ is naturally related to the bias in
+
+p =i+ pa
+T T -1
+= So 2Zi 4 (332-215) >
+f=1 f=1
+where Z, = #'Y,. The question now becomes how to exploit
+
+knowledge concerning the bias in p for obtaining bias expressions
+fora.
+
+In the past many expressions have been derived for the bias inp
+in the autoregressive model. Early contributions include Marriott
+and Pope (1954), Kendall (1954) and White (1961), but there are
+many others. In order to use these results we need the inverse of
+the bias relation ’E[@ — a] = E[p — p]. The dimension of p is
+smaller than a and hence the equation f’E[@ — a] = E[p — p] has
+general solution (see e.g. Magnus and Neudecker, 1988, p. 37):
+
+El@ — a] = 6 (6'B) |‘ Elo — 1]
+
++f. (B\B1) Bia, qeR™’,
+
+where q in general will depend on the unknown parameters (a, (2)
+and the fixed f.
+
+In order to resolve the indeterminacy in q, we write the model
+with known £ as
+
+Zp = pZ1+ ure,
+W, = yZr-1 + Une,
+
+with y = Bla, W; = BAY, un = B's; and uy, = f' &. Con-
+ditional on the initial values we can calculate the maximum like-
+lihood estimates of p and y by OLS since Z,_; is common in both
+equations. Using the explicit expression for @ we have the follow-
+ing relations:
+
+pa = p —t,
+pia = x,
+-1
+where Y = yw WZ, 4 (ru 2.12{1) . This relation can be
+inverted to obtain
+
+@ = B(6'B)' @-1) + Pi (Bi Pi) 'P.
+This leads to the following proposition.
+Proposition 2. E[a@ — a] = (B (p’B) | + BL (6',B1) | 5) Efp—
+
+p] where 5 = Bi (p'2B) ".
+
+When the covariance matrix is scalar the second term vanishes
+since 6) 26 = 0 and we have the following corollary.
+
+Corollary 1. E[@ — a] = f (6'B) ‘ E[@ — p] when 2 = 07m.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+226 KJ. van Garderen, H. Peter Boswijk / Economics Letters 122 (2014) 224-228
+—— bias --—— corrected bias, true parameters -""-" corrected bias, estimated parameters
+T=10 T=20
+[ 0.00
+0.00 .
+[ [ ‘
+-0.02 | t
+[ -0.02 -
+-0.04 r f
+-0.06 | [
+[ -0.04 |-
+
+°
+o
+°
+bb
+S
+>
+2°
+a
+°
+oO
+re
+o
+
+T=50
+
+ 
+
+0.000
+
+ 
+
+-0.005 |-
+
+-0.010-
+
+-0.015 +
+
+ 
+
+0.0 0.2 0.4 0.6 0.8 1.0
+
+Fig. 1.
+
+-1
+Proof. Using ¥ —y = wy UZ 4 (Sh 2.12.1) and writ-
+
+ingZ, = p'Zo + Yi piu; ,_; it follows that {ure}? is indepen-
+dent of Zealep so that E[7 — y] = 0, ifuy, is independent of up,.
+When ¢, is Gaussian with covariance matrix 2, this happens if and
+only if Cov[uy,, U2-] = 6’ 8, = 0. This proves the corollary when
+Q =07lm.
+
+In other cases we have
+
+Uz, = SU + Ur1,¢,
+
+where u2.1,; is independent of u,,. Using (@ — p) = vv, UZ,
+(hy 212.4) wehaveYy—y =8(@—p)+ ar U21Z,_4
+(Sha 242.1) 7 where the last term has expectation 0 because
+
+{u2.1,.}/_, is independent of {Z,_1}/_,. This leads to the result of
+Proposition2. 0
+
+We see that the bias in @ is proportional to the bias in p in the
+direction of the cointegrating vector, orthogonal to the equilibrium
+set if the contemporaneous covariance matrix is scalar, and a sec-
+ond term that is governed by the non-orthogonality of 6 and 6, in
+the metric defined by the contemporaneous covariance matrix (2.
+
+3. Bias correction
+
+In order to illustrate the result and to show that we can suc-
+cessfully use bias expressions for autoregressive parameters to bias
+adjust the estimator @, we consider a bivariate CVAR with one coin-
+tegrating vector 8 = (1, —1)’, inspired by e.g. the Forward Rate
+Unbiasedness hypothesis and present value models. We choose as
+adjustment vector a = 4(p — 1)(1, -1)’, for various values of
+p. The disturbance covariance matrix is taken as 2 = 4diag(1 +
+6,1 — 8) with 6 € (0, 1), such that B’Q6 = land f 2B = 6
+(where we have taken 8, = (1, 1)’). The initial condition satisfies
+B'Yo = 0.
+
+There are various bias expressions for p, but we use one based
+on the geometry of the AR(1) model, see van Garderen (1997, 1999)
+and calculated using the general second-order bias expression
+
+ 
+
+0.000 FEE
+
+-0.003 -
+
+-0.006 -
+
+-0.009 -
+
+ 
+
+0.0 0.2 0.4 0.6 0.8 1.0
+
+Bias and corrected bias in @, against p, with § = 0. Note: All graphs have p on the horizontal axis, and bias on the vertical axis.
+
+given in, e.g., Amari (1985). For the case where Zp = 0, this results
+in the explicit bias formula
+
+E[p — pl
+— 72 2 2 4 2T 242T 2427
+_ (1 = p?) (4p? — 2T p? + 2Tp* — 2T pp Ap + 27 p ) yor. (4)
+p(T —1—Tp? + p?")
+
+Figs. 1-3 display the bias in @ and @ against p € [0, 1], with
+T € {10, 20,50, 100} and 6 e€ {0, 0.8}. When 6 = Q, then the
+distribution of @ is the same as that of —a@, so this case is not
+displayed. For similar reasons of symmetry, we do not consider
+p < Ooréd < 0. In addition to the bias, we have calculated the
+remaining bias after correction using Proposition 2 in combination
+with (4), either using the true parameter values of p and 64, or
+their estimates, where we have imposed ) < 1 by taking p =
+min {1, 1+ 6’@}.
+
+The results are based on 1000,000 replications. The same ran-
+dom numbers have been used for different values of , and the re-
+sult of Proposition 1 (zero bias at o = 0) has been enforced by
+taking “antithetic” variates in the spirit of the proof of Proposi-
+tion 1.
+
+In all three figures, we observe very similar features. The bias
+starts at 0 for o = O, then increases or decreases almost linearly
+for the larger part of o € [0, 1], but the function is curved and
+non-monotonic as p approaches 1. The bias correction formula (4)
+has very similar properties: from its value 0 at o = O it decreases
+monotonically until it reaches its unique minimum in the inter-
+val [0, 1], after which it increases to its limit as ¢ — 1, given by
+—A(T — 2)/(3T(T — 1)). This suggests that this second-order bias
+approximation could be more accurate than simpler bias approx-
+imations, in particular in the neighborhood of » = 1. From the
+figures, we see that the (infeasible) bias correction based on the
+true parameters leads to an over-correction of the bias for smaller
+values of o and T, and an under-correction in the neighborhood
+of p = 1. For a large part of the interval o € [0, 1], the correc-
+tion based on estimated parameters leads to an almost unbiased
+estimator. This may be explained by the fact that the negative bias
+inp reduces the over-correction caused by the approximation (4).
+As ¢ approaches 1, the feasible correction method based on esti-
+mated parameters does not fully eliminate the bias, but still leads
+to a substantial bias reduction.
+
+ 
+KJ. van Garderen, H. Peter Boswijk / Economics Letters 122 (2014) 224-228 227
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+—— bias --—-— corrected bias, true parameters -""-" corrected bias, estimated parameters
+T=10 T=20
+ten Te 0.00
+0.00 preget Seeeeceeseeeceenneereernnnreneesrasienasencasssnien S
+ tonesennese >.
+-0.02 +
+-0.05 +
+-0.04 -
+-0.10 + -0.06 |
+1 1 1 1 J 1 1 1 1 J
+0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+T=50 T=100
+0.00 fee mesrrerr ore erica erste En, = 0.000 RTT ty
+\. .
+\ \
+-0.01 + -0.005 +
+-0.02 | -0.010 -
+-0.015 +
+-0.03 +
+po po
+0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+
+Fig. 2. Bias and corrected bias in @, against p, with 6 = 0.8. Note: All graphs have p on the horizontal axis, and bias on the vertical axis.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+| —— bias --—— corrected bias, true parameters corrected bias, estimated parameters
+T=10 T=20
+0.010; 0.006 |+-
+0.005 i- 0.003 =
+0.000
+0.000
+0: 0.
+T=50 0.002
+0.003 -
+0.002 + 0.001 -
+0.001 -
+I '
+of +
+0.000 [om aereerseereer arava sssrccrsccteerree of 0.000 wares
+po po
+0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+
+Fig. 3. Bias and corrected bias in @ against p, with 6 = 0.8. Note: All graphs have p on the horizontal axis, and bias on the vertical axis.
+
+4. Concluding remarks
+
+We have shown that in the CVAR model with known , the bias
+in @ can be related to the bias in p in pure (vector) autoregressive
+models. The bias can be very large relative to the true value of a,
+in particular for small values of w when return to the equilibrium
+set is slow and shocks are relatively persistent. Our feasible
+bias correction significantly reduces the bias of the adjustment
+estimator.
+
+When the model is extended to include deterministics and
+lagged differences then the estimator 9 is not unbiased, even when
+p = 0, which is well known. This means that Proposition 1 no
+
+longer applies; however, we conjecture that Proposition 2 can be
+extended to the case of deterministic components in the first-order
+model.
+
+Acknowledgments
+
+Helpful comments from Noud van Giersbergen and an anony-
+mous referee, and research assistance of Maurice Bun are gratefully
+acknowledged.
+
+References
+
+Abadir, K.M., Hadri, K., Tzavalis, E., 1999. The influence of VAR dimensions on
+estimator biases. Econometrica 67, 163-181.
+228 KJ. van Garderen, H. Peter Boswijk / Economics Letters 122 (2014) 224-228
+
+Amari, S., 1985. Differential-Geometrical Methods in Statistics. Springer-Verlag,
+Berlin.
+
+Johansen, S., 1996. Likelihood-Based Inference in Cointegrated Vector Autoregres-
+sive Models, second ed. Oxford University Press, Oxford.
+
+Kakwani, N.C., 1967. The unbiasedness of Zellner’s seemingly unrelated regression
+equations estimators. J. Amer. Statist. Assoc. 62, 141-142.
+
+Kendall, M.G., 1954. Note on bias in the estimation of autocorrelation. Biometrika
+41, 403-404.
+
+Magnus, J.R., 1986. The exact moments of a ratio of quadratic forms in normal
+variables. Ann. Economie Statist. 4, 95-109.
+
+Magnus, J.R., Neudecker, H., 1988. Matrix Differential Calculus with Applications in
+Statistics and Econometrics. John Wiley, Chichester.
+
+Marriott, F.H.C., Pope, J.A. 1954. Bias in the estimation of autocorrelations.
+Biometrika 41, 390-402.
+
+van Garderen, KJ., 1997. Exact geometry of explosive autoregressive models. CORE
+Discussion Paper 9768.
+
+van Garderen, KJ. 1999. Exact geometry of first-order autoregressive models.
+J. Time Ser. Anal. 20, 1-21.
+
+White, J.S., 1961. Asymptotic expansions for the mean and variance of the serial
+correlation coefficient. Biometrika 48, 85-94.
+

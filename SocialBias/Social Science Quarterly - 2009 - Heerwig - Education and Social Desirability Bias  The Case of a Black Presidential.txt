@@ -1,0 +1,881 @@
+Education and Social Desirability
+Bias: The Case of a Black
+Presidential Candidate*
+
+Jennifer A. Heerwig, New York University
+Brian J. McCabe, New York University
+
+Objective. Survey research consistently reports a positive association between ed-
+ucational attainment and socially tolerant attitudes, but critics hold that respon-
+dents with high levels of education may simply purport to hold attitudes seen as
+socially desirable. In this article, we seek to adjudicate between the claim that the
+association between education and social tolerance is simply an artifact of sophis-
+ticated social desirability reporting on the part of well-educated respondents and the
+competing theory that education has a real impact on increasing forms of social
+tolerance. Methods. Using support for a black presidential candidate as our mea-
+sure of social tolerance, we utilize an innovative online list experiment to test
+whether high levels of support are inflated because of social desirability reporting
+among the educational elite. Results. We find no evidence of systematic overre-
+porting of support for a black presidential candidate among respondents with high
+levels of education, and note that social desirability bias declines as educational
+attainment increases. Conclusions. This research bolsters arguments about the lib-
+eralizing effect of education on socially tolerant attitudes, and challenges evidence
+that attributes this relationship to high levels of social desirability bias.
+
+Survey research consistently reports a positive association between edu-
+cational attainment and socially tolerant attitudes, but critics argue that this
+association may be the result of high levels of social desirability reporting
+among the educational elite, rather than a true measure of social tolerance.
+One commonly measured estimate of social tolerance is support for a black
+presidential candidate, an item included in the General Social Survey (GSS)
+since the early 1970s. The GSS reports that support for a black presidential
+candidate has grown from 75 percent in 1972 to 92 percent in 1996—the
+year the question was terminated. As Figure 1 illustrates, support has been
+
+*Direct correspondence to Jennifer A. Heerwig, 295 Lafayette St. 4th Fl., New York, NY
+10012 (jah321@nyu.edu). Author names are listed in alphabetical order; both contributed
+equally to the article. Jennifer Heerwig and Brian McCabe will make available all data and
+coding information to those wishing to replicate the study. The experimental data used in
+this article were collected by Time-Sharing Experiments for the Social Sciences, NSF Grant
+0094964, Diana C. Mutz and Arthur Lupia, Principal Investigators (Mutz and Lupia, 2003).
+The authors thank Vivek Chibber, Dalton Conley, Amy LeClair, and Jeff Manza for their
+thoughtful comments.
+
+SOCIAL SCIENCE QUARTERLY, Volume 90, Number 3, September 2009
+© 2009 by the Southwestern Social Science Association
+
+ 
+
+ 
+
+8
+3
+g
+5
+8
+z
+i
+&
+Education and Social Desirability Bias 675
+
+ 
+
+ 
+
+FIGURE 1
+Support for a Black Presidential Candidate by Level of Education
+100
+90
+80
+
+ 
+
+ 
+
+Percent Expressing Support
+
+ 
+
+|/
+
+1972 1974 1976 1978 1980 1982 1984 1986 1988 1990 1992 1994 1996
+
+ 
+
+ 
+
+ 
+
+—— Less than High School —— High School ---- Some College College or More
+
+Note: Data for 1976, 1980, 1984, and 1992 are unavailable in the General Social
+Survey. Estimates of support for a black presidential candidate for these years
+were obtained by averaging estimates for the surrounding years (e.g., the estimate
+for 1992 is the average of the GSS estimates for 1991 and 1993).
+
+trending upward over the time period for all groups, but this support varies
+by educational attainment, with well-educated respondents consistently ex-
+pressing higher levels of support for a black presidential candidate than
+respondents with lower levels of education. In 1996, nearly 98 percent of
+respondents with a bachelor’s degree or more expressed support, compared
+with only 85 percent of respondents with less than a high school diploma.
+Through an online list experiment, an innovative technique used to un-
+obtrusively measure support for a selected research statement, the current
+article tests whether the observed disparities in support by education cat-
+egory result from social desirability reporting, or whether they illustrate true
+differences.
+
+The trends observed in the GSS are consistent with an expansive literature
+on the positive relationship between education and social, political, and
+racial tolerance. Stouffer (1955) pioneered this effort in an early study,
+which found a positive association between education and tolerance for
+atheists, socialists, and communists. Later work often countenanced
+Stouffer’s original finding. Greeley and Sheatsley (1971) found that edu-
+
+ 
+
+8
+s
+g
+5
+8
+z
+i
+&
+
+    
+
+ 
+
+z
+a
+g
+g
+&
+%
+676 Social Science Quarterly
+
+cation significantly increased support for racial equality, while Smith (1981)
+showed that higher levels of educational attainment increased tolerance for
+school desegregation. Using measures of racial tolerance from the GSS,
+Case, Greeley, and Fuchs (1989) provide evidence of a strong, positive effect
+of education on racially egalitarian attitudes, arguing that the diverse, cos-
+mopolitan experiences of the well educated contribute toward their funda-
+mental support for equal rights. Similarly, Bobo and Licari’s (1989) study
+on the impact of education on tolerance for nonconformist social groups
+reinforced the positive correlation between education and social tolerance
+originally documented by Stouffer (1955). More recently, Wagner and Zick
+(1995) extend the findings beyond the U.S. context, showing an inverse
+relationship between education and racial prejudice in France, Britain, West
+Germany, and the Netherlands. Collectively, these studies reinforce the
+canonical view of education as a key mechanism for instilling core dem-
+ocratic beliefs and values, including social, political, and racial tolerance.
+
+Yet, the link between education and tolerance has not gone unchallenged.
+Most notably, research by Jackman (1978) and Jackman and Muha (1984)
+contends that the effect of education may be limited to abstract principles of
+racial tolerance, rather than applied measures or policy decisions. Jackman
+(1978) proposes a disjuncture between professed beliefs in abstract prin-
+ciples of racial equality and support for actual policies to enact racial equal-
+ity. Increased levels of education generate greater familiarity with the
+democratic principles of equality and tolerance, but do little by way of
+increasing support for actual policies designed to achieve this equality. Thus,
+Jackman argues, “the well educated are more likely to recognize those
+principles, to know the ‘right’ answers, and to believe sincerely in those
+answers. Such learning, however, is not very deeply embedded. In an applied
+situation, those principles are no more likely to influence the orientation of
+the well educated than of the poorly educated” (1978:322-23). As a result,
+the consistently reported positive association between attitudes of racial
+tolerance and education may be spurious, rather than substantive.
+
+As the quote by Jackman (1978) suggests, the observed association be-
+tween education and social tolerance may be inflated by social desirability
+bias. Social desirability bias occurs when individuals provide answers they
+believe to be more socially desirable, rather than revealing their true atti-
+tudes, preferences, or beliefs. Research demonstrates that this tendency to
+overreport socially desirable behaviors varies by educational attainment, with
+better-educated respondents more likely to report socially desirable behaviors
+that diverge from their actual behaviors. Silver, Anderson, and Abramson
+(1986) and Bernstein, Chadha, and Montjoy (2001) report that respondents
+who have completed college are the most likely to overreport voter partic-
+ipation. Outside of the U.S. context, Karp and Brockington (2005) similarly
+find that holding a university degree is strongly associated with providing a
+socially desirable response about voting. This pattern of differential mis-
+reporting by education categories is consistent across research fields. Jeffery
+
+aly eAeios 9 sauNO.A BE JO Ans.a6tan 4X LE90N'600E LEZ9-OFS TLL LOL NoP/Ios darn AceaqnaAnUoy sty HoH PapemROKT ‘E “~G00Z “LETIOPSL
+
+om puaD pur sua) aq) 395 [ZZOT/IL/ZE] Wo Aamir AUD KayaA ‘UBL
+
+om puao-pun-suuayjuuos depen &aBsqnauuoyrsdry) su
+
+ae sa]on4e YO ‘95N JO sap 49} Aawaqy] BuO AapLAK Uo {SUE
+
+asu20}] suouUaD anjeaiD alquondde aq) Aq pauuanal a,
+Education and Social Desirability Bias 677
+
+(1996) reports that men tend to increasingly underreport their body weight
+as their level of education increases, holding constant other demographic
+characteristics, while Hofferth (1999) finds that parents with more years of
+education overreport the amount of time spent reading to their children. As
+Hofferth hypothesizes, highly educated individuals might simply be more
+aware of social norms, and feel greater pressure to present their behavior or
+attitudes in alignment with these norms.
+
+Given this research, we suspect that questions on other socially sensitive
+topics, like racial attitudes, are also likely to produce biased estimates, and
+that these biases will vary systematically by educational attainment. Several
+theories account for the continuing impact of racial attitudes on political
+behaviors. One theory purports that simple racism—or the unwillingness to
+support black candidates on the basis of skin color alone—remains pervasive
+in U.S. politics (Sigelman and Welch, 1984; Terkildsen, 1993) giving rise,
+in part, to the observed discrepancy between preelection public opinion
+polls and Election Day results. Another tradition suggests that racial prej-
+udice operates more subtly in generating political behaviors (Krysan, 2000)
+as voters use preexisting assumptions about out-group members to judge
+potential candidates (Sigelman et al., 1995) or make subtle inferences about
+their policy positions when information is scarce (Citrin, Green, and Sears,
+1990). Although both theories contend that racial attitudes inform political
+beliefs, neither theorizes about the role of education in mitigating—or ex-
+acerbating—these biases.
+
+Studies intended to explicitly measure the impact of education on racial
+attitudes or voting behavior in presidential elections often fail to accurately
+measure the differential impact of educational attainment on social desir-
+ability bias. For instance, Kuklinski, Cobb, and Gilens (1997) use a non-
+intrusive technique to measure racial attitudes in the South, but their
+research does not report social desirability bias—the difference between la-
+tent and professed racial attitudes. They find that the well educated are ess
+prejudiced than individuals with low levels of education—a measure of
+latent attitudes—but their methodology precludes them from studying
+which groups are the most likely to conceal their racial prejudice. Similarly,
+Streb et al. (2008) compare results of their list experiment on anger toward a
+female presidential candidate with publicly available polls to compute social
+desirability bias. They do or find a statistically significant difference in
+latent anger by educational attainment, but their reliance on publicly avail-
+able polls—which lack information on respondents’ educational attain-
+ment—prohibits them from assessing social desirability reporting for
+particular educational categories.
+
+Two hypotheses emerge from the literature above. The first hypothesis is
+that education is positively associated with socially tolerant attitudes. Taken
+at face value, higher levels of education correspond with higher levels of
+support for socially tolerant behaviors. A second hypothesis is that education
+is positively associated with socially desirable reporting. When asked about
+
+asu207] suouUoD ajeaiD alquondde aq) Aq pauianol ae sappne yO ‘Bsn Jo sa[n1 10} ArBiqr] aur AaT)AA Wo (SuOMpUaD-puR-suMaY~MOD Kaye KamIC_TaUN|Uay'sdr) SuOTIpUOD puR SUUDL aq) 995 “[ZZOZ/IL/ZE] Ho hamIANT RUUD Kay AA “UBURERLY BARIOg 7 SUNDA BEE IO ATISABAIC, Ke 1°LE900'6OOT LETI-OFS MAIL LO Lap/uD Aaya huey aunuay'sdny Woy papealWanog ‘f “6007 “LEZIOPS |
+678 Social Science Quarterly
+
+socially sensitive topics, like voting behavior or body weight, highly educated
+respondents are the most likely to misrepresent their true beliefs, attitudes, or
+practices in order to align themselves with existing social norms. Although
+the first hypothesis purports that increased education is, in fact, associated.
+with increasingly tolerant social attitudes, the second hypothesis suggests
+that this association may be spurious because the well educated are more
+likely to profess socially tolerant attitudes to which they, in fact, do not
+subscribe. Using the case of a black presidential candidate, we employ a list
+experiment to test these hypotheses.
+
+Data and Methods
+
+Pioneered by Kuklinski, Cobb, and Gilens (1997) to measure social de-
+sirability bias in reporting racial attitudes in the “New South,” the list
+experiment is an increasingly popular methodological tool for measuring
+social desirability bias in self-reported attitudes and behaviors.’ The list
+experiment compares measures of true support for a research question with
+those of overt support in order to develop an estimate of social desirability
+bias.” Over the last decade, researchers have utilized the list experiment to
+gauge perceptions of affirmative action programs (Sniderman and Carmines,
+1997), support for biological understandings of race (Brueckner, Morning,
+and Nelson, 2005), attitudes toward Jewish political candidates (Kane,
+Craig, and Wald, 2004), and support for a female presidential candidate
+(Streb et al., 2008).
+
+We begin by randomly assigning each of our respondents to one of three
+groups. In the first group, the poll group, we ask respondents directly about
+their support for the research statement to obtain measures of overt support.
+We anticipate that some of these respondents will affirm their support for a
+black presidential candidate because they believe that an affirmative response
+is socially desirable, not because they truly support the research statement.
+Thus, we use this as a measurement of overt support. To obtain an estimate
+of true support, we utilize estimates from the control and treatment groups.
+Respondents in the control group are shown three statements, all related to
+USS. politics but unrelated to our specific research question, and asked to
+indicate how many of the statements they support without revealing which
+
+'The list experiment is not without its drawbacks. Choice of research and list statements, as
+well as question wording and the particular format of the experiment instructions, can pose
+substantial difficulties for interpretation. For further discussion of these validity issues in list
+experiment designs, see Kuklinski, Cobb, and Gilens (1997).
+
+*We use the terminology of true and overt support when referencing the results of the list
+treatment and the poll group, respectively. Although we acknowledge complications in
+claiming that our research provides rue estimates of support, we elect to maintain this
+terminology throughout the article to consistently differentiate between estimates from the
+experiment and the poll groups.
+
+asu207] suouUoD ajeaiD alquondde aq) Aq pauianol ae sappne yO ‘Bsn Jo sa[n1 10} ArBiqr] aur AaT)AA Wo (SuOMpUaD-puR-suMaY~MOD Kaye KamIC_TaUN|Uay'sdr) SuOTIpUOD puR SUUDL aq) 995 “[ZZOZ/IL/ZE] Ho hamIANT RUUD Kay AA “UBURERLY BARIOg 7 SUNDA BEE IO ATISABAIC, Ke 1°LE900'6OOT LETI-OFS MAIL LO Lap/uD Aaya huey aunuay'sdny Woy papealWanog ‘f “6007 “LEZIOPS |
+Education and Social Desirability Bias 679
+
+statements they support.? This phrasing enables respondents to conceal
+support for answers deemed socially undesirable. Respondents in the treat-
+ment group are then shown the same three statements as the control group,
+but with an additional fourth statement about support for a black presidential
+candidate. Again, respondents are instructed not to indicate which state-
+ments they agree with, but only how many. After determining the mean
+number of agreements for each group, we then compare the mean number
+of statements to which respondents in the control group agreed to the mean
+number of statements to which respondents in the treatment group agreed.
+Based on the assumptions of random assignment to treatment and control
+groups, any difference in group means can be attributed to the experimental
+“treatment’—in this case, the research question.
+
+For example, imagine that we observe a control group mean of 2.0,
+indicating that respondents in the control group agreed, on average, with
+two statements. Then, imagine that researchers observe a treatment group
+mean of 2.6, indicating that, on average, respondents agreed with 2.6 of the
+list statements. The difference in means is then treated as the proportion of
+respondents supporting the research question, and subsequently used in our
+analysis as a measure of true support. By subtracting the control group mean
+from the treatment group mean, we estimate that 60 percent of respondents
+truly agree with the research question.
+
+After estimating the proportion of true support, we compare this number
+to the estimate of overt support from respondents in the poll group. The
+inclusion of a poll group in our research design offers a significant meth-
+odological improvement over previous list experiments.’ The poll group
+allows us to make comparisons between overt and true support by demo-
+graphic group. In previous list experiments, measures of true support were
+compared with polls conducted by other research organizations to determine
+levels of social desirability reporting (see, e.g., Streb et al., 2008). This
+approach has the twin disadvantage of being unable to make subgroup
+comparisons and relying on samples selected by other researchers and/or
+research organizations. Having a unique comparison group, we then cal-
+culate the difference between overt support and true support to estimate the
+level of social desirability bias. Using a difference in proportions test, we test
+whether the proportion of respondents affirming overt support for the re-
+
+Previous list experiments used list statements unrelated to current affairs, but we decided
+to use statements related to U.S. politics. By using statements from previous list experiments
+unrelated to U.S. politics (see, e.g., Streb et al., 2008), we worried that respondents would be
+more likely to identify the research statement about a black presidential candidate as referring
+to a specific individual (e.g., Barack Obama). To the extent that the research statement is
+misread in this context, the experiment measures support for a particular black presidential
+candidate, rather than a generic one. Thus, by including the research statement among other
+statements related to U.S. politics, we intended to minimize any misreading of the research
+statement that would bias our results.
+
+*Here, we follow Brueckner, Morning, and Nelson (2005) in the inclusion of a unique poll
+group in the research design.
+
+asu207] suouUoD ajeaiD alquondde aq) Aq pauianol ae sappne yO ‘Bsn Jo sa[n1 10} ArBiqr] aur AaT)AA Wo (SuOMpUaD-puR-suMaY~MOD Kaye KamIC_TaUN|Uay'sdr) SuOTIpUOD puR SUUDL aq) 995 “[ZZOZ/IL/ZE] Ho hamIANT RUUD Kay AA “UBURERLY BARIOg 7 SUNDA BEE IO ATISABAIC, Ke 1°LE900'6OOT LETI-OFS MAIL LO Lap/uD Aaya huey aunuay'sdny Woy papealWanog ‘f “6007 “LEZIOPS |
+680 Social Science Quarterly
+
+search question was significantly different from the proportion of respon-
+dents affirming true support for the research question.
+
+Our nationally representative sample of 1,560 respondents was random-
+ized into three groups: the poll, control, and treatment groups. Using a chi-
+square test, we first confirm that group assignment and educational category
+are statistically independent. Our chi-square test statistic confirms random
+assignment by educational category into our three groups (chi-square =
+3.803, p = 0.703). Respondents in Group A (V= 514) were asked directly
+to indicate whether or not they agree with the following statement: “I am
+willing to support a black Presidential candidate.” Responses in the poll
+group were treated as the equivalent of a public opinion poll to measure
+overt support for a black presidential candidate.
+
+In the control group (V = 552), respondents were presented with a series
+of three statements and asked how many statements they supported. Re-
+spondents were specifically instructed vor to indicate which statements they
+supported, but simply to select the total number. The following three
+statements were presented to respondents in the control group.
+
+e I think Presidential campaigns are too costly.
+e I am willing to support stronger immigration laws.
+e I think the war in Iraq will ultimately make the US safer.
+
+The three statements were presented in randomized order to control for
+the possibility that the ordering of statements would impact responses.
+
+Respondents in the treatment group (V = 494) were presented with four
+statements. The first three were identical to those presented to the control
+group, but with an additional fourth statement, our research statement.
+Thus, their statements were:
+
+I think Presidential campaigns are too costly.
+
+I am willing to support stronger immigration laws.
+
+I think the war in Iraq will ultimately make the US safer.
+I am willing to support a black Presidential candidate
+
+Again, the ordering of the statements was randomized to ensure that the
+arrangement of statements did not bias responses.
+
+Our list experiment was conducted in conjunction with Time-Sharing
+Experiments for the Social Sciences, an NSF-funded program enabling so-
+cial science researchers to collect original experimental data. In conjunction
+with TESS, samples are fielded by Knowledge Networks. Knowledge Net-
+works utilizes random-digit dialing (RDD) to recruit a panel of survey
+participants. Households that agree to participate in the panel are provided
+with WebTV if they lack Internet access to facilitate completion of the
+organization’s Internet-based surveys.’ From this pool of active participants,
+
+For more information on Knowledge Networks and TESS, visit (http://www.knowledge
+networks.com) and (http://www.experimentcentral.org), or see Lawless (2004:Appx. A).
+
+asu207] suouUoD ajeaiD alquondde aq) Aq pauianol ae sappne yO ‘Bsn Jo sa[n1 10} ArBiqr] aur AaT)AA Wo (SuOMpUaD-puR-suMaY~MOD Kaye KamIC_TaUN|Uay'sdr) SuOTIpUOD puR SUUDL aq) 995 “[ZZOZ/IL/ZE] Ho hamIANT RUUD Kay AA “UBURERLY BARIOg 7 SUNDA BEE IO ATISABAIC, Ke 1°LE900'6OOT LETI-OFS MAIL LO Lap/uD Aaya huey aunuay'sdny Woy papealWanog ‘f “6007 “LEZIOPS |
+Education and Social Desirability Bias 681
+TABLE 1
+
+Distribution of Experimental Categories by Level of Education
+
+ 
+
+ 
+
+Total Poll Group. = Control Group. ~—s Treatment Group
+Less than HS 13.33% 14.59% 12.14% 13.36%
+(208) (78) (67) (66)
+High school 31.73% 30.35% 34.24% 30.36%
+(495) (156) (189) (150)
+Some college 26.47% 25.88% 25.54% 28.14%
+(413) (133) (141) (139)
+College or more 28.46% 29.18% 28.08% 28.14%
+(444) (150) (155) (139)
+100.00% 100.00% 100.00% 100.00%
+(1,560) (614) (652) (494)
+
+ 
+
+Note: Number of respondents listed in parentheses.
+
+Knowledge Networks randomly selects panel members to participate in
+upcoming surveys and experiments. For our list experiment, a total of 2,184
+individuals were chosen to participate. The overall response rate was 71.4
+percent, ultimately yielding a sample of 1,560 participants. The survey was
+fielded between June 7, 2007 and June 13, 2007.8
+
+Table 1 provides the distribution of educational attainment within each
+group of our sample. As indicated, our sample is roughly evenly divided
+across the poll, control, and treatment groups. About 13 percent of our
+respondents had less than a high school education, 32 percent were high
+school graduates, 26 percent had attended some college, and 28 percent
+received a bachelor’s degree or beyond.
+
+By fielding an Internet-based study, we were able to create a research
+setting that minimized the conditions for social desirability reporting. Pre-
+vious research suggests that the presence of an experimenter/interviewer is
+likely to increase social desirability reporting, as respondents feel greater
+social pressures in the presence of interviewers than in their absence (Evans
+et al., 2003; Richman et al., 1999). Likewise, more nuanced work on racial
+attitudes reveals privacy levels impact respondents’ willingness to reveal (or
+conceal) racially tolerant attitudes (Krysan, 1998:511). Increasing the pri-
+vacy of the research setting through Internet-based research should decrease
+socially desirable reporting. As an important caveat to our results, privacy
+effects have been shown to vary by education level, with better-educated
+respondents more susceptible to privacy effects. As a result, to the extent that
+our methodological decisions bias our results, we anticipate a downward bias
+in which our reported results may underestimate the level of social desir-
+
+The survey was conducted nearly a year and a half before the 2008 presidential election.
+Nonetheless, most major candidates—including Barack Obama—had declared. their candi-
+dacy by the summer of 2007.
+
+5
+8
+g
+5
+
+ 
+
+OUNOpjUOD Kaya AumaqnaRnquoy
+
+ 
+
+    
+    
+
+g
+8
+3
+g
+5
+8
+z
+i
+&
+
+0 Kamagra Aaya “UR
+
+aq) 295
+
+ 
+682 Social Science Quarterly
+TABLE 2
+
+Estimated Mean Level of True Support for a Black Presidential Candidate, Total
+and by Educational Category
+
+ 
+
+Control Group = Treatment Group ~—- Proportion True Support
+
+ 
+
+Total 1.84 2.54 0.70**
+(0.05) (0.06) (0.08)
+Less than HS 1.82 2.26 0.44
+(0.15) (0.25) (0.30)
+High school 1.86 2.43 0.57 **
+(0.08) (0.10) (0.13)
+Some college 1.78 2.55 0.77 **
+(0.11) (0.09) (0.14)
+College or more 1.89 2.81 0.92 **
+(0.10) (0.09) (0.14)
+
+ 
+
+** <0.01; 40 <0.05.
+Note: Standard errors in parentheses.
+
+ability reporting when respondents are asked about a black presidential
+candidate.
+
+Results
+
+By subtracting the mean for the control group from the treatment group
+mean, we obtain the proportion of true support for a black presidential
+candidate. For the sample as a whole, the mean for the treatment group is
+2.54 and the mean for the control group is 1.84 (see Table 2). By sub-
+tracting these estimates, we find that 70 percent of respondents would sup-
+port a black presidential candidate.” We next run a difference of means test
+to confirm that our results are statistically significant.
+
+True support increases monotonically with additional years of education.
+Only 44 percent of respondents who have not completed high school truly
+support the research question, while nearly 57 percent of respondents with a
+high school education do. The estimate increases by approximately 20
+points to 77 percent for respondents with some college education. Lastly, as
+expected, college graduates have the highest level of true support for a black
+presidential candidate at 92 percent.
+
+We next utilize estimates of overt support from the poll group to estimate
+the magnitude of social desirability bias for the sample as a whole, as well as
+by educational category. The estimate of social desirability bias is calculated
+
+7These estimates are substantially lower than those reported for overt support in the
+General Social Survey (GSS). We expect lower levels of overt support in our research design
+because of the privacy effects inherent in Internet-based. research.
+
+5
+8
+g
+5
+
+ 
+
+OUNOpjUOD Kaya AumaqnaRnquoy
+
+ 
+
+    
+    
+
+g
+8
+3
+g
+5
+8
+z
+i
+&
+
+0 Kamagra Aaya “UR
+
+aq) 295
+
+ 
+Education and Social Desirability Bias 683
+TABLE 3
+
+Estimates of Social Desirability Bias in Support for a Black Presidential Candidate,
+Total and by Educational Category
+
+ 
+
+ 
+
+Proportion Proportion Desirability
+True Support Overt Support Effect
+Total 0.70 0.84 0.14**
+(0.08) (0.02)
+Less than HS 0.44 0.74 0.30**
+(0.29) (0.07)
+High school 0.57 0.81 0.24**
+(0.13) (0.04)
+Some college 0.77 0.90 0.13**
+(0.14) (0.04)
+College or more 0.92 0.86 0.06
+(0.13) (0.03)
+
+ 
+
+** <0.01; 40 <0.05.
+Note: Standard errors in parentheses.
+
+by subtracting the true support estimate from the overt support estimate.
+For the sample as a whole, overt support for a black presidential candidate is
+84 percent, but true support is only 70 percent, which produces an esti-
+mated social desirability bias of 14 points (see Table 3). Using a difference in
+proportions test, we find that the difference between overt and true support
+is statistically significant (o<0.01).
+
+Lastly, we report the magnitude of social desirability bias in estimates of
+support for a black presidential candidate by educational category. Respon-
+dents with low levels of education are the most likely to conceal their socially
+undesirable answer, while those with high levels of education are the least
+likely to do so. Respondents who have not completed high school have the
+lowest overt support (74 percent) and the lowest true support (44 percent),
+producing a social desirability effect of approximately 30 points. The level of
+social desirability bias steadily drops as years of education increases, with 24
+percent of high school graduates giving a socially desirable answer and 13
+percent of respondents with some college giving the socially desirable re-
+sponse. For college graduates, the estimate of social desirability bias is -0.06.
+The negative estimate of social desirability bias for college graduates results
+from a higher proportion of true than overt support.® With the exception of
+
+®The experiment includes a small sample of respondents with a graduate or professional
+degree (NV = 127). When we exclude these respondents from our analysis and run our analysis
+for respondents whose highest level of education is a college degree, we find that the overt
+support is 92 percent, the true support is 84 percent, and the social desirability bias is 8
+points. Thus, respondents with graduate and professional degrees are driving the negative
+social desirability results indicated above.
+
+5
+8
+g
+5
+
+ 
+
+OUNOpjUOD Kaya AumaqnaRnquoy
+
+ 
+
+    
+    
+
+g
+8
+3
+g
+5
+8
+z
+i
+&
+
+0 Kamagra Aaya “UR
+
+aq) 295
+
+ 
+684 Social Science Quarterly
+
+the highest education category, the desirability effect for each educational
+category is significantly different from zero at the 0.01 level.
+
+Conclusion
+
+This article simultaneously tests two hypotheses about the association
+between education and social desirability bias in estimated support for a
+black presidential candidate. The first hypothesis proposes that education
+increases socially tolerant attitudes, a proposition consistent with the po-
+sition that education alters individuals’ beliefs and attitudes toward non-
+conformist, nontraditional, or out-group individuals. The second hypothesis
+proposes that this positive correlation is, in fact, superficial. Rather than a
+truly liberalizing effect, it attributes the perceived increases in racial tolerance
+to the propensity of well-educated respondents to conceal their undesirable
+attitudes. In this scenario, education teaches individuals the dominant social
+norms, and applies social pressures for conformity. Testing support for a
+black presidential candidate through an online experiment, this article lends
+credibility to the first hypothesis and also calls into dispute the second
+hypothesis.
+
+Given our unobtrusive estimation strategy, we believe that the measured
+gap in true support between college-educated respondents and those with
+less than a high school education points to a serious, authentic difference in
+racial tolerance. This gap lends strong support to the first hypothesis that
+education may have a liberalizing impact on measures of social tolerance,
+and that this observed relationship is zor a spurious effect of social desir-
+ability bias. By comparing our unobtrusive measure of support to overt
+estimates of support, we can more accurately measure social desirability bias
+for particular demographic groups. More pointedly, following the research
+design originally employed by Brueckner, Morning, and Nelson (2005),
+we are able to accurately measure social desirability bias by educational
+attainment.
+
+Our research challenges existing literature on education and social desir-
+ability bias to further grapple with the circumstances—or, perhaps, the issue
+areas—in which well-educated individuals tend to succumb to social de-
+sirability reporting. It is possible that behaviors (e.g., voting, church atten-
+dance) remain subject to social desirability reporting, but attitudes (e.g.,
+support for nontraditional political candidates) do not. Alternatively, it is
+possible that some attitudes are not subject to social desirability reporting
+(e.g., support for a black presidential candidate) while others continue to be
+(e.g., gay marriage). Given these contrary findings relative to the established
+association between education and social desirability bias, we encourage a
+more nuanced approach—both theoretically and empirically—to unpacking
+this relationship. Further research would be wise to examine other socially
+sensitive topics to confirm that our findings by educational category hold
+beyond the narrow issue area addressed in this article.
+
+asu207] suouUoD ajeaiD alquondde aq) Aq pauianol ae sappne yO ‘Bsn Jo sa[n1 10} ArBiqr] aur AaT)AA Wo (SuOMpUaD-puR-suMaY~MOD Kaye KamIC_TaUN|Uay'sdr) SuOTIpUOD puR SUUDL aq) 995 “[ZZOZ/IL/ZE] Ho hamIANT RUUD Kay AA “UBURERLY BARIOg 7 SUNDA BEE IO ATISABAIC, Ke 1°LE900'6OOT LETI-OFS MAIL LO Lap/uD Aaya huey aunuay'sdny Woy papealWanog ‘f “6007 “LEZIOPS |
+Education and Social Desirability Bias 685
+
+In the shadow of the 2008 election, the experiment conducted in this
+article is also ripe for replication. Although Obama’s victory represents a
+milestone in the history of U.S. politics, we do not yet know the impact of
+his candidacy on racial attitudes in the United States. Did exposure to a
+viable black candidate increase tolerance among the least supportive, or do
+Americans who expressed anxiety about a black candidate before Obama’s
+candidacy remain uncomfortable supporting a black presidential candidate
+now? Immediate postelection analysis reports that pockets of voters con-
+centrated in counties with lower levels of educational achievement voted
+more heavily Republican in 2008 than in 2004—a finding that suggests
+racial attitudes still influence voter preferences among certain subgroups
+(Nossiter, 2008). Still, this postelection analysis is preliminary, and offers
+only a glimpse at the impact of Obama’s candidacy on racial attitudes. A
+replication of this experiment to compare before and after measures of
+support would enable researchers to test the impact of Americans’ exposure
+to a viable black presidential candidate on attitudes toward one.
+
+REFERENCES
+
+Bernstein, Robert, Anita Chadha, and Robert Montjoy. 2001. “Overreporting Voting: Why
+it Happens and Why it Matters.” Public Opinion Quarterly 65:22-44.
+
+Bobo, Lawrence, and Frederick Licari. 1989. “Education and Political Tolerance: Testing the
+Effects of Cognitive Sophistication and Target Group Affect.” Public Opinion Quarterly
+53:285-308.
+
+Brueckner, Hannah, Ann Morning, and Alondra Nelson. 2005. “The Expression of Bio-
+logical Concepts of Race.” Paper prepared for the Annual Meeting of the American So-
+ciological Association. Philadelphia, PA.
+
+Case, Charles E., Andrew M. Greeley, and Stephan Fuchs. 1989. “Social Determinants of
+Racial Prejudice.” Sociological Perspectives 32(4):469-83.
+
+Citrin, Jack, Donald Phillip Green, and David O. Sears. 1990. “White Reactions to Black
+Candidates: When Does Race Matter?” Public Opinion Quarterly 54(1):74-96.
+
+Evans, David C., Daniel J. Garcia, Diane M. Garcia, and Robert 5. Baron. 2003. “In the
+Privacy of Their Own Homes: Using the Internet to Assess Racial Bias.” Personality and
+Social Psychology Bulletin 29(2):273-84.
+
+Greeley, Andrew M., and Paul Sheatsley. 1971. “Attitudes Towards Racial Integration.”
+Scientific American 225:13-19.
+
+Hofferth, Sandra. 1999. “Family Reading to Young Children: Social Desirability and Cul-
+tural Biases in Reporting.” Paper presented at Workshop on Measurement of and Research
+on Time Use, Committee on National Statistics, National Research Council. Washington,
+DC.
+
+Jackman, Mary. 1978. “General and Applied Tolerance: Does Education Increase Com-
+mitment to Racial Education?” American Journal of Political Science 22:302-24.
+
+Jackman, Mary, and Michael Muha. 1984. “Education and Intergroup Attitudes: Moral
+Enlightenment, Superficial Democratic Commitment, or Ideological Refinement?” American
+Sociological Review 49:751-69.
+
+ 
+
+8
+3
+g
+5
+8
+z
+i
+&
+
+    
+
+ 
+
+z
+a
+g
+g
+&
+%
+686 Social Science Quarterly
+
+Jeffery, Robert W. 1996. “Bias in Reported Body Weight as a Function of Education,
+Occupation, Health and Weight Concern.” Addictive Behaviors 21(2):217-22.
+
+Kane, James G., Stephen C. Craig, and Kenneth D. Wald. 2004. “Religion and Presidential
+Politics in Florida: A List Experiment.” Social Science Quarterly 85(2):281-93.
+
+Karp, Jeffrey A., and David Brockington. 2005. “Social Desirability and Response Validity:
+A Comparative Analysis of Overreporting Voter Turnout in Five Countries.” Journal of
+Politics 67(3):825—40.
+
+Krysan, Maria. 1998. “Privacy and the Expression of White Racial Attitudes: A Comparison
+Across Three Contexts.” Public Opinion Quarterly 62(4):506-44.
+
+. 2000. “Prejudice, Politics and Public Opinion: Understanding the Sources of Racial
+Policy Attitudes.” Annual Review of Sociology 26:135-68.
+
+Kuklinski, James H., Michael D. Cobb, and Martin Gilens. 1997. “Racial Attitudes and the
+“New South’.” Journal of Politics 59:323-49.
+
+ 
+
+Lawless, Jennifer L. 2004. “Women, War, and Winning Elections: Gender Stereotyping in
+the Post-September 11th Era.” Political Research Quarterly 57(3):479-90.
+
+Mutz, Diana C., and Arthur Lupia, Principal Investigators. 2003. Data Collected by the Time-
+Sharing Experiments for the Social Sciences. NSF Grant 0094964.
+
+Nossiter, Adam. 2008. “For South, a Waning Hold on National Politics.” New York Times
+November 11.
+
+Richman, Wendy L., Sara Kiesler, Suzanne Weisband, and Fritz Drasgow. 1999. “A Meta-
+Analytic Study of Social Desirability Distortion in Computer-Administered Questionnaires,
+Traditional Questionnaires, and Interviews.” Journal of Applied Psychology 84(5):754—75.
+
+Sigelman, Carol K., Lee Sigelman, Barbara J. Walkosz, and Michael Nitz. 1995. “Black
+Candidates, White Voters: Understanding Racial Bias in Political Perceptions.” American
+Journal of Political Science 39(1):243-65.
+
+Sigelman, Lee, and Susan Welch. 1984. “Race, Gender, and Opinion Toward Black and
+Female Presidential Candidates.” Public Opinion Quarterly 48(2):467-75.
+
+Silver, Brian D., Barbara A. Anderson, and Paul A. Abramson. 1986. “Who Overreports
+Voting?” American Political Science Review 80(2):613-24.
+
+Smith, Tom W. 1981. “Racial Tolerance as a Function of Group Position.” American
+Sociological Review 46:558-73.
+
+Sniderman, Paul M., and Edward G. Carmines. 1997. Reaching Beyond Race. Cambridge,
+MA: Harvard University Press.
+
+Stouffer, Samuel A. 1955. Communism, Conformity and Civil Liberties. New York: John
+Wiley & Sons.
+
+Streb, Matthew J., Barbara Burrell, Brian Frederick, and Michael A. Genovese. 2008. “Social
+Desirability Effects and Support for a Female American President.” Public Opinion Quarterly
+72(1):76-89.
+
+Terkildsen, Nayda. 1993. “When White Voters Evaluate Black Candidates: The Processing
+Implications of Candidate Skin Color, Prejudice, and Self-Monitoring.” American Journal of
+Political Science 37(4):1032-53.
+
+Wagner, Ulrich, and Andrias Zick. 1995. “The Relation of Formal Education to Ethnic
+Prejudice: It’s Reliability, Validity and Explanation.” European Journal of Social Psychology
+25:41-56.
+
+ 
+
+8
+3
+g
+5
+8
+z
+i
+&
+
+ 
+
+z
+a
+g
+g
+&
+%
+

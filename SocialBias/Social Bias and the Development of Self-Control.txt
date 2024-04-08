@@ -1,0 +1,1262 @@
+Las
+HEINONLINE
+
+ 
+
+DATE DOWNLOADED: Tue Nov 22 07:57:30 2022
+SOURCE: Content Downloaded from HeinOnline
+
+Citations:
+
+Bluebook 21st ed.
+
+Meghan W. Rowland , Joseph A. Schwartz, Joseph L. Nedelec & Kevin M. Beaver, Social
+
+Bias and the Development of Self-Control: Results from a Longitudinal Study of
+
+Children and Adolescents, 57 INT. J. OFFENDER THERAPY & COMP. CRIMINOLOGY 557 (2013).
+
+ALWD 7th ed.
+
+Meghan W. Rowland , Joseph A. Schwartz, Joseph L. Nedelec & Kevin M. Beaver, Social
+Bias and the Development of Self-Control: Results from a Longitudinal Study of
+
+Children and Adolescents, 57 Int. J. Offender Therapy & Comp. Criminology 557 (2013).
+
+APA 7th ed.
+
+Rowland, M. W., Schwartz, J. A., Nedelec, J. L., & Beaver, K. M. (2013). Social Bias
+and the Development of Self-Control: Results from Longitudinal Study of Children and
+Adolescents. International Journal of Offender Therapy and Comparative Criminology,
+57(5), 557-577.
+
+Chicago 17th ed.
+
+Meghan W. Rowland; Joseph A. Schwartz; Joseph L. Nedelec; Kevin M. Beaver, "Social
+Bias and the Development of Self-Control: Results from a Longitudinal Study of
+Children and Adolescents,” International Journal of Offender Therapy and Comparative
+Criminology 57, no. 5 (May 2013): 557-577
+
+McGill Guide 9th ed.
+
+Meghan W. Rowland et al., "Social Bias and the Development of Self-Control: Results
+from a Longitudinal Study of Children and Adolescents” (2013) 57:5 Int J Offender
+Therapy & Comp Criminology 557.
+
+AGLC 4th ed.
+
+Meghan W. Rowland et al., Social Bias and the Development of Self-Control: Results
+from a Longitudinal Study of Children and Adolescents’ (2013) 57 International
+Journal of Offender Therapy and Comparative Criminology 557.
+
+MLA 8th ed.
+
+Rowland, Meghan W., et al. "Social Bias and the Development of Self-Control: Results
+from a Longitudinal Study of Children and Adolescents.” International Journal of
+Offender Therapy and Comparative Criminology, vol. 57, no. 5, May 2013, p. 557-577.
+HeinOnline.
+
+OSCOLA 4th ed.
+
+Meghan W. Rowland , Joseph A. Schwartz, Joseph L. Nedelec & Kevin M. Beaver, ‘Social
+Bias and the Development of Self-Control: Results from a Longitudinal Study of
+
+Children and Adolescents’ (2013) 57 Int J Offender Therapy & Comp Criminology 557
+
+Provided by:
+Younes & Soraya Nazarian Library, University of Haifa
+
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline’s Terms and
+ 
+
+International Journal of
+
+Social Bias and the Comparative Criminology
+57(5) 557-577
+
+Development of Self- ©The Author(s) 2012
+Reprints and permissions:
+
+Co ntrol: Resu Its F rom sagepub.com/journalsPermissions.nav
+
+DOI: 10.1 177/0306624X | 2438045
+
+a Longitudinal Study of ij.sagepub.com
+Children and Adolescents SSAGE
+
+Meghan W. Rowland’, Joseph A. Schwartz’,
+Joseph L. Nedelec', and Kevin M. Beaver'
+
+Abstract
+
+Gottfredson and Hirschi’s general theory of crime has sparked a tremendous amount
+of research examining the link between levels of self-control and involvement in
+delinquent and criminal acts. Recently, studies testing this theory have begun to
+investigate the factors that are related to the development of self-control. The
+current study expands on this body of research by examining whether social bias,
+as measured by the ability to identify facial expressions, contributes to variation
+in self-control in a sample of children. Analysis of data drawn from the National
+Survey of Children revealed some evidence that children who had difficulty correctly
+identifying facial expressions depicting fear and happiness had lower levels of self-
+control, whereas errors in identifying faces expressing anger were related to higher
+levels of self-control. The authors discuss the need for Gottfredson and Hirschi’s
+theory on the development of self-control to be expanded.
+
+Keywords
+
+attribution bias, facial recognition, low self-control, social bias, neuropsychological
+deficits
+
+ 
+
+Florida State University, Tallahassee, USA
+
+Corresponding Author:
+
+Kevin M. Beaver, College of Criminology and Criminal Justice, Florida State University,
+634 West Call Street, Hecht House, Tallahassee, FL 32306-1127, USA.
+
+Email: kbeaver@fsu.edu
+558 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+Although criminology has been guided and informed by both sociologically and bio-
+logically oriented theories, contemporary mainstream criminology has largely been
+dominated by social theories of crime. Although this adherence to the sociological
+viewpoint has resulted in an impressive accumulation of theories, some of the key
+questions regarding crime remain unanswered (Wright & Boisvert, 2009). However,
+an emerging perspective in criminology—known as biosocial criminology—holds the
+potential to shed new light on some of these questions and to add clarity to some of the
+more established criminological theories. One such theory, Gottfredson and Hirschi’s
+(1990) general theory of crime, has been the source of a considerable amount of bio-
+social research. In 4 General Theory of Crime, Gotttredson and Hirschi argued that
+crime, delinquency, and other forms of antisocial behaviors were caused by low levels
+of self-control in tandem with a crime opportunity. Since the publication of this the-
+ory, numerous empirical studies have consistently found self-control to be one of the
+strongest predictors of involvement in crime and other risky behaviors (Ameklev,
+Grasmick, Tittle, & Bursik, 1993; Baron, 2003; Burton, Cullen, Evans, Alarid, &
+Dunaway, 1998; Evans, Cullen, Burton, Dunaway, & Benson, 1997; Pratt & Cullen,
+2000). As aresull, Gottfredson and Hirschi’s theory of self-control has emerged as one
+of the more empirically supported criminological theories.
+
+Because low self-control has consistently been linked to involvement in risky
+behaviors and criminal activities, more recent research has begun to examine the etio-
+logical underpinnings of self-control. Much of this research has been guided by
+Gottfredson and Hirschi’s (1990) argument that levels of self-control are determined
+by parental socialization. Research falling outside the scope of Gottfredson and
+Hirschi’s theory has revealed that other factors, such as neighborhoods and schools,
+also contribute to the development of self-control (Beaver, Wright, & Maume, 2008;
+Pratt, Turner, & Piquero, 2004). In addition, a line of biosocial research has indicated
+that a range of biological factors, including genetics and neuropsychological deficits,
+are also heavily involved in creating variation in levels of self-control (Beaver, Wright,
+& DeLisi, 2007; Ratchford & Beaver, 2009; Vaughn, DeLisi, Beaver, & Wright,
+2009). The current study expands on these lines of research by examining whether
+social bias, as measured by the ability to identify facial expressions, is related to levels
+of self-control in children. To do so, data drawn from the National Survey of Children
+(NSC) are analyzed.
+
+Social Information Processing and Self-Control
+
+Although the extant research examining the potential causes of self-control often pits
+biological explanations against social explanations, the more likely explanation is that
+these two perspectives work in tandem to account for variation in self-control (Beaver
+et al., 2009; Miller, Jennings, Alvarez-Rivera, & Lanza-Kaduce, 2009; Ratchford &
+Beaver, 2009). Precisely how biological and social factors work in unison to create
+variation in levels of self-control, however, has not yet been fully specified in the
+literature. One theoretical framework that can be used to integrate biological and
+Rowland et al. 559
+
+ 
+
+social factors together into a theory on the development of self-control is the social
+information processing perspective (Crick & Dodge, 1994).
+
+Social information processing models aim to map the mechanisms by which people
+receive and process social cues from external stimuli. Crick and Dodge’s (1994) social
+information processing model highlights the interaction of the individual and their
+social environment by focusing on six interrelated steps. The first step, encoding,
+involves the reception of the external or internal social cues from the environment.
+The second step, interpretation, is an inferential process that takes into account the
+perspectives of others and is influenced by information stored in memory. The third
+step, selection of a goal, consists of the selection of a desired outcome. For example,
+if one feels angry toward a peer, they may choose the goal of revenge instead of dif-
+fusing the emotional situation. The fourth step entails the contemplation of the numer-
+ous possible responses to the situation. At this stage, emotional states or biases can
+limit the range of options the individual may perceive he or she has. In Steps 5 and 6,
+the individual evaluates the many potential responses and then acts out the most suit-
+able response (Crick & Dodge, 1994).
+
+During each of these steps, attribution biases can disrupt, or introduce errors in, the
+processing of social information. Moreover, attribution biases create a tendency to
+perceive relatively innocuous social cues, including expressions, actions, and inten-
+tions of others, as negative, aggressive, or harmful. These biases are sometimes termed
+hostile attributions of intent and have been found to be related to aggressive and vio-
+lent behavior and limit opportunities to learn prosocial behavior (Orobio de Castro,
+Veerman, Koops, Bosch, & Monshouwer, 2002). Evidence linking hostile attributions
+of intent with antisocial behavior comes from a meta-analysis conducted by Orobio de
+Castro and colleagues (2002). The results of this meta-analysis revealed that across 41
+differing studies, there was a statistically significant and robust association between
+measures of hostile attributions of intent and aggressive behavior.
+
+Attribution biases have been operationalized in a number of different ways (Dodge,
+Price, Bachorowski, & Newman, 1990; Orobio de Castro et al., 2002), but one method
+that is commonly used is to assess the accuracy with which facial expressions are
+interpreted (Wakschlag et al., 2010). Facial expressions provide information about
+emotional content that can be used by observers to determine the mtent and character-
+istics of an individual. The accuracy of interpreting facial expressions relies on the use
+of attributions or perceived causes of another person’s emotional state. If an attribution
+bias is formed, then an overall tendency to interpret emotional content in the same
+manner will exist. For instance, a propensity to see even neutral expressions as angry
+exemplifies the essence of an attribution bias.
+
+In the case of facial expression recognition, an attribution bias occurs when a per-
+son develops a heightened sensitivity to a particular expression and identifies it in
+place of other emotions or even neutral ones. These attribution biases can be particu-
+larly problematic for children because they may lead to social and emotional malad-
+justment. To illustrate, problems recognizing facial expressions have been discovered
+in an array of conditions, including childhood social anxiety (Melfsen & Florin, 2002),
+560 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+attention-deficit hyperactivity disorder (ADHD; Da Fonseca, Seguier, Santos, Poinso,
+& Deruelle, 2009), conduct problems (Fairchild, Van Goozen, Calder, Stollery, &
+Goodyer, 2009; Jones, Laurens, Herba, Barker, & Viding, 2009), mood disorders
+(Ellis et al., 1997; Mikhailova, Vladimirova, Iznak, Tsusulkovskaya, & Sushko, 1996;
+Rich et al., 2008), and language impairments (Spackman, Fujiki, Brinton, Nelson, &
+Allen, 2005). Given this wide range of influence, it is probable that facial expression
+recognition is also associated with self-control.
+
+Facial expression recognition can contribute to levels of self-control in at least two
+ways. First, and in line with Gottfredson and Hirschi’s (1990) theory, the ability to
+correctly identify facial expressions may add clarity to understanding how, and in
+what ways, social institutions are able to affect levels of self-control (Crosswhile &
+Kerpelman, 2009). According to Gottfredson and Hirschi, the development of self-
+control hinges almost exclusively on three intertwined parenting tactics. Specifically,
+parents who wish to instill high levels of self-control in their offspring must supervise
+their children, recognize their children’s misbehaviors, and consistently punish/correct
+those transgressions. Parents who successfully follow these parental management
+techniques will, on average, raise children with relatively higher levels of self-control
+compared with children raised by parents who do not follow these three techniques.
+
+An emerging line of research has revealed some empirical support for Gottfredson
+and Hirschi’s (1990) parental management thesis (Cullen, Unnever, Wright, & Beaver,
+2008). However, this line of research has generally failed to examine the underlying
+mechanisms that might account for the connection between parental socialization and
+levels of self-control. Establishing a statistical association between measures of paren-
+tal socialization and levels of self-control reveals little about how, and in what ways,
+parents ultimately may instill self-control in their children. Moreover, the parental
+management thesis overlooks the fact that children may respond differently to parental
+socialization tactics due to differences in social information processing skills. For
+example, a child who has deficits in social information processing and who consis-
+tently commits attribution biases is much less likely to be effectively socialized even
+by high-quality parents when compared with a child with strong social information
+processing skills. Therefore, Gottfredson and Hirschi failed to consider that individual-
+level characteristics in the child may affect the way in which children perceive, inter-
+pret, process, and ultimately react to parental socialization tactics and other social
+institutions, such as schools and neighborhoods, all of which have been linked to the
+development of self-control (Pratt et al., 2004).
+
+The second manner in which facial expression recognition may be linked to self-
+control is through neuropsychological deficits. For example, the inability to correctly
+identify facial expressions may represent a marker for neuropsychological deficits
+(Adolphs, Damasio, Tranel, & Damasio, 1996; Blair, 2003; Herba & Phillips, 2004),
+including impairments in frontal lobe functioning (Anderson, Bechara, Damasio,
+Tranel, & Damasio, 1999; Hornak, Rolls, & Wade, 1996). Similarly, studies have
+found that aspects of facial affect, such as feelings of empathy, are associated with the
+functioning of the medial prefrontal cortex (Decety & Jackson, 2004; Seitz, Nickel, &
+Rowland et al. 561
+
+ 
+
+Azari, 2006). These findings are important given that deficits within the prefrontal
+cortex are thought to be among the most salient neurological contributors to antisocial
+behavior in general (Moffitt, Lynam, & Silva, 1994; Raine et al., 2005) and psychopa-
+thy in particular (Blair, 2007). In addition, neuropsychological deficits have been
+found to correspond to variation in levels of self-control or self-regulation (Beaver
+et al., 2007; Cauffman, Steinberg, & Piquero, 2005; Damasio, 1994; Heatherton &
+Wagner, 2011; Knoch & Fehr, 2007; Ratchford & Beaver, 2009). Although the pre-
+frontal cortex is highly influential for levels of self-control, researchers have also
+implicated subcortical areas such as the amygdala (Blair, 2007; Heatherton & Wagner,
+2011). More specifically, researchers have shown that abnormal amygdala functioning
+can impact the ability of the prefrontal cortex to curb impulses originating in the lim-
+bic system (Blair, 2007; Heatherton & Wagner, 2011). In addition, studies have high-
+lighted the importance of the amygdala in socioemotional interactions, including
+facial expression recognition (Blair, 2003; Whalen et al., 2004). Taken together, the
+extant literature suggests that, due to both biological and social reasons, there may be
+an association between the ability to identify facial expressions correctly and levels of
+self-control.
+
+The Current Study
+
+There are two main goals of the current study. First, building on prior research we
+examine whether a range of social and biological factors, including the ability to
+identify facial expressions, are associated with variation in childhood levels of self-
+control. Second, if there is an association between facial expression recognition and
+levels of self-control, we examine whether this association remains over an extended
+period of time. The primary purpose of the current study is to better specify the bio-
+social mechanisms related to the development of self-control. To address these issues,
+we analyze data drawn from the NSC.
+
+Method
+Data
+
+The data analyzed in the current study were drawn from the NSC. The NSC is a three-
+wave longitudinal study that spans approximately 10 years of human development. A
+total of 1,741 households, covering 2,301 children, were included in the study. A
+multimethod assessment strategy was used where interviews were completed with
+parents (usually the mother), teachers, and children. In addition, standardized tests
+were used to assess psychological and intellectual development. The first wave of
+interviews was conducted in 1976 when the children ranged in age from 6 to 12 years.
+This wave of data focused on gathering information about the child’s daily activities,
+their family interactions, and the quality of their peer relationships. Parents and teach-
+ers were also interviewed and asked questions about the child’s temperament, their
+562 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+behavior, and their interactions with peers (for more information about the sample,
+see Zill, Peterson, Moore, & Furstenberg, 1992).
+
+The second round of data was collected in 1981 when the children ranged in age
+from 12 to 17 years. Interviews were completed with 1,423 children who were origi-
+nally included in the Wave 1 data. Similar to the previous wave, parents and teachers
+were also interviewed. Because relatively little time had lapsed between waves, the
+questions asked at Wave | were still age appropriate for the children. As a result, many
+of the same questions asked at the previous wave were also asked al Wave 2. For
+example, children were asked about their social relationships and their daily activities.
+In 1987—-nearly 11 years after data collection commenced—the third and final wave
+of data was gathered. Because most of the children were now young adults, the survey
+instruments were changed to include items that were more appropriate for this age
+group. For example, questions were altered to focus on employment history, romantic
+relationships, and involvement in criminal activities. Overall, 1,423 respondents were
+included in the data at Wave 3.
+
+Measures
+Low Self-Control Measures
+
+Wave | low self-controf scales. Although Gottfredson and Hirschi’s (1990) theory
+represents one of the most widely tested contemporary criminological theories, there
+is a lack of consensus on the most valid and reliable way to measure self-control
+(DeLisi, Hochstetler, & Murphy, 2003; Pratt & Cullen, 2000). Prior researchers ana-
+lyzing the NSC have identified a number of items, reported by both the parent and the
+teacher, that can be used to measure variation in self-control among children. As a
+result, and following the lead of prior researchers (Ratchford & Beaver, 2009), we
+created three low self-control scales measured at Wave 1: a parent low self-control
+scale, a teacher low self-control scale, and a composite low self-control scale. The par-
+ent low self-control scale only included items that were reported by the parent. Spe-
+cifically, parents were asked about their child’s behavior, including if their child had
+trouble concentrating, whether their child was restless, and whether the child was
+deceitful or temperamental. Responses to these questions ranged from 1 (vot at all like
+my child) to 6 (exactly like my child). The responses to eight items were summed
+together to form the Wave 1 parental low self-control scale (a = .71), where higher
+scores reflected lower levels of self-control. The appendix contains a complete listing
+of the individual items comprising this low self-control scale as well as each of the
+other scales.
+
+In addition to the parental low self-control scale, a teacher low self-control scale
+was created. By separating scales based on reporting sources, we are able to examine
+the robustness of our results and assess whether the resulls may be due to a method-
+ological artifact pertaining to measurement. Moreover, teacher reports represent an
+improvement over parental reports because teachers have shown to be more accurate
+Rowland et al. 563
+
+ 
+
+and reliable than parents when rating childhood behaviors and personality traits
+(Cairns & Cairns, 1994; Harris, 1998). During Wave | interviews, teachers were asked
+seven questions that tapped variation in self-control. Specifically, they were asked
+whether the child had trouble concentrating, whether the child was restless, and whether
+the child was happy or had an active temper. Responses to items were summed together
+to form the Wave | teacher low self-control scale, where higher scores indicated
+lower levels of self-control (a = .79).
+
+We also crealed a composite, multiraler measure of low self-control that included
+the items reported by both the teacher and the parent. This composite scale provides a
+global assessment of the child’s level of self-control that captures manifestations of
+self-control at home and at school. As a result, the composite low self-control scale is
+likely more accurate and more reliable than either the parent-only or teacher-only low
+self-control scales (Wright & Beaver, 2005). All 15 of the items were summed together
+to create the composite low self-control scale, with higher values representing lower
+levels of self-control (a = .78).
+
+Wave 2 low self-control scales. Consistent with the measurement of low self-control
+alt Wave 1, we created three low self-control scales: a parental low self-control scale,
+a teacher low self-control scale, and a composite low self-control scale. The parental
+low self-control scale consisted of 11 items. In addition to some of the original ques-
+tions asked al Wave 1, more questions about their child’s level of activity and mood
+swings were added. For example, parents were asked whether their child was impul-
+sive, temperamental, or feels that others are out to get him or her. Responses were then
+summed, with higher scores reflecting lower levels of self-control (a = .84).
+
+Teachers were again asked to report on the child’s level of self-control. Wave 2
+teacher reports of low self-control scale consisted of 10 separate questions. In com-
+parison with the Wave 1 low self-control scale, more detailed questions about the
+child’s interaction with peers and externalizing behaviors were included. Specifically,
+teachers were asked whether the child was liked by others, whether the child was with-
+drawn, and whether the child was helpful in the classroom. In addition, the teacher
+was also asked to report any incidents of fighting or cheating within the school.
+Responses to these items were then summed together, where higher scores reflected
+lower levels of self-control (a = .84).
+
+We also created a Wave 2 composite low self-control scale by using both the
+teacher and parent low self-control scales. The composite score allowed us to capture
+the child’s behavior while at school and at home. All 17 items were summed together
+to create the Wave 2 composite low self-control scale, with higher values representing
+lower levels of self-control (a = .85).
+
+Socialization Measures
+
+Family rules. Gottfredson and Hirschi (1990) identified the parent’s ability to mon-
+itor and correct their child’s behavior as an instrumental source of self-control.
+Although the NSC did not directly ask about parental supervision, seven questions
+564 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+were asked about family rules. Family rules provide an example of monitoring and
+reflect a general parenting style conducive to the development of self-control. Accord-
+ingly, at Wave 1, children were asked whether their mother allowed them to watch
+television whenever they wanted, whether their mother allowed them to play with any
+friends they wanted, and whether their mother allowed them to use swear words.
+Responses ta these questions were coded dichotomously (0 = vo, 1 = yes). The items
+were then added together to form the family rules index, where higher scores signified
+more family rules.
+
+Neighborhood problems. Children and adolescents raised in disadvantaged neighbor-
+hoods are at risk for a range of maladaptive outcomes, including developing lower
+levels of self-control (Pratt et al., 2004). Accordingly, an eight-item scale was created
+to tap the level of neighborhood problems. During Wave | interviews, parents were
+asked questions about the level of crime in the area, the amount of noise from nearby
+traffic, and the amount of odors or smoke within the vicinity. Responses to these items
+were then summed together to create the neighborhood problems scale. Higher values
+on this scale indicated greater levels of neighborhood problems (a = .69).
+
+Biosocial Measures
+
+Social bias measure. Previous research has measured social bias by assessing the
+accuracy with which respondents are able to identify facial expressions (Wakschlag
+et al., 2010). We followed the lead of these studies and operationalized social bias by
+using scores on a facial recognition task. During Wave | interviews, children were
+presented with four cards and then asked to identify which card corresponded to a
+particular emotion. Specifically, children were asked to identify the face that showed
+a person who appeared worried. Children were also asked to identify facial expres-
+sions that depicted fear, anger, happiness, and sadness. The responses were coded
+dichotomously (0 = correct, 1 = incorrect).
+
+Neurapsychological deficits. Neuropsychological deficits have been found to correlate
+with a range of antisocial outcomes, including levels of self-control (Beaver et al.,
+2007; Moffitt et al., 1994; Ratchford & Beaver, 2009). As a result, we included a neu-
+ropsychological deficits measure in the analyses. Researchers have used a number of
+differing tests to measure neuropsychological abnormalities (Cauffman et al., 2005),
+but tests that directly measure verbal abilities have been found to be the most reliable
+and have been favored by leading life-course criminology scholars (cf. Lynam,
+Moffitt, & Stouthamer-Loeber, 1993; Moffitt, 1990, 1996; Moffitt et al., 1994;
+Piquero, 2001). In addition, the practice of using a measure of verbal abilities to tap
+neuropsychological deficits is a common approach in the current criminological litera-
+ture (Beaver, DeLisi, Vaughn, & Wright, 2010; Brownlie et al., 2004; McGloin, Pratt,
+& Piquero, 2006; Raine et al., 2005) and has been found to correlate with direct mea-
+sures of neuropsychological functioning (Quattrocchi & Golden, 1983). Based on this
+consensus, Peabody Picture Vocabulary Test-Revised (PPVT-R) scores were used to
+assess the vocabulary and verbal skills of the respondents.” These scores, which were
+Rowland et al. 565
+
+ 
+
+collected at Wave 1, were originally coded such that higher values indicated greater
+verbal skills. We reverse coded these scores so that higher values indicated more neu-
+ropsychological deficits.
+
+Control Variables
+
+To help control for potentially confounding effects, three control variables were
+entered into the statistical models. Specifically, race (0 = While, 1 = non-While) and
+gender (0 = female, 1 = male) were included as dichotomous variables. Age was
+included as a continuous variable measured in years.
+
+Plan of Analysis
+
+The analysis for this study was divided into two stages. First, we examined whether
+the four social bias measures were associated with variation in the three Wave | low
+self-control scales (i.e., the parental reports, the teacher reports, and the composite
+measure). Two equations were estimated for each of the three outcome measures. The
+first model was essentially a baseline model and included the four social bias mea-
+sures, the family rules scale, the neighborhood problems scale, and controls for age,
+race, and gender. The second model examined whether the introduction of the neuro-
+psychological deficits measure mediated any statistically significant associations
+between the social bias measures and the low self-control scales. Because the low
+self-control scales were continuously measured and approximated normality, we esti-
+mated the models using ordinary least squares (OLS) regression. The second step in
+the analysis was to replicate the previous models by using the Wave 2 low self-control
+scales instead of the Wave 1| low self-control scales. These models helped to establish
+whether the results were consistent across time periods. As the NSC data included
+multiple children from the same households, the data lack independence in observa-
+tions which can artificially deflate standard errors and thus produce biased tests of
+significance for the coefficients. We corrected for this problem by estimating all of
+the models using Huber—White standard errors.
+
+Results
+
+The analysis began by calculating OLS models to test for associations between the
+social bias measures and the Wave | low self-control scales. The results of these
+models are presented in Table 1. As can be seen in the far left-hand column, three of
+the social bias measures—afraid, happy, and angry—were associated with parental
+reports of low self-control. Specifically, children who incorrectly identified afraid and
+happy faces were associated with lower levels of self-control. Interestingly, respon-
+dents who incorrectly identified angry faces had higher levels of self-control in com-
+parison with respondents who correctly identified angry faces. The second model
+depicts the results after the neuropsychological deficits measure was introduced into
+566 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+Table |. The Effects of Social Bias on the Wave | Low Self-Control Scales (OLS Models).
+
+ 
+
+Parental reports Teacher reports Composite measure
+
+ 
+
+Model | Model 2 Model | Model 2 Model | Model 2
+
+ 
+
+b SE b SE b SE b SE b SE b SE
+
+ 
+
+Social bias measure
+
+Afraid 2.83* 141 153 142 2.75* 124 1.93 121 5.77* 2.23 3.85 2.24
+Happy 1.32* 0.56 0.90 0.56 1.79* 064 1.52 0.64 3.65* 0.99 3.00 0.99
+Angry -2.37* I.11 -2.80* 1.15 -0.58 1.89 -0.84 1.88 -2.65 1.95 -3.25 2.02
+Sad -0.18 061 -0.40 0.59 -0.03 0.70 -0.18 069 -O31 1.07 -0.66 1.03
+Socialization measures
+Family rules 0.01 0.10 -0.01 0.10 0.02 0.12 0.00 0.12 0.08 0.19 0.05 0.18
+Neighborhood 0.30* 0.09 0.30* 0.08 044 O11 0.05 0.10 0.33* 0.17 0.34* 0.16
+problems
+Control variables
+Age -0.13 0.09 -0.15 089 0.19 O11 O19 O11 008 O17 007 O17
+Race -0.33 0.34 -1.10% 0.35 145* 044 1.01* 047 = 1.43* 065 040 0.68
+Gender 1.48* 0.29 1.72" 0.29 2.50* 0.35 2.63* 0.35 3.87" 0.53 4.17* 0,53
+Biosocial measure
+Neuropsychological 0.1 1* 0.02 0.07* 0.02 0.16* 0.03
+deficits
+
+ 
+
+Note: OLS — ordinary least squares. Huber—-White standard errors.
+*Significant at the .05 level, two-tailed.
+
+the equation. The results of this model show that the previous significant effects of the
+afraid variable and the happy variable dropped from statistical significance; however,
+the effect of the angry variable remained statistically significant. Very similar results
+were garnered in the remaining models using the teacher reports of low self-control
+and the composite measure of low self-control. For both of these outcome measures,
+problems correctly identifying afraid faces and happy faces were significantly associ-
+ated with variation in the low self-control scales. However, after the inclusion of the
+neuropsychological deficits measure, the effects of both these social bias measures
+dropped from statistical significance. The effect of the angry variable was nonsignifi-
+cant for both of the teacher reports equations as well as for both of the composite
+equations.
+
+The next models were duplicates of those presented in Table 1 except that they
+were estimated using longitudinal data instead of cross-sectional data. As illustrated in
+Table 2, the angry variable maintained a statistically significant and negative associa-
+tion with the parental reports of low self-control both before and after the inclusion of
+the neuropsychological deficits measure. None of the other social bias measures were
+significant in the parental reports model. The next set of equations revealed that the
+afraid variable was related to teacher reports of low self-control. This significant effect
+persisted even after controlling for the effects of neuropsychological deficits. In the
+Rowland et al. 567
+
+ 
+
+Table 2. The Effects of Social Bias on the Wave 2 Low Self-Control Scales (OLS Models).
+
+ 
+
+Parental reports Teacher reports Composite measure
+
+ 
+
+Model | Model 2 Model | Model 2 Model | Model 2
+
+ 
+
+b SE b SE b SE b SE b SE b SE
+
+ 
+
+Social bias measure
+
+Afraid 162 085 1.18 087 649 1.95 5.27* 196 7.74* 247 6.11* 2.45
+
+Happy 0.55 0.42 040 042 0.91 085 0.57 085 1.68 1.09 1.22 1,09
+
+Angry -3.63* 0.46 -3.78* 0.46 -1.75 1.99 -2.05 1.98 -5.17* 2.28 -5.57* 2.25
+
+Sad -043 044-050 044 044 1.12 012 I.11 -0.05 136-048 1.36
+Socialization measures
+
+Family rules 0.09 0.08 0.09 0.08 0.42* 0.18 O41* 0.17 0.57* 0.23 0.55* 0.22
+
+Neighborhood problems 0.35* 0.07 0.35* 0.07 0.17 0.13 0.16 0.12 0.50* 0.17 0.49* 0.17
+Control variables
+
+Age —0.15* 0.07 -0.15* 0.07 0.01 0.15 O01 O15 7.74* 2.47 6.11% 2.45
+Race -0.06 0.27 -0.32 0.29 0.91 057 0.23 058 1.00 0.74 0.92 0.76
+Gender 0.82* 0.23 0.90" 0.23 244* 047 269 047 3.05* 0.60 3.37* 0.60
+Biosocial measure
+Neuropsychological 0.04* 0.01 0.11* 0.02 0.14* 0,03
+deficits
+
+ 
+
+Note: OLS = ordinary least squares. Huber—White standard errors.
+*Significant at the .05 level, two-tailed.
+
+last set of models, which used the composite low self-control scale, two social bias
+measures emerged as statistically significant. First, the afraid variable was signifi-
+cantly related to the composite low self-control scale before and after controlling for
+neuropsychological deficits. Second, the angry variable once again maintained a nega-
+tive and statistically significant association with low self-control even after the inclu-
+sion of the neuropsychological deficits variable.
+
+Discussion
+
+Since its publication, self-control theory has maintained a position of prominence in
+criminology. The theory proposed that a single factor—self-control—can explain all
+criminal behavior. Gottfredson and Hirschi argued that effective parental socialization
+was responsible for instilling self-control in children and ignored the possibility that
+child characteristics could moderate parental socialization. In fact, Gottfredson and
+Hirschi argued that parental socialization could be effective regardless of the configu-
+ration of individual traits of the child (Gottfredson & Hirschi, 1990, p. 96). This claim,
+however, seems to be contradicted by research revealing that individual-level traits of
+the child influence parental socialization (Harris, 1998; Moffitt, 1996).
+
+The current study examined the developmental origins of self-control in a sample
+of young children. An integrated design was employed using Gottfredson and Hirschi’s
+568 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+(1990) self-control theory and Crick and Dodge’s (1994) social information process-
+ing model. In doing so, two main findings were revealed. First, facial expression rec-
+ognition skills were found to be associated with levels of self-control. Children who
+had difficultly identifying afraid faces and happy faces were found to have lower lev-
+els of self-control. These findings echo the results reported by other studies that have
+examined facial expression recognition skills and behavioral outcomes with conduct
+disorder, aggressive, and ADHD individuals (Fairchild et al., 2009; Herba & Phillips,
+2004; Jones et al., 2009; Rich et al., 2008). For example, {MRI studies have revealed
+that boys with conduct problems also possess dysfunction in specific regions of the
+brain that contribute to facial expression recognition (Jones et al., 2009). Individuals
+with ADHD have also been shown to have deficits in general social information pro-
+cessing as well as specific facial expression recognition deficits (Corbett & Glidden,
+2000; Da Fonseca et al., 2009).
+
+Interestingly, errors in identifying faces expressing anger were actually related to
+higher levels of self-control. Although speculative, we do offer one explanation for
+this somewhat counterintuitive finding. If a child labels every facial expression as
+angry, which exemplifies an attribution bias, then he or she is guaranteed to correctly
+identify the angry face. On the other hand, if a child considers each facial expression
+separately for their emotional content while attempting to decode the emotion, the
+guaranteed accuracy is no longer present.
+
+These findings have implications for Gottfredson and Hirschi’s (1990) parental
+management thesis. Specifically, facial expression recognition deficits in the child
+may pose significant challenges for parents trying to instill self-control in their child.
+Gottfredson and Hirschi maintained that parents need to instill self-control in their
+child before the age of 10, after which levels of self-control become relatively stable.
+This process relies on the child receiving the intended message from the parent, some-
+thing deficits in facial expression recognition abilities could hinder. Furthermore, chil-
+dren between the ages of 3 and 5 rely almost exclusively on facial expressions of
+others for information, a process called social referencing, and not verbal instructions.
+It is not until around the ages of 8 or 9 that children become more attentive to situa-
+tional cues and others’ emotions (Herba & Phillips, 2004). Therefore, if'a parent wants
+to relay to a young child that a behavior is unwanted, a clear facial expression of sad-
+ness or anger may be more informative than a verbal response. However, children who
+have difficulties correctly identifying facial expressions will not be as attentive to their
+parent’s facial expressions. A potential consequence could be the parents’ inability to
+instill self-control in their children even when following Gottfredson and Hirschi’s
+parental management techniques. The results of the current study add to a growing
+body of research illustrating the importance of neuropsychological factors in the
+development and expression of self-control, thereby challenging the parental manage-
+ment thesis put forth by Gottfredson and Hirschi (Beaver, DeLisi, & Wright, 2010;
+Beaver, Vaughn, DeLisi, & Higgins, 2010; DeLisi & Vaughn, 2011; Vaughn, Beaver,
+& DeLisi, 2009).
+
+Our second main finding is that the relationship between facial expression recogni-
+tion skills and self-control persisted over a period of 5 years. This finding indicates
+Rowland et al. 569
+
+ 
+
+that the continuity of low levels of self-control (Gottfredson & Hirschi, 1990) may in
+fact be illustrative of a neuropsychological deficit. This result was anticipated as previ-
+ous researchers (cf. Adolphs et al., 1996; Herba & Phillips, 2004) have used facial
+expression recognition deficits as a marker for neuropsychological deficits, including
+deficits within the prefrontal cortex (Anderson et al., 1999; Hornak et al., 1996). In
+addition, the importance of the prefrontal cortex has consistently been illustrated in
+direct relation to the development of self-control (Beaver et al., 2007; Ratchford &
+Beaver, 2009). Individuals who exhibit neuropsychological deficits may be challenged
+when attempting to decode emotional content, such as facial expressions, which may
+contribute to lower levels of self-control. Furthermore, these impairments may impact
+the type of socialization experiences of the child such that a parent may use increas-
+ingly harsher practices due to the inability of the child to appropriately perceive the
+parent’s socioemotional cues. The results of the current study are further supported by
+research that has identified an association between impairments in visuospatial skills
+and persistent antisocial behavior (Raine et al., 2005). Emotion regulation skills and
+eatly bonding between parent and child have been implicated in such findings as the
+primary source of the association. Visuospatial deficits may lead to social information
+processing deficits and a reduced ability to interpret fearful and angry facial expres-
+sions, resulting in a tendency to respond aggressively to others.
+
+Although these findings are informative, they should be viewed in light of three
+main limitations. First, the measure of low self-control was not designed explicitly to
+measure Gottfredson and Hirschi’s (1990) conceptualization of low self-control.
+However, the low self-control scale used in this study should not bias the results as
+Pratt and Cullen’s (2000) meta-analysis revealed that virtually all measures of low
+self-control produce the same results. In addition, the measure of self-control used in
+the present study is similar to that used by other researchers who have explored the
+NSC data (Agnew, Brezina, Wright, & Cullen, 2002). Second, our facial expression
+recognition measure was coded in a dichotomous fashion with answers recorded solely
+as incorrect or correct. Although we would have preferred to include what emotion
+was named when an answer was incorrect, this information was not available. Future
+studies would benefit greatly from recording alternate answers. The third limitation in
+the current study is that the NSC data did not include a complete set of parenting mea-
+sures. As a result, we were only able to include an indirect measure of parental moni-
+toring by using a family rules measure. However, households with more family rules
+would likely have more involved parents than those households with few family rules.
+Ideally, our study would have included biological information on both the parents and
+child, as parents and children usually covary on characteristics that may impede effec-
+tive socialization (Moffil, 1996). Importantly, and notwithstanding this ideal, the mea-
+sure of family rules has also been used in other research exploring these data (Ratchford
+& Beaver, 2009).
+
+We close by drawing attention to the need for criminological theory and research to
+begin to examine a wider range of variables. The current study showed, for instance,
+the importance of social bias—a measure that is affected by both biological and envi-
+ronmental factors—in the development of self-control. It is likely that other
+570 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+criminological constructs beyond self-control are also influenced by a multifactorial
+arrangement of variables. Unpacking these variables and integrating them together
+into a coherent explanation of crime will be a significant challenge for criminologists
+in the coming years, but the payoff from such an endeavor should be significant.
+
+Appendix
+Description and Coding of Measures and Scales
+
+ 
+
+Low Self-Contro! Scales.
+
+Parental Ratings of Low Self-Control at Wave |
+
+Scale was created by summing responses to these items. Parents were asked whether
+their child:
+
+. Is temperamental
+
+. Has difficulty concentrating
+
+. Is easily confused
+
+. Is restless and fidgety
+
+. Fights and bullies
+
+. Lies and is deceitful
+
+. Is happy/cheerful
+
+. Is polite and considerate of others
+
+SrA Mm fs WNP
+
+Parental Ratings of Low Self-Control at Wave 2
+
+Scale was created by summing responses to these items. Parents were asked whether
+their child:
+
+. Is impulsive
+
+Is temperamental
+
+. Has sudden changes of mood
+. Is high-strung or tense
+
+Is argumentative
+
+. Has difficulty concentrating
+
+. Is restless or very active
+
+. Is stubborn or irritable
+
+. Is easily confused
+
+. Feels others are out to get him/her
+. Tells les or cheats
+
+BP SOWMNIDARWYH
+
+ee
+
+Teacher Ratings of Low Self-Control at Wave 1
+Scale was created by summing responses to these items. Teachers were asked
+whether their student:
+Rowland et al. 571
+
+ 
+
+. Has trouble concentrating
+. Acts young or cries
+
+. Isrestless or fidgety
+
+. Has active temper
+
+. Is happy or cheerful
+
+. Is polite or helpful
+
+. Is liked by peers
+
+SD W YR
+
+Teacher Ratings of Low Self-Control at Wave 2
+Scale was created by summing responses to these items. Teachers were asked whether
+their student:
+
+. Is able to concentrate
+
+. Cheats or tells lies
+
+Fights
+
+. Is unhappy
+
+. Is temperamental
+
+. Is restless
+
+. Is persistent
+
+. Is helpful
+
+. Keeps to themselves, are withdrawn
+. Is liked by others
+
+Km
+
+Composite Measures of Low Self-Control at Wave 1
+Scale was created by summing the Wave 1 parent and teacher low self-control
+scales.
+
+Parental Index:
+
+. Is temperamental
+
+. Has difficulty concentrating
+
+. Is easily confused
+
+. Is restless and fidgety
+
+. Fights and bullies
+
+. Lies and is deceitful
+
+. Is happy/cheerful
+
+. Is polite and considerate of others
+
+Cn NDMA PWN
+
+Teacher Index:
+
+1. Has trouble concentrating
+2. Acts young or cries
+
+ 
+
+(continued)
+572 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+Appendix (continued)
+
+ 
+
+Is restless or fidgets
+Has active temper
+Is happy or cheerful
+Is polite or helpful
+Is liked by peers
+
+ww
+
+no
+
+Composite Measures of Low Self-Control at Wave 2
+Scale was created by summing the Wave 2 parent and teacher low self-control
+scales.
+
+Parental Index:
+
+. Has trouble concentrating
+. Acts young or cries
+
+. Is restless or fidgety
+
+. Has active temper
+
+. Is happy or cheerful
+
+. Is polite or helpful
+
+. Is liked by peers
+
+NSA WDH
+
+Teacher Index:
+
+. Is able to concentrate
+
+. Cheats or tells lies
+
+Fights
+
+. Is unhappy
+
+. Is temperamental
+
+Is restless
+
+Is persistent
+
+Is helpful
+
+Keeps to themselves, are withdrawn
+Is liked by others
+
+CON AWAKE
+
+S
+
+Biological Measures
+
+Neuropsychological Deficits Measure at Wave 1
+
+Neuropsychological deficits were measured through scores from the Peabody Picture
+Vocabulary Test—Revised (PPVT-R).
+
+Socialization Measures
+Family Rules at Wave 1
+Scale was created by summing responses to these items. Child was asked:
+Rowland et al. 573
+
+ 
+
+Does mother allow you to watch television whenever
+
+Does mother allow you to watch any television you want
+Allowed to play with any friends you want
+
+Does mother allow you to snack and eat whenever you want
+Does mother allow you to wear any clothes
+
+Does mother allow you to stay up as late as you want
+
+Does mother allow you to use curse/swear words
+
+NAM Rw
+
+Neighborhood Problems at Waye 1
+Scale was created by summing responses to these items. Parent was asked about:
+
+Street/highway noise within vicinity
+Odors, smoke, gas with vicinity
+Plane, train noise within vicinity
+Trash/litter within vicinity
+
+Heavy traffic within vicinity
+Dangerous place to play
+Undesirables within vicinity
+Neighborhood crime
+
+SINR wWNE
+
+ 
+
+Declaration of Conflicting Interests
+
+The authors declared no potential conflicts of interest with respect to the research, authorship,
+and/or publication of this article.
+
+Funding
+
+The authors received no financial support for the research, authorship, and/or publication of this
+article.
+
+Notes
+
+1. We understand this terminology is not standard in neuroscience research; however, it has
+been used extensively by social scientists who have examined the association between
+neurocognitive functioning and behavioral outcomes (cf. Lynam, Moffitt, & Stouthamer-
+Loeber, 1993; Moffitt, 1990, 1993, 1996; Moffitt, Lynam, & Silva, 1994; Piquero, 2001).
+
+2. We recognize that this item is not a direct measure of neurocognitive functioning and that
+an ideal measure would include more precise assessments of structural and functional defi-
+cits such as those highlighted via {MRIs. However. using verbal skills as a method to tap
+neurocognitive functioning is well-established in the social sciences and has repeatedly been
+associated with antisocial behaviors (Piquero, 2001). As Moffitt (1993) notes, “[t}wo sorts
+of neuropsychological deficits are empirically associated with antisocial behavior: verbal
+and ‘executive’ functions. The verbal deficits of antisocial children are pervasive, affect-
+ing receptive listening and reading, problem solving, expressive speech and writing, and
+574 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+memory” (p. 680, italics added). She further indicates that “cognitive deficits and antisocial
+behavior share variance that is independent of social class, race, test motivation, and aca-
+demic attainment” (p. 680).
+
+References
+
+Adolphs, R., Damasio, H., Tranel, D., & Damasio, A. R. (1996). Cortical systems for the recog-
+nition of emotion in facial expressions. Journal of Neuroscience, 16, 7678-7687.
+
+Agnew, R., Brezina, T., Wright, J. P. & Cullen, F. T. (2002). Strain, personality traits, and delin-
+quency: Extending general strain theory. Criminology, 40, 43-72.
+
+Anderson, S. W., Bechara, A., Damasio, H., Tranel, D.. & Damasio, A. R. (1999). Impairment
+of social and moral behavior related to early damage in human prefrontal cortex. Nature
+Neuroscience, 2, 1032-1037.
+
+Arneklev, B. J., Grasmick, H. G., Tittle, C. R., & Bursik, R. J. (1993). Low self-control and
+imprudent behavior. Journal of Quantitative Criminology, 9, 225-247.
+
+Baron, S. W. (2003). Self-control, social consequences, and criminal behavior: Street youth and
+the general theory of crime. Journal of Research in Crime & Delinquency, 40, 403-425.
+Beaver, K. M., DeLisi, M., Vaughn, M. G., & Wright, J. P. (2010). The intersection of genes and
+neuropsychological deficits in the prediction of adolescent delinquency and low self-control.
+
+International Journal of Offender Therapy and Comparative Criminology, 34, 22-42.
+
+Beaver, K. M., Shutt, J. E., Boutwell, B. B., Ratchford, M., Roberts, K., & Barnes, J. C. (2009).
+Genetic and environmental influences on levels of self-control and delinquent peer affilia-
+tion: Results from a longitudinal sample of adolescent twins. Criminal Justice and Behav-
+ior, 36, 41-60.
+
+Beaver, K. M., Vaughn, M. G., DeLisi, M., & Higgins. G. E. (2010). The biosocial correlates of neu-
+ropsychological deficits: Results from the National Longitudinal Study of Adolescent Health.
+International Journal of Offender Therapy and Comparative Criminology, 54, 878-894,
+
+Beaver, K. M., Wright, J. P., & DeLisi, M. (2007). Self-control as an executive function:
+Reformulating Gottfredson and Hirschi’s parental socialization thesis. Criminal Justice
+and Behavior, 34, 1345-1361.
+
+Beaver, K. M., Wright, J. P., & Maume, M. O. (2008). The effect of school classroom character-
+istics on low self-control: A multilevel analysis. Journal of Criminal Justice, 36, 174-181.
+
+Blair, R. J. R. (2003). Facial expressions, their communicatory functions and neurocognitive sub-
+strates. Philosophical Transactions of the Royal Society of London Series B, 358, 561-572.
+
+Blair, R. J. R. (2007). The amygdala and ventromedial prefrontal cortex in morality and psy-
+chopathy. Trends in Cognitive Sciences, 11, 387-392.
+
+Brownlie, E. B., Beitchman, J. H., Escobar, M., Young, A., Atkinson, L.. Johnson, C.... .
+Douglas, L. (2004). Early language impairment and young adult delinquent and aggressive
+behavior. Journal of Abnormal Child Psychology, 32, 453-467.
+
+Burton, V. S., Cullen, F. T., Evans, T. D.. Alarid, L. F., & Dunaway, G. R. (1998). Gender, self-
+control, and crime. Journal of Research in Crime & Delinquency, 35, 123-147.
+
+Cairns, R. B., & Caims, B. D. (1994). Lifelines and risks: Pathways of youth in our time. New Y ork,
+NY: University of Cambridge Press.
+Rowland et al. 575
+
+ 
+
+Cauffiman, E., Steinberg, L.. & Piquero, A. (2005). Psychological, neuropsychological, and
+physiological correlates of serious antisocial behavior in adolescence: The role of self-
+control. Criminology, 43, 133-176.
+
+Corbett, B., & Glidden, H. (2000). Processing affective stimuli in children with attention-deficit
+hyperactivity disorder. Child Neuropsychology, 6, 144-155.
+
+Crick, N. R., & Dodge, K. A. (1994). A review and reformulation of social information-pro-
+cessing mechanisms in children’s social adjustment. Psychological Bulletin, 115, 74-101.
+
+Crosswhite, J. M., & Kerpelman, J. L. (2009). Coercion theory, self-control, and social infor-
+mation processing: Understanding potential mediators for how parents influence deviant
+behaviors. Deviant Behavior, 30, 611-646.
+
+Cullen, F. T., Unnever, J. D., Wright, J. P., & Beaver, K. M. (2008). Parenting and self-control.
+In E. Goode (Ed.), Out of contral: Assessing the general theary of crime (pp. 61-74). Stan-
+ford, CA: Stanford University Press.
+
+Da Fonseca, D. D., Seguier, V., Santos, A., Poinso, F., & Deruelle, C. (2009). Emotion under-
+standing in children with ADHD. Child Psychiatry & Human Development, 40, 111-121.
+
+Damasio, A. R. (1994). Descurtes’ error: Emotion, reason, and the human brain. New York,
+NY: Penguin Group.
+
+Decety, J., & Jackson, P. L. (2004). The functional architecture of human empathy. Behavioral
+and Cognitive Neuroscience Reviews, 3, 71-100.
+
+DeLisi, M., Hochstetler, A., & Murphy, D. S. (2003). Self-control behind bars: A validation
+study of the Grasmick et al. scale. Justice Quarterly, 20, 241-263.
+
+DeLisi, M., & Vaughn, M. G. (2011). The importance of neuropsychological deficits relating to
+self-control and temperament to the prevention of serious antisocial behavior. /nternational
+Journal of Child, Youth & Family Studies, 2, 12-35.
+
+Dodge, K. A., Price, J. M., Bachorowski, J., & Newman, J. P. (1990). Hostile attribution biases
+in severely aggressive adolescents. Journal of Abnormal Psychology, 4, 385-392.
+
+Ellis, C. R., Lindstorm, K. L., Villani, T. M., Singh, N. N., Best, A. M., Winton, A. 5S. W.....
+Leung, J. P. (1997). Recognition of facial expressions of emotion by children with emotional
+and behavioral disorders. Journal of Child and Family Studies, 6, 453-470.
+
+Evans, T. D., Cullen, F. T.. Burton, V. 8.. Dunaway, R. G., & Benson, M. L. (1997). The social
+consequences of self-control: Testing the general theory of crime. Criminology, 35, 475-504.
+
+Fairchild, G., Van Goozen, S. H. M., Calder, A. J., Stollery, S. J., & Goodyer, I. M. (2009).
+Deficits in facial expression recognition in male adolescents with early-onset or adoles-
+cence-onset conduct disorder. Journal of Child Psychology and Psychiatry, 50, 627-636.
+
+Gottfredson, M. R., & Hirschi, T. (1990). 4 general theory of crime. Stanford, CA: Stanford
+University Press.
+
+Harris, J. R. (1998). The nurture assumption: Why children turn out the way they do. New York,
+NY: Free Press.
+
+Heatherton, T. F., & Wagner, D. D. (2011). Cognitive neuroscience of self-regulation failure.
+Trends in Cognitive Sciences, 15, 132-139.
+
+Herba, C., & Phillips, M. (2004). Annotation: Development of facial expression recognition
+from childhood to adolescence: Behavioural and neurological perspectives. Journal of
+Child Psychology and Psychiatry, 45, 1185-1198.
+576 International Journal of Offender Therapy and Comparative Criminology 57(5)
+
+ 
+
+Hornak, J., Rolls, E. T., & Wade, D. (1996). Face and voice expression identification in patients
+with emotional and behavioural changes following ventral frontal lobe damage. Neuropsy-
+chologia, 34, 247-261.
+
+Jones, A. P., Laurens, K. R., Herba, C. M., Barker, G. J., & Viding, E. (2009). Amygdala
+hypoactivity to fearful faces in boys with conduct problems and callous-unemotional traits.
+American Journal of Psychiatry, 166, 95-102.
+
+Knoch, D., & Fehr, E. (2007). Resisting the power of temptations: The right prefrontal cortex
+and self-control. Annals of the New York Academy of Science, 1104, 123-134.
+
+Lynam, D., Moffitt, T. E., & Stouthamer-Loeber, M. (1993). Explaining the relation between
+1Q and delinquency: Class, race, test motivation, school failure, or self-control? Journal of
+Abnormal Psychology, 102, 187-196.
+
+McGloin, J. M., Pratt, T. C., & Piquero, A. R. (2006). A life-course analysis of the criminogenic
+effects of maternal cigarette smoking during pregnancy. Journal of Research in Crime &
+Delinquency, 43, 412-426.
+
+Melfsen, S., & Florin, I. (2002). Do socially anxious children show deficits in classifying facial
+expressions of emotions? Journal of Nonverbal Behavior, 26, 109-126.
+
+Mikhailova, E. S., Vladimirova, T. V., Iznak, A. F., Tsusulkovskaya, E. J., & Sushko, N. V.
+(1996). Abnormal recognition of facial expression of emotions in depressed patients with
+major depression disorder and schizotypal personality disorder. Biological Psychiatry, 40,
+697-705.
+
+Miller, H. V., Jennings, W. G., Alvarez-Rivera, L. L.. & Lanza-Kaduce, L. (2009). Selfcontrol,
+attachment, and deviance among Hispanic adolescents. Journal of Criminal Justice, 37,
+7-84.
+
+Moffitt, T. E. (1990). The neuropsychology of juvenile delinquency: A critical review. Crime
+and Justice, 12, 99-169.
+
+Moffitt, T. E. (1993). Adolescence-limited and life-course-persistent antisocial behavior: A
+developmental taxonomy. Psychological Review, 100, 674-701.
+
+Moffitt, T. E. (1996). The neuropsychology of conduct disorder. In P. Cordella & L. Siegel
+(Eds.), Readings in contemporary criminological theory (pp. 85-106). Boston, MA: NE
+University Press.
+
+Moffitt, T. E., Lynam, D. R., & Silva, P. A. (1994). Neuropsychological tests predicting persis-
+tent male delinquency. Criminology, 32, 277-300.
+
+Orobio de Castro, B., Veerman, J. W.. Koops, W., Bosch, J. D., & Monshouwer, H. J. (2002).
+Hostile attribution of intent and aggressive behavior: A meta-analysis. Child Development,
+73, 916-934.
+
+Piquero, A. R. (2001). Testing Moffitt’s neuropsychological variation hypothesis for the predic-
+tion of life-course persistent offending. Psychology, Crime, & Law, 7, 193-215.
+
+Pratt, T. C., & Cullen, F. T. (2000). The empirical status of Gottfredson and Hirschi’s general
+theory of crime: A meta-analysis. Criminology, 38. 931-964.
+
+Pratt, T. C., Tuer, M. G., & Piquero, A. R. (2004). Parental socialization and community
+context: A longitudinal analysis of the structural sources of low self-control. Journal of
+Research tn Crime & Delinquency, 41, 219-243.
+Rowland et al. 577
+
+ 
+
+Quattrocchi, M. M., & Golden, C. J. (1983). Peabody picture vocabulary test-revised and
+Luria-Nebraska neuropsychological battery for children: Intercorrelations for normal
+youngsters. Perceptual & Motor Skills, $6, 632-634.
+
+Raine, A., Moffitt, T. E., Caspi, A., Loeber, R., Stouthamer-Loeber, M., & Lynam, D. (2005).
+Neurocognitive impairments in boys of the life-course persistent antisocial path. Journal of
+Abnormal Psychology, 114, 38-49.
+
+Ratchford, M., & Beaver, K. M. (2009). Newropsychological deficits, low self-control, and
+delinquent involvement: Toward a biosocial explanation of delinquency. Criminal Justice
+and Behavior, 36. 147-162.
+
+Rich, B. A., Grimley, M. E., Schmajuk, M., Blair, K. S., Blair, R. J.R., & Leibenluft, E. (2008).
+Face emotion labeling deficits in children with bipolar disorder and severe mood dysregula-
+tion. Development and Psychopathology, 20, 529-546.
+
+Seitz, R. J., Nickel, J., & Azari, N. P. (2006). Functional modularity of the medial prefrontal
+cortex: Involvement in human empathy. Neuropsychology, 20, 743-751.
+
+Spackman. M. P., Fujiki, M., Brinton, B., Nelson, D., & Allen, J. (2005). The ability of children
+with language impairment to recognize emotion conveyed by facial expression and music.
+Communication Disorders Quarterly, 26, 131-143.
+
+Vaughn, M. G., Beaver, K. M., & DeLisi, M. (2009). A general biosocial paradigm of antiso-
+cial behavior: A preliminary test in a sample of adolescents. Youth Violence and Juvenile
+Justice, 7, 279-298.
+
+Vaughn, M. G., DeLisi, M., Beaver. K. M., & Wright, J. P. (2009). Identifying latent classes
+of behavioral risk based on early childhood: Manifestations of self-control. Youth Violence
+and Juvenile Justice, 7, 16-31.
+
+Wakschlag, L. S.. Kistner, E. O., Pine, D. 8., Biesecker, G., Pickett, K. E., Skol, A.D.,...
+Cook, E. H., Jr. (2010). Interaction of prenatal exposure to cigarettes and MAOA genotype
+in pathways to youth antisocial behavior. Molecular Psychiatry, 15, 928-937.
+
+Whalen, P. J., Kagan, J., Cook, R. G., Davis, F. C.. Kim, H., Polis, S.,.. . Johnstone, T.(2004).
+Human amygdala responsivity to masked fearful eye whites. Science, 306, 2061.
+
+Wright, J. P., & Beaver, K. M. (2005). Do parents matter in creating self-control in children? A
+genetically informed test of Gottfredson and Hirschi’s theory of low self-control. Criminal-
+ogy, 43, 1169-1202.
+
+Wright, J. P., & Boisvert, D. (2009). What biosocial criminology offers criminology. Criminal
+Justice and Behavior, 36, 1228-1240.
+
+Zill, N., Peterson, J. L., Moore, K. A., & Furstenberg, F. F. (1992). 1976-1987 National Survey
+of Children: Waves 1, 2, and 3. (Child Trends, Inc.). Los Altos, CA: Sociometrics Corpora-
+tion, American Family Data Archive.
+

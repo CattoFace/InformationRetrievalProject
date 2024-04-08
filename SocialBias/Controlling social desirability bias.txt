@@ -1,0 +1,922 @@
+® Check for updates
+
+International Journal
+Article of Market Research
+
+ 
+
+International Journal of
+
+. . . eye . Market Research
+Controlling social desirability bias 2019, Vol. 61(5) 534-547
+© The Author(s) 2018
+
+Article reuse guidelines:
+sagepub.com/journals-permissions
+DOK: 10.1177/1470785318805305
+journals.sagepub.com/home/mre
+
+@SAGE
+
+Ronald B. Larson
+Mid-America Consultants International, USA
+
+Abstract
+
+Social desirability bias can change the results from marketing experiments and surveys. However,
+there are few illustrations that show how serious social desirability bias can be. This research
+starts by reviewing the options for identifying and reducing social desirability bias in experiments
+and surveys and for controlling its effects. Then two examples that use a social desirability bias
+scale or a transformation of it (that may improve its utility) as control variables are described.
+Data from a national panel survey in the United States is used to show that controlling social
+desirability bias can change the set of demographic variables that are judged to be statistically
+significant and can have important effects on coefficient sizes. These illustrations will hopefully
+stimulate more consideration of social desirability bias, more use of bias measures in marketing
+studies, and more research on the control options.
+
+Keywords
+bias control, environmental concern, religious attendance, scales, social desirability bias
+measurement, social norms
+
+When marketing researchers survey consumers, they may discover that some respondents provide
+answers that differ from their actual attitudes, values, or behaviors. If subjects change their answers
+for impression management (to look better to others), self-deception (to feel good about them-
+selves), or identity definition, social desirability bias (SDB) occurs. Impression management can
+occur when researchers interact with subjects (e.g., face-to-face surveys) while the other sources of
+SDB can occur in all types of surveys. This bias can result from social norms that suggest positive
+or negative answers to questions are socially preferred. It has affected experiments and surveys for
+many years (Gittelman et al., 2015). Tourangeau and Yan (2007) referenced studies that suggested
+respondents may underreport illicit drug use, alcohol consumption, smoking, abortion, bankruptcy,
+energy consumption, criminal behavior, and racist attitudes. Overreporting was found for voting,
+exercise, seat belt use, having a library card, and energy conservation. More recent examples of
+SDB effects include the overstatement of incomes by some Danish respondents, the inflation of
+interest in buying organic food, and a contribution toward the survey errors in the 2016 U.S. presi-
+dential election (Brownback & Novotny, 2018; Hariri & Lassen, 2017; Larson, 2018).
+
+ 
+
+Corresponding author:
+Ronald B. Larson, Mid-America Consultants International, 81 | 2nd Avenue North, Suite 284, Fargo, ND 58102, USA.
+Email: ron.larson@live.com
+Larson 535
+
+ 
+
+Impression management can occur when others could learn about a respondent’s choices.
+Therefore, anonymous, self-administered surveys should have less SDB than telephone or
+face-to-face surveys (Dodou & De Winter, 2014; Heerwegh & Loosveldt, 2007; Kreuter,
+Presser, & Tourangeau, 2008; Nederhof, 1985; Richman, Kiesler, Weisband, & Drasgow, 1999).
+Even if impression management effects are reduced, self-deception and identity definition can
+still bias findings. Brenner and DeLamater (2016) argued that differences between face-to-face
+and anonymous surveys tend to be small and suggested the SDB exists in anonymous surveys
+because people may be answering questions to define their identities. Therefore, other steps
+may be needed to reduce this bias.
+
+Few illustrations show how serious this bias can be. This study provides two examples. The
+article starts by reviewing options to reduce or control SDB. Next, two examples are shown that
+iulustrate how SDB can change both the variables statistically significant and the magnitude of
+coefficients. The article concludes with recommendations for future studies. Hopefully, more
+researchers will encourage honesty in their surveys, disguise their research focus (to reduce social
+norm pressures), and attempt to control any SDB that remains in their data.
+
+Options to address SDB
+
+Most researchers do not try to control SDB in their data and many list this bias as a potential limita-
+tion of their work. Those who are more concerned about SDB usually choose at least one of four
+actions: try to directly reduce the bias, try to understand its causes and indirectly reduce it, try to
+prove it is not a significant problem, or try to control its effects.
+
+Direct reduction of the bias
+
+The first option, try to reduce faking and boost honesty, includes maintaining subject anonymity or
+adding confidentiality assurances—but the benefit may be small (Fernandes & Randall, 1992). A
+researcher might claim to be using a lie detector (which is fake—called a “bogus pipeline”). Bogus
+pipelines produced measurable effects in many analyses (Roese & Jamieson, 1993). Jones and
+Elliott (2017) used this method to show how SDB can influence constructs such as religious orien-
+tation and spirituality. The introduction to a survey could include statements that encourage hon-
+esty (1.e., similar to “cheap talk”). Using a noun in an honesty appeal (e.g., “Please don’t be a
+cheater”) may reduce cheating more than using a verb (e.g., “Please don’t cheat”) (Bryan, Adams,
+& Monin, 2013). People could be (falsely) warned that faking would be identified with a “lie” scale
+or could be told that their answers will be audited (Bryan et al., 2013; McFarland & Ryan, 2006).
+Brenner and DeLamater (2016) suggested that disguising a survey’s purpose may reduce the bias
+related to identity definition.
+
+Indirect reduction of the bias
+
+Many options can help shrink this bias. Using a survey mode with respondent anonymity and
+modifying questions to neutralize answers that appear socially acceptable may help. For example,
+Backstrom and Bjorklund (2014) repeated a personality survey after neutralizing some questions
+and found that response changes were linked with SDB scales. Face-saving alternatives also could
+be added as answer options (Duff, Hanmer, Park, & White, 2007; Persson & Solevid, 2014).
+Surveys can keep interviewers in the dark about which questions are being answered (i.e., “rand-
+omized response”). A card-sorting process may be included in a study (e.g., “Q-sort”; Fluckinger,
+2014). Another option involves varying a list of sensitive items by subject. Each subject states how
+536 International Journal of Market Research 61(5)
+
+ 
+
+many items in their list are true (1.e., “item count”; Glynn, 2013; Lippitt, Masterson, Sierra, Davis,
+& White, 2014). Option attributes can be evaluated in various combinations to reduce SDB
+(Tomassetti, Dalal, & Kaplan, 2016). This technique helped reduce overreporting of voting (Comsa
+& Postelnicu, 2013; Holbrook & Krosnick, 2010). Playing background music can add environmen-
+tal complexity and reduce SDB (Lalwani, 2009). Increasing the cognitive load of subjects (e.g.,
+asking them to remember a set of numbers) may also reduce bias (Stodel, 2015).
+
+Measurement of the socially desirable responding
+
+Psychologists have examined socially desirable responding, developed scales to identify and meas-
+ure it, and constructed subscales to classify subjects according to the reasons behind their responses.
+For many years, studies used the Marlowe—Crowne Scale (Crowne & Marlowe, 1960) that included
+33 true—false questions such as “Before voting, I thoroughly investigate the qualifications of all the
+candidates” and “I never hesitate to go out of my way to help someone in trouble.” Some research-
+ers were concerned about adding so many items to a survey and others suggested that some ques-
+tions had become dated. Fischer and Fick (1993) compared the Marlowe—Crowne scale with eight
+shortened versions that used a subset of the original questions. They identified two shortened
+scales that seemed to perform better than the others. Form X1 was the best, a 10-item scale pro-
+posed by Strahan and Gerbasi (1972).
+
+Other “lie” scales have been developed. A particularly popular one, the Balanced Inventory of
+Desirable Responding or BIDR, asks people to rate the truth of 40 statements (Paulhus, 1984).
+Questions included “My first impressions of people usually turn out to be right” and “I never regret
+my decisions.” This scale is often assumed to have two subcomponents, impression management
+and self-deception. Support for these subcomponents is mixed (Kovacic, Galic, & Jerneic, 2014;
+Lanyon & Carle, 2007; Li & Bagger, 2007) and additional subgroups have been formed. Impression
+management has been split into agentic image and communal image and self-deception has been
+divided into asset exaggeration and deviance denial (Blasberg, Rogers, & Paulhus, 2014; Paulhus
+& John, 1998; Paulhus & Reid, 1991; Paulhus & Trapnell, 2008). In some contexts, even more
+dimensions may exist. Lee and Sargeant (2011) considered why donors may overstate their chari-
+table giving and suggested that SDB had six dimensions: (a) impression management, (b) self-
+deception, (c) level of involvement, (d) extrinsic benefits, (e) intrinsic benefits, and (f) social
+norms. When researchers want to understand the reasons for socially desirable responses, having a
+scale with multiple dimensions may give them new insights and may allow them to address the
+problem indirectly.
+
+Stober (2001) proposed a 16-item SDB scale, called SDS-17. This scale was shorter than
+Marlowe—Crowne and BIDR and was highly correlated with them (Musch, Ostapezuk, & Klaiber,
+2012; Tatman & Kreamer, 2014). Blake, Valdiserri, Neuendorf, and Nemeth (2006) reported that
+this scale was closely associated with impression management and that it was not linked with six
+demographic measures (age, gender, education, employment, income, and marital status). Tatman
+and Kreamer (2014) found that the SDS-17 had strong internal consistency and reliability. This
+scale was not designed to be divided into subdimensions.
+
+Testing for the bias
+
+The third option for researchers is to test for SDB in a study. A scale-based measure is often used.
+A few studies have used a scale to identify respondents with high SDB scores and dropped them
+from their sample (e.g., Goetzke, Nitzko, & Spiller, 2014). Choosing the level that constitutes a
+“high” SDB score seems arbitrary. Dropping respondents is unnecessary if it is possible to control
+Larson 537
+
+ 
+
+for the SDB effects. When the SDB scale is correlated with a key research variable, the results may
+be too high or too low. Some studies assumed that when this correlation was considered small (but
+statistically significant), SDB was not a problem (e.g., Antonetti & Maklan, 2016; Kaiser, Wolfing
+& Fuhrer (1999); Polonsky, Vocino, Grimmer, & Miles, 2014). However, SDB could still influence
+the results. Including the scale in the full model and examine the coefficients seems like a better
+approach. Norwood and Lusk (2011) argued that examining the correlation is not appropriate for
+laboratory experiments where measures such as willingness-to-pay are estimated because hypo-
+thetical bias also may be a problem and these two biases can be intertwined. A method to identify
+hypothetical bias has also been proposed to identify SDB, comparing the results from direct and
+indirect questions. When people are asked indirect questions (e.g., how would the average person
+respond), their responses tend to have less SDB (Fisher & Tellis, 1998; Jo, Nelson, & Kiecker,
+1997). In theory, the larger the gap between the two question types, the more hypothetical and SDB
+exists. For example, Gallardo and Wang (2013) compared direct and indirect valuations for a fruit
+with environmental features and concluded there was no SDB because valuations were not signifi-
+cantly different.
+
+Several other techniques have been developed for the third option, trying to prove that SDB is
+not a problem for a study. One technique is to include fictitious questions that appear to have some
+socially desirable answers to learn if many respondents will provide inaccurate responses. This
+approach has not always been effective (Kam, Risavy, & Perunovic, 2015). Another method is to
+include questions that can be verified to identify overclaiming. Caskie, Sutton, and Eckhardt (2014)
+asked undergraduates their grade point averages (GPAs) and checked their answers. Lower achiev-
+ing students were more likely to be inaccurate and gender differences were found (i.e., women
+tended to overreport while men tended to underreport). Some researchers have used observers or
+proxy subjects (e.g., friends or coworkers) to describe the attitudes and behaviors of individuals,
+which could help to identify and correct for the bias (e.g., Connolly, Kavanagh, & Viswesvaran,
+2007). Experts could judge the social desirability of specific answers to questions and develop an
+index of each subject’s socially desirable responses (Konstabel, Aavik, & Allik, 2006). Because of
+potential gender differences in socially desirable responding, items should be assessed from the
+perspective of both genders (Paunonen, 2016). Measuring the time used to answer each question
+may help identify biased responses because when people give socially desirable responses, they
+tend to spend less time and effort (Gamberini et al., 2014; Kaminska & Foulsham, 2013, 2016).
+Structural equation modeling can be used to identify SDB (e.g., Ferrando, Lorenzo-Seva, & Chico,
+2009; Heerwegh & Loosveldt, 2011; Ziegler & Buehner, 2009). Factor mixture models may also
+help identify which respondents are most likely to provide biased responses, identify which items
+are likely to have biased responses, and identify which variables may predict SDB (Leite & Cooper,
+2010).
+
+Controlling for the bias
+
+The fourth option, the focus of this article, involves including a measure for SDB in the analysis to
+control the effects of the bias. Researchers could use several of the previous techniques to reduce
+SDB and still need to control the bias in the analysis. The scales discussed earlier could be incor-
+porated into the research and turned into an index for each respondent. This SDB index could be
+added as an independent variable in the statistical analysis.
+
+There is some question about how to ask the SDB scale questions. Many scales originally were
+introduced with dichotomous, true—false questions. The bias measure was the total number of
+answers to the questions that suggested a bias. Kam (2013) recommended using Likert-type scales
+and totaling the top-two-box scores (or bottom-two-box scores). Others prefer the dichotomous
+538 International Journal of Market Research 61(5)
+
+ 
+
+response scale (either two options or three options—true, neutral, and false; for example, Gignac,
+2013). Because Stober, Dette, and Musch (2002) concluded that 7-point Likert-type scales could
+be better for identifying SDB, all the SDS-17 questions in this survey were answered with a 7-point
+Likert-type scale (e.g., 1 indicated strongly disagree and 7 indicated strongly agree). Other studies
+have used the “top-two-box” scoring system for SDB (e.g., Sosik, Avolio, & Jung, 2002).
+
+Some have criticized employing SDB measure as a control variable. Most of the concern
+appears to be with the use of older SDB scales (e.g., Marlowe—Crowne and BIDR) in personality
+studies. These scales tend to be linked with personality traits such as emotional stability, conscien-
+tiousness, and honesty-humility (De Vries, Zettler, & Hilbig, 2014; McCrae & Costa, 1983; Ones,
+Viswesvaran, & Reiss, 1996; Zettler, Hilbig, Moshagen, & De Vries, 2015). Uziel (2014) reported
+that impression management subscales may be linked with personality while self-deception sub-
+scales appeared to measure SDB. Perinelli and Gremigni (2016) recommended using both general
+personality scales and SDB scales in surveys to improve the bias control. However, multicollinear-
+ity may make it difficult to quantify SDB when both the bias scale and personality measures are
+independent variables (Connelly & Chang, 2016). Paunonen and LeBel (2012) conducted Monte
+Carlo simulations with personality traits and found that social desirability effects can be elusive. If
+specific personality traits result in some subjects adjusting their responses (e.g., overestimating
+new product purchases), substituting the personality measures that are linked with SDB for the
+SDB measure might compensate for these tendencies.
+
+There are other concerns about SDB scales. Instead of implicitly assuming the SDB controls are
+necessary, Tracey (2016) argued that researchers should justify why SDB controls would improve
+research findings. Fisher and Katz (2000) suggested that correlations between SDB and value
+questions may be measuring cultural information and not bias. Uziel (2010) suggested that using
+self-reported measures with unknown statistical properties to adjust data with an unknown amount
+of bias could do more harm than good. More research is needed on the various SDB scales and
+subscales to understand their properties.
+
+Method
+
+To illustrate how the SDS-17 scale can help control SDB, an anonymous, web-based survey of
+U.S. adults was distributed in January 2015 by Qualtrics. A total of 895 adults started the survey
+and some did not finish. An attention check was included to improve response quality (Abbey &
+Meloy, 2017). Panelists were asked questions about their height and weight. If a response was not
+feasible (e.g., a person claimed to be extremely tall), the respondent was deleted. The sample frame
+was adults aged 25 to 65 (a few respondents outside of that age range were dropped). Complete,
+usable responses totaled 725. Qualtrics reported that at least 100 responses came from each of the
+four Census regions, suggesting some geographic diversity in the sample. The sample has good
+demographic diversity. About 67% of the sample were women, 22% were aged 35 to 44, 24% were
+aged 45 to 54, and 29% were aged 55 to 65. About 35% were single, divorced, or widowed and
+41% had children present in their homes. For education, 77% had some college experience and
+36% completed a 4-year degree (or more). About 37% had household incomes between US$40,000
+and US$79,999, 15% had incomes between US$80,000 and US$119,999, and 11% had incomes of
+at least US$120,000. Like in many other panel surveys, non-Whites were underrepresented (16%
+of respondents).
+
+After examining the SDS-17 questions (Table 1), some researchers may realize that they might
+answer several in socially desirable ways. Therefore, honest respondents may have scores above
+zero. The SDB score distribution ranged from 0 to 16 with a mean of 6.3 (Table 2). The SDS-17
+scale has produced a variety of average scores. Studies of German, Swiss, and American subjects
+Larson 539
+
+ 
+
+Table I. Statements from the SDS-I7 scale by Stober (2001).
+
+ 
+
+|. | sometimes litter.
+
+2. | always admit my mistakes openly and face the potential negative consequences.
+
+3. In traffic | am always polite and considerate of others.
+
+4. | always accept others’ opinions, even when they don’t agree with my own.
+
+5. | take out my bad moods on others now and then.
+
+6. There has been an occasion when | took advantage of someone else.
+
+7. In conversations | always listen attentively and let others finish their sentences.
+
+8. | never hesitate to help someone in case of emergency.
+
+9. When | have made a promise, | keep it—no ifs, ands, or buts.
+
+10. | occasionally speak badly of others behind their back.
+
+I 1. | would never live off other people.
+
+12. | always stay friendly and courteous with other people, even when | am stressed out.
+13. During arguments | always stay objective and matter-of-fact.
+
+14. There has been at least one occasion when | failed to return an item that | borrowed.
+I. | always eat a healthy diet.
+
+16. Sometimes | only help because | expect something in return
+
+ 
+
+SDS: social desirability scale.
+The |7th statement about illegal drug use is typically not included in the scale.
+
+and dichotomous scoring had means of 10.34, 10.30, and 9.18 (Durrani & Rajagopal, 2016; Englert
+& Rummel, 2016; Scholz et al., 2013) while other studies of German students and American adults
+and dichotomous scoring had means of 4.8 and 5.9 (Cote, Gyurak, & Levenson, 2010; Malesza &
+Ostaszewski, 2016).
+
+Another issue involves how a change in the SDB sum measure will influence the dependent
+variable. If an individual’s score moved from 1 to 5, there might be a small amount of concern
+about the change. Given that the mean was 6.3, moving from 7 to 11 should raise more bias con-
+cerns. However, if the score changed from 12 to 16, the incremental effect probably should be low
+because the subject was already identified as a provider of socially desirable responses. The linear
+nature of the sum score suggests that 4-point changes (1.e., 1 to 5 and 7 to 11) would have an equal
+impact on the dependent variable. Because a change from 7 to 11 should have a larger impact and
+a change from 12 to 16 should have a smaller impact, a nonlinear transformation on the summated
+variable may improve the analysis. The option suggested by this article is a logistic transformation.
+This creates a continuous measure with some known properties (e.g., bounded between 0 and 1).
+Table 2 shows that, for this sample, a move from | to 5 would raise the transformed measure by
+about 0.15, amove from 7 to 11 would raise it by about 0.40, and a move from 12 to 16 would raise
+it by about 0.005. Other transformations could be tested to learn which one is best.
+
+The survey included several questions, answered with 7-point scales that serve as dependent
+variables in binary logistic regressions. Although the models used are not necessarily the definitive
+models for explaining these dependent variables, they illustrate how a researcher conducting a
+demographic segmentation may be misled if SDB is not considered. The dependent variable in the
+first regression indicated whether a respondent reported at least monthly attendance at organized
+religious activities. About 36.7% of the sample said they attended at least once per month. Studies
+from the United States and Canada suggest that gender, ethnicity, age, marital status, the presence
+of children, education, and income may all be linked with attendance (Azzi & Ehrenberg, 1975;
+Clark, 2000; Eagle, 2011; Ehrenberg, 1977; Gruber, 2004; Long & Settle, 1977).
+
+Religious attendance responses are affected by SDB (Brenner, 2011a, 2011b, 2012; Hadaway,
+Marler, & Chaves, 1998; Rossi & Scappini, 2014). Presser and Stinson (1998) found that religious
+540 International Journal of Market Research 61(5)
+
+ 
+
+Table 2. Distribution of social desirability bias scores based on the SDS-17 scale.
+
+ 
+
+ 
+
+Count for SDS-17 Frequency of score Percentage distribution Transformed score
+0 37 5.1 0.00129279
+I 39 54 0.00350638
+2 67 92 0.00947423
+3 50 69 0.025341 10
+4 57 79 0.06600997
+5 60 8.3 0.161 15491
+6 52 72 0.34306616
+7 56 77 0.58670003
+8 56 77 0.79418521
+9 58 8 0.91296125
+10 48 6.6 0.96611597
+I 44 6.1 0.98726193
+12 35 48 0.99527589
+13 31 43 0.99825689
+14 19 2.6 0.99935804
+IS 13 18 0.99976374
+16 3 0.4 0.99991 307
+Total 725 100
+
+ 
+
+SDS: social desirability scale.
+
+attendance had declined over time while reported attendance in surveys had remained steady and
+concluded that SDB had increased. Brenner (2017) conducted face-to-face interviews and found
+about half of the subjects lowered their estimate of religious attendance during the interview, which
+suggests their first answer was inflated.
+
+The second example used as a dependent variable the top-two-box Likert-type scale responses
+to the statement “I consider the potential environment impact of my actions when making many of
+my decisions.” About 34.7% of subjects agreed or strongly agreed with the statement. Unlike
+religiosity, green attitudes have weak associations with demographics (Diamantopoulos,
+Schlegelmilch, Sinkovics, & Bohlen, 2003; Martin & Schouten, 2012; Roberts, 1996; Straughan &
+Roberts, 1999). Both regressions used demographics as the independent variables (gender, race,
+age [four classes, three included], marital status, presence of children, education [three classes, two
+included], and income [four classes, three included]). The models tried to identify which variables
+significantly increased or decreased the probability of a positive response.
+
+Results
+
+The first regression examined self-reported religious attendance. The left columns in Table 3 show
+that three of the seven demographic variables were statistically significant at the 95% level (starred)
+without the SDB variable. Respondents who were older, had children in the household, or had a
+4-year college degree were significantly more likely to attend religious activities at least once per
+month. With the sum SDB variable, the results in the middle columns, the coefficient on an age
+class fell by 17% and it moved out of statistical significance (at the 5% level). The coefficient on
+marital status increased in magnitude by 28% and it became significant. Therefore, older people
+are probably not significantly more likely to be frequent attendees and those who are single,
+Larson 541
+
+ 
+
+Table 3. Analyses of those claiming they attended religious activities at least once per month.
+
+ 
+
+ 
+
+ 
+
+Without a SDB bias With the sum SDB With the transformed
+measure bias measure SDB bias measure
+Coefficient pvalue Coefficient pvalue Coefficient —_p value
+Constant —1.285* .000 —1.962* .000 -1.737* .000
+Female 0.054 757 —0.020 911 0.002 989
+Non-White 0.321 153 0.246 .283 0.242 290
+Age of 35 to 44 years -0.117 456 -0.124 .607 -0.117 628
+Age of 45 to 54 years 0.277 .229 0.217 356 0.205 382
+Age of 55 to 65 years 0.477* 044 0.395 103 0.390 106
+Single, divorced, or -0.360 054 -0.460* O16 -0.433* 022
+widowed
+Children present 0.625* .001 0.617* 001 0.620* .001
+Some college including 0.070 774 0.163 461 0.143 515
+2-year degree
+Four-year college degree 0.557* O16 0.774* 001 0.745* .002
+or more
+Incomes of US$40,000 0.162 405 0.114 566 0.129 514
+to US$79,000
+Incomes of US$80,000 0.120 647 0.040 882 0.070 793
+to US$119,000
+Income of US$120,000+ 0.175 547 -0.025 932 0.059 842
+SDS sum total 0.108* .000
+SDS transformed 0.962* .000
+
+ 
+
+SDS: social desirability scale.
+*Significant at the 95% level.
+
+divorced, or widowed are less likely to be frequent attendees. Note that the coefficient on the
+children-present variable remained stable and the coefficient on the 4-year-college-degree-or-more
+variable increased by 39%. It is important to acknowledge that although overstatement of religious
+attendance is well documented and the SDB measure appears to adjust for some of this overstate-
+ment, the true relationships between the variables are not known.
+
+Table 4 shows the second regression results for environmental concern. Those who were 35 to
+44 years of age were significantly less likely to agree with the statement than those who were 25 to
+34. In this analysis, high-income individuals were also significantly more likely to agree. However,
+when the SDB indicator was included in the model, the middle columns of results, the coefficient
+on the high-income variable fell by 41% and was no longer significant. The coefficient on the
+4-year-college-degree-or-more variable increased by 157% and became significant. The coeffi-
+cient on the age class that was significant remained stable. Both these examples had a change in the
+mix of significant demographics when the SDB measure was added.
+
+Another example with some social norm content confirms that using the SDB control can
+change the results. Respondents were also asked if they agreed with the following “Given the
+choice, I would buy humanely raised meat even if it cost a little more.” The top-two-box score was
+the dependent variables and the same independent variables were used. Without the SDB sum vari-
+able, female and high-income measures were significant and positive and the two older age classes
+were significant and negative. With the SDB variable, the same four variables remained significant
+and both education variables became significant and positive. In this case, adding the SDB sum
+measure increased the number of variables that were statistically significant.
+542 International Journal of Market Research 61(5)
+
+ 
+
+Table 4. Analyses of those who stated that they considered potential environment impacts.
+
+ 
+
+Without a SDB bias With the sum SDB Wich the transformed
+measure bias measure SDB bias measure
+
+ 
+
+Coefficient pvalue Coefficient pvalue Coefficient —_p value
+
+ 
+
+Constant -1.057* .001 -2.178* .000 -1.781* .000
+Female 0.088 613 -0.020 913 0.012 950
+Non-White 0.205 352 0.083 723 0.085 14
+Age of 35 to 44 years -0.657* .006 -0.643* O10 -0.631* O11
+Age of 45 to 54 years -0.225 316 -0.382 109 0.389 100
+Age of 55 to 65 years -0.147 525 -0.342 163 -0.333 170
+Single, divorced, or 0.322 079 0.210 277 0.246 197
+widowed
+
+Children present 0.226 234 0.195 330 0.205 301
+Some college including 0.199 358 0.365 109 0.320 156
+2-year degree
+
+Four-year college degree 0.220 346 0.565* 024 0.510* .038
+or more
+
+Incomes of US$40,000 0.123 528 0.040 845 0.060 767
+to US$79,000
+
+Incomes of US$80,000 0.421 106 0.312 257 0.353 196
+to US$1 19,000
+
+Income of US$1 20,000 + 0.687* 016 0.406 181 0.531 075
+SDS sum total 0.178* .000
+
+SDS transformed 1.556* 000
+
+ 
+
+SDS: social desirability scale.
+*Significant at the 95% level.
+
+All three models were also run with the transformed SDB variable. With this variable, there
+were some slight coefficient changes (see the right-hand columns in Tables 3 and 4). However,
+there were no changes in which variables were significant compared with the models with the sum
+SDB measure. The logic behind the transformed SDB variable is fairly strong and it probably
+should be tested in future studies.
+
+Discussion and conclusion
+
+SDB can influence the interpretations of consumer surveys and experiments. Perinelli and Gremigni
+(2016) believed clinical psychologists should consider SDB when investigating self-reported
+behaviors. Kuokkanen and Sun (2016) concluded that neglecting a quantitative assessment of SDB
+reduces the value of marketing studies. SDB can be particularly important in cross-country research
+because some cultures have much higher levels of bias (Steenkamp, DeJong, & Baumgartner,
+2010; Tellis & Chandrasekaran, 2010).
+
+Several options are available to address SDB concerns that include attempting to reduce the bias
+directly or indirectly and striving to minimize its effects. In this research, steps were taken to
+reduce the bias (e.g., neutralized questions, an anonymous, online survey). Instead of focusing on
+whether SDB was present, the measure was included in the regression to control the effects. The
+SDB measure was significant in all the regressions. Adding the measure may cause some variables
+to gain or lose statistical significance, may change coefficient sizes as much as 100% or more, and
+may improve research accuracy. The examples illustrated in this study confirmed the benefits of
+Larson 543
+
+ 
+
+SDB control. Considering SDB could change the demographic profile of individuals with a par-
+ticular attitude or behavior, which is often particularly important for marketers. As more people
+become familiar with SDB, it would become another control variable, explained in the same way
+as controls for age, ethnicity, and gender differences.
+
+Researchers who choose to use SDB measures should be aware of the options and the contro-
+versy with these measures. The Marlowe—Crowne Scale, the BIDR scale, SDS-17 scale, and short-
+ened versions of them are probably the most prevalent SDB scales. The statistical properties of
+various scales and subscales need further analysis. It is important that the normal relationship
+between the scale questions and the dependent variable is limited. Another issue involves how to
+incorporate the scale into questionnaires. This survey scattered the SDS-17 scale questions to mini-
+mize the carryover between questions. Other researchers prefer keeping questions on the same
+issue together. This could also be examined in future research. Most of the controversy about using
+an SDS scale as a control variable dealt with personality research. Other studies might test an SDS
+scale on different marketing topics to learn about the importance for each subject. The logic behind
+the transformation of the SDS measure seems fairly sound, but more testing of this and other pos-
+sible transformations would be helpful. The overall lessons from this research are that many
+options exist to reduce and control SDB and not controlling for SDB could lead to inaccurate
+analyses of marketing survey and experiment results.
+
+Funding
+
+The author(s) received no financial support for the research, authorship, and/or publication of this article.
+
+References
+
+Abbey, J. D., & Meloy, M. G. (2017). Attention by design: Using attention checks to detect inattentive
+respondents and improve data quality. Journal of Operations Research, 53-56, 63-70.
+
+Antonetti, P., & Maklan, S. (2016). Hippies, greenies, and tree huggers: How the “warmth” stereotype hinders
+the adoption of responsible brands. Psychology & Marketing, 33, 796-813.
+
+Azzi, C., & Ehrenberg, R. (1975). Household allocation of time and church attendance. Journal of Political
+Economy, 83(1), 27-56.
+
+Backstrom, M., & Bjorklund, F. (2014). Social desirability in personality mventories. Journal of Individual
+Differences, 35, 144-157.
+
+Blake, B. F., Valdiserri, J., Neuendorf, K. A., & Nemeth, J. (2006). Validity of the SDS-17 measure of social
+desirability in the American context. Personality and Individual Differences, 40, 1625-1636.
+
+Blasberg, S. A., Rogers, K. H., & Paulhus, D. L. (2014). The Bidimensional Impression Management Index
+(BIMI): Measuring agentic and communal forms of impression management. Journal of Personality
+Assessment, 96, 523-531.
+
+Brenner, P. S. (2011a). Exceptional behaviour or exceptional identity? Overreporting of church attendance in
+the US. Public Opinion Quarterly, 75, 19-41.
+
+Brenner, P. S. (2011b). Identity importance and the overreporting of religious service attendance: Multiple
+imputation of religious attendance using the American Time Use Study and the General Social Survey.
+Journal for the Scientific Study of Religion, 50, 103-115.
+
+Brenner, P. S. (2012). Identity as a determinant of the overreporting of church attendance in Canada. Journal
+for the Scientific Study of Religion, 51, 377-385.
+
+Brenner, P. S. (2017). Narratives of response error from cognitive interviews of survey questions about nor-
+mative behaviour. Sociological Methods & Research, 46, 540-564.
+
+Brenner, P. S., & DeLamater, J. (2016). Lies, damned lies, and survey self-reports? Identify as a cause of
+measurement bias. Social Psychology Quarterly, 79, 333-354.
+
+Brownback, A., & Novotny, A. (2018). Social desirability bias and polling errors in the 2016 presidential
+election. Journal of Behavioral and Experimental Economics, 74, 38-56.
+544 International Journal of Market Research 61(5)
+
+ 
+
+Bryan, C. J., Adams, G. S., & Monin, B. (2013). When cheating would make you a cheater: Implicating the
+self prevents unethical behavior. Journal of Experimental Psychology: General, 142, 1001-1005.
+
+Caskie, G. I. L., Sutton, M. C., & Eckhardt, A. G. (2014). Accuracy of self-reported college GPA: Gender-
+moderated differences by achievement level and academic self-efficacy. Journal of College Student
+Development, 55, 385-390.
+
+Clark, W. (2000). Patterns of religious attendance. Canadian Social Trends, 59, 23-27.
+
+Comsa, M., & Postelnicu, C. (2013). Measuring social desirability effects on self-reported turnout using the
+item count technique. Jnternational Journal of Public Opinion Research, 25, 153-172.
+
+Connelly, B. S., & Chang, L. (2016). A meta-analytic multitrait multirater separation of substance and style
+in social desirability scales. Journal of Personality, 84, 319-334.
+
+Connolly, J. J., Kavanagh, E. J., & Viswesvaran, C. (2007). The convergent validity between self and observer
+ratings of personality: A meta-analytic review. International Journal of Selection and Assessment, 15,
+110-117.
+
+Cote, S., Gyurak, A., & Levenson, R. W. (2010). The ability to regulate emotion is associated with greater
+well-being, income, and socioeconomic status. Emotion, 10, 923-933.
+
+Crowne, D. P., & Marlowe, D. (1960). A new scale of social desirability independent of psychopathology.
+Journal of Consulting Psychology, 24, 349-354.
+
+De Vries, R. E., Zettler, L, & Hilbig, B. E. (2014). Rethinking trait conceptions of social desirability scales:
+Impression management as an expression of honesty-humility. Assessment, 21, 286-299.
+
+Diamantopoulos, A., Schlegelmilch, B. B., Sinkovics, R. R., & Bohlen, G. M. (2003). Can socio-demograph-
+ics still play a role in profiling green consumers? A review of the evidence and an empirical investiga-
+tion. Journal of Business Research, 56, 465-480.
+
+Dodou, D., & De Winter, J. C. F. (2014). Social desirability is the same in offline, online, and paper surveys:
+A meta-analysis. Computers in Human Behavior, 36, 487-495.
+
+Duff, B., Hanmer, M. J., Park, W., & White, I. K. (2007). Good excuses: Understanding who votes with an
+improved tumout question. Public Opinion Quarterly, 71, 67-90.
+
+Durrani, A. S., & Rajagopal, L. (2016). Restaurant human resource managers’ attitudes towards workplace
+diversity, perceptions and definition of ethical hiring. International Journal of Hospitality Management,
+53, 145-151.
+
+Eagle, D. E. (2011). Changing patterns of attendance at religious services in Canada, 1986-2008. Journal for
+the Scientific Study of Religion, 50, 187-200.
+
+Ehrenberg, R. G. (1977). Household allocation of time and religiosity: Replication and extension. Journal of
+Political Economy, 85, 415-423.
+
+Englert, C., & Rummel, J. (2016). I want to keep on exercising but I don’t: The negative impact of momentary
+lacks of self-control on exercise adherence. Psychology of Sport and Exercise, 26, 24-31.
+
+Fernandes, M. F., & Randall, D. M. (1992). The nature of social desirability response effects in ethics research.
+Business Ethics Quarterly, 2, 183-205.
+
+Ferrando, P. J., Lorenzo-Seva, U., & Chico, E. (2009). A general factor-analytic procedure for assessing
+response bias in questionnaire measures. Structural Equation Modeling: A Multidisciplinary Journal,
+16, 364-381.
+
+Fischer, D. G., & Fick, C. (1993). Measuring social desirability: Short forms of the Marlowe-Crowne social
+desirability scale. Educational and Psychological Measurement, 53, 417-424.
+
+Fisher, R. J., & Katz, J. E. (2000). Social desirability bias and the validity of self-reported values. Psychology
+& Marketing, 17, 105-120.
+
+Fisher, R. J., & Tellis, G. J. (1998). Removing social desirability bias with indirect questioning: Is the cure
+worse than the disease. In J. W. Alba & J. W. Hutchinson (Eds.), Advances in consumer research
+(Vol. 25, pp. 563-567). Provo, UT: Association for Consumer Research.
+
+Fluckinger, C. D. (2014). Big five measurement via q-sort: An alternative method for constraining socially
+desirable responding. SAGE Open, 4(3), 1-8.
+
+Gallardo, R. K., & Wang, Q. (2013). Willingness to pay for pesticides’ environmental features and social
+desirability bias: The case of apple and pear growers. Journal of Agricultural and Resource Economics,
+38(1), 1-16.
+Larson 545
+
+ 
+
+Gamberini, L., Spagnolli, A., Corradi, N., Sartori, G., Ghirardi, V., & Jacucci, G. (2014). Combining implicit
+and explicit techniques to reveal social desirability bias in electricity conservation self-reports. Energy
+Efficiency, 7, 923-935.
+
+Gignac, G. E. (2013). Modeling the balanced inventory of desirable responding: Evidence in favor ofa revised
+model of socially desirable responding. Journal of Personality Assessment, 95, 645-656.
+
+Gittelman, S., Lange, V., Cook, W. A., Frede, S. M., Lavrakas, P. J., Pierce, C., & Thomas, R. K. (2015).
+Accounting for social-desirability bias in survey sampling: A model for predicting and calibrating the
+direction and magnitude of social-desirability bias. Journal of Advertising Research, 55, 242-254.
+
+Glynn, A. N. (2013). What can we learn with statistical truth serum? Design and analysis of the list experi-
+ment. Public Opinion Quarterly, 77(Suppl. 1), 159-172.
+
+Goetzke, B., Nitzko, S., & Spiller, A. (2014). Consumption of organic and functional food. A matter of well-
+being and health? Appetite, 77, 96-105.
+
+Gruber, J. (2004). Pay or pray? The impact of charitable subsidies on religious attendance. Journal of Public
+Economics, 88, 2635-2655.
+
+Hadaway, C. K., Marler, P. L., & Chaves, M. (1998). Overreporting church attendance in America: Evidence
+that demands the same verdict. American Sociological Review, 63, 122-130.
+
+Hariri, J. G., & Lassen, D. D. (2017). Income and outcomes: Social desirability bias distorts measurements of
+the relationship between income and political behavior. Public Opinion Quarterly, 81, 564-576.
+
+Heerwegh, D., & Loosveldt, G. (2007). Personalizing e-mail contacts: Its influence on web survey response
+rate and social desirability response bias. International Journal of Public Opinion Research, 19, 258-268.
+
+Heerwegh, D., & Loosveldt, G. (2011). Assessing mode effects in a national crime victimization survey
+using structural equation models: Social desirability bias and acquiescence. Journal of Official Statistics,
+27(1), 49-63.
+
+Holbrook, A. L., & Krosnick, J. A. (2010). Social desirability bias in voter turnout reports: Tests using the
+item count technique. Public Opinion Quarterly, 74, 37-67.
+
+Jo, M., Nelson, J. E., & Kiecker, P. (1997). A model for controlling social desirability bias by direct and
+indirect questioning. Marketing Letters, 8, 429-437.
+
+Jones, A. E., & Elliott, M. (2017). Examining social desirability in measures of religion and spirituality using
+the bogus pipeline. Review of Religious Research, 59, 47-64.
+
+Kaiser, F. G., Wolfing, S., & Fuhrer, U. (1999). Environmental attitude and ecological behaviour. Journal of
+Environmental Psychology, 19(1), 1-19.
+
+Kam, C. (2013). Probing item social desirability by correlating personality items with Balanced Inventory
+of Desirable Responding (BIDR): A validity examination. Personality and Individual Differences, 54,
+513-518.
+
+Kam, C., Risavy, 8. D., & Perunovic, W. Q. E. (2015). Using over-claiming technique to probe social desir-
+ability ratings of personality items: A validity examination. Personality and Individual Differences, 74,
+177-181.
+
+Kaminska, O., & Foulsham, T. (2013, March). Understanding sources of social desirability bias in different
+modes: Evidence from eye-tracking (Report No. 2013-04). Institute for Social and Economic Research.
+Colchester, UK: University of Essex.
+
+Kaminska, O., & Foulsham, T. (2016). Eye-tracking social desirability bias. Bulletin de Methodologie
+Sociologique, 130(1), 73-89.
+
+Konstabel, K., Aavik, T., & Allik, J. (2006). Social desirability and consensual validity of personality traits.
+European Journal of Personality, 20, 549-566.
+
+Kovacic, M. P., Galic, Z., & Jerneic, Z. (2014). Social desirability scales as indicators of self-enhancement
+and impression management. Journal of Personality Assessment, 96, 532-543.
+
+Kreuter, F., Presser, S., & Tourangeau, R. (2008). Social desirability bias in CATI, IVR, and web surveys:
+The effects of mode and question sensitivity. Public Opinion Quarterly, 72, 847-865.
+
+Kuokkanen, H., & Sun, W. (2016). Social desirability and cynicism: Bridging the attitude-behavior gap in
+CSR surveys In N. M. Ashkanasy, W. J. Zerbe, & C. E. J. Hartel (Eds.), Emotions and organizational
+governance (pp. 217-247). Bingley, UK: Emerald Group.
+546 International Journal of Market Research 61(5)
+
+ 
+
+Lalwani, A. K. (2009). The distinct influence of cognitive busyness and need for closure on cultural differ-
+ences in socially desirable responding. Journal of Consumer Research, 36, 305-316.
+
+Lanyon, R. L, & Carle, A. C. (2007). Internal and external validity of scores on the balanced inventory of
+desirable responding and the Paulhus deception scales. Educational and Psychological Measurement,
+67, 859-876.
+
+Larson, R. B. (2018). Examining consumer attitudes toward genetically modified and organic foods. British
+Food Journal, 120,999-1014.
+
+Lee, Z., & Sargeant, A. (2011). Dealing with social desirability bias: An application to charitable giving.
+European Journal of Marketing, 45, 703-719.
+
+Leite, W. L., & Cooper, L. A. (2010). Detecting social desirability bias usimg factor mixture models.
+Multivariate Behavioral Research, 45, 271-293.
+
+Li, A., & Bagger, J. (2007). The Balanced Inventory of Desirable Responding (BIDR): A reliability generali-
+zation study. Educational and Psychological Measurement, 67, 525-544.
+
+Lippitt, M., Masterson, A. R., Sierra, A., Davis, A. B., & White, M. A. (2014). An exploration of social desir-
+ability bias in measurement of attitudes toward breastfeeding in public. Journal of Human Lactation,
+30, 358-366.
+
+Long, S. H., & Settle, R. F. (1977). Household allocation of time and church attendance: Some additional
+evidence. Journal of Political Economy, 85, 409-413.
+
+Malesza, M., & Ostaszewski, P. (2016). Dark side of impulsivity—Associations between the dark triad, self-
+report and behavioral measures of impulsivity. Personality and Individual Differences, 88, 197-201.
+
+Martin, D., & Schouten, J. (2012). Sustainable marketing. Saddle River, NJ: Pearson Education.
+
+McCrae, R. R., & Costa, P. T. (1983). Social desirability scales: More substance than style. Journal of
+Consulting and Clinical Psychology, 51, 882-888.
+
+McFarland, L. A., & Ryan, A. M. (2006). Toward an integrated model of applicant faking behavior. Journal
+of Applied Social Psychology, 36, 979-1016.
+
+Musch, J., Ostapezuk, M., & Klaiber, Y. (2012). Validating an inventory for the assessment of egoistic
+bias and moralistic bias as two separable components of social desirability. Journal of Personality
+Assessment, 94, 620-629.
+
+Nederhof, A. J. (1985). Methods of coping with social desirability bias: A review. European Journal of Social
+Psychology, 15, 263-280.
+
+Norwood, F. B., & Lusk, J. L. (2011). Social desirability bias in real, hypothetical, and inferred valuation
+experiments. American Journal of Agricultural Economics, 93, 528-534.
+
+Ones, D. S., Viswesvaran, C., & Reiss, A. D. (1996). Role of social desirability in personality testing for
+personnel selection: The red herring. Journal of Applied Psychology, 81, 660-679.
+
+Paulhus, D. L. (1984). Two-component models of socially desirable responding. Journal of Personality and
+Social Psychology, 46, 598-609.
+
+Paulhus, D. L., & John, O. P. (1998). Egoistic and moralistic biases in self-perception: The interplay of self-
+deceptive styles with basic traits and motives. Journal of Personality, 66, 1025-1059.
+
+Paulhus, D. L., & Reid, D. B. (1991). Enhancement and denial in socially desirable responding. Journal of
+Personality and Social Psychology, 60, 307-317.
+
+Paulhus, D. L., & Trapnell, P. D. (2008). Self-presentation of personality: An agency-communion framework.
+In O. P. John, R. W. Robins, & L. A. Pervin (Eds.), Handbook of personality psychology (pp. 492-517).
+New York, NY: Guilford Press.
+
+Paunonen, S. V. (2016). Sex differences in judgments of social desirability. Journal of Personality, 84,
+423-432.
+
+Paunonen, S. V., & LeBel, E. P. (2012). Socially desirable responding and its elusive effects on the validity of
+personality assessments. Journal of Personality and Social Psychology, 103, 158-175.
+
+Perinelli, E., & Gremigni, P. (2016). Use of social desirability scales in clinical psychology: A systematic
+review. Journal of Clinical Psychology, 72, 534-551.
+
+Persson, M., & Solevid, M. (2014). Measuring political participation—Testing social desirability bias in a
+web-survey experiment. International Journal of Public Opinion Research, 26, 98-112.
+Larson 547
+
+ 
+
+Polonsky, M. J., Vocino, A., Grimmer, M., & Miles, M. P. (2014). The interrelationship between tempo-
+ral and environmental orientation and pro-environmental consumer behaviour. Jnternational Journal of
+Consumer Studies, 38, 612-619.
+
+Presser, S., & Stinson, L. (1998). Data collection mode and social desirability bias in self-reported religious
+attendance. American Sociological Review, 63, 137-145.
+
+Richman, W. L., Kiesler, S., Weisband, S., & Drasgow, F. (1999). A meta-analytic study of social desirability
+distortion in computer-administered questionnaires, traditional questionnaires, and interviews. Journal
+of Applied Psychology, 84, 754-7175.
+
+Roberts, J. A. (1996). Green consumers in the 1990s: Profile and implications for advertising. Journal of
+Business Research, 36, 217-231.
+
+Roese, N. J., & Jamieson, D. W. (1993). Twenty years of bogus pipeline research: A critical review and meta-
+analysis. Psychological Bulletin, 114, 363-375.
+
+Rossi, M., & Scappini, E. (2014). Church attendance, problems of measurement, and interpreting indicators:
+A study of religious practice in the United States, 1975-2010. Journal for the Scientific Study of Religion,
+53, 249-267.
+
+Scholz, U., Berli, C., Goldammer, P., Luscher, J., Hornung, R., & Knoll, N. (2013). Social control and smok-
+ing: Examining the moderating effects of different dimensions of relationship quality. Families, Systems,
+& Health, 31, 354-365.
+
+Sosik, J. J., Avolio, B. J., & Jung, D. I (2002). Beneath the mask: Examining the relationship of self-pres-
+entation attributes and impression management to charismatic leadership. Leadership Quarterly, 13,
+217-242.
+
+Steenkamp, J. E. M., DeJong, M. G., & Baumgartner, H. (2010). Socially desirable response tendencies in
+survey research. Journal of Marketing Research, 47, 199-214.
+
+Stober, J. (2001). The Social Desirability Scale-17 (SDS-17): Convergent validity, discriminant validity, and
+relationship with age. European Journal of Psychological Assessment, 17, 222-232.
+
+Stober, J., Dette, D. E., & Musch, J. (2002). Comparing continuous and dichotomous scoring of the balanced
+inventory of desirable responding. Journal of Personality Assessment, 78, 370-389.
+
+Stodel, M. (2015). But what will people think? Getting beyond social desirability bias by increasing cognitive
+load. International Journal of Market Research, 57, 313-321.
+
+Strahan, R., & Gerbasi, K. C. (1972). Short, homogeneous versions of the Marlowe-Crowne social desirabil-
+ity scale. Journal of Clinical Psychology, 28, 191-193.
+
+Straughan, R. D., & Roberts, J. A. (1999). Environmental segmentation alternatives: A look at green con-
+sumer behavior in the new millennium. Journal of Consumer Marketing, 16, 558-575.
+
+Tatman, A. W., & Kreamer, S. (2014). Psychometric properties of the Social Desirability Scale-17 with indi-
+viduals on probation and parole in the United States. International Journal of Criminal Justice Sciences,
+9, 122-130.
+
+Tellis, G. J., & Chandrasekaran, D. (2010). Extent and impact of response biases in cross-national survey
+research. International Journal of Research in Marketing, 27, 329-341.
+
+Tomassetti, A. J., Dalal, R. S., & Kaplan, S. A. (2016). Is policy capturing really more resistant than tradi-
+tional self-report techniques to socially desirable responding? Organizational Research Methods, 19,
+255-285.
+
+Tourangeau, R., & Yan, T. (2007). Sensitive questions in surveys. Psychological Bulletin, 133, 859-883.
+
+Tracey, T. J. G. (2016). A note on socially desirable responding. Journal of Counseling Psychology, 63,
+224-232.
+
+Uziel, L. (2010). Rethinking social desirability scales: From impression management to interpersonally
+oriented self-control. Perspectives on Psychological Science, 5,243-262.
+
+Uziel, L. (2014). Impression management (“lie”) scales are associated with interpersonally oriented self-
+control, not self-deception. Journal of Personality, 82, 200-212.
+
+Zettler, I., Hilbig, B. E., Moshagen, M., & De Vries, R. E. (2015). Dishonest responding or true virtue? A
+behavioral test of impression management. Personality and Individual Differences, 81, 107-111.
+
+Ziegler, M., & Buehner, M. (2009). Modeling socially desirable responding and its effects. Educational and
+Psychological Measurement, 69, 548-565.
+

@@ -1,0 +1,1535 @@
+® Check for updates
+
+QDS
+
+Research Article PSYCHOLOGICAL SCIENCE
+
+ 
+
+Psychological Science
+
+2015, Vol. 26(11) 1693-1705
+
+© The Author(s) 2015
+
+Reprints and permissions:
+sagepub.com/journalsPermissions.nav
+DOI: 10.1177/0956797615595607
+pss.sagepub.com
+
+@SAGE
+
+Implicit Social Biases in People With
+Autism
+
+0G
+
+Elina Birmingham!, Damian Stanley”, Remya Nair”, and
+Ralph Adolphs?
+
+Faculty of Education, Simon Fraser University, and *Division of the Humanities and Social Sciences, California
+Institute of Technology
+
+Abstract
+
+Implicit social biases are ubiquitous and are known to influence social behavior. A core diagnostic criterion of autism
+spectrum disorders (ASD) is abnormal social behavior. We investigated the extent to which individuals with ASD might
+show a specific attenuation of implicit social biases, using Implicit Association Tests CATs) involving social (gender,
+race) and nonsocial (nature, shoes) categories. High-functioning adults with ASD showed intact but reduced IAT effects
+relative to healthy control participants. We observed no selective attenuation of implicit social (vs. nonsocial) biases
+in our ASD population. To extend these results, we supplemented our healthy control data with data collected from a
+large online sample from the general population and explored correlations between autistic traits and IAT effects. We
+observed no systematic relationship between autistic traits and implicit social biases in our online and control samples.
+Taken together, these results suggest that implicit social biases, as measured by the IAT, are largely intact in ASD.
+
+Keywords
+autism spectrum disorder (ASD), implicit bias, Implicit Association Test AT), stereotype, prejudice, open data, open
+
+materials
+
+Received 8/29/14; Revision accepted. 6/22/15
+
+Autism spectrum disorder (ASD) is a neurodevelopmen-
+tal disorder diagnosed in part by profound difficulties in
+social and communicative behaviors. These difficulties
+are often the most disabling aspect of the disorder,
+especially in high-functioning individuals (American
+Psychiatric Association, 2013). Although people with ASD
+often have normal intellect, they process faces atypically
+(see Schultz, 2005), have difficulty interpreting social
+cues (Baron-Cohen, Wheelwright, & Jolliffe, 1997), and
+show impaired perspective taking and theory of mind
+(Moran et al., 2011). In addition, relative to typically
+developed (TD) individuals, people with ASD attend dif-
+ferently to social stimuli (Dawson et al., 2004), are less
+responsive to social rewards (Lin, Rangel, & Adolphs,
+2012), and invest less energy in reputation management
+(zuma, Matsumoto, Camerer, & Adolphs, 2011). It has
+been proposed that attenuated social motivation in peo-
+ple with ASD catalyzes the atypical development of social
+cognition by reducing their exposure to, and therefore
+fluency with, social stimuli (Chevallier, Kohls, Troiani,
+Brodkin, & Schultz, 2012).
+
+Prejudices (i.e., stored evaluations of people, places,
+and things) and stereotypes (i.e., associations between
+social groups and particular attributes) guide decision
+making in a complex social world. These social biases!
+form early in development; for instance, by age 6, White
+children explicitly judge White individuals to be prefera-
+ble to, and more likeable than, Black individuals (Baron
+& Banaji, 2006), perceive boys to be better at math than
+girls (Cvencek, Meltzoff, & Greenwald, 2011), and dem-
+onstrate explicit knowledge of the stereotypic associa-
+tions between gender labels and toys (Martin, Wood, &
+Little, 1990). However, by age 10, children begin to adjust
+their reporting of such attitudes when explicitly asked
+about them (Baron & Banaji, 2006), which suggests the
+emergence of self-presentation concerns and reputation-
+management strategies.
+
+ 
+
+Corresponding Author:
+
+Damian Stanley, Division of Humanities and Social Sciences, California
+Institute of Technology, Pasadena, CA 91101
+
+E-mail: dstanley@caltech.edu
+1694
+
+Birmingham et al.
+
+ 
+
+In contrast to explicit measures of bias, implicit mea-
+sures assess automatic associations between concepts
+and evaluations or attributes and, therefore, are less sus-
+ceptible to self-presentation effects. For instance, in the
+Implicit Association Test (IAT), observers must rapidly
+categorize concepts (e.g., flowers, insects) and evalua-
+tions (e.g., good, bad), or concepts (e.g., White person,
+Black person) and attributes (e.g., mental, physical),
+using response mappings that are either congruent or
+incongruent with typical associations. The different
+response mappings are used in separate blocks. The
+reaction time (RT) advantage for congruent trials relative
+to incongruent trials (ZAT effect) indicates the strength of
+the association between the concepts. The IAT has been
+used widely to demonstrate the existence of strong
+implicit biases, even among people who explicitly report
+not to hold these biases (Baron & Banaji, 2006).
+Furthermore, performance on the IAT has been shown to
+predict real-world behaviors despite explicit preferences
+to act in an unbiased manner (Kubota, Li, Bar-David,
+Banaji, & Phelps, 2013; Stanley, Sokol-Hessner, Banaji, &
+Phelps, 2011).
+
+Acquisition of these social biases requires a person to
+be sensitive to social group information—that is, to cate-
+gorize people according to psychologically relevant
+dimensions (e.g., race, gender, age, sexual orientation;
+see Bigler & Liben, 2007, for a review). Furthermore,
+meaning must be attached to these social groupings:
+Associations between social categories and attributes or
+evaluations must be encoded as they are observed in the
+environment (Bigler & Liben, 2007). For instance, indi-
+viduals must pick up on overt statements linking social
+groups to attributes (e.g., “African Americans are violent”)
+or on covariation occurring in the environment (e.g., all
+U.S. presidents have been male). Given the evidence for
+impaired processing of social information in ASD (see
+also Kennedy & Adolphs, 2012), we hypothesized that
+social stereotypes and prejudices should be selectively
+attenuated in individuals with ASD. In contrast, nonsocial
+stereotypes and prejudices should be unaffected in ASD.
+
+The handful of extant studies on this topic is inconclu-
+sive. Hirschfeld, Bartmess, White, and Frith (2007) found
+that young children with ASD were able to make normal
+behavioral attributions based on culturally transmitted
+race and gender stereotypes. This seemingly fluent use of
+explicit stereotype knowledge was found despite clear
+deficits in social-cognitive ability (e.g., theory of mind). In
+contrast, Kirchner, Schmitz, and Dziobek (2012) reported
+reduced implicit social biases in adults with ASD: Although
+they showed a significant (nonzero) IAT effect, it was
+smaller than in control participants. These results suggest
+that implicit social bias may be attenuated in ASD even
+when explicit social knowledge is relatively intact. The
+few studies on social biases in ASD have differed greatly
+
+in methodology and focused on a narrow range of biases,
+so that comparisons across different domains (e.g., social
+vs. nonsocial) or types of bias (evaluative vs. stereotype)
+are difficult. For instance, studies finding no ASD-linked
+abnormalities in social bias have used behavioral mea-
+sures to which both implicit and explicit processes likely
+contributed (Da Fonseca, Santos, Rosset, & Deruelle,
+2011; Hirschfeld et al., 2007), whereas the one study
+reporting reduced social bias in ASD used only a single
+IAT (Kirchner et al., 2012). Perhaps most important, none
+of these previous studies included a nonsocial control
+condition, which severely limits the conclusions that can
+be drawn about the social specificity of the findings.
+
+We addressed these shortcomings by systematically
+investigating the magnitude of social and nonsocial
+implicit bias in ASD, as measured by the IAT. In addition,
+given evidence of distinct neural underpinnings for eval-
+uative implicit biases G.e., concept-evaluation associa-
+tions) and stereotype implicit biases G.e., concept-attribute
+associations; see Amodio, 2014, for a review), we included
+IAT tests for both types of bias to explore possible dis-
+sociations in ASD. First, we tested people with a diagno-
+sis of ASD and matched control participants in the
+laboratory; we then extended the investigation to the
+general population, testing participants over the Internet.
+We report all measures, conditions, and data exclusions,
+as well as how we determined our sample sizes.
+
+Method
+
+Participants
+
+Pilot study and sample-size determination. In a
+prior pilot study, we tested 15 to 22 individuals with ASD
+(depending on the task) and 37 matched control partici-
+pants. Fourteen people in the ASD group and 10 in the
+control group also participated in the main study reported
+here; the sole criterion for their inclusion in the main
+study was availability. The pilot study found suggestive
+evidence for reduced implicit social biases in the ASD
+group (d for the between-groups effect ranged from 0.26
+to 0.99 across the multiple IAT tasks used), but had low
+power because of the small sample size.
+
+Given the initial findings of this pilot study, we
+recruited participants for further studies. Given the size
+of our participant pool, as well as ongoing recruitment
+and dropout rates, we aimed at a sample of 30 individu-
+als with ASD for in-lab testing. Because our ASD sample
+size was necessarily limited, we supplemented the in-lab
+testing with an Internet-based study that could provide a
+larger sample size; on the basis of our prior findings and
+results reported in the literature, we decided that a sam-
+ple size of 200 TD adults would be more than sufficient
+to detect any putative effects.
+Implicit Social Biases in Autism
+
+1695
+
+ 
+
+Table 1. Background Information for Each Participant Group
+
+ 
+
+ 
+
+ 
+
+Group
+
+ASD Control MTurk: stereotype MTurk: evaluative
+Variable (m = 27) (1 = 38) tasks (7 = 178) tasks (7 = 164)
+Age (years) 30.04(10.78) 31.97 (9.85) 33.40 (9.57) 34.21 (10.58)
+AQ score 28.93 (6.48) 14.74 (6.52) 19.35 (7.93) 19.98 (6.99)
+BAPQ: total score 3.61 (0.56) 2.64 (0.56) 3.13 (0.85) 3.20 (0.77)
+BAPQ: aloof personality 3.50 0.9) 2.73 (0.74) 3.37 (1.15) 3.45 (1.09)
+BAPQ: pragmatic language problems 3.53 (0.58) 2.44 (0.56) 2.63 (0.89) 2.69 (0.80)
+BAPQ: rigid personality 3.80 (0.74) 2.76 (0.74) 3.40 (0.97)
+
+Full Scale 10
+Performance IQ
+Verbal IQ
+
+107.85 (14.76)
+108.67 (12.94)
+105.52 7.71)
+
+ADOS: Communication (cutoffs: 3/2) 3.70 (1.38)
+ADOS: Social Interaction (cutoffs: 6/4) 8.22 (2.36)
+ADOS: Communication + Social 11.93 G.47)
+
+Interaction (cutoffs: 10/7)
+
+3.45 (0.97)
+107.84 (10.35) _ _
+105.68 (11.18) _ _
+107.97 (10.85) _ _
+
+ 
+
+Note: The table presents means, with standard deviations in parentheses. Participants in the autism spectrum disorder (ASD)
+group were tested in the laboratory. Participants in the control group were matched to the ASD group and also tested in the
+laboratory. Participants from the general population (Mechanical Turk, or MTurk, workers) were tested on online versions of the
+stereotype Implicit Association Tests (ATs) or the evaluative IATs. Autism symptoms were assessed with the Autism Spectrum
+Quotient (AQ; Baron-Cohen, Wheelwright, Skinner, Martin, & Clubley, 2001), the Broad Autism Phenotype Questionnaire
+(BAPQ; Hurley, Losh, Parlier, Reznick, & Piven, 2007), and the Autism Diagnostic Observation Schedule (ADOS; Lord et al.,
+2000); higher scores indicate greater impairment. For the ADOS, the table presents data on the Communication score, the
+Reciprocal Social Interaction score, and the summed score (Communication + Social Interaction); the cutoffs listed indicate the
+
+minimum scores for diagnosing autism and ASD, respectively.
+
+Laboratory samples. Our sample size and data-
+collection stopping rule were determined by the size of
+our participant pool. Thirty high-functioning adults with
+ASD were recruited. To be included in the study, partici-
+pants had to meet the cutoff scores for ASD on the
+Autism Diagnostic Observation Schedule (ADOS, Mod-
+ule 4; Lord et al., 2000) and the diagnostic criteria for
+autism or Asperger’s syndrome according to the fourth
+edition of the Diagnostic and Statistical Manual of Men-
+tal Disorders (American Psychiatric Association, 1994).
+In addition, they had to be verbal, high functioning (Full
+Scale 1Q above 85), located in the greater Los Angeles
+metropolitan area, and willing and able to complete all
+tests. IQ was assessed using one of the Wechsler tests:
+the first or second edition of the Wechsler Abbreviated
+Scale of Intelligence (Wechsler, 1999, 2011); the third or
+revised edition of the Wechsler Adult Intelligence Scale
+(Wechsler, 1981, 1997); or the third edition of the
+Wechsler Intelligence Scale for Children (in the case of
+1 participant whose IQ was assessed during adoles-
+cence; Wechsler, 1991). Three participants were
+excluded from the final analyses because of extremely
+slow responding (e.g., inability to complete the tasks
+within the time span of their visit to the lab). Table 1
+provides further details on the 27 remaining participants
+(23 male; 20 White, 3 Asian, 3 multiracial, 1 Indian).
+
+Thirty-eight neurologically and psychiatrically healthy
+American adults with demographic characteristics similar
+to those of the ASD group and no family history of ASD
+were recruited through our control database (0 male; 26
+White, 5 Asian, 2 Black, 1 American Indian or Alaskan
+Native, 3 multiracial, 1 unspecified). Control participants
+were matched to our ASD sample on age, gender, and 1Q
+(see Table 1 for further details).
+
+All participants had normal or corrected-to-normal
+vision and gave informed consent under a protocol
+approved by the institutional review board of the
+California Institute of Technology.
+
+Online samples. We recruited 401 adults to complete
+either the stereotype (7 = 201) or the evaluative (7 = 200)
+IAT tasks using Amazon’s Mechanical Turk (MTurk). The
+participant pool was restricted to MTurk workers who
+were located in the United States, had completed more
+than 1,000 Human Intelligence Tasks CHITs), and had an
+approval rating higher than 98%. Of this original 401, 59
+were excluded for failing to complete the full battery of
+tests, for ignoring our instructions not to repeat tasks, or
+for making excessive errors (pressing the incorrect key
+two to four times on a single trial on more than 5% of
+trials or pressing the incorrect key more than four times
+on any single trial). Our final sample consisted of 342
+1696
+
+Birmingham et al.
+
+ 
+
+American adults (183 male; 287 White, 20 Asian, 15 Black,
+3 American Indian or Alaskan Native, 11 multiracial, 6
+unspecified; see Table 1).
+
+Materials
+
+Implicit Association Tests. We administered five IATs,
+three social and two nonsocial. The social IATs were the
+race evaluative IAT, which tested associations between
+White and Black faces and positive and negative words
+(Greenwald, McGhee, & Schwartz, 1998); the race stereo-
+type IAT, which tested associations between White and
+Black faces and words referring to mental and physical
+attributes (Amodio & Devine, 2006); and the gender ste-
+reotype IAT, which tested associations between male and
+female names and words related to career and family
+(Nosek, Banaji, & Greenwald, 2002). The nonsocial IATs
+were the nature evaluative IAT, which tested associations
+between words referring to flowers and insects and posi-
+tive and negative words (Greenwald et al., 1998), and a
+novel shoe stereotype IAT, which tested associations
+between sneakers and dress shoes and words related to
+sports and business. The shoe stereotype IAT was
+designed specifically to be a nonsocial comparison for
+the social stereotype IATs, tapping into concept-attribute
+rather than concept-evaluation associations. Descriptions
+of the IAT stimuli are provided in the Supplemental Mate-
+rial available online.
+
+Autism-related assessments. The Autism Spectrum
+Quotient (AQ; Baron-Cohen, Wheelwright, Skinner, Mar-
+tin, & Clubley, 2001) and the Broad Autism Phenotype
+Questionnaire (BAPQ; Hurley, Losh, Parlier, Reznick, &
+Piven, 2007) were administered to all groups. The AQ is
+widely used to quantify autistic traits in the general pop-
+ulation and to screen for possible ASD (which must then
+be diagnostically assessed with other instruments). The
+BAPQ has been used to quantify autism-like traits both in
+first-degree relatives of individuals with ASD CHurley
+et al., 2007; Sasson et al., 2013) and in the general popu-
+lation CWainer, Ingersoll, & Hopwood, 2011). Table 1
+presents mean scores on these instruments for all groups.
+
+Explicit scales. The following self-report scales were
+administered to assess explicit bias. Ratings on each scale
+were summed and reverse-coded as needed.
+
+e Modern Sexism Scale (MSS): This eight-item scale
+assesses relatively modern attitudes and beliefs
+about women (Swim, Aikin, Hall, & Hunter, 1995);
+higher scores reflect more strongly stereotypical
+beliefs and attitudes about gender.
+
+e Modern Racism Scale (MRS): This seven-item scale
+measures beliefs and attitudes toward Black
+Americans (McConahay, Hardee, & Batts, 1981);
+
+higher scores reflect stronger anti-Black beliefs and
+attitudes.
+
+e Internal and External Motivation Scales (MS and
+EMS): This instrument assesses internal (five ques-
+tions) and external (five questions) motivations for
+responding in unprejudiced ways (Plant & Devine,
+1998); higher scores reflect higher levels of the
+indicated type of motivation.
+
+e Semantic differential (Greenwald et al., 1998): On
+7-point scales (e.g., beautiful = 1, ugly = 7), pattici-
+pants rated the extent to which they associated
+Black people, White people, flowers, and insects
+with positive and negative words. Difference scores
+were computed (White — Black; flowers — insects)
+such that higher scores reflected more stereotype-
+congruent beliefs (e.g., that flowers are good and
+insects are bad).
+
+® Gender-role bias: As has been done in previous
+studies (White & White, 2006), to assess gender
+stereotypes regarding career and family life, we
+asked participants to rate the extent to which a
+man or a woman would perform better at various
+tasks (e.g., “take care of the home,” “manage
+employees”; 1 = man would perform better, 3 =
+man and woman would be equal, 5 = woman
+would perform better). Higher scores reflected
+more stereotype-congruent beliefs G.e., that men
+are better at career-related tasks than women and
+women are better at family-related tasks than men).
+
+® Race occupation bias: Participants rated the extent
+to which a Black person or a White person would
+be more likely to excel at various occupations
+(e.g., college professor, basketball player; 1 =
+White more likely to excel, 3 = equal likelihood,
+5 = Black more likely to excel). Higher scores
+reflected more stereotype-congruent beliefs (.e.,
+that Whites are intellectually inclined and Blacks
+are physically inclined).
+
+® Shoe-type bias: For this two-item measure, partici-
+pants rated the relative extent to which a dress
+shoe and a sneaker would be linked to sports and
+to business activities (1 = sneakers are more closely
+related to the activity, 3 = both types of shoes would
+be appropriate for the activity, 5 = dress shoes are
+more closely related to the activity). Higher scores
+reflected more stereotype-congruent beliefs (.e.,
+that sneakers are associated with sports and dress
+shoes are associated with business).
+
+Design and procedure
+
+Standard procedures for administering the IAT were fol-
+lowed (Lane, Banaji, Nosek, & Greenwald, 2007; Nosek,
+Greenwald, & Banaji, 2005). In addition, both the order
+of congruent and incongruent blocks and the response
+Implicit Social Biases in Autism
+
+1697
+
+ 
+
+hand were randomly counterbalanced across participants
+within the ASD, control, and two MTurk groups. The
+explicit scales were completed in Qualtrics, and the IATs
+were administered using a modified version of an open-
+source JavaScript Web program (Mason & Allon, 2013)
+based on the standard IAT (Greenwald et al., 1998; Lane
+et al., 2007). Table S1 in the Supplemental Material pro-
+vides additional information on IAT administration, using
+the nature evaluative IAT as an example.
+
+Participants in the ASD and control groups received all
+five of the IATs, split into two sessions: the evaluative ses-
+sion (nature evaluative IAT and race evaluative IAT, in
+random order) and the stereotype session (gender ste-
+reotype IAT, race stereotype IAT, and shoe stereotype
+IAT, in random order). The AQ and BAPQ were adminis-
+tered once, during the first session. The order of these
+two sessions was counterbalanced across participants,
+and sessions were separated by a median of 89.6 min
+(minimum of 38 min) to reduce practice effects. Total
+testing duration (excluding the break between sessions)
+was approximately 1 to 1.5 hr.
+
+Participants recruited through MTurk completed only
+one of the two sessions (.e., evaluative or stereotype) to
+reduce the possibility of attrition due to testing duration
+and due to the necessity of ensuring a break between the
+sessions. For all participants, explicit scales relevant to
+the specific session completed (stereotype or evaluative)
+were always administered after the other measures (see
+Fig. $1 in the Supplemental Material for a complete out-
+line of test order).
+
+Data analysis
+
+Our data analysis focused on effect-size estimates and
+bootstrapped estimates of 95% confidence intervals
+(CIs; see Cumming, 2014). For the IATs, we report group
+mean D scores (effect-size estimates), computed accord-
+ing to the improved scoring algorithm (Lane et al.,
+2007). Specifically, we deleted trials with RTs greater
+than 10,000 ms and subjects for whom more than 10%
+of trials had RTs less than 300 ms. Next, we computed
+the inclusive standard deviation of RTs for (a) all trials
+in the two practice blocks Cone incongruent and one
+congruent block) and (b) all trials in the two test blocks
+(see Table S1 in the Supplemental Material for block
+structure). We then computed the mean RT for each of
+these four blocks, computed the mean RT difference
+between the incongruent and congruent conditions for
+practice and test blocks separately, divided each differ-
+ence score by its associated inclusive standard devia-
+tion, and computed D as the equal-weight average of
+the two resulting ratios. A positive D score indicated
+that participants held associations that are common
+in the United States G.e., flowers—good, insects—bad;
+dress shoes—business, sneakers—sports; White-good,
+Black—bad; White-mental, Black—-physical; male-career,
+
+female—-family). For between-groups (control vs. ASD)
+comparisons, we report Cohen’s d effect-size estimates
+(Lakens, 2013). We calculated bootstrapped 95% Cls for
+estimates of the means using bootci.m in MATLAB
+(releases 2013b and 2014a; The MathWorks, Inc., Natick,
+MA; 10,000 bootstrap samples per estimate).
+
+Results
+IAT effects
+
+Figure la shows the mean D score for each IAT for each
+participant group (plots of individual participants’ data are
+provided in Fig. $2 in the Supplemental Material). These
+data clearly show that IAT effects for the MTurk and con-
+trol groups were very similar, that is, well within the 95%
+Cls of each other. In addition, the mean IAT effects for the
+MTurk samples were similar in magnitude to what has
+been reported in previous studies of the general popula-
+tion—race evaluative IAT: D = 0.44, 95% CI = [0.38, 0.50]
+(previous range of reported means: 0.45-0.52; Nosek
+et al., 2005); race stereotype IAT: D = 0.32, 95% CI = [0.27,
+0.38] (previous range: 0.17-0.29; Amodio & Devine, 2006);
+and gender stereotype IAT: D = 0.37, 95% CI = [0.32, 0.41]
+(previous range: 0.42-0.46; Nosek et al., 2005). Figure 1a
+presents data from the whole (heterogeneous) online sam-
+ple, but in keeping with approaches used in previous
+studies, in Table $2 in the Supplemental Material, we have
+provided IAT data separately for the White MTurk partici-
+pants Gz = 287) and for male (2 = 183) and female
+(m = 159) participants. IAT effects were highly similar
+across these subsets of participants, with one exception
+being that female participants showed a stronger effect on
+the nature evaluative IAT ( = 0.85, 95% CI = [0.78, 0.91])
+than did males (D = 0.66, 95% CI = [0.58, 0.73).
+
+Figure la also indicates that, overall, the ASD group
+showed intact IAT effects across all tests G.e., all 95% CIs
+excluded zero). Furthermore, although the IAT effects of
+the ASD group were slightly reduced relative to those of
+the control group, there was no evidence of an interaction
+between group and IAT type (ie., social vs. nonsocial or
+evaluative vs. stereotype). To investigate whether the ASD
+group showed a selective reduction in social bias, we cal-
+culated mean D scores for the social [ATs and the nonso-
+cial IATs (see the graph on the right in Fig. la) and
+estimated Cohen’s d for the difference between the group
+means (control — ASD). The effect-size estimate for the
+group difference was large for the nonsocial IATs
+(d = 1.03, 95% CI = [0.57, 1.58) and medium for the social
+IATs (d = 0.56, 95% CI = [0.05, 1.14); in each case, the
+95% CI excluded zero. However, the effect sizes for the
+social and nonsocial IATs did not differ from each other
+(ie., the 95% CIs overlapped). These findings strongly
+suggest an effect of group (G.e., greater IAT effects for the
+control group than for the ASD group), but no interaction
+between group and the social content of the LAT.? Similarly,
+1698
+
+Birmingham et al.
+
+ 
+
+| MTurk Oo Control
+
+Wi asp
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0.8 |
+2 ‘TI
+8 06
+wa
+2 0.4
+<=
+0.2
+0
+Nature Shoe Race Race Gender Nonsocial Social
+Evaluative Stereotype Evaluative Stereotype Stereotype
+1
+fl th dl
+wn
+4 1
+| J
+— O
+g [| |
+c
+3
+8
+wm -1+
+8
+in
+. Flower/ Shoe- White’ MRS Race IMS EMS MSS _ Gender-
+Insect Type Black Occ. Role
+Sem. Bias Sem. Bias Bias
+Diff. Diff.
+
+Fig. 1. Comparisons of the participant groups’ responses on the Implicit Association Tests (ATs) and the
+explicit scales. In (a), the mean D score is shown for each of the five IATs, separately for the Mechanical Turk
+(MTurk), control, and autism spectrum disorder (ASD) groups. In addition, the graph on the right shows the
+average D score across the nonsocial [ATs and the social IATs, separately for the control and ASD groups. The
+graph in (b) shows Cohen’s d for the mean difference between the control and ASD groups’ responses on each
+of the explicit scales (Sem. Diff. = semantic differential; MRS = Modern Racism Scale; Occ. = occupation; IMS =
+Internal Motivation Scale; EMS = External Motivation Scale; MSS = Modern Sexism Scale). Error bars represent
+95% confidence intervals (estimated with a bootstrap procedure). Note that different MTurk groups completed
+the evaluative (V = 164) and stereotype (NV = 178) IATs (for the control group, = 36 for the nature evaluative
+IAT and 38 for all other IATs; for the ASD group, 7 = 26 for the gender stereotype IAT and 27 for all other IATs).
+(For the explicit scales, m = 38 for the control group and 27 for the ASD group.)
+
+the between-groups effect size for evaluative IATs (e.,
+nature and race evaluative IATs) was medium (d = 0.76,
+95% CI = [0.25, 1.38]) and similar to the effect size for ste-
+reotype IATs (i.e., gender, race, and shoe stereotype IATs;
+d = 0.75, 95% CI = [0.25, 1.32]). These results suggest that
+ASD is not associated with a disproportionate impairment
+in one particular type of bias.
+
+Because our ASD sample size was limited, we supple-
+mented our main analysis by including additional data
+from our pilot study (nonoverlapping participants only)
+for the three IATs that were administered in both studies
+
+(gender stereotype, race evaluative, nature evaluative’).
+This increased the size of the ASD group by 8 (2 females)
+and the size of the control group by 27 G females; see
+Table $4 in the Supplemental Material for demographic
+information for these participants). Bringing up our sam-
+ple size to 100 @5 ASD and 65 control participants
+matched on Full Scale, Verbal, and Performance IQ as
+well as age), we found that the pattern of results did not
+change: The ASD group had smaller IAT effects than the
+control group, but this was consistent across the social
+tasks (d = 0.49, 95% CI = [0.04, 1.02D and the nonsocial
+Implicit Social Biases in Autism
+
+1699
+
+ 
+
+tasks (d = 0.70, 95% CI = [0.29, 1.18]; see Table S5 in the
+Supplemental Material for a summary of results for the
+two groups).
+
+Explicit scales
+
+For each of the explicit scales, we calculated the effect
+size (Cohen’s d; Lakens, 2013) of the group difference
+(control — ASD) and the 95% CI around the effect size
+(see Fig. 1b). Positive values would indicate a larger
+reported bias in the control group than in the ASD group
+(see Table S6 in the Supplemental Material for the online
+samples’ average scores on the explicit measures). In
+contrast to the IAT results, the results for the explicit mea-
+sures revealed no scales on which the ASD group
+reported less bias overall than the control group (i.e., no
+positive d values had 95% Cls that excluded zero). In fact,
+the ASD group expressed stronger race-related (MRS,
+EMS) and gender-related (MSS) explicit biases than the
+control group.
+
+Correlations between IAT effects and
+ADOS scores (ASD group)
+
+Although group effects were consistent across social
+and nonsocial IATs, it was possible that the summary
+statistics obscured a relationship between individual dif-
+ferences in autism severity and IAT effects. To investi-
+gate this possibility, we focused on the data from the
+ADOS (Module 4), the gold standard in the field for
+quantifying current behavioral symptoms of autism. The
+ADOS consists of a structured interaction between a
+trained experimenter and the participant (duration of
+about 1 hr), which is videotaped and scored to consen-
+sus by trained raters (Lord et al., 2012). New scoring
+algorithms, including a new calibrated severity score for
+a Social Affect (SA) domain, have recently been devel-
+oped (see Hus & Lord, 2014). Given this novel scoring
+algorithm, and some ambiguity concerning which scor-
+ing methods might be most appropriate to use for cor-
+relational analyses, we calculated correlations between
+IAT effects and four ADOS-derived metrics, all highly
+intercorrelated and all measuring social and affective
+behaviors: the total raw score, calculated by adding the
+Communication and Social Interaction raw scores; the
+total old-algorithm score, calculated by adding the
+Communication and Social Interaction algorithm scores;
+the new-algorithm SA score; and the new-algorithm SA
+calibrated severity score (SA-CSS). We took this approach
+both to provide completeness and to facilitate compari-
+sons with previous and future work. We focused our
+analysis a priori on the newer metrics (i.e., SA and
+SA-CSS), as these were established to exhibit less covari-
+ation with factors unrelated to autism severity (.e., age
+
+and IQ). To maximize our sample size, we again
+included data from our pilot study for the three IATs
+that were included in both studies (gender stereotype,
+race evaluative, and nature evaluative), for a total ” of
+35 in those cells.
+
+The results of this correlational analysis are presented
+in Figure 2. For the two new scoring methods, we found
+weak to nonexistent correlations between ADOS score
+and IAT D score (correlations were also weak to nonexis-
+tent when we substituted raw RT differences between
+congruent and incongruent blocks for D scores; see Table
+S7 in the Supplemental Material).* Intriguingly, the largest
+negative correlation was between SA-CSS and the race
+evaluative D score, 1(29) = -.39, 95% CI = [-.64, -.07],
+which suggests that those ASD participants who had the
+most severe autistic symptoms (in terms of social and
+affective behaviors) also had the lowest implicit evaluative
+race biases. However, we emphasize that the reliability of
+these correlations is limited by our sample size, and we
+note that we did not obtain the same pattern across the
+different methods for assessing autism symptomatology.
+
+Correlations between IAT effects and
+AQ and BAP@ scores (control and
+MTurk groups)
+
+To supplement the analysis just reported, we also looked
+at correlations between IAT effects and autistic traits in
+our groups without ASD, using the AQ and BAPQ scores.
+Figure 3 depicts scatterplots of these data and shows
+Peatson correlations calculated across all subjects to
+maximize statistical power. The correlations were small
+for all the IATs, and there were only two instances in
+which the 95% CIs excluded zero (the nature evaluative
+D score was negatively correlated with both AQ and
+BAPQ scores).
+
+Possible sources of reduced IAT effects
+in ASD
+
+In a final analysis, we considered possible sources of the
+global attenuation of IAT D scores that we observed in
+participants with ASD (Fig. 1). The IAT D score is calcu-
+lated by taking the difference between RTs in the congru-
+ent and incongruent conditions and dividing it by the
+standard deviation of the combined RTs (Greenwald,
+Nosek, & Banaji, 2003; Lane et al., 2007). Given this, we
+considered the possibility that increased variability in RTs
+in individuals with ASD might account for some of the
+reduced IAT effects in our ASD sample. In two analyses,
+we (a) looked at raw RT differences to confirm the group-
+level effects and (b) examined residual IAT D scores after
+regressing out overall standard deviation in RTs. The first
+‘syuedionied p IO] BUISSTU o1OM (SAIODS UNLIOS[e
+JOU INq) $91098 SOCY MEI asnedaq pur ‘CL y] edAjoarajs adel ay] yoo) Apmis yey ut syuedionsed atp jo z A[UO pur ‘Ly edMoareys aoys ay] yoo) Apms iopid ayy ur quedmonsred
+OU) SLY] otf Ss010¥ porea sjurod EVEp JO Ioquinu at] asnEd.aq AIBA SUONP[ALIOD dtp] IO] UIOpeaey Jo saaiBap Ot] IY] SION ‘(OI O) T WO a[eos Ev UO pezIpIepur)s ‘sgD-Ys) e100
+AWWOAas YS PeICIed st) pue ‘SOCY Paesiael oy] UO WIWORTE Mou oy] 0} SuIpsIOoIE aIOIs (YS) Dayy [eos oy) ‘wIpwosfe Sursroos pro ay] Bursn saroos UONMORIOIUT [EOS
+pue uonEouNUOD ay] jo uINs oT] ‘safeasqns UOMOeIOIU] [EI90g PUB UOMesTUNUIUIOD ST] UO saroos MEI SY] JO UINS SY] :SOLNOU SOY IWelayjip Inoj Joj uMOYs are sypnsoy
+“S[RAIOJUT SOUapPYUOD e%¢6 poddensjoog are sjexyoerq arenbs ut son[eA ‘(OO0T “TE 19 PIOT ‘SOCY) F[Npeyas uoNearosqgO oNsouser usyNyY st] UO saroDs puE (SLVI) sisay, uoN
+-EIDOSsY WoYdwy] ay) UO saroos GF Usemjoq SUONP[aLOD ot] SUNENSN|[E (SeUT] UOIssarSel SuMY-Iseq LA) syo[dieneos :dnoss Jepsiosip wnnoeds uisyne at] 10] sy[nsey "Zz “SLA
+
+9109§ @ LVI
+L 0
+
+ 
+
+[gz $e" —] s0;— = (gz)s
+
+i
+
+Med
+
+5
+
+[ge ‘e] 00- = (g)4
+
+®
+o¢ ¢¢
+ 0@e
+
+oo
+*
+
+A
+
+[40- ig-lpe-= (62)4
+ooo
+Oo e
+.
+®
+0 00@
+
+[Lg ss el- = ey
+oo
+
+lev’ 5 -] p0' = (62)
+
+®
+oe ¢
+
+ide
+
+$S9-VS WYLWOB\y-maN
+
+o¢
+9 Oe
+
+ 
+
+loz’ ‘ov—-] g0°— = (gz)
+
+.
+
+o
+
+%
+
+[ze° ‘ge-] 00° = (gz)4
+
+te:
+
+¢
+%
+o
+
+[0° *S 62 — = (62)4
+
+yp
+
+oe
+.
+
+[zg ‘oe-] ob = (62)
+
+ie
+
+ 
+
+Ige" ‘22-] Lo = (ey
+
+rs °
+
+ey
+
+[gz ‘ep—] g0°— = (22)4
+
+‘z
+
+[12 ‘@g-] 2L- = (ee)4
+
+i
+
+o ?
+%
+
+[Lp ‘Lgl pL = (g2)s
+
+lev’ ‘ze Lo’ =
+
+%
+e
+- ¢
+
+(ee)
+
+ 
+
+[12° ‘ge¢-] 90°— = (gz)
+
+as
+
+$°
+
+°
+
+ 
+
+ 
+
+lee’ ‘Ov-] co— = (gz)
+
+o
+?
+
+7 f=
+
+®
+¢
+
+ 
+
+lol’ ‘6g-] ez— = (62)4
+
+ 
+
+Liv’ ‘ep'-] 60°- = (€2)s
+
+ 
+
+leq ‘Le-] z= (62)s
+
+=
+
+o
+
+OL
+
+ 
+
+ 
+
+9d4}0919}$
+Japuax
+
+adA}0919}$
+aoey
+
+@aenerg
+aoey
+
+9dAj0913}$
+a0us
+
+aanenyeay
+eJMeN
+
+(uonoesaquy [1905 VS WUWObIy-maN
+
+(uoqoeJa}U] eI00$
+
++ uoneoluNWWwO)}
+
++ uONeoIUNWLWUO}
+
+WUWOBly plo
+
+$a00S Mey
+
+soay
+
+1700
+‘LI = U) SLY] edAjoaia18 ay] pue (HOT = UW) SLY] eanenfeas oy] pere;dwoo suonyindod auyuo Weseylp IY] SION “s[PAIaJUL SOUSPYUOD 9466 peddensjoog ae
+sjeyoviq arenbs ur san[eA ‘peurquiod sdno18 OM) aT] JO} ale SUONE[ALION PUE SOU] UOTSsa‘Bar ST], ‘(MOI WONO */00Z ‘Uaalg FY ‘Yoruzoy ‘oye ‘Ysoy ‘AapIn}]) oseuUONsaNnd
+edMouayg wsnny peorg oy) pure (mor doy ‘T00z ‘AeTqn[D % ‘UNE ‘IOUUTYS IWSuMpooyA ‘UsyoD-uoIeg) JUaNnON?) wnNodedg wsyNy ay] UO saloos pue (SLT) 1S9], UONEIDOssy
+qoyduy] oy] UO sarods GF UaaMjaq SUONE[ALOS ay] SUNENSN[E (SSUl] UOTIssaisas SuMIAseq TA) sio[dianeos :sdnors OLIN LIA) YN, [OUEYSeP] PUL [ONUOD ay] JO] synsay "€ “SLA
+
+3109$ @ LVI
+L 0 L-
+
+ 
+
+[gt ‘90-] 90° = (p12)
+
+[gz ‘ool ¢.° = (Lz
+
++
++ +t
+++ t+
+
+[12° ‘so-] 90° = (pi z)s
+
+[go- ‘ze’-] 6. - = (861).
+
+ 
+
+ 
+
++
+loz’ ‘90°"-] 20° = (pL2)s
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
++
+[91° ‘60-] v0" = (p12)
+
+ 
+
+ 
+
+[et ‘8L-] 2o- = (0024
+
+ 
+
+ 
+
+ 
+
+lev ‘Zt Lo = (pie)
+
+ 
+
+ 
+
+[zo- ‘6z’-] 91 - = (861)
+
+ 
+
+ 
+
+adA}0919}$
+Japuas)
+
+adA}09191$
+aoey
+
+@aeneaz
+aoey
+
+9d4}0919}$
+a0us
+
+eaqeneag
+euMeNn
+
+jomuo9
+WNL +
+
+Gé
+
+0s
+
+adAjousyd Wsiny peog
+
+juayonp wsyny
+
+1701
+1702
+
+Birmingham et al.
+
+ 
+
+analysis revealed that the pattern of results remained the
+same when raw RT differences were used instead of D
+scores; ASD participants showed intact social and nonso-
+cial implicit biases that were generally attenuated but not
+different from those of control participants (i.e., the 95%
+Cls overlapped; see Figs. $3 and $4 in the Supplemental
+Material). The second analysis revealed that the globally
+attenuated IAT effect in ASD persisted even when the
+standard deviation of RT was accounted for (see
+Supplemental Results in the Supplemental Material).
+Thus, we conclude that increased variability in RTs of
+ASD participants cannot account for the reduced IAT
+effects they exhibited relative to control participants.
+
+Finally, to confirm that slowed responding by the ASD
+group could not account for their reduced IAT effects, we
+ran three separate regressions similar to those already
+described, but regressing out overall RT, RT in the con-
+gruent test blocks, and RT in the incongruent test blocks.
+Again, the overall pattern of results remained the same:
+Relative to the control group, the ASD group showed a
+slightly weaker overall IAT effect in each case (see
+Supplemental Results).
+
+Discussion
+
+We have presented the first systematic investigation of
+implicit biases in ASD, as measured by the IAT. We exam-
+ined the extent to which implicit social biases are selec-
+tively attenuated in ASD, a disorder characterized by
+atypical social information processing. We found an over-
+all reduction in the IAT effect in ASD, replicating Kirchner
+et al.’s (2012) finding for the race evaluative IAT. However,
+our study revealed that reductions in implicit bias in ASD
+are not specific to social categories, but appear to hold
+across all implicit biases, whether social or nonsocial.
+Furthermore, given that IAT effects were generally intact
+in this group (.e., well above zero), we conclude that the
+basic mechanisms for forming implicit social associations
+remain intact in ASD.
+
+In addition, on the basis of evidence for a dissociation
+between valence-based (i.e., evaluations) and semantic
+(i.e., stereotypes) associations (Amodio & Devine, 2006),
+we explored whether ASD-related abnormalities in these
+distinct types of bias could be identified. Indeed, there is
+evidence suggesting that children with Williams syn-
+drome, a social disorder characterized by hypersociabil-
+ity and lack of social fear, show no evaluative race bias,
+despite having normal gender stereotypes (Santos,
+Meyer-Lindenberg, & Deruelle, 2010). However, our data
+suggest that both valence-based and semantic associa-
+tions remain intact in ASD, as group differences did not
+vary between the evaluative (race, flower) and stereotype
+(gender, race, shoe) IATs.
+
+We supplemented group-level comparisons with an
+examination of more continuous relationships between
+bias and individual differences in autism severity. Whereas
+correlations between IAT scores and autism severity were
+generally weak to nonexistent, we did find a moderate
+negative relationship between race evaluative IAT D score
+and ADOS severity score for social and affective function-
+ing. Although this finding is potentially interesting, we
+hesitate to interpret it given the small sample and lack of
+consistency across different methods for assessing autism
+symptomatology (see Fig. 2). Instead, we suggest that
+future work should focus on replicating and further
+exploring this possible relationship. It may be that a dis-
+proportionate effect of autism symptomatology on implicit
+social evaluative biases is evident only in severe cases of
+autism (which our sample, by selection, did not include).
+
+We also found no notable relationships between IAT
+effects and autistic traits in the general population (online
+participants and healthy control participants), for either
+the social or the nonsocial IATs (Fig. 3). Given the larger
+sample size in this case, we suggest that any associations
+between autistic traits in the general population (as
+indexed by the BAPQ and AQ) and implicit associations
+(as measured by the IAT) are weak at best.
+
+Although we observed reduced (but intact) IAT effects
+in ASD, we found no evidence of reduced explicit ratings
+of bias in ASD. Indeed, if anything, participants with ASD
+reported more extreme biases than control participants
+on some measures of social biases (Fig. 1b). One expla-
+nation for this may be that individuals with ASD are less
+sensitive to social reputation concerns (zuma et al.,
+2011) and are thus less inclined to engage in modulation
+of their responses on surveys assessing explicit bias. Our
+findings for explicit bias converge with those of previous
+studies (Da Fonseca et al., 2011; Hirschfeld et al., 2007)
+in indicating that individuals with ASD have intact knowl-
+edge of culturally transmitted stereotypes.
+
+By including social and nonsocial IATs in our study,
+we demonstrated that the previously observed attenua-
+tion of the IAT effect in ASD (Kirchner et al., 2012) is not
+specific to social categories, which suggests that it does
+not result from social impairments present in ASD. Rather,
+it may result from non-socially specific cognitive process-
+ing differences between individuals with ASD and TD
+individuals. Regression analyses ruled out the “simple”
+explanations that the observed attenuation in IAT D
+scores was due to increased RT variability or slower
+responding in the ASD population. Future work should
+focus on elucidating whether this overall attenuation
+reflects a true, consequential attenuation of implicit
+biases Gi.e., one that affects actual behavior toward indi-
+viduals belonging to a social group) or is an artifact of
+task-specific processing demands.
+Implicit Social Biases in Autism
+
+1703
+
+ 
+
+One limitation of the current study is that we used a
+single measure of implicit bias, the IAT, which requires
+explicit activation of category-level semantic knowledge.
+Therefore, our data do not address possible differences in
+the spontaneous activation of implicit biases during the
+course of everyday social behavior (e.g., when categories
+are not explicit and salient). Other procedures (e.g., eval-
+uative priming—Fazio, Jackson, Dunton, & Williams,
+1995; the affect misattribution procedure—Payne, Cheng,
+Govorun, & Stewart, 2005) may provide a more direct
+assay Of spontaneous activation of implicit attitudes. We
+chose to focus on the IAT because it affords ease of com-
+parison with previous work (e.g., Kirchner et al., 2012)
+and because it has been well documented to predict
+social decision making (e.g., Kubota et al., 2013; Stanley
+et al., 2011). Further, using only one task allowed us to
+consider multiple theoretically relevant distinctions Ce.g.,
+social vs. nonsocial, stereotype vs. evaluation) to provide
+a more nuanced understanding of implicit associations in
+ASD. Although it was outside the scope of the current
+study to include additional tests of implicit bias, future
+work should validate our findings across a range of tasks.
+
+Indeed, it may be that although implicit social biases
+(at least, as measured by the IAT) remain largely intact in
+ASD, their downstream integration with other processes
+leads to atypical social decision making in the real world.
+In addition to using other tasks, future research should
+investigate whether LAT scores predict deliberative behav-
+iors in individuals with ASD, as they do in TD individuals
+(e.g., Kubota et al., 2013; Stanley et al., 2011). Combining
+behavioral studies such as ours with neuroimaging could
+help to determine whether implicit associations are sup-
+ported by the same neural substrate in people with ASD
+as in TD individuals. A final important note is that because
+our sample included only high-functioning adults with
+ASD, future studies investigating implicit biases across a
+range of ages and IQs would help to broaden the conclu-
+sions that can be drawn and might well uncover differ-
+ences more severe or more specific than those we have
+reported here.
+
+Author Contributions
+
+D. Stanley and E. Birmingham contributed equally to this arti-
+cle. E. Birmingham, D. Stanley, and R. Adolphs developed and
+designed the study. Testing and data collection were performed
+by E. Birmingham, D. Stanley, and R. Nair; these three authors
+also performed the data analysis. E. Birmingham, D. Stanley,
+and R. Adolphs interpreted the results and wrote the manu-
+script. All authors approved the final version of the manuscript
+for submission.
+
+Acknowledgments
+
+We thank Catherine Armstrong, Tim Armstrong, and Brian
+Cheng for their help with recruiting participants and collecting
+data, and Daniel Kennedy, Lynn Paul, and Christina Corsello for
+
+their help in confirming diagnoses of autism. We also wish to
+thank the participants and their families for committing their
+time to participate in the research.
+
+Declaration of Conflicting Interests
+
+The authors declared that they had no conflicts of interest with
+respect to their authorship or the publication of this article.
+
+Funding
+
+This work was funded by grants from the Natural Sciences and
+Engineering Research Council of Canada (Grant 611630 to
+E. Birmingham) and from the U.S. National Institute of Mental
+Health (Grant RO1MH080721 to R. Adolphs and Grant
+KO1MH099343 to D. Stanley).
+
+Supplemental Material
+
+Additional supporting information can be found at http://pss
+.sagepub.com/content/by/supplemental-data
+
+Open Practices
+
+OG
+
+All data and materials have been made publicly available via
+Open Science Framework and can be accessed at https://osf
+.io/9tu5tr/. The complete Open Practices Disclosure for this article
+canbe foundathttp://pss.sagepub.com/content/by/supplemental-
+data. This article has received badges for Open Data and Open
+Materials. More information about the Open Practices badges
+can be found at https://osf.io/tvyxz/wiki/1.%20View%20the%20
+Badges/ and http://pss.sagepub.com/content/25/1/3. full.
+
+Notes
+
+1. Note that we use the term bias to refer to both stereotypes
+and prejudices.
+
+2. To ensure that attenuation due to practice did not obscure
+any findings, we confirmed that a similar pattern emerged
+when we compared scores from the first nonsocial and social
+IATs completed (see Table $3 in the Supplemental Material).
+
+3. The race stereotype IAT was introduced into the protocol
+late, and was administered to only 2 participants from the pilot
+study. Given that including these two additional data points
+would not lead to a substantial increase in power, we decided
+not to include the data for the race stereotype IAT in this
+analysis.
+
+4. To ensure that the weakness of the correlations was not
+due to decreased internal consistency in ASD (compared with
+control) participants, we examined the internal consistency
+of IAT D scores in our two populations (see Table S8 in the
+Supplemental Material). If anything, internal consistency was
+higher in our ASD population, which rules out variability in D
+scores as a factor in the weak correlations.
+
+References
+
+American Psychiatric Association. (1994). Diagnostic and sta-
+tistical manual of mental disorders (4th ed.). Washington,
+DC: Author.
+1704
+
+Birmingham et al.
+
+ 
+
+American Psychiatric Association. (2013). Diagnostic and sta-
+tistical manual of mental disorders (Sth ed.). Washington,
+Dc: Author.
+
+Amodio, D. M. (2014). The neuroscience of prejudice and ste-
+reotyping. Nature Reviews Neuroscience, 15, 670-682.
+Amodio, D. M., & Devine, P. G. (2006). Stereotyping and
+evaluation in implicit race bias: Evidence for indepen-
+dent constructs and unique effects on behavior. Journal of
+
+Personality and Social Psychology, 91, 652-661.
+
+Baron, A. S., & Banaji, M. R. (2006). The development of implicit
+attitudes: Evidence of race evaluations from ages 6 and 10
+and adulthood. Psychological Science, 17, 53-58.
+
+Baron-Cohen, S., Wheelwright, S., & Jolliffe, T. (997). Is there
+a “language of the eyes”? Evidence from normal adults, and
+adults with autism or Asperger syndrome. Visual Cognition,
+4, 311-331. doi:10.1080/713756761
+
+Baron-Cohen, S., Wheelwright, S., Skinner, R., Martin, J., &
+Clubley, E. (2001). The Autism-Spectrum Quotient (AQ):
+Evidence from Asperger syndrome/high-functioning au-
+tism, males and females, scientists and mathematicians.
+Journal of Autism and Developmental Disorders, 31, 5-17.
+doi:10.1023/A:100565341 1471
+
+Bigler, R. S., & Liben, L. S. (2007). Developmental intergroup
+theory: Explaining and reducing children’s social stereo-
+typing and prejudice. Current Directions in Psychological
+Science, 16, 162-166.
+
+Chevallier, C., Kohls, G., Troiani, V., Brodkin, E. S, &
+Schultz, R. T. (2012). The social motivation theory of
+autism. Trends in Cognitive Sciences, 16, 231-239.
+
+Cumming, G. (2014). The new statistics: Why and how. Psy-
+chological Science, 25, 7-29. doi:10.1177/0956797613504966
+
+Cvencek, D., Meltzoff, A. N., & Greenwald, A. G. (2011). Math-
+gender stereotypes in elementary school children. Child
+Development, 82, 766-779.
+
+Da Fonseca, D., Santos, A., Rosset, D., & Deruelle, C. 2011).
+The “beauty is good” for children with autism spectrum
+disorders too. Research in Autism Spectrum Disorders, 5,
+299-304.
+
+Dawson, G., Toth, K., Abbott, R., Osterling, J., Munson, J.,
+Estes, A., & Liaw, J. (2004). Early social attention impair-
+ments in autism: Social orienting, joint attention, and atten-
+tion to distress. Developmental Psychology, 40, 271-283.
+doi:10.1037/0012-1649.40.2.271
+
+Fazio, R. H., Jackson, J. R., Dunton, B. C., & Williams, C. J.
+(1995). Variability in automatic activation as an unobtrusive
+measure of racial attitudes: A bona fide pipeline? Journal of
+Personality and Social Psychology, 69, 1013-1027.
+
+Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (1998).
+Measuring individual differences in implicit cognition: The
+implicit association test. Journal of Personality and Social
+Psychology, 74, 1464-1480.
+
+Greenwald, A. G., Nosek, B. A., & Banaji, M. R. (2003).
+Understanding and using the Implicit Association Test: 1.
+An improved scoring algorithm. Journal of Personality and
+Social Psychology, 85, 197-216.
+
+Hirschfeld, L., Bartmess, E., White, S., & Frith, U. (2007). Can
+autistic children predict behavior by social stereotypes?
+Current Biology, 17, R451-R452.
+
+Hurley, R. S. E., Losh, M., Parlier, M., Reznick, J. S., & Piven,
+J. (2007). The Broad Autism Phenotype Questionnaire.
+Journal of Autism and Developmental Disorders, 37,
+1679-1690.
+
+Hus, V., & Lord, C. (2014). The Autism Diagnostic Observation
+Schedule, Module 4: Revised algorithm and standardized
+severity scores. Journal of Autism and Developmental
+Disorders, 44, 1996-2012.
+
+Izuma, K., Matsumoto, K., Camerer, C. F., & Adolphs, R. 2011).
+Insensitivity to social reputation in autism. Proceedings of
+tbe National Academy of Sciences, USA, 108, 17302-17307.
+
+Kennedy, D. P., & Adolphs, R. (2012). The social brain in psy-
+chiatric and neurological disorders. Trends in Cognitive
+Sciences, 16, 559-572.
+
+Kirchner, J. C., Schmitz, F., & Dziobek, I. (2012). Brief report:
+Stereotypes in autism revisited. Journal of Autism and
+Developmental Disorders, 42, 2246-2251.
+
+Kubota, J. T., Li, J., Bar-David, E., Banaji, M. R., & Phelps, E. A.
+(2013). The price of racial bias: Intergroup negotiations in
+the Ultimatum Game. Psychological Science, 24, 2498-2504.
+
+Lakens, D. (2013). Calculating and reporting effect sizes to
+facilitate cumulative science: A practical primer for t-tests
+and ANOVAs. Frontiers in Psychology, 4, Article 863.
+doi:10.3389/fpsyg.2013.00863
+
+Lane, K. A., Banaji, M. R., Nosek, B. A., & Greenwald, A. G.
+(2007). Understanding and using the implicit association
+test: IV. What we know (so far) about the method. In B.
+Wittenbrink & N. Schwarz (Eds.), Implicit measures of atti-
+tudes (pp. 59-102). New York, NY: Guilford Press.
+
+Lin, A., Rangel, A. & Adolphs, R. (2012). Impaired learning
+of social compared to monetary rewards in autism. Fron-
+tiers in Neuroscience, 6, Article 143. Retrieved from http://
+journal frontiersin.org/article/10.3389/fnins.2012.00143/full
+
+Lord, C., Risi, S., Lambrecht, L., Cook, E. H., Jr., Leventhal, B. L.,
+DiLavore, P. C.,... Rutter, M. (2000). The Autism Diagnostic
+Observation Schedule—Generic: A standard measure of
+social and communication deficits associated with the
+spectrum of autism. Journal of Autism and Developmental
+Disorders, 30, 205-223.
+
+Lord, C., Rutter, M., Delavore, P. C., Risi, S., Gotham, K.,
+& Bishop, S. L. (2012). ADOS-2: Autism Diagnostic
+Observation Schedule, second edition. Part 1: Modules 1-4.
+Torrance, CA: Western Psychological Services.
+
+Martin, C. L., Wood, C. H., & Little, J. K. @990). The develop-
+ment of gender stereotype components. Child Development,
+61, 1891-1904.
+
+Mason, W., & Allon, S. (2013). Open source, Web-based IAT.
+Retrieved from https://github.com/winteram/IAT
+
+McConahay, J. B., Hardee, B. B., & Batts, V. (1981). Has racism
+declined in America? It depends on who is asking and what
+is asked. Journal of Conflict Resolution, 25, 563-579.
+
+Moran, J. M., Young, L. L., Saxe, R., Lee, S. M., O’Young, D.,
+Mavros, P. L., & Gabrieli, J. D. (2011. Impaired theory
+of mind for moral judgment in high-functioning autism.
+Proceedings of the National Academy of Sciences, USA, 108,
+2688-2692. doi:10.1073/pnas.1011734108
+
+Nosek, B. A., Banaji, M., & Greenwald, A. G. (2002). Harvesting
+implicit group attitudes and beliefs from a demonstration
+Implicit Social Biases in Autism
+
+web site. Group Dynamics: Theory, Research, and Practice,
+6, 101-115.
+
+Nosek, B. A., Greenwald, A. G., & Banaji, M. R. (2005). Under-
+standing and using the Implicit Association Test: II. Method
+variables and construct validity. Personality and Social Psy-
+chology Bulletin, 31, 166-180. doi:10.1177/0146167204271418
+
+Payne, B. K., Cheng, C. M., Govorun, O., & Stewart, B. D.
+(2005). An inkblot for attitudes: Affective misattribution as
+implicit measurement. Journal of Personality and Social
+Psychology, 89, 277-293.
+
+Plant, E. A., & Devine, P. G. (1998). Internal and external moti-
+vation to respond without prejudice. Journal of Personality
+and Social Psychology, 75, 811-832.
+
+Santos, A., Meyer-Lindenberg, A., & Deruelle, C. (2010).
+Absence of racial, but not gender, stereotyping in Williams
+syndrome children. Current Biology, 20, R307-R308.
+
+Sasson, N.J., Lam, K. S., Childress, D., Parlier, M., Daniels, J. L., &
+Piven, J. (2013). The Broad Autism Phenotype Questionnaire:
+Prevalence and diagnostic classification. Autism Research, 6,
+134-143.
+
+Schultz, R. T. (2005). Developmental deficits in social percep-
+tion in autism: The role of the amygdala and fusiform face
+area. International Journal of Developmental Neuroscience,
+23, 125-141.
+
+1705
+
+Stanley, D. A., Sokol-Hessner, P., Banaji, M. R., & Phelps,
+E. A. (2011). Implicit race attitudes predict trust-
+worthiness judgments and economic trust decisions.
+Proceedings of the National Academy of Sciences, USA,
+108, 7710-7715.
+
+Swim, J. K., Aikin, K. J., Hall, W. S., & Hunter, B. A. (1995).
+Sexism and racism: Old-fashioned and modern prejudices.
+Journal of Personality and Social Psychology, 68, 199-214.
+
+Wainer, A., Ingersoll, B., & Hopwood, C. J. (2011). The struc-
+ture and nature of the broader autism phenotype in a non-
+clinical sample. Journal of Psychopathology and Bebavioral
+Assessment, 33, 459-469.
+
+Wechsler, D. (1981). Wechsler Adult Intelligence Scale—Revised.
+San Antonio, TX: Psychological Corp.
+
+Wechsler, D. (1991). Wechsler Intelligence Scale for Children—
+Third Edition. San Antonio, TX: Psychological Corp.
+
+Wechsler, D. (1997). Wechsler Adult Intelligence Scale—Third
+Edition. San Antonio, TX: Psychological Corp.
+
+Wechsler, D. (1999). WAST administration and scoring man-
+ual. San Antonio, TX: Psychological Corp.
+
+Wechsler, D. (2011). Wechsler Abbreviated Scale of ntelligence—
+Second Edition. San Antonio, TX: Psychological Corp.
+White, M. J., & White, G. B. (2006). Implicit and explicit occu-
+
+pational gender stereotypes. Sex Roles, 55, 259-266.
+

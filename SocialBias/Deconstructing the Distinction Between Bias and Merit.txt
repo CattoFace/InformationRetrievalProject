@@ -1,0 +1,3275 @@
+ 
+
+HEINONLINE
+
+DATE DOWNLOADED: Tue Nov 22 07:54:17 2022
+SOURCE: Content Downloaded from HeinOnline
+
+Citations:
+
+Bluebook 21st ed.
+Daria Roithmayr, Deconstructing the Distinction between Bias and Merit, 10 LA RAZA
+L.J. 363 (1998).
+
+ALWD 7th ed.
+Daria Roithmayr, Deconstructing the Distinction between Bias and Merit, 10 La Raza
+LJ. 363 (1998).
+
+APA 7th ed.
+Roithmayr, D. (1998). Deconstructing the distinction between bias and merit. La Raza
+Law Journal, 10(1), 363-422.
+
+Chicago 17th ed.
+Daria Roithmayr, "Deconstructing the Distinction between Bias and Merit," La Raza Law
+Journal 10, no. 1 (Spring 1998): 363-422
+
+McGill Guide 9th ed.
+Daria Roithmayr, "Deconstructing the Distinction between Bias and Merit" (1998) 10:1
+La Raza LJ 363.
+
+AGLC 4th ed.
+Daria Roithmayr, ‘Deconstructing the Distinction between Bias and Merit’ (1998) 10(1)
+La Raza Law Journal 363
+
+MLA 9th ed.
+Roithmayr, Daria. "Deconstructing the Distinction between Bias and Merit." La Raza
+Law Journal, vol. 10, no. 1, Spring 1998, pp. 363-422. HeinOnline.
+
+OSCOLA 4th ed.
+Daria Roithmayr, ‘Deconstructing the Distinction between Bias and Merit’ (1998) 10 La
+Raza LJ 363
+
+Provided by:
+Younes & Soraya Nazarian Library, University of Haifa
+
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline’s Terms and
+Conditions of the license agreement available at
+htips.//heinonline.org/HOL/License
+
+-- The search text of this PDF is generated from uncorrected OCR text.
+
+-- To obtain permission to use this article beyond the scope of your license, please use:
+
+Copyright Information
+Deconstructing the Distinction
+Between Bias and Merit
+
+Daria Roithmayrt
+
+In this article Professor Roithmayr attempts to develop in the context
+of law school admissions a theoretical argument from deconstruction to
+support the radical critique of merit. The radical critique, espoused
+primarily by Critical Race Theorists and radical feminists, argues that
+merit standards disproportionately exclude white women and people of
+color because merit standards were developed by dominant social
+groups, in ways that have disproportionately benefited their descen-
+dants. Using a critical history of law school admission standards, as
+well as a deconstructive reading of a defense of merit offered by
+Professors Daniel Farber and Suzanna Sherry, Professor Roithmayr
+deconstructs the distinction between merit standards and social bias,
+to argue that merit standards necessarily embody race-conscious
+social preferences existing at the time the standards were developed.
+Reviewing the history of law school admissions standards, she demon-
+strates that choices about what constitutes socially valuable ability in
+the legal profession and legal education historically were made in the
+context of the profession’s explicitly race-conscious effort to exclude
+immigrants and people of color. Professor Roithmayr then proposes to
+use deconstructive and critical historical insights about merit and bias
+to modify Title VI doctrine to reflect the fact that merit standards histori-
+cally have depended on and deferred to race-conscious social bias.
+
+The mind funnels of Harvard and Yale are called standards.
+Standards are concrete monuments to socially accepted
+
+ 
+
+Copyright © 1997 California Law Review, Inc.
+
+t+ Associate Professor of Law, University of Illinois College of the Law. Special thanks to
+Steve Ross, David Jacobsen, Russell Korobkin and participants in the Critical Race Theory Workshop
+panel on works-in-progress for extensive and invaluable comments. All errors, of course, are the
+author's,
+
+1449
+
+363
+364 LA RAZA LAW JOURNAL (Vol. 10:363
+
+1450 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+subjective preference. Standards are like paths picked through
+fields of equanimity, worn into hard wide roads over time, used
+always because of collective habit, expectation and convenience.
+The pleasures and perils of picking one’s own path through the
+field are soon forgotten; the logic or illogic of the course of the
+road is soon rationalized by the mere fact of the road.
+
+—Patricia A. Williams'
+
+The meritocratic ideal is that positions in society should be based
+on the abilities and achievements of the individual rather than on
+characteristics such as family background, race, religion, or
+wealth. This ideal requires that merit be objective in the sense of
+being definable without reference to those personal characteris-
+tics.
+
+—Daniel A. Farber and Suzanna Sherry’
+
+The results from Proposition 209 are finally in and the numbers
+are quite dramatic. Administrators on law school campuses in the
+University of California system have released the demographic profiles
+of the first class of students admitted and enrolled under the edicts of
+Proposition 209, which precludes the use of race in educational admis-
+sions decisions. Not surprisingly, the number of Latino/a and African-
+American students enrolled in U.C. law schools had dropped sharply.’
+
+ 
+
+1. Patricia A. WILLIAMS, THE ALCHEMY OF RACE AND RIGHTS 99 (1991),
+
+2. Dante. A. FARBER & SUZANNA SHERRY, BEYOND ALL REASON: THE RADICAL ASSAULT
+ON TRUTH IN AMERICAN Law (1997) [hereinafter FARBER & SHERRY, BEYOND ALL REASON]; see
+also Daniel Farber and Suzanna Sherry, Is the Radical Critique of Merit Anti-Semitic?, 83 Cauir, L.
+Rev. 853, 858 (1995) [hereinafter Farber & Sherry, Radical Critique of Merit).
+
+3. The following figures reflect a comparison between admissions and enrollment figures for
+1996 (under admissions policies that could consider race as a factor) versus 1997 (under new
+admissions policies that prohibited considering race as a factor). At the University of California-
+Davis School of Law, admissions for Latinos/as dropped from 8.28% (69) to 6.21% (50); for African
+Americans, admissions dropped from 3.24% (27) to 2.49% (20). In a class of 172 enrolled, 6 (3.48%)
+were Latinos/as and 5 (2.9%) were African American. Letter from Sharon Pinkney, Director of
+Admissions at the University of California-Davis, to Joe Jaramillo, MALDEF, September 5, 1997 (on
+file with author).
+
+At the University of California-Los Angeles School of Law, admissions for Latinos/as dropped
+from 10.7% (108) to 7.34% (74); for African-Americans, admissions dropped sharply from 10.3%
+(104) to 2.08% (21). Enrollments for Latinos/as dropped from 14.65% (45) to 10.23% (39); for
+African Americans, enroliment dropped from 6.2% (19) to 2.62% (10). Chart, UCLA School of Law
+Statistics 1980-97, September 4, 1997 (on file with the author).
+
+At the University of Califomia-Berkeley School of Law (Boalt Hall), admissions for Latinos/as
+were cut almost in half from 9.6% (78) to 4.9% (39); for African-Americans, admissions dropped
+sharply from 9.2% (75) to 1.8% (14). Seven Latinos/as currently enrolled this year (2.88% of new
+1998] BIAS AND MERIT 365
+
+1997] BIAS AND MERIT 1451
+
+But even the most prescient of commentators could not have predicted
+that the University of California-Berkeley School of Law (Boalt Hall)
+would not enroll a single African-American student admitted for the
+1997-1998 year.’
+
+Reaction to the numbers has been mixed. Supporters of affirmative
+action point out the obvious, that the new admissions policy has dispro-
+portionately excluded people of color from University of California and
+Texas law schools, and fear that the new admissions programs will reseg-
+regate these institutions.’ Opponents of affirmative action argue that the
+new policy is appropriately meritocratic and race-neutral, and that the
+policy’s disproportionate impact on applicants of color can be ex-
+plained by poor schooling or cultural differences.’ Those explanations
+notwithstanding, the U.S. Department of Education’s Office of Civil
+Rights recently has agreed to investigate whether the SP-1 admissions
+process, as the new process is called, violates Title VI, which prohibits
+discrimination on the basis of race or ethnicity in higher education.’
+
+In many ways, what is at stake in the California affirmative action
+debate is not just quibbling over the fate of the so-called “talented
+tenth.” Rather, the controversy focuses on a concept at the heart of
+contemporary race politics in the idea that merit and bias are opposites,
+and that merit is a race-neutral concept, while bias is race-conscious. As
+
+ 
+
+enrollees) (seven deferred from the previous year). Letter from Edward Tom, Director of
+Admissions, Boalt Hall to Joe Jaramillo, MALDEF, August 25, 1997 (on file with the author).
+
+At the University of California-Hastings School of Law, admissions for Latinos/as dropped from
+9.5% (169) to 6.3% (81). For African Americans, admissions dropped from 5.2% (92) to 3.0% (38).
+Enrollments for Latinos/as dropped from 6.7% (43) to 6.0% (19), and for African Americans from
+5.3% (26) to 2.8% (9). Letter from Angele Khachadour, Office of the General Counsel, UC-Hastings
+Law School to Joe Jaramillo, MALDEF, September 3, 1997 (on file with author).
+
+4. See Letter from Edward Tom, supra note 3. Only one African-American student, Eric
+Brooks, who had been admitted the previous year, but had deferred enrollment for a year, was
+enrolled for the 1997-98 academic year. See id.
+
+5. Freshman Fallout, Houston Chronicle, August 24, 1997 at 1 (Robert Berdahl, speculating
+that Texas public schools enrolled fewer minorities because of fears of resegregation).
+
+6. According to University of Texas law professor Lino Graglia, “Black and Hispanic people
+do not do as well on standardized tests and come from cultures in which ‘failure is not looked upon
+with disgrace..." UT Group Praises Hopwood Ruling, AUSTIN-AMERICAN STATESMAN, September
+11, 1997 at B1. Law school enrollments in Texas dropped significantly after Attorney General Dan
+Morales interpreted the Fifth Circuit’s decision in Hopwood v. Texas, 78 F.3d 932 (5th Cir. 1996), to
+bar affirmative action and retention programs in law schools. In particular, enrollments at Texas
+public law schools dropped by the following percentage points for the groups listed: Black-23%;
+Latino-19%; Asian-24%; American-Indians-53%. Law, Medical Schools Hunting For Minorities,
+AUSTIN AMERICAN STATESMAN, October 17, 1997 at Cl.
+
+7. UC Law Schools Face Discrimination Investigation, Los ANGELES Times, July 15, 1997 at
+A3. Title VI, 42 U.S.C. section 2000¢d (1994) (Title VI of the Civil Rights Act of 1964) [hereinafter
+“Title VI"), prohibits discrimination on the basis of race in federally funded education programs.
+366 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1452 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+is reflected in the opening citation, the conventional understanding of
+Merit assumes that merit standards measure an individual’s potential
+ability to produce something of social value—good lawyering, or high
+performance in law school, for example—by assessing certain traits,
+qualities, or skills that reflect potential ability. Law schools admit stu-
+dents on the basis of their grades and LSAT scores—on their
+“merits”—-because admissions committees think that a high score on
+the LSAT and a high GPA reflect an applicant’s potential ability to
+achieve and produce social value in legal education and the legal pro-
+fession.
+
+In contrast, bias is understood as the direct opposite of merit.
+Biased selection standards—those based on race, ethnicity, family con-
+nections, social status—are condemned because society does not think
+that these factors rationally correlate to the ability to produce value in
+legal education or the legal profession. To the extent that statistical
+analysis might demonstrate some correlation between race and success
+in law schools, scholars search for some external and theoretically race-
+neutral factor—e.g., poor schooling—to explain the correlation. But
+they begin with the presumption that the standards by which they meas-
+ure merit are race-neutral, and that merit itself—the ability to produce
+something of social value—is race-neutral as well. Within that frame-
+work of analysis, policy-makers seek to eliminate racism by rooting out
+bias and ensuring that opportunities are distributed on the race-neutral
+basis of pure merit standards.
+
+And then comes the radical critique of merit, which literally stands
+the distinction between merit and bias on its head. The radical critique,
+articulated primarily by critical race theorists and some radical feminist
+scholars, argues that merit standards disproportionately exclude people
+of color and women because the standards historically have been devel-
+oped by members of dominant groups in ways that end up favoring
+them. Scholars like Patricia Williams have argued that merit standards
+are simply socially acceptable subjective preferences, developed by
+members of social groups who were in power at the relevant time and
+place in history, and whose descendants continue to disproportionately
+benefit from decisions made under those standards.’ We have forgotten
+or suppressed the standards’ subjective history, according to Williams,
+and now represent the standards to be ahistorical, objective measures of
+ability. Having separated the standards from their history, we do not
+contemplate the notion that what constitutes ability itself is subjective
+
+ 
+
+8. WILLIAMS, supra note 1, at 99. See alse infra note 9.
+1998] BIAS AND MERIT 367
+
+1997] BIAS AND MERIT 1453
+
+and constructed under particular historical circumstances by particular
+social groups.
+
+Although several scholars have sketched the outlines of the radical
+critique of merit,’ those outlines have been more general in nature. This
+article attempts to develop more fully a deconstructive theoretical argu-
+ment in support of the radical critique of merit, using a critical history
+of law school admissions to illustrate that merit standards are necessarily
+the effect of subjective, social and contingent race-conscious prefer-
+ences for particular kinds of abilities.
+
+The Article takes as its point of critical departure the objectivist
+conception of merit defended by Professors Daniel Farber and Suzanna
+Sherry in their latest work. In their book Beyond All Reason: The
+Radical Assault on Truth in American Law, Farber and Sherry continue
+their long-standing defense of the conventional notion that merit stan-
+dards, when properly applied, provide some measure of excellence that
+is objective and independent of ideology or culture.
+
+Farber and Sherry do not defend merit on theoretical grounds.
+Rather, they start with the empirical claim that Jews and some Asian
+groups have had disproportionate success under current meritocratic
+systems."° Armed with this assumption, they level two political objections
+to the radical critique. First, they argue that radical critics cannot recon-
+cile the success of Jews and Asian Americans with the argument that
+merit standards were constructed to exclude people of color.'' Second,
+they contend that the radical critique unfairly characterizes the successes
+of Jews and Asian Americans as undeserved, and seeks to deprive mem-
+bers of those groups of their hard-won successes.’* The better argument,
+say the authors, is that Jews and some Asian-American groups have suc-
+ceeded because they possess an objective quality called “merit” that is
+
+ 
+
+9. See Richard Delgado, Rodrigo’s Tenth Chronicle: Merit and Affirmative Action, 83 Geo LJ.
+1711 (1995) [hereinafter Delgado, Rodrigo’s Tenth Chronicle], Richard Delgado, Rodrigo's
+Chronicle, 101 Yate LJ. 1357, 1364 (1992); Robert L. Hayman, Jr. & Nancy Levit, The Tales of
+White Folk: Doctrine, Narrative and the Reconstruction of Racial Reality, 84 CauiF. L. REv, 377, 403
+(1996); Duncan Kennedy, A Cultural Pluralist Case for Affirmative Action in Legal Academia, 1990
+Duxe LJ. 705 (1990) [hereinafter A Culturally Pluralist Case]; Gary Peller, Race Consciousness,
+1990 Duke LJ. 758, 803-807 (1990); Williams, supra note 1, at 104-110.
+
+10. See Farper & SHerry, BEYOND ALL REASON, supra note 2 at 57-58.
+
+Vi. See id. at 10 (‘If there is no such thing as objective merit, what explains the success of Jews
+and Asian Americans, both of whom, like Blacks, have been victims of discrimination by white
+Gentile America?”)
+
+12. See id. at 10-11 (“The radical theories inescapably imply that Jews and Asians [sic] enjoy
+an unfair share of wealth and status. . . .In short, we believe that radical multiculturalism implies that
+Jews and Asian Americans are unjustly favored in the social distribution of goods.”)
+368 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1454 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+independent of race or ethnicity.* To explain why other people of color
+have failed to achieve comparable success, Farber and Sherry argue that
+the most likely explanation (given that it disturbs status quo assumptions
+the least) is that dominant groups have applied objectively valid merit
+standards to those groups in a discriminatory manner.’
+
+Although the authors studiously avoid metaphysical discussions
+about the existence of “objective merit,” their work nevertheless relies
+on a conventional theoretical distinction between merit and bias.
+According to the authors’ logic, society should prefer merit standards
+because they efficiently select for the ability to create social value, and
+therefore are logically associated with justice, rationality, objectivity and
+color-blindness. In contrast, society should disfavor “biased” criteria
+such as race, wealth or family connections, because those criteria derive
+from status, and are associated with subjectivity, irrationality and race-
+consciousness."
+
+To be sure, Farber and Sherry’s distinction between merit and bias
+comports with conventional mainstream understandings of why merit
+standards should be preferred over standards that are biased. But the
+conventional distinction between merit and bias ignores the way in
+which ideas about what constitutes value in a particular institutional set-
+ting, and what constitutes an appropriate way to measure for the poten-
+tial to create that value, are necessarily contingent, subjective, and
+historically specific ideas.
+
+This Article deconstructs the authors’ conceptual opposition be-
+tween merit and bias to make three related arguments. First, merit stan-
+dards necessarily defer to and depend on the very ideas that define
+social bias and distinguish it from merit. For merit standards to measure
+the ability to create social value, as they are said to do, the standards
+must necessarily defer to social preferences about what constitutes social
+value, and how that value is produced. These preferences are necessarily
+subjective and race-conscious; they are developed in a historically con-
+tingent social context and are authored by members of groups who have
+
+ 
+
+13. See id. at 57, 59 (“There is no doubt that Jews and Asians [sic], considered as groups, have
+achieved extraordinary success in our society, on average outperforming white gentiles on many
+measures of success.” “If objective merit is wholly irrelevant, it is difficult to account for Jewish or
+Asian [sic] success.”’)
+
+14. See id. at 55, 56 (‘Denouncing the concept of merit altogether is much more satisfying than
+simply charging that objective standards of merit are applied in a discriminatory fashion, as
+unfortunately they sometimes are.” “[The argument that current discrimination is the cause of
+differential success rates between blacks and whites] also suggests that what blacks—and by
+extension other disadvantaged groups—need to do is to continue battling discrimination.”).
+
+15. See id. at 54.
+1998] BIAS AND MERIT 369
+
+1997) BIAS AND MERIT 1455
+
+enough social power—which historically has been based in part on their
+race and ethnicity—to define what counts as social value. Thus, merit
+standards necessarily reinscribe the very qualities that Farber and Sherry
+associate with bias—subjectivity, nonrationality, race-consciousness and
+social status. In some meaningful sense, then, merit standards can be
+redescribed as a form of bias that has come to be socially accepted.
+
+This Article uses the example of law school admissions to illustrate
+that choices about social value in the legal profession and education—
+and the merit standards designed to promote that social value—
+historically have been tied to the social status of professional leaders
+and, in this case, to the profession’s desire to bar entry to immigrants
+and people of color. In particular, choices about the way law is prac-
+ticed, and more specifically about the way law is taught, were made in
+the context of the profession’s explicit effort to stem the tide of immi-
+grants and Black men who sought to become lawyers in the early 1900s.
+Those choices still govern much of legal practice and education today.
+
+Second, the Article suggests that, because determining what consti-
+tutes “social value” in any particular context is necessarily an histori-
+cally-specific, contingent phenomenon, Farber and Sherry might better
+explain the disproportionate success of Jews and some Asian-American
+groups by conducting a critical historical inquiry. Given the historical
+differences between groups, it would be more useful to determine the
+conditions under which these groups achieved their success, rather than
+reasoning abstractly and ahistorically about why each group has or has
+not succeeded.
+
+Finally, the Article proposes that the deconstructivist interpretation
+of merit be put to practical use. Using deconstructivist insights in con-
+junction with the critical history of law school admissions criteria, liti-
+gators might be able to argue that current merit standards in the SP-1
+law school admissions process in the University of California system
+violate Title VI (which precludes discrimination in educational institu-
+tions that receive federal money), because these standards historically
+were developed in the context of racial exclusion, and because the stan-
+dards as they are currently operated serve to disproportionately exclude
+Latinos/as and African Americans. At the very least, this argument based
+on history and statistics should shift the burden of proof to proponents
+of merit standards, who should have to prove that the standards are
+“pure”—that is, they were not adopted or developed in a context where
+people of color were routinely excluded, or they do not disproportion-
+ately affect people of color.
+370 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1456 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+Part I of this Article attempts to provide a primer on the method of
+deconstructive practice, in order to translate and make accessible con-
+cepts that are relevant to this project. This section briefly traces the theo-
+retical evolution of deconstructive practice from structuralism and post-
+structuralism. It demonstrates, using an example of deconstructive rede-
+scription, that concepts like merit or reason are rhetorical categories that
+are historically created in the context of particular social institutions,
+and are not objectively grounded in “true” or “real” accounts of the
+way things really are.
+
+Part II applies this deconstructive method to the passage in Farber
+and Sherry’s text in which the authors attempt to justify the conven-
+tional preference for merit by contrasting it to bias. In particular, the
+deconstructive reading of the authors’ defense of merit demonstrates
+that “merit” standards necessarily and inevitably defer to arbitrary,
+race-conscious, subjective and historically contingent preferences—i.e.,
+to socially acceptable biases—about what constitutes social value. The
+Article illustrates this argument by showing how law school admissions
+standards deferred to and relied upon subjective, historically and so-
+cially contingent choices, made by leaders of the profession—whose
+status was based in large part on race—in the context of a concerted ef-
+fort by the profession to keep immigrants and Blacks out of practice
+and legal education. To the extent that law school admissions standards
+were developed in the context of racial exclusion, and perhaps for the
+explicit purpose of racial exclusion, it should come as no surprise that
+these standards continue to exclude disproportionately on the basis of
+race and ethnicity.
+
+This critical history of law school admissions demonstrates the lim-
+its of the objectivist defense of merit, which purports to rely on reason
+and not politics for its justification. By demonstrating the indeterminacy
+of the distinction between merit and bias, deconstruction clears the way
+for an explicitly political discussion about how we want to distribute op-
+portunity in educational institutions and the workplace.
+
+Part III explores several additional implications of the deconstruc-
+tive reading for Farber and Sherry’s defense of merit. First, the section
+suggests that, rather than drawing “logical” conclusions about Jewish
+and Asian-American success, Farber and Sherry might find it more use-
+ful to conduct a critical historical inquiry into the matter. For example,
+an historical inquiry might reveal, as the authors themselves have sug-
+gested, that some Asian-American groups and Jews have overcome some
+forms of historical discrimination by using their own cultural capital
+to beat the dominant discourse at its own “merit” game. Perhaps these
+1998] BIAS AND MERIT 371
+
+1997] BIAS AND MERIT 1457
+
+groups have taken advantage of their own independently developed
+cultural emphasis on formal education in certain professions to excel at
+the kind of merit valued by conventional standards. In any event, ahis-
+torical comparisons and abstract analyses are problematic, given that
+merit is necessarily a historically and culturally contingent assessment.
+
+More pragmatically, the section proposes that litigators deliberately
+and strategically make use of deconstructive insights into merit and bias
+to argue under Title VI that SP-1 admissions standards are both histori-
+cally and currently discriminatory. This section proposes a new hybrid
+category of claim under anti-discrimination law, an “intentional im-
+pact” category, which combines elements of intentional discrimination
+with elements of disproportionate impact doctrine. Under “intentional
+impact” claims, plaintiffs could mount a prima facie case upon showing
+that a merit selection process can be traced in some way to historical
+discrimination (even if that discrimination is not institution-specific), in
+conjunction with a showing that the procedure currently disproportion-
+ately excludes applicants of color. Defenders of a selection process like
+SP-1 would then have to prove either that the standards were not devel-
+oped in the context of early efforts by legal institutions to exclude ap-
+plicants of color from the bar or that they have no disproportionate
+impact on protected groups.
+
+Finally, Part [V disputes the author’s charge that the radical cri-
+tique is nihilistic. This section argues that, to the contrary, deconstruc-
+tion deploys rigorously analytical reasoning to expose the limits of that
+rationality, and to clear the way for a necessarily political discussion on
+how society should distribute its resources. Indeed, the radical critique is
+nihilist only when one already accepts the need for and the possibility
+of transcendent and uncontroversial criteria to choose between compet-
+ing accounts of merit.
+
+J
+A PRIMER ON DECONSTRUCTIVE PRACTICE
+
+A. The Deconstructive Turn
+
+Deconstructive practice proceeds from the premise that language
+does not neutrally and objectively represent objects that are “out there”
+in reality. Instead, deconstructivists point out that our knowledge of re-
+ality is inextricably bound up with, and shaped by, language or other
+372 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1458 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+practices that we use to represent reality." According to Jacques
+Derrida,” most conventional Western intellectual traditions rely on a
+“metaphysics of presence”—the idea that objects in the real world and
+ideas inside someone’s head are actually present in some sort of exis-
+tentially meaningful way that can be described as real and “true.”™
+These “logocentric” traditions assume that objects and consciousness
+are “present” and exist independently of the language we use to de-
+scribe them.”
+
+Under this logocentric view of language, words derive their
+meaning from a one-to-one correspondence with naturally existing ob-
+jects or ideas. Words merely reflect these objects or ideas “as they really
+are,” and our understanding of the objects and ideas is prior to, and
+is not affected or shaped by, process of representation itself.”° For ex-
+ample, the word “tree” is a sign that substitutes for the “real thing”—
+the physical arboreal entity—and the word reflects the thing perfectly,
+
+ 
+
+16. To trace the history of deconstructive practice is to pretend that deconstruction fits into
+determinate categories by way of some coherent, logical worked-out theory, a notion that is of course
+antithetical to the entire project of post-structuralism. In particular, “[t]o present ‘deconstruction’ as
+if it were a method, a system or a settled body of ideas, would be to falsify its nature and lay oneself
+open to charges of reductive misunderstanding.” CHRISTOPHER NORRIS, DECONSTRUCTION: THEORY
+AND PRACTICE 1 (1991). However reductive and oversimplified, these accounts nevertheless may be
+of some use to the reader.
+
+17. Widely acknowledged as the father of deconstruction, Jacques Derrida’s writings do not fit
+neatly within any of the traditional categories of academic disciplines. His professional training was
+in philosophy at the Ecole Normale Superieure in Paris. His ideas have influenced many other fields
+outside philosophy, including literary theory, linguistics, sociology, psychoanalysis and feminist
+studies. See RICHARD KEARNEY & MARIA RAINWATER, THE CONTINENTAL PHILOSOPHY READER
+289, 438 (1996); Norris, supra note 16, at 18.
+
+The section relies not only on Derrida’s work but also on secondary analysis of Derrida, namely
+the work of Gayatri Spivak, Jonathan Culler and Christopher Norris. See Translator’s Preface to
+JONATHAN CULLER, ON DECONSTRUCTION: THEORY AND CRITICISM AFTER STRUCTURALISM
+(1982). See generally JacquES DERRIDA, OF GRAMMATOLOGY (Gayatri Spivak trans., 1976),
+Norris, supra note 16.
+
+18. See CULLER, supra note 17, at 92-94. In Derrida’s words, the logocentric “metaphysic of
+presence” might be described as “the determination through history of the meaning of being in
+general as  presence...[e.g.,] presence of the object to sight...presence as
+substance/essence/existence ... temporal presence as the point of the now or the instant... self
+presence of the cogito, consciousness, subjectivity, co-presence of the self and the other...” /d. at
+92-93 (citing DERRIDA, supra note 17, at 23).
+
+19. Under the logocentric view, “[Hanguage was not understood to create meaning, but rather
+to operate as a tool to uncover and manipulate a concealed, but already known or knowable, order.
+The content of this order was neither altered by, nor contingent upon, the mediation of the encounter
+with language itself.” Thomas C. Heller, Structuralism and Critique, 36 Stan. L. Rev. 127, 139
+(1984),
+
+20, See id. at 134-35. “[BJoth world and will (consciousness) have been independent of, and
+prior to, language.” /d. at 138.
+1998] BIAS AND MERIT 373
+
+1997] BIAS AND MERIT 1459
+
+without any interference or shaping of our knowledge about the tree
+from the language system we use to represent it.
+
+In contrast, structuralism argues that “our knowledge of the world
+is inextricably shaped and conditioned by the language that serves to
+represent it.”?! Under the structuralist view of language, words or other
+representational “signs” do not get their meaning from a correspon-
+dence to real objects in the world or in human consciousness. Rather,
+the meaning of a term comes from its structural relationships of differ-
+ence or similarity to other terms or codes in a representational system.”
+For example, the word “tree” acquires its meaning from its difference
+from words like “sky,” “sun” or “ground,” and from its similarity
+or organizational relationship’ to words like “bush,” “twig” and
+“arbor.” Moreover, “tree” only makes sense as part of a scientific
+naming system that organizes plants into separate categories based on
+whether they have woody stems, and whether they grow to a certain
+height, and so on.
+
+These structural relationships of difference and sameness not only
+create the categories that we use to express what we perceive, but also
+shape the process of perception itself. According to Saussure,”
+“[mJeanings are bound up...in a system of relationship and differ-
+ence that effectively determines our habits of thoughts and percep-
+tion.” It is not possible to say whether the chaotic phenomena that
+constitute the world “out there” is “naturally” divided up into the dis-
+crete perceptual categories into which we have organized them. We
+simply cannot know our physical world without already having shaped
+our perceptions to correspond with the categories of knowledge and
+
+ 
+
+21. Norris, supra note 16, at 4. Structuralism first appeared in linguistics, and then moved
+through anthropology and literary criticism, but was quickly overtaken in the U.S. by post-
+structuralism in literary criticism. See Peter Schanck, Understanding Postmodern Thought and Its
+implications For Statutory Interpretation, 65 S. Cau. L. Rev. 2505, 2520 (1992).
+
+22. “Meaning, in this view, arises solely from formal relations between signs and not directly
+from any substance in the signs themselves....(Meaning] must originate in the discovery of
+similarity and difference within a system of discrete linguistic units.” Heller, supra note 19, at 141-42,
+
+23. ‘“{The] most precise characteristic is [it is) what the others are not.” FERDINAND DE
+SAUSSURE, COURSE IN GENERAL Lincuistics 117 (W. Baskin trans., 1959). See also Gary Peller,
+The Metaphysics of American Law, 73 Car. L, Rev. 1151, 1165 (1984) (“The meaning of ‘tree’ is
+generated through the socially created system for dividing things in the world. Tree is contrasted with
+bush, sky, supper, etc.”).
+
+24. Saussure defines “associative relations” as structural associations that are “part of the inner
+storehouse that makes up [linguistic] relations.” /d. at 123.
+
+25. Structuralism was largely the work of Ferdinand de Saussure, a Swiss linguist who sought to
+scientifically catalog the structural relationships within language. For a brief introduction to Saussure
+and his work, see KEARNEY & RAINWATER, supra note 17, at 289.
+
+26. NORRIS, supra note 16, at 4. See also Peller, supra note 23, at 1165.
+374 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1460 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+perception created by language. We see a tree as separate from the earth
+and sky and ground, because the way in which “tree” fits into our lan-
+guage has created that separation, marking as more relevant the borders
+between those objects, and less relevant other borders contained within
+and outside those objects. Thus, our knowledge of reality is inevitably
+bound up with linguistic conventions that enable us to organize and
+classify—‘“[w]hat creates interest in, gives significance to, and permits
+knowledge of such a set of events is the reduction of any particular
+event to its order within the system of differentiations.””’ According to
+the structuralists, then, language does not reflect reality. Instead, reality
+reflects language, because our knowledge of reality is created by the
+way in which language carves reality up and organizes it.
+
+In applying structuralism to literary theory, structuralists engage in
+a precise and tedious dissection of a text, to discover its inherent struc-
+tural features, and then to explain how meaning arises from those
+structural features.* Not surprisingly, structuralists find the same kinds
+of structural relationships in all manner of texts, regardless of the
+author, culture or historical period. Indeed, structuralists see structural
+relationships as universal, perhaps programmed innately into human
+‘consciousness and reflecting the nature of human intelligence.” Some
+structuralists imagine structures as disembodied entities, arguing that
+they “think themselves through” the author and reader.” Disembodied
+entities notwithstanding, structuralism attempts to bring scientific rigor
+to linguistics and literary criticism by describing language as a set of
+relationships that linguists can study scientifically via “semiology,” the
+study of linguistic signs and what they signify.”
+
+Post-structuralism turns the structuralist critique upon itself, in
+some sense using the master’s tools to dismantle the master’s house.
+According to post-structuralists, structures and linguistic organization
+cannot serve as an anchor for meaning, because stmictural relation~
+ships and linguistic categories are themselves already the products of
+
+ 
+
+27, Heller, supra note 19, at 142,
+
+28. See CuLrer, supra note 17, at 32 (“The attempt to describe structures and codes
+responsible for the production of meaning focuses attention on the reading process and its conditions
+of possibility.”).
+
+29. Saussure contended that the general mechanism of language, which involved differentiating
+operations, reflected the process of the mind. See JONATHAN CULLER, SAUSSURE 59 (1976); see
+also Norris, supra note 16, at 2-3.
+
+30. See generally Norris, supra note 16, at 2.
+
+31. See id. For a useful description of structuralism, see Heller, supra note 19, at 131-53. See
+also Vivian Grosswald Curran, Deconstruction, Structuralism, Antisemitism and the Law, 36 B.C. L.
+REv. 1, 10-13 (1994).
+1998] BIAS AND MERIT 375
+
+1997] BIAS AND MERIT 1461
+
+structural relationships—pre-existing categories and operational rules—
+in a particular language game or representation practice.”
+
+For post-structuralists, the structural relationships in a particular
+text are indeterminate for two reasons. First, the structural relationships
+in a text are not universal or innately programmed, but are very much
+the product of the context or particular language game in which the text
+is situated. But, lest one think that context provides the anchor for
+meaning, the number of alternative contexts or language games, and
+hence interpretations, is infinite.™ It is impossible to ground meaning in
+any particular representational practice or context, because one can al-
+ways imagine another context that would give rise to different meanings,
+or additional information about the given context or practice that could
+change the resulting meaning.*
+
+Indeed, social convention can even create new meaning by fiat, ar-
+bitrarily grafting the meaning of a text onto a-new context. For exam-
+ple, social convention could randomly specify that “bububu” means
+“if ic does not rain I shall go out for a walk.” Thus, “total context is
+unmasterable, both in principle and in practice. Meaning is context-
+bound, but context has not boundaries and is limitless.””’ Accordingly,
+meaning has no pre-defined categories or limitations, and a text can
+produce multiple interpretations, rather than just a single correct one.*
+
+Second, because we must use language to describe structural rela-
+tionships, language games and contexts, they are also themselves the
+product of structural relationships in a particular language game or
+context. We describe structural relationships, contexts and language
+games interpretively, identifying some elements of the structure, context
+
+ 
+
+32. “In these ‘structuralist’ approaches, it is supposed that meaning can be determined by
+specifying these underlying codes, which are seen as the significant context of the text. But
+representational structures can never be conclusively determined, their relational meaning depends
+on the representational practices in which they are found. Any description of the representational
+structure within which meaning is generated is merely a re-presentation of the structure according to
+the language of the interpreter, the way that the interpreter distinguishes relevance from
+irrelevance.” Peller, supra note 23, at 1173.
+
+33. See J.M. Balkin, Nested Oppesitions, 99 YALE LJ. 1669, 1674-75 (1990) (discussing the
+dependence of structural relationships on context),
+
+34. See CULLER, supra note 17, at 123-24.
+
+35. See id.
+
+36. Culler notes that context is unmasterable because it is always open to further description,
+and because it is possible to graft a new context and new meaning onto an old formulation. /d. at 124.
+Culler uses the cited example because Wittgenstein had argued that one could not say “bububu” and
+mean “if it does not rain I shall go out for a walk.” fd.
+
+37. Id. at 123.
+
+38, See id.
+376 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1462 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+or game as relevant, and others as irrelevant.” Accordingly, structure is
+itself the product of the structural relationships in the language we use
+to describe a structure. This never-ending recursive chain of structural
+relationships puts beyond reach any solid ground for meaning.”
+“(However far back we try to push, even when we try imagining the
+‘birth’ of language and describe an orginary event that might have
+produced the first structure, we discover that we must assume prior or-
+ganization, prior differentiation.” Thus, neither structure, context nor
+representational practice can provide a stable source for meaning.
+
+Deconstructive practice, which is a form of post-structuralist
+method, takes aim at a particular kind of structural relationship—the
+ordered® binary opposition—to show that meaning is unstable and
+subject to multiple interpretations and re-descriptions.” According to
+Derrida, traditional Western discourse creates meaning by organizing
+knowledge into structural binary oppositions, in which a pair of terms
+are framed as opposites of each other, and one term enjoys a privileged
+hierarchical status over the other.“ For example, conventional discourse
+constructs reason and passion as opposites, where reason enjoys the pre-
+ferred position while passion is relatively disfavored.
+
+ 
+
+39. Context is “the derivative effect of the representational practice in which some elements of
+social life are said to constitute the context or structure to the exclusion of other aspects.” Peller,
+supra note 23, at 1224, Peller argues that the shift from authorial intent in the text to focus instead on
+the context is the strand of legal realist practice that mainstream legal discourse has incorporated (via
+realism and the law and economics movement), as opposed to the deconstructive strand. See id. at
+1225.
+
+40. Beyond recursive structures, theories of difference presume the existence of something
+from which to differ. “Even theories like Saussure’s, with its powerful critique of logocentrism in its
+concept of a purely differential system, do not escape the logocentric premises they
+undermine . . . [A] theory based on difference does not escape logocentrism but finds itself appealing
+to presence ... because in order to identify differences responsible for meanings one needs to treat
+some meanings as if they were given, as if they were somewhere ‘present’ as a point of departure.”
+CULLER, supra note 17, at 109-10,
+
+41. Id. at 96.
+
+42. The binary opposition is described as hierarchically ordered because social convention
+ranks one of the terms as primary or preferred, and the other as a negation, a supplement, or a
+derivative secondary term. For example, social convention ranks reason over passion. See JACQUES
+DERRIDA, DIssEMINATION viii (Barbara Johnson trans., 1981); see also Schanck, supra note 21, at
+2525,
+
+43. “Deconstruction is avowedly ‘post-structuralist’ in its refusal to accept the idea of structure
+as in any sense given or objectively ‘there’ in the text.” NorRIs, supra note 16, at 3.
+
+44, Western thought “has always been structured in terms of dichotomies or polarities ... The
+second term in each pair is considered the negative, corrupt, undesirable version of the first, a fall
+away from it...[The two terms] are not simply opposed in their meanings, but are arranged in a
+hierarchical order which gives the first term priority.” DERRIDA, supra note 42, at viii.
+1998] BIAS AND MERIT 377
+
+1997] BIAS AND MERIT 1463
+
+In what appears to be a structuralist move, Derrida argues that in a
+binary opposition, each term derives its conventionally understood
+meaning by way of its difference from its opposite term.“ In our exam-
+ple, reason often is defined by referring to that which it is not—passion,
+emotion or desire. Moreover, even relationships of similarity can be re-
+duced to structural difference, because terms that are similar ultimately
+also gain their meaning from that which they are not.
+
+Where Derrida “breaks new ground,” however, is in demonstrating
+that relationships of difference “inevitably shade” into relationships of
+deference and dependence.* Derrida contends that each term acquires
+its fundamental meaning by simultaneously differing from, and de-
+pending on and deferring to, the qualities possessed by its opposite.”
+
+In the case of reason/passion, suppose that a certain text distin-
+guished reason from passion on the grounds that reason produces order
+and passion produces disorder or violence. A deconstructivist reading
+reverses or flips the terms within the hierarchy, to show that for reason
+to maintain order, it necessarily must defer to, and/or rely upon, the
+violent and coercive force associated with passion. Indeed, as is detailed
+in the next section at some length, reason can be redescribed as the pas-
+sion to repress passion. If reason necessarily possesses passion’s char-
+acteristic use of coercive violence to maintain order, then the text’s
+argument that we should prefer reason over passion has run aground on
+its own terms.”
+
+Similarly, passion can be redescribed as the logical reason to prefer
+reason over passion—if we value order over violence, then rationally we
+should prefer reason. Accordingly, if reason can be seen to depend on
+passion, and passion is understood as depending on reason, then the
+terms defer to one another even as they oppose each other. Their rela-
+tion of simultaneous difference and dependence is rhetorical and illogi-
+cal rather than “real” and “rational.”
+
+Under this deconstructionist view, neither of the two terms in an
+opposition can serve as the source of meaning, because each term
+
+ 
+
+45. “The sign marks a place of difference. ... the sign is the place where ‘the completely other
+is announced as such—without any simplicity, any identity, any resemblance or continuity—in that
+which is not it.” DERRIDA, OF GRAMMATOLOGY, supra note 17, at xvi-vii. See also Balkin, supra note
+33, at 1674,
+
+46. See generally Dexripa, supra note 17, at Gt.
+
+47. “Such is the strange being of the sign: half of it always ‘not there’ and the other half always
+‘not that.’ The structure of the sign is determined by the trace or track of that other which is forever
+absent.” DERRIDA, supra note 17, at xvii.
+
+48. See id. at 88 (“Working within the opposition, the deconstruction upsets the hierarchy by
+producing an exchange of properties.”)
+378 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1464 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+depends on and defers to the qualities of its opposite in order to gain
+meaning. At the same time, however, each term must at least momen-
+tarily have meaning in order for there to be any relationship of either
+contrast or dependence.” This alternating back and forth between a
+term’s fullness of meaning and its lack of positive and complete mean-
+ing, which Derrida calls “differance,” is at odds with the laws of logic.”
+
+In summary, deconstruction undoes the binary opposition from
+within in order to reveal its internal contradictions and rhetorical for-
+mulation. Deconstruction shows that for the superior term (e.g., reason)
+to function as it is said to, that term necessarily must depend on and de-
+fer to the qualities of the inferior term (e.g., passion).' By way of this
+reversal, deconstruction shows that reason is just a particular form or
+effect of passion—the passion to repress passion.
+
+However, deconstruction does not perform this operation merely to
+reverse the terms and show that all reason is a form of passion. Indeed,
+the reversed hierarchy can also be deconstructed to show that all passion
+is a form of reason. Rather, deconstruction aims to displace the ordered
+binary opposition by demonstrating that it is a rhetorical artifact that
+depends on particular categories already contained in language and
+not on any account of what is “true” or “real” in the world outside of
+language.
+
+B. Deconstructive Practice in Action: Reason and the Mob
+
+In “Reason and the Mob,” Gary Peller provides a wonderful ex-
+ample of a deconstructive reading that illustrates the “differance”—the
+simultaneous difference and deferral—between reason and passion.”
+Peller deconstructs a text authored by Nathan Scott in the Virginia
+Quarterly Review, in which Scott relies on the binary opposition between
+reason and passion to argue that rationalism should prevail over post-
+structuralism.*
+
+ 
+
+49. “The value of the transcendental arche [origin] must make its necessity felt before letting
+itself be erased. The concept of the arche-trace must comply with both that necessity and that
+erasure. It is in fact contradictory and not acceptable within the logic of identity.” DERRIDA, supra
+note 17, at 61.
+
+50. See id. Derrida calls this relationship of mutual differing and deference “differance.” See
+generally DERRIDA, supra note 17.
+
+51. See CULLER, supra note 29, at x.
+
+52. See Gary Peller, Reason and the Mob: Politics of Representation, 2 TIKKUN 28 (1989).
+
+53. See Nathan Scott, The New Trahison Des Cleres: Reflections on the Present Crisis in
+Humanistic Studies, 62 Va. Q. Rev. 402 (1986).
+1998] BIAS AND MERIT 379
+
+1997} BIAS AND MERIT 1465
+
+Peller first sets forth the parts of the text in which Scott argues that
+rationalism should be preferred to post-structuralism because the latter
+is nihilistic, anti-rationalist, and ultimately violent. Scott writes:
+
+Today, of course, the enterprising anti-humanism of the post-
+Structuralist movement is in full tide, and it presents us with the
+great example in contemporary intellectual life of the new
+trahison des clercs. This phrase forms the title of a once famous
+book by the French critic Julien Benda which was first published
+in 1927, and in English the phrase is best rendered as the
+“betrayal of the intellectuals”. ... [Benda] was moved to ad-
+vance the rather extravagant charge that the typical intellectuals
+of the modern period, identifying themselves with class rancor
+and nationalist sentiment, have abdicated their true calling in the
+interests of political passion: instead of quelling the mob and
+beckoning it toward true community, they have joined the mob,
+concurring in its lust for quick results and adopting its devotion
+to the pragmatic and the expedient. ... And it is his fiercely re-
+proachful term that appears now to be the appropriate epithet for
+the intellectual insurgency that is currently sowing a profound
+disorder in the . . . humanities.“
+
+Using terms and arguments from Scott’s text, Peller then identifies
+the binary oppositions that give Scott’s argument its meaning:
+
+Scott’s rhetoric...contains a group of associations with the
+intellectuals and with the mob that can assist us in
+determining its meaning. The distinction between the mob
+and the intellectuals and the justification for the superiority
+of the intellectuals are suggested by the fact that the mob
+is characterized by social desire—it is associated with “class
+rancor,” “nationalist sentiment,” “political passion,” “Just,”
+
+“disorder,” and “insurgency.”
+
+The intellectual, on the other hand, stands in contrast to these
+features: the intellectual is supposed to represent order and dis-
+passion rather than “rancor” and “sentiment,” neutrality as
+opposed to politics, the “disciplined” search for “knowledge
+and truth” rather than the lustful satisfaction of passion and de-
+sire, the ideal and the long term as opposed to the “pragmatic
+and the expedient.”
+
+In short, Scott’s argument seems animated by a structure of
+
+meaning where reason and passion are distinguished from each
+other. Reason is associated with the intellect, knowledge, truth,
+
+ 
+
+54, Peller, supra note 52, at 30.
+380 LA RAZA LAW JOURNAL {Vol. 10:363
+
+1466 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+neutrality, and objectivity; passion is associated with disorder,
+politics, sentiment, class rancor and unthinking nationalism.”
+
+Next, Peller locates the structural associations—the association of
+reason with order and of passion with disorder—in the Westen
+Enlightenment discourse on civilization and social progress:
+
+Scott’s appeal is to a general language of social progress and
+development—the intellectual is favored over the mob because
+the mob is, in a sense, less human, closer to nature,
+primitive. ... [T]he failure to regulate the emotional with the
+rational would in a sense be giving in to our animal urges,
+opening up the possibility of regression and the end of
+civilization.*
+
+Using these textual associations, Peller summarizes Scott’s central
+argument: we should prefer rationalism to post-structuralism because
+we should prefer civilized order to primitive violence.” Explaining why
+Scott’s argument is persuasive, Peller refers to concrete images from
+shared cultural history that appear to justify a social preference for rea-
+son over passion. Peller includes the image of the Southern lynch mob,
+in which passion threatens the order imposed by reason:
+
+Probably the most powerful single image in the American expe-
+rience is the image of the Southern lynch mob... .[I]n the
+common understanding, the mob, ruled by irrational racism
+against Blacks, bypassed the orderly, rational, and judicial means
+of dispensing justice in favor of the ‘pragmatic and the expedi-
+ent,’ simply acting on the basis of their passionate emotions.™
+
+Peller then proceeds to deconstruct the conceptual opposition be-
+tween reason and desire. First, he reverses Scott’s structural associations
+to show that in order for reason to function as it is said to—to maintain
+order and to displace passion—it must necessarily depend on and defer
+to the strategies of coercive violence normally associated with passion.
+
+{I]t strikes us as initially dissonant that the intellectuals are asked
+to ‘quell’ the mob. The very ability of the intellect to ‘quell’
+suggests that in some way the intellectuals are like the mob, pos-
+sessing coercive power. Yet it was the potential for the mob to
+coerce that justified its regulation by the intellectuals.
+
+The power of the intellect to ‘queil’ introduces the possibility
+that reason is actually a means of discipline, a coercive
+
+ 
+
+55, Id. at3l.
+56, Id. at 31, 92.
+57. See id. at 92.
+58. Id. at3l.
+1998] BIAS AND MERIT 381
+
+1997] BIAS AND MERIT 1467
+
+technology for the social regulation of passion and emotion. At
+both the individual and social levels, reason plays the role of
+standing in the place of desire and deferring it to another time or
+place. ... But once we see reason as the regulator of passion, as
+a technology, we also realize that reason is constructed out of so-
+cial power... . Reason itself yields no determinate basis that
+would allow us to choose between the alternatives. ...[Rleason
+can only ‘quell’ desire on an individual level by the means of
+desire itself, by becoming the desire to defer desire, and reason
+can only control desire on a social scale by becoming social de-
+sire—the mob. ... Like the mob, reason promises a coerced so-
+cial order based on a particular social desire.®
+
+Completing the reversal, Peller demonstrates that, rather than de-
+scribing passion as the absence of reason (which privileges reason as the
+superior term), reason can be redescribed as an effect of desire. In par-
+ticular, reason can be understood as the emotional, subjective and arbi-
+trary desire to defer desire with regard to certain decisions, and to “give
+in’ to desire in other, more “appropriate” circumstances.
+
+Next, Peller contends that the conventional distinction between rea-
+son and passion appears coherent and legitimate only by suppressing
+those subverse instances in which reason overtly depends on and defers
+to strategies of passion or vice-versa. For example, Peller recovers from
+history the repressed image of religious persecution of the infidel and
+the heretic, when reason was used coercively to suppress the possibility
+of religious rebellion. Pelier argues that the image of religious persecu-
+tion must be suppressed in order to achieve reason’s position as a so-
+cially acceptable form of desire:
+
+Thus reason is only desire that has become institutionalized as
+good sense, that has achieved social conventionality, that is no
+longer recognizable as [passion] because it no longer bears the
+signs of its emotion, the rage that marked the historic efforts to
+repress the passion of the other, the infidel and the here-
+tic.... [H]aving achieved its goal, reason can appear free of the
+violence that is its history.”
+
+Moreover, Peller argues, the privilege we accord to reason is dic-
+tated by the larger Enlightenment story of “social progress through
+enlightened reason.” According to Peller, that story is a product of the
+categories already contained in a particular ideological and political
+language game about social progress:
+
+ 
+
+59, fd. at 92.
+60. id.
+382 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1468 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+[Tjhese distinctions are not simply natural and necessary ways to
+divide up the world, but rather form the language for a particular
+discourse of authority and power....[T]hese very ways of
+thinking and talking about social life already embody a particu-
+lar discourse of power that seeks to legitimize social hierarchy
+by claiming to have escaped politics, superstition, and the mere
+conventionality of language. ... [the] supposedly rational or
+scientific interpretations of the world.”
+
+In summary, Peller’s deconstructive reading highlights most of the
+important ideas from the preceding introduction to deconstruction.
+First, Peller’s reading provides an excellent example of deconstructive
+reversal and displacement, in which the two terms in a binary opposition
+exchange properties and trade places on the hierarchical ladder to illus-
+trate that they are functions of a language game.” Peller demonstrates
+that, for reason to quell the violence of passion as it is said to, reason
+must possess the violence and coercive social power associated with pas-
+sion. Deferring to and depending on the properties of passion, reason
+loses its metaphysical privilege and is demoted to the inferior position in
+the binary relation, and becomes just a socially acceptable form of pas-
+sion. The argument for preferring reason over passion now collapses
+under the weight of its own analysis, and the opposition dissolves.
+
+Second, Peller demonstrates the post-structuralist idea that the bi-
+nary opposition between reason and passion is itself merely a rhetorical
+formulation, produced by the categories and associations already con-
+tained in an ideological discourse or representational practice.” His
+reading reveals the opposition’s rhetorical nature by uncovering a logi-
+cally impossible relationship between terms, in which reason depends on
+and defers to passion, even as it simultaneously opposes passion.
+
+Finally, Peller locates the rhetorical opposition and its associations
+in a particular discourse. He points out that the binary opposition
+between reason and passion, and the association between reason and or-
+der, as well as passion and disorder, are the product of the Western
+
+ 
+
+61. dd. at 94,
+
+62. “First, we were able to shaw that Scott’s text yielded no stable, authoritative meaning; to the
+contrary, Scott’s argument could be read in one way as advocating the elevation of reason over
+passion; yet we were also able to use the text’s own terms of anlaysis to reverse this meaning, . . .” Id.
+at 93.
+
+63. Deconstruction “is not simply a strategic reversal of categories which otherwise remain
+distinct and unaffected. It seeks to undo both a given order of priorities and the very system of
+conceptual opposition that makes that order possible.” Norris, supra note 16, at 31. By inverting the
+hierarchy, deconstruction “uncovers and undoes the rhetorical operations” that privilege the first
+term over the supplement. CULLER, supra note 17, at 88.
+1998] BIAS AND MERIT 383
+
+1997] BIAS AND MERIT 1469
+
+Enlightenment story of social progress, which associates reason with
+progress and passion with the destruction of civilization.“
+
+I
+DECONSTRUCTING THE DISTINCTION BETWEEN MERIT AND Bras
+
+A. The Binary Opposition: Merit vs. Bias
+
+In their most recent work, Beyond Reason: The Radical Assault on
+Truth in American Law, Daniel Farber and Suzanna Sherry continue
+their challenge to the “radical constructivist” argument that merit stan-
+dards are socially constructed in ways that arbitrarily favor the abilities
+of the dominant majority. The book, which collects many of Farber
+and Sherry’s previous essays, argues that disproportionate success rates
+for Jews and Asian Americans undermine the radical claim that merit is
+arbitrary and designed to reinforce white male power. In addition, ac-
+cording to the authors, the radical constructivist position may be used
+for anti-Semitic or anti-Asian®” ends, because the critique indicts the ac-
+complishments of some Asian groups and Jews as unfairly obtained:
+
+Radical constructivists contend that standards of merit are so-
+cially constructed to maintain the power of dominant groups. In
+other words, ‘merit’ has no meaning, except as a way for those
+in power to perpetuate the existing hierarchy. In explaining why
+some minorities have been less successful than whites, these writ-
+ers repudiate genuine merit as even a partial explanation of the
+current distribution of social goods. They are then left in a
+quandary, unable to explain the success of other minority
+groups that have actually surpassed the dominant major-
+ity....[N]Jo [other] explanation for compétitive success can be
+anything but negative. These groups have obtained dispropor-
+tionate shares of important social goods; if they have not earned
+
+ 
+
+64. By reversing the relationship between reason and passion, and thereby showing how reason
+might be seen as simply the effect of passion rather than its regulator, this critical interpretation
+showed how the rational, determinate sense of the argument actually depended on an initial, arational
+association between reason and particular cultural and political visions of social life. Jd. at 94.
+
+65. The authors distinguish the radical constructivist, who views “fundamental concepts” like
+merit to be “socially constructed aspects of systems of power,” from the moderate social
+constructivist, who merely acknowledges that categories like race and sexual orientation are socially
+constructed, Farber & Sherry, Radical Critique of Merit, supra note 2, at 855. The authors offer
+William Eskridge as an example of the former, and Richard Delgado, among others, to exemplify the
+latter. Id.
+
+66. See FARBER & SHERRY, BEYOND ALL REASON, supra note 2, at 57-59; Farber & Sherry,
+Radical Critique of Merit, supra note 2, at 856.
+
+67. The term “Asian” is used here to refer to Asians who are not long-term residents of the
+U.S., those who are, and Asian Americans.
+384 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1470 CALIFORNIA LAW REVIEW {Vol. 85:1449
+
+their shares fairly on the merits, then they must have done so
+unjustly. Thus, the radical constructivist view of merit logically
+carries negative implications regarding groups that have sur-
+passed the dominant majority... .“
+
+In setting out their argument, Farber and Sherry deploy the con-
+ventional binary opposition which positions merit and bias as opposites.
+This opposition is most obvious in a long passage (part of which ap-
+pears in the opening citation) in which the authors defend merit on the
+grounds that, at least theoretically, it is race-neutral.
+
+The meritocratic ideal is that positions in society should be based
+on the abilities and achievements of the individual rather than on
+characteristics such as family background, race, religion, or
+wealth. This ideal requires that merit must be objective in the
+sense of being definable without reference to those personal
+characteristics. John Rawls has described the underlying concept
+of justice as one of careers “open to talents,” a concept first
+adopted by egalitarians who rejected previous aristocratic under-
+standings of human worth.
+
+Under this conventional view, the ultimate conception of merit is
+
+color-blind and gender-blind. Its advocates believe that people
+
+are treated unjustly and discriminated against “when their merit
+
+is assessed according to their status rather than according to the
+
+value of their traits or products.” Thus, for instance, under this
+
+conception of merit, racial discrimination “is irrational and un-
+
+just because it denies the individual what is due him or her under
+
+the society’s agreed standards of merit.”
+
+Randall Kennedy, to whom Farber and Sherry cite in the passage
+
+above, similarly defends his preference for merit in its pure theoretical
+form.
+
+As I use the word, ‘merit’ is an honorific term that identifies a
+quality of accomplishment that has been achieved; it does not
+refer to inherited characteristics such as race or gender. As
+a matter of theory, this conception of merit is rather
+
+ 
+
+68. Farber & Sherry, Radical Critique of Merit, supra note 2, at 856-57. See also FARBER &
+SHERRY, BEYOND ALL REASON, supra note 2, at 11 (“If merit is nothing but a mask for white male
+privilege, then it becomes difficult to defend the fact that Jews and Asians are quite
+disproportionately successful. If their success cannot be justified as fairly earned, it can only be
+attributed to a heightened degree of entanglement with white male privilege. In short, we believe that
+radical multiculturalism implies that Jews and Asian Americans are unjustly favored in the social
+distribution of goods.”’).
+
+69. Farber & Sherry, Radical Critique of Merit, supra note 2, at 858-59 (citing Randall L.
+Kennedy).
+1998) BIAS AND MERIT 385
+
+1997] BIAS AND MERIT 147]
+
+conventional. ...I do not want race-conscious decisionmaking
+to be assimilated into our conception of meritocracy.”
+
+A close look at Farber and Sherry’s (and Kennedy’s) argument
+reveals that they have set up their objectivist defense of merit through a
+set of ordered binary oppositions in the text. Merit, they argue, is
+“based on ability and achievement of the individual” as measured
+through “the value of traits or products.””’ In contrast, bias involves an
+assessment “according to status” or “inherited characteristics.”
+According to the text, merit is “objective” when it is “definable with-
+out reference to [the] personal characteristics” or the “inherited char-
+acteristics” of “family background, race, religion or wealth.”” Bias, in
+comparison, is presumably “subjective” because it is defined according
+to those characteristics.”
+
+In addition, merit is “just” because everyone “has an equal op-
+portunity to compete for desirable occupations.” Bias, on the other
+hand, is “unjust” because it “denies the individual what is due him or
+her under the society’s agreed standards of merit.” Where bias is an
+“irrational” “deviation” from the ideal of “colorblind” meritocracy,
+merit presumably is both rational and “colorblind.”’* In sum, merit
+promotes economic efficiency, ability and achievement, and therefore
+can be associated logically with justice, equal opportunity, objectivity,
+rationality, and color blindness.” Bias, on the other hand, is based on
+
+ 
+
+70. Randall L. Kennedy, Racial Critiques of Legal Academia, 102 Harv. L, Rev. 1745, 1806-07
+(1989).
+
+71. Farber & Sherry, Radical Critique of Merit, supra note 2, al 858-59.
+
+72. Td.
+
+73. dd.
+
+74. Duncan Kennedy calls this genre of argument, which presumes that there is something out
+there in the real world called merit, “colorblind meritocratic fundamentalism.” Duncan Kennedy, A
+Cuitural Pluralist Case, supra note 9, at 707.
+
+75. “This ideal holds at once that all people must have equal rights and opportunities to develop
+their peculiar talents and virtues, and that there should be equal rewards for equal
+
+performances. ...[MlJerit tests, at least in theory, provide a basis for procedural justice in
+distribution.” /d. at 836, 838.
+76.
+
+[FJacts of parentage and ancestry should not count as formal bars to access... . There has,
+
+however, developed a widespread, even consensual conception of moral irrelevance that is
+
+central to accepted interpretations of equality and of merit.... Because race is considered
+
+a factor irrelevant to virtually any morally permissible human purpose, merit distribution has
+
+been considered—and remains in the popular mind—a diametric alternative to selection on
+
+the basis of race.
+Id. at 836, 837.
+
+77, Distributing on the basis of merit serves as the perfect technocratic tool to efficiently
+
+“allocate resources to persons likely to use them productively .... And, by employing those capable
+of greatest productivity, private industry increases the wealth available for distribution within the
+386 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1472 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+status or inherited traits, and is therefore associated with the opposing
+characteristics—injustice, lack of equal opportunity, subjectivity, irra-
+tionality, and race-consciousness.
+
+Using these binary oppositions, Farber and Sherry contend that
+merit is objective and rational because, at least in its ideal form, it fo-
+cuses neutrally on individual traits, abilities and achievements that con-
+tain social value. Later in the text, the authors use this colorblind vision
+of merit to support their argument that, in light of the relatively greater
+success rate under conventional merit standards for Jews and Asians,
+merit cannot be a race-conscious weapon designed to keep white males
+in power.”
+
+Farber and Sherry’s descriptions of merit and bias appears to be
+consistent with our intuition that, in order to fight racism, we need to
+focus on “objective criteria” as a way of displacing bias. Under a true
+meritocracy, people will not be excluded because they are Mexican-
+American or Black or Jewish, but because they do not score as highly
+on objective tests of ability or some other indicia of social value.” As
+Professor Sherry recounts, one promise of the Enlightenment was to
+replace subjective bias with objective merit, to the benefit of those out-
+siders whom bias had kept out:
+
+The lasting accomplishment of the Enlightenment... method
+was a repudiation of the “the millennium of superstition, other-
+worldliness, mysticism, and dogma known as the Middle, or Dark
+Ages.” ...Instead, the human capacity to reason, in all its
+splendor, would control the future. As Justice Felix Frankfurter
+commented in a related context, “[w]hat mattered was excel-
+lence in your profession to which your father or your face was
+equally irrelevant.”®
+
+In summary, Farber and Sherry’s conventional treatment of merit
+and bias finds much support in social practice. Indeed, our idea of so-
+cial progress has depended on the notion that merit rationally and ob-
+jectively is based on ability, promotes economic efficiency and
+excellence, and is associated with justice and equal opportunity.
+
+ 
+
+society. ... The social interest in educating doctors, for example, is best served by educating those
+who will be the best doctors.” Richard H. Fallon, Jr., Te Each According To His Ability, From None
+Accearding To His Race: The Concept of Merit In the Law of Antidiscrimination, 60 B.U. L. REv. 815,
+823, 838 (1980).
+
+78. See Farber & Sherry, Radical Critique of Merit, supra note 2, at 868-71.
+
+79. See STEPHEN JAY GouLD, THE MISMEASURE OF MAN 23] (1981). See also Delgado,
+supra note 9, at 1711 (fictional friend of Rodrigo Crenshaw argues that objective standards are
+African American’s best “guarantor against racism’).
+
+80. Suzanna Sherry, The Sleep of Reason, 84 Geo. L. J. 453, 456-57 (1996).
+1998] BIAS AND MERIT 387
+
+1997] BIAS AND MERIT 1473
+
+B. Deconstructive Reversal: How Merit Defers to Bias
+
+As soon as the meaning of Farber and Sherry’s distinction appears
+to stabilize, however, it begins to self-de(con)struct. Reversing the
+authors’ structural associations, we discover that for merit to do the job
+of rewarding ability and creating social value (and thereby displace
+bias), it must depend on and defer to subjective, arbitrary, status-
+oriented, culturally-specific definitions of “social value.” Put differ-
+ently, in order for merit to function as the opposite of bias, it must defer
+to and depend on social bias towards particular traits and abilities.
+
+In their text, Farber and Sherry make the connection between merit
+and social value explicit, when they justify social preference for merit
+on the grounds that it distributes opportunities and resources on the ba-
+sis of “the value of [applicant’s] traits or products” rather than
+“status.’® According to Farber and Sherry’s own text, “merit” is
+made possible by, and must necessarily defer to, the social value of cer-
+tain traits or products.
+
+But historical preferences about what constitutes ‘“‘social value” in
+a given industry or profession are necessarily subjective standards, so-
+cially constructed by professional leaders who have the status to make
+such choices. Far from being the opposite of “bias,” the concept of
+merit is necessarily inscribed with subjective, status-based social bias,
+which merit sought to exclude in the first place. Indeed, we can rede-
+scribe merit as the effect of bias rather than its privileged opposite, be-
+cause social bias supplies the “social value” that merit purportedly
+promotes. Thus, merit can be viewed from this alternative perspective as
+socially acceptable bias for certain kinds of qualities.
+
+Moreover, the opposition itself cannot tell us when a preference is
+an illegitimate “bias” or valid “merit.” Those distinctions ultimately
+are determined by politics, culture and ideology. For example, we for-
+mulate our ideas about what constitutes social value in the legal profes-
+sion based in large part on our political, ideological and moral
+commitments about what constitutes a legal dispute and how a legal
+
+ 
+
+81. See also Fallon, supra note 77, at 815 n.1 (citing to the following definitions of merit from
+other scholars: qualities that count as merit that are useful to society (Karst & Horowitz, Affirmative
+Action and Equal Protection, 60 Va, L. REV. 955, 961-63 (1974)); ‘endowments’ and ‘achievements’
+that are “praised, coveted or admired” (Shapiro, Who Merits Merit? Problems in Distributive Justice
+and Utility Posed by the New Biology, 48 S. Car. L. Rev, 318, 321-22 (1974))); id. at 823 (“Merit
+cannot be judged apart from human interests and desires... . [and] ‘will bring the most talented
+individuals to positions of power and responsibility, and that the competitors will produce social goods
+in the process of demonstrating that they merit power and responsibility.’”) (citing to Karst &
+Horowitz, supra).
+388 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1474 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+system should resolve a dispute, or whether government should even
+play. a role in resolving disputes. To be sure, the social value we seek to
+promote is not based on deductive reasoning about the human person-
+ality or natural laws governing human relationships. Nor have our ideas
+about legal education evolved in some Darwinian fashion to produce the
+most superior form of legal education to date. Rather, our ideas about
+social value are a function of contingent history, of time and chance.
+That is, various historical and social forces have converged at certain
+points in time to produce our peculiar legal institutions and practices,
+which are useful for awhile and then inevitably are in need of revision,
+as time passes and different historical and social forces converge.
+
+The history of law school admissions standards illustrates the ar-
+gument that merit standards necessarily defer to or depend on socially
+subjective and historically contingent biases about social value in the
+profession. A review of history reveals that our notions of value in legal
+education and the legal profession were developed in the early part of
+this century by leaders of the profession, who had acquired their leader-
+ship status based in large part on their race. Those leaders, and the in-
+stitutions in which they were ensconced, developed certain ideas about
+what constituted “social value” and “ability” in practice and in legal
+education.” Given the fact that the legal profession had affirmatively
+excluded people of color at the time, those choices about social value
+reflected, if not embodied, the race-consciousness of early twentieth
+century legal culture. At the very least, those choices took place in the
+context of a culture in which racial exclusion was routine and relatively
+uncontroversial.
+
+ 
+
+82. Critical history is a tool often deployed by Critical Race theorists and deconstructivists alike.
+Critical Race Theory views social institutions and practices as products of historical circumstance, in
+which relationships of power, and in particular, racial power, determine the content of those
+practices and institutions. Critical historical inquiry maps the ways in which structures like merit or
+property are not natural or race-neutral ways of framing the world, but are a historical collection of
+strategies and discourses born of and deployed in particular political, cultural, and institutional
+conflicts. Using critical historical methods, radical scholars interpret the development of standards of
+merit and bias as a contingent response to a particular set of historical circumstances, in which social
+and racial power ultimately determined who would be excluded from institutions that distribute power
+and wealth. See CriTiIcAL RACE THEORY: THE Key WRITINGS THAT FORMED THE MOVEMENT Xvi
+(Kimberlé Crenshaw et al. eds., 1995). See also Introduction to Worps THat Wounp 6 (C.
+Lawrence et al. eds., 1993) (critical historical inquiry “challenges ahistoricism and insists on a
+contextual/historical analysis of the law,” to view legal institutions in the actual context of history and
+relationships of race and power).
+1998] BIAS AND MERIT 389
+
+1997] BIAS AND MERIT 1475
+
+1. The Formulation of Merit Standards in Law School Admissions
+
+Much has been written about the issue of merit and bias in law
+school admission standards. For as long as law schools have adminis-
+tered aptitude tests, Latino/a and African-American applicants dispro-
+portionately have achieved lower scores than white applicants." Many
+scholars have argued that such results are due to improper procedures
+or a cultural bias in the test itself.“ For example, Professor Leslie
+Espinoza has pointed out that past LSATs have contained questions
+about culturally specific phenomena, like polo matches and regattas,
+with which applicants of color are not likely to be familiar. Other
+scholars contend that Blacks and Latinos/as have disproportionately
+lower LSAT scores and undergraduate GPAs because they lack compa-
+rable educational opportunities and suffer from other forms of disad-
+vantage.®
+
+Both arguments assume, however, that there is something “out
+there” called “merit”—the knack for legal reasoning, smarts, or dili-
+gence—that at least in theory is race-neutral. Both arguments also
+
+ 
+
+83. See Susan Brown AND EDUARDO MARENCO, Jr., MEXICAN-AMERICAN LEGAL DEFENSE
+AND EDUCATIONAL FuND (MALDEF) Law ScHoot Apmissions Stupy [hereinafter MALDEF
+Stupy] 16-17 (1980).
+
+84, See Derrick A. Bell, Jr., In Defense of Minority Admissions Programs, 119 U. Pa. L. Rev.
+364, 367 (1970) (arguing that the LSAT is insufficiently predictive); Delgado, Rodrigo’s Tenth
+Chronicle, supra note 9, at 1740-42 (arguing that the SAT and the LSAT have test items about
+toboggans, lacrosse, polo and regattas, concepts with which applicants of color are not likely to be
+familiar); Leslie G. Espinoza, The Bias of LSAT Narratives, 1 AM. U. J. GENDER & L. 121, 129 (1993)
+(arguing that LSAT narratives contain offensive racial stereotypes and concepts with which minority
+applicants would be less familiar); Portia Y. T. Hamlar, Minority Tokenism in American Law Schools,
+26 How. L.J. 443, 468-513 (1983) (extensive review of various challenges to law schools’ use of the
+LSAT and GPA); James C. Hathaway, The Mythical Meritocracy of Law School Admissions, 34 |.
+Lecac Epuc. 86, 94 (1984) (arguing that the LSAT only explains 14 or 15 percent of law school
+performance, and presents a particularly inaccurate picture of the likely success of men, younger
+students, and members of racial minorities); David A. Weber, Racial Bias and the LSAT: A New
+Approach to the Defense of Preferential Admissions, 24 Burr. L. Rev. 439 (1974) (arguing that the
+LSAT’s questions contained biased items). See also MALDEF Stupy, supra note 83, at 16-17
+(arguing that grades and LSAT scores are overused).
+
+85. Espinoza, supra note 84, at 129.
+
+86. See Jamie B. Raskin, Affirmative Action and Racial Reaction, 38 How. L.J. 521, 554 (1995)
+{contending that merit criteria do not take into account a multitude of disadvantages suffered by
+applicants of color). See also Delgado, Rodrigo’s Tenth Chronicle, supra note 9, at 1718 (arguing that
+disparity between haves and have-nots, with regard to education, constitutes a pre-existing
+disadvantage that neutral mechanisms do not take into account); id. at 1738 (wealthy whites have
+advantages in education and income that may explain higher achievement); id. at 1725 (noting that
+merit does not take into account the ability to overcome past disadvantage and past hurdles
+surmounted). Current proposals to revise affirmative action programs to reflect class often evince a
+desire to focus on proportional disadvantage. See Albert Y. Muratsuchi, Race, Class, and UCLA
+School of Law Admissions, 1967-1994, 16 CHICANO-LATINO L. REv. 90 (1995).
+390 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1476 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+assume that people of color have been unfairly prevented from acquir-
+ing “merit” because of discrimination. Finally, both sides appear will-
+ing to concede that properly validated tests can theoretically measure an
+applicant’s “true” ability to succeed in law school in a race-neutral way.
+
+But opponents of admissions standards need not concede the stan-
+dards’ theoretical color-blindness quite so quickly. When one situates
+law school admission standards in their historical context, it appears that
+merit criteria deferred to and depended on the race-conscious social
+bias of the time to define what constituted “social value” in the legal
+profession. As is detailed extensively in the following discussion, admis-
+sions standards reflected the subjective preferences of white male lawyer
+elites. These leaders had acquired social power or “status” within the
+legal culture of the early twentieth century, in large part because of their
+race, given that people of color were affirmatively excluded from the
+profession at the time. Moreover, the leadership’s subjective preferences
+about “social value” substantially reflected if not embodied the profes-
+sion’s desire to exclude Black and immigrant applicants from the prac-
+tice of law.
+
+The development of law-school admission standards can be traced
+to a number of related events occurring in the late nineteenth and early
+twentieth centuries. First, the number of European immigrants and
+African-Americans entering into the legal profession and law schools
+increased dramatically. At the same time, large, elite corporate law firms
+gained prominence on the Eastern seaboard, and created symbiotic re-
+lationships with prestigious Eastern law schools, at least in part to create
+a “safe haven” from the influx of immigrants. In addition, in an effort
+to prevent both immigrants and African Americans from gaining admis-
+sion to practice law, the American Bar Association (“ABA”) was
+formed. The ABA was part of a larger movement to eliminate part-time,
+night-time, and proprietary law schools, which served the rising numbers
+of immigrants and African Americans who sought to become lawyers.
+Reinforcing the hierarchy between prestigious law schools and schools
+that served immigrants and African Americans, Christopher Columbus
+Langdell and others introduced the case method into elite law schools,
+which helped to orient legal education toward abstract legal reasoning
+and away from practical experience. As discussed below, these events all
+were directly or indirectly related to the more general explosion of rac-
+ist and nativist sentiment in the legal culture and in American society
+during the period.
+
+Prior to 1870, seasoned lawyers trained aspiring practitioners in an
+apprenticeship program governed by the Inns of Court. Serving as the
+1998] BIAS AND MERIT 391
+
+1997] BIAS AND MERIT 1477
+
+central institution governing legal practice at the time, the Inns permit-
+ted lawyers to select their apprentices, determine the nature and duration
+of their apprenticeships, and prescribe attainments necessary for bar
+membership.” Lawyers obtained very little formal training in legal the-
+ory, and those who did “read the law’—mostly old English treatises—
+did so under the guidance of a mentor.™ Some aspiring lawyers at-
+tended proprietary law schools, where practicing attorneys taught a few
+basic forensic skills and hornbook rules from treatises like Blackstone’s
+Commentaries.” Both apprenticeship programs and proprietary schools
+emphasized practical technique.
+
+From 1870 to 1920, record numbers of immigrants from Eastern
+and Southern Europe flooded into the United States, and many began to
+seek entry into the legal profession.” Many first and second generation
+immigrants saw the practice of law as a gateway to economic opportu-
+nity." Free public education at lower levels meant that immigrants
+could save their money toward tuition for part-time and night-time
+classes at proprietary schools. In response to new demand, proprietary
+law schools sprang up almost overnight in large numbers, predomi-
+nantly in cities with heavy immigrant populations.”
+
+Typically, the immigrant student had far less formal education than
+his native-born counterpart, and the immigrant’s parents were less likely
+to be professionals.” The immigrant practitioner was also much more
+likely to practice in criminal law, real estate, and non-commercial civil
+law.™ Jerold Auerbach describes how the professional elite began to
+create “selective” institutions, based in large part on the profile of the
+immigrant practitioner, in order to protect their elite status.
+
+As mass immigration and urbanization inundated the domi-
+nant Anglo-Saxon culture, the fortunate few moved to the safety
+of selected social institutions—Eastern schools, for example, and
+careers in business and finance—which could protect, or extend,
+
+ 
+
+87. See, e.g., Charles C. McKirdy, The Lawyer as Apprentice: Legal Education in Eighteenth
+Century Massachusetts, 28 J. LEGAL Ep. 124 (1976).
+
+88. See id. at 198.
+
+89. See id.
+
+90. See Gerard W. Gawalt, The Impact of Industrialization of the Legal Profession 1870-1900,
+in THe New Hich Priests: Lawyers IN Post-Civit War America 97, 103 (Gerard W. Gawalt
+ed., 1984) (hereinafter HIGH Priests].
+
+91, See Ropert Stevens, Law SCHOOL: LEGAL EDUCATION IN AMERICA FROM THE 1850s
+TO THE 1980s 81 (1983).
+
+92. See id. at 74.
+
+93. See id.
+
+94. See Gawalt, supra note 90, at 103.
+392 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1478 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+their power and status.... Big business served as “a new pre-
+serve of the older Americans, where their status and influence
+could continue and flourish.”%
+
+These big business clients, whose numbers increased exponentially
+as America underwent industrialization, in turn, created a demand for
+large corporate law firms along the Eastern seaboard.** Given the demo-
+graphic makeup of big business at the time, firms catered to those cli-
+ents by limiting entry into the firm to Easterners of “old-American
+stock,” whose fathers were, like the firm’s clients, wealthy professionals
+or businessmen.” Quite predictably, symbiotic relationships formed
+between these corporate firms and the elite law schools. Big firms be-
+gan to court only the top graduates from the “best” schools, and law
+schools discovered that grades and law review membership were a way
+to help separate the “appropriate” applicant from others who would
+not fit into big firm culture. Law schools were enthusiastic participants
+in the process, because they were able to reinforce their elite status by
+serving as a pipeline to funnel associates into the most prestigious
+firms.”
+
+In addition to closing ranks between big firms and prestigious law
+schools, prominent members of the profession also responded to the
+influx of immigrants by calling for “reform” on many fronts. Leaders
+of the profession created reform-minded bar organizations that limited
+their membership to the most affluent lawyers, all of whom were of
+
+ 
+
+95. JeRotp S. AUERBACH, UNEQUAL JusTICE: LAWYERS AND SOCIAL CHANGE IN MODERN
+AMERICA 24-28 (1976) (citation omitted).
+
+96. See id. at 27.
+
+97. See id. at 21-25. For example, Cravath, Swaine and Moore attomeys were recruited more
+heavily from prestigious law schools because “[t]he best men, too, are most likely to be found in the
+law schools which have established reputations... .”. Robert T. Swaine, The Cravath Firm and Its
+Predecessors, in JouN T. Noonan, Jr. AND RICHARD W. PAINTER, THE LAWYER: PERSONAL AND
+PROFESSIONAL RESPONSIBILITY 318 (1997) (hereinafter NOONAN AND PAINTER]. Attomeys were
+also selected for partnership based on intangibles that included “personality, judgment and
+character.” /d. Not surprisingly, Cravath’s partnership criteria produced a partnership that was
+almost exclusively white, male, old-American stock of Northern European ancestry, Protestant, and
+upper class. See Complaint, Lucido v. Cravath, Swaine & Moore, in NOONAN AND PAINTER, id. at
+328 (‘‘Cravath for years did not have any Jewish partner at the firm. On information and belief, the
+first Jewish partner was promoted to partnership in 1958....Cravath has had only one female
+partner. ... Cravath has never had a black partner nor a Spanish-surnamed partner.”)
+
+98. See Gawalt, supra note 90, at 107 (“‘It was obviously much simpler’ for law firms ‘to
+discriminate among recruits in terms of the law school they had attended than the type of law office
+in which they had apprenticed. In addition, the law school provided a convenient measure of
+competence in their ratings of students by academic achievement.’”) (citing JEROME CARLIN,
+Lawyers ON THEIR Own: A STUDY OF INDIVIDUAL PRACTITIONERS IN CHICAGO 20-21 (1962)).
+1998] BIAS AND MERIT 393
+
+1997] BIAS AND MERIT 1479
+
+old-American stock.” After much discussion about the downward di-
+rection of the profession, in 1878 a group of elite lawyers created the
+American Bar Association for the purpose of restricting entry into the
+profession, and they vowed to “admit no men who would not be worthy
+members.”'™ As discussed later in this section, the ABA was instrumen-
+tal in pushing for reforms relating to the “moral character’ and aca-
+demic aptitude of applicants to the bar, both of which could be traced to
+anti-immigrant and racist sentiment.
+
+Strains of nativism and racism were also evident legal education. In
+1917, the ABA and the Association of American Law Schools
+(“AALS”) commissioned non-lawyer Alfred Z. Reed to study the state
+of legal education and to make recommendations for reform.'" Both
+organizations had been inspired by the success of the Flexner report, a
+similar study of medical schools that had called for the medical profes-
+sion to close many part-time or newly created programs.’” In 1921,
+Reed issued his first report, which described the legal profession as
+stratified along class, racial and ethnic lines.'* Reed agreed with earlier
+writers who viewed proprietary schools as supplying the needs of mem-
+bers of the social strata “whose sons [were not] thinking of university
+education,” but who looked to the law school for training in a craft.’
+However, unlike many commentators of the time, Reed proposed creat-
+ing different tracks for both bar and law schools to coincide with the
+two strata." He predicted that if the intellectually less fashionable
+schools were driven out of business, large segments of the practice areas
+that were most useful for immigrant and racial groups would go un-
+served.'%
+
+Reed’s report was published only a month after the ABA’s
+Committee on Legal Education had issued their own report on the same
+
+ 
+
+99. See John A. Matzko, ‘The Best Men of the Bar:’ The Founding of the American Bar
+Association, in HIGH PRIESTS, supra note 90, at 78.
+
+100. /d. at 88-89. ABA leaders also craved the opportunity to vacation each year in Saratoga
+Springs, New York. Saratoga Springs was chosen as the site for ABA leadership meetings “because
+more wealthy lawyers were likely to vacation at this prestigious spa than at any other in the country.”
+id. at 87, Lawyers referred to an early group of ABA leaders as the “Saratoga clique,” whose self-
+appointed mission was to direct the association from “the hotel porch after lunch.” /d.
+
+101, See Robert Stevens, Two Cheers For 1870: The American Law School, in Law iN
+AMERICAN History 403, 450 (D. Fleming & B. Bailyn eds., 1971).
+
+102. See id. at 449-50.
+
+103. STEVENS, supra note 91, at 113.
+
+104. Id. (citing Joser RepiicH, COMMON Law AND THE CaSE METHOD IN AMERICAN
+University Law Scuoots, 70 (1914)).
+
+105. STEVENS, supra note 91 at 114; Stevens, supra note 101, at 452.
+
+106. STEVENS, supra note 91 at 114.
+394 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1480 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+matter.'” Displeased with the ABA’s lack of support for legal educa-
+tion, the AALS had pressured the ABA into creating the Committee, to
+be chaired by former ABA president Elihu Root.’™ Predictably, the Root
+report pressed for a unitary bar, arguing that the different parts of the
+profession required the same intellectual training,'!” and that such train-
+ing could only be provided by law schools, preferably within a univer-
+sity setting.'"" By 1927 the AALS and the ABA had issued lists of
+approved schools, and had done away with any requirements for office-
+training or other apprenticeship.'"' The ABA had also increased law
+school admission requirements to include two years of college train-
+ing.!?
+
+Ignoring pressure from the ABA, Reed issued a second report in
+1928, denouncing the homogenization of law schools, which he traced
+in part to the growing use of the case-law method.’” In keeping with his
+earlier report, Reed proposed creating two types of schools to match the
+stratification in the profession.'’ In 1930, the ABA rejected his recom-
+mendations and passed a resolution against commercially operated
+schools. The ABA also created the National Conference of Bar
+Examiners to centralize the standards for bar examinations; whereupon
+the conference promptly proposed that bar-exam questions be modeled
+after questions being tested at the “better” vuniversity-affiliated law
+schools.'* In 1935, capitalizing on the explosion of racist and nativist
+sentiment in the bar, the ABA moved to limit the number of lawyers in
+the bar, citing overcrowding and problems with “moral character.”"”’
+
+As was reflected in Reed’s second report, the call for more restric-
+tive standards coincided with the move by law schools to formalize legal
+education. In the late nineteenth century, Christopher Columbus
+Langdell and James Barr Ames introduced the case-law method of legal
+instruction, first at Harvard and then at a growing number of elite law
+schools aspiring to become even more exclusive.'* Case-law method
+
+ 
+
+107. See id. at 115.
+
+108. See id.
+109. /d. at 116.
+W10. 7d. at 115.
+lit. See id.
+142. See id.
+
+113. See id. at 120.
+114. See id. at 121.
+
+115. fd. at 176.
+116. See id, at 177.
+117. fd. at 178.
+
+118. See generally Albert J. Harno, Legal Education in the United States, in NOLAN, READINGS
+IN THE HISTORY OF THE AMERICAN LEGAL PROFESSION 217 (1980).
+1998] BIAS AND MERIT 395
+
+1997) BIAS AND MERIT 1481
+
+devotees believed that law could and should be taught as a science like
+math or chemistry. Case-law instruction required the student to distill
+general principles from philosophical reflection and historical analysis
+of a particular area of the law, and to apply those principles consistent
+with the legal system’s more general objective principles.’ Initially,
+only a minority of professors endorsed the case-law method, and after
+students at Harvard questioned its usefulness, its future appeared uncer-
+tain. However, case-law method survived and prospered, in large part
+because its proponents included many men of prominent status, among
+them the leadership of the newly formed bar associations.”°
+
+The case-law method fulfilled the requirements of modern educa-
+tion: it was scientific, practical, and best of all, Darwinian in approach—
+it winnowed out large numbers of students, allowing only the “fittest”
+and the most able (who also happened to be the most affluent and An-
+glo-Saxon) to survive.) The case law method was a point of profes-
+sional pride for many elite schools, because it differentiated them from
+second-tier schools. The case-law method also afforded the law profes-
+sor increased power and influence in the classroom, enabling him to
+move from a mere treatise-reading clerk to the author, lead actor, and
+director of a classroom drama.’”
+
+In addition to winnowing out large numbers of students, the case-
+law method “selected against” practitioner professors, and “selected
+for” professional law teachers by making “demands that neither busy
+practitioners nor retired gentlemen could meet.” Supporters of the
+case-law method pressed for increased affiliation of law schools with
+universities, and for the entry of full-time law professors into the
+academy.'* In 1873, Harvard appointed its first non-practicing law
+professor, James Barr Ames.’* By the turn of the century, defenders of
+the case method had begun to prevail in their “holy war of supremacy”
+and the remaining practitioner-teachers quickly disappeared.’
+
+ 
+
+119. See Robert W. Gordon, ‘The Ideal and the Actual in the Law’: Fantasies and Practices of
+New York City Lawyers, 1870-1910 in Hicu PRiEstTs, supra note 90, at 51, 52; Harno, supra note 118,
+at 217. According to Langdell, the data for such a scientific inquiry resided not in sociological
+observation but in books, and in particular, in appellate opinions. STEVENS, supra note 91, at 53.
+
+120. See Gordon, supra note 119, at 52.
+
+121. See STEVENS, supra note 91, at 55.
+
+122, See id. at 63, 102.
+
+123. AUERBACH, supra note 95, at 75.
+
+124. See id. See also Harno, supra note 118, at 217.
+
+125. See AUERBACH, supra note 95, at 74.
+
+126. Jd. at 75. Responding to those who criticized the modern law school for replacing the
+human element with logic, Dean Roscoe Pound observed that modern law had made demands “which
+the old type is quite unable as well as unwilling to meet. His mind is not trained for class-room logical
+396 LA RAZA LAW JOURNAL (Vol. 10:363
+
+1482 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+2. Race and Social Value in Legal Education
+
+In Unequal Justice, Jerold Auerbach traces the foregoing events—
+the ascendance of the elite corporate law firm, the spread of the case-law
+method, and the ensuing call for “standards’—to virulent anti-
+immigrant sentiment, Anti-Semitism and racism in the legal profession
+in the early part of this century.'”” Auerbach contends that middle-class,
+native-born white lawyers called for “standards,” both “moral charac-
+ter” and academic, in order to safeguard their professional respectabil-
+ity and status from what they saw as the threat of dilution by the flood
+of immigrants and African Americans into the profession.’
+
+As chronicled by Auerbach, many reformers made little attempt to
+disguise the racist, anti-immigrant and anti-Semitic prejudices motivat-
+ing their call for standards relating to “moral character.” One member
+of the Root Committee, who explicitly equated the values of the legal
+profession with American cultural values, defended new bar admission
+requirements as “an instrument of Americanization” needed to protect
+the profession against “[t]he ‘influx of foreigners’ in the cities [who]
+comprised an uneducated mass of men who have no conception of our
+constitutional government.” Surely, he concluded, “the American
+Bar Association did not wish to ‘lower standards simply to let in unedu-
+cated foreigners.’”"
+
+Auerbach notes that even the most visible and respected profes-
+sional leaders were not subtle about drawing a connection between pro-
+fessional concerns about “moral character” and ensuing restrictions
+based on ethnicity and immigrant status. Former ABA president Elihu
+Root declared, “I do not want anybody to come to the bar which I
+honor and revere ... who has not any conception of the moral qualities
+that underlie our free American institutions; and they are coming, today,
+by the tens of thousands.”
+
+Auerbach describes the anti-Semitic undertone of the “moral char-
+acter” debate: .
+
+Even before the war Theron Strong [an influential New York
+lawyer and author who wrote about the legal profession]
+complained sourly about “the influx of foreigners.” Strong
+
+ 
+
+acrobatics. Naturally he claims to compensate by the ‘human’ element that consists better with
+indolence. The wail of the unfit is very apt to be made in the name of Demos.” /d. at 84-85.
+
+127. See generally AUERBACH, supra note 95.
+
+128. Gordon, supra note 119, at 53.
+
+129. AUERBACH, supra note 95, at 114 {citation omitted).
+
+130. 7d.
+
+131. dd. at 105.
+1998] BIAS AND MERIT 397
+
+1997] BIAS AND MERIT 1483
+
+was especially troubled by the rising proportion of Jewish
+lawyers, which was “extraordinary, and almost overwhelming—
+so much so as to make it appear that their numbers were likely to
+predominate, while the introduction of their characteristics and
+methods has made a deep impression upon the bar.”"?
+
+Auerbach also cites remarks, made by the dean of the University of
+Wisconsin Law School in 1915, as evidence that concerns about ethics
+were racially motivated. The dean’s statements were quite openly racist
+and nativist:
+If you examine the class rolls of the night schools in our great
+cities, you will encounter a very large proportion of foreign
+names. Emigrants and sons of emigrants remembering the re-
+spectable standing of the advocate in their own home, covet the
+title as a badge of distinction. The result is a host of shrewd
+young men, imperfectly educated, crammed so they can pass the
+bar examinations ... viewing the Code of Ethics with uncom-
+prehending eyes. It is this class of lawyers that cause Grievance
+Committees of Bar Associations the most trouble.'®
+
+Concerns about immigrant status and ethnicity were not limited to
+the immigrants’ “moral character.” Professional leaders also expressed
+dismay and doubt concerning the academic abilities of their immigrant
+counterparts. Future Chief Justice Harlan Fiske Stone “referred to ‘the
+influx to the bar of greater numbers of the unfit,’ who ‘exhibit racial
+tendencies toward study by memorization’ and display ‘a mind almost
+Oriental in its fidelity to the minutiae of the subject without regard to
+any controlling rule or reason.’”'"* Austen Fox, a prominent lawyer
+who would later antagonize Louis D. Brandeis during his Supreme
+Court confirmation hearings, spoke of “the many immigrant
+boys... [who] can hardly speak English intelligibly and show little un-
+derstanding of or feeling for American institutions and government.”
+In Fox’s eyes, they were a “group of young men who as a class acquire
+very rapidly but do not assimilate—quick to learn and quick to
+
+ 
+
+132. AUERBACH, supra note 95, at 107 (citation omitted).
+In an apocalyptic memorandum, another lawyer warned of “the great flood of foreign
+blood... sweeping into the bar.” Eastern European immigrants, ‘with little inherited sense
+of fairness, justice and honor as we understand them,” were committed only to their own
+“selfish advancement.” How, the author inquired, “are we to preserve our Anglo-Saxon
+law of the land under such conditions?”
+fd. (citation omitted).
+133, STEVENS, supra note 91, at 109 n.67 (quoting Harry S. Richards, Progress in Legal
+Education, 15 HANDBOOK OF THE ASSOCIATION OF AMERICAN Law ScHoo;s 63 (1915)).
+134. AUERBACH, supra note 95, at 107 (citation omitted).
+135. /d. at 121 (quoting Austen Fox).
+398 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1484 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+forget.” In response to this outpouring of Anti-Semitism and nativ-
+ism, in 1909, the Section of Legal Education of the ABA adopted the
+requirement that lawyers be American citizens, even though the foreign
+student was a market force to be reckoned with, having created a great
+demand for proprietary and night schools.”
+
+Efforts to restrict admission to the bar targeted African Americans
+as well as immigrants. Paul Finkelman has documented turn-of-the-
+century efforts to keep Blacks from practicing law:
+
+Starting in the 1890s, white-dominated southern govern-
+
+ments began to disenfranchise and segregate blacks as a back-
+lash against the Civil War and the goals of the Reconstruction.
+As blacks lost their newly acquired rights, black lawyers disap-
+peated from the scene. For example, in 1900, Mississippi had
+twenty-four black lawyers, and South Carolina had twenty-nine.
+A decade later Mississippi was down to twenty-one black lawyers
+and South Carolina had seventeen. In 1920, both states had only
+fourteen black lawyers, and by 1930, Mississippi had only six
+black lawyers, and South Carolina had thirteen. In 1940, there
+were just three blacks practicing law in Mississippi, and five in
+South Carolina."
+
+The pervasiveness of racial exclusion during this time period manifested
+itself in an incident involving the American Bar Association during the
+early part of the century. In 1912, the ABA unwittingly admitted three
+Black lawyers. When informed of the error, the organization rapidly
+passed a resolution rescinding admission.’” “[S]ince the settled practice
+of the Association ha[d] been to elect only white men as members,”!”
+the ABA referred the matter for a vote by the entire association. In dis-
+cussing the matter, the Association quite openly declared that, from their
+perspective, the matter posed “a question of keeping pure the Anglo-
+Saxon race.”'*! Eventually, the ABA reached a compromise; it allowed
+the three black lawyers to keep their memberships, but it imposed a new
+requirement that all future applicants identify themselves by race.”
+
+ 
+
+136.  éd. at 121.
+
+137, See STEVENS, supra note 91, at 100 (“The schools that catered to immigrants apparently
+were so low in the view of the elite that, despite their possible economic power, the associations were
+quick to attempt to crush them.”}
+
+138, Paul Finkelman, Not Only the Judge’s Robes Were Black: African-American Lawyers as
+Social Engineers, 47 Staw L. Rev. 161, 182 (1994).
+
+139. See AUERBACH, supra note 95, at 65.
+
+140. Jd. at 65.
+
+141. Jd. at 65-66.
+
+142. See id. at 66.
+1998] BIAS AND MERIT 399
+
+1997] BIAS AND MERIT 1485
+
+Of course, racism pervaded legal education during this time period
+as well. Many law schools, particularly those in the South, formally de-
+nied Blacks admission, and most others informally excluded them. As
+late as 1939, thirty-four of the eighty-eight accredited law schools had
+formal policies excluding Blacks.’ In 1925, Texas passed a law re-
+stricting attendance at the University of Texas to white students, and the
+law remained in effect until much later in the century.'* As late as
+1938, the University of Missouri Law School continued to formally ex-
+clude Black applicants on the grounds that “it was ‘contrary to the con-
+stitution, laws and public policy of the State to admit a negro as a
+student in the University of Missouri.’”'**
+
+Although the University of Texas Law School formally excluded
+Latinos by restricting their admission to white students only, law schools
+did not need to adopt formal exclusionary policies for Chicanos and
+other Latinos; pre-existing social and economic constraints alone were
+sufficient to keep them out.'© Most Mexicans and Mexican Americans
+lacked even the requisite high-school degree to apply to proprietary
+schools, much less the more prestigious university-affiliated law
+schools.’ The majority of newly arrived Mexicans in the Southwest and
+California took jobs in agriculture, where they suffered sub-standard
+living conditions, chronic underemployment and dramatically low
+wages.'® A minority of Mexican immigrants entered the lower ranks of
+industrial employment in the Northwest and the Midwest as unskilled
+laborers, but few sought entry into the legal profession.'”
+
+While racism against Latinos did not manifest itself as explicitly
+during this time period in legal education, Mexican Americans and
+Mexican nationals experienced in other ways much of the same nativist
+and racist sentiment that had been directed against Blacks and immi-
+grants in the legal profession. Although immigrants from Mexico nar-
+rowly had escaped the limits on European immigration enacted in the
+Immigration Restriction Acts of 1914 and 1924, during the 1920s,
+Congress tried again to restrict Mexican immigration by eliminating
+
+ 
+
+143. See id. at 183 (citing AUGUST MEIER, BLack HIsTORY AND THE HISTORICAL PROFESSION
+1915-1980 50 (1988)).
+
+144. See Sweatt v. Painter, 339 U.S. 629, 631 n.1 (1950) (citing Texas statute).
+
+145. Missouri ex ref. Gaines v. Canada, 305 U.S. 337, 343 (1938).
+
+146, This information was collected during a telephone interview with Professor Michael Olivas
+of the University of Houston Law School (August 21, 1996) fhereinafter, “Olivas Conversation”).
+
+147, Id.
+
+148. See Matt S. Meter & FELICIANO RIBERA, MEXICAN AMERICANS/AMERICAN MEXICANS:
+From CoNQUISTADORS TO CHICANOS 123 (2d ed. 1993).
+
+149. See id. at 121-22.
+400 LA RAZA LAW JOURNAL (Vol. 10:363
+
+1486 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+Mexico’s exemption.” In 1926, Representative John C. Box of Texas
+introduced a bill to remove the exemption. During Senate hearings on
+the subject in 1928, Box publicly referred to Mexican workers as
+“peonized, illiterate and unclean.”'' Support for Box’s effort to re-
+move the exemption came from many sources, including teachers’ or-
+ganizations and labor unions, as well as the more blatantly nativistic
+“patriotic societies” and overtly racist groups.’
+
+This, then, was the state of legal and social culture when law schools
+first began to explore the use of competitive admissions standards. In
+the early twentieth century, law schools first began to require some col-
+lege attendance beyond a high school degree.” By 1921, elite schools
+insisted on college degrees, while the less elite schools offered legal
+education as part of their undergraduate curriculum.
+
+Admissions programs also became selective for the first time in the
+early 1920s, in conjunction with the demands of the case-law method of
+instruction. Previously, most elite law schools had employed open ad-
+missions policies at least for affluent males who had a college degree
+and could pay their way.’** However, in the 1926-27 academic year,
+Harvard failed 250 of its 700 first-year students, and other schools ex-
+perienced similarly high rates of attrition, largely due to the introduc-
+tion of the case-law method and the ensuing radical transformation of
+legal education.'** To deal with these attrition rates, Yale began limiting
+its entering classes to 100 students; no student was admitted unless he
+had a C average, and transfer students needed a B average for admis-
+sion.” After 1926, Yale applicants were required to submit a transcript
+of their college record and letters of recommendations, to participate in
+an interview and to take a classification test."* By 1928, Yale was re-
+jecting over two-thirds of its applicants to maintain its limit of 100 new
+students per year.'
+
+The elite schools sought to limit the high rate of academic failures
+in another way—through the use of aptitude testing." At Columbia,
+
+ 
+
+150. See id. at 125-26.
+
+151. See id.
+
+152. See id. at 126-27.
+
+153. See STEVENS, supra note 91, at 61.
+
+154. See id.
+155. See id. at 160-61.
+156. See id.
+187. See id.
+158. See id.
+159. See id.
+
+160. See id.
+1998] BIAS AND MERIT 401
+
+1997} BIAS AND MERIT 1487
+
+Dean Harlan Fiske Stone initiated experimental testing for admissions in
+1921, and in 1928 Columbia added aptitude testing to its newly selective
+admissions process." In 1925, the year after enactment of the
+Immigration Restriction Act of 1924, the West Publishing Company
+published the first edition of its Ferson-Stoddard aptitude test, which was
+used through three editions by a number of law schools.” Yale’s suc-
+cess with aptitude testing encouraged other schools to explore the use of
+psychometric testing."“ Through aptitude testing, elite law schools
+solved the problem of admitting students who were not proficient in
+case-method analysis. “Rather than cut back on the case method, the
+schools cut back on the average student.”!
+
+The use of aptitude testing continued to spread throughout the
+1930s and 40s. In the late 1940s, three law schools formed an early
+version of what is now the Law School Admisstons Council (““LSAC”)
+to develop the Law School Aptitude Test (“LSAT”).'* Despite the al-
+ready widespread use of aptitude testing among law schools, the first
+version of the LSAT, developed in 1947, did not draw from previous
+classroom testing experiences in legal education, but was based instead
+upon the Pepsi-Cola Scholarship Test and tests developed for the United
+States Navy.'©
+
+Not surprisingly given the foregoing historical context, the
+Navy tests and other aptitude tests of similar character had their
+own foundation in racist and anti-immigrant sentiment.'” In The
+Mismeasure of Man, Steven Jay Gould points out that the same racist
+and nativist assumptions that had fueled support for anti-immigrant
+legislation had created a demand for the development of ability
+
+ 
+
+161. See id.
+
+162. See Thomas O. White, LSAC/LSAS: A Brief History, 34 J. LeGat Epuc. 369, 369-70 (1984).
+John Henry Wigmore concluded that the test had no substantial value in predicting success in law
+school. See STEVENS, supra note 91, at 169 n.54 (citing Wigmore, Juristic Psychopoyemetrology—or
+How ia Find Out Whether the Boy has the Makings of A Lawyer, 24 U. ILL. L. Rev. 454, 455 (1929)).
+
+163. See STEVENS, supra note 91, at 169 & n.54.
+
+164. fd. at 161,
+
+165. See White, supra note 162, at 370.
+
+166. fd. at 371.
+
+167, Professor Richard Delgado has argued generally that law schools’ use of LSAT scores and
+undergraduate grades is inextricably intertwined with the racist history of intelligence testing.
+Delgado questions the validity of LSAT, in part because of the racist history of intelligence testing, an
+argument that is taken up in more detail in the text accompanying notes 168-184 infra. See also
+Delgado, Rodrigo’s Tenth Chronicle, supra note 9, at 1721, 1740-41.
+402 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1488 CALIFORNIA LAW REVIEW [Vol. 85:1449
+testing.'* Gould notes that ability testing was the practical (and inevita-
+ble) offspring of biological determinism, an intellectual move- ment
+then coming into its own, one that used genetic and evolutionary theory
+to justify existing social, racial, and cultural arrangements.’
+
+According to Gould, the pioneers of ability testing developed their
+tests during the early twentieth century expressly to justify on biological
+grounds certain a priori political and social assumptions about race and
+ethnicity that were then in vogue. For example, Lewis M. Terman, who
+developed the Stanford-Binet scale in 1916, dreamed of a “rational”
+society that allocated professional opportunities by IQ scores.'” Henry
+H. Goddard, who brought the Binet IQ scale to America, reified its re-
+sults as concrete representations of innate intelligence. Goddard hoped
+to use test scores “in order to recognize limits, segregate, and curtail
+breeding to prevent further deterioration of an endangered American
+stock, threatened by immigration from without and by prolific repro-
+duction of its feeble-minded from within."
+
+ 
+
+168. See generally GOULD, supra note 79; see also Delgado, Redrigo's Tenth Chronicle, supra
+note 9, at 1740 (relying on Gould and others to argue that the SAT developed from a scientific
+tradition intent on proving racial inferiority).
+
+169. See GouLn, supra note 79, at 20.
+
+170. Terman proclaimed that validating the hereditarian arguments about race and class were a
+primary aim of his work. See id. at 189, Of the laboring class, he wrote that
+
+{t]hey represent the level of intelligence which is very, very common among Spanish-
+Indian and Mexican families of the Southwest and also among negroes, Their dullness
+seems to be racial, or at least inherent in the family stocks from which they came. The fact
+
+, that one meets this type with such extraordinary frequency among Indians, Mexicans, and
+
+negroes suggests quite forcibly that the whole question of racial differences in mental traits
+will have to be taken up anew... . Children of this group should be segregated in special
+classes and be given instruction which is concrete and practical.... There is no possibility
+at present of convincing society that they should not be allowed to reproduce, although from
+a eugenic point of view they constitute a grave problem because of their unusually prolific
+breeding.
+fd. at 190-91. Terman later revised his analysis to explain group differences in terms of differences
+in environment, See id. at 192.
+
+171. Id. at 159. Goddard used Binet’s tests to screen incoming immigrants at Ellis Island for the
+purpose of “detecting mental defectives,” and his initial results indicated that 83% of the Jews, 80%
+of Hungarians, 79% of Italians and 87% of the Russians were “feeble-minded.” /d. at 164-66.
+“Goddard rejoiced in the general tightening of standards for admission, (and}.... report{ed] that
+deportations for mental deficiency increased 350 percent in 1913 and 570 percent in 1914... ‘due to
+the untiring efforts of the physicians who were inspired by the belief that mental tests could be used
+for the detection of feeble-minded aliens."” Jd. at 168 (citing Henry H. Goddard, Mental Tests and
+the Immigrant, J. OF DELINQ. 2, 271 (1917)). Goddard went so far as to alter photographs to support
+his argument that a stock of paupers in the pine barrens of New Jersey, whom he named the “kakos”
+line, were genetically deficient. See id. at 171-72. Indeed, Goddard’s “Kallikak family” functioned
+as the primal myth of the eugenics movement for several decades. See id. at 168. Goddard later
+recanted to admit that he had set the ceiling of “moronity” too high. See id. at 172.
+1998] BIAS AND MERIT 403
+
+1997] BIAS AND MERIT 1489
+
+Robert M. Yerkes, who persuaded the Army to test its recruits in
+World War I, was perhaps the most responsible for developing aptitude
+testing to perpetuate the notion that immigrants and Blacks were intel-
+lectually inferior for genetic reasons. Yerkes’ Army data purported to
+show that dark-skinned Southern and Eastern European immigrants
+were less intelligent than the light-skinned Northern and Western
+Europeans, and that the Negro was least intelligent of all. Yerkes’
+data, along with data from other hereditarian ability testers, led directly
+to passage of the Immigration Restriction Act of 1924, and to segrega-
+tion in higher education:'”
+
+Other propagandists used the army results to defend racial
+segregation and limited access of blacks to higher education.
+Comelia James Cannon, writing in the Atlantic Monthly in 1922,
+noted that 89 percent of blacks had tested as morons and ar-
+gued....“{that] the education of the whites and colored in
+separate schools may have justification other than that created by
+race prejudice... .”
+
+But the army data had its most immediate and profound
+impact upon the great immigration debate, then a major political
+issue in America, and ultimately the greatest triumph of eugen-
+ics.’
+
+Carl Brigham, the man who eventually would become the head of
+the Educational Testing Service, used the Yerkes data to argue publicly
+
+ 
+
+172. See id. at 197.
+
+173, See id. Leon Kamin has concluded that American psychologists were directly responsible
+for influencing legislators to pass the Immigration Restriction Act of 1924. See generally Leon
+Kamin, THE SCIENCE AND POLitics oF IQ (1974). See also James Reed, Robert M. Yerkes und the
+Mental Testing Movement, in PSYCHOLOGICAL TESTING AND AMERICAN SOcIETY 77 (Michael Sokal
+ed., 1987),
+
+Yerkes and Terman . .. shared with other American Galtonians the assumption that “civic
+worth” or “mental ability” or “Q” were inherited biological capacities distributed unevenly
+among classes and ethnic groups. They translated Galtonian ideology into harsh judgments
+that fit all too well with the nativism and xenophobia of their culture. Thus, the efforts of
+Yerkes and Terman to promote their discipline were greatly eased by the fact that their
+technology of mental measurement reconciled equality of opportunity with inequality; they
+provided numbers that seemed to confirm the “naturalness” of social class and racial caste.
+Id.
+174. GouLp, supra note 79, at 231. Gould quotes Henry Fairfield Osborn, trustee of Columbia
+University, whose law school was the first to explore the use of aptitude tests:
+I believe those tests were worth what the war cost, even in human life, if they served to
+show clearly to our people the lack of intelligence in our country, and the degrees of
+intelligence in different races who are coming to us, ina way which no one can say is the
+result of prejudice. ...so in regard to many races and subraces in Europe we learned that
+some which we had believed possessed of an order of intelligence perhaps superior to ours
+were far inferior.
+
+7d. (quoting Henry Fairfield Osborn).
+404 LA RAZA LAW JOURNAL [{Vol. 10:363
+
+1490 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+for restrictions on immigration and eugenic regulation of reproduc-
+tion.'% As noted earlier, the LSAT in its earliest formulations drew di-
+rectly from Navy tests and Pepsi scholarship tests, all variations of the
+original IQ tests and the early Army data.'
+
+Gould’s arguments about the racist and nativist sentiments under-
+lying ability testing rest on more than the openly racist motivations of
+the testers. Indeed, Gould argues that the very idea of ability testing it-
+self rests on racist and nativist assumptions: the key structural compo-
+nents of ability measurement are tied inextricably to social and cultural
+desires to justify pre-existing distributions of wealth and power on the
+basis of race and ethnicity!” According to Gould, the ability testers
+embedded at least two a priori assumptions about race and ethnicity into
+the methodology of ability testing."®
+
+First, the ability-testers assumed that it was possible to reduce hu-
+man capability in all its many forms to a unitary and measurable attrib-
+ute—intelligence—and that such an attribute could be assigned a
+number.’” Gould argues that the scientific method of converting hu-
+man ability into a unitary number represented the social desire to justify
+
+pre-existing political, racial, and cultural divisions among people:'®
+
+We recognize the importance of mentality in our lives and wish
+to characterize it, in part so that we can make the divisions and
+distinctions among people that our cultural and political systems
+
+ 
+
+175. See id. at 230. Brigham saw the threat to American intelligence as coming from both
+immigrants and Blacks. “Running parallel with the movements of these European peoples, we have
+the most sinister development in the history of this continent, the importation of the negro.” fd.
+Brigham eventually recanted many of his conclusions, but his change of heart did not affect the
+widespread acceptance of his theories. /d. at 232-34. See also Delgado, Radrigo’s Tenth Chronicle,
+supra note 9, at 1743 (noting that Brigham relied on the Army test results).
+
+176. See White, supra note 162, at 370-71. See also MALDEF Stupy, supra note 83, at 16
+(discussing the historical development of the LSAT).
+
+177. See GOULD, supra note 79, at 24-25.
+
+178. See id.
+
+179. See id.
+
+180. See id. In a similar vein, Professor David Goldberg argues that Enlightenment notions of
+morality, intellectual capacity, and Reason reflect the Western European desire to justify
+appropriation of land and human resources on the grounds that savages, Negroes, and Southern and
+Eastem Europeans all were inferior in those categories. See Davip GoLDBERG, RACIST CULTURE
+15-40 (1991) (contending that the central tenets of Enlightenment moral philosophy, e.g., arguments
+about irrationality or immorality, were constructed by social views on race and ethnicity, as illustrated
+by philosophers’ writings on race); id. at 117-19 (arguing that Enlightenment Reason is racially and
+culturally Western and Eurocentric, because it calls other cultures irrational for their “fail{ure] to
+exhibit the values, metaphysical attitudes, epistemological principles, or cognitive values of
+‘whitemales’”).
+1998] BIAS AND MERIT 405
+
+1997] BIAS AND MERIT 1491
+
+dictate. We therefore give the word ‘intelligence’ to this won-
+drously complex and multifaceted set of human capabilities,'*!
+
+Second, the hereditarian testers assumed that it was possible to rank
+the scores obtained from measurement in some sort of serial fashion.'?
+However, Gould describes the practice of ranking scores in ascending
+order not as an example of precise measurement but as a function of the
+Enlightenment metaphor of progress as upward movement on a linear
+scale.'* In particular, according to Gould, the process of ranking com-
+ported with “[mJetaphors of progress and gradualism [that] have been
+among the most pervasive in Western thought.”'* Gould traces the
+metaphor of progress to Darwinian assumptions about evolution, and
+biological determinism in particular.
+
+Notwithstanding Gould’s work and similar arguments from other
+prominent scientists, intelligence and ability tests continue to be used to
+screen potential applicants for educational and some employment pur-
+poses. Certainly, commentators and testing organizations continue to
+criticize overreliance on these tests, based in part on the racist historical
+context surrounding their development. But having forgotten (or having
+repressed) the history of law school admissions standards, law schools
+continue to perpetuate the meritocratic myth that LSAT scores measure
+ability to succeed in law school in objective, universal and race-neutral
+ways.
+
+The foregoing critical history of law school admissions illustrates
+the general deconstructivist insight that merit standards necessarily defer
+to and depend on subjective, socially constructed preferences about
+what constitutes social value, in this case in the legal profession. More
+relevantly, it demonstrates that legal professionals and educators con-
+‘ structed preferences for social value, as well as the corresponding law
+school admissions standards, at a time when the profession affirmatively
+sought to exclude people based on their race and ethnicity. Far from
+being colorblind, law school admissions standards were developed in a
+context of racial and cultural exclusion, where those professional leaders
+who developed those standards and values had achieved their leadership
+status in large part because of their race. Far more troublingly, this criti-
+cal history raises the possibility that law schools admissions standards
+
+ 
+
+181. GouLp, supra note 79, at 24.
+
+182. See id. at 24-25.
+
+183. See id.
+
+184. Id. at 24. In an astonishing tour de force, notable for its scope, Gould also debunks the
+scientific methods used to develop intelligence testing, by re-analyzing the data and conclusions of
+the early twentieth century intelligence testers. See id. at 24-29,
+406 LA RAZA LAW JOURNAL (Vol. 10:363
+
+1492 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+may have been developed as part of a broader professional effort to ex-
+clude on the basis of race and ethnicity.
+
+Practically speaking, the history of law school admission may help
+to explain the admissions standards’ disproportionate impact on groups
+that were excluded from the legal profession at the relevant time. Given
+the origins of aptitude testing, it is less likely to be mere coincidence
+that contemporary academic selectivity measures continue to exclude
+certain people of color disproportionately. For as long as the tests have
+been administered, Blacks and Latinos have performed at levels signifi-
+cantly below those of white applicants. For example, in 1992-93, 25.7%
+of white applicants scored at or above 160 on the LSAT, compared to
+11.5% of Latino applicants, 12.7% of American Indian applicants, and
+2.9% of African-American applicants.'*
+
+Beyond providing an alternative critical historical account of law
+school admission, what theoretical implications might this deconstruc-
+tivist account have for Farber and Sherry’s defense of objective merit?
+Using the authors’ own argument that merit should be preferred over
+bias, law schoo! admissions standards must be rejected as biased or race-
+conscious. Farber and Sherry describe merit as valuable, objective, and
+rational because it is “definable without reference to th[e] personal
+characteristics” of race, gender, class, and religion. Conversely, they
+condemn bias for being unjust, irrational, and “race-conscious.” Ac-
+cording to Farber and Sherry’s own analysis, then, the conception of
+merit in the legal profession must be rejected to the extent that it was
+developed in ways that were related to race and ethnicity, i.e. because
+merit is “race-conscious.”
+
+Indeed, all merit standards are potentially subject to this critique.
+AS the foregoing critical history illustrates, all merit standards necessar-
+ily must defer to subjective, nonrational, culturally- and racially-specific
+judgments about what constitutes social value. Many, if not all, of the
+“numbers-based” standards might potentially be traceable to the racist
+history of ability testing. But beyond an analysis of its specific history,
+because merit depends on and defers to what is in effect a social bias,
+merit actually reinscribes the qualities and characteristics of bias.
+Indeed, merit can be redescribed as a socially acceptable bias for par-
+ticular qualities and characteristics and values. Certainly, the radical
+
+ 
+
+185. See Law ScHOOL Apmissions CouNcIL, 1990-95 NATIONAL STATISTICAL REPORT F-5
+(1996). In 1994, the average LSAT score of African American applicants was a 149 as compared to
+a 158 for Caucasian students. The average GPA of African American students was 2.91] as against
+3.25 for Caucasian students. /d.
+1998] BIAS AND MERIT 407
+
+1997] BIAS AND MERIT 1493
+
+critique of merit builds on this assumption to condemn certain merit
+standards as favoring the groups that contructed them.
+
+However, contrary to popular belief (and perhaps the views of some
+critical theorists), the deconstructive argument does not collapse the dis-
+tinction between merit and bias, to argue that all merit is bias. One could
+also make the reverse deconstructive argument, that bias necessarily re-
+inscribes the “rationality” of merit because biases can be said to be ra-
+tionally related to a particular state of the world they seek to produce.
+
+Suppose that society openly viewed the distribution of jobs and
+other opportunities as a socially acceptable means by which certain
+demographic groups could consolidate their power. It then would con-
+stitute a merit-based selection to choose an employee or student on the
+basis of their social status, race, class, or gender—these criteria would
+have “merit” in light of the social value of power consolidation.
+Similarly, affirmative action programs could be said to have “merit”
+because they put members of previously excluded groups into positions
+of power, a political goal that many defenders of affirmative action ar-
+ticulate.’* Thus, bias depends on and defers to the idea of the “logic of
+selection” fundamental to the definition of merit, in which a particular
+characteristic or trait rationally predicts for a particular ability that has
+social value, whether that be the ability to perform well under the
+Socratic method or the ability to consolidate the power of dominant
+groups.
+
+The possibility of deconstructing the distinction between merit and
+bias from either direction reveals the “differance” between the arbi-
+trary, nonrational social choices associated with bias and the rational
+objectivity associated with merit. Merit differs from bias, but the way
+merit is constructed through judgments about social value necessarily
+reinscribes the characteristics of bias. Bias differs from merit, but given
+a particular social value—e.g., the perpetuation of white supremacy—
+selection based on race or ethnicity meritoriously and logically relates
+to achieving that social value.
+
+Rationality or logic cannot fully explain distributions according to
+merit. Nor can merit standards be explained fully as the irrational
+exercise of social power. Deconstructive practice reveals the limits of
+both “rationality” and the exercise of social power in explaining social
+practices like merit selection or biased selection. Deconstruction “sets in
+train a process of thought which shuttles productively from one
+
+ 
+
+186. See Kennedy, supra note 9.
+408 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1494 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+standpoint to the other.’"*’ At the same time, it undermines and dis-
+places any stable meaning for merit or bias as opposites, by redescribing
+bias as a form of merit, and merit as a form of bias. Thus, it reveals the
+choice of what we choose to call merit and what gets called bias to be a
+political one, subject to discussion and debate.
+
+I
+ADDITIONAL THEORETICAL AND PRACTICAL IMPLICATIONS
+
+A. Critical Historical Method: An Alternative Line of Inquiry
+
+Whatever one thinks of deconstructive practice and difference, the
+original question posed by Farber and Sherry remains. Given that merit
+standards were designed to keep Southern and Eastern Europeans, Jews,
+and African Americans out of power, how does one explain the dispro-
+portionate success of Jews and some groups of Asians? Farber and
+Sherry primarily focus their attention on alternative answers that are
+Anti-Semitic, but they also allude to two other potentially acceptable
+(i.e., not Anti-Semitic) possibilities, neither of which they explore in
+depth. First, the authors concede that for Jews and some Asian groups,
+the standard might “simply [happen] by chance to correspond to
+something in their own culture.” Alternatively, they suggest, “these
+groups might have mastered the dominant culture as a response to their
+subordinated status.”" Farber and Sherry do not fully develop either
+alternative, both of which explain Jewish or Asian success as cultural
+“adaptation.”
+
+Indeed, one could imagine such an argument, more fully fleshed
+out than the authors’ description, that Jewish or some Asian cultures
+have some traditions or emphases—perhaps a history of achievement in
+the legal profession, an embrace of Enlightenment values, an emphasis
+on formal education, a mastery of written texts, rules of law or religion,
+or other adaptations related to their diaspora—that might explain why
+
+ 
+
+187, Norris, supra note 16, at 27.
+
+188. Farber & Sherry, Radical Critique of Merit, supra note 2, at 880.
+
+189, Id.
+
+190. Farber and Sherry find this argument to be Anti-Semitic, in one sense, because it implicates
+Jews in the blame for constructing racist standards (which in the case of law school admissions
+standards seems rather doubtful), or at least for taking advantage of them. See FARBER & SHERRY,
+BEYOND ALL REASON, supra note 2, at 72. Alternatively, the argument is Anti-Semitic because any
+radical proposal for reform would take away the fruits of Jewish success as unfairly earned. See
+Farber & Sherry, Radical Critique of Merit, supra note 2, at 881. The authors find the adaptation
+argument to necessarily suggest that Jewish and Asian cultures are parasitic and inauthentic. /d. See
+also FARBER & SHERRY, BEYOND ALL REASON, supra note 2, at 74.
+1998] BIAS AND MERIT 409
+
+1997] BIAS AND MERIT 1495
+
+these groups have beaten the dominant culture at its own game in par-
+ticular professions or educational settings.'*!
+
+The authors ultimately reject the possibility of this argument, or
+any derivation of it, for two reasons. First, Farber and Sherry contend
+that the “white Gentiles might allow Jews and Asians to succeed, but
+they would not allow them to surpass. A ‘gate built by a white male he-
+gemony’ is not likely to open wider for Jews and Asians than for mem-
+bers of the dominant culture.” Second, and in the alternative, Farber
+and Sherry respond that any radical critique of merit that emphasizes its
+cultural or ideological situatedness is nihilistic."
+
+Whether or not the charge of nihilism sticks—an argument taken
+up in more detail in the next sectton—the authors do not appear to have
+undertaken any sort of historical inquiry, conventional, critical, or oth-
+erwise, to answer the question about Jewish or Asian success. Farber and
+Sherry instead focus on hypothetical explanations that they then attack
+as anti-Semitic or anti-Asian.
+
+As the critical history of law school admissions suggests, however, it
+might have been more productive for Farber and Sherry to explore the
+Jewish/Asian question by conducting a critical historical inquiry. The
+authors could have explored how Jews and Asians did or did not par-
+ticipate in the creation of admissions standards, how they initially fared
+during the adoption of admissions criteria, and when and how they first
+began to succeed under such standards (a project that this Article does
+not take up). Whatever the results of such an historical inquiry, the
+authors’ ahistorical comparisons between groups are of little help, be-
+cause, as the foregoing discussion suggests, merit cannot be assessed in
+abstract, “objective” terms.
+
+In any event, Farber and Sherry’s argument is premised on the as-
+sumption that members of the dominant group consciously and actively
+conspired to exclude all groups other than their own, by constructing
+intentionally unfair standards rather than neutral, fair standards. The
+authors’ argument does not necessarily apply to the weaker formulation
+of the radical critique presented in this Article, which describes all merit
+standards as culturally and historically situated, and does not necessarily
+
+ 
+
+191, Though beyond the scope of this article, there is some suggestion that the data with regard
+to Asian Americans in law schools and Jaw school faculty positions may not conform to Farber and
+Sherry’s more general argument about Asian American success. See Robert §. Chang, Toward an
+Asian American Legal Scholarship: Critical Race Theory, Post-Structuralism, and Narrative Space,
+81 Cauir. L. Rev. 1241 (1988).
+
+192, FarBER & SHERRY, BEYOND ALL REASON, supra note 2, at 71 (emphasis in original).
+
+193. The nihilism argument is taken up in Part IV, infra.
+410 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1496 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+formulate merit standards as the product of conscious conspiracy on the
+part of members of the dominant group.
+
+Of course, this Article does raise the possibility of a stronger argu-
+ment, i.e., that merit standards in law school admissions were part of a
+broader structural, perhaps explicitly conscious effort to exclude Blacks
+and immigrant groups on the basis of perceived racial, ethnic, and cul-
+tural differences. However, even the stronger version of the argument
+does not negate the possibility that Jews or Asians, as time passed, would
+come to surpass the dominant culture’s performance at its own game,
+for historical or social or cultural reasons that do not necessarily hold
+true for other groups with different histories and cultures. Nor does that
+explanation presume that Jewish and Asian groups have become as-
+similated culturally into American culture—to the contrary, there is
+much to indicate that, in conjunction with their success under conven-
+tional merit standards, Jews and Asians continue to enjoy distinctive and
+rich cultural and historical traditions. Rather, the radical critique is
+meant to point out the ways in which al/ merit standards are necessarily
+historically and culturally specific, and to argue that all groups ought to
+have the opportunity to participate in the development of such stan-
+dards.
+
+B. A Practical Application of Deconstruction:
+Shifting the Burden of Proof
+
+This section suggests ways in which litigators could make use of the
+deconstructivist insights of this article in litigating against purely num-
+bers-based law school admissions standards. As noted earlier, decon-
+struction merely clears the way for necessary political discussions about
+what gets called merit or bias. Although this Article does not develop
+those political arguments, the practical task of creating litigation tools
+assumes a prior, political commitment to increase the numbers of Blacks
+and Latinos/as in law schools. Thus, this section touches on those argu-
+ments briefly.
+
+It is possible, drawing from the critical history of law school admis-
+sions, to marshal at least two persuasive political arguments for affirma-
+tive action in law schools. First, the critical history of law school
+admissions standards raises the possibility that law schools developed
+those standards, and more particularly the LSAT, as part of a broader
+intentional effort to exclude Blacks and immigrants from the legal pro-
+fession. To the extent that we find arguments about intentional dis-
+crimination politically persuasive, we should respond to evidence of
+1998] BIAS AND MERIT 411
+
+1997] BIAS AND MERIT 1497
+
+possible intentional discrimination in the creation of these standards by
+overhauling the standards or admitting people of color via affirmative
+action programs.
+
+The critical history of law school admissions also supports a second
+political argument from fairness, this one a more process-oriented ar-
+gument than the last. Duncan Kennedy argues persuasively that, to the
+extent certain groups were affirmatively excluded via merit standards
+and explicit racism from the legal profession, they did not have an op-
+portunity to participate in the initial development of merit standards.'*
+Therefore, affirmative action programs are justified on the grounds that
+they put people of color in positions of leadership where they eventu-
+ally will be able to serve as intelligentsia for communities of color, and
+participate in decisions about continuing or revising standards of
+merit.
+
+Assuming the persuasiveness of these pro-affirmative action politi-
+cal arguments, how might deconstructive insights about merit and bias
+translate into practical litigation tools? Using standard  anti-
+discrimination arguments (or slightly modified ones), litigators might be
+able to use deconstructive insights to challenge straight numbers-based
+admissions procedures like the SP-1 policy recently mandated in
+California universities. While courts are not likely to find persuasive the
+argument that all merit standards are a form of bias, they may find more
+persuasive the argument that law school admissions standards were de-
+veloped in the context of, or for the purpose of, racial exclusion. These
+radical claims in support of affirmative action and against admissions
+policies like SP-1 certainly can be fit into the conventional legal vo-
+cabulary’s distinctions between merit and bias.
+
+Currently, standard anti-discrimination law recognizes that reme-
+dying past discrimination constitutes a compelling state interest of suffi-
+cient weight to justify affirmative action programs.'® Standard anti-
+discrimination doctrine also recognizes that the contextual history of a
+selection procedure is important in assessing whether the procedure has
+been used with an intent to discriminate.’ The deconstructivist history
+of law school admissions provides material for both of those arguments.
+
+First, to the extent that litigation involves defending an affirmative
+action program in a law school, such programs can be justified on the
+
+ 
+
+194. Kennedy, supra note 9, at 712-13 (arguing that to compete effectively for wealth and
+power, minority groups must have intelligentsia who participate in the production of knowledge.)
+
+195. See id.
+
+196. Shaw v. Hunt, 116 S. Ct. 1894, 1902 (1996).
+
+197. U.S. v. Fordice, 505 U.S. 717, 734 (1992).
+412 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1498 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+grounds that they are remedying the past discriminatory activity em-
+bedded in law school admissions standards themselves, whether the dis-
+crimination consists of developing the standards for the purpose of
+excluding people of color, or excluding them from the profession in a
+way that prevented their participation in developing merit standards.
+Although the United States Supreme Court does not recognize reme-
+dying industry or profession-wide discrimination, that limitation has
+never been applied to cases which justify an affirmative action program
+on the grounds that the selection process itself is intrinsically and struc-
+turally discriminatory.'* Using such an argument, defense attorneys in
+Hopwood v. Texas’” might have coupled the foregoing general histori-
+cal narrative with evidence of specific institutional history as well as evi-
+dence of disproportionate impact of the law school’s admissions
+process, to argue that Texas’s affirmative action programs were justified
+by the a compelling state interest in remedying past discrimination.”
+
+Likewise, critical history could also be used as an offensive weapon
+in challenging the validity of pure numbers-based admissions standards
+like SP-1 under a Title VI intentional discrimination challenge.
+Standard anti-discrimination law under Title VI looks to the history sur-
+rounding a selection procedure to determine whether the procedure was
+used with the intent to discriminate. In United States v. Fordice, the
+United States Supreme Court condemned historically white Mississippi
+colleges’ admissions policies relating to use of the American College
+Test (ACT) on the grounds that they were traceable to a de jure system
+of discrimination, were originally adopted for a discriminatory purpose,
+and continued to have discriminatory effects.” Likewise, a court could
+find that the history of affirmative discrimination surrounding the birth
+of law school admission standards constituted a de jure system of
+discrimination, and that the LSAT and grade point average admissions
+standards are traceable to that time period and were originally adopted
+for a discriminatory purpose.
+
+Defenders of the SP-1 process likely will argue that evidence of
+historical discrimination does not prove that the standards themselves
+
+ 
+
+198. See Croson v. City of Richmond, 488 U.S. 469, 497-98 (1989).
+
+199. Hopwood v. Texas, 78 F.3d 932 (Sth Cir. 1996).
+
+200. The defense could also have made use of an affirmative action counternarrative to argue
+that the program served the “compelling state interest” of affording previously excluded groups the
+opportunity to participate in constructing merit standards, thereby ensuring that they will not be
+systematically excluded from professional opportunities. See id. at 940, 944-48 (requiring a
+compelling state interest to justify use of affirmative action in law school admissions because the
+program is race-conscious).
+
+201. 505 U.S. 717, 734 (1992).
+1998] _ BIAS AND MERIT 413
+
+1997] BIAS AND MERIT 1499
+
+were, or are currently, the product of discriminatory intent, particularly
+if the LSAT has been modified over the years. Further, LSAT defenders
+are likely to argue that the facts in Fordice are inapposite, since Missis-
+sippi had formally been held liable by the judicial system for operating
+a de jure system of segregation.
+
+Acknowledging the potential doctrinal difficulties of such an ar-
+gument, this Article proposes the creation of a new doctrinal category,
+“intentional impact,” which would combine elements of disparate im-
+pact doctrine with elements from intentional discrimination, or disparate
+treatment, doctrine. Under an “intentional impact” theory, a party
+could combine evidence of an industry or profession’s discriminatory
+intent in adopting or developing certain selection standards with current
+evidence of disproportionate impact, to create a prima facie case of in-
+tentional impact discrimination. Upon a prima facie showing of inten-
+tional impact, the burden of proof would then shift towards proponents
+of the merit standard at issue to prove, beyond any showing of educa-
+tional or business necessity, that the standards either were not developed
+in the context of racial exclusion, or did not produce a disparate impact
+on historically excluded groups.”
+
+Our suspicions are certainly raised when we discover that a par-
+ticular merit standard, like the LSAT, was developed in a context of ra-
+cial exclusion, and possibly for the explicit purpose of racial exclusion.
+We become more suspicious when we are confronted with evidence of
+the standard’s current disproportionate impact on people of color. Just
+as the burden is shifted after an initial showing of disparate impact in
+Title VI and VII cases,™ so too should the burden shift in intentional
+
+ 
+
+202. Id. at 734.
+
+203. In Village of Arlington Heights v. Metro, Housing Dev. Corp., 429 U.S. 252, 265-66 (1977),
+the Supreme Court held that in order to mount a constitutional challenge on the basis of disparate
+impact, plaintiffs would have to show some evidence of intentional purpose in adopting the facially
+neutral government action at issue. In that case, the Court held that in determining whether a facially
+neutral government action was motivated by a discriminatory purpose, a trial court should consider
+the historical background of the decision as an evidentiary source, in conjunction with discriminatory
+impact. /d. at 267. The proposed “intentional impact” category similarly would permit evidence of the
+historical background of a decision and events leading up to it, but would require the evidentiary
+burden to shift on a showing of historically suspect circumstances coupled with a disproportionate
+impact.
+
+204. While Title VI itself, like the Fourteenth Amendment, bars only intentional discrimination,
+the regulations promulgated pursuant to Title VI may validly proscribe actions having a disparate
+impact on groups protected by the statute, even if those actions are not intentionally discriminatory.
+See Guardians Ass'n v. Civil Service Comm'n of New York City, 463 U.S. 582, 584 n.2 (1983);
+Alexander v. Choate, 469 U.S. 287, 292-94 (1985); Georgia State Conference of Branches of
+NAACP vy, State of Georgia, 775 F.2d 1403, 1417 (11th Cir. 1985). Upon a showing that an
+educational admissions policy has a disparate impact upon protected groups, the burden of proof then
+414 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1500 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+impact cases, to prove that a particular merit standard is truly
+“colorblind.” A showing of educational necessity would not be
+enough, because, as with law school admissions, the educational values
+and practices of the institutions (like the case-law method) may be as
+much a product of industry-wide discrimination as the standards them-
+selves.
+
+The intentional impact litigation strategy focuses the court’s atten-
+tion beyond the merit standards to the social values behind those stan-
+dards, and the relation between those values and race and ethnicity. To
+the extent that contemporary antidiscrimination law insists on using col-
+orblindness and formal equal opportunity as benchmarks for acceptable
+ways of distributing resources, those who would defend merit standards
+should bear the burden of proving their fairness and equality after-a
+prima facie showing of unfairness in both their origins and their con-
+temporary application.
+
+No doubt Farber and Sherry would object to the foregoing pro-
+posal, most likely on theoretical grounds. In keeping with their conser-
+vative pragmatic tradition,° Farber and Sherry place the burden of
+proof on critics of merit, to show that the standards are not race-neutral,
+fair, just, or equal.
+
+[W]e should be receptive to but critical of challenges to current
+conceptions of merit. Contemporary standards should receive a
+rebuttable presumption of validity, and the burden ought to be
+on challengers to show why particular aspects of those standards
+ought to be eliminated, amended or expanded.”
+
+Asked to explain why merit standards disproportionately exclude
+applicants of color, Farber and Sherry contend that the simplest
+and therefore most likely answer is that standards are applied in
+
+ 
+
+shifts to the defendant, who must show that a selection procedure is justified based on some
+“educational necessity,” or “business necessity” in the case of employer discrimination under Tide
+VII. See generally E.E.O.C. v. Steamship Clerks Union, 48 F.3d 594, 602 (Ist Cir. 1995).
+205. Professor William Eskridge labels Farber and Sherry’s prescriptions for social change
+“conservative pragmatism.” ,
+Farber and Sherry’s conception of ‘practical reasoning’ posits that we do not discover truth
+by logical deduction from grand theoretical premises, but rather create truth as we devise
+ideas to make sense of our experiences. In explaining this conception of truth, they
+specifically invoke the philosophy of [Jamesian] American pragmatism. [This philosophy]
+suggests that we change our views slowly in response to new experiences [by] preserv[ing)
+the older stock of truths with a minimum of modification, stretching them just enough to
+make them admit [the new idea], but conceiving that in ways as familiar as the case leaves
+possible.
+William N. Eskridge, Ir., Gaylegal Narratives, 46 Stan. L. Rev. 607, 612-13 (1994) (quoting William
+James).
+206. Farber & Sherry, Radical Critique of Merit, supra note 2, at 883.
+1998] BIAS AND MERIT 415
+
+1997] BIAS AND MERIT 1501
+
+discriminatory ways. “We do not contend that the current concept of
+merit is perfect, nor do we deny that discrimination against some groups
+has denied them their due rewards. Belief in merit is not incompatible
+with acknowledging that societal standards can be applied in a discrimi-
+natory manner.” Thus, according to the authors, bias is not contained
+within the standards themselves, but is external, identifiable, and remov-
+able.
+
+Farber and Sherry might similarly separate merit standards’ dis-
+criminatory past from the question of whether the standards are, never-
+theless, theoretically valid or useful in predicting law school success.
+Farber and Sherry likely would contend that even if the standards were
+developed.in the context of racial exclusion, such inauspicious begin-
+nings do not necessarily negate the idea that the standards now predict
+law school success with some accuracy.2% Alternatively, Farber and
+Sherry might argue that even if contemporary law school admissions
+standards are discriminatory, it is still theoretically possible to imagine
+merit standards that are not tainted by bias.
+
+But even a conservative pragmatist would find it difficult to argue
+that both the discriminatory history of merit standards and their current
+disproportionate impact on current applicants are the result of mere dis-
+criminatory application or unlucky coincidence. At the very least, a
+conservative pragmatist’s suspicions would be aroused that those merit
+standards which currently produce disparate impact and also were de-
+veloped in a context of racial exclusion are likely to be discriminatory,
+not just in their application but in their very structure.
+
+IV
+Is THE RADICAL CONSTRUCTIVIST CRITIQUE NIHILISTIC?
+
+Anticipating the possibility that there are explanations for Jewish
+and some Asian groups’ successes that do not rest on Anti-Semitism,
+
+ 
+
+207. Id. at 857. See also id. at 866. ( “If success is influenced by merit, racial differences must
+be attributable to nature, nurture, or discrimination (or some combination of these). Either the less
+successful groups are born with fewer of the traits that lead to ‘good’ performance, or their
+upbringing or environment discourages the development of those traits, or they possess the same traits
+but are denied equal recognition and reward.”).
+208. In Rodrigo’s Tenth Chronicle, fictional character Lazlo Kowalski defends merit testing
+against the racist history of the SAT:
+I’m not sure what it has to do with today. No one advocates those distasteful notions any
+more.... The test may have been biased back then, and maybe a regatta or two creeps in
+even now. But ETS has professional test validators, experts who comb the items for bias.
+And surely you cannot say there are no differences in legal aptitude or ability.”
+
+Delgado, supra note 9, at 1742. :
+416 ; LA RAZA LAW JOURNAL [Vol. 10:363
+
+1502 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+Farber and Sherry reach for their weapon of last resort: they argue that
+the radical critique of merit is nihilistic.
+
+To say that standards of merit are arbitrary is to say, as
+Duncan Kennedy says about conflicting paradigms, that no
+meta-criteria exist for evaluating them or judging between them.
+If so, then reason can play no role in accepting or rejecting these
+standards, for there are no criteria to which reason can appeal.
+But this approach also makes it difficult to criticize the status
+quo.
+
+We are then back to force as the only arbiter (other than
+chance)...
+
+In Sherry’s article The Sleep of Reason, she repeats and extends
+this nihilism argument, contending that the radical critique promotes
+relativism and precludes us from criticizing the perpetrators of another
+Holocaust, or refuting those who deny that the Holocaust ever hap-
+pened.” Exhibiting a pragmatist’s faith in reason, Sherry argues that
+“even if there is no epistemology unconnected to power relationships,
+we tend to—and perhaps we must—behave as if there were.”””
+
+As Farber and Sherry acknowledge, the portrayal of deconstructive
+practice as nihilistic or Anti-Semitic is nothing new.’” Critics repeatedly
+have raised the same charge against Paul de Man, a noted deconstruc-
+tionist, who was discovered to have written essays for a Belgian newspa-
+per in which he repudiated Jewish influence in literature.” DeMan’s
+detractors pointed to what appeared to be pro-Nazi sentiment in his
+work to argue that deconstructive practice was linked to moral relativism
+and Nazism.
+
+The nihilism argument also has been raised more generally,”
+against both deconstructive practice and the so-called “irrationalist”
+wing of Critical Legal Studies.” Guyora Binder articulates the structure
+of the nihilism argument against deconstruction:
+
+ 
+
+209. Farber & Sherry, Radical Critique of Merit, supra note 2, at 880-81.
+
+210. See Sherry, supra note 80, at 483-84.
+
+241. Id. at 473.
+
+212. See Farber & Sherry, Radical Critique of Merit, supra note 2, at 879 & n.147.
+
+213. See Paul de Man, The Jews in Contemporary Literature, LESoir, Mar. 4, 1941, cited in
+Davip LEHMAN, SIGNS OF THE TIMES: DECONSTRUCTION AND THE FALL OF PAUL DE MAN 269-71
+(1991).
+
+214. See Balkin, supra note 33, at 1670 (citing JoHN Extis, AGAINST DECONSTRUCTION (1989)
+as an example of argument that deconstructing conceptual distinctions leads to end of meaningful
+discourse and intellectual discussion).
+
+215. See Joseph William Singer, The Player and the Cards: Nihilism and Legal Theory, 94 YALE
+L.J. 1, 48 (1984) (observing that the crux of the nihilism argument against Critical Legal Studies is that
+1998] BIAS AND MERIT 417
+
+1997} BIAS AND MERIT 1503
+
+The bases for this suspicion of deconstruction are threefold.
+First, because deconstruction shows every argument to contain its
+own opposite, it seems nihilistic. Second, because deconstruction
+is said to ‘annihilate the subject’—to deny the individual identi-
+ties of authors and of characters—it seems to deny individual re-
+sponsibility for evil. Third, because it exposes the futility of
+efforts to deny loss, contradiction and violence, deconstruction
+seems to urge acceptance of their necessity. Perhaps an
+‘antihumanist’ philosophy that attempts to annihilate the subject
+sees no great loss in the annihilation of subjects.”
+
+Similarly, Farber and Sherry’s argument from nihilism assumes that
+violence is inevitable once we concede that reason cannot adjudicate
+neutrally between interpretations.
+
+However, Farber and Sherry’s argument has potency only if reason
+can indeed fulfill its own promises of adjudicating fairly and neutrally
+between competing interpretations.”” In fact, the authors’ faith in rea-
+son as a neutral arbiter of competing interpretations is metaphysically
+misplaced. Reason and merit are culturally and ideologically specific
+constructs that depend on a particular ideological discourse and can
+adjudicate only for those who subscribe to that ideology. Nor can rea-
+son fulfill the promise of providing objectively “correct” rational
+choices. Indeed, a scrupulous application of reason would not have pre-
+vented the Holocaust. While much of the Nazi scientific reasoning may
+have been flawed, the Holocaust was not merely bad science or bad rea-
+soning.” Condemning the Holocaust necessitates overtly political
+commitments to compassion, empathy for suffering, and outrage at the
+exercise of power over innocent victims on the basis of their ethnicity.
+
+Critical legal scholar Joseph Singer points out the fallacy in the no-
+tion that reason alone, as a closed system, will generate “correct”
+theoretical choices between competing alternatives.” Rather, Singer
+
+ 
+
+by rejecting a rational method of adjudicating value conflicts, critical legal scholarship removes
+certainty in all things).
+
+216. Guyora Binder, Representing Nazism: Advocacy and Identity at the Trial of Klaus Barbie, 98
+Yare LJ. 1321, 1377 (1989).
+
+217, Otherwise the authors are merely fooling themselves into thinking that nihilism does not
+currently rule, an option that Sherry appears to favor. See Sherry, supra note 80, at 455-57, 483-84
+(arguing that even if we don’t believe that reason offers a neutral way of choosing between solutions,
+we should act as if it does).
+
+218. “What protects us against Nazism is not the belief that reason can prove that it is wrong.
+What protects us is outrage.” Singer, supra note 215, at 55.
+
+219. See id. at 60.
+
+Theory is useful to the extent that it articulates what we value. Since our values conflict,
+legal theories express our competing values. We ‘draw a line’ between competing
+418 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1504 CALIFORNIA LAW REVIEW [Vol. 85:1449
+
+argues that, on an everyday basis, people make most important choices
+intuitively, on the basis of preconceived commitments to their ideologi-
+cal political and moral values.” He counsels that we should continue to
+choose based on our political and moral intuitions and convictions
+about “how we should live” and “what we should do.””” Political con-
+versations between competing perspectives must still take place: we must
+argue, present competing and incompatible bodies of evidence, and try
+to change someone’s mind, rather than rely on cool reason as a univer-
+sally valid and objective arbiter to make our decisions for us. The radi-
+cal critique of merit eliminates the conversation-stopper of claiming that
+a particular position on affirmative action, for example, is right because
+it reflects objectively the true nature of merit, economic efficiency and
+the operation of the marketplace.
+
+Singer’s critics answer that our political commitments are not de-
+void of reason; we use reason to make intuitive political and moral
+choices, as is evident in the self-reflective scrutiny and revision to which
+people subject their moral choices.” Commentators also point out that
+most policy choices contain reasoned conclusions about cause and ef-
+fect. Of course their claims are correct, but any privilege that reason
+might enjoy immediately is undermined by its deference to the preex-
+isting nonrational political choices that are embedded within rational
+discourse. As with all relational binary opposites, reason and intuition,
+cause and effect, are entwined in an illogical relationship of difference.
+
+Contrary to Farber and Sherry’s assertion, as the foregoing demon-
+strates, reason plays an absolutely essential role in deconstruction, which
+uses rigorous logic and reason to expose the limits of rationality?” In
+fact, it is only because Derrida “respects the exigencies” of the rational
+
+ 
+
+principles and then create a theory to describe where we chose to place the line. But the
+theory does not itself reconcile those values or tell us where to draw the line. It cannot
+because it is something we made up to express those values and the ‘line’ between them.
+
+Id.
+
+220. See id.
+
+221. See id. at 62.
+
+When people decide whether to get married, to have children, to go to law school... they
+
+do not follow a procedure that generates, by itself, an answer. They do think long and hard
+
+about what they want in life; they imagine what their lives would be like if they were to
+
+follow one path rather than another... and in the end, they make a decision... . Legal
+
+decisions—deciding a case, voting on a statute, electing a president—are no different ... .
+Id.
+
+222. See, e.g., John Stick, Can Nihilism be Pragmatic?, 100 Harv. L. Rev. 332, 398 (1986)
+(“Singer thinks we just choose our moral and political stands, and that rationality applied to morals
+can be only rationalization after the fact.”).
+
+223. It is for this reason that Drucilla Comell calls deconstruction “the philosophy of the limit.”
+DrucILLa CORNELL, THE PHILOSOPHY OF THE Limit 1 (1992).
+1998] BIAS AND MERIT 419
+
+1997} BIAS AND MERIT 1505
+
+or philosophical argument right up to its limits, that he is able to expose
+the “constitutive blind spots” that exist in those discourses.’ Derridean
+deconstructive practice—as opposed to the descriptions of deconstruc-
+tion offered by anti-Enlightenment or post-analytical thinkers like Jean
+Baudrillard or Richard Rorty—adheres very closely to conventional
+standards of analytic precision, rigor and consistency.”
+
+Contrary to much of postmodernist thinking, Derridean decon-
+structive practice does not support an argument that all reason is politi-
+cal, that all concept is metaphor, or that all merit is bias. Indeed,
+Derridean deconstructive practice is designed to expose the circular re-
+lationship of mutual dependence and difference between the two terms
+in a conceptual opposition: reason defers to and depends on political
+intuition, and at the same time differs from political intuition. Merit de-
+fers to, and differs from, bias, and vice versa.“ Deconstructive practice
+does not permanently reverse the hierarchical ordering in the opposition
+between merit and bias; instead, it points out the circular and paradoxi-
+cal relation between the two concepts.
+
+Thus, deconstructive practice itself does not, and is not meant to,
+adjudicate between competing interpretations. Deconstruction clears the
+way for necessary political discussions by demonstrating that what ap-
+pears to be natural or objective is actually a function or pre-existing
+contingent categories in political and ideological discourse. But decon-
+structive practice cannot and does not mean to provide new founda-
+tional answers. “[Deconstruction] can displace a hierarchy
+momentarily, it can shed light on otherwise hidden dependencies of
+concepts, but it cannot propose new hierarchies of thought or substitute
+new foundations.”
+
+The deconstructive reading presented in this article, to the extent
+that it draws directly from Farber and Sherry’s rationalist argument, can
+
+ 
+
+224, See id.; see also Curran, supra note 31, at 15 (deconstructive practice “is as scientific in
+rigor and logic as .. . structuralism”).
+
+225. See Norris, supra note 16, at 146.
+
+226. See id. at 142-43.
+
+Derrida’s mode of argument...is very far from endorsing the vulgar-deconstructionist
+view that ‘all concepts come down to metaphors in the end’... .. Derrida’s purpose. . . is
+precisely to deny that we could ever effect such a straightforward reversal of
+priorities . .. . For, quite simply, there is no possibility of discussing metaphor—or defining
+its attributes, its difference from ‘literal’ usage, or its problematic role within the texts of
+philosophy—without falling back on some concept of metaphor, a concept that will always
+have been ‘worked’ or elaborated in advance by the discourse of philosophic reason. Thus
+‘each time that a rhetoric defines metaphor, not only is a philosophy implied, but also a
+conceptual network in which philosophy itself has been constituted.
+Id. (citation omitted} (emphasis in original),
+227. J.M. Balkin, Deconstructive Practice and Legal Theory, 96 YALE L.J. 743, 786 (1987).
+420 LA RAZA LAW JOURNAL [Vol. 10:363
+
+1506 CALIFORNIA LAW REVIEW (Vol. 85:1449
+
+be tested by conventional standards of analytical rigor and precision.
+But Singer is also right when he suggests that society must choose be-
+tween the current picture of merit and bias in law school admissions and
+the critical historical account offered by this Article. We must choose,
+based on our intuitions and political convictions, what we consider im-
+portant in distributing opportunities for legal education and what is con-
+sistent with our own experiences of the social world.
+
+CONCLUSION
+
+Critical Race Theory scholars have notéd that deconstructionist
+critical theory is theoretically in tension, and may in fact be incompati-
+ble, with Critical Race Theory.”* Angela Harris has pointed out the ten-
+sion within Critical Race Theory between its theoretical critique of
+purportedly race-neutral legal institutions and its commitment toward
+fashioning an affirmative program of racial emancipation, an effort
+which she calls “reconstruction.””’ Indeed, Critical Race Theory
+evolved at least in part because Critical Race scholars believed that
+Critical Legal Studies’ general emphasis on theoretical critique, and use
+of deconstructionist methods in particular, served to undercut the possi-
+bility for practical transformation?”
+
+This Article demonstrates that deconstruction can be used to argue
+for practical, transformative change. By exposing how legal concepts
+like merit defer to, and possess the qualities of, bias, the Article suggests
+ways in which litigators can make use of deconstructive interpretations
+of merit to undercut the assumption that merit standards simply reflect
+objective, race-neutral measurements of social value. As a strategic
+matter, with its emphasis on critical historical inquiry, deconstruction
+can produce critical historical accounts, such as the law school
+
+ 
+
+228. See Richard Delgado, The Ethereal Scholar: Does Critical Legal Studies Have What
+Minorities Want?, 22 Harv.C.R.-C.L. L. Rev. 301, 313 (1987) (arguing that poorly developed positive
+program would not serve the needs of minorities); Angela P. Harris, Foreword: A Jurisprudence of
+Reconstruction, 82 Catir, L. Rev. 741, 752 (1994) (arguing that postmodernism and second-wave
+Critical Legal Studies does not sit easily with normative recommendations that assume the possibility
+of reasoning through to solutions); Patricia J. Williams, Alchemical Notes: Reconstructed Ideals From
+Deconstructed Rights, 22 Harv.C.R.-C.L. L. Rev. 401, 404-06 (1987) (detailing discomfort with
+Cnitical Legal Studies’ rejection of rights).
+
+229. Harris, supra note 228, at 752; see also Robert L. Hayman, Jr. The Color of Tradition:
+Critical Race Theory and Postmodern Constitution Traditionalism, 30 Harv. C.R.-C.L. L. REv. 57, 69-
+70 (1995) (contending that an affirmative program is not consistent with postmodern theory).
+
+230. See Harris, supra note 228, at 751; see also Harlon L. Dalton, The Clouded Prism, 22
+Harv.C.R.-C.L, L. Rev. 435, 436-37.
+1998] BIAS AND MERIT 421
+
+1997] BIAS AND MERIT 1507
+
+admissions narrative, that are consistent with our political and moral
+commitments to racial emancipation.
+
+In particular, deconstructivist insights and strategies can be used to
+expose the overtly political commitments behind a defense of merit like
+Farber and Sherry’s. Under the lens of a deconstructive critique, Farber
+and Sherry’s conventional distinction between merit and bias no longer
+seems self-evident because merit necessarily defers to the social bias it
+seeks to exclude. Thus, we are left with the task of reconstructing new
+meanings for merit by having difficult political conversations about
+what constitutes social value in the legal profession, whether exams ac-
+curately predict the ability of a practicing lawyer, whether case law in-
+struction or practical clinical instruction is more appropriate for certain
+kinds of law, and finally, whether we want our law schools to become
+resegregated under an admissions process that looks only at the number
+of a person’s LSAT score and GPA, rather than at the content of her
+character.”
+
+ 
+
+231. See Singer, supra note 215, at 55.
+LA RAZA LAW JOURNAL
+
+CALIFORNIA LAW REVIEW
+

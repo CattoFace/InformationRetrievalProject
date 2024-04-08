@@ -1,0 +1,256 @@
+130ANINTRODUCTION TO ARTIFICIAL
+INTELLIGENCE AND SOLUTIONS TO THE
+PROBLEMS OF ALGORITHMIC
+DISCRIMINATION
+Nicholas Schmidt and Bryce Stephens
+Nicholas Schmidt (nschmidt@bldsllc.com) is the AI Practice Leader at
+BLDS, LLC. He heads the artiﬁcial intelligence and machine learninginnovation practice and specializes in the application of statistics andeconomics to questions of law, regulatory compliance, and best practicesin model governance.
+Bryce Stephens (bstephens@bldsllc.com) is a Director at BLDS, LLC. He
+provides economic research, econometric analysis, and compliance advi-sory services, with a speciﬁc focus on issues related to consumer ﬁnancialprotection, such as the Equal Credit Opportunity Act (ECOA), andemerging analytical methods.
+I. INTRODUCTION
+Nicholas Schmidt Bryce StephensAs artiﬁcial intelligence (AI)
+and machine learning (ML) havebecome more common in our dailylives, one of the most pressing is-sues in its adoption has been thedifﬁculty in ensuring fairness andtransparency in their use. There issubstantial evidence that AI andML algorithms can cause biasagainst minorities, women, andother protected classes. Facial recognition programs are more likely to mis-identify people with darker skin; an employment test sometimes giveslower scores to women who graduated from women’s colleges or whoparticipated in women’s sports; people of color may be less likely to receivecertain marketing offers (including housing) because of social media be-havior or geography; and minority groups have been shown to be falselyﬂagged as being more likely to be recidivists than whites.
+1
+1. Jeffrey Dastin, Amazon Scraps Secret AI Recruiting Tool that Showed Bias Against
+Women ,Reuters (Oct. 8, 2018), https:/ /reut.rs/2Po4ZJi [https:/ /perma.cc/
+K9GT-HBHR]; Julie Angwin & Jeff Larson, Bias in Criminal Risk Scores is Math-
+ematically Inevitable, Researchers Say ,ProPublica (Dec. 30, 2016), https:/ /bit.ly/
+2iTc4B9 [https:/ /perma.cc/PEL9-ZTHP]; Jeff Larson et al., How We Analyzed the
+COMPAS Recidivism Algorithm ,ProPublica (May 23, 2016), https:/ /bit.ly/
+1TGK42v [https:/ /perma.cc/D3QJ-4M84]; Steve Lohr, Facial Recognition is Ac-Algorithmic Discrimination 131
+The increasing use of AI and ML techniques in employment, consumer
+ﬁnance, and housing has caught the attention of the federal regulatorycommunity, the executive branch, and Congress. There is growing interestin these technological innovations—as well as the use of so-called alter-native data—and the risks and beneﬁts they pose. The White House, Con-sumer Financial Protection Bureau (CFPB), Federal Reserve Board, FederalTrade Commission, and the Government Accountability Ofﬁce have all re-leased reports or posted requests for information on topics related to al-gorithmic fairness; the use of AI and ML in employment, credit, and hous-ing markets; and the use of alternative data.
+2Recently, Senators Booker,
+Wyden, and Clark introduced the Algorithmic Accountability Act, “whichrequires companies to study and ﬁx ﬂawed computer algorithms that resultin inaccurate, unfair, biased or discriminatory decisions impacting Amer-icans.”
+3
+Government interest has been focused on the potential beneﬁts and risks
+of the use of AI, ML, and alternative data to consumers, employees, andmarkets. In credit markets, for example, there is hope that reliance on non-traditional credit data may lead to an expansion in access to credit forconsumers who are currently not in the traditional credit system. Moreover,ML and AI techniques can be applied to large-scale datasets (e.g., big data)
+4
+and are better at predicting outcomes than traditional statistical techniques.Better model predictions lead to more efﬁcient allocations in credit, labor,and housing markets.
+The risks associated with AI, ML, and alternative data are most apparent
+when considering the contexts in which models and data are developedand used. While the use of AI opens new avenues of risk for consumerswhere additional legislation may be required (especially relating to pri-
+curate, if You’re a White Guy ,N.Y. Times (Feb. 9, 2018), https:/ /nyti.ms/2H3QeaT
+[https:/ /perma.cc/J86U-89MQ].
+2.U.S. Gov’t Accountability Office , GAO–19–111, Financial Technology:
+Agencies Should Provide Clarification on Lenders’ Use of AlternativeData (2018), https:/ /bit.ly/2NBFBjm [https:/ /perma.cc/VHE2-ML8Q]; Re-
+quest for Information Regarding Use of Alternative Data and Modeling Tech-niques in the Credit Process, 82 Fed. Reg. 11183 (Feb. 21, 2017); Exec. Office
+of the President, Big Data: A Report on Algorithmic Systems, Oppor-tunity, and Civil Rights (2016), https:/ /bit.ly/2lCSs8H [https:/ /perma.cc/
+ZL8V-2PKF]; Fed. Trade Comm’n, Big Data: A Tool for Inclusion or Ex-
+clusion? Understanding the Issues (2016), https:/ /bit.ly/1n52gG6 [https:/ /
+perma.cc/MW9H-VWGQ]; Carol A. Evans, Keeping Fintech Fair: Thinking About
+Fair Lending and UDAP Risks ,Consumer Compliance Outlook (2017),
+https:/ /bit.ly/2HaqfR1 [https:/ /perma.cc/8UJN-X7GY].3. Press Release, Cory Booker for U.S. Senator for N.J., Booker, Wyden, ClarkeIntroduce Bill Requiring Companies to Target Bias in Corporate Algorithms(Apr. 10, 2019), https:/ /www.booker.senate.gov/?p=press_release&id=903[https:/ /perma.cc/N29T-9SQM].4.Seediscussion infra Section III.132 Quarterly Report Vol. 73, No. 2 2019
+vacy), there are already a number of federal and many state-level laws
+addressing discrimination and unfairness that can be applied to the out-comes driven by these technologies. Speciﬁcally, federal laws have beenenacted to protect consumers from discrimination in credit, housing, andemployment, where federal regulators and agencies are tasked with en-forcing these laws.
+5Additionally, there are laws in place to ensure that
+consumers understand why they are denied access to credit and to ensurethe right for consumers to correct errors in their credit reports.
+6There are
+also federal and state laws that protect consumers from unfair and decep-tive practices.
+7
+Despite the laws and regulations that are already in place, the advent
+of AI, ML, and alternative data in automated decision-making posesunique challenges for regulators, lenders, and ﬁrms when evaluating mod-els for compliance and potential violations of consumer protection laws.Models that are built using ML or more advanced AI techniques oftenexhibit a black box quality, meaning that the relationships between modelinputs and model predictions may not be straightforward or easy to de-scribe. This makes explaining model outcomes a challenging, though nolonger intractable, problem. Developing approaches to minimize discrim-inatory impact is also more challenging with ML and AI methods. Finally,reliance on alternative data raises many questions around considerationsof compliance and policy. For instance, if a consumer’s educational attain-ment is predictive of credit default, but also highly correlated with race,can it be used in a credit model without running afoul of the Equal CreditOpportunity Act’s (ECOA) anti-discrimination provisions? If so, would re-lying on educational attainment data perpetuate, or worse, amplify his-torical inequities in access to credit?
+8
+5. Federal anti-discrimination laws include: the Equal Credit Opportunity Act
+(ECOA) (consumer credit), the Fair Housing Act, and Title VII (employment).15 U.S.C. § 1691 (2017); 42 U.S.C. § 3604; id.§ 2000(e).
+6. The Fair Credit Reporting Act (FCRA) governs how consumer credit infor-
+mation is collected, maintained, and used. 15 U.S.C. § 1681. Both the FCRA andthe ECOA require that a consumer be made aware of the principal reasons fora denied request for credit. Id.§§ 1681, 1691.
+7. There are two federal statutes: Unfair or Deceptive Acts or Practices andUnfair, Deceptive, or Abusive Acts and Practices. Id.§ 45; 12 U.S.C. § 5531. Most
+states and United States territories have adopted statutes mirroring these fed-eral statues.8. The example raised is not hypothetical. In 2017, Upstart, Inc. applied for andreceived a no action letter from the Consumer Financial Protection Bureau in-dicating that the Bureau would take no supervisory or enforcement action withrespect to potential violations of the ECOA for Upstart’s use of education andemployment information in its credit underwriting model. Press Release, Con-sumer Fin. Prot. Bureau, CFPB Announces First No-Action Letter to UpstartNetwork: Company to Regularly Report Lending and Compliance Informa-Algorithmic Discrimination 133
+II. A RTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+The concept of artiﬁcial intelligence emerged from the ﬁeld of computer
+science in the 1950s and broadly refers to machine-based operations thatmimic human intelligence. One of the ﬁrst ideas around the concept of AIwas that a computer would be understood to display intelligence when aperson could not distinguish whether he or she was communicating witha human or the computer. Since then, the deﬁnition has become muchbroader and is used more generally to describe situations in which a com-puter is not given a speciﬁc set of rules to follow in order to determine anoutcome.
+“Machine learning,” as a term, is generally viewed as a subﬁeld of AI;
+we deﬁne it as the areas of mathematics, statistics, and computer sciencethat are used to iteratively acquire knowledge and make better predictionsof whatever task the computer is assigned to solve.
+9
+Regardless of whether one is referring to AI or ML, the method through
+which a machine learns is a four-step process. First, the model builderassigns a task to the computer; second, the model builder provides themethod (i.e., the algorithm) the computer should use to solve the task;third, he or she provides the measure of how the computer should evaluateits performance; fourth, the computer gets better at solving the problemthrough experience.
+As an example, suppose that we tell the computer to attempt to deter-
+mine who is likely to default on a loan, and we use credit scores as avariable to explain default. Next, we tell the computer which algorithm touse. This might be a “neural network,” a “gradient boosting machine,” orone of many other types of algorithms. We then tell the computer to eval-uate its performance by trying to minimize the number of people who areestimated to be good risks, but who truly default (“false positives”).
+As a ﬁrst step, the computer might assign everyone the same likelihood
+of default. It would then evaluate that assignment and ﬁnd that it over-estimates default for people with high credit scores while underestimatingdefault for people with low credit scores. With this knowledge, it thenchanges its estimates of default, raising the estimates for people with lowcredit scores and lowering them for people with high credit scores. Thecomputer continues the evaluation and improvement process until itreaches some preset condition or cannot make its estimates more accurate.
+tion to the Bureau (Sept. 14, 2017), https:/ /www.consumerﬁnance.gov/about-
+us/newsroom/cfpb-announces-ﬁrst-no-action-letter-upstart-network/ [https:/ /
+perma.cc/L6MN-7A8K].
+9. There is a signiﬁcant amount of what we view as a somewhat pedanticargument over the exact deﬁnitions of “machine learning” versus “artiﬁcialintelligence,” but the deﬁnition provided above is sufﬁciently accepted by mostpractitioners.134 Quarterly Report Vol. 73, No. 2 2019
+III. B IGDATA AND ALTERNATIVE DATA
+Like any predictive model, the development of ML models requires the
+use of data. There has been a proliferation of what has been called “bigdata,” generally deﬁned as information that is large in scale and complexin its interrelationships. ML methods are particularly adept at handlingthese large and complex datasets, being able to uncover previously un-known relationships between data elements. Importantly, however, MLdoes not necessarily require large amounts of data: some of these tech-niques can be very effective at model building with relatively smallamounts of data.
+“Alternative data,” on the other hand, is not deﬁned by its scale or
+complexity, but by its novelty. Alternative data generally refers to infor-mation used in decision-making or model building in a given context thattypically is not, or historically was not, used to inform decisions in thatcontext. A prime example is the use of alternative data in credit decisions.Until recently, information including rental payments, utility payments,occupation, social media interactions, or educational attainment were notavailable or rarely, if ever, used to make credit decisions. While all ﬁve ofthese factors may be predictive of a consumer’s creditworthiness, there arereasons to think that their availability, reliability, and validity may be socorrelated with protected class status that they may ultimately be unfair,raising discrimination concerns. What is important, however, is to recog-nize that we do not know this at the outset: the degree of unfairness maybe dependent on the data, the people included in the dataset, or the othervariables being considered. Ultimately, whether these data do representunfair characteristics should be tested before they are used to make deci-sions that would affect consumers’ lives.
+Interesting examples of the value of alternative data were published in
+a Federal Deposit Insurance Coporation (FDIC) working paper, On the Rise
+of the FinTechs—Credit Scoring using Digital Footprints .
+10They studied
+whether alternative data could be predictive of default rates for a Germane-commerce company.
+11Among their ﬁndings was that “the difference in
+default rates between customers using iOS (Apple) and Android (for ex-ample, Samsung) is equivalent to the difference in default rates between[the 50th percentile of the] credit score and the 80th percentile of the creditscore.”
+12They also found that customers whose email addresses contained
+their names were 30% less likely to default relative to others, and that
+10. Tobias Berg et al., On the Rise of the FinTechs—Credit Scoring Using Digital
+Footprints (Fed. Deposit Ins. Corp. Ctr. for Fin. Research, Working Paper No.
+2018-04), https:/ /www.fdic.gov/bank/analytical/cfr/2018/wp2018/cfr-wp2018-04.pdf [https:/ /perma.cc/RAZ6-VPXX].
+11.Id.at 2.
+12.Id.at 3.Algorithmic Discrimination 135
+customers who only used lower case letters when typing their names and
+addresses were more than twice as likely to default.13
+If the research ﬁndings regarding device ownership hold in the United
+States, and device ownership is correlated with protected class status, thenthe use of device ownership in a credit model could raise concerns aboutdiscrimination risk, particularly disparate impact. Whether it would be fairor wise for a lender to rely on the naming conventions of email addresseswhen determining who should get a loan is an additional open and im-portant question. On the one hand, it does appear to be quite effective atpredicting default (especially when used in conjunction with other infor-mation). However, there are many reasons why a predictive quality maynot be sufﬁcient. To provide one example, it would be easy to “game” thealgorithm: if the applicant is more likely to get a loan by including theirname in their email address, then it would be wise for that person to takea few minutes before applying to create a new email account. Obviously,that person’s true likelihood of default has not changed as a result of chang-ing their email address, but the algorithm will think that it has.
+14
+Another question raised is that of causality, which becomes especially
+acute when explaining to a consumer why he or she was refused a loan.While we can surely guess why consumers who include their name in theiremail address might be less likely to default, the words in one’s emailaddress do not directly or even indirectly cause default. If the relationshipbetween email address and default is real (i.e., not the result of spuriouscorrelation), then it is more likely that both share a common cause, ratherthan being causally related: a person’s choice of email address is at leastpartially driven by of the presence of some underlying factor which iscausally related to poor credit outcomes. For example, since most companyemail addresses contain a person’s name, if a person applies for a loanusing a work email, then this indicates that he or she is employed. In thatcase, the underlying factor that is driving the predictive quality of an emailaddress is, in fact, that the person’s email address is indicative of thembeing currently employed, which diminishes default risk. If the proxy foremployment is the only factor driving email-to-default relationship in themodel then, ultimately, that means that employed customers who use per-sonal email addresses without their names in them are being penalizedmore than they would be if their employment status were more directlymeasured.
+15
+13.Id.
+14. If gaming behavior were widespread and the model were reﬁt over time,
+it is likely that the gameable feature would lose predictive value. So, in practice,the inclusion of the gaming variable in the model may be a short-lived phe-nomenon.15. We will note that the employment-email explanation we put forward hereis simply a hypothesis—we do not know if it is true. It would be possible to136 Quarterly Report Vol. 73, No. 2 2019
+While name-in-email address is clearly not causally related to credit
+outcomes, many traditional variables used in credit models are similarlynot directly causally related to credit outcomes. However, the commoncausal relationship underlying the traditional variables and credit out-comes tends be less tenuous than the name-in-email address example. Forexample, overdrawing one’s checking account several times in a short timeperiod is not likely to lead directly to default on a longer-term loan, but itis clearly indicative of the presence of ﬁnancial instability that could leadto default. While this represents a relationship that is not directly causal,there is an obvious and intuitive connection to the underlying relationshipbetween overdrawn checking accounts and a lender’s justiﬁcation for re-jecting a customer. This is important when a lender provides a customerwith an explanation for rejection (i.e., an adverse action notice), so that thecustomer can infer the relationship and takes steps to mitigate it. Using thehypothetical email address-employment explanation above, a consumer isunlikely to infer that their employment status was the underlying cause ofrejection if the reason he or she receives is, “your name was not part ofyour email address.”
+IV. T
+HEPOSITIVE SIDE OF AI
+Putting aside questions of whether the inclusion of particular variables
+would be fair or understandable, the primary value of these models andthe use of reasonable alternative data is the likely improvement in predic-tive power relative to methods that rely on traditional data or traditionalstatistical methods. More predictive models (i.e., models with the ability toreliably predict good and bad outcomes) lead to more effective decision-making and better overall outcomes for both the businesses that use themand the people who are being scored with them.
+Having more predictive models may lead to improved outcomes for
+everyone impacted by the algorithm. In credit lending, this means that abetter model can lead not only to higher proﬁts and less risk for the lendersbut also help the consumers who are applying for loans. Speciﬁcally, abetter ML or AI model may lead a bank to expand credit to additionalcustomers relative to what they would have offered under a traditionalcredit model. This is because, as predictions get better, the risk of extremelosses decreases. As a simpliﬁed example, suppose that a bank has a riskpolicy such that it cannot tolerate more than a 1% chance of $10 million inlosses over a year. This might mean that, using a traditional model, thebank could loan $100 million to consumers. But if an ML model can befound that has more precise predictions, then the bank may be able to lend
+extend this list to numerous, mostly specious, possible explanations. What this
+further emphasizes is the need for testing and human review when using thesetypes of alternative data.Algorithmic Discrimination 137
+$200 million while not changing its risk appetite (that is, a 1% chance of
+losing $10 million). Further, because the risk has been better quantiﬁed, itis likely that consumers will be, on average, charged lower interest rates.Conﬁrmation of this pattern recently came through results released by theCFPB of its ﬁrst No Action letter to Upstart Network, Inc. When comparingUpstart’s use of alternative data and modeling to a traditional model, theCFPB reported that approvals under the alternative model were 27% higherthan they would have been under traditional scoring, and that APRs were,on average, 16% lower.
+16
+A further value of ML is that decisions can, in fact, be fairer as a result
+of removing decision-making that relies heavily on human involvement ordiscretion. This is because minimizing human involvement lowers the riskof human error and the inﬂuences of implicit or explicit bias. While therehas rightly been concern about biased input data leading to biased predic-tions from AI models, one possibility that has not been extensively dis-cussed or studied is that AI automation has the potential to amelioratethese concerns. This is because a well-built model that evaluates objectivecriteria will make its decisions about which variables are important basedsolely on the predictive quality of those variables. For instance, if a bankwere to build an AI model based on historical decisions by loan ofﬁcers,some of whom are biased, then the model will likely perpetuate this biaswhen it is ﬁrst implemented. But over time, as the model reevaluates itspredictions in light of true (and assumedly less biased) default outcomes,the model is likely to realize the loan ofﬁcers’ bias was not predictive oftrue behavior, and it will eventually minimize or remove the initial bias.
+V. W
+HAT DOES IT MEAN FOR AN ALGORITHM TO BE FAIR?
+Despite the potential to minimize bias as discussed above, ML algorithms
+and the data on which they rely are not inherently bias-free. A dataset usedto train an ML algorithm may, itself, reﬂect outcomes of a biased decision-making process (human or otherwise), and a well-intentioned model builder
+may create an algorithm that perpetuates the existing bias found in thedata used to train the algorithm. Imprecise or poorly-built algorithms mayalso pick up spurious correlations in data that inadvertently lead to rela-tively worse outcomes for different demographic groups. Further, if pro-tected groups are substantially underrepresented in the model’s develop-ment data, and they have sufﬁciently different characteristics than thepredominant group, then the protected class may experience biased out-comes. In consumer lending, if the disfavored demographic groups are
+16. Patrice Ficklin & Paul Watkins, An Update on Credit Access and the Bureau’s
+First No-Action Letter ,Consumer Fin. Prot. Bureau (Aug. 6, 2019) https:/ /
+www.consumerﬁnance.gov/about-us/blog/update-credit-access-and-no-action-letter/ [https:/ /perma.cc/TB8M-Q9KD].138 Quarterly Report Vol. 73, No. 2 2019
+protected under the ECOA, the algorithm may be legally viewed as dis-
+criminatory.17
+While the impact of human bias can be minimized, in many situations
+it likely cannot be completely eliminated: when building a model, a pro-grammer must make decisions about which algorithms to deploy, supplyinstructions for the algorithms to follow, identify the data for training, andultimately build a ﬁnal predictive model. If there is bias in any of thosesteps (even unintentional), then that bias is likely to propagate through tothe model’s predictions.
+A further complication in addressing fairness is deﬁning what consti-
+tutes a “fair” decision. Academic work has shown that it is a far subtlerissue than one would expect. For example, recent research identiﬁedtwenty-one different deﬁnitions of fairness; most, if not all, of which havesome intuitive appeal.
+18The research highlighted that these deﬁnitions are
+not internally consistent: to achieve one measure of fairness requires atrade-off where the quality of another measure of fairness deteriorates.
+19
+Recognizing that competing deﬁnitions of fairness cannot be concurrentlysatisﬁed, the choice of which deﬁnition to use often hinges on the contextor domain in which fairness is being evaluated. This is, of course, likely tobe inﬂuenced by statutory or regulatory requirements.
+Recent work by Kleinberg, et al. demonstrates the likely inconsistency
+between conventional measures of fairness.
+20The authors consider a model
+that scores risk and assigns individuals to negative and positive classes(e.g., good and bad outcomes) based on observed characteristics.
+21Individ-
+uals are in one of two groups, and group membership is not a characteristicincluded in the predictive model.
+22Three types of fairness are considered:
+17. The ECOA makes it unlawful to engage in three types of discrimination:
+overt, disparate treatment, and disparate impact. Overt discrimination is bla-tant discrimination on a prohibited basis (including, but not limited to, race,ethnicity, sex, or age). Disparate treatment occurs when applicants are treateddifferently as a result of class membership. Disparate impact occurs when afacially neutral policy or practice has a disproportionate impact on a protectedclass, unless the practice meets a legitimate business need that cannot reason-ably be achieved as well by less discriminatory alternatives. Disparate treat-ment, where a lender considers or includes prohibited basis characteristics inextending or denying credit, is illegal. However, disparate impact, where thereare correlations between variables in a model and the excluded prohibited basischaracteristics, may be legal.
+18. Arvind Narayanan, Translation Tutorial: 21 Fairness Deﬁnitions and Their Poli-
+tics,Ass’n for Computing mach. (Feb. 23, 2018), https:/ /fatconference.org/
+2018/livestream_vh220.html.19.Id.
+20. Jon Kleinberg et al., Inherent Trade-Offs in the Fair Determination of RiskScores, inInnovations in Theoretical Comput. Sci. Conference (2017),
+https:/ /arxiv.org/pdf/1609.05807v1.pdf [https:/ /perma.cc/H9NJ-ZMEA].21.Id.at 1.
+22.Id.at 3.Algorithmic Discrimination 139
+calibration within groups; balance for the negative class; and balance for
+the positive class.23
+“Calibration” within groups requires that, for a given level of assessed
+risk, the average probabilities of classiﬁcation are equal across the twogroups.
+24For example, among people where the model has estimated a
+20% chance of default, we see that both 20% of men and 20% of womentruly do default. On the other hand, the model would not achieve calibra-tion fairness if, among those estimated to have a 20% chance of default, wesee that women only default 15% of the time, while men default 25% ofthe time.
+“Balance for the negative class” requires that individuals who are as-
+signed to the negative class (those who do not default) must have averagerisk scores that are equal across groups.
+25To be fair in terms of negative
+balance, average credit scores for individuals predicted not to default mustbe equal across both the protected and control groups. So, for people whoreceive a loan (because they are predicted to be less likely to default), themodel would have to score both men and women with the same average(perhaps, a 5% average) chance of default.
+“Balance for the positive class” is a similar concept to “balance for the
+negative class.” But the requirement here is that there must be equivalentaverage scores for individuals assigned to the positive class (those who dodefault).
+26This means that, among the people who are rejected for a loan
+because they have a high expected likelihood of defaulting, both men andwomen must have the same average scores. For example, a model thatwould not show balance for the positive class is one in which Hispanicswho have been rejected are predicted to have a 25% chance of default, butrejected non-Hispanic whites have a 35% chance of default.
+Kleinberg et al. demonstrate that satisfying all three deﬁnitions of fair-
+ness can happen in only two cases, which are both highly unlikely in thereal world.
+27The ﬁrst case, deﬁned as “perfect prediction,” is when a set
+of observed values for characteristics used in the model are always associ-
+ated with classiﬁcation into the negative or positive class.28In practice, it
+is highly unlikely that an observed set of characteristics will always be
+23.Id.
+24.Id.at 4.
+25. A note on terminology: From the perspective of a consumer, not getting aloan or defaulting on it is, of course, a negative outcome. However, when wediscuss modeling default, we are estimating the chance that the person does
+default. Thus, “does default” is referred to as the positive outcome, and “doesnot default” is described as the negative outcome.26. Jon Kleinberg et al., Inherent Trade-Offs in the Fair Determination of RiskScores, inInnovations in Theoretical Comput. Sci. Conference 4 (2017),
+https:/ /arxiv.org/pdf/1609.05807v1.pdf [https:/ /perma.cc/H9NJ-ZMEA].27.Id.at 5.
+28.Id.140 Quarterly Report Vol. 73, No. 2 2019
+associated with a given outcome. For instance, for a credit scoring model
+that relies solely on whether an individual has high or low-income, perfectprediction would require all high-income individuals to be in the sameclass (e.g., not default) and all low-income individuals to be in the sameclass (e.g., default).
+29In the real world, however, some high-income indi-
+viduals do default and some low-income individuals do not. The secondpossible way that all three deﬁnitions can be met requires that the twogroups have “equal base rates,” which are deﬁned as each group’s trueaverage probability of classiﬁcation.
+30In our credit scoring example, equiv-
+alence of base rates would require that both the class and control groupshave the same average default rate.
+31
+In most applications that rely on socioeconomic data, the underlying
+base rates of outcomes of interest are likely to differ on the basis of sub-groups—such as race, ethnicity, and sex—which means that the three fair-ness measures above will almost never be concurrently satisﬁed.
+32Further,
+Kleinberg et al. demonstrate that a fourth popular measure of fairness—statistical parity—is inconsistent with the calibration and balance fairnessconditions when base rates differ across groups.
+33“Statistical parity” re-
+quires outcomes for the populations of subgroups to be equivalent, whichis often a goal in domains where anti-discrimination laws are relevant.
+34In
+the context of credit-decisioning, evaluations of fairness tend to focus onstatistical parity.
+35
+VI. W HAT CANBEDONE TO MAKEAI F AIRER
+Despite the complexities and nuances that give rise to bias and unfair-
+ness in the use of AI models and the multiplicity of fairness goals that arebeing debated amongst academics and practitioners, in our work we haveseen that it is possible to make AI models fairer. The focus of this approachis to take a “baseline model” that has been built without consideration ofprotected class status, but which shows disparate impact, and then searchfor alternative models that are less discriminatory than that baseline model,yet similarly predictive. While our approach is closely tied to the legalfairness standards that apply to credit, employment, and insurance pro-visioning, we believe that this general framework is portable to other set-tings, regardless of whether fairness is a legal requirement or simply adevelopment objective. Below, we focus speciﬁcally on the framework thatwe use in the context of credit models.
+29.Id.
+30.Id.
+31.See id.
+32.See id.
+33.Id.at 3.
+34.See id.
+35. For example, the extent to which application denial rates are equal acrossgroups that are protected by the ECOA.Algorithmic Discrimination 141
+Our general approach focuses on evaluating model outcomes for dis-
+parate impact discrimination risk. The approach mirrors the legal burden-shifting test that originated in employment law and has become the rele-vant legal test for disparate impact discrimination.
+36Under the test: (1)
+plaintiff identiﬁes an adverse impact on a protected class, (2) defendant(creditor) has the opportunity to identify a legitimate business need, and(3) plaintiff proposes a less discriminatory alternative (that reasonablyachieves the same business objective). In our review, there is no distinctionbetween the role of plaintiff and defendant. The burden-shifting test servesas a guide, and models are evaluated from the perspective of all threeprongs.
+The review typically starts after a model has been developed but before
+it has been deployed. In the context of credit and employment (and, tosome extent, insurance), protected class characteristics such as race, eth-nicity, and sex are explicitly excluded from the model building, during thedevelopment process, but are made available to us when conducting anassessment of disparate impact. Outcomes of the models are reviewed andif there are material differences in outcomes on the basis of protected class,we turn to consideration of legitimate business need. In banking, the modelgovernance function is generally quite robust, so the question of whetherthe model has a valid business justiﬁcation, (i.e., does it have the ability topredict default at some minimum level of accuracy and precision), hasalready been established. Consequently, the legitimate business need re-quirement is nearly always met. However, while the overall model may besufﬁciently predictive to be considered to have a valid business justiﬁca-tion, it is essential to review the individual variables that go into the modelto ensure that they are reasonable.
+Assuming that all of the variables used in the model have valid business
+justiﬁcations, the review then focuses on ﬁnding alternative models thatare less discriminatory but similarly predictive.
+37This is where AI is likely
+to be better than traditional statistical modeling. Because AI models aremore complex, a modeler has more ways to change or tweak the model inorder to attempt to make the model less discriminatory. Further, becausenew methods have been developed to deal with discrimination in AI, wecan address these questions head-on and ﬁnd less discriminatory alterna-tives that preserve a baseline model’s predictive power.
+In traditional statistical models, the only option for ﬁnding less discrim-
+inatory models is to add or drop variables that go into the model. Forinstance, suppose that we ﬁnd that a given credit score is the primary driver
+36.SeeGriggs v. Duke Power Co., 401 U.S. 424, 439 (1971) (rejecting employer’s
+use of intelligence tests and an education requirement as a prerequisite to em-ployment due to the employer’s failure to satisfy the burden of proving thatthe test demonstrated a reasonable measure of job performance).
+37. If a lender were to ﬁnd that a variable does not have sufﬁcient businessjustiﬁcation to warrant its inclusion, then it would be removed from the model.142 Quarterly Report Vol. 73, No. 2 2019
+of disparate impact in the model. In our alternatives analysis we would
+search for other variables, perhaps including a different type of credit score,that results in the model having a lower disparate impact. In that case,before using the model to make actual credit decisions, the bank wouldremove the more discriminatory credit score and replace it with the lessdiscriminatory variable we found.
+But in AI, we are not limited just to adding or removing variables. In-
+stead, there are many different approaches that we can try in order to ﬁnda less discriminatory alternative model. In addition to adding or droppingvariables, there are methods that can keep the variable in the model butdiminish the inﬂuence of its correlation with protected class status. As anexample of one technique, each machine learning algorithm has what arecalled “hyperparameters,” which are settings that tell the algorithm howto learn from the data. Changing these settings within an appropriate rangecan slightly change the predictions given by the algorithm. We have foundthat in many (but not all) cases it is possible to alter these in order to get aless discriminatory model. Hyperparameters are generally not part of tra-ditional statistical methods, thus the option to change these to minimizebias is a beneﬁt unique to using AI.
+Other techniques can also be employed to minimize discrimination. One
+such method is to use what is known as “adversarial de-biasing,” wheretwo models work together to ﬁnd the optimal outcome. Here, the ﬁrstmodel predicts whatever outcome is being measured (e.g., default rates),while the second model uses those predictions to estimate the race, gender,or age of each customer.
+38The models then work together to maximize the
+quality of the predictions from the ﬁrst model while minimizing the secondmodel’s ability to predict protected class status.
+39This has the effect of
+diminishing the inﬂuence of variables that are strongly correlated withprotected class status.
+40
+An additional technique that is similar in effect to the adversarial ap-
+proach is known as “regularization.” In this context, a regularized model
+38. Brian Hu Zhang et al., Mitigating Unwanted Biases With Adversarial
+Learning, inArtificial Intelligence ,Ethics, and Society Conference
+(2018), http:/ /www.aies-conference.com/wp-content/papers/main/AIES_2018_paper_162.pdf [https:/ /perma.cc/P4AV-RCPE]. For a relatively non-technicalexplanation of the approach, along with an example of how well it works, see
+Hank Grifﬁoen, Fairness in Machine Learning with Pytorch ,GoDataDriven (May
+22, 2019), https:/ /blog.godatadriven.com/fairness-in-pytorch [https:/ /perma.cc/V8W6-E9L3].
+39. Brian Hu Zhang et al., Mitigating Unwanted Biases With AdversarialLearning, inArtificial Intelligence ,Ethics, and Society (2018), http:/ /
+www.aies-conference.com / wp-content / papers / main / AIES _ 2018 _ paper _162.pdf [https:/ /perma.cc/P4AV-RCPE].40.See id. (equating this as playing a zero-sum game to diminish any unduly
+negative effects).Algorithmic Discrimination 143
+works by balancing the predictiveness of the model and its relationship to
+disparate impact. As the model learns, it calculates a trade-off in the pre-dictiveness gained relative to any increase in disparate impact. If the gainin prediction is not sufﬁcient to overcome an increase in disparate impact,then the model will attempt to ﬁnd a different path towards a predictivebut less discriminatory solution.
+As an example of how a regularized model works, suppose that the
+model being used is based on decision trees, where people either receiveloans or are rejected as a result of various cutoffs chosen by the algorithm.In other words, if the model uses credit scores to determine who is likelyto default, it will try various cutoffs of scores to see what is most predictiveof default. Suppose the algorithm tries two cuts of the data: one credit scoreequals 600 and one credit score equals 700. When it tries the cutoff at 600,it ﬁnds that it correctly identiﬁes 75% of defaulters and non-defaulters.However, it also ﬁnds that the adverse impact ratio (a common measureof disparate impact, where a value of 1.0 means that protected classes andcontrol classes receive favorable outcomes at equal rates) is equal to 0.65.It then tries the cutoff at 700 and ﬁnds that it correctly identiﬁes 73% ofdefaulters and non-defaulters (a decrease in accuracy of 3%). However, theadverse impact ratio has increased to 0.79. This represents a substantialimprovement in disparate impact, while only minimally affecting the pre-dictive power of the model, likely making the tradeoff worthwhile.
+Finally, there is still the option of adding or removing variables, which
+can be made more efﬁcient through “explainable AI,” which overcomes theblack-box nature of AI models, and helps to identify the importance andinﬂuence of model inputs on model predictions. These methods can beused to determine what may be causing bias in a model, and then attentioncan be focused on removing the biased effect of those variables. One of thechief advantages of these methodologies is that they can be automated andthe results can be provided as part of the standard model review and docu-mentation process.
+VII. C
+ONCLUSION
+The advent of the use of AI, ML, alternative data, and big data for
+decision-making holds promise but also poses risks. The scrutiny of ad-vances in these areas has generated skepticism: will this information andthese methods truly beneﬁt individuals, or will the risk inherent in theiruse overshadow their value? In certain contexts, some of the beneﬁts andrisks are clear. Where there are risks, these risks can often be evaluated,managed, and mitigated.
+In credit decision-making, AI, ML, and newly available data may be
+used to extend credit to consumers who are otherwise underserved bytraditional credit decision-making methods, and to offer credit on betterterms to consumers who already have access to credit. However, these newalgorithmic models that rely on automated decision-making are not inher-144 Quarterly Report Vol. 73, No. 2 2019
+ently bias free. While they do minimize human subjectivity, bias can arise
+in the model development process. Further, model developers can makedecisions that introduce bias, and the data used to develop models may beinherently biased itself.
+Recognizing the existence and nature of algorithmic bias, as well as the
+risks associated with reliance on newly available data, is a necessary stepto designing and implementing approaches to ensure that these algorithmicdecision-making processes are as fair as possible. Unlawful bias arisingfrom the use of algorithms can be evaluated and mitigated, but doing sorequires a deep understanding of these new methods, data, and the con-texts and domains in which they are being used.

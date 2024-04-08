@@ -1,0 +1,785 @@
+ 
+
+HEINONLINE
+
+DATE DOWNLOADED: Tue Nov 22 07:57:21 2022
+SOURCE: Content Downloaded from HeinOnline
+
+Citations:
+
+Bluebook 21st ed.
+
+Ephrem Fernandez , Vasiliki Kiageri, Deepan Guharajan & Andrew Day, Anger parameters
+in parolees undergoing psychoeducation: Temporal stability, social desirability bias,
+
+and comparison with non-offenders, 28 CRIM. BEHAV. & MENTAL HEALTH 174 (2018).
+
+ALWD 7th ed.
+
+Ephrem Fernandez , Vasiliki Kiageri, Deepan Guharajan & Andrew Day, Anger parameters
+in parolees undergoing psychoeducation: Temporal stability, social desirability bias,
+
+and comparison with non-offenders, 28 Crim. Behav. & Mental Health 174 (2018).
+
+APA 7th ed.
+
+Fernandez, E., Kiageri, V., Guharajan, D., & Day, A. (2018). Anger parameters in
+parolees undergoing psychoeducation: temporal stability, social desirability bias,
+and comparison with non-offenders. Criminal Behaviour and Mental Health, 28(2),
+174-186.
+
+Chicago 17th ed.
+
+Ephrem Fernandez; Vasiliki Kiageri; Deepan Guharajan; Andrew Day, "Anger parameters
+in parolees undergoing psychoeducation: Temporal stability, social desirability bias,
+
+and comparison with non-offenders," Criminal Behaviour and Mental Health 28, no. 2
+(April 2018): 174-186
+
+McGill Guide 9th ed.
+
+Ephrem Fernandez et al., "Anger parameters in parolees undergoing psychoeducation:
+Temporal stability, social desirability bias, and comparison with non-offenders"
+
+(2018) 28:2 Crim Behav & Mental Health 174.
+
+AGLC 4th ed.
+
+Ephrem Fernandez et al., ‘Anger parameters in parolees undergoing psychoeducation:
+Temporal stability, social desirability bias, and comparison with non-offenders’
+
+(2018) 28(2) Criminal Behaviour and Mental Health 174
+
+MLA 9th ed.
+
+Fernandez, Ephrem, et al. "Anger parameters in parolees undergoing psychoeducation:
+Temporal stability, social desirability bias, and comparison with non-offenders.”
+Criminal Behaviour and Mental Health, vol. 28, no. 2, April 2018, pp. 174-186.
+HeinOnline.
+
+OSCOLA 4th ed.
+
+Ephrem Fernandez , Vasiliki Kiageri, Deepan Guharajan & Andrew Day, ‘Anger parameters
+in parolees undergoing psychoeducation: Temporal stability, social desirability bias,
+
+and comparison with non-offenders’ (2018) 28 Crim Behav & Mental Health 174
+
+Provided by:
+Younes & Soraya Nazarian Library, University of Haifa
+
+-- Your use of this HeinOnline PDF indicates your acceptance of HeinOnline’s Terms and
+Criminal Behaviour and Mental Health
+
+28: 174-186 (2018)
+
+Published online 8 September 2017 in Wiley Online Library
+(wileyonlinelibrary.com} DOI: 10.1002/cbm.2057
+
+Anger parameters in parolees
+undergoing psychoeducation:
+Temporal stability, social desirability
+bias, and comparison with non-
+offenders
+
+EPHREM FERNANDEZ!, VASILIKI KIAGERI’,
+DEEPAN GUHARAJAN! AND ANDREW DAY’, ‘Department of
+Psychology, University of Texas at San Antonio, San Antonio, TX USA;
+?Older Adult Psychology, Dudley and Walsall Mental Health Partnership
+NHS Trust, Dudley, UK; 3 Indigenous Education & Research Centre, James
+Cook University, Townsville, QLD, Australia
+
+ABSTRACT
+
+Background Anger is commonly measured as if it were a single, simple construct.
+This may be particularly unhelpful if the main purpose of a measure is to determine
+change and responsiveness to interventions.
+
+Aims Our primary aim was to assess five anger parameters in parolees — frequency,
+duration, intensity, latency, and threshold — and to test for effects of psychoeducation
+and social desirability bias on parolees’ scores. Average anger scores for the offender
+sample were compared with those in a non-offender sample.
+
+Methods The offender sample was drawn from male parolees in San Antonio. Age-
+matched volunteers recruited at public libraries were engaged for baseline comparisons.
+The Anger Parameters Scale and the Marlow—Crowne Scale were used to assess anger
+and social desirability, respectively. Parole officers delivered a psychoeducation course to
+parolees over 12 weeks, and anger and social desirability measures were taken before
+and afterwards.
+
+Results At baseline, parolees were angry more often, stayed angry longer, and reached
+higher levels of anger than the non-offenders, confirming their eligibility for the pro-
+gramme. Mean anger scores were not significantly different after psychoeducation than
+before it. Parolees’ reported anger was significantly and negatively correlated with social
+desirability scores.
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees
+
+Conclusions Only three of the five anger parameters were prominent among these of-
+fenders: frequency, duration, and intensity of their outbursts. Psychoeducation did not
+produce improvement, possibly because it was instructional rather than therapeutic, but
+also because group means may mask useful individual differences. Concurrent
+assessment of social desirability is likely to assist in interpretation of anger measures.
+
+Copyright © 2017 John Wiley & Sons, Ltd.
+
+Anger is qualitatively understood in relation to the experience of negative affect
+and further characterised in terms of a cognitive appraisal of perceived wrongdo-
+ing and a tendency to correct the wrongdoing (Smedslund, 1993). Quantitatively,
+it fluctuates in terms of its intensity from annoyance (low levels of arousal) to rage
+(high levels of arousal). Like anxiety, anger has also been categorised by frequency
+of the experience and the state-versus-trait dichotomy (Spielberger et al., 1983).
+More recent formulations are of a triad of emotion, mood, and temperament
+(Fernandez, 2013), each qualified by duration and intensity.
+
+Although anger can be functional, its deleterious effects on health are increasingly
+understood. Williams (2010), for example, reviewed substantial evidence that trait
+anget, chronic hostility, anger expression, and acute anger episodes are positively
+correlated with cardiovascular disease, including atherosclerosis. Anger arousal has
+also been shown to be associated with elevated pain intensity among people with
+chronic pain (Burns et al., 2015), and angerfhostility has also been linked to a range
+of appetitive disorders including unhealthy eating, alcohol consumption and
+smoking (Izawa & Nomura, 2006). No less important, however, are the mental
+health problems associated with anger. Although not viewed as a disorder in itself
+in the Diagnostic and Statistical Manual of Mental Disorders (American Psychiatric
+Association, 2013), anger is a key criterion in various mental disorders (Fernandez
+& Johnson, 2016). Examples include disruptive, impulse control and conduct
+disorders, such as intermittent explosive disorder, characterised by impulsively
+agercssive hchaviour disproportionate to provocation, oppositional defiant disorder,
+horderline personality disorder, post-traumatic stress disorder and mood disorders
+such as depression, anxicty, and bipolar disorder (American Psychiatric Association,
+2013).
+
+Anger remains one of the main warning signs for aggression and violence and
+is therefore a frequent target of attention in forensic settings (Day & Vess, 2013).
+While a direct causal link between anger and criminal activity has not been
+established, anger is often reported to precede a violent act (Howells, 1998). A
+meta-analysis of 19 studies investigating the relationship between anger and
+cognitive distortion in violent offenders reported that nine of them statistically
+supported a strong relationship between anger and violence (Chereji et al.,
+2012), although other factors may mediate or moderate its expression. In
+intimate partner violence, for instance, it is held that violence is a function of
+situations that may trigger anger, plus a predisposition to anger, plus disinhibition
+that facilitates action on such anger (Finkel & Eckhardt, 2013).
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+
+175
+1
+
+6
+
+Fernandey et al.
+
+Beyond the recognition that anger-instigated violent crimes do occur,
+relatively little is known about levels of anger in offender populations or what crimes
+relate to what types of anger. This type of information could be critical to the
+development of more effective interventions for violent offenders, where there is
+currently some uncertainty about the impact of specialist anger management
+interventions (Heseltine et al., 2010).
+
+There are limits to the specificity and sensitivity of physiological activity as
+measures of anger (Cacioppo et al., 2000; Stemmler, 2010), so self-report
+questionnaires have proliferated and become indispensable in assessing anger.
+In a recent review of 16 such self-report instruments (Fernandez et al., 2015),
+it was noted that, rooted in unidimensional measures such as the Cook—Medley
+Scale, anger assessment has now moved towards deconstruction of anger along
+several dimensions. The Multidimensional Anger Inventory (Siegel, 1986), for
+example, measures anger as a function of frequency, duration, and magnitude,
+in addition to mode of expression, hostile outlock and range of anger-eliciting
+situations.
+
+One of the most widely used anger assessment instruments is the State—Trait
+Anger Expression Inventory (STAXI]; Spielberger, 1988). It is designed to differen-
+tiate state from trait anger, and to emphasise the distinction between experiencing
+and expressing it. Specifically, it introduces the concept of ‘anger in’ versus ‘anger
+out’, as well as ‘anger control’, Despite item homogeneity and other favourable
+psychometrics of the STAXI (and its successor, the STAXI-2), there are reserva-
+tions about its use with offenders. Foley et al. (2002), for example, found that the
+STAXI-2 was ineffective in identifying individuals suitable for anger management
+interventions; among 82 offenders referred for anger management, they found that
+only 51% of them actually met criteria for the intervention. Although this may
+indicate inappropriate referral practice, it could reflect on the use of self-report in
+this context — given the possibility of social desirability bias. McEwan et al.
+(2009) administered the STAX] in conjunction with the Paulhus Deception Scale
+(Paulhus, 1998) to 159 male psychiatric inpatients and found evidence that they
+‘faked positive’. Similar findings of an inverse relationship have emerged when
+the Marlowe—Crowne (MC) social desirability scale has been correlated with other
+self-report measures of anger (e.g. Baker et al., 2008; Day et al., 2012).
+
+In a recent attempt to explore multidimensional aspects of anger among incar-
+cerated adults from an adult detention centre in a large metropolitan city in the
+USA, inmates were assessed not only on the hasis of frequency and intensity of
+anger-related hchaviours (as with the STAXI-2) but also on five anger parameters:
+frequency, duration, intensity, latency and threshold (Fernandez ct al., 2014).
+Compared to an adult community sample, the inmates reported experiencing anger
+more often, more intenscly and for longer periods of time. On latency and thresh-
+old, however, the forensic sample turned out to be equally sensitive to provocation
+and equally quick to anger as the community sample. This points to the need for
+anger to he assessed not as one amorphous construct but in its multiple parameters.
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees
+
+In this study, our first. aim was to measure the multiple parameters of anger in a
+sample of violent. offenders on parole. The nature of their crimes had resulted in
+court-mandated attendance at an anger management psychocducation coursc as a
+parole condition. The course had a pre-defined curriculum to ke covered in 12 wecks,
+primarily instructional in format and delivercd by parole officers. Our sccond aim
+was to compare scores on all measures of anger before and after the psychoeducation
+course. We also hypothesised that anger ratings among parolees would be correlated
+with a measure of social desirability bias. Finally, we compared anger scores from
+parolees to those obtained from a previous community sample. Our hypothesis was
+that the parolees would report more maladaptive levels of anger, on multiple
+dimensions, than would members of the public.
+
+Method
+
+The study was approved by the Institutional Review Board for Human Subjects
+Research at University of Texas at San Antonio and by the Research Review
+Panel of the Parole Office.
+
+Participants
+
+The offender sample consisted of 64 men convicted of violent crimes and
+recently released on parole in San Antonio, a densely urban area with a
+population of mixed socio-economic status. The comparison group comprised 64
+age-matched volunteers previously recruited at several libraries in the same San
+Antonio community and surveyed as part of a separate study (Fernandez et al., 2014).
+
+Evaluation tools
+
+The Anger Parameters Scale (APS; Fernandez et al., 2010, 2014) was used to assess
+five parameters of anger: (1) frequency, which measures how often someone
+experiences anger (high vs low); (2) duration, which taps into how long anger
+persists (short vs long); (3) intensity, referring to the magnitude at which anger
+is experienced (weak vs strong); (4) latency, which is the dimension that
+measures how quickly anger arises after the anger-provoking stimulus (slow vs
+fast); and (5) threshold, which pertains to how scnsitive an individual is to
+anger-provoking stimuli (inscnsitive vs sensitive). The five parameters of the
+APS are cach measured by six items/statements, and participants were asked to
+ratc how truce cach statement is for them on aC (absolutely false) to 4 (absolutely
+truc) rating scale; fractional responscs are permitted. Examples of itcms per
+parameter are as follows: ‘Anger is my least common emotion’ (frequency), ‘My
+anger is prolonged’ (duration), ‘I explode with anger’ (intensity), ‘I am slow to
+anger’ (latency) and ‘A single provocation is enough to anger me’ (threshold).
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+
+177
+1
+
+8
+
+Fernandey et al.
+
+To control for response scts, half of the 30 items of the APS are negatively keyed
+and therefore reverse scored. Scores for cach parameter range from 0 to 24. The
+higher the scorcs, the more that parameter tends towards maladaptivencss. The
+APS has been psychometrically evaluated and found to have factorial validity,
+temporal stability and internal consistency with Cronbach’s alpha as follows:
+0.85 for frequency, 0.90 for duration, 0.62 for intensity, 0.88 for latency and
+0.74 for threshold (Fernandez et al., 2010, 2014; Henderson, 2016).
+
+The MC test of social desirability bias (Crowne & Marlowe, 1960) was
+developed to detect ‘faking good’ — or denial of character flaws or psychological
+inadequacies. It consists of 33 items, 18 of which are rated true and 15 rated false.
+The higher the score, the more likely that person is biased towards endorsing
+socially desirable self-descriptions. Based on the originally normed sample, the
+mean score is 13.72 with a standard deviation (SD) of 5.78. The scale has accept-
+able temporal stability and internal consistency, with a Cronbach’s alpha of 0.88.
+
+Procedure
+
+A pair of research assistants arrived at a Metropolitan Parole Complex a few
+minutes prior to the beginning of the first meeting of a psychoeducation course
+on anger, aggression and violence, delivered by parole officers to a maximum of
+30 parolees, cach mandated to attend. Because of the variable number of parolees
+enrolling in each psychoeducation course, the final sample consisted of parolees
+recruited from six cycles of the same course. The parole office, which served as
+a recruitment centre, did not disclose information on refusal or attrition rates;
+on average, the enrolment was 12 participants per cycle.
+
+The research assistants read a recruitment script and advised parolees of the
+voluntary nature of the study and of their right to decline participation at any time
+without loss of services/privileges to which they were otherwise entitled. The
+parolees were further reassured that their parole officers would not be informed
+of their participation or lack thereof, and that confidentiality of data would be
+maintained at all times. Those choosing to participate were then provided with
+participant information sheets, which included all information relevant to the
+study in writing, together with a consent form. Participants were not asked to
+consent in writing but rather to read the form and simply provide verbal consent
+if applicable.
+
+The research assistants then gave a PowerPoint presentation to consenting
+parolees. While referring to the slides, research assistants read aloud cach item
+of the APS, in response to which participants recorded their 0-4 ratings on
+standardised answer sheets. On completion of the APS, the participants filled
+out a basic demographic intake sheet, which asked them to provide their age,
+gender, ethnicity, racc, education level, occupation and index offence. In lieu
+of any personally identifying information, an alphanumeric code was entered
+by each participant on all of his response sheets. These codes were linked to
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees
+
+names only for the purpose of reminders in the next phase of the study and for the
+purpose of monctary compensation.
+
+In the subsequent. 12 wecks, parolees met for an hour per week of the court-
+mandated anger management programme. Programme content covered three
+main areas of information: (i) clicitors of anger and aggression in interpersonal sit-
+uations, (ii) statistics about crime and mental health and (iii) legal ramifications
+of criminal activity related to angry/impulsive outbursts of aggression. The course
+was run primarily in the format of lectures supplemented with PowerPoint slides
+but not involving any role playing or other interactive exercises.
+
+The second phase of our study took place just after the last meeting in the
+psychoeducation course. Because 12 weeks had passed between the heginning
+and the end of the course, consent forms were distributed again, reminding
+continuing participants of the procedures of the study. Those who continued to
+consent were reminded of their codes, in case they had forgotten them, and their
+purpose — to enable data to be matched from the first to last sessions while
+allowing anonymity after the end of the study by de-linking names altogether.
+The APS and MC scales were then administered by PowerPoint presentation.
+Finally, a $10 cash compensation was provided to each participant completing
+both sessions. Participants’ names were then de-linked from all data collected.
+
+Results
+
+The 64 participant parolees were all men, with a mean age of 35.19 years (range
+19-71 years). Forty-seven (73%) of them self-identified as Hispanic/Latino. An
+overlapping 45 (70%) identified themselves as ‘Caucasian’, 13 (20%) as
+African-American, and the remaining 10% as neither.
+
+Forty-seven (73%) of the consenting parolees completed the psychoeducation
+course, allowing for pre-post course comparisons for completers and non-
+completers. Social desirability scores were available for a subset of just 37 parolee
+course completers.
+
+The community comparison group was matched for age (mean 35.19 years,
+range: 19-71 years). It consisted of 35 women, 28 men, and | transgender individ-
+ual; previous research suggests non-significant sex differences in self-rated anger. A
+lower proportion of the community sample self-identified as Hispanic/Latino (26,
+41%) but a similar proportion as Caucasian (50, 78%); none of the community
+sample identified themselves as African-American; again, there are non-significant
+differences in anger according to ethnic group. The community sample reported
+higher educational achievement than the forensic sample, with 19 (30%) of partic-
+ipants having a high school diploma/GED, 17 (27%) having a bachelor’s degree,
+and 15 (23%) a master’s degrec. Among parolecs, less than half (13, 48%) reported
+having obtained a high school certificate/GED, while 18 (28%) reported having
+attended high school but not graduated.
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+
+179
+180
+
+Fernandey et al.
+
+Table 1: Means and standard deviations (SDs) for the forensic sample and the community sample
+on five parameters of anger.
+
+ 
+
+ 
+
+ 
+
+Parolees (N = 64} Community (N = 64)
+Parameters M (SD} M (SD)
+Frequency 10. 96 (5.16) 6.29 (5.13)
+Duration 11.17 (6.67) 5.8 (5.84)
+Intensity 11.64 (6.08) 6.78 (4.31)
+Latency 10.65 (6.78) 8.57 (6.3)
+Threshold 8.78 (6.2) 6.96 (4.65)
+
+ 
+
+Note: As in frequency, duration and intensity, higher scores indicate greater maladaptiveness for
+latency (quicker to anger) and threshold (more sensitive to anger provocation).
+
+Table 1 shows the descriptive statistics for each of the five anger parameters
+for the parolee and community samples. Mean parolee scores were close to the
+middle of range for the first three parameters (frequency 10.96, SD 5.16; duration
+mean 11.17, SD 6.67; intensity 11.64, SD 6.08) and a little lower for the other
+two (latency 10.65, SD 6.78; threshold 8.78, SD 6.20). The multivariate analysis
+of variance revealed that the total mean APS score for parolees was significantly
+higher than that for the community sample (Wilks’ A = 0.714, F(1, 126) = 9.76,
+p < 0.01). Univariate analyses of variance indicated that this statistical
+significance was attributable to group differences on the frequency parameter
+
+(FU, 126) = 26.33, p < 0.01), on duration (F(1, 126) = 23.47, p < 0.01)
+
+24 -
+22
+
+== Parolees
+20
+18 = Community
+16
+
+14
+
+ES
+
+Frequency Duration Intensity Latency Threshold
+
+Anger scores
+b
+oa
+
+a nm o
+
+ 
+
+ 
+
+Anger Parameters
+
+Note, The parameters are nominal categories.
+
+Figure 1: Mean anger scores (for frequency, duration, intensity, latency and threshold) in parolees
+versus community sample. Note. The parameters are nominal categories
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees 181
+
+Table 2: Means and standard deviations (SDs} of pre-treatment scores for completers versus non-
+completers of the psychoeducation course.
+
+ 
+
+ 
+
+ 
+
+Completers (N = 47) Non-completers (N = 17)
+Parameters M (SRD) M (SD)
+Frequency 10.39 (4.91) 11.74 (5.17)
+Duration 10.05 (6.48) 11.45 (6.9)
+Intensity 11.57 (5.82) 10.58 (6.63)
+Latency 10.78 (6.63) 9.77 (7.75)
+Threshold 8.50 (6.28) 7.50 (6.4)
+
+ 
+
+Note: Lligher scores indicate greater maladaptiveness, e.g. quicker to anger in the case of latency
+and more sensitive to anger provocation in the case of threshold.
+
+and on intensity (F(1, 126) = 27.24, p < 0.01). Although there was a tendency
+for parolees to be faster on latency and more sensitive on threshold than the
+community sample, these differences were not significant (latency
+F(1, 126) = 3.22, ns; threshold F(1, 126) = 3.52, ns). Figure 1 illustrates the
+extent to which the average profile for the parolees was consistently higher
+than that for the community. Effect sizes based on pooled SDs were 0.83 for
+frequency, 0.79 for duration, 0.84 for intensity, 0.37 for latency and 0.33 for
+threshold.
+
+Mean anger scores on all parameters are similar for the 47 parolees who com-
+pleted the programme and the 17 parolees who did not, as shown in Table 2.
+Repeated-measures multivariate analysis of variance did not yield any significant
+changes between initial and concluding phases of data collection for the com-
+pleters (Wilks’ A = 0.794, F(1, 46) = 2 .18, ns; see also Figure 2). The pre—post
+effect sizes are consistent with these results for all five parameters (frequency 0.24;
+duration 0.33; intensity 0.3; latency 0.07; threshold 0.05). Each anger parameter
+pre-intervention score was positively correlated with the post-intervention score
+measure (frequency r = 0.38; duration r = 0.62; intensity r = 0.69; latency
+r = 0.64; threshold r = 0.67; averaging + = 0.60).
+
+The mean score on the MC test of social desirability among the subset of 37
+parolees who had completed both phases of the study was 15.65 (SD 5.17). For
+all but the latency parameter, there was a significant inverse correlation between
+MC score and anger scores (frequency r = —0.35; duration r = —0.42; intensity
+r = —0.35; latency r = —0.14; threshold r = —0.38, averaging r = —0.33).
+
+Discussion
+
+Our findings not only confirm that this group of parolees were appropriately
+selected for an attempt to reduce their anger but also allowed more detailed
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+182
+
+Fernandey et al.
+
+= Pre
+
+18 mPost
+
+Anger scores
+
+     
+
+ 
+
+Latency Threshold
+
+Auger parameters
+
+Frequency Duration Intensity
+
+Figure 2: Pre-post mean differences of 47 parolees on all five parameters of anger
+
+scrutiny of the qualities of that anger — parolees were quicker to anger and more
+sensitive to provocation (latency and threshold parameters), but problems with
+its frequency, duration and intensity were most marked. In this naturalistic study,
+we found no significant change in anger ratings among those men who success-
+fully completed the education programme and suggest that an intervention that
+is more targeted towards the areas of greatest difficulty could be a better approach,
+
+Closely interwoven with anger ratings is the possibility of reality distortion.
+Self-report measures are unavoidable when assessing subjective experiences but
+are, by their nature, limited because they rely on participants’ ability to perceive
+their own problems accurately and/or their willingness to provide truthful re-
+sponses. A common assumption when assessing behaviours or attributes that
+may be subject to social disapproval is that participants may choose to present
+themselves in a socially favourable light. In previous studies of violent offenders,
+scores on the Crowne and Marlowe (1960) social desirability bias scale have been
+found to be significantly and negatively correlated with both STAXI and Novaco
+Anger Scale scores (Novaco, 2003; Baker et al., 2008; Day et al., 2012). Positive
+self-presentation may be especially likely when the outcome of the assessments
+might affect the legal status of violent offenders (Selby, 1984; Stuckless et al.,
+1995; Andrews & Mcycr, 2003; Farmer & Andrews, 2009; McEwan ct al.,
+2009). On the face of it, parolecs in our study responded in a socially desirable
+manncr as suggested by the significant negative correlation between the MC
+and anger parameters. The mean bias score for the parolecs was also one-third
+of an SD above that for the college sample with whom the instrument was orig-
+inally tested, although this should not be taken as conclusive evidence of bias as
+in previous studies. First, parolees are different from students in all sorts of ways,
+but, perhaps of more importance, Guharajan et al. (2016) have recently argued
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees
+
+for caution in interpreting CMC scores as the negative correlation with anger
+scores is driven primarily by a handful of anger-related items on the MC (c.g.
+item 23, “There have been occasions when I have felt like smashing things’, is
+keyed as ‘false’, so failure to endorse it is automatically scored as a point in the
+direction of denial or social desirability bias). When such anger-related items
+were excluded from the test, the correlation diminished to low, non-significant,
+levels. Clearly, there is a need for closer inspection of the tests that are purport-
+edly meant to assess social desirability bias and to re-interpret their relationship
+with self-reported anger.
+
+Our findings provide some support for the utility of the APS with offenders.
+This instrument showed differences that one would expect between the forensic
+and community samples and replicates the findings of a previous study in which
+APS scores from prison inmates were compared to those of a community sample.
+
+The APS parameters showed no significant change between initial data
+collection and after completion of a 12-week anger management course. This
+might have been expected in light of findings that psychoeducation with offender
+groups is less effective than actual treatment in the reduction of anger (e.g.
+Kassinove & Tafrate, 2002; Heseltine et al., 2010). An alternative explanation
+for the lack of improvement, however, may be that the outcome measures were
+not sensitive to change. Another argument might be that the sample size of 64
+patticipants (47 completers and 17 non-completers) was not large enough to
+detect small changes. The small pre-post Cohen d (averaging +0.19 across the
+five parameters), however, suggests that the magnitude of effect was weak to
+begin with and unlikely to increase appreciably with larger N. An important
+consideration is that reliance on comparison of mean scores may have obscured
+worthwhile individual change. This sort of problem has been illustrated
+previously for anger management groups (Quayle & Moore, 1998) in which
+not only were mean scores concealing different directions of change, but some
+scale score changes were negative, suggesting rising anger and possibly a
+movement from denial of anger towards acknowledging it. Furthermore, it
+should be kept in mind that those who did not complete a second rating may
+represent a special subgroup of individuals facing various contextual challenges
+in their lives.
+
+Also related to demographic aspects of the participants, a large percentage of
+the forensic sample was Hispanic/Latino, as would be expected of a study con-
+ducted in San Antonio, Texas. Our findings may not be gencralisable beyond this
+group. Further, our forensic sample was exclusively of men, so no inferences can
+be drawn for female offenders, although past rescarch has gencrally not yielded
+gender differences in anger within clinical or forensic samples (Fernandez &
+Scott, 2009; Fernandez & Malley-Morrison, 2013). Finally, with regard to cduca-
+tional status, our forensic sample was generally less educated than the community
+sample, although all parolees reported at least a seventh-grade education and lit-
+eracy in English.
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+
+183
+184
+
+Fernandey et al.
+
+In conclusion, our findings add to an understanding of anger in offender sam-
+ples by tcasing out its componcnts. Only frequency, duration and intensity of out-
+bursts marked these parolces out as different from gencral population voluntecrs.
+The consistency of the anger measurcs among the parolees suggested a necd for
+intervention, but they did net appear to respond to this psychocducation
+programme.
+
+Acknowledgement
+
+This study was partially sponsored by an Undergraduate Rescarch and Travel
+Grant from the UTSA Honors College.
+
+References
+
+American Psychiatric Association (2013) Diagnostic and statistical manual of mental disorders
+(5th ed.) Arlington, VA: American Psychiatric Publishing.
+
+Andrews P, Meyer RG (2003) Marlowe—Crowne social desirability scale and short form C: Forensic
+norms. Journal of Clinical Psychology 59: 483-492.
+
+Baker MT, Van Llasselt VB, Sellers All (2008) Validation of the Novaco Anger Scale in an
+incarcerated offender population. Criminal Justice and Behavior 35: 741-754.
+
+Burns JW, Gerhart JI, Bruehl S, Peterson KM, Smith DA, Porter LS, Schuster E, Kinner E,
+Buvanendran A, l'ras AM, Keefe 1) (2015) Anger arousal and behavioral anger regulation in
+everyday life among patients with chronic low back pain: Relationships to patient pain and
+function. Health Psychology 34: 547-555.
+
+Cacioppo JT, Berntson GG, Poehlman KM, Ito TA (2000) The psychophysiology of emotion. In
+Lewis M, Haviland-Jones JM (eds) Handbook of emotions. pp. 173-191.
+
+Chereji SV, Pintea S, David D (2012) The relationship of anger and cognitive distortions with
+violence in violent offenders’ population: A meta-analytic review. The European Journal of
+Psychology Applied to Legal Context 4: 1-98.
+
+Crowne DP, Marlowe D (1960) A new scale of social desirability independent of psychopathology.
+Journal of Consulting Psychology 24: 349-354.
+
+Day A, Mohr P, Howells K, Gerace A, Lim L (2012) The role of empathy in anger arousal in
+violent offenders and university students. International Journal of Offender ‘Uherapy and
+Comparative Criminology 56: 599-613.
+
+Day A, Vess J (2013) Targeting anger in forensic populations. In Fernandez E (ed.) Treatments for
+Anger in Specific Populations: Theory, Application, and Outcome. Oxford: Oxford University
+Press pp. 158-175.
+
+Farmer E, Andrews B (2009) Shameless yet angry: Shame and its relationship to anger in male young
+offenders and undergraduate controls. The Jounal of Forensic Psychiatry and Psychology 20: 8-65.
+
+Fernandez E (2013) Anger dysfunction and its treatment. In Fernandez E (ed.} Treatments for
+Anger in Specific Populations: Theory, Application, and Outcome, New York: Oxford
+University Press pp. 1-14.
+
+Fernandez E, Arevalo I, Vargas R, Torralba A (2014) Noms for five parameters of anger: How do
+incarcerated adults differ from the community? Ihe International Journal of Morensic Mental
+
+Health 13: 18-24.
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+Anger in parolees
+
+Fernandez E, Day A, Boyle GJ (2015) Measures of anger and hostility in adults. In Boyle GJ,
+Saklofske D, Matthews G (eds) Measures of Personality and Social Psychological Constructs.
+London: Academic Press pp. 74-100.
+
+Fernandez E, Johnson SL (2016) Anger in psychological disorders: Prevalence, presentation,
+etiology and prognostic implications. Clinical Psychology Review 46: 124-135.
+
+Fernandez E, Malley-Morrison K (2013) Gender-inclusive and gender-informed treatment of anger.
+In lernandez L: (ed.) Treatments for Anger in Specific Populations: Theory, Application, and
+Outcome. New York: Oxford University Press pp. 213-235.
+
+Fernandez E, Scott S (2009} Anger treatment in chemically-dependent inpatients: Evaluation of
+phase effects and gender. Behavioural and Cognitive Psychotherapy 37: 431-447.
+
+Fernandez E, Vargas R, & Garza C (2010). Five parameters for mapping the angry person: Results
+from a community sample. Poster presented at the Annual Convention of the Association for
+Psychological Science, Boston, MA.
+
+Finkel E, Eckhardt C (2013} Intimate partner violence. In Simpson J, Campbell L (eds)
+The Oxford Handbook of Close Relationships. Oxford: Oxford University Press
+pp. 452-474.
+
+Foley PF, Hartman BY’, Dunn AB, Smith JE, Goldberg DM (2002) The utility of the State-Trait
+Anger Expression Inventory with offenders. International Journal of Offender Therapy and
+Comparative Criminology 46: 364-378.
+
+Guharajan D, Femandez E, Ramtahal N (2016) False alarms of “faking good” from a commen test
+of social desirability bias in anger self-report. Poster presented at the Annual Convention of the
+Association for Psychological Science, Chicago, IL.
+
+Henderson M (2016) Measuring anger in a college population using the Anger Parameters Scale,
+Anger Lxpressions Scale, and the STAXI-2. Master’s Thesis. University of Texas at San
+Antonio, San Antonio, Texas, USA.
+
+Heseltine K, Howells K, Day A (2010) Brief anger interventions with offenders may be ineffective:
+A replication and extension. Behaviour Research and Therapy 48: 246-250.
+
+Howells K (1998) Cognitive-behavioural interventions for anger, aggression and violence. In
+Tarrier N, Wells A, Haddock G (eds) Treating Complex Cases: The Cognitive Behavioural
+Therapy Approach. Chichester: Wiley pp. 295-318.
+
+Izawa S, Nomura S$ (2006) The relationship of hostility to health related behaviors, obesity, and
+hypertension in adolescence. Japanese Journal of Llealth Psychology 19: 11-19.
+
+Kassinove H, Tafrate RC (2002) Anger Management: The Complete Treatment Guidebook for
+Practitioners. Atascadero, CA: Impact Publishers.
+
+Mcliwan TL, Davis MR, MacKenzie R, Mullen PE (2009) The effects of social desirability response
+bias on STAXI-2 profiles in a clinical forensic sample. British Journal of Clinical Psychology 48:
+431-436.
+
+Novaco RW (2003) The Novaco Anger Scale and Provocation Inventory (NAS-PT). Los Angeles,
+CA: Western Psychological Services.
+
+Paulhus D (1998) Paulhus Deception Scales (PDS): The Balanced Inventory of Desirable
+Responding-7. Toronto: Multi-Health Systems Inc.
+
+Quayle M, Moore E (1998) Evaluating the impact of structured groupwork with men in a high
+security hospital. Criminal Behaviour and Mental [lealth 8: 77-92.
+
+Selby MJ (1984) Assessment of violence potential using measures of anger, hostility, and social
+desirability. Journal of Personality Assessment 8: 531-554.
+
+Siegel JS (1986) The multidimensional anger inventory. Journal of Personality and Social Psychology
+51: 191-200.
+
+Smedslund J (1993) How shall the concept of anger be defined? Theory & Psycholugy 3: 5-33.
+
+Spielberger CL) (1988) State—Trait Anger Expression Inventory Professional Manual. Odessa, L'L:
+Psychological Assessment Resources.
+
+Copyright € 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+
+185
+186
+
+Fernandey et al.
+
+Spielberger CD, Jacobs G, Russell S, Crane R (1983) Assessment of anger: The State-Trait Anger
+Scale. In Butcher JN, Spielherger CID (eds} Advances in Personality Assessment, Vol. 2.
+Hillsdale, NJ: Lawrence Erlbaum Associates pp. 159-187.
+
+Stemmler G (2010) Somatovisceral activation during anger. In International Handbook of Anger:
+Constituent and Concomitant Biological, Psychological, and Social Processes. New York, NY:
+Springer Science & Business Media pp. 103-121.
+
+Stuckless N, lord BD, Vitelli R (1995) Vengeance, anger, and irrational beliefs in inmates: A ca-
+veat regarding social desirability, 18, 1-6. U.S. Department of Justice, Office of Justice Pro-
+grams, Bureau of Justice. Statistics (2013, November). Intimate Partner Violence: Attributes
+of Victimization, 1993-2011 (NC] 243300). Retrieved from http://www.bjs.gov/content/pub/
+pdffipvav931 1 .pdf
+
+Williams JE (2010) Angerfhostility and cardiovascular disease. In Potegal M, Stemmler G,
+Spielberger C (eds) International | landbook of Anger: Constituent and Concomitant Biolog-
+ical, Psychological, and Social Processes. Springer Science & Business Media: New York, NY
+pp. 435-447.
+
+Address correspondence to: Ephrem Fernandez, Department of Psychology, Uni-
+versity of Texas at San Antonio, San Antonio, TX 78249, USA.
+Email: ephrem.fernandez@utsa.edu
+
+Copyright © 2017 John Wiley & Sons, Ltd. 28: 174-186 (2018)
+DOI: 10.1002/cbm
+

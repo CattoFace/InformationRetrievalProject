@@ -1,0 +1,497 @@
+The Thirty-Fourth AAAI Conference on Artiﬁcial Intelligence (AAAI-20)
+On Measuring and Mitigating Biased Inferences of Word Embeddings
+Sunipa Dev, Tao Li, Jeff M. Phillips, Vivek Srikumar
+School of Computing
+University of Utah
+Salt Lake City, Utah, USA
+{sunipad, tli, jeffp, svivek }@cs.utah.edu
+Abstract
+Word embeddings carry stereotypical connotations from the
+text they are trained on, which can lead to invalid inferencesin downstream models that rely on them. We use this observa-
+tion to design a mechanism for measuring stereotypes using
+the task of natural language inference. We demonstrate a re-duction in invalid inferences via bias mitigation strategies on
+static word embeddings (GloV e). Further, we show that for
+gender bias, these techniques extend to contextualized em-
+beddings when applied selectively only to the static compo-
+nents of contextualized embeddings (ELMo, BERT).
+Introduction
+Word embeddings have become the de facto feature repre-
+sentation across NLP (Parikh et al. 2016; Seo et al. 2017,for example). Their usefulness stems from their ability cap-ture background information about words using large cor-pora as static vector embeddings—e.g., word2vec (Mikolovet al. 2013), GloV e (Pennington, Socher, and Manning2014)—or contextual encoders that produce embeddings—e.g., ELMo (Peters et al. 2018), BERT (Devlin et al. 2019).
+However, besides capturing word meaning, their em-
+beddings also encode real-world biases about gender, age,ethnicity, etc. To discover biases, several lines of exist-ing work (Bolukbasi et al. 2016; Caliskan, Bryson, andNarayanan 2017; Zhao et al. 2017; Dev and Phillips 2019)employ measurements intrinsic to the vector representations,which despite their utility, have two key problems. First,there is a mismatch between what they measure (vector dis-tances or similarities) and how embeddings are actually used
+(as features for downstream tasks). Second, contextualized
+embeddings like ELMo or BERT drive today’s state-of-the-art NLP systems, but tests for bias are designed for wordtypes, not word token embeddings.
+In this paper, we present a general strategy to probe word
+embeddings for biases. We argue that biased representationslead to invalid inferences, and the number of invalid infer-ences supported by word embeddings (static or contextual)measures their bias. To concretize this intuition, we use thetask of natural language inference (NLI), where the goal is
+Copyright c/circlecopyrt2020, Association for the Advancement of Artiﬁcial
+Intelligence (www.aaai.org). All rights reserved.to ascertain if one sentence—the premise— entails orcon-
+tradicts another—the hypothesis, or if neither conclusions
+hold (i.e., they are neutral with respect to each other).
+As an illustration, consider the sentences:
+(1) The rude person visited the bishop.(2) The Uzbekistani person visited the bishop.
+Clearly, the ﬁrst sentence neither entails nor contra-
+dicts the second. Yet, the popular decomposable attentionmodel (Parikh et al. 2016) built with GloV e embeddings pre-dicts that sentence (1) entails sentence (2) with a high prob-ability of 0.842! Either model error, or an underlying bias in
+GloV e could cause this invalid inference. To study the latter,we develop a systematic probe over millions of such sen-tence pairs that target speciﬁc word classes like polarizedadjectives (e.g., rude) and demonyms (e.g., Uzbekistani).
+A second focus of this paper is bias attenuation. As a
+representative of several lines of work in this direction,
+we use the recently proposed projection method of (Devand Phillips 2019), which identiﬁes the dominant direc-tion deﬁning a bias (e.g., gender), and removes it from all
+embedded vectors. This simple approach thus, avoids thetrap of residual information (Gonen and Goldberg 2019)seen in hard debiasing approach of (Bolukbasi et al. 2016),which categorizes words and treats each category differ-ently. Speciﬁcally, we ask the question: Does projection-based debiasing attenuate bias in static embeddings (GloV e)and contextualized ones (ELMo, BERT)?
+Our contributions. Our primary contribution is the use
+of natural language inference-driven to design probes thatmeasure the effect of speciﬁc biases. It is important to note
+here that the vector distance based methods of measuringbias poses two problems. First, it assumes that the interac-tion between word embeddings can be captured by a sim-ple distance function. Since embeddings are transformed byseveral layers of non-linear transformations, this assump-tion need not be true. Second, the vector distance method isnot applicable to contextual embeddings because there is nosingle ‘driver’, ‘male’, ‘female’ vectors; instead the vectorsare dependent on the context. Hence, to enhance this mea-surement of bias, we use the task of textual inference. We
+7659construct sentence pairs where one should not imply any-
+thing about the other, yet because of representational biases,
+prediction engines (without mitigation strategies) claim that
+they do. To quantify this we use model probabilities for en-tailment (E), contradiction (C) or neutral association (N) forpairs of sentences. Consider, for example,
+(3) The driver owns a cabinet.
+(4) The man owns a cabinet.(5) The woman owns a cabinet.
+The sentence (3) neither entails nor contradicts sentences
+(4) and (5). Yet, with sentence (3) as premise and sentence(4) as hypothesis, the decomposable attention model pre-dicts probabilities: E: 0.497, N: 0.238, C: 0.264; the modelpredicts entailment. Whereas, with sentence (3) as premiseand sentence (5) as hypothesis, we get E: 0.040, N: 0.306,C: 0.654; the model predicts contradiction. Each premise-hypothesis pair differs only by a gendered word.
+We deﬁne aggregate measures that quantify bias ef-
+fects over a large number of predictions. We discover sub-stantial bias across GloV e, ELMo and BERT embeddings.In addition to the now commonly reported gender bias(e.g., (Bolukbasi et al. 2016)), we also show that the embed-dings encode polarized information about demonyms and re-ligions. To our knowledge, this is the among the ﬁrst demon-strations (Sweeney and Najaﬁan 2019; Manzini et al. 2019)of national or religious bias in word embeddings.
+Our second contribution is to show that simple mecha-
+nisms for removing bias on static word embeddings (partic-ularly GloV e) work. The projection approach of (Dev and
+Phillips 2019) has been shown effective for intrinsic mea-sures; we show that its effectiveness extends to the new NLI-based probes. Speciﬁcally, we show that it reduces gender’seffect on occupations. We further show similar results for re-moving subspaces associated with religions and demonyms.
+Our third contribution is that these approaches can be ex-
+tended to contextualized embeddings (on ELMo and BERT),but with limitations. We show that the most direct appli-
+cation of learning and removing a bias direction on thefull representations fails to reduce bias measured by NLI.However, learning and removing a gender direction fromthe non-contextual part of the representation (the ﬁrst layer
+in ELMo, and subword embeddings in BERT), can reduceNLI-measured gender bias. Yet, this approach is ineffectiveor inapplicable for religion or nationality.
+Measuring Bias with Inference
+Our construction of a bias measure uses the NLI task, whichhas been widely studied in NLP , starting with the PAS-CAL RTE challenges (Dagan, Glickman, and Magnini 2006;Dagan et al. 2013). More recently, research in this task hasbeen revitalized by large labeled corpora such as the Stan-ford NLI corpus (SNLI; (Bowman et al. 2015)).
+The motivating principle of NLI is that inferring rela-
+tionships between sentences is a surrogate for the ability toreason about text. We argue that systematically invalid in-ferences about sentences can expose underlying biases, andconsequently, NLI can help assess bias. We will describe thisprocess using how gender biases affect inferences related to
+occupations. Afterwards, we will extend the approach to po-larized inferences related to nationalities and religions.
+Experimental Setup
+We use GloV e to study static word embeddings and ELMoand BERT for contextualized ones. Our NLI models forGloV e and ELMo are based on the decomposable attentionmodel (Parikh et al. 2016) with a BiLSTM encoder insteadof the original projective one (Cheng, Dong, and Lapata2016). We used the GloV e vectors pretrained on the commoncrawl dataset with dimension 300. For ELMo, as is standard,
+we ﬁrst linearly interpolate the three layers of embeddingsbefore the LSTM encoder. We use BERTBASE, and follow
+the NLI setup in the original work. Speciﬁcally, our ﬁnal pre-dictor is a linear classiﬁer over the embeddings of the ﬁrsttoken in the input (i.e, [CLS] ). Our models are trained on
+the SNLI training set.
+The extended version of this paper
+1lists further hyper-
+parameters and network details.
+Occupations and Genders
+Consider the following three sentences:
+(6) The accountant ate a bagel.
+(7) The man ate a bagel.(8) The woman ate a bagel.
+The sentence (6) should neither entail nor contradict the sen-
+tences (7) and (8): we do not know the gender of the accoun-tant. For these, and many other sentence pairs, the correctlabel should be neutral, with prediction probabilities E: 0,N: 1, C: 0. But a gender-biased representation of the wordaccountant may lead to a non-neutral prediction. We ex-
+pand these anecdotal examples by automatically generatinga large set of entailment tests by populating a template con-structed using subject, verb and object ﬁllers. All our tem-plates are of the form:
+The subject verb a/an object .
+Here, we use a set of common activities for the verb and ob-
+ject slots, such as ate a bagel ,bought a car , etc. For the
+same verb and object , we construct an entailment pair us-
+ing subject ﬁllers from sets of words. For example, to assessgender bias associated with occupations, the premise of theentailment pair would be an occupation word, while the hy-
+pothesis would be a gendered word. The extended version
+of the paper has all the word lists we use in our experiments.
+Only the subject changes between the premise and the
+hypothesis in any pair. Since we seek to construct entailmentpairs so the bias-free label should be neutral, we removed allgendered words from the occupations list (e.g., nun ,sales-
+man and saleswoman ). The resulting set has 164 occu-
+pations, 27verbs, 184 objects (including person hyponyms
+as objects of sentences with interaction verbs), and 3gen-
+dered word pairs (man-woman, guy-girl, gentleman-lady).Expanding these templates gives us over 2,000,000 entail-
+ment pairs, allof which we expect are neutral. The extended
+1https://arxiv.org/abs/1908.09369
+7660version has the word lists, templates and other experimental
+details; the code for template generation and experimental
+setup is also online2.
+Measuring Bias via Invalid Inferences
+Suppose we have a large collection of Mentailment pairs
+Sconstructed by populating templates as described above.
+Since each sentence pair si∈Sshould be inherently neu-
+tral, we can deﬁne bias as deviation from neutrality. Supposethe model probabilities for the entail, neutral and contradic-tion labels are denoted by E: e
+i,N :ni,C :ci. We deﬁne three
+different measures for how far they are from neutral:
+1.Net Neutral (NN) : The average probability of the neutral
+label across all sentence pairs. NN =1
+M/summationtextM
+i=1ni.
+2.Fraction Neutral (FN) : The fraction of sentence pairs la-
+beled neutral. FN =1
+M/summationtextM
+i=11[ni=m a x{ei,ni,ci}],
+where 1[·]is an indicator.
+3.Threshold: τ(T:τ): A parameterized measure that re-
+ports the fraction of examples whose probability of neu-tral above τ: we report this for τ=0.5andτ=0.7.
+In the ideal (i.e., bias-free) case, all three measures will take
+the value 1.
+Embedding NN FN T: 0.5 T:0.7
+GloV e 0.387 0.394 0.324 0.114
+ELMo 0.417 0.391 0.303 0.063
+BERT 0.421 0.397 0.374 0.209
+Table 1: Gender-occupation neutrality scores, for models us-ing GloV e, ELMo, and BERT embeddings.
+Table 1 shows the scores for models built with GloV e,
+ELMo and BERT embeddings. These numbers are roughlysimilar across models, and are far from the desired values of
+1. This demonstrates gender bias in both static and contex-
+tualized embeddings. Table 2 shows template ﬁllers with thelargest non-neutral probabilities for GloV e.
+occ. verb obj. gen. ent. cont.
+banker spoke to crew man 0.98 0.01
+nurse can afford wagon lady 0.98 0.00
+librarian spoke to consul woman 0.98 0.00
+secretary budgeted for laptop gentleman 0.00 0.99
+violinist budgeted for meal gentleman 0.00 0.98
+mechanic can afford pig lady 0.00 0.98
+Table 2: Gendered template parameters with largest entail-
+ment and contradiction values with the GloV e model.
+Nationality and Religion
+We can generate similar evaluations to measure bias relatedto religions and nationalities. Since the associated subspacesare not easily deﬁned by term pairs, we use a class of 32
+words DemonymsTest(e.g., French ) to represent people
+2https://github.com/sunipa/On-Measuring-and-Mitigating-
+Biased-Inferences-of-Word-Embeddingsfrom various nationalities. Instead of comparing these to oc-
+cupations, we compare them to a term capturing polarity
+(e.g., evil,good ) from a Polarity set with 26words, again in
+the extended version of the paper.
+Using the verb-object ﬁllers as before (e.g., crashed a
+car), we create sentence pairs such as
+(9) The evil person crashed acar.
+(10) The French person crashed acar.
+For a demonym d∈DemonymTest, a polarity term p∈
+Polarity , a verbv∈Verbs and an object o∈Objects ,w e
+generate a sentence pair as
+(11) The ppersonva/ano.
+(12) The dpersonva/ano.
+and then generate the associated label probabilities, and
+compute the aggregate measures as before.
+Embedding NN FN T: 0.5 T:0.7
+GloV e 0.713 0.760 0.776 0.654
+ELMo 0.698 0.776 0.757 0.597
+Table 3: Demonym-polarity neutrality scores, for models us-ing GloV e and ELMo embeddings.
+Expanding all nationality templates provides 26·27·95·
+32 = 2,134,080 entailment pairs. Table 3 shows that for
+both GloV e and ELMo
+3, the Net Neutral, Fraction Neutral,
+and Threshold (at 0.5 or 0.7) scores are between about 0.6
+and0.8. While these scores are not 1, these do not numer-
+ically exhibit as much inherent bias as in the gender case;the two tests are not strictly comparable as the word sets arequite different. Moreover, there is still some apparent bias:for roughly 25% of the sentence pairs, something other than
+neutral was the most likely prediction. The ones with largestnon-neutral probabilities are shown in Table 4.
+polar verb obj. dem. ent. cont.
+unprofessional traded brownie Ukrainian 0.97 0.00
+great can afford wagon Qatari 0.97 0.00
+professional budgeted auto Qatari 0.97 0.01
+evil owns oven Canadian 0.04 0.95
+evil owns phone Canadian 0.04 0.94
+smart loved urchin Canadian 0.07 0.92
+Table 4: Nationality template parameters with largest entail-
+ment and contradiction values with the GloV e model.
+A similar set up is used to measure the bias associated
+with Religions. We use a word list of 17 adherents to re-ligions AdherentTestsuch as Catholic to create sentences
+like
+(13) The Catholic person crashed acar.
+to be the paired hypothesis with sentence (9). For each ad-
+herenth∈AdherentTest, a polarity term p∈Polarity , verb
+v∈Verbs and object o∈Objects , we generate a sentence
+pair in the form of sentence (11) and
+3Due to space constraints, for nationality and religion, we will
+focus on GloV e and ELMo embeddings. As we will see later, BERT
+presents technical challenges for attenuating these biases.
+7661(14) The hpersonva/ano.
+We aggregated the predictions under our measures as be-
+fore. Expanding all religious templates provides 26·27·95·
+17 = 1,133,730 entailment pairs. The results for GloV e- and
+ELMo-based inference are shown in Table 5. We observea similar pattern as with Nationality, with about 25% of
+the sentence pairs being inferred as non-neutral; the largestnon-neutral template expansions are in Table 6. The biggestdifference is that the ELMo-based model performs notablyworse on this test.
+Embedding NN FN T: 0.5 T:0.7
+GloV e 0.710 0.765 0.785 0.636
+ELMo 0.635 0.651 0.700 0.524
+Table 5: Religion-polarity neutrality scores, for models us-ing GloV e and ELMo embeddings.
+polar verb obj. adh. ent. cont.
+dishonest sold calf satanist 0.98 0.01
+dishonest swapped cap Muslim 0.97 0.01
+ignorant hated owner Muslim 0.97 0.00
+smart saved dresser Sunni 0.01 0.98
+humorless saved potato Rastafarian 0.02 0.97
+terrible saved lunch Scientologist 0.00 0.97
+Table 6: Religion template parameters with largest entail-
+ment and contradiction values with the GloV e model.
+Attenuating Bias in Static Embeddings
+We saw above that several kinds of biases exist in static em-beddings (speciﬁcally GloV e). We can to some extent at-tenuate it. For the case of gender, this comports with theeffectiveness of debiasing on previously studied intrinsicmeasures of bias (Bolukbasi et al. 2016; Dev and Phillips2019). We focus on the simple projection operator (Dev and
+Phillips 2019) which simply identiﬁes a subspace associatedwith a concept hypothesized to carry bias, and then removesthat subspace from allword representations. Not only is this
+approach simple and outperforms other approaches on in-trinsic measures (Dev and Phillips 2019), it also does nothave the potential to leave residual information among as-sociated words (Gonen and Goldberg 2019) unlike hard de-biasing (Bolukbasi et al. 2016). There are also retraining-based mechanisms (e.g., (Zhao et al. 2018)), but given thatbuilding word embeddings can be prohibitively expensive,we focus on the much simpler post-hoc modiﬁcations.
+Bias Subspace
+For the gender direction, we identify a bias subspace usingonly the embedding of the words heandshe . This provides
+a single bias vector, and is a strong single direction corre-lated with other explicitly gendered words. Its cosine simi-larity with the two-means vector from Names used in (Dev
+and Phillips 2019) is 0.80and with Gendered word pairs
+from (Bolukbasi et al. 2016) is 0.76.
+For nationality and religion, the associated directions are
+present and have similar traits to the gendered one (Table7), but are not quite as simple to work with. For national-
+ities, we identify a separate set of 8demonyms than those
+used to create sentence pairs as DemonymTrain, and use
+their ﬁrst principal component to deﬁne a 1-dimensional de-
+monym subspace. For religions, we similarly use a Adher-
+entTrainset, again of size 8, but use the ﬁrst 2principal
+components to deﬁne a 2-dimensional religion subspace. In
+both cases, these were randomly divided from full sets De-
+monym and Adherent . Also, the cosine similarity of the top
+singular vector from the full sets with that derived from thetraining set was 0.56and0.72for demonyms and adherents,
+respectively. Again, there is a clear correlation, but perhapsslightly less deﬁnitive than gender.
+Embedding 2nd 3rd 4th cosine
+Gendered 0.57 0.39 0.24 0.76
+Demonyms 0.45 0.39 0.30 0.56
+Adherents 0.71 0.59 0.4 0.72
+Table 7: Fraction of the top principal value with the xth prin-
+cipal value with the GloV e embedding for Gendered ,De-
+monym , and Adherent datasets. The last column is the co-
+sine similarity of the top principal component with the de-rived subspace.
+Results of Bias Projection
+By removing these derived subspaces from GloV e, wedemonstrate signiﬁcant decrease in bias. Let us start withgender, where we removed the he-she direction, and then
+recomputed the various bias scores. Table 8 shows these re-sults, as well as the effect of projecting a random vector (av-eraged over 8 such vectors), along with the percent changefrom the original GloV e scores. We see that the scores in-crease between 25% and160% which is quite signiﬁcant
+compared to the effect of random vectors which range fromdecreasing 6% to increasing by 3.5%.
+Gender (GloV e)
+NN FN T: 0.5 T:0.7
+proj 0.480 0.519 0.474 0.297
+diff +24.7% +31.7% +41.9% +160.5%
+rand 0.362 0.405 0.323 0.118
+diff -6.0% +2.8% -0.3% +3.5%
+Table 8: Effect of attenuating gender bias using the he-she
+vector, and random vectors with difference (diff) from noattenuation.
+For the learned demonym subspace, the effects are shown
+in Table 9. Again, all the neutrality measures are increased,but more mildly. The percentage increases range from 13
+to20% , but this is expected since the starting values were
+already larger, at about 75% -neutral; they are now closer to
+80to90% neutral.
+The results after removing the learned adherent subspace,
+as shown in Table 9 are quite similar as with demonyms. Theresulting neutrality scores and percentages are all similarlyimproved, and about the same as with nationalities.
+7662Nationality (GloV e)
+NN FN T: 0.5 T:0.7
+proj 0.808 0.887 0.910 0.784
+diff +13.3% +16.7% +17.3% +19.9%
+Religion (GloV e)
+NN FN T: 0.5 T:0.7
+proj 0.794 0.894 0.913 0.771
+diff +11.8% +16.8% +16.3% +21.2%
+Table 9: Effect of attenuating nationality bias using the De-
+monymTrain-derived vector, and religious bias using the
+AdherentTrain-derived vector, with difference (diff) from
+no attenuation.
+Moreover, the dev and test scores (Table 10) on the SNLI
+benchmark is 87.81and86.98before, and 88.14and87.20
+after the gender projection. So the scores actually improveslightly after this bias attenuation! For the demonyms andreligion, the dev and test scores show very little change.
+SNLI Accuracies (GloV e)
+orig -gen -nat -rel
+Dev 87.81 88.14 87.76 87.95
+Test 86.98 87.20 86.87 87.18
+Table 10: SNLI dev/test accuracies before debiasing GloV eembeddings (orig) and after debiasing gender, nationality,and religion.
+Attenuating Bias in Contextualized
+Embeddings
+Unlike GloV e, ELMo and BERT are context-aware dy-
+namic embeddings that are computed using multi-layer en-coder modules over the sentence. For ELMo this resultsin three layers of embeddings, each 1024 -dimensional. The
+ﬁrst layer—a character-based model—is essentially a staticword embedding and all three are interpolated as word rep-resentations for the NLI model. Similarity, BERT (the baseversion) has 12-layer contextualized embeddings, each 768-
+dimensional. Its input embeddings are also static. We ﬁrst
+investigate how to address these issues on ELMo, and then
+extend it to BERT which has the additional challenge thatthe base layer only embeds representations for subwords.
+ELMo All Layer Projection: Gender
+Our ﬁrst attempt at attenuating bias is by directly replicatingthe projection procedure where we learn a bias subspace,and remove it from the embedding. The ﬁrst challenge is thateach time a word appears, the context is different, and thusits embedding in each layer of a contextualized embeddingis different.
+However, we can embed the 1M sentences in a representa-
+tive training corpus WikiSplit
+4, and average embeddings of
+word types. This averages out contextual information and in-correctly blends senses; but this process does not re-position
+4https://github.com/google-research-datasets/wiki-splitthese words. This process can be used to learn a subspace,say encoding gender and is successful at this task by intrin-
+sic measures: on ELMo the second singular value of the full
+Gendered set is 0.46for layer 1, 0.36for layer 2, and 0.47
+for layer 3, all sharp drops.
+Once this subspace is identiﬁed, we can then apply
+the projection operation onto each layer individually. Eventhough the embedding is contextual, this operation makessense since it is applied to all words; it just modiﬁes theELMo embedding of any word (even ones unseen before orin new context) by ﬁrst applying the original ELMo mecha-nism, and then projecting afterwards.
+However, this does not signiﬁcantly change the neutrality
+on gender speciﬁc inference task. Compared to the origi-nal results in Table 1 the change, as shown in Table 11 isnot more, and often less than, projecting along a random di-rection (averaged over 4 random directions). We concludethat despite the easy-to-deﬁne gender direction, this mech-anism is not effective in attenuating bias as deﬁned by NLItasks. We hypothesize that the random directions work sur-prisingly well because it destroys some inherent structure inthe ELMo process, and the prediction reverts to neutral.
+Gender (ELMo All Layers)
+NN FN T: 0.5 T:0.7
+proj 0.423 0.419 0.363 0.079
+diff +1.6% + 7.2% + 19.8% + 25.4%
+rand 0.428 0.412 0.372 0.115
+diff +2.9% +5.4% +22.8% +82.5%
+Table 11: Effect of attenuating gender bias on all layers of
+ELMo and with random vectors with difference (diff) fromno attenuation.
+ELMo Layer 1 Projection: Gender
+Next, we show how to signiﬁcantly attenuate gender bias inELMo embeddings: we invoke the projection mechanism,but only on layer 1. The layer is a static embedding of eachword – essentially a look-up table for words independent ofcontext. Thus, as with GloV e we can ﬁnd a strong subspacefor gender using only the he-she vector. Table 12 shows the
+stability of the subspaces on the ELMo layer 1 embeddingfor Gendered and also Demonyms and Adherents ; note
+this fairly closely matches the table for GloV e, with someminor trade-offs between decay and cosine values.
+Once this subspace is identiﬁed, we apply the projection
+operation on the resulting layer 1 of ELMo. We do this be-
+fore the BiLSTMs in ELMo generates the layers 2 and 3.
+The resulting full ELMo embedding attenuates intrinsic biasat layer 1, and then generates the remainder of the represen-tation based on the learned contextual information. We ﬁndthat perhaps surprisingly when applied to the gender spe-ciﬁc inference tasks, that this indeed increases neutrality inthe predictions, and hence attenuates bias.
+Table 13 shows that each measure of neutrality is sig-
+niﬁcantly increased by this operation, whereas the projec-tion on a random vector (averaged over 8 trials) is within3% change, some negative, some positive. For instance, the
+7663Embedding 2nd 3rd 4th cosine
+Gendered 0.46 0.32 0.29 0.60
+Demonyms 0.72 0.61 0.59 0.67
+Adherents 0.63 0.61 0.58 0.41
+Table 12: Fraction of the top principal value with the xth
+principal value with the ELMo layer 1 embedding for Gen-
+dered ,Demonym , and Adherent datasets. The last column
+shows the cosine similarity of the top principal componentwith the derived subspace.
+probability of predicting neutral is now over 0.5, an increase
+of+28.4%, and the fraction of examples with neutral prob-
+ability>0.7increased from 0.063 (in Table 1) to 0.364
+(nearly a 500% increase).
+Gender (ELMo Layer 1)
+NN FN T: 0.5 T:0.7
+proj 0.488 0.502 0.479 0.364
+diff +17.3% +28.4% +58.1% +477.8%
+rand 0.414 0.402 0.309 0.062
+diff -0.5% +2.8% +2.0% -2.6%
+Table 13: Effect of attenuating gender bias on layer 1 of
+ELMo with he-she vectors and random vectors with dif-
+ference (diff) from no attenuation.
+ELMo Layer 1 Projection: Nationality & Religion
+We next attempt to apply the same mechanism (projectionon layer 1 of ELMo) to the subspaces associated with na-tionality and religions, but we ﬁnd that this is not effective.
+The results of the aggregate neutrality of the national-
+ity and religion speciﬁc inference tasks are shown in Table14, respectively. The neutrality actually decreases when thismechanism is used. This negative result indicates that sim-ply reducing the nationality or religion information from theﬁrst layer of ELMo does not help in attenuating the associ-ated bias on inference tasks on the resulting full model.
+Nationality (ELMo Layer 1)
+NN FN T: 0.5 T:0.7
+proj 0.624 0.745 0.697 0.484
+diff -10.7% -4.0% -7.9% -18.9%
+Religion (ELMo Layer 1)
+NN FN T: 0.5 T:0.7
+proj 0.551 0.572 0.590 0.391
+diff -13.2% -12.1% -15.7% -25.4%
+Table 14: Effect of attenuating nationality bias on layer 1
+of ELMo with the demonym direction, and religious bias
+with the adherents direction, with difference (diff) from no
+attenuation.
+We have several hypotheses for why this does not work.
+Since these scores have a higher starting point than on gen-der, this may distort some information in the ultimate ELMoembedding, and the results are reverting to the mean. Al-ternatively, layers 2 and 3 of ELMo may be (re-)introducingGender (BERT)
+NN FN T: 0.5 T:0.7
+no proj 0.421 0.397 0.374 0.209
+proj@test 0.396 0.371 0.341 0.167
+diff -5.9% -6.5% -8.8% -20%
+rand@test 0.398 0.388 0.328 0.201
+diff -5.4% -2.3% -12.3% -3.8%
+proj@train/test 0.516 0.526 0.501 0.354
+diff +22.6% +32.4% +33.9% +69.4%
+rand 0.338 0.296 0.253 0.168
+diff -19.7% -25.4% -32.6% -19.6%
+Table 15: The effect of attenuating gender bias on subword
+embeddings in BERT with the he-she direction and random
+vectors with difference (diff) from no attenuation.
+bias into the ﬁnal word representations from the context, and
+this effect is more pronounced for nationality and religionsthan gender.
+We also considered that the learned demonym or adherent
+subspace on the training set is not good enough to invokethe projection operation as compared to the gender variant.However, we tested a variety of other ways to deﬁne thissubspace, including using country and religion names (asopposed to demonyms and adherents) to learn the national-ity and religion subspaces, respectively. This method is sup-ported by the linear relationships between analogies encodedshown by static word embeddings (Mikolov et al. 2013).While in a subset of measures this did slightly better thanusing a separate training and test set for just the demonymsand adherents, it does not have more neutrality than the orig-inal embedding. Even training the subspace and evaluating
+on the full set of Demonyms and Adherents does not in-
+crease the measured aggregate neutrality scores.
+BERT Subword Projection
+We next extend the debiasing insights learned on ELMo andapply them to BERT (Devlin et al. 2019). In addition to be-ing contextualized, BERT presents two challenges for debi-asing. First, unlike ELMo, BERT operates upon subwords(e.g, ko,–sov , and –ar instead of the word Kosovar ). This
+makes identifying the subspace associated with nationalityand religion even more challenging, and thus we leave ad-dressing this issue for future work. However, for gender,
+the simple pair heand she are each subwords, and can be
+used to identify a gender subspace in the embedding layerof BERT, and this is the only layer we apply the projectionoperation. Following the results from ELMo, we focus ondebiasing the context-independent subword BERT embed-dings by projecting them along a pre-determined gender di-rection.
+A second challenge concerns when the debiasing step
+should be applied. Pre-trained BERT embeddings are typi-cally treated as an initialization for a subsequent ﬁne-tuningstep that adapts the learned representations to a downstreamtask (e.g., NLI). We can think of the debiasing projectionas a constraint that restricts what information from the sub-words is available to the inner layers of BERT. Seen thisway, two options naturally present themselves for when the
+7664debiasing operation is to be performed. We can either (1)
+ﬁne-tune the NLI model without debiasing and impose the
+debiasing constraint only at test time, or, (2) apply debiasing
+both when the model is ﬁne-tuned, and also at test time.
+Our evaluation, shown in Table 15, show that method
+(1) (debias@test) is ineffective at debiasing with genderas measured using NLI; however, that method (2) (de-bias@train/test) is effective at reducing bias. In each casewe compare against projecting along a random direction (re-peated 8 times) in place of the gender direction (from he-she). These each have negligible effect, so these improve-ments are signiﬁcant. Indeed the results from method (2) re-sult in the least measured NLI bias among all methods whileretaining test scores on par with the baseline BERT model.
+Discussions, Related works & Next Steps
+Glove vs. ELMo vs. BERT While the mechanisms for
+attenuating bias of ELMo were not universally success-ful, they were always successful on GloV e. Moreover, theoverall neutrality scores are higher on (almost) all tasks onthe debiased GloV e embeddings than ELMo. Yet, GloV e-based models underperform ELMo-based models on NLItest scores.
+Table 16 summarizes the dev and test scores for ELMo.
+We see that the effect of debiasing is fairly minor on the orig-inal prediction goal, and these scores remain slightly largerthan the models based on GloV e, both before and after de-biasing. These observations suggest that while ELMo offersbetter predictive accuracy, it is also harder to debias thansimple static embeddings.
+SNLI Accuracies (ELMo)
+orig -gen(all) -gen(1) -nat(1) -rel(1)
+Dev 89.03 88.36 88.77 89.01 89.04
+Test 88.37 87.42 88.04 87.99 88.30
+Table 16: SNLI dev/test accuracies before debiasing ELMo
+(orig) and after debiasing gender on all layers and layer 1,debiasing nationality and religions on layer 1.
+Overall, on gender, however, BERT provides the best dev
+and test scores ( 90.70and90.23) while also achieving the
+highest neutrality scores, see in Table 17. Recall we did notconsider nationalities and religions with BERT because welack a method to deﬁne associated subspaces to project.
+Gender (Best)
+NN FN T: 0.5 T:0.7 dev test
+GloV e 0.480 0.519 0.474 0.297 88.14 87.20
+ELMo 0.488 0.502 0.479 0.364 88.77 88.04
+BERT 0.516 0.526 0.501 0.354 90.70 90.23
+Table 17: Best effects of attenuating gender bias for eachembedding type. The dev and test scores for BERT beforedebiasing are 90.30and90.22respectively.
+Further resolution of models and examples. Beyond
+simply measuring the error in aggregate over all templates,and listing individual examples, there are various interesting
+intermediate resolutions of bias that can be measured. We
+can, for instance, restrict to all nationality templates which
+involve rude∈Polarity and Iraqi∈Demonym , and mea-
+sure their average entailment: in the GloV e model it starts as99.3average entailment, and drops to 62.9entailment after
+the projection of the demonym subspace.
+Sources of bias. Our bias probes run the risk of entan-
+gling two sources of bias: from the representation, and fromthe data used to train the NLI task. (Rudinger, May, andV an Durme 2017), (Gururangan et al. 2018) and referencestherein point out that the mechanism for gathering the SNLIdata allows various stereotypes (gender, age, race, etc.) andannotation artifacts to seep into the data. What is the sourceof the non-neutral inferences? The observation from GloV ethat the three bias measures can increase by attenuationstrategies that only transform the word embeddings indicates
+that any bias that may have been removed is from the word
+embeddings. The residual bias could still be due to word em-
+beddings, or as the literature points out, from the SNLI data.Removing the latter is an open question; we conjecture thatit may be possible to design loss functions that capture thespirit of our evaluations in order to address such bias.
+Relation to error in models. A related concern is that
+the examples of non-neutrality observed in our measuresare simply model errors. We argue this is not so for sev-eral reasons. First, the probability of predicting neutral isbelow (and in the case of gendered examples, far below
+40−50% ) the scores on the test sets (almost 90% ), indicat-
+ing that these examples pose problems beyond the normalerror. Also, through the projection of random directions inthe embedding models, we are essentially measuring a typeof random perturbations to the models themselves; the re-sult of this perturbation is fairly insigniﬁcant, indicating thatthese effects are real.
+Biases as invalid inferences. We use NLI to measure bias
+in word embeddings. The deﬁnition of the NLI task lendsitself naturally to identifying biases. Indeed, the ease withwhich we can reduce other reasoning tasks to textual entail-ment was a key motivation for the various PASCAL entail-ment challenges ((Dagan, Glickman, and Magnini 2006), in-
+ter alia ). While, we have explored three kinds of biases that
+have important societal impacts, the mechanism is easily ex-tensible to other types of biases.
+Relation to coreference resolution as a measure of bias.
+Coreference resolution, especially pronoun coreference, has
+been recently used as an extrinsic probe to measure bias
+in representations (e.g., (Rudinger et al. 2018), (Zhao et al.2019), (Webster et al. 2018)). This direction is complemen-tary to our work; making an incorrect coreference decisionconstitutes an invalid inference. However, coreference res-olution may be a difﬁcult probe to realize because the taskitself is considered to be an uphill challenge in NLP . Yet,
+7665we believe that these two tasks can supplement each other to
+provide a more robust evaluation metric for bias.
+Conclusion
+In this paper, we use the observation that biased represen-tations lead to biased inferences to construct a systematicprobe for measuring biases in word representations usingthe task of natural language inference. Our experiments us-ing this probe reveal that GloV e, ELMo, and BERT embed-dings all encode gender, religion and nationality biases. Weexplore the use of a projection-based method for attenuat-ing biases. Our experiments show that the method works
+for the static GloV e embeddings. We extend the approach tocontextualized embeddings (ELMo, BERT) by debiasing theﬁrst (non-contextual) layer alone and show that for the well-characterized gender direction, this simple approach can ef-fectively attenuate bias in both contextualized embeddingswithout loss of entailment accuracy.
+Acknowledgments
+Thanks to NSF CCF-1350888, ACI-1443046, CNS-1514520, CNS-1564287, and IIS-1816149, and SaTC-1801446, Cyberlearning-1822877 and a generous gift fromGoogle.
+References
+Bolukbasi, T.; Chang, K. W.; Zou, J.; Saligrama, V .; and
+Kalai, A. 2016. Man is to computer programmer as womanis to homemaker? debiasing word embeddings. In ACM
+Transactions of Information Systems .
+Bowman, S. R.; Angeli, G.; Potts, C.; and Manning, C. D.
+2015. A large annotated corpus for learning natural languageinference. In EMNLP .
+Caliskan, A.; Bryson, J. J.; and Narayanan, A. 2017. Se-
+mantics derived automatically from language corpora con-tain human-like biases. Science 356(6334):183–186.
+Cheng, J.; Dong, L.; and Lapata, M. 2016. Long short-term
+memory-networks for machine reading. In EMNLP , 551–
+561.
+Dagan, I.; Roth, D.; Sammons, M.; and Zanzotto, F. M.
+2013. Recognizing textual entailment: Models and appli-
+cations. volume 6, 1–220.
+Dagan, I.; Glickman, O.; and Magnini, B. 2006. The PAS-
+CAL Recognising textual entailment challenge. 177–190.
+Dev, S., and Phillips, J. 2019. Attenuating bias in word
+vectors. In AISTATS , Proceedings of Machine Learning Re-
+search, 879–887. PMLR.
+Devlin, J.; Chang, M.; Lee, K.; and Toutanova, K. 2019.
+BERT: pre-training of deep bidirectional transformers forlanguage understanding. In Proceedings of NAACL-HLT
+2019 , 4171–4186.
+Gonen, H., and Goldberg, Y . 2019. Lipstick on a pig: Debi-
+asing methods cover up systematic gender biases in wordembeddings but do not remove them. In Proceedings of
+NAACL-HLT 2019 , 609–614. Association for Computa-
+tional Linguistics.Gururangan, S.; Swayamdipta, S.; Levy, O.; Schwartz, R.;
+Bowman, S.; and Smith, N. A. 2018. Annotation artifacts innatural language inference data. In NAACL , 107–112.
+Manzini, T.; Yao Chong, L.; Black, A. W.; and Tsvetkov, Y .
+2019. Black is to criminal as caucasian is to police: Detect-ing and removing multiclass bias in word embeddings. InProceedings of the 2019 Conference of the North AmericanChapter of the Association for Computational Linguistics:Human Language Technologies, V olume 1 (Long and ShortPapers) , 615–621. Minneapolis, Minnesota: Association for
+Computational Linguistics.
+Mikolov, T.; Sutskever, I.; Chen, K.; Corrado, G.; and Dean,
+J. 2013. Distributed representations of words and phrasesand their compositionality. In NIPS , 3111–3119.
+Parikh, A.; T ¨ackstr ¨om, O.; Das, D.; and Uszkoreit, J. 2016.
+A decomposable attention model for natural language infer-ence. In EMNLP , 2249–2255.
+Pennington, J.; Socher, R.; and Manning, C. D. 2014. Glove:
+Global vectors for word representation. In EMNLP .
+Peters, M. E.; Neumann, M.; Iyyer, M.; Gardner, M.; Clark,
+C.; Lee, K.; and Zettlemoyer, L. 2018. Deep contextualizedword representations. In Proc. of NAACL .
+Rudinger, R.; Naradowsky, J.; Leonard, B.; and V an Durme,
+B. 2018. Gender bias in coreference resolution. In NAACL ,
+8–14.
+Rudinger, R.; May, C.; and V an Durme, B. 2017. Social bias
+in Elicited Natural Language Inferences. In Proceedings of
+the First ACL Workshop on Ethics in Natural Language Pro-cessing , 74–79.
+Seo, M.; Kembhavi, A.; Farhadi, A.; and Hajishirzi, H.
+2017. Bidirectional attention ﬂow for machine comprehen-sion. ICLR .
+Sweeney, C., and Najaﬁan, M. 2019. A Transparent Frame-
+work for Evaluating Unintended Demographic Bias in WordEmbeddings. In Proceedings of the 57th Annual Meeting of
+the Association for Computational Linguistics , 1662–1667.
+Florence, Italy: Association for Computational Linguistics.
+Webster, K.; Recasens, M.; Axelrod, V .; and Baldridge, J.
+2018. Mind the GAP: A balanced corpus of gendered am-biguous pronouns. volume 6, 605–617.
+Zhao, J.; Wang, T.; Yatskar, M.; Ordonez, V .; and Chang,
+K.-W. 2017. Men also like shopping: Reducing gender bias
+ampliﬁcation using corpus-level constraints. Proceedings of
+the EMNLP 2017 .
+Zhao, J.; Zhou, Y .; Li, Z.; Wang, W.; and Chang, K.-W.
+2018. Learning gender-neutral word embeddings. In Pro-
+ceedings of EMNLP 2018 , 4847–4853. Association for
+Computational Linguistics.
+Zhao, J.; Wang, T.; Yatskar, M.; Cotterell, R.; Ordonez, V .;and Chang, K.-W. 2019. Gender Bias in ContextualizedWord Embeddings. In Proceedings of NAACL-HLT 2019 ,
+629–634. Association for Computational Linguistics.
+7666

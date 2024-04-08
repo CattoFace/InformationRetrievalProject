@@ -1,0 +1,1087 @@
+ 
+
+Data Collection Mode and Social Desirability Bias in Self-Reported Religious Attendance
+Author(s): Stanley Presser and Linda Stinson
+Source: American Sociological Review, Feb., 1998, Vol. 63, No. 1 (Feb., 1998), pp. 137-145
+
+Published by: American Sociological Association
+
+ 
+
+ 
+
+ 
+
+Stable URL: lhttps://www.jstor.org/stable/2657484
+
+ 
+
+ 
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+American Sociological Association is collaborating with JSTOR to digitize, preserve and extend
+access to American Sociological Review
+
+ 
+
+JSTOR
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+ 
+
+SELF-REPORTED RELIGIOUS ATTENDANCE*
+
+DATA COLLECTION MODE AND SOCIAL DESIRABILITY BIAS IN
+
+ 
+
+Linda Stinson
+Bureau of Labor Statistics
+
+Stanley Presser
+University of Maryland
+
+Compared to conventional interviewer-administered questions about atten-
+dance at religious services, self-administered items and time-use items
+should minimize social desirability pressures. In fact, they each reduce
+claims of weekly religious attendance by about one-third. This difference in
+measurement approach does not generally affect associations between atten-
+dance and demographic characteristics. It does, however, alter the observed
+trend in religious attendance over time: In contrast to the almost constant
+attendance rate recorded by conventional interviewer-administered items,
+approaches minimizing social desirability bias reveal that weekly attendance
+has declined continuously over the past three decades. These results provide
+support for the hypothesis that America has become more secularized, and
+they demonstrate the role of mode of administration in reducing measure-
+
+ment error.
+
+Hee Marler, and Chaves (1993)
+question the accuracy of self-reported
+religious attendance, “the classic measure of
+religious participation” (Greeley 1989:42).
+They found that church attendance counts for
+18 Catholic dioceses and for Protestant
+churches in one Ohio county were only half
+the level reported in surveys. This led them
+to speculate that survey results showing sta-
+bility of religious attendance over the past 50
+years (Greeley 1989) might be wrong if re-
+porting error varied over time. Moreover, if
+
+“Direct correspondence to Stanley Presser, So-
+ciology Department, University of Maryland,
+College Park MD 20742 (spresser@bssl.umd.
+edu). We are grateful to Patrick O’Malley for
+generously providing tabulations from Monitor-
+ing the Future and Youth in Transition, to John
+Robinson for making available the 1986 time-use
+data, to Jacob Ludwig for providing information
+about the Gallup Youth Survey, to Timothy
+Triplett for assistance with the analysis, and to
+John Robinson, Howard Schuman, Tom Smith,
+and participants in seminars at the Joint Program
+in Survey Methodology, Social and Community
+Planning Research, and the Maryland Sociology
+Department’s Social Psychology Program for re-
+actions to earlier versions (one of which was also
+presented at the 1996 meeting of the American
+Association for Public Opinion Research, Salt
+Lake City, Utah).
+
+misreporting varied by social status (e.g., age
+and sex), conclusions about who attends re-
+ligious services would also be called into
+question.
+
+Interpreting Hadaway et al.’s (1993) results
+as stemming from respondent misreporting is
+consistent with record-checks of other so-
+cially approved behaviors such as voting and
+contributing to charities (Parry and Crossley
+1950; Presser and Traugott 1992). Yet dis-
+parities between church attendance counts
+and survey results could also be caused by a
+combination of inaccuracies in the counts
+and nonresponse and coverage error in the
+surveys (Woodberry 1997). The research on
+misreporting of religious attendance that we
+present here is largely free of these compli-
+cations.
+
+Responding to survey questions about be-
+havior consists of three stages: comprehend-
+ing the question, recalling the past, and re-
+porting an answer. Error may occur at each
+stage. Memory lapses can affect the recall
+stage. Social desirability pressures, leading
+to an unwillingness to admit to not having
+acted in a socially approved manner, can af-
+fect the reporting stage. Social desirability
+bias is enhanced when responses are made
+directly to an interviewer (Tourangeau and
+Smith 1996). Hence, using self-administered
+surveys is a method of dealing with this
+
+ 
+
+American Sociological Review, 1998, Vol. 63 (February: 137-145) 137
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+138
+
+AMERICAN SOCIOLOGICAL REVIEW
+
+ 
+
+problem, and we employ it here as one way
+to assess misreporting.
+
+Reporting error may also be stimulated by
+misinterpretation at the comprehension stage.
+Por example, “Did you attend church?” might
+be interpreted to mean “Are you a good Chris-
+tian?” If misinterpretation is a factor, elimi-
+nating reporting error requires avoiding
+meanings other than the intended ones.
+
+Inquiring about time-use for a specific day
+does precisely that (Robinson 1977). Re-
+spondents asked to report everything they did
+yesterday (in chronological order) ought to
+mention attending religious services if they
+did so, but feel little pressure to report at-
+tending if they did not, as the question does
+not make religion salient. Moreover, asking
+about yesterday should minimize recall error.
+
+Our main time-use study was conducted
+from 1992 to 1994 for the Environmental
+Protection Agency (EPA) to assess exposure
+to pollution. It asked adults and children to
+report the things they did and places they
+went “yesterday.” We compare the level of
+religious attendance in this survey with that
+in Gallup and National Opinion Research
+Center (NORC) surveys from the same years.
+This comparison yields an estimate of the
+amount of misreporting to direct questions
+about religious attendance; it also allows us
+to examine the impact of misreporting on the
+correlates of attendance.
+
+We then look at the effect of misreporting
+on trends in religious attendance by drawing
+on prior time-use studies, prior Gallup and
+NORC surveys, and longitudinal surveys of
+young people (both interviewer-administered
+and self-administered surveys). Thus we can
+assess whether misreporting affects survey
+results about who attends religious services,
+and whether religious attendance has
+changed over time.
+
+CROSS-SECTIONAL ANALYSES
+
+The University of Maryland Survey Research
+Center (SRC) conducted over 9,000 time-use
+interviews for the EPA from September 1992
+through September 1994. Eight two-stage
+random digit dial (RDD) samples were
+drawn from the conterminous United States
+(one for each three-month period); a random
+respondent was selected within households
+and interviewed about “yesterday.” The over-
+
+all response rate was 65 percent (excluding
+nonresponse due to non—-English-speakers).
+Interviews were randomly assigned to week-
+day or weekend samples. The former were
+administered Tuesday through Saturday and
+the latter Sunday or Monday. For this paper,
+we use only interviews with adults ages 18
+and older that were conducted on Monday
+(asking about Sunday activities).!
+
+We compare results from the 1992-1994
+time-use item to those from direct items about
+religious service attendance asked by Gallup
+and NORC during the same period. One of
+the Gallup surveys was conducted March 12-
+14, 1993; the other June 25-28, 1994 (Gallup
+1993-1994). Both Gallup surveys used RDD
+samples from conterminous U.S. phone
+banks containing at least three published list-
+ings. Interviewers asked for the youngest man
+(18 or older) who was home, or if there was
+no such person the oldest woman (18 or
+older) who was home. We were unable to ob-
+tain response rates from Gallup.
+
+The 1993 and 1994 NORC General Social
+Surveys (GSS) involved face-to-face inter-
+views with randomly selected adults (18 or
+older) from multi-stage area household
+samples (Davis and Smith 1996). Interviews
+were conducted from February through April
+in both years, and response rates (omitting
+language problems) were 82 percent and 78
+percent. We exclude households without tele-
+phones to minimize differences between GSS
+and the SRC and Gallup surveys. Except for
+the inclusion of Alaska and Hawaii in the
+GSS sampling frame,’ the results we present
+from these surveys apply to the same popu-
+lation: English-speaking adults ages 18 and
+older in U.S. households with telephones.?
+
+! There are 1,442 adult interviews about Sun-
+day and 999 about Saturday. Except for religious
+attendance, Sunday cases are almost identical to
+the total weekend sample on the variables we ana-
+lyze.
+
+2 The handful of Alaska cases (there are none
+from Hawaii) cannot be deleted as they were
+drawn from (and thus represent) a stratum that
+included areas of the western United States in ad-
+dition to Alaska and Hawaii.
+
+3The GSS and SRC samples have similar pro-
+portions of women (57 percent), blacks (11 to 12
+percent), and midwesterners and southerners (58
+to 60 percent); but the corresponding Gallup fig-
+ures are about 5 percentage points lower. The
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+SOCIAL DESIRABILITY BIAS IN SELF-REPORTS OF RELIGIOUS ATTENDANCE 139
+
+ 
+
+Table t. Items Used to Measure Religious Attendance: Selected U.S. Surveys
+
+ 
+
+ 
+
+ 
+
+Survey Year Item Type Ttem
+
+GSS 1993 and 1994 Direct “How often do you attend religious services?” *
+
+Gallup 1993 and 1994a —— Direct “Did you, yourself, happen to attend church or synagogue in
+the last seven days, or not?”
+
+Gallup 1994b Direct “How often do you attend church or synagogue? At least
+once a week, almost every week, about once a month,
+seldom, or never?”
+
+SRC 1992-1994 Time-use “I would like to ask you about the things you did yesterday—
+
+from midnight Saturday to midnight last night. Let’s start
+with midnight Saturday. What were you doing? What time
+did you finish? Where were you? What did you do next?”*
+
+ 
+
+@[nterviewers coded responses into nine categories: (1) several times a week; (2) every week; (3) nearly
+every week; (4) 2 to 3 times a month; (5) about once a month; (6) several times a year; (7) about once or
+twice a year; (8) less than once a year; (9) never.
+
+> This question was asked immediately after the other Gallup item.
+
+© Responses to the question “What did you do next?” were assigned an activity code. We use responses
+coded in the “Religious Practice” category: Attending services of a church or synagogue, including partici-
+pating in the service; ushering; singing in the choir; leading youth group; going to church, funeral, baptism.
+Individual practice or religious practice carried out in a small group; praying, meditating, Bible study group,
+visiting graves, Bible reading.
+
+The correlation between the responses assigned by coders to the Religious Practice category and the
+interviewer-recorded answer “church” to the question “Where were you?” is .96. Of 1,442 cases, 18 re-
+ported religious activity somewhere other than at a church, and 6 reported nonreligious activity at a church.
+
+Measures
+
+The items that we used to measure religious
+service attendance are shown in Table 1. The
+SRC time-use item measures only Sunday
+religious attendance, whereas the direct
+items in the other surveys refer to attendance
+on all days of the week. We gauged the im-
+pact of this difference with a 1996 GSS
+item: “On what day or days did you attend
+religious services during the last seven
+days?” (Davis and Smith 1996). Less than 3
+percent of respondents did not mention Sun-
+day and claimed attendance on another day.
+Thus in making comparisons to the Gallup
+and GSS surveys, we increase the SRC
+
+ 
+
+education distributions for the Gallup and SRC
+samples are similar, but somewhat higher than
+GSS’s—Gallup and SRC have 10 to 13 percent
+with less than 12 years of school and 36 to 37
+percent with 12 years, compared to GSS’s 18 per-
+cent and 31 percent. All three samples have about
+the same percentage Hispanic (5 to 6). Finally,
+the SRC sample is slightly older than GSS’s and
+Gallup’s (20 percent over age 64 versus 17 to 18
+percent).
+
+1992-1994 time-use estimate by 3 percent-
+age points.
+
+The SRC survey and one of the Gallup
+items refer to “yesterday” or “the last seven
+days.” whereas the GSS and the other Gallup
+item ask about frequency of religious atten-
+dance in general. For comparability we as-
+signed probabilities of attendance to the fre-
+quencies. “Every week” or more was as-
+signed 1.0; “nearly” or “almost” every week,
+.75; “2. to 3 times a month,” .5; “about once a
+month,” .15; and all lesser frequencies, 0.
+Multiplying the proportion of responses in a
+category by the appropriate probability and
+summing the products yields an estimate of
+religious service attendance for any given
+week. The probabilities are conservative, and
+thus probably produce underestimates.
+
+Size of the Bias
+
+Table 2 shows that, at least in these cases, no
+matter how one asks direct questions about
+religious attendance, approximately 40 per-
+cent of respondents claim to attend during
+any given week. By contrast, after correcting
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+140
+
+AMERICAN SOCIOLOGICAL REVIEW
+
+ 
+
+Table 2. Estimated Percentages of Respondents Attending Religious Services “Last Week,” by Item
+
+Type: Selected U.S. Surveys
+
+ 
+
+ 
+
+ 
+
+Estimated Percentage Two Standard Errors Number of
+
+Item Type/Survey Attending (Percent) Respondents
+Direct Item
+
+GSS 1993 41 +3 1,464
+
+GSS 1994 37 +2 2,774
+
+Gallup 1993 43 +3 1,005
+
+Gallup 1994a? 41 +3 1,017
+
+Gallup 1994b * 4S +3 1,016
+Time-Use Item
+
+SRC 1992-1994 29 +2 1,442
+
+(26 + 3 for non-Sunday)
+
+ 
+
+Note: The standard errors reported here assume simple random samples, and thus underestimate the ac-
+tual sampling error for GSS, which used a clustered sampling design.
+
+* Two different items were asked in the 1994 Gallup survey. See Table 1.
+
+for the GSS estimate of non-Sunday religious
+observance, the time-use approach indicates
+fewer than 30 percent attend. Thus
+misreporting error produces an increase in
+attendance claims of almost 50 percent (p <
+.0001).4
+
+Effects on Estimating Who Attends
+
+Does misreporting affect inferences about
+the characteristics of regular attenders? We
+examined the relationship between weekly
+religious attendance and the six demographic
+status variables that were available on all the
+surveys: region, age, sex, education, race,
+
+4The SRC 1992-1994 estimate (though not the
+N) is weighted to correct for unequal sample se-
+lection probabilities by whether a household con-
+tained children, a feature unique to that study. By
+contrast, none of the results is weighted to reflect
+the fact that all the surveys selected respondents
+with probabilities inversely proportional to the
+number of adults in the household, and in the tele-
+phone surveys, directly proportional to number of
+telephone lines in the household. Weights are not
+available for all the studies, and thus (with the
+exception noted above) we use weights for none
+to avoid unwanted variation. Although this pro-
+cedure poses no problem for assessing mis-
+reporting (comparing samples sharing the same
+unequal design), it could skew population esti-
+mates (extrapolating from sample to population).
+However, the appropriate SRC 1992-1994
+weights have little effect, increasing attendance
+only from 26.0 percent to 26.9 percent.
+
+and Hispanic ethnicity (unfortunately reli-
+gion was not included on the time-use study).
+We fit log-linear models to three-way
+cross-classifications of attendance, status,
+and item (time-use item versus direct item) to
+test the hypothesis that the attendance-status
+associations are the same for the different
+items. The hypothesis can be rejected only
+for ethnicity, which although not significantly
+related to the direct items, just reaches sig-
+nificance with the time-use item (p < .01
+comparing SRC to GSS or Gallup). Hispan-
+ics apparently attend services more regularly
+than non-Hispanics and over-report their at-
+tendance less, but the small Hispanic sample
+makes us hesitant to make much of this.°
+Associations between religious attendance
+and the remaining background variables are
+very similar across the items. As others have
+observed, women, blacks, southerners, mid-
+westerners, and older people are more likely
+to claim attendance in response to direct
+items (Chalfant and Heller 1991; de Vaus
+1984; Glenn and Gotard 1977; Hout and
+Greeley 1987), but this is equally true for the
+time-use item. Likewise, education is not re-
+lated to attendance on the direct items, and
+the same is true using the time-use item.
+Despite its extent, then, misreporting has
+strikingly little impact on the relationships
+
+5 See Presser and Stinson (1996) for tables
+showing this result and for the results summa-
+rized in the next paragraph.
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+SOCIAL DESIRABILITY BIAS IN SELF-REPORTS OF RELIGIOUS ATTENDANCE
+
+141
+
+ 
+
+between religious service attendance and
+common background variables. Put differ-
+ently, these background variables are gener-
+ally unrelated to the propensity to misreport.
+
+LONGITUDINAL ANALYSES
+
+To address whether misreporting error af-
+fects conclusions about religious attendance
+over time we draw on a diverse set of addi-
+tional surveys. One of the earliest time-use
+studies, conducted by the University of
+Michigan Survey Research Center (SRC),
+used a multi-stage area sample of residences
+in Standard Metropolitan Statistical Areas
+(SMSAs), which at the time of the survey
+contained about two-thirds of the U.S. popu-
+lation (Robinson and Converse 1972). Only
+households with an 18- to 65-year-old em-
+ployed in the nonagricultural labor force
+were eligible; the respondent was randomly
+selected from all household members ages 18
+to 65. Preliminary interviews were conducted
+face-to-face, and respondents were then
+asked to keep a diary of the following day.
+Interviewers returned to review the diary,
+probing respondents for details as needed.®
+About three-quarters of the interviews were
+conducted from November 15 to December
+15, 1965; the remainder from March 1 to
+April 25, 1966. The overall response rate was
+72 percent. Simultaneously, identical proce-
+dures were employed with a multi-stage area
+sample of Jackson, Michigan residences
+yielding an 82 percent response rate. A ran-
+dom two-sevenths of both samples was as-
+signed to weekends, and we use only the
+Sunday diaries.”
+
+A decade later, the Michigan SRC con-
+ducted a second time-use survey consisting
+of face-to-face interviews with randomly se-
+lected adults (and their spouses where
+present) from a multi-stage area sample of all
+residences in the conterminous United States
+
+© The forward to the diary listed “kinds of ac-
+tivities,” including “going to church services.”
+We think it unlikely this stimulated much
+misreporting, as it appeared in the middle of over
+50 other examples.
+
+7 Saturday and Sunday demographics are gen-
+erally similar, though there are exceptions. In the
+Jackson sample, for example, fewer Saturday dia-
+ries are from men (p < .10); the Sunday propor-
+tion of men is closer to the census estimate.
+
+(Juster and Stafford 1985). Interviewers ad-
+ministered “yesterday” diaries in October
+and November of 1975, achieving a 72 per-
+cent response rate for the randomly desig-
+nated adults. We use only interviews con-
+ducted on Mondays with randomly selected
+respondents (not their spouses). In compar-
+ing this survey to the 1965-1966 time-use
+survey, we exclude households outside
+SMSAs, those where neither the respondent
+nor spouse was in the labor force, and re-
+spondents older than age 65. For compari-
+sons to the 1992-1994 time-use study we ex-
+clude households without a telephone.
+
+In 1986 another time-use study was con-
+ducted in Jackson, Michigan using a sample
+drawn partly from the Polk City Directory
+and partly by RDD (Robinson, Andreyenkov,
+and Patrushev 1988). In the directory sample,
+a diary to be kept the following day was left
+with respondents after an initial face-to-face
+interview; in the RDD sample the diary was
+mailed to respondents after an initial tele-
+phone interview. Data were collected from
+February to May, but response rates were not
+reported. For comparability to the 1965-1966
+Jackson study, we use only diaries for Sun-
+day from respondents ages 18 to 65 living in
+households where someone was employed.
+
+We use published tallies of religious atten-
+dance from Gallup surveys of the U.S. adult
+household population conducted about the
+same time as the 1965-1966 and 1975 time-
+use surveys (Gallup 1972; Benson 1981).
+Response rates cannot be computed for these
+multi-stage area samples, as interviewers vis-
+ited residences in sequence, starting at a ran-
+dom location and continuing on a prescribed
+path until they had obtained an assigned
+quota of interviews. The youngest man/old-
+est woman selection method (described
+above) was used in these surveys.
+
+We draw on the two GSSs conducted im-
+mediately before and after the 1975 time-use
+survey (Davis and Smith 1996). A random
+half of the 1975 and 1976 GSSs was similar
+in design to the later GSSs, and it obtained
+response rates of 75 to 76 percent. The other
+half of these GSSs used a quota design simi-
+
+8 The demographics of the randomly selected
+respondents interviewed on Monday are very
+similar to those of the randomly selected respon-
+dents interviewed Tuesday through Sunday.
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+142
+
+AMERICAN SOCIOLOGICAL REVIEW
+
+ 
+
+lar to Gallup’s. The two halves show no dif-
+ference in reported religious attendance.
+
+Every spring since 1975, Michigan’s SRC
+has asked a religious attendance item as part
+of Monitoring the Future (MTF), a survey of
+high school seniors in the conterminous
+United States (Johnston, Bachman, and
+O’Malley 1993). Between 65 percent and 80
+percent of selected schools participate; refus-
+als are replaced by schools similar in size,
+region, and urbanicity. Self-administered
+questionnaires are completed by about 85
+percent of selected students, with most non-
+response due to absence from school. A ran-
+dom sample of respondents is then mailed
+questionnaires at two-year intervals (half in
+odd years, half in even): This yields about 80
+percent cooperation in the first follow-up,
+and much higher cooperation in succeeding
+waves (with retention after 10 years of about
+70 percent of the original respondents).
+
+In 1991, MTF began similar annual sur-
+veys of tenth-graders, which attain 86 per-
+cent to 88 percent within-school response
+rates. These surveys of tenth-graders can be
+compared to the Youth in Transition (YIT)
+study, a national survey of tenth-grade boys
+conducted by Michigan’s SRC in 1966
+(Bachman, O’Malley, and Johnston 1978).
+The YIT sample design resembled MTF’s,
+and its within-school response rate was 97
+percent.
+
+Finally, we use published reports of reli-
+gious attendance from the Gallup Youth Sur-
+vey, a telephone study of teenagers (ages 13
+to 17) that has been conducted regularly
+since 1977. The surveys use RDD samples of
+households in the conterminous United
+States; response rates are unavailable.
+
+Effects on Estimating Trends
+
+Table 3 presents religious attendance esti-
+mates from the surveys of the adult popula-
+tion. It shows there has been little change
+over the past 30 years in reports to the Gallup
+and GSS direct items.? This remarkable sta-
+
+° Direct religious attendance items in the Na-
+tional Election Study also show no change from
+1952 to 1994, except for a small decline of 5 per-
+centage points between 1964 and 1968. (See
+tablb_Sa.htm and tablb_Sb.htm at <http://
+www.umich.edu/~nes/nesguide/toptables>.)
+
+bility has been cited as evidence against the
+hypothesis that America has become more
+secularized (Hout and Greeley 1987).
+
+The time-use items reveal a dramatically
+different pattern. The national samples regis-
+tered a drop in religious attendance of about
+one-third between 1965-1966 and 1975 (p <
+.005), and an additional decline of 5 percent-
+age points from 1975 to 1992-1994, al-
+though the latter change is not statistically
+significant (p = .12).!° Similarly, reported re-
+ligious attendance in Jackson fell from 38
+percent in 1965-1966 to 25 percent in 1986
+(p < .05).
+
+A decline in religious attendance is also
+recorded by the direct items in SRC’s youth
+surveys. Whereas 57 percent of tenth-grade
+boys reported weekly attendance in 1966
+(N = 2,058), only 35 percent did so in 1991
+(N = 7,200). Likewise Table 4 shows that
+weekly attendance among high school se-
+niors (both male and female) dropped from
+40 percent in 1976 to 32 percent in 1993.1!
+Moreover, the follow-up surveys of these se-
+nior classes show declining attendance for
+successive cohorts (reading down Table 4’s
+columns).
+
+The declines in reported attendance oc-
+curred disproportionately among Catholics.
+Catholic tenth-graders’ attendance fell from
+76 percent in 1966 to 47 percent in 1991,
+whereas Protestants’ went from 55 percent to
+38 percent. Catholic seniors’ attendance de-
+clined from 55 percent in 1976 to 39 percent
+in 1993, while Protestant seniors’ dropped
+from 40 percent to 35 percent.
+
+10 SRC 1992-1994 shows higher attendance in
+the second quarter (April-June) than in other
+quarters (32 percent versus 24 percent; p < .01).
+Thus Table 3 probably understates the post-1975
+decline, as that quarter contributes to 1992-
+1994’s estimate but not to 1975’s. (The March—
+April 1966 figure is not significantly different
+from—in fact is lower than—the November—De-
+cember 1965 figure; but unlike the 1992-1994
+quarter estimates, these figures are from a single
+sample, and therefore are not independent.)
+
+‘1 The 1966 question was “How often do you
+go to church? About once a week or more, Once
+or twice a month, A few times a year, Never.”
+The item in all the other years was “How often
+do you attend religious services? Never, Rarely,
+Once or twice a month, About once a week or
+more.”
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+SOCIAL DESIRABILITY BIAS IN SELF-REPORTS OF RELIGIOUS ATTENDANCE
+
+143
+
+ 
+
+Table 3. Estimated Percentage of Respondents Attending Religious Services “Last Week,” by Item
+
+Type and Year: Selected U.S. Surveys
+
+ 
+
+ 
+
+ 
+
+Item Type/ Estimated Percentage Two Standard Errors Number of
+Year/Survey Attending (Percent) Respondents
+Direct Item®
+Conterminous United States
+1993-1994 GSS 38 £2 4,238
+1975-1976 GSS 40 +2 2,670
+1993-1994a Gallup 42 +2 2,022
+1976 Gallup 42 Unknown
+1965-1966 Gallup 44 — Unknown
+Time-Use Item?
+Conterminous United States
+1992-1994 ¢ 26 £2 1,442
+1975°¢ 31 +6 274
+19754 27 +7 154
+1965—19664 42 +7 178
+Jackson, MI
+1986 25 +10 81
+1965-1966 38 +9 117
+
+ 
+
+* The 1975-1976 GSS item was identical to that asked in 1993-1994; the 1965-1966 and 1976 Gallup
+item varied slightly from the 1993-1994 item (omitting the words “or synagogue”).
+
+>The 1975 time-use approach was identical to that used in 1992-1994, except that it added “Who was
+with you?” and “Were you doing anything else at the same time?” for each activity. The 1965-1966 and
+1986 time-use measure was the 1975 measure adapted for self-administration. Essentially the same set of
+
+activity codes was used in all the time-use studies.
+© Excluding non-telephone households.
+
+4 Excluding households not located in SMSAs, respondents over age 65, and households with no member
+
+in the labor force.
+
+Similarly, the 1965-1966 to 1975 drop in
+attendance for adults revealed by the time-
+use items occurred mainly among Catholics:
+71 percent to 40 percent, though these esti-
+mates are very imprecise as they are based on
+small samples (N = 63 and 43, respectively).
+Protestants changed only from 28 percent to
+26 percent (N = 97 and 101, respectively). By
+comparison, 38 percent of Protestants
+claimed weekly attendance in both the 1965-
+1966 and 1976 Gallup surveys, whereas
+Catholic claims to the Gallup direct item fell
+from 68 percent to 54 percent during this
+time.!2 Thus Catholic misreporting appears
+minimal prior to the late 1960s, probably be-
+
+'2 The Gallup data, however, are from all
+adults, whereas the time-use data are from adults
+ages 18 to 65 in SMSA households with at least
+one employed person.
+
+cause true attendance among Catholics was
+very high. Misreporting grew, however, as at-
+tendance fell, possibly because of the stigma
+Catholics attach to missing weekly mass.
+Why then do direct items generally show
+stability over time for adults, but declines for
+youth? We believe the key is not age, but the
+fact that SRC’s youth surveys—unlike the
+adult surveys—were self-administered,
+which minimizes misreporting. In fact, our
+results suggest that self-administration re-
+duces misreporting error to about the same
+extent as time-use items. This can be seen by
+comparing the youth follow-ups with compa-
+table subsamples of the adult surveys. Com-
+bining Table 4’s shaded entries (first follow-
+up for 1992’s class, second follow-up for
+1990’s class, and so on) provides a 1993-
+1994 attendance estimate for 19 to 28 year-
+olds of 23 percent (N = 6,706, based on self-
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+144
+
+AMERICAN SOCIOLOGICAL REVIEW
+
+ 
+
+Table 4. Estimated Percentage of Respondents Attending Weekly Religious Services, by High School
+Class and Age: Monitoring the Future, 1976 to 1993
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Modal Age
+High School 18 19-20 21-22 23-24 25-26 27-28
+Class (Senior Year) (Follow-Up 1) (Follow-Up 2) (Follow-Up 3) (Follow-Up 4) (Follow-Up 5)
+1976 40 28 26 25 25 26
+1977 39 30 24 24 22 23
+1978 Al 31 27 27 26 26
+1979 4l 35 28 28 26 26
+1980 44 36 30 27 26 28
+1981 40 32 28 24 25 27
+1982 39 32 25 23 20 24
+1983 39 31 25 22 24 24
+1984 37 29 23 22 22 23
+1985 35 27 22 21 22
+1986 34 27 23 22 a —
+1987 3] 24 21 19 20 _
+1988 32 25 21 a — _
+1989 32 25 20 21 _— _—
+1990 32 25 22 — — —
+1991 30 22 19 _— _— _—
+1992 32 26 — _ — —
+1993 32 24 _ — — —
+Number of 1,629-2,174 1,190-1,626 1,323-1,4801,297-1,4071,161-1,371 _1,113~1,308
+
+respondents
+
+ 
+
+Note: Table 4 shows the percentages choosing option 4 in response to the question, “How often do you
+attend religious services? (1) Never; (2) Rarely; (3) Once or twice a month; (4) About once a week or
+more.” Follow-up interviews occur every two years: half in even years, half in odd years (e.g., half of
+follow-up 1 for the 1976 class was in 1977, and half was in 1978).
+
+Shaded entries refer to 1993-1994.
+
+administered direct items). This is very close
+to the 21 percent attendance rate for 19 to 28
+year-olds who had graduated from high
+school in the SRC 1992-1994 survey (N =
+253, based on a time-use item), but much
+lower than the reported attendance of 30 per-
+cent and 36 percent among those ages 19 to
+28 with at least a high school diploma in the
+1993-1994 GSS and the 1993-1994 Gallup
+surveys (N = 602 and 321, respectively,
+based on interviewer-administered direct
+items).
+
+If mode of administration (self-adminis-
+tered versus interviewer-administered) ex-
+plains why direct items show declines in re-
+ligious attendance for youth but stability for
+adults, then Gallup’s Youth Survey, which
+asks an interviewer-administered direct item,
+
+should show temporal stability. Indeed,
+weekly religious attendance in this survey
+shows almost no variation over time, and
+1993’s attendance estimate (50 percent) is
+not significantly different from 1977’s (47
+percent).
+
+CONCLUSIONS
+
+Our results support Hadaway et al.’s (1993)
+conclusion: Respondents in conventional sur-
+veys substantially overreport their religious
+attendance. Apparently, misreporting error is
+
+13 The item asked is identical to Gallup 1993-
+1994a (see Table 1), and each estimate is based
+on about 1,000 cases. See the Princeton Religion
+Research Center newsletter Emerging Trends.
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+SOCIAL DESIRABILITY BIAS IN SELF-REPORTS OF RELIGIOUS ATTENDANCE
+
+145
+
+ 
+
+caused mainly by social desirability pres-
+sures associated with interviewer-administra-
+tion. The error can be minimized through ei-
+ther self-administration or asking about time-
+use,
+
+We find that misreporting error does not
+generally affect relations between demo-
+graphic variables and religious attendance.
+However, if misreporting were more strongly
+related to other variables (e.g., religious
+identification) than it is to demographics, in-
+ferences about the relation between such
+variables and attendance would be affected.
+
+Our findings also suggest that misreporting
+has increased in the last 30 years, thus dis-
+torting trends in religious attendance. Al-
+though reports to interviewer-administered
+direct items have shown little change in at-
+tendance over time, measures less subject to
+misreporting (time-use items and self-admin-
+istered items) reveal a continuous decline in
+attendance since the mid-1960s, providing
+support for the hypothesis that America has
+become more secularized.
+
+Stanley Presser is Professor of Sociology and
+Director of the Survey Research Center at the
+University of Maryland. He is also Professor in
+the Joint Program in Survey Methodology, a Na-
+tional Science Foundation—sponsored center for
+graduate education which he founded in 1992
+with colleagues from the University of Michigan
+and Westat, Inc. At the end of 1997, he completed
+a four-year term as editor of Public Opinion
+Quarterly.
+
+Linda Stinson is Research Psychologist at the
+Bureau of Labor Statistics in Washington, D.C.,
+where she works in the Cognitive Lab on Survey
+Research. Her current work includes a time-use
+survey to measure non-market work,
+
+REFERENCES
+
+Bachman, Jerald, Patrick O’Malley, and Jerome
+Johnston. 1978. Youth in Transition. Ann Ar-
+bor, MI: Institute for Social Research.
+
+Benson, John, 1981. “The Polls: A Rebirth of Re-
+ligion?” Public Opinion Quarterly 45:576-85,
+
+Chalfant, Paul and Peter Heller. 1991. “Rural/Ur-
+ban versus Regional Differences in Religios-
+ity.” Review of Religious Research 33:76-86.
+
+Davis, James and Tom Smith. 1996. General So-
+cial Surveys, 1972-1996: Cumulative Code-
+book, Storrs, CT: Roper Center.
+
+de Vaus, David. 1984. “Workforce Participation
+and Sex Differences in Church Attendance.”
+
+Review of Religious Research 25:247-56,
+
+Gallup, George. 1972. The Gallup Poll. New
+York: Random House.
+
+Gallup Organization. 1993-1994. CNN-USA To-
+day Polls. Archive numbers USAIPOCNUS93-
+322050 and USAIPOCNUS94-00807011.
+Storrs, CT: Roper Center.
+
+Glenn, Norval and Erin Gotard. 1977. “The Reli-
+gion of Blacks in the United States.” American
+Journal of Sociology 83:443-51.
+
+Greeley, Andrew. 1989. Religious Change in
+America. Cambridge, MA: Harvard.
+
+Hadaway, Kirk, Penny Marler, and Mark Chaves.
+1993. “What the Polls Don’t Show: A Closer
+Look at U.S. Church Attendance.” American
+Sociological Review 58:741-52.
+
+Hout, Michael and Andrew Greeley. 1987.
+“Church Attendance in the United States,
+1940-1984.” American Sociological Review
+52:325-45.
+
+Johnston, Lloyd, Jerald Bachman, and Patrick
+O’Malley. 1993. Monitoring the Future. Ann
+Arbor, MI: Institute for Social Research.
+
+Juster, Thomas and Frank Stafford, eds. 1985.
+Time, Goods, and Well-Being. Ann Arbor, MI:
+Institute for Social Research.
+
+Parry, Hugh and Helen Crossley. 1950. “Validity
+of Responses to Survey Questions: Correlated
+Response Errors in a Panel Study of Voting.”
+Public Opinion Quarterly. 14:61-80.
+
+Presser, Stanley and Linda Stinson. 1996. “Esti-
+mating the Bias in Survey Reports of Religious
+Attendance.” Pp, 932-38 in Proceedings of the
+Section on Survey Research Methods. Alexan-
+dria, VA: American Statistical Association.
+
+Presser, Stanley and Michael Traugott. 1992.
+“Little White Lies and Social Science Models.”
+Public Opinion Quarterly. 56:77-86.
+
+Robinson, John. 1977. How Americans Use Time.
+New York: Praeger.
+
+Robinson, John and Philip Converse. 1972. “So-
+cial Change Reflected in the Use of Time,” Pp.
+17-86 in The Human Meaning of Social
+Change, edited by A. Campbell and P. Con-
+verse. New York: Russell Sage.
+
+Robinson, John, Vladimir Andreyenkov, and
+Vasily Patrushev. 1988. The Rhythm of Every-
+day Life. Boulder, CO: Westview.
+
+Tourangeau, Roger and Tom Smith. 1996. “‘Ask-
+ing Sensitive Questions: The Impact of Data
+Collection Mode, Question Format, and Ques-
+tion Context.” Public Opinion Quarterly 60:
+275-304.
+
+Woodberry, Robert. 1997. “The Missing Fifty
+Percent: Accounting for the Gap between Sur-
+vey Estimates and Head Counts of Church At-
+tendance.” Master’s thesis, Sociology Depart-
+ment, University of Notre Dame, Notre Dame,
+IN.
+
+This content downloaded from
+132.74.210.56 on Tue, 22 Nov 2022 13:14:00 UTC
+All use subject to https://about.jstor.org/terms
+

@@ -1,0 +1,430 @@
+University of Nebraska - Lincoln
+
+DigitalCommons@University of Nebraska - Lincoln
+Faculty Publications, College of Journalism & Mass
+Communications
+
+Journalism and Mass Communications, College of
+
+2016
+
+Teaching Fairness in Journalism: A Challenging
+Task
+Joseph Weber
+University of Nebraska–Lincoln, josephweber@unl.edu
+
+Follow this and additional works at: http://digitalcommons.unl.edu/journalismfacpub
+Part of the Journalism Studies Commons
+Weber, Joseph, "Teaching Fairness in Journalism: A Challenging Task" (2016). Faculty Publications, College of Journalism & Mass
+Communications. 89.
+http://digitalcommons.unl.edu/journalismfacpub/89
+
+This Article is brought to you for free and open access by the Journalism and Mass Communications, College of at DigitalCommons@University of
+Nebraska - Lincoln. It has been accepted for inclusion in Faculty Publications, College of Journalism & Mass Communications by an authorized
+administrator of DigitalCommons@University of Nebraska - Lincoln.
+
+Published in Journalism & Mass Communication Educator (2015) 12pp.
+doi: 10.1177/1077695815590014
+Copyright © 2015 AEJMC; published by SAGE Publications.
+Used by permission.
+Published online August 19, 2015.
+
+digitalcommons.unl.edu
+digitalcommons.unl.edu
+
+Teaching Fairness in Journalism:
+A Challenging Task
+Joseph Weber
+Associate Professor, College of Journalism and Mass Communications,
+University of Nebraska–Lincoln, 307 Andersen Hall, Lincoln, NE 68588-0474, USA
+email josephweber@unl.edu
+Abstract
+Objectivity has long been contentious in American journalism. Many practitioners call it essential to a news organization’s credibility. Critics, however, hold objectivity is impossible and
+urge reporters simply to reveal their biases. For educators, teaching objectivity is challenging. Some, seeking a middle ground, instead urge fairness and balance, or counsel “impartiality.” Even such approaches are challenging. This article explores the difficulties, based on
+a study where students were lectured on fairness, balance, objectivity, and bias. They wrote
+news stories before and after the lessons. Evaluators found no substantial improvement in
+fairness and increased bias, however, pointing up the difficulties involved.
+Keywords: bias, fairness, objectivity, balance, media education, teaching fairness, impartiality
+
+Introduction
+Objectivity has fallen into disfavor in many quarters of journalism in recent years.
+Biased coverage of the news seems to be in ascendance, as viewpoint-based websites such as The Washington Post’s PostEverything site multiply (Kushner, 2014) and
+opinion-driven television enterprises such as Fox News, on the right, and MSNBC,
+on the left, compete for attention along ideological lines. Some prominent media
+outlets appear to offer less truly fair and balanced coverage as they cater to splintering audiences, seemingly wagering that audiences prefer to have their biases reinforced rather than challenged by journalism that aspires to impartiality. As the
+Pew Research Journalism Project study showed in October, 2014, “When it comes
+1
+
+2    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+
+to getting news about politics and government, liberals and conservatives inhabit
+different worlds. There is little overlap in the news sources they turn to and trust”
+(Mitchell, Gottfried, Kiley, & Matsa, 2014).
+The battle over objectivity hit a recent high point in fall 2013. Former New York
+Times executive editor Bill Keller and former Guardian columnist Glenn Greenwald
+clashed then in Keller’s op-ed column about the desirability of what Keller called
+“aggressive but impartial” journalism. Keller held that journalists who set aside
+their opinions “to follow the facts—as a judge in court is supposed to set aside
+prejudices to follow the law and the evidence … can often produce results that are
+more substantial and more credible” than today’s activist bloggers or earlier opinion-driven pamphleteers and muckrakers. In making his case, Keller gave voice to
+what has long been an article of faith for mainstream journalists.
+Countering this, Greenwald acknowledged that some “superb reporting” emerged
+from the traditional approach but said it “has also produced a lot of atrocious journalism and some toxic habits that are weakening the profession.” Greenwald, who
+shared a 2014 Pulitzer Prize for reporting the leaks of former National Security
+Agency contractor Edward Snowden, complained that a “journalist who is petrified of appearing to express any opinions will often steer clear of declarative sentences about what is true ….” Furthermore, Greenwald argued, “Human beings are
+not objectivity-driven machines. We all intrinsically perceive and process the world
+through subjective prisms. What is the value in pretending otherwise?” (Keller, 2013)
+Although the rise of blogging, websites, and fragmented TV audiences gives
+fresh currency to the debate, the argument predates Greenwald and Keller. “Objectivity is considered doomed to failure and dismissed as an unattainable standard.
+This discredit has become radical as some scholars have gone so far as to question
+objectivity as a desirable norm,” Sandrine Boudana (2011), now at Tel Aviv University, wrote in Media, Culture & Society. Earlier, in 2004, journalist Geneva Overholser contended in Nieman Reports that “… ‘objectivity’ as a touchstone has grown
+worse than useless…. To the extent that objectivity still holds sway, it often produces a report bound in rigid orthodoxy, a deplorably narrow product of conventional thinking.” Calling the objective approach an “ineffective and even harmful
+guide,” she held that a “forthright jettisoning of the ‘objectivity’ credo, and a welcoming of the diverse media landscape springing up around us, could have freeing effects.” (Overholser, 2004) A year before, in 2003, Brent Cunningham (2003)
+observed in Columbia Journalism Review that “few would argue that complete objectivity is possible, yet we bristle when someone suggests we aren’t being objective—
+or fair, or balanced—as if everyone agrees on what they all mean.”
+Faced with such disputes, journalism educators wrestle with how best to teach
+their students to practice the craft. Should they hew to the ideal of objectivity or
+should they yield to the current clamor for viewpoint-oriented and ideologically
+driven news coverage? Is it possible for students to be taught to set aside their biases and report evenhandedly? If that is desirable, how might one do that? This
+study, involving students in a pair of advanced-reporting classes, explored a potential methodology for assessing student biases and examined one avenue for addressing them.
+
+Teaching Fairness in Journalism: A Challenging Task
+
+3
+
+Literature Review
+For American journalists, the challenge to report and record the news objectively
+has a long and tumultuous history. Suggesting he would deliver impartial and thorough reporting, editor James Gordon Bennett in 1835 announced that his then-new
+New York Herald would “record facts on every public and proper subject, stripped
+of verbiage and coloring” (Mindich, 1998). But his critics thought him incapable of
+fairness, much less objectivity or impartiality. Walt Whitman, a newspaperman as
+well as a poet, called his competitor
+a reptile marking his path with slime wherever he goes, and breathing mildew at
+everything fresh or fragrant; a midnight ghoul, preying on rottenness and repulsive filth; a creature, hated by his nearest intimates, and bearing the consciousness
+thereof upon his distorted features, and upon his despicable soul; one whom good
+men avoid as a blot to his nature— whom all despise, and whom no one blesses—
+all this is James Gordon Bennett.
+
+Speaking generally of mid-19th-century journalism, Whitman also said, “Scurrility—the truth may as well be told—is a sin of the American newspaper press.”
+(Reynolds, 1995)
+Still, some journalists strode toward objectivity in the middle and late 1800s, and,
+early in the 20th century, they enshrined it as a central journalistic value. When a
+group of New York editors in 1848 established the Associated Press (AP), they created a news service that by the end of the century was delivering dispatches that sociologist and media historian Michael Schudson said “were markedly more free from
+editorial comment than most reporting for single newspapers.” Schudson speculated
+that the AP steered a middle course because it served papers with widely varying allegiances. Sensationalism prevailed in many newspapers, nonetheless, at least until
+1896, when the New York Times began rising to prominence because it hewed to an
+“information” model of news delivery rather than the “story” model others used,
+the sociologist reported (Schudson, 1978). After World War I, devotion to objectivity
+took hold, such that in 1923, the American Society of Newspaper Editors adopted the
+Canons of Journalism at its first convention, mandating that “news reports should be
+free from opinion or bias of any kind” (Schudson, 2003). Even as journalists unionized, and fears arose that impartial coverage of business and labor issues would suffer, the American Newspaper Guild, in 1934, adopted a code of ethics that called for
+accurate and unbiased reporting, guided “only by fact and fairness.” By the end of
+World War II, Schudson and Tifft (2005) reported that objectivity was “universally
+acknowledged to be the spine of the journalist’s moral code.”
+To be objective, advocates said, journalists needed to understand their biases
+and, despite them, adopt a scientific fact-based approach, argued press critic Walter Lippmann. In 1920, he and a colleague, Charles Merz, an associate editor for
+the New York World, lambasted coverage of the Russian Revolution in the rival New
+York Times for falling short. “In the large, the news about Russia is a case of seeing
+not what was, but what men wished to see,” they wrote. Lippmann wanted the individual journalist “to remain clear and free of his irrational, his unexamined, his
+unacknowledged prejudgments in observing, understanding and presenting the
+
+4    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+
+news.” Journalism, Lippmann railed, was being practiced by “untrained accidental witnesses,” when journalists instead should hew to the “the scientific spirit”
+and should aspire to “a common intellectual method and a common area of valid
+fact.” (Dean, 2015)
+One can hear echoes of Lippmann’s complaints today, as critics bemoan political polarization in which facts seem to take a backseat to rancorous argument.
+Lippmann, cofounder of The New Republic and a propagandist for Washington in
+World War I, argued that a more “scientific” approach would have gotten readers
+closer to the truth about the Bolsheviks whose regime the Times repeatedly misreported as near collapse, as Schudson recounts. In his book, Liberty and the News,
+Lippmann complained that
+where all news comes at second-hand, where all the testimony is uncertain, men cease
+to respond to truths, and respond simply to opinions. The environment in which they
+act is not the realities themselves, but the pseudo-environment of reports, rumors,
+and guesses. (Schudson, 2007)
+
+However, Overholser looked to a more recent conflict, the Iraq War, to argue
+that the rise of viewpoint-oriented media is healthy, so long as they are transparent and accountable. She bemoaned the “cowardly, credulous and provincial coverage leading up to the Iraq War,” and suggested that “forthrightly partisan media”
+coverage would have been preferable (Overholser, 2004). Similarly, Cunningham
+(2003) cited examples of flawed pre-war coverage, noting that they
+. . . provide a window into a particular failure of the press: allowing the principle of
+objectivity to make us passive recipients of news, rather than aggressive analyzers
+and explainers of it. We all learned about objectivity in school or at our first job. Along
+with its twin sentries “fairness” and “balance,” it defined journalistic standards.
+
+Today, some professionals and educators concede that objectivity may be impossible, but they still insist on fairness and balance. Indeed, Overholser argued
+that media dedicated to fairness and balance could appeal to those seeking “guidance through an ever more bewildering media forest.” By its nature, journalism involves choices of what to cover and how to cover it, as well as choices in questions
+to pursue. The challenge is to report so thoroughly that all reasonable views are
+aired. Subjectivity and bias are impossible to avoid, in this view, but can be minimized. Even journalists at some magazines—where points of view are encouraged and expected by readers— hew to this approach. As the BusinessWeek Code
+of Ethics declared in 2009, “Because we do analytic journalism and commentaries,
+we do not strive for perfect objectivity. But we must always strive to be fair” (The
+BusinessWeek, 2009).
+Even while acknowledging problems with the ideal of objectivity, many journalism textbooks maintain that it remains central to the journalistic mission. Melvin
+Mencher’s News Reporting and Writing, a commonly used text, declares,
+If readers want to weep or laugh, write angry letters to their senators or send money
+to the Red Cross for tornado victims, that is their business. The reporter is content to
+lay out the facts. Objective journalism is the reporting of the visible and the verifiable.
+
+Teaching Fairness in Journalism: A Challenging Task
+
+5
+
+Furthermore, it reports,
+Unfair and unbalanced journalism might be described as a failure in objectivity. When
+journalists talk about objectivity, they mean that the news story is free of the reporter’s opinion or feelings, that it contains facts and that the account is written by an impartial and independent observer. (Mencher, 2011)
+
+Similarly, Reporting for the Media, by John R. Bender, Lucinda D. Davenport, Michael W. Drager, and Fred Fedler, urges journalists to remain objective. “Journalists have opinions and biases as do other people,” the authors write.
+But reporters strive to be as impartial or objective as possible. They are neutral observers, not advocates or participants. They provide the details of the stories they
+report, not their own opinions about the facts and events. Journalists express their
+opinions only in editorials and commentaries, which are clearly labeled. (Bender,
+Davenport, Drager, & Fedler, 2012)
+
+To an extent, the textbook authors provide guidance on how students can avoid
+injecting or revealing bias in their work. “Stories are objective when they can be
+checked against some kind of record—the text of a speech, the minutes of a meeting, a police report, a purchase voucher, a payroll, or vital statistics,” the Mencher
+text says, for instance. More to the point, the Bender text says,
+One way reporters keep their opinions out of stories is by avoiding loaded words,
+such as “demagogue,” “extremist,” “radical,” and “zealot.” Such words are often unnecessary and inaccurate. . . . Reporters can eliminate the opinions in some sentences
+simply by deleting a single adjective or adverb: “alert witness,” “famous author,” “gala
+reception,” “thoughtful reply.”
+
+A third text, Writing and Reporting the News: A Coaching Method, by Carole Rich
+(2013), counsels,
+If the story involves conflict, you should always get comments from both or all sides
+of an issue. Avoid one-source stories. Also, make sure you attribute your sources; including information you use from websites, other news organizations and quotes or
+statements from people you interview.
+
+News Reporting and Writing, by The Missouri Group (Brian S. Brooks, George
+Kennedy, Daryl R. Moen, and Don Ranly), offers students a substantial discussion
+about accuracy, fairness, and bias, as well as objectivity. The text concludes,
+Though there’s debate about just how objective a reporter can possibly be, journalists and scholars all agree about one thing: Reporting the news is not the same as expressing an opinion. The primary goal of a news story is to inform . . . . By contrast,
+the primary goal of opinion writers and speakers is to persuade.
+
+Furthermore, The Missouri Group text urges accuracy and fairness as “paramount” values. “Fairness requires, above all, that you make every effort to avoid
+following your own biases in your reporting and writing,” the text advises. It gives
+
+6    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+
+students guidance that they can apply to their work to assure accuracy and fairness and to avoid bias. In news stories, for instance, it counsels students to “Work
+to leave personal bias out the story” and to “Use neutral language.” Regarding fairness, it advises that they “Provide context for facts,” “Give all relevant sides of a
+story,” and “Strive for balance.” Even in commentaries, the text counsels, writers
+must support their personal bias with facts and reasons, as well as acknowledge
+and rebut other viewpoints, and must use civil language, not “highly charged language” (Brooks, Kennedy, Moen, & Ranly, 2011).
+Still, there is little direct guidance available in the texts or in the academic literature on how an instructor can best teach students to avoid bias and assure fairness in
+their work. Neither is there direct guidance on how best to assess bias. This study, in
+part, sought to examine techniques for both teaching fairness and for evaluating bias.
+
+Research Question and Method
+The central question in this study was the following:
+Research Question 1: How can journalism students be taught to avoid bias and
+to build fairness into their work?
+Students in advanced-reporting classes at the University of Nebraska–Lincoln
+in the spring semester of 2014 read certain materials and then discussed those
+readings and the topic generally in a lecture session. They also watched a relevant video in class, followed by further discussion. Beforehand, the students reviewed a set of facts and quotes—including fictitious material—about a controversial topic and wrote a news story based on that data. Then, to test whether
+students had absorbed the message, they were given a second set of facts and
+quotes after the lecture session and wrote a second story. The hypothesis was
+that if they took the message in the readings and lecture to heart, they would
+show less bias and more fairness in their second stories. To assure an impartial
+evaluation, two independent reviewers read the students’ stories and assessed
+them for fairness and bias.
+The pedagogical elements included the following:
+• Students read Keller’s op-ed column, “Is Glenn Greenwald the Future of
+News?” This piece included exchanges between Keller, an advocate of impartial journalism, and Greenwald, an advocate of what Keller called a “more
+activist, more partisan kind of journalism.” The October 2013 exchange reveals two very different approaches—Keller’s (2013) advocacy of “aggressive
+but impartial reporting” countered by Greenwald’s view that every journalistic choice is “highly subjective” and all journalism is “a form of activism.”
+• They read the draft of a BusinessWeek feature story about a small town in
+Texas, Waxahachie, in which the writer takes a condescending tone toward
+residents’ beliefs in creationism and their political and social views in the
+
+Teaching Fairness in Journalism: A Challenging Task
+
+7
+
+context of the expected arrival of physicists who would build and operate
+a giant “superconducting super collider,” a particle accelerator designed to
+answer such questions as how the universe came to be.
+• In class, they viewed a video of a July 2013 interview on Fox News with author
+Reza Aslan (2013), a religious scholar who wrote Zealot: The Life and Times
+of Jesus of Nazareth. The interview was widely derided as unfair as the questioner repeatedly hammered away on the theme of why a Muslim would
+write about Christianity rather than exploring the themes and topics the
+writer developed in his book. The author repeatedly answered that he was
+a scholar who, like many others, had made an academic career in studying
+different religions and whose personal religious views were irrelevant and
+besides the point of the book.
+• They heard a detailed lecture and took part in a discussion of how impartiality is generally the preferred approach for journalists writing for newspapers. The lecture addressed the issue of how one can use one’s biases in reporting and research (a sense of indignation at injustice, for instance, can be
+helpful). But the lecture also discussed how one must discard such biases in
+writing the news. Furthermore, the lecture dealt with fairness, urging that the
+students comb their work to make sure they are fair to all parties involved.
+These lessons were bracketed by the two writing assignments:
+• In the first, the facts and quotes—some fictitious—involved the consequences
+of and reactions to the legalization of marijuana in Colorado. The news developments included plans by a conservative legislator to set a standard
+for blood tests to determine whether users could be judged guilty of driving under the influence of marijuana. There were comments by marijuana
+critics and rebuttals by defenders.
+• In the second, the facts and quotes—again including fictitious elements—dealt
+with abortion. The developments include a US$2 million settlement to be
+paid to the family of a woman who died in a botched abortion. The comments included criticisms by anti-abortion activists and comments by defenders of abortion.
+
+Data Collection
+The instructors collected and graded the 36 resulting papers as they normally
+would. If explicit opinion statements appeared in the texts, they pointed them out.
+The grading dealt with all the normal issues of student news accounts, such as completeness, journalistic writing style, proper uses of quotes and anecdotes, and so on.
+Two faculty members, Associate Professor Bernard R. McCoy and visiting instructor John Baker, then evaluated the student work for fairness and bias. To assure that this was a blinded approach, student names were trimmed from the work
+and the papers did not include grades. The reviewers did not know which assignment preceded the lecture and which followed.
+
+8    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+
+Figure 1. Reader assessments.
+
+The reviewers applied two scales to use in evaluating the work, one for bias and
+one for fairness. They rated each story on scales of 1 to 5, with 1 indicating low ratings on both bias and fairness (thus, the best rating would be 5 on the fairness scale
+and 1 on the bias scale). They applied separate scales because it is possible (though
+undesirable) for a writer to show bias in a story but still offer a fair account with
+all appropriate viewpoints represented.
+
+Analysis and Assessment of the Findings
+One might expect measurable improvement in fairness and the avoidance of bias
+between the first story, which dealt with marijuana, and the second, which dealt
+with abortion. As it turned out, however, there was no substantial improvement
+and, indeed, bias appeared to worsen.
+Figure 1 presents the average and median results. Story 1, with assessments
+reflected in the bar on the left, came before the lecture and discussion (pre-intervention), and Story 2, with assessments reflected in the bar on the left, came after
+(post-intervention).
+
+Statistical Analysis
+The results suggest that the average degree of fairness rose slightly, but that the
+average degree of bias also rose slightly. Furthermore, the median amount of fairness declined and the median degree of bias rose. If one looks at the numerical results and renders the changes in percentage terms, one sees that the average degree
+of fairness rose from 2.78 to 2.86, or 2.9%, while the average degree of bias rose from
+2.92 to 3.28, or 12.3%. With the medians, the difference appeared more dramatic:
+fairness declined 16.7%, from 3 to 2.5, while bias rose 33.3%, moving from 3 to 4.
+Even if one allows for overstatement in the medians, the results suggest a rise
+in perceived bias and no appreciable improvement in fairness.
+
+Teaching Fairness in Journalism: A Challenging Task
+
+9
+
+Figure 2. Story 1—Marijuana reader assessments.
+
+Differences Between Reviewers
+When one breaks down the averages between the reviewers, variances emerge.
+One sees differences between them on each story, and in general one sees differences in their perceptions of bias and fairness. In the marijuana story, the first story,
+Reviewer 1 saw substantially more bias, on average, and modestly less fairness,
+on average than Reviewer 2. In the second story, about abortion, Reviewer 1 similarly saw substantially more bias than did Reviewer 2. See results below in Figures
+2 and 3, with averages reflected by the bars on the left and medians on the right.
+
+Conclusion
+An unexpected result can be as illuminating as an expected one. In this case, one
+might expect improvement in the avoidance of bias and in fairness after a lecture
+about the topics. The results at best were equivocal, however, with no substantial
+improvement in fairness and an increase in perceived bias. But one can draw conclusions, nonetheless, that can be helpful in teaching:
+• Writing interesting copy in a disinterested manner is a learned skill that takes
+time, practice, and a teacher’s oversight over time to develop. Journalism
+students may need repeated critiques over a full semester or longer to develop a journalist’s mindset and approach to news stories. A single lesson—
+even when it includes substantial reading assignments, a video and a lecture/discussion session—may be inadequate. Sensitizing students to bias
+and fairness may simply take more effort.
+
+10    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+
+Figure 3. Story 2—Abortion reader assessments.
+
+• It may also be that it is impossible to expunge bias, that nontraditional journalists such as Greenwald are correct. Bias may be inescapable and efforts
+to limit it may be doomed, so the best course may be for journalists to be
+candid about their attitudes. Veterans in the media business who are familiar with both viewpoint- oriented journalism and “straight news” approaches may not accept this, but must at least understand the argument.
+• The Keller–Greenwald debate document may need to be supplemented by
+others. One reviewer of this article noted that students tend to find Greenwald more persuasive than Keller. While this article’s author did not find
+the same skew toward Greenwald, additional material would be helpful,
+nonetheless. One potential additional document for study is “Objectivity
+and Impartiality for Digital News,” by Richard Sambrook of Cardiff University. Sambrook ties “real risks to public understanding” to the growth
+of subjective or advocacy news, linking this further to the significant level
+of distrust in media among the public. His data-based argument goes beyond any mere assertion that the pursuit of objectivity is valuable. (Sambrook, 2015)
+• It may also be that the topics for the stories here yielded poor examples. Abortion may be more inflammatory than marijuana. Furthermore, the facts of
+the abortion story were especially difficult (involving a woman’s death),
+and thus may give rise to an emotional treatment that could be seen as biased. If the order of the stories had been reversed, the conclusions may
+well have been different.
+• Perception of bias and fairness may be so subjective that assessments inevitably will be flawed. There was measurable difference between the reviewers
+on the issue. To mitigate this, enlisting more reviewers—perhaps as many
+as a halfdozen— could yield more reliable measures, or at least make clear
+whether one has outliers. So, too, could providing a specific rubric that
+
+Teaching Fairness in Journalism: A Challenging Task
+
+11
+
+reviewers could apply. The tests The Missouri Group suggests, including
+providing context and all sides of a story, striving for balance, and using
+neutral language, may aid in building such a rubric. These tests, along with
+requiring students to omit opinion statements, are the kinds of tests that
+editors in news organizations may well already apply, perhaps implicitly,
+as they review material for publication.
+
+Final Thoughts
+For journalism educators, dealing with bias and fairness is important. Indeed, it is
+a central matter for journalists whose job traditionally has been to deliver news in
+an evenhanded and straightforward manner. Furthermore, students need instruction in how to achieve that approach, in how to develop habits of mind where they
+may be guided by personal judgments but not impaired by them, and where they
+learn to listen to and reflect varying viewpoints in their work.
+This inquiry makes it clear that the task is not simple. Even reviewing student
+work for bias is challenging, with different reviewers potentially bringing their own
+biases to bear. Assessing bias and objectivity could easily throw one into a hall of
+mirrors, where bias meets bias and objectivity becomes impossible to measure, no
+matter how many reviewers one employs. A greater number of reviewers may simply multiply the opportunity for bias.
+Nonetheless, more studies on this topic may shed still more light on the questions involved. In future inquiries, those engaged in studies might screen reviewers
+to determine where their biases lay. It is possible that journalism teachers, including those who have worked professionally as editors or journalists, will assess student work through very different prisms. Thus, their views could skew their judgments and those potential skews should be weighed.
+As for classroom practice, if teachers are to encourage fairness, the results of this
+inquiry suggest that instilling a fair-minded approach in students takes time, effort,
+and substantial criticism. The task appears to take far more than a few weeks and
+a single dedicated lesson; indeed, a semester may be inadequate.
+Acknowledgments — The author received no financial support for the research, authorship,
+and publication of this article and declared no potential conflicts of interest with respect to
+its research, authorship, or publication.
+
+References
+Aslan, R. (2013). Reza Aslan to Fox News anchor: “I wrote ‘Zealot’ because I am an expert.” Retrieved from https://www.youtube.com/watch?v=vsc64Q4KqkE
+Bender, J. R., Davenport, L. D., Drager, M. W., & Fedler, F. (2012). Reporting for the media.
+New York, NY: Oxford University Press.
+Boudana, S. (2011). A definition of journalistic objectivity as a performance. Media, Culture
+& Society, 33, 385-398. doi:10.1177/0163443710394899
+
+12    J o s e p h W e b e r i n J o u r n a l i s m & M a s s C o m m u n i c a t i o n E d u c a t o r ( 2 0 1 5 )
+Brooks, B. S., Kennedy, G., Moen, D. R., & Ranly, D. (2011). News reporting and writing. Boston, MA: Bedford/St. Martin’s.
+The BusinessWeek code of ethics. (2009). Bloomberg Businessweek. Retrieved from http://www.
+businessweek.com/ethics.htm
+Cunningham, B. (2003). Re-thinking objectivity. Columbia Journalism Review. Retrieved from
+http://www.cjr.org/feature/rethinking_objectivity.php?page=all
+Dean, W. (2015). The lost meaning of “objectivity.” American Press Institute. Retrieved
+from http://www.americanpressinstitute.org/journalism-essentials/bias-objectivity/
+lost-meaning-objectivity/
+Keller, B. (2013, October 27). Is Glenn Greenwald the future of news? The New York Times.
+Retrieved from http://www.nytimes.com/2013/10/28/opinion/a-conversation-in-lieu-ofa-column.html?_r=0
+Kushner, A. B. (Ed.). (2014, May 27). PostEverything. The Washington Post. Retrieved from http://www.washingtonpost.com/posteverything/wp/2014/05/27/
+welcome-toposteverything/
+Mencher, M. (2011). Melvin Mencher’s news reporting and writing (12th edition). New York,
+NY: McGraw-Hill.
+Mindich, D. T. Z. (1998). Just the facts: How objectivity came to define American journalism. New
+York: New York University Press.
+Mitchell, A., Gottfried, J., Kiley, J., & Matsa, K. E. (2014). Political polarization & media habits.
+Pew Research Journalism Project. Retrieved from http://www.journalism.org/2014/10/21/
+political-polarization-media-habits
+Overholser, G. (2004). The inadequacy of objectivity as a touchstone. Nieman Reports. Retrieved
+from http://www.nieman.harvard.edu/reports/article/100725/The-Inadequacy-of-Objectivity-as-a-Touchstone.aspx
+Reynolds, D. S. (1995). Walt Whitman’s America: A cultural biography. New York, NY: Alfred
+A. Knopf.
+Rich, C. (2013). Writing and reporting news: A coaching method. Boston, MA: Wadsworth.
+Sambrook, R. (2015). Objectivity and impartiality for digital news (Digital News Report 2014).
+Reuters Institute for the Study of Journalism. Retrieved from http://www.digitalnewsreport.org/essays/2014/objectivity-and-impartiality-for-digital-news-consumers/
+Schudson, M. (1978). Discovering the news: A social history of American newspapers. New York,
+NY: Basic Books.
+Schudson, M. (2003). The sociology of news. New York, NY: W.W. Norton.
+Schudson, M. (2007, December 13). Lippmann and the news. The Nation. Retrieved from
+http://www.thenation.com/article/lippmann-and-news#
+Schudson, M., & Tifft, S. E. (2005). American journalism in historical perspective. In G. Overholser & K. H. Jamieson (eds.), The press (pp. 27-28). New York, NY: Oxford University
+Press.
+
+The author
+Joseph Weber is the Jerry and Karla Huse Professor of News-Editorial and an associate
+professor of journalism in the College of Journalism & Mass Communications at UNL. He
+worked in magazines and newspapers for 35 years, spending most of that time reporting
+and writing for BusinessWeek and left the magazine in 2009 as its Chief of Correspondents
+and Chicago Bureau Chief.
+
+

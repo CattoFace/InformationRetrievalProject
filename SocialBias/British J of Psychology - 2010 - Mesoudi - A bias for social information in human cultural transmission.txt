@@ -1,0 +1,1570 @@
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+405
+
+The
+British
+Psychological
+
+British Journal of Psychology (2006), 97, 405-423 Society
+
+© 2006 The British Psychological Society
+
+ 
+
+ 
+
+| www.bpsjournals.co.uk
+
+A bias for social information in human cultural
+transmission
+
+Alex Mesoudi!*, Andrew Whiten! and Robin Dunbar?
+
+' Centre for Social Learning and Cognitive Evolution, School of Psychology,
+University of St. Andrews, Scotland, UK
+2 School of Biological Sciences, University of Liverpool, UK
+
+Evolutionary theories concerning the origins of human intelligence suggest that cultural
+transmission might be biased toward social over non-social information. This was
+tested by passing social and non-social information along multiple chains of participants.
+Experiment | found that gossip, defined as information about intense third-party social
+relationships, was transmitted with siginificantly greater accuracy and in significantly
+greater quantity than equivalent non-social information concerning individual behaviour
+or the physical environment. Experiment 2 replicated this finding controlling for
+narrative coherence, and additionally found that information concerning everyday non-
+gossip social interactions was transmitted just as well as the intense gossip interactions.
+It was therefore concluded that human cultural transmission is biased toward
+information concerning social interactions over equivalent non-social information.
+
+In seeking to investigate the social nature of memory, Bartlett (1932) formulated the
+‘transmission chain method’, in which material, typically a text, is passed through a
+chain of participants, in a manner similar to the children’s game ‘Chinese whispers’ or
+‘broken telephone’. The first participant reads the material, and is later asked to recall it.
+The resultant recall is then given to the second participant to reproduce, whose recall is
+in turn given to the third, and so on along the chain. Using this method, Bartlett
+demonstrated that traditional folk tales were transmitted more fully than a range of other
+stimuli, such as a newspaper report, a description of a scene and a scientific text. In the
+following two decades, a series of transmission chain studies were published in the
+British Journal of Psychology investigating various hypotheses and participant groups
+(Hall, 1951; Klugman, 1944; Maxwell, 1936; Northway, 1936; Ward, 1949).
+
+Following this initial period of research activity, the transmission chain method fell
+from favour within psychology, perhaps due to the rise of behaviourism, and then of
+cognitive psychology, both of which have tended to ignore social processes. However, a
+handful of recent studies have sought to reintroduce the transmission chain method,
+
+ 
+
+* Correspondence should be addressed to Alex Mesoudi, Department of Anthropology, University of Missouri, Columbia,
+MO 65211, USA (e-mail: mesoudia@missouri.edu).
+
+DOI:10.1348/0007 1 2605X8587|
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+406 Alex Mesoudi et al.
+
+updating it according to modern standards of experimental psychology by reporting
+standardized instructions, using multiple parallel chains and introducing the statistical
+analysis of quantifiable data.
+
+For example, Bangerter (2000) found that a description of conception from a biology
+textbook was gradually distorted according to the participants’ gender stereotypes, with
+the sperm cell given an active role and the ovum a passive role in the reproduced
+descriptions. Kashima (2000a) found that when a description of male and female
+behaviour was transmitted, stereotype-inconsistent behaviour was reproduced more
+than stereotype-consistent behaviour by the first few generations, while later
+generations reversed this trend and recalled more stereotype-consistent behaviour.
+Finally, Mesoudi and Whiten (2004) found that descriptions of everyday routine events,
+such as getting up or going shopping, were gradually transformed from low-level details
+into high-level global propositions, consistent with hierarchical script models of event
+knowledge representation.
+
+These recent studies demonstrate that the transmission chain method can be
+uniquely effective in revealing cumulative and systematic biases in recall that affect
+cultural transmission. The present study used this method to investigate the cultural
+transmission of information regarding third party social relationships, including what is
+commonly called gossip. As acknowledged by Emler (2001), there has been very little
+social psychological theory developed in this area, and even less systematic hypothesis
+testing. In contrast, we have approached the topic from an evolutionary and
+comparative perspective, in which there is a large body of work devoted to the social
+function of human intelligence. We believe that such an approach can add theoretical
+rigour to a traditionally underdeveloped and under-researched topic.
+
+The Machiavellian intelligence/social brain hypothesis
+
+The Machiavellian intelligence (Byrne & Whiten, 1988; Whiten, 1999b; Whiten &
+Byrne, 1997) or social brain (Dunbar, 1998, 2003) hypothesis asserts that primate
+intelligence evolved primarily to deal with complex social problems, rather than non-
+social ecological or technological problems such as locating food, extractive foraging or
+using tools. Support for the hypothesis comes from correlational analyses of a number of
+primate species showing a link between a proxy of intelligence, the ratio of neocortex
+to the rest of the brain and various measures of social complexity, such as group size
+(Barton & Dunbar, 1997), frequency of tactical deception (Byrne & Corp, 2004
+and frequency of social play (Lewis, 2001). Measures of non-social complexity, such as
+range size or foraging style, show no such correlation with neocortex ratio
+(Dunbar, 1995).
+
+Although such analyses encompass the entire primate order, the Machiavellian
+intelligence hypothesis should not be taken as excluding the evolution of human
+intelligence, and the studies cited above include data from several ancestral hominid
+species (as well as modern humans). Indeed, Whiten (1999a) outlines how social factors
+may have shaped cognition during human evolution to produce what he terms a deep
+social mind, exhibiting faculties such as mind-reading and coordinated cooperation.
+Dunbar’s (1993, 1996) social gossip theory argues that language evolved in humans in
+response to social selection pressures, in order to track complex social relationships and
+ensure their coherence in the unusually large social groups characteristic of modern
+humans.
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission 407
+
+The Machiavellian intelligence hypothesis can also be taken to imply that, as a result
+of selection pressures in the past favouring social cognitive complexity, the cognition of
+modern-day humans should exhibit certain specializations to deal with social problems
+CWhiten, 2000). If modern-day human cognition is indeed moulded to deal with social
+problems, then people should preferentially attend to, recall and transmit social
+information over equivalent non-social information. Observational evidence consistent
+with this claim was provided by Dunbar, Duncan, and Marriott (1997), who found that
+freely forming conversational groups spent approximately two-thirds of their time
+discussing social topics (personal relationships, personal experiences or social
+activities) - more than work, leisure, politics and the arts combined.
+
+To date, there has been no equivalent experimental test of the Machiavellian
+intelligence hypothesis with regard to cultural transmission. However, an earlier memory
+study by Owens, Bower, and Black (1979), while not intended to be such a test, can be
+considered relevant. Participants in Owens ef al’s (1979) study read and recalled
+descriptions of a female student involved in five everyday events: making a cup of coffee,
+going to the doctor’s, buying some milk, attending a lecture and going to a party. The
+experimental group, but not the control group, was also told of a motive for the character
+(that she is pregnant by her professor) that could be used to make sense of and connect
+the five episodes, in effect turning the neutral events into gossip. The result was that the
+experimental group recalled significantly more episodes than the control group.
+
+The present study
+
+The aim of the present study was to extend Owens ef al’s (1979) findings in two ways,
+in order to provide an explicit test of the Machiavellian intelligence hypothesis with
+regard to human cultural transmission. First, rather than having single participants
+reading and recalling experimental material (i.e. social and non-social material, here we
+used Bartlett’s (1932) transmission chain method to pass the material along chains of
+participants, in order to investigate the longer-term persistence of any ‘social bias’ in
+cultural transmission. If an effect can be demonstrated to have a degree of stability or
+persistence along chains of multiple participants, we can more confidently extrapolate
+from this necessarily simplified experimental setting to a larger group or population
+level and draw wider conclusions regarding human culture as a whole.
+
+Second, we explicitly draw on the Machiavellian intelligence hypothesis in order to
+provide precise definitions of social and non-social information, as shown in Table 1. The
+Machiavellian intelligence hypothesis holds that it is not merely being ‘social’ in the sense
+of ‘living in groups’ that has been a key factor in the evolution of primate intelligence, but
+rather the degree of social complexity, characterized by frequently changing coalitions
+and alliances (Whiten, 1999b). Hence, we define social information as information
+concerning interactions and relationships between a number of third parties. This social
+category is subdivided according to the quality of those interactions or relationships:
+gossip involves particularly intense and salient social interactions and relationships, such
+as the illicit affair and the pregnancy of Owens ef ai’s (1979) material, while social non-
+gossip involves more everyday interactions and relationships. This social category is
+contrasted with non-social information, which we divide into information concerning a
+single individual’s interactions with the physical environment (individual) and
+information solely concerning that physical environment (physical).
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+20448295, 2006, 3, Downloaded from https://bpspsychub.on!
+
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+ 
+
+ibrary.wiley.com/doi/10.1348/000712605X85871 by University Of Haifa Younes & Soraya Nazarian, Wiley Online Library on [22/11/2022]. See the Terms and Conditions (https://on!
+
+408 Alex Mesoudi et al.
+
+brary. wiley.com/erms-and-conditions) on Wiley Online Library for rules of use; OA articles are govemed by the applicable Creative Commons License
+
+ 
+
+ 
+
+JuawuoslAua jersdyd ayo uly Ajajos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+sasoyroddy |er180/005 sdiysuonejas puke suonoesaqu! 8UlUJa2U07 jeaisdyd
+e2ID0S-UO
+JuawuoslAua [eaisdyd I" N
+ay) pue uosied aj3uls e Usemjeq
+sasoyroddy |er180/005 sdiysuonejas puke suonoesaqu! 8UlUJa2U07 [enplaipuy|
+suonreiaiul pue sdiysuonejes
+sisoyroddy arua3ij[aIU! UBIJOARIyDe[, jeipos Aqed-paiyy AepAsaaad BulusaDU07 disso3-uou [e190
+[eIpos
+UoNnjoae asenur| Jo salsoayy aanewojdxo suonoesaiul pue sdiysuonejes
+jsisoyyoddy a2us: ARIEL, jeinos Aqed-puiy) esuagu! ZulusJaDU07 dissory
+Aq peripe.id uonuyeq UONRWIOJU]
+
+ 
+
+UOISSILUSUR.) SULINP paJnoary aq 0} UONeWOJU! By) sIDIPesd Jey) Ayoayi ay) YIM ‘Apnis siyi Ul paisa? UOMeWUOJU! Jo A1O8aIeD Ydea JO sUOMIULAG *| BIqeL
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission 409
+
+Hypotheses
+
+The Machiavellian intelligence hypothesis would predict that social information (both
+gossip and social non-gossip) would be transmitted in greater quantity and with greater
+accuracy than the non-social information (both individual and physical). Ecological
+hypotheses of the evolution of primate intelligence (e.g. Clutton-Brock & Harvey, 1980)
+might predict in contrast that the individual information Chow to do things) and the
+physical information (about the non-social environment) would be transmitted at least
+as well as the social information. A stronger version of the Machiavellian intelligence
+hypothesis might additionally predict that social interactions, which are more intensely
+‘Machiavellian’ and gossip-like, featuring exploitative behaviour such as deception or
+infidelity, would elicit a stronger appeal than commonplace everyday social interactions.
+This stronger form would thus additionally predict that the gossip information would be
+transmitted in greater quantity and with greater accuracy than the social non-gossip
+information.
+
+This additional difference between the gossip and the social non-gossip information
+might also be predicted by theories which argue that the function of gossiping is to
+transmit information about other people’s antisocial behaviour, in order to learn about
+their reputation and protect against exploitation. Enquist and Leimar (1993) argued that
+gossiping is a behavioural adaptation to protect against potential free-riders by
+spreading information about their past behaviour, preventing the free-riders from
+moving from population to population in order to find and exploit naive individuals.
+Meanwhile, Wilson, Wilczynski, Wells, and Weiser (2000) argued that gossiping acts as a
+means of preventing behaviour that acts to promote individual gain at the expense of
+the group. This argument was backed up by a series of experiments in which
+participants rated speakers of self-serving gossip more negatively than speakers of
+group-serving gossip. If these theories are correct, information about exploitative or
+antisocial behaviour such as deception and infidelity (the gossip material) should be
+favoured over simple everyday social interactions (the social non-gossip material).
+
+Note that these predictions are only intended to apply to information that is
+equivalent in dimensions other than the social/non-social comparison. The word
+equivalent here is intended to exclude non-social information that is particularly salient
+or significant to people for other specific reasons: we do not claim that aé/ social
+information is always transmitted better than a// non-social information, but rather that
+when the only difference between two pieces of information is the social component,
+then the social will be preferred over the non-social.
+
+EXPERIMENT |
+
+In line with the theoretical predictions outlined above and in Table 1, in Experiment 1,
+three paragraphs matched for number of words, sentences and propositions were
+constructed, each constituting a different class of information. The gossip information
+featured an illicit affair and pregnancy (following Owens et ai, 1979), the individual
+information comprised simple facts about a single character such as their age and
+occupation and physical information described the geography, history and commerce of
+a city. (Note that the social category is represented here solely by the gossip material; a
+distinction between gossip and social non-gossip information is made in Experiment 2).
+These paragraphs were then transmitted along multiple chains of participants using the
+methodology developed by Bartlett (1932).
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+410 Alex Mesoudi et al.
+
+Materials and methods
+
+Design
+
+A within-chain transmission chain design was adopted, in which the first participant in
+each of 10 replicate chains was given material containing information representing all
+three categories (gossip, individual and physical). Each of the 10 chains comprised four
+participants, or ‘generations’. This within-chain design was intended to reduce random
+between-chain variation, and afford better detection of any differences between the
+material types.
+
+The independent variable was the transmission generation, of which there were four
+(F1-F4). The dependent variables were the total number of propositions recalled (recall
+quantity), and the number of propositions that were present in the original material
+(recall accuracy), as detailed in the Coding section below. It was predicted that gossip
+would be transmitted in greater quantity and with greater accuracy than both the
+individual and the physical material.
+
+Note that each chain of four participants was here treated as an independent unit of
+analysis, rather than each participant. This is because the focus of interest is the material
+and how that material changes as it passes through the chain, rather than any single
+participant’s memory performance. Furthermore, the recall of second, third and fourth
+generation participants is constrained by each previous generation’s recall, with
+anything omitted in one generation unavailable to subsequent generations to recall.
+Hence, the recalls of each participant within a single chain are not statistically
+independent of one another, and in the ANOVAs reported below, each chain is treated as
+an independent unit of analysis, rather than each participant (e.g. ‘between-groups’
+implies ‘between-chains’ rather than ‘between-subjects’).
+
+It was judged that four participants constituted an optimum chain length - in other
+words, that this number was long enough to capture the long-term cumulative effects of
+cultural transmission, yet short enough to be practical in terms of recruiting participants
+and performing replications. Previous transmission chain studies (Bangerter, 2000;
+Mesoudi & Whiten, 2004) have successfully demonstrated transmission effects using
+four participants per chain.
+
+Material
+
+The original material given to the first participant in each chain was composed of three
+paragraphs, each paragraph representing one of the three types of information: gossip,
+individual and physical (although these labels were not given to the participants). These
+paragraphs are reproduced in Appendix A. Each of the paragraphs was matched for
+number of words, sentences and propositions.
+
+The original material contained the three paragraphs in a fixed order: individual,
+then gossip, then physical. The order was not counterbalanced, as it was felt that the
+material as a whole would make less sense to the participant if, for example, the physical
+material came first. Pilot studies suggested that order of presentation has no effect on
+recall, and in any case, any primacy or recency effect would favour either the individual
+or the physical material, against the main experimental hypothesis.
+
+Participants
+
+There were 40 participants of mean age 20.98 years (SD = 3.30) who performed the
+experiment. Seven of the chains were composed of female participants (V = 28) and
+three of the chains were composed of male participants (V = 12) to check for possible
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission = 41 |
+
+gender differences, although based on the results of Owens ef al. (1979) and Dunbar
+et al. (1997), none were predicted. All participants were students, participated
+voluntarily, were unpaid and had normal reading and writing ability.
+
+Procedure
+
+The procedure adopted here involved the experimenter physically passing the material
+from individual to individual (as in Bartlett, 1932), rather than the participants directly
+transmitting the material. This allowed for greater control over transmission, and
+removed the need to gather groups of participants together. Participants were thus run
+in groups of between one and five.
+
+A booklet was produced that contained on the first page the instruction, ‘please read
+the following text through once. When you have finished turn the page’, followed by the
+material. The second page contained the instruction, ‘now, without turning back, please
+write out as best you can the text you just read. Be as accurate as possible, but don’t
+worry if you can’t remember it all. When you have finished turn the page’, followed by a
+blank space for recall. A final sheet solicited the age and gender of the participant, and
+thanked them for participating, whereupon the experimenter debriefed them as to the
+nature of the study. The recall was then typed up and inserted into the next participant’s
+booklet as appropriate.
+
+No distractor task was performed, and no time limit was set. At no point in the
+procedure did either the printed instructions or the experimenter state that the
+experiment was a memory test, that the material had come from another participant, or
+that their recall would be passed on to another participant.
+
+Coding
+
+A propositional analysis (Kintsch, 1974) was performed on each participant’s recall. The
+text was divided into separate propositions, a proposition defined as a predicate plus a
+series of ordered arguments. A predicate is a verb, adjective or other relational term,
+while an argument is the complementary noun(s). For example, the sentence
+
+‘Nancy enjoys swimming’
+would be represented in terms of propositions as
+(ENJOY, NANCY, SWIMMING)
+
+where the verb ‘to enjoy’ is the predicate and takes two arguments, the subject
+(Nancy) and the object of her enjoyment (swimming). Because the precise wording of the
+proposition as written in Standard English is unimportant for the propositional
+representation, the proposition above could equally represent other equivalent
+sentences such as ‘Nancy enjoys going swimming’ or ‘Nancy gets enjoyment
+from swimming’. Propositional analysis was developed to represent meaning in texts,
+and the number of propositions contained in a text has been shown by Kintsch (1974) to
+determine reading times and subsequent comprehension. As such, it might be considered
+a more meaningful measure of recall than the number of words or sentences.
+
+This propositional analysis was used to calculate the total number of propositions
+recalled, a measure of recall quantity. The second recall measure, that of recall accuracy,
+was obtained by comparing the propositions recalled by each participant with the
+propositions contained in the original material. This yielded the number of correctly
+recalled propositions. Note that recall in each generation was always compared with the
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+412 Alex Mesoudi et al.
+
+original (FO) material, not the previous generation’s recall, as it is the gross cumulative
+changes that are important rather than any single individual’s memory achievement.
+
+To assess inter-rater reliability, an independent coder, blind to the hypothesis and to
+the material type, coded two of the chains from Experiment 1 and three of the chains
+from Experiment 2 (the same propositional analysis was used in both experiments). The
+coding of the blind second coder and the first author was highly consistent, with a
+Pearson’s correlation coefficient of .97.
+
+Results
+
+Recall quantity
+
+A mixed 2 X 3 X 4 ANOVA with gender as a between-groups factor and material and
+generation as within-groups factors showed an overall effect of material,
+F(2, 16) = 63.71, p < .01, and of generation, F(3, 24) = 26.49, p < .01, but no effect
+of gender, F(1, 8) = 2.37, ns. Planned comparisons were made between each pair of
+material types, using 2 X 4 within-groups ANOVAs at a Bonferroni corrected
+significance level of a* =a/N where N = number of comparisons (hence
+a* = .05/3 = .017). Significant differences were found between gossip and individual,
+F(1, 9) = 131.44, p < .01, and between gossip and physical material, F(1, 9) = 112.46,
+p < .01, although there was no significant difference between individual and physical,
+F(1, 9) =3.80, ns. The prediction that a larger quantity of the gossip material is
+transmitted than the other material is therefore supported, and can be observed in Fig. 1,
+with a larger quantity of the gossip material transmitted in every generation than of the
+individual and physical material.
+
+Recall accuracy
+
+Figure 2 suggests a similar pattern for the measure of recall accuracy to that shown in
+Fig. 1 for recall quantity. A mixed 2 X 3 X 4 ANOVA with gender as a between-groups
+factor and material and generation as within-groups factors showed an overall effect of
+
+ 
+
+—* Individual
+12 -#- Gossip
+7 Physical
+
+ 
+
+ 
+
+ 
+
+Total number of propositions recalled
+
+ 
+
+ 
+
+0
+F1 F2 F3 F4
+
+Generation
+
+Figure |. The total number of propositions recalled by each generation of Experiment | (irrespective
+of accuracy). Error bars show standard errors.
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission = 413
+
+material, F(2, 16) = 73.55, p < .01, and of generation, F(3, 24) = 26.91, p < .01, but
+no effect of gender, F(1, 8) = 2.90, ms. Planned comparisons showed significant
+differences between gossip and individual material, F(1, 9) = 151.22, p < .01, and
+between gossip and physical material, F(1, 9) = 117.36, p < .01, and no significant
+difference between individual and physical material, ¥(1, 9) = 8.05, ns. The prediction
+that gossip is transmitted with greater accuracy than the other material is therefore
+supported.
+
+There was a significant material X generation interaction, F(6, 48) = 2.81, p < .05,
+probably due to the individual and physical materials exhibiting an initial difference in
+recall but then converging on a minimum baseline value (Fig. 2). This was indicated by
+simple effects showing a significant difference between individual and physical material
+at generation F1, F(1, 9) = 7.31, p < .05, but not at generations F2, F(1, 9) = 5.06, ns,
+F3, F(1, 9) = 1.55, ms, or F4, F(1, 9) = 3.12, ns.
+
+The gossip versus physical planned comparison additionally showed a significant
+material X generation interaction, F(3, 27) = 4.38, p< .017. This is most likely
+because the gossip material showed the steepest decline and the physical material the
+shallowest, causing the magnitude of the difference between these two material types to
+change with generation (although simple effects of gossip versus physical were
+significant at every generation). Partial correlation coefficients showed no effect of age
+on overall recall (7) = .09, N = 40, ns), controlling for generation, and none of the tests
+above violated the assumption of sphericity.
+
+Discussion
+
+The results of Experiment 1 support the hypothesis that the gossip material would be
+transmitted in greater quantity and with greater accuracy than the non-social material
+(either individual or physical). However, a concern is that as well as differing in
+informational content, the three paragraphs could also be seen as differing in
+coherence. That is, the gossip material may form a coherent narrative, with the
+
+1.0
+
+ 
+
+0.9 -* Individual
+-#- Gossip
+0.8 — Physical
+0.7
+4
+
+ 
+
+ 
+
+ 
+
+0.6
+0.5
+0.4
+q
+0.3
+0.2
+0.1
+0
+
+Proportion of correctly recalled propositions
+
+ 
+
+ 
+
+F1 F2 F3 F4
+Generation
+
+Figure 2. The proportion of propositions that were correctly recalled by each generation of
+Experiment |. Error bars show standard errors.
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+414 Alex Mesoudi et al.
+
+character’s affair and pregnancy integrating the entire paragraph. The other two
+paragraphs perhaps showed a less coherent narrative, lacking an integrating theme and
+reading more like a list of unconnected facts. The reason that the gossip was transmitted
+with greater accuracy than the other two types of material could therefore have been
+due to its coherence, rather than the fact that it had gossip-like content. This issue was
+addressed in Experiment 2.
+
+EXPERIMENT 2
+
+In Experiment 2, we aimed to equate conditions with respect to the integrating theme
+or coherent narrative. What, however, should count as an ‘integrating theme’ or
+‘coherent narrative?’ Mandler and Johnson (1977), Thorndyke (1977) and Rumelhart
+(1977) developed the idea, originally put forward by Bartlett (1932), that stories are
+particularly easy to remember because they form coherent narratives that can be
+represented by a hierarchical schema structure. It is unlikely, however, that a paragraph
+of approximately 60 words would have such a complex hierarchical structure, beyond a
+simple linear chain of events linked causally and temporally. For example, the pregnancy
+causes the professor to refuse to see Nancy, which then causes Nancy to threaten to tell
+his wife about the affair. In contrast, a chain that is linked temporally but not causally
+would simply be a list of unconnected events and lack coherence, while a chain that is
+linked causally but not temporally would not form a narrative. Each type of material used
+in Experiment 2 was therefore designed to constitute a comparable linear chain of
+events linked causally and temporally, so that superior recall of the gossip material can
+be more definitely attributed to its gossip-like content rather than its greater structural
+coherence, as was possible in Experiment 1.
+
+In Experiment 2, we also featured the fourth type of material from Table 1,
+distinguished as social non-gossip information (henceforth simply sociad). This material
+contained the same number of social interactions and social agents as the gossip but
+with interactions that would not be considered as intense or salient. So we now test
+firstly the prediction of the broad Machiavellian intelligence hypothesis that both the
+social and gossip material would be transmitted in greater quantity and with greater
+accuracy than the non-social individual and physical material, and secondly the
+additional prediction of the strong Machiavellian intelligence hypothesis that the gossip
+material would be transmitted better than the social material.
+
+Materials and Methods
+
+The design of Experiment 2 was largely identical to that of Experiment 1, with 10 chains
+each comprising four participants again transmitting all types of material. There were
+three minor differences: first, there were four types of material (gossip, social, individual
+and physical) rather than three; second, the order in which this material was presented
+was now counterbalanced; and third, five of the chains were female, and five were male.
+None of the participants tested here took part in, or had any knowledge of, Experiment
+1. All 40 participants were students, participated voluntarily, were unpaid and had
+normal reading and writing ability. Their mean age was 21.40 years (SD = 3.83).
+
+The original material given to the first participant in each chain is reproduced in
+Appendix B. The gossip information again featured an affair and pregnancy as its theme,
+although the information that Nancy is lying to her friends did not fit into the single
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission = 415
+
+linear chain, so was replaced with extra information at the end concerning the
+professor’s wife leaving the professor. The social (non-gossip) information comprised a
+causal and temporal chain consisting of a series of social interactions and containing the
+same number of agents as the gossip, but without gossip-like content such as deception,
+infidelity and pregnancy. Individual information featured a chain consisting of
+interactions between a single character and the inanimate world. Finally, physical
+information contained no intentional agents in the chain, consisting entirely of
+interactions within a physical system.
+
+To test whether each of the four types of material were comparable on dimensions
+other than the desired experimental manipulation of social content, 10 additional
+participants not involved in the experiment proper were given the four paragraphs
+(gossip, social, individual and physical) and asked to rate each of them on a 7-point scale
+for coberence, familiarity and realism. No significant differences were found between
+the paragraphs on any of these dimensions, suggesting that any differences found in
+Experiment 2 are unlikely to be due to differences in coherence, familiarity or realism,
+which had been a concern in Experiment 1.
+
+Results and Discussion
+
+Recall quantity
+
+A mixed 2 X 4X 4 ANOVA with gender as a between-groups factor and material and
+generation as within-groups factors showed an overall effect of material,
+F(3, 24) = 15.29, p < .01, and of generation, F(2, 15) = 36.76, p < .01 (Greenhouse-
+Geisser corrected), but no effect of gender, F(1, 8) = 0.11, ms. Planned comparisons
+were again made between the pairs of material types predicted to differ, using 2 x 4
+within-groups ANOVAs at a Bonferroni corrected significance level of a* =a/N
+where N = number of comparisons (there are now five comparisons, hence
+a* = .05/5 = .01). There were significant differences between gossip and individual,
+F(1, 9) = 25.72, p<.01, and gossip and physical, F(1,9) = 28.23, p< .01,
+demonstrating that a larger quantity of gossip material was transmitted than of either
+the individual or the physical material, as was predicted. Also as predicted, a
+significantly larger quantity of the social material was transmitted than of the non-social
+materials, as shown by significant differences between social and individual,
+F(1, 9) = 15.43, p <.01, and social and physical, F(1, 9) = 21.49, p < .01. There
+was, however, no significant difference between gossip and social, F(1, 9) = 0.16, us.
+These effects are illustrated in Fig. 3.
+
+Recall accuracy
+
+Figure 4 suggests that the gossip and the social material were likewise transmitted
+with greater accuracy than the individual and physical material. Compared with the
+measure of quantity shown in Fig. 3, however, there is a larger difference between
+gossip and social, with the latter transmitted with slightly poorer accuracy than the
+former, especially at generations F2 and F4. A mixed 2 X 4X 4 ANOVA with gender
+as a between-groups factor and material and generation as within-groups factors
+showed an overall effect of material, F(3, 24) = 12.99, p < .01, and of generation,
+F(2, 15) = 38.78, p < .01 (Greenhouse-Geisser corrected), but no effect of gender,
+F(1, 8) = 0.08, ns.
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+416 Alex Mesoudi et al.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+14
+3 42 -t- Gossip
+8 Social
+2 -e- Individual
+2 10 7 Physical
+2
+8 8
+a
+3
+a 4
+5 6
+3
+¢ 4
+3
+c
+B 2
+e E
+0
+FA F2 F3 F4
+
+Generation
+
+Figure 3. The total number of propositions recalled by each generation of Experiment 2 (irrespective
+of accuracy). Error bars show standard error.
+
+Planned comparisons showed significant differences between gossip and individual,
+F(1, 9) = 43.34, p < .01, and gossip and physical, F(1, 9) = 18.89, p < .01. The gossip
+material was therefore transmitted with greater accuracy than the two non-social types
+of material, as was predicted. The comparisons between social and individual,
+F(1, 9) = 10.19, p =.011, and social and physical, F({1, 9) = 10.30, p = .011, were
+both extremely close to significance at the Bonferroni corrected significance level of .01,
+and so will be treated as such. This confirms the second part of the hypothesis that the
+social material would also be transmitted with greater accuracy than the two non-social
+material types (individual and physical).
+
+The additional prediction that the gossip would be transmitted with greater accuracy
+than the social was not supported. There was no significant difference between the
+
+8
+£
+eB
+8
+&
+re
+8
+8
+&
+~
+Q
+g
+Z
+-
+a
+g
+a
+>
+3
+2
+=
+3
+s
+3
+3
+2
+6
+$
+z=
+=
+3
+=
+=
+&
+g
+a
+2
+2
+es
+<
+5
+2
+=
+&
+=
+2S
+g
+&
+=
+2B
+&
+&
+a
+me
+ae
+a
+r
+z
+S
+2
+z
+&
+2
+<
+x
+E
+®
+rw
+3
+g
+§
+&
+fe
+n
+g
+a
+é
+‘s
+Zz
+a
+8.
+=
+5
+e
+2
+2
+&
+a
+c
+=
+8
+2
+3
+sg
+rei
+8
+Ss
+8
+8
+&
+ye
+g
+8
+a
+a
+3
+2
+g
+a
+a
+g
+3
+a
+2
+a
+2
+3
+
+ 
+
+1.0
+
+0.9 -#- Gossip
+0.8 © Social
+—* Individual
+0.7 ¢ Physical
+
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+
+0
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Proportion of correctly recalled propositions
+
+ 
+
+F1 F2 F3 F4
+Generation
+
+Figure 4. The proportion of propositions that were correctly recalled by each generation of
+Experiment 2. Error bars show standard errors.
+
+asuor] suounuoZ aanearg a[qzoridde ap Aq pawioaod are sappiue YO fasn Jo somnu 40p AaesqrT aUTTUG ATIAA, UO (suOHIPUOD-puB-sUMayLOD KeytN’ArBIgY
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission 417
+
+gossip material and the social material, F(1, 9) = 2.40, ms. However, as can be seen in
+Fig. 4, there is a trend towards the gossip being transmitted with greater accuracy than
+the social material, and at generation F2 this difference is indeed significant,
+F(1, 9) =7.98, p <.05. This difference is not strong, however, and there is no
+theoretical reason why generation F2 would be any more likely to show a difference
+than the other generations. Thus, while we note a trend for the gossip to be transmitted
+with greater accuracy than the social, with the results certainly not as clear cut as for the
+measure of recall quantity, the hypothesis that the gossip material is transmitted with
+greater accuracy than the social material cannot be accepted.
+
+Partial correlation coefficients showed no effect of age on overall recall (7p = .08,
+N = 40, ns), controlling for generation. None of the statistical tests described above
+featured any interactions, and none violated the assumption of sphericity (except where
+the Greenhouse-Geisser corrected significance level is given).
+
+Conclusions
+
+The aim of the present study was to investigate whether there is a bias for social
+information in human cultural transmission, as predicted by evolutionary theories that
+posit a social origin for human intelligence. Experiment 1 found evidence that gossip-
+like social information is transmitted with significantly greater accuracy and in greater
+quantity than non-social information. Experiment 2 replicated this finding using material
+equivalent in narrative coherence, demonstrating that coherence was not responsible
+for the superior recall of the gossip. Experiment 2 also found that information
+concerning social interactions that would not be described as gossip was transmitted
+with an accuracy and in a quantity not significantly different from the gossip itself. That
+is, the gossip-like content of infidelity, deception and pregnancy was relatively
+unimportant; what mattered for superior transmission was that there were a number of
+third party social agents interacting with one another.
+
+These results are therefore consistent with the Machiavellian intelligence (Byrne &
+Whiten, 1988; Whiten, 1999b; Whiten & Byrne, 1997) or the social brain (Dunbar, 1998,
+2003) hypothesis that primate intelligence evolved primarily to deal with social, rather
+than ecological, information. Here, this is reflected in a social bias in cultural
+transmission. The results are also consistent with Dunbar’s (1993, 1996) social gossip
+theory of language evolution that language evolved to exchange social information. A
+stronger form of the Machiavellian intelligence hypothesis, and theories that argue for a
+more negative, exploitative function of language (Enquist & Leimar, 1993; Wilson ef al.,
+2000), were not supported, in that information commonly considered gossip-like in
+content was transmitted no better than equivalent non-gossip social information.
+Theories that argue that primate intelligence is the result of ecological selection
+pressures were also not supported, with information concerning the non-social
+environment transmitted poorly.
+
+One possible objection to our interpretation of the results might be that the social
+material used in Experiment 2 (asking directions from strangers) was not ‘social’ in the
+sense of the Machiavellian intelligence hypothesis. That is, the relationships between
+the characters were not very meaningful and the characters were not exchanging
+information about themselves or other people. The broad Machiavellian intelligence
+hypothesis, however, predicts that amy social interactions should be memorable,
+whatever their content or quality. There are still many potentially important social cues
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+418 Alex Mesoudi et al.
+
+present, such as the personality of the character (e.g. their helpfulness) or the reliability
+of the information they give. This information can then be stored and used to negotiate
+future social interactions, which may be more complex. In any case, information which
+is intermediate between the social and the gossip material, featuring interactions more
+strongly Machiavellian than the social material (but not as strong or negative as the
+gossip material), would presumably be transmitted just as well as these two were in
+Experiment 2.
+
+It might be argued that rather than being the result of a biologically evolved
+predisposition, the social bias seen here is the result of some related property of the
+material, such as its emotional impact or attentional salience. Various findings from
+the social psychological literature concerning memory might be used to account for
+some of our findings, such as that people have better recall for descriptions of
+behaviour that violates social norms (Wyer, Budesheim, Lambert, & Swan, 1994) for
+information that is incongruent with social expectations (Stangor & McMillan, 1992)
+and for negative self-discrepant in-group behaviour (Gramzow, Gaertner, & Sedikides,
+2001). We do not, however, see these two types of explanation as in opposition.
+Properties such as arousing, salient or memorable represent the proximate
+mechanisms by which an evolved bias may operate. The two levels of explanation,
+ultimate and proximate, should be seen as separate and complementary (Tinbergen,
+1963). Indeed, a full account of human cognition and behaviour requires empirical
+evidence from all explanatory levels.
+
+It might also be argued that information about social relationships becomes
+particularly salient during development, causing such a bias to be learned. Again,
+however, this does not contradict an ultimate evolutionary argument for a biologically
+evolved predisposition or bias to learn and transmit certain types of information. To the
+contrary, the comparative evidence for the social brain hypothesis (Dunbar, 1995; Joffe,
+1997) makes it likely that such a bias does indeed have an evolutionary basis at some
+stage of development. Nevertheless, developmental investigations would be useful in
+further clarifying the nature and origin of the social bias observed here.
+
+A final objection might be that the transmission aspect of our study adds little to the
+findings of Owens ef al. (1979) concerning recall at the individual level. Such an effect
+was already apparent in our first generation recall, where single participants recalled
+social information better than non-social information. However, a bias in memory or
+recall and a bias in transmission are not alternative or opposing phenomena. The long-
+term transmission bias does of course reflect a memory bias, but its significance is that it
+uniquely documents the cumulative operation of that memory bias in successive
+participants, providing an experimental microcosm for the study of cultural, as opposed
+to merely cognitive (memory) processes. Furthermore, the assumption that a consistent
+effect will be observed along an extended chain is just that - an assumption - which
+should be empirically tested. Indeed, previous transmission chain studies (e.g. Kashima,
+2000a; Mesoudi & Whiten, 2004) have demonstrated crossover effects in which later
+generations reverse a trend exhibited by earlier generations.
+
+Data on persistence consequently allow us to draw conclusions regarding the wider
+effect of a social bias on human culture in general. As noted by Kashima (2000b), Bartlett
+(1932) was interested not only in cultural transmission, but also large-scale cultural
+change, and Kashima suggests that the transmission chain method ‘provides one way of
+examining how micro-processes contribute to a macro-phenomenon such as the
+maintenance of culture’ (p. 394). We may speculate that the bias for social information
+found here can be extrapolated to the population level, to explain the popularity of
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission 4.19
+
+socially oriented mass media such as gossip magazines and television soap operas over
+non-social or factual journals and television documentaries. There are a number of
+theoretical frameworks that might be used to make this link more formally, such as
+Moscovici’s (1984) social representation theory, Sperber’s (1996) epidemiological
+model of cultural change and theories of cultural evolution (Boyd & Richerson, 1985;
+Cavalli-Sforza & Feldman, 1981; Mesoudi, Whiten, & Laland, 2004, in press). Space does
+not permit us to examine these in any detail here.
+
+As noted by Emler (2001), there has been very little experimental work on gossip in
+the past. Hence, this study was intended to be an initial investigation of the
+phenomenon under very simplified conditions. There are undoubtedly a number of
+factors not examined here that probably play an important role in the transmission of
+social information in the real world, and we hope that future work will systematically
+examine such factors. For example, our participants were not instructed that the
+experiment was a memory test, that the material had come from another participant, or
+that their recall would be passed on to another participant. The third parties described
+in the material were also not known to the participants. Given that it is well established
+that people often tailor their messages to suit the intended receiver (Sperber & Wilson,
+1986), providing such information may well affect the content or accuracy of recall.
+Similarly, transmitting the material face-to-face rather than via anonymous written text
+would allow the investigation of interpersonal factors such as intonation of voice or non-
+verbal cues.
+
+The conclusions drawn here are dependent on the specific material used, and there
+is a need to replicate the study with alternative examples of the different types of
+information. In Experiment 2, we strove to ensure that the four material types contained
+equivalent underlying causal and temporal chains so that differences in transmission
+could be more confidently attributed to differences in content. However, this underlying
+structure was still somewhat informal, and future studies might use more advanced
+models of causal links in narratives (e.g. Trabasso & Sperry’s 1985 causal network
+representation model) to more precisely equate the underlying structure of the different
+material. There may also be an effect of varying the number of social agents or
+interactions. The gossip and social material in Experiment 2 featured three people,
+which is within the typical upper bound of four found in natural conversational groups
+(Dunbar, Duncan, & Nettle, 1995). Perhaps material featuring interactions between
+more than four people would be transmitted less well.
+
+Finally, there is a need to replicate the study cross-culturally. Although condition-
+dependent biases might modulate outcomes according to ecological variations, the
+evolutionary theories outlined above would predict that people in many different
+societies would show the social bias found here. However, the sample used in the
+present study is particularly useful in one respect in challenging the stereotypical
+and historical view of ‘a gossip’ as poorly educated, of low intelligence and female
+(Emler, 2001, pp.318-319). Here, we found that highly educated and intelligent
+young people of both sexes exhibit a bias for gossip over non-social (‘factual’)
+information.
+
+Acknowledgements
+
+This research was supported in part by a University of St. Andrews studentship to Alex Mesoudi.
+Robin Dunbar is supported by a British Academy Research Professorship. We are grateful to Kevin
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+420 Alex Mesoudi et al.
+
+N. Laland and Stephen Reicher for helpful comments on earlier drafts of this manuscript, and to
+Lesley Fraser for help with coding data.
+
+References
+
+Bangerter, A. (2000). Transformation between scientific and social representations of
+conception: The method of serial reproduction. British Journal of Social Psychology, 39,
+521-535.
+
+Bartlett, F C. (1932). Remembering. Oxford: Macmillan.
+
+Barton, R., & Dunbar, R. I. M. (1997). Evolution of the social brain. In A. Whiten & R. W. Byrne
+(Eds.), Machiavellian intelligence I: Extensions and evaluations (pp. 240-263). New York:
+Cambridge University Press.
+
+Boyd, R., & Richerson, P. J. (1985). Culture and the evolutionary process. Chicago: University of
+Chicago Press.
+
+Byrne, R. W., & Corp, N. (2004). Neocortex size predicts deception in primates. Proceedings of
+the Royal Society B, 271, 1693-1699.
+
+Byrne, R. W., & Whiten, A. (1988). Machiavellian intelligence - social expertise and the evolution
+of intellect in monkeys, apes and bumans. Oxford: Clarendon.
+
+Cavalli-Sforza, L. L., & Feldman, M. W. (1981). Cultural transmission and evolution. Princeton,
+NJ: Princeton University Press.
+
+Clutton-Brock, T. H., & Harvey, P H. (1980). Primates, brains and ecology. journal of the
+Zoological Society of London, 190, 309-323.
+
+Dunbar, R. I. M. (1993). Coevolution of neocortical size, group size and language. Bebavioral and
+Brain Sciences, 16, 681-735.
+
+Dunbar, R. I. M. (1995). Neocortex size and group size in primates: A test of the hypothesis.
+Journal of Human Evolution, 28, 287-296.
+
+Dunbar, R. I. M. (1996). Grooming, gossip and the evolution of language. London: Faber and
+Faber.
+
+Dunbar, R. I. M. (1998). The social brain hypothesis. Evolutionary Anthropology, 6, 178-190.
+
+Dunbar, R. I. M. (2003). The social brain: Mind, language, and society in evolutionary perspective.
+Annual Review of Anthropology, 32, 163-181.
+
+Dunbar, R. I. M., Duncan, N. D. C., & Marriott, A. (1997). Human conversational behavior. Human
+Nature, 8, 231-246.
+
+Dunbar, R. I. M., Duncan, N. D. C., & Nettle, D. (1995). Size and structure of freely forming
+conversational groups. Human Nature, 6, 67-78.
+
+Emler, N. (2001). Gossiping. In W. P. Robinson & H. Giles (Eds.), The new handbook of language
+and social psychology (pp. 317-338). Chichester: Wiley.
+
+Enquist, M., & Leimar, O. (1993). The evolution of cooperation in mobile organisms. Animal
+Behaviour, 45, 747-757.
+
+Gramzow, R. H., Gaertner, L., & Sedikides, C. (2001). Memory for in-group and out-group
+information in a minimal group context: The self as an informational base. Journal of
+Personality and Social Psychology, 80, 188-205.
+
+Hall, K. R. L. (1951). The effect of names and titles upon the serial reproduction of pictorial and
+verbal material. British Journal of Psychology, 41, 109-121.
+
+Joffe, T. H. (1997). Social pressures have selected for an extended juvenile period in primates.
+Journal of Human Evolution, 32, 593-605.
+
+Kashima, Y. (2000a). Maintaining cultural stereotypes in the serial reproduction of narratives.
+Personality and Social Psychology Bulletin, 26, 594-604.
+
+Kashima, Y. (2000b). Recovering Bartlett’s social psychology of cultural dynamics. European
+Journal of Social Psychology, 30, 383-403.
+
+Kintsch, W. (1974). The representation of meaning in memory. Oxford: Erlbaum.
+
+8
+£
+eB
+8
+&
+re
+8
+8
+&
+~
+Q
+g
+Z
+-
+a
+g
+a
+>
+3
+2
+=
+3
+s
+3
+3
+2
+6
+$
+z=
+=
+3
+=
+=
+&
+g
+a
+2
+2
+es
+<
+5
+2
+=
+&
+=
+2S
+g
+&
+=
+2B
+&
+&
+a
+me
+ae
+a
+r
+z
+S
+2
+z
+&
+2
+<
+x
+E
+®
+rw
+3
+g
+§
+&
+fe
+n
+g
+a
+é
+‘s
+Zz
+a
+8.
+=
+5
+e
+2
+2
+&
+a
+c
+=
+8
+2
+3
+sg
+rei
+8
+Ss
+8
+8
+&
+ye
+g
+8
+a
+a
+3
+2
+g
+a
+a
+g
+3
+a
+2
+a
+2
+3
+
+ 
+
+asuor] suounuoZ aanearg a[qzoridde ap Aq pawioaod are sappiue YO fasn Jo somnu 40p AaesqrT aUTTUG ATIAA, UO (suOHIPUOD-puB-sUMayLOD KeytN’ArBIgY
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+A social bias in cultural transmission 42
+
+Klugman, S. F (1944). Memory for position, among children, as measured by serial reproduction.
+British Journal of Psychology, 35, 17-24.
+
+Lewis, K. (2001). A comparative study of primate play behaviour: Implications for the study of
+cognition. Folia Primatologica, 71, 417-421.
+
+Mandler, J. M., & Johnson, N. 8. (1977). Remembrance of things parsed: Story structure and recall.
+Cognitive Psychology, 9, 111-151.
+
+Maxwell, R. S. (1936). Remembering in different social groups. British Journal of Psychology, 27,
+30-40.
+
+Mesoudi, A., & Whiten, A. (2004). The hierarchical transformation of event knowledge in human
+cultural transmission. Journal of Cognition and Culture, 4, 1-24.
+
+Mesoudi, A., Whiten, A., & Laland, K. N. (2004). Is human cultural evolution Darwinian? Evidence
+reviewed from the perspective of The Origin of Species. Evolution, 58, 1-11.
+
+Mesoudi, A., Whiten, A., & Laland, K. N. (in press). Towards a unified science of cultural evolution.
+Behavioral and Brain Sciences.
+
+Moscovici, S. (1984). The phenomenon of social representations. In R. M. Farr & S. Moscovici
+(Eds.), Social representations (pp. 3-69). Cambridge: Cambridge University Press.
+
+Northway, M. L. (1936). The influence of age and social group on children’s remembering. British
+Journal of Psychology, 27, 11-29.
+
+Owens, J., Bower, G. H., & Black, J. B. (1979). The soap opera effect in story recall. Memory and
+Cognition, 7, 185-191.
+
+Rumelhart, D. E. (1977). Towards an interactive model of reading. In S. Dornic (Ed.), Attention
+and performance (pp. 573-603). Hillsdale, NJ: Erlbaum.
+
+Sperber, D. (1996). Explaining culture: A naturalistic approach. Oxford: Oxford University Press.
+
+Sperber, D., & Wilson, D. (1986). Relevance: Communication and cognition. Oxford: Blackwell.
+
+Stangor, C., & McMillan, D. (1992). Memory for expectancy-congruent and expectancy-
+incongruent information: A review of the social and social developmental literatures.
+Psychological Bulletin, 111, 42-61.
+
+Thorndyke, P. W. (1977). Cognitive structures in comprehension and memory of narrative
+discourse. Cognitive Psychology, 9, 77-110.
+
+Tinbergen, N. (1963). On aims and methods of ethology. Zeitschrift fuer Tierpsychologie, 20,
+410-433.
+
+Trabasso, T., & Sperry, L. L. (1985). Causal relatedness and importance of story events. Journal of
+Memory and Language, 24, 595-611.
+
+Ward, T. H. G. (1949). An experiment on serial reproduction with special reference to the changes
+in the design of early coin types. British Journal of Psychology, 39, 142-147.
+
+Whiten, A. (19994). The evolution of deep social mind in humans. In M. C. Corballis & S. E. G. Lea
+(Eds.), The descent of mind: Psychological perspectives on hominid evolution (pp. 173-193).
+Oxford: Oxford University Press.
+
+Whiten, A. (1999b). Machiavellian intelligence hypothesis. In R. A. Wilson & FE C. Keil
+(Eds.), The MIT encyclopedia of the cognitive sciences (pp. 495-497). Cambridge, MA: MIT
+Press.
+
+Whiten, A. (2000). Social complexity and social intelligence. In G. Bock, J. Goode & K. Webb
+(Eds.), The nature of intelligence (pp. 185-201). Chichester: Wiley.
+
+Whiten, A. & Byrne, R. W. (Eds.), (1997). Machiavellian intelligence I Extensions and
+evaluations. New York: Cambridge University Press.
+
+Wilson, D. S., Wilczynski, C., Wells, A., & Weiser, L. (2000). Gossip and other aspects of language
+as group-level adaptations. In C. Heyes & L. Huber (Eds.), The evolution of cognition. Vienna
+series in theoretical biology (pp.347-365). Cambridge, MA: MIT Press.
+
+Wyer, R. S., Budesheim, T. L., Lambert, A. J., & Swan, S. (1994). Person memory and judgment:
+Pragmatic influences on impressions formed in a social context. Journal of Personality and
+Social Psychology, 66, 254-267.
+
+8
+£
+eB
+8
+&
+re
+8
+8
+&
+~
+Q
+g
+Z
+-
+a
+g
+a
+>
+3
+2
+=
+3
+s
+3
+3
+2
+6
+$
+z=
+=
+3
+=
+=
+&
+g
+a
+2
+2
+es
+<
+5
+2
+=
+&
+=
+2S
+g
+&
+=
+2B
+&
+&
+a
+me
+ae
+a
+r
+z
+S
+2
+z
+&
+2
+<
+x
+E
+®
+rw
+3
+g
+§
+&
+fe
+n
+g
+a
+é
+‘s
+Zz
+a
+8.
+=
+5
+e
+2
+2
+&
+a
+c
+=
+8
+2
+3
+sg
+rei
+8
+Ss
+8
+8
+&
+ye
+g
+8
+a
+a
+3
+2
+g
+a
+a
+g
+3
+a
+2
+a
+2
+3
+
+ 
+
+Received 25 October 2004; revised version received 10 November 2005
+
+asuor] suounuoZ aanearg a[qzoridde ap Aq pawioaod are sappiue YO fasn Jo somnu 40p AaesqrT aUTTUG ATIAA, UO (suOHIPUOD-puB-sUMayLOD KeytN’ArBIgY
+Copyright © The British Psychological Society
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+422 ~~ Alex Mesoudi et al.
+
+Appendix A
+
+Material for experiment |
+
+The first participant of each chain in Experiment 1 read the following three paragraphs.
+The bracketed labels, indicating the type of material and the numbers of words,
+sentences and propositions, were not presented to the participants.
+
+[Individual]
+
+Nancy is a 22-year-old college student studying history at the University of
+Denver. Her father works as an accountant and her mother is a teacher. At
+weekends, she works part-time in a book-store. When she finishes her studies,
+Nancy plans to travel abroad before pursuing a career as either a novelist or a
+journalist.
+
+[58 words, four sentences, 14 propositions]
+
+[Gossip]
+
+Nancy is having an affair with her married college professor. She has been lying to
+her friends about seeing him. Nancy recently became pregnant with the
+professor’s child. The professor promised Nancy that he would leave his wife, but
+since she told him she was pregnant, the professor has refused to see her. Nancy
+is threatening to tell his wife about the affair.
+
+[63 words, five sentences, 14 propositions]
+
+[Physical]
+
+Denver is the state capital of Colorado, located in the western United States near
+the Rocky Mountains. An early stopping place for Indians, Denver was settled
+permanently after the gold rush of 1859. Its main industry is agriculture. Denver
+is a major centre for winter sports, and also contains a branch of the US mint,
+which produces most of America’s coinage.
+
+[61 words, four sentences, 14 propositions]
+
+Appendix B
+
+Material for experiment 2
+
+The first participant of each chain in Experiment 2 read the following four paragraphs.
+The bracketed labels, indicating the type of material and the numbers of words,
+sentences and propositions, were not presented to the participants.
+
+[Gossip]
+
+Nancy is having an affair with her married college professor. Nancy recently
+became pregnant with the professor’s child. The professor promised Nancy that
+he would leave his wife, but since Nancy told him she was pregnant, the
+professor refused to see her. So Nancy told the professor’s wife about the affair.
+The professor’s wife was so upset that she left the professor.
+
+[62 words, five sentences, 14 propositions]
+
+[Social]
+Nancy enjoys swimming. Nancy was going to the swimming pool but got lost, so
+she asked an old man waiting at a bus stop for directions. The old man could not
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+Copyright © The British Psychological Society
+
+A social bias in cultural transmission
+
+give her directions. A bus arrived at the bus stop and the old man asked the driver
+for directions. The driver gave Nancy directions to the swimming pool, so Nancy
+was able to go swimming.
+
+[66 words, five sentences, 14 propositions]
+
+[Individual]
+
+One morning, Nancy’s alarm clock broke and she overslept. When she woke up,
+she realized that she was late for an important lecture. She got dressed as quickly
+as she could, left the house and ran to the lecture theatre. When she got there, the
+lecture theatre was empty. Nancy had missed the lecture.
+
+[54 words, five sentences, 14 propositions]
+
+[Physical]
+
+The weather in Colorado gets hot and dry in the summer. This removes moisture
+from the soil and dries out the plants that grow there. The dry vegetation catches
+fire easily, leading to frequent forest fires. These fires release smoke containing
+carbon monoxide into the atmosphere. This smoke contributes to global
+warming, increasing temperatures further.
+
+[55 words, five sentences, 14 propositions]
+
+Reproduction in any form (including the internet) is prohibited without prior permission from the Society
+
+423
+
+asuor] suounuoy aanearg a[qzordde ap Aq pawioaod are sappiue YO fasn Jo soma 40g Aaesqry aUTTUG ABTIAA, UO (suOHIPUOD-puB-sUMaYOD Keyl ArBuquaUTTUOy:sdyy) SuODIPUDD PUB SULA ap 2ag ‘[ZZOZ/IL/TC] UO AMBIGIT AULD ABTIAA ‘UELIEZENY BABIOg 7 SOUNOK BBL IO AUSIOATUCL Aq ILESSXSO9TILLOOO/BPE [0 LAOPAUOD Kata Kreaqifautyuo-qnyoxsdsdqy:sdhyy wos papwojumog 'f “9007 ‘S6ZBPPOT
+

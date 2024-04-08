@@ -1,0 +1,554 @@
+ACADEMIA
+
+Accelerating the world's research.
+
+Recognition bias for critical faces in
+social phobics
+
+Lars-Gunnar Lundh
+
+Behaviour Research and Therapy
+
+Cite this paper Downloaded from Academia.edu4
+
+Get the citation in MLA, APA, or Chicago styles
+
+Related papers Download a PDF Pack of the best related papers 7
+
+Information processing in social phobia: a critical review
+
+ 
+
+Stefan Hofmann
+
+Memory biases in the anxiety disorders
+Meredith Coles
+
+Cognitive bias and memory performance in patients with persistent insomnia
+Lars-Gunnar Lundh
+Behar. Res. Ther. Vol. 34, No. 10, pp. 787-794, 1996
+Pergamon Copyright G 1996 Elsevier Science Ltd
+
+Printed in Great Britain. All rights reserved
+
+S0005-7967(96)00035-6 0005-7967/96 $15.00 + 0.00
+
+RECOGNITION BIAS FOR CRITICAL FACES IN SOCIAL
+PHOBICS
+
+LARS-GUNNAR LUNDH* and LARS-GORAN OST
+Department of Psychology, Stockholm University, S-106 91, Stackholm, Sweden
+
+(Received 25 March 1996)
+
+Summary—Social phobics were compared with normal controls on a task of face recognition. The subjects
+were presented with 20 photos, and were required to judge whether the persons on the photos were critical
+or accepting; five minutes later they were unexpectedly presented with a recognition task. The social
+phobics recagnized more of the critical than the accepting faces, whereas the controls tended to recognize
+more accepting than critical faces. The results are discussed in terms of a possible recognition bias or
+response bias, and in terms of differences in the encoding activities of the subjects. It is also argued that
+research on memory in emotional disorders should make more use of concrete non-verbal stimuli (like
+faces) in the future, since subjects’ encoding activities are more amenable to experimental control with
+such stimuli than with verbal stimuli. Copyright © 1996 Elsevier Science Ltd
+
+INTRODUCTION
+
+Although patients with various kinds of anxiety disorders seem to show a clear encoding bias for
+stimuli related to their specific fears, there is much less evidence for a similar memory bias.
+Although the literature in this field is somewhat contradictory, the evidence indicates that memory
+bias may differ (a) between various anxiety disorders, and (b) between different kinds of memory
+tasks in Ss with the same anxiety disorder. First, whereas there is evidence of an explicit memory
+bias for threat words in panic disorder (Cloitre & Liebowitz, 1991; Cloitre, Shear, Cancienne &
+Zeitlin, 1994; McNally, Foa & Donnell, 1989), there is a lack of similar evidence in GAD patients
+(Mathews, Mogg, May & Eysenck, 1989; Mogg, Mathews & Weinman, 1987; Mogg, Mathews &
+Weinman, 1989) and in social phobics (Rapee, McCallum, Melville, Ravenscroft & Rodney,
+1994: Cloitre, Cancienne, Heimberg, Holt & Liebowitz, 1995). Second, concerning memory tasks,
+there is some evidence of an implicit memory bias for threat words in anxiety patients, even when
+they show no evidence of an explicit memory bias (Mathews e7 a/., 1989; MacLeod & McLaughlin,
+1995).
+
+Memory tasks may differ in a number of ways. For example, a memory task may be explicit
+or implicit, i.e. it may ask explicitly for the Ss’ memory, or it may present the Ss with some other
+kind of task which will indirectly show something about their memory. Explicit tasks may involve
+free recall, cued recall, or recognition; implicit tasks may involve word stem completion, word
+fragment completion, lexical decision, anagram solution, tachistoscopic identification, etc. Memory
+tasks may also differ as to the kind of stimuli involved, which may be verbal or non-verbal.
+Most of the research done so far on memory bias in anxiety disorders has used verbal stimuli, and
+very little is known about the memory functioning of anxiety patients on non-semantic stimuli.
+One exception is Watts, Tresize and Sharrock (1986), who studied recognition memory for spiders
+among spider phobics, and found some evidence of poorer recognition memory for big spiders
+among the spider phobics than among controls.
+
+One kind of non-verbal stimuli that may be especially relevant to social phobics is facial
+stimuli. The basic fear in social phobia is about being negatively evaluated by others, and since
+facial expression is an important way of conveying positive and negative evaluations, it may
+be of interest to study memory for faces in social phobics. The purpose of the present study,
+therefore, was to explore the possible existence of a bias on face recognition in patients with social
+phobia.
+
+*Author for correspondence.
+
+787
+788 Lars-Gunnar Lundh and Lars-Géran Ost
+
+It is generally accepted that memory for faces is influenced by the S’s encoding activities. Bower
+and Karlin (1974), for example, showed that facial recognition was better after judgments about
+the perceived honesty or likeableness of a face than after judgments about its gender. Other studies
+have shown consistently that memory for faces is considerably better following judgments of traits
+such as honesty, friendliness, or intelligence than after judgments of specific physical features such
+as size of nose, bushiness of eyebrows, or shape of chin (Winograd, 1978). According to the
+elaboration hypothesis (Winograd, 1981), this trait superiority effect in facial memory is owing to
+the amount of information that is encoded; in other words, judging personality traits improves
+memory for faces because it leads to a more extensive scan of the face and, as a consequence, to
+more information being encoded.
+
+For the understanding of social phobia, it is relevant to ask whether the basic fears of social
+phobics make them engage in different encoding activities than normal controls when perceiving
+people’s faces, in such a way that it affects their recognition memory for faces. Two questions that
+may be posed with regard to social phobics’ memory for human faces are: (1) if social phobics differ
+from normal controls in their general ability to recognize faces, and (2) if they differ from controls
+in their recognition memory for positively versus negatively perceived faces. One possibility is that
+social anxiety leads to an inhibition of the person’s general tendency to scan human faces, or his/her
+more specific tendency to scan ‘negative’ faces—this would result in a decreased capacity for face
+recognition, or a recognition bias for positive faces. This would be analogous to the results found
+by Watts et al. (1986) with spider phobics. Another possibility is that social anxiety, on the
+contrary, is associated with an increased vigilance for human faces, or more specifically, for
+‘negative’ faces—which would result in an increased scanning and an improved memory for faces,
+or a recognition bias for negative faces.
+
+In an earlier study (Lundh & Ost, 1996a) social phobics and normal controls were compared
+on a face recognition task, where the encoding task was to judge 20 ordinary persons on photos
+according to the quality of contact, or interaction, that the Ss expected with these persons if they
+were to meet them in real life. Five minutes later the Ss were unexpectedly presented with a
+recognition task which involved 80 faces, among which were the faces seen during the encoding
+task. The results showed that although the social phobics judged the expected quality of interaction
+as significantly lower than the controls, there were no group differences on the recognition of high
+versus low interaction faces. That is, the social phobics showed no evidence of a recognition bias
+with respect to positively or negatively perceived faces.
+
+One possible critique of this study is that the encoding task used does not refer explicitly to the
+social threat of negative evaluation—which is the social phobic’s basic fear—but rather to the
+formation or non-formation of social bonds, which does not seem to be the basic concern of social
+phobics. If Ss’ encoding activities are important for their memory for faces, then it may be argued
+that a memory bias in social phobics may be most likely to appear with an encoding task which
+activates the social fears of negative evaluation in a more direct way. One way of activating people’s
+possible fears of negative evaluation while watching photos of unfamiliar persons is to let them
+rate the degree of ‘critical’ or ‘accepting’ attitude of the persons seen. The purpose of the present
+study, therefore, was to explore whether social phobics have a recognition bias for faces encoded
+as ‘critical’ or ‘accepting’.
+
+METHOD
+
+Subjects
+
+The Ss were 20 social phobics (of which 17 had a subdiagnosis of generalized social phobia) and
+20 normal controls. The Ss in the social phobia group were part of a treatment study with
+cognitive-behaviour therapy, and ali of them met the DMS-HI-R (American Psychiatric
+Association, 1987) criteria for social phobia. All patients were tested individually before starting
+therapy, but after having been evaluated for the treatment project. As part of the treatment study
+they were interviewed with the revised version of the Anxiety Disorders Interview Schedule
+(ADIS-R; DiNardo & Barlow, 1988). Interviewers rated Ss on the 0-8 Severity Rating Scale,
+included in the ADIS-R, and only S's who received a rating of four (moderate impairment) or
+greater were included in this study. The mean score on the severity rating scale was 5.55 (SD 1.23):
+Recognition bias for critical faces in social phobics 789
+
+the patients themselves rated the severity of their phobia as 6.45 (SD 1.43) on a 0-8 rating scale
+that is part of Marks and Mathews (1979) Fear Questionnaire. Potential Ss were excluded if they
+received a diagnosis of primary depression, bipolar disorder, psychotic disorder or active drug or
+alcohol dependence. All patients were tested individually before starting therapy, but after having
+been evaluated for the therapy project.
+
+The control group were volunteers who were matched to the social phobics for sex and
+age (+2 yr). They were recruited in two ways: (a) with advertisements in a living area not
+far from the university; these Ss were paid 100 SEK for their participation in the study; and
+(b) undergraduate students in psychology, who received course credit for their participation. The
+control Ss underwent a screening interview with a short version of the ADIS-R (DiNardo &
+Barlow, 1988) to rule out previous or current mental disorder before being included in the study.
+The sex distribution was the same for both groups (18 women and 2 men), and they did not differ
+in age; the social phobics were 31.8 (SD = 7.0) yr old, whereas the controls were 31.7 (SD = 12.0)
+yr old. As to educational level, among the social phobics 10 Ss had studied at the university,
+whereas 10 had not; among the controls 13 had studied at the university, whereas 7 had not; this
+difference was not statistically significant (x? = 0.92).
+
+The social phobics scored significantly higher than the controls on the Social Anxiety
+Scale of Fenigstein, Scheier and Buss’ (1975) Self-Consciousness Questionnaire [19.05 vs 7.72,
+1(38) = 9.50, P < 0.0001].
+
+Materials
+
+The materials were the same as that used in an earlier study by Lundh and Ost (1996a). Black
+and white photographs of 80 persons (40 men, 40 women) were taken from a larger material
+originally used by Backman (1991). The photos portrayed faces of young to middle-aged persons
+that were unfamiliar to the Ss. Twenty of these persons (the target persons) were represented by
+two slightly different photos: one that was presented during the encoding task, and one that was
+presented during the recognition task. The 60 remaining faces were distractors which were only
+shown during the recognition task. Since the two photos of the 20 target persons were taken on
+one and the same occasion, they involved no differences in terms of age, hair length, beard, or other
+more constant aspects of the person’s face; the differences between the two photos merely concerned
+temporary aspects like the facial expressions of the persons seen.
+
+There were two reasons for using slightly different photos of the target persons in the
+encoding and recognition tasks: (1) By using slightly different photos, the recognition task
+becomes more similar to real-life situations, where people never appear with exactly the same
+facial expression and from exactly the same physical perspective. That is, the task is not only
+to recognize a photo, but to recognize a person, which may be assumed to be a more ecologically
+valid task. (2) By using slightly different photos, the recognition task becomes more sensitive to
+differences in the amount of information encoded by the Ss. According to Winograd’s (1981)
+elaboration hypothesis, the more a S scans a photo of a person’s face, the more information he
+or she will encode not only about superficial features, like the person’s temporary facial
+expression, but also about more invariant properties of the faces seen. If Ss tend to scan certain
+faces more than others, then this may be expected to result in a better ability to recognize
+these faces even when they are confronted with a slightly different photo in the recognition task.
+If exactly the same photo had been chosen in both the encoding task and the recognition
+task, the chances of detecting group differences due to variations in the amount of scanning
+would be less.
+
+Procedure
+
+At the encoding stage, the Ss were instructed to look through a file with 20 photographs
+(10 males and 10 females), sized 12 x 18 cm. The faces were presented in a fixed order, which had
+been determined by a random procedure, but was the same for all Ss. As encoding task, they were
+required to judge whether they perceived the person seen as a critical or accepting person, i.e. “as
+a person who is generally critical towards others and tends to find faults with other people, or as
+generally accepting and tolerant with regard to others’ shortcomings”. This rating was done on
+a S-point scale, where 1 meant ‘a very accepting person’ and 5 meant ‘a very critical person’.
+
+BRT 3410 -C
+790 Lars-Gunnar Lundh and Lars-Géran Ost
+
+Table 1. Mean number of hits, false alarms, and d’ values on the face recognition
+
+ 
+
+ 
+
+task
+Social phobics Control subjects
+M SD M sD
+Number of faces recognized 16.5 28 14.8 44
+False alarms 37 3.1 3.3 2.8
+d 3. 1.4 31 1.9
+
+ 
+
+It was explained that the Ss should try to ‘catch their immediate impression’ of the persons on
+the photos, and that they should not dwell too long on any single face.
+
+Following the encoding task, Ss were given an unrelated task (word stem completion) for about
+5 min. As recognition task, they were then instructed to look through a file with 80 numbered
+photographs, numbered from 1 to 80, with the information that among these were the 20 persons
+they had seen before. Their task was to say aloud the number attached to persons they recognized,
+which was then recorded by the experimenter. All Ss were presented with the faces in a fixed order
+which had been determined by a random procedure. After memory testing, the Ss completed a
+number of self-assessment questionnaires, including the Social Anxiety subscale on Fenigstein
+et al.’s (1975) Self-Consciousness Scale.
+
+RESULTS
+
+Face ratings
+
+There was no group difference on the degree to which the faces on the photos were seen as critical
+or accepting [mean rating 2.88 vs 2.88; (38) = —0.02].
+
+Face recognition
+
+The number of faces that were recognized (the hits) and the number of faces that were incorrectly
+identified at the recognition trial (the false alarms) are shown in Table 1. There was no significant
+group difference neither on hits [#(38) = 1.42, P = 0.16] nor on false alarms [t(38) = 0.43], and
+signal detection analysis revealed no significant difference on a’ [t(38) = 0.11].
+
+Bias on the face recognition task
+
+Bias on the face recognition task was studied in two ways: (a) by comparing the mean
+proportions of critical vs accepting faces that were recognized by each group, and (b) by comparing
+the mean ‘critical-accepting’ ratings of the recognized and non-recognized faces for each group.
+The first measure was called ‘recognition bias’, and the second ‘rating bias’.
+
+Recognition bias
+
+For each S, the target faces were divided into three categories, depending on the S’s rating
+of the degree of critical or accepting attitudes of the persons seen: faces rated as 4 or 5
+were categorized as critical, faces rated as 3 were categorized as neutral, and faces rated as
+2 or 1 were categorized as accepting. The number of faces that were rated as critical and
+accepting, and the number of critical and accepting faces that were recognized by the social phobics
+and the control Ss are shown in Table 2. The proportion of the critical and accepting faces
+
+Table 2. Mean numbers of faces rated as critical and accepting, and mean
+numbers (and proportions) of ‘critical’ and ‘accepting’ faces that were recognized
+
+ 
+
+ 
+
+Social phobics Control subjects
+M sD M 8D
+Number of faces
+rated as ‘critical’ (4-5) 6.4 2.3 6.7 3.
+rated as ‘accepting’ (1-2) 78 24 77 2.5
+Number of faces recognized
+rated as ‘critical’ 3.7 2.1 47 2.9
+rated as ‘accepting’ 63 2.6 6.5 2.9
+Proportion faces recognized
+rated as ‘critical’ 0.89 0.13 0.72 0.27
+
+rated as ‘accepting’ 0.79 0.19 0.83 0.20
+
+ 
+Recognition bias for critical faces in social phobics 791
+
+(i.e. the faces that were so rated by each S’) that were recognized was computed for each S$; 2 Ss, 1
+in each group, had to be excluded from this analysis since they rated no face as critical.
+
+In order to investigate if there was any recognition bias for critical or accepting faces in the
+two groups of Ss, a mixed ANOVA on the proportion of recognized faces was computed with
+Group (2: Social Phobics, Controls) as between-S's variable, and Face Category (2: Critical,
+Accepting) as within-Ss variable. The mean proportions of critical and accepting faces that were
+recognized in the two groups are shown in Table 2. The results showed no main effect of Group
+[F(1,36) = 1.44], or Face Category [F(1,36) = 0.07]. but a highly significant interaction effect
+[F(1,36) = 9.20, P < 0.005].
+
+In order to clarify this interaction, paired tests were used to compare the proportion of critical
+and accepting faces that were recognized by each group separately. The results showed that the
+social phobics recognized significantly more critical than accepting faces [#(18) = 2.44, P < 0.05,
+two-tailed], whereas there was an almost significant difference in the opposite direction among the
+controls [#(18) = — 1.99, P = 0.06, two-tailed].
+
+Among the 19 social phobics, 11 Ss showed a bias for the recognition of critical faces, in the
+sense that they recognized a larger proportion of critical than accepting faces. Only 3 social
+phobics showed a bias in the opposite direction, i.e. they recognized more accepting than critical
+faces. The remaining 5 social phobics showed no bias in any direction, i.e. they recognized
+proportionately as many critical as accepting faces. Among the controls, 7 showed a recognition
+bias for accepting faces, 3 showed a bias for critical faces, and 9 showed no bias. This group
+difference was statistically significant [y? = 8.29, P < 0.02].
+
+Rating bias
+
+The hypothesis of a bias for critical vs accepting faces was also tested by adding the
+critical-accepting ratings of the recognized and unrecognized faces, for each S. These added
+scores were then divided by the number of faces actually recognized and not recognized,
+respectively, for each S. This resulted in two mean scores of degree of perceived critical attitude
+(1-5) of recognized and unrecognized faces for each S (see Table 3). Three Ss in each group
+had to be excluded from this comparison, since they recognized all 20 faces on the recognition
+trial. This left 17 Ss in each group, for which a mixed ANOVA was computed, with Group (2:
+Social Phobics, Controls) as between-Ss variable, and Face Category (2: Recognized,
+Unrecognized) as within-Ss variable. The results showed no main effect of Group [F(1,32) = 1.35],
+or of Face Category [F(1,32) = 0.14], but a highly significant interaction effect [F(1,32) = 10.2,
+P < 0.005].
+
+In order to clarify this interaction, paired t-tests were used to compare the critical-accepting
+valence of the recognized vs the unrecognized faces in each group separately. The results showed
+that the recognized faces were rated as significantly more critical than the unrecognized faces by
+the social phobics [#(16) = 2.53, P < 0.05], whereas there was a significant difference in the opposite
+direction among the controls, ie. they rated the recognized faces as less critical than the
+unrecognized faces [1(16) = —2.15, P < 0.05].
+
+On this rating bias measure, 14 of 17 social phobics showed a bias for critical faces, in the
+sense that the faces they recognized were rated as more critical than the faces that they did not
+recognize, whereas only three social phobics showed a bias in the opposite direction, ie. the
+faces they recognized were rated as less critical than the faces that they did not recognize.
+Among the controls, 11 Ss showed a bias for accepting faces, 4 showed a bias for critical
+faces, and 2 showed no bias. This group difference was highly statistically significant [y? = 12.13,
+P< 0.005).
+
+Table 3. Mean ratings of faces that were recognized and not recognized
+
+ 
+
+Social phobics Control subjects
+M sD M sD
+
+ 
+
+Ratings (1-5) of
+Faces recognized 2.95 0.23 2.79 0.38
+Faces unrecognized 2.68 0.45 3.42 0.56
+
+ 
+792 Lars-Gunnar Lundh and Lars-Goran Ost
+
+Bias correlations
+
+In order to study the correlation between recognition and rating bias, separate indices of these
+two measures of bias were computed. A recognition bias index was computed by subtracting the
+proportion of recognized accepting faces from the proportion of recognized critical faces for each
+S.A similar rating bias index was computed by subtracting the critical-accepting valence of the
+unrecognized faces from the critical-accepting valence of the recognized faces for each S. These
+two bias indices correlated r = 0.90 [P < 0.0001]. Among the social phobics, the correlation was
+r = 0.84, and among the controls r = 0.88.
+
+DISCUSSION
+
+The social phobics in the present study showed a clear bias for ‘critical’ vs ‘accepting’ faces on
+the recognition task, whereas the control Ss had a tendency in the opposite direction. The social
+phobics showed a significant bias for critical faces both on the measure of recognition bias
+(i.e. they recognized a higher proportion of critical than accepting faces) and on the measure of
+rating bias (i.e. the faces they recognized had a higher rating on ‘criticalness’ than the faces that
+were not recognized). The controls, on the contrary, showed a significant bias for accepting faces
+on the rating bias measure, and an almost significant bias for accepting faces on the measure of
+recognition bias.
+
+These results contrast with earlier research, where it has been difficult to demonstrate explicit
+memory biases in social phobics (Rapee et a/., 1994; Cloitre et al., 1995). The results in the present
+study are similarly at odds with an earlier study by Lundh and Ost (1996a) where the Ss were
+presented with the same faces as in the present study but had another encoding task (i.e. judging
+the expected quality of contact that would take place with these persons if they were to meet them
+in real life), and where the social phobics did not differ from the controls on the recognition task.
+This suggests that the Ss’ encoding activities may be of crucial importance for their performance
+on the recognition task.
+
+Earlier research indicates that face recognition is considerably better following judgments of
+traits (Winograd, 1981), The present research suggests that this effect depends on the specific
+meaning that a certain ‘trait’ has for the individual. It may be assumed that each person’s cognitive
+network of meaning structures involve ‘trait nodes’, i.e. nodes for trait concepts like ‘honest’,
+‘friendly’, ‘intelligent’, ‘critical’, ‘accepting’, etc. These kinds of traits may have a different meaning
+for different persons, i.e. their corresponding nodes may be part of different networks of meaning
+structures (Lundh, 1983, 1995). The results in the present study are consistent with the hypothesis
+that the trait node of being ‘critical’ is part of a more highly organized network of meaning
+structures in social phobics than in controls, and that the encoding of faces as ‘critical’ will therefore
+make these faces more easy to recognize for social phobics.
+
+There is, however, a possible alternative explanation which cannot be ruled out. It is theoretically
+possible that the results in this study reflect a response bias, rather than a true recognition bias.
+This hypothesis cannot be ruled out with the present design, since the Ss did not rate the degree
+of critical attitude of the distracter faces shown during the recognition task. It is theoretically
+possible that faces which would have been rated as ‘critical’ were overrepresented among those
+distracter faces which were erroneously claimed to be recognized by the social phobics, and
+underrepresented among those distracter faces erronously claimed to be recognized by the controls.
+The bias would then reflect a greater tendency for controls to guess that a face had been presented
+if it was accepting, and a greater tendency for social phobics to guess that a face had been presented
+if it was critical. The ideal design would have required that the Ss rate the degree of critical attitude
+for the distracter faces, following the completion of the recognition task. This would have provided
+measures of ‘hits’ and ‘false alarms’ for each face category, so that a signal detection analysis could
+have been carried out with a calculation of d’ and B measures for each ‘valence’ of face. If the
+observed interaction had been obtained using such @’ measures, it would have been possible to rule
+out this alternative explanation of a response bias, and to make stronger claims concerning the
+involvement of biased recognition memory.
+
+It is noteworthy that the social phobics in the present study did not rate the persons on the photos
+as more critical than the controls did. This may seem surprising, in view of the evidence (e.g. Leary,
+Recognition bias for critical faces in social phobics 793
+
+Kowalski & Campbell, 1988), which indicates that socially anxious persons tend to have a
+generalized expectancy that other people are likely to be critical. It should be noted, however, that
+Leary et al. asked their Ss to rate how they expected that certain imagined persons (a professor,
+a fellow airplane passenger, and a friend’s acquaintance) would rate others in a number of
+hypothesized situations. The Ss in the present study, on the contrary, were asked to rate the degree
+of critical or accepting attitude of persons whose faces were actually perceived on photos. Whereas
+Leary et al. (1988) asked for Ss’ beliefs, or generalized expectancies, about people’s critical
+attitudes, the task in the present study asked the Ss to look at photos of real people and judge
+the degree of critical attitude which they perceived in their faces—which, in fact, is not altogether
+dissimilar from cognitive techniques that are used for testing patients’ beliefs. In short, if the
+encoding task in the present study taps the Ss’ capacity for social perception, rather than their
+beliefs or general expectancies, then there seems to be no reason to expect that social phobics should
+rate the faces as more critical than the controls.
+
+The results of the present study show that, although the social phobics did not rate the persons
+on the photos as more critical than the control S's did, they had better memory for the faces they
+had rated as critical—or, alternatively (according to the response bias explanation) had a greater
+tendency to guess that a face had been presented if it was critical. Whether the present results are
+due to a genuine recognition bias or a response bias, they demonstrate a difference between social
+phobics and normal controls that deserves further exploration.
+
+Methodologically, a case may be made for more use of non-verbal stimuli, like faces, in future
+research on memory bias in emotional disorders. One reason for this is that Ss’ encoding activities
+are generally more amenable to experimental control with non-verbal than verbal stimuli. Consider,
+for example, the imagination task that has been used in several studies of memory for threat-related
+words in anxiety patients (Mathews ef a/., 1989; Rapee et al., 1994; Lundh & Ost, 1996b). In this
+paradigm, the Ss are presented with individual words during 10 sec, and are instructed to imagine
+a situation which involves both the word and themselves; such a task obviously leaves room for
+a much larger variation of encoding activities in the Ss than is the case in the present study. Words
+are abstract entities, which may at best represent categories of phenomena, and the instruction to
+judge a word in some respect leaves the question open which concrete instantiation of the verbal
+concept is to be judged? In this way, words are one step further away from the real world of
+interaction with other persons than are people’s faces, and this makes it considerably more difficult
+to control the Ss’ way of encoding words experimentally.
+
+If Ss’ encoding activities are important for their emotional response to stimuli, which they should
+be according to cognitive models of psychopathology, then we need to be able to control these
+encoding activities experimentally in order to explore their effects. In the present study, the Ss’
+encoding activities during the presentation of each photo were controlled by a task which required
+them to rate the degree to which the persons on the photos were seen as critical or accepting, and
+this produced significant group differences on the recognition task. In the earlier study on face
+recognition by Lundh and Ost (1996a), the Ss’ encoding activities were controlled by another kind
+of task (i.e. rating the expected quality of contact that would take place with the persons on the
+photos if the Ss were to meet them in real life), and this produced no group differences on the
+recognition task. One possible explanation of this difference in results is that the encoding tasks
+activated different emotional concerns in the Ss. The rating task used in the present study (critical
+or accepting’) is more likely to activate emotional concerns of negative evaluation, whereas the
+rating task used in the earlier study (‘good or bad contact?’) is more likely to activate emotional
+concerns of forming or not forming social bonds with others. Whether these effects are owing
+to a genuine recognition bias or a response bias, they indicate that experiments which control
+the encoding activities of the Ss may be of potential interest in future cognitive research on
+psychopathology. That is, it may be of great interest to enter variations in encoding activities as
+independent variables in future experiments, and this is probably facilitated by the use of
+non-verbal stimuli.
+
+REFERENCES
+
+American Psychiatric Association (1987). Diagnostic and Statistical Manual of Mental Disorders (3rd edn, revised).
+Washington, DC: Author.
+794 Lars-Gunnar Lundh and Lars-Géran Ost
+
+Backman, L. (1991). Recognition memory across the adult life span: The role of prior knowledge. Memory and Cognition,
+19, 63-71.
+
+Bower, G. H. & Karlin, M. B. (1974). Depth of processing pictures of faces and recognition memory. Journal of
+Experimental Psychology, 103, 751-757.
+
+Cloitre, M. & Liebowitz, M. R. (1991). Memory bias in panic disorder: An investigation of the cognitive avoidance
+hypothesis. Cognitive Therapy and Research, 15, 371-386.
+
+Cloitre, M., Shear, K., Cancienne, J. & Zeitlin, S. B. (1994). Implicit and explicit memory for catastrophic associations
+to bodily sensation words in panic disorder. Cognitive Therapy and Research, 18, 225-240.
+
+Cloitre, M., Cancienne, J., Heimberg, R. G., Holt, C. S. & Liebowitz, M. R. (1995). Memory bias does not generalize across
+anxiety disorders. Behaviour Research and Therapy, 33, 305-307.
+
+DiNardo, P. A., & Barlow, D. H. (1988). Anxiety Disorders Interview Schedule-Revised. Albany, NY: Center for Stress
+and Anxiety Disorders, University at Albany.
+
+Fenigstein, A., Scheier, M. F. & Buss, A. H. (1975). Public and private self-consciousness: Assessment and theory. Journal
+of Consulting and Clinical Psychology, 43, 522-527.
+
+Leary, M. R., Kowalski, R. M. & Campbell, C. D. (1988). Self-presentational concerns and social anxiety: The role of
+generalized impression expectancies. Journal of Research in Personality, 22, 308-321.
+
+Lundh, L. G. (1983). Mind and meaning. Towards a theory of the human mind considered as a system of meaning
+structures. Acta Universitatis Upsaliensis. In Studia Psychologica Upsaliensia (Vol. 10). Uppsala.
+
+Lundh, L. G. (1995) Meaning structures and mental representations. Scandinavian Journal of Psychology, 36, 363-385.
+
+Lundh, L. G., & Ost, L, G. (1996a). Face recognition in social phobics. Scandinavian Journal of Behaviour Therapy, in
+press.
+
+Lundh, L. G., & Ost, L. G. (1996b). Implicit and explicit memory bias in social phobics. Unpublished manuscript.
+
+MacLeod, C. & McLaughlin, K. (1995). Implicit and explicit memory bias in anxiety: A conceptual replication. Behaviour
+Research and Therapy, 33, 1-14.
+
+Mathews, A., Mogg, K., May, J. & Eysenck, M. (1989). Implicit and explicit memory bias in anxiety. Journal of Abnormal
+Psychology, 98, 236-240.
+
+Marks, 1. M. & Mathews, A. M. (1979). Brief standard self-rating for phobic patients. Behaviour Research and Therapy,
+17, 263-267.
+
+McNally, R. J., Foa, E. B. & Donnell, C. D. (1989). Memory bias for anxiety information in patients with panic disorder.
+Cognition and Emotion, 3, 27-44.
+
+Mogg, K., Mathews, A. & Weinman, J. (1987). Memory bias in clinical anxiety. Journal of Abnormal Psychology, 96, 94-98.
+
+Mogg, K., Mathews, A. & Weinman, J. (1989). Selective processing of threat cues in anxiety states: A replication. Behaviour
+Research and Therapy, 27, 317-323.
+
+Rapee, R. M., McCallum, S. L., Melville, L. F., Ravenscroft, H. & Rodney, J. M. (1994). Memory bias in social phobia.
+Behaviour Research and Therapy, 32, 89-99.
+
+Watts, F. N., Tresize, L. & Sharrock, R. (1986). Processing of phobic stimuli. British Journal of Clinical Psychology, 25,
+253-259.
+
+Winograd, E. (1978). Encoding operations which facilitate memory for faces across the life-span. In M. M. Gruneberg,
+P. E. Morris & R. N. Sykes (Eds.), Practical Aspects of Memory. New York: Academic Press.
+
+Winograd, E. (1981). Elaboration and distinctiveness in memory for faces. Journal of Experimental Psychology, Human
+Learning and Memory, 7, 181-190.
+

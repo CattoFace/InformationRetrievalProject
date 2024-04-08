@@ -1,0 +1,818 @@
+Georgetown University Law Center
+
+Scholarship @ GEORGETOWN LAW
+
+2008
+
+Fairness to Rightness: Jurisdiction, Legality, and the
+Legitimacy of International Criminal Law
+David Luban
+Georgetown University Law Center, luband@law.georgetown.edu
+
+This open-access article is brought to you by the Georgetown Law Library. Chapter 28 is from The
+Philosophy of International Law edited by Samantha Besson & John Tasioulas, Oxford University
+Press (2010) and is posted with permission of Oxford University Press and the author.
+This paper can be downloaded free of charge from:
+http://scholarship.law.georgetown.edu/fwps_papers/67
+
+This open-access article is brought to you by the Georgetown Law Library. Chapter 28 is from The
+Philosophy of International Law edited by Samantha Besson & John Tasioulas, Oxford University
+Press (2010) and is posted with permission of Oxford University Press and the author.
+This open-access article is brought to you by the Georgetown Law Library. Posted with permission of the author.
+Follow this and additional works at: http://scholarship.law.georgetown.edu/fwps_papers
+Part of the Criminal Law Commons, International Law Commons, and the Jurisdiction Commons
+
+GEORGETOWN LAW
+Faculty Working Papers
+
+July 2008
+
+Fairness to Rightness:
+Jurisdiction, Legality, and the Legitimacy of
+International Criminal Law
+David Luban
+Frederick Haas Professor of Law and Philosophy
+Georgetown Law
+luband@law.georgetown.edu
+
+This paper can be downloaded without charge from:
+BePress: http://lsr.nellco.org/georgetown/fwps/papers/67/
+SSRN: http://ssrn.com/abstract=1154177
+Posted with permission of the author
+
+Fairness to Rightness:
+Jurisdiction, Legality, and the Legitimacy of International Criminal Law
+David Luban
+
+1. What is international criminal law?
+As the name suggests, “international criminal law” (ICL for short) refers to applications
+of criminal law across borders. ICL encompasses three overlapping bodies of law:
+(1) Domestic criminal law applied transnationally. The oldest and least controversial is
+the application of a state’s domestic criminal law to conduct outside the state’s borders.
+Criminal law represents governments’ efforts to protect important societal interests, and
+obviously assaults on those interests can come from outside the state as well as inside. A hacker
+in Russia steals identities in Argentina; drug smugglers in Malaysia conspire to sell heroin in
+California; a sniper in Serbia assassinates a pedestrian in Bosnia. There is nothing conceptually
+problematic about Argentina, Bosnia, or the United States recognizing these as domestic-law
+crimes and punishing the perpetrators if the states can catch them. Difficulties arise only because
+conduct outside one state’s territory almost always occurs within the territory of another state
+with its own sovereign interests. That raises questions of which state interests justify
+transgressing borders to legislate conduct in another state’s territory, and how states should
+resolve conflicts over criminal jurisdiction. These are deep-cutting questions, because
+seemingly-arcane issues of jurisdiction mirror philosophical issues about state sovereignty and
+its limits.
+Traditional legal theory offers well-defined answers to the first question. The theory
+begins with the recognition that a state consists of a territory, the people who live in it, and a
+government. These are, of course, merely the material constituents of the state – its Aristotelian
+“material cause” – and a complete theory of the state would also need to specify the structural
+relationships among these constituents and the aims of state organization: the state’s formal and
+
+2
+
+final causes. But the traditional legal theory derives state interests from the constituent elements
+alone, generating four jurisdictional principles:
+(1) The territorial principle, which gives states jurisdiction over crimes committed in
+their territories, as well as crimes committed elsewhere with effects in their territories.
+(2) The nationality principle, which gives states jurisdiction over crimes committed by
+their own nationals.
+(3) The passive personality principle, which gives states jurisdiction over crimes
+committed against their nationals.
+(4) The protective principle, which gives states jurisdiction over crimes committed
+against vital governmental interests – crimes like espionage, for example, or
+counterfeiting the state’s currency, or smuggling immigrants or contraband across its
+borders.
+These familiar principles are staples of every international law textbook. That does not mean
+they lack challenges or perplexities; some states push the principles farther than others are
+willing to accept. The fact remains, however, that all states accept the core of the four principles.
+
+Most states also accept – in theory, at least – so-called universal criminal jurisdiction
+(UCJ), which allows any state to prosecute certain crimes committed anywhere in the world.
+Grotius asserted that every state has jurisdiction over “gross violations of the law of nature and
+of nations, done to other states and subjects.”1 However, for many years piracy was the only
+recognized UCJ crime, not because of its moral awfulness but because it is committed outside the
+territorial jurisdiction of all states. More recently, legislators as well as theorists have returned to
+Grotius’s “moralized” rationale, and proposed UCJ over the narrow set of crimes that are subject
+to international tribunals: genocide, crimes against humanity, war crimes, and torture. But this
+1
+
+Hugo Grotius, The Rights of War and Peace, Including the Law of Nature and of Nations [De Jure Belli
+ac Pacis], A.C. Campbell trans. (Washington and London: M. Walter Dunne, 1901)(Elibron Classics reprint),
+II.20.XL, p. 247.
+
+3
+
+But this proposal has met with mixed responses among states as well as theorists, and in recent
+years has encountered significant political opposition. The opposition arises from the fear that
+UCJ would lead to politicized prosecutions. During a short and ill-fated experiment with
+universal jurisdiction, Belgium launched investigations, many based on complaints by advocacy
+groups, of numerous world leaders – until threats by the United States forced Belgium to repeal
+its UCJ statute.2 Critics charged that Belgium’s courts had become the tool of political interests.
+But supporters of UCJ can respond (rightly, in my view) that the real politicized abuses in such
+cases are the crimes politicians commit under color of their office, nonchalantly assuming that
+their power should grant them impunity.
+The theoretical question arises of what state interests UCJ serves. Universal jurisdiction
+does not assume any tangible connection between the crime and the state. It seems, therefore,
+that UCJ can be justified only if states have distinctively moral interests in repressing crimes (or
+at least certain crimes) wherever they occur. That assumption is hard to reconcile with liberal or
+minimalist accounts of the legitimacy of state power: liberals generally suppose that states have
+no self-standing moral interests, and minimalists argue that legitimate state power includes only
+the smallest set of powers necessary to protect the security and well-being of the state’s citizens.
+In my view, the real basis for UCJ lies in the idea that perpetrators of infamies offend not against
+state interests but human interests – the perpetrators are indeed “enemies of all mankind” – and
+that states prosecuting infamies under UCJ act merely as surrogates. This assumption that major
+2
+
+Belgian procedure permits crime victims to initiate criminal prosecutions; and none of the high-profile
+prosecutions originated with state prosecutors. For the most thorough English-language study of UCJ, see Luc
+Reydams, Universal Jurisdiction (Oxford: Oxford University Press, 2003). Reydams is highly critical of ambitious
+use of UCJ. On the political crisis created by Belgium’s prosecutions, see Glenn Frankel, “Belgian War Crimes
+Law Undone by Its Global Reach; Cases Against Political Figures Sparked Crises,” Washington Post, Sept. 30,
+2003. The legitimacy under international law of universal jurisdiction was debated in the Arrest Warrant Case
+(Democratic Republic of Congo v. Belgium), International Court of Justice, General List No. 121, Feb. 14, 2002.
+The case concerned Belgian efforts to arrest Congo’s foreign minister for international crimes. Although the ICJ
+decided the case in Congo’s favor without reaching the question of whether international law permits UCJ, several
+judges wrote separate opinions on that question, of which the opinions of Judges Guillaume and Bula-Bula against
+UCJ, and Judges van den Wyngaert, Buergenthal, Higgins, and Kooijmans (the latter three in a joint opinion),
+favoring UCJ, are particularly interesting. Judge Bula-Bula emphasizes the neo-colonialist implications of Belgium
+prosecuting an official of its former colony; and, in this connection, it is significant that other famous UCJ cases
+involved Spanish efforts to prosecute officials of Argentina, Mexico, and Chile.
+
+4
+
+international crimes are, quite literally, crimes against humanity (regardless of their legal label),
+is debatable.3 But the assumption undergirds not only UCJ, but also international tribunals to try
+these crimes. Without it we shall have a hard time justifying any distinctively international
+criminal law.
+(2) Treaty-based or “hybrid” transnational criminal law. Beginning in the early
+twentieth century, states began to recognize that crimes committed by multinational criminal
+gangs can be repressed only through international cooperation. The result has been multilateral
+treaties on subjects ranging from counterfeiting and drug trafficking to war crimes and apartheid.
+The treaties share a common structure: they require parties to enact domestic criminal laws
+against the conduct; they require parties with custody of an accused offender either to extradite
+the suspect to a state with jurisdiction over the crime or to prosecute the crime themselves; and
+they require parties to establish a kind of UCJ that will enable them to prosecute the crime if
+extradition fails. Treaty-based international crimes are a hybrid of domestic criminal law applied
+transnationally and what I shall later call “pure” international criminal law. On the domestic-law
+side, the point of the treaty is to get states to use their municipal legal systems to repress crimes
+like aerial hijacking or narco-trafficking. On the international side, however, these treaties create
+a distinctive kind of domestic criminal law: a body of criminal laws governing deeds of
+international rather than merely domestic concern – laws, moreover, that would not exist without
+international efforts to establish them.
+(3) “Pure” ICL. Finally, there is a distinctive body of law that originated in the postWorld War II international tribunals, designed to punish a handful of maximally evil crimes:
+crimes against humanity, genocide, serious war crimes, and aggressive war. Most people who
+speak of ICL have these crimes and these tribunals in mind. There is no accepted name for this
+category of crimes. One might call them “the great crimes,” because they represent the very
+
+3
+
+I defend the claim in David Luban, “A Theory of Crimes Against Humanity,” Yale Journal of
+International Law 29 (2004): 124-61.
+
+5
+
+worst atrocities that people commit against each other. Typically, they are mass atrocities;
+indeed some scholars (not including me) argue they must meet some threshold level of
+awfulness, involving hundreds or thousands of victims, before they become the legitimate
+business of the international community rather than domestic criminal justice systems. One
+might also call them “tribunal crimes,” because they are the subject-matter of the Nuremberg and
+Tokyo tribunals, the ICTY and ICTR, the Special Courts of Sierra Leone, Cambodia, and East
+Timor, and the ICC. But “tribunal crimes” is not entirely accurate: states can enact domestic
+laws to punish them – Canada, for example, has a statute on crimes against humanity, and many
+states have anti-genocide statutes. Iraq executed Saddam Hussein for crimes against humanity
+under Iraq’s own criminal code. Furthermore, as we have seen, proponents of UCJ believe that
+the great crimes can be tried by any state that gains custody of the perpetrator. I shall usually
+refer to them as “pure international crimes” – pure, in that their criminal character originated in
+international rather than domestic law, and international rather than domestic legal institutions.
+These three bodies of ICL overlap, and not only because treaty-based international crimes
+and pure international crimes can be prosecuted within domestic legal systems. They also
+overlap because, as pure international criminal law developed, it has added some treaty-based
+crimes to its list of offenses. Notwithstanding the overlap among these three bodies of ICL, the
+remainder of this paper focuses on pure international crimes, because these raise distinctive
+problems and, now that the ICC is up and running, they are especially compelling.
+2. The roots of pure ICL
+Although there were intimations of ICL prior to World War II, ICL in its modern form
+originated at Nuremberg, and was fortified by the U.N. resolution recognizing genocide as a
+crime. The Nuremberg Charter defined three categories of crimes: crimes against peace (the
+planning or launching of aggressive war), war crimes, and crimes against humanity (gross
+violence and persecution against civilian populations, including within one’s own state). The
+Nuremberg framers, particularly chief U.S. prosecutor Robert Jackson, focused principally on the
+crime of aggressive war, which, self-evidently, can be launched only by a group. Furthermore, at
+
+6
+
+Furthermore, at Nuremberg the definitions of crimes against peace and crimes against humanity
+both emphasized the organized, group-based nature of their perpetration. This emphasis on
+group perpetrators persists to the present day. Under the Rome Statute of the ICC, war crimes
+must either be widespread or else the result of a plan or policy; and crimes against humanity
+require a “widespread or systematic attack against a civilian population,” where “attack against a
+civilian population” is defined as an attack resulting from or furthering a state or organizational
+policy.
+The crime of genocide has a different emphasis. To be sure, genocide appears in
+Nuremberg law as the crime against humanity of extermination; but in current law the two
+crimes are defined differently, and therein hangs a tale. The word “genocide” was coined by the
+remarkable Polish-Jewish lawyer Raphael Lemkin, in his 1944 book Axis Rule in Europe.
+Lemkin’s word did not catch on immediately. It appears in the earliest draft of the Nuremberg
+Charter, but disappears (I don’t know why) from subsequent drafts. After the war, Lemkin
+launched a tireless one-man lobbying campaign to recognize the uniqueness of the crime of
+genocide. It was all the more remarkable because Lemkin was a refugee with no family, no job,
+no money, and no connections – the “totally unofficial man,” in the words of an admiring 1957
+newspaper editorial.4 Miraculously, his campaign succeeded a few years later, when the United
+Nations opened the Convention Against Genocide for state adoption. (After the vote, reporters
+found the exhausted Lemkin alone in a side room, weeping.) Parting company with the framers
+of the Nuremberg Charter, Lemkin focused not on the group character of the perpetrators but the
+group character of the victims. Lemkin believed that groups as such possess value over and
+above the value of all the individuals in them.5 Thus, to qualify as genocide, an attack must be
+
+4
+
+Quoted in Samantha Power, “A Problem from Hell”: America and the Age of Genocide (New York: Basic
+Books, 2002), p. 76. Power’s narrative of Lemkin’s career is riveting.
+5
+
+Raphael Lemkin, Axis Rule in Occupied Europe (New York: Carnegie Foundation, 1944), p. 91. For
+criticism of this idea, see Chandran Kukathas, “Genocide and Group Rights” (unpublished).
+
+7
+
+directed against national, ethnic, religious, or racial groups “as such,” and intended to destroy the
+group in whole or in part.
+The curious result of Jackson’s and Lemkin’s emphasis on group perpetrators and group
+victims was that at its origin, modern ICL had little to do with individual human rights. Jackson
+was principally interested in criminalizing aggressive war; crimes against humanity focus on
+“civilian populations,” not individual rights; and Lemkin cared about national minorities as
+groups, rather than as collections of individuals.
+Only after the human rights revolution that began with the 1948 Universal Declaration of
+Human Rights have we come to think of ICL as the use of criminal law to enforce basic human
+rights. This is a retrospective reinterpretation of the original impetus for ICL, and both Jackson
+and Lemkin would have thought it a misinterpretation. Misinterpretation or not, however, it has
+become the dominant conception of ICL, and today we take it for granted that ICL aims to
+mobilize international institutions against gross human rights violations, just as domestic
+criminal law mobilizes governmental institutions against domestic rights violations.
+3. The aims of international criminal trials
+From its inception at Nuremberg, there has always been something extraordinary about
+pure ICL and the tribunals that adjudicate it. Dealing as it does with acts of extraordinary
+violence, systematically perpetrated, and typically on a large scale, pure ICL comes into play
+only in times of cataclysm: wars and civil wars, bloody ethnic or religious struggles, political
+upheavals, revolutions or other changes of basic political systems. Instead of being a normal part
+of the daily functioning of government, international criminal trials occur after governments have
+fallen or radically altered.
+The trials, then, form part of transitional justice -- the legal regimes that arise when one
+form of government replaces another.6 Where ordinary criminal law is a product of continuity,
+6
+
+The important observation that ICL emerges from the confluence of domestic criminal law, human rights
+law, and transitional justice comes from Allison Marston Danner and Jenny S. Martinez, “Guilty Associations: Joint
+Criminal Enterprise, Command Responsibility, and the Development of International Criminal Law,” California
+Law Review 93 (2005): 78-82.
+
+8
+
+pure ICL is a product of discontinuity, of upheaval and political rupture. Inevitably, then, the
+trials take on political overtones; and sometimes the requirements of politics and those of
+criminal justice are in tension with each other. Politics is broad, partial, and forward-looking;
+criminal justice is supposed to be narrow and impartial.
+The foundational question about criminal law is what justifies punishment, which is, after
+all, a form of state violence. Standard justifications (retribution, general and special deterrence,
+incapacitation, rehabilitation) all raise familiar and difficult justificatory problems, which are no
+less acute in ICL than they are in domestic legal systems. To be sure, they may take on different
+configurations in ICL than those familiar from domestic criminal justice. For example, special
+deterrence will seldom be necessary, because the defendant in the dock of an international
+tribunal is unlikely ever again to be in the circumstances in which he committed his crime. For
+related reasons, there is scant need to incapacitate or rehabilitate many low-level perpetrators,
+who (under the familiar dynamics of the “banality of evil”) may be ordinary, law-abiding
+citizens, good men and good neighbors, in peacetime. On the other hand, incapacitating toxic
+political leaders – a Goering, a Milosevic, a Charles Taylor – can be absolutely crucial.
+But, in addition to the familiar quartet of retribution-deterrence-incapacitationrehabilitation, ICL recognizes other purposes, and these raise problems of their own. The curious
+feature about ICL is that in it the emphasis shifts from punishments to trials. Thus it is often said
+that the goal of ICL lies in promoting social reconciliation, giving victims a voice, or making a
+historical record of mass atrocities to help secure the past against deniers and revisionists. The
+legitimacy of these goals can be questioned, because they seem extrinsic to purely legal values.
+But what is often overlooked is that, legitimate or not, they are goals of trials, not punishments.
+Indeed, the punishment of the guilty seems almost an afterthought (not to them, of course).
+Perhaps that is because, as one often says, no punishment can fit crimes of such enormity; or
+because compared with their trial, their punishment lacks didactic and dramatic force. Whatever
+the reason, it is remarkable that the center of gravity so often lies in the proceedings rather than
+in their aftermath. That is not an objection to the trials, if they are conducted fairly. But the use
+
+9
+
+of the trial as political theater puts pressure on its fairness; furthermore, international trials have
+at best a spotty track-record of promoting social reconciliation, giving victims a voice, and
+making a record.7 Under some circumstances, truth and reconciliation commissions may do a
+better job, without the need for punishment; if so, the question of what justifies punishments in
+international criminal trials becomes even more compelling.
+In my view, the most promising justification for international tribunals is their role in
+norm projection: trials are expressive acts broadcasting the news that mass atrocities are, in fact,
+heinous crimes and not merely politics by other means. In recent years, philosophers have
+studied expressive theories of punishment; the norm-projection rationale adds an expressive
+theory of trials.8 As the Allies recognized at Nuremberg, the alternatives to trying murderous
+generals and politicians are summary punishment or impunity, each of which, in its own way, is
+a backhanded admission that raison d’état and Kriegsraison are a legitimate part of public
+morality. Only trials can communicate the inherent criminality of political violence against the
+innocent. The decision not to stage criminal trials is no less an expressive act than the creation
+of tribunals; and the expressive contents associated with impunity or summary punishment are
+
+7
+
+Martti Koskenniemi advances these criticisms with great force in “Between Impunity and Show Trials,”
+Max Planck Yearbook of International Law 6 (2002): 1-35. One problem is that the forensic setting can backfire,
+and license all-out assaults on witnesses and history. In Canada’s Zundel and Finta trials, Douglas Christie, a wellprepared, strategically adept defense lawyer badgered, humiliated, and confused Holocaust survivor witnesses,
+accused expert-witness historians of relying on hearsay (as if historians ever rely on anything else!), boldly denied
+that the Nazis had ever gassed Jews, and, in Finta’s case, won an acquittal for crimes against humanity. See the
+disturbing accounts of the Zundel case in Lawrence Douglas, The Memory of Judgment: Making Law and History
+in the Trials of the Holocaust (New Haven: Yale University Press, 2001), and Finta in Stephen Landsman, Crimes
+of the Holocaust: The Law Confronts Hard Cases (Philadelphia: University of Pennsylvania Press, 2005).
+8
+I am sympathetic with the view of expressivism in Elizabeth S. Anderson and Richard H. Pildes,
+“Expressive Theories of Law: A General Restatement,” University of Pennsylvania Law Review 148 (2000): 150375, and the expressive accounts of punishment in R. A. Duff, Trials and Punishments (Cambridge: Cambridge
+University Press, 1986), pp. 235-62, and Jean Hampton’s contributions to her and Jeffrie G. Murphy’s Forgiveness
+and Mercy (Cambridge: Cambridge University Press, 1988). Most recently Robert Sloane has argued that the
+expressive function of punishment is the one most suitable for international criminal law. Robert D. Sloane, “The
+Expressive Capacity of International Punishment,” Stanford International Law Journal 43: 39-94 (2007).
+
+10
+
+unacceptable: both are assertions that political crime lies outside the law. The point of trials
+backed by punishment is to assert the realm of law against the claims of politics.9
+Although the center of gravity in international tribunals lies in the trial, not the
+punishment, punishment following conviction remains an essential part of any criminal process
+that aims to project a no-impunity norm. Truth and reconciliation commissions have important
+virtues, but they have a hard time escaping the unwelcome expressive contents that go with
+impunity: these crimes, they seem to say, are not for the law to handle. Sometimes, no doubt,
+the short-term need for political reconciliation in a war-shattered society will outweigh the
+longer-term importance of asserting the realm of law. But all forms of impunity, including
+politically indispensable impunity, carry the cost of perpetuating a world in which political
+violence is presumed to transcend law.
+Of the traditional aims of punishment, norm projection most closely resembles
+retribution, at least when retribution is understood, as Jean Hampton proposes, as an expressive
+defeat that reasserts moral truth against the wrongdoer’s devaluation of the victim.10 But ICL
+uses the ceremonial of the trial, rather than the infliction of punishment, as its primary vehicle for
+expressing moral truth; and the moral truth it expresses is not the moral equality of perpetrator
+and victim, as Hampton suggests is the aim of retributive punishment. Rather, ICL’s moral truth
+is the criminality of political violence against the innocent, even when your side hates the
+innocent as an enemy. Carl Schmitt famously defined “the concept of the political” as the
+friend/enemy relation, with the strong implication that political violence against the enemy
+defines the human condition and lies beyond good and evil. The moral truth that international
+tribunals express is, quite simply, the negation of this familiar political amoralism. International
+criminal law stands for the proposition that crime is crime regardless of its political trappings.
+
+9
+
+In Duff’s words, “to remain silent in the face of crime would be to betray the values which the law
+expresses, and to which we are committed.” Ibid., p. 236.
+10
+
+Hampton, “The Retributive Idea,” in Forgiveness and Mercy, pp. 124-38.
+
+11
+
+4. National sovereignty and the legitimacy of international tribunals
+The major obstacle to establishing ICL lies in the international character of its tribunals,
+which subjects acts of sovereign states to criminal scrutiny by the “international community,”
+something of a gaseous invertebrate under the classical Westphalian theory of equal sovereign
+states.
+As I suggested in the preceding section, characterizing sovereign acts as crimes is a
+momentous, even utopian, decision. As Paul Kahn has argued, in the Western political
+imagination, states are gods, and this is no less true of contemporary secular states.11 Like gods,
+states do not admit their own mortality, and they demand devotion and obedience. Every state,
+liberal constitutional states no less than absolute monarchies, claims the ultimate authority over
+its citizens: to make them die and kill on the sovereign’s behalf. That a state has no military
+draft at the moment is irrelevant: all states claim the authority to conscript, and all states cloak
+the profoundly illiberal project of sacrificing lives for the supposed salvation of others in the
+language of religion. The American soldier killed in the line of duty in Iraq has made “the
+ultimate sacrifice” for his country, politicians’ language nearly identical to Islamists’ talk of
+“martyrdom.”
+Viewed from outside a religion, human sacrifice looks like murder or suicide. Viewed
+from within, it is a non-criminal and in fact supremely meaningful form of violence.
+Kierkegaard described Abraham’s sacrifice of Isaac as a “teleological suspension of the ethical,”
+meaning not that it was a justified killing but that the language of justification simply does not
+apply to it. The kinds of mass violence that ICL addresses take place within what participants
+regard as struggles to the death between groups, in which killing and humiliating the enemy
+likewise seems like a supremely meaningful form of violence. When ICL redescribes it as crime
+– mere crime, nothing more – the effect is not much different than redescribing the sacrifice of
+
+11
+
+41.
+
+Paul W. Kahn, Putting Liberalism in Its Place (Princeton, NJ: Princeton University Press, 2005), pp. 228-
+
+12
+
+Isaac as an attempted murder. In one sense, the description is straightforward and
+uncontroversial. But it is only straightforward once we stand outside the religion of state, race,
+ethnicity, and nation, and dismiss them as gods that failed. Within the religion, crime-talk is
+blasphemy.
+For that reason, establishing a pure international criminal law of universal application is a
+momentous and radical project, equivalent in its way to the early secularists’ deflationary view of
+state authority as manifestation of human rather than divine will. We are not there yet. Not even
+the so-called “likeminded” states who promote the ICL project are heretical enough to reject the
+religion of sovereignty. For states to call other states “gods that failed” is a Damoclean sword,
+for they themselves are nothing more than gods that have not yet failed.
+In legal terms, the gulf between the transcendent claims of sovereignty and its deflation in
+ICL raises the jurisdictional question of what right international tribunals have to try nationals of
+states that do not wish them tried. For each of the principal tribunals, the jurisdictional question
+received an answer that was only partly satisfactory on classical Westphalian terms:
+(1) At Nuremberg, the four major powers conducted the trial, but none of the traditional
+principles of transnational criminal jurisdiction except universality can explain why Great Britain
+(for example) could try Germans for the persecution of Jews in Germany or the murder of
+Gypsies in Poland. Allied lawyers argued that Germany’s unconditional surrender and the
+collapse of the Nazi regime made them Germany’s new government, but under pre-existing
+treaty law an occupying power must maintain the laws of the occupied country – a constraint that
+obviously reflects classical ideas about the sacredness of state sovereignty.12 The Nuremberg
+Tribunal, criminalizing conduct even if it was legal under Nazi law, violated this sovereigntybased principle of treaty law.
+
+12
+
+For discussion of the jurisdiction problem at Nuremberg, see Robert K. Woetzel, The Nuremberg Trials in
+International Law (New York: Praeger, 1960), pp. 54-95; see especially page 82. The treaty law is Article 43 of
+the 1907 Hague Convention.
+
+13
+
+(2) The United Nations Security Council established both the Yugoslav and Rwanda
+tribunals under its peacekeeping powers, but the Security Council’s powers are themselves
+limited by states jealous of their sovereignty. The UNSC can act only to “maintain or restore
+international peace and security” (the condition given in Article 39 of the U.N. Charter); and the
+argument that post-conflict trials would help maintain or restore international peace and security
+was speculative and perhaps even farfetched. The more hostile critics thought – not without
+reason – that the true aim of the Tribunals was to deflect attention from the politically
+embarrassing fact that neither the Security Council nor any of the major powers did much to stop
+the atrocities while they were happening.
+(3) The ICC operates on a theory of delegated jurisdiction – that is, states-parties transfer
+to the ICC their own territorial and nationality jurisdiction over pure international crimes. But it
+is far from obvious that criminal jurisdiction is something a state can legitimately delegate to
+whomever it chooses. If it can delegate criminal jurisdiction to the ICC, then why not to the
+Kansas City dog-catcher, the World Chess Federation, or the Rolling Stones?
+Even with the added premise that sovereignty never includes the right to commit the great
+crimes, we need an additional step to reach the proposition that outsiders can try and punish
+them. As we saw in the earlier discussion of UCJ, that step will require us to recognize a kind of
+universal moral interest in condemning the great crimes. This moral interest has precious little
+institutional embodiment, however. Obviously, there is no political community called
+“humanity” that authorizes the tribunals; nor are they products of anything like a world
+government.
+5. Legitimacy through fairness
+My own view is that the legitimacy of international tribunals comes not from the shaky
+political authority that creates them, but from the manifested fairness of their procedures and
+punishments. Tribunals bootstrap themselves into legitimacy by the quality of justice they
+deliver; their rightness depends on their fairness. During the first Nuremberg trials, prosecutors
+fretted that acquittals would delegitimize the Tribunal; in hindsight, it quickly became apparent
+
+14
+
+that the three acquittals were the best thing that could have happened, because they proved that
+Nuremberg was no show trial.
+In the same way, it is essential that the ICTY, ICTR, and ICC deliver champagne-quality
+due process and fair, humane punishments – which, in most respects, they do.13 Lacking world
+government to authorize international tribunals like the ICC, their authority must be largely selfgenerated by strict adherence to natural justice. Only in that way can they project a normative
+vision that might compete with the Westphalian orthodoxy.
+The term “natural justice” is perhaps a misnomer, because the basic procedural rights
+recognized world-wide today are products of centuries of tinkering, not pure reason alone. As
+embodied in international treaties, they include the right to a speedy, public trial before an
+impartial tribunal that bases its decision solely on the evidence, under rules designed to reach
+accurate verdicts; the right to offer a defense; the right to be informed of the charges, in a
+language that the accused understands, through a written indictment that specifies the charges
+and the conduct charged; the right of the accused to confront the witnesses against him; the right
+of the accused to have compulsory process for obtaining witnesses in his favor; the right to
+counsel and the privilege against self-incrimination; and the ban on double jeopardy (ne bis in
+idem).14 Natural justice also includes the right to appeal; and it includes familiar duties of
+prosecutors: to pursue cases only when there is probable cause, to disclose exculpatory evidence
+to the accused, and more generally, to seek justice rather than victory. Finally, it includes
+humane conditions of confinement and reasonable punishments.
+One important fact about these requirements is that only tribunals that have some kind of
+internationally recognized state authorization – paradigmatically, authorization by a multilateral
+group such as the U.N. – are likely to be able to satisfy them. Evidence must be gathered from
+13
+
+The only real criticism of the ICC so far is that its statute does not establish an office of defense counsel
+along with the highly professionalized prosecutor’s office.
+
+15
+
+foreign war zones by trustworthy and impartial investigators, evidentiary chains of custody must
+be maintained, defense counsel and judges recruited and paid, defense witnesses subpoenaed
+across borders, appellate panels created and staffed, rules written, safe, humane prisons found,
+and long-term confinements monitored. Realistically, only states can carry out these tasks.
+Thus, even though I believe the legitimacy of international tribunals arises from their fairness
+rather than their political pedigree (their state authorization), in actual fact state authorization
+will be contingently indispensable to achieve procedural fairness. That, ultimately, is why it will
+not do to grant criminal jurisdiction to the Rolling Stones or the World Chess Federation. Once
+we look carefully at what it actually takes to achieve fair procedures and punishments, the
+natural-justice account turns out not to be vulnerable to imaginary counter-examples in which
+vigilantes abduct defendants, try them “fairly,” and punish them. No such vigilantes could hope
+to meet the stringent requirements of natural justice.
+Not every civilized legal system satisfies all the requirements of natural justice. (In my
+view, the United States, with its savagely harsh prison sentences and brutal supermaxes, violates
+the last two conditions.) It may not be essential that international tribunals be tops along every
+dimension of natural justice; but, because tribunals must earn their legitimacy rather than
+inheriting it, they cannot be far from the top on any of them.
+6. The Principle of Legality
+In criminal law, the most fundamental requirement of natural justice is the Principle of
+Legality. Traditionally, the principle received expression in the Roman maxims nullum crimen
+sine lege (no crime without law) and nulla poena sine lege (no punishment without law). The
+first means that conduct may be criminalized only if publicly-accessible law spells out all the
+14
+
+All these rights can be found in Articles 14 and 15 of the International Covenant on Civil and Political
+Rights, as well as the Rome Statute of the ICC.
+
+16
+
+elements of the crime; the second means that the law must, in addition, sentence only according
+to a legally-specified scheme of punishments. Combining these, the Principle of Legality asserts
+that conduct may be criminalized and punished only if the crimes and punishments are explicitly
+established by publicly-accessible law. The Principle seems close to the core of the rule of law,
+in two distinct ways: first, by tying crime and punishment to law rather than the ruler’s arbitrary
+will; and second, by insisting that law must be publicly accessible, therefore integrated into the
+daily life of the people it governs.
+The Principle of Legality generates corollaries, as important as the principle itself: the
+prohibition on vaguely-defined crimes, requirements of fair notice and nonretroactivity, and the
+principle of lenity, which asserts that if a criminal statute is ambiguous, the version most
+favorable to the defendant is the correct version. Each of these helps ensure that people are not
+punished for conduct that they had no definitive way to know had been criminalized. In the
+remainder of this paper, I examine, and attempt to resolve, some significant tensions between
+pure international criminal law and the Principle of Legality.
+The most obvious such tension, which figured prominently at Nuremberg, is simply that
+the tribunal applied novel law retroactively. Although war crimes are a traditional category of
+criminal law, crimes against peace and crimes against humanity were novel. The problem of
+retroactivity dogged the ad hoc tribunals as well, because they were established after the crimes.
+True, their statutes were modeled on pre-existing ICL, so the substantive criminal law was not
+retroactive.15 But the ICTY broke legal ground on important issues, most dramatically in its
+holding that the war crimes law governing international armed conflict applied in the Bosnian
+civil war as well.16
+15
+
+The substantive criminal law of the ICTY statute combines the war crimes provisions of the Hague and
+Geneva Conventions, the Genocide Convention, and the definition of crimes against humanity drawn from Allied
+Control Council Law No. 10, which slightly modified the Nuremberg Charter and was used in the second round of
+Nuremberg trials. The ICTR statute also uses familiar definitions of crimes drawn from pre-existing law.
+16
+
+Prosecutor v. Dusko Tadic, ICTY Appellate Chamber Judgement of 15 July 1999, paras. 68-171,
+available at http://www.un.org/icty/tadic/appeal/judgement/index.htm.
+
+17
+
+Larry May, in his recent book Crimes Against Humanity, argues that the Principle of
+Legality requires defendants to receive fair notice of all elements of the crime, including the
+jurisdictional element. In May’s words, “defendants should have been able to see, at the time
+they acted, that what they were doing was a violation of international law.” The ICTY violates
+the fair notice principle because the tribunal post-dated the crimes. May objects to the “plight” –
+his word – “of some of the Bosnian Serb ‘small fry’ now in jail at The Hague who had no hint
+that their acts, as unspeakable as they may be, were even remotely likely to land them in jail and
+awaiting trial before an international tribunal.”17
+Finally, as Allison Danner and Jenny Martinez have argued, the contemporary connection
+between ICL and international human rights law creates a standing tension between ICL and the
+Principle of Legality.18 Human rights law adopts the standpoint of protecting victims, and
+therefore requires laws to be read broadly in cases of ambiguity.19 But criminal law adopts the
+standpoint of protecting defendants, and the principle of lenity requires ambiguous statutes to be
+read narrowly.
+To illustrate the conflict: common Article 3 of the Geneva Conventions offers a list of
+basic human rights that must be guaranteed to all captives in armed conflicts not of an
+international character, for example protection against “outrages upon personal dignity,”
+including humiliating or degrading treatment. Insofar as Article 3 is a human rights instrument,
+the vague notion of “outrages upon personal dignity” must be read expansively. But insofar as
+Article 3 is also a criminal prohibition – as it was, for example, in U.S. law, where until 2006 all
+violations of Article 3 were war crimes – it must be read as narrowly as possible. The Principle
+
+17
+
+Larry May, Crimes Against Humanity: A Normative Account (Cambridge: Cambridge University Press,
+2005), p. 109.
+18
+19
+
+Danner and Martinez, “Guilty Associations,” pp. 89-90.
+
+Two textbook statements of this principle appear in Soering v. United Kingdom, [1989] ECHR 14 (7 July
+1989), para. 87, reprinted in 28 I.L.M. 1066, 1091-92 (1989); Prosecutor v. Dusko Tadic, ICTY Appellate Chamber
+Judgement of 15 July 1999, para. 96, available at http://www.un.org/icty/tadic/appeal/judgement/index.htm.
+
+18
+
+of Legality gave a pretext to U.S. President George W. Bush for retroactively decriminalizing
+humiliation tactics after the Supreme Court declared that Article 3 applies to Al Qaeda
+captives.20
+The result seems deeply embarrassing for ICL. If these examples truly demonstrate that
+international tribunals violate the Principle of Legality, and the Principle is truly central to
+natural justice, and – finally – natural justice is necessary to bootstrap ICL into legitimacy, the
+result seems to be that ICL has no legitimacy.
+In response, I will argue that the Principle of Legality has less importance in ICL than in
+domestic criminal law systems, and therefore that legality-based objections to the ICL enterprise
+are not fatal. Even if the Principle of Legality lies at the core of domestic rule of law, its role in
+ICL is far more peripheral. To see why, we must begin by asking a fundamental question: what
+justifies the Principle of Legality?
+There are two main arguments for the Principle, one based in the action-guiding character
+of law and the other in the need to curb abuses of state power. The first is that to punish people
+without fair notice of the elements of crimes and the scheme of punishments violates their
+reasonable expectations that their behavior is legally innocent. This familiar argument is
+inherent in Lon Fuller’s notion that law is meant to be action-guiding. Inadequately specified
+law cannot guide actions, and it is unfair to punish failures to be guided by laws incapable of
+guiding. The second is that, historically, rulers have used vague, discretionary, underspecified
+criminal law to target and repress opponents – perhaps the most notorious example being the
+provision of the Nazi criminal code prohibiting any conduct that affronts “healthy folksentiment.”21 Call these the fair notice argument and government abuse argument, respectively.
+20
+
+I refer to Bush’s legality-based argument as a “pretext” because he also stated that his objective in
+changing the law was to permit his program of harsh interrogation to continue. The Principle of Legality does not
+require decriminalizing outrages on personal dignity; it requires only that standards be specified more concretely.
+21
+
+Gesetz zur Änderung des Strafgesetzbuchs vom 28. Juni 1935, 1 Reichsgesetzblatt 839. See Ingo Müller,
+Hitler’s Justice: The Courts of the Third Reich, trans. Deborah Lucas Schneider (Cambridge, MA: Harvard
+University Press, 1991), p. 74.
+
+19
+
+7. The government abuse argument
+I begin with the government abuse argument, which insists on the Principle of Legality as
+a safeguard against arbitrary punishment by governments under cover of vague, underspecified
+law. The response in the case of pure ICL is straightforward: there is simply much less danger of
+government abuse in ICL than in domestic legal systems, because ICL arises from weak,
+decentralized institutions rather than strong, concentrated ones. Skeptics point to the freefloating, cosmopolitan character of the tribunals in order to attack their legitimacy. But exactly
+the same facts demonstrate that the worry about abuses of the legal process by holders of state
+power is not a powerful one. The Principle of Legality still matters in tribunal prosecutions, but
+not as a safeguard against despotism.
+Arguably, the government abuse argument has more force applied to domestic
+prosecutions of international crimes under universal jurisdiction. Even here, however, the danger
+seems slight. UCJ prosecutions depend on the infrequent, difficult, and almost random processes
+of gaining custody over perpetrators, and it is unlikely that significant state interests can be
+advanced by abusively prosecuting nationals of other states for pure international crimes. It is
+possible, of course. For that reason, the legitimacy of UCJ prosecutions will depend on
+common-sense safeguards against abuse: procedural fairness, of course, but also prosecutorial
+independence from the political branches of the government, and absence of prior political strife
+between the state conducting the trials and the defendants. Without these safeguards, the
+Principle of Legality will indeed kick in as an essential protection against government abuse.
+But, when a state with no political axe to grind against the defendant and whose jurists aren’t
+under the thumb of politicians prosecutes great crimes under a UCJ statute, the Principle of
+Legality loses its central place in the pantheon of legal values.
+8. The fair notice argument
+Even if the lack of world government weakens the government-abuse rationale for the
+Principle of Legality, the fair-notice rationale remains central to the idea that law exists to guide
+human action. Isn’t it a mere travesty to try people under retroactive law, before tribunals that
+
+20
+
+didn’t exist when they committed their crimes, or under vague legal standards that expand to
+disfavor the defendants?
+My basic response to the fair-notice argument is that when the deed is morally outrageous
+– malum in se, as criminal lawyers say – then no reasonable expectations of the defendants are
+violated when they are tried for it. The Nazi leadership, with the blood of 50 million people on
+their hands, fully expected summary execution if they were defeated. Their own ideology
+rejected the Rechtsstaat (and with it the Principle of Legality) in favor of the law of tooth and
+claw. If anything, the Nuremberg trial treated them better, not worse, than they had reason to
+expect. That is why Jackson described the Nuremberg defendants as “hard pressed but...not ill
+used,” because they are “given a chance to plead for their lives in the name of the law.
+Realistically, the Charter of this Tribunal, which gives them a hearing, is also the source of their
+only hope.”22 Though there is no getting around the fact that the Nuremberg Tribunal applied
+law retroactively, it did not treat the defendants worse than they had reason to expect, which is
+the moral basis for the ban on retroactivity. Thus, even if pure international criminal law was
+born in sin at Nuremberg, the sin was a venial one. What mattered was that the defendants got a
+fair trial; that, plus the fact that the law of the Nuremberg Charter criminalized only actions that
+are morally outrageous, confers a legitimacy on the trial that outweighs its formal violation of the
+Principle of Legality.
+By the time of the Balkan Wars, the Nuremberg principles and the Geneva Conventions
+had been part of international law for forty years. Were Yugoslav soldiers and militiamen “on
+notice” of this law? To answer this question, it is important to recognize that fair notice in
+criminal law always involves the legal fiction that publishing the law in some officially
+sanctioned manner places people on notice of it. This is a fiction, of course, because most people
+most of the time have no idea when or where to look for changes in the criminal law. Fair notice,
+22
+
+2 Trial of the Major War Criminals before the International Military Tribunal 101-02 (1946). Here I am
+summarizing my argument from David Luban, “The Legacies of Nuremberg,” in Legal Modernism (Ann Arbor, MI:
+University of Michigan Press, 1994), pp. 355-56.
+
+21
+
+Fair notice, in other words, inevitably means constructive notice, even in domestic legal systems.
+In this constructive sense, the Yugoslav perpetrators were on notice that Nuremberg law, Geneva
+and Hague law, and the Genocide Convention applied to them. Ignorance of the law is no
+excuse.
+Sometimes, however, ignorance of law is an excuse. In domestic legal systems, when
+law imposes unusual, surprising, or counterintuitive requirements, fairness demands that accused
+persons actually (not just constructively) know that the law prohibits their conduct. Thus, for
+purely regulatory, mala prohibita, offenses prosecutors will have to prove not only that the
+accused knew what he was doing, but also that he knew that what he was doing is illegal. For
+such offenses, knowledge of the legal as well as behavioral element of the offense is required for
+guilt, on pain of violating the requirement of fair notice.23
+May seems to have some argument like this in mind when he argues that it is unfair to
+“Bosnian small fry” to try them before an international tribunal unless they knew at the time of
+their crime that it fell within the jurisdiction of pure ICL. However, the argument fails, because
+the war crimes and crimes against humanity charged against prison guards who tortured and
+raped camp inmates are hardly the kind of regulatory, mala prohibita defenses that demand
+actual, rather than constructive, notice of their legal prohibition. The more egregiously awful the
+conduct is intrinsically, the more it signals its own probable legal prohibition, and the less
+reasonable the defendant’s expectation of innocence or impunity – doubly so because murder,
+rape, torture, and beatings are central domestic-law crimes in every legal system in the world.
+The Bosnian guards who gang-raped and tortured their captives may have expected to get away
+with it – but that is different from a reasonable expectation of impunity.
+I want to turn, finally, to the worry raised by Danner and Martinez that the human-rights
+rationale behind ICL runs afoul of the principle of lenity, and therefore of the Principle of
+23
+
+In U.S. doctrine see, e.g., Lambert v. California, 355 U.S. 225 (1957) and Liparota v. United States, 471
+U.S. 419 (1985). For more detailed discussion of these ideas about mens rea, see David Luban, “The Publicity of
+Law and the Regulatory State,” Journal of Political Philosophy 10 (2002): 296-316.
+
+22
+
+Legality. This, it seems to me, is a deeper and more significant worry than concerns about
+retroactivity, because it concerns a fundamental clash between the world-views of human rights
+and criminal law. Here too, however, I shall argue that the Principle of Legality represents the
+less important principle.
+Recall that the principle of lenity says that if a criminal statute is ambiguous, it must be
+read in the way most favorable to the accused. Why is that? The reason, according to the fair
+notice argument, is that the defendant needs to be told unambiguously whether his conduct is
+criminal under the statute. Let’s use the term “gray zone” to describe the zone of ambiguity in
+the statute – the conduct that is forbidden under one reading but not under the other. Then it
+appears that the accused doesn’t have adequate notice about whether gray-zone conduct is
+permitted or forbidden.
+It follows that the only way he can be certain his conduct is legal is to steer clear of the
+gray zone. Even if gray-zone conduct is legal, he engages in it at his peril. That seems to violate
+one of the basic tenets of liberal legality, namely that the law permits anything that it doesn’t
+expressly forbid.24 We are entitled to walk to the very boundary of the law, so long as we don’t
+step over it.
+Yet this doctrine carries undeniable costs. It encourages envelope-pushing, loopholing,
+and pettifoggery. Perhaps that is an acceptable cost when the issue is tax “avoision”; and
+perhaps it is downright desirable when the issue is political speech that angers the government.
+But when the legal issue concerns basic human rights and their violation, envelope-pushing is the
+last thing we should want. The outrageous memos written by U.S. government lawyers to
+loophole the law against torture offer a vivid illustration of what happens when ruthless men and
+women, bent on evading human rights protections, probe and twist the law for ambiguities.25 In
+24
+
+Contrast this with Aristotle’s deeply illiberal view that the law forbids whatever it does not expressly
+permit. N.E. 5.11, 1138a5-7.
+25
+
+David Luban, “The Torture Lawyers of Washington,” in Legal Ethics and Human Dignity (Cambridge:
+Cambridge University Press, 2007), pp. 162-205; Jeremy Waldron, “Torture and the Common Law: Jurisprudence
+for the White House,” Columbia Law Review 105 (2005): 1681-1750, especially pp. 1701-03. Envelope-pushing has
+
+23
+
+cases like these, it should count as a plus, not a minus, if ambiguity or vagueness in the law
+discourages actors from the gray zone. The human-rights-law mode of reading pure ICL statutes
+– filling gaps and resolving ambiguities in favor of victims of human rights violations – simply
+has far more to recommend it than the principle of lenity. These statutes, after all, deal with the
+great crimes, and the gray zone at their margins is bad enough that we should welcome any
+inhibition the criminal law creates on people choosing to inhabit them.
+There is one important exception to this conclusion, and that is the case of certain war
+crimes. Under the ICC’s statute, it is a war crime to take actions that cause disproportionate
+civilian deaths or environmental damage (Article 8(2)(b)(iv)). But no formula exists for
+calculating proportionality. Soldiers in combat always try to inflict the maximum lawful amount
+of force when they have to – that is both how they safeguard themselves and how they
+accomplish their missions. To tell them that not only must they obey the law of war, they must
+also steer clear of the gray zone seems unfair and wildly unrealistic. These are, after all, men and
+women fighting for their lives in conditions close to hell. Other laws of war are also fuzzy or
+contestable: for example, opinions differ over whether targeted killings of enemy militants
+violate the prohibition on intentionally targeting civilians (Article 8(2)(b)(i)). In these examples,
+the special conditions of war suggest that the principle of lenity should govern criminal
+prosecutions, because it is unreasonable to expect actors not only to abide by the law but also to
+steer clear of the gray zone. I hasten to add, however, that this will not be true of all war crimes.
+In some cases the argument that soldiers should be deterred from the gray zone applies full force
+– for example, in the prohibitions on cruel and degrading treatment of captives.
+has been an official policy of the Bush Administration; in the unapologetic words of the head of the National
+Security Agency, “We’re going to live on the edge....My spikes will have chalk on them....We’re pretty aggressive
+within the law. As a professional, I’m troubled if I’m not using the full authority allowed by law.” Dana Priest,
+“Covert CIA Program Withstands New Furor; Anti-Terror Effort Continues to Grow,” Washington Post, Dec. 30,
+2005, p. A1. He was talking about electronic surveillance, not torture, but many Americans were deeply troubled
+even by the surveillance issue.
+On the more general point that mistake-of-law defenses should not be available to sharpies who use them
+as an excuse for exploring the gray zone, see Dan M. Kahan, “Ignorance of the Law Is an Excuse – But Only for the
+Virtuous,” Michigan Law Review 96 (1997): 127-54. Kahan argues that existing criminal law recognizes this point.
+
+24
+
+9. Conclusion: legitimacy from the bottom up
+The institutions of ICL are fragile, weak, and – to be perfectly honest – far less important
+than the attention they receive warrants. Realistically, the current ICC may turn out to be a
+short-lived preliminary sketch like the League of Nations. Nevertheless, opponents of the ICC,
+particularly in the United States, view it in exaggerated, paranoid terms; supporters, churning out
+reams of commentary on legal minutiae before the first case has been tried, can fairly be accused
+of living in a fantasy-world of their own, where the court has already been fully normalized into
+a global rule of law.26
+The reason for the attention, the fantasies, and the conspiracy-theories woven around the
+ICL enterprise is not hard to see: as I have argued, even if the institutions are weak, their project
+is a fundamental challenge to statism and nationalism, which (unlike ICL) are fighting faiths.
+That the project gets any backing at all from states is remarkable; it testifies to a world-wide
+cosmopolitan yearning coming from below – and not only on the part of liberal elites, as
+conservative opponents of ICL invariably believe. It is the yearning to escape the eternal cycle
+of crimes that the fighting faiths commit in the name of states, nationalities, and religions.
+Against the bloodshed of mass political violence, the ICL project has little to offer except the
+dramatic force of legal trials that attach labels like “war crimes,” “genocide,” and “crimes against
+humanity.” Lacking the authority of world government, these norms build their legitimacy from
+the bottom up, by the fairness of their proceedings and the moral power they project. The
+success of the project is improbable; its failure, if it happens, is the failure of law itself.27
+
+26
+
+For relevant examples of criticisms of the ICC, see, e.g., John R. Bolton, “The Risks and Weaknesses of the
+International Criminal Court from America’s Perspective,” Law and Contemporary Problems 64 (2001): 167-80;
+Jack L. Goldsmith, “The Self-Defeating International Criminal Court,” University of Chicago Law Review 70
+(2003): 89-104; Jack L. Goldsmith and Stephen D. Krasner, “The Limits of Idealism,” Daedalus 132 (2003), 47.
+27 I would like to thank Anthony Duff, Paul Kahn, Jenny Martinez, Steve Ratner, and John Tasioulas for comments
+on an earlier version of this paper, as well as participants in the workshop from which this volume arose.
+
+

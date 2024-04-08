@@ -1,0 +1,160 @@
+Proceedings of the Eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-20)
+Does Exposure to Diverse Perspectives
+Mitigate Biases in Crowdwork? An Explorative Study
+Xiaoni Duan
+Purdue University
+duan79@purdue.eduChien-Ju Ho
+Washington University in St. Louis
+chienju.ho@wustl.eduMing Yin
+Purdue University
+mingyin@purdue.edu
+Abstract
+Earlier research has shown the promise of enabling worker
+interactions in crowdwork to mitigate worker biases and im-
+prove the quality of crowdwork. In this study, we focus on
+one characteristic of the interacting workers that may inﬂu-ence the effectiveness of worker interactions in enhancing
+crowdwork—the diversity of perspectives that the interacting
+workers bring together—and we explore whether and how in-teractions between a set of workers holding different perspec-
+tives can help mitigate biases in crowdwork. Through two sets
+of randomized experiments, we ﬁnd that whether interactions
+between workers with different perspectives can help mitigate
+biases in crowdwork depends on task properties. We also ﬁndno conclusive evidence in our experimental settings suggest-
+ing that interactions among workers with diverse perspectives
+reduce biases in crowdwork to a larger extent compared to in-teractions among workers with similar perspectives.
+Introduction
+Crowdsourcing has become a ubiquitous paradigm for ob-
+taining data from people to enhance machine intelligence.Recent studies, however, reveal considerable concerns onthe quality of human-annotated datasets as humans are no-torious for being prone to biases , which may result in sys-
+tematic deviations between the data collected from them andthe ideal (Hube, Fetahu, and Gadiraju 2019; Otterbacher etal. 2019). Such biases may come from multiple sources, in-cluding the “blind spots” in worker’s knowledge, as well asworker’s political viewpoints and cultural background.
+Among various approaches that researchers have devel-
+oped to combat biases in the crowdsourced data, it is re-cently shown that enabling interactions between crowd
+workers working on the same task can decrease worker bi-ases and result in data of higher quality (Drapeau et al. 2016;Chang, Amershi, and Kamar 2017; Tang, Ho, and Yin 2019).Despite its promise, systematic understandings of how thedesigns of such worker interactions affect their effectivenessin mitigating biases in crowdwork are largely lacking. In thispaper, we focus on one speciﬁc aspect in designing workerinteractions—the diversity of perspectives that the interact-ing workers bring together. In the social science literature,
+Copyright c/circlecopyrt2020, Association for the Advancement of Artiﬁcial
+Intelligence (www.aaai.org). All rights reserved.there are mixed empirical evidence showing that long-term,
+repeated interactions to opposing views could result in eithermore (Bail et al. 2018) or less (Guilbeault, Becker, and Cen-tola 2018) biased belief. In crowdsourcing contexts, whereinteractions between workers are often short-term and evenone-off, does enabling workers with different perspectivesto interact with each other help mitigate biases in crowd-work, and does it bring about higher levels of bias reductionin crowdsourced data compared to having workers interactwith others holding similar perspectives?
+As an initial attempt to answer this question, we con-
+ducted two sets of randomized experiments on Amazon Me-
+chanical Turk. In the ﬁrst experiment, we asked workers towork on an objective task of differentiating two styles ofartiﬁcially-generated face images. Different workers were“trained” to own the skills of recognizing different discrim-inating attributes of the two styles, thus workers’ “perspec-tives” are operationalized as their skills. In the second ex-periment, we asked workers to evaluate whether a statementcontaining political messages is a factual or an opinion state-ment, and worker’s perspectives are reﬂected through the po-litical values that they hold. In both experiments, we allowedinteractions among a subset of workers—they formed co-
+worker pairs to work on the same tasks together, so that theycan see each other’s answers to the tasks and engage in dis-cussions, which were set to be 2-minute maximum per taskto keep the microtask nature of crowdwork. Since both ex-periments involve binary classiﬁcation tasks, we use work-ers’ accuracy in the tasks as a proxy to measure biases inthe crowdwork. Our results suggest that depending on tasktype and difﬁculty, interactions between workers with di-verse perspectives may or may not mitigate biases in crowd-work, and they do not reduce biases to a larger extent than
+interactions between workers holding similar perspectives.
+Experiment 1: Exposure to Diverse Skills
+We begin with an experiment on an objective task of im-
+age classiﬁcation in which different workers were trained toown different specialized skills, and we aim to understandwhether and how interactions between workers with diverseskills help mitigate biases in crowdwork.
+155Figure 1: Interface of the face image style classiﬁcation task.
+(Top) We ﬁrst showed distinct sets of artiﬁcial face images
+to workers to train them into one of the two “types” in de-tecting the styles of GAN-generated face images; (Bottom)
+trained workers were then asked to determine between twosets of face images, which set belongs to a target style.
+Experimental Task
+In this experiment, we asked workers to classify the stylesof face images that were artiﬁcially generated by a gener-ative adversarial network (GAN). Speciﬁcally, we adopted
+the facial attribute editing tool developed by He et al. (2019)
+to generate artiﬁcial face images that differ on two key at-tributes: the skin color and the hair color . We created face
+images of two different “styles”: one style was with rel-atively pale skin and dark hair, while the other style was
+with relatively tanned skin color and light hair color. In our
+experiment, we ﬁrst “trained” workers to recognize GAN-generated faces of these two styles by showing them ex-ample images from both styles. Then, we asked the trainedworkers to complete a sequence of style classiﬁcation taskswhere in each task, the worker was presented with two setsof GAN-generated face images and was asked to identifywhich set belongs to a target style. Figure 1 (bottom) showsan example of the interface of our style classiﬁcation task.
+Importantly, by showing different workers the same text
+instructions but distinct sets of example images that have
+more salient differences on skin color or hair color duringtraining, we created different “perspectives” among work-ers in solving this task (Figure 1 top). As a result, workersmay produce biased work in this task due to their varyingspecialities or different “blind spots” in their knowledge.
+Experimental Procedure
+Our experiment was separated into two phases. Phase 1 wasthe training phase, in which workers were recruited fromMTurk to learn about two styles of GAN-generated faceimages by inspecting the example images from both styles(Figure 1 top). We randomly trained each worker into one ofthe two types (i.e., “sensitive to skin color” or “sensitive to
+hair color”). As discussed above, the example images that aworker saw was determined by the type she was trained into.After carefully reviewing the example images, each workercompleted a same sequence of 12 style classiﬁcation tasks.
+Upon the completion of Phase 1, we randomly divided
+all trained workers into two groups, the independent group
+and the interaction group, and then recruited all these trained
+workers to complete an additional sequence of 4 style clas-siﬁcation tasks in Phase 2. At the beginning of Phase 2, wereminded workers the differences between the two styles offace images by showing them exactly the same sets of ex-
+ample images that they saw in Phase 1. For workers in theindependent group, they were instructed to complete the se-quence of style classiﬁcation tasks on their own . In contrast,
+workers in the interaction group were randomly matchedwith a co-worker in the same group, and the pair of work-ers completed the same sequence of tasks together —In each
+task, a worker was ﬁrst asked to submit her independent an-swer; then, the worker could discuss this task with her co-worker for up to 2 minutes, during which she could see herco-worker’s answer, and she was asked to explain why shebelieved her answer was correct; ﬁnally, each worker in thepair needed to submit her ﬁnal answer to the task separately.Since workers in the interaction group were randomly pairedup with each other, interactions between workers in Phase 2can occur either between workers with similar perspectivesor between workers with different perspectives. We revealednoexplicit information about this possible difference in per-
+spectives to interacting workers, though workers may ﬁgurethis out by themselves through discussions.
+We designed a pool of 16 tasks with varying levels of dif-
+ﬁculty: the easy /difﬁcult tasks contained two sets of face im-
+ages with large/small differences on both skin color and haircolor, while the intermediate tasks contained two sets of face
+images with large differences on only one attribute (eitherskin color or hair color). The 4 style classiﬁcation tasks thateach worker completed in Phase 2 (1 easy, 1 difﬁcult, and 2intermediate tasks) were randomly sampled from this pool.
+Our experiment was open to U.S. workers only, and each
+worker was allowed to participate once. Each worker re-ceived a ﬂat payment of $0.35 in Phase 1. In Phase 2, besidesthe base payment of $0.50, we also offered a $0.20 bonus ineach task if the worker’s ﬁnal answer was correct.
+Experimental Results
+In total, 1,062 workers participated in our Phase 1, amongwhom 392 workers provided valid data in Phase 2 (inde-pendent group: 116 workers with 58 workers for each type;interaction group: 276 workers). From workers in the inter-action group, we got 78 pairs of workers with the same per-spective and 60 pairs of workers with different perspectives.Examining worker’s performance on the 12 tasks in Phase1, we conﬁrmed that workers of different types focused ondifferent attributes to determine the style of face images.
+Figure 2 (left) compares worker’s average performance
+across allstyle classiﬁcation tasks in Phase 2 between work-
+ers who worked on their own, workers who interacted withothers sharing the same perspective, and workers who inter-
+156Figure 2: Comparing worker’s performance in Experiment 1
+between independent workers, workers who interacted withothers with the same perspective, and workers who inter-acted with others with different perspectives, across all tasks(left) and broken down by task difﬁculty ( right ).
+acted with others who had different perspectives. We used
+workers’ accuracy in the style classiﬁcation tasks to quan-tify their biases in these tasks; the higher the accuracy is,the smaller the bias. Visually, while it appears that allow-
+ing workers with different perspectives to interact with eachother decreases the biases in crowdwork as compared to thecase when they work alone, it does not seem to result in ahigher level of bias reduction compared to having workerswith the same perspective interact. Indeed, a one-way anal-ysis of variance (ANOV A) suggests a signiﬁcant differencein worker’s accuracy in the Phase 2 style classiﬁcation tasksbetween independent workers and workers who participatedin interactions ( p=0.040). However, post-hoc Tukey HSD
+tests reveal that while interacting with workers holding dif-ferent perspectives marginally reduces worker biases com-pared to independent work ( p=0.057), it does not reduce
+the biases to a larger extent than interactions between work-ers with the same perspective ( p=0.956).
+We then break down the comparison by task difﬁculty
+and Figure 2 (right) shows the results. Interestingly, weﬁnd that compared to independent work, allowing workerswith different perspectives to interact only shows marginalbeneﬁts in bias reduction on easy tasks and intermediatetasks, but not difﬁcult tasks (post-hoc Tukey HSD tests,
+independent vs. interaction between different perspectives:
+p=0.056,0.085,0.9for easy, intermediate, and difﬁcult
+tasks). Still, we ﬁnd no difference in the amount of biasesreduced by interactions between workers with similar or dif-ferent perspectives, regardless of the task difﬁculty.
+Experiment 2: Exposure to Diverse Values
+To see whether results of our ﬁrst experiment are limited byour design of imposing perspectives on workers, we con-ducted a second experiment using a different type of task,in which workers will naturally be inﬂuenced by their ownsubjective belief when completing the task.
+Experimental Tasks
+In our second experiment, we asked workers to complete asequence of statement evaluation tasks. In each task, we pre-sented the worker with a news statement (e.g., “Immigrants
+who are in the U.S. illegally have some rights under the Con-stituion”), and we asked her to determine whether the state-ment was a factual or an opinion statement. News statements
+used in this experiment were selected from a recent surveyconducted by Pew Research Center (Mitchell 2018), thus wehad the ground-truth label for each statement. The Pew Re-search Center survey results revealed that people tend to la-bel both factual and opinion statements as factual when theyalign with their political side (Mitchell 2018). Thus, in thisexperiment, we considered each worker’s political value asa natural characterization of the worker’s perspectives.
+Experimental Procedure
+Our second experiment was again divided into two phases.Phase 1 was conducted to recruit a set of workers fromMTurk and measure their political values. We adoptedthe political typology quiz developed by Pew ResearchCenter (Doherty, Kiley, and Johnson 2017) to categorizeworker’s political attitudes as leaning liberal or conservative.The procedure of Phase 2 is completely analogous to that inExperiment 1. Again, as interacting workers were randomlypaired up, they may have the same or different political val-ues. This experiment was again open to U.S. MTurk workersonly, restricting each worker to participate in once. The pay-ment structure was the same as that used in Experiment 1.
+Experimental Results
+We recruited a total of 1,504 workers through our Phase 1experiment (988 liberal workers, 516 conservative workers).In Phase 2, we obtained valid data from 331 workers (inde-pendent group: 101 workers with 58 leaning liberal and 43leaning conservative; interaction group: 230 workers), andfor the interaction group, we got 68 pairs of workers withthe same political value (37 liberal pairs, 31 conservativepairs) and 47 pairs with different political values.
+We ﬁrst compare workers’ average performance on all
+Phase 2 statement evaluation tasks across independent work-ers, workers who interacted with another worker with sim-ilar political value and workers who interacted with an-other worker with different political values in Figure 3 (left).Again, we used worker’s average accuracy in the tasks toquantify the amount of bias in the crowdwork produced,with higher accuracy indicating smaller bias. Inspecting Fig-ure 3 (left), however, we ﬁnd interactions between work-ers with diverse political values does not reduce biases incrowdwork compared to either independent work or inter-actions between workers with similar political values (one-way ANOV A: p=0.193). Repeating the comparison sepa-
+rately for workers holding liberal views and workers holding
+conservative views in Figure 3 (right), we still observe nosigniﬁcant differences in the amount of biases produced inthe data between workers who completed the work indepen-
+dently and workers who interacted with another worker whohad the same or different political view as themselves (one-way ANOV A within liberal workers: p=0.109, within con-
+servative workers: p=0.961). In other words, for the state-
+ment evaluation tasks, having workers exposed to different
+157Figure 3: Comparing worker’s performance in Experiment 2
+between independent workers, workers who interacted withothers with the same perspective, and workers who inter-acted with others with different perspectives, across all tasks(left) and broken down by worker’s own value ( right ).
+political values does not help mitigate worker’s biases in the
+task, regardless of what the worker’s own political value is.
+Conclusions and Discussions
+In this paper, we explored the effects of allowing interac-tions between crowd workers with diverse perspectives onmitigating biases in crowdwork. We do not ﬁnd conclusiveevidence that interactions between workers holding diverseperspectives lead to higher levels of bias reduction in thedata generated by the crowd compared to interactions be-tween workers with similar perspectives. We also observedthat whether the interactions between workers with diverseperspectives can help mitigate biases in crowdwork dependson the difﬁculty of the task, as well as the type of task.
+We provide a few reasons for why we get limited ev-
+idence showing the advantages of allowing interactions
+among workers with diverse perspectives in mitigating bi-
+ases in crowdwork. First, we found that when interactingwith other workers with a different perspective than them-selves, workers may fail to understand the perspective oftheir co-workers. For example, from the chat messages werecorded in Experiment 1, we observed that the interactionsbetween workers with different skills could go into two dif-ferent ways—some workers could successfully understand
+the information shared by other workers with different per-spectives, while some other workers failed to do so.
+Moreover, the difﬁculty for workers to fully understand
+and appreciate the value of each other’s perspectives duringthe interactions may be further increased by how interactionswere structured in our experiment—workers had a 2-minutemaximum discussion time on each task, and we did not pro-vide any accuracy feedback to the interacting workers. Theshort amount of time for each discussion period, though wellreﬂects the microtask nature of crowdwork, may keep work-
+ers from fully elaborating and deliberating on each other’sviewpoints. Indeed, we found that the average number ofchat messages in one task was 3.38 and 2.72 in our ﬁrst
+and second experiment, respectively, suggesting that work-ers may lack the sufﬁcient time needed to build a commonground with their co-workers who had different perspectivesthan themselves. In addition, the absence of accuracy feed-
+back implies that when workers could not understand eachother’s perspective, this impression of incomprehensibilitymay get reinforced over multiple runs of interactions with-out workers seeing the value of the different perspective.
+As a practical lesson, we have learned from our study that
+reaping the beneﬁts of diversity in microtask-based crowd-sourcing context to mitigate biases in crowdwork is not aneasy task. Our observations in this study clearly suggest theneeds for providing scaffolding for mutual understandingwhen workers with diverse perspectives interact with eachother. On the other hand, both of our experiments involve bi-nary classiﬁcation tasks and workers’ biases in the tasks aremeasured via their accuracy. For tasks that can not be repre-sented as binary classiﬁcations, it would be critical to deﬁneproper measurements to quantify biases, and our results maynot generalize to those cases. We hope the explorative resultsthat we report in this study could open more discussions onhow to better design worker interactions to fully release thepotential of diversity in mitigating biases in crowdwork.
+References
+Bail, C. A.; Argyle, L. P .; Brown, T. W.; Bumpus, J. P .; Chen, H.;
+Hunzaker, M. F.; Lee, J.; Mann, M.; Merhout, F.; and V olfovsky,
+A. 2018. Exposure to opposing views on social media can in-
+crease political polarization. Proceedings of the National Academy
+of Sciences 115(37):9216–9221.
+Chang, J. C.; Amershi, S.; and Kamar, E. 2017. Revolt: Collab-
+orative crowdsourcing for labeling machine learning datasets. InProceedings of the 2017 CHI Conference on Human Factors in
+Computing Systems (CHI) .
+Doherty, C.; Kiley, J.; and Johnson, B. 2017. Political typology
+reveals deep ﬁssures on the right and left: Conservative republican
+groups divided on immigration,‘openness’. Pew Research Center .
+Drapeau, R.; Chilton, L. B.; Bragg, J.; and Weld, D. S. 2016. Mi-
+crotalk: Using argumentation to improve crowdsourcing accuracy.
+InF ourth AAAI Conference on Human Computation and Crowd-
+sourcing (HCOMP) .
+Guilbeault, D.; Becker, J.; and Centola, D. 2018. Social learning
+and partisan bias in the interpretation of climate trends. Proceed-
+ings of the National Academy of Sciences 115(39):9714–9719.
+He, Z.; Zuo, W.; Kan, M.; Shan, S.; and Chen, X. 2019. Attgan:
+Facial attribute editing by only changing what you want. IEEE
+Transactions on Image Processing 28(11):5464–5478.
+Hube, C.; Fetahu, B.; and Gadiraju, U. 2019. Understanding and
+mitigating worker biases in the crowdsourced collection of subjec-tive judgments. In Proceedings of the 2019 CHI Conference on
+Human Factors in Computing Systems , 1–12.
+Mitchell, A. 2018. Distinguishing between factual and opinion
+statements in the news . Pew Research Center.
+Otterbacher, J.; Barlas, P .; Kleanthous, S.; and Kyriakou, K. 2019.
+How do we talk about other people? group (un) fairness in natural
+language image descriptions. In Proceedings of the AAAI Confer-
+ence on Human Computation and Crowdsourcing , volume 7, 106–
+114.
+Tang, W.; Ho, C.-J.; and Yin, M. 2019. Leveraging peer com-
+munication to enhance crowdsourcing. In The W orld Wide W eb
+Conference , 1794–1805.
+158

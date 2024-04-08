@@ -1,0 +1,493 @@
+Zurich Open Repository and
+Archive
+University of Zurich
+University Library
+Strickhofstrasse 39
+CH-8057 Zurich
+www.zora.uzh.ch
+Year: 2020
+
+Diversity, Fairness, and Data-Driven Personalization in (News)
+Recommender System (Dagstuhl Perspectives Workshop 19482)
+Bernstein, Abraham ; de Vreese, Claes H ; Helberger, Natali ; Schulz, Wolfgang ; Zweig, Katharina A
+
+Abstract: As people increasingly rely on online media and recommender systems to consume information,
+engage in debates and form their political opinions, the design goals of online media and news recommenders have wide implications for the political and social processes that take place online and offline.
+Current recommender systems have been observed to promote personalization and more effective forms
+of informing, but also to narrow the user’s exposure to diverse content. Concerns about echo-chambers
+and filter bubbles highlight the importance of design metrics that can successfully strike a balance between accurate recommendations that respond to individual information needs and preferences, while at
+the same time addressing concerns about missing out important information, context and the broader
+cultural and political diversity in the news, as well as fairness. A broader, more sophisticated vision
+of the future of personalized recommenders needs to be formed - a vision that can only be developed
+as the result of a collaborative effort by different areas of academic research (media studies, computer
+science, law and legal philosophy, communication science, political philosophy, and democratic theory).
+The proposed workshop will set first steps to develop such a much needed vision on the role of recommender systems on the democratic role of the media and define the guidelines as well as a manifesto for
+future research and long-term goals for the emerging topic of fairness, diversity, and personalization in
+recommender systems.
+DOI: https://doi.org/10.4230/DagRep.9.11.117
+
+Posted at the Zurich Open Repository and Archive, University of Zurich
+ZORA URL: https://doi.org/10.5167/uzh-197678
+Journal Article
+Published Version
+
+The following work is licensed under a Creative Commons: Attribution 3.0 Unported (CC BY 3.0)
+License.
+Originally published at:
+Bernstein, Abraham; de Vreese, Claes H; Helberger, Natali; Schulz, Wolfgang; Zweig, Katharina A
+(2020). Diversity, Fairness, and Data-Driven Personalization in (News) Recommender System (Dagstuhl
+Perspectives Workshop 19482). Dagstuhl Manifestos, 9(11):117-124.
+DOI: https://doi.org/10.4230/DagRep.9.11.117
+
+Report from Dagstuhl Perspectives Workshop 19482
+
+Diversity, Fairness, and Data-Driven Personalization in
+(News) Recommender System
+Edited by
+
+Abraham Bernstein1 , Claes De Vreese2 , Natali Helberger3 ,
+Wolfgang Schulz4 , and Katharina A. Zweig5
+1
+2
+3
+4
+5
+
+Universität Zürich, CH, bernstein@ifi.uzh.ch
+University of Amsterdam, NL, c.h.devreese@uva.nl
+University of Amsterdam, NL, n.helberger@uva.nl
+Universität Hamburg, DE, w.schulz@hans-bredow-institut.de
+TU Kaiserslautern, DE, zweig@cs.uni-kl.de
+
+Abstract
+As people increasingly rely on online media and recommender systems to consume information,
+engage in debates and form their political opinions, the design goals of online media and news
+recommenders have wide implications for the political and social processes that take place online
+and offline. Current recommender systems have been observed to promote personalization and
+more effective forms of informing, but also to narrow the user’s exposure to diverse content.
+Concerns about echo-chambers and filter bubbles highlight the importance of design metrics that
+can successfully strike a balance between accurate recommendations that respond to individual
+information needs and preferences, while at the same time addressing concerns about missing out
+important information, context and the broader cultural and political diversity in the news, as
+well as fairness. A broader, more sophisticated vision of the future of personalized recommenders
+needs to be formed–a vision that can only be developed as the result of a collaborative effort by
+different areas of academic research (media studies, computer science, law and legal philosophy,
+communication science, political philosophy, and democratic theory). The proposed workshop
+will set first steps to develop such a much needed vision on the role of recommender systems
+on the democratic role of the media and define the guidelines as well as a manifesto for future
+research and long-term goals for the emerging topic of fairness, diversity, and personalization in
+recommender systems.
+Seminar November 24–29, 2019 – http://www.dagstuhl.de/19482
+2012 ACM Subject Classification Information systems → Information retrieval diversity, Applied computing → Psychology, Human-centered computing → Empirical studies in HCI, Applied computing → Sociology, Information systems → Digital libraries and archives, Humancentered computing → HCI theory, concepts and models, Applied computing → Economics,
+Information systems → Web services
+Keywords and phrases News, recommender systems, diversity
+Digital Object Identifier 10.4230/DagRep.9.11.117
+
+Except where otherwise noted, content of this report is licensed
+under a Creative Commons BY 3.0 Unported license
+Diversity, Fairness, and Data-Driven Personalization in (News) Recommender System, Dagstuhl Reports, Vol. 9,
+Issue 11, pp. 117–124
+Editors: Abraham Bernstein, Claes De Vreese, Natali Helberger, Wolfgang Schulz, and Katharina A. Zweig
+Dagstuhl Reports
+Schloss Dagstuhl – Leibniz-Zentrum für Informatik, Dagstuhl Publishing, Germany
+
+118
+
+19482 – Diversity, Fairness, and Data-Driven Personalization in (News) Rec. Sys.
+
+1
+
+Executive Summary
+
+Abraham Bernstein (Universität Zürich, CH)
+Claes De Vreese (University of Amsterdam, NL)
+Natali Helberger (University of Amsterdam, NL)
+Wolfgang Schulz (Universität Hamburg, DE)
+Suzanne Tolmeijer (Universität Zürich, CH)
+Katharina A. Zweig (TU Kaiserslautern, DE)
+License
+
+Creative Commons BY 3.0 Unported license
+© Abraham Bernstein, Claes De Vreese, Natali Helberger, Wolfgang Schulz, Suzanne Tolmeijer,
+and Katharina A. Zweig
+
+The Dagstuhl Perspectives Workshop 19482 on Diversity, Fairness, and Data-Driven Personalization in (News) Recommender Systems,1 took place from November 24 to November 29
+at Schloss Dagstuhl in Germany. The goal of the workshop was to bring together researchers
+from the various disciplines relevant to news recommender systems (computer, communications, legal, and political science) to (1) develop a joint understanding of the issues arising
+for society with regards to the diversity and fairness of recommender systems, (2) identify
+the gaps in science, practice and regulation with regards to these topics, and (3) to compile
+a set of recommendations–in the form of a manifesto–that outlines needed steps from all
+actors involved to address the societal issues at hand.
+
+Workshop Schedule
+The workshop was organized in the following phases:
+Welcome and introductions This first phase introduced the workshop goal to the participants and then offered each of them five minutes to introduce their research activities,
+expertise, their interest in the topic, and research directions they see as relevant to the
+workshop’s topic.
+Impulse presentations Given the diversity of the backgrounds of the participants, eight brief
+stage setting presentations where given. The goal of these was to establish a common
+ground in terms of relevant questions and common vocabulary.2
+Topical breakout group discussions Based on the introducing presentations and impulse
+presentations, the next phase of the workshop was organized around topical breakout
+groups. Topics discussed included relating fairness to diversity, user desiderata and
+characteristics, wider societal implications, governance, data requirements, and clustering
+of research gaps.
+Writing sessions The next phase was focused on jointly drafting the manifesto that incorporated recommendations developed from discussions so far and compiling them into a
+coherent document.
+The remainder of this text provides the abstracts of the impulse presentations. The
+insights resulting from our discussions can be found in the manifesto document, which will
+be published in due course.
+
+1
+2
+
+See workshop home page at https://www.dagstuhl.de/19482
+Brief abstracts of these talks can be found in this document.
+
+A. Bernstein, C. De Vreese, N. Helberger, W. Schulz, and K. A. Zweig
+
+2
+
+119
+
+Table of Contents
+
+Executive Summary
+Abraham Bernstein, Claes De Vreese, Natali Helberger, Wolfgang Schulz, Suzanne
+Tolmeijer, and Katharina A. Zweig . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+Overview of Talks
+Bringing Diversity to News Recommender Algorithms
+Abraham Bernstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+News Recommender Systems (NRS) – A communication science perspective
+Claes De Vreese . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+Algorithmic Accountability and Fairness – A computer scientist’s perspective
+Marc Hauer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+Democratic theory and Recommendations
+Natali Helberger . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+Legal media policy
+Wolfgang Schulz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
+Toward Measuring Viewpoint Diversity in News Consumption
+Nava Tintarev . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 122
+Measuring diversity in news recommendations – Or, at least, an attempt
+Sanne Vrijenhoek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+Computer science perspective: Measures as models of society
+Katharina A. Zweig . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123
+Participants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124
+
+19482
+
+120
+
+19482 – Diversity, Fairness, and Data-Driven Personalization in (News) Rec. Sys.
+
+3
+
+Overview of Talks
+
+3.1
+
+Bringing Diversity to News Recommender Algorithms
+
+Abraham Bernstein (Universität Zürich, CH)
+Creative Commons BY 3.0 Unported license
+© Abraham Bernstein
+Joint work of Abraham Bernstein, Bibek Paudel, Suzanne Tolmeijer
+Main reference Bibek Paudel, Fabian Christoffel, Chris Newell, Abraham Bernstein: “Updatable, Accurate,
+Diverse, and Scalable Recommendations for Interactive Applications”, TiiS, Vol. 7(1), pp. 1:1–1:34,
+2017.
+URL https://doi.org/10.1145/2955101
+License
+
+Recommender systems have become a backbone of consumption. They combine information
+about items and previous behavior of users to personalize the user’s experience when reading
+the news, buying goods, or choosing what to watch in the evening. This talk issuccinctly
+introduces how recommender systems work to establish the technical underpinnings for all
+workshop attendees and suggests various approaches for how diversity can be added to them
+as as an additional target measure.
+
+3.2
+
+News Recommender Systems (NRS) – A communication science
+perspective
+
+Claes De Vreese (University of Amsterdam, NL)
+Creative Commons BY 3.0 Unported license
+© Claes De Vreese
+Main reference Nicholas Diakopoulos: “Towards a Design Orientation on Algorithms and Automation in News
+Production”, Digital Journalism, Vol. 7(8), pp. 1180–1184, Routledge, 2019.
+URL https://doi.org/10.1080/21670811.2019.1682938
+Main reference Judith Möller, Damian Trilling, Natali Helberger, Bram van Es: “Do not blame it on the algorithm:
+an empirical assessment of multiple recommender systems and their impact on content diversity”,
+Information, Communication & Society, Vol. 21(7), pp. 959–977, Routledge, 2018.
+URL https://doi.org/10.1080/1369118X.2018.1444076
+Main reference Neil Thurman, Seth C. Lewis, Jessica Kunert: “Algorithms, Automation, and News”, Digital
+Journalism, Vol. 7(8), pp. 980–992, Routledge, 2019.
+URL https://doi.org/10.1080/21670811.2019.1685395
+License
+
+In this Introduction talk, NRS are contextualized as part of a larger development towards
+the role of data and automated decision making both in the production, dissemination, and
+consumption of news, in a changing media ecosystem. It is highlighted that communication
+science research often focuses on the user and effects on the user, but that in the space of
+NRS there is still a relative paucity of empirical research in this area. Recent publications
+have called for more attention to the design and features of NRS and the implications for
+user agency and effects on users’ knowledge, attitudes and behavior. The diversity notion
+has been central in communication science for decades, and there is a clear need to expand
+diversity research in NRS beyond topical diversity to also include medium, device, outlet and
+content (e.g., tone, frame, actors) diversity. The talk concludes with a number of emerging
+topics in communication science research on NRS, such as the role of conversational agenda,
+NRS and platforms like YouTube, the role of NRS in journalistic production routines, and
+the potentially unintended consequences on diversity in NRS.
+
+A. Bernstein, C. De Vreese, N. Helberger, W. Schulz, and K. A. Zweig
+
+3.3
+
+121
+
+Algorithmic Accountability and Fairness – A computer scientist’s
+perspective
+
+Marc Hauer (TU Kaiserslautern, DE)
+License
+
+Creative Commons BY 3.0 Unported license
+© Marc Hauer
+
+The talk gave a short outline about three notions of algorithmic accountability, the Algorithm
+Accountability Lab of TU Kaiserslautern is currently working on, namely how to assign
+responsibilities in the development of ADM-systems, the various and incompatible measures
+of fairness, and a regulation approach that has been included into the final report of the
+German Datenethikkomission.
+References
+1
+Alexander Filipociv, Christopher Koska, Claudia Paganini. Ethik für Algorithmiker. Bertelsmann Stiftung, 2018, https://doi.org/10.11586/2018033.
+2
+Tobias D. Krafft, Katharina A. Zweig. Transparenz und Nachvollziehbarkeit algorithmenbasierter Entscheidungsprozesse. Bundesverband Verbraucherzentrale, 2019,
+https://www.vzbv.de/sites/default/files/downloads/2019/05/02/19-01-22_zweig_krafft_
+transparenz_adm-neu.pdf.
+
+3.4
+
+Democratic theory and Recommendations
+
+Natali Helberger (University of Amsterdam, NL)
+Creative Commons BY 3.0 Unported license
+© Natali Helberger
+Main reference Natali Helberger: “On the Democratic Role of News Recommenders”, Digital Journalism, Vol. 7(8),
+pp. 993–1012, Routledge, 2019.
+URL https://doi.org/10.1080/21670811.2019.1623700
+License
+
+The argument that this presentation made is that diversity in the media is a concept
+with a mission: to further the values democratic societies are grounded in. Building on
+a brief discussion of four selected democratic theories of the media (liberal, participatory,
+deliberative and critical/antagonistic) and the growing body of literature about the digital
+turn in journalism, the presentation offered a conceptual framework for assessing the threats
+and opportunities around the democratic role of news recommenders. The talk concluded
+with developing a typology of different “democratic recommenders”.
+
+3.5
+
+Legal media policy
+
+Wolfgang Schulz (Universität Hamburg, DE)
+License
+
+Creative Commons BY 3.0 Unported license
+© Wolfgang Schulz
+
+The talk gives a legal perspective on diversity and the recent challenges for the concept.
+In German broadcasting regulation (like in many other jurisdictions) “diversity” appears
+as a main goal, meaning – according to the Federal constitutional court – that diversity
+of existing opinions should be presented in broadcasting as broadly and comprehensively
+as possible. In consequence, Public service broadcasters are required to promote diversity,
+
+19482
+
+122
+
+19482 – Diversity, Fairness, and Data-Driven Personalization in (News) Rec. Sys.
+
+media regulators govern the distribution of broadcasting programs to maximize diversity.
+The recent draft of an amended Interstate Treaty on Broadcasting tries to extend diversity
+regulation to intermediaries. They should not discriminate among pieces of media content.
+However, regulatory concepts reach their limits if they want to apply diversity regulation to
+media in an information ecosphere where media content is just one among many types that
+also fulfil information needs of the users.
+
+3.6
+
+Toward Measuring Viewpoint Diversity in News Consumption
+
+Nava Tintarev (TU Delft, NL)
+Creative Commons BY 3.0 Unported license
+© Nava Tintarev
+Main reference Dimitrios Bountouridis, Jaron Harambam, Mykola Makhortykh, Mónica Marrero, Nava Tintarev,
+Claudia Hauff: “SIREN: A Simulation Framework for Understanding the Effects of Recommender
+Systems in Online News Environments”, in Proc. of the Conference on Fairness, Accountability,
+and Transparency, FAT* 2019, Atlanta, GA, USA, January 29-31, 2019, pp. 150–159, ACM, 2019.
+URL http://dx.doi.org/10.1145/3287560.3287583
+License
+
+The growing volume of digital data stimulates the adoption of recommender systems in
+different socioeconomic domains, including news industries. While news recommenders help
+consumers deal with information overload and increase their engagement and satisfaction,
+their use also raises an increasing number of societal concerns, such as “Matthew effects”,
+“filter bubbles”, and an overall lack of transparency. Considerable recommender systems
+research has been conducted on balancing diversification of content with relevance, however
+this work focuses specifically on topical diversity. For readers, diversity of viewpoint on a
+topic in news is however more relevant. This allows for measures of diversity that are multifaceted, and not necessarily driven by previous consumption habits. This talk introduced
+preliminary work together with several Dutch news organizations (e.g., Blendle, Persgroep,
+and FDMediagroep), aiming to find ways to help users explore viewpoint diversity. This talk
+also explored transparency for content-providers, and introduced a simulation framework
+that allows content providers to (i) select and parameterize different recommenders and
+(ii) analyze and visualize their effects with respect to two diversity metrics. Consequently,
+this talk introduced first steps toward informing diverse content selection in a way that is
+meaningful and understandable, to both content providers and news readers.
+References
+1
+Nava Tintarev, Emily Sullivan, Dror Guldin, Sihang Qiu, and Daan Odjik. “Same, same,
+but different: algorithmic diversification of viewpoints in news”. In UMAP workshop on
+Fairness in User Modeling, Adaptation and Personalization, in association with UMAP’18.
+2018.
+2
+Dimitrios Bountouridis, Jaron Harambam, Mykola Makhortykh, Monica Marrero, Nava
+Tintarev, and Claudia Hauff. “SIREN: a simulation framework for understanding the effects
+of recommender systems in online news environments”. In ACM Conference on Fairness,
+Accountability, and Transparency (FAT*). 2019.
+3
+Feng Lu and Nava Tintarev. “A diversity adjusting strategy with personality for music
+recommendation”. In Recsys workshop on Interfaces and Decision Making in Recommender
+Systems. 2018.
+
+A. Bernstein, C. De Vreese, N. Helberger, W. Schulz, and K. A. Zweig
+
+3.7
+
+123
+
+Measuring diversity in news recommendations – Or, at least, an
+attempt
+
+Sanne Vrijenhoek (University of Amsterdam, NL)
+Creative Commons BY 3.0 Unported license
+© Sanne Vrijenhoek
+Joint work of Sanne Vrijenhoek, Nadia Metoui, Judith Möller, Daan Odijk, Natali Helberger
+URL https://github.com/svrijenhoek/dart/tree/master/dart
+License
+
+The University of Amsterdam, in collaboration with RTL News and funded by the SIDN
+Fonds, has started the development of an open source tool that enables data scientists at
+media companies to measure diversity in their news recommendations. In this talk we describe
+the setup of this project and the process of bridging the gap between normative notions of
+diversity, founded in democratic theory, and computationally viable methods. We identified
+a set of metrics approaching a subset of characteristics of different models of democracy, and
+evaluate them by comparing performance between a set of baseline recommender approaches.
+References
+1
+Helberger, Natali. “On the democratic role of news recommenders.” Digital Journalism
+(2019): 1-20.
+
+3.8
+
+Computer science perspective: Measures as models of society
+
+Katharina A. Zweig (TU Kaiserslautern, DE)
+Creative Commons BY 3.0 Unported license
+© Katharina A. Zweig
+Main reference Katharina Anna Zweig: “Network Analysis Literacy – A Practical Approach to the Analysis of
+Networks”, Springer, 2016.
+URL https://doi.org/10.1007/978-3-7091-0741-6
+Main reference Isadora Dorn, Andreas Lindenblatt, Katharina A. Zweig: “The Trilemma of Network Analysis”, in
+Proc. of the 2012 International Conference on Advances in Social Networks Analysis and Mining
+(ASONAM 2012), ASONAM ’12, p. 9–14, IEEE Computer Society, 2012.
+URL https://doi.org/10.1109/ASONAM.2012.12
+License
+
+The talk first reviewed the idea of using centrality indices in complex network analysis and
+provided a solution of why there are so many of them. This is explained by a suggestion
+of Borgatti who stated that for every network flow process there is one centrality index
+that predicts which of the nodes is most heavily used by the network flow process. He
+characterized network flow processes by only a few characteristics, e.g., the type of paths used
+in the network or the distribution mode. Thus, each centrality index is tied to a network flow
+process and vice versa. In other words, centrality indices contain a model of a social process
+to which they can be applied to. This well-understood relationship between a certain class of
+indices or measures and a social process can be generalized to all kinds of operationalizations
+of social concepts, e.g., diversity of a news recommender system. If all measures and indices
+that are supposed to quantify a social term contain a model of a social process or a cultural
+perspective, it is 1) important to make these implicit assumptions as explicit as possible and
+2) vital to only apply any measure to those kind of data and research questions that match
+with the implicit assumptions.
+
+19482
+
+124
+
+19482 – Diversity, Fairness, and Data-Driven Personalization in (News) Rec. Sys.
+
+Participants
+Christian Baden
+The Hebrew University of
+Jerusalem, IL
+Michael Beam
+Kent State University, US
+Abraham Bernstein
+Universität Zürich, CH
+Claes De Vreese
+University of Amsterdam, NL
+Marc Hauer
+TU Kaiserslautern, DE
+Lucien Heitz
+Universität Zürich, CH
+Natali Helberger
+University of Amsterdam, NL
+Pascal Jürgens
+Johannes Gutenberg-Universität
+Mainz, DE
+
+Christian Katzenbach
+Institute for Internet & Society –
+Berlin, DE
+
+Guy Shani
+Ben Gurion University –
+Beer Sheva, IL
+
+Benjamin Kille
+TU Berlin, DE
+
+Nava Tintarev
+TU Delft, NL
+
+Beate Klimkiewicz
+University Jagiellonski –
+Krakow, PL
+
+Suzanne Tolmeijer
+Universität Zürich, CH
+
+Wiebke Loosen
+Universität Hamburg, DE
+Judith Möller
+University of Amsterdam, NL
+
+Wouter van Atteveldt
+VU University Amsterdam, NL
+Sanne Vrijenhoek
+VU University Amsterdam, NL
+
+Goran Radanovic
+MPI-SWS – Saarbrücken, DE
+
+Theresa Züger
+Institute for Internet & Society –
+Berlin, DE
+
+Wolfgang Schulz
+Universität Hamburg, DE
+
+Katharina A. Zweig
+TU Kaiserslautern, DE
+
+

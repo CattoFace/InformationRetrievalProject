@@ -1,0 +1,908 @@
+Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+Seth Neel1Aaron Roth2
+Abstract
+Data that is gathered adaptively — via bandit al-
+gorithms, for example — exhibits bias. This is
+true both when gathering simple numeric val-
+ued data — the empirical means kept track of
+by stochastic bandit algorithms are biased down-
+wards — and when gathering more complicated
+data — running hypothesis tests on complex data
+gathered via contextual bandit algorithms leads
+to false discovery. In this paper, we show that this
+problem is mitigated if the data collection proce-
+dure is differentially private. This lets us both
+bound the bias of simple numeric valued quanti-
+ties (like the empirical means of stochastic ban-
+dit algorithms), and correct the p-values of hy-
+pothesis tests run on the adaptively gathered data.
+Moreover, there exist differentially private bandit
+algorithms with near optimal regret bounds: we
+apply existing theorems in the simple stochastic
+case, and give a new analysis for linear contex-
+tual bandits. We complement our theoretical re-
+sults with experiments validating our theory1.
+1. Introduction
+Many modern data sets consist of data that is gathered
+adaptively : the choice of whether to collect more data
+points of a given type depends on the data already col-
+lected. For example, it is common in industry to conduct
+“A/B” tests to make decisions about many things, including
+ad targeting, user interface design, and algorithmic modiﬁ-
+cations, and this A/B testing is often conducted using “ban-
+dit learning algorithms” (Bubeck et al., 2012), which adap-
+tively select treatments to show to users in an effort to ﬁnd
+the best treatment as quickly as possible. Similarly, sequen-
+1Department of Statistics, The Wharton School, Univer-
+sity of Pennsylvania2Department of Computer Science, Uni-
+versity of Pennsylvania. Correspondence to: Seth Neel <seth-
+neel93@gmail.com >, Aaron Roth <aaroth@cis.upenn.edu >.
+Proceedings of the 35thInternational Conference on Machine
+Learning , Stockholm, Sweden, PMLR 80, 2018. Copyright 2018
+by the author(s).
+1This extended abstract is missing many details, proofs, and
+results that can be found in the full version (Neel & Roth, 2018).tial clinical trials may halt or re-allocate certain treatment
+groups due to preliminary results, and empirical scientists
+may initially try and test multiple hypotheses and multiple
+treatments, but then decide to gather more data in support
+of certain hypotheses and not others, based on the results
+of preliminary statistical tests.
+Unfortunately, as demonstrated by (Nie et al., 2017), the
+data that results from adaptive data gathering procedures
+will often exhibit substantial bias. As a result, subsequent
+analyses that are conducted on the data gathered by adap-
+tive procedures will be prone to error, unless the bias is
+explicitly taken into account. This can be difﬁcult. (Nie
+et al., 2017) give a selective inference approach: in sim-
+ple stochastic bandit settings, if the data was gathered by a
+speciﬁc stochastic algorithm that they design, they give an
+MCMC based procedure to perform maximum likelihood
+estimation to recover de-biased estimates of the underly-
+ing distribution means. In this paper, we give a related,
+but orthogonal approach whose simplicity allows for a sub-
+stantial generalization beyond the simple stochastic bandits
+setting. We show that in very general settings, if the data is
+gathered by a differentially private procedure, then we can
+place strong bounds on the bias of the data gathered, with-
+out needing any additional de-biasing procedure. Via ele-
+mentary techniques, this connection implies the existence
+of simple stochastic bandit algorithms with nearly optimal
+worst-case regret bounds, with very strong bias guaran-
+tees. By leveraging existing connections between differen-
+tial privacy and adaptive data analysis (Dwork et al., 2015c;
+Bassily et al., 2016; Rogers et al., 2016), we can extend the
+generality of our approach to bound not just bias, but to
+correct for effects of adaptivity on arbitrary statistics of the
+gathered data. Since the data being gathered will generally
+be useful for some as yet unspeciﬁed scientiﬁc analysis,
+rather than just for the narrow problem of mean estimation,
+our technique allows for substantially broader possibilities
+compared to past approaches.
+1.1. Our Results
+This paper has three main contributions:
+1. Using elementary techniques, we provide explicit
+bounds on the bias of empirical arm means main-
+tained by bandit algorithms in the simple stochasticMitigating Bias in Adaptive Data Gathering via Differential Privacy
+setting that make their selection decisions as a dif-
+ferentially private function of their observations. To-
+gether with existing differentially private algorithms
+for stochastic bandit problems, this yields an algo-
+rithm that obtains an essentially optimal worst-case re-
+gret bound, and guarantees minimal bias (on the order
+ofO(1=p
+KT)) for the empirical mean maintained
+for every arm. In the full version (Neel & Roth, 2018),
+we also extend our results to the linear contextual ban-
+dit problem, proving new bounds for a private linear
+UCB algorithm along the way.
+2. We then make a general observation, relating adap-
+tive data gathering to an adaptive analysis of a ﬁxed
+dataset (in which the choice of which query to pose to
+the dataset is adaptive). This lets us apply the large
+existing literature connecting differential privacy to
+adaptive data analysis. In particular, it lets us apply
+the max-information bounds of (Dwork et al., 2015b;
+Rogers et al., 2016) to our adaptive data gathering set-
+ting. This allows us to give much more general guar-
+antees about the data collected by differentially pri-
+vate collection procedures, that extend well beyond
+bias. For example, it lets us correct the p-values for
+arbitrary hypothesis tests run on the gathered data.
+3. Finally, we run a set of experiments that measure
+the bias incurred by the standard UCB algorithm in
+the stochastic bandit setting, contrast it with the low
+bias obtained by a private UCB algorithm, and show
+that there are settings of the privacy parameter that
+simultaneously can make bias statistically insigniﬁ-
+cant, while having competitive empirical regret with
+the non-private UCB algorithm. We also demonstrate
+in the linear contextual bandit setting how failing to
+correct for adaptivity can lead to false discovery when
+applyingt-tests for non-zero regression coefﬁcients
+on an adaptively gathered dataset.
+1.2. Related Work
+This paper bridges two recent lines of work. Our starting
+point is two recent papers: (Villar et al., 2015) empirically
+demonstrate in the context of clinical trials that a variety of
+simple stochastic bandit algorithms produce biased sample
+mean estimates (Similar results have been empirically ob-
+served in the context of contextual bandits (Dimakopoulou
+et al., 2017)). (Nie et al., 2017) prove that simple stochastic
+bandit algorithms that exhibit two natural properties (satis-
+ﬁed by most commonly used algorithms, including UCB
+and Thompson Sampling) result in empirical means that
+exhibit negative bias. They then propose a heuristic algo-
+rithm which computes a maximum likelihood estimator for
+the sample means from the empirical means gathered by
+a modiﬁed UCB algorithm which adds Gumbel noise tothe decision statistics. (Deshpande et al., 2017) propose
+a debiasing procedure for ordinary least-squares estimates
+computed from adaptively gathered data that trades off bias
+for variance, and prove a central limit theorem for their
+method. In contrast, the methods we propose in this paper
+are quite different. Rather than giving an ex-post debiasing
+procedure, we show that if the data were gathered in a dif-
+ferentially private manner, no debiasing is necessary. The
+strength of our method is both in its simplicity and gen-
+erality: rather than proving theorems speciﬁc to particular
+estimators, we give methods to correct the p-values for ar-
+bitrary hypothesis tests that might be run on the adaptively
+gathered data.
+The second line of work is the recent literature on adap-
+tive data analysis (Dwork et al., 2015c;b; Hardt & Ull-
+man, 2014; Steinke & Ullman, 2015; Russo & Zou, 2016;
+Wang et al., 2016; Bassily et al., 2016; Hardt & Blum,
+2015; Cummings et al., 2016; Feldman & Steinke, 2017a;b)
+which draws a connection between differential privacy
+(Dwork et al., 2006) and generalization guarantees for
+adaptively chosen statistics. The adaptivity in this setting
+is dual to the setting we study in the present paper: In the
+adaptive data analysis literature, the dataset itself is ﬁxed,
+and the goal is to ﬁnd techniques that can mitigate bias due
+to the adaptive selection of analyses. In contrast, here, we
+study a setting in which the data gathering procedure is it-
+self adaptive, and can lead to bias even for a ﬁxed set of
+statistics of interest. However, we show that adaptive data
+gathering can be re-cast as an adaptive data analysis pro-
+cedure, and so the results from the adaptive data analysis
+literature can be ported over.
+2. Preliminaries
+2.1. Simple Stochastic Bandit Problems
+In a simple stochastic bandit problem, there are Kun-
+known distributions Piover the unit interval [0,1], each
+with (unknown) mean i. Over a series of rounds t2
+f1;:::;Tg, an algorithmAchooses an arm it2[K], and
+observes a reward yit;tPit. Given a sequence of choices
+i1;:::;iT, the pseudo-regret of an algorithm is deﬁned to
+be:
+Regret((P1;:::;PK);i1;:::;iT) =Tmax
+ii TX
+t=1it
+We say that regret is bounded if we can put a bound on
+the quantity Regret((P1;:::;PK);i1;:::;iT)in the worst
+case over the choice of distributions P1;:::;PK, and with
+high probability or in expectation over the randomness of
+the algorithm and of the reward sampling.
+As an algorithmAinteracts with a bandit problem, it gen-
+erates a history , which records the sequence of actionsMitigating Bias in Adaptive Data Gathering via Differential Privacy
+taken and rewards observed thus far: t=f(i`;yi`;`)gt 1
+`=1.
+We denote the space of histories of length TbyHT=
+([K]R)T.
+The deﬁnition of an algorithm Ainduces a sequence of T
+(possibly randomized) selection functions ft:Ht 1!
+[K], which map histories onto decisions of which arm to
+pull at each round.
+2.2. Contextual Bandit Problems
+In the contextual bandit problem, decisions are endowed
+with observable features. Our algorithmic results in this
+paper focus on the linear contextual bandit problem, but
+our general connection between adaptive data gathering
+and differential privacy extends beyond the linear case. For
+simplicity of exposition, we specialize to the linear case
+here.
+There areKarmsi, each of which is associated with an
+unknownd-dimensional linear function represented by a
+vector of coefﬁcients i2Rdwithjjijj21. In rounds
+t2f1;:::;Tg, the algorithm is presented with a context
+xi;t2Rdfor each arm iwithjjxi;tjj21, which may
+be selected by an adaptive adversary as a function of the
+past history of play. We write xtto denote the set of all K
+contexts present at round t. As a function of these contexts,
+the algorithm then selects an arm it, and observes a reward
+yit;t. The rewards satisfy E[yi;t] =ixi;tand are bounded
+to lie in [0;1].
+In the contextual setting, histories incorporate observed
+context information as well: t=f(i`;x`;yi`;`)gt 1
+`=1.
+Again, the deﬁnition of an algorithm Ainduces a sequence
+ofT(possibly randomized) selection functions ft:Ht 1
+RdK![K], which now maps both a history and a set of
+contexts at round tto a choice of arm at round t.
+2.3. Data Gathering in the Query Model
+Above we’ve characterized a bandit algorithm Aasgather-
+ingdata adaptively using a sequence of selection functions
+ft, which map the observed history t2Ht 1to the index
+of the next arm pulled. In this model only after the arm is
+chosen is a reward drawn from the appropriate distribution.
+Then the history is updated, and the process repeats.
+In this section, we observe that whether the reward is drawn
+after the arm is “pulled,” or in advance, is a distinction
+without a difference. We cast this same interaction into
+the setting where an analyst asks an adaptively chosen se-
+quence of queries to a ﬁxed dataset, representing the arm
+rewards. The process of running a bandit algorithm Aup
+to timeTcan be formalized as the adaptive selection of T
+queries against a single database of size T- ﬁxed in ad-
+vance. The formalization consists of observing two things.First, by the principle of deferred randomness, we can view
+any (simple or contextual) bandit algorithm as operating in
+a setting in the rewards available for every arm at every
+time step have been sampled before the start of the algo-
+rithm, rather than online as the algorithm makes its selec-
+tions. Second, the choice of arm pulled at time tby the
+bandit algorithm can be viewed as the answer to an adap-
+tively selected query against this ﬁxed dataset of rewards.
+Adaptive data analysis is formalized as an interaction in
+which a data analyst Aperforms computations on a dataset
+D, observes the results, and then may choose the identity
+of the next computation to run as a function of previously
+computed results (Dwork et al., 2015c;a). A sequence of
+recent results shows that if the queries are differentially pri-
+vate in the dataset D, then they will not in general overﬁt
+D, in the sense that the distribution over results induced by
+computingq(D)will be “similar” to the distribution over
+results induced if qwere run on a new dataset, freshly sam-
+pled from the same underlying distribution (Dwork et al.,
+2015c;a; Bassily et al., 2016; Dwork et al., 2015b; Rogers
+et al., 2016). We will be more precise about what these
+results say in Section 4.
+Recall that histories record the choices of the algorithm,
+in addition to its observations. It will be helpful to intro-
+duce notation that separates out the choices of the algorithm
+from its observations. In the simple stochastic setting and
+the contextual setting, given a history t, anaction history
+A
+t= (i1;:::;it 1)2[K]t 1denotes the portion of the
+history recording the actions of the algorithm.
+In the simple stochastic setting, a bandit tableau is aTK
+matrixD2 
+[0;1]KT. Each rowDtofDis a vector of
+Kreal numbers, intuitively representing the rewards that
+would be available to a bandit algorithm at round tfor each
+of theKarms. In the contextual setting, a bandit tableau is
+represented by a pair of TKmatrices:D2 
+[0;1]KT
+andC2 
+(Rd)KT. Intuitively, Crepresents the contexts
+presented to a bandit algorithm Aat each round: each row
+Ctcorresponds to a set of Kcontexts, one for each arm. D
+again represents the rewards that would be available to the
+bandit algorithm at round tfor each of the Karms.
+We write Tab to denote a bandit tableau when the setting
+has not been speciﬁed: implicitly, in the simple stochastic
+case, Tab =D, and in the contextual case, Tab = (D;C ).
+Given a bandit tableau and a bandit algorithm A, we have
+the following interaction:
+We denote the subset of the reward tableau Dcorrespond-
+ing to rewards that would have been revealed to a bandit al-
+gorithmAgiven action history A
+t, byA
+t(D). Concretely
+ifA
+t= (i1;:::;it 1)then A
+t(D) =f(i`;yi`;`)gt 1
+`=1.
+Given a selection function ftand an action history A
+t, de-Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+Interact
+Inputs: Time horizon T, bandit algorithm A, and bandit
+tableau Tab (Din the simple stochastic case, (D;C )in
+the contextual case)
+1:fort= 1toTdo
+2: (contextual case) Show AcontextsCt;1;:::;Ct;K
+3: LetAplay actionit
+4: ShowArewardDt;it
+5:end for
+6:Return: (i1;:::;iT)
+ﬁne the query qA
+tasqA
+t(D) =ft(A
+t(D)).
+We now deﬁne Algorithms Bandit and InteractQuery .
+Bandit is a standard contextual bandit algorithm deﬁned
+by selection functions ft, and InteractQuery is the Inter-
+actroutine that draws the rewards in advance, and at time t
+selects action itas the result of query qA
+t. With the above
+deﬁnitions in hand, it is straightforward to show that the
+two Algorithms are equivalent, in that they induce the same
+joint distribution on their outputs. In both algorithms for
+convenience we assume we are in the linear contextual set-
+ting, and we write itto denote the i.i.d. error distributions
+of the rewards, conditional on the contexts.
+Bandit
+Inputs:T;k;fxitg;fig;ft;0=;
+1:fort= 1;:::;T :do
+2: Letit=ft(t 1)
+3: Drawyit;txit;tit+it
+4: Update t= t 1[(it;yit;t)
+5:end for
+6:Return: T
+InteractQuery
+Inputs:T;k;D :Dit=ixit+it;ft
+1:fort= 1;:::;T :do
+2: Letqt=qA
+t 1
+3: Letit=qt(D)
+4: Update A
+t= A
+t 1[it
+5:end for
+6:Return: A
+T
+Claim 1. LetP1;tbe the joint distribution induced by
+Algorithm Bandit ontat timet, and letP2;tbe the
+joint distribution induced by Algorithm InteractQuery on
+t= A
+t(D). Then8tP1;t=P2;t.
+The upshot of this equivalence is that we can import ex-
+isting results that hold in the setting in which the datasetis ﬁxed, and queries are adaptively chosen. There are a
+large collection of results of this form that apply when
+the queries are differentially private (Dwork et al., 2015c;
+Bassily et al., 2016; Rogers et al., 2016) which apply di-
+rectly to our setting. In the next section we formally deﬁne
+differential privacy in the simple stochastic and contextual
+bandit setting, and leave the description of the more general
+transfer theorems to Section 4.
+2.4. Differential Privacy
+We will be interested in algorithms that are differentially
+private. In the simple stochastic bandit setting, we will re-
+quire differential privacy with respect to the rewards. In
+the contextual bandit setting, we will also require differen-
+tial privacy with respect to the rewards, but not necessarily
+with respect to the contexts.
+We now deﬁne the neighboring relation we need to deﬁne
+bandit differential privacy:
+Deﬁnition 1. In the simple stochastic setting, two bandit
+tableau’sD;D0arereward neighbors if they differ in at
+most a single row: i.e. if there exists an index `such that
+for allt6=`,Dt=D0
+t.
+In the contextual setting, two bandit tableau’s
+(D;C );(D0;C0)are reward neighbors ifC=C0
+andDandD0differ in at most a single row: i.e. if there
+exists an index `such that for all t6=`,Dt=D0
+t.
+Note that changing a context does not result in a neighbor-
+ing tableau: this neighboring relation will correspond to
+privacy for the rewards, but not for the contexts.
+Remark 1.Note that we could have equivalently deﬁned
+reward neighbors to be tableaus that differ in only a single
+entry, rather than in an entire row. The distinction is unim-
+portant in a bandit setting, because a bandit algorithm will
+be able to observe only a single entry in any particular row.
+Deﬁnition 2. A bandit algorithm Ais(;)reward differ-
+entially private if for every time horizon Tand every pair
+of bandit tableau Tab;Tab0that are reward neighbors, and
+every subset S[K]T:
+P[Interact (T;A;Tab)2S]
+eP
+Interact (T;A;Tab0)2S
++
+If= 0, we say thatAis-differentially private.
+3. Privacy Reduces Bias in Stochastic Bandit
+Problems
+We begin by showing that differentially private algorithms
+that operate in the stochastic bandit setting compute empiri-
+cal means for their arms that are nearly unbiased. TogetherMitigating Bias in Adaptive Data Gathering via Differential Privacy
+with known differentially private algorithms for stochas-
+tic bandit problems, the result is an algorithm that obtains
+a nearly optimal (worst-case) regret guarantee while also
+guaranteeing that the collected data is nearly unbiased. We
+could (and do) obtain these results by combining the re-
+duction to answering adaptively selected queries given by
+Theorem 1 with the standard generalization theorems in
+adaptive data analysis (e.g. Corollary 2 in its most gen-
+eral form), but we ﬁrst prove these de-biasing results from
+ﬁrst principles to build intuition.
+Theorem 1. LetAbe an (;)-differentially private algo-
+rithm in the stochastic bandit setting. Then, for all i2[K],
+and allt, we have:
+Eh
+^Yt
+i ii(e 1 +T)i
+Remark 2.Note that since i2[0;1], and for1,
+e1+, this theorem bounds the bias by roughly +T.
+Often, we will have = 0and so the bias will be bounded
+by roughly.
+Proof. First we ﬁx some notation. Fix any time horizon
+T, and let (ft)t2[T]be the sequence of selection functions
+induced by algorithm A. Let 1fft(t)=igbe the indicator
+for the event that arm iis pulled at time t. We can write the
+random variable representing the sample mean of arm iat
+timeTas
+^YT
+i=TX
+t=11fft(t)=igPT
+t0=11fft0(t0)=igyit
+where we recall that yi;tis the random variable representing
+the reward for arm iat timet. Note that the numerator
+(ft(t) =i) is by deﬁnition independent of yi;t, but the
+denominator (PT
+t0=11fft0(t0)=ig) is not, because for t0>
+tt0depends onyi;t. It is this dependence that leads to bias
+in adaptive data gathering procedures, and that we must
+argue is mitigated by differential privacy.
+We recall that the random variable NT
+irepresents the num-
+ber of times arm iis pulled through round T:NT
+i=PT
+t0=11fft0(t0)=ig. Using this notation, we write the sam-
+ple mean of arm iat timeT, as:
+^YT
+i=TX
+t=11fft(t)=ig
+NT
+iyit
+We can then calculate:
+E[^Yt
+i] =TX
+t=1E[1fft(t)=ig
+NT
+iyit]
+=TX
+t=1E
+yitPi[yitE
+A[1fft(t)=ig
+NT
+ijyit]]where the ﬁrst equality follows by the linearity of expecta-
+tion, and the second follows by the law of iterated expecta-
+tion.
+Our goal is to show that the conditioning in the inner ex-
+pectation does not substantially change the value of the ex-
+pectation. Speciﬁcally, we want to show that all t, and any
+valueyit, we have
+E[1fft(t)=ig
+Nijyit]e E[1fft(t)=ig
+NT
+i] 
+If we can show this, then we will have
+E[^YT
+i](e TX
+t=1E[1fft(t)=ig
+NT
+i] T)i
+= (e E[NT
+i
+NT
+i] T)i= (e  T)i
+which is what we want (The reverse inequality is symmet-
+ric).
+This is what we now show to complete the proof. Ob-
+serve that for all t;i, the quantity1fft(t)=ig
+Nican be de-
+rived as a post-processing of the sequence of choices
+(f1(1);:::;fT(T)), and is therefore differentially pri-
+vate in the observed reward sequence. Observe also that
+the quantity1fft(t)=ig
+NT
+iis bounded in [0;1]. Hence (by a
+lemma in the full version) for any pair of values yit;y0
+it,
+we have E[1fft(t)=ig
+NT
+ijyit]e E[1fft(t)=ig
+NT
+ijy0
+it] :All
+that remains is to observe that there must exist some value
+y0
+itsuch that E[1fft(t)=ig
+Nijy0
+it]E[1fft(t)=ig
+Ni]. (Other-
+wise, this would contradict Ey0
+itPi[E[1fft(t)=ig
+Nijy0
+it]] =
+E[1fft(t)=ig
+NT
+i]). Fixing any such y0
+itimplies that for all yit
+E[1fft(t)=ig
+Nijyit]e E[1fft(t)=ig
+NT
+ijy0
+i;t] 
+e E[1fft(t)=ig
+NT
+i] 
+as desired. The upper bound on the bias follows symmetri-
+cally.
+3.1. A Private UCB Algorithm
+There are existing differentially private variants of the clas-
+sic UCB algorithm ((Auer et al., 2002; Agrawal, 1995;
+Lai & Robbins, 1985)), which give a nearly optimal trade-
+off between privacy and regret (Mishra & Thakurta, 2014;
+Tossou & Dimitrakakis, 2017; 2016). For completeness,
+we give a simple version of a private UCB algorithm in the
+full version which we use in our experiments. Here, we
+simply quote the relevant theorem, which is a consequence
+of a theorem in (Tossou & Dimitrakakis, 2016):Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+Theorem 2. (Tossou & Dimitrakakis, 2016) There is an -
+differentially private algorithm that obtains expected regret
+bounded by:
+O
+maxlnT
+(ln ln(T) + ln(1=));p
+kTlogT
+Thus, we can take to be as small as =O(ln1:5Tp
+kT)
+while still having a regret bound of O(pkTlogT), which
+is nearly optimal in the worst case (over instances) (Audib-
+ert & Bubeck, 2009).
+Combining the above bound with Theorem 1, and letting
+=O(ln1:5Tp
+kT), we have:
+Corollary 1. There exists a simple stochastic bandit al-
+gorithm that simultaneously guarantees that the bias of
+the empirical average for each arm iis bounded by
+O(iln1:5Tp
+kT)and guarantees expected regret bounded by
+O(pkTlogT).
+Of course, other tradeoffs are possible using different val-
+ues of. For example, the algorithm of (Tossou & Dim-
+itrakakis, 2016) obtains sub-linear regret so long as =
+!(ln2T
+T). Thus, it is possible to obtain non-trivial regret
+while guaranteeing that the bias of the empirical means re-
+mains as low as polylog(T)=T.
+4. Max Information & Arbitrary Hypothesis
+Tests
+Up through this point, we have focused our attention on
+showing how the private collection of data mitigates the ef-
+fect that adaptivity has on bias, in both the stochastic and
+(in the full version) contextual bandit problems. In this sec-
+tion, we draw upon more powerful results from the adap-
+tive data analysis literature to go substantially beyond bias:
+to correct the p-values of hypothesis tests applied to adap-
+tively gathered data. These p-value corrections follow from
+the connection between differential privacy and a quantity
+called max information , which controls the extent to which
+the dependence of selected test on the dataset can distort the
+statistical validity of the test (Dwork et al., 2015b; Rogers
+et al., 2016). We brieﬂy deﬁne max information, state the
+connection to differential privacy, and illustrate how max
+information bounds can be used to perform adaptive analy-
+ses in the private data gathering framework.
+Deﬁnition 3 (Max-Information (Dwork et al., 2015b).) .
+LetX;Z be jointly distributed random variables over
+domain (X;Z). LetX
+Zdenote the random vari-
+able that draws independent copies of X;Z according
+to their marginal distributions. The -approximate max-
+information between X;Z , denotedI(X;Z), is deﬁnedas:
+I(X;Z) = log sup
+O(XZ );P[(X;Z)2O]>P[(X;Z)2O] 
+P[X
+Z2O]
+Following (Rogers et al., 2016), deﬁne a test statistic t:
+D!R, whereDis the space of all datasets. For D2D,
+given an output a=t(D), thep-value associated with the
+testton datasetDisp(a) =PDP0[t(D)a], whereP0
+is the null hypothesis distribution. Consider an algorithm
+A, mapping a dataset to a test statistic.
+Deﬁnition 4 (Validp-value Correction Function (Rogers
+et al., 2016).) .A function: [0;1]![0;1]is a valid
+p-value correction function for Aif the procedure:
+1. Select a test statistic t=A(D)
+2. Reject the null hypothesis if p(t(D))()
+has probability at most of rejection, when DP0.
+Then the following theorem gives a valid p-value correction
+function when (D;A(D))have bounded -approximate
+max information.
+Theorem 3 ((Rogers et al., 2016).) .LetAbe a data-
+dependent algorithm for selecting a test statistics such that
+I(X;A(X))k. Then the following function is a valid
+p-value correction function for A:() = max( 
+2k;0)
+Finally, we can connect max information to differential pri-
+vacy, which allows us to leverage private algorithms to per-
+form arbitrary valid statistical tests.
+Theorem 4 (Theorem 20 from (Dwork et al., 2015b).) .Let
+Abe an-differentially private algorithm, let Pbe an ar-
+bitrary product distribution over datasets of size n, and let
+DP. Then for every  >0:
+I(D;A(D))log(e)(2n=2 +p
+nlog(2=)=2)
+Remark 3.We note that a hypothesis of this theorem is that
+the data is drawn from a product distribution. In the con-
+textual bandit setting, this corresponds to rows in the ban-
+dit tableau being drawn from a product distribution. This
+will be the case if contexts are drawn from a distribution at
+each round, and then rewards are generated as some ﬁxed
+stochastic function of the contexts. Note that contexts (and
+even rewards) can be correlated with one another within a
+round, so long as they are selected independently across
+rounds.
+We now formalize the process of running a hypothesis test
+against an adaptively collected dataset. A bandit algorithm
+Agenerates a history T2HT. Let the reward portion
+of the gathered dataset be denoted by DA. We deﬁne an
+adaptive test statistic selector as follows.Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+Deﬁnition 5. Fix the reward portion of a bandit tableau D
+and bandit algorithm A. An adaptive test statistic selector is
+a functionsfrom action histories to test statistics such that
+s(A
+T)is a real-valued function of the adaptively gathered
+datasetDA.
+Importantly, the selection of the test statistic s(A
+T)can
+depend on the sequence of arms pulled by A(and in the
+contextual setting, on all contexts observed), but not other-
+wise on the reward portion of the tableau D. For example,
+tA=s(A
+T)could be the t-statistic corresponding to the
+null hypothesis that the arm iwhich was pulled the great-
+est number of times has mean :tA(DA) =PNT
+i
+t=1yit p
+NT
+i
+By virtue of Theorems 3 and 4, and our view of adaptive
+data gathering as adaptively selected queries, we get the
+following corollary:
+Corollary 2. LetAbe anreward differentially pri-
+vate bandit algorithm, and let sbe an adaptive test
+statistic selector. Fix  > 0, and let () =
+
+2log(e)(2T=2+p
+Tlog(2=)=2);for2[0;1]. Then for any
+adaptively selected statistic tA=s(A
+T), and any prod-
+uct distribution Pcorresponding to the null hypothesis for
+tA
+PDP;A[p(tA(D))()]
+If we set=O(1=p
+T)in Corollary 2, then () =O()–
+i.e. a validp-value correction that only scales by a con-
+stant.
+5. Experiments
+We ﬁrst validate our theoretical bounds on bias in the sim-
+ple stochastic bandit setting. As expected the standard
+UCB algorithm underestimates the mean at each arm, while
+the private UCB algorithm of ( ?) obtains very low bias.
+While using the suggested by the theory effectively re-
+duces bias and achieves near optimal asymptotic regret, the
+resulting private algorithm only achieves non-trivial regret
+for largeTdue to large constants and logarithmic factors
+in our bounds. This motivates a heuristic choice of that
+provides no theoretical guarantees on bias reduction, but
+leads to regret that is comparable to the non-private UCB
+algorithm. We ﬁnd empirically that even with this large
+choice ofwe achieve an 8fold reduction in bias relative
+to UCB. This is consistent with the observation that our
+guarantees hold in the worst-case, and suggests that there
+is room for improvement in our theoretical bounds — both
+improving constants in the worst-case bounds on bias and
+on regret, and for proving instance speciﬁc bounds. Finally,
+we show that in the linear contextual bandit setting collect-
+ing data adaptively with a linear UCB algorithm and then
+conductingt-tests for regression coefﬁcients yields incor-
+rect inference (absent a p-value correction). These ﬁndingsconﬁrm the necessity of our methods when drawing con-
+clusions from adaptively gathered data.
+5.1. Stochastic Multi-Armed Bandit
+In our ﬁrst stochastic bandit experiment we set K= 20
+andT= 500 . TheKarm means are equally spaced be-
+tween 0and1with gap  =:05, with0= 1. We run
+UCB and-private UCB for Trounds with =:05, and
+after each run compute the difference between the sample
+mean at each arm and the true mean. We repeat this pro-
+cess10;000times, averaging to obtain high conﬁdence es-
+timates of the bias at each arm. The average absolute bias
+over all arms for private UCB was :00176 , with the bias
+for every arm being statistically indistinguishable from 0
+at 95% conﬁdence (see Figure 1 for conﬁdence intervals)
+while the average absolute bias (over arms) for UCB was
+:0698 , or over 40times higher. The most biased arm had
+a measured bias of roughly 0:14, and except for the top 4
+arms, the bias of each arm was statistically signiﬁcant. It is
+worth noting that private UCB achieves bias signiﬁcantly
+lower than the =:05guaranteed by the theory, indicating
+that the theoretical bounds on bias obtained from differen-
+tial privacy are conservative. Figures 1, 2 show the bias at
+each arm for private UCB vs. UCB, with 95% conﬁdence
+intervals around the bias at each arm. Not only is the bias
+for private UCB an order of magnitude smaller on aver-
+age, it does not exhibit the systemic negative bias evident
+in Figure 2.
+Noting that the observed reduction in bias for =:05ex-
+ceeded that guaranteed by the theory, we run a second ex-
+periment with K= 5;T= 100000; =:05;and= 400 ,
+averaging results over 1000 iterations. Figure 5 shows that
+private UCB achieves sub-linear regret comparable with
+UCB. While = 400 provides no meaningful theoretical
+guarantee, the average absolute bias at each arm mean ob-
+tained by the private algorithm was :0015 (statistically in-
+distinguishable from 0 at 95% conﬁdence for each arm),
+while the non-private UCB algorithm obtained average bias
+:011,7:5times larger. The bias reduction for the arm with
+the smallest mean (for which the bias is the worst with the
+non private algorithm) was by more than a factor of 10.
+Figures 3,4 show the bias at each arm for the private and
+non-private UCB algorithms together with 95% conﬁdence
+intervals; again we observe a negative skew in the bias for
+UCB, consistent with the theory in (Nie et al., 2017).
+5.2. Linear Contextual Bandits
+Our second experiment conﬁrms that adaptivity leads to
+bias in the linear contextual bandit setting in the context of
+hypothesis testing – and in particular can lead to false dis-
+covery in testing for non-zero regression coefﬁcients. The
+set up is as follows: for K= 5 arms, we observe rewardsMitigating Bias in Adaptive Data Gathering via Differential Privacy
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+arm mean0.03
+0.02
+0.01
+0.000.010.020.03biasPrivate UCB bias per arm: epsilon = 0.05
+Figure 1: Private UCB Bias per Arm (experiment 1)
+Figure 2: UCB Bias per Arm (experiment 1)
+0.5 0.6 0.7 0.8 0.9 1.0 1.1
+arm mean0.020
+0.015
+0.010
+0.005
+0.0000.0050.0100.0150.0200.025biasPrivate UCB bias per arm: epsilon = 400.0
+Figure 3: Private UCB Bias per Arm (experiment 2)
+0.5 0.6 0.7 0.8 0.9 1.0 1.1
+arm mean0.05
+0.04
+0.03
+0.02
+0.01
+0.000.010.02biasUCB bias per arm
+Figure 4: UCB Bias per Arm (experiment 2)
+Figure 5: Average Regret: UCB vs. Private UCB
+Figure 6: Histogram of p-values forz-test under the null
+hypothesis.K=d= 5;T= 500 .
+yi;tN(0
+ixit;1), wherei;xit2R5;jjijj=jjxitjj= 1.
+For each arm i, we seti1= 0. Subject to these constraints,
+we pick the parameters uniformly at random (once per
+run), and select the contexts xuniformly at random (at
+each round). We run a linear UCB algorithm (OFUL ( ?))
+forT= 500 rounds, and identify the arm ithat has
+been selected most frequently. We then conduct a z-test
+for whether the ﬁrst coordinate of iis equal to 0. By
+construction the null hypothesis H0:i1= 0 of the ex-
+periment is true, and absent adaptivity, the p-value should
+be distributed uniformly at random. In particular, for any
+value ofthe probability that the corresponding p-value is
+less thanis exactly. We record the observed p-value,
+and repeat the experiment 1000 times, displaying the his-
+togram of observed p-values in Figure 6. As expected, the
+adaptivity of the data gathering process leads the p-values
+to exhibit a strong downward skew. The dotted blue line
+demarcates=:05. Rather than probability :05of falsely
+rejecting the null hypothesis at 95% conﬁdence, we observe
+that76% of the observed p-values fall below the :05thresh-
+old. This shows that a careful p-value correction in the style
+of Section 2.3 is essential even for simple testing of regres-
+sion coefﬁcients, lest bias lead to false discovery.Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+References
+Agrawal, R. Sample mean based index policies with
+o(log n) regret for the multi-armed bandit problem. Ad-
+vances in Applied Probability , 27(4):1054–1078, 1995.
+ISSN 00018678. URL http://www.jstor.org/
+stable/1427934 .
+Audibert, J.-Y . and Bubeck, S. Minimax policies for ad-
+versarial and stochastic bandits. In COLT , pp. 217–226,
+2009.
+Auer, P., Cesa-Bianchi, N., and Fischer, P. Finite-time anal-
+ysis of the multiarmed bandit problem. Mach. Learn. ,
+47(2-3):235–256, May 2002. ISSN 0885-6125. doi: 10.
+1023/A:1013689704352. URL https://doi.org/
+10.1023/A:1013689704352 .
+Bassily, R., Nissim, K., Smith, A., Steinke, T., Stemmer,
+U., and Ullman, J. Algorithmic stability for adaptive
+data analysis. In Proceedings of the forty-eighth annual
+ACM symposium on Theory of Computing , pp. 1046–
+1059. ACM, 2016.
+Bubeck, S., Cesa-Bianchi, N., et al. Regret analysis of
+stochastic and nonstochastic multi-armed bandit prob-
+lems. Foundations and Trends Rin Machine Learning ,
+5(1):1–122, 2012.
+Cummings, R., Ligett, K., Nissim, K., Roth, A., and Wu,
+Z. S. Adaptive learning with robust generalization guar-
+antees. In Conference on Learning Theory , pp. 772–814,
+2016.
+Deshpande, Y ., Mackey, L., Syrgkanis, V ., and Taddy, M.
+Accurate inference for adaptive linear models. arXiv
+preprint arXiv:1712.06695 , 2017.
+Dimakopoulou, M., Athey, S., and Imbens, G. Estima-
+tion considerations in contextual bandits. arXiv preprint
+arXiv:1711.07077 , 2017.
+Dwork, C., McSherry, F., Nissim, K., and Smith, A. Cal-
+ibrating noise to sensitivity in private data analysis. In
+Proceedings of the Third Conference on Theory of Cryp-
+tography , TCC’06, pp. 265–284, Berlin, Heidelberg,
+2006. Springer-Verlag. ISBN 3-540-32731-2, 978-3-
+540-32731-8. doi: 10.1007/11681878 14. URL http:
+//dx.doi.org/10.1007/11681878_14 .
+Dwork, C., Feldman, V ., Hardt, M., Pitassi, T., Reingold,
+O., and Roth, A. The reusable holdout: Preserving va-
+lidity in adaptive data analysis. Science , 349(6248):636–
+638, 2015a.
+Dwork, C., Feldman, V ., Hardt, M., Pitassi, T., Rein-
+gold, O., and Roth, A. Generalization in adap-
+tive data analysis and holdout reuse. In Proceed-
+ings of the 28th International Conference on NeuralInformation Processing Systems - Volume 2 , NIPS’15,
+pp. 2350–2358, Cambridge, MA, USA, 2015b. MIT
+Press. URL http://dl.acm.org/citation.
+cfm?id=2969442.2969502 .
+Dwork, C., Feldman, V ., Hardt, M., Pitassi, T., Rein-
+gold, O., and Roth, A. L. Preserving statistical va-
+lidity in adaptive data analysis. In Proceedings of the
+Forty-seventh Annual ACM Symposium on Theory of
+Computing , STOC ’15, pp. 117–126, New York, NY ,
+USA, 2015c. ACM. ISBN 978-1-4503-3536-2. doi:
+10.1145/2746539.2746580. URL http://doi.acm.
+org/10.1145/2746539.2746580 .
+Feldman, V . and Steinke, T. Generalization for adaptively-
+chosen estimators via stable median. In Conference on
+Learning Theory , pp. 728–757, 2017a.
+Feldman, V . and Steinke, T. Calibrating noise to
+variance in adaptive data analysis. arXiv preprint
+arXiv:1712.07196 , 2017b.
+Hardt, M. and Blum, A. The ladder: a reliable leaderboard
+for machine learning competitions. In Proceedings of the
+32nd International Conference on International Confer-
+ence on Machine Learning-Volume 37 , pp. 1006–1014.
+JMLR. org, 2015.
+Hardt, M. and Ullman, J. Preventing false discovery in
+interactive data analysis is hard. In Foundations of Com-
+puter Science (FOCS), 2014 IEEE 55th Annual Sympo-
+sium on , pp. 454–463. IEEE, 2014.
+Lai, T. and Robbins, H. Asymptotically efﬁcient adaptive
+allocation rules. Adv. Appl. Math. , 6(1):4–22, March
+1985. ISSN 0196-8858. doi: 10.1016/0196-8858(85)
+90002-8. URL http://dx.doi.org/10.1016/
+0196-8858(85)90002-8 .
+Mishra, N. and Thakurta, A. Private stochastic multi-arm
+bandits: From theory to practice. In ICML Workshop on
+Learning, Security, and Privacy , 2014.
+Neel, S. and Roth, A. Mitigating bias in adaptive
+data gathering via differential privacy. arXiv preprint
+arXiv:1806.02329 , 2018.
+Nie, X., Tian, X., Taylor, J., and Zou, J. Why adaptively
+collected data have negative bias and how to correct for
+it.ArXiv e-prints , August 2017.
+Rogers, R. M., Roth, A., Smith, A. D., and Thakkar, O.
+Max-information, differential privacy, and post-selection
+hypothesis testing. In IEEE 57th Annual Symposium on
+Foundations of Computer Science, FOCS 2016, 9-11 Oc-
+tober 2016, Hyatt Regency, New Brunswick, New Jer-
+sey, USA , pp. 487–494, 2016. doi: 10.1109/FOCS.2016.
+59. URL https://doi.org/10.1109/FOCS.
+2016.59 .Mitigating Bias in Adaptive Data Gathering via Differential Privacy
+Russo, D. and Zou, J. Controlling bias in adaptive data
+analysis using information theory. In Artiﬁcial Intelli-
+gence and Statistics , pp. 1232–1240, 2016.
+Steinke, T. and Ullman, J. Interactive ﬁngerprinting codes
+and the hardness of preventing false discovery. In Con-
+ference on Learning Theory , pp. 1588–1628, 2015.
+Tossou, A. C. Y . and Dimitrakakis, C. Algorithms for
+differentially private multi-armed bandits. In Proceed-
+ings of the Thirtieth AAAI Conference on Artiﬁcial
+Intelligence , AAAI’16, pp. 2087–2093. AAAI Press,
+2016. URL http://dl.acm.org/citation.
+cfm?id=3016100.3016190 .
+Tossou, A. C. Y . and Dimitrakakis, C. Achieving pri-
+vacy in the adversarial multi-armed bandit. CoRR ,
+abs/1701.04222, 2017. URL http://arxiv.org/
+abs/1701.04222 .
+Villar, S. S., Bowden, J., and Wason, J. Multi-armed bandit
+models for the optimal design of clinical trials: beneﬁts
+and challenges. Statistical science: a review journal of
+the Institute of Mathematical Statistics , 30(2):199, 2015.
+Wang, Y .-X., Lei, J., and Fienberg, S. E. A mini-
+max theory for adaptive data analysis. arXiv preprint
+arXiv:1602.04287 , 2016.

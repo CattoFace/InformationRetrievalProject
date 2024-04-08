@@ -1,0 +1,600 @@
+Mitigating Bias in Federated Learning
+Annie Abay, Yi Zhou, Nathalie Baracaldo, Shashank Rajamoni, Ebube Chuba, Heiko Ludwig
+IBM Research
+Abstract
+As methods to create discrimination-aware models develop, they focus on centralized ML, leaving federated
+learning (FL) unexplored. FL is a rising approach for collaborative ML, in which an aggregator orchestrates multiple
+parties to train a global model without sharing their training data. In this paper, we discuss causes of bias in FL and
+propose three pre-processing and in-processing methods to mitigate bias, without compromising data privacy, a key
+FL requirement. As data heterogeneity among parties is one of the challenging characteristics of FL, we conduct
+experiments over several data distributions to analyze their effects on model performance, fairness metrics, and bias
+learning patterns. We conduct a comprehensive analysis of our proposed techniques, the results demonstrating that
+these methods are effective even when parties have skewed data distributions or as little as 20% of parties employ the
+methods.
+1 Introduction
+As machine learning (ML) has been applied to facilitate decision-making in various areas, such as hiring, loan grading
+etc., there have been and continue to be increasing concerns [ 3,31] that ML models will inevitably “learn undesired
+bias” from the training data and make unfair predictions. From algorithms erroneously detecting suspects of crimes
+base on the color of their skin [ 7] and deciding who goes to jail [ 26], to algorithms used to predict test scores that
+provide unfairly higher scores to socio-economically privileged students, allowing them to enter universities at a higher
+rate [ 27], the lack of understanding and control of undesired bias in ML models has tangible consequences. To deal
+with this challenge of biased models, many researchers have devoted their efforts, e.g., [ 15,17,35,8,2] to deﬁne,
+detect and mitigate bias in ML over the past decade. These approaches mainly measure and reduce undesired bias with
+respect to a sensitive attribute, such as ageorrace, in the training dataset. Although many of them provide various
+effective approaches, they all focus on centralized ML, where the training dataset is stored in a single place, executing
+the learning procedure, and hence assume full access to the entire dataset.
+This assumption is not true for federated learning (FL) [ 22,19], where data is not shared with a central entity for
+reasons of privacy, conﬁdentiality or regulatory constraints, such as the European General Data Protection Regulation
+(GDPR), California Consumer Privacy Act (CCPA), or the Health Insurance Portability and Accountability Act (HIPAA).
+In FL, multiple parties collaboratively train a model without sharing their raw data; they share model updates , such as
+model parameters or gradients of their local models, with the aggregator during each round of training; the aggregator
+uses these to update the global model. The aggregation of the model updates usually follows a speciﬁc fusion strategy.
+This process repeats for several rounds until a certain accuracy or maximum number of training rounds has been
+reached.
+Finding methods to both measure and reduce bias without directly examining sensitive information conﬂicts with
+the full data access most current techniques require, and is an open issue in the ﬁeld [14].
+Consider a scenario where a bank in the European Union wants to train a ML model to determine whether a potential
+client is qualiﬁed to obtain a loan. Due to legislation in different countries, it is not possible to transmit all data from
+other branches to a central place [ 28]. The bank thus decides to engage all of its country’s branches in an FL process
+to train a model without transferring data. Each branch may have a slightly different data distribution, or number of
+samples, based on its location. A branch in an underdeveloped town, or near a women’s college, or surrounded by
+multiple luxury apartments is likely to disproportionately represent a speciﬁc subgroup, making it difﬁcult to identify
+1arXiv:2012.02447v1  [cs.LG]  4 Dec 2020and mitigate bias on local datasets only. Even if the data distribution between branches is similar, bias in the ﬁnal model
+can still exist, which is demonstrated in our experiments. In this scenario, avoiding bias caused by sex or race is relevant.
+Current state-of-the-art techniques were not designed to handle several difﬁculties that emerge in FL settings. In
+particular, parties may have heterogeneity in distribution and amounts of data that, due to privacy concerns, cannot be
+freely shared. These requirements have led to the design of solutions that apply multi-party computation during the
+training process [ 32,33] or add differential privacy noise [ 29]. Under these circumstances, bias detection techniques
+that assume the training set distribution is known, e.g. [ 16], cannot be applied. The aggregator and parties have a partial
+view of the entire data, and so it is difﬁcult to measure how different model updates are affecting the global model
+during training. This lack of visibility is exacerbated by the dynamic participation of parties, which may drop out of the
+system due to connectivity constraints for a few training rounds.
+In this paper, we address these important gaps. We present an analysis of the sources of bias in FL settings and
+adapt two highly utilized fairness techniques, resulting in the proposal of local reweighing ,global reweighing with
+differential privacy andfederated prejudice removal . We further assess these approaches under several FL settings,
+including multiple data distributions when sensitive attributes are known. Additionally, we assess the effectiveness
+of four relevant fairness metrics that determine how biased a model is, and found one of them unreliable in FL. We
+summarize the contributions of this paper as follows:
+•Party-based Bias Mitigation: We propose three bias mitigation techniques based on well-known centralized
+bias mitigation techniques to train models via FL without compromising data privacy and prediction accuracy.
+•Fairness and Privacy Trade-off: We propose three approaches with different privacy designs. We analyze their
+trade-offs between model performance, privacy and simplicity.
+•Uncooperative Parties: We study the effect of parties refusing to get involved in bias mitigation procedures and
+we provide a bias mitigation technique that can ensure the ﬁnal model is fair even under such circumstances.
+•Highly Imbalanced Data Distribution: We demonstrate the performance of our proposed methods under a
+variety of data heterogeneity settings in terms of skewed datasets and several sample ratios for multiple sensitive
+attributes, even extreme cases.
+•Stability of fairness metrics in FL: We systematically assess popular bias metrics in FL setting and demonstrate
+some of them are not suitable.
+This paper is organized as follows:
+We discuss related work in Section 2. Section 3 and 4 are devoted to discussing the causes of bias and our approaches
+to mitigate some of them in FL. Extensive experiments are conducted in Section 5 to demonstrate the effectiveness of
+our proposed methods. Section 6 includes our concluding remarks.
+Terminology and notation:
+Throughout the paper, favorable , e.g., 1andunfavorable labels , e.g., 0, refer to advantageous and disadvantageous
+outcomes. Protected/sensitive attributes are features that divide a group and may impact treatment, i.e. sex, race, age,
+etc.Privileged andunprivileged groups are based around sensitive attributes, and are understood to beneﬁt from and
+suffer from bias, respectively. D:= (X;Y )denotes the training dataset, where Xrefers to the feature set and Yrefers
+to the label set. SXands=siare the set of sensitive attributes or a speciﬁc sensitive attribute value, respectively.
+Similarly,x=xiandydenote a feature vector and label.
+2 Related work
+In the past decade, there has been fruitful research addressing the concern of producing biased ML models. For a given
+sensitive attribute, existing methods try to ensure that the main factor in determining the outcome of the model, positive
+or negative, is not the sensitive attribute itself.
+They can be classiﬁed depending on the stage of the training process they are incorporated into, resulting in three
+categories: pre-processing ,in-processing andpost-processing techniques. Pre-processing methods, e.g., [15, 9, 8, 36],
+work to create a less biased dataset, and they either modify the raw data samples by changing the value of sensitive
+2Table 1: Summary of our proposed approaches
+METHODS PRIVACYADDITIONAL
+COMMUNICATIONHYPERPARAMETERS
+LOCAL REWEIGHING SAME AS PLAIN FL 0 NONE
+GLOBAL REWEIGHING
+WITH DIFFERENTIAL PRIVACY-DIFFERENTIAL PRIVACY 1.5 
+FEDERATED
+PREJUDICE REMOVALSAME AS PLAIN FL 0 
+attributes or class labels, or assign sample weights to data samples. All pre-processing techniques can be applied
+regardless of the chosen ML models and training algorithms, but may lead to unstable model performance and losses in
+prediction accuracy. In-processing methods [ 17,5,10,35] usually modify the optimization problem associated with
+the chosen classiﬁers by adding either a discrimination-aware regularizer to the objective function or bias mitigation
+constraints to the optimization formulation. A major drawback of this type of approach is that it is tied to a speciﬁc ML
+model and training algorithm, e.g., [ 17] only works for logistic regression models. Post-processing methods [ 11,25,16]
+are used to help trained classiﬁers make fairer predictions for a provided test dataset. All of the aforementioned studies
+focus on centralized ML, so cannot be applied as is to a FL setting due to the raw data sharing.
+Only a few recent results [ 23,13,20] cover fairness in FL settings, but only discuss development of fair FL models
+in terms of contribution fairness, i.e., making sure the global model learns from parties equally, but not fairness related
+to sensitive attributes. None have measured the resulting models’ fairness performance against well-known fairness
+metrics.
+3 Fairness Analysis in FL: Causes
+We now analyze possible causes of bias in FL:
+Traditional bias sources: From an individual party’s perspective, local training in FL is similar to training a model in
+a centralized ML. Sources of unfairness [ 17], like prejudice ,underestimation , and negative legacy , which have been
+previously identiﬁed in centralized ML, are also underlying causes of bias in FL settings. With multiple training sets
+involved in FL, each party will introduce its own biases to the global model via the shared model updates. Due to the
+interactions between the parties and the aggregator during the training process, the following factors also inﬂuence the
+fairness of the ﬁnal model.
+Party selection, sub-sampling and drop outs: Existing FL approaches such as [ 22,6] do not query all parties equally.
+Whether someone gets to participate in one round of FL training may be correlated with sensitive attributes and creates
+undesired bias. If a company uses cell phone data to train a FL model, factors such as network speed can impact whether
+a user’s data is collected, which is linked to socioeconomic status. Many FL algorithms decide whether or not to query
+parties and hence check if a cell phone is charged or plugged in to decide, which could correlate with factors like
+day-shift and night-shift work schedules [14].
+Data heterogeneity: Even when all parties are queried, another challenging but under-investigated aspect of FL is that
+the underlying data of each party may differ. As mentioned in our banking example, a branch nearby a women’s college
+would result in a data comprising mostly of women, which is likely quite different than the overall composition of the
+bank’s customer dataset.
+Fusion algorithms: The fusion algorithms used by the aggregator to combine the parties’ model updates may induce
+bias based on whether the aggregator performs an equal or weighted average. FL algorithms may weigh higher
+the contributions from populations with more data [ 22], i.e., heavy users of speciﬁc products, amplifying effects of
+over-/under-representing speciﬁc groups in a dataset.
+There are two main use cases in FL: i)when parties are cell phones and IoT devices and usually, the number of
+parties is vast and ii)when parties are companies, subsidiaries or data centers, and typically, there are fewer parties. In
+this paper, we address the second case, which has started to be specially important given that large companies have
+3started to offer products in this line [21, 24] to train ML models in healthcare, banking [30], and insurance [30].
+4 Proposed Approaches
+In this section we propose three approaches to mitigate bias in FL using two different privacy designs: i)avoiding
+transfer of sensitive information and ii)adding differential privacy as shown in Table 1. Our approaches are designed
+based on two centralized bias mitigation techniques, Reweighing andPrejudice Remover , both detailed below:
+4.1 Reweighing for FL
+Reweighing [ 15] is a centralized pre-processing bias mitigation method, which works primarily by attaching weights to
+samples in the training dataset. It accesses the entire training dataset and computes weights as the ratio of the expected
+probability ( Pexp) to the observed probability ( Pobs) of the sample ’s sensitive attribute/label pairing (see equation (2)).
+As FL has become popular due to increasing data privacy concerns, mitigating biases in FL cannot come along with
+the price of losing privacy protection. With this in mind, we propose two ways to adapt the Reweighing method in FL
+settings.
+Local reweighing: To fully protect parties’ data privacy, each party computes reweighing weights locally, based on its
+own training dataset, during pre-processing and then uses the reweighing dataset for its local training. Therefore, parties
+do not need to communicate with the aggregator or reveal their sensitive attributes and data sample information. We
+will demonstrate in Section 5 that local reweighing is effective without compromising the prediction accuracy, even
+when only a subset of the parties employ it or parties have highly skewed local data distribution.
+Algorithm 1 Global Reweighing with DP
+1:Input: Differentially private parameter .
+2:The aggregator queries parties in Pfor their counts per sensitive attribute/label pairing.
+3:Aggregator queries all parties for noisy counts
+4:each partypicomputes:
+Ci(s;y; ) :=j(X2DijS=s)^(Y=y)j
++DPnoise ();8s2S;y2Y: (1)
+5:The aggregator computes
+W(s;y) :=Pexp(s;y)
+Pobs(s;y)=P
+i;y2YCi(s;y;)P
+i;s2SCi(s;y;)
+Ci(s;y;)P
+i;s2S;y2YCi(s;y;); (2)
+6:Aggregator shares W(s;y)with all parties inP.
+7:Each partypiinitializesDi;w=;and assignsW(s;y)to data entry (x;y)as follows:
+8:for(x;y)2Diwith sensitive attribute sdo
+9: Add data entry (x;y;W (s;y))toDi;w.
+10:end for
+11:Each party uses pre-process data Di;wfor training.
+Global reweighing with differential privacy (DP): If parties agree to reveal their sensitive attributes and their noisy
+sample counts with the aggregator, a differentially private global reweighing approach can be applied.
+In particular, during the pre-processing phase, the aggregator will collect statistics such as the noisy number
+of samples with privileged attribute values and favorable labels from parties, compute global reweighing weights
+W(s;y);8s;ybased on the collected statistics, and share them with parties. Parties assign the global reweighing
+weights to their data samples during FL training. As shown in (1), DP-noise is injected according to well-known privacy
+4mechanisms. We used [ 12]. By adjusting the amount of noise injected via adjusting , parties can control their data
+leakage in the pre-processing phase, while still mitigating bias via the global reweighing method. Our method adds
+noise to the counts of our sensitive-label value pairings, thereby adjusting the weight calculation. One limitation of
+global reweighing is that it does not apply to FL systems with dynamic participation, as the global reweighing weights
+would re-calibrate in relation to the number and size of training sets changing over the course of training.
+Remark : The proposed reweighing methods for FL are conducted only during pre-processing phase and try to mitigate
+bias by adjusting sample weights and hence training data distribution. Therefore, these two methods will not affect the
+convergence behavior of FL algorithms used to train the model, like FedAvg[22], etc.
+4.2 Prejudice Remover for FL
+Prejudice Remover [ 17] is an in-processing bias mitigation method proposed for centralized ML, which works by
+adding a fairness-aware regularizer, R(D;), to the regular logistic loss function as follows:
+L(D; ) +
+2jjjj2
+2+R(D;):
+HereLdenotes a regular loss function, kk2
+2is a`2regularizer that protects against over-ﬁtting, Rrepresents
+the regularizer which penalizes biased classiﬁers, represents the model parameters, and andare regularization
+parameters.Raims to reduce the prejudice index [ 17], which measures the learned prejudice from the training dataset,
+and is deﬁned as follows:
+R(D;) =X
+(xi;si)2DX
+y20;1M[yjxi;si; ] ln^Pr[yjsi]
+^Pr[y];
+whereM[yjxi;si; ]denotes the conditional probability of prediction equals ygiven a data sample with non-
+sensitive features xi, sensitive attribute siand, and ^Pris the sample distribution induced by the training dataset.
+From second equation, we can see that evaluating Rrequires knowledge of local data distribution, and may result in
+data leakage if the evaluation is performed globally.
+We propose federated prejudice removal , in which each party applies the Prejudice Remover algorithm [ 17] to
+train a less biased local model, and shares only the model parameters with the aggregator. The aggregator can then
+employ existing FL algorithms, like simple average and FedAvg [22], etc., to update the global model. Besides parties
+not revealing sensitive attributes, another advantage of federated prejudice removal is that it only modiﬁes the party’s
+local training algorithm, and leaves the fusion of model parameters untouched. In this case, our proposed approach can
+be integrated with a variety of existing FL algorithms, even robust aggregation methods like Krum [ 4] and coordinate
+median [ 34] to defend against adversarial attacks. It is important to note that Prejudice Remover is just one of the
+in-processing methods that mitigate bias via adding a regularizer term to the objective function or enforcing some
+fairness-aware constraints; similar approaches can also be found in [ 17,5,10,35]. Similar to federated prejudice
+removal , these types of in-processing methods can also be extended to a FL setting following the proposed strategy.
+The major disadvantage of federated prejudice removal is selecting a reasonable coefﬁcient for the regularizer R.
+The value of controls the trade-off between the prediction accuracy and fairness during each round of a party’s local
+training.
+Asincreases, parties mitigate more bias and move toward a fairer local model, but also experience worsening
+performance metrics, speciﬁcally accuracy [ 17]. Tuningcan be extremely tedious in a FL system since parties may
+have different sizes of training datasets and local data distributions, and the performance of parties’ local models have
+an indirect impact on the ﬁnal global model’s performance depending on the speciﬁc FL algorithm.
+5 Experimental Results
+We now conduct a comprehensive set of experiments to examine the aforementioned mitigation methods in FL settings.
+First, we examine the case where all parties in the FL setting have similar data distributions (independently and
+identically distributed (IID)). We then examine real-world scenarios where parties’ training datasets have disproportion-
+ate privileged/unprivileged ratios. These experiments allow us to see how effective our proposals are under a variety of
+circumstances.
+5Experimental setup: For all experiments presented in the following subsections, we trained a `2- regularized logistic
+regression model in a FL fashion. We utilize the UCI Adult Dataset [ 18] and the ProPublica Compas (Recidivism)
+Dataset [1], two standard datasets used in the fairness literature, e.g., [2, 35, 11].
+Adult dataset: The Adult dataset contains 48;842samples and classiﬁes whether individuals make more or less than
+50k per year, based on census data. The sensitive attributes we evaluate are sexandrace, whose values are mapped to 0
+or 1, for the unprivileged and privileged groups respectively. In this case, White: 1, Black: 0, Male: 1, Female: 0. Class
+values are mapped to 0 ( <=50K) and 1 ( >50K) for the negative and positive classes respectively [ 35]. We preprocess
+the data prior to splitting amongst parties. All features except sex, race, age, education and class were dropped. We
+binned the feature values of ageandeducation using intervals of 10.
+Compas dataset: The Compas dataset contains 7;215samples and classiﬁes whether individuals who have broken the
+law in the past two years will reoffend. The sensitive attributes we evaluate are sexandrace, whose values are also
+mapped to 0 or 1 for the unprivileged and privileged groups respectively. In this case, White: 1, Black: 0, Male: 0,
+Female: 1. Class values are mapped to 0 (will break law again) and 1 (will not break law again) for the negative and
+positive classes respectively [ 35]. We again preprocess the data prior to splitting amongst parties. All features except
+sex, race, age, prior count, charge degree and class were dropped; before this, samples with a charge date outside of 30
+days from when they were arrested are ﬁltered out, as well as samples that did not receive jail time. The values of age
+are binned into categories of Under 25, 25-45, and Over 45; prior count values are binned into categories of 0, 1-3, and
+>3.
+Similar to the Adult setting, we evaluate sensitive attributes sexandrace forCompas . In this case, however, the
+unprivileged and privileged groups for the sexattribute are ﬂipped; female is privileged and male is unprivileged. The
+sensitive attributes we evaluate are sexandrace. To ensure that the reported results are not skewed due to the variations
+in different testing sets, we utilize a stratiﬁed global testing set , sampling 20% of the data from the original dataset.
+Evaluation of fairness metrics: We will evaluate all resulting models via four popular fairness metrics: statistical
+parity difference ,equal opportunity odds ,average odds difference anddisparate impact . These metrics are calculated
+via different aspects of the confusion matrix. In particular, statistical parity difference anddisparate impact are the ratio
+and difference, respectively, of the success rate between the unprivileged and privileged groups. Equal opportunity
+difference is the true positive rate difference between the unprivileged and privileged groups, and average odds difference
+is the mean of the false positive rate difference and the true positive rate difference, both between the unprivileged and
+privileged groups.
+All FL experiment results are compared against the centralized version as a baseline.
+We analyze the resulting ML models from two aspects: prediction performance and fairness performance. For
+prediction performance, we use accuracy and F1 score. As fairness is a complex concept, there is no single best metric
+that measures all aspects of it [2], which in turn asks for multiple metrics for evaluation.
+Evaluation of fairness metrics: We will evaluate all resulting models via four popular fairness metrics: statistical
+parity difference ,equal opportunity odds ,average odds difference anddisparate impact . These metrics are calculated
+via different aspects of the confusion matrix. In particular, statistical parity difference anddisparate impact are the ratio
+and difference, respectively, of the success rate between the unprivileged and privileged groups. Equal opportunity
+difference is the true positive rate difference between the unprivileged and privileged groups, and average odds difference
+is the mean of the false positive rate difference and the true positive rate difference, both between the unprivileged and
+privileged groups. The ideal value for SPD,EOD andAOD is 0, and for DIis 1.
+All results are averaged over three runs for each experimental setup.
+5.1 Performance under similar data distributions (IID)
+We now study how our proposed approaches behave under FL systems with IID data. We examine how different factors
+in FL, apart from data distribution, can affect the global model’s fairness performance.
+The aim of this set of experiments is to examine how different factors in FL apart from party data distribution can
+affect the global model’s fairness performance. We split the Adult training set in a stratiﬁed fashion amongst eight
+parties of equal size, resulting in 4;884samples each; the same is done for the Compas dataset amongst ﬁve parties,
+resulting in 1;154samples each.
+We report the local reweighing andfederated prejudice removal experiment results in Figure 3 for fairness
+60.50.60.70.80.91.0
+2P4P6P8PAccuracy & F1 | Sex
+0.50.60.70.80.91.0
+2P4P6P8PAccuracy & F1 | RaceACCURACYACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGF1SCOREACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGFigure 1: Performance metrics of models trained on stratiﬁed Adult dataset
+ACCURACYACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGF1 SCOREACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHING0.40.60.81.0
+1P2P3P4P5PAccuracy & F1 | Sex
+0.40.60.81.0
+1P2P3P4P5PAccuracy & F1 | Race
+Figure 2: Performance metrics of models trained on stratiﬁed Compas dataset
+performance and Figure 1 for prediction performance, respectively, with global reweighing with differential privacy
+results in ﬁgure 5.
+For ﬁgures 3 and 1, the control group (in orange) denotes models trained in FL without bias mitigation. On the
+x-axis are the number of parties in the FL system, and the value of the corresponding metric is presented on the y-axis.
+The dashed lines illustrate the centralized baseline values, and the shaded region represents an acceptable margin of
+fairness metrics, as deﬁned in [2].
+On one hand, we observe from Figure 3 that for both the sexandrace attributes, local reweighing not only reduces
+bias, but also mitigates it such that it is within the acceptable margin for all fairness metrics. In addition, the resulting
+accuracy and F1 scores are consistent post-local reweighing.
+We can conclude that local reweighing is effective in mitigating bias for FL with IID party data. On the other hand,
+federated prejudice removal withsex= 1.25 andrace = 11.5 reduces bias in 3 out of 4 metrics for both sensitive
+attributes, although not within the fairness margin. Moreover, from Figure 1 we notice a trend between the fairness
+and performance metrics, where good performance of the fairness metrics is often coupled with lower accuracy and F1
+scores. Contradicting the observations from centralized ML, this trend is particularly evident in federated prejudice
+removal experiments, where increasing sharply drops F1 scores. Models trained with federated prejudice removal
+perform in a much more stable manner than those trained with local reweighing for all metrics.
+We report the Compas experiment results in Figures 4 and 2 for fairness performance and prediction performance,
+respectively. On one hand, we observe from Figure 4 that for both the sexandrace attributes, local reweighing not
+only reduces bias, but also mitigates it such that it is within the acceptable margin for a majority of fairness metrics. In
+addition, the resulting accuracy and F1 scores are consistent post-local reweighing. This supports the conclusion in the
+main text that local reweighing is effective in mitigating bias for FL with IID party data. On the other hand, federated
+prejudice removal withsex= 1.5 andrace= 0.75 reduces bias in half of metrics for the sensitive attributes, although
+not within the fairness margin. We again notice a trend, this time in Figure 2 between the fairness and performance
+7−0.50−0.250.000.25
+2P4P6P8P−0.50−0.250.000.25
+2P4P6P8P−0.50−0.250.000.25
+2P4P6P8P0.00.51.0
+2P4P6P8P
+−0.50−0.250.000.25
+2P4P6P8P−0.50−0.250.000.25
+2P4P6P8P−0.50−0.250.000.25
+2P4P6P8P0.00.51.0
+2P4P6P8PFL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGSPD                                    EOD                                  AOD                                    DIFigure 3: Fairness metrics of models trained on stratiﬁed Adult dataset against sex(ﬁrst row) and race (second row) attributes
+metrics, where good performance of the fairness metrics is often coupled with lower accuracy and F1 scores. Models
+trained with federated prejudice removal perform in a much more stable manner than those trained with local reweighing
+for all metrics.
+Similar to Adult dataset, experiments results on Compas also demonstrate several key factors that play a role in
+affecting model fairness in FL.
+We assess the performance of our global reweighing with DP approach by looking at the 8-party case for the Adult
+dataset. We examine how a range of privacy budgets utilized in the pre-processing stage affect both model and fairness
+performance. Figure 5 shows the trade-off between privacy and model performance.
+Recall that a larger results in less noise injection and hence less privacy.
+The results show that the F1 scores decrease slightly as decreases, but is overall consistent until is very small.
+Table 2: Fairness metrics when choosing different , 8-party model trained on Adult against sexattribute
+ SPD EOD AOD DI
+1.4  0:050:01 0:010:01 0:010:01 0:710:01
+1.0  0:040:01 0:020:09 0:000:06 0:651:11
+0.8  0:060:01 0:000:02 0:000:01 0:710:05
+0.4 0:020:09 0:140:26 0:090:16 1:841:78
+0.2  0:050:05 0:040:04 0:020:04 0:850:05
+0.01 0:050:07 0:200:17 0:130:11 2:021:62
+We also measure the effect of privacy budgets on the model’s fairness metrics shown in Table 2. Metrics that do not
+fall within the predeﬁned fairness bounds are highlighted in red. The vast majority of fairness metrics are considered
+fair until= 0:01. In Figure 5, the F1 score is consistent, then drops signiﬁcantly after is below 0.4. Pairing these
+results, we conclude that global reweighing with DP is effective with values as low as 0:4for models trained on the
+8−0.50−0.250.000.25
+1P2P3P4P5PSPD | Sex
+−0.50−0.250.000.25
+1P2P3P4P5PEOD | Sex
+−0.50−0.250.000.25
+1P2P3P4P5PAOD | Sex
+0.00.51.0
+1P2P3P4P5PDI | Sex
+−0.50−0.250.000.25
+1P2P3P4P5PSPD | Race
+−0.50−0.250.000.25
+1P2P3P4P5PEOD | Race
+−0.50−0.250.000.25
+1P2P3P4P5PAOD | Race
+0.00.51.0
+1P2P3P4P5PDI | Race
+FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGFigure 4: Fairness metrics of models trained on stratiﬁed Compas dataset against sex(ﬁrst row) and race (second row) attributes
+Adult dataset.
+We now analyze several additional key factors that may play a role in affecting model fairness in FL.
+Number of parties: We train our FL models while increasing the number of parties, and hence with more data samples
+indirectly “contributing” to the ﬁnal FL model. Note that under the IID data setting, we largely remove any other
+inﬂuence in FL aside from the number of parties. From Fig.1 and 3, we do not see that FL models trained with more
+parties achieve better fairness, while F1 scores do show improvement.
+Partial local reweighing: We test the effects of having only a percentage of the parties, i.e. 25%, 50%, 75% and 100%
+of eight parties, apply local reweighing in FL. For the Compas dataset, 20%, 40%, 60% , 80% and 100% of parties.
+From Figure 6, we see that even when the lowest ratio utilizes local reweighing , we see a large effect on the amount of
+bias detected in the global model, indicating that A) local reweighing does not require all parties to participate to be
+effective, and with that B) the decision to perform pre-processing locally serves the users better. The latter part is very
+important for FL, as parties may join and drop out during the training process, and consequently, enforcing them to
+consistently perform pre-processing techniques is difﬁcult. We ALSO test the effects of having only a percentage of the
+parties, i.e. 20%, 40%, 60%, 80% and 100% of ﬁve parties, apply local reweighing in FL on the Compas dataset. From
+Figure 7, we see that even when the lowest ratio utilizes local reweighing , we see a large effect on the amount of bias
+detected in the global model, which is in line with our Adult dataset results.
+Comparison with baseline: Both the baseline model and the FL models with eight parties are trained over the entirety of
+the training set, the difference being that the baseline is trained in a centralized fashion and the FL models are trained
+without parties sharing the training data. As seen in Figure 3, the FL models with bias mitigation techniques scored
+fairer than the baseline in 3 out of 4 metrics across both sensitive attributes. Moreover, the FL models without bias
+mitigation, i.e., the control group in orange, detect equal or less bias than the orange baseline across both sensitive
+attributes. This indicates that the model learns less bias simply by being trained in a FL setting with IID data.
+5.2 Performance under highly imbalanced data distributions (non-IID)
+This subsection is devoted to examining FL settings that are likely to happen in the real world, where parties’ data
+distribution is imbalanced. Individual parties could attempt to evaluate models with respect to a sensitive attribute
+90.50.60.7
+1.401.201.000.800.600.400.200.01epsilonF10.50.60.7
+1.401.201.000.800.600.400.200.01epsilonF1ANODIFFERENTIALPRIVACYPRE-PROCESSINGDIFFERENTIALPRIVACYFigure 5: Effect of pre-processing privacy budgets on F1 scores; 8-party model trained on Adult dataset against sex(left) and race (right) attributes
+and have very few or zero samples from either the unprivileged or privileged group, which may affect bias mitigation.
+To simulate this scenario, we create two parties of 3;735samples each from Adult dataset, but adjust their ratio of
+privileged group to unprivileged group. Experiments are run with 85-15, 99-1 and 100-0 ratio settings, e.g., regarding
+sexattribute, Party 1 has 85% male and 15% female samples, and Party 2 has 85% female and 15% male samples.
+Figure 9 and 8 display the fairness and performance metric results from the highly imbalanced experiments,
+respectively. On the x-axis are the unprivileged-privileged ratios in either party, and the value of the corresponding
+metric is presented on the y-axis. From Figure 9, we see local reweighing has little to no effect on mitigating bias in the
+100-0 proportion case.
+It is reasonable, since if a party has samples from only the privileged or the unprivileged group, W(s;y)is always 1
+according to (2).
+Therefore, local reweighing is ineffective for parties with disjoint sample sets. However, as long as a party has
+samples from both privileged and unprivileged groups, as low as 1%of either group, local reweighing can be effective
+for bias mitigation, and in Figure 9 most fairness metrics are within the fairness margin. As parties’ data distribution
+becomes more balanced, we see both the model’s prediction and fairness performance improve. On the other hand, for
+both sensitive attributes, federated prejudice removal ’s efforts, with sex= 1.25 andrace = 11.5, vary in reducing bias.
+Though it is effective to mitigate some bias compared to the control group and the baseline, it is less effective than local
+reweighing . Moreover, the converse relationship between the fairness and performance metrics is evident as shown in
+Figure 8. In particularly, F1 scores drop signiﬁcantly as models becomes fairer.
+Next we assess the performance of local reweighing for scenarios where parties have both highly imbalanced data
+distributions and different sample sizes. We examine local reweighing for FL systems with ﬁve parties having different
+dataset conditions, as detailed in Table 3. Groups A (containing A1 and A2) and B (containing B1 and B2) are similar
+in unprivileged:privileged ratio, but the majority group between underprivileged and privileged is ﬂipped, e.g., party 4
+is 80% unprivileged and 20% privileged in group A, and 20% unprivileged and 80% privileged in group B. Within the
+group, we have cases 1 and 2, where the cases have the same unprivileged/privileged ratios, but differ in that Case 1 has
+parties of all equal sizes, and Case 2 has unequal sizes. As displayed in Figure 10, different highly imbalanced data
+distributions, different party sizes, and the combination of the two do not hinder the effectiveness of local reweighing as
+a bias mitigation technique.
+Uneven bias learning: We ﬁnd that FL models trained over highly imbalanced data distributions may learn bias from
+parties in an imbalanced manner. We utilize an underestimation index (UEI) [17], deﬁned as the Hellinger distance
+between the training data-induced distribution and the trained model-induced distribution, to measure the similarity
+between the truth and model predictions. Lower UEI indicates greater similarity. As shown in Figure 11, the UEI of
+models trained via FL has signiﬁcantly higher values for Party 1 than those for Party 2 across most ratio combinations,
+indicating that the global model consistently leans towards Party 2’s training dataset. This is underscored in the 100-0
+case, as we ﬁnd that the amount of bias in the FL model is roughly equivalent to that detected in Party 2’s local model.
+In Figure 12, we display the fairness metrics of both parties’ local models without any bias mitigation. Across the
+majority of metrics, Party 1’s local model scores within the fairness margin, and signiﬁcantly fairer than Party 2’s local
+10−0.50−0.250.000.25
+0P2P4P6P8P−0.50−0.250.000.25
+0P2P4P6P8P−0.50−0.250.000.25
+0P2P4P6P8P0.00.51.0
+0P2P4P6P8P
+−0.50−0.250.000.25
+0P2P4P6P8P−0.50−0.250.000.25
+0P2P4P6P8P−0.50−0.250.000.25
+0P2P4P6P8P0.00.51.0
+0P2P4P6P8PSPD                                       EOD                                   AOD                                      DI
+FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGFigure 6: Fairness metrics of FL models with partial local reweighing on stratiﬁed Adult dataset against sec(ﬁrst row) and race (second row)
+attribute
+Table 3: Sample ratio of unprivileged to privileged. Total samples shown in parentheses
+PARTY A1 A2 B1 B2
+1 50:50 (2000) 50:50 (500) 50:50 (2000) 50:50 (500)
+2 50:50 (2000) 50:50 (1500) 50:50 (2000) 50:50 (1500)
+3 80:20 (2000) 80:20 (2000) 20:80 (2000) 20:80 (2000)
+4 90:10 (2000) 90:10 (800) 10:90 (2000) 10:90 (800)
+5 60:40 (2000) 60:40 (1700) 40:60 (2000) 40:60 (1700)
+model for all metrics. The amount of bias detected in Party 2 is approximately equal to the amount of bias detected
+in the global 100-0 model, which falls in line with our analysis of the underestimation index values between the two
+parties; this supports the claim that federated models trained over parties with high data heterogeneity may learn their
+bias in an imbalanced way.
+These results support the claim that fusion algorithms may induce bias by the way model updates are averaged, as
+discussed in Section 3.
+Stability of fairness metrics: As all experiments are replicated three times, we expect consistent metric results. However,
+observed from Figures 3, 6 and 9, DI has large standard deviations (STD) across all FL experiments; for example, DI
+has a mean of 0:84(within the acceptable margin) and 0:55STD for the highly imbalanced, 85-15 sexattribute case,
+while for the centralized baseline DI has 0 STD. With a fairness margin width of 0.4, a STD of nearly 1.5 times that
+makes most DI values unreliable. In FL, the other three metrics have an approximate STD of 0:2, which seems more
+stable, and hence reliable. Amongst all fairness metrics discussed, DI is the only metric calculated as the ratio of the
+favorable outcome between the underprivileged and privileged group, and varies drastically as the model ﬂips a few
+predictions.
+Across the board, local reweighing is a more effective method to drastically reduce FL model bias, even in spite of
+reduced mitigation participation or disproportionate data. Additionally, as shown in Table 1, no communication rounds
+11−0.50−0.250.000.25
+0P1P2P3P4P5PSPD | Sex
+−0.50−0.250.000.25
+0P1P2P3P4P5PEOD | Sex
+−0.50−0.250.000.25
+0P1P2P3P4P5PAOD | Sex
+0.00.51.0
+0P1P2P3P4P5PDI | Sex
+−0.50−0.250.000.25
+0P1P2P3P4P5PSPD | Race
+−0.50−0.250.000.25
+0P1P2P3P4P5PEOD | Race
+−0.50−0.250.000.25
+0P1P2P3P4P5PAOD | Race
+0.00.51.0
+0P1P2P3P4P5PDI | Race
+FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGSPD                            EOD                                   AOD                                     DIFigure 7: Fairness metrics of FL models with partial local reweighing on stratiﬁed Compas dataset against sec(ﬁrst row) and race (second row)
+attribute
+are added, no hyperparameters are needed and data private is preserved.
+6 Conclusion
+Issues of detecting and correcting undesired bias in FL systems have not been addressed yet. Parties’ data sets may be
+heterogeneous and the participation may change over the course of the training process. To the best of our knowledge,
+this is the ﬁrst paper to systematically assess these questions, against commonly used bias metrics, and in FL settings. We
+have presented and contrasted three different methods to ensure models produced in FL are fair, and have demonstrated
+that some metrics lack stability. We have also utilized UEI, which according to our experiments provides a better picture
+of how a global model is inﬂuenced by parties’ local datasets. Our results demonstrate that utilizing local reweighing
+produces fair models without sacriﬁcing privacy or model accuracy, even when only a small fraction of parties engage
+in the fairness procedure. We hope this paper inspires further research in this area.
+120.40.60.81.0
+100−099−185−15Accuracy & F1 | Sex
+0.40.60.81.0
+100−099−185−15Accuracy & F1 | RaceACCURACYACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGF1SCOREACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGFigure 8: Performance metrics of models trained on highly imbalanced Adult dataset
+References
+[1]J. Angwin, J. Larson, S. Mattu, and L. Mirchner. There’s software used across the country to predict future criminals.
+and its biased against blacks. https://github.com/propublica/compas-analysis. Accessed: 2019-09-08.
+[2]Rachel KE Bellamy, Kuntal Dey, Michael Hind, Samuel C Hoffman, Stephanie Houde, Kalapriya Kannan, Pranay
+Lohia, Jacquelyn Martino, Sameep Mehta, Aleksandra Mojsilovic, et al. Ai fairness 360: An extensible toolkit for
+detecting, understanding, and mitigating unwanted algorithmic bias. arXiv preprint arXiv:1810.01943 , 2018.
+[3] E. Bhandari. Big data can be used to violate civil rights laws, and the ftc agrees. 2016.
+[4]Peva Blanchard, Rachid Guerraoui, Julien Stainer, et al. Machine learning with adversaries: Byzantine tolerant
+gradient descent. In Advances in Neural Information Processing Systems , pages 119–129, 2017.
+[5]Toon Calders and Sicco Verwer. Three naive bayes approaches for discrimination-free classiﬁcation. Data Mining
+and Knowledge Discovery , 21(2):277–292, 2010.
+[6]Zheng Chai, Ahsan Ali, Syed Zawad, Stacey Truex, Ali Anwar, Nathalie Baracaldo, Yi Zhou, Heiko Ludwig, Feng
+Yan, and Yue Cheng. Tiﬂ: A tier-based federated learning system. arXiv preprint arXiv:2001.09249 , 2020.
+[7] Rachel Courtland. Bias detectives: the researchers striving to make algorithms fair. In Nature , 2018.
+[8]Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. Fairness through awareness.
+InProceedings of the 3rd innovations in theoretical computer science conference , pages 214–226, 2012.
+[9]Michael Feldman, Sorelle A Friedler, John Moeller, Carlos Scheidegger, and Suresh Venkatasubramanian. Certifying
+and removing disparate impact. In proceedings of the 21th ACM SIGKDD international conference on knowledge
+discovery and data mining , pages 259–268, 2015.
+[10] Gabriel Goh, Andrew Cotter, Maya Gupta, and Michael P Friedlander. Satisfying real-world goals with dataset
+constraints. In Advances in Neural Information Processing Systems , pages 2415–2423, 2016.
+[11] Moritz Hardt, Eric Price, and Nati Srebro. Equality of opportunity in supervised learning. In Advances in neural
+information processing systems , pages 3315–3323, 2016.
+[12] Naoise Holohan, Stefano Braghin, P ´ol Mac Aonghusa, and Killian Levacher. Diffprivlib: The ibm differential
+privacy library. 2019.
+[13] Tzu-Ming Harry Hsu, Hang Qi, and Matthew Brown. Federated visual classiﬁcation with real-world data
+distribution. 2020.
+13−0.50−0.250.000.25
+100−099−185−15−0.50−0.250.000.25
+100−099−185−15−0.50−0.250.000.25
+100−099−185−150.00.51.0
+100−099−185−15
+−0.50−0.250.000.25
+100−099−185−15−0.50−0.250.000.25
+100−099−185−15−0.50−0.250.000.25
+100−099−185−150.00.51.0
+100−099−185−15FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGSPD                                      EOD     AOD                            DIFigure 9: Fairness metrics of models trained on highly imbalanced Adult dataset against sex(ﬁrst row) and race (second row) attribute
+[14] Peter Kairouz, H Brendan McMahan, Brendan Avent, Aur ´elien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith
+Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, et al. Advances and open problems in federated
+learning. arXiv preprint arXiv:1912.04977 , 2019.
+[15] F. Kamiran and T Calders. Data preprocessing techniques for classiﬁcation without discrimination. Knowledge
+and Information Systems , 2011.
+[16] Faisal Kamiran, Asim Karim, and Xiangliang Zhang. Decision theory for discrimination-aware classiﬁcation. In
+2012 IEEE 12th International Conference on Data Mining , pages 924–929. IEEE, 2012.
+[17] T. Kamishima, S. Akaho, H. Asoh, and J. Sakuma. Fairness-aware classiﬁer with prejudice remover regularizer.
+Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery
+in Databases , 2012.
+[18] R. Kohavi. Scaling up the accuracy of naive-bayes classiﬁers: a decision-tree hybrid.
+[19] Jakub Kone ˇcn`y, H Brendan McMahan, Felix X Yu, Peter Richt ´arik, Ananda Theertha Suresh, and Dave Bacon.
+Federated learning: Strategies for improving communication efﬁciency. arXiv preprint arXiv:1610.05492 , 2016.
+[20] Paul Pu Liang, Terrance Liu, Liu Ziyin, Ruslan Salakhutdinov, and Louis-Philippe Morency. Think locally, act
+globally: Federated learning with local and global representations. arXiv preprint arXiv:2001.01523 , 2020.
+[21] Heiko Ludwig, Nathalie Baracaldo, Gegi Thomas, Yi Zhou, Ali Anwar, Shashank Rajamoni, Yuya Ong, Ja-
+yaram Radhakrishnan, Ashish Verma, Mathieu Sinn, Mark Purcell, Ambrish Rawat, Tran Minh, Naoise Holohan,
+Supriyo Chakraborty, Shalisha Whitherspoon, Dean Steuer, Laura Wynter, Hifaz Hassan, Sean Lagunaand Mikhail
+Yurochkin, Mayank Agarwal, Ebube Chuba, and Annie Abay. Ibm federated learning: an enterprise framework
+white paper v0.1. 2020.
+14−0.50−0.250.000.25
+A1A2B1B2−0.50−0.250.000.25
+A1A2B1B2−0.50−0.250.000.25
+A1A2B1B20.00.51.0
+A1A2B1B2SPD                                        EOD   AOD                          DI
+FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGFigure 10: Fairness metrics of models trained on stratiﬁed Adult dataset against sexattribute
+0.50.60.70.80.91.0
+100−099−185−15Underestimation Index | Sex
+0.50.60.70.80.91.0
+100−099−185−15Underestimation Index | RacePARTY1ACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHINGPARTY2ACONTROLAFEDERATEDPREJUDICEREMOVALALOCALREWEIGHING
+Figure 11: UEI of models trained on highly imbalanced Adult against sexandrace attribute
+[22] H Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, et al. Communication-efﬁcient learning of
+deep networks from decentralized data. arXiv preprint arXiv:1602.05629 , 2016.
+[23] Mehryar Mohri, Gary Sivek, and Ananda Theertha Suresh. Agnostic federated learning. arXiv preprint
+arXiv:1902.00146 , 2019.
+[24] NVIDIA. Nvidia clara, 2020.
+[25] Geoff Pleiss, Manish Raghavan, Felix Wu, Jon Kleinberg, and Kilian Q Weinberger. On fairness and calibration.
+InAdvances in Neural Information Processing Systems , pages 5680–5689, 2017.
+[26] Vyacheslav Polonski. Ai is convicting criminals and determining jail time, but is it fair? World Economic Forum ,
+2018.
+[27] Zamira Rahim. Algorithms promised efﬁciency. but they’ve worsened inequality. CNN , 2020.
+[28] William Alan Reinsch and Andrew Lepczyk. A data localization free-for-all?
+[29] Reza Shokri and Vitaly Shmatikov. Privacy-preserving deep learning. In Proceedings of the 22nd ACM SIGSAC
+conference on computer and communications security , pages 1310–1321, 2015.
+[30] Toyotaro Suzumura, Yi Zhou, Natahalie Baracaldo, Guangnan Ye, Keith Houck, Ryo Kawahara, Ali Anwar,
+Lucia Larise Stavarache, Yuji Watanabe, Daniel Klyashtorny Pablo Loyola, Heiko Ludwig, and Kumar Bhaskaran.
+Towards federated graph learning for collaborative ﬁnancial crimes detection. 2019.
+15−0.50−0.250.000.25
+Party 1Party 2SPD | Sex
+−0.50−0.250.000.25
+Party 1Party 2EOD | Sex
+−0.50−0.250.000.25
+Party 1Party 2AOD | Sex
+0.00.51.0
+Party 1Party 2DI | Sex
+−0.50−0.250.000.25
+Party 1Party 2SPD | Race
+−0.50−0.250.000.25
+Party 1Party 2EOD | Race
+−0.50−0.250.000.25
+Party 1Party 2AOD | Race
+0.00.51.0
+Party 1Party 2DI | Race
+FL MODELS|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGCENTRALBASELINE|  CONTROLFEDERATEDPREJUDICEREMOVALLOCALREWEIGHINGSPD                                  EOD                                 AOD                                    DIFigure 12: Fairness metrics of local models trained on highly imbalanced Adult dataset
+[31] Latanya Sweeney. Discrimination in online ad delivery. Queue , 11(3):10–29, 2013.
+[32] Stacey Truex, Nathalie Baracaldo, Ali Anwar, Thomas Steinke, Heiko Ludwig, and Rui Zhang. A hybrid approach
+to privacy-preserving federated learning. In Proceedings of the 12th ACM Workshop on Artiﬁcial Intelligence and
+Security . ACM, 2019.
+[33] Runhua Xu, Nathalie Baracaldo, Yi Zhou, Ali Anwar, and Heiko Ludwig. Hybridalpha: An efﬁcient approach for
+privacy-preserving federated learning. In Proceedings of the 12th ACM Workshop on Artiﬁcial Intelligence and
+Security . ACM, 2019.
+[34] Dong Yin, Yudong Chen, Kannan Ramchandran, and Peter Bartlett. Byzantine-robust distributed learning: Towards
+optimal statistical rates. arXiv preprint arXiv:1803.01498 , 2018.
+[35] Muhammad Bilal Zafar, Isabel Valera, Manuel Gomez Rodriguez, and Krishna P Gummadi. Fairness constraints:
+Mechanisms for fair classiﬁcation. arXiv preprint arXiv:1507.05259 , 2015.
+[36] Rich Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, and Cynthia Dwork. Learning fair representations. In
+International Conference on Machine Learning , pages 325–333, 2013.
+16

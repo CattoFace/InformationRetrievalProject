@@ -1,0 +1,2375 @@
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Race Bias, Social Class Bias, and Gender Bias in Clinical
+
+Judgment
+
+Howard N. Garb, Highland Drive V. A. Medical Center and University of Pittsburgh
+
+Studies on race bias, social class bias, and gender bias
+are reviewed. Topics include psychodiagnosis and rating
+level of adjustment, the description of personality traits
+and psychiatric symptoms, the prediction of behavior,
+and treatment planning. Replicated findings include
+race bias in the differential diagnosis of schizophrenia
+and psychotic affective disorders, gender bias In the
+differential diagnosis of histrionic and antisocial per-
+sonality disorders, race bias and gender bias in the
+prediction of violence, and social class bias in the refer-
+ral of clients to psychotherapy. Recommendations for
+decreasing bias include (a) being aware of when biases
+are likely to occur, (b) adhering to diagnostic criteria,
+and (c) using statistical prediction rules to predict be-
+havior.
+
+Key words: cognitive biases, judgment, personality
+assessment, prediction, psychodiagnosis. [Clin Psychol
+Sci Prac 4:99-120, 1997]
+
+Misconceptions exist about research on race bias, social
+class bias, and gender bias. For example, according to a
+recent article in The APA Monitor (Sleek, 1996),
+
+Practitioners tend to judge lower-class patients as more seriously
+disturbed than higher-class patients. They detect schizophrenia in
+black people more than in whites. And they often judge women
+patients as more disturbed than male patients presenting identical
+problems. (p. 30)
+
+Address correspondence to Howard N. Garb, Psychalogy Ser-
+vice (116B), Department of Veterans Affairs Medical Center,
+7180 Highland Drive, Pittsburgh, PA 15206-1297. Electronic
+mail may be sent via Internet to garb.howard@pittsburgh.va.
+gov. Dr Garb is affiliated with the Department of Psychiatry at
+the University of Pennsylvania.
+
+Though these statements may reflect conventional wis-
+dom, the statements about social class and gender are not
+supported by empirical research, and the statement about
+race is true only under limited conditions (when patients
+have symptoms of a psychotic affective disorder but not
+when they may have a substance-induced psychotic dis-
+order). The purpose of this review is to dispel myths
+about bias and to help clinicians become aware of biases
+that are related to race, social class, and gender.
+
+For the purpose of the present article, race bias, social
+class bias, and gender bias are said to occur when the
+accuracy of judgments varies as a function of client race,
+social class, or gender. For example, race bias is said to
+occur when judgments made for White clients are more
+accurate than judgments made for Black clients. Notice
+that bias is said to occur when the accuracy of judgments
+varies as a function of client race, social class, or gender,
+not when judgments vary as a function of client race, social
+class, or gender.
+
+Accuracy of judgments can vary as a function of client
+race, social class, or gender for a number of reasons. For
+example, diagnostic criteria can be biased (Funtowicz &
+Widiger, 1995; Widiger & Spitzer, 1991). Diagnostic cri-
+teria are said to be biased if clinicians adhere to the crite-
+ria when making diagnoses and if the diagnoses are more
+valid for one group of clients than for another (e.g., if
+the diagnoses are more valid for males than for females).
+Judgments will also be biased if they are made by using a
+self-report personality inventory that is biased (Lindsay &
+Widiger, 1995). An item from a personality inventory is
+sex biased if (a) it fails to correlate with dysfunction, (b)
+it exhibits sex role differences, and (c) it is included as an
+item on a scale that is used as a measure of dysfunction.
+Another reason the accuracy of judgments can vary as a
+function of client race, social class, or gender is related to
+data collection. Clinicians may form hypotheses based in
+
+© 1997 AMERICAN PSYCHOLOGICAL ASSOCIATION D12 + 0969-5893/97/$5.00 99
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+part on the stereotype beliefs they have about race, social
+class, and gender. They may then collect information that
+can support, but not refute, their hypotheses, and they
+may not consider alternative hypotheses. When this
+occurs, the confirmatory bias is said to be descriptive of
+clinicians (they seek to confirm their hypotheses).
+Research indicates that the confirmatory bias is descrip~
+tive of how people, including clinicians, make judgments
+(e.g., Haverkamp, 1993). Finally, bias may occur because
+of the way judges integrate information. Thus, even
+when diagnostic criteria, self-report inventories, and the
+collection of data are unbiased, judgments can still be
+biased.
+
+In the present review, the focus of the studies is on bias
+and the integration of information. In all of the studies,
+clinicians integrated information. In some of the studies,
+clinicians also collected information. If the results of a
+study indicate that the integration of information is not
+biased for a certain task, it is possible that the judgments
+for this task are still biased. For example, the judgments
+may be biased because the diagnostic criteria were biased
+{assuming the task is to make diagnoses) or because the
+judgments were based on a self-report inventory that was
+biased. Also, if clinicians in the study made judgments
+after reading clinical vignettes or watching videotapes of
+interviews, judgments for the same task may be biased in
+clinical practice but unbiased in the study because in clin-
+ical practice they may collect different information
+depending on the race, social class, or gender of the cli-
+ents. Thus, from the studies reviewed in this article, con-
+clusions can be drawn about the presence of bias related
+to the collection of data and/or the interpretation of data,
+but we will not be able to conclude that judgments are
+unbiased even if biases are not described in any of the
+studies.
+
+Race bias, social class bias, and gender bias have been
+among the most actively investigated topics in the area of
+clinical judgment. A number of reviews have already
+been written on these biases. For example, early reviews
+concluded that there was little evidence of race bias or
+gender bias but some evidence of social class bias (e.g.,
+Abramowitz & Dokecki, 1977; Smith, 1980; Stricker,
+1977). The occurrence of race bias has been described in
+subsequent reviews (e.g., Adebimpe, 1981; Jones & Gray,
+1986). More recent reviews (Lopez, 1989; Widiger &
+Spitzer, 1991) have focused on methodological and con-
+ceptual issues, though they have also described some sub-
+
+stantive results. The present review will focus on
+describing substantive results and should serve to update
+readers on the findings of the literature.
+
+METHOD
+
+To locate studies, a computer search was conducted using
+the PsycLIT (1974-June, 1996) database. The search was
+conducted using the following keywords: clinical judg-
+ment and sex or gender or race or social class. Articles
+were also found by contacting senior research colleagues
+and by searching the reference sections of books and
+articles on race bias, social class bias, and gender bias.
+
+Studies are included in this review only if level of psy-
+chopathology was controlled for. In analogue studies,
+level of psychopathology was controlled by experimen-
+tally manipulating the reported race, social class, and
+gender of the clients. In these studies, clinicians made
+judgments after reading case histories or watching video-
+tapes of actors portraying clients in interviews. The same
+case history might be given to different groups of clini-
+cians except clinicians in one group might be told that
+the client was male while clinicians in a second group
+might be told that the case described a female. Or, male
+actors and female actors might follow the same scripts
+when portraying 2 client, and different groups of clini-
+cians might make their judgments after seeing one of the
+interviews. In field studies, judgments made by clinicians
+in the course of their clinical work were analyzed. Mea-
+sures of clients’ psychopathology were used to predict cli-
+nicians’ judgments, and then race, social class, and/or
+gender were used to predict the variance that was unac-
+counted for by the measures of psychopathology. Studies
+are not included if they simply reported that judgments
+varied as a function of race, social class, and/or gender.
+For example, if the results of a study indicate that Black
+patients are more often committed to hospitals than
+White patients, the study was included in this review
+only if the psychopathology of the Black and White
+patients was controlled for. Also, studies will not be
+included if the ratings used to control for level of psycho-
+pathology were made by the clinicians whose judgments
+were being studied rather than by the members of a
+research team (e.g., Kirshner & Johnston, 1983).
+
+Other criteria were also used for deciding whether to
+include a study in this review. First, studies are not cited
+if the ratings were not made by mental health profession-
+als or graduate students in a mental health field (e.g.,
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 100
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Abramowitz & Herrera, 1981). Empirical research indi-
+cates that mental health professionals and graduate stu-
+dents in a mental health field are often more accurate
+than lay judges (Garb, 1989), so it is unclear that results
+on bias obtained by using lay judges (e.g., undergradu-
+ates) can be generalized to clinicians. Second, ratings had
+to be made for clients or psychiatric inpatients. This
+includes ratings made for prison inmates if the inmates
+had contact with a mental health professional. Third,
+assessment information could not be atypical of the infor-
+mation that is used in clinical practice. Fourth, judgments
+had to be similar to the types of judgments that are made
+in clinical practice. Finally, reports of “significant”
+differences are not reported if statistical significance tests
+were not performed and descriptive statistics were not
+reported (e.g., Geller, 1988).
+
+RACE BIAS
+
+Psychodiagnosis
+
+African-American and Hispanic (Puerto Rican) patients
+are less likely than White patients to be diagnosed as hav-
+ing a psychotic affective disorder and more likely to be
+diagnosed as having schizophrenia, even when measures
+of psychopathology do not indicate that a diagnosis of
+schizophrenia is justified (Blake, 1973; Coleman & Baker,
+1994; Loring & Powell, 1988; Mukherjee, Shukla,
+Woodle, Rosen, & Olarte, 1983; Pavkov, Lewis, & Lyons,
+1989; Simon, Fleiss, Gurland, Stiller, & Sharpe, 1973;
+also see Garb, 1996). Three of the studies will be
+described.
+
+Simon et al. (1973) collected data on 188 Black and
+White hospitalized mental patients. Social class was simi-
+lar for both groups. Diagnoses that were made by clinical
+staff were compared to diagnoses made by the research
+investigators. The research investigators conducted struc-
+tured interviews to make their diagnoses. Clinical staff
+diagnosed 80% of the Black patients as having schizo-
+phrenia and 0% as having an affective disorder. Research
+staff diagnosed only 27% of the Black patients as having
+schizophrenia and 42% as having an affective disorder. For
+White patients, clinical staff made diagnoses of schizo-
+phrenia 55% of the time and diagnoses of affective disor-
+der 10% of the time. Research staff diagnosed 31% of the
+White patients as having schizophrenia and 29% as having
+an affective disorder.
+
+Mukherjee et al. (1983) obtained data on 37 White,
+21 Black, and 18 Hispanic patients. All of the patients
+
+CLINICAL JUDGMENT - GARB
+
+were diagnosed by the research investigators as having a
+bipolar affective disorder. A review of the medical records
+indicated that (a) none of the patients had ever had a non-
+affective psychotic episode and (b) all of the patients had
+a complete remission of symptoms between psychotic
+episodes without residual signs of schizophrenia. A
+review of the patients’ charts showed that misdiagnoses
+of schizophrenia were more common among the Black
+and Hispanic patients than among the White patients
+(misdiagnoses occurred for 18 of 21 Blacks, 15 of 18 His-
+panics, and 19 of 37 Whites). A stepwise multiple regres-
+sion analysis showed that race was still significantly related
+to misdiagnosis after different measures of psychopathol-
+ogy (e.g., auditory hallucinations) and other variables
+(e.g., age at first hospitalization) were used to predict
+diagnoses for patients who had been misdiagnosed and
+for patients who had never been misdiagnosed.
+
+Pavkov et al. (1989) obtained data on 313 psychiatric
+inpatients. Nearly all of them were poor: Only 21 of the
+313 patients had incomes of more than $12,000 a year.
+Chart diagnoses were compared to diagnoses made by the
+research investigators. The research investigators used
+structured interviews to make their diagnoses. When a
+multiple regression analysis was performed to predict
+chart diagnoses, being Black was predictive of a diagnosis
+of schizophrenia even after the variance attributable to
+the structured interview diagnoses was partialed out.
+
+Black patients are not always more likely to be given
+a diagnosis of schizophrenia. They were not more likely
+to be given a diagnosis of schizophrenia when the task
+was to make a differential diagnosis between schizophre-
+nia and drug-induced psychosis, In a study conducted in
+the United Kingdom (Lewis, Croft-Jeffreys, & David,
+1990), 139 psychiatrists read a case history describing an
+agitated patient with paranoid delusions. The patient's
+family reported that they suspected the patient had been
+smoking cannabis. A diagnosis of schizophrenia was more
+likely to be given when the patient was described as being
+White. Cannabis psychosis was more likely to be listed as
+a possible diagnosis when the patient was described as
+being Afro-Caribbean.
+
+Race bias has not been reported for other diagnostic
+tasks. Race bias was not reported when clinicians made
+diagnoses of educably mentally retarded/mildly mentally
+handicapped (Huebner & Cummings, 1986), normal,
+neurotic, and psychotic (Strickland, Jenkins, Myers, &
+Adams, 1988), situational disorder, neurosis, psycho-
+
+101
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+sis, alcoholism, and personality disorder (Bamgbose,
+Edwards, & Johnson, 1980), or hysterical, antisocial, and
+paranoid personality disorders and anxiety neurosis,
+schizophrenia, drug dependence, and alcoholism (War-
+ner, 1979). Similarly, race bias was not reported when a
+client was most often diagnosed as having a personality
+disorder, paranoid psychosis, or neurotic stress reaction
+and only infrequently diagnosed as having schizophrenia,
+manic-depressive psychosis, or major depressive disorder
+(Littlewood, 1992). In all of these studies, mental health
+professionals made diagnoses after reading case histories
+
+or watching videotapes of interviews. Clients were
+described as being White, Black, or Chicano.
+
+Level of Adjustment
+
+When clinicians made ratings of severity of mental distur-
+bance or level of adjustment, the effect of race was gener-
+ally not statistically significant (Amira, Abramowitz, &
+Gomes-Schwartz, 1977; Bamgbose et al., 1980; Benefee,
+Abramowitz, Weitz, & Armstrong, 1976; Bloch,
+Weitz, & Abramowitz, 1980; Franklin, 1985; McLaugh-
+lin & Balch, 1980; Schwartz & Abramowitz, 1975; Selig-
+man, 1968; Strickland et al., 1988; Umbenhauer &
+DeWitte, 1978; also see Merluzzi & Merluzzi, 1978). In
+all of these studies, clinicians either read case histories or
+watched videotapes of interviews. Ratings were made for
+African-American, and White
+patients. When the effect of race was significant (Strick-
+land et al., 1988), White patients were rated as having a
+more severe mental disturbance than Black patients.
+
+Mexican-American,
+
+Personality Traits and Psychiatric Symptoms
+Children.
+children, and when it does occur, ratings may be more
+positive for Black children than for White children. In
+one study (Stevens, 1981), school psychologists read brief
+histories and watched films of children in a classroom.
+The same histories were presented for the children of
+different races, and the films of behavioral sequences were
+edited to ensure that they were similar across races. When
+the school psychologists made ratings of hyperactive
+behavior (impulsive, fidgety, distractible, confused, insen-
+sitive, frustrated, tense, wild, and extroverted), their
+ratings did not vary significantly for African-American,
+Mexican-American, and White children. In a second
+study (Frame, Clarizio, Porter, & Vinsonhaler, 1982),
+
+Race bias is not common in the assessment of
+
+school psychologists were given case histories and test
+results. Ratings of intelligence, classroom behavior, per-
+sonality, and social relations did not vary significantly by
+race for White and Black children.
+
+In two final studies (Nalven, Hofman, & Bierbryer,
+1969; Sattler & Kuncik, 1976), psychologists examined
+results on the Wechsler Intelligence Scale for Children
+(WISC), and they made ratings of ‘effective intelligence.”
+Specifically, they were told, “From this WISC pattern,
+what is your best guess as to the S’s ‘true IQ’ score, i-e.,
+the score which best reflects the S’s ‘effective intelli-
+gence’” (Nalven et al., 1969, p. 272; Sattler & Kuncick,
+1976, p. 363). Estimates of “effective intelligence” were
+higher for Black children and Mexican-American chil-
+dren than for White children, even though all of the chil-
+dren were described by the same WISC profiles. Though
+more favorable ratings were made for the Black and
+Mexican-American children, it is not clear if this was
+inappropriate. IQ tests are good measures of analytic
+intelligence but not of creative or practical intelligence
+(Sternberg, 1985; also see Neisser et al., 1996). The rat-
+ings of effective intelligence may have had more in com-
+mon with practical intelligence than analytic intelligence.
+Though it is not clear if the ratings were appropriate, one
+can still conclude that ratings for minority children have
+not been less favorable than ratings for White children.
+
+Adults.
+ings of traits and symptoms are made for adults, the effect
+of race is frequently not significant. When the effect of
+race is significant, ratings are just as likely to be favorable
+for Black clients as for White clients. For example, when
+different groups of clinicians read case histories that were
+identical except for the designation of the client as being
+African American or White, the effect of race was not
+statistically significant, or ratings were more favorable for
+Black clients. In one study (Umbenhauer & DeWitt,
+1978), client race was not significantly related to ratings
+of impulse control. This result is interesting because in a
+survey of mental health professionals (Wyatt, Powell, &
+Bass, 1982), White clinicians had less favorable attitudes
+about the impulse control of African-American people
+than did Black clinicians. Evidently, White clinicians may
+harbor negative attitudes toward African Americans, but
+when faced with individual clients, their ratings of
+impulse control may not be affected by race. In two other
+
+As with the assessment of children, when rat-
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE - V4 N2, SUMMER 1997 102
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+studies (Benefee et al., 1976; Bloch et al., 1980), the
+effect of race was not significant when clinicians made
+ratings of emotional maturity, social appropriateness of
+sexual behavior, sexual aggressiveness, and adequacy of
+sexual functioning. These results also indicate that clini-
+cians are not inclined to describe Black clients as being
+impulsive. In the same two studies, Black clinicians rated
+Black clients as being more socially mature than White
+clients, while client race did not affect White clinicians
+when they made ratings of social maturity. In a related
+study (Franklin, 1985), White clinicians, but not Black
+clinicians, rated a Black client as being more mature than
+a White client, even though both clients were described
+by the same case history except for the designation of
+race.
+
+When Black and White actors followed scripts to por-
+tray clients, statistically significant effects were found, but
+ratings were not consistently more favorable for Black cli-
+ents or White clients. In the first study (Strickland et al.,
+1988), actors portrayed normal, neurotic, and psychotic
+clients. For the normal and neurotic clients, lower ratings
+of verbal facility were given to Black clients than White
+clients. However, for the psychotic clients, higher ratings
+of verbal facility were given to Black clients than White
+clients. In the two other studies (Jenkins-Hall & Sacco,
+1991; Ridley, 1986), White clinicians described Black cli-
+ents as being significantly more depressed than White cli-
+ents, while Black clinicians described White clients as
+being significantly more depressed than Black clients. In
+these studies, the clients were not psychotic and they
+were not hospitalized. One may contrast these results
+with the results from the studies on diagnosis that indi-
+cated that many clinicians underdetect depression and
+overdiagnose schizophrenia in psychotic Black hospital-
+ized patients. Finally, other results from the same two
+studies can also be described. Jenkins-Hall and Sacco
+(1991) reported that ratings of hostility, anxiety, and fear-
+fulness were unaffected by client race. For clients who
+expressed pessimism and helplessness, significant differ-
+ences were found between personality ratings for Blacks
+and Whites with more negative ratings being made for
+Black clients, but the magnitude of the differences was
+quite smal]: Ratings were made on 6-point rating scales
+and the average difference between ratings for Black and
+White clients was .41. Statistical significance tests for
+individual items probably would not have shown statisti-
+
+CLINICAL JUDGMENT - GARB
+
+cal significance, but the experimenters performed a statis-
+tical significance test between composite scores (sum of
+the scores on 17 items) for the Black and White clients.
+Ridley (1986) reported that the effect of race was
+not significant when clinicians made ratings of tension-
+anxiety, anger-hostility, vigor-activity, confusion, or
+schizoid. Ratings of friendliness were biased when the
+ratings were made by Black clinicians but not when rat-
+ings were made by White clinicians: Black clinicians rated
+Black clients as being friendlier than White clients.
+
+Bias in the assessment of Asian-American and White
+American clients has also been investigated. Individual
+differences were observed among Chinese-American and
+White-American psychologists and among Japanese and
+American psychiatrists. In one study (Li-Repac, 1980),
+five White American and five Chinese-American psy-
+chologists watched interviews with five White American
+and five Chinese-American clients. All of the Chinese-
+American clients and two of the Chinese-American psy-
+chologists were born in China or Hong Kong. The cli-
+ents were not actors following a script but were actual
+clients at mental health facilities. They had a range of
+diagnoses including “neurotic, character disorder, and
+schizophrenic.” Since all of the clinicians watched tapes
+of all the interviews, conclusions can be drawn about
+individual differences among the clinicians. Clinicians
+made ratings for six categories of items: (a) submissive-
+ness/dependence, (b) depression/inhibition, (c) expres-
+sive ability, (d) anxiety, (e) severe pathology/psychosis,
+and (f} social poise/interpersonal capacity. The effect of
+clinician ethnicity was not significant for ratings of sub-
+missiveness-dependence, expressive ability, or anxiety.
+However, the White American psychologists rated the
+Chinese-American clients as being more depressed and
+inhibited and less socially poised and having less capacity
+for interpersonal relationships than did the Chinese-
+American psychologists. The Chinese-American psy-
+chologists rated the White American clients as having
+more severe psychopathology (e.g., unusual thought
+associations) than did the White American psychologists.
+In another study (Tseng, McDermott, Ogino, & Ebata,
+1982), ratings were made by Japanese and American psy-
+chiatrists. American psychiatrists were more likely than
+Japanese psychiatrists to describe Japanese fathers as being
+nonparticipatory and passive in family interactions. These
+results suggest that when one is more familiar with a cli-
+
+103
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+ent’s culture, one may be less likely to infer that psycho-
+pathology and maladaptive behaviors are present.
+
+Behavioral Prediction
+
+Behavioral predictions were made for children in one
+study. In this study (Huebner & Cummings, 1986),
+school psychologists made ratings for children who were
+purportedly referred for a psychoeducational assessment
+by their classroom teacher. They were given background
+information, information about classroom behavior, and
+test results. Independent variables were race of the child
+(Black or White) and nature of the test results (normal,
+borderline/ambiguous, or mildly mentally handicapped).
+Race of client did not affect predictions of academic,
+social, adaptive, or vocational behavior.
+
+Prognostic ratings were made for adult clients in sev-
+eral studies. In all of the studies, different groups of clini-
+cians were given different case histories that were
+identical except for the designation of race, or they
+watched videotapes of actors portraying clients and the
+videotapes were identical except for the race of the
+actors. When prognostic ratings made by White and
+Black clinicians were pooled together, prognoses were
+more favorable for Black clients than for White clients in
+three studies (Lewis et al., 1990; Schwartz & Abramow-
+itz, 1975; Strickland et al., 1988) and equally favorable
+for Black clients and White clients in one study (Rabi-
+nowitz & Lukoff, 1995). When ratings were analyzed
+separately for White and Black clinicians, prognoses
+made by White clinicians were unaffected by client race
+(Bloch et al., 1980; Franklin, 1985), but Black clinicians
+tended to make prognoses that were more favorable for
+Black chents than White clients (Benefee et al., 1976;
+Franklin, 1985).
+
+Though prognostic ratings were not less favorable for
+Black clients than White clients, one can speculate that
+for at least one special case Black clients are given worse
+prognoses. Studies on diagnosis have indicated that
+patients with a psychotic affective disorder are more likely
+to be misdiagnosed as having schizophrenia if they are
+African American rather than White (e.g., Mukherjee et
+al., 1983; Pavkov et al., 1989; Simon et al., 1973). One
+would expect that if a patient is misdiagnosed as having
+schizophrenia, the patient would be seen as having a
+more pessimistic prognosis than a patient who is diag-
+nosed as having a psychotic affective disorder.
+
+Race bias was observed when clinicians at a psychiatric
+
+hospital were asked to predict whether patients would be
+readmitted to their hospital within 2 years (Stack, Lan-
+non, & Miley, 1983). When predicting rehospitalization,
+one should consider the probable course of a person's
+mental disorder but one can also consider social factors,
+for example, whether a person is homeless, whether a
+person will seek to avoid conflicts at home by being read-
+mitted to the hospital. Clinicians expected severity of ill-
+ness to be a strong predictor of rehospitalization but it
+was not. Number of previous hospitalizations was a
+stronger predictor. With regard to race bias, clinicians
+predicted that 63% of the White patients and 81% of the
+minority patients (African Americans, American Indians)
+would be rehospitalized. However, when the patients
+were followed for two years, 45% of the White patients
+and only 42% of the minority patients were readmitted.
+Race bias has been reported when clinicians predicted
+the occurrence of violence in psychiatric hospitals or
+prisons, but it has not been observed when clinicians pre-
+dicted suicide, compliance with medicine, or the occur-
+rence of violence in the community. For example, risk of
+violence was rated as being greater for Black patients than
+White patients when psychiatric residents made predic-
+tions after interviewing patients when they were first
+admitted to a psychiatric hospital (McNiel & Binder,
+1995). The patients were observed on the ward for 1
+week after the residents made their predictions, and the
+investigators were able to conclude that the risk of vio-
+lence was overestimated for the Black patients but not for
+the White patients. Similarly, the risk of violence on a
+psychiatric ward was rated as being greater for Black
+patients than White patients when different groups of
+British psychiatrists read a case history that differed only
+in the designation of patient race (Lewis et al., 1990).
+Race bias was also observed when psychologists and case
+managers at federal correctional institutions predicted
+the occurrence of violence within 6 months of imprison-
+ment (Cooper & Werner, 1990). Black inmates and
+American Indian inmates were predicted to be more
+violent than White inmates, but race was not significantly
+correlated with the occurrence of violence. For the pre-
+diction of suicide and the prediction of compliance with
+treatment, race bias was not observed when British psy-
+chiatrists read case histories that differed with respect
+to race of patient (Lewis et al., 1990). Finally, race bias
+was not reported when clinicians predicted violence in
+the community (Lidz, Mulvey, & Gardner, 1993; Lewis
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 104
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+et al., 1990). In one of these studies (Lidz et al., 1993),
+predictions were made for individuals seen at the emer-
+gency room of a psychiatric hospital. The individuals,
+and their significant others, were then interviewed by
+members of the research team over the following 6
+months to learn if they had been violent. Predictions of
+violence did not vary in accuracy for the White and
+Black patients.
+
+Treatment Planning
+
+Children and Adolescents. When treatment planning
+decisions were made for children, the effect of client race
+was not statistically significant in analogue studies. In the
+analogue studies, the effect of client race was not statisti-
+cally significant when the task was to indicate if a referral
+should be made to a learning disability remedial program
+(Amira et al., 1977; Huebner & Cummings, 1986;
+Matuszek & Oakland, 1979), advise students on choos-
+ing a college and a career (Smith, 1974), and decide if
+child abuse should be reported (Zellman, 1992, see his
+Table 3).
+
+In the field studies, the results suggest that treatment
+planning decisions are as appropriate, or more appro-
+priate, for Black children than for White children. For
+children who were referred to a learning disability reme-
+dial program, referrals were more appropriate for Black
+children than for White children in one study (Leinhardt,
+Seewald, & Zigmond, 1982), but equally appropriate for
+White and Black children in a second study (Payette &
+Clarizio, 1994). The strongest evidence of race bias was
+obtained in a field study on child abuse (Hampton &
+Newberger, 1985). In this study, data were collected at
+hospitals and at child protection services. Hospital per-
+sonnel were asked to inform the research investigators
+when they had children who had been abused. Personnel
+at local child protection services were asked to provide
+lists of cases that had been reported for possible child
+abuse. A large number of the cases of child abuse
+described by the hospital personnel were never reported
+to the child protection services. Race of child was a sig-
+nificant predictor of failure to report abuse: Cases of child
+abuse were less likely to be reported when children were
+White than when they were Black. The inclusion of race
+in a stepwise discriminant function was statistically sig-
+nificant even when race was entered into the discriminant
+function after the following predictors: nature of emo-
+tional abuse, role of mother, and family income.
+
+CLINICAL JUDGMENT + GARB
+
+Adults, African Americans are overrepresented among
+adults hospitalized in, and committed to, public psychiat-
+nic hospitals (Lindsey & Paul, 1989). A range of explana-
+tions for why Blacks are overrepresented has been offered
+(e.g., Blacks are more likely to be committed because
+they are less likely to enter a hospital voluntarily). Of
+great concer is the proposed explanation that mental
+health professionals are biased against Blacks.
+
+Research indicates that clinicians are not biased against
+Blacks when they decide whether to hospitalize and/or
+commit patients. This has been found when psychologists
+and psychiatrists made their judgments after reading case
+vignettes (Bamgbose et al. 1980; Lewis et al., 1990;
+Schwartz & Abramowitz, 1975) and when clinicians
+made decisions in the course of their clinical work (Lind-
+sey, Paul, & Mariotto, 1989). The study by Lindsey et al.
+(1989) is especially noteworthy. Data were collected on
+12 psychiatric inpatient units. Blacks were overrepre-
+sented among all admissions compared to the population
+densities for the catchment areas. African Americans were
+also overrepresented among the committed patients. By
+having trained observers code the behaviors of the staff
+and patients on the 12 psychiatric inpatient units, the
+investigators were able to conclude that Black and White
+voluntary patients did not differ in their level of function-
+ing though Black voluntary patients did exhibit more
+dangerous behavior than White voluntary patients. Black
+and White involuntary (committed) patients did not
+differ in their level of functioning or in their level of dan-
+gerous behavior. All of these results indicate that deci-
+sions to admit someone to the hospital and decisions to
+commit someone to the hospital were not biased against
+Blacks—at least there was not a bias to treat Blacks in a
+more restrictive fashion.
+
+Race bias has been well documented in the prescrip-
+tion of antipsychotic medications. The occurrence of race
+bias depends, at least in part, on the symptomatology of
+the patients. For example, the effect of race was not
+significant when psychiatrists read the case history of a
+nonpsychotic client described as being depressed, perfec-
+tionistic, and having somatic complaints and sexual con-
+flicts (Schwartz & Abramowitz, 1975). Race bias has been
+reported in several studies when patients have had psy-
+chotic symptoms. For example, a review of the medical
+records of 76 patients with bipolar affective disorder
+revealed that White patients were more often properly
+diagnosed and were more often given lithium than were
+
+105
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Black and Hispanic patients (Mukherjee et al., 1983).
+Similarly, in a study conducted in South Africa, depres-
+sion was underdetected in Black patients, and patients
+who were depressed (as assessed by a research team using
+the Present State Examination; Wing, Cooper, & Sarto-
+rius, 1974) were almost five times more likely to receive
+treatment for depression if they were White or Coloured
+than if they were Black (Eik, Dickman, & Teggin, 1986).
+The effect of race was also significant in the United King-
+dom when psychiatrists read case histories that described
+a patient who may have been abusing cannabis. Cannabis
+psychosis was more often considered as a diagnosis when
+the patient was described as being Afro-Caribbean rather
+than White, and neuroleptic medicine was more often
+recommended for White patients than Afro-Caribbean
+patients (Lewis et al., 1990). Finally, race bias in the pre-
+scription of neuroleptic medicine has recently been docu-
+mented in the United States (Segal, Bola, & Watson,
+1996). Data were collected and analyzed for 442 patients
+who went to psychiatric emergency rooms at four general
+hospitals. Of the 442 patients, 256 were Caucasian, 107
+were African American, 47 were Hispanic, 10 were
+Asian, and 22 were from other ethnic or racial groups.
+Regarding the results, even after the investigators con-
+trolled for (a) presence of a psychotic disorder, (b) severity
+of psychiatric disturbance (GAS score), (c) dangerousness,
+(d) psychiatric history, and (e) whether physical restraints
+were used, African-American patients, compared to the
+other patients, received a significantly larger number of
+psychiatric medications, a significantly larger number of
+doses of antipsychotic medicine, and a significantly larger
+number of injections of antipsychotic medication.
+
+The effect of race was generally nonsignificant when
+clinicians made decisions about psychotherapy. In all of
+the studies on decisions about psychotherapy, different
+groups of clinicians read case histories that differed in the
+designation of client race. Client race generally had no
+effect when judging (a) whether clients were likely to
+benefit from psychotherapy (Benefee et al., 1976; Blake,
+1973; Franklin, 1985; Seligman, 1968; Vail, 1970), (b)
+whether clients should be seen for short-term or long-
+term psychotherapy (Bloch et al., 1980; McLaughlin &
+Balch, 1980; Tomlinson-Clarke & Cheatham, 1993), and
+(c) whether clients should be seen in individual, couple,
+group, or family therapy and whether the therapy should
+be behavioral, nondirective, or insight-oriented (Frank-
+lin, 1985; Lewis et al., 1990; McLaughlin & Balch, 1980;
+
+Schwartz & Abramowitz, 1975; Vail, 1970). In the few
+instances when client race was significant, the treatment
+recommendations were no more favorable for White cli-
+ents than for Black clients (Benefee et al., 1976; Franklin,
+1985; Strickland et al., 1988). For example, in one of the
+studies (Strickland et al., 1988), clinical psychology grad~
+uate students gave higher ratings of likelihood of success-
+ful therapy to Black clients than White clients.
+
+SOCIAL CLASS BIAS
+Psychodiagnosis and Ratings of Level of Adjustment
+Mental illness occurs most frequently, and with greatest
+severity, among the poor. Several explanations for the
+relation between mental illness and poverty have been
+offered. Stressors associated with poverty may contribute
+to mental illness. At the same time, the occurrence of
+mental illness can contribute to a downward decline in
+socioeconomic status. Another possible explanation, pro-
+posed by Hollingshead and Redlich (1958), is that diag-
+noses and ratings of level of adjustment may be biased.
+Research has not established that social bias occurs
+when clinicians make diagnoses and ratings of level of
+adjustment. Early research indicated that social class bias
+is present (Abramowitz & Dokecki, 1977). That is, men-
+tal illness was more often reported when a client's back-
+ground was described as being lower-class rather than
+middle-class or upper-class and when the clinicians were
+given Rorschach Inkblot Test results (Haase, 1964;
+Tracheman, 1971), case history information and IQ scores
+(Neer, Foster, Jones, & Reynolds, 1973), or recordings of
+an interview (DiNardo, 1975; Lee & Temerlin, 1970).
+The effect of social class was also significant in a later
+study when clinicians made diagnoses after viewing vid-
+eotapes of interviews (Luepnitz, Randolph, & Gutsch,
+1982). However, in most of the studies published in the
+last 20 years, lower-class subjects have not been diagnosed
+as having more severe mental disorders than middle-class
+or upper-class clients. This has been true when clinicians
+have been given case history information (Bamgbose et
+al., 1980; Franklin, 1985; Hardy & Johnson, 1992; Settin,
+1982; Sutton & Kessler, 1986; Umbenhauer & DeWitte,
+1978) and when they have been given case history infor-
+mation and IQ scores (Amira et al., 1977). Studies
+reporting nonsignificant social class effects have employed
+larger clinician sample sizes than studies reporting sig-
+nificant social class effects (an average clinician sample
+size of 266 vs. an average clinician sample size of 49).
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 106
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+When more severe diagnoses or ratings are made for
+clients of lower social class, one should not assume that
+the diagnoses or ratings are biased against these clients.
+For example, in one of the studies (Luepnitz et al., 1982),
+clinicians, after viewing videotapes of actors portraying
+clients who met the DSM-III criteria for alcohol abuse,
+were more likely to make correct diagnoses of alcohol
+abuse when the clients were described as being lower
+social class than when the clients were described as being
+upper social class. They underdetected the disorder for
+the clients who were described as being upper social class.
+
+Personality Traits and Psychiatric Symptoms
+
+Social class effects were usually not significant when rat-
+ings of traits and symptoms were made for children, and
+when social class was significant, ratings were more favor-
+able for lower social class children. The effect of social
+class was not significant when school psychologists read
+fictitious case histories and watched films of children in a
+classroom setting and then made ratings for the folowing
+traits: impulsive, fidgety, distractible, confused, insensi-
+tive, frustrated, tense, wild, and extroverted (Stevens,
+1981). Similarly, the effect of social class was not signifi-
+cant when school psychologists read case history infor-
+mation and reviewed psychological test results and then
+made ratings of (a) personality, (b) social relationships, (c)
+intelligence, and (d) classroom behavior (Frame et al.,
+1982). When licensed psychologists were given demo-
+graphic information and Wechsler Intelligence Scale for
+Children (WISC) test results, their ratings of “true IQs”
+or “effective intelligence” were higher for lower-class
+children than middle-class children in one study (Nalven
+et al., 1969) but not in another (Sattler & Kuncik, 1976)
+even though the second study used the same test protocol
+that was used in the first study plus one additional test
+protocol.
+
+When ratings were made for adult clients, the effect
+of social class was never significant when clinicians
+described a client’s psychiatric symptoms but was some-
+times significant when they described a client’s personal-
+ity traits. For example, ratings were not significantly
+affected by social class when clinicians made ratings of
+impulse control, anxiety, hypochondriasis, motivation for
+change, insight, likeability, warmth, activity, and strength
+(Franklin, 1985; Hardy & Johnson, 1992; Settin & Bra-
+mel, 1981; Umbenhauer & De Witte, 1978). In the Settin
+and Bramel (1981) study, ratings of competency were sig-
+
+CLINICAL JUDGMENT + GARB
+
+nificantly affected by social class but the magnitude of the
+difference in ratings was tiny: On a 6-point Likert scale,
+the mean ratings for lower-class and middle-class clients
+were 2.93 and 2.71, respectively, with higher scores indi-
+cating more negative judgments. Judgments were less
+favorable for lower-class clients than middle-class clients
+when clinicians made the following ratings of personality
+traits: self-esteem (Sutton & Kessler, 1986) and self-
+confidence, independence, permissiveness, and demo-
+cratic values (Briar, 1961). Judgments were also less favor-
+able for lower-class clients when they were made by
+psychiatric residents who scored high on a scale of
+authoritarianism (Kurtz, Kurtz, & Hoffnung, 1970).
+These clinicians made ratings using three semantic
+differential scales: good-bad, awkward-graceful, and
+beautiful-ugly. Finally, in the above studies, clinicians
+made ratings after reading case histories. When clinicians
+made ratings after reviewing background information
+and Rorschach test results, results ranged from bias
+against lower-class clients (Levy & Kahn, 1970) to no bias
+observed (Trachtman, 1971) to bias against middle-class
+clients (Koscherak & Masling, 1972).
+
+Behavioral Predictions
+
+Prognostic ratings were never more favorable for lower-
+class clients than for middle-class or upper-class clients.
+In several studies, prognostic ratings did not vary as a
+function of social class when different groups of clinicians
+were given identical case histories except for the designa-
+tion of social class (Foon, 1989; Settin & Bramel, 1981)
+or when they were given identical Rorschach test results
+except for the designation of social class (Koscherak &
+Masling, 1972). Similarly, prognostic ratings did not vary
+as a function of social class when clinicians interviewed
+actors who portrayed clients (Wright & Hutton, 1977).
+In other studies, less favorable prognostic ratings were
+made for lower-class clients than for middle-class or
+upper-class clients when clinicians were given case histor-
+ies (Franklin, 1985; Rabinowitz & Lukoff, 1995; Sut-
+ton & Kessler, 1986), when they listened to a recording
+of an intake interview (Lee & Temerlin, 1970), and when
+they were given Rorschach test results (Haase, 1964;
+Levy & Kahn, 1970; Trachtman, 1971).
+
+The occurrence of social class bias depends in part on
+how experimenters describe clients’ socioeconomic
+backgrounds. For example, in one study (Sutton & Kes-
+sler, 1986), prognostic ratings for a client described as
+
+107
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+being a commercial artist did not differ significantly from
+prognostic ratings for a client described as being a bull-
+dozer operator. However, compared to the commercial
+artist and the bulldozer operator, prognostic ratings were
+significantly worse for a chent who was described as
+being an unemployed. welfare recipient with a seventh-
+grade education.
+
+Treatment Planning
+
+Children. When school psychologists and other school
+personnel rated whether children were eligible for special
+education programs, social class effects were either non-
+significant or were present in a direction opposite from
+what one might expect. In three studies, judges were
+given case vignettes and test results that were identical
+except for the designation of socioeconomic background.
+In two of these studies (Amira et al., 1977; Matuszek &
+Oakland, 1979), referrals for remedial programs were
+made more frequently for middle-class children than for
+lower-class children. In the third study (Frame et al.,
+1982), the main effect for social class was not significant
+but an interaction between race and social class was: A
+special class placement was more often recommended for
+an upper-class Black child than for a lower-class Black
+child even though the children were described by the
+same behavioral and test information. Finally, in a field
+study, when referrals were made by school psychologists
+in the course of their work, social class bias was reported
+to be absent (Bernard & Clarizio, 1981).
+
+The effect of social class was significant for the task
+of reporting child abuse. In an analogue study (Zellman,
+1992), clinicians were school principals, pediatricians,
+psychologists, social workers, child care providers, gen-
+eral and family practitioners, and child psychiatrists. A
+total of 1,196 professionals made ratings after reading case
+histories. For three of six cases, child abuse was more
+likely to be reported ifa child’s background was described
+as being lower-class rather than middle-class. Social class
+was not statistically significant for the other three cases.
+Ina field study (Hampton & Newberger, 1985), a dispro-
+portionate number of child abuse cases that were not
+reported to child protection agencies were from families
+of higher income. Even after information about type of
+abuse and role of mother was entered into a stepwise dis-
+criminant function procedure, household income was
+still a statistically significant predictor of whether abuse
+was reported.
+
+Adults. Social class bias did not occur when mental
+health professionals made decisions regarding hospitaliza-
+tion. In two of the studies (Bamgbose et al., 1980;
+Hardy & Johnson, 1992), psychology graduate students
+and psychologists made recommendations regarding hos-
+pitalization after reading case vignettes that were identical
+except for the designation of social class. In a third study
+(Lindsey et al., 1989), when level of psychopathology and
+level of dangerous behavior were controlled for, socio-
+economic status did not help to predict whether a patient
+would be committed or admitted voluntarily to a psychi-
+atric hospital. In a fourth study (Rabinowitz, Massad, &
+Fennig, 1995), psychiatrists and psychiatric residents
+made reconumendations regarding hospitalization in the
+course of their work at a psychiatric hospital in Israel.
+Ratings of level of psychopathology were made by mem-
+bers of the research team. When level of psychopathol-
+ogy was controlled for, level of education was not a
+significant predictor of (a) decision to admit patients, (b)
+decision to discharge patients, or (c) decision to admit to
+an open unit.
+
+Though social class bias was absent when clinicians
+made decisions about need for psychiatric hospitalization,
+it was present when clinicians made decisions about psy-
+chotherapy. Middle-class individuals were more likely to
+be recommended for psychotherapy and were expected
+to do better in psychotherapy than were lower-class indi-
+viduals, and when psychotherapy was recommended, the
+lower-class individuals were more likely to be referred for
+supportive psychotherapy and the middle-class individu-
+als were more likely to be referred for insight-oriented
+therapy (Franklin, 1985; Levy & Kahn, 1970; Neumann,
+Salganik, Rabinowitz, Bauer, & Kastner, 1990; Rabi-
+nowitz & Lukoff; 1995; Routh & King, 1972; Rowden,
+Michel, Dillehay, & Martin, 1970; Sucton & Kessler,
+1986; Umbenhauer & De Witte, 1978). [However, in one
+study, Settin & Bramel (1981), the difference was not sta~
+tistically significant, and in another study, Hardy & John-
+son (1992), the difference was not statistically significant
+and the direction of the difference was not described
+though even in this study there was a tendency for clini-
+cians to say that they were less attracted to the lower-class
+clients.} In all of the studies except one (Neumann et al.,
+1990), different groups of clinicians were given case
+vignettes that were identical except for the designation
+of social class. In the study by Neumann et al. (1990),
+individuals at an outpatient clinic in Israel were more
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE - V4 N2, SUMMER 1997 108
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+likely to be referred for psychotherapy if they had a
+higher level of education. Diagnosis was also related to
+referral to psychotherapy, but since education level and
+diagnosis were uncorrelated, one cannot argue that refer-
+rals were related to education level because diagnoses
+differed across education levels,
+
+Several explanations have been offered to explain why
+social class bias occurs when clinicians make decisions
+regarding psychotherapy. Social class bias may sometimes
+occur because clinicians assume that middle-class clients
+are more intelligent than lower-class clients. Presumably
+many clinicians believe that intelligence is positively
+related to psychotherapy outcome. Similarly, social class
+bias may occur because clinicians believe that other vari-
+ables that describe the cognitive functioning of clients
+(e.g., psychological differentiation and locus of control)
+vary with social class and are related to the appropriate-
+ness of psychotherapy (Dowds, Fontana, Russakoff, &
+Harris, 1977). On the other hand, clinicians may be able
+to empathize with middle-class individuals more easily
+than they can with lower-class individuals because of
+their own background, and for this reason they may
+expect to have greater success seeing middle-class clients
+in psychotherapy. If it is true that many lower-class indi-
+viduals are not seen in psychotherapy because most clini-
+cians have middle-class backgrounds, then it would be
+important to train more individuals with lower-class
+backgrounds as clinicians.
+
+GENDER BIAS
+
+Psychodiagnosis
+
+Females are more likely than males to be diagnosed as
+having a histrionic personality disorder, and males are
+more likely than females to be diagnosed as having an
+antisocial personality disorder, even when female and
+male clients do not differ in symptomatology. This has
+been true when different groups of clinicians have been
+given case histories that are identical except for the desig-
+nation of gender (Adler, Drake, & Teague, 1990;
+Becker & Lamb, 1994; Fernbach, Winstead, & Derlega,
+1989; Ford & Widiger, 1989; Hamilton, Rothbart, &
+Dawes, 1986; Loring & Powell, 1988; Warner, 1978,
+1979). These biases have been reported for both female
+and male clinicians (Adler et al., 1990; Ford & Widiger,
+1989; Wamer, 1978), though in one study (Loring &
+Powell, 1988) the bias for diagnosing histrionic personal-
+ity disorder was reported for White and Black male psy-
+
+CLINICAL JUDGMENT - GARB
+
+chiatrists and Black female psychiatrists but not for White
+female psychiatrists.
+
+Gender bias has also occurred when research investigators
+have made diagnoses of histrionic personality disorder. In
+studies on the prevalence rates of personality disorders,
+diagnoses have been made by research investigators using
+(a) unstructured clinical interviews or self-report mea-
+sures and (b) semistructured interviews. The percentage
+of females with diagnoses of histrionic personality was
+higher when diagnoses were made on the basis of
+unstructured clinical interviews or self-report measures
+(81%) compared to when diagnoses were made by using
+semistructured interviews (69%; see Corbitt & Widiger,
+1995, for a review).
+
+There has been speculation that depression may be
+overdiagnosed in females (Potts, Burnam, & Wells, 1991).
+However, the effect of gender was not significant when
+clinicians made differential diagnoses of adjustment disor-
+der, dysthymic disorder, and anxiety disorder (Agell &
+Rothblum, 1991; Garfinkle & Morin, 1978), adjustment
+reaction and depressive neurosis (Settin, 1982), adjust-
+ment reaction, dysthymic disorder, cyclothymic disorder,
+and alcohol abuse (Ford & Widiger, 1989), and adjust-
+ment disorder, dysthymic disorder, intermittent explosive
+disorder, posttraumatic stress disorder, schizophrenia,
+generalized anxiety disorder, and delusional disorder
+(Becker & Lamb, 1994). The effect of gender was sig-
+nificant when the task was to make differential diagnoses
+of major depressive disorder and organic mental disorder
+(Wrobel, 1993): Males were more likely than females to
+be diagnosed as having an organic mental disorder while
+females described as having the same symptomatology as
+males were more likely to be rated as having a severe
+depressive disorder.
+
+Gender bias was not reported when diagnoses were
+made for other Axis I and Axis II disorders. Gender bias
+was not reported when clinicians made diagnoses of
+learning disability (Clarizio & Phillips, 1986), schizophre-
+nia (Pavkov et al., 1989), or schizophrenia, substance-
+induced psychosis, and acute reactive psychosis (Lewis et
+al., 1990). For Axis II disorders, the effect of gender bias
+has generally not been significant, and when it has been
+significant, findings have not been replicated. This has
+been true for the diagnosis of borderline personality dis-
+order (Adler et al., 1990; Ford & Widiger, 1989; Garb,
+1995; Henry & Cohen, 1983; but see Becker & Lamb,
+1994), dependent personality disorder (AdJer et al., 1990;
+
+109
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Becker & Lamb, 1994; also see Loring & Powell, 1988,
+and Corbitt & Widiger, 1995), narcissistic personality dis-
+order (Becker & Lamb, 1994; Ford & Widiger, 1989; but
+see Adler et al., 1990), masochistic or self-defeating per-
+sonality disorder (Becker & Lamb, 1994; Fuller & Blash-
+field, 1989), and passive-aggressive personality disorder
+(Ford & Widiger, 1989).
+
+Level of Adjustment
+Early research suggested that mental health professionals
+view males as being psychologically healthier than
+females. In a widely cited and widely criticized study,
+Broverman, Broverman, Clarkson, Rosenkrantz, and
+Vogel (1970) had psychologists, psychiatrists, and social
+workers complete a questionnaire that measured the
+social desirability of male stereotype and female stereo-
+type traits. The qualities judged desirable for a man were
+similar to the qualities judged desirable for a gender-
+unspecified adult. For both male and female therapists,
+the qualities judged desirable for a female were not simi-
+lar to the qualities judged desirable for a gender-
+unspecified adult. Broverman et al. (1970) concluded that
+“clinicians are significantly less likely to attribute traits
+which characterize healthy adults to a woman than they
+are likely to attribute these traits to a healthy man” (p. 5).
+The Broverman et al. (1970) article has been criti-
+cized, among other reasons, because the questionnaire
+contained more items that describe socially desirable male
+stereotype traits than items that describe socially desirable
+female stereotype traits (Stricker, 1977). When the study
+was replicated using a questionnaire that contained more
+items that describe socially desirable female traits than
+items that describe socially desirable male stereotype
+traits, ratings of healthy females were similar to ratings for
+the gender-unspecified healthy adult and ratings of
+healthy males were not similar to the ratings for the gen-
+der-unspecified healthy adult (Widiger & Settle, 1987).
+In clinical judgment studies, ratings of adjustment have
+generally been as high for females as for males. In several
+studies, different groups of clinicians were given identical
+case vignettes except for the designation of gender. The
+effect of client gender was not significant when clients
+were described as being: anxious and/or depressed (Aus-
+tad & Aronson, 1987; Hardy & Johnson, 1992; Lopez,
+Smith, Wolkenstein, & Charlin, 1993; Murray & Abram-
+son, 1983; Schover, 1981; Schwartz & Abramowitz,
+1975), either psychotic or phobic (Billingsley, 1977),
+
+either passive or aggressive (Dailey, 1980; Fischer, Dula~
+ney, Fazio, Hudak, & Zivotofsky, 1976; Prout & Freder~
+ickson, 1991; Teri, 1982), or the parents of children who
+were mildly defiant of the parents’ rules (McCollum &
+Russell, 1992). For exarnple, in one of the studies (Aus-
+tad & Aronson, 1987), the case vignettes described clients
+who were depressed, were experiencing marital conflicts,
+and had personality traits that have been associated with
+a healthy adule male but not a healthy adult female
+(according to Broverman et al., 1970): Clients were
+described as being active, aggressive, independent, ambi-
+tious, competitive, and more interested in pursuing a
+career than in staying at home to raise a family. As already
+noted, the effect of gender was not significant when clini-
+cians made ratings of level of adjustment.
+
+The effect of gender was significant in six studies. In
+four of the studies, ratings of level of adjustment were
+better for female clients than for male clients, at least for a
+subset of the clinicians, even though the male and female
+clients were described by identical case histories except
+for the designation of gender (Hansen & Reekie, 1990;
+Lowery & Higgins, 1979; Miller, 1974; Oyster-Nelson &
+Cohen, 1981). In a different study (Abramowitz, Abra-
+mowitz, Jackson, & Gomes, 1973), politically conserva-
+tive clinicians rated a female client as more disturbed than
+a male client when both clients were described as being
+politically active and liberal and having significant emo-
+tional problems. In a final study (Feinblatt & Gold, 1976),
+male clients were rated as being less well-adjusted than
+female clients when the clients were described as being
+passive, and female clients were rated as being less well-
+adjusted than male clients when the clients were
+described as being aggressive. However, in other studies,
+male clients were not described as being less well-
+adjusted when the clients were described by fernale stere-
+otypic traits (e.g., passive or dependent), and female cli-
+ents were not described as being less well-adjusted when
+the clients were described by male stereorypic traits (e.g.,
+aggressive; Austad & Aronson, 1987; Dailey, 1980;
+Fischer et al., 1976; Prout & Frederickson, 1991; Teri,
+1982; also see Oyster-Nelson & Cohen, 1981).
+
+Personality Assessment
+
+The effect of gender was not significant on a regular basis
+when clinicians made ratings of personality traits and psy-
+chiatric symptoms. In‘all of the studies, different groups
+of clinicians were given case vignettes that were identical
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE - V4 N2, SUMMER 1997 110
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+except for the designation of gender. In several studies,
+the effects of client gender were nonsignificant (Adams &
+Betz, 1993; Agell & Rothblum, 1991; Garfinkle &
+Morin, 1978; Hardy & Johnson, 1992; Hecker, Trepper,
+Wetchler, & Fontaine, 1995; Lopez et al., 1993; Nalven
+et al., 1969). Females were rated as being more emotion-
+ally mature and intelligent than males in one study
+(Fischer et al., 1976), but equally emotionally mature and
+less intelligent in a replication study (Dailey, 1980). Simi-
+larly, females were rated as being less competent than
+males in one study (Settin & Bramel, 1981), but more
+competent in a second study (Stearns, Penner, & Kim-
+mel, 1980). Stearns et al. (1980) also reported that the
+effect of client gender was not statistically significant
+when clinicians made ratings for 20 other personality
+traits. Finally, a female actor portraying a client was rated
+as being more aggressive, ambitious, and independent
+than a male actor following the same script (Hayes &
+Wolleat, 1978), but nonsignificant results were obtained
+for ratings of these personality traits when clinicians read
+case histories that were identical except for the designa-
+tion of gender (Agell & Rothblum, 1991; Garfinkle &
+Morin, 1978; Settin & Bramel, 1981).
+
+Behavioral Predictions
+
+For several prediction tasks, the effect of gender was usu-
+ally not significant. Gender bias was not present for pre-
+dicting who would be rehospitalized within 2 years
+(Stack et al., 1983) and for predicting suicide or compli-
+ance with treatment (Lewis et al., 1990). Also, in many
+studies, prognoses for male and female clients were not
+significantly different (Adams & Betz, 1993; Bernstein &
+Lecomte, 1982; Billingsley, 1977; Dailey, 1980; Fischer
+et al., 1976; Foon, 1989; Lewis et al., 1990; Lépez et al.,
+1993; Rabinowitz & Lukoff, 1995; Schwartz & Abra-
+mowitz, 1975; Settin, 1982; Stearns et al., 1980; Wrobel,
+1993; Zygmond & Denton, 1988). When the effect of
+gender was significant, prognostic ratings were more
+favorable for female clients than male clients, even though
+clients were described by the same case histories except
+for the designation of gender (Agell & Rothblum, 1991;
+Fernbach et al., 1989; Hansen & Reekie, 1990; Teri,
+1982).
+
+Gender bias was present when clinicians predicted the
+occurrence of violence. Estimates of the likelihood of
+violent behavior were higher for male clients than for
+female chents (Lewis et al., 1990; Lidz et al., 1993;
+
+CLINICAL JUDGMENT - GARB
+
+McNiel & Binder, 1995). In two of these studies (Lidz et
+al., 1993; McNiel & Binder, 1995), predictions were
+made by clinicians in the course of their clinical work. In
+the Lidz et al. study, clinicians predicted violence more
+often for men than for women (45% vs. 22%), but
+women were more often violent than men (49% vs.
+42%). Similarly, in the McNiel and Binder study, false
+positives (patient is predicted to become violent but never
+does) were more frequent for male patients, and false
+negatives (patient is predicted to not become violent but
+does) were more frequent for female patients.
+
+Treatment Decisions
+Children and Adolescents.
+dence that gender bias occurs when clinicians make treat-
+
+There is practically no evi-
+
+ment decisions for children and adolescents. For example,
+when recommendations were made by vocational guid-
+ance counselors at high schools, the effect of student gen-
+der was not statistically significant (Smith, 1974). In a
+more recent study (Prout & Frederickson, 1991), school
+psychologists made referrals for the treatment of high
+school students with behavioral problems. They made
+ratings on four 9-point rating scales: (a) importance of
+referral for teacher consultation, (b) importance of refer-
+ral for behavior modification plan, (c) importance of
+referral for school-based counseling, and (d) importance
+of referral to outside mental health professionals. The
+difference between composite scores for males and
+females was statistically significant but the magnitude of
+the average difference was tiny: The average difference
+between ratings for males and females was .35 (on a 9-
+point rating scale). Finally, the effect of client gender was
+not statistically significant when mental health profes-
+sionals read case histories and rated the appropriateness of
+hospitalization for adolescents who had attempted suicide
+(Morrissey et al., 1995).
+
+Similarly, when deciding if child abuse should be
+reported, the effect of a child’s gender was not statistically
+significant (Hampton & Newberger, 1985; Howe, Her-
+zberger, & Tennen, 1988; Kalichman, Craig, & Follings-
+tad, 1989; Kennel & Agresti, 1995; Zellman, 1992). For
+example, Hampton and Newberger (1985) were able to
+analyze data collected from 70 hospitals in 10 states. Hos-
+pital personnel were given guidelines for recognizing
+cases of child abuse. Their reports of cases of child abuse
+were compared to lists of cases that were reported to child
+protection services. Almost half of the cases that met the
+
+414
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+study’s definition of abuse were not reported to a child
+protection service. Failure to report could be predicted
+by many factors, for example, social class, race, nature of
+abuse, but could not be predicted by child’s gender.
+
+Results on gender bias have not been replicated when
+the task has been to make placement decisions. In field
+studies on the appropriateness of placement decisions, the
+effect of child gender has been nonsignificant (Clarizio &
+Phillips, 1986), ratings have been more accurate for
+female children than for male children (female children
+in learning disability classrooms were more likely to have
+a learning disability than male children in the learning
+disability classrooms; Leinhardt et al., 1982), and rat-
+ings have been more accurate for male children than
+for female children (females without a learning disability
+were more likely to be placed in a learning disability
+classroom than were males without a learning disa~
+bility; Payette & Clarizio, 1994). One of the studies
+(Clarizio & Phillips, 1986) will be described. In this study,
+data were collected on 525 children who were evaluated
+for referral to a special education program. Children were
+referred to the special education program if they were
+diagnosed as having a learning disability. Of 235 children
+who were diagnosed as having a learning disability, 184
+were boys and 51 were girls. A diagnosis of learning
+disability is supposed to be made if there is a marked
+discrepancy between expected achievement and actual
+achievement. The Wechsler Intelligence Scale for
+Children-Revised (WISC-R) and the Wide Range
+Achievement Test (WRAT) were administered to all of
+the children to measure expected achievement and actual
+achievement, respectively. The discrepancy between
+expected achievement and actual achievement did not
+vary significantly by gender for children who were
+referred to the special education program. Similarly, the
+discrepancy between expected achievement and actual
+achievement did not vary significantly by gender for the
+children who were not referred to the special education
+program. Thus, gender bias did not occur when children
+were referred to a special education program.
+
+Adults. Unlike decisions made for children and adoles-
+cents, gender bias has occurred when clinicians have
+made decisions about hospitalization for adults, at least
+under some conditions. Decisions regarding psychiatric
+hospitalization have not been affected by client gender
+when decisions were made after clinicians read case his-
+
+tories (Fernbach et al., 1989; Hansen & Reekie, 1990;
+Hardy & Johnson, 1992; Lewis et al., 1990; Lowery &
+Higgins, 1979; Murray & Abramson, 1983; Schwartz &
+Abramowitz, 1975; Wrobel, 1993). However, gender bias
+has been present when decisions were made by clinicians
+in the course of their clinical work. For example, in one
+study (Rosenfield, 1982), the effect of gender varied with
+diagnostic category. When individuals were diagnosed as
+having psychotic depression or neurosis, 66% of the males
+and 43% of the females were hospitalized. When individ-
+uals were diagnosed as having a personality disorder and/
+or a substance-abuse disorder, 50% of the females and
+only 18% of the males were hospitalized. The effect of
+gender also varied by diagnostic category in another
+study (Baskin, Sommers, Tessler, & Steadman, 1989).
+Female prison inmates, but not male prison inmates, were
+more likely to be placed in a mental health facility when
+they were violent. Male inmates were more likely than
+female inmates to be placed in a mental health facility
+when the presenting complaint was depression. In a third
+study (Rabinowitz et al., 1995), gender bias was not
+observed when clinicians decided whether to hospitalize
+individuals, but the effect of gender was not studied as a
+function of diagnostic category. Gender bias was present
+when clinicians decided whether someone should be
+hospitalized on a locked or open ward: Males were more
+likely to be referred to a locked ward.
+
+The effect of gender was usually not significant for
+other decisions related to psychiatric treatment. For
+example, the effect of gender was generally not signifi-
+cant when psychiatrists read case vignettes and decided
+if clients should receive psychiatric treatment (Farmer &
+Griffiths, 1992) or when they made recommendations for
+electroconvulsive treatment (Lowery & Higgins, 1979;
+Schwartz & Abramowitz, 1975) or treatment with psy-
+chotropic medicine (Del Gaudio, Carpenter, & Morrow,
+1978; Fernbach et al., 1989; Hansen & Reekie, 1990;
+Lowery & Higgins, 1979; Murray & Abramson, 1983;
+Oyster-Nelson & Cohen, 1981; Schwartz & Abramow-
+itz, 1975; Stearns et al., 1980; Wrobel, 1993; but also see
+Lewis et al., 1990; Stein, Del Gaudio, & Ansley, 1976).
+When gender bias occurred, more medicine was recom-
+mended for males in one study (Lewis et al., 1990) and
+for females in a second study (Stein et al., 1976).
+
+Similarly, the effect of gender was generally not sig-
+nificant when clinicians made treatment decisions related
+to psychotherapy. The effect of gender was not significant
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 112
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+when clinicians were to decide if clients could benefit
+from psychotherapy (Adams & Betz, 1993; Agell &
+Rothblum, 1991; Bernstein & LeComte, 1982; Hardy &
+Johnson, 1992; Oyster-Nelson & Cohen, 1981; Rabi-
+nowitz & Lukoff, 1995; Settin, 1982; Stearns et al., 1980).
+Regarding the type of therapy that was recommended by
+clinicians (e.g., individual, group, or family therapy;
+short-term or long-term therapy; directive or nondirec-
+tive therapy; supportive, behavioral, cognitive-behavioral,
+or insight-oriented therapy), the effect of gender was usu-
+ally not significant (Agell & Rothblum, 1991; Bern-
+stein & LeComte, 1982; Dailey, 1980; Hansen & Reekie,
+1990; Hecker et al., 1995; Lewis et al., 1990; Lowery &
+Higgins, 1979; Murray & Abramson, 1983; Oyster-
+Nelson & Cohen, 1981; Rabinowitz & Lukoff, 1995;
+Schwartz & Abramowitz, 1975; Stearns et al., 1980;
+Wrobel, 1993; but see Bowman, 1982; Fernbach et al.,
+1989; Fischer et al., 1976; Hardy & Johnson, 1992). Also,
+the effect of gender was frequently not significant when
+clinicians formulated goals for psychotherapy (Austad &
+Aronson, 1987; Billingsley, 1977; Dailey, 1980; Fischer et
+al., 1976; Garfinkle & Morin, 1978; McCollum & Rus-
+sell, 1992; but see Bowman, 1982; Miller, 1974). Finally,
+though the effect of gender was generally not significant
+when clinicians made treatment decisions regarding psy~
+chotherapy, one exception can be described: Clinicians
+who conducted intake interviews with clients often
+referred them to clinicians of the same sex (Schover,
+1981; Shullman & Betz, 1979).
+
+Results are mixed on gender bias and the referral of
+adult psychotherapy clients to vocational counseling. In
+one study (Fernbach et al., 1989), referrals to vocational
+counseling did not vary by client gender (also see Buczek,
+1981). However, in another study (Lowery & Higgins,
+1979), psychologists, but not social workers or psychia-
+trists, were more likely to refer same-sex clients than
+opposite-sex clients to vocational counseling,
+
+Though gender bias may generally be absent when cli-
+nicians make decisions regarding psychotherapy, one can
+speculate about when gender bias is most likely to occur.
+When a diagnosis of antisocial personality disorder is
+given more often to male clients than female clients, the
+female clients may more often be seen in individual ther-
+apy and the male clients may more often be seen in group
+therapy (Fernbach et al., 1989). When setting goals for
+psychotherapy, the goal of balancing vocational and
+domestic roles may be judged to be more important for
+
+CLINICAL JUDGMENT + GARB
+
+females than males (Bowman, 1982; also s : Sesan,
+1988). Clinicians may be more likely to refer a psycho-
+therapy client to vocational counseling if the client is the
+same gender as the clinician (Lowery & Higgins, 1979).
+Finally, when assigning clients to therapists, clients are
+likely to be assigned to therapists of the same sex
+(Schover, 1981; Shullman & Betz, 1979). Other instances
+of gender bias will undoubtedly be found in the future,
+but they are not apparent now.
+
+DISCUSSION
+For many important tasks, bias related to the collection
+and/or integration of information does not seem to be
+present or, if present, seems to be in a direction that favors
+groups that have historically been discriminated against.
+For example, contrary to conventional wisdom, when
+clinictans have made diagnoses and ratings of level of
+adjustment, the results have not indicated that there is (a)
+a bias to judge lower-class patients as being more seriously
+disturbed than upper-class patients or (b) a bias to judge
+female patients as being more disturbed than male
+patients. Regarding the referral of children to special edu-
+cation programs, race bias and gender bias seem to be
+absent, and the occurrence of social class bias was in a
+direction opposite from what most psychologists would
+expect: Middle-class children were referred more often
+than lower-class children. Similarly, though African
+Americans are overrepresented among adults hospitalized
+in, and committed to, public psychiatric hospitals (Lind-
+sey & Paul, 1989), research indicates that clinicians are
+not biased against Blacks when they decide whether to
+hospitalize and/or commit patients (e.g., Lindsey et al.,
+1989). Also, race bias and gender bias were generally
+absent when clinicians made decisions about psychother-
+apy, though instances of bias may at times occur. Finally,
+though psychotropic medicine is prescribed about twice
+as often for females than for males (Ashton, 1991),
+research indicates that gender bias rarely occurs when
+psychiatrists prescribe medicine, and when it does occur,
+males are as likely as females to receive more medicine.
+For other important tasks, bias is present. For example,
+misdiagnoses of schizophrenia occur more often for Black
+and Hispanic patients than for White patients when the
+patients have psychotic affective disorders. Another well-
+replicated finding is that diagnoses of antisocial personal-
+ity disorder are more likely to be made for males than
+females while diagnoses of histrionic personality disorder
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+are more likely to be made for females than males, even
+when males and females are described by the same case
+histories. Another important finding is that referrals for
+psychotherapy were more often made for middle-class
+clients than for lower-class clients. Also, when both
+middle-class and lower-class clients were referred for psy-
+chotherapy, middle-class clients were more often recom-
+mended for insight-oriented psychotherapy and lower-
+class clients were more often recommended for support-
+ive psychotherapy. As another example of bias, antipsy-
+chotic medications were more often prescribed for Black
+patients than for other patients even when the Black
+patients were not more psychotic, and affective symptoms
+in severely mentally ill patients were more often under-
+treated when patients were Black or Hispanic compared
+to when they were White.
+
+Limitations of the research on race bias, social class
+bias, and gender bias can be described. For example, for
+many important tasks, the occurrence of bias has not been
+studied. Race bias, social class bias, and gender bias have
+not been studied for tasks in the area of neuropsychologi-
+cal assessment (Garb & Schramke, 1996). Another task
+that has been neglected is case formulation (but see Abra-
+mowitz, 1977; Buczek, 1981). Though clinicians have
+been instructed to make ratings of personality traits, they
+rarely made ratings of motives, attitudes, and defense
+mechanisms, and they were not asked to describe the
+causes of a client’s behaviors and symptoms. Another lim~
+itation of this review is that results were only presented
+when level of psychopathology was controlled for.
+Results can be interesting even when level of psychopa-
+thology is not controlled for (e.g., Lewis, Shanok,
+Cohen, Kligfeld, & Frisone, 1980). Also, results on sex-
+role bias are interesting, for example, whether judgments
+vary for men with stereotypic masculine or feminine
+traits (Robertson & Fitzgerald, 1990), but these results
+also lie outside of the scope of this review.
+
+Another limitation of the research is that an analogue
+paradigm was frequently used to study bias. That is,
+instead of analyzing judgments made by clinicians in the
+course of their clinical work, in analogue studies judg-
+ments were made by clinicians after reading case histories
+or watching videotapes. Davidson and Abramowitz
+(1980) had called for a moratorium on analogue studies,
+in part because they found that bias was not reported in
+the analogue studies they reviewed. They believed that
+in an analogue study, clinicians could discern the purpose
+
+of the study, and that they would make socially desirable
+judgments. However, well-replicated biases have been
+found using the analogue method, for example, gender
+bias in the differential diagnosis of histrionic personality
+disorder and antisocial personality disorder, social class
+bias in the referral of clients for psychotherapy (additional
+biases described by investigators using the analogue
+method, e.g., age bias, diagnostic overshadowing, are
+described by Lépez, 1989).
+
+Recommendations can be made for decreasing bias.
+First, clinicians should be sensitive to biases that have
+been reported in the clinical judgment literature. For
+example, psychiatrists need to make sure that they ade-
+quately treat affective symptoms in African-American and
+Hispanic patients with psychotic affective disorders, and
+they need to make sure that they do not overmedicate
+African-American patients with neuroleptic medicine.
+Segal et al. (1996) reported that when psychiatrists spent
+as much time with African-American patients as they did
+with other patients, they were less likely to overmedicate
+the Black patients. However, one should not assume that
+one can always decrease bias by spending more time with
+patients or by collecting increasing amounts of assessment
+information (Ambady & Rosenthal, 1992; Garb, 1984).
+Regarding psychotherapy, perhaps the most important
+recommendation is that lower-class patients not be
+excluded from treatment simply because of their socio-
+economic background.
+
+Bias can also be decreased by attending to diagnostic
+criteria. For example, one can expect that race bias will
+not be present for the differential diagnosis of schizophre-
+nia and bipolar affective disorder when clinicians attend
+strictly to diagnostic criteria. Unfortunately, empirical
+evidence indicates that clinicians frequently do not attend
+to diagnostic criteria (Widiger & Trull, 1991). Instead,
+the representativeness heuristic seems to be descriptive of
+how many clinicians make diagnoses (Garb, 1996). For
+example, when making a diagnosis of schizophrenia, cli-
+nicians seem to compare patients to their idea of the typi-
+cal patient with schizophrenia, and they assign the
+diagnosis if there is a close fit.
+
+Biases can also be reduced by the use of statistical pre-
+diction rules (e.g, Dawes, Faust, & Meehl, 1989;
+Kleinmuntz, 1990; Meehl, 1954). The development of
+statistical prediction rules for predicting the occurrence
+of violence has been especially impressive (e.g., Gardner,
+Lidz, Mulvey, & Shaw, 1996). Assuming that race, social
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE - V4 N2, SUMMER 1997 114
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+class, and gender would be entered into a statistical pre-
+diction rule only if it leads to more valid predictions, one
+would expect that statistical predictions will not be
+biased. Unfortunately, statistical prediction rules are not
+as impressive for making diagnoses or describing person-
+ality traits and psychiatric symptoms as they are for pre-
+dicting behavior (Garb, 1994).
+
+REFERENCES
+
+Abramowitz, C. V. (1977). Blaming the mother: An experi-
+mental investigation of sex-role bias in countertransference.
+Psychology of Women Quarterly, 2, 24-34.
+
+Abramowitz, C. V., & Dokecki, PR R. (1977). The politics of
+clinical judgment: Early empirical returns. Psychological Bulle-
+tin, 84, 460-476.
+
+Abramowitz, S. 1., Abramowitz, C. V., Jackson, C., & Gomes,
+B. (1973). The politics of clinical judgment: What nonlib-
+eral examiners infer about women who do not stifle them-
+selves. Journal of Consulting and Clinical Psychology, 41,
+385-391.
+
+Abramowitz, S. I., & Herrera, H. R. (1981). On controlling for
+patient psychopathology in naturalistic studies of sex bias:
+A methodological demonstration. Journal of Consulting and
+Clinical Psychology, 49, 597-603.
+
+Adams, E.M., & Betz, N. E. (1993). Gender differences in
+counselors’ attitudes toward and attributions about incest.
+Joumal of Counseling Psychology, 40, 210-216.
+
+Adebimpe, V. R. (1981), Overview: White norms and psychi-
+atric diagnosis of Black patients. American Journal of Psychiatry,
+
+138, 279-285.
+
+Adler, D. A., Drake, R. E., & Teague, G. B. (1990). Clinicians”
+practices in personality assessment: Does gender influence
+the use of DSM-III Axis II? Comprehensive Psychiatry, 31,
+125~133.
+
+Agell, G., & Rothblum, E. D. (1991). Effects of clients’ obesity
+and gender on the therapy judgments of psychologists. Pro-
+Sessional Psychology: Research and Practice, 22, 223-229.
+
+Ambady, N., & Rosenthal, R. (1992). Thin slices of expressive
+behavior as predictors of interpersonal consequences: A
+meta-analysis. Psychological Bulletin, 111, 256-274.
+
+Amira, S., Abramowitz, S. I., 8& Gomes-Schwartz, B. (1977).
+Socially-charged pupil and psychologist effects on psycho-
+educational decisions. Journal of Special Education, 11,
+433-440.
+
+Ashton, H. (1991). Psychotropic-drug prescribing for women.
+British Journal of Psychiatry, 158(Suppl. 10), 30-35.
+
+Austad, C. $., & Aronson, H. (1987). The salience of sex role
+instructions to mental health professionals. Sex Roles, 16,
+323-333.
+
+Bamgbose, O., Edwards, D., & Johnson, S. (1980). The effects
+
+CLINICAL JUDGMENT - GARB
+
+of race and social class on clinical judgment. Journal of Clinical
+Psychology, 36, 605-609.
+
+Baskin, D.R., Sommers, I, Tessler, R., & Steadman, H. J.
+(1989). Role incongruence and gender variation in the pro-
+vision of prison mental health services. Journal of Health and
+Social Behavior, 30, 305-314.
+
+Becker, D., & Lamb, S. (1994). Sex bias in the diagnosis of
+borderline personality disorder and posttraumatic stress dis-
+order. Professional Psychology: Research and Practice, 25, 55-61.
+
+Benefee, L. M., Abramowitz, S.1., Weitz, L.J., & Armstrong,
+S. H. (1976). Effects of patient racial attribution on Black
+clinicians’ inferences. American Journal of Community Psychol-
+ogy, 4, 263-273.
+
+Bemard, R., & Clarizio, H. (1981). Socioeconomic bias in spe-
+cial education placement decisions. Psychology in the Schools,
+18, 178-183.
+
+Bernstein, B. L., & LeComte, C. (1982). Therapist expectan-
+cies: Client gender and therapist gender, profession, and
+level of training. Journal of Clinical Psychology, 38, 744-754.
+
+Billingsley, D. (1977). Sex bias in psychotherapy: An examina-
+tion of the effects of client sex, client pathology, and thera-
+pist sex on treatment planning. Journal of Consulting and
+Clinical Psychology, 45, 250-256.
+
+Blake, W. (1973). The influence of race on diagnosis. Smith Col-
+lege Studies in Social Work, 43, 184~192.
+
+Bloch, P. M., Weitz, L. J., & Abramowitz, S. I. (1980). Racial
+attribution effects on clinical judgment: A failure to replicate
+among White clinicians. American Journal of Community Psy-
+chology, 8, 485-493.
+
+Bowman, P. R. (1982). An analog study with beginning thera-
+pists suggesting bias against “activity” in women. Psychother-
+apy: Theory, Research, and Practice, 19, 318-324.
+
+Briar, S. (1961). Use of theory in studying effects of client social
+class on students’ judgments. Social Work, 6, 91-97.
+
+Broverman, I., Broverman, D., Clarkson, F, Rosenkrantz, P, &
+Vogel, S. (1970). Sex-role stereotypes and clinical judgments
+of mental health. Journal of Consulting and Clinical Psychology,
+34, 1-7.
+
+Buczek, T. A. (1981). Sex biases in counseling: Counselor
+retention of the concerns of a female and male client. Journal
+of Counseling Psychology, 28, 13-21.
+
+Clarizio, H. F., & Phillips, $. E. (1986). Sex bias in the diagnosis
+of learning disabled students. Psychology in the Schools, 23,
+44-52.
+
+Coleman, D., & Baker, FM. (1994). Misdiagnosis of schizo-
+phrenia in older, black veterans. Hospital and Community Psy-
+chiatry, 45, 527-528.
+
+Cooper, R. B, & Werner, P. D. (1990), Predicting violence in
+newly admitted inmates: A lens model analysis of staff deci-
+sion making. Criminal Justice and Behavior, 17, 431-447.
+
+Corbitt, E. M., & Widiger, T. A. (1995). Sex differences among
+
+415
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+the personality disorders: An exploration of the data. Clinical
+Psychology: Science and Practice, 2, 225-238.
+
+Dailey, D. M. (1980). Are social workers sexist? A replication.
+Social Work, 25, 46-50.
+
+Davidson, C. V., & Abramowitz, S. I. (1980). Sex bias in clini-
+cal judgment: Later empirical returns. Psychology of Women
+Quarterly, 4, 377-395.
+
+Dawes, R. M., Faust, D., & Meehl, PE. (1989). Clinical versus
+actuarial judgment. Science, 243, 1668-1674.
+
+Del Gaudio, A. C., Carpenter, P. J., & Morrow, G. R. (1978).
+Male and female treatment differences: Can they be general-
+ized? Journal of Consulting and Clinical Psychology, 46, 1577—
+1578.
+
+DiNardo, P. A. (1975). Social class and diagnostic suggestion as
+variables in clinical judgment. Journal of Consulting and Clini-
+cal Psychology, 43, 363-368.
+
+Dowds, B. N., Fontana, A. F, Russakoff, L. M., & Harris, M.
+(1977). Cognitive mediators between patients’ social class
+and therapists’ evaluations. Archives of General Psychiatry, 34,
+917-920.
+
+Elk, R., Dickman, B. J., & Teggin, A. F. (1986). Depression in
+schizophrenia: A study of prevalence and treatment. British
+Journal of Psychiatry, 149, 228-229.
+
+Farmer, A. E., & Griffiths, H. (1992). Labelling and illness in
+primary care: Comparing factors influencing general prac-
+titioners’ and psychiatrists’ decisions regarding patient refer-
+ral to mental illness services. Psychological Medicine, 22,
+717-723.
+
+Feinblatt, J. A., & Gold, A. R. (1976). Sex roles and the psychi-
+atric referral process. Sex Roles, 2, 109-122.
+
+Fernbach, B. E., Winstead, B. A., & Derlega, V. J. (1989). Sex
+differences in diagnosis and treatment recommendations for
+antisocial personality and somatization disorders. Journal of
+Social and Clinical Psychology, 8, 238-255.
+
+Fischer, J., Dulaney, D. D., Fazio, R.T., Hudak, M.T., &
+Zivotofky, E. (1976). Are social workers sexists? Social Work,
+21, 428-433.
+
+Foon, A. E. (1989). Mediators of clinical judgment: An explo-
+ration of the effect of therapists’ locus of control on clinical
+expectations. Genetic, Social, and General Psychology Mono-
+graphs, 115, 245-266.
+
+Ford, M. R., & Widiger, T. A. (1989). Sex bias in the diagnosis
+of histrionic and antisocial personality disorders. Journal of
+Consulting and Clinical Psychology, 57, 301-305.
+
+Frame, R. E., Clanizio, H. F, Porter, A., & Vinsonhaler, J. R.
+(1982). Interclinician agreement and bias in school psychol-
+ogists’ diagnostic and treatment recommendations for a
+learning disabled child. Psychology in the Schools, 19,
+319-327.
+
+Franklin, D. L. (1985). Differential clinical assessments: The
+influence of class and race. Social Service Review, 59, 44-61.
+
+Fuller, A. K., & Blashfield, R. K. (1989). Masochistic personal-
+ity disorder: A prototype analysis of diagnosis and sex bias.
+Journal of Nervous and Menta! Disease, 177, 168-172.
+
+Funtowicz, M. N., & Widiger, T. A. (1995). Sex bias in the
+diagnosis of personality disorders: A different approach. Jour-
+ttal of Psychopathology and Behavioral Assessment, 17, 145-165.
+
+Garb, H. N. (1984). The incremental validity of information
+used in personality assessment. Clinical Psychology Review, 4,
+641-655.
+
+Garb, H. N. (1989). Clinical judgment, clinical training, and
+professional experience. Psychological Bulletin, 105, 387-
+396.
+
+Garb, H. N. (1994). Toward a second generation of statistical
+prediction rules in psychodiagnosis and personality assess-
+ment. Computers in Human Behavior, 10, 377-394.
+
+Garb, H. N. (1995). Sex bias and the diagnosis of borderline
+personality disorder. Professional Psychology: Research and Prac-
+tice, 26, 526.
+
+Garb, H. N. (1996). The representativeness and past-behavior
+heuristics in clinical judgment. Professional Psychology:
+Research and Practice, 27, 272-277.
+
+Garb, H. N., & Schramke, C. J. (1996). Judgment research and
+neuropsychological assessment: A narrative review and
+meta-analyses. Psychological Bulletin, 120, 140-153.
+
+Gardner, W., Lidz, C. W., Mulvey, E. P., & Shaw, E. C. (1996).
+A comparison of actuarial methods for identifying repeti-
+tively violent patients with mental illnesses. Law and Human
+Behavior, 20, 35-48.
+
+Garfinkle, E. M., & Morin, S. F. (1978). Psychologists’ attitudes
+toward homosexual psychotherapy clients. Journal of Social
+Issues, 34, 101-112.
+
+Geller, J. D. (1988). Racial bias in the evaluation of patients for
+psychotherapy. In L. Comas-Diaz & E. E. H. Griffith (Eds.),
+Clinical guidelines in cross-cultural mental health (pp. 112-134).
+New York: Wiley.
+
+Haase, W. (1964). The role of socioeconomic class in examiner
+bias. In F. Riessman, J. Cohen, & A. Pearl (Eds.), Mental
+health of the poor (pp. 241-247). New York: Free Press.
+
+Hamilton, S., Rothbart, M., & Dawes, R. M. (1986). Sex bias,
+diagnosis, and DSM-III. Sex Roles, 15, 269-274.
+
+Hampton, R. L., & Newberger, E. H. (1985). Child abuse inci-
+dence and reporting by hospitals: Significance of severity,
+class, and race. American Journal of Public Health, 75, 56~
+60.
+
+Hansen, F.J., & Reekie, L. (1990). Sex differences in clinical
+judgments of male and female therapists. Sex Roles, 23,
+51-64.
+
+Hardy, D. M., & Johnson, M. E. (1992). Influence of therapist
+gender and client gender, socioeconomic status and alco-
+holic status on clinical judgments. Journal of Akohol and Drug
+Education, 37, 94-102.
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 416
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Haverkamp, B. E. (1993). Confirmatory bias in hypothesis rest~
+ing for client-identified and counselor self-generated
+hypotheses. Journal of Counseling Psychology, 40, 303-315.
+
+Hayes, K.E., & Wolleat, PL. (1978). Effects of sex in judg-
+ments of a simulated counseling interview. Journal of Counsel-
+ing Psychology, 25, 164-168.
+
+Hecker, L. L., Trepper, T. S., Wetchler, J. L., & Fontaine, K. L.
+(1995). The influence of therapist values, religiosity and
+gender in the initial assessment of sexual addiction by family
+therapists. The American Journal of Family Therapy, 23,
+261-272.
+
+Henry, K. A., & Cohen, C. 1. (1983). The role of labeling pro-
+cesses in diagnosing borderline personality disorder. Ameri-
+can Journal of Psychiatry, 140, 1527-1529.
+
+Hollingshead, A. B., & Redlich, FC. (1958). Social class and
+mental illness: A community study, New York: Wiley.
+
+Howe, A. C., Herzberger, §., & Tennen, H. (1988). The influ-
+ence of personal history of abuse and gender on clinicians’
+judgments of child abuse. Journal of Family Violence, 3,
+105-119.
+
+Huebner, E.S., & Cummings, J. A. (1986). Influence of race
+and test data ambiguity upon school psychologists’ deci-
+sions. School Psychology Review, 15, 410-417.
+
+Jenkins-Hall, K., & Sacco, W. P. (1991). Effect of client race
+and depression on evaluations by white therapists. Journal of
+Social and Clinical Psychology, 10, 322-333.
+
+Jones, B.E., & Gray, B. A. (1986). Problems in diagnosing
+schizophrenia and affective disorders among blacks. Hospi-
+tal & Community Psychiatry, 37, 61-65.
+
+Kalichman, §.C., Craig, M. E., & Follingstad, D. R. (1989).
+Factors influencing the reporting of father-child sexual
+abuse: Study of licensed practicing psychologists. Professional
+Psychology: Research and Practice, 20, 84-89.
+
+Kennel, R. G., & Agresti, A. A. (1995). Effects of gender and
+age on psychologists’ reporting of child sexual abuse. Profes-
+sional Psychology: Research and Practice, 26, 612~615.
+
+Kirshner, L. A., & Johnston, L. (1983). Effects of gender on
+inpatient psychiatric hospitalization. Journal of Nervous and
+Mental Disease, 171, 651-657.
+
+Kleinmuntz, B. (1990). Why we still use our heads instead of
+the formulas: Toward an integrative approach. Psychological
+Bulletin, 107, 296-310.
+
+Koscherak, S., & Masling, J. (1972). Noblesse oblige effect: The
+interpretation of Rorschach responses as a function of
+ascribed social class. Journal of Consulting and Clinical Psychol-
+ogy, 39, 415-419.
+
+Kurtz, N., Kurtz, R., & Hoffnung, R. (1970). Attitudes toward
+the lower- and middle-class psychiatric patient as a function
+of authoritarianism among mental health students. Journal of
+Consulting and Clinical Psychology, 35, 338-341.
+
+Lee, S. D., & Temerlin, M. K. (1970). Social class, diagnosis,
+
+CLINICAL JUDGMENT + GARB
+
+and prognosis for psychotherapy. Psychotherapy: Theory,
+Research, and Practice, 7, 181-185.
+
+Leinhardt, G., Seewald, A. M., & Zigmond, N. (1982). Sex and
+race differences in learning disabilities classrooms. Journal of
+Educational Psychology, 74, 835-843.
+
+Levy, M., & Kahn, M. (1970). Interpreter bias on the Ror-
+schach test as a function of patients’ socioeconomic status.
+Journal of Projective Techniques and Personality Assessment, 34,
+106-112.
+
+Lewis, D. O., Shanok, S. S., Cohen, R. J., Kligfeld, M., & Fri-
+sone, G. (1980). Race bias in the diagnosis and disposition
+of violent adolescents. American Journal of Psychiatry, 137,
+1211-1216.
+
+Lewis, G., Croft-Jeffreys, C., & David, A. (1990). Are British
+psychiatrists racist? British Journal of Psychiatry, 157, 410-415.
+
+Lidz, C. W., Mulvey, E. P., & Gardner, W. (1993). The accuracy
+of predictions of violence to others. Journal of the American
+Medical Association, 269, 1007-1011.
+
+Lindsay, K. A., & Widiger, T. A. (1995). Sex and gender bias in
+self-report personality disorder inventories: Item analyses of
+the MCMI-II, MMPI, and PDQ-R. Journal of Personality
+Assessment, 65, 1-20.
+
+Lindsey, K. P., & Paul, G. L. (1989). Involuntary commitments
+to public mental institutions: Issues involving the overrepre-
+sentation of blacks and assessment of relevant functioning.
+Psychological Bulletin, 106, 171-183.
+
+Lindsey, K. P., Paul, G. L., & Mariotto, M.J. (1989). Urban
+psychiatric commitments: Disability and dangerous behavior
+of black and white recent admissions. Hospital and Commu-
+nity Psychiatry, 40, 286-294.
+
+Li-Repac, D. (1980). Cultural influences on clinical perception:
+A comparison between Caucasian and Chinese-American
+therapists. Journal of Cross-Cultural Psychology, 11, 327~342.
+
+Littlewood, R. (1992). Psychiatric diagnosis and racial bias:
+Empirical and interpretive approaches. Social Science and
+Medicine, 34, 141-149.
+
+Lépez, S. R. (1989). Patient variable biases in clinical judgment:
+Conceptual overview and methodological considerations.
+Psychological Bulletin, 106, 184~203.
+
+Lopez, S.R., Smith, A., Wolkenstein, B. H., & Charlin, V.
+(1993). Gender bias in clinical judgment: An assessment of
+the analogue method’s transparency and social desirability.
+Sex Roles, 28, 35-45, .
+
+Loring, M., & Powell, B. (1988). Gender, race, and DSM-III:
+A study of the objectivity of psychiatric diagnostic behavior.
+
+Journal of Health and Social Behavior, 29, 1-22.
+
+Lowery, C.R., & Higgins, R. L. (1979). Analogue investiga-
+tion of the relationship between clients’ sex and treatment
+recommendations. Journal of Consulting and Clinical Psychol-
+ogy, 47, 792-794.
+
+Luepnitz, R.R., Randolph, D.L., & Gutsch, K. U. (1982).
+
+417
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+Race and socioeconomic status as confounding variables in
+the accurate diagnosis of alcoholism. Journal of Clinical Psy-
+chology, 38, 665-669.
+
+Matuszek, P., & Oakland, T. (1979). Factors influencing teach-
+ers’ and psychologists’ recommendations regarding special
+class placement. Journal of School Psychology, 17, 116-125.
+
+McCollum, E. E., & Russell, C. 8. (1992). Mother-blaming in
+family therapy: An empirical investigation. The American
+Journal of Family Therapy, 20, 71-76.
+
+McLaughlin, M., & Balch, P. (1980). Effects of client-therapist
+ethnic homophily on therapists’ judgments. American Journal
+of Community Psychology, 8, 243-252.
+
+MeNiel, D. E., & Binder, R. L. (1995). Correlates of accuracy
+in the assessment of psychiatric inpatients’ risk of violence.
+American Journal of Psychiatry, 152, 901-906. .
+
+Meehl, P. E. (1954). Clinical versus statistical prediction: A theoretical
+analysis and a review of the evidence. Minneapolis: University of
+Minnesota Press.
+
+Merluzzi, B. H., & Merluzzi, T. V. (1978). Influence of client
+race on counselors’ assessment of case materials. Jowrnal of
+Counseling Psychology, 25, 399-404.
+
+Miller, D. (1974). The influence of the patient's sex on clinical
+judgment. Smith College Studies in Social Work, 44, 89-100.
+
+Morrissey, R.F, Dicker, R., Abikoff, H., Alvir, J.M.J.,
+DeMarco, A., & Koplewicz, H. S. (1995). Hospitalizing the
+suicidal adolescent: An empirical investigation of decision-
+making criteria. Journal of the American Academy of Child and
+Adolescent Psychiatry, 34, 902-911.
+
+Mukherjee, S., Shukla, S., Woodle, J., Rosen, A. M., & Olarte,
+S. (1983). Misdiagnosis of schizophrenia in bipolar patients:
+A multiethnic comparison. American Journal of Psychiatry,
+140, 1571-1574.
+
+Murray, J., & Abramson, P. R. (1983). An investigation of the
+effects of client gender and attractiveness on psychothera-
+pists’ judgments. In J. Murray & P. R. Abramson (Eds.), Bias
+in psychotherapy (pp. 129-167). Los Angeles: University of
+California Press.
+
+Nalven, F. B., Hofman, L.J., & Bierbryer, B. (1969). The
+effects of subjects’ age, sex, race, and socioeconomic status
+on psychologists’ estimates of “true 1Q” from WISC scores.
+Journal of Clinical Psychology, 25, 271-274.
+
+Neer, W.L., Foster, D. A., Jones, J.G., & Reynolds, D. A.
+(1973). Socioeconomic bias in the diagnosis of mental retar-
+dation. Exceptional Children, 40, 38-39.
+
+Neisser, U., Boodoo, G., Bouchard, T.J., Jr, Boykin, A. W.,
+Brody, N., Ceci, S. J., Halpern, D. F, Loehlin, J. C., Perloff,
+R., Sternberg, R.J., & Urbina, S. (1996). Intelligence:
+Knowns and unknowns. American Psychologist, 51, 77-101.
+
+Neumann, M., Salganik, I., Rabinowitz, S., Bauer, A., & Kas-
+tner, M. (1990). The effect of diagnosis and educational level
+
+on therapists’ treatment decisions in a regional psychiatric
+outpatient clinic. Israeli Journal of Psychiatry and Related Sci-
+ences, 27, 199-204.
+
+Oyster-Nelson, C. K., & Cohen, L. H. (1981). The extent of
+sex bias in clinical treatment recommendations. Professional
+Psychology: Research and Practice, 12, 508-515.
+
+Pavkov, T. W., Lewis, D. A., & Lyons, J. S. (1989). Psychiatric
+diagnoses and racial bias: An empirical investigation. Profes-
+sional Psychology: Research and Practice, 20, 364-368.
+
+Payette, K. A., & Clarizio, H. F. (1994). Discrepant team deci-
+sions: The effects of race, gender, achievement, and IQ on
+LD eligibility. Psychology in the Schools, 31, 40—48.
+
+Potts, M. K., Burnam, M. A., & Wells, K. B. (1991). Gender
+differences in depression detection: A comparison of clini-
+cian diagnosis and standardized assessment. Psychological
+Assessment, 3, 609-615.
+
+Prout, H. T., & Frederickson, A. K. (1991). Sex bias in clinical
+judgment among school psychologists. Psychology in the
+Schools, 28, 226-229.
+
+PsycLIT [Database]. (1974-June, 1996). Washington, DC:
+American Psychological Association [Producer]. Available
+from: Ovid Technologies.
+
+Rabinowitz, J., & Lukoff, |. (1995). Clinical decision making
+of short- versus long-term treatment. Research on Social Work
+Practice, 5, 62-79.
+
+Rabinowitz, J., Massad, A., & Fennig, S. (1995). Factors influ-
+encing disposition decisions for patients seen in a psychiatric
+emergency service. Psychiatric Services, 46, 712-718.
+
+Ridley, C. R. (1986). Diagnosis as a function of race-pairing
+and client self-disclosure. Journal of Cross-Cultural Psychology,
+17, 337-351.
+
+Robertson, J., & Fitzgerald, L. F. (1990). The (mis)treatment of
+men: Effects of client gender role and life-style on diagnosis
+and attribution of pathology. Journal of Counseling Psychology,
+37, 3-9.
+
+Rosenfield, §. (1982). Sex roles and societal reactions to mental
+illness: The labeling of “deviant” deviance. Journal of Health
+and Social Behavior, 23, 18-24.
+
+Routh, D. K., & King, K. M. (1972). Social class bias in clinical
+judgment. Journal of Consulting and Clinical Psychology, 38,
+202-207.
+
+Rowden, D. W.,, Michel, J. B., Dillehay, R.C., & Martin,
+H. W. (1970). Judgments about candidates for psychother-
+apy: The influence of social class and insight-verbal ability.
+Joumal of Health and Social Behavior, 11, 51-58,
+
+Sattler, J.M., & Kuncik, T.M. (1976). Ethnicity, sociceco-
+nomic status, and pattern of WISC scores as variables that
+affect psychologists’ estimates of “effective intelligence.”
+Joumal of Clinical Psychology, 32, 362-366.
+
+Schover, L. R. (1981). Male and female therapists’ responses to
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE + V4 N2, SUMMER 1997 118
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+male and female client sexual material: An analogue study.
+Archives of Sexual Behavior, 10, 477-492.
+
+Schwartz, J.M., & Abramowitz, S.I. (1975). Value-related
+effects on psychiatric judgment. Archives of General Psychiatry,
+32, 1525-1529.
+
+Segal, S. P., Bola, J. R., & Watson, M. A. (1996). Race, quality
+of care, and antipsychotic prescribing practices in psychiatric
+emergency services. Psychiatric Services, 47, 282-286.
+
+Seligman, M. R. (1968). The interracial casework relationship.
+Smith College Studies in Social Work, 39, 84.
+
+Sesan, R. (1988). Sex bias and sex-role stereotyping in psycho-
+therapy with women: Survey results. Psychotherapy, 25,
+107-116.
+
+Settin, J. M. (1982). Clinical judgment in geropsychology prac-
+tice. Psychotherapy: Theory, Research, and Practice, 19,
+397-404,
+
+Settin, J. M., & Bramel, D. (1981). Interaction of client class
+and gender in biasing clinical judgment. American Journal of
+Orthopsychiatry, 51, 510-520.
+
+Shullman, S. L., & Betz, N. E. (1979). An investigation of the
+effects of client sex and presenting problem in referral from
+intake. Journal of Counseling Psychology, 26, 140-145.
+
+Simon, R.J., Fleiss, J.L., Gurland, B.J., Stiller, PR., &
+Sharpe, L. (1973). Depression and schizophrenia in hospital-
+ized black and white mental patients. Archives of General Psy-
+chiatry, 28, 509-512.
+
+Sleek, S. (1996, April). Ensuring accuracy in clinical decisions.
+The APA Monitor, 26, 30.
+
+Smith, M. L. (1974). Influence of client sex and ethnic group
+on counselor judgments. Journal of Counseling Psychology,
+21, 516-521.
+
+Smith, M. L. (1980). Sex bias in counseling and psychotherapy.
+Psychological Bulletin, 87, 392-407.
+
+Stack, L. C., Lannon, P. B., & Miley, A.D. (1983). Accuracy
+of clinicians’ expectancies for psychiatric rehospitalization.
+American Journal of Community Psychology, 11, 99-113.
+
+Stearns, B. C., Penner, L. A., & Kimmel, E. (1980). Sexism
+among psychotherapists: A case not yet proven. Journal of
+Consulting and Clinical Psychology, 48, 548-550.
+
+Stein, L.S., Del Gaudio, A. C., & Ansley, M. Y. (1976). A
+comparison of female and male neurotic depressives. Journal
+of Clinical Psychology, 32, 19-21.
+
+Sternberg, R.J. (1985). Beyond IQ: A triarchic theory of human
+intelligence. New York: Cambridge University Press.
+
+Stevens, G. (1981). Bias in the attribution of hyperkinetic
+behavior as a function of ethnic identification and socioeco-
+nomic status. Psychology in the Schools, 18, 99-106.
+
+Stricker, G. (1977). Implications of research for psychothera-
+peutic treatment of women. American Psychologist, 32,
+14-22,
+
+CLINICAL JUDGMENT - GARB
+
+Strickland, T. L., Jenkins, J. O., Myers, H. F, & Adams, H. E.
+(1988). Diagnostic judgments as a function of client and
+therapist race. Journal of Psychopathology and Behavioral Assess-
+ment, 10, 141-151.
+
+Sutton, R. G., & Kessler, M. (1986). National study of the
+effects of clients’ socioeconomic status on clinical psycholo-
+gists’ professional judgments. Journal of Consulting and Clinical
+Psychology, 54, 275-276.
+
+Teri, L. (1982). Effects of sex and sex-role style on clinical judg-
+ment. Sex Roles, 8, 639-649.
+
+Tomlinson-Clarke, S., & Cheatham, H. E. (1993). Counselor
+and client ethnicity and counselor intake judgments. Journal
+of Counseling Psychology, 40, 267-270.
+
+Trachtman, J. P. (1971). Socio-economic class bias in Rorschach
+diagnosis: Contributing psychological attributes of the clini-
+cian. Journal of Projective Techniques and Personality Assessment,
+35, 229-240.
+
+Tseng, W., McDermott, J. F, Ogino, K., & Ebata, K. (1982).
+Cross-cultural differences in parent-child assessment: U.S.A.
+and Japan. International Journal of Social Psychiatry, 28,
+305-317.
+
+Umbenhauer, $. L., & DeWitte, L. L. (1978). Patient race and
+social class: Attitudes and decisions among three groups of
+mental health professionals. Comprehensive Psychiatry, 19,
+509-515.
+
+Vail, S. (1970). The effects of socioeconomic class, race, and
+level of experience on social workers’ judgments of clients.
+Smith College Studies in Social Work, 40, 236-246.
+
+Warner, R. (1978). The diagnosis of antisocial and hysterical
+personality disorders: An example of sex bias. Journal of Ner-
+vous and Mental Disease, 166, 839-845.
+
+Warner, R. (1979). Racial and sexual bias in psychiatric diagno-
+sis. Journal of Nervous and Mental Disease, 167, 303-310.
+
+Widiger, T. A., & Settle, S. A. (1987). Broverman et al. revis-
+ited: An artifactual sex bias. Journal of Personality and Social
+Psychology, 53, 463-469.
+
+Widiger, T. A., & Spitzer, R. L. (1991), Sex bias in the diagnosis
+of personality disorders: Conceptual and methodological
+issues. Clinical Psychology Review, 11, 1-22.
+
+Widiger, T.A., & Trull, T.J. (1991). Diagnosis and clinical
+assessment. Annual Review of Psychology, 42, 109-133.
+
+Wing, J. K., Cooper, J. E., & Sartorius, N. (1974). Measurement
+and classifation of psychiatric symptoms. An instructional manual
+Jor the PSE and CATEGO program. Cambridge: Cambridge
+University Press.
+
+Wright, J. A., & Hutton, B.O. (1977). Influence of client
+socioeconomic status on selected behaviors, attitudes, and
+decisions of counselors. Journal of Counseling Psychology, 24,
+527-530.
+
+Wrobel, N. H. (1993). Effect of patient age and gender on clin-
+
+119
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+
+ical decisions. Professional Psychology: Research and Practice,
+24, 206-212.
+
+Wyatt, G.E., Powell, G.J., & Bass, B. A. (1982). The survey
+of Afro-American behavior: Its development and use in
+research. In B. A. Bass, G. E. Wyatt, & G. J. Powell (Eds.),
+The Afro-American family: Assessment, treatment, and research
+issues (pp. 13-33). New York: Grune & Stratton.
+
+Zellman, G. L. (1992). The impact of case characteristics on
+
+child abuse reporting decisions. Child Abuse and Neglect, 16,
+57-74.
+
+Zygmond, M. J., & Denton, W. (1988). Gender bias in marital
+therapy: A multidimensional scaling analysis. The American
+Joumal of Family Therapy, 16, 262-272.
+
+Received May 9, 1996; accepted July 25, 1996.
+
+CLINICAL PSYCHOLOGY: SCIENCE AND PRACTICE - V4 N2, SUAAMER 1997 120
+

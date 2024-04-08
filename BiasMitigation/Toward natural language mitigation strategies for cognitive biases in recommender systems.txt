@@ -1,0 +1,480 @@
+Proceedings of the 2nd Workshop on Interactive Natural Language Technology for Explainable Artiﬁcial Intelligence (NL4XAI 2020) , pages 50–54,
+Dublin, Ireland, 18 December 2020. c2020 Association for Computational Linguistics
+Toward Natural Language Mitigation Strategies for Cognitive Biases in
+Recommender Systems
+Alisa Rieger
+TU Delft
+Van Mourik Broekmanweg 6
+2628 CD Delft
+a.rieger@tudelft.nlMari ¨et Theune
+University of Twente
+Drienerlolaan 5
+7522 NB Enschede
+m.theune@utwente.nlNava Tintarev
+TU Delft
+Van Mourik Broekmanweg 6
+2628 CD Delft
+n.tintarev@tudelft.nl
+Abstract
+Cognitive biases in the context of consuming
+online information ﬁltered by recommender
+systems may lead to sub-optimal choices. One
+approach to mitigate such biases is through in-
+terface and interaction design. This survey re-
+views studies focused on cognitive bias mitiga-
+tion of recommender system users during two
+processes: 1) item selection and 2) preference
+elicitation. It highlights a number of promis-
+ing directions for Natural Language Genera-
+tion research for mitigating cognitive bias in-
+cluding: the need for personalization, as well
+as for transparency and control.
+1 Introduction
+Decision-making at an individual, business, and
+societal levels is inﬂuenced by online news and
+social media. Filtering and ranking algorithms such
+as recommender systems are used to support these
+decisions. Further, individual cognitive selection
+strategies and homogeneous networks can amplify
+bias in customized recommendations, and inﬂuence
+which information we are exposed to (Bakshy et al.,
+2015; Baeza-Yates, 2018).
+Biased exposure to online information is known
+to accelerate extremism and the spread of misinfor-
+mation (Hills, 2019). Ultimately, these undesirable
+negative consequences of information ﬁltering di-
+minish the quality of public discourse and thus can
+pose a threat to democracy (Bozdag and van den
+Hoven, 2015).
+One strategy for bias mitigation would be to
+raise users’ awareness of ﬁltering mechanisms and
+potential cognitive biases. Approaches going one
+step further than creating awareness, actively nudge
+users in a direction of less biased information selec-
+tion and diversiﬁcation. Explanations and nudges
+for mostly non-expert users of recommender sys-
+tems in the domains of news and social media have
+to be designed in a way that they are understoodintuitively, e.g., using natural language (Liao et al.,
+2020).
+To our knowledge, no previous work has sum-
+marized cognitive bias mitigation in the context
+of recommender systems. In this paper, we aim
+to identify research gaps and opportunities to im-
+prove natural language explanation interfaces that
+mitigate cognitive biases. We do this by providing
+an overview of approaches to mitigate cognitive
+bias of recommender system users in the domains
+of news and social media. We review the litera-
+ture in the ﬁeld and summarize ways of measuring
+bias and mitigation approaches for different biases
+in different contexts. We also consider how these
+occur at different stages of the recommendation
+process. In sum, we address the following research
+questions (RQs):
+1.For which types of cognitive biases occurring
+among users of recommender systems exist
+validated mitigation approaches?
+2.What are effective approaches to measure dif-
+ferent types of bias?
+3.What are effective approaches to mitigate dif-
+ferent types of bias?
+4.How are the mitigation approaches evaluated ?
+In the next section, we introduce the method
+used in our literature review. Then, in Section 3,
+we analyze the resulting papers and identify com-
+monalities. We see that human bias mitigation
+using natural language generation in recommender
+systems is still under-explored despite explanations
+being successfully applied in the ﬁelds of persua-
+sive technology and argumentation (Dragoni et al.,
+2020; Guerini et al., 2011). So, in Section 4 we
+take a constructive approach and discuss promising
+directions for natural language generation (NLG)
+research, before concluding in Section 5.502 Methodology
+To ﬁnd relevant literature for this survey, we
+deﬁned inclusion criteria as a search string
+which we ran through the databases Springer-
+link (http://link.springer.com) and ACM digital
+library (https://dl.acm.org) in July 2020. These
+two databases are established and comprehensive
+databases in the ﬁeld of computer science, and sup-
+port complex search strings. The search results
+were ﬁltered by scanning Title, Abstract, and Dis-
+cussion.
+Inclusion criteria: Our search string covers
+four main concepts: (1)bias-related; (2)target-
+system-related; (3); domain-related; (4)mitigation-
+related. The terms used for each concept are: (1)
+(”cognitive bias” OR ”human bias” OR ”conﬁrmation bias”
+OR ”availability bias” OR ”backﬁre effect” OR ”homophily”
+OR ”afﬁnity bias” OR ”decoy effect” OR ”selective exposure”
+OR ”false consensus effect” OR ”saliency bias”) AND (2)
+(”recommender” OR ”recommendation”) AND (3)(”news”
+OR ”social media” OR ”search” OR ”information seeking”)
+AND (4)(”mitigat*” OR ”debiasing” OR ”reduce” OR ”ex-
+plainable artiﬁcial intelligence” OR ”XAI” OR ”intelligent
+user interface” OR ”IUI” OR ”natural language”) .This
+search resulted in 257 hits.
+Exclusion criteria: Papers are excluded if they
+do not: a)focus on recommender systems in the
+domains of news, social media, or search (40 ex-
+cluded); b)do not propose a mitigation approach
+for human bias (137); c)do not present a user study
+(66); d)do not include measures of bias (5); e)we
+have no access to the full paper (5). These criteria
+lead to the exclusion of 253 papers, resulting in the
+four papers discussed in the remained of this paper
+(see Table 1). We observe that these papers do not
+cover linguistic solutions, but will later see that
+they still highlight promising areas for research in
+NLG.
+3 Analysis
+In this section we analyze and compare the
+four resulting papers based on ﬁve aspects
+which were chosen to answer the research ques-
+tions: (RQ1) Objective : context and objective of
+the paper and Bias: type of cognitive bias inves-
+tigated; (RQ2) Measure : approach for measuring
+bias; (RQ3) Mitigation : approach of bias mitiga-
+tion; and (RQ4) Evaluation : evaluation of the miti-
+gation approach and moderating factors.
+(RQ1) Objective and Bias : To encourage diverse
+information and common ground seeking, Liao andFu (2014) investigated the mitigation of selective
+exposure or the conﬁrmation bias, which is the ten-
+dency to search for and select information which
+conﬁrms previous beliefs and values, in online dis-
+cussion forums. Graells-Garrido et al. (2016) re-
+searched the mitigation of conﬁrmation bias and
+homophily, the tendency to have and build ties to
+similar individuals to oneself, with the intention
+to connect users with different opinions in social
+networks. Tsai and Brusilovsky (2017) studied the
+mitigation of homophily and position bias, occur-
+ring if the position inﬂuences the perceived value
+or utility of an item, in the context of a tool for con-
+ference attendees to connect to diverse scientists.
+Pommeranz et al. (2012) intended to design user in-
+terfaces for unbiased preference elicitation, which
+are needed for accurate recommendations. Prefer-
+ence elicitation describes the process of collecting
+user data to build an accurate user-model, based
+on which items are recommended. Thus, Pommer-
+anz et al. (2012) investigate bias mitigation at an
+earlier stage in the recommendation process, than
+the other three reviewed studies. The authors list a
+number of possible biases that can occur during the
+stage of preference elicitation (but do not measure
+them): framing – presentation with positive or neg-
+ative connotations inﬂuence the perceived value or
+utility of an item, anchoring – value of an initially
+encountered item inﬂuences the perceived value of
+a subsequently encountered item, and loss aversion
+– tendency to prefer avoiding losses to obtaining
+gains with the same value.
+(RQ2) Measure : To measure bias, all of the stud-
+ies compared the effect of an intervention with
+a baseline system on a set of metrics. For the
+three studies researching conﬁrmation bias and
+homophily during item selection, the diversity of
+item selection or the degree of exploration of items
+was compared to the baseline (without bias miti-
+gation) (see Liao and Fu, 2014; Graells-Garrido
+et al., 2016; Tsai and Brusilovsky, 2017). Diversity
+and degree of exploration were calculated on basis
+of the users’ clicking behavior and attributed val-
+ues for each item, reﬂecting the aspects of interest
+in the study (e.g., position - pro/con, similarity of
+proﬁle - high/low,..). For framing, anchoring, and
+loss aversion during preference elicitation, a qual-
+ity score was calculated for each tested preference
+elicitation method. A high level of agreement be-
+tween the system’s outcome preference model and
+the user-generated list of preferences resulted in a51Bias Objective Mitigation
+Liao and Fu,
+2014conﬁrmation
+biasviewpoint diversiﬁcation of
+users in forum for political
+discussionsVisual barplot : indication of source position valence
+and magnitude to reduce the demand of cognitive re-
+sources
+Graells-Garrido
+et al., 2016conﬁrmation
+bias and ho-
+mophilyconnecting users with di-
+verse opinions in social net-
+worksVisual data portraits and clustering : indication of own
+interests and opinions as data portrait to explain rec-
+ommendations, and display of users with shared latent
+topics in interactive clusters to facilitate exploration
+Tsai and
+Brusilovsky,
+2017homophily and
+position biashelp conference attendees to
+connect to diverse scientists
+via a social networkMultidimensional visual scatterplot : display of scien-
+tists’ accademic and social similarity and highlights
+potential matches through color-coding
+Pommeranz
+et al., 2012framing, anchor-
+ing, loss aver-
+siondesigning user-centered in-
+terfaces for unbiased prefer-
+ence elicitationMultiple visual interface proposals : virtual agent with
+thought bubble, outcome view (explore link between
+interests, preferences and outcomes), interest proﬁling,
+affective feedback,..
+Table 1: Examined Bias, Objective, and Mitigation approach per paper
+high quality score (see Pommeranz et al., 2012).
+(RQ3) Mitigation : Liao and Fu (2014) displayed
+posts in the online forum in combination with a
+visual barplot which indicated position valence
+(pro/con) and magnitude (moderate/extreme) of the
+posts’ authors to mitigate conﬁrmation bias. The
+authors argue that freeing up cognitive resources
+can increase users capacity to assess viewpoint
+challenging information. They aimed to reduce the
+demand on cognitive resources by pre-evaluating
+and marking the author’s position, with the inten-
+tion that this would increase users’ capacity to pro-
+cess information relating to the post’s content .
+Further, the explicit indication of author posi-
+tion information aimed at encouraging attention to
+diverse viewpoints and motivating users to select
+attitude-challenging information. Graells-Garrido
+et al. (2016) recommended diverse proﬁles with
+shared latent topics and displayed visualizations of
+the user’s own data portrait in the form of word-
+clouds with interests and opinions to explain the
+given proﬁle recommendations and mitigate conﬁr-
+mation bias and homophily. Proﬁle recommenda-
+tions were presented in the form of visual clusters
+of accounts with shared latent intermediary top-
+ics, from which the user could select accounts for
+exploration. This approach aimed to overcome cog-
+nitive dissonance produced by direct approaches
+of exposure to challenging information. The aim
+was to provide context to a given recommendations,
+both in form of the user’s own data proﬁle and the
+basis of a shared intermediary topic, to give the
+new connection a chance. Another approach to
+mitigate homophily in addition to position biases
+was chosen by Tsai and Brusilovsky (2017), who
+presented scientists as points in a two-dimensional
+scatterplot. The position of a point was calculatedby social (co-authorship) and academic (publica-
+tion content) feature similarity (0 - 100 %) between
+user and scholar. Meaningful feature combinations,
+deﬁned by higher degrees of feature similarities,
+were highlighted through color-coding. This ap-
+proach aimed to enable the presentation of more
+than one recommendation aspect, to guide con-
+ference attendee’s attention to areas of scientists
+with meaningful feature combinations, and overall,
+to promote diversity of proﬁle exploration. Pom-
+meranz et al. (2012) propose input methods and
+interfaces for preference elicitation which result in
+equal mental preference model and system pref-
+erence representation to achieve a mitigation of
+framing, anchoring and loss aversion biases. They
+investigated different methods of preference elici-
+tation, such as rating with a nine point likert scale
+(like to dislike), ordering, navigational (receiving
+immediate feedback after changing preference for
+one item), and affective rating.
+In summary, the mitigation approaches of conﬁr-
+mation bias and homophily use the visual display of
+information to increase users’ awareness for item-
+features of interest (e.g., position valence, similar-
+ity,..) and to encourage and facilitate the intuitive
+exploration of diverse items. Approaches include
+multidimensional feature representation plots, and
+additional highlighting in form of color-coding
+or clustering of meaningful feature combinations.
+Two studies aim to enable users to understand con-
+tingencies between preferences, item selections and
+recommendation outcome and thus to a certain de-
+gree explaining recommendations. They do this by
+visually displaying the system’s user model in form
+of a word cloud or an interest proﬁle, preference
+summary, value chart or outcome view.
+(RQ4) Evaluation : On their attempt to mitigate52conﬁrmation bias, Liao and Fu (2014) measured
+the potentially moderating factor of accuracy mo-
+tive (motivation to accurately learn about a subject)
+of the users before exposure to the online forum.
+Results of the user study show that accuracy mo-
+tive and position magnitude (moderate/extreme)
+of authors were functioning as moderating factors
+by inﬂuencing the effectiveness of bias mitigation.
+The authors conclude that interfaces should be indi-
+vidually adapted for users with varying levels of ac-
+curacy motive and that authors with moderate opin-
+ion could function as bridges between users with
+different opinions. Graells-Garrido et al. (2016)’s
+clustered visualization of recommendations, aim-
+ing to mitigate conﬁrmation bias and homophily,
+was found to be effective in increasing users’ ex-
+ploration behavior (users clicked on more diverse
+items). The proposed recommendation algorithm
+based on shared latent topics, however, was not
+effective in increasing exploration behavior. The
+results show that political involvement of the users
+was functioning as a moderating factor, inﬂuencing
+the effectiveness of bias mitigation. Thus, Graells-
+Garrido et al. (2016) conclude that no one-size-
+ﬁts-all solution exists, but that indirect approaches
+of transparent recommendations and user proﬁles
+rather than directly exposing users to opposing in-
+formation should be considered for bias mitigation.
+Results of Tsai and Brusilovsky (2017)’s study on
+mitigating homophily and position biases show,
+that the exploration patterns were more diverse in
+the experimental conditions of presenting scientists
+in a multi-dimensional scatterplot compared to a
+baseline of displaying them in a ranked list. How-
+ever, in a post-experimental questionnaire users
+reported a higher intent to reuse the ranked list than
+the multi-dimensional scatterplot. The authors con-
+clude that diversity-oriented interfaces on the one
+hand can encourage the exploration of more diverse
+recommendations, but on the other hand can also
+impair intent to reuse the system and thus should be
+designed with care. The results of Pommeranz et al.
+(2012)’s user study on mitigating framing, anchor-
+ing and loss aversion during preference elicitation,
+show cognitively less demanding rating tasks were
+liked most and resulted in highest quality outcome
+lists. They conclude, that the interface design needs
+to adapt to individual differences in terms of user
+preferences. The authors highlighted the impor-
+tance of transparency and control on the grounds
+that users found it very useful to be allowed toinvestigate the links between their interests, prefer-
+ences and recommendation outcomes.
+In summary, multiple studies highlight that no
+one-size-ﬁts-all mitigation approach exists due to
+moderating user-related factors, such as the accu-
+racy motive, diversity seeking or challenge averse-
+ness, motivation, political involvement and opinion.
+Thus the authors emphasize that interfaces should
+thus be designed to be personalizable. In addition,
+the need for transparent and interactive interface
+designs which allow control of user-proﬁle and
+recommendations was highlighted.
+4 Discussion
+In this paper, we reviewed interface-based ap-
+proaches for the mitigation of conﬁrmation bias,
+homophily, position bias, framing, anchoring, and
+loss aversion (RQ1) . To measure bias, the stud-
+ies compared the effect of an intervention with a
+baseline system on a set of metrics (RQ2) . The
+reviewed studies applied interactive multidimen-
+sional visualizations, rearranging, sorting, and
+highlighting through color-coding and size to in-
+crease users’ awareness for diverse features, to fa-
+cilitate and increase exploration of recommended
+items, and to align the system’s user model with
+the user’s mental preference model (RQ3) . During
+the evaluation of the approaches (RQ4) , multiple
+user-related factors that moderated the effective-
+ness of the reviewed mitigation approaches were
+identiﬁed. Consequently, the studies highlighted
+the need for personalized interfaces that can adapt
+to these factors. They include users’ accuracy mo-
+tive, motivation, political involvement, and prior
+opinions on recommended items or topics, all mea-
+sured with tailor-made questionnaires or inferred
+from the user’s behavior. Overall, transparency,
+control, as well as immediate feedback were found
+to enhance the users’ understanding and to mitigate
+cognitive bias.
+While the surveyed methods are within graphical
+interfaces, they help to uncover research questions
+for future studies in all interactive interfaces, also
+fornatural language-based mitigation strategies:
+1.Which approaches of interactive natural lan-
+guage bias mitigation approaches are most
+effective?
+2.In which form and to which extent should
+transparency and control be given to the users?
+3.What are user-related moderating factors and
+how could they be measured?534.How could an interface personalization ac-
+cording to these user-related factors look like?
+Our literature review also suggests that bias mit-
+igation strategies using natural language could be
+used at different stages of interaction: a)conversa-
+tional preference elicitation, b)pre-evaluation and
+explanation of recommended items, or c)to mo-
+tivate behavior modiﬁcations for bias mitigation.
+Such interactions could promote the users’ under-
+standing of their proﬁles and the functioning of the
+system. Using NLG to increase user-control on the
+user-proﬁle, algorithmic parameters, and the rec-
+ommendation outcomes (Jin et al., 2020), appears
+to be a promising way to mitigate cognitive biases.
+5 Conclusion
+The analysed studies demonstrate effective ap-
+proaches of implementing and evaluating interface-
+based cognitive bias mitigation for recommender
+system users. On this basis, we suggest promising
+areas for future research for bias mitigation using
+interactive NLG: personalization of explanations,
+and more immediate transparency and control.
+Acknowledgments
+This work has received funding from the European
+Union’s Horizon 2020 research and innovation pro-
+gramme under the Marie Skłodowska-Curie grant
+agreement No 860621.
+References
+Ricardo Baeza-Yates. 2018. Bias on the web. Commu-
+nications of the ACM , 61(6):54–61.
+Eytan Bakshy, Solomon Messing, and Lada A Adamic.
+2015. Exposure to ideologically diverse news and
+opinion on Facebook. Science , 348(6239):1130–
+1132.
+Engin Bozdag and Jeroen van den Hoven. 2015. Break-
+ing the ﬁlter bubble: democracy and design. Ethics
+and Information Technology , 17(4):249–265.
+Mauro Dragoni, Ivan Donadello, and Claudio Ec-
+cher. 2020. Explainable ai meets persuasiveness:
+Translating reasoning results into behavioral change
+advice. Artiﬁcial Intelligence in Medicine , page
+101840.
+Eduardo Graells-Garrido, Mounia Lalmas, and Ricardo
+Baeza-Yates. 2016. Data portraits and intermedi-
+ary topics: Encouraging exploration of politically
+diverse proﬁles. In Proceedings of the 21st Inter-
+national Conference on Intelligent User Interfaces ,
+pages 228–240.Marco Guerini, Oliviero Stock, Massimo Zancanaro,
+Daniel J O’Keefe, Irene Mazzotta, Fiorella de Ro-
+sis, Isabella Poggi, Meiyii Y Lim, and Ruth Aylett.
+2011. Approaches to verbal persuasion in intelligent
+user interfaces. In Emotion-Oriented Systems , pages
+559–584. Springer.
+Thomas T Hills. 2019. The dark side of information
+proliferation. Perspectives on Psychological Sci-
+ence, 14(3):323–330.
+Yucheng Jin, Nava Tintarev, Nyi Nyi Htun, and Katrien
+Verbert. 2020. Effects of personal characteristics
+in control-oriented user interfaces for music recom-
+mender systems. User Modeling and User-Adapted
+Interaction , 30(2):199–249.
+Q Vera Liao and Wai-Tat Fu. 2014. Can you hear
+me now? Mitigating the echo chamber effect by
+source position indicators. In Proceedings of the
+17th ACM conference on Computer supported coop-
+erative work & social computing , pages 184–196.
+Q Vera Liao, Daniel Gruen, and Sarah Miller. 2020.
+Questioning the AI: Informing design practices for
+explainable AI user experiences. In Proceedings
+of the 2020 CHI Conference on Human Factors in
+Computing Systems , pages 1–15.
+Alina Pommeranz, Joost Broekens, Pascal Wiggers,
+Willem-Paul Brinkman, and Catholijn M Jonker.
+2012. Designing interfaces for explicit prefer-
+ence elicitation: a user-centered investigation of
+preference representation and elicitation process.
+User Modeling and User-Adapted Interaction , 22(4-
+5):357–397.
+Chun-Hua Tsai and Peter Brusilovsky. 2017. Lever-
+aging interfaces to improve recommendation diver-
+sity. In Adjunct Publication of the 25th Conference
+on User Modeling, Adaptation and Personalization ,
+pages 65–70.54

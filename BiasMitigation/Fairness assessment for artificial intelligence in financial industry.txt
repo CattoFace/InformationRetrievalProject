@@ -1,0 +1,406 @@
+arXiv:1912.07211v1  [stat.ML]  16 Dec 2019Fairness Assessment for Artiﬁcial Intelligence in
+Financial Industry
+Yukun Zhang∗
+ATB Financial
+Edmonton, AB T5J 0N3
+yzhang2@atb.comLongsheng Zhou
+ATB Financial
+Edmonton, AB T5J 0N3
+lzhou2@atb.com
+Abstract
+Artiﬁcial Intelligence (AI) is an important driving force f or the development and
+transformation of the ﬁnancial industry. However, with the fast-evolving AI tech-
+nology and application, unintentional bias, insufﬁcient m odel validation, imma-
+ture contingency plan and other underestimated threats may expose the company
+to operational and reputational risks. In this paper, we foc us on fairness evalua-
+tion, one of the key components of AI Governance, through a qu antitative lens.
+Statistical methods are reviewed for imbalanced data treat ment and bias mitiga-
+tion. These methods and fairness evaluation metrics are the n applied to a credit
+card default payment example.
+1 Introduction
+Financial intelligence has a fast and accurate machine lear ning capability to achieve the intellectual-
+ization, standardization, and automation of large-scale b usiness transactions. Thus, it can improve
+service efﬁciency and reduce costs. For this reason, ﬁnanci al institutions are aggressively building
+their data scientist team to adopt AI/ML, however, the gover nance of AI/ML needs more attention.
+AI presents particularly complex challenges to value-base d decision-making because it introduces
+complexity, uncertainty, and scale. These features mean th at harm is more challenging to evaluate
+and pre-empt, and that even the smallest harmful decision ma y have a large long-term effect that is
+difﬁcult to detect and ﬁx.
+An AI/ML governance framework creates a robust business and operational framework to be uti-
+lized during the entire AI lifecycle and establishes common risk deﬁnitions and directions related
+to governance. The governance framework is essential for an organization to deﬁne safe boundaries
+for their data scientists. One of the biggest challenges in e stablishing governance framework is fair-
+ness assessment. The quantitative fairness assessment is a t its early stage, and is challenging to be
+operationalized while technical standards and common tech nical best practices are still establishing
+among the data scientist teams.
+In the fairness assessment, data bias is sometimes the root c ause of unintentional biases. At the
+same time, ﬁnancial data is prone to bias and imbalance. The c ost of having an unfair product or
+misclassifying a ”target” event is high. These are ”feature s” of ﬁnancial data which need extra care
+when building models.
+The challenges of biased and unbalanced data and the common m ethods of mitigating data bias
+and treating imbalanced data are reviewed in Section 2. Sect ion 3 is an implementation of these
+methodologies to a credit card default payment dataset.
+∗alternative email: yukunzhang329@gmail.com
+33rd Conference on Neural Information Processing Systems ( NeurIPS 2019), Vancouver, Canada.2 Challenges and Solutions on Modelling Financial Data
+2.1 Challenges
+In ﬁnancial institutions, because the data is collected fro m their customers, it is prone to bias and
+imbalance. For example, some world elite business credit ca rds have more male holders than female
+holders; the withdrawal and contribution to a registered re tirement saving plan (RRSP) have strong
+age effect. Here we separate the data challenges into data bi as and imbalanced data, as they have
+different mitigation/treatment methods.
+2.1.1 Data Bias
+Gender Bias Historically, women and men have different roles in economi es and societies. As em-
+ployees, women are disproportionately concentrated in low paid, insecure, ’ﬂexible’ work, and in
+work that is - or is perceived to be-low-skilled (Staveren 20 01). Financial markets suffer from ’gen-
+der distortions’ - distortions that disadvantage female bo rrowers as well as female savers, aside from
+the lack of collateral that limits women’s access to ﬁnance ( Baden 1996). Fay and Williams (Fay
+1993) presented that women can experience gender discrimin ation when seeking start-up capital.
+Similarly, Ongena and Popov (Ongena 2013) found ﬁrms owned b y females have more difﬁculties
+obtaining credit than otherwise similar ﬁrms owned by males . The female-owned ﬁrms do not under-
+perform male-owned ﬁrms in terms of sales growth, even when n ot obtaining credit or when based
+in high gender-bias countries. With today’s women earning h igher incomes, playing a more active
+role in household ﬁnancial decisions, and seeking addition al professional investing advice, the issue
+of gender bias in ﬁnancial services still exists. Mullainat han et al. (Mullainathan 2012) found that,
+compared with male investors, female investors were less fr equently asked about their personal and
+ﬁnancial situation and more frequently advised to hold more liquidity, less international exposure,
+and fewer actively managed funds. Sahay et al. (Sahay 2018) f ound that greater inclusion of women
+as users, providers, and regulators of ﬁnancial services wo uld have beneﬁts beyond addressing gen-
+der inequality. Narrowing the gender gap would foster great er stability in the banking system and
+enhance economic growth. It could also contribute to more ef fective monetary and ﬁscal policy.
+Racial Bias Cohen-Cole (Cohen-Cole 2011) found qualitatively large di fferences in the amount of
+credit offered to similarly qualiﬁed applicants living in b lack versus white areas. Census (Federal De-
+posit Insurance Corporation 2014) data shows black and Hisp anic Americans are more likely to go
+underbanked or deprived of conventional banking services t han white or Asian Americans. The cen-
+sus is not a biased result, however, the AI/ML can amplify thi s difference and then generate biased
+conclusions. In the Fintech era, discrimination in lending can occur either in face-to-face decisions
+or in algorithmic scoring. Bartlett et al. (Bartlett 2019) f ound that lenders charge Latinx/African-
+American borrowers 7.9 and 3.6 basis points more for purchas e and reﬁnance mortgages respectively,
+costing them $765M in aggregate per year in extra interest. F inTech algorithms also discriminate,
+but 40% less than face-to-face lenders.
+Age Bias A 2002 study from the Federal Reserve Board (Braunstein 2002 ) showed that many peo-
+ple in underserved populations may be unfamiliar with compo nents of the ﬁnancial system. A com-
+bination of growing complexity, increases in consumer resp onsibility, as well as the noted changes
+in the structure of personal nuance to include more individu al credit, have contributed to differences
+in ﬁnancial literacy. Cohen-Cole (Cohen-Cole 2011) also fo und age effects in his studies. For ex-
+ample, a senior may miss credit card payment because he or she forgets to do so, he or she uses the
+card irregularly, or doesn’t understand the jargon on the cr edit card statement.
+To summarize, it is important to mitigate gender, racial, an d age biases when using AI solutions
+to solve business problems, which is beneﬁcial to ﬁnancial i nstitutions and to eliminate bias in a
+broader context. Neglecting bias in the source data can caus e bigger bias in the model conclusion,
+intentionally or unintentionally. In addition to mitigati ng bias, being bias-aware can help us build
+a customized solution. For example, for senior customers, w e can identify their needs and provide
+special products.
+2Table 1: Bias mitigation algorithms
+Pre-processing Reweighing Optimized Preprocessing Learning Fair Representations Disparate Impact Remover
+In-processing Adversarial Debiasing Prejudice Remover
+Post-processing Equalized Odds Post-processing Calibrated Equalized Odds Post-processing Reject Option Classiﬁcation Discrimination-Aware Ensemble
+2.1.2 Imbalanced Data
+Imbalanced data set occurs when there is an unequal represen tation of classes. The data we collected
+can be imbalanced in two ways: one is due to the distribution o f customers, the other one is due to
+the nature of the event. For the former one, gender bias is an e xample. Because we may have more
+male customers, female customer’s ﬁnancial habits are alwa ys predicted based on male customer’s
+habits. The latter happens in certain areas such as fraud det ection and risk management. The case of
+true fraudulent event is far less than legitimate cases, whi ch cause data imbalance. The problem of
+imbalanced data is that since the probability of an event hap pening belongs to the majority class is
+signiﬁcantly high, the algorithms are much more likely to cl assify new observations to the majority
+class. For example, if a lot of fraud events happen in Africa, then normal events happen in Africa
+will be marked as suspicious easier than events happen in Nor th America. This way, the bias exists
+in the training set is ampliﬁed by the machine learning model . On the other hand, predictive models
+on imbalanced data is prone to high false negative rate, beca use the number of positive events is
+small. This is a big concern because the cost of false negativ e can be much higher than a false
+positive event. For example, in fraud detection, we would ra ther have a case identiﬁed as fraud but
+turns out to be legitimate, instead of missing a true fraudul ent event.
+2.2 Solutions
+2.2.1 Bias Mitigation
+Bias mitigation algorithms can be categorized into pre-pro cessing, in-processing (algorithm modi-
+ﬁcations), and post-processing. Table 1 shows the mitigati on algorithms we capture in this paper.
+Pre-processing algorithms
+Reweighing Calders et al. (Calders 2009) proposed this method for the ca se where the input data
+contains unjustiﬁed dependencies between some data attrib utes and the class labels. The algorithm
+aims to reduce the dependence to zero while maintaining the o verall positive class. Instead of rela-
+beling the objects, different weights will be attached to th em. According to these weights the objects
+will be sampled (with replacement) leading to a dataset with out dependence (balanced dataset). On
+this balanced dataset the dependency-free classiﬁer is lea rned.
+Optimized preprocessing (Calmon 2017) It probabilistically transforms the feature s and labels
+in the data with group fairness, individual distortion, and data ﬁdelity constraints and objectives.
+This method also enables an explicit control of individual f airness and the possibility of multivariate,
+non-binary protected variables.
+Learning fair representations Zemel et al. (Zemel 2013) proposed this learning algorithm f or
+fair classiﬁcation that achieves both group fairness (the p roportion of members in a protected group
+receiving positive classiﬁcation is identical to the propo rtion in the population as a whole), and
+individual fairness (similar individuals should be treate d similarly). The algorithm encodes the data
+as well as possible, while simultaneously obfuscating any i nformation about membership in the
+protected group.
+Disparate impact remover (Feldman 2015) It edits feature values to mask bias while pre serving
+rank-ordering within groups.
+In-processing algorithms
+Adversarial debiasing (Zhang 2018) It is a framework for mitigating biases by inclu ding a vari-
+able for the group of interest and simultaneously learning a predictor and an adversary. It maximizes
+prediction accuracy and simultaneously reduce an adversar y’s ability to determine the protected
+3attribute from the predictions. The approach is ﬂexible and applicable to multiple deﬁnitions of
+fairness as well as a wide range of gradient-based learning m odels.
+Prejudice remover (Kamishima 2012) This method adds a regularizer to the learn ing objective,
+which enforces a classiﬁer’s independence from sensitive i nformation.
+Post-processing algorithms
+Equalized odds post-processing (Hardt 2015) It solves a linear program to ﬁnd probabilities with
+which to change output labels to optimize equalized odds.
+Calibrated equalized odds post-processing (Pleiss 2017) This method optimizes over calibrated
+classiﬁer score outputs to ﬁnd probabilities with which to c hange output labels with an equalized
+odds objective. Kamiran et al. (Kamiran 2012) proposed the r eject option of probabilistic clas-
+siﬁer(s) ( Reject Option Based Classiﬁcation ) and the disagreement region of general classiﬁer
+ensembles ( Discrimination-Aware Ensemble ) to reduce discrimination. The former one gives the
+idea of a critical region in which instances belonging to dep rived and favoured groups are labeled
+with desirable and undesirable labels, respectively. The l atter makes an ensemble of (probabilistic,
+non-probabilistic, or mixed) classiﬁers discrimination- aware by exploiting the disagreement region
+among the classiﬁers.
+2.3 Fairness Metrics
+We select the following metrics to measure the model fairnes s:
+Statistical Parity Difference This is the difference in the probability of favourable outc omes be-
+tween the unprivileged and privileged groups. This can be co mputed both from the input dataset
+as well as from the dataset output from a classiﬁer (predicte d dataset). A value of 0 implies both
+groups have equal beneﬁt, a value less than 0 implies higher b eneﬁt for the privileged group, and a
+value greater than 0 implies higher beneﬁt for the unprivile ged group.
+Equal Opportunity Difference This is the difference in true positive rates between unpriv ileged
+and privileged groups. A value of 0 implies both groups have e qual beneﬁt, a value less than 0
+implies higher beneﬁt for the privileged group and a value gr eater than 0 implies higher beneﬁt for
+the unprivileged group.
+Disparate Impact This is the ratio in the probability of favourable outcomes b etween the unpriv-
+ileged and privileged groups. This can be computed both from the input dataset as well as from
+the dataset output from a classiﬁer (predicted dataset). A v alue of 1 implies both groups have equal
+beneﬁt, a value less than 1 implies higher beneﬁt for the priv ileged group, and a value greater than 1
+implies higher beneﬁt for the unprivileged group.
+Speciﬁcally, we think equal opportunity is an important mea surement of bias for ﬁnancial institu-
+tions. For example, it is important to make sure customers kn ow if they will pay back a loan, they
+will have the same chance of getting the loan with other appli cants, regardless of their age, gender,
+and ethnicity.
+2.4 Bias Mitigation Tools
+Several open source libraries have become available in rece nt years, which make the goal of bias
+detection and mitigation easier to achieve. FairML (Adebay o 2016) is a toolbox for auditing predic-
+tive models by quantifying the relative signiﬁcance of the i nputs to a predictive model which can be
+used to assess the fairness (or discriminatory extent) of su ch a model. Fairness comparison (Friedler
+2019) is an extensive library includes several bias detecti on metrics as well as bias mitigation meth-
+ods, including disparate impact remover and prejudice remo ver mentioned above. AI Fairness 360
+(AIF 360) (Bellamy 2018) is an open source toolkit that inclu des 71 bias detection metrics and 9
+bias mitigation algorithms. Because of its comprehensiven ess and usability, this paper uses AIF 360
+for the case study.
+42.5 Imbalanced data treatment
+Feeding imbalanced data to a classiﬁer can make it biased in f avour of the majority class, simply
+because it did not have enough data to learn about the minorit y. One of the methods of treating imbal-
+anced data is resampling, which includes under-sampling an d over-sampling. Randomly removing
+instances from the majority class to achieve balance is call ed random under-sampling. Random over-
+sampling compensates the imbalanced class distribution by randomly replicating instances from the
+minority class. Under sampling can potentially lead to loss of information while oversampling
+can cause overﬁtting, as it makes exact replications of the m inority samples rather than sampling
+from the distribution of minority samples. Synthetic Minor ity Over-sampling Technique (SMOTE)
+(Chawla 2002) is one of the most popular sampling methods for class imbalance. It is an over-
+sampling approach in which the minority class is over-sampl ed by creating ”synthetic” examples
+rather than by over-sampling with replacement. These synth etic examples are created by a linear
+interpolation between a minority class instance and its nea rest neighbours. The reasons of choosing
+SMOTE for our case study are 1) Choosing an over-sampling met hod avoid losing information. 2)
+Batista, Prati and Monard (Batista 2004) showed that SMOTE o utperform several other (over and
+under) sampling methods 3) SMOTE overcomes the above mentio ned issues.
+3 Case Study
+3.1 Data
+A default credit card clients data set (Yeh 2009) from the UCI Machine Learning Repository (Bache
+2013) is used in this case study. The outcome of this dataset i s default payment (Yes=1, No=0). It
+includes 23 explanatory variables including amount of the g iven credit, gender (1=male, 2=female),
+education, marital status, age, history of past payment, am ount of bill statement, and amount of
+previous payment. This data set collects information from 3 0,000 credit card clients in Taiwan from
+April 2005 to September 2005. Yeh, the author of this data set , used it to compare the predictive
+accuracy of probability of default among six data mining met hods.
+3.2 LightGBM Algorithm
+LightGBM (Ke 2017) is a gradient boosting framework that use s tree-based learning algorithms. It
+is used in this case study because of its widely recognized ad vantages of faster training speed and
+higher efﬁciency, lower memory usage, and better accuracy. In this case study, we use python library
+lightgbm by the same authors of algorithm LightGBM.
+3.3 Model Fitting
+In the following different model ﬁtting methods, the origin al data set is split into a training set and
+a test set in a ratio of 7:3; and a 5-fold cross-validation is u sed for model validation. A model
+using lightgbm is built to predict whether a customer will de fault or not. The focus of this case
+study is to see the impact of imbalanced data, usage of bias me trics, and how to remove biases.
+Parameter tuning and selection of modelling algorithms are out of our scope. For this purpose, this
+paper presents ﬁve models for this data set: a lightgbm model with the original data, a lightgbm
+model with treated balanced data, a lightgbm model with bias removed data, a lightgbm model with
+treated balanced and bias removed data, and a set of manipula ted data with bias mitigating algorithm
+applied.
+Confusion matrix together with precision, recall, f1-scor e are used to evaluate the performance of
+model ﬁtting. Fairness indicators include statistical par ity difference, equal opportunity difference,
+and disparate impact are used to evaluate the model fairness .
+3.3.1 Case 1: Plain LightGBM algorithm
+It is a common case that since most of the customers make payme nts to their credit cards, the number
+of default payment is much less. In this case, the overall no d efault payment vs. default payment
+in the original dataset is almost 4:1 (Table 2). As mentioned above, the dataset is imbalanced. By
+ﬁtting the data using lightGBM, we get the following result: The overall accuracy of this model is
+5Table 2: Data distribution by age
+Age
+Default 21-30 41-50 51-60 61-80 Sum
+No 9530 4219 1276 164 15189
+Yes 2700 1302 437 52 4491
+Table 3: Balanced data
+Age
+Default 21-30 31-40 41-50 51-60 61-80 Sum
+No 9530 8175 4219 1276 164 23364
+Yes 8862 9060 4357 987 98 23364
+0.82 (Table 6), but as expected for imbalanced data, the reca ll and F1-score is very low: 0.38 and
+0.49, respectively. Because of the large size of the no defau lt sample, the model tends to predict new
+cases towards no default, which results in a high false negat ive rate (0.62).
+3.3.2 Case 2: Synthetic Balanced data
+To adjust the imbalanced data, here we use the above-mention ed SMOTE method to generate syn-
+thetic data for the default class. From Table 3, we see the dat a is now balanced. Using lightgbm to
+ﬁt the balanced data, we get an improved result. The overall a ccuracy is 0.81, comparable to case
+1, moreover, the performance metrics for the default group h ave been largely improved. The false
+negative rate is 0.23, much lower than the case 1 result. From the comparison to case 1, we see the
+importance of imbalanced data treatment. We now have the con ﬁdence of the predictions for both
+the majority and minority classes.
+3.3.3 Case 3: Bias Mitigated data
+After dealing with imbalanced data, we look into model fairn ess evaluation. The starting point of
+model fairness evaluation is evaluating data bias. Using th e above-mentioned AIF 360 toolkit, we
+ﬁrst look at the bias for unprivileged group (female, n=1811 2) and privileged group (male, n=11888).
+Note here that we are not sure whether female group is the unpr ivileged group or privileged one, just
+set it this way to begin the analysis.
+Here we choose to mitigate bias through pre-processing meth od reweighing. AIF 360 applied re-
+weighing by changing weights applied to training samples. B ecause the numbers of different gender
+groups are not strongly imbalanced, we don’t use the data bal ancing technique towards this variable.
+Table 4 shows before reweighing, male group was getting 3% mo re positive outcomes (default
+payment) in the training dataset. This is not a huge differen ce between the two groups, but we still
+continue the analysis to show the effect of bias mitigation. After reweighing the training data, the
+differences between these two groups are eliminated.
+3.3.4 Case 4: Synthetic Balanced and Bias Mitigated data
+One step forward, we combine our experiments from case 2 and 3 and apply them together in case
+4. By using SMOTE method to generate synthetic balanced data and use AIF 360 toolkit to mitigate
+bias in training data, we ﬁt it with LightGBM again.
+Table 5 shows the model fairness measurements for all four mo dels. We noticed that in the original
+data, the fairness differences between gender groups are no t big, however, it is ampliﬁed by gener-
+ating synthetic data (0.3034 versus 0.0213 for original dat a). So in case 4, we generate synthetic
+Table 4: Fairness metrics before and after mitigation
+Before After
+Diff. Statistical Parity 0.0345 0.000
+Disparate impact 1.0457 1.000
+6Table 5: Fairness metrics for all cases
+Fairness
+Diff. statistical parity Diff. equal opportunity Diff. disparate impact
+Case 1 0.0213 0.0113 1.0246
+Case 2 0.3034 0.1439 1.7955
+Case 3 0.0168 0.0099 1.0194
+Case 4 0.1621 -0.0104 1.3688
+Table 6: Performance metrics for all cases
+Performance
+Accuracy False Negative Rate
+Case 1 0.82 0.62
+Case 2 0.81 0.23
+Case 3 0.82 0.64
+Case 4 0.83 0.19
+balanced data ﬁrst and then run the bias mitigate process, ai ming to reduce the bias. Table 5 shows
+that the fairness differences between gender groups are sli ghtly reduced, yet still larger than the orig-
+inal dataset. According to difference in statistical parit y, the probability of favourable outcome (no
+default) for female group is 0.1621 higher than the male grou p. In other words, male group is the
+unprivileged group–for a male customer, the probability of being predicted to be default is higher
+than a female customer.
+On the other hand, this model has the best performance in mode l accuracy, with a false negative rate
+of 0.19. From the model performance’s perspective, the resu lt of case 4 is similar to case 2. This
+shows the effect of balancing data is much higher than the eff ect of mitigating bias. One possible
+reason for this is the bias in the original data was big, thus t he effect of mitigation is not signiﬁcant,
+which won’t change the result in testing data much.
+Case 4 results also show that the model performance is not com promised by the reweighing algo-
+rithm.
+3.3.5 Case 5: Manipulated Biased Data
+Since the bias isn’t signiﬁcant in the original data, we have an idea to manipulate the data to create
+bias by adding 30% samples which all of them are male customer s who have payment default.
+Table 8 shows the manipulated data is largely biased towards female, which is as expected. We then
+applied reweighing method and the bias is successfully miti gated. This example shows the effect of
+bias mitigation.
+3.4 Limitation and Discussion
+Only gender fairness is measured in the above cases, fairnes s assessment in age groups can also be
+measured in future studies. The numbers in 51-60 and 61-80 ag e groups are much smaller than the
+other groups. It will be interesting to see how does this impa ct the model performance and fairness.
+The reweighing algorithm didn’t signiﬁcantly reduce the bi as in the results in test set. In future stud-
+ies, we can look at other preprocessing algorithms, in-proc essing algorithms, and post-processing
+algorithms.
+Table 7: Performance metrics for case 4
+Precision Recall F1-score Support
+No 0.79 0.84 0.82 6989
+Yes 0.83 0.78 0.81 7030
+Accuracy 0.82 14019
+Weighted Avg 0.81 0.81 0.81 14019
+7Table 8: Fairness metrics for manipulated data
+Diff. statistical parity Diff. equal opportunity Diff. disparate impact
+Manipulated data 0.5614 0.5477 2.687
+Bias mitigated data 0.03178 0.0079 1.0415
+Other model ﬁtting algorithms can be applied, especially ar tiﬁcial neural networks, which Yeh et.al.
+used in their research, reported a R-squared of 0.965. It’s a lso worth to try other algorithms to see
+which ones are not so sensitive to imbalanced data/biased da ta. The ﬁve models in the case study
+session show the importance of balancing the data set for the purpose of reducing false positive rate
+and thus get a better model. However, it may at the same time am plify the biases. Model creators
+can choose which model to use, according to the need. If it is a credit card default prediction, it may
+be important not to miss the people who will actually default . Meanwhile, it is good to be aware
+of the potential bias of the model. The whole point of the fair ness assessment is discovering and
+measuring potential concerns that require further scrutin y.
+4 Conclusion
+With the increasing attention on model governance and more f airness evaluation and mitigation tools
+becoming available, the AI/ML solutions built in the ﬁnanci al industry will gain more trust from the
+customers and thus become more beneﬁcial to the industry. In this paper, we review the challenges
+and methodologies in imbalance data treatment and fairness evaluation. Fairness metrics of models
+are important results, especially for unintentional biase s. The metrics are helpful for making next
+step decisions to further reduce biases. In future studies, we will present a more sophisticated
+algorithm to ﬁt the data and reduce biases. Model explainabi lity is another important topic we
+would like to discuss in future studies, especially about ho w to maintain the balance between model
+accuracy and explainability.
+References
+[1] Adebayo, Julius A. 2016. FairML: ToolBox for diagnosing bias in predictive modeling. PhD diss., Mas-
+sachusetts Institute of Technology.
+[2] Bache, Kevin, and Moshe Lichman. 2013. UCI Machine Learn ing Repository, University of California.
+[http://archive. ics. uci. edu/ml].
+[3] Baden, Sally. 1996. "Gender issues in ﬁnancial liberali sation and ﬁnancial sector reform." 2006.
+[4] Bartlett, Robert, Adair Morse, Richard Stanton, and Nan cy Wallace. 2019. "Consumer-lending discrimina-
+tion in the FinTech era." National Bureau of Economic Resear ch w25943.
+[5] Batista, Gustavo EAPA, Ronaldo C. Prati, and Maria Carol ina Monard. 2004. "A study of the behavior of
+several methods for balancing machine learning training da ta." ACM SIGKDD explorations newsletter 6. no.1
+20-29.
+[6] Bellamy, Rachel KE, Kuntal Dey, Michael Hind, Samuel C. H offman, Stephanie Houde, Kalapriya Kannan,
+Pranay Lohia et al. 2018. "AI fairness 360: An extensible too lkit for detecting, understanding, and mitigating
+unwanted algorithmic bias." arXiv 1810.01943.
+[7] Braunstein, Sandra, and Carolyn Welch. 2002. "Financia l literacy: An overview of practice, research, and
+policy." Fed. Res. Bull. 88:445.
+[8] Calders, Toon, Faisal Kamiran, and Mykola Pechenizkiy. 2009. "Building classiﬁers with independency
+constraints." 2009 IEEE International Conference on Data M ining Workshops 13-18.
+[9] Calmon, Flavio, Dennis Wei, Bhanukiran Vinzamuri, Kart hikeyan Natesan Ramamurthy, and Kush R. Varsh-
+ney. 2017. "Optimized pre-processing for discrimination p revention." Advances in Neural Information Process-
+ing Systems 3992-4001.
+[10] Chawla, Nitesh V ., Kevin W. Bowyer, Lawrence O. Hall, an d W. Philip Kegelmeyer. 2002. "SMOTE:
+synthetic minority over-sampling technique." Journal of a rtiﬁcial intelligence research 16:321-357.
+[11] Cohen-Cole, E. 2011. "Credit card redlining." Review o f Economics and Statistics 93(2), 700-713.
+8[12] Fay, Michael, and Lesley Williams. 1993. "Gender bias a nd the availability of business loans." Journal of
+Business Venturing 8, no. 4: 363-376.
+[13] Federal Deposit Insurance Corporation. 2014. 2015: FD IC national survey of unbanked and underbanked
+households. Census, Federal Deposit Insurance Corporatio n.
+[14] Feldman, Michael, Sorelle A. Friedler, John Moeller, C arlos Scheidegger, and Suresh Venkatasubrama-
+nian. 2015. "Certifying and removing disparate impact." 21 th ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining. ACM. 259-268.
+[15] Friedler, Sorelle A., Carlos Scheidegger, Suresh Venk atasubramanian, Sonam Choudhary, Evan P. Hamil-
+ton, and Derek Roth. 2019. "A comparative study of fairness- enhancing interventions in machine learning."
+Conference on Fairness, Accountability, and Transparency . ACM. 329-338.
+[16] Kamiran, Faisal, Asim Karim, and Xiangliang Zhang. 201 2. "Decision theory for discrimination-aware
+classiﬁcation." IEEE 12th International Conference on Dat a Mining. IEEE. 924-929.
+[17] Kamishima, Toshihiro, Shotaro Akaho, Hideki Asoh, and Jun Sakuma. 2012. "Fairness-aware classi-
+ﬁer with prejudice remover regularizer." In Joint European Conference on Machine Learning and Knowledge
+Discovery in Databases. Berlin: Springer. 35-50.
+[18] Ke, Guolin, Qi Meng, Thomas Finley, Taifeng Wang, Wei Ch en, Weidong Ma, Qiwei Ye, and Tie-Yan Liu.
+2017. "Lightgbm: A highly efﬁcient gradient boosting decis ion tree." Neural Information Processing Systems.
+3146-3154.
+[19] Mullainathan, Sendhil, Markus Noeth, and Antoinette S choar. 2012. "The market for ﬁnancial advice: An
+audit study." National Bureau of Economic Research w17929.
+[20] Ongena, Steven, and Alexander A. Popov. 2013. "Take Car e of Home and Family, Honey, and Let Me
+Take Care of the Money-Gender Bias and Credit Market Barrier s for Female Entrepreneurs." European Banking
+Center Discussion Paper 2013-001.
+[21] Pleiss, Geoff, Manish Raghavan, Felix Wu, Jon Kleinber g, and Kilian Q. Weinberger. 2017. "On fairness
+and calibration." In Advances in Neural Information Proces sing Systems 5680-5689.
+[22] Sahay, Ms Ratna, and Mr Martin Cihak. 2018. "Women in Fin ance: A Case for Closing Gaps." Interna-
+tional Monetary Fund.
+[23] Staveren, Irene van. 2001. "Gender biases in ﬁnance." ( Gender & Development 9) no. 1 : 9-17.
+[24] Yeh, I-Cheng, and Che-hui Lien. 2009. "The comparisons of data mining techniques for the predictive
+accuracy of probability of default of credit card clients." Expert Systems with Applications 362: 2473-2480.
+[25] Zemel, Rich, Yu Wu, Kevin Swersky, Toni Pitassi, and Cyn thia Dwork. 2013. "Learning fair representa-
+tions." International Conference on Machine Learning 325- 333.
+[26] Zhang, Brian Hu, Blake Lemoine, and Margaret Mitchell. 2018. "Mitigating unwanted biases with adver-
+sarial learning." 2018 AAAI/ACM Conference on AI, Ethics, a nd Society. ACM. 335-340.
+9

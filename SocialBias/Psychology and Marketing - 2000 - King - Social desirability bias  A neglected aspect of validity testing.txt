@@ -1,0 +1,2458 @@
+Social Desirability Bias:
+A Neglected Aspect of
+Validity Testing
+
+Maryon F. King and Gordon C. Bruner
+Southern Illinois University
+
+ABSTRACT
+
+A tremendous growth in the use of multi-item scales in marketing
+research has occurred over the past two decades. Concurrently,
+there is increasing concern about the quality of these measures.
+Although the majority of marketing-related articles now discuss the
+reliability of the scales administered, few address the issue of scale
+validity. One aspect of scale validity, which should be of particular
+concern to marketing researchers, is the potential threat of
+contamination due to social-desirability response bias. However, a
+careful review of nearly 20 years of published research suggests that
+social-desirability bias has been consistently neglected in scale
+construction, evaluation, and implementation. The purpose of this
+article is to discuss the nature of such a bias, methods for
+identifying, testing for and/or preventing it, and how these methods
+can and should be implemented in consumer-related research.
+
+© 2000 John Wiley & Sons, Inc.
+
+As the field of marketing matures there is increasing attention focused
+upon the quality of research being conducted by marketing researchers
+(Arndt, 1985; Brinberg & Hirschman, 1987; Hunt, 1990; Jacoby, 1978;
+Muncy & Fisk, 1987; Skipper & Hyman, 1987; 1990). In turn, the valid-
+ity of the operational measures used to generate research data largely
+determines the validity of the findings reported in that research
+(Abrams, 1971; Churchill, 1979; Malholtra, 1988; Peter, 1979; Rentz,
+
+Psychology & Marketing Vol. 17(2):79-103 (February 2000)
+© 2000 John Wiley & Sons, Inc. CCC 0742-6046/00/020079-25
+
+79
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+1988). Among the most widely used measurement techniques in mar-
+keting is the multi-item summated scale. In order to be effective in the
+generation of interpretable research data, such scales must, at a mini-
+mum, be unidimensional, reliable, and internally valid. Most research-
+ers would readily acknowledge their desire for, and commitment to, the
+implementation of valid measures; yet previous reviews of scale usage
+in the marketing literature suggest that little effort is typically ex-
+pended to assess scale validity (Bruner, 1993; Peter, 1981; Peter &
+Churchill, 1986).
+
+One potentially important threat to the validity of research employ-
+ing multi-item scales is social desirability bias. The pervasive tendency
+of individuals to present themselves in the most favorable manner rel-
+ative to prevailing social norms and mores has threatened to compro-
+mise research findings in the social sciences for more than 50 years.
+Provision of socially desirable responses in self-report data may lead to
+spurious correlations between variables as well as the suppression or
+moderation of relationships between the constructs of interest (Ganster,
+Hennesey, & Luthans, 1983). To the extent that the effects of social
+desirability bias represent a source of influence which obscures mea-
+surement of the primary relationships under investigation, validity may
+be compromised (Malhotra, 1988). Hence, it is incumbent upon re-
+searchers to identify situations in which data may be systematically
+biased toward respondents’ perceptions of what is socially acceptable,
+to determine the extent to which this represents contamination of the
+data, and to implement the most appropriate methods of control.
+
+Social-desirability bias (SDB) is considered to be one of the most com-
+mon and pervasive sources of bias affecting the validity of experimental
+and survey research findings in psychology and the social sciences (Ned-
+erhof, 1985; Paulhus, 1991; Peltier & Walsh, 1990). Although identifi-
+cation and control of SDB has presented an ongoing challenge for re-
+searchers in most social science disciplines (cf. Fisher, 1993), only a
+handful of articles published in marketing research journals have re-
+ported attempts to systematically identify contamination from this
+source. Considering the frequent use of self-report measures in mar-
+keting research, as well as the social and normative implications inher-
+ent in many marketing investigations, the low incidence of routine test-
+ing for this potential confound may indicate that marketing researchers
+have underestimated the importance of SDB in interpretation and ap-
+plication of research findings.
+
+Clearly, a prima fascia case may be made to argue the importance of
+identifying and controlling for SDB in marketing research. The purpose
+of this article is to facilitate systematic consideration of this issue in
+future research activities by exploring the nature of social desirability
+bias within the context of marketing. After reviewing the historical de-
+velopment of the SDB construct, situations in which SDB may pose a
+significant threat and methods for managing SDB are examined. The
+
+ 
+
+80 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+few occasions on which tests for SDB have been conducted in the mar-
+keting discipline are discussed, and the role of social desirability bias
+within the marketing domain is evaluated. Finally, recommendations
+for improving the quality of psychometric measures employed in future
+marketing research are identified.
+
+REVIEW OF THE SOCIAL-DESIRABILITY BIAS CONCEPT
+
+Identification and Development of the SDB Construct
+in Psychology
+
+It has long been recognized that the manner in which subjects respond
+to experimental stimuli may be influenced by non-test-relevant re-
+sponse determinants (Campbell & Stanley, 1963; Cook & Campbell,
+1979; Nunnally, 1967). This problem has particularly plagued person-
+ality researchers in the field of psychology. A major source of response
+distortion identified early on by researchers in this area is the tendency
+for subjects to “fake good” or “fake bad” responses to personality test
+items (Meehl & Hathaway, 1946), a tendency which has also been re-
+ferred to as a “lying factor” (Edwards, Diers, & Walker, 1962).1
+
+The presence of such a factor was initially considered to be a function
+of the subjects’s test behavior rather than the tendency of the test items
+to elicit particular responses. To overcome the effects of this behavioral
+response on the part of the subject, personality researchers constructed
+special scales to detect and/or suppress these faking tendencies. In an
+attempt to broaden the application of this concept to include response
+bias evoked both by the actual test items as well as by the test behavior
+of the subject, Edwards (1957) proposed the concept of social-desirability
+bias. Social-desirability bias is the tendency of subjects to respond to
+test items in such a way as to present themselves in socially acceptable
+terms in order to gain the approval of others. Such a response tendency
+may be evoked by the nature of the experimental or testing setting, the
+individual subject’s motives (e.g., achievement, approval, or dependence
+goals), or the subjects’ expectancies regarding the evaluative conse-
+quences of their behavior.
+
+The role played by SDB in suppressing or obscuring relationships
+among variables and in producing artificial relationships among inde-
+pendent and dependent variables has been widely established in psy-
+chological literature (Ballard, Crino, & Rubenfeld, 1988; Crino, Sro-
+
+1Although SD bias is the focus of this article, it is not the only methodological check needed to
+assess the internal validity of measures. Admittedly, social-desirability bias is but one of many
+response biases that may affect behavioral measures (cf. Paulhus, 1991). However, SD bias has
+proven to be particularly troublesome in behavioral sciences research and has received more
+attention than any other potential source of bias. Moreover, it is a particularly salient concern
+when assessing the validity of consumer-behavior measures.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 81
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+uBzEN BABing 7p 5
+
+loMMpUOD PUR SUD] aI 29g ‘[zzZOT/L LT] uo LamagT] sUYUC Kana “UE:
+
+aeusdy] suoUMAD aanEaID a1quoydde a47 Aq powanol are sajstue WC ‘aan Jo saynu say Kunsgy7 AUG Aa]A\ Uo (suOMYpUOD-puE-suuapwos apten Kansquauyunyy:sdny) su
+bada, Rubenfeld, & White, 1983; Dicken, 1963; Ganster et al., 1983).
+Investigators have variously addressed the question of data contami-
+nation from both the perspective of SDB as a behavioral correlate, as in
+studies on personality (Edwards, 1957) and psychopathy (Meehl &
+Hathaway, 1946), as well as a threat to the validity of the scales mea-
+suring constructs of primary interest, as in studies of the MMPI (Robi-
+nette, 1991) and the Chapman scales (Peltier & Walsh, 1990). Of par-
+ticular importance to marketing researchers are studies published in
+the psychology literature that have found significant relationships be-
+tween the SDB scales and attitudes (Lenski & Leggett, 1960), attitude
+change (Bagozzi, 1985; Buckhout, 1965a, 1966; Goldsmith, 1989; Green-
+baum, 1966; Miller, Doob, Butler, & Marlowe), consumer satisfaction
+(Sabourin, Bourgeois, Gendreau, & Morval 1989), dyadic interactions
+(Buckhout, 1965b), innovativeness (Goldsmith, 1987), and risk-taking
+behavior (Kogan, 1964; Kogan & Wallach, 1967). Hence, it is reasonable
+to expect that many areas of marketing, particularly topics in consumer
+behavior, would subject to social desirability bias.
+
+Today, SDB is considered to be one of the most common and pervasive
+sources of bias affecting the validity of experimental and survey re-
+search findings in psychology (Nederhof, 1985; Paulhus, 1991; Peltier &
+Walsh, 1990). In fact, the vast majority of research investigations of
+attitudes, opinions, and personality that have been reported in psy-
+chology journals in the last four decades have simultaneously admin-
+istered social-desirability scale items as part of the validation process.
+Arecently published monograph on scale development for applied social
+research recommends routinely testing for SDB during scale construc-
+tion (DeVellis, 1991). The widespread use of SD scales is based on the
+belief of psychology researchers that it is “essential to discriminate be-
+tween the effects of item content and the needs of subjects to present
+themselves in a socially desirable (or undesirable) light” (Crowne &
+Marlowe, 1960, p. 21).
+
+Measurement of Social-Desirability Bias
+
+Although a number of social-desirability (SD) scales were initially de-
+veloped by various researchers (Cofer, Chance, & Judson, 1949; Ed-
+wards, 1957; Wiggins, 1959), the measures that have gained the most
+widespread acceptance and use throughout psychology and the social
+sciences is the original Marlowe-Crowne Social Desirability Scale
+(MCSDS) a 33-item, true—false summated rating scale (Crowne & Mar-
+lowe, 1960, 1964) and its short forms (e.g., Ballard, 1992; Greenwald &
+Satow, 1970; Reynolds, 1982; Strahan & Gerbasi, 1972). Social-desir-
+ability scales are administered as an aid in establishing the discrimi-
+nant validity of the primary test instrument being employed (Campbell
+& Fisk, 1959). A low intercorrelation between the target scale and the
+SD scale would indicate that the content instrument is not confounded
+
+ 
+
+82 KING AND BRUNER
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+uBzEN BABing 7p 5
+
+loMMpUOD PUR SUD] aI 29g ‘[zzZOT/L LT] uo LamagT] sUYUC Kana “UE:
+
+aeusdy] suoUMAD aanEaID a1quoydde a47 Aq powanol are sajstue WC ‘aan Jo saynu say Kunsgy7 AUG Aa]A\ Uo (suOMYpUOD-puE-suuapwos apten Kansquauyunyy:sdny) su
+with SDB (Paulhus, 1991). If a significant correlation is found, regres-
+sion analysis may be used to determine the proportion of variance at-
+tributable to SDB, with an ensuing correction for this distortion by use
+of either partial correlations (McNemar, 1969) or canonical correlation
+analysis (Greenblatt, Mozdzierz, & Murphy, 1984).
+
+In more recent years, challenges regarding the unidimensionality of
+the MCSDS have been voiced (cf. Ballard et al., 1988; Paulhus 1984,
+1986; Robinson & Shaver, 1973). Low intercorrelations among the orig-
+inal MCSDS and several of its short forms prompted factor analysis of
+the various instruments, revealing two primary factors (Borkenau &
+Ostendorf, 1989). Zerbe and Paulhus (1987) have concluded that these
+two factors include self-deception, “the conscious tendency to see oneself
+in a favorable light,” and impression management, “the conscious pre-
+sentation of a false front, such as deliberately falsifying test responses
+to create favorable impressions” (p. 253). They argue that the former
+dispositional tendency is a relatively invariant personality trait and
+thus should not be considered a contaminant per se, whereas the latter
+factor, impression management, is the culprit in confounding research
+data. To assist in individually assessing the effects of these two factors,
+Paulhus (1992) has offered the Balanced Inventory of Desirable Re-
+sponding (BIDR), a 40-item scale that reportedly offers minimal corre-
+lation between impression management and self-deception. Despite its
+theoretical advantages over the MCSDS, this scale has not been widely
+adopted or reported in published research (cf. Moorman & Podsakoff,
+1992). Hence, there is little empirical evidence to date that this scale
+represents a significant advance in identifying and interpreting the ef-
+fects of socially desirable responding.?
+
+Other scales that have been used to identify SDB include the Martin-
+Larsen Approval Motivation Scale (Larsen, Martin. Ettinger, & Nelson,
+1976), a desirability scale based on attitude opinion items that is par-
+ticularly intended for use in survey research (Schuessler, Hittle, & Car-
+dascia, 1978); the Other-Deception Questionnaire (ODQ) and the Self-
+Deception Questionnaire (SDQ), both developed by Sackeim and Gur
+(1978, 1979); and (as previously noted) the Balanced Inventory of De-
+sirable Responding (Paulhus, 1992). Although these scales have not
+been tested or validated as extensively as the MCSDS, administration
+of any SD scale represents an effort to detect and measure SDB in col-
+lected data. Selection of an appropriate test instrument depends, in
+part, on the projected role of SDB. That is, if SDB is considered to be a
+contaminant that confounds responses to target variable scales, the in-
+vestigator might choose the MCSDS, Other-Deception Questionnaire or
+the impression management items from the BIDR. Conversely, if the
+
+2Other measures developed expressly to test for SD bias will be discussed later in this article. At
+this juncture, the primary focus will remain on the Marlowe—Crowne SD scale (and its varia-
+tions) as well as the BIDR, because these were the scales primarily employed in the marketing
+research discussed herein.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 83
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+tendency to respond in socially desirable ways is considered within the
+research context to be a variable of theoretical interest, the Martin-
+Larsen Approval Motivation Scale, the Self-Deception Questionnaire
+(SDQ), or the self-deception items from the BIDR may be more appro-
+priate.
+
+Administration of a scale to detect patterns of socially desirable re-
+sponses has several practical applications in theoretical research. First,
+pretesting of new content scales while the scales are in their develop-
+mental stages permits detection of items that are significantly corre-
+lated with SDB measures, providing the opportunity to modify or elim-
+inate content items prior to scale administration. Second, simultaneous
+administration of a scale to detect SDB in conjunction with target con-
+tent scales may reveal the presence of individual differences in response
+styles. This type of systematic response bias can confound content with
+style, and interfere with the accurate assessment of content variables.
+Identification of SDB as a behavioral covariate can afford the investi-
+gator the opportunity to accommodate the findings (e.g., partial out the
+effects of the SD). (For a more complete review of this subject, see Gans-
+ter, Hennessey, & Luthans, 1983.) Hence, determination of SDB is an
+equally important validity test for both newly constructed and estab-
+lished measures (Fraboni & Cooper, 1989). Finally, administration of
+SD scale items can assist in identification of situational demands that
+may evoke socially desirable responding. For example, enlightened a
+priori evaluation of testing methods (e.g., computerized testing, ques-
+tion format), research contexts (e.g., degree of anonymity), interviewer
+characteristics, and other issues involved in research design will serve
+to minimize SDB contamination in the target study. These issues will
+be revisited later in this article.
+
+IMPORTANCE OF SDB IN MARKETING RESEARCH
+
+It is evident that SDB measures provide researchers in psychology and
+other social sciences with an invaluable tool for establishing the validity
+of their test instruments. Because much of the marketing literature,
+particularly in the area of consumer behavior, reports the use of multi-
+item, summated measures to assess attitudinal, personality, and be-
+havior-related constructs similar to those employed in other social sci-
+ences, marketing research should benefit by using this tool to help
+establish the validity of its scale measures. In his suggested procedure
+for developing better measures of marketing constructs, Churchill
+(1979, p. 68) addresses the problem of SDB in marketing research when
+he admonishes the researcher to “(refine) those questions which contain
+an obvious ‘socially acceptable’ response.” Accomplishing this suggested
+refining necessitates testing for, controlling for, and interpreting the
+existence of SDB.
+
+ 
+
+84 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+Marketing’s long-standing preoccupation with self-reports of poten-
+tially sensitive topics related to information search patterns, product
+attitudes, purchase behaviors, and persuasion, coupled with the fact
+that much of this research involves survey data collection techniques,
+would suggest that SDB testing is generally a good idea. Moreover, SDB
+testing would seem not only to be warranted, but mandatory within the
+rapidly growing body of literature in ethics and ethical behavior in mar-
+keting situations (Randall & Fernandes, 1991). Research involving self-
+reports of the behavioral aspects of consumers or marketers in conjunc-
+tion with multi-item, summated scales should be suspect with respect
+to SDB, and hence it is appropriate to investigate for SDB effects.
+
+The twin concerns of conducting research involving sensitive topics
+that could arguably elicit SDB as well as continued interest in producing
+and refining valid scales suggests that efforts should be redoubled on
+this front. However, before recommendations can be made regarding the
+measurement and control of SDB, past efforts in this regard must be
+assessed. Accordingly, the following review of efforts to isolate the ef-
+fects of SDB in the marketing literature focuses on answering three
+broad questions: How have marketers viewed the role of SDB in their
+discipline? How and why have they tested for its presence in past stud-
+ies? What impact has evidence of SDB had on research practices and
+data interpretation?
+
+PRIOR EVALUATION OF SDB IN MARKETING RESEARCH
+
+Given the desire of marketing researchers to implement valid measures
+in combination with the availability of an appropriate validating tool,
+it is reasonable to expect that much of the research conducted in this
+area would have adopted this validation technique. To investigate test-
+ing for SDB, marketing research published in six rigorous marketing
+journals (Journal of Marketing Research, Journal of Marketing, Journal
+of Consumer Research, Journal of the Academy of Marketing Science,
+Journal of Advertising, and Journal of Advertising Research) were re-
+viewed for the period of 1980-1997. Of the hundreds of articles and
+notes published during that time period, only 13 reported testing for
+SDB.? Considering the fact that the majority of these articles directly
+examined some aspect of consumer behavior in conjunction with the
+convenient accessibility of a well-established SDB instrument, this lack
+of validity testing is surprising.
+
+One explanation for the lack of emphasis on identification of SDB is
+
+’The research reviewed here includes only those studies that employed SD testing in conjunction
+with the use of multiitem, summated scales. It is also possible that potential SD bias was as-
+sessed during the construction of some multi-item scales, but the authors chose not to report the
+findings.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 85
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+98
+
+WAaNNUd AGNV ONIN
+
+ 
+
+ 
+
+ 
+
+Table 1. Summary of Articles Reporting Social Desirability Bias (JCR, JMR, JM, JAMS: 1980-1997)
+Correlation
+Coefficients
+Type of Use (Content/SDB Source of Content
+Author(s) Source Reported SDB Scale Scales) Scales Interpretation
+Carlson & JCR (1988) Behavioral bias 19itemversion Not reported Several existing scale Correlation was statistically
+Grossbart of MCSDS items summative in- significant; authors con-
+(=0.71) dices of general so- cluded that the magni-
+cialization tendencies tude was too small to rep-
+resent a relevant effect
+Childers et JCR (1985) Seale construc- MCSDS = —0.03 to 0.20 VVIQ (Marks 1973) Authors report that correla-
+al. tion tion coefficients indicate
+that no SDB is present
+Fisher JCR (1993) Situational Reynolds (13 = —0.49to 0.10 Newscale; multiple Use of indirect questioning
+analysis items) items measuring per- techniques reduces so-
+=0.69) sonal and normative cially desirable respond-
+outcomes ing
+Friedman & JCR(1987) Scale construc- MCSDS = —0.02to 0.06 New scale; multi-item No significant SDB noted
+Churchill tion measures of satisfac-
+tion, compliance and
+consequences
+Mick JCR (1996) Situational MCSDS = —0.40 to 0.26 Several existing multi- SDB impacts subjects’ self-
+analysis BIDR = —0.46 to 0.53 item scales reports on materialism
+and related constructs
+Moore etal. JCR(1985) Behavioralbias MCSDS None reported Items similar to existing Authors report that low in-
+
+scales on altruism
+self-esteem moral
+norms and guilt
+
+significant correlations
+suggest no significant
+SDB
+
+avrv ary sett CcooeeLe- cts Kt 3isye00r oLseRuRo bn rem anusdn4 oy FpeEeNeg 2 ‘DORE eELSOEEL
+
+fees w mane, ey Jo Areas
+
+pus 2g 29225-1000 Ev Se
+
+remsou won) wonpHe
+SVId ASNOdSUY ALITIGVUISAC TVIOOS
+
+18
+
+ 
+
+Raju
+
+Richins
+
+Richins &
+Dawson
+
+Saxe &
+Weitz
+
+Unger &
+Kernan
+Westbrook
+
+Westbrook
+
+ICR (1980)
+
+ICR (1983)
+
+JCR (1992)
+
+ICR (1982)
+
+ICR (1983)
+
+ICR (1980)
+
+ICR (1987)
+
+Scale construc-
+tion
+
+Scale construc-
+tion
+
+Behavioral bias
+
+Scale construc-
+tion
+
+Scale construc-
+tion
+Behavioral bias
+
+Behavioral bias
+pilot study
+
+MCSDS
+
+MCSDS
+
+Ballard et al.
+
+short form
+(10 items)
+
+MCSDS
+
+MCSDS
+
+MCSDS
+
+MCSDS
+
+None reported
+
+= — 0.28 to 0.13
+
+= —0.12 to
+— 0.03
+
+None reported
+
+None reported
+
+= —0.18 to 12
+
+None reported
+
+Arousal seeking tend-
+ency (Robinson &
+Shaver 1973)
+
+New and purified scales;
+multi-item measures
+of assertiveness and
+ageressiveness
+
+New and existing scale
+items that were previ-
+ously purified (Ri-
+chins & Dawson
+1990)
+
+New scale; multi-item
+selling orientation
+scale
+
+New scale; multi-item
+measures of leisure
+determinants
+
+Several preexisting
+scales
+
+DES-II (Izard 1977)
+
+Several items eliciting SDB
+were eliminated
+
+Correlations were statisti-
+cally significant; author
+concluded that the mag-
+nitude was too small to
+represent a relevant ef-
+fect
+
+Authors report that low in-
+significant correlations
+suggest no significant
+SDB
+
+Authors report that low in-
+significant correlations
+suggest no significant
+SDB
+
+Some evidence of the pres-
+ence of SDB; interpreted
+as situation specific
+
+No significant SDB noted
+
+No significant SDB noted;
+scale was purified by orig-
+inal author
+
+ 
+
+avrv ary sett CcooeeLe- cts Kt 3isye00r oLseRuRo bn rem anusdn4 oy FpeEeNeg 2 ‘DORE eELSOEEL
+
+fees w mane, ey Jo Areas
+
+pus 2g 29225-1000 Ev Se
+
+remsou won) wonpHe
+that individuals conducting research in consumer behavior may not be
+aware that such a scale exists or under what circumstances adminis-
+tration of such an instrument could be beneficial. Furthermore, there
+may be some confusion regarding interpretation of results obtained from
+administration of the MCSDS. A review and discussion of the few in-
+stances in which testing for SDB has been conducted will illustrate con-
+ditions under which marketers have previously identified this as a po-
+tential threat to the validity of the research, and how SDB instruments
+have been administered and results interpreted. An overview of each
+study is presented below; a summary of articles is presented in Table 1.
+
+In each of these studies an SD scale was self-administered, along with
+scales measuring constructs of theoretical interest. All studies incor-
+porated items from the MCSDS; in some cases an abbreviated version
+of the MCSDS was employed in order to prevent task overload. The
+BIDR scale was administered in only one instance. As previously noted,
+a significant correlation between scores on the SD scale and a target
+construct scale suggests that the data are confounded because of the
+respondent’s desire to answer in socially desirable ways, thereby seri-
+ously weakening the validity of the findings. Conversely, a low corre-
+lation suggests that the measure is relatively free of SDB.
+
+A collective evaluation of these studies provides insight into how mar-
+keters have historically viewed the role of SDB in their discipline. SDB
+testing was performed for three distinct reasons across these studies.
+First, some studies sought to confirm the discriminant validity of pro-
+posed items for summated measures during the construction of their
+scales. In this case, authors were attempting to eliminate any items that
+were identified as potential sources of contamination via an SD response
+bias in order to purify their measures. Second, some studies used the
+MCSDS responses as a correlate to their primary scale of interest. Here,
+testing for SDB was performed in conjunction with a previously devel-
+oped primary scale (rather than one in the developmental stages) in
+order to identify behavioral tendencies of the subjects that might con-
+taminate the study’s findings. Finally, two recent studies recognized the
+broader importance of SDB across marketing contexts. Rather than ad-
+ministering social-desirability scale items as part of a limited validation
+process for a single content instrument, these investigations have em-
+braced SDB as their core concern, engaging in situational analysis to
+highlight and evaluate broad methodological and conceptual applica-
+tions of this construct. In the ensuing discussion, studies are grouped
+into categories by the intended role of SDB testing and presented in
+chronological order.
+
+Testing for SDB During Scale Construction
+
+The first research to employ the MCSDS during scale construction in
+the reviewed domain was an examination of the relationships between
+
+ 
+
+88 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+i
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+g
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+z
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+z
+3
+optimum stimulation levels and exploratory behavior, and personality
+and demographic traits (Raju, 1980). The MCSDS was administered to
+prescreen 90 statements to ensure selection of items with low correla-
+tion with social desirability. Although no actual correlation coefficients
+or significance levels were reported, several items eliciting SDB were
+eliminated, leaving a pool of items that exhibited little or no SDB.
+
+The MCSDS was administered during only one stage of a large study
+reported by Unger and Kernan (1983). The study examined dimensions
+of the subjective leisure experience in six different scenarios. During the
+initial construction of a six-dimensional scale of leisure, the MCSDS was
+included as one of several measures of reliability and internal consist-
+ency. As in the previous study reviewed, no correlation coefficients or
+significance levels were reported. Unlike the previous study, however,
+the authors indicated that there was some evidence that SDB might be
+present when using the scales. However, the authors chose to interpret
+the bias as being situation specific and not necessarily inherent in the
+scales themselves.
+
+Saxe and Weitz (1982) administered the MCSDS to salespeople rep-
+resenting a wide variety of sales positions. The purpose of this study
+was to construct a scale for measuring a salesperson’s customer orien-
+tation. Each item on the primary scale of interest was correlated with
+the MCSDS scores. Although no actual correlation coefficients or sig-
+nificance levels were reported, the authors indicated that all correla-
+tions were small and insignificant and concluded that the items were
+not contaminated by a SD factor.
+
+The construction of two new scales, one for assertiveness and one for
+aggressiveness, was the focus of a study by Richins (1983). SDB was
+evaluated in two ways. First, during initial screening of proposed Lik-
+ert-type scale items, those which appeared to have a strong potential
+for eliciting a socially desirable response were removed. Respondents
+completed both the assertiveness and aggressiveness scales along with
+a shortened version of the MCSDS. The correlations between the SD
+scale and assertiveness and aggressiveness were 0.13 (p > .10) and
+—0.28 (p < .01), respectively. Although the latter correlation is statisti-
+cally significant, the author concluded that the magnitude was too small
+to represent a relevant effect.
+
+Childers, Houston, and Heckler (1985) examined several measures of
+visual and verbal mental imagery. The MCSDS was administered in
+order to test the discriminant validity of the primary scale of interest
+during the scale development process. Unlike the studies summarized
+earlier, Childers et al. (1985) reported coefficient alphas for each of two
+groups of subjects. Although prior studies have suggested that individ-
+ual difference measures may be correlated with social desirability
+(White, Sheehan, & Ashton, 1977), none of the scales proposed by Chil-
+ders et al. were correlated with the social-desirability measure.
+
+The final instance of the administration of the MCSDS during scale
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 89
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+construction was the only time it was employed in marketing outside
+the arena of consumer behavior. The purpose of a study by Friedman
+and Churchill (1987) was to examine how social power behaviors can be
+effectively employed by physicians. Again, the MCSDS was used during
+the scale construction phase of the study in order to assess the discrim-
+inant validity of the dependent measures of satisfaction and compliance.
+Individual, pairwise correlation coefficients were reported, with all val-
+ues evidencing insignificant correlations ranging from negative to very
+low positive levels.
+
+Testing for SDB as a Behavioral Covariate
+
+From 1980 through 1997, only five studies reported employing the
+MCSDS in an attempt to identify potential SD response bias when ad-
+ministering scales that had not used the MCSDS during scale construc-
+tion. The first of these was a study of the impact of intrapersonal influ-
+ences on satisfaction/dissatisfaction conducted by Westbrook (1980).
+The results of testing for SDB were used in a regression model along
+with affective and attitudinal variables to assess their explanatory
+power on satisfaction. Hence, the statistics regarding the application of
+the MCSDS reported in the study were standardized beta coefficients
+and an adjusted R? for the whole model. The beta coefficient associated
+with the SD factor was not significant, indicating that SDB was not an
+explanatory factor in the model (i.e., did not affect subjects’ responses).
+
+The influence of labeling (e.g., “helpful people like yourself”) and de-
+pendency (e.g., “depend upon individual contributions”) on potential do-
+nor attitudes were examined by Moore, Bearden, and Teel (1985). The
+study was based upon complete responses received over three time pe-
+riods from members of a consumer panel. Correlations of the primary
+research measures with the MCSDS were evidently computed, but the
+actual correlation coefficients were not reported. The authors stated
+that low, nonsignificant Pearson correlations between the MCSDS and
+each of the covariates and dependent measures indicated that these
+measures were unaffected by SDB.
+
+A similar use of the MCSDS is reported in a study by Westbrook
+(1987), which examined consumer affective responses to product/con-
+sumption experiences and their relationship to various aspects of post-
+purchase processes. This study employed a preexisting scale of discreet
+emotional experiences (DES-II), which had been developed for use in
+psychological studies. SDB was assessed during a pilot study prior to
+administration of the final field study. Although no statistics were re-
+ported, the author indicates that “none of the six subscales were corre-
+lated with the social desirability response set” (Westbrook, 1987, p. 262).
+However, it should be noted here that the author of the DES-II scale
+indicated that the scale was purified during original scale construction
+by using the MCSDS.
+
+ 
+
+90 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+Carlson and Grossbart (1988) investigated the relationship between
+parental styles and their effects on the manner in which children are
+socialized with respect to consumption behavior. The primary research
+instrument included 11 summative indices extracted from prior studies
+predominantly reported in psychological journals. A shortened (19 item)
+version of the MCSDS was used to identify any SD behavioral response
+tendencies that might exist in the subject pool. Both alpha and beta
+coefficients were reported, as well as some factor scores from the cluster
+analysis indicating the presence, direction, and strength of the relation-
+ship between SDB and group classification. Although some significant
+but weak relationships between SD and factor scores existed, the au-
+thors concluded that SD did not have a major influence on group clas-
+sification.
+
+Finally, Richins and Dawson (1992) incorporated a short form of the
+MCSDS as a covariate in a study of the materialism construct. The
+authors reported that their 18-item materialism scale was uncorrelated
+with SDB items. This finding is in contrast to later evidence presented
+by Mick (1996) that SDB negatively correlates with the materialism
+scale, systematically lowering materialism scores. This contradiction in
+findings will be more fully explored in the discussion section.
+
+Testing for Situational Effects of SDB
+
+Only two studies published in the domain of interest have focused on
+SDB as the variable of interest rather than as a technique to validate
+findings regarding other construct variables. The pioneering efforts of
+these authors to systematically identify situational effects of SDB
+should be applauded. In the earlier of these two articles, Fisher (1993)
+examined the effect of questioning method on the level of SDB on both
+socially sensitive and socially neutral measures. With the use of the
+Reynolds (1982) short form of the MCSDS, the author found significant
+levels of SDB on direct measures (i.e., self-reports) of a sensitive con-
+struct, and no SDB on indirect measures (i.e., projective or third-person
+wordings) of a sensitive construct, or on measures of a socially neutral
+construct. Fisher concluded that “indirect questioning operates to miti-
+gate SDB (for variables that are subject to social norms and expecta-
+tions) and does not systematically affect the means of variables that are
+independent of social influence” (p. 307).
+
+In an ambitious study evaluating the confounding effects of socially
+desirable responding, Mick (1996) investigated both context- and in-
+strument-related issues. In an effort to broadly identify the sensitivity
+of dark side topics to socially desirable responding, Mick explored the
+contaminating effects of social desirability bias on subject responses re-
+garding materialism, self-esteem, and compulsive and impulsive buying
+behaviors. Although correlational evidence indicates that SDB impacts
+subjects’ self-reports of these variables, the author suggests that the
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 91
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+explanatory power of this bias is “neither dramatic nor comprehensive”
+
+(p. 116). The author cautions, however, that “. . . it would be unfor-
+tunate if these results invited continued complacency about SDR among
+consumer researchers . . .” (p. 116).
+
+This research also addressed two measurement-related issues. First,
+the original MCSDS was administered in conjunction with materialism
+and compulsive buying instruments. As previously noted, in contrast to
+the Richins and Dawson study (1992), materialism was significantly
+related to socially desirable responding, as were other content variables
+of interest (self-esteem and compulsive buying). Next, the newer BIDR
+scale was incorporated into a study of consequences of materialism (i.e.,
+neuroticism, self-actualization, and impulse buying). To date, this ap-
+pears to be the only instance in which this reconceptualized scale has
+been administered in published marketing research. Although the
+BIDR scale was administered primarily to identify covariation of SDB
+with the content variables, it was also expressly selected for use to pro-
+vide evidence of its discriminant validity in partialling out the effects
+of the self-deception and impression management SDB components. The
+data indicate that impression management influenced the measure-
+ment of several content variables; however, only two of the theoretically
+proposed relationships appeared to be artifacts of this response bias.
+
+Discussion of Findings
+
+Although the preceding review is limited in terms of numbers of studies,
+a wide range of topical areas in marketing research is represented. Of
+the six studies involving scale construction, half provided evidence of
+significant correlations between target construct items and the MCSDS.
+Of these three studies, only one author chose to use evidence of an SD
+bias to eliminate confounded scale items (Raju, 1980); in both of the
+other studies (Richins, 1983; Unger & Kernan, 1983) the authors did
+not modify their scales even though a significant relationship between
+their content scales and SDB scales was noted. (This issue will be re-
+visited shortly.) Although Westbrook (1987) found no significant rela-
+tionship between the MCSDS and the DES-II, it should be noted that
+the DES-II scale was purified with the use of the MCSDS during its
+original construction. Hence, four instances of significant relationships
+between construct scales and social-desirability scales are evident in
+seven studies, providing compelling evidence for further investigation
+of potential contamination due to response bias during marketing scale
+construction.
+
+Although less evidence of a response bias was apparent in the five
+research studies involving the administration of the MCSDS (or one of
+its shortened forms) as a behavioral covariate, two of these studies are
+worthy of closer examination. First, Carlson and Grossbart (1988) iden-
+
+ 
+
+92 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+i
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+g
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+z
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+z
+3
+tified significant contamination effects, but suggested that elicited SDB
+did not have a major influence on group classification. Even though the
+content scales were initially developed in psychology (where they were
+presumably covaried with an SD scale during development), the signif-
+icant relationships identified suggest that residual bias may be obscur-
+ing accurate assessment of the content variables. More perplexing is the
+discrepancy between the findings of the Richins and Dawson (1992)
+study and Mick’s (1996) study in assessing the potential response bias
+contamination of the materialism scale. Identical content and SDB in-
+struments were administered in both studies, with dramatically differ-
+ing results. Although it has been suggested that “the norms guiding the
+acceptability of materialism (when the data was collected in the 1980s)
+may have been quite different from the norms of the 1990s” (Mick, 1996,
+p. 108), other variables such as data collection methods or subject pop-
+ulations should be scrutinized to identify any context or situational ef-
+fects present in these studies. Other situational factors that could have
+produced this effect are discussed later.
+
+It is troublesome that in the majority of cases where SDB was re-
+ported at significant levels the authors chose to disregard this potential
+threat to the discriminant validity of the content scales. Although in-
+terpreting the conceptual relevance of the bias remains in the domain
+of the investigator (and those reviewing his or her work), every observed
+correlation between the two instruments leaves the data open to at least
+two possible explanations. Regardless of whether SDB is viewed as a
+contaminant in self-assessment (the historical perspective) or as a sta-
+ble individual difference variable (e.g., Paulhus’s self-deception factor),
+it should be identified and controlled or explained. Furthermore, it has
+been suggested that reliance upon differences in mean SD scale scores
+or simple correlations between SD and content scales may result in un-
+derestimating the extent of contamination (Zerbe & Paulhus, 1987).
+When evidence of such a systematic bias is evident, it is paramount to
+acknowledge that the bias exists and to take steps to partition out its
+effects, rather than relying on post hoc explanations. Otherwise, inter-
+pretation of results remains open to question.
+
+Regardless of how the effect of SDB has been interpreted or con-
+trolled, more than half of the studies examined herein have provided
+evidence of response bias. Hence, it is reasonable to expect that other
+studies in these areas of research could be biased by the subject’s desire
+to respond in a socially desirable manner. In fact, it has recently been
+suggested that “although the routinization of checking for social desir-
+ability bias is much greater in psychology, it has been identified as being
+potentially more problematic in marketing research than in psychology”
+(Nunnally & Bernstein, 1994, p. 315). To encourage and facilitate sys-
+tematic assessment of this response bias in future research, several is-
+sues involved in controlling SDB are examined in the ensuing section.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 93
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+IDENTIFYING AND CONTROLLING THE INFLUENCE
+OF SDB
+
+Situations that Foster SDB
+
+A primary approach that may assist researchers in their efforts to con-
+trol the effects of SDB is to recognize and anticipate conditions under
+which SDB is particularly likely to occur. Several conditions that tend
+to enhance the possibility of response bias include: research designs that
+incorporate self-report measures (Zerbe & Paulhus, 1987); investiga-
+tions involving highly sensitive constructs (i.e., topics that are personal
+or socially sensitive) (Fisher, 1993; Goode & Hart, 1952; Mick, 1996);
+situations in which subject anonymity is compromised; and instances
+when subjects anticipate responses will result in normatively influenced
+or evaluative consequences. Moreover, confluence of two or more of these
+conditions in a single research design could result in profound SDB con-
+tamination of the data. For example, Goode and Hart (1952) voiced con-
+cerns about the potential effects of socially desirable responding on self-
+reports of sensitive behaviors, a concern that is echoed in the literature
+four decades later (Fisher, 1993). Thomas and Kilmann (1975) suggest
+that the contaminating influence of response biases should be expected
+to operate wherever ratings are used to assess variables with evaluative
+overtones.
+
+Conversely, there are a number of situations in which one would not
+expect to encounter socially desirable responding behavior. Perhaps the
+most obvious would involve measures of objective knowledge in which
+responses could not be faked. Additionally, situations in which re-
+sponses are based on salient personal outcomes that have intrinsic
+worth to the individual are not expected to be indexed by the respondent
+against prevailing social norms, an hence are not subject to contami-
+nation by SDB (Fisher, 1993). Finally, some authors suggest that the
+probability of encountering socially desirable responding is somewhat
+dependent upon the population under consideration. For example, Park
+and Lessig (1977) suggest that social influence decreases with age;
+hence, the tendency to present oneself in the most favorable light may
+be mitigated in older subject groups.
+
+Methods of Controlling SDB
+
+Several methods of reducing or eliminating the contaminating effects of
+SDB are evident in the research previously reviewed, including elimi-
+nating content scale items that correlate significantly with SD scale
+items as well as partialling out the effects of this response bias. These
+and other methods of SDB control are discussed in greater detail in the
+following.
+
+ 
+
+94 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+i
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+g
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+z
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+z
+3
+Scale Selection. The use of preexisting content scales that have been
+examined for evidence of SDB may aid in reducing the likelihood of
+encountering a response bias. Although selection of such scales does not
+guarantee freedom from SDB in ensuing studies (e.g., the Richins &
+Dawson vs. Mick controversy), there is evidence that such a strategy
+may be beneficial (e.g., Westbrook’s 1987 application of the DES-II
+scale).
+
+Instrument Construction. Nederhof (1985) has suggested that scale
+items may individually contain elements of social desirability and hence
+elicit a socially desirable response regardless of whether the subject has
+a prevailing tendency to respond in such a fashion. In other words, the
+phrasing of a questionnaire item may cue subjects as to the expectations
+of the researcher, creating a demand effect (Orne, 1969). Insightful eval-
+uation of research conditions and questionnaire items can result in a
+priori elimination or revision of those measures that could reasonably
+be expected to elicit socially desirable responding, such as in the Richins
+(1983) study.
+
+Other techniques for controlling SDB involve construction of rational
+self-report instruments that prevent subjects from responding in a so-
+cially desirable manner. The objective here is to incorporate measures
+that are neutral with respect to social desirability, that force a choice
+between two statements that are equally desirable, or that have high
+“content saturation,” where the influence of content dominates desir-
+ability. Forced-choice items and neutral questions were among the ear-
+liest methods developed for coping with SD bias (Edwards, 1957, 1970;
+Humm & Wadsworth, 1939) and, although criticized by some (e.g.,
+Block, 1965), remain popular with researchers today. A randomized re-
+sponse technique, which allows the subject to answer one of two ran-
+domly selected items, is another technique that was developed to reduce
+response distortion associated with threatening questions, that is, items
+that are particularly susceptible to SD bias (Sudman & Bradburn,
+1974). In addition, the use of indirect questioning or other projective
+techniques do that not significantly elicit socially desirable responses
+have been shown to be very beneficial in studying socially sensitive var-
+iables in consumer research (Fisher, 1993). Once instrument items have
+been tentatively selected, the use of factor analysis may be conducted
+to ensure that content measures are not confounded with a principal
+component representing SDB (Paulhus, 1991).
+
+Instrument Administration. As previously noted, an important strat-
+egy for controlling for SDB is to identify and modify situations that may
+foster its presence (e.g., maximize subject anonymity) (Sudman & Brad-
+burn, 1974). When an anonymous administration is not possible, the
+use of a pseudo—lie detector called the bogus pipeline may be used to
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 95
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+convince subjects that the equipment can determine whether or not the
+subject is telling the truth (Jones & Sigall, 1971). In this rather extreme
+and costly measure, subjects are hooked up to electronic equipment that
+reputedly can physiologically assess their attitudes and determine if
+their responses are consistent with their feelings. A simpler, albeit less
+effective method is to warn subjects that the test instrument contains
+methods for detecting faking. Additionally, the interviewer selected can
+strongly affect the amount of SD bias evoked, because results of an in-
+terview are more likely to be biased when subjects and interviewers are
+similar with respect to social distance (e.g., Dohrenwend, Colombotos,
+& Dohrenwend, 1968). These are but a few of the many available meth-
+ods for reducing elicitation of socially desirable responding; a more com-
+plete review of demand-reduction techniques is presented by Paulhus
+(1991).
+
+Statistical Control Techniques. Once contamination of the data has
+been identified, steps must be taken to isolate or eliminate the effects
+of the response bias. Individuals scoring high on SD scales are assumed
+to be faking good, so reports of these individuals are considered to be
+invalid. One of the simplest methods for dealing with this problem is to
+eliminate or disregard the self-reports of respondents whose scores on
+SD scales exceed some predetermined value (Zerbe & Paulhus, 1987).
+If data elimination is not feasible or appropriate, identification of the
+role played by SDB in suppressing or obscuring relationships among
+variables and in producing artificial relationships among independent
+and dependent variables requires particular attention.
+
+Ganster et al. (1983) have identified three classes of effects due to
+socially desirable responding: spuriousness, the creation of misleading
+correlations between variables; suppression, the masking of relation-
+ships between variables; and moderation, the tempering relationships
+between other variables. They suggest that spuriousness should be
+tested and controlled for by partialling out the effect of SD with the use
+of multiple regression or partial correlations. In the case of suppression,
+it has been suggested that partialling SDB out of the relationship would
+change the correlation from zero to nonzero or strengthen any nonzero
+relationship (Conger, 1974). When SDB is suspected to play a moder-
+ating role, Arnold (1982) and others (Arnold, Feldman, & Purbhoo,
+1984) recommend testing for the significance of the interaction between
+it and any independent variable of interest with the use of product terms
+in hierarchical multiple regression.
+
+New Methods. An entirely new approach to controlling SDB in exper-
+imental research is administration of the Implicit Association Test (IAT)
+(Greenwald, McGhee, & Schwartz, in press). Implicit attitudes are “in-
+trospectively unidentified (or inaccurately identified) traces of past ex-
+perience that mediate favorable or unfavorable feeling, thought or ac-
+
+ 
+
+96 KING AND BRUNER
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+i
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+g
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+uBzEN BABing 7p 5
+
+z
+9
+i
+z
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+z
+3
+tion toward social objects” (Greenwald & Banaji, 1995, p. 8). Because
+implicit attitudes are under the control of “automatically activated eval-
+uation,” the IAT has the potential to measure socially significant auto-
+matic associations without relying on the veracity or objectivity of the
+respondent. Because the IAT may have the ability to “resist self-pres-
+entational forces that can mask personally or socially undesirable eval-
+uative associations” (Greenwald et al., in press), it may prove be a valu-
+able addition to the repertoire of tools in future investigations of socially
+sensitive topics.
+
+INSIGHTS AND DIRECTIONS FOR MANAGING
+FUTURE RESEARCH
+
+The question of whether SDB is actually a threat to the interpretation
+of research results in the marketing discipline is still debatable. De-
+pending upon one’s theoretical position, support may be garnered from
+published literature in the social sciences to defend either of the com-
+peting conclusions (a) that concern with SDB as a contaminant or con-
+struct is warranted or, conversely, (b) that concern with this response
+is overstated or misplaced. However, the collective wisdom of many psy-
+chologists has resulted in routine testing for social-desirability bias,
+during both the construction and implementation of psychometric
+scales. Even so, testing for SDB has been routinely neglected in con-
+sumer research.
+
+Many questions regarding this response bias remain to be answered.
+Several instances were noted when marketing researchers identified
+significant correlations between SD scales and content measures, yet
+these findings were dismissed as inconsequential. The question is: How
+small is too small? Many authors have acknowledged the fact that when-
+ever such correlations are present, there are at least two possible ex-
+planations of the data. Routine examination of the phenomenon with
+the use of procedures beyond simple correlations would provide insight
+into the nature and magnitude of its effect in future studies.
+
+Furthermore, it seems equally important to explain why constructs
+of interest do not appear to be confounded with this response bias. Iden-
+tifying factors that tend to mitigate elicitation of SDB—such as ele-
+ments within the experimental setting, wording of items on test instru-
+ments, and inclusion of controls to reduce demand bias—would
+positively benefit investigators in their efforts to formulate more con-
+taminant-free experimental designs. Authors’ introspection regarding
+this phenomenon, even as a footnote within their reports, could provide
+valuable insight for shaping future investigations.
+
+The debate continues over the extent to which social desirability bias
+represents an experimental contaminant whose effects must be par-
+tialled out versus the alternative view of SDB as a variable of theoretical
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 97
+
+ssdny wouy papEopuMod *z “OODE “E6L90ZS |
+
+   
+
+i
+2
+&
+:
+3
+3
+&
+8
+g
+3
+=
+3
+=
+:
+3
+3
+2
+S
+§
+2
+Q
+E
+=
+
+UeuBzEN BABIOg 39 5
+
+z
+9
+i
+gf
+4
+8
+3
+q
+z
+:
+Z
+2
+i
+
+ 
+
+9171 UNO A9p)\ Uo (suOMpUOS-pUE-suua/wa> apie
+
+   
+
+5
+8
+9
+3
+3
+i
+a
+a
+i
+9
+3
+i
+G
+3
+interest in its own right. Prediction and treatment of socially desirable
+responding within an experimental design will largely depend upon
+theoretical evaluation of SDB relative to the nomological network of
+interest. However, emerging interest in the dimensionality of SDB may
+contribute to future research in this regard. Recent identification and
+clarification of the self-deception and impression-management dimen-
+sions of SDB have substantially contributed to the conceptual develop-
+ment of this issue. Although development of the BIDR scale has signif-
+icantly advanced knowledge, much investigative work remains to refine
+the conceptual dimensions as well as to construct and test appropriate
+scales.
+
+Although there may be valid reasons why social-desirability bias
+should not be examined in some cases, such cases would seem, from this
+vantage, to be the exception rather than the rule. It is evident that social
+desirability influences the responses of consumers to many kinds of
+measures; to be unaware of the presence, direction, and extent of such
+a bias represents a highly risky endeavor. Instead of ignoring the pos-
+sibility of a confounding response bias in a scale, testing should be rou-
+tinely performed in order to purify the measure and aid in its future
+usage. Therefore, until such time when testing for SD bias is routine,
+the findings in much of the marketing research literature will have to
+be accepted with caution.
+
+REFERENCES
+
+Abrams, J. (1971). An evaluation of alternative rating devices for consumer
+research. In G. Aubaum & M. Venkatesan (Eds.), Scientific marketing re-
+search. New York: The Free Press.
+
+Arndt, J. (1985). On making marketing science more scientific: Role of orien-
+tations, paradigms, metaphors, and puzzle solving. Journal of Marketing, 49,
+11-23.
+
+Arnold, H. J. (1982). Moderator variables: A clarification of conceptual, analytic
+and psychometric issues. Organizational Behavior and Human Performance,
+29, 148-174.
+
+Arnold, H. J., Feldman, D. C., & Purbhoo, M. (1985). The role of social desir-
+ability response bias in turnover research. Academy of Management Journal,
+28, 955-966.
+
+Bagozzi, R. P. (1985). Social contingencies in the attitude model: A test of cer-
+tain interaction hypotheses. Social Psychology Quarterly, 48, 366-373.
+
+Ballard, R. (1992). Short forms of the Marlowe-Crowne social desirability scale.
+Psychological Reports, 71, 1155-1160.
+
+Ballard, R., Crino, M. D., & Rubenfeld, S. (1988). Social desirability response
+bias and the Marlowe-Crowne social desirability scale. Psychological Re-
+ports, 63, 227-237.
+
+Block, J. M. (1965). The challenge of response set: Unfounding meaning, ac-
+quiescence, and social desirability in the MMPI. New York: Appleton-Cen-
+tury-Crofts.
+
+ 
+
+98 KING AND BRUNER
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+Borkenau, P., & Ostendorf, F. (1989). Descriptive consistency and social desir-
+ability in self- and peer-reports. European Journal of Personality, 3, 31-45.
+
+Brinberg, D., & Hirschman, E. C. (1987). Multiple orientations for the conduct
+of marketing research: An analysis of the academic/practitioner distinction.
+Journal of Marketing, 50, 161-173.
+
+Bruner, G. C. IT. (1993). A census of multi-item scales used in marketing re-
+search (Technical Report No. 9305). Carbondale, IL: Southern Illinois Uni-
+versity, Office of Scale Research.
+
+Buckhout, R. (1965a). Need for social approval and attitude change. Journal of
+Psychology, 60, 123-128.
+
+Buckhout, R. (1965b). Need for social approval and dyadic verbal behavior.
+Psychological Reports, 16, 1013-1016.
+
+Buckhout, R. (1966). Changes in heart rate accompanying attitude change.
+Journal of Personality and Social Psychology, 4, 695-699.
+
+Campbell, D. R., & Fiske, D. W. (1959). Convergent and discriminant validation
+by the multitrait-multimethod matrix. Psychological Bulletin, 56, 81-105.
+Campbell, D. T., & Stanley, J. C. (1963). Experimental and quasi-experimental
+
+designs for research. Boston: Houghton Mifflin.
+
+Carlson, L., & Grossbart, S. (1988). Parental style and consumer socialization
+of children. Journal of Consumer Research, 15, 77-94.
+
+Childers, T. L., Houston, M. J., & Heckler, S. E. (1985). Measurement of indi-
+vidual differences in visual versus verbal information processing. Journal of
+Consumer Research, 12, 125-134.
+
+Churchill, G. A., Jr. (1979). A paradigm for developing better measures of mar-
+keting constructs. Journal of Marketing Research, 16, 64—73.
+
+Cofer, C. N., Chance, J., & Judson, A. J. (1949). A study of malingering on the
+MMPI. Journal of Psychology, 27, 491-499.
+
+Conger, A. J. (1974). A revised definition for suppressor variables: A guide to
+their identification and interpretation. Educational and Psychological Mea-
+surement, 34, 35—46.
+
+Cook, T. D., & Campbell, D T. (1979). Quasi-experimentation: Design and anal-
+ysis issues for field settings. Boston: Houghton Mifflin.
+
+Crino, M. D., Svoboda, M., Rubenfeld, S., & White, M. C. (1983). Data on the
+Marlowe—Crowne and Edwards social desirability scales. Psychological Re-
+ports, 53, 963-968.
+
+Crowne, D. P., & Marlowe, D. (1960). A new scale of social desirability inde-
+pendent of psychopathology. Journal of Consulting Psychology, 24, 349-354.
+
+Crowne, D. P., & Marlowe, D. (1964). The approval motive. New York: John
+Wiley & Sons.
+
+De Vellis, R. F. (1991). Scale development: Theory and applications. London:
+Sage Publications.
+
+Dicken, C. (1963). Good impression, social desirability and acquaintance as
+suppressor variables. Educational and Psychological Measurement, 23, 699—
+720.
+
+Dohrenwend, B. 8., Colombotos, J., & Dorhenwend, B. P. (1968). Social distance
+and interviewer effects. Public Opinion Quarterly, 32, 410-422.
+
+Edwards, A. L. (1957). The social desirability variable in personality assess-
+ment and research. New York: Dryden Press.
+
+Edwards, A. L. (1970). The measurement of personality traits by scales and
+inventories. New York: Dryden Press.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 99
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+Edwards, A. L., Diers, C. J., & Walker, J. N. (1962). Response sets and factor
+loadings on sixty-one personality scales. Journal of Applied Psychology, 46,
+220-225.
+
+Fisher, R. J. (1993). Social desirability bias and the validity of indirect ques-
+tioning. Journal of Consumer Research, 20, 303-315.
+
+Fraboni, M., & Cooper, D. (1989). Further validation of three short forms of the
+Marlowe—Crowne scale of social desirability. Psychological Reports, 65, 595—
+600.
+
+Friedman, M. L., & Churchill, G. A. (1987). Using consumer perceptions and a
+contingency approach to improve health care delivery. Journal of Consumer
+Research, 13, 492-510.
+
+Ganster, D. C., Hennessey, H. W., & Luthans, F. (1983). Social desirability
+response effects: Three different models. Academy of Management Journal,
+26, 955-966.
+
+Goldsmith, R. E. (1987). Self-monitoring and innovativeness. Psychological Re-
+ports, 60, 1017-1018.
+
+Goldsmith, R. E. (1989). A validity study of the affect intensity measure. Jour-
+nal of Social Behavior and Personality, 4, 183-140.
+
+Goode, W. J., & Hart, P. K. (1952). Methods in social science. New York: Mc-
+Graw-Hill.
+
+Greenbaum, C. W. (1966). Effect of situational and personality variables on
+improvisation and attitude change. Journal of Personality and Social Psy-
+chology, 4, 260-269.
+
+Greenblatt, R. L., Mozdzierz, G. J., & Murphy, T. J. (1984). Content and re-
+sponse-style in the construct validation of self-report inventories: A canonical
+analysis. Journal of Clinical Psychology, 40, 1414-1420.
+
+Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (in press). Measuring
+individual differences in implicit cognition: The implicit association test.
+Journal of Personality and Social Psychology.
+
+Greenwald, A. G., & Banaji, M. R. (1995). Implicit social cognition: Attitudes,
+self-esteem, and stereotypes. Journal of Personality and Social Psychology,
+102, 4-27.
+
+Greenwald, H. J. Satow, Y. (1970). A short social desirability scale. Psycholog-
+ical Reports, 27, 131-135.
+
+Humm, D. G., & Wadsworth, G. W., Jr. (1939). The Humm-Wadsworth tem-
+perament scale. Los Angeles: Doncaster G. Humm.
+
+Hunt, S. D. (1990). Truth in marketing theory and research. Journal of Mar-
+keting, 54, 1-15.
+
+Izard, C. E. (1977). Human emotion. New York: Plenum Press.
+
+Jacoby, J. (1978). Consumer research: A state of the art review. Journal of
+Marketing, 42, 87-96.
+
+Jones, E. E., & Sigall, H. (1971). The bogus pipeline: A new paradigm for mea-
+suring affect and attitude. Psychological Bulletin, 76, 349-364.
+
+Kogan, N. (1964). Risk taking: A study in cognition and personality. New York:
+Holt, Rinehart & Winston.
+
+Kogan, N., & Wallach, M. A. (1967). Group risk taking as a function of members’
+anxiety and defensiveness levels. Journal of Personality, 35, 50-63.
+
+Larsen, K. S., Martin, H. J., Ettinger, R. H., & Nelson, J. (1976). Approval
+seeking, social cost and aggression: A scale and some dynamics. Journal of
+Psychology, 94, 3-11.
+
+ 
+
+100 KING AND BRUNER
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+Lenski, G. E., & Leggett, J. C. (1960). Caste, class, and deference in the research
+interview. American Journal of Sociology, 65, 463-467.
+
+Malhotra, N. K. (1988). Some observations on the state of the art in marketing
+research. Journal of the Academy of Marketing Science, 16, 4-24.
+
+Marks, D. F. (1973). Visual imagery differences in the recall of pictures. British
+Journal of Psychology, 64, 17-24.
+
+McNemar, Q. (1969). Psychological statistics. New York: John Wiley & Sons.
+
+Meehl, P. E., & Hathaway, S. R. (1946). The k factor as a suppressor variable
+in the MMPI. Journal of Applied Psychology, 30, 525-564.
+
+Mick, D. G. (1996). Are studies of dark side variables confounded by socially
+desirable responding? The case of materialism. Journal of Consumer Re-
+search, 23, 106-119.
+
+Miller, N., Doob, A. N., Butler, D. C., & Marlowe, D. (1965). The tendency to
+agree: Situational determinants and social desirability. Journal of Experi-
+mental Research in Personality, 1, 78-83.
+
+Moore, E. M., Bearden, W.O., & Teel, J. E. (1985). Use of labeling and assertions
+of dependency in appeals for consumer support. Journal of Consumer Re-
+search, 12, 90-96.
+
+Moorman, R. H., & Podsakoff, P. M. (1992). A meta-analytic and empirical test
+of the potential confounding effect of social desirability response sets in or-
+ganizational behavior research Journal of Occupational and Organizational
+Psychology, 56, 181-149.
+
+Muncy, J. A., & Fisk, R. P. (1987). Cognitive relativism and the practice of
+marketing science. Journal of Marketing, 51, 20-33.
+
+Nederhof, A. J. (1985). Methods of coping with social desirability bias: A review.
+European Journal of Social Psychology, 15, 263-280.
+
+Nunnally, J. C. (1967). Psychometric theory. New York: McGraw-Hill.
+
+Nunnally, J. C., & Bernstein, I. H. (1994). Psychometric theory. New York:
+McGraw-Hill
+
+Orne, M. T. (1969). Demand characteristics and the concept of quasi-controls.
+In R. Rosenthal & R. L. Rosnow (Eds.), Artifact in behavioral research
+(pp.148-—179). New York: Academic Press.
+
+Park, C. W., & Lessig, V. P. (1977). Students and housewives: Differences in
+susceptibility to reference group influence. Journal of Consumer Research,
+4, 102-110.
+
+Paulhus, D. L. (1991). Measurement and control of response bias. In John P.
+Robinson et al. (Eds.), Measures of personality and social psychological at-
+titudes, (Vol. 1, pp. 17-59.). New York: Academic Press.
+
+Paulhus, D. L. (1992). Assessing self-deception and impression management in
+self-reports: The balanced inventory of desirable responding (Reference man-
+ual, version 6). Vancouver, BC: University of British Columbia.
+
+Paulhus, D. L. (1984). Two-component models of socially desirability respond-
+ing. Journal of Personality and Social Psychology, 46, 598-609.
+
+Paulhus, D. L. (1986). Self-deception and impression management in test re-
+sponses. In A. Angleitner & J.S. Wiggins (Eds.), Personality assessment via
+questionnaire (pp. 143-165). New York: Springer.
+
+Peltier, B. D., & Walsh, J. A. (1990). An investigation of response bias in the
+Chapman Scale. Educational and Psychological Measurement, 50, 803-815.
+
+Peter, P. J. (1979). Reliability: A review of psychometric basics and recent mar-
+keting practices. Journal of Marketing Research, 16, 6—17.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 101
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+Peter, P. J. (1981). Construct validity: A review of basic issues of marketing
+and practices. Journal of Marketing Research, 18, 133-145.
+
+Peter, P. J., & Churchill, G. A., Jr. (1986). Relationships among research design
+choices and psychometric properties of rating scales: A meta-analysis. Jour-
+nal of Marketing Research, 23, 1-10.
+
+Raju, P. S. (1980). Optimum stimulation level: Its relationship to personality,
+demographics, and exploratory behavior. Journal of Consumer Research, 7,
+272-282.
+
+Randall, D. M., & Fernandes, M. F. (1991). The social desirability response bias
+in ethics research. Journal of Business Ethics, 10, 805-817.
+
+Rentz, J. O. (1988). An exploratory study of the generalizability of selected
+marketing measures. Journal of the Academy of Marketing Science, 16, 141—
+150.
+
+Reynolds, W. M. (1982). Development of reliable and valid short forms of the
+Marlowe—Crowne social desirability scale. Journal of Clinical Phsychology,
+38, 119-125.
+
+Richins, M. L. (1983). An analysis of consumer interaction styles in the mar-
+ketplace. Journal of Consumer Research, 10, 73-82.
+
+Richins, M. L., & Dawson, S. (1990). Measuring material values: A preliminary
+report of scale development. In M. E. Goldberg, G. Gorn, & R. W. Pollay (Eds.)
+Advances in consumer research (Vol. 17, pp. 169-175). Provo, UT: Associa-
+tion for Consumer Research.
+
+Richins, M. L., & Dawson, S. (1992). A consumer values orientation for mate-
+rialism and its measurement: Scale development and validation. Journal of
+Consumer Research, 19, 303-316.
+
+Robinette, R. L. (1991). The relationship between the Marlowe—Crowne Form
+c and the validity scales of the MMPI. Journal of Clinical Psychology, 47,
+396-399.
+
+Robinson, J. P., & Shaver. P. R. (1973). Measures of social psychological atti-
+tudes. Ann Arbor, MI: University of Michigan, Institute for Social Research.
+
+Sabourin, S., Bourgeois, L., Gendreau, P., & Morval, M. (1989). Self-deception,
+impression management, and consumer satisfaction with mental health
+treatment. Psychological Assessment, 1, 126-229.
+
+Sackeim, H. A., & Gur, R. C. (1978). Self-deception, self-confrontation and con-
+sciousness. In G. E. Schwartz & D. Shapero (Eds.) Consciousness and self-
+regulation: Advances in research and theory (Vol. 2, pp. 189-197). New York:
+Plenum.
+
+Sackeim, H. A., & Gur, R. C. (1979). Self-deception, other-deception and self-
+reported psychopathology. Journal of Consulting and Clinical Psychology, 47,
+213-215.
+
+Saxe, R., & Weitz, B, A. (1982). The SOCO scale: A measure of the customer
+orientation of salespeople. Journal of Marketing Research, 14, 348-351.
+
+Schuessler, K. F., Hittle, D., & Cardascia, J. (1978). Measuring responding
+desirability with attitude-opinion items. Social Psychology, 41, 224-235.
+
+Skipper, R., & Hyman, M. R. (1987). Evaluating and improving argument-cen-
+tered works in marketing. Journal of Marketing, 51, 60—75.
+
+Skipper, R., & Hyman, M. R. (1990). Marketing and logical thought. Journal
+of Marketing, 54, 89-92.
+
+Strahan, R., & Gerbasi, K. C. (1972). Short, homogenous versions of the Mar-
+
+ 
+
+102 KING AND BRUNER
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+lowe-Crowne social desirability scale. Journal of Clinical Psychology, 28,
+191-193.
+
+Sudman, S., & Bradburn, N. M. (1974). Response effects in surveys. Chicago:
+Aldine.
+
+Thomas, K. W., & Kilmann, R. H. (1975). The social desirability variable in
+organizational research: An alternative explanation for reported findings.
+Academy of Management Journal, 18, 741-752.
+
+Unger, L. S., & Kernan, J. B. (1983). On the meaning of leisure: An investi-
+gation of some determinants of the subjective experience. Journal of Con-
+sumer Research, 9, 381-391.
+
+Westbrook, R. A. (1980). Intrapersonal affective influences on consumer satis-
+faction with products. Journal of Consumer Research, 7, 49-54.
+
+Westbrook, R. A. (1987). Product/consumption based affective responses and
+postpurchase processes. Journal of Marketing Research, 24, 258-270.
+
+White, K., Sheehan, P. W., & Ashton, R. (1977). Imagery assessment: A survey
+of self-report measures. Journal of Mental Imagery, 1, 145-170.
+
+Wiggins, J. 8. (1959). Interrelationships among MMPI measures of dissimu-
+lation under standard and social desirability instructions. Journal of Con-
+sulting Psychology, 28, 419-427.
+
+Zerbe, W. J., & Paulhus, D. L. (1987). Socially desirable responding in orga-
+nizational behavior: A reconception. Academy of Management Review, 12,
+250-264.
+
+Correspondence regarding this article should be sent to: Maryon F. King, De-
+partment of Marketing, College of Business and Administration, Southern I-
+linois University, Rehn Hall, Room 229, Mail: Code:4629, Carbondale, IL
+62901-4629.
+
+ 
+
+SOCIAL DESIRABILITY RESPONSE BIAS 103
+
+auMOA BYIEH JO Answ@AIUE) Aq O-Z:0D' 0 E<TMY W-CIV=6L> ZL | (ZO000Z)E6L9-OFS [(IDIS)/200 | OL opAUOD Kapya Kieaquauuosr-sdny Woy papEo|UMOG *z “OOD “E6LIOZS |
+
+UeuBzEN BABIOg 39 5
+
+loMpUOD pu SUD] aN 29g ‘[zzZOz/L LZ] Uo &emsgT] UNC KATA
+
+IpuND-puE-suusyuios Kaye EseaqaUyUo}: say) SU
+
+aauady] suouMED aaeaig a1qeaydde o41 £q pausano® are sajorue WO ‘asm yo say ay Aazsq)7 aUYUC KaYA\ UO (uO
+

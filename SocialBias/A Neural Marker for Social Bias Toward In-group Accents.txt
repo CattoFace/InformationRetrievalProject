@@ -1,0 +1,559 @@
+                                                                               Cerebral Cortex, October 2015;25: 3953–3961
+
+                                                                               doi: 10.1093/cercor/bhu282
+                                                                               Advance Access Publication Date: 1 December 2014
+                                                                               Original Article
+
+
+
+
+ORIGINAL ARTICLE
+
+
+
+
+                                                                                                                                                        Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+A Neural Marker for Social Bias Toward
+In-group Accents
+Patricia E.G. Bestelmeyer1, Pascal Belin2,3,4, and D. Robert Ladd5
+1
+ School of Psychology, Bangor University, Bangor, Gwynedd, UK, 2Institute of Neuroscience and Psychology,
+University of Glasgow, Glasgow, UK, 3International Laboratories for Brain, Music and Sound Research,
+Université de Montréal & McGill University, Montréal, Canada, 4Institut des Neurosciences de La Timone,
+UMR 7289, CNRS & Aix-Marseille Université, Marseille, France, and 5School of Philosophy, Psychology and
+Language Sciences, University of Edinburgh, UK
+Address correspondence to Dr Patricia Bestelmeyer, School of Psychology, Bangor University, Bangor, Gwynedd, LL57 2AS, UK.
+Email: p.bestelmeyer@bangor.ac.uk
+
+
+
+
+Abstract
+Accents provide information about the speaker’s geographical, socio-economic, and ethnic background. Research in applied
+psychology and sociolinguistics suggests that we generally prefer our own accent to other varieties of our native language and
+attribute more positive traits to it. Despite the widespread inﬂuence of accents on social interactions, educational and work
+settings the neural underpinnings of this social bias toward our own accent and, what may drive this bias, are unexplored. We
+measured brain activity while participants from two different geographical backgrounds listened passively to 3 English accent
+types embedded in an adaptation design. Cerebral activity in several regions, including bilateral amygdalae, revealed a
+signiﬁcant interaction between the participants’ own accent and the accent they listened to: while repetition of own accents
+elicited an enhanced neural response, repetition of the other group’s accent resulted in reduced responses classically associated
+with adaptation. Our ﬁndings suggest that increased social relevance of, or greater emotional sensitivity to in-group accents,
+may underlie the own-accent bias. Our results provide a neural marker for the bias associated with accents, and show, for the
+ﬁrst time, that the neural response to speech is partly shaped by the geographical background of the listener.
+
+Key words: accent, fMRI, group membership, language
+
+
+
+
+Introduction                                                                   group memberships (e.g., Tajfel and Turner 1979; Turner et al.
+                                                                               1987). Thus the groups we belong to shape our attitudes deter-
+Humans perceive their surroundings in terms of categories in                   mine the language we speak and which accent we have. The pur-
+which they compare the sensory information to several stored re-               pose of the formation of these categories is thought to simplify
+presentations of objects, individuals, or social situations. Social            the overwhelming environment the perceiver is confronted
+categorization involves classifying individuals in terms of the                with (Brewer 1988; Fiske and Neuberg 1990), but this computa-
+groups they belong to (in-group) or do not belong to (out-group)               tional reductionism comes with costs. Social identity theory
+and is a fundamental process in person perception (Bartlett                    predicts that group membership causes an enhancement and
+1932; Bruner 1957, 1958). Social theorists have argued that, in                favoritism of the in-group at the expense of the out-group. This
+addition to our personal identities, these social categories are               theory has found support in numerous experimental studies
+so important to us that our identity is partially based on these               which have reported that the mere perception of belonging, or
+
+
+© The Author 2014. Published by Oxford University Press.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/),
+which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+   3954    | Cerebral Cortex, 2015, Vol. 25, No. 10
+
+
+
+even just the awareness of the presence of 2 distinct groups, is            activity as a consequence of stimulus repetition and has widely
+sufﬁcient for a bias toward or favoring of the in-group (Tajfel             been used to reveal neural populations tuned to respond to spe-
+et al. 1971; Doise et al. 1972; Billig and Tajfel 1973; Tajfel and Billig   ciﬁc stimulus attributes [see Grill-Spector et al. (2006) for a re-
+1974; Turner 1975). Later studies have suggested that this bias oc-         view]. While the underlying mechanisms of adaptation are still
+curs without conscious awareness and involves positive affect               debated there is agreement that the amount of repetition sup-
+toward the in-group (Dovidio and Gaertner 1993) even when the               pression (or decrease in neural activity) is related to the ability
+in-group is novel or based on arbitrary categorization (Otten and           of the neural population to discriminate repeating stimuli
+Moskowitz 2000).                                                            (Grill-Spector et al. 2006). In other words, the more similar two re-
+    Many aspects of group identity are conveyed by a person’s ac-           peating stimuli are perceived to be the greater the amount of
+cent, including geographical, socio-economic, and ethnic back-              repetition suppression. Conversely, it has been shown that if re-
+ground (Labov 2006). Listeners are highly sensitive to these                peated stimuli are of greater social relevance or are more at-
+
+
+
+
+                                                                                                                                                    Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+phonetic, phonological, and prosodic variations in speech and               tended to, repetition suppression is less pronounced, and may
+often use the information provided by accents to make important             even result in increased neural activity or repetition enhance-
+social judgments about the speaker such as the speaker’s person-            ment [Kouider et al. 2007; Nakamura et al. 2007; and see Segaert
+ality (Dailey et al. 2005). In line with social identity theory, indivi-    et al. (2013) for a review]. A neural marker for social bias toward
+duals typically judge their own accent or the accent most similar           in-group accents should be evident in an interaction between
+to their own as more favorable (Hurt and Weaver 1972; Mulac                 speaker and listener accent. There are at least 2 possible hypoth-
+et al. 1974; Ryan and Sebastian 1980; Edwards 1982; Coupland                eses regarding the neural substrates and also the direction this
+and Bishop 2007) and trustworthy (Lev-Ari and Keysar 2010). An              interaction may involve. These are outlined below.
+own-race bias for voices has recently been demonstrated in                      One possible explanation for the positive bias toward own-ac-
+White and Black Americans (Perrachione et al. 2010). In this                cented speakers may be driven by an emotional reaction toward
+study participants were relatively accurate at categorizing the             them. Neuroscientiﬁc research on vocal emotion and affective
+race of the speakers. Both races displayed an advantage of iden-            prosody converges on the involvement of largely right-lateralized
+tifying their own racial group, the hallmark of an own-group bias           activation of the mid and superior temporal gyri (Mitchell et al.
+effect. However, this accuracy was largely driven by the dialect of         2003; Grandjean et al. 2005; Wildgruber et al. 2005; Ethofer et al.
+the speakers rather than differences in vocal structure of the 2            2006; 2009; Leitman et al. 2010), insulae (Klasen et al. 2011; Früh-
+races and as such Perrachione et al. (2010) provide further evi-            holz and Grandjean 2012) and IFG (Ethofer et al. 2012; Frühholz
+dence for the existence of an own-accent bias. Cohen (2012) pro-            and Grandjean 2012) as well as subcortical structures such as
+poses that accents have evolved to furnish the “honest signal” of           the basal ganglia (Pell and Leonard 2003) and amygdalae (Phillips
+group membership needed to drive the growth of non-kin co-                  et al. 1998; Morris et al. 1999; Sander and Scheich 2001; Sander
+operation in human evolutionary history.                                    et al. 2003, 2005; Fecteau et al. 2007; Wiethoff et al. 2009; Leitman
+    Applied research supports the impact of this own-accent bias.           et al. 2010; Klasen et al. 2011; Ethofer et al. 2012; Frühholz and
+In higher education, for example, North American students rated             Grandjean 2013). Though the amygdalae used to be seen as the
+North American teachers more favorably and recalled more in-                center for affective information processing we now know that
+formation from their lessons than from teachers who spoke Brit-             these structures much more broadly deal with social cognition
+ish or Malaysian-accented English (Gill 1994). Similarly, a recent          and particularly social relevance (e.g., Schirmer et al. 2008).
+study on “ear witness” memory reported an interaction between               Hence these structures have been dubbed “relevance detectors”
+witness accent and offender’s accent in that Scottish and English           (Sander et al. 2003). Areas responding to vocal emotion and, more
+ear witnesses were less conﬁdent in their judgment and more                 generally, social relevance, would therefore be likely candidates
+prone to confuse offenders who spoke in a different accent to               for coding group membership based on accents with reduced repe-
+their own (Stevenage et al., (2012); see also Philippon et al.              tition suppression to own compared with other accents.
+(2007) for a similar result with familiar versus unfamiliar ac-                 An alternative, but not mutually exclusive, hypothesis comes
+cented speech). Individuals with out-group accents may sound                from theories developed in cognitive psychology and linguistics
+more alike and may therefore be more easily confused (Williams              based on the notion of stored prototypes which aid categoriza-
+et al. 1999). Developmental research comparing native and for-              tion (Rosch 1973; Valentine 1991). This may be the reason for fas-
+eign-accented speech shows that this bias emerges early in life             ter adjustment or normalization to familiar compared with
+and cannot be entirely explained by intelligibility of foreign-             foreign-accented sentences [Floccia et al. 2006, although this pat-
+accented speech: by 5 years of age children prefer native to for-           tern was not evident for single words; see also Evans and Iverson
+eign-accented speakers as friends even when they comprehend                 (2004) and Cristia et al. (2012) for a comprehensive review]. In this
+both speakers (Hirschfeld and Gelman 1997; Kinzler et al. 2007).            view, the own-accent bias could be due simply to a familiar in-
+    The neuroscience of accent perception has only recently re-             ternal representation or prototype of our own accent; any accent
+ceived attention in a study which investigated the neural sub-              that deviates from this acoustic prototype would be classed as
+strates of accent processing of standard Dutch and an artiﬁcial,            distinct or “other.” It is also consistent with recent research
+novel variation of Dutch (Adank et al. 2012). It revealed that bilat-       showing that voices located further away from the average
+eral mid and superior temporal gyri (STG), planum temporale, as             voice (or prototype) are judged as more distinctive and less
+well as left inferior frontal gyrus (IFG) are involved in processing        attractive (Bruckert et al. 2010; Bestelmeyer et al. 2012). This
+accents. Some of the reported activations overlapped with re-               research has found that increasing vocal distinctiveness corre-
+gions that also respond preferentially to vocal compared with               lates positively with fMRI signal in bilateral TVAs. If the existence
+non-vocal sounds known as the temporal voice areas (TVAs)                   of familiar acoustic prototypes is the basis of the own-accent
+(Belin and Zatorre 2000; Grandjean et al. 2005; Lewis et al. 2009;          bias, we would predict the neural correlates of the interaction be-
+Bestelmeyer et al. 2011). This study probed accent perception               tween listener and speaker accent in specialized auditory re-
+using a tool commonly used in cognitive science known as adap-              gions. Importantly, given the ﬁndings on faster normalization
+tation. Adaptation, also referred to as the “psychologist’s micro-          to familiar compared with unfamiliar accents we would expect
+electrode” (Frisby 1980), usually results in a reduction of neural          the reverse interaction to the one expected if the bias was driven
+                                                                         A Neural Marker for Social Bias    Bestelmeyer et al.   | 3955
+
+
+
+by social relevance or emotion. In other words, we would predict          Importantly, these trials helped ensure that participants would
+increased repetition suppression to own compared with other               remain unaware of the purpose of the study. Stimuli were nor-
+accents.                                                                  malized in energy (root mean square). The duration of the 9
+    The aim of the present study was to identify a neural marker          speech samples ranged from 1.18 to 1.86 s. Post hoc tests revealed
+for the bias toward the accent of the in-group, and to discriminate       that speech recordings of the 3 accent types did not differ signiﬁ-
+between the two possible explanations outlined—affective pro-             cantly in F0, f1, f2, HNR, and duration.
+cessing versus prototype representation—to account for the                    We employed a continuous carry-over design (Aguirre 2007) to
+own-accent bias. We used functional magnetic resonance im-                measure the effects of one stimulus upon the next using a ﬁrst-
+aging (fMRI) to measure blood oxygenation level-dependent                 order serially balanced sequence of stimuli known as type-1-
+(BOLD) signal which is an indirect index of neuronal activity.            index-1 (Nonyane and Theobald 2007). In this sequence each
+We scanned 2 groups of participants naïve to the purpose of               stimulus is preceded and followed by every other stimulus an
+
+
+
+
+                                                                                                                                                Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+the study: one from Scotland and the other from the South of              equal number of times and was deﬁned by 9 items (3 accents ×
+England, while they passively listened to 3 different native English      3 number sequences). Each run therefore consisted of 82 stimuli
+accents (Southern English, Scottish, and American) expressed in           and was repeated 9 times. Each run was divided by 20 s of silence.
+short utterances of numbers. A strong test of the own-accent              Stimuli were presented binaurally using the electrostatic NNL
+bias requires a signiﬁcant interaction between the accent of the lis-     headphone system (NordicNeuroLab, Inc.) at an intensity of
+tener and the accent of the speaker. We therefore speciﬁcally pre-        80 dB SPL(C). Participants were asked to keep their eyes closed,
+dicted an interaction with 2 alternative patterns of activations and      listen passively to the numbers, and press a button at the begin-
+explanations. The ﬁrst possible hypothesis leads us to expect this        ning and end of each run. All 9 runs were acquired in one session.
+interaction in areas which are involved in vocal affect perception        No participant missed more than 2 button presses.
+and relevance detection such as superior and midtemporal                      During the voice localizer participants were instructed to lis-
+gyrus/sulcus (STG/STS), IFG, and amygdala. If the own-accent              ten passively to 10 s blocks of either vocal sounds (n = 21) or
+bias is better explained by the notion of an internal prototype,          non-vocal sounds (n = 21) interspersed with silent blocks (n = 21)
+against which all other accents are evaluated, we would expect            presented in a pseudo-randomized order. Each block started
+the interaction to be exclusive to areas that encode acoustic differ-     with 2 s of silence followed by 8 s of different stimuli of the
+ences such as Heschl’s gyri and secondary auditory cortex.                same category (see Belin and Zatorre (2000). Vocal sounds consist
+                                                                          of brief segments of speech (e.g., syllables, words, and sentences
+                                                                          in foreign languages) and non-speech (e.g., laughs, sighs, coughs)
+Method                                                                    vocalizations. Non-vocal sounds consist of industrial and envir-
+Participants                                                              onmental sounds.
+                                                                              After scanning, participants were asked to categorize all
+Twenty Scottish volunteers from the undergraduate and post-               voices in terms of their accent to make sure participants were
+graduate community of the University of Glasgow took part (11             able to recognize each accent. Each of the 3 digit strings of each
+females, mean age = 23.45, standard deviation (SD) = 3.62).               of the 9 speakers were presented 3 times via Beyerdynamic head-
+Twenty Southern English participants from the undergraduate               phones in a quiet room at an intensity of 70 dB SPL (C). Partici-
+and postgraduate communities of the Universities of Glasgow               pants had to press one of the 3 buttons in response to each
+and Edinburgh took part (8 females, mean age = 18.80, SD = 1.44).         accent (a total of 81 trials). We used the Psychtoolbox3 (Brainard
+The Scottish participants had all lived their whole life in Scot-         1997; Pelli 1997) for stimulus presentation in the fMRI and behav-
+land. Southern English participants had all lived their whole             ioral task based on MatlabR2007b (Mathworks, Inc.).
+life in the South of England and most had been in Scotland for
+no longer than 4 months. All participants spoke with an accent
+that was typical of their geographical origin. Participants were          Image Acquisition and Analysis
+naïve to the purpose of the study, reported normal hearing and            All MRI scans were acquired in a 3.0 T Siemens Tim Trio scanner
+were reimbursed £12 for their time (£6/h) plus £20 if they had to         using a 12-channel head coil. Both T2*-weighted functional scans
+travel from Edinburgh. Informed consent was obtained from all             were acquired using an echo-planar imaging (EPI) sequence (32
+individuals and the study protocol was approved by the local              axial slices; voxel size: 3 × 3 × 3 mm3; 70 × 70 matrix; ﬂip angle:
+ethics committee.                                                         77°; FOV = 210; 0.3 mm gap between slices) and an interleaved as-
+                                                                          cending order. The experimental run consisted of one fast event-
+                                                                          related scan (TR = 2 s, TE = 30 ms; 828 volumes; 28 min). The voice
+Stimuli and Paradigms
+                                                                          localizer (TR = 2 s; TE = 30 ms; 310 volumes; 10 min) allows reli-
+A total of 14 female native southern English, Scottish, and Gen-          able identiﬁcation of the temporal voice areas (TVAs) using the
+eral American speakers were selected and recorded by an experi-           vocal versus non-vocal contrast. In both functional scans the
+enced phonetician in a professional-quality studio at the                 sounds were superimposed on scanner noise. Whole brain
+University of Edinburgh. Speakers were recorded uttering 8 dif-           T1-weighted anatomical scans were performed using fast gradi-
+ferent 4-digit numbers. Stimuli were tested for recognizability           ent echo known as T1 “Magnetization Prepared Rapid Gradient
+in a brief pilot study of 10 naïve native British English participants    Echo” (MPRAGE; 192 axial slices; voxel size: 1 × 1 × 1 mm3; 256 ×
+(who did not participate in the MRI study). In this pilot study, each     256 matrix) performed at the end of the experimental session.
+stimulus was presented twice. We selected 3 speakers of each ac-              All MRI data were analyzed using SPM8 (Wellcome Depart-
+cent group and each speaker uttered 3 types of number se-                 ment of Imaging Neuroscience, 1994–2007; http://www.ﬁl.ion.
+quences (“1-4-2-9”, “2-4-5-8,” and “9-8-3-4”). The selection of           ucl.ac.uk/spm). First, anatomical scans were AC-PC aligned with
+these speakers was based on high categorization accuracy                  the re-orientation applied to all EPI scans done in the same ses-
+(∼90%) on a self-paced 3-alternative forced choice task.                  sion. Pre-processing of functional scans consisted of corrections
+    General American accents served as ﬁller trials or “null              for head motion (spatial realignment; trilinear interpolation) and
+events” and were modelled at ﬁrst- and second-level analyses.             scans were realigned to the ﬁrst volume of the last functional
+   3956    | Cerebral Cortex, 2015, Vol. 25, No. 10
+
+
+
+scan (i.e., the volume closest to the anatomical scan). Functional     for all accents (all t > 13.5, P < 0.0001). We carried out a mixed-de-
+runs were then co-registered to their corresponding individual         sign ANOVA to test for the predicted interaction between partici-
+anatomical scans. Functional (3 mm isotropic voxels) and ana-          pant group and accent type (Southern English, Scottish) which
+tomical (1 mm isotropic voxels) data were transformed to Mon-          was signiﬁcant (F1, 37 = 4.31, P = 0.045, pη 2 = 0.10). An independent
+treal Neurological Institute (MNI) space after segmentation of         samples t-test revealed that this interaction was driven by the
+the anatomical scans. Normalized data were spatially smoothed          Scottish group being signiﬁcantly better at recognizing their
+by applying a Gaussian kernel of 8 mm full width at half               own accent compared with the Southern English accent (t (3,7) =
+maximum.                                                               −3.13, P = 0.003). The English group was equally good at recogniz-
+    The experimental run was analyzed using parametric modu-           ing either accent (t (3,7) = −1.33, P = 0.19) possibly because this
+lations to keep it consistent with previous literature on carry-over   group had already lived in Scotland for several months at the
+designs (e.g., Aguirre 2007; note that the data could also be ana-     time of testing.
+
+
+
+
+                                                                                                                                                Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+lyzed categorically—this equivalent analysis yields very similar
+results and is detailed in Supplementary material section). We
+                                                                       Neuroimaging Results
+coded each accent separately with 0 corresponding to “no
+carry-over” (no accent repetition) and 1 corresponding to              Contrasts of each accent versus the silent baseline showed the
+“carry-over” (accent repetition) trials. The analysis therefore con-   classic pattern of bilateral auditory activation in both the Scottish
+sisted of 3 main parametric modulators of interest: carry-over         and English listeners. Similarly, all participants had normal bilat-
+effects for the 1) Southern English accent, 2) Scottish accent,        eral activations in response to vocal compared with non-vocal
+and 3) American accent. Typically, in a parametric modulation          sounds (e.g., bells) as assessed with the voice localizer block de-
+analysis in SPM8, additional regressors are orthogonalized from        sign (Belin and Zatorre 2000) with the expected group maximum
+left to right in a given matrix so that the shared variance of one     in right STG/STS (Scottish: 54 -19 1, cluster size (k) = 560, T-value
+regressor is removed from the next (Büchel et al. 1998). However,      = 13.14; English: 63 -22 -2, k = 438, T-value = 17.47) and a second
+we disabled this feature in SPM8 so that the order in which the        cluster in the left STS/STG (Scottish: -63 -16 1, k = 443, T-value =
+parametric modulators were entered did not affect the results          12.90; English: -60 -16 4, k = 445, T-value = 14.71). A 2-sample
+and allowed us to investigate the unique variance of each regres-      t-test revealed no signiﬁcant differences (P > 0.05; corrected at
+sor (see http://imaging.mrc-cbu.cam.ac.uk/imaging/Parametric           cluster level) between groups in terms of their neural activations
+Modulations for details).                                              to voices compared with environmental sounds.
+    We checked that the groups did not differ in their basic voice         The predicted interaction between the geographical back-
+cognition abilities by assessing any group differences in the TVAs     ground of the participant and the accent type the participant lis-
+using a two-sample t-test. We tested for the predicted interaction     tened to is illustrated in Figure 2A–D with the parameter
+by computing a ﬂexible factorial design ANOVA. This design             estimates to the American accent shown in gray for complete-
+assessed the variance of several factors: 1) subjects, 2) groups       ness. Participants of both groups showed repetition enhance-
+(2 levels: southern English, Scottish participants), and 3) con-       ment to their own accent but decreased neural response (or
+ditions (3 levels: Southern English, Scottish, and American            repetition suppression) to the repetition of the other group’s ac-
+accents). We used this design to examine increased activations         cent. Signiﬁcant clusters emerged in left amygdala (Fig. 2A; peak
+to repetitions of a groups’ own accent compared with the accent        maximum: −24 8 −20 involving left midtemporal gyrus with
+of the other participant group as well as the reverse interaction      k = 607 and T-value = 4.84), right amygdala (Fig. 2(B); peak max-
+(note we modeled the American accent but did not include it in         imum: 33 −1 −20 involving right midtemporal gyrus with k = 190
+the interaction contrast).                                             and T-value = 4.58), right rolandic operculum (Fig. 2C; peak max-
+    Reported results are from whole brain analyses. For the voice      imum: 60 −19 16; involving insula and STG with k = 395 and T-
+localizer block design we used a conservative threshold of             value = 4.90) and anterior cingulum (Fig. 2(D); peak maximum: 0
+P < 0.05, family-wise error (FWE) corrected at the voxel level for     23 22 with k = 217 and T-value = 3.88). In these regions, consecutive
+the whole brain. For the fast event-related design, statistical sig-   stimuli spoken with the participant’s regional accent led to activ-
+niﬁcance was assessed at FWE corrected at the cluster level with       ity increases, while repetition of the out-group accent led to the
+a threshold of P < 0.05 (corresponding to a cluster size of at least   classic repetition-induced activity decreases. No brain region
+50 voxels). Results are illustrated on an average anatomical           showed the reverse interaction, that is, we found no areas that re-
+scan using MRIcron (Rorden et al. 2007) at a height threshold of       sponded more to the accent of the out-group. Figure 2E shows the
+P < 0.001 (uncorrected) and an extent threshold of 50 voxels to il-    overlap between the voice-sensitive regions (as revealed by the
+lustrate all signiﬁcant maxima (Fig. 2A–D). Illustration of the        voice localizer) and the activation from the predicted interaction.
+voice localizer (Fig. 2E) is set at P < 0.05 (FWE corrected at voxel
+level). To illustrate parameter estimates in Figure 2 we used
+SPM8’s built-in function (spm_graph.m) to extract the beta esti-
+                                                                       Discussion
+mates at the 4 peak maxima within a sphere (radius of 3 mm).           This study aimed at identifying a neural marker for the social
+Anatomical cluster location was assessed with xjview (8.1; http://     bias toward own accents. While this bias has been reported on
+www.alivelearn.net/xjview) and cross checked with Duvernoy’s           in various areas of psychology, education, marketing, and socio-
+brain atlas (Duvernoy 1999) to ensure accuracy.                        linguistics, its neural underpinnings were unexplored. Our neu-
+                                                                       roimaging data are the ﬁrst to provide a neural signature for the
+                                                                       “own-accent bias” evidenced as a signiﬁcant interaction between
+Results                                                                the accent of the participant and the accent of the speakers. Spe-
+                                                                       ciﬁcally, repetitions of the participant’s own accent were asso-
+Behavioral Results
+                                                                       ciated with increased activation in bilateral amygdalae, right
+Results of a behavioral test evaluating the ability of listeners to    rolandic operculum, and anterior cingulum, while repetitions of
+identify the 3 accents correctly are summarized in Figure 1.           the other group’s accent showed decreased activations in these
+Both groups performed signiﬁcantly better than chance level            regions. In contrast, there were no signiﬁcant ﬁndings of the
+                                                                                A Neural Marker for Social Bias     Bestelmeyer et al.    | 3957
+
+
+
+                                                                                     Voice-sensitive cortex has also been shown to respond more
+                                                                                 to more behaviorally relevant stimuli. More speciﬁcally, when
+                                                                                 Ethofer et al. (2007) presented female and male listeners with
+                                                                                 erotic prosody spoken by female and male actors voice-sensitive
+                                                                                 cortex ( particularly right superior midtemporal gyrus) responded
+                                                                                 more to the voices of the opposite sex. Thus voice-sensitive cor-
+                                                                                 tex, with which our own-accent interaction partially overlaps,
+                                                                                 also shows sensitivity to voices that have high behavioral rele-
+                                                                                 vance for the listener. Another study which is relevant for the in-
+                                                                                 terpretation of our ﬁndings contrasted pleasant with unpleasant
+                                                                                 musical excerpts. This research revealed activation patterns in
+
+
+
+
+                                                                                                                                                         Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+                                                                                 bilateral IFG, ventral striata, Heschl’s gyri, and rolandic opercula
+                                                                                 as well as subcortical structures such as the amygdala and hippo-
+                                                                                 campus (Koelsch et al. 2006). Heschl’s gyri and rolandic opercula
+                                                                                 are also areas which respond to vocal affect (Ethofer et al. 2012).
+                                                                                 Our activation patterns, as revealed by the interaction between
+                                                                                 listener and speaker accent, show remarkable resemblance to
+                                                                                 activations in response to pleasant music, vocal affect, and stim-
+                                                                                 uli with increased behavioral relevance to the participant. Taken
+                                                                                 together our results support an emotional account of the own-
+                                                                                 accent bias.
+                                                                                     The present study used an adaptation paradigm to investigate
+Figure 1. Bar graphs represent response accuracy (%) for each of the two
+                                                                                 a neural marker for the bias toward own accents. Neurally, fMRI
+participant groups for the 3 different accents. Error bars represent standard
+error of the mean.                                                               adaptation to a speciﬁc stimulus is typically accompanied by
+                                                                                 a decrease in the hemodynamic response (Grill-Spector et al.
+                                                                                 2006). The rationale behind adaptation studies is that repeti-
+reverse interaction, that is, of stronger activation to out-group                tion of the same stimulus type results in response suppression
+accents. Our results are the ﬁrst to suggest a neural signature                  which reveals neural populations that are tuned to the process-
+for social group membership conveyed simply by means of                          ing of a speciﬁc stimulus attribute, that is, repetition suppression
+regional variations in pronunciation of the same language.                       reveals functional speciﬁcity of neural populations. As predicted
+    While previous behavioral work documents the existence of                    by the adaptation framework we should have seen varying
+this bias, it was unclear what might drive it. We suggested 2                    degrees of repetition suppression to both accents. Instead we ob-
+hypothetical accounts of the underlying neural architecture                      served reduced activation only to the accent of the out-group but
+based on previous behavioral and neuroimaging literature.                        not to the accent of the in-group. Several studies have observed
+First, the own-accent bias may be driven by an emotional reac-                   repetition enhancement in adaptation designs under various
+tion toward or social relevance detection of our own group                       conditions and stimulus types but explanations underlying this
+which would suggest activation of areas sensitive to auditory                    phenomenon are scarce [e.g., Vuilleumier et al. 2005; Kouider
+affective content such as the amygdalae and STS/STG (e.g., Sand-                 et al. 2007; Turk-Browne et al. 2007; Müller et al. 2013; and see
+er et al. 2005; Ethofer et al. 2012; Witteman et al. 2012; Bestel-               Henson (2003) and Segaert et al. (2013) for a review]. A tentative
+meyer et al. 2014). Second, we thought it was possible that the                  explanation of our result is that expertise in the accent of
+own accent bias is a result of accents being processed in terms of               the out-group is limited while sensitivity to (e.g., precise origin),
+a prototype against which individuating information such as ac-                  and social relevance of, the in-group accent is enhanced, thereby
+cents are coded which would imply involvement of regions sensi-                  disrupting repetition suppression. This explanation of repetition
+tive to acoustic differences [Rosch 1973; see also Leopold et al.                enhancement to own accents is in line with a previous study
+(2001) for a similar notion in the face literature] such as Heschl’s             showing this neural pattern to objects with learned behavioral
+gyri and secondary auditory cortex. Our data seem to rule out                    relevance (Desimone 1996).
+the latter account. We found no signiﬁcant interaction and, import-                  The activation to the repetition of the in-group accent was
+antly, no greater adaptation to in-group accents in bilateral primary            typically greater than to both out-group accents. This pattern
+and secondary auditory cortices, which is what would be predicted                was particularly pronounced for the 2 British accents. The inter-
+had the prototype account been supported. Instead we found                       action between participant background and accent of the speaker
+a clear interaction with generally increased fMRI signal to own                  they listened to may be due to the long-standing and deep rivalry
+accents and decreased signal to the out-group accent in areas                    between England and Scotland, which were debating the separ-
+typically associated with auditory affective content (see Fig. 2).               ation of a political union in the Scottish independence referen-
+    Our results are in line with neuroimaging studies in a related               dum in September 2014. North America has not played a
+research ﬁeld of the visual domain. One recent study investigated                prominent role in these current and historical political debates
+the effect of implicit racial bias in own versus other-race faces                and thus attitudes of both British groups toward Americans
+(Van Bavel et al. 2008). Participants viewing novel in-group com-                may be less intense. While this is speculative, environmental
+pared with out-group faces showed greater activity in left amyg-                 effects such as culture are known to affect neural processing
+dala and left orbitofrontal cortex [see also Volz et al. (2009) for              (Goh et al. 2007, 2010) and it is therefore conceivable that these
+similar results], as well as in areas typically seen in neuroimaging             historical rivalries shape language attitudes and thereby the
+studies of face perception (i.e., fusiform gyri). Amygdala activity              perception of accented speakers.
+in this context may stem from greater affective salience or rele-                    Many important questions remain with regards to linking be-
+vance of in-group compared with out-group faces (Whalen                          havior to the neural pattern we observe for a ﬁrmer interpretation
+1998; Anderson and Phelps 2001; Vuilleumier 2005).                               of the etiology of a neural marker for group membership. As such
+    3958     | Cerebral Cortex, 2015, Vol. 25, No. 10
+
+
+
+
+                                                                                                                                                                               Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+
+
+
+
+Figure 2. Overlay of signiﬁcant interaction between participant group (Scottish, Southern English) and accent type of the speakers (Scottish, Southern English) in (A) left
+amygdala, (B) right amygdala, (C) right rolandic operculum, and (D) anterior cingulum. Bar graphs represent the parameter estimates in the peak voxels of each signiﬁcant
+cluster and clearly indicate the interaction between the accent type of the speakers (green: Southern English; blue: Scottish; gray: American for completion) and the accent
+of the listeners. Error bars represent standard error of the mean. (E) Signiﬁcant interaction between participant group (listeners) and accent type (speakers) overlaid on
+voice-sensitive areas of cortex (dark blue).
+
+
+
+
+we should be able to tie the size of this repetition enhancement to                      would be encouraging to see years of residency and, more
+own-accents with measures of national identity and attitudes.                            importantly, social integration into the out-group’s environment,
+Similarly, it remains to be determined whether the size of the                           reduce the size of the repetition suppression effect to the out-
+observed effect relates to actual stereotyping behavior. Hence it                        group accent.
+                                                                        A Neural Marker for Social Bias     Bestelmeyer et al.     | 3959
+
+
+
+Conclusion                                                                   social psychology, 3rd ed. New York: Henry Holt and Com-
+                                                                             pany. p. 85–94.
+Our study aimed at quantifying and providing neural support for          Büchel C, Holmes AP, Rees G, Friston KJ. 1998. Characterizing
+the own-accent bias observed in previous behavioral reports. We              stimulus–response functions using nonlinear regressors in
+found a signiﬁcant interaction for repetition trials between the             parametric fMRI experiments. Neuroimage. 8:140–148.
+accent type of the listener and the accent type of the speaker in        Cohen E. 2012. The evolution of tag-based cooperation in hu-
+bilateral amygdalae, right rolandic operculum and anterior cin-              mans: the case for accent. Curr Anthropol. 53:588–616.
+gulum. In these regions we observed reduced activity to the              Coupland N, Bishop H. 2007. Ideologised values for British ac-
+out-group accent but repetition enhancement to the partici-                  cents. J Socioling. 11:74–93.
+pant’s own accent. We cautiously interpret this ﬁnding in terms          Cristia A, Seidl A, Vaughn C, Schmale R, Bradlow A, Floccia C.
+of increased sensitivity to and perceived relevance of own ac-               2012. Linguistic processing of accented speech across the life-
+
+
+
+
+                                                                                                                                                  Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+cents compared with out-group accents. Our results also indicate             span. Front Psychol. 3:479–479.
+that the neural response to accents depends on, and is shaped by,        Dailey R, Giles H, Jansma L. 2005. Language attitudes in an Anglo-
+the listener’s own linguistic background. Our results are the ﬁrst           Hispanic context: the role of the linguistic landscape. Lang
+report of a neural signature for group membership based on                   Commun. 25:27–38.
+phonetic variations of the same language.                                Desimone R. 1996. Neural mechanisms for visual memory and
+                                                                             their role in attention. Proc Natl Acad Sci USA. 93:13494–13499.
+                                                                         Doise W, Csepeli G, Dann HD, Gouge C, Larsen K, Ostell A. 1972.
+Funding                                                                      Experimental investigation into formation of intergroup
+This work was supported by the Economic and Social Research                  representations. Eur J Soc Psychol. 2:202–204.
+Council/Medical Research Council grant (RES-060-25-0010).                Dovidio JF, Gaertner SL. 1993. Stereotypes and evaluative in-
+Funding to pay the Open Access publication charges for this                  tergroup bias. In: Mackie DM, Hamilton DL, editos. Affect,
+article was provided by the RCUK block grant.                                cognition, and stereotyping, San Diego: Academic Press.
+                                                                             p. 167–193.
+                                                                         Duvernoy HM. 1999. The human brain: surface, blood supply, and
+Notes                                                                        three-dimensional sectional anatomy. Wien: Springer .
+We are grateful to Caroline Floccia for helpful comments on this         Edwards JR. 1982. Language attitudes and their implications among
+manuscript and a brief but valuable discussion of the data.                  English speakers. In: Ryan EB, Giles H, editors. Attitudes towards
+Conﬂict of Interest: None declared.                                          language variation. London: Edward Arnold. p. 20–33.
+                                                                         Ethofer T, Anders S, Wiethoff S, Erb M, Herbert C, Saur R,
+                                                                             Grodd W, Wildgruber D. 2006. Effects of prosodic emotional
+References                                                                   intensity on activation of associative auditory cortex.
+Adank P, Noordzij ML, Hagoort P. 2012. The role of planum tem-               Neuroreport. 17:249–253.
+    porale in processing accent variation in spoken language             Ethofer T, Bretscher J, Gschwind M, Kreifelts B, Wildgruber D,
+    comprehension. Hum Brain Mapp. 33:360–372.                               Vuilleumier P. 2012. Emotional voice areas: anatomic location,
+Aguirre GK. 2007. Continuous carry-over designs for fMRI.                    functional properties, and structural connections revealed by
+    Neuroimage. 35:1480–1494.                                                combined fMRI/DTI. Cereb Cortex. 22:191–200.
+Anderson AK, Phelps EA. 2001. Lesions of the human amygdala              Ethofer T, De Ville DV, Scherer K, Vuilleumier P. 2009. Decoding of
+    impair enhanced perception of emotionally salient events.                emotional information in voice-sensitive cortices. Curr Biol.
+    Nature. 411:305–309.                                                     19:1028–1033.
+Bartlett FC. 1932. Remebering: a study in experimental and social        Ethofer T, Wiethoff S, Anders A, Kreifelts B, Grodd W,
+    psychology. New York: Cambridge University Press.                        Wildgruber D. 2007. The voices of seduction: cross-gender ef-
+Belin P, Zatorre RJ. 2000. ‘What’, ‘where’ and ‘how’ in auditory cor-        fects in processing of erotic prosody. SCAN. 2:334–337.
+    tex. Nat Neurosci. 3:965–966.                                        Evans BG, Iverson P. 2004. Vowel normalization for accent: an in-
+Bestelmeyer PEG, Belin P, Grosbras M-H. 2011. Right temporal                 vestigation of best exemplar locations in northern and south-
+    TMS impairs voice detection. Curr Biol. 21:R838–R839.                    ern British English sentences. J Acoust Soc Am. 115:352–361.
+Bestelmeyer PEG, Latinus M, Bruckert L, Crabbe F, Belin P. 2012.         Fecteau S, Belin P, Joanette Y, Armony JL. 2007. Amygdala re-
+    Implicitly perceived vocal attractiveness modulates prefront-            sponses to nonlinguistic emotional vocalizations. Neuroimage.
+    al cortex activity. Cereb Cortex. 22:1263–1270.                          36:480–487.
+Bestelmeyer PEG, Maurage P, Rouger J, Latinus M, Belin P. 2014.          Fiske ST, Neuberg SL. 1990. A continuum of impression
+    Adaptation to vocal expressions reveals multi-step perception            formation, from category based to individuating processes:
+    of auditory emotion. J Neurosci. 34:8098–8105.                           Inﬂuence of information and motivation on attention and
+Billig M, Tajfel H. 1973. Social categorization and similarity in            interpretation. San Diego, CA: Academic Press.
+    intergroup behaviour. Eur J Soc Psychol. 3:27–52.                    Floccia C, Goslin J, Girard F, Konopczynski G. 2006. Does a regional
+Brainard DH. 1997. The Psychophysics Toolbox. Spat Vis.                      accent perturb speech processing? J Exp Psychol Human.
+    10:433–436.                                                              32:1276–1293.
+Brewer MB, editor. 1988. A dual process model of impression              Frisby JP. 1980. Seeing: illusion, brain and mind. Oxford: Oxford
+    formation. Hillsdale, NJ: Lawrence Erlbaum.                              Press.
+Bruckert L, Bestelmeyer P, Latinus M, Rouger J, Charest I,               Frühholz S, Grandjean D. 2012. Towards a fronto-temporal neural
+    Rousselet GA, Kawahara H, Belin P. 2010. Vocal attractiveness            network for the decoding of angry vocal expressions.
+    increases by averaging. Curr Biol. 20:116–120.                           Neuroimage. 62:1658–1666.
+Bruner JS. 1957. On perceptual readiness. Psychol Rev. 64:123–152.       Frühholz S, Grandjean D. 2013. Amygdala subregions differential-
+Bruner JS. 1958. Social psychology and perception. In:                       ly respond and rapidly adapt to threatening voices. Cortex.
+    Maccoby EE, Newcomb TM, Hartley EL, editors. Readings in                 49:139401403.
+   3960    | Cerebral Cortex, 2015, Vol. 25, No. 10
+
+
+
+Gill MM. 1994. Accent and stereotypes: their effect on perceptions      Müller NG, Strumpf H, Scholz M, Baier B, Melloni L. 2013.
+    of teachers and lecture comprehension. J Appl Commun Res.               Repetition suppression versus enhancement—it’s quantity
+    22:348–361.                                                             that matters. Cereb Cortex. 23:315–322.
+Goh JO, Chee MW, Tan JC, Venkatraman V, Hebrank A,                      Nakamura K, Dehaene S, Jobert A, LeBihan D, Kouider S. 2007.
+    Leshikar ED, Jenkins L, Sutton BP, Gutchess AH, Park DC.                Task-speciﬁc change o funconscious neural priming in
+    2007. Age and culture modulate object processing and ob-                the cerebral language network. Proc Natl Acad Sci USA.
+    ject-scene binding in the ventral visual area. Cogn Affect              104:19643–19648.
+    Behav Neurosci. 7:44–52.                                            Nonyane BAS, Theobald CM. 2007. Design sequences for sensory
+Goh JO, Leshikar ED, Sutton BP, Tan JC, Sim SKY, Hebrank AC,                studies: achieving balance for carry-over and position effects.
+    Park DC. 2010. Culture differences in neural processing of              Br J Math Stat Psychol. 60:339–349.
+    faces and houses in the ventral visual cortex. Soc Cogn             Otten S, Moskowitz GB. 2000. Evidence for implicit evaluative in-
+
+
+
+
+                                                                                                                                                Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+    Affect Neurosci. 5:227–235.                                             group bias: affect-biased spontaneous trait inference in a
+Grandjean D, Sander D, Pourtois G, Schwartz S, Seghier ML,                  minimal group paradigm. J Exp Soc Psychol. 36:77–89.
+    Scherer KR, Vuilleumier P. 2005. The voices of wrath: brain re-     Pell M, Leonard CL. 2003. Processing emotional tine from speech
+    sponses to angry prosody in meaningless speech. Nat                     in Parkinson’s disease: a role for the basal ganglia. Cogn Affect
+    Neurosci. 8:145–146.                                                    Behav Neurosci. 3:275–288.
+Grill-Spector K, Henson R, Martin A. 2006. Repetition and the           Pelli DG. 1997. The VideoToolbox software for visual psychophys-
+    brain: neural models of stimulus-speciﬁc effects. Trends                ics: transforming numbers into movies. Spat. Vis. 10:437–442.
+    Cogn Sci. 10:14–23.                                                 Perrachione TK, Chiao JY, Wong PCM. 2010. Asymmetric cultural
+Henson RNA. 2003. Neuroimaging studies of priming. Prog                     effects on perceptual expertise underlie an own-race bias for
+    Neurobiol. 70:53–81.                                                    voices. Cognition. 114:42–55.
+Hirschfeld L, Gelman S. 1997. What young children think about           Philippon AC, Cherryman J, Bull R, Vrij A. 2007. Earwitness iden-
+    the relationship between language variation and social differ-          tiﬁcation performance: the effect of language, target, deliber-
+    ence. Cognitive Dev. 12:213–238.                                        ate strategies and indirect measures. Appl Cognit Psychol.
+Hurt HT, Weaver CH. 1972. Negro dialect, ethno-centricism, and              21:539–550.
+    the distortion of information in the communicative process.         Phillips ML, Young AW, Scott SK, Calder AJ, Andrew C,
+    Cent States Speech J. 23:118–125.                                       Giampietro V, Williams SC, Bullmore ET, Brammer M,
+Kinzler KD, Dupoux E, Spelke ES. 2007. The native language of so-           Gray JA. 1998. Neural responses to facial and vocal expressions
+    cial cognition. Proc Natl Acad Sci USA. 104:12577–12580.                of fear and disgust. Proc R Soc B Biol Sci. 265:1809–1817.
+Klasen M, Kenworthy CA, Mathiak KA, Kircher TT, Mathiak K.              Rorden C, Karnath H-O, Bonilha L. 2007. Improving lesion–symp-
+    2011. Supramodal representation of emotions. J Neurosci.                tom mapping. J Cognit Neurosci. 19:1081–1088.
+    31:13635–13643.                                                     Rosch E. 1973. Natural categories. Cognit Psychol. 4:328–350.
+Koelsch S, Fritz T, Von Cramon DY, Muller K, Friederici AD. 2006.       Ryan EB, Sebastian RJ. 1980. The effects of speech style and social
+    Investigating emotion with music: an fMRI study. Hum Brain              class background on social judgements of speakers. Br J Soc
+    Mapp. 27:239–250.                                                       Clin Psychol. 19:229–233.
+Kouider S, Dehaene S, Jobert A, Le Bihan D. 2007. Cerebral bases of     Sander D, Grafman J, Zalla T. 2003. The human amygdala: an evolved
+    subliminal and supraliminal priming during reading. Cereb               system for relevance detection. Rev Neurosci. 14:303–316.
+    Cortex. 17:2019–2029.                                               Sander D, Grandjean D, Pourtois G, Schwartz S, Seghier ML,
+Labov W. 2006. The social stratiﬁcation of English in New York              Scherer KR, Vuilleumier P. 2005. Emotion and attention inter-
+    City. 2nd ed. New York: Cambridge University Press.                     actions in social cognition: brain regions involved in process-
+Leitman DI, Wolf DH, Ragland JD, Laukka P, Loughead J, Valdez JN,           ing anger prosody. NeuroImage. 28:848–858.
+    Javitt DC, Turetsky BI, Gur GC. 2010. “It’s not what you say, but   Sander D, Scheich H. 2001. Auditory perception of laughing and
+    how you say it”: a reciprocal temporo-frontal network for af-           crying activates the human amygdala regardless of attention-
+    fective prosody. Front Hum Neurosci. 4:4–19.                            al state. Cognit Brain Res. 12:181–198.
+Leopold DA, O’Toole AJ, Vetter T, Blanz V. 2001. Prototype-refer-       Schirmer A, Escofﬁer N, Zysset S, Koester D, Striano T,
+    enced shape encoding revealed by high-level after effects.              Friederici AD. 2008. When vocal processing gets emotional:
+    Nat Neurosci. 4:89–94.                                                  on the role of social orientation in relevance detection by
+Lev-Ari S, Keysar B. 2010. Why don’t we believe non-native speak-           the human amygdala. Neuroimage. 40:1402–1410.
+    ers? The inﬂuence of accent on credibility. J Exp Soc Psychol.      Segaert K, Weber K, de Lange FP, Petersson KM, Hagoort P. 2013.
+    46:1093–1096.                                                           The suppression of repetition enhancement: a review of
+Lewis JW, Talkington WJ, Walker NA, Spirou GA, Jajosky A, Frum C,           fMRI studies. Neuropsychologia. 51:59–66.
+    Brefczynski-Lewis JA. 2009. Human cortical organization for         Stevenage SV, Clarke G, McNeill A. 2012. The effect of regional
+    processing vocalizations indicates representation of harmonic           accent on voice recognition. J Cogn Psychol. 24:647–653.
+    structure as a signal attribute. J Neurosci. 29:2283–2296.          Tajfel H, Billig M. 1974. Familiarity and categorization in inter-
+Mitchell RLC, Elliott R, Barry M, Cruttenden A, Woodruff PWR. 2003.         group behavior. J Exp Soc Psychol. 10:159–170.
+    The neural response to emotional prosody, as revealed by            Tajfel H, Billig MG, Bundy RP, Flament C. 1971. Social
+    functional magnetic resonance imaging. Neuropsychologia. 41:            categorization and intergroup behavior. Eur J Soc Psychol.
+    1410–1421.                                                              1:149–177.
+Morris JS, Scott SK, Dolan RJ. 1999. Saying it with feeling: neural     Tajfel H, Turner JC. 1979. An integrative theory of inter-group con-
+    responses to emotional vocalizations. Neuropsychologia.                 ﬂict. In: Austin WG, Wrochel S, editors. The social psychology
+    37:1155–1163.                                                           of inter-group relations. Monterey, CA: Brooks/Cole.
+Mulac A, Hanley TD, Prigge DY. 1974. Effects of phonolgical             Turk-Browne NB, Yi DJ, Leber AB, Chun MM. 2007. Visual quality
+    speech foreigness upon three dimensions of attitude of                  determines the direction of neural repetition effects. Cereb
+    selected American listeners. Q J Speech. 60:411–420.                    Cortex. 17:425–433.
+                                                                     A Neural Marker for Social Bias   Bestelmeyer et al.   | 3961
+
+
+
+Turner JC. 1975. Social comparison and social identity—some              printing and “implicit” visual memory: suppressions and
+   prospects for intergroup behavior. Eur J Soc Psychol. 5:5–34.         enhancements revealed by fMRI. J Cognitive Neurosci. 17:
+Turner JC, Hogg MA, Oakes PJ, Reicher SD, Wetherell MS. 1987.            1245–1260.
+   Rediscovering the social group: a self-categorization theory.      Whalen PJ. 1998. Fear, vigilance, and ambiguity: Initial neuroima-
+   Oxford: Blackwell.                                                    ging studies of the human amygdala. Curr Dir Psychol Sci.
+Valentine T. 1991. A uniﬁed account of the effects of distinctive-       7:177–188.
+   ness, inversion, and race in face recognition. Q J Exp Psychol.    Wiethoff S, Wildgruber D, Grodd W, Ethofer T. 2009. Response and
+   43:161–204.                                                           habituation of the amygdala during processing of emotional
+Van Bavel JJ, Packer DJ, Cunningham WA. 2008. The neural sub-            prosody. NeuroReport. 20:1356–1360.
+   strates of in-group bias: a functional magnetic resonance im-      Wildgruber D, Riecker A, Hertrich I, Erb M, Grodd W, Ethofer T,
+   aging investigation. Psychol Sci. 19:1131–1139.                       Ackermann H. 2005. Identiﬁcation of emotional intonation
+
+
+
+
+                                                                                                                                           Downloaded from https://academic.oup.com/cercor/article/25/10/3953/394010 by Haifa University user on 22 November 2022
+Volz KG, Kessler T, von Cramon DY. 2009. In-group as part of the         evaluated by fMRI. Neuroimage. 24:1233–1241.
+   self: in-group favoritism is mediated by medial prefrontal cor-    Williams A, Garrett P, Coupland N. 1999. Dialect recognition. In:
+   tex activation. Soc Neurosci. 4:244–260.                              Preston DR, editor. Handbook of perceptual dialectology.
+Vuilleumier P. 2005. How brains beware: neural mechanisms of             Philadelphia: John Benjamins.
+   emotional attention. Trends Cogn Sci. 9:585–594.                   Witteman J, Van Heuven VJP, Schiller NO. 2012. Hearing feelings: a
+Vuilleumier P, Schwartz S, Duhoux S, Dolan RJ, Driver J. 2005.           quantitative meta-analysis on the neuroimaging literature of
+   Selective attention modulates neural substrates of repetition         emotional prosody perception. Neuropsychologia. 50:2752–2763.
+
