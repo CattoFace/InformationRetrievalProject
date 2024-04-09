@@ -32,6 +32,13 @@ def evaluate_classifier(pipeline_func) -> tuple[list, float, pd.DataFrame]:
     mispredictions = pd.concat(mispredictions)
     return scores, statistics.mean(scores), mispredictions
 
+# used in interactive mode to see common words
+def common_in_docs(docs):
+    vectorizer = classifier.steps[0][1]
+    vec = vectorizer.transform(docs["text"])
+    common = np.array(vec.todense()).mean(0).argsort()[::-1][:20]
+    common = vectorizer.get_feature_names_out()[common]
+    print(common)
 
 classifier = Pipeline(
     [
