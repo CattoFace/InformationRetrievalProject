@@ -1,11 +1,5 @@
 from glob import glob
-import nltk
-from nltk.corpus import stopwords
 import pandas as pd
-
-nltk.download("stopwords")
-nltk.download("punkt")
-stop_words = stopwords.words("english")
 
 data = []
 for file_name in glob("../PoliticalBias/*.txt"):
