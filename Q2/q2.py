@@ -34,7 +34,9 @@ def evaluate_classifier(
             print(
                 "correct:",
                 classifier.predict_proba(
-                    test_data.iloc[np.where(predictions == test_data["label"])[0]]
+                    test_data.iloc[np.where(predictions == test_data["label"])[0]][
+                        "text"
+                    ]
                 ),
             )
             print(
@@ -42,7 +44,6 @@ def evaluate_classifier(
             )
         mispredictions.append(local_mispredictions)
         scores.append(score)
-        breakpoint()
     mispredictions = pd.concat(mispredictions)
     return scores, statistics.mean(scores), mispredictions
 
