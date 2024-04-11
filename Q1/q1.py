@@ -3,8 +3,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 from nltk.stem import PorterStemmer
 
-np.random.seed(42)
-
 data = pd.read_parquet("data.pk")
 stemmer = PorterStemmer()
 
@@ -45,7 +43,6 @@ basic = CountVectorizer(lowercase=False)
 stopwords = StopwordsOnlyCountVectorizer(lowercase=False, stop_words="english")
 casefolded = CountVectorizer(lowercase=True, stop_words="english")
 stemmed = StemmingCountVectorizer(lowercase=True, stop_words="english")
-breakpoint()
 analyze("Basic", basic)
 analyze("No stopwords", stopwords)
 analyze("With Casefolding", casefolded)
