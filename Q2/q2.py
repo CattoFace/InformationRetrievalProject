@@ -8,6 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import KFold
 import pandas as pd
 import statistics
+from sklearn.metrics import ConfusionMatrixDisplay, precision_recall_fscore_support
+import matplotlib.pyplot as plt
 
 np.random.seed(42)
 kf = KFold(10, shuffle=True)
@@ -15,17 +17,18 @@ kf = KFold(10, shuffle=True)
 data = pd.read_parquet("data.pk")
 
 
-def evaluate_classifier(
-    pipeline_func, print_misprediction_proba=False
-) -> tuple[list, float, pd.DataFrame]:
+def evaluate_classifier(name, pipeline_func, print_misprediction_proba=False):
     scores = []
-    mispredictions = []
+    all_predictions = []
+    real_labels = []
     for train_idx, test_idx in kf.split(data):
         classifier: Pipeline = pipeline_func()
         train_data = data.iloc[train_idx]
         classifier.fit(train_data["text"], train_data["label"])
         test_data = data.iloc[test_idx]
         predictions = classifier.predict(test_data["text"])
+        all_predictions += predictions.tolist()
+        real_labels += test_data["label"].tolist()
         score = np.mean(predictions == test_data["label"])
         local_mispredictions = test_data.iloc[
             np.where(predictions != test_data["label"])[0]
@@ -42,10 +45,17 @@ def evaluate_classifier(
             print(
                 "misclassified:", classifier.predict_proba(local_mispredictions["text"])
             )
-        mispredictions.append(local_mispredictions)
         scores.append(score)
-    mispredictions = pd.concat(mispredictions)
-    return scores, statistics.mean(scores), mispredictions
+    plt.title(name)
+    print(f"{name}:\n", scores, f"{statistics.mean(scores)*100:.2f}%")
+    precision, recall, fscore, _ = precision_recall_fscore_support(
+        real_labels, all_predictions, labels=["poli", "news"]
+    )
+    print(f"{precision=}, {recall=}, {fscore=}")
+    ConfusionMatrixDisplay.from_predictions(
+        real_labels, all_predictions, labels=["poli", "news"]
+    )
+    plt.show()
 
 
 def nb_pipeline():
@@ -75,15 +85,7 @@ def forest_pipeline():
     )
 
 
-scores_nb, avg, mispredictions_nb = evaluate_classifier(nb_pipeline, True)
-print("nb:\n", scores_nb, f"{avg*100:.2f}%")
-mispredictions_nb.to_html("nb_mispredictions.html")
-scores_sgd, avg, mispredictions_sgd = evaluate_classifier(sgd_pipeline, False)
-print("sgd:\n", scores_sgd, f"{avg*100:.2f}%")
-mispredictions_sgd.to_html("sgd_mispredictions.html")
-scores_knn, avg, mispredictions_knn = evaluate_classifier(knn_pipeline, True)
-print("knn:\n", scores_knn, f"{avg*100:.2f}%")
-mispredictions_knn.to_html("knn_mispredictions.html")
-scores_forest, avg, mispredictions_forest = evaluate_classifier(forest_pipeline, True)
-print("forest:\n", scores_forest, f"{avg*100:.2f}%")
-mispredictions_forest.to_html("forest_mispredictions.html")
+evaluate_classifier("NB", nb_pipeline, True)
+evaluate_classifier("SGD", sgd_pipeline, False)
+evaluate_classifier("KNN", knn_pipeline, True)
+evaluate_classifier("Forest", forest_pipeline, True)
